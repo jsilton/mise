@@ -1,0 +1,1537 @@
+{
+  "slug": "soba-noodles-with-shiitakes-broccoli-and-tofu",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "8e5cb8f9d9f5d07aadae64543d27e2a00ae88b8fbdb7aceb14645c1521087f38",
+  "acceptedSourceSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 15–25 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 15–20 min cooking, with overlapping water preparation"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Soba Noodles (Buckwheat)",
+        "1/2 lb Extra-firm Tofu, diced",
+        "1/2 lb Baby Broccoli, sliced",
+        "6 oz Fresh Shiitake Mushrooms, sliced",
+        "1/2 cup Chicken or Vegetable Stock",
+        "1 tbsp Soy Sauce + 1 tbsp Shaoxing Wine",
+        "1 tbsp Fresh Ginger, minced",
+        "1 tbsp Garlic, minced",
+        "2 tsp Toasted Sesame Oil (The complex flavor)",
+        "1/2 cup Fresh Cilantro, chopped",
+        "1/2 tsp Red Pepper Flakes"
+      ],
+      "after": [
+        "--- Sauce ---",
+        "1/2 cup Chicken or vegetable stock",
+        "1 tbsp Soy sauce",
+        "1 tbsp Shaoxing wine",
+        "1 tbsp Fresh ginger, minced",
+        "1 tbsp Garlic, minced",
+        "1/2 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "--- Noodles and blanching ---",
+        "1/2 lb Baby broccoli, florets and stems sliced to cook evenly",
+        "Boiling water, enough for blanching the broccoli",
+        "Ice water, for cooling the blanched broccoli, then discarded",
+        "8 oz Soba noodles",
+        "Water, enough to cook the noodles per package instructions",
+        "2 tsp Toasted sesame oil",
+        "--- Pan and finish ---",
+        "1/2 lb Extra-firm tofu, drained, patted dry and diced",
+        "2 tbsp Neutral oil",
+        "1/2 tsp Red pepper flakes",
+        "6 oz Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1 Bunch of scallions, sliced, light and dark-green parts kept separate",
+        "1/2 cup Fresh cilantro, chopped"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Japan",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 190,
+        "protein": 15,
+        "carbs": 12,
+        "fat": 13,
+        "fiber": 4.5,
+        "sugar": 2,
+        "sodium": 330
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "sauce",
+            "name": "Sauce",
+            "ingredients": [
+              {
+                "id": "stock",
+                "key": "stock",
+                "name": "Chicken or vegetable stock",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "Soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "Shaoxing wine",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "Fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "allowance": "to taste in the sauce",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "noodles",
+            "name": "Noodles and blanching",
+            "ingredients": [
+              {
+                "id": "broccoli",
+                "key": "broccoli",
+                "name": "Baby broccoli",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "blanch",
+                    "share": 1
+                  }
+                ],
+                "preparation": "florets and stems sliced to cook evenly"
+              },
+              {
+                "id": "blanch-water",
+                "key": "blanch-water",
+                "name": "Boiling water",
+                "allowance": "enough for blanching the broccoli",
+                "uses": [
+                  {
+                    "step": "blanch",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "ice-water",
+                "key": "ice-water",
+                "name": "Ice water",
+                "allowance": "for cooling the blanched broccoli, then discarded",
+                "uses": [
+                  {
+                    "step": "blanch",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "noodles",
+                "key": "noodles",
+                "name": "Soba noodles",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "noodle-water",
+                "key": "noodle-water",
+                "name": "Water",
+                "allowance": "enough to cook the noodles per package instructions",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "Toasted sesame oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 0.5
+                  },
+                  {
+                    "step": "vegetables",
+                    "share": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Pan and finish",
+            "ingredients": [
+              {
+                "id": "tofu",
+                "key": "tofu",
+                "name": "Extra-firm tofu",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "tofu",
+                    "share": 1
+                  }
+                ],
+                "preparation": "drained, patted dry and diced"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Neutral oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "tofu",
+                    "share": 0.5
+                  },
+                  {
+                    "step": "vegetables",
+                    "share": 0.5
+                  }
+                ]
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "Red pepper flakes",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mushrooms",
+                "key": "mushrooms",
+                "name": "Fresh shiitake mushrooms",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "tough stems removed, caps sliced"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "Bunch of scallions",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Bunches of scallions",
+                "preparation": "sliced, light and dark-green parts kept separate"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "Fresh cilantro",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Mix the sauce",
+            "text": "Whisk {{ingredients}} together. This is the garlic-and-ginger-in-sauce route; set aside."
+          },
+          {
+            "id": "blanch",
+            "title": "Blanch the broccoli",
+            "text": "Use {{ingredients}}. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water."
+          },
+          {
+            "id": "noodles",
+            "title": "Cook and rinse the soba",
+            "text": "Use {{ingredients}}. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation."
+          },
+          {
+            "id": "tofu",
+            "title": "Cook the tofu",
+            "text": "Use {{ingredients}}. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate."
+          },
+          {
+            "id": "vegetables",
+            "title": "Finish the stir-fry",
+            "text": "Have {{ingredients}} ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook the noodles to their package’s texture cue, then rinse and drain well before they reach the pan",
+        "outcome": "Just-tender noodles, tofu and vegetables evenly coated with the finishing stock.",
+        "techniques": ["stir-frying", "temperature"],
+        "before": [
+          "Have the sauce and all sliced ingredients ready before heating the wok. For the original batch, the saved method uses a 14-inch flat-bottomed wok; a large skillet works only if there is room to toss, otherwise cook smaller batches.",
+          "Two teaspoons sesame oil is the total for the original batch: half coats the cooked noodles and half finishes the dish. Neutral oil is a separate two-tablespoon total, divided equally between tofu and vegetables.",
+          "Scale measured ingredients together; keep noodle doneness and manageable pan loads rather than multiplying stir-fry times. Linked Dashi is a separate pairing, not an automatic replacement for the listed chicken or vegetable stock."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Noodles are just cooked to their package cue, rinsed and thoroughly drained.",
+            "why": "Different soba formulas need different clocks; wet noodles dilute the finishing stock."
+          },
+          {
+            "step": 5,
+            "cue": "Vegetables remain crisp-tender and noodles are evenly coated and hot.",
+            "why": "Moderate finishing heat avoids scorching aromatics and over-reducing the small stock amount."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles clump or the pan steams heavily",
+            "cause": "Noodles were poorly drained or the pan was overcrowded",
+            "fix": "Drain thoroughly and use smaller pan loads. Toss gently with the listed finishing stock to loosen noodles; do not force a syrup reduction."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "Use the same listed amount of dry sherry.",
+            "effect": "Dry sherry changes the flavor without changing the liquid allocation."
+          },
+          {
+            "ingredient": "Garlic and ginger sauce route",
+            "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+            "effect": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+          },
+          {
+            "ingredient": "Split sesame-oil route",
+            "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+            "effect": "All sesame oil goes on the noodles; omit the finishing dose."
+          },
+          {
+            "ingredient": "Red pepper flakes",
+            "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+            "effect": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+          },
+          {
+            "ingredient": "Seasoning the sauce and blanching water",
+            "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+            "effect": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat to 165°F throughout. The noodles soften in storage.",
+        "timing": "About 15–25 min active preparation; About 15–20 min cooking, with overlapping water preparation; About 30–45 min.",
+        "sources": [
+          {
+            "title": "NYT Cooking — Soba Noodles with Shiitakes, Broccoli and Tofu",
+            "url": "https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSoba noodles are made from buckwheat, making them more delicate than wheat pasta. Rinsing them under cold running water for 1 minute immediately after boiling removes surface starch and prevents them from becoming gummy. Flash-frying tofu and shiitakes on the highest possible heat develops charred exteriors that add smoky flavor against the earthy, nutty buckwheat noodles.\n\n## Directions\n\n1.  **The Sauce:** In a small bowl, whisk stock, soy sauce, wine, ginger, and garlic.\n2.  **Blanch:** Boil baby broccoli for 1 minute. Shock in ice water. Drain and pat **bone-dry**.\n3.  **Boil Soba:** Cook soba noodles for 4-5 minutes until al dente. Drain and rinse under cold water for 1 minute. Toss with 1 tsp sesame oil.\n4.  **The Sear:** Heat 1 tbsp oil in a wok until smoking. Sear tofu for 2 minutes until golden. Remove.\n5.  **The Crunch:** Add 1 tbsp oil and the red pepper flakes. Sauté shiitakes and scallions for 2 minutes. Add the blanched broccoli.\n6.  **Bind:** Add the noodles, tofu, and the stock mixture. Toss vigorously over high heat for 2 minutes until the liquid has emulsified into a glossy glaze.\n7.  **Serve:** Stir in the cilantro and sesame oil. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nCook the noodles to their package’s texture cue, then rinse and drain well before they reach the pan. Soba can contain wheat as well as buckwheat. Keep the tofu and mushrooms in manageable batches; the finishing stock warms and loosens the noodles rather than needing to become a reduced syrup.\n\n## Directions\n\n1. **Mix the sauce:** Whisk Chicken or vegetable stock, Soy sauce, Shaoxing wine, Fresh ginger, Garlic, Sugar, and Salt together. This is the garlic-and-ginger-in-sauce route; set aside.\n2. **Blanch the broccoli:** Use Baby broccoli, Boiling water, and Ice water. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water.\n3. **Cook and rinse the soba:** Use Soba noodles, Water, and 1/2 of the Toasted sesame oil. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation.\n4. **Cook the tofu:** Use Extra-firm tofu and 1/2 of the Neutral oil. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate.\n5. **Finish the stir-fry:** Have 1/2 of the Toasted sesame oil, 1/2 of the Neutral oil, Red pepper flakes, Fresh shiitake mushrooms, Bunch of scallions, and Fresh cilantro ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds.\n6. **Serve:** Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them.\n"
+  },
+  "findings": [
+    {
+      "id": "ST-ROOT-1",
+      "title": "whole ingredient/formula/method reconciliation",
+      "rationale": "eab6f8bb removed2tbsp neutral oil,1bunch scallions,½tsp sugar and salt allowance while the method retained unlisted oil/scallions. All subsequent recipe history inspected; no explicit accepted quantity removal found. This does not prove intent from bulk history alone; exact saved restorations await peer. Current garlic/ginger-in-sauce and1tsp noodle/1tsp finishing sesame routes are preserved as main. Saved aromatic pan route and full2tsp noodle allocation remain distinct alternatives. CurrentsourceUrl1016016 differs from indexed NYT1012670 title; official direct fetch fails. Retain existing URL rather than assert an unverified replacement; source recovery is exact saved Git, not native title guessing.",
+      "confidence": "High for saved/current bytes and allocation arithmetic; moderate for untested process ranges; unresolved household intent as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
+      ]
+    },
+    {
+      "id": "ST-ROOT-2",
+      "title": "complete method and learning",
+      "rationale": "Each ingredient is followed through preparation and its method destination; pan loads, sensory checks and state-specific measured endpoints are explicit. No quantity is converted by guessed crystal density, package weight or finished-stock yield.",
+      "confidence": "High for source-defined process and endpoint applicability; moderate for untested timings",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — Safe minimum internal temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
+      ]
+    },
+    {
+      "id": "ST-ROOT-3",
+      "title": "nutrition",
+      "rationale": "Inherited nutritional values lack calculation evidence and do not represent the restored formula/allowances/variants. No replacement nutrition manufactured.",
+      "confidence": "High",
+      "applicableSources": ["Exact current formula and changed ingredient ledger"],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": ["Any future nutrition requires documented recipe-specific calculation."]
+    },
+    {
+      "id": "ST-ROOT-4",
+      "title": "storage applicability",
+      "rationale": "USDA leftover limits apply to cooked perishable dishes. Texture note is specific to this dish; no claim of risk elimination or tested shelf life.",
+      "confidence": "High for primary guidance; texture is mechanism-based, not kitchen-tested",
+      "applicableSources": [
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Observe reheated texture in household equipment."]
+    },
+    {
+      "id": "ST-ROOT-5",
+      "title": "missing neutral oil, scallions and sugar",
+      "rationale": "Exact first Git amounts recovered; complete later history examined, independent challenge pending.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
+      ]
+    },
+    {
+      "id": "ST-ROOT-6",
+      "title": "sesame total and current sauce route",
+      "rationale": "Arithmetic resolves current allocation without forcing saved full-noodle route. Complete saved full-noodle and brief aromatic alternatives specified separately.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
+      ]
+    },
+    {
+      "id": "ST-ROOT-7",
+      "title": "heat and noodle endpoint",
+      "rationale": "Saved original already finishes at medium and does not require syrup reduction. Package state prevents a universal soba clock; char is not imposed.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "Actual soba package cooking instructions, to be checked for the product being used; no package-specific clock is claimed."
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
+      ]
+    },
+    {
+      "id": "ST-ROOT-8",
+      "title": "exact change reference",
+      "rationale": "Reviewers can inspect actual complete text rather than treating the short summaries as byte-exact quotations.",
+      "confidence": "High: programmatic exact snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "ST-ROOT-TIMING",
+      "title": "Keep testing evidence separate from cooking ranges",
+      "rationale": "Retain every planning range and sequence qualifier while keeping kitchen-testing status in the review evidence instead of the cooking prose.",
+      "confidence": "High for literal presentation-only omission; no clock or cooking change.",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Clear cooking prose and honest planning ranges; physical testing tracked separately."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Soba%20Noodles%20with%20Shiitakes,%20Broccoli%20and%20Tofu.html",
+    "introductionScope": "Actual earliest saved HTML and first canonical Markdown independently recovered; complete followed histories retained from author/whole independent review.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "eab6f8bb removed2tbsp neutral oil,1bunch scallions,½tsp sugar and salt allowance while the method retained unlisted oil/scallions. All subsequent recipe history inspected; no explicit accepted quantity removal found. This does not prove intent from bulk history alone; exact saved restorations await peer.",
+    "Current garlic/ginger-in-sauce and1tsp noodle/1tsp finishing sesame routes are preserved as main. Saved aromatic pan route and full2tsp noodle allocation remain distinct alternatives.",
+    "CurrentsourceUrl1016016 differs from indexed NYT1012670 title; official direct fetch fails. Retain existing URL rather than assert an unverified replacement; source recovery is exact saved Git, not native title guessing."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "8 oz Soba Noodles (Buckwheat)",
+        "destinationOrQuestion": "noodles: full8oz per package; finish in vegetable stage"
+      },
+      {
+        "row": 2,
+        "ingredient": "1/2 lb Extra-firm Tofu, diced",
+        "destinationOrQuestion": "tofu: full½lb browned in neutraloil, returnvegetables"
+      },
+      {
+        "row": 3,
+        "ingredient": "1/2 lb Baby Broccoli, sliced",
+        "destinationOrQuestion": "blanch: full½lb drained, returnvegetables"
+      },
+      {
+        "row": 4,
+        "ingredient": "6 oz Fresh Shiitake Mushrooms, sliced",
+        "destinationOrQuestion": "vegetables: full6oz mushrooms"
+      },
+      {
+        "row": 5,
+        "ingredient": "1/2 cup Chicken or Vegetable Stock",
+        "destinationOrQuestion": "sauce: full½cup stock"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tbsp Soy Sauce + 1 tbsp Shaoxing Wine",
+        "destinationOrQuestion": "sauce: separate1tbspsoy +1tbspwine"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tbsp Fresh Ginger, minced",
+        "destinationOrQuestion": "sauce:1tbsp ginger currentroute, saved aromatics variant separate"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 tbsp Garlic, minced",
+        "destinationOrQuestion": "sauce:1tbspgarlic currentroute, saved aromatics variant separate"
+      },
+      {
+        "row": 9,
+        "ingredient": "2 tsp Toasted Sesame Oil (The complex flavor)",
+        "destinationOrQuestion": "noodles½/vegetables½ sesame TOTAL2tsp; saved all-noodles route separate"
+      },
+      {
+        "row": 10,
+        "ingredient": "1/2 cup Fresh Cilantro, chopped",
+        "destinationOrQuestion": "vegetables: full½cup cilantro late"
+      },
+      {
+        "row": 11,
+        "ingredient": "1/2 tsp Red Pepper Flakes",
+        "destinationOrQuestion": "vegetables: full½tspflakes retained"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Chicken or vegetable stock",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Shaoxing wine",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": null,
+        "allowance": "to taste in the sauce",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Baby broccoli",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "florets and stems sliced to cook evenly",
+        "destinations": [
+          {
+            "step": "blanch",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Boiling water",
+        "quantity": null,
+        "allowance": "enough for blanching the broccoli",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "blanch",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Ice water",
+        "quantity": null,
+        "allowance": "for cooling the blanched broccoli, then discarded",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "blanch",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Soba noodles",
+        "quantity": {
+          "amount": 8,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water",
+        "quantity": null,
+        "allowance": "enough to cook the noodles per package instructions",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Toasted sesame oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 0.5
+          },
+          {
+            "step": "vegetables",
+            "share": 0.5
+          }
+        ]
+      },
+      {
+        "ingredient": "Extra-firm tofu",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "drained, patted dry and diced",
+        "destinations": [
+          {
+            "step": "tofu",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Neutral oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "tofu",
+            "share": 0.5
+          },
+          {
+            "step": "vegetables",
+            "share": 0.5
+          }
+        ]
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh shiitake mushrooms",
+        "quantity": {
+          "amount": 6,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "tough stems removed, caps sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Bunch of scallions",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "sliced, light and dark-green parts kept separate",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh cilantro",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "chopped",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "Use the same listed amount of dry sherry.",
+        "effect": "Dry sherry changes the flavor without changing the liquid allocation."
+      },
+      {
+        "ingredient": "Garlic and ginger sauce route",
+        "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+        "effect": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+      },
+      {
+        "ingredient": "Split sesame-oil route",
+        "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+        "effect": "All sesame oil goes on the noodles; omit the finishing dose."
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+        "effect": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+      },
+      {
+        "ingredient": "Seasoning the sauce and blanching water",
+        "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+        "effect": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "sauce",
+      "text": "Whisk {{ingredients}} together. This is the garlic-and-ginger-in-sauce route; set aside."
+    },
+    {
+      "step": 2,
+      "id": "blanch",
+      "text": "Use {{ingredients}}. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water."
+    },
+    {
+      "step": 3,
+      "id": "noodles",
+      "text": "Use {{ingredients}}. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation."
+    },
+    {
+      "step": 4,
+      "id": "tofu",
+      "text": "Use {{ingredients}}. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate."
+    },
+    {
+      "step": 5,
+      "id": "vegetables",
+      "text": "Have {{ingredients}} ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds."
+    },
+    {
+      "step": 6,
+      "id": "serve",
+      "text": "Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "Use the same listed amount of dry sherry.",
+        "destinationOrConstraint": "Dry sherry changes the flavor without changing the liquid allocation."
+      },
+      {
+        "ingredient": "Garlic and ginger sauce route",
+        "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+        "destinationOrConstraint": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+      },
+      {
+        "ingredient": "Split sesame-oil route",
+        "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+        "destinationOrConstraint": "All sesame oil goes on the noodles; omit the finishing dose."
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+        "destinationOrConstraint": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+      },
+      {
+        "ingredient": "Seasoning the sauce and blanching water",
+        "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+        "destinationOrConstraint": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+      },
+      {
+        "ingredient": "Optional blanching salt",
+        "quantity": "to taste; unmeasured allowance",
+        "destination": "Broccoli cooking water before blanching; drained with the water."
+      },
+      {
+        "ingredient": "Optional additional soy",
+        "quantity": "to taste; unmeasured allowance",
+        "destination": "Finished hot stir-fry after measured sauce; not added to the measured soy total."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "Use the same listed amount of dry sherry.",
+        "effect": "Dry sherry changes the flavor without changing the liquid allocation."
+      },
+      {
+        "ingredient": "Garlic and ginger sauce route",
+        "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+        "effect": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+      },
+      {
+        "ingredient": "Split sesame-oil route",
+        "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+        "effect": "All sesame oil goes on the noodles; omit the finishing dose."
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+        "effect": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+      },
+      {
+        "ingredient": "Seasoning the sauce and blanching water",
+        "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+        "effect": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+      }
+    ],
+    "scaling": [
+      {
+        "factor": 0.5,
+        "options": [
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "Use the same listed amount of dry sherry.",
+            "effect": "Dry sherry changes the flavor without changing the liquid allocation."
+          },
+          {
+            "ingredient": "Garlic and ginger sauce route",
+            "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+            "effect": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+          },
+          {
+            "ingredient": "Split sesame-oil route",
+            "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+            "effect": "All sesame oil goes on the noodles; omit the finishing dose."
+          },
+          {
+            "ingredient": "Red pepper flakes",
+            "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+            "effect": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+          },
+          {
+            "ingredient": "Seasoning the sauce and blanching water",
+            "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+            "effect": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      },
+      {
+        "factor": 1,
+        "options": [
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "Use the same listed amount of dry sherry.",
+            "effect": "Dry sherry changes the flavor without changing the liquid allocation."
+          },
+          {
+            "ingredient": "Garlic and ginger sauce route",
+            "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+            "effect": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+          },
+          {
+            "ingredient": "Split sesame-oil route",
+            "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+            "effect": "All sesame oil goes on the noodles; omit the finishing dose."
+          },
+          {
+            "ingredient": "Red pepper flakes",
+            "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+            "effect": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+          },
+          {
+            "ingredient": "Seasoning the sauce and blanching water",
+            "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+            "effect": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      },
+      {
+        "factor": 2,
+        "options": [
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "Use the same listed amount of dry sherry.",
+            "effect": "Dry sherry changes the flavor without changing the liquid allocation."
+          },
+          {
+            "ingredient": "Garlic and ginger sauce route",
+            "alternative": "Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for no more than 10 seconds before adding mushrooms.",
+            "effect": "This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added at the finish."
+          },
+          {
+            "ingredient": "Split sesame-oil route",
+            "alternative": "Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.",
+            "effect": "All sesame oil goes on the noodles; omit the finishing dose."
+          },
+          {
+            "ingredient": "Red pepper flakes",
+            "alternative": "For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of the listed flakes.",
+            "effect": "Separate heat options, not an asserted equal-heat conversion; scale the chosen option with the batch."
+          },
+          {
+            "ingredient": "Seasoning the sauce and blanching water",
+            "alternative": "For an extra-seasoning option, add salt to taste to the broccoli blanching water before the broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.",
+            "effect": "These are separate unmeasured allowances: blanching salt belongs to the cooking water and additional soy belongs to the finished dish. They do not change the measured soy amount or force salted blanching into the main route."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["miso-soup", "dashi-japanese-sea-stock", "steamed-edamame"],
+    "scope": "Pairings unchanged; no component replacement or complete dependency certification",
+    "linkedMealTiming": "The listed chicken or vegetable stock starts prepared. Broccoli blanching, soba cooking and tofu/vegetable stir-frying are included. Scratch stock and linked pairings require separate preparation. Dashi is not an automatic stock replacement."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Sauce ---",
+        "1/4 cup Chicken or vegetable stock",
+        "1/2 tbsp Soy sauce",
+        "1/2 tbsp Shaoxing wine",
+        "1/2 tbsp Fresh ginger, minced",
+        "1/2 tbsp Garlic, minced",
+        "1/4 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "--- Noodles and blanching ---",
+        "1/4 lb Baby broccoli, florets and stems sliced to cook evenly",
+        "Boiling water, enough for blanching the broccoli",
+        "Ice water, for cooling the blanched broccoli, then discarded",
+        "4 oz Soba noodles",
+        "Water, enough to cook the noodles per package instructions",
+        "1 tsp Toasted sesame oil",
+        "--- Pan and finish ---",
+        "1/4 lb Extra-firm tofu, drained, patted dry and diced",
+        "1 tbsp Neutral oil",
+        "1/4 tsp Red pepper flakes",
+        "3 oz Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1/2 Bunch of scallions, sliced, light and dark-green parts kept separate",
+        "1/4 cup Fresh cilantro, chopped"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Mix the sauce:** Whisk Chicken or vegetable stock, Soy sauce, Shaoxing wine, Fresh ginger, Garlic, Sugar, and Salt together. This is the garlic-and-ginger-in-sauce route; set aside.\n2. **Blanch the broccoli:** Use Baby broccoli, Boiling water, and Ice water. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water.\n3. **Cook and rinse the soba:** Use Soba noodles, Water, and 1/2 of the Toasted sesame oil. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation.\n4. **Cook the tofu:** Use Extra-firm tofu and 1/2 of the Neutral oil. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate.\n5. **Finish the stir-fry:** Have 1/2 of the Toasted sesame oil, 1/2 of the Neutral oil, Red pepper flakes, Fresh shiitake mushrooms, Bunch of scallions, and Fresh cilantro ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds.\n6. **Serve:** Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them.",
+      "shoppingList": [
+        "1/4 cup Chicken or vegetable stock",
+        "1/2 tbsp Soy sauce",
+        "1/2 tbsp Shaoxing wine",
+        "1/2 tbsp Fresh ginger",
+        "1/2 tbsp Garlic",
+        "1/4 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "1/4 lb Baby broccoli",
+        "4 oz Soba noodles",
+        "1 tsp Toasted sesame oil",
+        "1/4 lb Extra-firm tofu",
+        "1 tbsp Neutral oil",
+        "1/4 tsp Red pepper flakes",
+        "3 oz Fresh shiitake mushrooms",
+        "1/2 Bunch of scallions",
+        "1/4 cup Fresh cilantro"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Sauce ---",
+        "1/2 cup Chicken or vegetable stock",
+        "1 tbsp Soy sauce",
+        "1 tbsp Shaoxing wine",
+        "1 tbsp Fresh ginger, minced",
+        "1 tbsp Garlic, minced",
+        "1/2 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "--- Noodles and blanching ---",
+        "1/2 lb Baby broccoli, florets and stems sliced to cook evenly",
+        "Boiling water, enough for blanching the broccoli",
+        "Ice water, for cooling the blanched broccoli, then discarded",
+        "8 oz Soba noodles",
+        "Water, enough to cook the noodles per package instructions",
+        "2 tsp Toasted sesame oil",
+        "--- Pan and finish ---",
+        "1/2 lb Extra-firm tofu, drained, patted dry and diced",
+        "2 tbsp Neutral oil",
+        "1/2 tsp Red pepper flakes",
+        "6 oz Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1 Bunch of scallions, sliced, light and dark-green parts kept separate",
+        "1/2 cup Fresh cilantro, chopped"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Mix the sauce:** Whisk Chicken or vegetable stock, Soy sauce, Shaoxing wine, Fresh ginger, Garlic, Sugar, and Salt together. This is the garlic-and-ginger-in-sauce route; set aside.\n2. **Blanch the broccoli:** Use Baby broccoli, Boiling water, and Ice water. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water.\n3. **Cook and rinse the soba:** Use Soba noodles, Water, and 1/2 of the Toasted sesame oil. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation.\n4. **Cook the tofu:** Use Extra-firm tofu and 1/2 of the Neutral oil. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate.\n5. **Finish the stir-fry:** Have 1/2 of the Toasted sesame oil, 1/2 of the Neutral oil, Red pepper flakes, Fresh shiitake mushrooms, Bunch of scallions, and Fresh cilantro ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds.\n6. **Serve:** Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them.",
+      "shoppingList": [
+        "1/2 cup Chicken or vegetable stock",
+        "1 tbsp Soy sauce",
+        "1 tbsp Shaoxing wine",
+        "1 tbsp Fresh ginger",
+        "1 tbsp Garlic",
+        "1/2 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "1/2 lb Baby broccoli",
+        "8 oz Soba noodles",
+        "2 tsp Toasted sesame oil",
+        "1/2 lb Extra-firm tofu",
+        "2 tbsp Neutral oil",
+        "1/2 tsp Red pepper flakes",
+        "6 oz Fresh shiitake mushrooms",
+        "1 Bunch of scallions",
+        "1/2 cup Fresh cilantro"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Sauce ---",
+        "1 cup Chicken or vegetable stock",
+        "2 tbsp Soy sauce",
+        "2 tbsp Shaoxing wine",
+        "2 tbsp Fresh ginger, minced",
+        "2 tbsp Garlic, minced",
+        "1 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "--- Noodles and blanching ---",
+        "1 lb Baby broccoli, florets and stems sliced to cook evenly",
+        "Boiling water, enough for blanching the broccoli",
+        "Ice water, for cooling the blanched broccoli, then discarded",
+        "16 oz Soba noodles",
+        "Water, enough to cook the noodles per package instructions",
+        "4 tsp Toasted sesame oil",
+        "--- Pan and finish ---",
+        "1 lb Extra-firm tofu, drained, patted dry and diced",
+        "4 tbsp Neutral oil",
+        "1 tsp Red pepper flakes",
+        "12 oz Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "2 Bunches of scallions, sliced, light and dark-green parts kept separate",
+        "1 cup Fresh cilantro, chopped"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Mix the sauce:** Whisk Chicken or vegetable stock, Soy sauce, Shaoxing wine, Fresh ginger, Garlic, Sugar, and Salt together. This is the garlic-and-ginger-in-sauce route; set aside.\n2. **Blanch the broccoli:** Use Baby broccoli, Boiling water, and Ice water. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water.\n3. **Cook and rinse the soba:** Use Soba noodles, Water, and 1/2 of the Toasted sesame oil. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation.\n4. **Cook the tofu:** Use Extra-firm tofu and 1/2 of the Neutral oil. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate.\n5. **Finish the stir-fry:** Have 1/2 of the Toasted sesame oil, 1/2 of the Neutral oil, Red pepper flakes, Fresh shiitake mushrooms, Bunch of scallions, and Fresh cilantro ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds.\n6. **Serve:** Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them.",
+      "shoppingList": [
+        "1 cup Chicken or vegetable stock",
+        "2 tbsp Soy sauce",
+        "2 tbsp Shaoxing wine",
+        "2 tbsp Fresh ginger",
+        "2 tbsp Garlic",
+        "1 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "1 lb Baby broccoli",
+        "16 oz Soba noodles",
+        "4 tsp Toasted sesame oil",
+        "1 lb Extra-firm tofu",
+        "4 tbsp Neutral oil",
+        "1 tsp Red pepper flakes",
+        "12 oz Fresh shiitake mushrooms",
+        "2 Bunches of scallions",
+        "1 cup Fresh cilantro"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Sauce ---",
+        "1/2 cup Chicken or vegetable stock",
+        "1 tbsp Soy sauce",
+        "1 tbsp Shaoxing wine",
+        "1 tbsp Fresh ginger, minced",
+        "1 tbsp Garlic, minced",
+        "1/2 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "--- Noodles and blanching ---",
+        "1/2 lb Baby broccoli, florets and stems sliced to cook evenly",
+        "Boiling water, enough for blanching the broccoli",
+        "Ice water, for cooling the blanched broccoli, then discarded",
+        "8 oz Soba noodles",
+        "Water, enough to cook the noodles per package instructions",
+        "2 tsp Toasted sesame oil",
+        "--- Pan and finish ---",
+        "1/2 lb Extra-firm tofu, drained, patted dry and diced",
+        "2 tbsp Neutral oil",
+        "1/2 tsp Red pepper flakes",
+        "6 oz Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1 Bunch of scallions, sliced, light and dark-green parts kept separate",
+        "1/2 cup Fresh cilantro, chopped"
+      ],
+      "yield": "4 portions",
+      "shoppingList": [
+        "1/2 cup Chicken or vegetable stock",
+        "1 tbsp Soy sauce",
+        "1 tbsp Shaoxing wine",
+        "1 tbsp Fresh ginger",
+        "1 tbsp Garlic",
+        "1/2 tsp Sugar",
+        "Salt, to taste in the sauce",
+        "1/2 lb Baby broccoli",
+        "8 oz Soba noodles",
+        "2 tsp Toasted sesame oil",
+        "1/2 lb Extra-firm tofu",
+        "2 tbsp Neutral oil",
+        "1/2 tsp Red pepper flakes",
+        "6 oz Fresh shiitake mushrooms",
+        "1 Bunch of scallions",
+        "1/2 cup Fresh cilantro"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Verify household soba brand, its package cooking time and pan batch size.",
+    "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

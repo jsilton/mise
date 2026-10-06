@@ -1,5 +1,11 @@
 # Current campaign state — October 6, 2026
 
+503 recorded complete / 140 pending across 643 sources. 257 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/sauces-stock-seafood-twelve.md).
+
+## Previous verified checkpoint
+
+# Current campaign state — October 6, 2026
+
 257 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 491 recorded complete / 152 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [d77d1640](https://github.com/jsilton/mise/commit/d77d164073216a069027876729791703c6750044), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37458426276) and all 12 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve.md).
 
 ## Earlier acceptance checkpoint

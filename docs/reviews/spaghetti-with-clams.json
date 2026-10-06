@@ -1,0 +1,847 @@
+{
+  "slug": "spaghetti-with-clams",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "5703c50217647c73b0470afb98ab34f4d1dcef4cf47e0732309866c1c2e55fe8",
+  "acceptedSourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30–40 min; purging can add time"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Spaghetti",
+        "2 lbs Littleneck Clams, scrubbed",
+        "1/2 cup Dry Vermouth",
+        "4 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic, minced",
+        "1/2 tsp Red Pepper Flakes",
+        "1/4 cup Fresh Parsley, chopped",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "1 lb spaghetti",
+        "2 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1/2 cup dry vermouth",
+        "4 tbsp extra-virgin olive oil",
+        "4 garlic cloves, minced",
+        "1/2 tsp red pepper flakes",
+        "1/4 cup fresh parsley, chopped",
+        "1 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 0.5,
+        "carbs": 3.5,
+        "fat": 13.5,
+        "fiber": 1,
+        "sugar": 1,
+        "sodium": 10
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "pasta",
+                "key": "spaghetti",
+                "name": "spaghetti",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "clams",
+                "key": "littleneck-clams",
+                "name": "live in-shell littleneck clams",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "steam",
+                    "share": 1
+                  }
+                ],
+                "preparation": "scrubbed and rinsed"
+              },
+              {
+                "id": "vermouth",
+                "key": "dry-vermouth",
+                "name": "dry vermouth",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "steam",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "foundation",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "foundation",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "flakes",
+                "key": "red-pepper-flakes",
+                "name": "red pepper flakes",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "foundation",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "serve",
+                    "share": "1/2"
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "lemon",
+                "key": "lemon-juice",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ],
+                "allowance": "enough to boil the measured pasta",
+                "role": "cooking-water"
+              },
+              {
+                "id": "pasta-salt",
+                "key": "salt",
+                "name": "salt",
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ],
+                "allowance": "to taste in the pasta water",
+                "role": "cooking-water"
+              },
+              {
+                "id": "finishing-salt",
+                "key": "salt",
+                "name": "salt",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "allowance": "to taste after the clams are cooked"
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "black pepper",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "allowance": "to taste"
+              },
+              {
+                "id": "drizzle",
+                "key": "olive-oil",
+                "name": "extra-virgin olive oil",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "allowance": "as desired for the final drizzle",
+                "optional": true,
+                "role": "garnish"
+              },
+              {
+                "id": "holding-oil",
+                "key": "olive-oil",
+                "name": "extra-virgin olive oil",
+                "uses": [
+                  {
+                    "step": "hold",
+                    "share": 1
+                  }
+                ],
+                "allowance": "a small amount if drained pasta must wait for the clams",
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Clams",
+            "text": "Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint."
+          },
+          {
+            "id": "boil",
+            "title": "Pasta",
+            "text": "Use {{ingredients}} for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid."
+          },
+          {
+            "id": "foundation",
+            "title": "Garlic oil",
+            "text": "In a wide skillet or saucepan with a lid and room for the measured shells, heat {{ingredients}} over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit."
+          },
+          {
+            "id": "steam",
+            "title": "Clams",
+            "text": "Add {{ingredients}}. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan."
+          },
+          {
+            "id": "hold",
+            "title": "If pasta finishes first",
+            "text": "Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with {{ingredients}} to limit sticking."
+          },
+          {
+            "id": "bind",
+            "title": "Finish pasta",
+            "text": "Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through."
+          },
+          {
+            "id": "finish",
+            "title": "Season",
+            "text": "Off the heat, stir in {{ingredients}}. Taste before adding salt; clam liquor is already salty."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Garnish with {{ingredients}} and serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep live-shell checks separate from pasta doneness",
+        "outcome": "Opened clams and pasta finished in their cooking liquid, with the full oil retained.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak.",
+          "Choose vessels large enough for the measured shells and for tossing the pasta without spilling. For larger batches, divide all supplies proportionally among enough pots or complete batches; additional loads change elapsed time.",
+          "The four portions are the current planning yield. Shell-on pounds do not establish edible clam weight, and the original small-batch clam count is not a pounds-to-count conversion."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Clam shells open during cooking; unopened clams are discarded.",
+            "why": "The clock depends on shell size and the pan load. A soak cannot establish that clams are cooked."
+          },
+          {
+            "step": 6,
+            "cue": "The spaghetti is done to taste and coated in clam liquid.",
+            "why": "It finishes cooking in the pan; fixed tossing minutes cannot replace checking the pasta."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The pasta is ready before the clams",
+            "cause": "Pasta shape, clam size and pan loading change the relative clocks.",
+            "fix": "Drain the pasta slightly underdone and keep it briefly while the clams finish. Use the optional holding oil if needed, then finish in the cooking liquid; discard unopened clams."
+          }
+        ],
+        "storage": "Serve promptly. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat to 165°F / 74°C throughout, stirring and checking more than one place. Further heating can toughen clams and soften pasta.",
+        "timing": "The listed clock is a planning estimate for the original batch, including cleaning and bringing pasta water to a boil; supplier-directed purging or extra pan loads take additional time. Cook the pasta alongside the shellfish preparation.",
+        "sources": [
+          {
+            "title": "Spaghetti with clams",
+            "url": "https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams"
+          },
+          {
+            "title": "FDA seafood handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSpaghetti alle vongole is a classic from the Campania region (Naples and the Amalfi Coast), where fresh clams are abundant. In Italy, they use tiny vongole veraci that are sweet and delicate; American littleneck clams are larger but work beautifully. The dish is traditionally made in bianco (white, with garlic and oil) or in rosso (red, with tomatoes) - this is the white version. Soaking clams in cold salted water encourages them to purge sand. Vermouth adds botanical complexity that wine can't match, and the clam liquor released during steaming creates the sauce.\n\n## Directions\n\n1.  **The Purge:** Soak clams in a bowl of cold salted water for 20 minutes. Drain and rinse.\n2.  **Boil:** Cook pasta in a massive pot of salted water until **very al dente** (2 minutes less than directions).\n3.  **Foundation:** In a large wide skillet, heat olive oil over medium. Sauté garlic and red pepper flakes for 1 minute until fragrant but not brown.\n4.  **The Crunch:** Add the vermouth and the clams. Cover tightly. **Shake the pan vigorously** for 2-3 minutes until all clams have popped open.\n5.  **Bind:** Add the hot drained pasta directly to the skillet. Increase heat to medium-high.\n6.  **Emulsify:** Toss vigorously for 1 minute until the pasta has absorbed the clam liquor and the oil has emulsified into a glossy film.\n7.  **Finish:** Stir in the lemon juice and half the parsley.\n8.  **Serve:** Garnish with the remaining parsley and a final drizzle of oil. Discard any clams that did not open.\n",
+    "after": "\n## Chef's Note\n\nThis Italian-style spaghetti alle vongole in bianco uses the liquid released by the clams as its sauce. Keep the garlic pale, cook the shells until they open and finish the slightly underdone pasta in that liquid. The current lemon-and-black-pepper finish remains, alongside the vermouth-or-wine small-batch option below.\n\n## Directions\n\n1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.\n\n## Vermouth-or-wine small batch\n\nFor the original single-portion plan, use **¼ lb spaghetti, 8–12 scrubbed small in-shell clams, 2 tbsp extra-virgin olive oil, ½–1 minced garlic clove, ½ dried red chili pepper or ¼ tsp hot red pepper flakes, ⅓ cup Noilly Prat or other vermouth or white wine, and 1–2 tbsp chopped Italian parsley**, with salt as needed for the pasta water. This is a separate full formula; scale all of these supplies together and keep the same live-shell and pan-capacity checks. Its clam count is not an equivalent for the main recipe’s shell-on weight.\n\nUse the plain-cold-water soaking option while bringing the pasta water to a boil. Cook the garlic and chosen chili gently in the full oil, add the wine or vermouth and clams, and collect opened clams as in step 4. If pasta finishes first, drain it slightly underdone and use a small amount of the separate holding oil. Finish the pasta in the clam liquid, covered and gently shaken, starting to check after 1–2 minutes; discard unopened clams. Return the opened clams, add half the parsley and garnish with the remainder. Omit the main recipe’s added lemon and black pepper for this branch. A final drizzle of oil remains an optional current garnish.\n"
+  },
+  "findings": [
+    {
+      "id": "SS10-04",
+      "title": "SS10-04",
+      "rationale": "Retain the current pound/2lb clam/four-tablespoon oil/lemon formula and its full parsley allocation. Give final-drizzle and conditional holding oil genuine unmeasured destinations. Preserve the full original one-portion vermouth-or-wine route with 8–12 clams, quarter-pound pasta, two tablespoons oil, garlic/chili/parsley ranges and no added main lemon/pepper; no count-weight equivalence.",
+      "confidence": "High for exact source/current ratios and loss; modern NYT page unavailable, not certified.",
+      "applicableSources": [
+        "bound-native",
+        "b7 introduction",
+        "045 first Markdown",
+        "2f255 rewrite",
+        "complete followed cooking history"
+      ],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content", "learning"],
+      "questions": [
+        "Which clam size and edible yield correspond to the current two-pound shell-on purchase?",
+        "The original small-batch portion plan is inherited; verify appetite/yield without forcing it to equal current four portions."
+      ]
+    },
+    {
+      "id": "SS10-05",
+      "title": "SS10-05",
+      "rationale": "Add live-shell/source and opening/discard checks; make current salted soak supplier-directed and refrigerated, retaining separate original plain-water option. Replace forceful shake/all-open guarantee with gentle shaking, collecting cooked opened clams and discarding unopened ones. Pasta finishes to taste rather than fixed one minute. Main soak/water heating is not a universal25-minute promise; preserve optional holding and final oil.",
+      "confidence": "High for shell-specific handling; moderate for elapsed planning and pan-loading editorial application.",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "bound-native"
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "learning", "totalTime"],
+      "questions": [
+        "Confirm supplier purging instructions and actual pot/skillet load at each scaled quantity."
+      ]
+    },
+    {
+      "id": "SS10-06",
+      "title": "SS10-06",
+      "rationale": "Remove unsupported birth-country and numeric nutrition while keeping Italian cuisine, spaghetti alle vongole in bianco context, adaptation credit and exact URL. Do not repeat unverifiable Campania/species-size or wine-inferiority claims as facts.",
+      "confidence": "High for retained style/credit and unestablished geographic/numeric claims.",
+      "applicableSources": ["actual followed metadata history", "bound-native"],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content"],
+      "questions": [
+        "No current publisher fetch available to certify a regional origin for this adaptation."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Spaghetti%20with%20Clams.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "The Purge: Soak clams in a bowl of cold salted water for 20 minutes. Drain and rinse."
+      },
+      {
+        "step": 2,
+        "text": "Boil: Cook pasta in a massive pot of salted water until very al dente (2 minutes less than directions)."
+      },
+      {
+        "step": 3,
+        "text": "Foundation: In a large wide skillet, heat olive oil over medium. Sauté garlic and red pepper flakes for 1 minute until fragrant but not brown."
+      },
+      {
+        "step": 4,
+        "text": "The Crunch: Add the vermouth and the clams. Cover tightly. Shake the pan vigorously for 2-3 minutes until all clams have popped open."
+      },
+      {
+        "step": 5,
+        "text": "Bind: Add the hot drained pasta directly to the skillet. Increase heat to medium-high."
+      },
+      {
+        "step": 6,
+        "text": "Emulsify: Toss vigorously for 1 minute until the pasta has absorbed the clam liquor and the oil has emulsified into a glossy film."
+      },
+      {
+        "step": 7,
+        "text": "Finish: Stir in the lemon juice and half the parsley."
+      },
+      {
+        "step": 8,
+        "text": "Serve: Garnish with the remaining parsley and a final drizzle of oil. Discard any clams that did not open."
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "Clams: Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint."
+      },
+      {
+        "step": 2,
+        "text": "Pasta: Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid."
+      },
+      {
+        "step": 3,
+        "text": "Garlic oil: In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit."
+      },
+      {
+        "step": 4,
+        "text": "Clams: Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan."
+      },
+      {
+        "step": 5,
+        "text": "If pasta finishes first: Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking."
+      },
+      {
+        "step": 6,
+        "text": "Finish pasta: Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through."
+      },
+      {
+        "step": 7,
+        "text": "Season: Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty."
+      },
+      {
+        "step": 8,
+        "text": "Serve: Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly."
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "field": "directions",
+      "wholeTextPreserved": true
+    }
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Current main",
+        "inventory": "1lb pasta/2lbclams/½cupvermouth/4Toil/4garlic/½tspflakes/¼cupparsley/1Tlemon/unmeasuredsaltblackpepper",
+        "allocation": "Oilallfoundation;parsleyhalf/half;clam/wineallsteam;no clammass-count conversion.",
+        "status": "retained"
+      },
+      {
+        "name": "Original vermouth-or-wine small batch",
+        "inventory": "¼lbpasta;8–12smallclams;2Toil;½–1garlic;½driedchiliOR¼tspflakes;⅓cupvermouthORwhitewine;1–2Tparsley;saltwater genuine",
+        "allocation": "Complete exclusive ingredientsreplaceallmain supplies; mainaddedlemon/pepper omitted. Wholeoilfoundation;allwine/clamssteam;parsleyhalf/half;conditionalunmeasuredholdingoil;currentfinaldrizzleoptionalclear.",
+        "status": "separateproposedvariant",
+        "evidence": "Native1servingplan/045;2f255 bulkcurrentformula changes, not deliberatehouseholdratification"
+      },
+      {
+        "name": "Soak options",
+        "inventory": "Current20mincold saltedwater requiring supplierconcentration/instructions ORnativecoldplainwater whilepastawaterheats",
+        "allocation": "Bothdiscardsoak/rinse;coldhandling;no safety/purge guarantee",
+        "status": "separateoptions"
+      }
+    ],
+    "completeCookingOptions": "For the original single-portion plan, use **¼ lb spaghetti, 8–12 scrubbed small in-shell clams, 2 tbsp extra-virgin olive oil, ½–1 minced garlic clove, ½ dried red chili pepper or ¼ tsp hot red pepper flakes, ⅓ cup Noilly Prat or other vermouth or white wine, and 1–2 tbsp chopped Italian parsley**, with salt as needed for the pasta water. This is a separate full formula; scale all of these supplies together and keep the same live-shell and pan-capacity checks. Its clam count is not an equivalent for the main recipe’s shell-on weight.\n\nUse the plain-cold-water soaking option while bringing the pasta water to a boil. Cook the garlic and chosen chili gently in the full oil, add the wine or vermouth and clams, and collect opened clams as in step 4. If pasta finishes first, drain it slightly underdone and use a small amount of the separate holding oil. Finish the pasta in the clam liquid, covered and gently shaken, starting to check after 1–2 minutes; discard unopened clams. Return the opened clams, add half the parsley and garnish with the remainder. Omit the main recipe’s added lemon and black pepper for this branch. A final drizzle of oil remains an optional current garnish."
+  },
+  "heldOptionalVariants": [],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/4 lb spaghetti",
+        "1/2 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1/8 cup dry vermouth",
+        "1 tbsp extra-virgin olive oil",
+        "1 garlic clove, minced",
+        "1/8 tsp red pepper flakes",
+        "0.0625 cup fresh parsley, chopped",
+        "1/4 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "1/4 lb spaghetti",
+        "1/2 lb live in-shell littleneck clams",
+        "1/8 cup dry vermouth",
+        "1 tbsp extra-virgin olive oil",
+        "1 garlic clove",
+        "1/8 tsp red pepper flakes",
+        "0.0625 cup fresh parsley",
+        "1/4 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/2 lb spaghetti",
+        "1 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1/4 cup dry vermouth",
+        "2 tbsp extra-virgin olive oil",
+        "2 garlic cloves, minced",
+        "1/4 tsp red pepper flakes",
+        "1/8 cup fresh parsley, chopped",
+        "1/2 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "1/2 lb spaghetti",
+        "1 lb live in-shell littleneck clams",
+        "1/4 cup dry vermouth",
+        "2 tbsp extra-virgin olive oil",
+        "2 garlic cloves",
+        "1/4 tsp red pepper flakes",
+        "1/8 cup fresh parsley",
+        "1/2 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb spaghetti",
+        "2 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1/2 cup dry vermouth",
+        "4 tbsp extra-virgin olive oil",
+        "4 garlic cloves, minced",
+        "1/2 tsp red pepper flakes",
+        "1/4 cup fresh parsley, chopped",
+        "1 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "1 lb spaghetti",
+        "2 lb live in-shell littleneck clams",
+        "1/2 cup dry vermouth",
+        "4 tbsp extra-virgin olive oil",
+        "4 garlic cloves",
+        "1/2 tsp red pepper flakes",
+        "1/4 cup fresh parsley",
+        "1 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb spaghetti",
+        "3 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "3/4 cup dry vermouth",
+        "6 tbsp extra-virgin olive oil",
+        "6 garlic cloves, minced",
+        "3/4 tsp red pepper flakes",
+        "3/8 cup fresh parsley, chopped",
+        "1 1/2 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "1 1/2 lb spaghetti",
+        "3 lb live in-shell littleneck clams",
+        "3/4 cup dry vermouth",
+        "6 tbsp extra-virgin olive oil",
+        "6 garlic cloves",
+        "3/4 tsp red pepper flakes",
+        "3/8 cup fresh parsley",
+        "1 1/2 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb spaghetti",
+        "4 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1 cup dry vermouth",
+        "8 tbsp extra-virgin olive oil",
+        "8 garlic cloves, minced",
+        "1 tsp red pepper flakes",
+        "1/2 cup fresh parsley, chopped",
+        "2 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "2 lb spaghetti",
+        "4 lb live in-shell littleneck clams",
+        "1 cup dry vermouth",
+        "8 tbsp extra-virgin olive oil",
+        "8 garlic cloves",
+        "1 tsp red pepper flakes",
+        "1/2 cup fresh parsley",
+        "2 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb spaghetti",
+        "6 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1 1/2 cups dry vermouth",
+        "12 tbsp extra-virgin olive oil",
+        "12 garlic cloves, minced",
+        "1 1/2 tsp red pepper flakes",
+        "3/4 cup fresh parsley, chopped",
+        "3 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "3 lb spaghetti",
+        "6 lb live in-shell littleneck clams",
+        "1 1/2 cups dry vermouth",
+        "12 tbsp extra-virgin olive oil",
+        "12 garlic cloves",
+        "1 1/2 tsp red pepper flakes",
+        "3/4 cup fresh parsley",
+        "3 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb spaghetti",
+        "2 lb live in-shell littleneck clams, scrubbed and rinsed",
+        "1/2 cup dry vermouth",
+        "4 tbsp extra-virgin olive oil",
+        "4 garlic cloves, minced",
+        "1/2 tsp red pepper flakes",
+        "1/4 cup fresh parsley, chopped",
+        "1 tbsp fresh lemon juice",
+        "water, enough to boil the measured pasta",
+        "salt, to taste in the pasta water",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. If using the current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt concentration and soaking advice, then drain and rinse. The original plain-cold-water soak while the pasta water heats is a separate option; neither soak is a cooking or safety endpoint.\n2. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, about 2 minutes before its package time as a first check. It finishes in the clam liquid.\n3. **Garlic oil:** In a wide skillet or saucepan with a lid and room for the measured shells, heat extra-virgin olive oil, garlic cloves, and red pepper flakes over medium-low to medium heat. Cook about 1 minute until fragrant, keeping the garlic pale. Split the full supplies proportionally among enough pans or complete batches if the shells or pasta cannot fit.\n4. **Clams:** Add live in-shell littleneck clams and dry vermouth. Cover and bring to a brisk simmer, shaking the pan gently. Start checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking liquid in the pan.\n5. **If pasta finishes first:** Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with extra-virgin olive oil (if using) to limit sticking.\n6. **Finish pasta:** Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all opened clams and their collected liquid to warm through.\n7. **Season:** Off the heat, stir in 1/2 of the fresh parsley, fresh lemon juice, salt, and black pepper. Taste before adding salt; clam liquor is already salty.\n8. **Serve:** Garnish with 1/2 of the fresh parsley and extra-virgin olive oil (if using) and serve promptly.",
+      "shopping": [
+        "1 lb spaghetti",
+        "2 lb live in-shell littleneck clams",
+        "1/2 cup dry vermouth",
+        "4 tbsp extra-virgin olive oil",
+        "4 garlic cloves",
+        "1/2 tsp red pepper flakes",
+        "1/4 cup fresh parsley",
+        "1 tbsp fresh lemon juice",
+        "salt, to taste after the clams are cooked",
+        "black pepper, to taste",
+        "extra-virgin olive oil, as desired for the final drizzle, optional",
+        "extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which clam size and edible yield correspond to the current two-pound shell-on purchase?",
+    "The original small-batch portion plan is inherited; verify appetite/yield without forcing it to equal current four portions.",
+    "Confirm supplier purging instructions and actual pot/skillet load at each scaled quantity.",
+    "No current publisher fetch available to certify a regional origin for this adaptation."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

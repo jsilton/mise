@@ -44,13 +44,67 @@ ingredients:
   - 1 Cinnamon Stick
   - 1 tsp Salt
   - 1 tsp Sugar
-origin: China
+learning:
+  focus: Test the oil on the actual flakes before the main pour
+  outcome: 'Fragrant oil with colored flakes and no blackened, bitter sediment.'
+  techniques:
+    - temperature
+  before:
+    - >-
+      Use vessels with room for the full listed batch plus stirring or bubbling.
+      For larger batches use enough vessels and divide all ingredients
+      proportionally. Temperatures do not scale and heating/reduction times are
+      not linear.
+    - >-
+      Have a dry stainless-steel bowl, dry metal strainer and dry spoon ready.
+      Keep all the fresh garlic and ginger; their presence means prompt
+      refrigerated handling.
+  checkpoints:
+    - step: 2
+      cue: 'Spices are fragrant, not blackened.'
+      why: The thermometer and actual spice color govern the oil heat.
+    - step: 3
+      cue: Test flakes sizzle without blackening or a burnt smell.
+      why: Different flakes can scorch at different oil temperatures.
+  timing: >-
+    About 15 minutes for original-batch preparation/heating, with additional
+    cooling and packaging time. Do not extend the hot-oil stage automatically
+    for a scaled batch.
+  substitutions:
+    - ingredient: Pepper flakes
+      alternative: >-
+        Choose either gochugaru or crushed red pepper for the full listed flake
+        volume. Keep all the other ingredients and use the test pour.
+      effect: These are the existing alternatives; their heat and roast levels differ.
+    - ingredient: Sichuan peppercorns
+      alternative: >-
+        Omit the full listed optional Sichuan peppercorn amount if desired;
+        strain out star anise and cinnamon in either route.
+      effect: 'The numbing ingredient is optional, not a substitute for the red flakes.'
+  storage: >-
+    Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze
+    small portions promptly. Thaw in the refrigerator and stir before serving.
+    Heating this fresh-garlic-and-ginger oil does not establish a longer storage
+    life.
+  troubleshooting:
+    - problem: Flakes turn black during the test pour
+      cause: The oil is too hot for that flake product.
+      fix: >-
+        Let the oil cool a little and retest in a separate dry dish before
+        adding it to the main bowl.
+  sources:
+    - title: NCHFP — Garlic-in-Oil Storage
+      url: 'https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/'
+    - title: FDA — Safe Food Handling
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-Chili oil is the secret weapon of Chinese cooking - a few spoonfuls transform dumplings, noodles, or rice into something extraordinary. The technique is simple: bloom aromatics in oil, then pour the hot oil over pepper flakes to release their color and flavor without burning. The oil temperature is critical - too hot and you'll burn the flakes (bitter), too cool and you won't extract the color (pale). Use a thermometer and watch the flakes: their size and roast level change how easily they scorch. The fifteen-minute estimate covers preparation and heating; allow additional time to cool enough to handle and package safely.
-For kids, serve the heat on the side or reduce/omit the spicy elements.
+The pepper flakes stay in the oil; star anise, cinnamon and optional Sichuan peppercorns infuse it and are strained out. Flake size and roast level affect scorching, so test a little hot oil before the main pour. The fifteen-minute estimate covers preparation and heating; cooling and packaging take additional time. Serve the chili oil separately so diners can choose how much heat to add.
 
 ## Directions
 

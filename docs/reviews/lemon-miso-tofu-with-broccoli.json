@@ -1,0 +1,1473 @@
+{
+  "slug": "lemon-miso-tofu-with-broccoli",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "bdc89b93d2245d979fff2b4297be758b8fa7cdf296d36e1f00f24a6c06f77824",
+  "acceptedSourceSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–25 min active preparation with already-pressed tofu"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "About 25–35 min, longer if the pan needs batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 45–65 min, excluding pressing tofu"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "14 oz Extra-firm Tofu, pressed dry and cubed",
+        "1 lb Fresh Broccoli, cut into small florets",
+        "2 tbsp White (Shiro) Miso Paste",
+        "1/4 cup Fresh Lemon Juice",
+        "3 tbsp Maple Syrup",
+        "1 tbsp Cornstarch",
+        "2 tsp Toasted Sesame Oil",
+        "2 cloves Garlic, minced",
+        "1 inch Fresh Ginger, grated",
+        "3/4 cup Hot Water",
+        "1/3 cup Cornstarch (for dredging)",
+        "2 Scallions, chopped",
+        "Neutral Oil"
+      ],
+      "after": [
+        "--- Lemon-miso sauce ---",
+        "3/4 cup Hot water",
+        "2 tbsp White (shiro) miso paste",
+        "1/4 cup Fresh lemon juice",
+        "3 tbsp Maple syrup",
+        "1 tbsp Cornstarch for the sauce",
+        "1/2 tsp Salt for the sauce",
+        "--- Tofu ---",
+        "14 oz Extra-firm tofu, pressed dry, cut into roughly 1-inch cubes",
+        "1/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "3 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "--- Vegetables and finish ---",
+        "1 lb Fresh broccoli, small florets",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "2 tsp Toasted sesame oil",
+        "2 Garlic cloves, minced",
+        "1 1-inch piece of fresh ginger, grated",
+        "2 Scallions, chopped",
+        "Cooked rice, for serving, if desired, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Japan",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 345,
+        "protein": 11,
+        "carbs": 48,
+        "fat": 15,
+        "fiber": 3,
+        "sugar": 10.5,
+        "sodium": 50
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "sauce",
+            "name": "Lemon-miso sauce",
+            "ingredients": [
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Hot water",
+                "quantity": {
+                  "amount": 0.75,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "miso",
+                "key": "miso",
+                "name": "White (shiro) miso paste",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "Fresh lemon juice",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "maple",
+                "key": "maple",
+                "name": "Maple syrup",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "Cornstarch for the sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt for the sauce",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tofu",
+            "name": "Tofu",
+            "ingredients": [
+              {
+                "id": "tofu",
+                "key": "tofu",
+                "name": "Extra-firm tofu",
+                "quantity": {
+                  "amount": 14,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ],
+                "preparation": "pressed dry, cut into roughly 1-inch cubes"
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "Cornstarch for dredging",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "seasoning",
+                "key": "seasoning",
+                "name": "Salt and black pepper",
+                "allowance": "to season the coating",
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Neutral frying oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-oil",
+                "key": "extra-tofu-oil",
+                "name": "Neutral frying oil",
+                "allowance": "additional only as needed if the pan dries while frying tofu",
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "vegetables",
+            "name": "Vegetables and finish",
+            "ingredients": [
+              {
+                "id": "broccoli",
+                "key": "broccoli",
+                "name": "Fresh broccoli",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "broccoli",
+                    "share": 1
+                  }
+                ],
+                "preparation": "small florets"
+              },
+              {
+                "id": "veg-seasoning",
+                "key": "veg-seasoning",
+                "name": "Salt and black pepper",
+                "allowance": "to season the broccoli",
+                "uses": [
+                  {
+                    "step": "broccoli",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-oil",
+                "key": "extra-oil",
+                "name": "Neutral frying oil",
+                "allowance": "additional only as needed if the pan dries while cooking broccoli",
+                "uses": [
+                  {
+                    "step": "broccoli",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "Toasted sesame oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "1-inch piece of fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "1-inch pieces of fresh ginger",
+                "preparation": "grated"
+              },
+              {
+                "id": "scallion",
+                "key": "scallion",
+                "name": "Scallion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "plural": "Scallions",
+                "preparation": "chopped"
+              },
+              {
+                "id": "rice",
+                "key": "rice",
+                "name": "Cooked rice",
+                "allowance": "for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Mix the sauce",
+            "text": "Use {{ingredients}}. Dissolve the miso in the hot water, then whisk in lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking."
+          },
+          {
+            "id": "coat",
+            "title": "Coat the tofu",
+            "text": "Use {{ingredients}}. Pat the pressed tofu dry, toss gently in the dredging starch and season the coating. Shake off loose starch; discard any unused coating mixture."
+          },
+          {
+            "id": "fry",
+            "title": "Fry the tofu",
+            "text": "Use {{ingredients}}. Heat the measured starting oil in a 12-inch skillet over medium-high heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a plate."
+          },
+          {
+            "id": "broccoli",
+            "title": "Cook the broccoli",
+            "text": "Have {{ingredients}} ready. Cook the broccoli in the same skillet, adding the separate additional frying-oil allowance only if the pan dries. Season with the vegetable salt and pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6 minutes. Transfer to the tofu plate."
+          },
+          {
+            "id": "aromatics",
+            "title": "Start the glaze",
+            "text": "Have {{ingredients}} ready. Briefly let the pan cool, then wipe out loose burnt crumbs using a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant without burning."
+          },
+          {
+            "id": "finish",
+            "title": "Thicken and fold",
+            "text": "Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about 3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a broad spatula just until coated and hot; vigorous tossing can break the cubes."
+          },
+          {
+            "id": "serve",
+            "title": "Serve promptly",
+            "text": "Finish with {{ingredients}}. The tofu coating softens in the sauce; serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Dry the pressed tofu before coating it: wet surfaces turn the starch into patches of paste",
+        "outcome": "Golden tofu and crisp-tender broccoli gently coated in glossy lemon-miso sauce.",
+        "techniques": ["starch", "browning"],
+        "before": [
+          "The original batch is designed for a 12-inch skillet. Keep the tofu in one layer; use batches or more pans when scaling, and keep the cube size similar. Timings do not multiply with ingredient quantities.",
+          "Start with the listed frying oil and add only the separate as-needed allowance if the pan dries. Sesame oil is reserved for the aromatics, not counted as frying oil.",
+          "The ¾ cup water belongs to the sauce, not to a linked Dashi pairing."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Tofu releases from the pan and has a golden starch coating.",
+            "why": "Dry cubes and adequate space support even frying; reduce heat if oil smokes."
+          },
+          {
+            "step": 6,
+            "cue": "The sauce is glossy and coats the vegetables without loose raw-starch streaks.",
+            "why": "Restir the sauce before it enters the pan; gentle folding protects the tofu."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce is lumpy or tofu breaks during coating",
+            "cause": "Starch settled or the finished tofu was tossed too vigorously",
+            "fix": "Whisk the sauce again immediately before cooking it. Simmer until evenly glossy, then fold the tofu and broccoli with a broad spatula."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Use the same listed amount of honey.",
+            "effect": "Honey changes flavor and makes the dish non-vegan."
+          },
+          {
+            "ingredient": "14 oz tofu in the original batch",
+            "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+            "effect": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat to 165°F throughout. The tofu coating softens in storage.",
+        "timing": "About 15–25 min active preparation with already-pressed tofu; About 25–35 min, longer if the pan needs batches; About 45–65 min, excluding pressing tofu.",
+        "sources": [
+          {
+            "title": "NYT Cooking — Lemon-Miso Tofu with Broccoli",
+            "url": "https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMiso-glazed tofu is a Japanese izakaya staple adapted for weeknight cooking - the miso-lemon-maple glaze hits all five taste receptors at once (salt, sweet, acid, umami, and a touch of bitter from the char). The key is pressing the tofu bone-dry and dredging in cornstarch before frying - this creates the shatteringly crisp shell that holds the glaze without going soggy. Make the sauce first and have it ready; once the tofu is fried, you have about 90 seconds before the coating starts to soften.\n\n## Directions\n\n1.  **The Sauce:** In a small bowl, whisk miso, lemon juice, maple syrup, 1 tbsp cornstarch, and hot water until smooth.\n2.  **The Crunch:** Toss dry tofu cubes in 1/3 cup cornstarch, salt, and pepper until \"dusty.\"\n3.  **Sear Tofu:** Heat 3 tbsp oil in a large skillet over medium-high. Fry tofu for 2-3 minutes per side until golden and very crisp. Remove to a plate.\n4.  **Sear Veg:** In the same pan, sauté broccoli for 6-7 minutes until tender and charred at the edges. Remove and set aside.\n5.  **The Glaze:** Wipe the pan. Add sesame oil, garlic, and ginger; sauté for 30 seconds. Pour in the miso-lemon mixture. Simmer for 3 minutes until thick and glossy.\n6.  **Bind:** Return tofu and broccoli to the pan. Toss vigorously for 30 seconds to coat.\n7.  **Serve:** Garnish with scallions and serve hot over rice.\n",
+    "after": "\n## Chef's Note\n\nDry the pressed tofu before coating it: wet surfaces turn the starch into patches of paste. Fry the tofu and broccoli separately so both have room in the pan, then fold them gently into the thickened lemon-miso sauce. The coating softens after saucing, so serve promptly rather than relying on a fixed crispness clock.\n\n## Directions\n\n1. **Mix the sauce:** Use Hot water, White (shiro) miso paste, Fresh lemon juice, Maple syrup, Cornstarch for the sauce, and Salt for the sauce. Dissolve the miso in the hot water, then whisk in lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking.\n2. **Coat the tofu:** Use Extra-firm tofu, Cornstarch for dredging, and Salt and black pepper. Pat the pressed tofu dry, toss gently in the dredging starch and season the coating. Shake off loose starch; discard any unused coating mixture.\n3. **Fry the tofu:** Use Neutral frying oil and Neutral frying oil. Heat the measured starting oil in a 12-inch skillet over medium-high heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a plate.\n4. **Cook the broccoli:** Have Fresh broccoli, Salt and black pepper, and Neutral frying oil ready. Cook the broccoli in the same skillet, adding the separate additional frying-oil allowance only if the pan dries. Season with the vegetable salt and pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6 minutes. Transfer to the tofu plate.\n5. **Start the glaze:** Have Toasted sesame oil, Garlic cloves, and 1-inch piece of fresh ginger ready. Briefly let the pan cool, then wipe out loose burnt crumbs using a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant without burning.\n6. **Thicken and fold:** Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about 3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a broad spatula just until coated and hot; vigorous tossing can break the cubes.\n7. **Serve promptly:** Finish with Scallions and Cooked rice (if using). The tofu coating softens in the sauce; serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "ST-ROOT-1",
+      "title": "whole ingredient/formula/method reconciliation",
+      "rationale": "d3300d7e bulk rewrite removed½tsp sauce salt and honey alternative, while still calling unlisted salt/pepper and3tbsp oil in directions. Complete later source history contains no explicit individually accepted removal. Saved restoration proposal is not automatic publisher normalization. Current14oz tofu remains the main measure; exact saved14–16oz package range is retained distinctly. Current quick crispness/izakaya/all-five-tastes assertions lack support; practical coating and saucing explanation replaces them. Publisher direct access failed, so exact Git introduction is the formula proof, not an asserted live-source comparison.",
+      "confidence": "High for saved/current bytes and allocation arithmetic; moderate for untested process ranges; unresolved household intent as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+      ]
+    },
+    {
+      "id": "ST-ROOT-2",
+      "title": "complete method and learning",
+      "rationale": "Each ingredient is followed through preparation and its method destination; pan loads, sensory checks and state-specific measured endpoints are explicit. No quantity is converted by guessed crystal density, package weight or finished-stock yield.",
+      "confidence": "High for source-defined process and endpoint applicability; moderate for untested timings",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — Safe minimum internal temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+      ]
+    },
+    {
+      "id": "ST-ROOT-3",
+      "title": "nutrition",
+      "rationale": "Inherited nutritional values lack calculation evidence and do not represent the restored formula/allowances/variants. No replacement nutrition manufactured.",
+      "confidence": "High",
+      "applicableSources": ["Exact current formula and changed ingredient ledger"],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": ["Any future nutrition requires documented recipe-specific calculation."]
+    },
+    {
+      "id": "ST-ROOT-4",
+      "title": "source frying allowance",
+      "rationale": "Saved original explicitly allows additional frying oil as needed. Splitting the allowance by method destination avoids inventing a measured top-up or falsely limiting it to vegetables.",
+      "confidence": "high for saved method; kitchen quantity remains unmeasured",
+      "applicableSources": ["privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Record real pan/batch oil additions if nutrition is calculated later."]
+    },
+    {
+      "id": "ST-ROOT-5",
+      "title": "storage applicability",
+      "rationale": "USDA leftover limits apply to cooked perishable dishes. Texture note is specific to this dish; no claim of risk elimination or tested shelf life.",
+      "confidence": "High for primary guidance; texture is mechanism-based, not kitchen-tested",
+      "applicableSources": [
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Observe reheated texture in household equipment."]
+    },
+    {
+      "id": "ST-ROOT-6",
+      "title": "source sauce salt and full richness",
+      "rationale": "Exact original plus later complete history; sauce restoration requires peer approval.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+      ]
+    },
+    {
+      "id": "ST-ROOT-7",
+      "title": "frying and seasoning allowances",
+      "rationale": "Exact original methods3–4 support starting oil, pan-dry additions and both seasoning destinations. No guessed additional quantity.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+      ]
+    },
+    {
+      "id": "ST-ROOT-8",
+      "title": "crispness claim and sauce fold",
+      "rationale": "Starch coating takes up moisture; no quantified untested texture clock or guaranteed shattering crispness.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+      ]
+    },
+    {
+      "id": "ST-ROOT-9",
+      "title": "hot pan cleanup",
+      "rationale": "Preserves saved moisture/crumb control without bare-hand hot towel contact or cold-water thermal shock.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+      ]
+    },
+    {
+      "id": "ST-ROOT-10",
+      "title": "exact change reference",
+      "rationale": "Reviewers can inspect actual complete text rather than treating the short summaries as byte-exact quotations.",
+      "confidence": "High: programmatic exact snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "ST-ROOT-TIMING",
+      "title": "Keep testing evidence separate from cooking ranges",
+      "rationale": "Retain every planning range and sequence qualifier while keeping kitchen-testing status in the review evidence instead of the cooking prose.",
+      "confidence": "High for literal presentation-only omission; no clock or cooking change.",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Clear cooking prose and honest planning ranges; physical testing tracked separately."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Lemon-Miso%20Tofu%20with%20Broccoli.html",
+    "introductionScope": "Actual earliest saved HTML and first canonical Markdown independently recovered; complete followed histories retained from author/whole independent review.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "d3300d7e bulk rewrite removed½tsp sauce salt and honey alternative, while still calling unlisted salt/pepper and3tbsp oil in directions. Complete later source history contains no explicit individually accepted removal. Saved restoration proposal is not automatic publisher normalization.",
+    "Current14oz tofu remains the main measure; exact saved14–16oz package range is retained distinctly.",
+    "Current quick crispness/izakaya/all-five-tastes assertions lack support; practical coating and saucing explanation replaces them. Publisher direct access failed, so exact Git introduction is the formula proof, not an asserted live-source comparison."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "14 oz Extra-firm Tofu, pressed dry and cubed",
+        "destinationOrQuestion": "coat then fry and finish:14oz retained"
+      },
+      {
+        "row": 2,
+        "ingredient": "1 lb Fresh Broccoli, cut into small florets",
+        "destinationOrQuestion": "broccoli then finish: full1lb"
+      },
+      {
+        "row": 3,
+        "ingredient": "2 tbsp White (Shiro) Miso Paste",
+        "destinationOrQuestion": "sauce: full2tbsp miso"
+      },
+      {
+        "row": 4,
+        "ingredient": "1/4 cup Fresh Lemon Juice",
+        "destinationOrQuestion": "sauce: full¼cup lemon"
+      },
+      {
+        "row": 5,
+        "ingredient": "3 tbsp Maple Syrup",
+        "destinationOrQuestion": "sauce: full3tbsp maple or distinct honey"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tbsp Cornstarch",
+        "destinationOrQuestion": "sauce:1tbsp only"
+      },
+      {
+        "row": 7,
+        "ingredient": "2 tsp Toasted Sesame Oil",
+        "destinationOrQuestion": "aromatics: full2tsp sesame"
+      },
+      {
+        "row": 8,
+        "ingredient": "2 cloves Garlic, minced",
+        "destinationOrQuestion": "aromatics:2cloves garlic"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 inch Fresh Ginger, grated",
+        "destinationOrQuestion": "aromatics:1inch piece grated"
+      },
+      {
+        "row": 10,
+        "ingredient": "3/4 cup Hot Water",
+        "destinationOrQuestion": "sauce: full¾cup water"
+      },
+      {
+        "row": 11,
+        "ingredient": "1/3 cup Cornstarch (for dredging)",
+        "destinationOrQuestion": "coat:⅓cup, shake excess and discard unused"
+      },
+      {
+        "row": 12,
+        "ingredient": "2 Scallions, chopped",
+        "destinationOrQuestion": "serve: all2scallions"
+      },
+      {
+        "row": 13,
+        "ingredient": "Neutral Oil",
+        "destinationOrQuestion": "fry:3tbsp starting neutraloil plus distinct asneeded allowances"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Hot water",
+        "quantity": {
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "White (shiro) miso paste",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh lemon juice",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Maple syrup",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cornstarch for the sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt for the sauce",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Extra-firm tofu",
+        "quantity": {
+          "amount": 14,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "pressed dry, cut into roughly 1-inch cubes",
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cornstarch for dredging",
+        "quantity": {
+          "amount": 0.3333333333333333,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt and black pepper",
+        "quantity": null,
+        "allowance": "to season the coating",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Neutral frying oil",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "fry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Neutral frying oil",
+        "quantity": null,
+        "allowance": "additional only as needed if the pan dries while frying tofu",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "fry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh broccoli",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "small florets",
+        "destinations": [
+          {
+            "step": "broccoli",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt and black pepper",
+        "quantity": null,
+        "allowance": "to season the broccoli",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "broccoli",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Neutral frying oil",
+        "quantity": null,
+        "allowance": "additional only as needed if the pan dries while cooking broccoli",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "broccoli",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Toasted sesame oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "1-inch piece of fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "grated",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Scallion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "chopped",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cooked rice",
+        "quantity": null,
+        "allowance": "for serving, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "Use the same listed amount of honey.",
+        "effect": "Honey changes flavor and makes the dish non-vegan."
+      },
+      {
+        "ingredient": "14 oz tofu in the original batch",
+        "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+        "effect": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "sauce",
+      "text": "Use {{ingredients}}. Dissolve the miso in the hot water, then whisk in lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking."
+    },
+    {
+      "step": 2,
+      "id": "coat",
+      "text": "Use {{ingredients}}. Pat the pressed tofu dry, toss gently in the dredging starch and season the coating. Shake off loose starch; discard any unused coating mixture."
+    },
+    {
+      "step": 3,
+      "id": "fry",
+      "text": "Use {{ingredients}}. Heat the measured starting oil in a 12-inch skillet over medium-high heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a plate."
+    },
+    {
+      "step": 4,
+      "id": "broccoli",
+      "text": "Have {{ingredients}} ready. Cook the broccoli in the same skillet, adding the separate additional frying-oil allowance only if the pan dries. Season with the vegetable salt and pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6 minutes. Transfer to the tofu plate."
+    },
+    {
+      "step": 5,
+      "id": "aromatics",
+      "text": "Have {{ingredients}} ready. Briefly let the pan cool, then wipe out loose burnt crumbs using a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant without burning."
+    },
+    {
+      "step": 6,
+      "id": "finish",
+      "text": "Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about 3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a broad spatula just until coated and hot; vigorous tossing can break the cubes."
+    },
+    {
+      "step": 7,
+      "id": "serve",
+      "text": "Finish with {{ingredients}}. The tofu coating softens in the sauce; serve promptly."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "Use the same listed amount of honey.",
+        "destinationOrConstraint": "Honey changes flavor and makes the dish non-vegan."
+      },
+      {
+        "ingredient": "14 oz tofu in the original batch",
+        "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+        "destinationOrConstraint": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "Use the same listed amount of honey.",
+        "effect": "Honey changes flavor and makes the dish non-vegan."
+      },
+      {
+        "ingredient": "14 oz tofu in the original batch",
+        "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+        "effect": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+      }
+    ],
+    "scaling": [
+      {
+        "factor": 0.5,
+        "options": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Use the same listed amount of honey.",
+            "effect": "Honey changes flavor and makes the dish non-vegan."
+          },
+          {
+            "ingredient": "14 oz tofu in the original batch",
+            "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+            "effect": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      },
+      {
+        "factor": 1,
+        "options": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Use the same listed amount of honey.",
+            "effect": "Honey changes flavor and makes the dish non-vegan."
+          },
+          {
+            "ingredient": "14 oz tofu in the original batch",
+            "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+            "effect": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      },
+      {
+        "factor": 2,
+        "options": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Use the same listed amount of honey.",
+            "effect": "Honey changes flavor and makes the dish non-vegan."
+          },
+          {
+            "ingredient": "14 oz tofu in the original batch",
+            "alternative": "For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14 oz.",
+            "effect": "Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale the chosen tofu amount with the portions."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["miso-soup", "dashi-japanese-sea-stock", "steamed-edamame"],
+    "scope": "Pairings unchanged; no component replacement or complete dependency certification",
+    "linkedMealTiming": "Pressing tofu is excluded; sauce mixing, tofu/broccoli cooking and finishing are included. Cooked rice and the listed pairings require separate preparation. Dashi is a pairing, not the sauce water."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Lemon-miso sauce ---",
+        "3/8 cup Hot water",
+        "1 tbsp White (shiro) miso paste",
+        "1/8 cup Fresh lemon juice",
+        "1 1/2 tbsp Maple syrup",
+        "1/2 tbsp Cornstarch for the sauce",
+        "1/4 tsp Salt for the sauce",
+        "--- Tofu ---",
+        "7 oz Extra-firm tofu, pressed dry, cut into roughly 1-inch cubes",
+        "1/6 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "1 1/2 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "--- Vegetables and finish ---",
+        "1/2 lb Fresh broccoli, small florets",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "1 tsp Toasted sesame oil",
+        "1 Garlic clove, minced",
+        "1/2 1-inch piece of fresh ginger, grated",
+        "1 Scallion, chopped",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Mix the sauce:** Use Hot water, White (shiro) miso paste, Fresh lemon juice, Maple syrup, Cornstarch for the sauce, and Salt for the sauce. Dissolve the miso in the hot water, then whisk in lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking.\n2. **Coat the tofu:** Use Extra-firm tofu, Cornstarch for dredging, and Salt and black pepper. Pat the pressed tofu dry, toss gently in the dredging starch and season the coating. Shake off loose starch; discard any unused coating mixture.\n3. **Fry the tofu:** Use Neutral frying oil and Neutral frying oil. Heat the measured starting oil in a 12-inch skillet over medium-high heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a plate.\n4. **Cook the broccoli:** Have Fresh broccoli, Salt and black pepper, and Neutral frying oil ready. Cook the broccoli in the same skillet, adding the separate additional frying-oil allowance only if the pan dries. Season with the vegetable salt and pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6 minutes. Transfer to the tofu plate.\n5. **Start the glaze:** Have Toasted sesame oil, Garlic cloves, and 1-inch piece of fresh ginger ready. Briefly let the pan cool, then wipe out loose burnt crumbs using a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant without burning.\n6. **Thicken and fold:** Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about 3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a broad spatula just until coated and hot; vigorous tossing can break the cubes.\n7. **Serve promptly:** Finish with Scallions and Cooked rice (if using). The tofu coating softens in the sauce; serve promptly.",
+      "shoppingList": [
+        "3/8 cup Hot water",
+        "1 tbsp White (shiro) miso paste",
+        "1/8 cup Fresh lemon juice",
+        "1 1/2 tbsp Maple syrup",
+        "1/2 tbsp Cornstarch for the sauce",
+        "1/4 tsp Salt for the sauce",
+        "7 oz Extra-firm tofu",
+        "1/6 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "1 1/2 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "1/2 lb Fresh broccoli",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "1 tsp Toasted sesame oil",
+        "1 Garlic clove",
+        "1/2 1-inch piece of fresh ginger",
+        "1 Scallion",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Lemon-miso sauce ---",
+        "3/4 cup Hot water",
+        "2 tbsp White (shiro) miso paste",
+        "1/4 cup Fresh lemon juice",
+        "3 tbsp Maple syrup",
+        "1 tbsp Cornstarch for the sauce",
+        "1/2 tsp Salt for the sauce",
+        "--- Tofu ---",
+        "14 oz Extra-firm tofu, pressed dry, cut into roughly 1-inch cubes",
+        "1/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "3 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "--- Vegetables and finish ---",
+        "1 lb Fresh broccoli, small florets",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "2 tsp Toasted sesame oil",
+        "2 Garlic cloves, minced",
+        "1 1-inch piece of fresh ginger, grated",
+        "2 Scallions, chopped",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Mix the sauce:** Use Hot water, White (shiro) miso paste, Fresh lemon juice, Maple syrup, Cornstarch for the sauce, and Salt for the sauce. Dissolve the miso in the hot water, then whisk in lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking.\n2. **Coat the tofu:** Use Extra-firm tofu, Cornstarch for dredging, and Salt and black pepper. Pat the pressed tofu dry, toss gently in the dredging starch and season the coating. Shake off loose starch; discard any unused coating mixture.\n3. **Fry the tofu:** Use Neutral frying oil and Neutral frying oil. Heat the measured starting oil in a 12-inch skillet over medium-high heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a plate.\n4. **Cook the broccoli:** Have Fresh broccoli, Salt and black pepper, and Neutral frying oil ready. Cook the broccoli in the same skillet, adding the separate additional frying-oil allowance only if the pan dries. Season with the vegetable salt and pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6 minutes. Transfer to the tofu plate.\n5. **Start the glaze:** Have Toasted sesame oil, Garlic cloves, and 1-inch piece of fresh ginger ready. Briefly let the pan cool, then wipe out loose burnt crumbs using a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant without burning.\n6. **Thicken and fold:** Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about 3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a broad spatula just until coated and hot; vigorous tossing can break the cubes.\n7. **Serve promptly:** Finish with Scallions and Cooked rice (if using). The tofu coating softens in the sauce; serve promptly.",
+      "shoppingList": [
+        "3/4 cup Hot water",
+        "2 tbsp White (shiro) miso paste",
+        "1/4 cup Fresh lemon juice",
+        "3 tbsp Maple syrup",
+        "1 tbsp Cornstarch for the sauce",
+        "1/2 tsp Salt for the sauce",
+        "14 oz Extra-firm tofu",
+        "1/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "3 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "1 lb Fresh broccoli",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "2 tsp Toasted sesame oil",
+        "2 Garlic cloves",
+        "1 1-inch piece of fresh ginger",
+        "2 Scallions",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Lemon-miso sauce ---",
+        "1 1/2 cups Hot water",
+        "4 tbsp White (shiro) miso paste",
+        "1/2 cup Fresh lemon juice",
+        "6 tbsp Maple syrup",
+        "2 tbsp Cornstarch for the sauce",
+        "1 tsp Salt for the sauce",
+        "--- Tofu ---",
+        "28 oz Extra-firm tofu, pressed dry, cut into roughly 1-inch cubes",
+        "2/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "6 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "--- Vegetables and finish ---",
+        "2 lb Fresh broccoli, small florets",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "4 tsp Toasted sesame oil",
+        "4 Garlic cloves, minced",
+        "2 1-inch pieces of fresh ginger, grated",
+        "4 Scallions, chopped",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Mix the sauce:** Use Hot water, White (shiro) miso paste, Fresh lemon juice, Maple syrup, Cornstarch for the sauce, and Salt for the sauce. Dissolve the miso in the hot water, then whisk in lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking.\n2. **Coat the tofu:** Use Extra-firm tofu, Cornstarch for dredging, and Salt and black pepper. Pat the pressed tofu dry, toss gently in the dredging starch and season the coating. Shake off loose starch; discard any unused coating mixture.\n3. **Fry the tofu:** Use Neutral frying oil and Neutral frying oil. Heat the measured starting oil in a 12-inch skillet over medium-high heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a plate.\n4. **Cook the broccoli:** Have Fresh broccoli, Salt and black pepper, and Neutral frying oil ready. Cook the broccoli in the same skillet, adding the separate additional frying-oil allowance only if the pan dries. Season with the vegetable salt and pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6 minutes. Transfer to the tofu plate.\n5. **Start the glaze:** Have Toasted sesame oil, Garlic cloves, and 1-inch piece of fresh ginger ready. Briefly let the pan cool, then wipe out loose burnt crumbs using a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant without burning.\n6. **Thicken and fold:** Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about 3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a broad spatula just until coated and hot; vigorous tossing can break the cubes.\n7. **Serve promptly:** Finish with Scallions and Cooked rice (if using). The tofu coating softens in the sauce; serve promptly.",
+      "shoppingList": [
+        "1 1/2 cups Hot water",
+        "4 tbsp White (shiro) miso paste",
+        "1/2 cup Fresh lemon juice",
+        "6 tbsp Maple syrup",
+        "2 tbsp Cornstarch for the sauce",
+        "1 tsp Salt for the sauce",
+        "28 oz Extra-firm tofu",
+        "2/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "6 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "2 lb Fresh broccoli",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "4 tsp Toasted sesame oil",
+        "4 Garlic cloves",
+        "2 1-inch pieces of fresh ginger",
+        "4 Scallions",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Lemon-miso sauce ---",
+        "3/4 cup Hot water",
+        "2 tbsp White (shiro) miso paste",
+        "1/4 cup Fresh lemon juice",
+        "3 tbsp Maple syrup",
+        "1 tbsp Cornstarch for the sauce",
+        "1/2 tsp Salt for the sauce",
+        "--- Tofu ---",
+        "14 oz Extra-firm tofu, pressed dry, cut into roughly 1-inch cubes",
+        "1/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "3 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "--- Vegetables and finish ---",
+        "1 lb Fresh broccoli, small florets",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "2 tsp Toasted sesame oil",
+        "2 Garlic cloves, minced",
+        "1 1-inch piece of fresh ginger, grated",
+        "2 Scallions, chopped",
+        "Cooked rice, for serving, if desired, optional"
+      ],
+      "yield": "4 portions",
+      "shoppingList": [
+        "3/4 cup Hot water",
+        "2 tbsp White (shiro) miso paste",
+        "1/4 cup Fresh lemon juice",
+        "3 tbsp Maple syrup",
+        "1 tbsp Cornstarch for the sauce",
+        "1/2 tsp Salt for the sauce",
+        "14 oz Extra-firm tofu",
+        "1/3 cup Cornstarch for dredging",
+        "Salt and black pepper, to season the coating",
+        "3 tbsp Neutral frying oil",
+        "Neutral frying oil, additional only as needed if the pan dries while frying tofu",
+        "1 lb Fresh broccoli",
+        "Salt and black pepper, to season the broccoli",
+        "Neutral frying oil, additional only as needed if the pan dries while cooking broccoli",
+        "2 tsp Toasted sesame oil",
+        "2 Garlic cloves",
+        "1 1-inch piece of fresh ginger",
+        "2 Scallions",
+        "Cooked rice, for serving, if desired, optional"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Record actual tofu batch count and elapsed time in the household pan.",
+    "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

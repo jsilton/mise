@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 491,
-    "completeEditorialPending": 152,
+    "recordedCompleteEditorial": 503,
+    "completeEditorialPending": 140,
     "originalBaseline": 612,
-    "originalReviewed": 458,
+    "originalReviewed": 470,
     "consideredConsolidations": 10,
-    "originalPending": 144,
+    "originalPending": 132,
     "additionalSources": 41,
     "additionalReviewed": 33,
     "additionalPending": 8,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 491,
+      "editoriallyReviewed": 503,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 291
+      "reviewItems": 270
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "257 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 491 recorded complete / 152 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [d77d1640](https://github.com/jsilton/mise/commit/d77d164073216a069027876729791703c6750044), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37458426276) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "257 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -11384,18 +11384,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Washingtonpost.com",
       "sourceUrl": "https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11403,12 +11392,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/garlic-paste-toum-the-washington-post.md",
+        "acceptedSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/garlic-paste-toum-the-washington-post.json",
+        "sourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -11417,11 +11412,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Actual processor model/minimumload/motor/liquidcapacity unknown; source4cupyield is a planning claim, not additive-volume precision.",
+        "Current level2cups vs source scant2cups garlic and corrected alternating route texture remain separate cooking questions."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13502,13 +13498,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -13519,12 +13509,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/homemade-chili-oil.md",
+        "acceptedSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/homemade-chili-oil.json",
+        "sourceSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -13538,12 +13534,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "No actual publisher or exact original450 binding; firstGit formula is the established repository source.",
+        "Flake product roast/heat and test aliquot affect final yield; sixteen servings has no measured spoon-size evidence."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13559,13 +13555,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2016/enchilada-sauce-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -13576,12 +13566,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/homemade-enchilada-sauce.md",
+        "acceptedSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/homemade-enchilada-sauce.json",
+        "sourceSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -13590,12 +13586,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Flour blend and broth salt affect texture/seasoning; no precision yield or nutrition claim."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13692,18 +13687,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Sugarfreelondoner.com",
       "sourceUrl": "http://sugarfreelondoner.com/sugar-free-ketchup/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13711,19 +13695,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/homemade-sugar-free-ketchup.md",
+        "acceptedSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/homemade-sugar-free-ketchup.json",
+        "sourceSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Current1.5cupyield firstappears6980 without measured cooking evidence; remains planning only.",
+        "Modern2Tapplevinegar/optional sweetener differs from saved3Tredwine/no sweetener; no measuredpH/process supports long shelf life.",
+        "Fresh tomato whole-fruit conversion and actual blender model are unresolved."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14022,18 +14014,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/tyler-florence/hot-and-sour-soup-recipe-1914206",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -14044,12 +14025,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/hot-and-sour-soup.md",
+        "acceptedSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/hot-and-sour-soup.json",
+        "sourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87"
+      },
       "implementationCommits": [
         {
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
@@ -14058,12 +14045,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15772,18 +15759,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15791,19 +15767,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/lemon-miso-tofu-with-broccoli.md",
+        "acceptedSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/lemon-miso-tofu-with-broccoli.json",
+        "sourceSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22073,13 +22055,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -22090,12 +22066,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/san-marzano-tomato-sauce.md",
+        "acceptedSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/san-marzano-tomato-sauce.json",
+        "sourceSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -22104,12 +22086,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "No actual publisher or exact original450 binding. DOP purchase wording does not establish uniform sweetness/acidity or a preservation process.",
+        "Fourservings lacks measured portion volume; exact can and finishedreduction govern available sauce."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23350,18 +23332,7 @@
       "baseline": "original canonical",
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23369,19 +23340,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/shrimp-and-corn-chowder.md",
+        "acceptedSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/shrimp-and-corn-chowder.json",
+        "sourceSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which salt crystal type is used in the current household marinade? The retained source dose is a teaspoon, not a weight or a conversion to another salt.",
+        "Confirm the partly blended versus fuller pureed texture and large-onion variation separately.",
+        "Record actual pot size/headroom, model-approved blend temperature/load, softened plantain texture, active/elapsed clocks and shrimp thick-center readings.",
+        "Measure finished soup yield before treating six planned portions as exact volumes.",
+        "Current American cuisine tag is preserved as existing adaptation/style; no new national birthplace assigned.",
+        "Is separate annatto oil actually prepared, and how much strained oil remains after the measured chowder dose? The input cup is not a measured finished yield.",
+        "If the longer marinade is chosen, is milk puree/base prepared near the end or chilled ahead? Measure actual elapsed time for that branch.",
+        "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+        "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24844,18 +24828,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -24863,19 +24836,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.md",
+        "acceptedSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.json",
+        "sourceSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25143,18 +25122,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25162,19 +25130,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.md",
+        "acceptedSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.json",
+        "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm the actual collard tenderness clock, clam load/pot size and preferred whole-lemon versus measured-lemon balance.",
+        "Which actual blender model allows this liquid temperature and load? Confirm actual handling/elapsed clock without pretending the model has been checked."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25190,18 +25164,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25209,19 +25172,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/spaghetti-with-clams.md",
+        "acceptedSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/spaghetti-with-clams.json",
+        "sourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which clam size and edible yield correspond to the current two-pound shell-on purchase?",
+        "The original small-batch portion plan is inherited; verify appetite/yield without forcing it to equal current four portions.",
+        "Confirm supplier purging instructions and actual pot/skillet load at each scaled quantity.",
+        "No current publisher fetch available to certify a regional origin for this adaptation."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29151,18 +29122,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -29170,19 +29130,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/yaki-udon.md",
+        "acceptedSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/yaki-udon.json",
+        "sourceSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

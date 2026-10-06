@@ -1,7 +1,6 @@
 ---
 miseId: 41042504-4b4c-4ef7-b973-c728bfeade89
 title: San Marzano Tomato Sauce
-origin: Italy
 difficulty: easy
 cookingMethods:
   - simmer
@@ -45,6 +44,66 @@ ingredients:
     flavor)
   - 1 sprig Fresh Basil (or 1/2 tsp dried oregano)
   - Salt to taste
+learning:
+  focus: Keep the garlic pale and choose one herb route
+  outcome: >-
+    A lightly thickened tomato sauce using the full oil and the chosen
+    garlic/herb preparation.
+  techniques:
+    - temperature
+  before:
+    - >-
+      Use vessels with room for the full listed batch plus stirring or bubbling.
+      For larger batches use enough vessels and divide all ingredients
+      proportionally. Temperatures do not scale and heating/reduction times are
+      not linear.
+    - >-
+      Use either the full listed basil sprig amount or the full listed dried
+      oregano amount. Whole smashed garlic can be removed; sliced garlic stays.
+  checkpoints:
+    - step: 1
+      cue: Garlic is fragrant and still pale.
+      why: Thin slices can color sooner than whole smashed cloves.
+    - step: 3
+      cue: A gentle bubble and sauce that lightly coats a spoon.
+      why: >-
+        The short simmer is a consistency check, not a guarantee for every can
+        or pan.
+  timing: >-
+    About 25 minutes elapsed for the original batch, including
+    preparation/heating and roughly 10–15 minutes simmering. Extra vessels or
+    larger liquid loads can add time.
+  substitutions:
+    - ingredient: Silk Sauce for ravioli
+      alternative: >-
+        Use the same full listed tomato amount as puree or passata, with all the
+        olive oil and whole smashed garlic. Choose the same basil-or-oregano
+        option and follow the main garlic and simmer stages. After simmering
+        remove whole garlic and basil if used, turn off the heat and whisk in
+        additional cold unsalted butter: 1 tbsp for the original batch, scaled
+        proportionally with the batch. Keep the same cold handling and
+        rolling-boil reheating instructions.
+      effect: >-
+        The butter finish adds dairy and is not vegan; omit this variation for
+        the vegan or dairy-free main. Keep the full olive oil in either route.
+  storage: >-
+    Refrigerate promptly at 40°F /4°C or below, within 2 hours of preparation or
+    1 hour above 90°F /32°C. Use within 3–4 days or freeze small portions
+    promptly; thaw in the refrigerator. When reheating stored sauce, bring it to
+    a rolling boil while stirring.
+  troubleshooting:
+    - problem: Garlic browns before the tomatoes go in
+      cause: 'The oil is too hot, particularly for thin slices.'
+      fix: >-
+        Lower the heat and follow fragrance and pale color; do not extend the
+        garlic clock automatically.
+  sources:
+    - title: USDA — Leftovers and Food Safety
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
@@ -60,4 +119,4 @@ This quick Italian-American tomato sauce works with stuffed shells, baked ziti, 
 
 ## Variations
 
-**Silk Sauce (for ravioli):** Use tomato puree or passata instead of crushed tomatoes for a smoother texture. Leave garlic cloves whole and discard after simmering. Turn off heat and vigorously whisk in 1 tbsp cold unsalted butter at the very end - this creates a glossy, restaurant-quality finish.
+**Silk Sauce (for ravioli):** Use the same full listed tomato amount as puree or passata instead of crushed tomatoes. Keep all the main olive oil and whole smashed garlic, and choose the same basil-or-oregano option. Follow the main garlic and simmer stages, then discard the whole garlic and basil if used. Turn off heat and whisk in additional cold unsalted butter: 1 tbsp for the original batch, scaled proportionally with the batch. Keep the same cold handling and rolling-boil reheating instructions. This butter variation contains dairy and is not vegan; serve the main without butter for vegan or dairy-free needs.

@@ -1,0 +1,377 @@
+{
+  "slug": "san-marzano-tomato-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "1b5217eafbd04dddf06f7abb54214507108d202a9c070b252fcebfe5e18e1b0b",
+  "acceptedSourceSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the garlic pale and choose one herb route",
+        "outcome": "A lightly thickened tomato sauce using the full oil and the chosen garlic/herb preparation.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use vessels with room for the full listed batch plus stirring or bubbling. For larger batches use enough vessels and divide all ingredients proportionally. Temperatures do not scale and heating/reduction times are not linear.",
+          "Use either the full listed basil sprig amount or the full listed dried oregano amount. Whole smashed garlic can be removed; sliced garlic stays."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Garlic is fragrant and still pale.",
+            "why": "Thin slices can color sooner than whole smashed cloves."
+          },
+          {
+            "step": 3,
+            "cue": "A gentle bubble and sauce that lightly coats a spoon.",
+            "why": "The short simmer is a consistency check, not a guarantee for every can or pan."
+          }
+        ],
+        "timing": "About 25 minutes elapsed for the original batch, including preparation/heating and roughly 10–15 minutes simmering. Extra vessels or larger liquid loads can add time.",
+        "substitutions": [
+          {
+            "ingredient": "Silk Sauce for ravioli",
+            "alternative": "Use the same full listed tomato amount as puree or passata, with all the olive oil and whole smashed garlic. Choose the same basil-or-oregano option and follow the main garlic and simmer stages. After simmering remove whole garlic and basil if used, turn off the heat and whisk in additional cold unsalted butter: 1 tbsp for the original batch, scaled proportionally with the batch. Keep the same cold handling and rolling-boil reheating instructions.",
+            "effect": "The butter finish adds dairy and is not vegan; omit this variation for the vegan or dairy-free main. Keep the full olive oil in either route."
+          }
+        ],
+        "storage": "Refrigerate promptly at 40°F /4°C or below, within 2 hours of preparation or 1 hour above 90°F /32°C. Use within 3–4 days or freeze small portions promptly; thaw in the refrigerator. When reheating stored sauce, bring it to a rolling boil while stirring.",
+        "troubleshooting": [
+          {
+            "problem": "Garlic browns before the tomatoes go in",
+            "cause": "The oil is too hot, particularly for thin slices.",
+            "fix": "Lower the heat and follow fragrance and pale color; do not extend the garlic clock automatically."
+          }
+        ],
+        "sources": [
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis quick Italian-American tomato sauce works with stuffed shells, baked ziti, and eggplant Parmesan. Allow about twenty-five minutes for preparation, warming the pan and tomatoes, and the short simmer. Taste the tomatoes before final seasoning; sweetness and acidity vary by can. The key is restraint: warm the garlic in oil gently without browning it, then let the tomatoes do the work with a short simmer.\n\n## Directions\n\n1. **The Garlic:** Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color.\n2. **The Tomatoes:** Pour in the crushed San Marzano tomatoes. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt.\n3. **The Simmer:** Let the sauce bubble gently for 10-15 minutes, stirring occasionally. The sauce will darken slightly and thicken just enough to coat the back of a spoon.\n4. **Finish:** Remove the whole basil sprig if used. Remove smashed garlic cloves if you want a subtler sauce; leave sliced garlic and dried oregano in the sauce. Taste and adjust salt. Use immediately, or refrigerate promptly in shallow containers within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze; when reheating, bring the sauce to a rolling boil while stirring. This is a cooked refrigerator sauce, not a canning formula.\n\n## Variations\n\n**Silk Sauce (for ravioli):** Use tomato puree or passata instead of crushed tomatoes for a smoother texture. Leave garlic cloves whole and discard after simmering. Turn off heat and vigorously whisk in 1 tbsp cold unsalted butter at the very end - this creates a glossy, restaurant-quality finish.\n",
+    "after": "\n## Chef's Note\n\nThis quick Italian-American tomato sauce works with stuffed shells, baked ziti, and eggplant Parmesan. Allow about twenty-five minutes for preparation, warming the pan and tomatoes, and the short simmer. Taste the tomatoes before final seasoning; sweetness and acidity vary by can. The key is restraint: warm the garlic in oil gently without browning it, then let the tomatoes do the work with a short simmer.\n\n## Directions\n\n1. **The Garlic:** Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color.\n2. **The Tomatoes:** Pour in the crushed San Marzano tomatoes. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt.\n3. **The Simmer:** Let the sauce bubble gently for 10-15 minutes, stirring occasionally. The sauce will darken slightly and thicken just enough to coat the back of a spoon.\n4. **Finish:** Remove the whole basil sprig if used. Remove smashed garlic cloves if you want a subtler sauce; leave sliced garlic and dried oregano in the sauce. Taste and adjust salt. Use immediately, or refrigerate promptly in shallow containers within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze; when reheating, bring the sauce to a rolling boil while stirring. This is a cooked refrigerator sauce, not a canning formula.\n\n## Variations\n\n**Silk Sauce (for ravioli):** Use the same full listed tomato amount as puree or passata instead of crushed tomatoes. Keep all the main olive oil and whole smashed garlic, and choose the same basil-or-oregano option. Follow the main garlic and simmer stages, then discard the whole garlic and basil if used. Turn off heat and whisk in additional cold unsalted butter: 1 tbsp for the original batch, scaled proportionally with the batch. Keep the same cold handling and rolling-boil reheating instructions. This butter variation contains dairy and is not vegan; serve the main without butter for vegan or dairy-free needs.\n"
+  },
+  "findings": [
+    {
+      "id": "SO08-5",
+      "title": "SO08-5",
+      "rationale": "Git-only firstfd4/fullhistory and current858 scope preserved. Full28ozcan/3Toliveoil/3garlic/herbchooseone/salt unchanged; exact1Toptionalbutter already in wholepublic variation now listed and scales. Current858 full25min/gentle pale garlic/herb alternatives/3–4day/promptcool/rollingboil/noncanning cues retained. Main remains vegan/dairyfree and its exact tags retained; explicitly exclusive optional butter route is not the main. Current lint does not ignore optional dairy rows; this singleclassification conflict is an independent/root question, not changed to passlint. No actual native binding or named publisher for this repository-authored formula. Italy origin not established by a tomato/style tag; preserveItalian cuisine/Italian-Americancookingcontext.",
+      "confidence": "High exact history/quantity proof; moderate culinary sequence, planning and storage-category applications; untested",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/san-marzano-tomato-sauce.md",
+            "sha256": "ac5ce3acf25edb5c95851a457538ff2a72ff80a80d95469333a8f9ecc79c5e01",
+            "scope": "Actual first available Git cooking introduction; exact original450 binding absent, no native-original certification"
+          },
+          "scope": "Exact actual Git cooking introduction, with source quantities and preparations only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical cooking/quantity history; persistence alone does not prove deliberate rejection"
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Generalcookedleftover3–4day/shalllowpromptcool/reheatsaucerollingboil; moderateeditorialcategoryapplication, directpagefetchblocked butofficialindexedtext read"
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "No actual publisher or exact original450 binding. DOP purchase wording does not establish uniform sweetness/acidity or a preservation process.",
+        "Fourservings lacks measured portion volume; exact can and finishedreduction govern available sauce."
+      ]
+    },
+    {
+      "id": "ROOT-COMPLETE-METHODS-AND-OPTIONS",
+      "title": "Preserve cooking methods and exclusive options",
+      "rationale": "The exact original-batch butter remains a proportionally scaled additional supply and off-heat destination within its full exclusive variant. Existing main oil/ingredient list/tags remain unchanged. Bounded whole-editor clarification supersedes the earlier shared optional-row representation; no linter rule is changed. Same complete exclusive dairy variant and explicit proportionally scaled1TBoriginal-batch supply. Keep the original shared vegan main list unchanged; additional butter is declared exactly inside the exclusive dairy branch instead of the default main shopping supplies.",
+      "confidence": "High direct source/method scope; formula outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "src/content/recipes/san-marzano-tomato-sauce.md",
+          "scope": "Current complete preserved Silk Sauce option."
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "src/content/recipes/san-marzano-tomato-sauce.md"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "content", "ingredients"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/san-marzano-tomato-sauce.md",
+    "introductionScope": "Actual first available Git cooking introduction; exact original450 binding absent, no native-original certification",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Git-only firstfd4/fullhistory and current858 scope preserved. Full28ozcan/3Toliveoil/3garlic/herbchooseone/salt unchanged; exact1Toptionalbutter already in wholepublic variation now listed and scales. Current858 full25min/gentle pale garlic/herb alternatives/3–4day/promptcool/rollingboil/noncanning cues retained. Main remains vegan/dairyfree and its exact tags retained; explicitly exclusive optional butter route is not the main. Current lint does not ignore optional dairy rows; this singleclassification conflict is an independent/root question, not changed to passlint. No actual native binding or named publisher for this repository-authored formula. Italy origin not established by a tomato/style tag; preserveItalian cuisine/Italian-Americancookingcontext.",
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "No actual publisher or exact original450 binding. DOP purchase wording does not establish uniform sweetness/acidity or a preservation process.",
+        "Fourservings lacks measured portion volume; exact can and finishedreduction govern available sauce."
+      ]
+    },
+    {
+      "discussion": "Root and bounded independent clarification retain exact current vegan main list/tags and full3TBoliveoil; original1TBbutter is explicitly original-batch/proportionally scaled only inside complete exclusive dairy Silk route. Earlier new shared optional butter row is superseded; no source food loss or linter change.",
+      "confidence": "High literal source preservation; no physical variant test."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "actualMethodDestination": "Tomato2"
+      },
+      {
+        "text": "3 tbsp Extra Virgin Olive Oil",
+        "actualMethodDestination": "Garlic1"
+      },
+      {
+        "text": "3 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "actualMethodDestination": "Garlic1wholeoptionaldiscard4/slicedretain"
+      },
+      {
+        "text": "1 sprig Fresh Basil (or 1/2 tsp dried oregano)",
+        "actualMethodDestination": "Chooseone2:basilremove4oregano remains"
+      },
+      {
+        "text": "Salt to taste",
+        "actualMethodDestination": "Season2/finish4"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "actualMethodDestination": "Tomato2"
+      },
+      {
+        "text": "3 tbsp Extra Virgin Olive Oil",
+        "actualMethodDestination": "Garlic1"
+      },
+      {
+        "text": "3 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "actualMethodDestination": "Garlic1wholeoptionaldiscard4/slicedretain"
+      },
+      {
+        "text": "1 sprig Fresh Basil (or 1/2 tsp dried oregano)",
+        "actualMethodDestination": "Chooseone2:basilremove4oregano remains"
+      },
+      {
+        "text": "Salt to taste",
+        "actualMethodDestination": "Season2/finish4"
+      },
+      {
+        "text": "1 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation",
+        "actualMethodDestination": "SeparateSilkfinishoffheat"
+      }
+    ],
+    "frozenMethodOnly": ["SeparateSilk1tbspcoldunsaltedbutter"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "The Garlic: Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color."
+    },
+    {
+      "step": 2,
+      "text": "The Tomatoes: Pour in the crushed San Marzano tomatoes. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt."
+    },
+    {
+      "step": 3,
+      "text": "The Simmer: Let the sauce bubble gently for 10-15 minutes, stirring occasionally. The sauce will darken slightly and thicken just enough to coat the back of a spoon."
+    },
+    {
+      "step": 4,
+      "text": "Finish: Remove the whole basil sprig if used. Remove smashed garlic cloves if you want a subtler sauce; leave sliced garlic and dried oregano in the sauce. Taste and adjust salt. Use immediately, or refrigerate promptly in shallow containers within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze; when reheating, bring the sauce to a rolling boil while stirring. This is a cooked refrigerator sauce, not a canning formula."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Silk Sauce for ravioli",
+      "alternative": "Use the same full listed tomato amount as puree or passata, with all the olive oil and whole smashed garlic. Choose the same basil-or-oregano option and follow the main garlic and simmer stages. After simmering remove whole garlic and basil if used, turn off the heat and whisk in additional cold unsalted butter: 1 tbsp for the original batch, scaled proportionally with the batch. Keep the same cold handling and rolling-boil reheating instructions.",
+      "effect": "The butter finish adds dairy and is not vegan; omit this variation for the vegan or dairy-free main. Keep the full olive oil in either route."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "stuffed-shells-filled-with-spinach-and-ricotta",
+      "shrimp-fettuccine-alfredo",
+      "baked-chicken-parmesan"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed-meal ingredient links found; metadata pairings are suggestions, not full-batch formula substitutions or review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Preserved source/current planning only; no measured kitchen portions",
+    "capacity": [
+      "Use vessels with room for the full listed batch plus stirring or bubbling. For larger batches use enough vessels and divide all ingredients proportionally. Temperatures do not scale and heating/reduction times are not linear.",
+      "Use either the full listed basil sprig amount or the full listed dried oregano amount. Whole smashed garlic can be removed; sliced garlic stays."
+    ],
+    "timing": "About 25 minutes elapsed for the original batch, including preparation/heating and roughly 10–15 minutes simmering. Extra vessels or larger liquid loads can add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "3/4 tbsp Extra Virgin Olive Oil",
+        "3/4 clove Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "1/4 sprig Fresh Basil (or 1/8 tsp dried oregano)",
+        "Salt to taste",
+        "1/4 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "1 1/2 tbsp Extra Virgin Olive Oil",
+        "1 1/2 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "1/2 sprig Fresh Basil (or 1/4 tsp dried oregano)",
+        "Salt to taste",
+        "1/2 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "3 tbsp Extra Virgin Olive Oil",
+        "3 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "1 sprig Fresh Basil (or 1/2 tsp dried oregano)",
+        "Salt to taste",
+        "1 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 cans (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "4 1/2 tbsp Extra Virgin Olive Oil",
+        "4 1/2 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "1 1/2 sprig Fresh Basil (or 3/4 tsp dried oregano)",
+        "Salt to taste",
+        "1 1/2 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 cans (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "6 tbsp Extra Virgin Olive Oil",
+        "6 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "2 sprig Fresh Basil (or 1 tsp dried oregano)",
+        "Salt to taste",
+        "2 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 cans (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "9 tbsp Extra Virgin Olive Oil",
+        "9 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "3 sprig Fresh Basil (or 1 1/2 tsp dried oregano)",
+        "Salt to taste",
+        "3 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
+        "3 tbsp Extra Virgin Olive Oil",
+        "3 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder flavor)",
+        "1 sprig Fresh Basil (or 1/2 tsp dried oregano)",
+        "Salt to taste",
+        "1 tbsp Cold Unsalted Butter, optional for the separate Silk Sauce variation"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "85825min/gentlepalegarlic/herbchoice/promptcold3–4day/rollingboil/noncanning preserved.",
+  "remainingQuestions": [
+    "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+    "No actual publisher or exact original450 binding. DOP purchase wording does not establish uniform sweetness/acidity or a preservation process.",
+    "Fourservings lacks measured portion volume; exact can and finishedreduction govern available sauce."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

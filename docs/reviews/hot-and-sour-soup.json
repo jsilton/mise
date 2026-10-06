@@ -1,0 +1,1458 @@
+{
+  "slug": "hot-and-sour-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408",
+  "acceptedSourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "30 min",
+      "after": "About 30 min preparation, including the mushroom soak"
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 20–30 min cooking"
+    },
+    {
+      "field": "totalTime",
+      "before": "55 min with prepared stock and cooked pork",
+      "after": "About 55–65 min with prepared stock and cooked pork"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 quarts prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "2 tbsp Canola Oil",
+        "1/4 lb Chinese BBQ Pork (Char Siu), shredded",
+        "1 square Firm Tofu, cut into 1/4-inch strips",
+        "1/2 cup Bamboo Shoots, sliced",
+        "1 oz Dried Wood Ear Mushrooms, reconstituted and sliced",
+        "1/4 cup Soy Sauce",
+        "1/4 cup Rice Vinegar (The \"Sour\" High Note)",
+        "1 tsp White Pepper (The \"Hot\" High Note)",
+        "1 tbsp Red Chile Paste (Sambal Oelek)",
+        "1 tsp Fresh Ginger, grated",
+        "3 tbsp cornstarch, mixed with the separately measured slurry water",
+        "1/4 cup water, for the cornstarch slurry",
+        "1 large Egg, lightly beaten",
+        "Sesame Oil and Scallions for garnish"
+      ],
+      "after": [
+        "--- Soup ---",
+        "1 oz Dried wood ear mushrooms, soaked, drained, rinsed and sliced",
+        "Boiling water, enough to cover the mushrooms",
+        "2 tbsp Canola oil",
+        "1 tsp Fresh ginger, grated",
+        "1 tbsp Red chile paste (sambal oelek)",
+        "1/4 lb Fully cooked char siu, shredded",
+        "1/2 cup Bamboo shoots, sliced",
+        "2 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/4 cup Soy sauce",
+        "1/4 cup Rice vinegar",
+        "1 tsp White pepper",
+        "1 tsp Salt",
+        "Sugar, a pinch",
+        "1 Square of firm tofu, drained, cut into ¼-inch strips",
+        "3 tbsp Cornstarch",
+        "1/4 cup Water for the cornstarch slurry",
+        "1 Large egg, lightly beaten",
+        "--- Finish ---",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 90,
+        "protein": 8,
+        "carbs": 8,
+        "fat": 2,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium": 3050
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "soup",
+            "name": "Soup",
+            "ingredients": [
+              {
+                "id": "mushrooms",
+                "key": "mushrooms",
+                "name": "Dried wood ear mushrooms",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "soak",
+                    "share": 1
+                  }
+                ],
+                "preparation": "soaked, drained, rinsed and sliced"
+              },
+              {
+                "id": "soak-water",
+                "key": "soak-water",
+                "name": "Boiling water",
+                "allowance": "enough to cover the mushrooms",
+                "uses": [
+                  {
+                    "step": "soak",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Canola oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "Fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "Red chile paste (sambal oelek)",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Fully cooked char siu",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded"
+              },
+              {
+                "id": "bamboo",
+                "key": "bamboo",
+                "name": "Bamboo shoots",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "stock",
+                "key": "stock",
+                "name": "Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "quart"
+                },
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "Soy sauce",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "Rice vinegar",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "White pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tofu",
+                "key": "tofu",
+                "name": "Square of firm tofu",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "tofu",
+                    "share": 1
+                  }
+                ],
+                "plural": "Squares of firm tofu",
+                "preparation": "drained, cut into ¼-inch strips"
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "Cornstarch",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "thicken",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "slurry-water",
+                "key": "slurry-water",
+                "name": "Water for the cornstarch slurry",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "thicken",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "Large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "Large eggs",
+                "preparation": "lightly beaten"
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "Sesame oil",
+                "allowance": "a drizzle for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "Fresh scallions",
+                "allowance": "for garnish, sliced",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "Fresh cilantro",
+                "allowance": "for garnish, chopped",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "soak",
+            "title": "Prepare the wood ears",
+            "text": "Place {{ingredients}} in a heatproof bowl, using enough boiling water to cover the mushrooms. Soak for about 30 minutes. Drain and rinse, discard any hard clusters in the centers, then slice. Discard the soaking liquid."
+          },
+          {
+            "id": "infuse",
+            "title": "Start the soup",
+            "text": "Have {{ingredients}} ready. In a pot large enough for the stock and solids with stirring room, heat the oil over medium heat. Cook the ginger and chile paste for about 1 minute, stirring, then add the fully cooked pork, drained mushrooms and bamboo."
+          },
+          {
+            "id": "boil",
+            "title": "Simmer the broth",
+            "text": "Add {{ingredients}}. Bring to a boil, then gently simmer for about 10 minutes."
+          },
+          {
+            "id": "season",
+            "title": "Season",
+            "text": "Stir in {{ingredients}}. Taste the broth with a clean spoon before adding the egg; stock brands differ in salinity."
+          },
+          {
+            "id": "tofu",
+            "title": "Warm the tofu",
+            "text": "Add {{ingredients}} and gently simmer for about 3 minutes, keeping the strips intact."
+          },
+          {
+            "id": "thicken",
+            "title": "Thicken",
+            "text": "Mix {{ingredients}} separately until smooth, restir just before use and slowly pour into the simmering soup while stirring. Simmer for about 2 minutes, until evenly thickened and no longer cloudy with raw starch."
+          },
+          {
+            "id": "egg",
+            "title": "Set the egg ribbons",
+            "text": "Have {{ingredients}} ready. Remove the pot from heat and stir the soup in one direction to create a current. Stop stirring and slowly stream in the egg. Let the ribbons set, then gently return to heat until fully set and the soup measures at least 165°F /74°C."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Ladle into bowls and finish with {{ingredients}}. Serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "White pepper and rice vinegar supply the hot and sour notes",
+        "outcome": "Peppery, sour soup with suspended solids and set egg ribbons.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Measure 2 quarts of finished prepared stock for the original batch. The linked stock’s starting water is not its finished yield; make enough stock separately rather than assuming one batch supplies this amount.",
+          "Use fully cooked char siu and a firm tofu square that holds together in thin strips. The listed square is not a specified package weight.",
+          "Scale the measured soup ingredients together and use a pot with room above the liquid for stirring and boiling. Soaking and simmering times do not multiply with portions."
+        ],
+        "checkpoints": [
+          {
+            "step": 6,
+            "cue": "Slurry-thickened soup is gently simmering and no longer cloudy with raw starch.",
+            "why": "Restir settled starch just before pouring so it thickens evenly."
+          },
+          {
+            "step": 7,
+            "cue": "Egg ribbons are fully set and the soup reaches 165°F.",
+            "why": "Set appearance alone is not the measured endpoint for a meat-containing egg dish."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Slurry leaves lumps or the egg forms clumps",
+            "cause": "Starch settled or egg was added too quickly to still broth",
+            "fix": "Restir the slurry and pour gradually while stirring. Make a current before slowly streaming the beaten egg; then let the ribbons set before gently reheating."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "1 tsp grated ginger in the original batch",
+            "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+            "effect": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat while gently stirring and check 165°F throughout. Bring reheated soup to a rolling boil as USDA additionally recommends, then stop boiling; prolonged boiling can concentrate the broth and change the egg/tofu texture.",
+        "timing": "About 30 min preparation, including the mushroom soak; About 20–30 min cooking; About 55–65 min with prepared stock and cooked pork.",
+        "sources": [
+          {
+            "title": "Tyler Florence — Hot and Sour Soup",
+            "url": "http://www.foodnetwork.com/recipes/tyler-florence/hot-and-sour-soup-recipe-1914206"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "CDC — Safer food choices: meat-containing egg dishes",
+            "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nHot and sour soup is a Sichuan/Hunan classic. The name is literal: \"hot\" from white pepper (not just chilies) and \"sour\" from rice vinegar. To get long, silken egg ribbons instead of clumps, stir the soup vigorously in one direction to create a vortex, then slowly stream in beaten egg while the liquid is moving. Cornstarch thickens the broth and helps suspend the pork and mushrooms evenly. Wood ear mushrooms and bamboo shoots add traditional texture.\n\n## Directions\n\nUse prepared stock and fully cooked char siu. The timing includes the 30-minute mushroom soak but excludes making stock or cooking the pork from scratch.\n\n1.  **Prep:** Soak dried mushrooms in boiling water for 30 minutes. Drain, rinse, and slice.\n2.  **Infuse:** In a large pot, heat the measured canola oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots.\n3.  **Boil:** Pour in the [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil and simmer for 10 minutes.\n4.  **Season:** Stir in the soy sauce, vinegar, and white pepper. Taste - it should be sharp and punchy.\n5.  **Tofu:** Add the tofu strips and simmer for 3 minutes.\n6.  **Bind:** Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear.\n7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg. Let the ribbons set, then gently return to a simmer if needed until the egg is fully set and the soup reaches at least 160°F / 71°C.\n8.  **Serve:** Ladle into bowls and garnish with sesame oil and fresh scallions for the final **High Note**.\n",
+    "after": "\n## Chef's Note\n\nWhite pepper and rice vinegar supply the hot and sour notes. Prepare the egg and slurry before starting: the slurry settles while it waits, and the egg forms ribbons most easily in moving broth. Use fully cooked char siu and measure the prepared stock; making either from scratch is a separate task.\n\n## Directions\n\n1. **Prepare the wood ears:** Place Dried wood ear mushrooms and Boiling water in a heatproof bowl, using enough boiling water to cover the mushrooms. Soak for about 30 minutes. Drain and rinse, discard any hard clusters in the centers, then slice. Discard the soaking liquid.\n2. **Start the soup:** Have Canola oil, Fresh ginger, Red chile paste (sambal oelek), Fully cooked char siu, and Bamboo shoots ready. In a pot large enough for the stock and solids with stirring room, heat the oil over medium heat. Cook the ginger and chile paste for about 1 minute, stirring, then add the fully cooked pork, drained mushrooms and bamboo.\n3. **Simmer the broth:** Add Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil, then gently simmer for about 10 minutes.\n4. **Season:** Stir in Soy sauce, Rice vinegar, White pepper, Salt, and Sugar. Taste the broth with a clean spoon before adding the egg; stock brands differ in salinity.\n5. **Warm the tofu:** Add Square of firm tofu and gently simmer for about 3 minutes, keeping the strips intact.\n6. **Thicken:** Mix Cornstarch and Water for the cornstarch slurry separately until smooth, restir just before use and slowly pour into the simmering soup while stirring. Simmer for about 2 minutes, until evenly thickened and no longer cloudy with raw starch.\n7. **Set the egg ribbons:** Have Large egg ready. Remove the pot from heat and stir the soup in one direction to create a current. Stop stirring and slowly stream in the egg. Let the ribbons set, then gently return to heat until fully set and the soup measures at least 165°F /74°C.\n8. **Serve:** Ladle into bowls and finish with Sesame oil, Fresh scallions, and Fresh cilantro. Serve hot.\n"
+  },
+  "findings": [
+    {
+      "id": "ST-ROOT-1",
+      "title": "whole ingredient/formula/method reconciliation",
+      "rationale": "Exact original has 1 tsp salt, a pinch of sugar and cilantro. 6980b180 removed these in a bulk rewrite; all later source-changing history inspected, with no explicit accepted household removal found. Restorations remain peer-pending, not proved accidental merely by bulk origin. Current 1 tsp grated ginger is retained; original 1-inch piece is a distinct option with no asserted volume equivalence. FoodSafety.gov gives generic egg-dish guidance at 160°F; CDC distinguishes egg dishes containing meat or poultry at 165°F. Applying the latter category to this cooked-pork-and-egg soup supports the proposed 165°F endpoint as an editorial inference, not a soup-specific validation or a claim that every other 160°F egg recipe is inaccurate.",
+      "confidence": "High for saved/current bytes and allocation arithmetic; moderate for untested process ranges; unresolved household intent as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+      ]
+    },
+    {
+      "id": "ST-ROOT-2",
+      "title": "complete method and learning",
+      "rationale": "Each ingredient is followed through preparation and its method destination; pan loads, sensory checks and state-specific measured endpoints are explicit. No quantity is converted by guessed crystal density, package weight or finished-stock yield.",
+      "confidence": "High for source-defined process and endpoint applicability; moderate for untested timings",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — Safe minimum internal temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "CDC — Safer food choices: meat-containing egg dishes",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+      ]
+    },
+    {
+      "id": "ST-ROOT-3",
+      "title": "nutrition",
+      "rationale": "Inherited nutritional values lack calculation evidence and do not represent the restored formula/allowances/variants. No replacement nutrition manufactured.",
+      "confidence": "High",
+      "applicableSources": ["Exact current formula and changed ingredient ledger"],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": ["Any future nutrition requires documented recipe-specific calculation."]
+    },
+    {
+      "id": "ST-ROOT-4",
+      "title": "storage applicability",
+      "rationale": "USDA leftover limits apply to this cooked perishable soup. The measured 165°F endpoint and the additional soup rolling-boil recommendation are distinct. Avoid prolonged boiling for texture/concentration; this is a mechanism-based caution, not a tested texture result or a claim of zero risk. The first-cook off-heat egg-streaming and gentle finish remain unchanged.",
+      "confidence": "High for primary guidance; texture is mechanism-based, not kitchen-tested",
+      "applicableSources": [
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Observe reheated texture in household equipment."]
+    },
+    {
+      "id": "ST-ROOT-5",
+      "title": "salt/sugar/cilantro source quantities",
+      "rationale": "Saved first Git includes all three; source-restoration proposal after complete later history, with no assertion that absence of documented decision proves actual household intent.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+      ]
+    },
+    {
+      "id": "ST-ROOT-6",
+      "title": "meat-containing egg endpoint",
+      "rationale": "FoodSafety.gov gives generic egg-dish guidance at 160°F; CDC distinguishes egg dishes containing meat or poultry at 165°F. Applying the latter category to this cooked-pork-and-egg soup supports the proposed 165°F endpoint as an editorial inference, not a soup-specific validation or a claim that every other 160°F egg recipe is inaccurate.",
+      "confidence": "High for the primary category text; moderate for application to this cooked-pork-and-egg soup; no soup-specific validation.",
+      "applicableSources": [
+        "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+      ]
+    },
+    {
+      "id": "ST-ROOT-7",
+      "title": "prepared stock input versus component starting water",
+      "rationale": "Preserves5741495b prepared-stock requirement; no guessed water addition or stock multiplier.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+      ]
+    },
+    {
+      "id": "ST-ROOT-8",
+      "title": "current/source ginger distinction",
+      "rationale": "No teaspoon conversion invented; source original stays distinct.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+      ]
+    },
+    {
+      "id": "ST-ROOT-9",
+      "title": "exact change reference",
+      "rationale": "Reviewers can inspect actual complete text rather than treating the short summaries as byte-exact quotations.",
+      "confidence": "High: programmatic exact snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "ST-ROOT-TIMING",
+      "title": "Keep testing evidence separate from cooking ranges",
+      "rationale": "Retain every planning range and sequence qualifier while keeping kitchen-testing status in the review evidence instead of the cooking prose.",
+      "confidence": "High for literal presentation-only omission; no clock or cooking change.",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Clear cooking prose and honest planning ranges; physical testing tracked separately."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Hot%20and%20Sour%20Soup.html",
+    "introductionScope": "Actual earliest saved HTML and first canonical Markdown independently recovered; complete followed histories retained from author/whole independent review.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact original has 1 tsp salt, a pinch of sugar and cilantro. 6980b180 removed these in a bulk rewrite; all later source-changing history inspected, with no explicit accepted household removal found. Restorations remain peer-pending, not proved accidental merely by bulk origin.",
+    "Current 1 tsp grated ginger is retained; original 1-inch piece is a distinct option with no asserted volume equivalence.",
+    "FoodSafety.gov gives generic egg-dish guidance at 160°F; CDC distinguishes egg dishes containing meat or poultry at 165°F. Applying the latter category to this cooked-pork-and-egg soup supports the proposed 165°F endpoint as an editorial inference, not a soup-specific validation or a claim that every other 160°F egg recipe is inaccurate."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "2 quarts prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "destinationOrQuestion": "boil: measured FINISHED prepared stock"
+      },
+      {
+        "row": 2,
+        "ingredient": "2 tbsp Canola Oil",
+        "destinationOrQuestion": "infuse: full2tbsp oil"
+      },
+      {
+        "row": 3,
+        "ingredient": "1/4 lb Chinese BBQ Pork (Char Siu), shredded",
+        "destinationOrQuestion": "infuse: fully cooked charsiu"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 square Firm Tofu, cut into 1/4-inch strips",
+        "destinationOrQuestion": "tofu: saved1square retained, no guessed weight"
+      },
+      {
+        "row": 5,
+        "ingredient": "1/2 cup Bamboo Shoots, sliced",
+        "destinationOrQuestion": "infuse after mushroom soak"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 oz Dried Wood Ear Mushrooms, reconstituted and sliced",
+        "destinationOrQuestion": "soak; drain/rinse/slice, then infuse"
+      },
+      {
+        "row": 7,
+        "ingredient": "1/4 cup Soy Sauce",
+        "destinationOrQuestion": "season: soy"
+      },
+      {
+        "row": 8,
+        "ingredient": "1/4 cup Rice Vinegar (The \"Sour\" High Note)",
+        "destinationOrQuestion": "season: vinegar"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 tsp White Pepper (The \"Hot\" High Note)",
+        "destinationOrQuestion": "season: whitepepper"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 tbsp Red Chile Paste (Sambal Oelek)",
+        "destinationOrQuestion": "infuse: sambal"
+      },
+      {
+        "row": 11,
+        "ingredient": "1 tsp Fresh Ginger, grated",
+        "destinationOrQuestion": "infuse: current1tsp grated; saved inch option distinct"
+      },
+      {
+        "row": 12,
+        "ingredient": "3 tbsp cornstarch, mixed with the separately measured slurry water",
+        "destinationOrQuestion": "thicken: full3tbsp starch"
+      },
+      {
+        "row": 13,
+        "ingredient": "1/4 cup water, for the cornstarch slurry",
+        "destinationOrQuestion": "thicken: separate¼cup slurry water"
+      },
+      {
+        "row": 14,
+        "ingredient": "1 large Egg, lightly beaten",
+        "destinationOrQuestion": "egg: full egg set/165 meat-mixture endpoint"
+      },
+      {
+        "row": 15,
+        "ingredient": "Sesame Oil and Scallions for garnish",
+        "destinationOrQuestion": "serve: sesame and scallion allowances, plus restored cilantro"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Dried wood ear mushrooms",
+        "quantity": {
+          "amount": 1,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "soaked, drained, rinsed and sliced",
+        "destinations": [
+          {
+            "step": "soak",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Boiling water",
+        "quantity": null,
+        "allowance": "enough to cover the mushrooms",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "soak",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Canola oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": "grated",
+        "destinations": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Red chile paste (sambal oelek)",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fully cooked char siu",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "shredded",
+        "destinations": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Bamboo shoots",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "quantity": {
+          "amount": 2,
+          "unit": "quart"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "boil",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Soy sauce",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Rice vinegar",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "White pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar",
+        "quantity": null,
+        "allowance": "a pinch",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Square of firm tofu",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "drained, cut into ¼-inch strips",
+        "destinations": [
+          {
+            "step": "tofu",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cornstarch",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "thicken",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water for the cornstarch slurry",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "thicken",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Large egg",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "lightly beaten",
+        "destinations": [
+          {
+            "step": "egg",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sesame oil",
+        "quantity": null,
+        "allowance": "a drizzle for serving",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh scallions",
+        "quantity": null,
+        "allowance": "for garnish, sliced",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh cilantro",
+        "quantity": null,
+        "allowance": "for garnish, chopped",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "1 tsp grated ginger in the original batch",
+        "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+        "effect": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "soak",
+      "text": "Place {{ingredients}} in a heatproof bowl, using enough boiling water to cover the mushrooms. Soak for about 30 minutes. Drain and rinse, discard any hard clusters in the centers, then slice. Discard the soaking liquid."
+    },
+    {
+      "step": 2,
+      "id": "infuse",
+      "text": "Have {{ingredients}} ready. In a pot large enough for the stock and solids with stirring room, heat the oil over medium heat. Cook the ginger and chile paste for about 1 minute, stirring, then add the fully cooked pork, drained mushrooms and bamboo."
+    },
+    {
+      "step": 3,
+      "id": "boil",
+      "text": "Add {{ingredients}}. Bring to a boil, then gently simmer for about 10 minutes."
+    },
+    {
+      "step": 4,
+      "id": "season",
+      "text": "Stir in {{ingredients}}. Taste the broth with a clean spoon before adding the egg; stock brands differ in salinity."
+    },
+    {
+      "step": 5,
+      "id": "tofu",
+      "text": "Add {{ingredients}} and gently simmer for about 3 minutes, keeping the strips intact."
+    },
+    {
+      "step": 6,
+      "id": "thicken",
+      "text": "Mix {{ingredients}} separately until smooth, restir just before use and slowly pour into the simmering soup while stirring. Simmer for about 2 minutes, until evenly thickened and no longer cloudy with raw starch."
+    },
+    {
+      "step": 7,
+      "id": "egg",
+      "text": "Have {{ingredients}} ready. Remove the pot from heat and stir the soup in one direction to create a current. Stop stirring and slowly stream in the egg. Let the ribbons set, then gently return to heat until fully set and the soup measures at least 165°F /74°C."
+    },
+    {
+      "step": 8,
+      "id": "serve",
+      "text": "Ladle into bowls and finish with {{ingredients}}. Serve hot."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "1 tsp grated ginger in the original batch",
+        "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+        "destinationOrConstraint": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "1 tsp grated ginger in the original batch",
+        "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+        "effect": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+      }
+    ],
+    "scaling": [
+      {
+        "factor": 0.5,
+        "options": [
+          {
+            "ingredient": "1 tsp grated ginger in the original batch",
+            "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+            "effect": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      },
+      {
+        "factor": 1,
+        "options": [
+          {
+            "ingredient": "1 tsp grated ginger in the original batch",
+            "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+            "effect": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      },
+      {
+        "factor": 2,
+        "options": [
+          {
+            "ingredient": "1 tsp grated ginger in the original batch",
+            "alternative": "For the original batch, use a 1-inch piece of fresh ginger, peeled and grated, instead of the measured teaspoon.",
+            "effect": "Choose one ginger measure and scale it with the batch; an inch-long piece is not a teaspoon conversion."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["har-gow-dim-sum-shrimp-dumplings", "basmati-rice"],
+    "scope": "Pairings unchanged; no component replacement or complete dependency certification",
+    "linkedMealTiming": "Stock, cooked pork, rice and any linked component require separate preparation; recorded recipe clocks exclude those tasks."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Soup ---",
+        "1/2 oz Dried wood ear mushrooms, soaked, drained, rinsed and sliced",
+        "Boiling water, enough to cover the mushrooms",
+        "1 tbsp Canola oil",
+        "1/2 tsp Fresh ginger, grated",
+        "1/2 tbsp Red chile paste (sambal oelek)",
+        "1/8 lb Fully cooked char siu, shredded",
+        "1/4 cup Bamboo shoots, sliced",
+        "1 quart Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/8 cup Soy sauce",
+        "1/8 cup Rice vinegar",
+        "1/2 tsp White pepper",
+        "1/2 tsp Salt",
+        "Sugar, a pinch",
+        "1/2 Square of firm tofu, drained, cut into ¼-inch strips",
+        "1 1/2 tbsp Cornstarch",
+        "1/8 cup Water for the cornstarch slurry",
+        "1/2 Large egg, lightly beaten",
+        "--- Finish ---",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Prepare the wood ears:** Place Dried wood ear mushrooms and Boiling water in a heatproof bowl, using enough boiling water to cover the mushrooms. Soak for about 30 minutes. Drain and rinse, discard any hard clusters in the centers, then slice. Discard the soaking liquid.\n2. **Start the soup:** Have Canola oil, Fresh ginger, Red chile paste (sambal oelek), Fully cooked char siu, and Bamboo shoots ready. In a pot large enough for the stock and solids with stirring room, heat the oil over medium heat. Cook the ginger and chile paste for about 1 minute, stirring, then add the fully cooked pork, drained mushrooms and bamboo.\n3. **Simmer the broth:** Add Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil, then gently simmer for about 10 minutes.\n4. **Season:** Stir in Soy sauce, Rice vinegar, White pepper, Salt, and Sugar. Taste the broth with a clean spoon before adding the egg; stock brands differ in salinity.\n5. **Warm the tofu:** Add Square of firm tofu and gently simmer for about 3 minutes, keeping the strips intact.\n6. **Thicken:** Mix Cornstarch and Water for the cornstarch slurry separately until smooth, restir just before use and slowly pour into the simmering soup while stirring. Simmer for about 2 minutes, until evenly thickened and no longer cloudy with raw starch.\n7. **Set the egg ribbons:** Have Large egg ready. Remove the pot from heat and stir the soup in one direction to create a current. Stop stirring and slowly stream in the egg. Let the ribbons set, then gently return to heat until fully set and the soup measures at least 165°F /74°C.\n8. **Serve:** Ladle into bowls and finish with Sesame oil, Fresh scallions, and Fresh cilantro. Serve hot.",
+      "shoppingList": [
+        "1/2 oz Dried wood ear mushrooms",
+        "1 tbsp Canola oil",
+        "1/2 tsp Fresh ginger",
+        "1/2 tbsp Red chile paste (sambal oelek)",
+        "1/8 lb Fully cooked char siu",
+        "1/4 cup Bamboo shoots",
+        "1 quart Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/8 cup Soy sauce",
+        "1/8 cup Rice vinegar",
+        "1/2 tsp White pepper",
+        "1/2 tsp Salt",
+        "Sugar, a pinch",
+        "1/2 Square of firm tofu",
+        "1 1/2 tbsp Cornstarch",
+        "1/8 cup Water for the cornstarch slurry",
+        "1/2 Large egg",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Soup ---",
+        "1 oz Dried wood ear mushrooms, soaked, drained, rinsed and sliced",
+        "Boiling water, enough to cover the mushrooms",
+        "2 tbsp Canola oil",
+        "1 tsp Fresh ginger, grated",
+        "1 tbsp Red chile paste (sambal oelek)",
+        "1/4 lb Fully cooked char siu, shredded",
+        "1/2 cup Bamboo shoots, sliced",
+        "2 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/4 cup Soy sauce",
+        "1/4 cup Rice vinegar",
+        "1 tsp White pepper",
+        "1 tsp Salt",
+        "Sugar, a pinch",
+        "1 Square of firm tofu, drained, cut into ¼-inch strips",
+        "3 tbsp Cornstarch",
+        "1/4 cup Water for the cornstarch slurry",
+        "1 Large egg, lightly beaten",
+        "--- Finish ---",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Prepare the wood ears:** Place Dried wood ear mushrooms and Boiling water in a heatproof bowl, using enough boiling water to cover the mushrooms. Soak for about 30 minutes. Drain and rinse, discard any hard clusters in the centers, then slice. Discard the soaking liquid.\n2. **Start the soup:** Have Canola oil, Fresh ginger, Red chile paste (sambal oelek), Fully cooked char siu, and Bamboo shoots ready. In a pot large enough for the stock and solids with stirring room, heat the oil over medium heat. Cook the ginger and chile paste for about 1 minute, stirring, then add the fully cooked pork, drained mushrooms and bamboo.\n3. **Simmer the broth:** Add Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil, then gently simmer for about 10 minutes.\n4. **Season:** Stir in Soy sauce, Rice vinegar, White pepper, Salt, and Sugar. Taste the broth with a clean spoon before adding the egg; stock brands differ in salinity.\n5. **Warm the tofu:** Add Square of firm tofu and gently simmer for about 3 minutes, keeping the strips intact.\n6. **Thicken:** Mix Cornstarch and Water for the cornstarch slurry separately until smooth, restir just before use and slowly pour into the simmering soup while stirring. Simmer for about 2 minutes, until evenly thickened and no longer cloudy with raw starch.\n7. **Set the egg ribbons:** Have Large egg ready. Remove the pot from heat and stir the soup in one direction to create a current. Stop stirring and slowly stream in the egg. Let the ribbons set, then gently return to heat until fully set and the soup measures at least 165°F /74°C.\n8. **Serve:** Ladle into bowls and finish with Sesame oil, Fresh scallions, and Fresh cilantro. Serve hot.",
+      "shoppingList": [
+        "1 oz Dried wood ear mushrooms",
+        "2 tbsp Canola oil",
+        "1 tsp Fresh ginger",
+        "1 tbsp Red chile paste (sambal oelek)",
+        "1/4 lb Fully cooked char siu",
+        "1/2 cup Bamboo shoots",
+        "2 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/4 cup Soy sauce",
+        "1/4 cup Rice vinegar",
+        "1 tsp White pepper",
+        "1 tsp Salt",
+        "Sugar, a pinch",
+        "1 Square of firm tofu",
+        "3 tbsp Cornstarch",
+        "1/4 cup Water for the cornstarch slurry",
+        "1 Large egg",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Soup ---",
+        "2 oz Dried wood ear mushrooms, soaked, drained, rinsed and sliced",
+        "Boiling water, enough to cover the mushrooms",
+        "4 tbsp Canola oil",
+        "2 tsp Fresh ginger, grated",
+        "2 tbsp Red chile paste (sambal oelek)",
+        "1/2 lb Fully cooked char siu, shredded",
+        "1 cup Bamboo shoots, sliced",
+        "4 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/2 cup Soy sauce",
+        "1/2 cup Rice vinegar",
+        "2 tsp White pepper",
+        "2 tsp Salt",
+        "Sugar, a pinch",
+        "2 Squares of firm tofu, drained, cut into ¼-inch strips",
+        "6 tbsp Cornstarch",
+        "1/2 cup Water for the cornstarch slurry",
+        "2 Large eggs, lightly beaten",
+        "--- Finish ---",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Prepare the wood ears:** Place Dried wood ear mushrooms and Boiling water in a heatproof bowl, using enough boiling water to cover the mushrooms. Soak for about 30 minutes. Drain and rinse, discard any hard clusters in the centers, then slice. Discard the soaking liquid.\n2. **Start the soup:** Have Canola oil, Fresh ginger, Red chile paste (sambal oelek), Fully cooked char siu, and Bamboo shoots ready. In a pot large enough for the stock and solids with stirring room, heat the oil over medium heat. Cook the ginger and chile paste for about 1 minute, stirring, then add the fully cooked pork, drained mushrooms and bamboo.\n3. **Simmer the broth:** Add Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil, then gently simmer for about 10 minutes.\n4. **Season:** Stir in Soy sauce, Rice vinegar, White pepper, Salt, and Sugar. Taste the broth with a clean spoon before adding the egg; stock brands differ in salinity.\n5. **Warm the tofu:** Add Square of firm tofu and gently simmer for about 3 minutes, keeping the strips intact.\n6. **Thicken:** Mix Cornstarch and Water for the cornstarch slurry separately until smooth, restir just before use and slowly pour into the simmering soup while stirring. Simmer for about 2 minutes, until evenly thickened and no longer cloudy with raw starch.\n7. **Set the egg ribbons:** Have Large egg ready. Remove the pot from heat and stir the soup in one direction to create a current. Stop stirring and slowly stream in the egg. Let the ribbons set, then gently return to heat until fully set and the soup measures at least 165°F /74°C.\n8. **Serve:** Ladle into bowls and finish with Sesame oil, Fresh scallions, and Fresh cilantro. Serve hot.",
+      "shoppingList": [
+        "2 oz Dried wood ear mushrooms",
+        "4 tbsp Canola oil",
+        "2 tsp Fresh ginger",
+        "2 tbsp Red chile paste (sambal oelek)",
+        "1/2 lb Fully cooked char siu",
+        "1 cup Bamboo shoots",
+        "4 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/2 cup Soy sauce",
+        "1/2 cup Rice vinegar",
+        "2 tsp White pepper",
+        "2 tsp Salt",
+        "Sugar, a pinch",
+        "2 Squares of firm tofu",
+        "6 tbsp Cornstarch",
+        "1/2 cup Water for the cornstarch slurry",
+        "2 Large eggs",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Soup ---",
+        "1 oz Dried wood ear mushrooms, soaked, drained, rinsed and sliced",
+        "Boiling water, enough to cover the mushrooms",
+        "2 tbsp Canola oil",
+        "1 tsp Fresh ginger, grated",
+        "1 tbsp Red chile paste (sambal oelek)",
+        "1/4 lb Fully cooked char siu, shredded",
+        "1/2 cup Bamboo shoots, sliced",
+        "2 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/4 cup Soy sauce",
+        "1/4 cup Rice vinegar",
+        "1 tsp White pepper",
+        "1 tsp Salt",
+        "Sugar, a pinch",
+        "1 Square of firm tofu, drained, cut into ¼-inch strips",
+        "3 tbsp Cornstarch",
+        "1/4 cup Water for the cornstarch slurry",
+        "1 Large egg, lightly beaten",
+        "--- Finish ---",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ],
+      "yield": "6 portions",
+      "shoppingList": [
+        "1 oz Dried wood ear mushrooms",
+        "2 tbsp Canola oil",
+        "1 tsp Fresh ginger",
+        "1 tbsp Red chile paste (sambal oelek)",
+        "1/4 lb Fully cooked char siu",
+        "1/2 cup Bamboo shoots",
+        "2 quarts Prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "1/4 cup Soy sauce",
+        "1/4 cup Rice vinegar",
+        "1 tsp White pepper",
+        "1 tsp Salt",
+        "Sugar, a pinch",
+        "1 Square of firm tofu",
+        "3 tbsp Cornstarch",
+        "1/4 cup Water for the cornstarch slurry",
+        "1 Large egg",
+        "Sesame oil, a drizzle for serving",
+        "Fresh scallions, for garnish, sliced",
+        "Fresh cilantro, for garnish, chopped"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What was the household tofu square/package size?",
+    "How much finished linked stock does the household batch actually yield?",
+    "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

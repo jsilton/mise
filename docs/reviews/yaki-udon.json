@@ -1,0 +1,1644 @@
+{
+  "slug": "yaki-udon",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "23d3b8a64b25df74a4177e29494b81f360f525ebdd79c6cf892939d6eb2c6604",
+  "acceptedSourceSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 15–25 min preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15–25 min cooking, longer if batches are needed"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30–50 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Frozen Udon Noodles (preferred over vacuum-sealed)",
+        "1/2 lb Ground Pork or Thinly Sliced Beef",
+        "1 cup Mushrooms, sliced",
+        "1 Carrot, cut into matchsticks",
+        "1 small bunch Bok Choy, sliced",
+        "2 tbsp Soy Sauce",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Mirin",
+        "1 tsp Rice Vinegar",
+        "1 tsp Sugar"
+      ],
+      "after": [
+        "--- Dark-soy sauce ---",
+        "2 tbsp Dark soy sauce",
+        "2 tbsp Low-sodium soy sauce",
+        "2 tbsp Oyster sauce",
+        "1 tbsp Mirin",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Sugar",
+        "--- Noodles ---",
+        "1 lb Frozen udon noodles",
+        "Water, enough to cook noodles according to package instructions",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "--- Protein and vegetables ---",
+        "1/2 lb Ground pork or thinly sliced whole-muscle beef",
+        "2 tbsp Neutral vegetable oil",
+        "1 Small yellow onion, sliced",
+        "1 cup Mushrooms, sliced",
+        "1 Carrot, thin matchsticks",
+        "1 Small bunch of bok choy, sliced, stems and leaves separated",
+        "3 Garlic cloves, chopped",
+        "3 Scallions, cut into roughly 2-inch pieces",
+        "--- Optional finish ---",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 205,
+        "protein": 25.5,
+        "carbs": 4,
+        "fat": 10,
+        "fiber": 0.5,
+        "sugar": 2.5,
+        "sodium": 960
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "sauce",
+            "name": "Dark-soy sauce",
+            "ingredients": [
+              {
+                "id": "dark-soy",
+                "key": "dark-soy",
+                "name": "Dark soy sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "Low-sodium soy sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oyster",
+                "key": "oyster",
+                "name": "Oyster sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mirin",
+                "key": "mirin",
+                "name": "Mirin",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "Rice vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "noodles",
+            "name": "Noodles",
+            "ingredients": [
+              {
+                "id": "noodles",
+                "key": "noodles",
+                "name": "Frozen udon noodles",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Water",
+                "allowance": "enough to cook noodles according to package instructions",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "Toasted sesame oil",
+                "allowance": "a drizzle to coat drained noodles; about 1 tsp for the original batch",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Protein and vegetables",
+            "ingredients": [
+              {
+                "id": "meat",
+                "key": "meat",
+                "name": "Ground pork or thinly sliced whole-muscle beef",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "meat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Neutral vegetable oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "meat",
+                    "share": 0.5
+                  },
+                  {
+                    "step": "vegetables",
+                    "share": 0.5
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "Small yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Small yellow onions",
+                "preparation": "sliced"
+              },
+              {
+                "id": "mushrooms",
+                "key": "mushrooms",
+                "name": "Mushrooms",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "carrot",
+                "key": "carrot",
+                "name": "Carrot",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Carrots",
+                "preparation": "thin matchsticks"
+              },
+              {
+                "id": "bok",
+                "key": "bok",
+                "name": "Small bunch of bok choy",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Small bunches of bok choy",
+                "preparation": "sliced, stems and leaves separated"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "chopped"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "Scallion",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Scallions",
+                "preparation": "cut into roughly 2-inch pieces"
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Optional finish",
+            "ingredients": [
+              {
+                "id": "extra-scallions",
+                "key": "extra-scallions",
+                "name": "Chopped scallion greens",
+                "allowance": "for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              },
+              {
+                "id": "red-pepper",
+                "key": "red-pepper",
+                "name": "Red pepper flakes",
+                "allowance": "to taste, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              },
+              {
+                "id": "sesame-seeds",
+                "key": "sesame-seeds",
+                "name": "Sesame seeds or furikake",
+                "allowance": "for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              },
+              {
+                "id": "chili-oil",
+                "key": "chili-oil",
+                "name": "Chili oil",
+                "allowance": "for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Mix one sauce route",
+            "text": "Whisk {{ingredients}} together until the sugar dissolves. If choosing the lighter alternative, mix that complete sauce instead and omit these base sauce amounts."
+          },
+          {
+            "id": "noodles",
+            "title": "Prepare the frozen noodles",
+            "text": "Use {{ingredients}}. Cook frozen noodles according to the package, separating gently; separation alone is not sufficient if the product calls for further cooking. Drain, rinse briefly under cold water and drain well, then toss with a light drizzle of sesame oil."
+          },
+          {
+            "id": "meat",
+            "title": "Cook the protein",
+            "text": "Use {{ingredients}}. Heat this step’s neutral-oil allocation over medium-high heat. For ground pork, break into small pieces and cook through to 160°F, starting checks around 5 minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean plate while the vegetables cook. Browning is a useful texture cue, not the safety endpoint. Keep raw-contact utensils away from finished food."
+          },
+          {
+            "id": "vegetables",
+            "title": "Cook vegetables and combine",
+            "text": "Have {{ingredients}} ready for the dark-soy sauce route; omit onion, garlic and cooking scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly coated and hot. Add reserved bok choy leaves at the end and cook just until wilted."
+          },
+          {
+            "id": "serve",
+            "title": "Finish",
+            "text": "Divide among bowls and offer {{ingredients}}."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Prepare the sauce before heating the pan and cook the frozen noodles to their package instructions",
+        "outcome": "Chewy udon and staged vegetables with fully cooked protein and one chosen sauce.",
+        "techniques": ["stir-frying", "temperature"],
+        "before": [
+          "The original batch makes four planning portions. Use a large wok or skillet with room to turn the noodles; scaling may require more pans or batches rather than proportionally longer high-heat cooking.",
+          "The base sauce uses both dark soy and low-sodium soy. Choose either this sauce or the complete lighter variation below, not both.",
+          "Frozen udon is the listed noodle state. Shelf-stable or dried products require their own package preparation, not the frozen noodle clock. Linked Dashi remains a separate pairing."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Ground pork reaches 160°F; whole-muscle beef reaches 145°F with a 3-minute rest on a clean plate.",
+            "why": "Brown color alone does not establish the state-specific endpoint."
+          },
+          {
+            "step": 4,
+            "cue": "Stems are crisp-tender, leaves just wilted and noodles evenly coated.",
+            "why": "Staged vegetables avoid treating the thin leaves like firm stems."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce scorches or noodles break while tossing",
+            "cause": "Pan is too hot, crowded or the noodles were overcooked",
+            "fix": "Reduce heat after the sauce enters and fold gently. Cook noodles to their product instructions and work in smaller pan loads."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Lighter variation",
+            "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+            "effect": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+          },
+          {
+            "ingredient": "Ground pork",
+            "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+            "effect": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+          },
+          {
+            "ingredient": "Vegetable purchase measures",
+            "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+            "effect": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat to 165°F throughout. The noodles soften in storage.",
+        "timing": "About 15–25 min preparation; About 15–25 min cooking, longer if batches are needed; About 30–50 min.",
+        "sources": [
+          {
+            "title": "NYT Cooking — Yaki Udon",
+            "url": "https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to great Yaki Udon is maintaining texture. Frozen udon has a superior chew (mochi-mochi) compared to shelf-stable versions. We sear the meat and veggies separately over high heat so they stay crunchy and charred, rather than steaming together into a mushy pile.\n\n## Directions\n\n1.  **Noodles:** Bring a pot of water to a boil. Add frozen udon. As soon as the noodles separate (about 1 minute), drain them. **Do not overcook.** Rinse with cold water and toss with a drop of sesame oil.\n2.  **Protein:** Heat a wok over high heat. Add oil and sear the meat until browned and crispy. Remove to a plate.\n3.  **Veggies:** Add another splash of oil. Sauté mushrooms and carrots for 2 minutes. Add the bok choy stems. Sauté for 1 minute until they have charred edges but are still snappy.\n4.  **Combine:** Add the noodles and the seared meat back to the wok.\n5.  **Sauce:** Pour in the whisked sauce ingredients. Toss vigorously over high heat for 2 minutes until the sauce coats every noodle and turns glossy.\n6.  **Finish:** Add the bok choy leaves at the very end. Serve hot with a sprinkle of Furikake or chili oil.\n",
+    "after": "\n## Chef's Note\n\nPrepare the sauce before heating the pan and cook the frozen noodles to their package instructions. Cook the protein separately so its doneness can be checked, then return it when the vegetables and noodles are ready. Keep bok choy stems and leaves separate so the stems soften before the leaves wilt.\n\n## Directions\n\n1. **Mix one sauce route:** Whisk Dark soy sauce, Low-sodium soy sauce, Oyster sauce, Mirin, Rice vinegar, and Sugar together until the sugar dissolves. If choosing the lighter alternative, mix that complete sauce instead and omit these base sauce amounts.\n2. **Prepare the frozen noodles:** Use Frozen udon noodles, Water, and Toasted sesame oil. Cook frozen noodles according to the package, separating gently; separation alone is not sufficient if the product calls for further cooking. Drain, rinse briefly under cold water and drain well, then toss with a light drizzle of sesame oil.\n3. **Cook the protein:** Use Ground pork or thinly sliced whole-muscle beef and 1/2 of the Neutral vegetable oil. Heat this step’s neutral-oil allocation over medium-high heat. For ground pork, break into small pieces and cook through to 160°F, starting checks around 5 minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean plate while the vegetables cook. Browning is a useful texture cue, not the safety endpoint. Keep raw-contact utensils away from finished food.\n4. **Cook vegetables and combine:** Have 1/2 of the Neutral vegetable oil, Small yellow onion, Mushrooms, Carrot, Small bunch of bok choy, Garlic cloves, and Scallions ready for the dark-soy sauce route; omit onion, garlic and cooking scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly coated and hot. Add reserved bok choy leaves at the end and cook just until wilted.\n5. **Finish:** Divide among bowls and offer Chopped scallion greens (if using), Red pepper flakes (if using), Sesame seeds or furikake (if using), and Chili oil (if using).\n"
+  },
+  "findings": [
+    {
+      "id": "ST-ROOT-1",
+      "title": "whole ingredient/formula/method reconciliation",
+      "rationale": "958fc77a reduced the original sauce and omitted onion/garlic/scallions/neutral oil/sesame oil/toppings. Complete later history inspected; no explicit individually accepted reduction found. Source-rich restoration is proposed, current fully specified sauce retained distinctly, not automatically rejected. Current thin-sliced beef branch retained distinctly from saved ground meat options with different measured endpoints. Current1cup mushrooms,1carrot and1smallbunch bok choy remain base. Saved4oz mushrooms,largecarrot andmediumhead bok choy are distinct original purchase specifications, not claimed exact conversions. NYT direct fetch failed; exact Git original proves saved sauce and variants. No current publisher formula certification.",
+      "confidence": "High for saved/current bytes and allocation arithmetic; moderate for untested process ranges; unresolved household intent as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
+      ]
+    },
+    {
+      "id": "ST-ROOT-2",
+      "title": "complete method and learning",
+      "rationale": "Each ingredient is followed through preparation and its method destination; pan loads, sensory checks and state-specific measured endpoints are explicit. No quantity is converted by guessed crystal density, package weight or finished-stock yield.",
+      "confidence": "High for source-defined process and endpoint applicability; moderate for untested timings",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — Safe minimum internal temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
+      ]
+    },
+    {
+      "id": "ST-ROOT-3",
+      "title": "nutrition",
+      "rationale": "Inherited nutritional values lack calculation evidence and do not represent the restored formula/allowances/variants. No replacement nutrition manufactured.",
+      "confidence": "High",
+      "applicableSources": ["Exact current formula and changed ingredient ledger"],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": ["Any future nutrition requires documented recipe-specific calculation."]
+    },
+    {
+      "id": "ST-ROOT-4",
+      "title": "storage applicability",
+      "rationale": "USDA leftover limits apply to cooked perishable dishes. Texture note is specific to this dish; no claim of risk elimination or tested shelf life.",
+      "confidence": "High for primary guidance; texture is mechanism-based, not kitchen-tested",
+      "applicableSources": [
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Observe reheated texture in household equipment."]
+    },
+    {
+      "id": "ST-ROOT-5",
+      "title": "source-rich and current complete sauce routes",
+      "rationale": "Source quantities directly verified; complete subsequent history inspected. Current route remains separate, not silently overwritten or inferred deliberate merely through persistence.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
+      ]
+    },
+    {
+      "id": "ST-ROOT-6",
+      "title": "omitted aromatics and cooking oils",
+      "rationale": "All exact saved measures and genuine allowances traced; current vegetable purchase measures remain main rather than guessed conversions.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
+      ]
+    },
+    {
+      "id": "ST-ROOT-7",
+      "title": "protein state endpoint",
+      "rationale": "FoodSafety/USDA endpoints apply to the selected state. Browning alone is inadequate; no universal protein165 rule.",
+      "confidence": "High for exact saved/current comparison and arithmetic; household choice and untested process remain as recorded",
+      "applicableSources": [
+        "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
+      ]
+    },
+    {
+      "id": "ST-ROOT-8",
+      "title": "exact change reference",
+      "rationale": "Reviewers can inspect actual complete text rather than treating the short summaries as byte-exact quotations.",
+      "confidence": "High: programmatic exact snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "ST-ROOT-TIMING",
+      "title": "Keep testing evidence separate from cooking ranges",
+      "rationale": "Retain every planning range and sequence qualifier while keeping kitchen-testing status in the review evidence instead of the cooking prose.",
+      "confidence": "High for literal presentation-only omission; no clock or cooking change.",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Clear cooking prose and honest planning ranges; physical testing tracked separately."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Yaki%20Udon.html",
+    "introductionScope": "Actual earliest saved HTML and first canonical Markdown independently recovered; complete followed histories retained from author/whole independent review.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "958fc77a reduced the original sauce and omitted onion, garlic, cooking scallions, neutral oil, sesame oil and toppings. Complete later history inspected; no explicit individually accepted reduction found. The dark-soy restoration is proposed; the complete current lighter sauce and its omit-aromatics vegetable route remain distinct. The shared 2 tbsp neutral oil is a saved-method editorial repair, not a measured amount in the frozen lighter recipe. Bulk history or persistence alone does not establish household intent.",
+    "Current thin-sliced beef branch retained distinctly from saved ground meat options with different measured endpoints.",
+    "Current1cup mushrooms,1carrot and1smallbunch bok choy remain base. Saved4oz mushrooms,largecarrot andmediumhead bok choy are distinct original purchase specifications, not claimed exact conversions.",
+    "NYT direct fetch failed; exact Git original proves saved sauce and variants. No current publisher formula certification."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1 lb Frozen Udon Noodles (preferred over vacuum-sealed)",
+        "destinationOrQuestion": "noodles then vegetables: full1lb frozen product"
+      },
+      {
+        "row": 2,
+        "ingredient": "1/2 lb Ground Pork or Thinly Sliced Beef",
+        "destinationOrQuestion": "meat: full½lb groundpork160 OR wholemusclebeef145+3rest, groundpoultry165 distinct"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 cup Mushrooms, sliced",
+        "destinationOrQuestion": "vegetables: current1cup retained"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 Carrot, cut into matchsticks",
+        "destinationOrQuestion": "vegetables: current1carrot retained"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 small bunch Bok Choy, sliced",
+        "destinationOrQuestion": "vegetables: current1smallbunch retained, stems then final leaves"
+      },
+      {
+        "row": 6,
+        "ingredient": "2 tbsp Soy Sauce",
+        "destinationOrQuestion": "sauce: current2tbspsoy retained in COMPLETE alternative; restoredrich main2dark+2low-sodium"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tbsp Oyster Sauce",
+        "destinationOrQuestion": "sauce: current1tbspoyster alternative; richmain2tbsp"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 tbsp Mirin",
+        "destinationOrQuestion": "sauce:1tbspmirin both routes"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 tsp Rice Vinegar",
+        "destinationOrQuestion": "sauce: current1tspvinegar alternative; richmain1tbsp"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 tsp Sugar",
+        "destinationOrQuestion": "sauce: current1tspsugar alternative; richmain1tbsp"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Dark soy sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Low-sodium soy sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Oyster sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Mirin",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Rice vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Frozen udon noodles",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water",
+        "quantity": null,
+        "allowance": "enough to cook noodles according to package instructions",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Toasted sesame oil",
+        "quantity": null,
+        "allowance": "a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Ground pork or thinly sliced whole-muscle beef",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "meat",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Neutral vegetable oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "meat",
+            "share": 0.5
+          },
+          {
+            "step": "vegetables",
+            "share": 0.5
+          }
+        ]
+      },
+      {
+        "ingredient": "Small yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Mushrooms",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Carrot",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "thin matchsticks",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Small bunch of bok choy",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "sliced, stems and leaves separated",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "chopped",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Scallion",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "cut into roughly 2-inch pieces",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Chopped scallion greens",
+        "quantity": null,
+        "allowance": "for serving, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "quantity": null,
+        "allowance": "to taste, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sesame seeds or furikake",
+        "quantity": null,
+        "allowance": "for serving, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Chili oil",
+        "quantity": null,
+        "allowance": "for serving, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Lighter variation",
+        "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+        "effect": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+      },
+      {
+        "ingredient": "Ground pork",
+        "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+        "effect": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+      },
+      {
+        "ingredient": "Vegetable purchase measures",
+        "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+        "effect": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "sauce",
+      "text": "Whisk {{ingredients}} together until the sugar dissolves. If choosing the lighter alternative, mix that complete sauce instead and omit these base sauce amounts."
+    },
+    {
+      "step": 2,
+      "id": "noodles",
+      "text": "Use {{ingredients}}. Cook frozen noodles according to the package, separating gently; separation alone is not sufficient if the product calls for further cooking. Drain, rinse briefly under cold water and drain well, then toss with a light drizzle of sesame oil."
+    },
+    {
+      "step": 3,
+      "id": "meat",
+      "text": "Use {{ingredients}}. Heat this step’s neutral-oil allocation over medium-high heat. For ground pork, break into small pieces and cook through to 160°F, starting checks around 5 minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean plate while the vegetables cook. Browning is a useful texture cue, not the safety endpoint. Keep raw-contact utensils away from finished food."
+    },
+    {
+      "step": 4,
+      "id": "vegetables",
+      "text": "Have {{ingredients}} ready for the dark-soy sauce route; omit onion, garlic and cooking scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly coated and hot. Add reserved bok choy leaves at the end and cook just until wilted."
+    },
+    {
+      "step": 5,
+      "id": "serve",
+      "text": "Divide among bowls and offer {{ingredients}}."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Lighter variation",
+        "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+        "destinationOrConstraint": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+      },
+      {
+        "ingredient": "Ground pork",
+        "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+        "destinationOrConstraint": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+      },
+      {
+        "ingredient": "Vegetable purchase measures",
+        "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+        "destinationOrConstraint": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+      },
+      {
+        "ingredient": "Lighter variation",
+        "exclusiveSauce": [
+          {
+            "ingredient": "soy sauce",
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          {
+            "ingredient": "oyster sauce",
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          {
+            "ingredient": "mirin",
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          {
+            "ingredient": "rice vinegar",
+            "amount": 1,
+            "unit": "tsp"
+          },
+          {
+            "ingredient": "sugar",
+            "amount": 1,
+            "unit": "tsp"
+          }
+        ],
+        "omit": ["small yellow onion", "garlic cloves", "cooking scallions"],
+        "retain": "Listed mushrooms, carrot, bok choy, protein and noodles, safe package/protein endpoints, shared repaired neutral oil and separate optional serving toppings.",
+        "destination": "Chosen complete sauce at vegetables finish; bok choy stems before leaves; scale five sauce quantities and listed vegetables with batch."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Lighter variation",
+        "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+        "effect": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+      },
+      {
+        "ingredient": "Ground pork",
+        "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+        "effect": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+      },
+      {
+        "ingredient": "Vegetable purchase measures",
+        "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+        "effect": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+      }
+    ],
+    "scaling": [
+      {
+        "factor": 0.5,
+        "options": [
+          {
+            "ingredient": "Lighter variation",
+            "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+            "effect": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+          },
+          {
+            "ingredient": "Ground pork",
+            "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+            "effect": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+          },
+          {
+            "ingredient": "Vegetable purchase measures",
+            "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+            "effect": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base.",
+        "lighterSauce": [
+          {
+            "name": "soy sauce",
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          {
+            "name": "oyster sauce",
+            "amount": 0.5,
+            "unit": "tbsp"
+          },
+          {
+            "name": "mirin",
+            "amount": 0.5,
+            "unit": "tbsp"
+          },
+          {
+            "name": "rice vinegar",
+            "amount": 0.5,
+            "unit": "tsp"
+          },
+          {
+            "name": "sugar",
+            "amount": 0.5,
+            "unit": "tsp"
+          }
+        ],
+        "omittedAromatics": ["onion", "garlic", "cooking scallions"],
+        "retainedVegetables": "Measured current mushrooms, carrot, bok choy scale with batch; stems before leaves.",
+        "sharedOil": "Saved-method2tbsp repair scaled; not measured frozen oil."
+      },
+      {
+        "factor": 1,
+        "options": [
+          {
+            "ingredient": "Lighter variation",
+            "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+            "effect": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+          },
+          {
+            "ingredient": "Ground pork",
+            "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+            "effect": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+          },
+          {
+            "ingredient": "Vegetable purchase measures",
+            "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+            "effect": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base.",
+        "lighterSauce": [
+          {
+            "name": "soy sauce",
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          {
+            "name": "oyster sauce",
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          {
+            "name": "mirin",
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          {
+            "name": "rice vinegar",
+            "amount": 1,
+            "unit": "tsp"
+          },
+          {
+            "name": "sugar",
+            "amount": 1,
+            "unit": "tsp"
+          }
+        ],
+        "omittedAromatics": ["onion", "garlic", "cooking scallions"],
+        "retainedVegetables": "Measured current mushrooms, carrot, bok choy scale with batch; stems before leaves.",
+        "sharedOil": "Saved-method2tbsp repair scaled; not measured frozen oil."
+      },
+      {
+        "factor": 2,
+        "options": [
+          {
+            "ingredient": "Lighter variation",
+            "alternative": "For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1 tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base sauce amount. Omit the onion, garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.",
+            "effect": "Scale all five chosen sauce amounts with the batch. Keep the written package cooking and protein temperature/rest checks. This variation omits the extra aromatics; optional serving toppings remain separate."
+          },
+          {
+            "ingredient": "Ground pork",
+            "alternative": "Use the same listed weight of ground beef, chicken or turkey.",
+            "effect": "Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the whole-muscle beef route at 145°F plus a 3-minute rest."
+          },
+          {
+            "ingredient": "Vegetable purchase measures",
+            "alternative": "For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium head of bok choy instead of the listed vegetable purchase measures.",
+            "effect": "This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion. Keep staged stem/leaf cooking and all other ingredients."
+          }
+        ],
+        "instructions": "Explicit original-batch option quantities scale with this factor; unmeasured genuine allowances remain unmeasured; select exclusive routes without adding replacement to base.",
+        "lighterSauce": [
+          {
+            "name": "soy sauce",
+            "amount": 4,
+            "unit": "tbsp"
+          },
+          {
+            "name": "oyster sauce",
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          {
+            "name": "mirin",
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          {
+            "name": "rice vinegar",
+            "amount": 2,
+            "unit": "tsp"
+          },
+          {
+            "name": "sugar",
+            "amount": 2,
+            "unit": "tsp"
+          }
+        ],
+        "omittedAromatics": ["onion", "garlic", "cooking scallions"],
+        "retainedVegetables": "Measured current mushrooms, carrot, bok choy scale with batch; stems before leaves.",
+        "sharedOil": "Saved-method2tbsp repair scaled; not measured frozen oil."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["miso-soup", "dashi-japanese-sea-stock", "steamed-edamame"],
+    "scope": "Pairings unchanged; no component replacement or complete dependency certification",
+    "linkedMealTiming": "Frozen udon preparation, raw-protein cooking and vegetable/sauce finishing are included. This recipe has no prepared-stock ingredient. Linked pairings require separate preparation; Dashi remains a pairing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Dark-soy sauce ---",
+        "1 tbsp Dark soy sauce",
+        "1 tbsp Low-sodium soy sauce",
+        "1 tbsp Oyster sauce",
+        "1/2 tbsp Mirin",
+        "1/2 tbsp Rice vinegar",
+        "1/2 tbsp Sugar",
+        "--- Noodles ---",
+        "1/2 lb Frozen udon noodles",
+        "Water, enough to cook noodles according to package instructions",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "--- Protein and vegetables ---",
+        "1/4 lb Ground pork or thinly sliced whole-muscle beef",
+        "1 tbsp Neutral vegetable oil",
+        "1/2 Small yellow onion, sliced",
+        "1/2 cup Mushrooms, sliced",
+        "1/2 Carrot, thin matchsticks",
+        "1/2 Small bunch of bok choy, sliced, stems and leaves separated",
+        "1 1/2 Garlic cloves, chopped",
+        "1 1/2 Scallions, cut into roughly 2-inch pieces",
+        "--- Optional finish ---",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Mix one sauce route:** Whisk Dark soy sauce, Low-sodium soy sauce, Oyster sauce, Mirin, Rice vinegar, and Sugar together until the sugar dissolves. If choosing the lighter alternative, mix that complete sauce instead and omit these base sauce amounts.\n2. **Prepare the frozen noodles:** Use Frozen udon noodles, Water, and Toasted sesame oil. Cook frozen noodles according to the package, separating gently; separation alone is not sufficient if the product calls for further cooking. Drain, rinse briefly under cold water and drain well, then toss with a light drizzle of sesame oil.\n3. **Cook the protein:** Use Ground pork or thinly sliced whole-muscle beef and 1/2 of the Neutral vegetable oil. Heat this step’s neutral-oil allocation over medium-high heat. For ground pork, break into small pieces and cook through to 160°F, starting checks around 5 minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean plate while the vegetables cook. Browning is a useful texture cue, not the safety endpoint. Keep raw-contact utensils away from finished food.\n4. **Cook vegetables and combine:** Have 1/2 of the Neutral vegetable oil, Small yellow onion, Mushrooms, Carrot, Small bunch of bok choy, Garlic cloves, and Scallions ready for the dark-soy sauce route; omit onion, garlic and cooking scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly coated and hot. Add reserved bok choy leaves at the end and cook just until wilted.\n5. **Finish:** Divide among bowls and offer Chopped scallion greens (if using), Red pepper flakes (if using), Sesame seeds or furikake (if using), and Chili oil (if using).",
+      "shoppingList": [
+        "1 tbsp Dark soy sauce",
+        "1 tbsp Low-sodium soy sauce",
+        "1 tbsp Oyster sauce",
+        "1/2 tbsp Mirin",
+        "1/2 tbsp Rice vinegar",
+        "1/2 tbsp Sugar",
+        "1/2 lb Frozen udon noodles",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "1/4 lb Ground pork or thinly sliced whole-muscle beef",
+        "1 tbsp Neutral vegetable oil",
+        "1/2 Small yellow onion",
+        "1/2 cup Mushrooms",
+        "1/2 Carrot",
+        "1/2 Small bunch of bok choy",
+        "1 1/2 Garlic cloves",
+        "1 1/2 Scallions",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Dark-soy sauce ---",
+        "2 tbsp Dark soy sauce",
+        "2 tbsp Low-sodium soy sauce",
+        "2 tbsp Oyster sauce",
+        "1 tbsp Mirin",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Sugar",
+        "--- Noodles ---",
+        "1 lb Frozen udon noodles",
+        "Water, enough to cook noodles according to package instructions",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "--- Protein and vegetables ---",
+        "1/2 lb Ground pork or thinly sliced whole-muscle beef",
+        "2 tbsp Neutral vegetable oil",
+        "1 Small yellow onion, sliced",
+        "1 cup Mushrooms, sliced",
+        "1 Carrot, thin matchsticks",
+        "1 Small bunch of bok choy, sliced, stems and leaves separated",
+        "3 Garlic cloves, chopped",
+        "3 Scallions, cut into roughly 2-inch pieces",
+        "--- Optional finish ---",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Mix one sauce route:** Whisk Dark soy sauce, Low-sodium soy sauce, Oyster sauce, Mirin, Rice vinegar, and Sugar together until the sugar dissolves. If choosing the lighter alternative, mix that complete sauce instead and omit these base sauce amounts.\n2. **Prepare the frozen noodles:** Use Frozen udon noodles, Water, and Toasted sesame oil. Cook frozen noodles according to the package, separating gently; separation alone is not sufficient if the product calls for further cooking. Drain, rinse briefly under cold water and drain well, then toss with a light drizzle of sesame oil.\n3. **Cook the protein:** Use Ground pork or thinly sliced whole-muscle beef and 1/2 of the Neutral vegetable oil. Heat this step’s neutral-oil allocation over medium-high heat. For ground pork, break into small pieces and cook through to 160°F, starting checks around 5 minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean plate while the vegetables cook. Browning is a useful texture cue, not the safety endpoint. Keep raw-contact utensils away from finished food.\n4. **Cook vegetables and combine:** Have 1/2 of the Neutral vegetable oil, Small yellow onion, Mushrooms, Carrot, Small bunch of bok choy, Garlic cloves, and Scallions ready for the dark-soy sauce route; omit onion, garlic and cooking scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly coated and hot. Add reserved bok choy leaves at the end and cook just until wilted.\n5. **Finish:** Divide among bowls and offer Chopped scallion greens (if using), Red pepper flakes (if using), Sesame seeds or furikake (if using), and Chili oil (if using).",
+      "shoppingList": [
+        "2 tbsp Dark soy sauce",
+        "2 tbsp Low-sodium soy sauce",
+        "2 tbsp Oyster sauce",
+        "1 tbsp Mirin",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Sugar",
+        "1 lb Frozen udon noodles",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "1/2 lb Ground pork or thinly sliced whole-muscle beef",
+        "2 tbsp Neutral vegetable oil",
+        "1 Small yellow onion",
+        "1 cup Mushrooms",
+        "1 Carrot",
+        "1 Small bunch of bok choy",
+        "3 Garlic cloves",
+        "3 Scallions",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Dark-soy sauce ---",
+        "4 tbsp Dark soy sauce",
+        "4 tbsp Low-sodium soy sauce",
+        "4 tbsp Oyster sauce",
+        "2 tbsp Mirin",
+        "2 tbsp Rice vinegar",
+        "2 tbsp Sugar",
+        "--- Noodles ---",
+        "2 lb Frozen udon noodles",
+        "Water, enough to cook noodles according to package instructions",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "--- Protein and vegetables ---",
+        "1 lb Ground pork or thinly sliced whole-muscle beef",
+        "4 tbsp Neutral vegetable oil",
+        "2 Small yellow onions, sliced",
+        "2 cups Mushrooms, sliced",
+        "2 Carrots, thin matchsticks",
+        "2 Small bunches of bok choy, sliced, stems and leaves separated",
+        "6 Garlic cloves, chopped",
+        "6 Scallions, cut into roughly 2-inch pieces",
+        "--- Optional finish ---",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Mix one sauce route:** Whisk Dark soy sauce, Low-sodium soy sauce, Oyster sauce, Mirin, Rice vinegar, and Sugar together until the sugar dissolves. If choosing the lighter alternative, mix that complete sauce instead and omit these base sauce amounts.\n2. **Prepare the frozen noodles:** Use Frozen udon noodles, Water, and Toasted sesame oil. Cook frozen noodles according to the package, separating gently; separation alone is not sufficient if the product calls for further cooking. Drain, rinse briefly under cold water and drain well, then toss with a light drizzle of sesame oil.\n3. **Cook the protein:** Use Ground pork or thinly sliced whole-muscle beef and 1/2 of the Neutral vegetable oil. Heat this step’s neutral-oil allocation over medium-high heat. For ground pork, break into small pieces and cook through to 160°F, starting checks around 5 minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean plate while the vegetables cook. Browning is a useful texture cue, not the safety endpoint. Keep raw-contact utensils away from finished food.\n4. **Cook vegetables and combine:** Have 1/2 of the Neutral vegetable oil, Small yellow onion, Mushrooms, Carrot, Small bunch of bok choy, Garlic cloves, and Scallions ready for the dark-soy sauce route; omit onion, garlic and cooking scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly coated and hot. Add reserved bok choy leaves at the end and cook just until wilted.\n5. **Finish:** Divide among bowls and offer Chopped scallion greens (if using), Red pepper flakes (if using), Sesame seeds or furikake (if using), and Chili oil (if using).",
+      "shoppingList": [
+        "4 tbsp Dark soy sauce",
+        "4 tbsp Low-sodium soy sauce",
+        "4 tbsp Oyster sauce",
+        "2 tbsp Mirin",
+        "2 tbsp Rice vinegar",
+        "2 tbsp Sugar",
+        "2 lb Frozen udon noodles",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "1 lb Ground pork or thinly sliced whole-muscle beef",
+        "4 tbsp Neutral vegetable oil",
+        "2 Small yellow onions",
+        "2 cups Mushrooms",
+        "2 Carrots",
+        "2 Small bunches of bok choy",
+        "6 Garlic cloves",
+        "6 Scallions",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "capacity": "Use original-size cuts and manageable complete loads. Divide ingredients, oils and chosen sauce among loads; pan geometry, heat/endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Dark-soy sauce ---",
+        "2 tbsp Dark soy sauce",
+        "2 tbsp Low-sodium soy sauce",
+        "2 tbsp Oyster sauce",
+        "1 tbsp Mirin",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Sugar",
+        "--- Noodles ---",
+        "1 lb Frozen udon noodles",
+        "Water, enough to cook noodles according to package instructions",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "--- Protein and vegetables ---",
+        "1/2 lb Ground pork or thinly sliced whole-muscle beef",
+        "2 tbsp Neutral vegetable oil",
+        "1 Small yellow onion, sliced",
+        "1 cup Mushrooms, sliced",
+        "1 Carrot, thin matchsticks",
+        "1 Small bunch of bok choy, sliced, stems and leaves separated",
+        "3 Garlic cloves, chopped",
+        "3 Scallions, cut into roughly 2-inch pieces",
+        "--- Optional finish ---",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ],
+      "yield": "4 portions",
+      "shoppingList": [
+        "2 tbsp Dark soy sauce",
+        "2 tbsp Low-sodium soy sauce",
+        "2 tbsp Oyster sauce",
+        "1 tbsp Mirin",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Sugar",
+        "1 lb Frozen udon noodles",
+        "Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the original batch",
+        "1/2 lb Ground pork or thinly sliced whole-muscle beef",
+        "2 tbsp Neutral vegetable oil",
+        "1 Small yellow onion",
+        "1 cup Mushrooms",
+        "1 Carrot",
+        "1 Small bunch of bok choy",
+        "3 Garlic cloves",
+        "3 Scallions",
+        "Chopped scallion greens, for serving, if desired, optional",
+        "Red pepper flakes, to taste, if desired, optional",
+        "Sesame seeds or furikake, for serving, if desired, optional",
+        "Chili oil, for serving, if desired, optional"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+    "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+    "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

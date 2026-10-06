@@ -5,7 +5,6 @@ difficulty: intermediate
 cookingMethods:
   - simmer
   - boil
-  - blend
 occasions:
   - meal-prep
   - weeknight
@@ -34,24 +33,95 @@ ingredients:
   - 1/2 tsp Garlic Powder
   - 1/4 tsp Dried Oregano
   - 1/4 tsp Sea Salt
-  - Pinch of ground cinnamon, optional
+  - 'Pinch of ground cinnamon, optional'
   - 2 tbsp Tomato Paste
   - 2 cups Vegetable or Chicken Broth
   - 1 tsp Apple Cider Vinegar (The Finishing Touch)
   - Black Pepper
-origin: Mexico
+  - 'Additional salt, as needed for final seasoning'
+  - 'Broth or water, as needed to loosen stored sauce'
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
 source: Adapted from Cookieandkate.com
 sourceUrl: 'https://cookieandkate.com/2016/enchilada-sauce-recipe/'
+learning:
+  focus: Measure the spice mixture before the oil is ready
+  outcome: >-
+    A smooth, pourable sauce with the full flour, spice, tomato and broth
+    formula used.
+  techniques:
+    - temperature
+  before:
+    - >-
+      Use vessels with room for the full listed batch plus stirring or bubbling.
+      For larger batches use enough vessels and divide all ingredients
+      proportionally. Temperatures do not scale and heating/reduction times are
+      not linear.
+    - >-
+      Use the mild American-style chili powder blend specified in the
+      ingredients, not the same quantity of pure cayenne. Reserve black pepper
+      and vinegar for the finish.
+  checkpoints:
+    - step: 1
+      cue: >-
+        A pinch of dry mixture sizzles, then the roux becomes fragrant without
+        blackening.
+      why: The brief spice stage precedes liquid; reduce heat if it scorches.
+    - step: 4
+      cue: The sauce coats a spoon and offers slight resistance when stirred.
+      why: >-
+        Cooling thickens it further; a rigid reduction clock can make it too
+        thick.
+  timing: >-
+    Around 15–20 minutes for the original batch, including measuring and heating
+    the pan. Start simmer checks at 5–7 minutes; use consistency rather than
+    multiplying the clock.
+  substitutions:
+    - ingredient: Flour
+      alternative: >-
+        Use the same full listed flour volume of whole-wheat flour, all-purpose
+        flour or a suitable gluten-free all-purpose blend.
+      effect: The source permits all three; they can give different texture.
+    - ingredient: Vinegar
+      alternative: >-
+        Replace all the listed apple cider vinegar with the same amount of
+        distilled white vinegar. Add it off heat at the same finish stage.
+      effect: 'An exact source alternative, not extra acid.'
+    - ingredient: Tomato-free version
+      alternative: >-
+        Omit all the tomato paste; keep the full oil, flour, chili powder,
+        cumin, garlic, broth and remaining seasonings and follow the same
+        stages.
+      effect: >-
+        The retained source option changes flavor; no replacement dose is
+        required.
+  storage: >-
+    Refrigerate promptly at 40°F /4°C or below, within 2 hours of preparation or
+    1 hour above 90°F /32°C. Use within 3–4 days or freeze small portions
+    promptly; thaw in the refrigerator. When reheating stored sauce, bring it to
+    a rolling boil while stirring.
+  troubleshooting:
+    - problem: Lumps form as broth enters
+      cause: Liquid entered faster than the flour mixture was dispersed.
+      fix: >-
+        Add the full broth gradually while whisking and scraping the pan; do not
+        add another flour supply to compensate.
+  sources:
+    - title: Cookie and Kate — Enchilada Sauce
+      url: 'https://cookieandkate.com/enchilada-sauce-recipe/'
+    - title: USDA — Leftovers and Food Safety
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-This homemade enchilada sauce builds deeper flavor than store-bought versions by toasting chili powder and cumin directly in the hot oil-flour roux before adding liquid. This blooming technique releases the spices' fat-soluble aromatic oils. A splash of apple cider vinegar at the end brightens the earthy cumin and tomato paste.
-For kids, serve the heat on the side or reduce/omit the spicy elements.
+Have the flour and spices measured before heating the full oil supply. Whisk constantly through the brief flour-and-spice stage, then add the broth gradually to avoid lumps. The sauce thickens further as it cools; finish with the listed vinegar and black pepper after taking it off heat.
 
 ## Directions
 

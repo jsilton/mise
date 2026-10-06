@@ -1,0 +1,1143 @@
+{
+  "slug": "shrimp-and-corn-chowder",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "aca69b8aafb27401c2b346833e13ce067b7ec993f5e3ddddcee4c6f3b90a11d1",
+  "acceptedSourceSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "About 1 hr 30 min, including 1 hr marinating"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Medium Shrimp, peeled and deveined",
+        "2 cups Fresh Corn Kernels",
+        "2 tbsp Annatto Oil (or Olive Oil)",
+        "1/2 cup Red Onion, finely chopped",
+        "1 Red Bell Pepper, chopped",
+        "1 tsp Ground Cumin",
+        "2 cups Whole Milk",
+        "6 cups Fish or Chicken Stock",
+        "1 Green (Unripe) Plantain, grated (The Starch Bind)",
+        "2 tbsp Fresh Lime Juice (The Acid Balance)",
+        "2 tbsp Fresh Cilantro",
+        "1/4 tsp Cayenne Pepper"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "2 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "6 garlic cloves, minced",
+        "2 scallions, minced",
+        "2 tbsp fresh lime juice",
+        "1 tsp salt",
+        "2 cups fresh or thawed frozen corn kernels",
+        "2 cups whole milk",
+        "2 tbsp prepared annatto oil or olive oil",
+        "1/2 cup red onion, finely chopped",
+        "1 red bell pepper, finely chopped",
+        "1 tsp ground cumin",
+        "3 plum tomatoes, peeled, seeded and finely chopped",
+        "6 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "1 unripe green plantain, peeled and coarsely grated",
+        "2 tbsp cilantro leaves",
+        "1/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 600,
+        "protein": 92,
+        "carbs": 21.5,
+        "fat": 17.5,
+        "fiber": 2.5,
+        "sugar": 8.5,
+        "sodium": 1120
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "raw medium shrimp",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shelled and deveined; refrigerator-thawed if frozen"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": "2/3"
+                  },
+                  {
+                    "step": "base",
+                    "share": "1/3"
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "minced"
+              },
+              {
+                "id": "lime",
+                "key": "lime-juice",
+                "name": "fresh lime juice",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "corn",
+                "key": "corn",
+                "name": "fresh or thawed frozen corn kernels",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "corn-milk",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "simmer",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "whole-milk",
+                "name": "whole milk",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "corn-milk",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "annatto-or-olive-oil",
+                "name": "prepared annatto oil or olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "red-onion",
+                "name": "red onion",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "pepper",
+                "key": "red-bell-pepper",
+                "name": "red bell pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "plural": "red bell peppers",
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tomatoes",
+                "key": "plum-tomato",
+                "name": "plum tomato",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ],
+                "plural": "plum tomatoes",
+                "preparation": "peeled, seeded and finely chopped"
+              },
+              {
+                "id": "stock",
+                "key": "fish-or-chicken-stock",
+                "name": "fish or chicken stock",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "preparation": "canned low-sodium broth is also an option"
+              },
+              {
+                "id": "plantain",
+                "key": "green-plantain",
+                "name": "unripe green plantain",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "plural": "unripe green plantains",
+                "preparation": "peeled and coarsely grated"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "cilantro leaves",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cayenne",
+                "key": "cayenne",
+                "name": "cayenne pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finishing-salt",
+                "key": "salt",
+                "name": "salt",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "allowance": "to taste after the shrimp are cooked"
+              },
+              {
+                "id": "salsa",
+                "key": "corn-salsa",
+                "name": "separately prepared tangy corn salsa",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "allowance": "as desired for serving",
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "marinate",
+            "title": "Marinate",
+            "text": "In a nonreactive bowl, toss together {{ingredients}}. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking."
+          },
+          {
+            "id": "corn-milk",
+            "title": "Corn milk",
+            "text": "Near the end of the shrimp's refrigerated marinade, puree {{ingredients}} in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly."
+          },
+          {
+            "id": "base",
+            "title": "Base",
+            "text": "Use {{ingredients}} for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit."
+          },
+          {
+            "id": "tomatoes",
+            "title": "Tomatoes",
+            "text": "Stir in {{ingredients}} and cook about 2 minutes longer."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer",
+            "text": "Add the corn milk and {{ingredients}}. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened."
+          },
+          {
+            "id": "refine",
+            "title": "Refine",
+            "text": "Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer."
+          },
+          {
+            "id": "cook-shrimp",
+            "title": "Cook shrimp",
+            "text": "Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked."
+          },
+          {
+            "id": "finish",
+            "title": "Serve",
+            "text": "Use {{ingredients}} for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Grated plantain thickens the corn-and-milk base",
+        "outcome": "A partly pureed chowder with softened plantain and shrimp cooked through at the end.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw seafood at 40°F / 4°C or below; thaw frozen shrimp in the refrigerator before preparing it. Use clean utensils and dishes for the finished food.",
+          "Mince the garlic and divide it between marinade and soup as listed. Peel the plantain before grating, and prepare the tomatoes before cooking. Use prepared annatto oil or the listed olive-oil option; making a separate annatto-oil batch adds cooling time.",
+          "The six portions are the original serving plan. Finished soup volume and edible portion weights have not been measured; choose enough vessels for the scaled ingredients and headroom."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "The grated plantain has softened and the soup is thicker after simmering.",
+            "why": "Plantain cooks in the liquid; aroma or a fixed twenty-minute clock alone does not establish its texture."
+          },
+          {
+            "step": 7,
+            "cue": "Shrimp are firm, pearly and opaque through their thickest part, with a measured 145°F / 63°C endpoint.",
+            "why": "Size and starting temperature change cooking time. Refrigerated lime marination adds flavor and does not establish doneness. Boil the used marinade before adding the shrimp, then reduce to a gentle simmer so the shrimp need only their short final cook."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The corn-and-plantain base catches on the pot",
+            "cause": "The thickening soup can stick if heat is high or stirring is neglected.",
+            "fix": "Reduce the simmer and stir across the bottom while the plantain finishes. Use enough pot capacity to stir comfortably."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh corn",
+            "alternative": "Use the same measured amount of thawed frozen kernels.",
+            "effect": "Keep the milk and corn split unchanged; season and assess texture after simmering."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat while stirring until 165°F / 74°C throughout. USDA additionally recommends a rolling boil for reheated soup; bring it to that point briefly rather than simmering for a prolonged time. Repeated heating can toughen shrimp and change the milk’s texture. This reheating guidance does not change the initial shrimp finish.",
+        "timing": "Allow about 1½ hours for the original prepared-oil batch, including the 1-hour refrigerated marinade. Plan the corn milk and soup preparation near the end of that refrigerated wait. If preparing corn milk or cooked soup base ahead, refrigerate it promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat a refrigerated cooked base while stirring to 165°F / 74°C throughout and briefly bring it to a rolling boil before continuing with step 7. The 20-minute preparation and roughly 40-minute cooking entries are planning estimates, not a measured clock. Marinating for up to 3 hours, making annatto oil, cooling liquid for an appliance, chilling and reheating a prepared base or using extra pots/loads extends elapsed time.",
+        "sources": [
+          {
+            "title": "Maricel Presilla — shrimp and corn chowder",
+            "url": "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder"
+          },
+          {
+            "title": "FDA seafood handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA refrigerated marination and used-marinade boiling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe key to chowder without heavy flour is grating an unripe green plantain directly into the stock. This introduces a natural starch that thickens the soup into a velvety consistency as it simmers. We add the marinated shrimp at the very end and cook for exactly 2 minutes to ensure they stay tender and succulent. The lime juice cuts through the creamy corn.\n\n## Directions\n\n1.  **Marinate:** Toss shrimp with garlic, scallions, lime juice, and salt. Refrigerate for 1 hour.\n2.  **Corn Milk:** In a food processor, puree half the corn with the milk. Strain through a coarse sieve, pressing to extract all the liquid.\n3.  **The Base:** In a large pot, heat the oil. Sauté onion, pepper, and cumin for 5 minutes. Stir in the tomatoes.\n4.  **Simmer:** Add the corn milk, stock, grated plantain, and remaining whole corn kernels. Bring to a boil, then simmer for 20 minutes until thick and aromatic.\n5.  **Refine:** For the Kitchen Standard texture, ladle 2 cups of the soup into a blender and pulse until smooth, then return to the pot.\n6.  **The Crunch:** Add the shrimp and its marinade. Cook for 2-3 minutes until just opaque.\n7.  **Serve:** Stir in cilantro and cayenne. Serve in warmed bowls.\n",
+    "after": "\n## Chef's Note\n\nAdapted from Maricel Presilla’s coastal Ecuadoran chowder. Grated green plantain thickens the corn-and-milk base. The current partly pureed version keeps some whole kernels; add the refrigerated, marinated shrimp only when the soup base is ready, and use their doneness rather than an exact two-minute promise.\n\n## Directions\n\n1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.\n\n## Variations and preparation\n\nFor the fuller pureed version, replace the measured chopped onion with one large red onion in the original batch; scale that onion count with the rest of the recipe. Puree all the measured corn with all the milk, then strain as in step 2; do not reserve whole kernels. Add all the cilantro and cayenne with the stock and plantain in step 5 instead of at the finish. After simmering, coarsely strain the soup, blend all the strained vegetables in permitted batches and return both the puree and every bit of strained broth to the pot. Use the same appliance controls as step 6, then simmer and finish the shrimp as in step 7. All other measured supplies, including the full milk, stock and oil, stay the same.\n\nTo prepare annatto oil separately, combine **1 cup corn oil and ¼ cup annatto seeds** for one original preparation batch. Bring to a simmer over low heat, remove from the heat, cover and cool completely, about 30 minutes, then strain into a jar. Measure only the listed chowder oil from this preparation; the remaining strained oil is separate from the soup. Store that remaining oil in a tightly sealed jar in the refrigerator for up to 2 months. The seed and input-oil amounts do not establish a measured finished oil yield. Adjust this preparation batch separately if more prepared oil is needed.\n"
+  },
+  "findings": [
+    {
+      "id": "SS10-01",
+      "title": "SS10-01",
+      "rationale": "Restore the six garlic cloves, two scallions and three prepared plum tomatoes lost in eab6 while still named in the method. Native/045 and actual publisher specify garlic 2/3 marinade + 1/3 base and one teaspoon salt in the marinade. Keep current half-cup onion, half-corn chunky main, milk/stock/oil and olive option; separately preserve the complete large-onion/full-corn/full-vegetable-puree route, source frozen-corn/broth/salsa and exact standalone annatto-oil preparation.",
+      "confidence": "High for exact loss and source doses; moderate for applying the source salt dose to the retained current chunky main. No crystal-density conversion.",
+      "applicableSources": [
+        "bound-native",
+        "b7 introduction",
+        "045 first Markdown",
+        "eab6 loss",
+        "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder"
+      ],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content"],
+      "questions": [
+        "Which salt crystal type is used in the current household marinade? The retained source dose is a teaspoon, not a weight or a conversion to another salt.",
+        "Confirm the partly blended versus fuller pureed texture and large-onion variation separately."
+      ]
+    },
+    {
+      "id": "SS10-02",
+      "title": "SS10-02",
+      "rationale": "The one-hour refrigerated marinade is absent from total60. Bring the used raw-shrimp marinade to a rapid boil in the soup before adding the shrimp for their specific seafood endpoint, removing the exact-two-minute tenderness guarantee. Give the unknown blender actual-manual/cool-before-blending limits, all blended material a return destination, and prompt shallow cooling/reheating distinction. No model capacity, output volume or kitchen clock invented.",
+      "confidence": "High for primary handling and missing elapsed marinade; moderate for planning clock, pot geometry and texture mechanisms.",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "bound-native"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning", "totalTime", "formula"],
+      "questions": [
+        "Record actual pot size/headroom, model-approved blend temperature/load, softened plantain texture, active/elapsed clocks and shrimp thick-center readings.",
+        "Measure finished soup yield before treating six planned portions as exact volumes."
+      ]
+    },
+    {
+      "id": "SS10-03",
+      "title": "SS10-03",
+      "rationale": "Unsupported bulk United States birth-country metadata conflicts with the actual publisher’s coastal Ecuadoran context. Omit the country field while preserving current American style and explicit Maricel Presilla context/URL. Remove unsupported numeric nutrition rather than inventing new totals after restoration.",
+      "confidence": "High for actual publisher context and unsupported totals; country omission does not erase style.",
+      "applicableSources": [
+        "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder",
+        "actual followed metadata history"
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content"],
+      "questions": [
+        "Current American cuisine tag is preserved as existing adaptation/style; no new national birthplace assigned."
+      ]
+    },
+    {
+      "id": "ROOT-SS10-PRIMARY-HANDLING",
+      "title": "Complete prepared-oil keeping and cold marinade sequence",
+      "rationale": "The optional preparation makes more oil than the chowder uses. Its retained paragraph ends at a jar without a cold storage destination. The independently opened current publisher gives a distinct two-month refrigerated, tightly sealed oil plan; that plan is absent from the bound native notes and must be attributed to the current publisher, not called a native restoration. It is separate from the cooked dairy/seafood soup leftover policy. The recipe permits a three-hour refrigerated marinade while directing milk puree and soup preparation during that wait. Without a holding route this can leave perishable corn milk or cooked base waiting through the remainder. Preparing near the end avoids that ambiguity; if prepared ahead, cold holding and the distinct cooked-base reheat are explicit. These are editorial sequencing/handling applications, not an invented publisher prep offset or measured kitchen clock. The recipe permits a three-hour refrigerated marinade while directing milk puree and soup preparation during that wait. Without a holding route this can leave perishable corn milk or cooked base waiting through the remainder. Preparing near the end avoids that ambiguity; if prepared ahead, cold holding and the distinct cooked-base reheat are explicit. These are editorial sequencing/handling applications, not an invented publisher prep offset or measured kitchen clock. The existing authored step adds all raw shrimp and used marinade together to simmering soup and checks shrimp centers at 145°F. That measures the shrimp, without explicitly following FDA used-marinade boiling guidance. Drain and retain all free marinade/aromatics, rapidly boil it in the soup while the shrimp remain refrigerated, then return to a gentle simmer for all shrimp. The retained rich soup and full marinade are not discarded or reduced, and the shrimp are not subjected to a prolonged boil. The existing authored step adds all raw shrimp and used marinade together to simmering soup and checks shrimp centers at 145°F. That measures the shrimp, without explicitly following FDA used-marinade boiling guidance. Drain and retain all free marinade/aromatics, rapidly boil it in the soup while the shrimp remain refrigerated, then return to a gentle simmer for all shrimp. The retained rich soup and full marinade are not discarded or reduced, and the shrimp are not subjected to a prolonged boil. The existing authored step adds all raw shrimp and used marinade together to simmering soup and checks shrimp centers at 145°F. That measures the shrimp, without explicitly following FDA used-marinade boiling guidance. Drain and retain all free marinade/aromatics, rapidly boil it in the soup while the shrimp remain refrigerated, then return to a gentle simmer for all shrimp. The retained rich soup and full marinade are not discarded or reduced, and the shrimp are not subjected to a prolonged boil. The existing authored step adds all raw shrimp and used marinade together to simmering soup and checks shrimp centers at 145°F. That measures the shrimp, without explicitly following FDA used-marinade boiling guidance. Drain and retain all free marinade/aromatics, rapidly boil it in the soup while the shrimp remain refrigerated, then return to a gentle simmer for all shrimp. The retained rich soup and full marinade are not discarded or reduced, and the shrimp are not subjected to a prolonged boil.",
+      "confidence": "High exact source/primary wording; moderate editorial sequencing application, untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder",
+          "applicability": "Current publisher Make Ahead section establishes this particular prepared-oil plan. Does not certify a household shelf life, finished oil yield, garlic-in-oil preservation or the soup storage period."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+          "applicability": "Refrigerated marination; 40°F refrigerator, two-hour/one-hour hot-ambient prompt chilling and shallow containers. Does not establish the adapted cooking duration."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prepared cooked soup cooled and later reheated: shallow chilling, 165°F throughout and rolling-boil guidance for soup. Does not impose 165°F on the first-cook shrimp or certify the blender."
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "directions",
+          "applicability": "Exact one-to-three-hour refrigerated marinade and milk puree; no source timing for advance base holding."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+          "applicability": "Refrigerated marination; 40°F refrigerator, two-hour/one-hour hot-ambient prompt chilling and shallow containers. Does not establish the adapted cooking duration."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prepared cooked soup cooled and later reheated: shallow chilling, 165°F throughout and rolling-boil guidance for soup. Does not impose 165°F on the first-cook shrimp or certify the blender."
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "directions",
+          "applicability": "Exact one-to-three-hour refrigerated marinade and milk puree; no source timing for advance base holding."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+          "quote": "Don’t reuse marinades used on raw foods unless you bring them to a boil first.",
+          "applicability": "FDA general raw-food marinade reuse guidance; nearby text specifically requires a rapid boil for used marinade served as sauce. Applying the two-stage sequence to marinade incorporated in chowder is a conservative editorial application, not a direct publisher-tested chowder route or a claim that the frozen simultaneous cook necessarily caused illness."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Most seafood 145°F; shrimp firm, pearly and opaque. Supports the retained thick-center endpoint and refrigerated handling, not a fixed two-minute cook or acid decontamination."
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "directions",
+          "applicability": "Exact source uses all shrimp/marinade in soup. This safety sequencing differs from that original simultaneous addition and is disclosed privately."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+          "quote": "Don’t reuse marinades used on raw foods unless you bring them to a boil first.",
+          "applicability": "FDA general raw-food marinade reuse guidance; nearby text specifically requires a rapid boil for used marinade served as sauce. Applying the two-stage sequence to marinade incorporated in chowder is a conservative editorial application, not a direct publisher-tested chowder route or a claim that the frozen simultaneous cook necessarily caused illness."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Most seafood 145°F; shrimp firm, pearly and opaque. Supports the retained thick-center endpoint and refrigerated handling, not a fixed two-minute cook or acid decontamination."
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "directions",
+          "applicability": "Exact source uses all shrimp/marinade in soup. This safety sequencing differs from that original simultaneous addition and is disclosed privately."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+          "quote": "Don’t reuse marinades used on raw foods unless you bring them to a boil first.",
+          "applicability": "FDA general raw-food marinade reuse guidance; nearby text specifically requires a rapid boil for used marinade served as sauce. Applying the two-stage sequence to marinade incorporated in chowder is a conservative editorial application, not a direct publisher-tested chowder route or a claim that the frozen simultaneous cook necessarily caused illness."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Most seafood 145°F; shrimp firm, pearly and opaque. Supports the retained thick-center endpoint and refrigerated handling, not a fixed two-minute cook or acid decontamination."
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "directions",
+          "applicability": "Exact source uses all shrimp/marinade in soup. This safety sequencing differs from that original simultaneous addition and is disclosed privately."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+          "quote": "Don’t reuse marinades used on raw foods unless you bring them to a boil first.",
+          "applicability": "FDA general raw-food marinade reuse guidance; nearby text specifically requires a rapid boil for used marinade served as sauce. Applying the two-stage sequence to marinade incorporated in chowder is a conservative editorial application, not a direct publisher-tested chowder route or a claim that the frozen simultaneous cook necessarily caused illness."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Most seafood 145°F; shrimp firm, pearly and opaque. Supports the retained thick-center endpoint and refrigerated handling, not a fixed two-minute cook or acid decontamination."
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "directions",
+          "applicability": "Exact source uses all shrimp/marinade in soup. This safety sequencing differs from that original simultaneous addition and is disclosed privately."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "learning", "formula"],
+      "questions": [
+        "Is separate annatto oil actually prepared, and how much strained oil remains after the measured chowder dose? The input cup is not a measured finished yield.",
+        "If the longer marinade is chosen, is milk puree/base prepared near the end or chilled ahead? Measure actual elapsed time for that branch.",
+        "If the longer marinade is chosen, is milk puree/base prepared near the end or chilled ahead? Measure actual elapsed time for that branch.",
+        "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+        "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup.",
+        "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+        "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup.",
+        "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+        "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup.",
+        "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+        "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Shrimp%20and%20Corn%20Chowder.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "Marinate: Toss shrimp with garlic, scallions, lime juice, and salt. Refrigerate for 1 hour."
+      },
+      {
+        "step": 2,
+        "text": "Corn Milk: In a food processor, puree half the corn with the milk. Strain through a coarse sieve, pressing to extract all the liquid."
+      },
+      {
+        "step": 3,
+        "text": "The Base: In a large pot, heat the oil. Sauté onion, pepper, and cumin for 5 minutes. Stir in the tomatoes."
+      },
+      {
+        "step": 4,
+        "text": "Simmer: Add the corn milk, stock, grated plantain, and remaining whole corn kernels. Bring to a boil, then simmer for 20 minutes until thick and aromatic."
+      },
+      {
+        "step": 5,
+        "text": "Refine: For the Kitchen Standard texture, ladle 2 cups of the soup into a blender and pulse until smooth, then return to the pot."
+      },
+      {
+        "step": 6,
+        "text": "The Crunch: Add the shrimp and its marinade. Cook for 2-3 minutes until just opaque."
+      },
+      {
+        "step": 7,
+        "text": "Serve: Stir in cilantro and cayenne. Serve in warmed bowls."
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "Marinate: In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking."
+      },
+      {
+        "step": 2,
+        "text": "Corn milk: Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly."
+      },
+      {
+        "step": 3,
+        "text": "Base: Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit."
+      },
+      {
+        "step": 4,
+        "text": "Tomatoes: Stir in plum tomatoes and cook about 2 minutes longer."
+      },
+      {
+        "step": 5,
+        "text": "Simmer: Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened."
+      },
+      {
+        "step": 6,
+        "text": "Refine: Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer."
+      },
+      {
+        "step": 7,
+        "text": "Cook shrimp: Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked."
+      },
+      {
+        "step": 8,
+        "text": "Serve: Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately."
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "field": "directions",
+      "wholeTextPreserved": true
+    }
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Current chunky primary retained",
+        "ingredients": "All12 frozen main quantities retained; garlic6/scallions2/plumtomatoes3 and native marinade1tspsalt restored separately; preparedoil2T choice and current½cup onion unchanged.",
+        "allocation": "Corn½milkblend/½simmer; milkallcornblend; garlic2/3marinate1/3base; all other components single destinations in formula.",
+        "status": "proposed"
+      },
+      {
+        "name": "Fuller pureed source route",
+        "inventory": "Same restored formula except current½cup onion replaced by1large redonion originalbatch; all2cupscorn milk-pureed; no wholecorn reserve; cilantro2T/cayenne¼tsp simmer ratherthan finish.",
+        "allocation": "All cornmilk strained; all cookedveg puree returned with everybit strainedbroth; same milk2/stock6/oil2T/shrimp2lb, complete safetyfinish preserved. Use final main step7: keep shrimp cold while all free used marinade/aromatics rapidly boil in soup, then reduce to a gentle simmer and finish all shrimp to145°F; conservative FDA marinade-guidance application, not publisher-tested sequence.",
+        "evidence": "Exact bound native/045; eab6 creates currentchunky route, no bulk inference of householdintent",
+        "status": "separateproposedvariant"
+      },
+      {
+        "name": "Annatto oil preparation",
+        "inventory": "Original preparation batch1cupcornoil+¼cupannattoseeds",
+        "allocation": "Low simmer;offheatcovercool~30min;strain;only measured chowderoil dose used, unusedstrainedoil separate. No finishedvolume/forcedsharedscale. Store remaining prepared oil in a tightly sealed jar in the refrigerator up to two months, a current publisher plan absent from native notes; no household shelf-life validation.",
+        "status": "separatepreparation"
+      },
+      {
+        "name": "Tangy corn salsa",
+        "inventory": "Genuine unmeasured prepared salsa; no recipeingredients guessed",
+        "allocation": "Optionalseparateaccompaniment atserve",
+        "status": "optionalunmeasured"
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Fresh corn",
+        "alternative": "Use the same measured amount of thawed frozen kernels.",
+        "effect": "Keep the milk and corn split unchanged; season and assess texture after simmering."
+      }
+    ],
+    "completeCookingOptions": "For the fuller pureed version, replace the measured chopped onion with one large red onion in the original batch; scale that onion count with the rest of the recipe. Puree all the measured corn with all the milk, then strain as in step 2; do not reserve whole kernels. Add all the cilantro and cayenne with the stock and plantain in step 5 instead of at the finish. After simmering, coarsely strain the soup, blend all the strained vegetables in permitted batches and return both the puree and every bit of strained broth to the pot. Use the same appliance controls as step 6, then simmer and finish the shrimp as in step 7. All other measured supplies, including the full milk, stock and oil, stay the same.\n\nTo prepare annatto oil separately, combine **1 cup corn oil and ¼ cup annatto seeds** for one original preparation batch. Bring to a simmer over low heat, remove from the heat, cover and cool completely, about 30 minutes, then strain into a jar. Measure only the listed chowder oil from this preparation; the remaining strained oil is separate from the soup. Store that remaining oil in a tightly sealed jar in the refrigerator for up to 2 months. The seed and input-oil amounts do not establish a measured finished oil yield. Adjust this preparation batch separately if more prepared oil is needed."
+  },
+  "heldOptionalVariants": [],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/2 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "1 1/2 garlic cloves, minced",
+        "1/2 scallion, minced",
+        "1/2 tbsp fresh lime juice",
+        "1/4 tsp salt",
+        "1/2 cup fresh or thawed frozen corn kernels",
+        "1/2 cup whole milk",
+        "1/2 tbsp prepared annatto oil or olive oil",
+        "1/8 cup red onion, finely chopped",
+        "1/4 red bell pepper, finely chopped",
+        "1/4 tsp ground cumin",
+        "3/4 plum tomato, peeled, seeded and finely chopped",
+        "1 1/2 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "1/4 unripe green plantain, peeled and coarsely grated",
+        "1/2 tbsp cilantro leaves",
+        "0.0625 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "1/2 lb raw medium shrimp",
+        "1 1/2 garlic cloves",
+        "1/2 scallion",
+        "1/2 tbsp fresh lime juice",
+        "1/4 tsp salt",
+        "1/2 cup fresh or thawed frozen corn kernels",
+        "1/2 cup whole milk",
+        "1/2 tbsp prepared annatto oil or olive oil",
+        "1/8 cup red onion",
+        "1/4 red bell pepper",
+        "1/4 tsp ground cumin",
+        "3/4 plum tomato",
+        "1 1/2 cups fish or chicken stock",
+        "1/4 unripe green plantain",
+        "1/2 tbsp cilantro leaves",
+        "0.0625 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "3 garlic cloves, minced",
+        "1 scallion, minced",
+        "1 tbsp fresh lime juice",
+        "1/2 tsp salt",
+        "1 cup fresh or thawed frozen corn kernels",
+        "1 cup whole milk",
+        "1 tbsp prepared annatto oil or olive oil",
+        "1/4 cup red onion, finely chopped",
+        "1/2 red bell pepper, finely chopped",
+        "1/2 tsp ground cumin",
+        "1 1/2 plum tomatoes, peeled, seeded and finely chopped",
+        "3 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "1/2 unripe green plantain, peeled and coarsely grated",
+        "1 tbsp cilantro leaves",
+        "1/8 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "1 lb raw medium shrimp",
+        "3 garlic cloves",
+        "1 scallion",
+        "1 tbsp fresh lime juice",
+        "1/2 tsp salt",
+        "1 cup fresh or thawed frozen corn kernels",
+        "1 cup whole milk",
+        "1 tbsp prepared annatto oil or olive oil",
+        "1/4 cup red onion",
+        "1/2 red bell pepper",
+        "1/2 tsp ground cumin",
+        "1 1/2 plum tomatoes",
+        "3 cups fish or chicken stock",
+        "1/2 unripe green plantain",
+        "1 tbsp cilantro leaves",
+        "1/8 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "6 garlic cloves, minced",
+        "2 scallions, minced",
+        "2 tbsp fresh lime juice",
+        "1 tsp salt",
+        "2 cups fresh or thawed frozen corn kernels",
+        "2 cups whole milk",
+        "2 tbsp prepared annatto oil or olive oil",
+        "1/2 cup red onion, finely chopped",
+        "1 red bell pepper, finely chopped",
+        "1 tsp ground cumin",
+        "3 plum tomatoes, peeled, seeded and finely chopped",
+        "6 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "1 unripe green plantain, peeled and coarsely grated",
+        "2 tbsp cilantro leaves",
+        "1/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "2 lb raw medium shrimp",
+        "6 garlic cloves",
+        "2 scallions",
+        "2 tbsp fresh lime juice",
+        "1 tsp salt",
+        "2 cups fresh or thawed frozen corn kernels",
+        "2 cups whole milk",
+        "2 tbsp prepared annatto oil or olive oil",
+        "1/2 cup red onion",
+        "1 red bell pepper",
+        "1 tsp ground cumin",
+        "3 plum tomatoes",
+        "6 cups fish or chicken stock",
+        "1 unripe green plantain",
+        "2 tbsp cilantro leaves",
+        "1/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "9 garlic cloves, minced",
+        "3 scallions, minced",
+        "3 tbsp fresh lime juice",
+        "1 1/2 tsp salt",
+        "3 cups fresh or thawed frozen corn kernels",
+        "3 cups whole milk",
+        "3 tbsp prepared annatto oil or olive oil",
+        "3/4 cup red onion, finely chopped",
+        "1 1/2 red bell peppers, finely chopped",
+        "1 1/2 tsp ground cumin",
+        "4 1/2 plum tomatoes, peeled, seeded and finely chopped",
+        "9 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "1 1/2 unripe green plantains, peeled and coarsely grated",
+        "3 tbsp cilantro leaves",
+        "3/8 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "9 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "3 lb raw medium shrimp",
+        "9 garlic cloves",
+        "3 scallions",
+        "3 tbsp fresh lime juice",
+        "1 1/2 tsp salt",
+        "3 cups fresh or thawed frozen corn kernels",
+        "3 cups whole milk",
+        "3 tbsp prepared annatto oil or olive oil",
+        "3/4 cup red onion",
+        "1 1/2 red bell peppers",
+        "1 1/2 tsp ground cumin",
+        "4 1/2 plum tomatoes",
+        "9 cups fish or chicken stock",
+        "1 1/2 unripe green plantains",
+        "3 tbsp cilantro leaves",
+        "3/8 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "12 garlic cloves, minced",
+        "4 scallions, minced",
+        "4 tbsp fresh lime juice",
+        "2 tsp salt",
+        "4 cups fresh or thawed frozen corn kernels",
+        "4 cups whole milk",
+        "4 tbsp prepared annatto oil or olive oil",
+        "1 cup red onion, finely chopped",
+        "2 red bell peppers, finely chopped",
+        "2 tsp ground cumin",
+        "6 plum tomatoes, peeled, seeded and finely chopped",
+        "12 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "2 unripe green plantains, peeled and coarsely grated",
+        "4 tbsp cilantro leaves",
+        "1/2 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "4 lb raw medium shrimp",
+        "12 garlic cloves",
+        "4 scallions",
+        "4 tbsp fresh lime juice",
+        "2 tsp salt",
+        "4 cups fresh or thawed frozen corn kernels",
+        "4 cups whole milk",
+        "4 tbsp prepared annatto oil or olive oil",
+        "1 cup red onion",
+        "2 red bell peppers",
+        "2 tsp ground cumin",
+        "6 plum tomatoes",
+        "12 cups fish or chicken stock",
+        "2 unripe green plantains",
+        "4 tbsp cilantro leaves",
+        "1/2 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "6 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "18 garlic cloves, minced",
+        "6 scallions, minced",
+        "6 tbsp fresh lime juice",
+        "3 tsp salt",
+        "6 cups fresh or thawed frozen corn kernels",
+        "6 cups whole milk",
+        "6 tbsp prepared annatto oil or olive oil",
+        "1 1/2 cups red onion, finely chopped",
+        "3 red bell peppers, finely chopped",
+        "3 tsp ground cumin",
+        "9 plum tomatoes, peeled, seeded and finely chopped",
+        "18 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "3 unripe green plantains, peeled and coarsely grated",
+        "6 tbsp cilantro leaves",
+        "3/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "18 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "6 lb raw medium shrimp",
+        "18 garlic cloves",
+        "6 scallions",
+        "6 tbsp fresh lime juice",
+        "3 tsp salt",
+        "6 cups fresh or thawed frozen corn kernels",
+        "6 cups whole milk",
+        "6 tbsp prepared annatto oil or olive oil",
+        "1 1/2 cups red onion",
+        "3 red bell peppers",
+        "3 tsp ground cumin",
+        "9 plum tomatoes",
+        "18 cups fish or chicken stock",
+        "3 unripe green plantains",
+        "6 tbsp cilantro leaves",
+        "3/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen",
+        "6 garlic cloves, minced",
+        "2 scallions, minced",
+        "2 tbsp fresh lime juice",
+        "1 tsp salt",
+        "2 cups fresh or thawed frozen corn kernels",
+        "2 cups whole milk",
+        "2 tbsp prepared annatto oil or olive oil",
+        "1/2 cup red onion, finely chopped",
+        "1 red bell pepper, finely chopped",
+        "1 tsp ground cumin",
+        "3 plum tomatoes, peeled, seeded and finely chopped",
+        "6 cups fish or chicken stock, canned low-sodium broth is also an option",
+        "1 unripe green plantain, peeled and coarsely grated",
+        "2 tbsp cilantro leaves",
+        "1/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Marinate:** In a nonreactive bowl, toss together raw medium shrimp, 2/3 of the garlic cloves, scallions, fresh lime juice, and salt. Cover and refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons the shrimp; it does not replace cooking.\n2. **Corn milk:** Near the end of the shrimp's refrigerated marinade, puree 1/2 of the fresh or thawed frozen corn kernels and whole milk in a food processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid. Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin promptly.\n3. **Base:** Use 1/3 of the garlic cloves, prepared annatto oil or olive oil, red onion, red bell pepper, and ground cumin for this stage. In a pot with room for the measured stock, milk, vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete batches if the load will not fit.\n4. **Tomatoes:** Stir in plum tomatoes and cook about 2 minutes longer.\n5. **Simmer:** Add the corn milk and 1/2 of the fresh or thawed frozen corn kernels, fish or chicken stock, and unripe green plantain. Bring to a boil, then reduce to a simmer for about 20 minutes, stirring occasionally, until the grated plantain has softened and the soup has thickened.\n6. **Refine:** Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch, adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Return all of this blended portion to the pot and bring the complete soup back to a simmer.\n7. **Cook shrimp:** Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood, letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not taste before the marinade has boiled and the shrimp have cooked.\n8. **Serve:** Use cilantro leaves, cayenne pepper, salt, and separately prepared tangy corn salsa (if using) for this finish. Stir the cilantro and cayenne into the soup, then add finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.",
+      "shopping": [
+        "2 lb raw medium shrimp",
+        "6 garlic cloves",
+        "2 scallions",
+        "2 tbsp fresh lime juice",
+        "1 tsp salt",
+        "2 cups fresh or thawed frozen corn kernels",
+        "2 cups whole milk",
+        "2 tbsp prepared annatto oil or olive oil",
+        "1/2 cup red onion",
+        "1 red bell pepper",
+        "1 tsp ground cumin",
+        "3 plum tomatoes",
+        "6 cups fish or chicken stock",
+        "1 unripe green plantain",
+        "2 tbsp cilantro leaves",
+        "1/4 tsp cayenne pepper",
+        "salt, to taste after the shrimp are cooked",
+        "separately prepared tangy corn salsa, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler/all shares conserved; variants original-batch context adjusts all complete branch supplies together"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which salt crystal type is used in the current household marinade? The retained source dose is a teaspoon, not a weight or a conversion to another salt.",
+    "Confirm the partly blended versus fuller pureed texture and large-onion variation separately.",
+    "Record actual pot size/headroom, model-approved blend temperature/load, softened plantain texture, active/elapsed clocks and shrimp thick-center readings.",
+    "Measure finished soup yield before treating six planned portions as exact volumes.",
+    "Current American cuisine tag is preserved as existing adaptation/style; no new national birthplace assigned.",
+    "Is separate annatto oil actually prepared, and how much strained oil remains after the measured chowder dose? The input cup is not a measured finished yield.",
+    "If the longer marinade is chosen, is milk puree/base prepared near the end or chilled ahead? Measure actual elapsed time for that branch.",
+    "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+    "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

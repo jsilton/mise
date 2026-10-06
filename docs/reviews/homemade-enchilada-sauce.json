@@ -1,0 +1,571 @@
+{
+  "slug": "homemade-enchilada-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "a329300bc1259d0458c845924faef931d53e0d6f627d2e892175f1ca241e14ba",
+  "acceptedSourceSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["simmer", "boil", "blend"],
+      "after": ["simmer", "boil"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 tbsp Extra-Virgin Olive Oil",
+        "3 tbsp All-Purpose Flour (or GF blend)",
+        "1 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1 tsp Ground Cumin",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Dried Oregano",
+        "1/4 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "2 tbsp Tomato Paste",
+        "2 cups Vegetable or Chicken Broth",
+        "1 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper"
+      ],
+      "after": [
+        "3 tbsp Extra-Virgin Olive Oil",
+        "3 tbsp All-Purpose Flour (or GF blend)",
+        "1 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1 tsp Ground Cumin",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Dried Oregano",
+        "1/4 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "2 tbsp Tomato Paste",
+        "2 cups Vegetable or Chicken Broth",
+        "1 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Measure the spice mixture before the oil is ready",
+        "outcome": "A smooth, pourable sauce with the full flour, spice, tomato and broth formula used.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use vessels with room for the full listed batch plus stirring or bubbling. For larger batches use enough vessels and divide all ingredients proportionally. Temperatures do not scale and heating/reduction times are not linear.",
+          "Use the mild American-style chili powder blend specified in the ingredients, not the same quantity of pure cayenne. Reserve black pepper and vinegar for the finish."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A pinch of dry mixture sizzles, then the roux becomes fragrant without blackening.",
+            "why": "The brief spice stage precedes liquid; reduce heat if it scorches."
+          },
+          {
+            "step": 4,
+            "cue": "The sauce coats a spoon and offers slight resistance when stirred.",
+            "why": "Cooling thickens it further; a rigid reduction clock can make it too thick."
+          }
+        ],
+        "timing": "Around 15–20 minutes for the original batch, including measuring and heating the pan. Start simmer checks at 5–7 minutes; use consistency rather than multiplying the clock.",
+        "substitutions": [
+          {
+            "ingredient": "Flour",
+            "alternative": "Use the same full listed flour volume of whole-wheat flour, all-purpose flour or a suitable gluten-free all-purpose blend.",
+            "effect": "The source permits all three; they can give different texture."
+          },
+          {
+            "ingredient": "Vinegar",
+            "alternative": "Replace all the listed apple cider vinegar with the same amount of distilled white vinegar. Add it off heat at the same finish stage.",
+            "effect": "An exact source alternative, not extra acid."
+          },
+          {
+            "ingredient": "Tomato-free version",
+            "alternative": "Omit all the tomato paste; keep the full oil, flour, chili powder, cumin, garlic, broth and remaining seasonings and follow the same stages.",
+            "effect": "The retained source option changes flavor; no replacement dose is required."
+          }
+        ],
+        "storage": "Refrigerate promptly at 40°F /4°C or below, within 2 hours of preparation or 1 hour above 90°F /32°C. Use within 3–4 days or freeze small portions promptly; thaw in the refrigerator. When reheating stored sauce, bring it to a rolling boil while stirring.",
+        "troubleshooting": [
+          {
+            "problem": "Lumps form as broth enters",
+            "cause": "Liquid entered faster than the flour mixture was dispersed.",
+            "fix": "Add the full broth gradually while whisking and scraping the pan; do not add another flour supply to compensate."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Cookie and Kate — Enchilada Sauce",
+            "url": "https://cookieandkate.com/enchilada-sauce-recipe/"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis homemade enchilada sauce builds deeper flavor than store-bought versions by toasting chili powder and cumin directly in the hot oil-flour roux before adding liquid. This blooming technique releases the spices' fat-soluble aromatic oils. A splash of apple cider vinegar at the end brightens the earthy cumin and tomato paste.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **The Roux:** Measure flour, chili powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens.\n2.  **Emulsify:** Whisk in the tomato paste until smooth.\n3.  **The Liquid:** Slowly pour in the broth while whisking vigorously to remove all lumps.\n4.  **Simmer:** Increase heat to medium-high and bring to a boil. Reduce heat and simmer for 5-7 minutes until the sauce thickens and coats the back of a spoon.\n5.  **Finish:** Remove from heat. Whisk in the vinegar and black pepper. Taste and add more salt if needed.\n6.  **Store:** Use immediately, or transfer to shallow heatproof containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze in small portions. Reheat leftovers to a rolling boil, stirring and adding a little broth or water if needed to restore a pourable consistency.\n\n## Cooking Notes\n\nA gluten-free all-purpose flour blend can replace the flour. Tomato paste can be omitted for a tomato-free version, with a different flavor; keep the chili powder, cumin and garlic as the seasoning base.\n",
+    "after": "\n## Chef's Note\n\nHave the flour and spices measured before heating the full oil supply. Whisk constantly through the brief flour-and-spice stage, then add the broth gradually to avoid lumps. The sauce thickens further as it cools; finish with the listed vinegar and black pepper after taking it off heat.\n\n## Directions\n\n1.  **The Roux:** Measure flour, chili powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens.\n2.  **Emulsify:** Whisk in the tomato paste until smooth.\n3.  **The Liquid:** Slowly pour in the broth while whisking vigorously to remove all lumps.\n4.  **Simmer:** Increase heat to medium-high and bring to a boil. Reduce heat and simmer for 5-7 minutes until the sauce thickens and coats the back of a spoon.\n5.  **Finish:** Remove from heat. Whisk in the vinegar and black pepper. Taste and add more salt if needed.\n6.  **Store:** Use immediately, or transfer to shallow heatproof containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze in small portions. Reheat leftovers to a rolling boil, stirring and adding a little broth or water if needed to restore a pourable consistency.\n\n## Cooking Notes\n\nA gluten-free all-purpose flour blend can replace the flour. Tomato paste can be omitted for a tomato-free version, with a different flavor; keep the chili powder, cumin and garlic as the seasoning base.\n"
+  },
+  "findings": [
+    {
+      "id": "SO08-3",
+      "title": "SO08-3",
+      "rationale": "Exact native/b7/045 and actual CookieKate support wholewheat flour and distilledwhite vinegar source options lost in6980 bulk rewrite; preserve currentAP/GF/mainapplevinegar and full chicken-or-vegetablebroth current choice. Existing858 mildAmericanblend/notcayenne/cinnamonoptional/allspicedestination/3–4day/rollingboil repairs remain. Explicit separate extra salt and reheating liquid allowances already in current method, not invented measured doses. Countryorigin bulk metadata not recipe-specific evidence; cuisine remains.",
+      "confidence": "High exact history/quantity proof; moderate culinary sequence, planning and storage-category applications; untested",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Homemade Enchilada Sauce.html",
+            "sha256": "cf4f881571df795985ccb371501229c08540c418293df70e5e81aa739f8293f1",
+            "scope": "Actual earlier HTML cooking introduction; first canonical Markdown retained separately"
+          },
+          "scope": "Exact actual Git cooking introduction, with source quantities and preparations only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical cooking/quantity history; persistence alone does not prove deliberate rejection"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact stable-bound durable original450 cooking text; no title-match certification"
+        },
+        {
+          "url": "https://cookieandkate.com/enchilada-sauce-recipe/",
+          "scope": "Actualprimaryrecipe ingredients/method/options; source/current disagreement explained, notshelf-life validation"
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Generalcookedleftover3–4day/shalllowpromptcool/reheatsaucerollingboil; moderateeditorialcategoryapplication, directpagefetchblocked butofficialindexedtext read"
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Flour blend and broth salt affect texture/seasoning; no precision yield or nutrition claim."
+      ]
+    },
+    {
+      "id": "ROOT-COMPLETE-METHODS-AND-OPTIONS",
+      "title": "Preserve cooking methods and exclusive options",
+      "rationale": "Toum is a raw food-processor emulsion followed by refrigeration; grilling belongs to a suggested accompanying chicken recipe. Enchilada Sauce uses a whisked roux and simmer/boil, with no blending step in original, current or proposed cooking. Retaining the unused tags misdirects method browsing. This is not a new heat rule.",
+      "confidence": "High direct source/method scope; formula outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "14fbabf5fb8ba22c1ec4ada03fb7b6a204aaae99688d01e290f9817c3ab9ecaa",
+          "applicability": "Complete exact original Toum method."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "cc22c1f35b0ee0500f1c5a8b9b8cc6563c4f00124998ccbc62957c766b3aa8b9",
+          "applicability": "Whole authored and compiled method, including current alternate route."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6cdfb271d069b5182c57e7738287aeb80d5f93848e57cf9b7e9d25e573c32176",
+          "applicability": "Complete original whisked roux method."
+        },
+        {
+          "path": "src/knowledge/TAGGING_GUIDE.md",
+          "sha256": "37092d756327605fbda9ebf04b9a4f6bc5e7ae7098bcc3f4a927aa0ac9fa73c5",
+          "applicability": "Cooking-method tags describe how the recipe is cooked."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Homemade%20Enchilada%20Sauce.html",
+    "introductionScope": "Actual earlier HTML cooking introduction; first canonical Markdown retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact native/b7/045 and actual CookieKate support wholewheat flour and distilledwhite vinegar source options lost in6980 bulk rewrite; preserve currentAP/GF/mainapplevinegar and full chicken-or-vegetablebroth current choice. Existing858 mildAmericanblend/notcayenne/cinnamonoptional/allspicedestination/3–4day/rollingboil repairs remain. Explicit separate extra salt and reheating liquid allowances already in current method, not invented measured doses. Countryorigin bulk metadata not recipe-specific evidence; cuisine remains.",
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Flour blend and broth salt affect texture/seasoning; no precision yield or nutrition claim."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "3 tbsp Extra-Virgin Olive Oil",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "3 tbsp All-Purpose Flour (or GF blend)",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1 tsp Ground Cumin",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1/2 tsp Garlic Powder",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1/4 tsp Dried Oregano",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "Pinch of ground cinnamon, optional",
+        "actualMethodDestination": "OptionalRoux1"
+      },
+      {
+        "text": "2 tbsp Tomato Paste",
+        "actualMethodDestination": "Paste2"
+      },
+      {
+        "text": "2 cups Vegetable or Chicken Broth",
+        "actualMethodDestination": "Liquid3"
+      },
+      {
+        "text": "1 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "actualMethodDestination": "Offheatfinish5"
+      },
+      {
+        "text": "Black Pepper",
+        "actualMethodDestination": "Offheatfinish5"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "3 tbsp Extra-Virgin Olive Oil",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "3 tbsp All-Purpose Flour (or GF blend)",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1 tsp Ground Cumin",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1/2 tsp Garlic Powder",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1/4 tsp Dried Oregano",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "actualMethodDestination": "Roux1"
+      },
+      {
+        "text": "Pinch of ground cinnamon, optional",
+        "actualMethodDestination": "OptionalRoux1"
+      },
+      {
+        "text": "2 tbsp Tomato Paste",
+        "actualMethodDestination": "Paste2"
+      },
+      {
+        "text": "2 cups Vegetable or Chicken Broth",
+        "actualMethodDestination": "Liquid3"
+      },
+      {
+        "text": "1 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "actualMethodDestination": "Offheatfinish5"
+      },
+      {
+        "text": "Black Pepper",
+        "actualMethodDestination": "Offheatfinish5"
+      },
+      {
+        "text": "Additional salt, as needed for final seasoning",
+        "actualMethodDestination": "Separateextrafinishsalt5"
+      },
+      {
+        "text": "Broth or water, as needed to loosen stored sauce",
+        "actualMethodDestination": "Separatestoredsauceloosening6"
+      }
+    ],
+    "frozenMethodOnly": ["Additionalfinalsalt5", "Reheatlooseningbrothwater6"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "The Roux: Measure flour, chili powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens."
+    },
+    {
+      "step": 2,
+      "text": "Emulsify: Whisk in the tomato paste until smooth."
+    },
+    {
+      "step": 3,
+      "text": "The Liquid: Slowly pour in the broth while whisking vigorously to remove all lumps."
+    },
+    {
+      "step": 4,
+      "text": "Simmer: Increase heat to medium-high and bring to a boil. Reduce heat and simmer for 5-7 minutes until the sauce thickens and coats the back of a spoon."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Remove from heat. Whisk in the vinegar and black pepper. Taste and add more salt if needed."
+    },
+    {
+      "step": 6,
+      "text": "Store: Use immediately, or transfer to shallow heatproof containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze in small portions. Reheat leftovers to a rolling boil, stirring and adding a little broth or water if needed to restore a pourable consistency."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Flour",
+      "alternative": "Use the same full listed flour volume of whole-wheat flour, all-purpose flour or a suitable gluten-free all-purpose blend.",
+      "effect": "The source permits all three; they can give different texture."
+    },
+    {
+      "ingredient": "Vinegar",
+      "alternative": "Replace all the listed apple cider vinegar with the same amount of distilled white vinegar. Add it off heat at the same finish stage.",
+      "effect": "An exact source alternative, not extra acid."
+    },
+    {
+      "ingredient": "Tomato-free version",
+      "alternative": "Omit all the tomato paste; keep the full oil, flour, chili powder, cumin, garlic, broth and remaining seasonings and follow the same stages.",
+      "effect": "The retained source option changes flavor; no replacement dose is required."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "crispy-black-bean-tacos",
+      "slow-cooker-vegetarian-lentil-tortilla-soup",
+      "korean-style-tacos-with-kogi-bbq-sauce"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed-meal ingredient links found; metadata pairings are suggestions, not full-batch formula substitutions or review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "About 2 cups",
+    "scope": "Preserved source/current planning only; no measured kitchen portions",
+    "capacity": [
+      "Use vessels with room for the full listed batch plus stirring or bubbling. For larger batches use enough vessels and divide all ingredients proportionally. Temperatures do not scale and heating/reduction times are not linear.",
+      "Use the mild American-style chili powder blend specified in the ingredients, not the same quantity of pure cayenne. Reserve black pepper and vinegar for the finish."
+    ],
+    "timing": "Around 15–20 minutes for the original batch, including measuring and heating the pan. Start simmer checks at 5–7 minutes; use consistency rather than multiplying the clock."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/4 tbsp Extra-Virgin Olive Oil",
+        "3/4 tbsp All-Purpose Flour (or GF blend)",
+        "1/4 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1/4 tsp Ground Cumin",
+        "1/8 tsp Garlic Powder",
+        "0.0625 tsp Dried Oregano",
+        "0.0625 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "1/2 tbsp Tomato Paste",
+        "1/2 cup Vegetable or Chicken Broth",
+        "1/4 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups · 0.25× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 tbsp Extra-Virgin Olive Oil",
+        "1 1/2 tbsp All-Purpose Flour (or GF blend)",
+        "1/2 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1/2 tsp Ground Cumin",
+        "1/4 tsp Garlic Powder",
+        "1/8 tsp Dried Oregano",
+        "1/8 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "1 tbsp Tomato Paste",
+        "1 cup Vegetable or Chicken Broth",
+        "1/2 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups · 0.5× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "3 tbsp Extra-Virgin Olive Oil",
+        "3 tbsp All-Purpose Flour (or GF blend)",
+        "1 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1 tsp Ground Cumin",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Dried Oregano",
+        "1/4 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "2 tbsp Tomato Paste",
+        "2 cups Vegetable or Chicken Broth",
+        "1 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 tbsp Extra-Virgin Olive Oil",
+        "4 1/2 tbsp All-Purpose Flour (or GF blend)",
+        "1 1/2 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1 1/2 tsp Ground Cumin",
+        "3/4 tsp Garlic Powder",
+        "3/8 tsp Dried Oregano",
+        "3/8 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "3 tbsp Tomato Paste",
+        "3 cups Vegetable or Chicken Broth",
+        "1 1/2 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups · 1.5× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "6 tbsp Extra-Virgin Olive Oil",
+        "6 tbsp All-Purpose Flour (or GF blend)",
+        "2 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "2 tsp Ground Cumin",
+        "1 tsp Garlic Powder",
+        "1/2 tsp Dried Oregano",
+        "1/2 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "4 tbsp Tomato Paste",
+        "4 cups Vegetable or Chicken Broth",
+        "2 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups · 2× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "9 tbsp Extra-Virgin Olive Oil",
+        "9 tbsp All-Purpose Flour (or GF blend)",
+        "3 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "3 tsp Ground Cumin",
+        "1 1/2 tsp Garlic Powder",
+        "3/4 tsp Dried Oregano",
+        "3/4 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "6 tbsp Tomato Paste",
+        "6 cups Vegetable or Chicken Broth",
+        "3 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups · 3× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "3 tbsp Extra-Virgin Olive Oil",
+        "3 tbsp All-Purpose Flour (or GF blend)",
+        "1 tbsp mild American-style chili powder blend (not pure cayenne)",
+        "1 tsp Ground Cumin",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Dried Oregano",
+        "1/4 tsp Sea Salt",
+        "Pinch of ground cinnamon, optional",
+        "2 tbsp Tomato Paste",
+        "2 cups Vegetable or Chicken Broth",
+        "1 tsp Apple Cider Vinegar (The Finishing Touch)",
+        "Black Pepper",
+        "Additional salt, as needed for final seasoning",
+        "Broth or water, as needed to loosen stored sauce"
+      ],
+      "yield": "Original yield: About 2 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "858Americanblend/notcayenne/cinnamonoptional/allspicedestinations/prompt3–4day/rollingboil preserved.",
+  "remainingQuestions": [
+    "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+    "Flour blend and broth salt affect texture/seasoning; no precision yield or nutrition claim."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

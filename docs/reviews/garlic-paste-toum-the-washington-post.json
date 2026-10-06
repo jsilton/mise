@@ -1,0 +1,665 @@
+{
+  "slug": "garlic-paste-toum-the-washington-post",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "ea1a5073eed04a6e413f4ef4a7d6f507ed4a8a96472497930d46657cfbf90df2",
+  "acceptedSourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Lebanon",
+      "after": null
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["grill", "blend"],
+      "after": ["blend"]
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 4½ hr, including at least 4 hr refrigeration"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Fresh Garlic Cloves, peeled",
+        "1/2 tsp Kosher Salt",
+        "3 cups Neutral Oil (Grapeseed or Canola)",
+        "1/4 cup Fresh Lemon Juice",
+        "1/3 cup Cold Water"
+      ],
+      "after": [
+        "--- Garlic paste ---",
+        "2 cups fresh garlic cloves, peeled",
+        "1/2 tsp kosher salt",
+        "3 cups neutral oil (grapeseed or canola)",
+        "1/4 cup fresh lemon juice",
+        "1/3 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1435,
+        "protein": 0.5,
+        "carbs": 2,
+        "fat": 162,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium": 580
+      },
+      "after": null
+    },
+    {
+      "field": "advancePrep",
+      "before": null,
+      "after": ["chill-to-set"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "components": [
+          {
+            "id": "toum",
+            "name": "Garlic paste",
+            "ingredients": [
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "fresh garlic cloves",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ],
+                "preparation": "peeled"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "neutral oil (grapeseed or canola)",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "second",
+                    "share": "1/6"
+                  },
+                  {
+                    "step": "third",
+                    "share": "1/6"
+                  },
+                  {
+                    "step": "last",
+                    "share": "1/6"
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "lemon",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "cold water",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "third",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "optional",
+            "name": "Optional source finish",
+            "ingredients": [
+              {
+                "id": "extra-oil",
+                "key": "extra-oil",
+                "name": "neutral oil",
+                "allowance": "a little more as needed for the source finishing option",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "last",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "puree",
+            "title": "Puree garlic",
+            "text": "Use {{ingredients}} in a food processor with sufficient usable liquid capacity for the entire mixture. Puree until smooth, stopping and scraping as needed. Follow its motor-duty and minimum-load instructions; make separate proportionally divided batches if necessary."
+          },
+          {
+            "id": "first",
+            "title": "Begin the emulsion",
+            "text": "With the motor running as permitted by the appliance, add {{ingredients}} in the thinnest stream. Stop to scrape. Do not speed up the pour if the mixture looks oily rather than cohesive."
+          },
+          {
+            "id": "second",
+            "title": "Build the paste",
+            "text": "Gradually add {{ingredients}} in the same thin stream, checking for a thick, cohesive paste."
+          },
+          {
+            "id": "lemon",
+            "title": "Add lemon",
+            "text": "Gradually add all {{ingredients}}; the mixture should lighten."
+          },
+          {
+            "id": "third",
+            "title": "Add oil and water",
+            "text": "Gradually add the assigned neutral oil, then slowly add all the cold water. These are {{ingredients}}. The paste should loosen without becoming runny."
+          },
+          {
+            "id": "last",
+            "title": "Finish the emulsion",
+            "text": "Gradually add all the remaining measured neutral oil. For the optional source finish, add only a little of the separate extra-oil allowance at a time if needed for a creamy, white, fluffy paste; stop if the mixture separates. The measured remainder and optional allowance are {{ingredients}}."
+          },
+          {
+            "id": "chill",
+            "title": "Refrigerate",
+            "text": "Transfer to clean covered containers and refrigerate at least 4 hours before serving. Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice alone to establish a longer storage life."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Add each oil stage slowly and keep the full batch cold",
+        "outcome": "A cohesive, fluffy garlic paste with all measured lemon and water incorporated.",
+        "techniques": ["temperature"],
+        "before": [
+          "For larger batches use enough processor bowls and divide all ingredients proportionally. Keep the mixture within each appliance’s actual liquid capacity; larger loads do not promise the same blending clock.",
+          "Use a processor that permits the full liquid load and a small enough first garlic load to reach the blade. A larger scaled recipe may require separate emulsion batches rather than a single overfilled bowl."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Smooth garlic paste rather than large pieces.",
+            "why": "A smooth starting paste helps distribute the subsequent oil."
+          },
+          {
+            "step": 3,
+            "cue": "Thick cohesive paste without a pool of free oil.",
+            "why": "Pause before adding more liquid if the emulsion separates."
+          },
+          {
+            "step": 6,
+            "cue": "Creamy white paste after the complete measured oil supply.",
+            "why": "The source offers a separate extra-oil finish, not permission to replace missing allocations."
+          }
+        ],
+        "timing": "Plan roughly 20–30 minutes active blending and at least 4 hours refrigeration, about 4½ hours elapsed. Processor limits and batches can add time.",
+        "substitutions": [
+          {
+            "ingredient": "Alternating oil-and-lemon route",
+            "alternative": "For the current alternating method, puree the same full garlic and salt. Slowly add one sixth of the total measured oil, then one quarter of the total lemon juice. Alternate small additions of all the remaining five sixths oil and three quarters lemon, adding each slowly while the paste stays cohesive; no fixed half-cup/teaspoon cycle is required. Finish with all the water, then refrigerate and store as in the main. Keep the optional extra-oil finish separate.",
+            "effect": "Both routes use the same full measured oil, lemon and water supplies; add each slowly while the paste remains cohesive."
+          },
+          {
+            "ingredient": "Washington Post garlic measure and oil choice",
+            "alternative": "For the source garlic preparation, fill the listed garlic-volume measure scant rather than level; use canola or soybean oil in the same full measured oil volume. Follow the source-staged main method and optional extra-oil finish.",
+            "effect": "A scant garlic measure gives a slightly lower garlic proportion; keep this choice separate from the level-volume main."
+          }
+        ],
+        "storage": "Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; an emulsion may separate. Lemon juice or heating alone does not establish a longer storage life.",
+        "troubleshooting": [
+          {
+            "problem": "Free oil pools around the paste",
+            "cause": "Oil was added faster than the mixture incorporated it, or the load does not reach the processor blade.",
+            "fix": "Stop the pour and check the processor load and mixture before proceeding; do not pour the entire remaining supply into a separated paste."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Washington Post — Garlic Paste (Toum)",
+            "url": "https://www.washingtonpost.com/recipes/garlic-paste-toum/"
+          },
+          {
+            "title": "NCHFP — Garlic-in-Oil Storage",
+            "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Lebanese garlic sauce requires patience - add oil in the thinnest possible stream, literally drop by drop for the first cup. This allows garlic's natural lecithin to bind oil and water into stable, fluffy foam. Rushing breaks the emulsion into oily soup. Lemon juice keeps garlic's heat in check while refrigeration mellows its bite.\n\n## Directions\n\n1.  **The Puree:** Place the garlic cloves and salt in a food processor. Pulse and scrape until the garlic is a completely smooth, uniform paste.\n2.  **The First Emulsion:** With the motor running, slowly drizzle in 1/2 cup of the oil, drop by drop. The mixture should begin to look like a thick paste.\n3.  **The Stabilizer:** Slowly drizzle in 1 tbsp of the lemon juice. The paste will turn noticeably whiter.\n4.  **The Stream:** Continue the process - alternating between 1/2 cup of oil and 1 tsp of lemon juice - until all the oil and lemon are used. The stream can be slightly thicker now, but never rushed.\n5.  **The Texture:** With the motor still running, slowly add the cold water. This will lighten the paste and give it its signature cloud-like fluffiness.\n6.  **Set:** Transfer to a glass jar and refrigerate for at least 4 hours before using. This allows the garlic vapors to mellow and the emulsion to set.\n7.  **Store:** Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice alone to establish a longer storage life.\n",
+    "after": "\n## Chef's Note\n\nToum is a Lebanese garlic emulsion. Start with a smooth garlic paste and introduce oil in a very thin stream, pausing to scrape as needed. A separated oily mixture needs attention before more liquid goes in. The oil stages below follow the Washington Post method.\n\n## Directions\n\n1. **Puree garlic:** Use fresh garlic cloves and kosher salt in a food processor with sufficient usable liquid capacity for the entire mixture. Puree until smooth, stopping and scraping as needed. Follow its motor-duty and minimum-load instructions; make separate proportionally divided batches if necessary.\n2. **Begin the emulsion:** With the motor running as permitted by the appliance, add 1/2 of the neutral oil (grapeseed or canola) in the thinnest stream. Stop to scrape. Do not speed up the pour if the mixture looks oily rather than cohesive.\n3. **Build the paste:** Gradually add 1/6 of the neutral oil (grapeseed or canola) in the same thin stream, checking for a thick, cohesive paste.\n4. **Add lemon:** Gradually add all fresh lemon juice; the mixture should lighten.\n5. **Add oil and water:** Gradually add the assigned neutral oil, then slowly add all the cold water. These are 1/6 of the neutral oil (grapeseed or canola) and cold water. The paste should loosen without becoming runny.\n6. **Finish the emulsion:** Gradually add all the remaining measured neutral oil. For the optional source finish, add only a little of the separate extra-oil allowance at a time if needed for a creamy, white, fluffy paste; stop if the mixture separates. The measured remainder and optional allowance are 1/6 of the neutral oil (grapeseed or canola) and neutral oil (if using).\n7. **Refrigerate:** Transfer to clean covered containers and refrigerate at least 4 hours before serving. Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice alone to establish a longer storage life.\n"
+  },
+  "findings": [
+    {
+      "id": "SO08-1",
+      "title": "SO08-1",
+      "rationale": "32afdbad bulk rewrite replaced complete source oil stages with inconsistent literal½cup/1tsp alternations, removed scant garlic qualifier/optional extra oil and introduced unsupported lecithin explanation. Later history adjusts prose/tags and a2 preserves4day cold handling, not explicit household rejection of source stages. Keep current full2cups garlic/main3cups oil/¼lemon/⅓water/½kosher; source staged main restored with authored exact½+⅙+⅙+⅙ oil shares. Current alternating route remains separately complete, with arithmetic correction disclosed rather than claiming source verification. Atleast4h current refrigeration included in elapsed plan.",
+      "confidence": "High exact history/quantity proof; moderate culinary sequence, planning and storage-category applications; untested",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Garlic Paste (Toum) - The Washington Post.html",
+            "sha256": "b1d331feef2b0ac4c7754917f884b4eab7481289ae899b1865e56465a9c5052f",
+            "scope": "Actual earlier HTML cooking introduction; first canonical Markdown retained separately"
+          },
+          "scope": "Exact actual Git cooking introduction, with source quantities and preparations only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical cooking/quantity history; persistence alone does not prove deliberate rejection"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact stable-bound durable original450 cooking text; no title-match certification"
+        },
+        {
+          "url": "https://www.washingtonpost.com/recipes/garlic-paste-toum/",
+          "scope": "Actualprimaryrecipe ingredients/method/options; source/current disagreement explained, notshelf-life validation"
+        },
+        {
+          "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+          "scope": "Fresh garlic-in-oil4day/40F/freezing, applicableToum/chili only; noformula/process validation"
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Actual processor model/minimumload/motor/liquidcapacity unknown; source4cupyield is a planning claim, not additive-volume precision.",
+        "Current level2cups vs source scant2cups garlic and corrected alternating route texture remain separate cooking questions."
+      ]
+    },
+    {
+      "id": "ROOT-COMPLETE-METHODS-AND-OPTIONS",
+      "title": "Preserve cooking methods and exclusive options",
+      "rationale": "Toum is a raw food-processor emulsion followed by refrigeration; grilling belongs to a suggested accompanying chicken recipe. Enchilada Sauce uses a whisked roux and simmer/boil, with no blending step in original, current or proposed cooking. Retaining the unused tags misdirects method browsing. This is not a new heat rule.",
+      "confidence": "High direct source/method scope; formula outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "14fbabf5fb8ba22c1ec4ada03fb7b6a204aaae99688d01e290f9817c3ab9ecaa",
+          "applicability": "Complete exact original Toum method."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "cc22c1f35b0ee0500f1c5a8b9b8cc6563c4f00124998ccbc62957c766b3aa8b9",
+          "applicability": "Whole authored and compiled method, including current alternate route."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6cdfb271d069b5182c57e7738287aeb80d5f93848e57cf9b7e9d25e573c32176",
+          "applicability": "Complete original whisked roux method."
+        },
+        {
+          "path": "src/knowledge/TAGGING_GUIDE.md",
+          "sha256": "37092d756327605fbda9ebf04b9a4f6bc5e7ae7098bcc3f4a927aa0ac9fa73c5",
+          "applicability": "Cooking-method tags describe how the recipe is cooked."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Garlic%20Paste%20(Toum)%20-%20The%20Washington%20Post.html",
+    "introductionScope": "Actual earlier HTML cooking introduction; first canonical Markdown retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "32afdbad bulk rewrite replaced complete source oil stages with inconsistent literal½cup/1tsp alternations, removed scant garlic qualifier/optional extra oil and introduced unsupported lecithin explanation. Later history adjusts prose/tags and a2 preserves4day cold handling, not explicit household rejection of source stages. Keep current full2cups garlic/main3cups oil/¼lemon/⅓water/½kosher; source staged main restored with authored exact½+⅙+⅙+⅙ oil shares. Current alternating route remains separately complete, with arithmetic correction disclosed rather than claiming source verification. Atleast4h current refrigeration included in elapsed plan.",
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "Actual processor model/minimumload/motor/liquidcapacity unknown; source4cupyield is a planning claim, not additive-volume precision.",
+        "Current level2cups vs source scant2cups garlic and corrected alternating route texture remain separate cooking questions."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 cups Fresh Garlic Cloves, peeled",
+        "actualMethodDestination": "Puree1"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "actualMethodDestination": "Puree1"
+      },
+      {
+        "text": "3 cups Neutral Oil (Grapeseed or Canola)",
+        "actualMethodDestination": "First½cup2,remainingliteral½cupcycles4 inconsistent totals"
+      },
+      {
+        "text": "1/4 cup Fresh Lemon Juice",
+        "actualMethodDestination": "First1tbsp3,remainingliteral1tspcycles4 inconsistent totals"
+      },
+      {
+        "text": "1/3 cup Cold Water",
+        "actualMethodDestination": "All5"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "fresh garlic cloves",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "actualMethodDestination": "puree:1"
+      },
+      {
+        "text": "kosher salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "actualMethodDestination": "puree:1"
+      },
+      {
+        "text": "neutral oil (grapeseed or canola)",
+        "quantity": {
+          "amount": 3,
+          "unit": "cup"
+        },
+        "actualMethodDestination": "first:1/2;second:1/6;third:1/6;last:1/6"
+      },
+      {
+        "text": "fresh lemon juice",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "actualMethodDestination": "lemon:1"
+      },
+      {
+        "text": "cold water",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "actualMethodDestination": "third:1"
+      },
+      {
+        "text": "neutral oil",
+        "quantity": "a little more as needed for the source finishing option",
+        "actualMethodDestination": "last:1"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Puree garlic: Use fresh garlic cloves and kosher salt in a food processor with sufficient usable liquid capacity for the entire mixture. Puree until smooth, stopping and scraping as needed. Follow its motor-duty and minimum-load instructions; make separate proportionally divided batches if necessary."
+    },
+    {
+      "step": 2,
+      "text": "Begin the emulsion: With the motor running as permitted by the appliance, add 1/2 of the neutral oil (grapeseed or canola) in the thinnest stream. Stop to scrape. Do not speed up the pour if the mixture looks oily rather than cohesive."
+    },
+    {
+      "step": 3,
+      "text": "Build the paste: Gradually add 1/6 of the neutral oil (grapeseed or canola) in the same thin stream, checking for a thick, cohesive paste."
+    },
+    {
+      "step": 4,
+      "text": "Add lemon: Gradually add all fresh lemon juice; the mixture should lighten."
+    },
+    {
+      "step": 5,
+      "text": "Add oil and water: Gradually add the assigned neutral oil, then slowly add all the cold water. These are 1/6 of the neutral oil (grapeseed or canola) and cold water. The paste should loosen without becoming runny."
+    },
+    {
+      "step": 6,
+      "text": "Finish the emulsion: Gradually add all the remaining measured neutral oil. For the optional source finish, add only a little of the separate extra-oil allowance at a time if needed for a creamy, white, fluffy paste; stop if the mixture separates. The measured remainder and optional allowance are 1/6 of the neutral oil (grapeseed or canola) and neutral oil (if using)."
+    },
+    {
+      "step": 7,
+      "text": "Refrigerate: Transfer to clean covered containers and refrigerate at least 4 hours before serving. Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice alone to establish a longer storage life."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Alternating oil-and-lemon route",
+      "alternative": "For the current alternating method, puree the same full garlic and salt. Slowly add one sixth of the total measured oil, then one quarter of the total lemon juice. Alternate small additions of all the remaining five sixths oil and three quarters lemon, adding each slowly while the paste stays cohesive; no fixed half-cup/teaspoon cycle is required. Finish with all the water, then refrigerate and store as in the main. Keep the optional extra-oil finish separate.",
+      "effect": "Both routes use the same full measured oil, lemon and water supplies; add each slowly while the paste remains cohesive."
+    },
+    {
+      "ingredient": "Washington Post garlic measure and oil choice",
+      "alternative": "For the source garlic preparation, fill the listed garlic-volume measure scant rather than level; use canola or soybean oil in the same full measured oil volume. Follow the source-staged main method and optional extra-oil finish.",
+      "effect": "A scant garlic measure gives a slightly lower garlic proportion; keep this choice separate from the level-volume main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "chicken-shawarma",
+      "chicken-thigh-kebabs-with-chile-yogurt-sauce",
+      "middle-eastern-style-grilled-chicken-kabobs"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed-meal ingredient links found; metadata pairings are suggestions, not full-batch formula substitutions or review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 cups",
+    "scope": "Preserved source/current planning only; no measured kitchen portions",
+    "capacity": [
+      "For larger batches use enough processor bowls and divide all ingredients proportionally. Keep the mixture within each appliance’s actual liquid capacity; larger loads do not promise the same blending clock.",
+      "Use a processor that permits the full liquid load and a small enough first garlic load to reach the blade. A larger scaled recipe may require separate emulsion batches rather than a single overfilled bowl."
+    ],
+    "timing": "Plan roughly 20–30 minutes active blending and at least 4 hours refrigeration, about 4½ hours elapsed. Processor limits and batches can add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "1/2 cup fresh garlic cloves, peeled",
+        "1/8 tsp kosher salt",
+        "3/4 cup neutral oil (grapeseed or canola)",
+        "0.0625 cup fresh lemon juice",
+        "0.0833 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "1 cup",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "1 cup fresh garlic cloves, peeled",
+        "1/4 tsp kosher salt",
+        "1 1/2 cups neutral oil (grapeseed or canola)",
+        "1/8 cup fresh lemon juice",
+        "1/6 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "2 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "2 cups fresh garlic cloves, peeled",
+        "1/2 tsp kosher salt",
+        "3 cups neutral oil (grapeseed or canola)",
+        "1/4 cup fresh lemon juice",
+        "1/3 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "4 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "3 cups fresh garlic cloves, peeled",
+        "3/4 tsp kosher salt",
+        "4 1/2 cups neutral oil (grapeseed or canola)",
+        "3/8 cup fresh lemon juice",
+        "1/2 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "6 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "4 cups fresh garlic cloves, peeled",
+        "1 tsp kosher salt",
+        "6 cups neutral oil (grapeseed or canola)",
+        "1/2 cup fresh lemon juice",
+        "2/3 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "8 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "6 cups fresh garlic cloves, peeled",
+        "1 1/2 tsp kosher salt",
+        "9 cups neutral oil (grapeseed or canola)",
+        "3/4 cup fresh lemon juice",
+        "1 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "12 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Garlic paste ---",
+        "2 cups fresh garlic cloves, peeled",
+        "1/2 tsp kosher salt",
+        "3 cups neutral oil (grapeseed or canola)",
+        "1/4 cup fresh lemon juice",
+        "1/3 cup cold water",
+        "--- Optional source finish ---",
+        "neutral oil, a little more as needed for the source finishing option, optional"
+      ],
+      "yield": "4 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "a2c9e280promptcold40/4days/freezesmall/lemonnolongerlife preserved.",
+  "remainingQuestions": [
+    "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+    "Actual processor model/minimumload/motor/liquidcapacity unknown; source4cupyield is a planning claim, not additive-volume precision.",
+    "Current level2cups vs source scant2cups garlic and corrected alternating route texture remain separate cooking questions."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

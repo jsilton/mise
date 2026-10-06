@@ -1,0 +1,445 @@
+{
+  "slug": "homemade-chili-oil",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
+  "inputSha256": "6b7738c2051fc8ec65d0b56d2e0c956968115bc3f15edc9e5532dd4333627650",
+  "acceptedSourceSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Test the oil on the actual flakes before the main pour",
+        "outcome": "Fragrant oil with colored flakes and no blackened, bitter sediment.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use vessels with room for the full listed batch plus stirring or bubbling. For larger batches use enough vessels and divide all ingredients proportionally. Temperatures do not scale and heating/reduction times are not linear.",
+          "Have a dry stainless-steel bowl, dry metal strainer and dry spoon ready. Keep all the fresh garlic and ginger; their presence means prompt refrigerated handling."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Spices are fragrant, not blackened.",
+            "why": "The thermometer and actual spice color govern the oil heat."
+          },
+          {
+            "step": 3,
+            "cue": "Test flakes sizzle without blackening or a burnt smell.",
+            "why": "Different flakes can scorch at different oil temperatures."
+          }
+        ],
+        "timing": "About 15 minutes for original-batch preparation/heating, with additional cooling and packaging time. Do not extend the hot-oil stage automatically for a scaled batch.",
+        "substitutions": [
+          {
+            "ingredient": "Pepper flakes",
+            "alternative": "Choose either gochugaru or crushed red pepper for the full listed flake volume. Keep all the other ingredients and use the test pour.",
+            "effect": "These are the existing alternatives; their heat and roast levels differ."
+          },
+          {
+            "ingredient": "Sichuan peppercorns",
+            "alternative": "Omit the full listed optional Sichuan peppercorn amount if desired; strain out star anise and cinnamon in either route.",
+            "effect": "The numbing ingredient is optional, not a substitute for the red flakes."
+          }
+        ],
+        "storage": "Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator and stir before serving. Heating this fresh-garlic-and-ginger oil does not establish a longer storage life.",
+        "troubleshooting": [
+          {
+            "problem": "Flakes turn black during the test pour",
+            "cause": "The oil is too hot for that flake product.",
+            "fix": "Let the oil cool a little and retest in a separate dry dish before adding it to the main bowl."
+          }
+        ],
+        "sources": [
+          {
+            "title": "NCHFP — Garlic-in-Oil Storage",
+            "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChili oil is the secret weapon of Chinese cooking - a few spoonfuls transform dumplings, noodles, or rice into something extraordinary. The technique is simple: bloom aromatics in oil, then pour the hot oil over pepper flakes to release their color and flavor without burning. The oil temperature is critical - too hot and you'll burn the flakes (bitter), too cool and you won't extract the color (pale). Use a thermometer and watch the flakes: their size and roast level change how easily they scorch. The fifteen-minute estimate covers preparation and heating; allow additional time to cool enough to handle and package safely.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1. **The Prep:** Place red pepper flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready.\n\n2. **The Infuse:** In a small saucepan, combine oil, star anise, cinnamon stick, and Sichuan peppercorns if using. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat.\n\n3. **The Pour:** Remove the whole spices with the dry metal strainer. Test a small spoonful of oil on a few flakes in a separate dry heatproof dish: they should sizzle without blackening or smelling burnt. If they scorch, let the oil cool a little and test again. Carefully add the oil to the main mixture in small increments, stirring with a dry metal spoon and allowing bubbling to subside between additions. Keep your face and hands clear of the steam and splashes. Heating does not make this fresh-garlic-and-ginger oil shelf-stable.\n\n4. **The Store:** Cool promptly in a heatproof container, then refrigerate at 40°F or below within 2 hours, or 1 hour above 90°F. Use within 4 days, or freeze small portions promptly. Stir before serving. Do not store this fresh-garlic-and-ginger oil at room temperature.\n",
+    "after": "\n## Chef's Note\n\nThe pepper flakes stay in the oil; star anise, cinnamon and optional Sichuan peppercorns infuse it and are strained out. Flake size and roast level affect scorching, so test a little hot oil before the main pour. The fifteen-minute estimate covers preparation and heating; cooling and packaging take additional time. Serve the chili oil separately so diners can choose how much heat to add.\n\n## Directions\n\n1. **The Prep:** Place red pepper flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready.\n\n2. **The Infuse:** In a small saucepan, combine oil, star anise, cinnamon stick, and Sichuan peppercorns if using. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat.\n\n3. **The Pour:** Remove the whole spices with the dry metal strainer. Test a small spoonful of oil on a few flakes in a separate dry heatproof dish: they should sizzle without blackening or smelling burnt. If they scorch, let the oil cool a little and test again. Carefully add the oil to the main mixture in small increments, stirring with a dry metal spoon and allowing bubbling to subside between additions. Keep your face and hands clear of the steam and splashes. Heating does not make this fresh-garlic-and-ginger oil shelf-stable.\n\n4. **The Store:** Cool promptly in a heatproof container, then refrigerate at 40°F or below within 2 hours, or 1 hour above 90°F. Use within 4 days, or freeze small portions promptly. Stir before serving. Do not store this fresh-garlic-and-ginger oil at room temperature.\n"
+  },
+  "findings": [
+    {
+      "id": "SO08-2",
+      "title": "SO08-2",
+      "rationale": "Whole first7b9 introduction has no exact original450 binding or publisher attribution. All10 measured rows preserved and exact a2/858 hot-oil vessel/temperature/testpour/prompt4day refrigeration repairs preserved byte-for-byte in Directions. Add recipe-specific whole ingredient/scaling/discard teaching only; remove unsupported country-of-origin metadata, retain Chinese/Sichuan style tags. No roomtemperature/month storage revival.",
+      "confidence": "High exact history/quantity proof; moderate culinary sequence, planning and storage-category applications; untested",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "7b9e5ec07a4b536e9a7eb18f4ce67ee58cbea692",
+            "path": "src/content/recipes/homemade-chili-oil.md",
+            "sha256": "a48ffea8cb476a0f764ab0cf22c70469d6c03c4caea3218915bc68b200a55c45",
+            "scope": "Actual first available Git cooking introduction; exact original450 binding absent, no native-original certification"
+          },
+          "scope": "Exact actual Git cooking introduction, with source quantities and preparations only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical cooking/quantity history; persistence alone does not prove deliberate rejection"
+        },
+        {
+          "url": "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/",
+          "scope": "Fresh garlic-in-oil4day/40F/freezing, applicableToum/chili only; noformula/process validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Generalcleanhandling/cumulative2h1above90/cold40 only, notformula oracidity"
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "No actual publisher or exact original450 binding; firstGit formula is the established repository source.",
+        "Flake product roast/heat and test aliquot affect final yield; sixteen servings has no measured spoon-size evidence."
+      ]
+    },
+    {
+      "id": "ROOT-COMPLETE-METHODS-AND-OPTIONS",
+      "title": "Preserve cooking methods and exclusive options",
+      "rationale": "Preserve the useful existing heat-on-the-side serving note in direct cooking prose, while all ten main measured ingredients and prior hot-oil/cold-storage methods remain intact.",
+      "confidence": "High direct source/method scope; formula outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "src/content/recipes/homemade-chili-oil.md"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/7b9e5ec07a4b536e9a7eb18f4ce67ee58cbea692/src/content/recipes/homemade-chili-oil.md",
+    "introductionScope": "Actual first available Git cooking introduction; exact original450 binding absent, no native-original certification",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Whole first7b9 introduction has no exact original450 binding or publisher attribution. All10 measured rows preserved and exact a2/858 hot-oil vessel/temperature/testpour/prompt4day refrigeration repairs preserved byte-for-byte in Directions. Add recipe-specific whole ingredient/scaling/discard teaching only; remove unsupported country-of-origin metadata, retain Chinese/Sichuan style tags. No roomtemperature/month storage revival.",
+      "questions": [
+        "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+        "No actual publisher or exact original450 binding; firstGit formula is the established repository source.",
+        "Flake product roast/heat and test aliquot affect final yield; sixteen servings has no measured spoon-size evidence."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 cup Neutral Oil (vegetable, canola, or peanut)",
+        "actualMethodDestination": "Infuse2then strained/test3/pour3;small test aliquot separate"
+      },
+      {
+        "text": "1/2 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "actualMethodDestination": "Drybowl1"
+      },
+      {
+        "text": "2 tbsp Sesame Seeds",
+        "actualMethodDestination": "Drybowl1"
+      },
+      {
+        "text": "1 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "actualMethodDestination": "Optionalinfuse2thenstrain3discard"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "Washed/driedmincedbowl1"
+      },
+      {
+        "text": "1 inch Fresh Ginger, minced",
+        "actualMethodDestination": "Washed/driedmincedbowl1"
+      },
+      {
+        "text": "2 Star Anise",
+        "actualMethodDestination": "Infuse2thenstrain3discard"
+      },
+      {
+        "text": "1 Cinnamon Stick",
+        "actualMethodDestination": "Infuse2thenstrain3discard"
+      },
+      {
+        "text": "1 tsp Salt",
+        "actualMethodDestination": "Drybowl1"
+      },
+      {
+        "text": "1 tsp Sugar",
+        "actualMethodDestination": "Drybowl1"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 cup Neutral Oil (vegetable, canola, or peanut)",
+        "actualMethodDestination": "Infuse2then strained/test3/pour3;small test aliquot separate"
+      },
+      {
+        "text": "1/2 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "actualMethodDestination": "Drybowl1"
+      },
+      {
+        "text": "2 tbsp Sesame Seeds",
+        "actualMethodDestination": "Drybowl1"
+      },
+      {
+        "text": "1 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "actualMethodDestination": "Optionalinfuse2thenstrain3discard"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "Washed/driedmincedbowl1"
+      },
+      {
+        "text": "1 inch Fresh Ginger, minced",
+        "actualMethodDestination": "Washed/driedmincedbowl1"
+      },
+      {
+        "text": "2 Star Anise",
+        "actualMethodDestination": "Infuse2thenstrain3discard"
+      },
+      {
+        "text": "1 Cinnamon Stick",
+        "actualMethodDestination": "Infuse2thenstrain3discard"
+      },
+      {
+        "text": "1 tsp Salt",
+        "actualMethodDestination": "Drybowl1"
+      },
+      {
+        "text": "1 tsp Sugar",
+        "actualMethodDestination": "Drybowl1"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "The Prep: Place red pepper flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready."
+    },
+    {
+      "step": 2,
+      "text": "The Infuse: In a small saucepan, combine oil, star anise, cinnamon stick, and Sichuan peppercorns if using. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat."
+    },
+    {
+      "step": 3,
+      "text": "The Pour: Remove the whole spices with the dry metal strainer. Test a small spoonful of oil on a few flakes in a separate dry heatproof dish: they should sizzle without blackening or smelling burnt. If they scorch, let the oil cool a little and test again. Carefully add the oil to the main mixture in small increments, stirring with a dry metal spoon and allowing bubbling to subside between additions. Keep your face and hands clear of the steam and splashes. Heating does not make this fresh-garlic-and-ginger oil shelf-stable."
+    },
+    {
+      "step": 4,
+      "text": "The Store: Cool promptly in a heatproof container, then refrigerate at 40°F or below within 2 hours, or 1 hour above 90°F. Use within 4 days, or freeze small portions promptly. Stir before serving. Do not store this fresh-garlic-and-ginger oil at room temperature."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Pepper flakes",
+      "alternative": "Choose either gochugaru or crushed red pepper for the full listed flake volume. Keep all the other ingredients and use the test pour.",
+      "effect": "These are the existing alternatives; their heat and roast levels differ."
+    },
+    {
+      "ingredient": "Sichuan peppercorns",
+      "alternative": "Omit the full listed optional Sichuan peppercorn amount if desired; strain out star anise and cinnamon in either route.",
+      "effect": "The numbing ingredient is optional, not a substitute for the red flakes."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "har-gow-dim-sum-shrimp-dumplings",
+      "cantonese-shrimp-and-pork-wontons",
+      "lo-mein"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed-meal ingredient links found; metadata pairings are suggestions, not full-batch formula substitutions or review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "16",
+    "scope": "Preserved source/current planning only; no measured kitchen portions",
+    "capacity": [
+      "Use vessels with room for the full listed batch plus stirring or bubbling. For larger batches use enough vessels and divide all ingredients proportionally. Temperatures do not scale and heating/reduction times are not linear.",
+      "Have a dry stainless-steel bowl, dry metal strainer and dry spoon ready. Keep all the fresh garlic and ginger; their presence means prompt refrigerated handling."
+    ],
+    "timing": "About 15 minutes for original-batch preparation/heating, with additional cooling and packaging time. Do not extend the hot-oil stage automatically for a scaled batch."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 cup Neutral Oil (vegetable, canola, or peanut)",
+        "1/8 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "1/2 tbsp Sesame Seeds",
+        "1/4 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "1 clove Garlic, minced",
+        "1/4 inch Fresh Ginger, minced",
+        "1/2 Star Anise",
+        "1/4 Cinnamon Stick",
+        "1/4 tsp Salt",
+        "1/4 tsp Sugar"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup Neutral Oil (vegetable, canola, or peanut)",
+        "1/4 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "1 tbsp Sesame Seeds",
+        "1/2 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "2 cloves Garlic, minced",
+        "1/2 inch Fresh Ginger, minced",
+        "1 Star Anise",
+        "1/2 Cinnamon Stick",
+        "1/2 tsp Salt",
+        "1/2 tsp Sugar"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 cup Neutral Oil (vegetable, canola, or peanut)",
+        "1/2 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "2 tbsp Sesame Seeds",
+        "1 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "4 cloves Garlic, minced",
+        "1 inch Fresh Ginger, minced",
+        "2 Star Anise",
+        "1 Cinnamon Stick",
+        "1 tsp Salt",
+        "1 tsp Sugar"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 cups Neutral Oil (vegetable, canola, or peanut)",
+        "3/4 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "3 tbsp Sesame Seeds",
+        "1 1/2 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "6 cloves Garlic, minced",
+        "1 1/2 inch Fresh Ginger, minced",
+        "3 Star Anise",
+        "1 1/2 Cinnamon Stick",
+        "1 1/2 tsp Salt",
+        "1 1/2 tsp Sugar"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 cups Neutral Oil (vegetable, canola, or peanut)",
+        "1 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "4 tbsp Sesame Seeds",
+        "2 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "8 cloves Garlic, minced",
+        "2 inch Fresh Ginger, minced",
+        "4 Star Anise",
+        "2 Cinnamon Stick",
+        "2 tsp Salt",
+        "2 tsp Sugar"
+      ],
+      "yield": "Serves 32",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 cups Neutral Oil (vegetable, canola, or peanut)",
+        "1 1/2 cups Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "6 tbsp Sesame Seeds",
+        "3 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "12 cloves Garlic, minced",
+        "3 inch Fresh Ginger, minced",
+        "6 Star Anise",
+        "3 Cinnamon Stick",
+        "3 tsp Salt",
+        "3 tsp Sugar"
+      ],
+      "yield": "Serves 48",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 cup Neutral Oil (vegetable, canola, or peanut)",
+        "1/2 cup Red Pepper Flakes (gochugaru or crushed red pepper)",
+        "2 tbsp Sesame Seeds",
+        "1 tbsp Sichuan Peppercorns (optional, for numbing heat)",
+        "4 cloves Garlic, minced",
+        "1 inch Fresh Ginger, minced",
+        "2 Star Anise",
+        "1 Cinnamon Stick",
+        "1 tsp Salt",
+        "1 tsp Sugar"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "a2c9e2804daycold and858fulldryvessel/thermometer/testpour/scorching/promptcool repairs preserved; Directions unchanged.",
+  "remainingQuestions": [
+    "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
+    "No actual publisher or exact original450 binding; firstGit formula is the established repository source.",
+    "Flake product roast/heat and test aliquot affect final yield; sixteen servings has no measured spoon-size evidence."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 125,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12399,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -503,7 +503,9 @@
       ],
       "reviewer": "poultry_editor",
       "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
-      "status": "assigned; whole author/independent/root pending"
+      "status": "whole author frozen; independent/root pending",
+      "manifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "manifestSha256": "336c2cfcbcbd185ee19d47783454dc4a430ada46a24007b3d71485b6e067c627"
     },
     "beverages_mixes_22": {
       "slugs": [
@@ -520,7 +522,9 @@
       ],
       "reviewer": "coverage_check",
       "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
-      "status": "assigned; whole author/independent/root pending"
+      "status": "whole author frozen; independent/root pending",
+      "manifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "manifestSha256": "71de10529cf0eed0c117c4dce7d609e90ef599cd476101037ad7723e4a54e6e8"
     },
     "breads_crafts_dumplings_23": {
       "slugs": [
@@ -3568,7 +3572,7 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/",
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3577,7 +3581,10 @@
       ],
       "inputSha256": "9a57d8ff9d1fb0096264605de6eb608e1da345983eaffa843f401410ef0ffeef",
       "plannedBatch": "braises-and-slow-cooking-01",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "167d311972f0a51c6726bacf557d45436c8d8295fa40b8b91f644080b9484fbe"
     },
     {
       "slug": "crockpot-mac-and-cheese",
@@ -5003,10 +5010,12 @@
       "source": "Adapted from Washingtonpost.com",
       "sourceUrl": "https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a",
       "group": "sauces_oils_08",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/garlic-paste-toum-the-washington-post.json"
+        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/garlic-paste-toum-the-washington-post.json",
+        "docs/reviews/garlic-paste-toum-the-washington-post.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5025,7 +5034,9 @@
         "sourceSha256": "cc22c1f35b0ee0500f1c5a8b9b8cc6563c4f00124998ccbc62957c766b3aa8b9",
         "recordPath": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/garlic-paste-toum-the-washington-post.json",
         "recordSha256": "9ab503c02adcdc6aed01bc95003c2193ba07a0bdd96c57a3855ce314dc3eee81"
-      }
+      },
+      "acceptedSourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
+      "productionVerification": "pending"
     },
     {
       "slug": "garlicky-lemon-kale-with-carrots",
@@ -5260,16 +5271,20 @@
       "source": null,
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the intended number and size of servings?",
+        "Does the 6 fl oz prosecco belong to the whole batch or each glass?",
+        "Which shaker and glasses safely accommodate the actual intended load?"
       ],
       "inputSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df",
       "plannedBatch": "cold-preparations-02",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df"
     },
     {
       "slug": "grandmommys-pecan-pie",
@@ -5387,7 +5402,7 @@
       "source": "Adapted from theconsciousplantkitchen.com",
       "sourceUrl": "https://www.theconsciousplantkitchen.com/green-smoothie-for-kids/",
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5396,7 +5411,10 @@
       ],
       "inputSha256": "1881e40640298afdde29f6c1c791542ed5c022a2849b66c8dd0850f765bf8d2a",
       "plannedBatch": "context-screening-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc"
     },
     {
       "slug": "grilled-chicken-with-herbed-corn-salsa",
@@ -5911,10 +5929,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "sauces_oils_08",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-chili-oil.json"
+        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-chili-oil.json",
+        "docs/reviews/homemade-chili-oil.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5933,7 +5953,9 @@
         "sourceSha256": "84dc88b7fc60b2c06f429359cb569556dc3915db25b79e46774554ae90d1be76",
         "recordPath": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-chili-oil.json",
         "recordSha256": "31d2e1887ef69441d0b6686f2a45baf408e946128a41ce7ee4673abb00e478ea"
-      }
+      },
+      "acceptedSourceSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9",
+      "productionVerification": "pending"
     },
     {
       "slug": "homemade-enchilada-sauce",
@@ -5942,10 +5964,12 @@
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2016/enchilada-sauce-recipe/",
       "group": "sauces_oils_08",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-enchilada-sauce.json"
+        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-enchilada-sauce.json",
+        "docs/reviews/homemade-enchilada-sauce.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5963,7 +5987,9 @@
         "sourceSha256": "153109218928520f520769b415857ef4c4ab6a224f971be13a3088126fafaea5",
         "recordPath": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-enchilada-sauce.json",
         "recordSha256": "14d483031c21eddc70f9a7b606e313a03dd9fa04b1e964f5307feb0d518e4394"
-      }
+      },
+      "acceptedSourceSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb",
+      "productionVerification": "pending"
     },
     {
       "slug": "homemade-sugar-free-ketchup",
@@ -5972,10 +5998,12 @@
       "source": "Adapted from Sugarfreelondoner.com",
       "sourceUrl": "http://sugarfreelondoner.com/sugar-free-ketchup/",
       "group": "sauces_oils_08",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-sugar-free-ketchup.json"
+        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-sugar-free-ketchup.json",
+        "docs/reviews/homemade-sugar-free-ketchup.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5995,7 +6023,9 @@
         "sourceSha256": "0394430b26415f41e87d891bdd113e634f2a376d83374c3ba900fde5c82e3290",
         "recordPath": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-sugar-free-ketchup.json",
         "recordSha256": "67be489527aae3632d30cfa482a16b2c3861b9d3fdecf37bfabb97693fd0c1c5"
-      }
+      },
+      "acceptedSourceSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77",
+      "productionVerification": "pending"
     },
     {
       "slug": "honey-glazed-carrots",
@@ -6061,18 +6091,24 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/tyler-florence/hot-and-sour-soup-recipe-1914206",
       "group": "stock_linked_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/hot-and-sour-soup.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What was the household tofu square/package size?",
+        "How much finished linked stock does the household batch actually yield?",
+        "Confirm stock salinity with the restored saved salt and sugar; no kitchen test has established a revised amount."
       ],
       "inputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408",
       "plannedBatch": "simmer-boil-and-steam-05",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate"
+      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "acceptedSourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
+      "productionVerification": "pending"
     },
     {
       "slug": "hot-mulled-apple-cider",
@@ -6081,7 +6117,7 @@
       "source": "Adapted from Food.com",
       "sourceUrl": "http://www.food.com/recipe/hot-mulled-apple-cider-3713",
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6090,7 +6126,10 @@
       ],
       "inputSha256": "d355b36335f7d34836913cc8bfa0cd455863bfb1a0300f95ecac5c8d8806ecc9",
       "plannedBatch": "braises-and-slow-cooking-02",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4"
     },
     {
       "slug": "how-to-make-frittatas-stovetop-or-baked",
@@ -6126,7 +6165,7 @@
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/in-the-park.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6135,7 +6174,10 @@
       ],
       "inputSha256": "1d05474099e170017cd19583d4f9b4fa7e2723a8b8f70fe086f448b01428dd2a",
       "plannedBatch": "cold-preparations-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e"
     },
     {
       "slug": "instant-pot-butternut-squash-soup",
@@ -6614,18 +6656,23 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share",
       "group": "stock_linked_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/lemon-miso-tofu-with-broccoli.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual tofu batch count and elapsed time in the household pan.",
+        "Verify the intended sauce salt with the household miso brand; preserve saved½tsp pending peer review."
       ],
       "inputSha256": "bdc89b93d2245d979fff2b4297be758b8fa7cdf296d36e1f00f24a6c06f77824",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "bdc89b93d2245d979fff2b4297be758b8fa7cdf296d36e1f00f24a6c06f77824",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate"
+      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "acceptedSourceSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488",
+      "productionVerification": "pending"
     },
     {
       "slug": "loaded-baked-omelet-muffins",
@@ -6728,7 +6775,7 @@
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2017/mango-pineapple-green-smoothie/",
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6737,7 +6784,10 @@
       ],
       "inputSha256": "f8f2a869043c43c21bc52c0a98203a75b5a9bc0cb3a429fce0cabda796f496cb",
       "plannedBatch": "context-screening-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e"
     },
     {
       "slug": "maple-roasted-sweet-potato-wedges",
@@ -8942,10 +8992,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "sauces_oils_08",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/san-marzano-tomato-sauce.json"
+        ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/san-marzano-tomato-sauce.json",
+        "docs/reviews/san-marzano-tomato-sauce.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8964,7 +9016,9 @@
         "sourceSha256": "2ba62678b916aab97e358973afe71858f472877aca207c2fa74a9d80b598160e",
         "recordPath": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/san-marzano-tomato-sauce.json",
         "recordSha256": "9a04396272a4f24e68aa2edc7bfbbfefc47c9428e9d79314af16a6654d6dd590"
-      }
+      },
+      "acceptedSourceSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900",
+      "productionVerification": "pending"
     },
     {
       "slug": "sausage-and-white-bean-skillet",
@@ -8994,7 +9048,7 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a37215621/sausage-breakfast-casserole-recipe/",
       "group": "savory_breakfast_bakes_21",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9003,7 +9057,10 @@
       ],
       "inputSha256": "8803dd7bb5b9a64b20dddc99f7f6c347391c677534b5272367b9d7e4943f865b",
       "plannedBatch": "baked-savory-and-breads-09",
-      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "authorSourceSha256": "846ac614ec040b358ada89ddf289103228e65b7faa8af7249f068f4248bb87d4"
     },
     {
       "slug": "sausage-shrimp-and-quinoa-skillet",
@@ -9229,7 +9286,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "savory_breakfast_bakes_21",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9238,7 +9295,10 @@
       ],
       "inputSha256": "941a2ca997a31e15cfe08f289f10c3d28bbb6668512d3216a1ae8e19ea9cd14f",
       "plannedBatch": "simmer-boil-and-steam-09",
-      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "authorSourceSha256": "69a13e3655929fe4652eada6c9a91275e74426ef83ccf8ab9d850e53f2c034ef"
     },
     {
       "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
@@ -9309,7 +9369,7 @@
       "source": "bellyfull.net",
       "sourceUrl": "https://bellyfull.net/sheet-pan-pancakes/",
       "group": "savory_breakfast_bakes_21",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/sheet-pan-pancakes.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -9318,7 +9378,10 @@
       ],
       "inputSha256": "893da67a0b8fd7a3872654c52d962d286892f65fc9c3d7f0fe04ddd34c11b313",
       "plannedBatch": "baked-savory-and-breads-10",
-      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "authorSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027"
     },
     {
       "slug": "sheet-pan-pesto-chicken-meal-prep-bowls",
@@ -9409,10 +9472,12 @@
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder",
       "group": "seafood_soups_10",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/shrimp-and-corn-chowder.json"
+        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/shrimp-and-corn-chowder.json",
+        "docs/reviews/shrimp-and-corn-chowder.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9420,7 +9485,11 @@
         "Confirm the partly blended versus fuller pureed texture and large-onion variation separately.",
         "Record actual pot size/headroom, model-approved blend temperature/load, softened plantain texture, active/elapsed clocks and shrimp thick-center readings.",
         "Measure finished soup yield before treating six planned portions as exact volumes.",
-        "Current American cuisine tag is preserved as existing adaptation/style; no new national birthplace assigned."
+        "Current American cuisine tag is preserved as existing adaptation/style; no new national birthplace assigned.",
+        "Is separate annatto oil actually prepared, and how much strained oil remains after the measured chowder dose? The input cup is not a measured finished yield.",
+        "If the longer marinade is chosen, is milk puree/base prepared near the end or chilled ahead? Measure actual elapsed time for that branch.",
+        "Confirm the brief marinade-boil/gentle-shrimp sequence with the actual pot: lime may change milk texture; no curdling guarantee is made.",
+        "Check shrimp thick centers with the actual thin probe and record the final cook clock; raw marinade ingredients must all reach the soup."
       ],
       "inputSha256": "aca69b8aafb27401c2b346833e13ce067b7ec993f5e3ddddcee4c6f3b90a11d1",
       "plannedBatch": "simmer-boil-and-steam-09",
@@ -9433,7 +9502,9 @@
         "sourceSha256": "68ae0d9dec5a0fd2a8fb2d845b9bf31c61e30cbdca42e588374dfa0e0ed4335d",
         "recordPath": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/shrimp-and-corn-chowder.json",
         "recordSha256": "8c51aa5a9764665c491847539beea07067dd4c799f8938b67f1fb79d0901afb9"
-      }
+      },
+      "acceptedSourceSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-and-mango-tacos",
@@ -9596,7 +9667,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9605,7 +9676,10 @@
       ],
       "inputSha256": "81456a440207ca765a4f1da97b40042266dc0d57d1c6f93013e3bb986ee275a4",
       "plannedBatch": "cold-preparations-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934"
     },
     {
       "slug": "simply-seasoned-korean-spinach-salad",
@@ -9713,7 +9787,7 @@
       "source": "Adapted from Lecremedelacrumb.com",
       "sourceUrl": "https://www.lecremedelacrumb.com/slow-cooker-cheesy-mushroom-quinoa/",
       "group": "savory_breakfast_bakes_21",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9722,7 +9796,10 @@
       ],
       "inputSha256": "17a7a118b1bd3aedc5af1a7b440371c7a7120dd4fd84b71df12736b5e20e9795",
       "plannedBatch": "braises-and-slow-cooking-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "authorSourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f"
     },
     {
       "slug": "slow-cooker-korean-beef",
@@ -9912,18 +9989,23 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share",
       "group": "stock_linked_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Verify household soba brand, its package cooking time and pan batch size.",
+        "Record preferred current garlic/ginger-in-sauce route versus saved brief aromatic stir-fry route."
       ],
       "inputSha256": "8e5cb8f9d9f5d07aadae64543d27e2a00ae88b8fbdb7aceb14645c1521087f38",
       "plannedBatch": "stir-fry-and-pan-cooking-06",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "8e5cb8f9d9f5d07aadae64543d27e2a00ae88b8fbdb7aceb14645c1521087f38",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate"
+      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "acceptedSourceSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff",
+      "productionVerification": "pending"
     },
     {
       "slug": "soft-batch-chocolate-chip-cookies",
@@ -10049,10 +10131,12 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens",
       "group": "seafood_soups_10",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams-and-braised-greens.json"
+        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams-and-braised-greens.json",
+        "docs/reviews/spaghetti-with-clams-and-braised-greens.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10070,7 +10154,9 @@
         "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
         "recordPath": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams-and-braised-greens.json",
         "recordSha256": "35b657a87d5c9e02dd9c4cf21f462bf631b003004717786ca16bcd5f32f4d8fb"
-      }
+      },
+      "acceptedSourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
+      "productionVerification": "pending"
     },
     {
       "slug": "spaghetti-with-clams",
@@ -10079,10 +10165,12 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams",
       "group": "seafood_soups_10",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams.json"
+        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams.json",
+        "docs/reviews/spaghetti-with-clams.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10102,7 +10190,9 @@
         "sourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
         "recordPath": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams.json",
         "recordSha256": "84daca9f198b3346e92697b841afe7f133363966f8e19b68da8996d5e48a7765"
-      }
+      },
+      "acceptedSourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
+      "productionVerification": "pending"
     },
     {
       "slug": "spanish-rice-chorizo",
@@ -10181,16 +10271,20 @@
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/",
       "group": "savory_breakfast_bakes_21",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which crustrecipe/package, blindbake state and piepan depth are intended, and does the fullfilling fitwithheadroom?",
+        "Does the household wantthecompletecrustlesssource option alongsidecrustedmain? No laterexplicitsupersedingdecisionestablished.",
+        "Oil/saltpepper/sourcegarnish canbe restoredoncechosenrouteisresponsiblyrepresented; native/currentpublisherprovidecrustlessformula only."
       ],
       "inputSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e",
       "plannedBatch": "baked-savory-and-breads-10",
-      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
+      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "authorSourceSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e"
     },
     {
       "slug": "spindrift-gin-fizz",
@@ -10307,7 +10401,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10316,7 +10410,10 @@
       ],
       "inputSha256": "0d60ad59e43c82c39c0f6cd22de0acb9b1daf46ff35963d8d91acdd7068b5668",
       "plannedBatch": "context-screening-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "5e9e4462602d54431b6cadddbc5a64f501b747974413bcb3f8e9d3624e6ecf8a"
     },
     {
       "slug": "sticky-peking-meatball-rice-bowls",
@@ -10849,7 +10946,7 @@
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/thai-basil-ginger-spritzer",
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10858,7 +10955,10 @@
       ],
       "inputSha256": "b8b9bc9990150df39c09dd17f00888a9537fe0d0cd5a3502530ed0f25e3dcdb0",
       "plannedBatch": "simmer-boil-and-steam-10",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0"
     },
     {
       "slug": "thai-basil-noodles",
@@ -11012,7 +11112,7 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/the-new-england-express",
       "group": "beverages_mixes_22",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -11021,7 +11121,10 @@
       ],
       "inputSha256": "57b5f244a5db9e794c6824a38aa1421d1f19bc0f6ea2195315b5f97254b12a8a",
       "plannedBatch": "simmer-boil-and-steam-11",
-      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
+      "authorSourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de"
     },
     {
       "slug": "the-original-rice-krispies-treatstm",
@@ -11094,7 +11197,7 @@
       "source": "Adapted from thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-tomato-cobbler-with-cornmeal-cheddar-biscuits-206816",
       "group": "savory_breakfast_bakes_21",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -11103,7 +11206,10 @@
       ],
       "inputSha256": "3c52a891ca585e41b05b25d892a643b450e09eba49fca666f23b89f29b1e0f2b",
       "plannedBatch": "baked-savory-and-breads-12",
-      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
+      "authorSourceSha256": "944402f99b8e7bb31657dd86c2be36c4abb383bc1a12aa8a61f1f42943c4d5f2"
     },
     {
       "slug": "tuscan-spaghetti-squash",
@@ -11419,18 +11525,24 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share",
       "group": "stock_linked_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/yaki-udon.md",
+        "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
+        "Record whether household protein is ground pork or thinly sliced whole-muscle beef, and actual pan batch count.",
+        "Saved one-medium-head bok choy and current one-small-bunch purchase measures are not an established conversion."
       ],
       "inputSha256": "23d3b8a64b25df74a4177e29494b81f360f525ebdd79c6cf892939d6eb2c6604",
       "plannedBatch": "simmer-boil-and-steam-11",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "23d3b8a64b25df74a4177e29494b81f360f525ebdd79c6cf892939d6eb2c6604",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate"
+      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "acceptedSourceSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b",
+      "productionVerification": "pending"
     },
     {
       "slug": "yellow-cake-with-chocolate-frosting",
@@ -12287,9 +12399,10 @@
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
     "production-verified": 257,
-    "held": 25,
-    "proposed": 94,
-    "assigned": 31,
-    "held-awaiting-evidence": 2
+    "held": 27,
+    "proposed": 96,
+    "assigned": 15,
+    "held-awaiting-evidence": 2,
+    "accepted": 12
   }
 }
