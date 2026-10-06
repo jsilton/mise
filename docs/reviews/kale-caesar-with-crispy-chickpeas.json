@@ -1,0 +1,1418 @@
+{
+  "slug": "kale-caesar-with-crispy-chickpeas",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "b83a89e3b4b1317cc3738c1b760f0282de0012f4c9941342168cd4a938e8e99f",
+  "acceptedSourceSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "no-cook", "blend"],
+      "after": ["bake", "blend", "no-cook"]
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "35–45 min, plus any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 large bunch Lacinato (Dino) Kale, stems removed and shredded",
+        "--- Crispy Chickpea Crunch ---",
+        "1 can (15 oz) Chickpeas, drained and patted very dry",
+        "1 tbsp Olive Oil",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Paprika",
+        "1/4 tsp Garlic Powder",
+        "Pinch of Black Pepper",
+        "--- Caesar Dressing ---",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "2 cloves Garlic, grated",
+        "2 tbsp Fresh Lemon Juice",
+        "1 tsp Dijon Mustard",
+        "1 tsp White Miso or Soy Sauce",
+        "1/4 tsp Anchovy Paste (optional, for traditional Caesar depth)",
+        "1/4 cup Water (to thin)",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "--- Toppings ---",
+        "1/3 cup Shaved or Grated Parmesan Cheese",
+        "Lemon zest for finishing"
+      ],
+      "after": [
+        "--- Kale and massage ---",
+        "1 large bunch lacinato kale, washed, dried, tough stems removed and shredded",
+        "1 tsp olive oil",
+        "kosher salt, a pinch",
+        "--- Roasted chickpeas ---",
+        "1 can (15 oz) chickpeas, drained and patted dry",
+        "1 tbsp olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp paprika",
+        "1/4 tsp garlic powder",
+        "black pepper, a pinch",
+        "--- Caesar dressing ---",
+        "1/4 cup extra-virgin olive oil",
+        "2 garlic cloves, grated",
+        "2 tbsp fresh lemon juice",
+        "1 tsp Dijon mustard",
+        "1 tsp white miso or soy sauce, choose one",
+        "1/4 tsp anchovy paste, optional",
+        "1/4 cup water",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "additional water, as needed for thinning, optional",
+        "--- Toppings ---",
+        "1/3 cup Parmesan, shaved or grated",
+        "lemon zest, to taste"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 750,
+        "protein": 21,
+        "carbs": 8,
+        "fat": 72.5,
+        "fiber": 1.5,
+        "sugar": 2,
+        "sodium": 2240
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "kale",
+            "name": "Kale and massage",
+            "ingredients": [
+              {
+                "id": "leaves",
+                "key": "leaves",
+                "name": "large bunch lacinato kale",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "massage",
+                    "share": 1
+                  }
+                ],
+                "plural": "large bunches lacinato kale",
+                "preparation": "washed, dried, tough stems removed and shredded"
+              },
+              {
+                "id": "massage-oil",
+                "key": "massage-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "massage",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "massage-salt",
+                "key": "massage-salt",
+                "name": "kosher salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "massage",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "chickpeas",
+            "name": "Roasted chickpeas",
+            "ingredients": [
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "chickpeas",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                },
+                "preparation": "drained and patted dry"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "paprika",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "dressing",
+            "name": "Caesar dressing",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "grated"
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mustard",
+                "key": "mustard",
+                "name": "Dijon mustard",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "miso",
+                "key": "miso",
+                "name": "white miso or soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ],
+                "preparation": "choose one"
+              },
+              {
+                "id": "anchovy",
+                "key": "anchovy",
+                "name": "anchovy paste",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-water",
+                "key": "extra-water",
+                "name": "additional water",
+                "allowance": "as needed for thinning",
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "name": "Toppings",
+            "ingredients": [
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "Parmesan",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shaved or grated"
+              },
+              {
+                "id": "zest",
+                "key": "zest",
+                "name": "lemon zest",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "roast",
+            "title": "Roast chickpeas",
+            "text": "Preheat to 425°F. Toss {{ingredients}} together on a sheet; spread in one layer. Roast about 20–25 minutes, shaking halfway, until golden. Cool on the sheet and assess texture after cooling."
+          },
+          {
+            "id": "massage",
+            "title": "Massage kale",
+            "text": "Use {{ingredients}}: massage the washed shredded leaves with the separate oil and salt for about 2 minutes until softened."
+          },
+          {
+            "id": "blend",
+            "title": "Blend dressing",
+            "text": "Blend {{ingredients}} until smooth, using the additional water only as needed for a pourable dressing."
+          },
+          {
+            "id": "toss",
+            "title": "Toss",
+            "text": "Toss all the prepared dressing through the softened kale."
+          },
+          {
+            "id": "finish",
+            "title": "Finish",
+            "text": "Add {{ingredients}} and all the cooled roasted chickpeas."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and serve",
+            "text": "Rest about 5 minutes, then serve. Refrigerate components promptly when holding; keep chickpeas separate for storage."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate crisp and dressed components",
+        "outcome": "Softened kale with evenly distributed dressing and a chickpea topping added near service.",
+        "techniques": ["seasoning", "browning", "cold-preparation"],
+        "before": [
+          "The extra teaspoon of massage oil in the original-batch method is separate from the full tablespoon for chickpeas and quarter cup for dressing; all three supplies remain.",
+          "Drain each 15 oz chickpea can; the package size stays fixed while the number of cans scales. Prepare enough sheets for one layer. Choose miso OR soy sauce, not both."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Chickpeas are golden outside; assess their texture after cooling.",
+            "why": "Wet or crowded chickpeas need longer and do not all become crisp on an identical clock."
+          },
+          {
+            "step": 3,
+            "cue": "Smooth pourable dressing without chunks of garlic.",
+            "why": "The cold dressing should coat the leaves evenly."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Chickpeas soften after tossing.",
+            "cause": "Moisture from the dressing reaches the roasted surface.",
+            "fix": "Keep remaining chickpeas separate and add at service; do not promise that an already dressed topping will remain crisp."
+          }
+        ],
+        "substitutions": [],
+        "timing": "About 15 minutes hands-on preparation overlaps the 20–25-minute roast. Cooling plus the 5-minute final rest makes roughly 35–45 minutes elapsed for one load; scaled loads can take longer. The oven must reach 425°F before loading; any preheating beyond preparation extends elapsed time.",
+        "storage": "Refrigerate the freshly blended garlic dressing and washed kale promptly at 40°F / 4°C or below; use dressing within the original 3-day plan. Refrigerate cooked chickpeas in a separate shallow container and use within 3–4 days; their original 2-day make-ahead plan is a quality choice, not permission for room-temperature storage. Do not assume lemon juice makes the garlic-oil mixture shelf stable. Add chickpeas near service.",
+        "sources": [
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov cold handling and leftovers",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          },
+          {
+            "title": "CDC garlic and herb oils",
+            "url": "https://www.cdc.gov/botulism/prevention/index.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Caesar replaces the traditional breadcrumbs and anchovies with crispy roasted chickpeas that add both crunch and plant-based protein. The massage is critical - working salt and a bit of oil into the shredded kale breaks down the tough fibers, transforming them into something tender and sweet. The dressing uses miso or soy sauce for umami depth instead of relying solely on anchovies, making it equally satisfying. This salad is substantial enough to be a meal on its own.\n\n## Directions\n\n1. **Roast the Chickpeas:** Preheat oven to 425°F. Pat the drained chickpeas very dry with a clean kitchen towel - any moisture will prevent them from crisping. Toss with 1 tbsp olive oil, salt, paprika, garlic powder, and pepper on a sheet pan. Spread in a single layer and roast for 20-25 minutes, shaking the pan halfway through, until golden and crispy. Set aside to cool - they will continue to crisp as they cool.\n\n2. **Massage the Kale:** Place the shredded kale in a large bowl. Drizzle with 1 tsp olive oil and a pinch of salt. Using your hands, massage the leaves vigorously for 2 minutes until they turn dark green and soften significantly. This breaks down the cell walls and makes the kale tender.\n\n3. **Make the Dressing:** In a blender or small food processor, combine the 1/4 cup olive oil, grated garlic, lemon juice, Dijon mustard, miso (or soy sauce), anchovy paste if using, water, salt, and pepper. Blend until completely smooth. The dressing should have the consistency of heavy cream. Adjust water if needed.\n\n4. **Toss:** Pour the dressing over the massaged kale and toss well to ensure every leaf is evenly coated.\n\n5. **Assemble:** Top with the crispy roasted chickpeas, shaved Parmesan, and a light dusting of lemon zest.\n\n6. **Rest:** Let the salad sit for 5 minutes before serving. Unlike delicate greens, kale actually improves as it absorbs the dressing - it doesn't wilt.\n\n7. **Make-Ahead:** The crispy chickpeas can be made up to 2 days ahead and stored in an airtight container. The dressing keeps refrigerated for up to 3 days. Massage the kale and dress it just before serving for the best texture.\n",
+    "after": "\n## Chef's Note\n\nDry chickpeas roast more readily than wet ones. Massage the kale until it softens, then toss with the garlic, lemon and miso dressing; add chickpeas near serving so they keep more of their crunch.\n\n## Directions\n\n1. **Roast chickpeas:** Preheat to 425°F. Toss chickpeas, olive oil, kosher salt, paprika, garlic powder, and black pepper together on a sheet; spread in one layer. Roast about 20–25 minutes, shaking halfway, until golden. Cool on the sheet and assess texture after cooling.\n2. **Massage kale:** Use large bunch lacinato kale, olive oil, and kosher salt: massage the washed shredded leaves with the separate oil and salt for about 2 minutes until softened.\n3. **Blend dressing:** Blend extra-virgin olive oil, garlic cloves, fresh lemon juice, Dijon mustard, white miso or soy sauce, anchovy paste (if using), water, kosher salt, black pepper, and additional water (if using) until smooth, using the additional water only as needed for a pourable dressing.\n4. **Toss:** Toss all the prepared dressing through the softened kale.\n5. **Finish:** Add Parmesan and lemon zest and all the cooled roasted chickpeas.\n6. **Rest and serve:** Rest about 5 minutes, then serve. Refrigerate components promptly when holding; keep chickpeas separate for storage.\n"
+  },
+  "findings": [
+    {
+      "id": "VPS19-2-cooking",
+      "rationale": "List exact method-only massage oil and pinch of salt without subtracting rich dressing oil; clarify all duplicated component salts/oils and supplemental water. Keep original miso/soy, anchovy and Parmesan options.",
+      "confidence": "high ingredient/source accounting; moderate planning/endpoint application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/kale-caesar-with-crispy-chickpeas.md",
+            "sha256": "8a866297fce737c2f78dc37cab77b7e803bb8ef8e6ea758b92a9538a32f4064f",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "10db370b4d38f231d8521d1213663706b88dda45086f208570ede0d114db4d60",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
+        "No external original publisher was established. Room-temperature chickpea storage is not adopted from the undefined two-day instruction."
+      ]
+    },
+    {
+      "id": "VPS19-2-teaching",
+      "rationale": "Recipe-specific readiness, practical batch capacity, preparation and storage replace unsupported crispness/healthy-child guarantees. Full amounts and exclusive options remain; no tested yield or timing claim.",
+      "confidence": "moderate practical planning; high primary handling categories",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/kale-caesar-with-crispy-chickpeas.md",
+            "sha256": "8a866297fce737c2f78dc37cab77b7e803bb8ef8e6ea758b92a9538a32f4064f",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "10db370b4d38f231d8521d1213663706b88dda45086f208570ede0d114db4d60",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "cookTime", "totalTime"],
+      "questions": [
+        "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
+        "No external original publisher was established. Room-temperature chickpea storage is not adopted from the undefined two-day instruction."
+      ]
+    },
+    {
+      "id": "VPS19-2-metadata",
+      "rationale": "Omit inherited unsupported country/nutrition fields while preserving actual cuisine/style/source credits. Use only implemented cooking-method tags.",
+      "confidence": "high limitation of inherited metadata",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/kale-caesar-with-crispy-chickpeas.md",
+            "sha256": "8a866297fce737c2f78dc37cab77b7e803bb8ef8e6ea758b92a9538a32f4064f",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "cookingMethods"],
+      "questions": []
+    },
+    {
+      "id": "VPS19-2-capacity-storage",
+      "rationale": "Original-batch pan and serving/count estimates stay planning only; proportions scale but cut dimensions, individual fritter/latke size, clocks and original vessel dimensions do not multiply. Storage is preparation-specific handling, not measured quality life or preservation validation.",
+      "confidence": "moderate pan/timing applications; high handling scope",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/kale-caesar-with-crispy-chickpeas.md",
+            "sha256": "8a866297fce737c2f78dc37cab77b7e803bb8ef8e6ea758b92a9538a32f4064f",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "10db370b4d38f231d8521d1213663706b88dda45086f208570ede0d114db4d60",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.timing", "learning.storage"],
+      "questions": [
+        "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
+        "No external original publisher was established. Room-temperature chickpea storage is not adopted from the undefined two-day instruction."
+      ]
+    },
+    {
+      "id": "VPS19-I01-totalTime",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    },
+    {
+      "id": "VPS19-I01-learning.timing",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/kale-caesar-with-crispy-chickpeas.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-only exact cooking introduction supports current formula but does not establish an external author, origin, nutritional analysis or tested schedule.",
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 large bunch Lacinato (Dino) Kale, stems removed and shredded",
+        "destination": "kale2→4"
+      },
+      {
+        "index": 1,
+        "text": "--- Crispy Chickpea Crunch ---",
+        "destination": "divider"
+      },
+      {
+        "index": 2,
+        "text": "1 can (15 oz) Chickpeas, drained and patted very dry",
+        "destination": "chickpeas1→5"
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Olive Oil",
+        "destination": "oil1"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Kosher Salt",
+        "destination": "salt1"
+      },
+      {
+        "index": 5,
+        "text": "1/4 tsp Paprika",
+        "destination": "paprika1"
+      },
+      {
+        "index": 6,
+        "text": "1/4 tsp Garlic Powder",
+        "destination": "garlic powder1"
+      },
+      {
+        "index": 7,
+        "text": "Pinch of Black Pepper",
+        "destination": "black pepper1"
+      },
+      {
+        "index": 8,
+        "text": "--- Caesar Dressing ---",
+        "destination": "divider"
+      },
+      {
+        "index": 9,
+        "text": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": "olive oil3→4; extra1tsp massage2 is unlisted"
+      },
+      {
+        "index": 10,
+        "text": "2 cloves Garlic, grated",
+        "destination": "garlic3"
+      },
+      {
+        "index": 11,
+        "text": "2 tbsp Fresh Lemon Juice",
+        "destination": "lemon3"
+      },
+      {
+        "index": 12,
+        "text": "1 tsp Dijon Mustard",
+        "destination": "Dijon3"
+      },
+      {
+        "index": 13,
+        "text": "1 tsp White Miso or Soy Sauce",
+        "destination": "miso OR soy3"
+      },
+      {
+        "index": 14,
+        "text": "1/4 tsp Anchovy Paste (optional, for traditional Caesar depth)",
+        "destination": "optional anchovy3"
+      },
+      {
+        "index": 15,
+        "text": "1/4 cup Water (to thin)",
+        "destination": "water3 plus unmeasured extra"
+      },
+      {
+        "index": 16,
+        "text": "1/2 tsp Kosher Salt",
+        "destination": "salt3 plus unlisted pinch2"
+      },
+      {
+        "index": 17,
+        "text": "1/4 tsp Black Pepper",
+        "destination": "pepper3"
+      },
+      {
+        "index": 18,
+        "text": "--- Toppings ---",
+        "destination": "divider"
+      },
+      {
+        "index": 19,
+        "text": "1/3 cup Shaved or Grated Parmesan Cheese",
+        "destination": "Parmesan5"
+      },
+      {
+        "index": 20,
+        "text": "Lemon zest for finishing",
+        "destination": "zest5"
+      }
+    ],
+    "frozenMethodOnly": [
+      "1tsp massageoil+pinchsalt2; additionalwater3; room storage temperature unstated7."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "--- Kale and massage ---",
+        "authoredEntry": {
+          "divider": "Kale and massage"
+        }
+      },
+      {
+        "index": 1,
+        "text": "1 large bunch lacinato kale, washed, dried, tough stems removed and shredded",
+        "authoredEntry": {
+          "id": "kale.leaves",
+          "key": "leaves",
+          "name": "large bunch lacinato kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "massage",
+              "share": 1
+            }
+          ],
+          "plural": "large bunches lacinato kale",
+          "preparation": "washed, dried, tough stems removed and shredded",
+          "component": "Kale and massage"
+        }
+      },
+      {
+        "index": 2,
+        "text": "1 tsp olive oil",
+        "authoredEntry": {
+          "id": "kale.massage-oil",
+          "key": "massage-oil",
+          "name": "olive oil",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "massage",
+              "share": 1
+            }
+          ],
+          "component": "Kale and massage"
+        }
+      },
+      {
+        "index": 3,
+        "text": "kosher salt, a pinch",
+        "authoredEntry": {
+          "id": "kale.massage-salt",
+          "key": "massage-salt",
+          "name": "kosher salt",
+          "allowance": "a pinch",
+          "uses": [
+            {
+              "step": "massage",
+              "share": 1
+            }
+          ],
+          "component": "Kale and massage"
+        }
+      },
+      {
+        "index": 4,
+        "text": "--- Roasted chickpeas ---",
+        "authoredEntry": {
+          "divider": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 5,
+        "text": "1 can (15 oz) chickpeas, drained and patted dry",
+        "authoredEntry": {
+          "id": "chickpeas.beans",
+          "key": "beans",
+          "name": "chickpeas",
+          "quantity": {
+            "amount": 1,
+            "unit": "can"
+          },
+          "uses": [
+            {
+              "step": "roast",
+              "share": 1
+            }
+          ],
+          "packageSize": {
+            "amount": 15,
+            "unit": "oz"
+          },
+          "preparation": "drained and patted dry",
+          "component": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 6,
+        "text": "1 tbsp olive oil",
+        "authoredEntry": {
+          "id": "chickpeas.oil",
+          "key": "oil",
+          "name": "olive oil",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "roast",
+              "share": 1
+            }
+          ],
+          "component": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp kosher salt",
+        "authoredEntry": {
+          "id": "chickpeas.salt",
+          "key": "salt",
+          "name": "kosher salt",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "roast",
+              "share": 1
+            }
+          ],
+          "component": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 8,
+        "text": "1/4 tsp paprika",
+        "authoredEntry": {
+          "id": "chickpeas.paprika",
+          "key": "paprika",
+          "name": "paprika",
+          "quantity": {
+            "amount": 0.25,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "roast",
+              "share": 1
+            }
+          ],
+          "component": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 9,
+        "text": "1/4 tsp garlic powder",
+        "authoredEntry": {
+          "id": "chickpeas.garlic",
+          "key": "garlic",
+          "name": "garlic powder",
+          "quantity": {
+            "amount": 0.25,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "roast",
+              "share": 1
+            }
+          ],
+          "component": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 10,
+        "text": "black pepper, a pinch",
+        "authoredEntry": {
+          "id": "chickpeas.pepper",
+          "key": "pepper",
+          "name": "black pepper",
+          "allowance": "a pinch",
+          "uses": [
+            {
+              "step": "roast",
+              "share": 1
+            }
+          ],
+          "component": "Roasted chickpeas"
+        }
+      },
+      {
+        "index": 11,
+        "text": "--- Caesar dressing ---",
+        "authoredEntry": {
+          "divider": "Caesar dressing"
+        }
+      },
+      {
+        "index": 12,
+        "text": "1/4 cup extra-virgin olive oil",
+        "authoredEntry": {
+          "id": "dressing.oil",
+          "key": "oil",
+          "name": "extra-virgin olive oil",
+          "quantity": {
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 13,
+        "text": "2 garlic cloves, grated",
+        "authoredEntry": {
+          "id": "dressing.garlic",
+          "key": "garlic",
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "plural": "garlic cloves",
+          "preparation": "grated",
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 14,
+        "text": "2 tbsp fresh lemon juice",
+        "authoredEntry": {
+          "id": "dressing.lemon",
+          "key": "lemon",
+          "name": "fresh lemon juice",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 15,
+        "text": "1 tsp Dijon mustard",
+        "authoredEntry": {
+          "id": "dressing.mustard",
+          "key": "mustard",
+          "name": "Dijon mustard",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 16,
+        "text": "1 tsp white miso or soy sauce, choose one",
+        "authoredEntry": {
+          "id": "dressing.miso",
+          "key": "miso",
+          "name": "white miso or soy sauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "preparation": "choose one",
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 17,
+        "text": "1/4 tsp anchovy paste, optional",
+        "authoredEntry": {
+          "id": "dressing.anchovy",
+          "key": "anchovy",
+          "name": "anchovy paste",
+          "quantity": {
+            "amount": 0.25,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 18,
+        "text": "1/4 cup water",
+        "authoredEntry": {
+          "id": "dressing.water",
+          "key": "water",
+          "name": "water",
+          "quantity": {
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 19,
+        "text": "1/2 tsp kosher salt",
+        "authoredEntry": {
+          "id": "dressing.salt",
+          "key": "salt",
+          "name": "kosher salt",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 20,
+        "text": "1/4 tsp black pepper",
+        "authoredEntry": {
+          "id": "dressing.pepper",
+          "key": "pepper",
+          "name": "black pepper",
+          "quantity": {
+            "amount": 0.25,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 21,
+        "text": "additional water, as needed for thinning, optional",
+        "authoredEntry": {
+          "id": "dressing.extra-water",
+          "key": "extra-water",
+          "name": "additional water",
+          "allowance": "as needed for thinning",
+          "uses": [
+            {
+              "step": "blend",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Caesar dressing"
+        }
+      },
+      {
+        "index": 22,
+        "text": "--- Toppings ---",
+        "authoredEntry": {
+          "divider": "Toppings"
+        }
+      },
+      {
+        "index": 23,
+        "text": "1/3 cup Parmesan, shaved or grated",
+        "authoredEntry": {
+          "id": "top.cheese",
+          "key": "cheese",
+          "name": "Parmesan",
+          "quantity": {
+            "amount": 0.3333333333333333,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1
+            }
+          ],
+          "preparation": "shaved or grated",
+          "component": "Toppings"
+        }
+      },
+      {
+        "index": 24,
+        "text": "lemon zest, to taste",
+        "authoredEntry": {
+          "id": "top.zest",
+          "key": "zest",
+          "name": "lemon zest",
+          "allowance": "to taste",
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1
+            }
+          ],
+          "component": "Toppings"
+        }
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "id": "roast",
+      "title": "Roast chickpeas",
+      "text": "Preheat to 425°F. Toss {{ingredients}} together on a sheet; spread in one layer. Roast about 20–25 minutes, shaking halfway, until golden. Cool on the sheet and assess texture after cooling."
+    },
+    {
+      "id": "massage",
+      "title": "Massage kale",
+      "text": "Use {{ingredients}}: massage the washed shredded leaves with the separate oil and salt for about 2 minutes until softened."
+    },
+    {
+      "id": "blend",
+      "title": "Blend dressing",
+      "text": "Blend {{ingredients}} until smooth, using the additional water only as needed for a pourable dressing."
+    },
+    {
+      "id": "toss",
+      "title": "Toss",
+      "text": "Toss all the prepared dressing through the softened kale."
+    },
+    {
+      "id": "finish",
+      "title": "Finish",
+      "text": "Add {{ingredients}} and all the cooled roasted chickpeas."
+    },
+    {
+      "id": "rest",
+      "title": "Rest and serve",
+      "text": "Rest about 5 minutes, then serve. Refrigerate components promptly when holding; keep chickpeas separate for storage."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["chicken-souvlaki", "chicken-piccata-unfried", "san-marzano-tomato-sauce"],
+    "incomingMeals": [],
+    "scope": "Pairings remain metadata and no outgoing component receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4 portions",
+    "wholeDosePreservation": "List exact method-only massage oil and pinch of salt without subtracting rich dressing oil; clarify all duplicated component salts/oils and supplemental water. Keep original miso/soy, anchovy and Parmesan options.",
+    "capacity": [
+      "The extra teaspoon of massage oil in the original-batch method is separate from the full tablespoon for chickpeas and quarter cup for dressing; all three supplies remain.",
+      "Drain each 15 oz chickpea can; the package size stays fixed while the number of cans scales. Prepare enough sheets for one layer. Choose miso OR soy sauce, not both."
+    ],
+    "planningOnly": "Unmeasured actual size/yield/pan load and elapsed schedule; no kitchen observation."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
+    "No external original publisher was established. Room-temperature chickpea storage is not adopted from the undefined two-day instruction."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

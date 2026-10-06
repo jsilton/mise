@@ -1,0 +1,592 @@
+{
+  "slug": "sweet-potato-latkes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "0ecd961cd071d97481daf8c7e94272fbd69721d6b87628f96d1c5391bffc1a9e",
+  "acceptedSourceSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Sweet Potatoes, peeled and coarsely grated",
+        "2 large Eggs, beaten",
+        "1/3 cup All-Purpose Flour",
+        "2 Scallions, finely chopped",
+        "1 tsp Sea Salt",
+        "1/2 tsp Black Pepper",
+        "3/4 cup Neutral Oil (for frying)"
+      ],
+      "after": [
+        "1 lb Sweet Potatoes, peeled and coarsely grated",
+        "2 large Eggs, beaten",
+        "1/3 cup All-Purpose Flour",
+        "2 Scallions, finely chopped",
+        "1 tsp Sea Salt",
+        "1/2 tsp Black Pepper",
+        "3/4 cup Neutral Oil (for frying)",
+        "Additional salt, to taste (optional)",
+        "Nana Ruth’s Applesauce, separately prepared for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 245,
+        "protein": 1,
+        "carbs": 4.5,
+        "fat": 25.5,
+        "fiber": 0.5,
+        "sugar": 0,
+        "sodium": 100
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Batch frying and center doneness",
+        "outcome": "Small golden latkes with cooked centers, full egg/flour binder and all measured frying oil available.",
+        "techniques": ["seasoning", "temperature"],
+        "before": [
+          "The original 26 pancake count is approximate at the source ⅛-cup/3-inch size, not a kitchen-measured yield. Scale the listed count and supplies, keeping individual size the same.",
+          "In a larger batch, use additional suitable skillets or successive batches; distribute the full scaled frying oil without promising a fixed depth."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Golden surfaces and set centers at 160°F / 71°C.",
+            "why": "Color alone does not establish completion of the raw-egg binder; excessive heat can burn outsides first."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dark outsides with wet centers.",
+            "cause": "Oil too hot or pancakes too thick.",
+            "fix": "Lower heat, flatten remaining pancakes and continue until centers finish; do not stack raw-centered pancakes for service."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Grated-potato preparation",
+            "alternative": "For the unsqueezed version, stir freshly grated potatoes directly with the full scallions, flour, eggs, listed salt and pepper. Use the original-batch deep 12-inch skillet or an appropriately sized suitable skillet for the scaled batch. Heat the full listed oil; use the same ⅛-cup/3-inch portions, about four if they fit, reducing heat toward medium. Begin checking around 1½ minutes per side and retain the main set-center/ 160°F checks. Drain before serving.",
+            "effect": "More vegetable liquid remains; texture and time can differ. This does not reduce eggs, flour or oil."
+          },
+          {
+            "ingredient": "Frying-oil depth",
+            "alternative": "To use the separate ½-inch frying route, use neutral oil as needed to reach that depth in a suitable deep skillet instead of treating the listed ¾-cup supply as an equal depth. Keep the full batter and small-pancake method; the actual oil supply depends on skillet diameter and headroom.",
+            "effect": "A deeper oil layer changes frying and uptake; no cup-to-depth equivalence or absorption figure is asserted."
+          },
+          {
+            "ingredient": "Salt",
+            "alternative": "The original uses the same listed teaspoon amount with unspecified salt; current sea salt remains the main choice. Extra finishing salt is optional to taste.",
+            "effect": "Different crystal types are not assumed equivalent by weight."
+          }
+        ],
+        "timing": "Plan about 30 minutes preparation and roughly 30 minutes batch frying for the original batch; actual elapsed time depends on how many uncrowded rounds fit. Keep individual pancakes the same size when scaling; extra rounds extend elapsed time.",
+        "storage": "Cook raw-egg mixture promptly, or refrigerate and cook within 24 hours. Refrigerate finished latkes in shallow containers within 2 hours (1 hour above 90°F / 32°C), keep at 40°F / 4°C or below, use within 3–4 days or freeze promptly, and reheat to 165°F / 74°C. Keep applesauce separate; the linked recipe needs its own preparation.",
+        "sources": [
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov cold handling and leftovers",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          },
+          {
+            "title": "FDA egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA raw egg dish handling",
+            "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely"
+          },
+          {
+            "title": "Gourmet sweet-potato latkes",
+            "url": "http://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTraditional latkes rely on starch; sweet potato latkes rely on proper moisture removal. You must squeeze the grated potatoes in a kitchen towel until they are bone-dry before mixing with the eggs; this ensures the latke sets into a firm texture rather than falling apart in the pan. We fry in 1/2-inch of hot oil to create a deep, lattice-like crunch on the exterior that mimics the best diner-style hash browns. The scallions provide the fresh, savory finish.\n\n## Directions\n\n1.  **The Squeeze:** Grate the potatoes. Wrap in a clean kitchen towel and **squeeze with maximum force** until no more juice drips out. Place in a bowl.\n2.  **The Bind:** Stir in the scallions, flour, salt, and pepper. Add the eggs and mix until a tacky, thick batter forms.\n3.  **Thermal Prep:** Heat oil in a heavy 12-inch skillet over medium-high until shimmering but not smoking.\n4.  **The Crunch:** Spoon 1/8-cup portions into the oil. Use a spatula to flatten them into 3-inch disks.\n5.  **Fry:** Cook for 2 minutes per side until the edges are deep golden and the center is set. Do not crowd the pan (4 latkes per batch).\n6.  **Drain:** Transfer to a paper-towel-lined plate. Season with a final pinch of salt while hot.\n7.  **Serve:** Serve immediately with [Nana Ruth's Applesauce](/mise/recipes/nana-ruths-applesauce).\n",
+    "after": "\n## Chef's Note\n\nKeep the pancakes small and flatten them so the centers can cook before the outsides darken. The measured frying oil is a shallow-frying supply; its depth depends on the actual skillet, not a universal half-inch claim.\n\n## Directions\n\n1. **Prepare:** Wash, peel and coarsely grate the potatoes. For the current squeezed preparation, gather in a clean towel and squeeze out excess liquid; do not expect the shreds to become completely dry.\n\n2. **Mix:** Combine all the potatoes, scallions, flour, listed sea salt and black pepper, then all the beaten eggs. Keep raw-egg utensils separate from applesauce and finished pancakes.\n\n3. **Heat:** For the original batch, heat all the listed neutral oil in a deep 12-inch skillet over medium-high, until hot but not smoking. Scaled batches need an appropriately sized suitable skillet or separate batches, keeping pancake size fixed; the original ¾ cup does not guarantee a ½-inch depth.\n\n4. **Portion:** Use about ⅛ cup mixture per latke, flattening to roughly 3 inches across. Fry about four at a time only if they fit uncrowded; keep pancake size fixed when scaling.\n\n5. **Fry:** Reduce heat toward medium as needed. Start checking around 1½–2 minutes per side; cook until golden outside and the egg-bound center is set and reaches 160°F / 71°C. Sample more than one pancake with a thin probe. Adjust heat if outsides darken first.\n\n6. **Drain:** Transfer cooked latkes to a clean towel-lined plate or rack. Use optional additional salt to taste while hot.\n\n7. **Serve:** Serve promptly with separately prepared Nana Ruth’s Applesauce, if desired. Keep remaining raw mixture refrigerated between extended batches.\n\nServe with [Nana Ruth’s Applesauce](/mise/recipes/nana-ruths-applesauce), prepared separately.\n"
+  },
+  "findings": [
+    {
+      "id": "VPS19-6-cooking",
+      "rationale": "Preserve current squeezed and exact native unsqueezed methods distinctly; reconcile measured ¾ cup with unsupported ½ inch depth, preserve full rich oil and optional extra salt, add actual egg endpoint and fixed-piece batch timing.",
+      "confidence": "high ingredient/source accounting; moderate planning/endpoint application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet-Potato Latkes.html",
+            "sha256": "1c6fd512d3bc63cf2e9af73315edf418dbcea33b20bb9d367f28370b96b967d3",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "767a834d8d215a4a788a50db6dc38ab842bfa7d63011bb6e2610cd9bd42f8b67",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "9eb4f60c710cd4b6b72915e3d0bb1c979807888ee37b1634c2c6324c4317d1ad",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg mixtures and160°F egg-dish category applied moderately to coatings/fritter centers; not publisher-tested pan or probe performance."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Official indexed full article read: raw-egg dishes cook immediately or refrigerate and cook within24hours. Category application to these batters, not a validated loaded-pan clock."
+        },
+        {
+          "url": "http://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
+          "applicability": "Current primary full card directly read and agrees with native rich formula; no universal elapsed-clock or salt-density equivalence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "content"],
+      "questions": [
+        "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
+        "The source salt is unspecified; current sea salt remains primary without claiming density equivalence."
+      ]
+    },
+    {
+      "id": "VPS19-6-teaching",
+      "rationale": "Recipe-specific readiness, practical batch capacity, preparation and storage replace unsupported crispness/healthy-child guarantees. Full amounts and exclusive options remain; no tested yield or timing claim.",
+      "confidence": "moderate practical planning; high primary handling categories",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet-Potato Latkes.html",
+            "sha256": "1c6fd512d3bc63cf2e9af73315edf418dbcea33b20bb9d367f28370b96b967d3",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "767a834d8d215a4a788a50db6dc38ab842bfa7d63011bb6e2610cd9bd42f8b67",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "9eb4f60c710cd4b6b72915e3d0bb1c979807888ee37b1634c2c6324c4317d1ad",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg mixtures and160°F egg-dish category applied moderately to coatings/fritter centers; not publisher-tested pan or probe performance."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Official indexed full article read: raw-egg dishes cook immediately or refrigerate and cook within24hours. Category application to these batters, not a validated loaded-pan clock."
+        },
+        {
+          "url": "http://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
+          "applicability": "Current primary full card directly read and agrees with native rich formula; no universal elapsed-clock or salt-density equivalence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
+        "The source salt is unspecified; current sea salt remains primary without claiming density equivalence."
+      ]
+    },
+    {
+      "id": "VPS19-6-metadata",
+      "rationale": "Omit inherited unsupported country/nutrition fields while preserving actual cuisine/style/source credits. Use only implemented cooking-method tags.",
+      "confidence": "high limitation of inherited metadata",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet-Potato Latkes.html",
+            "sha256": "1c6fd512d3bc63cf2e9af73315edf418dbcea33b20bb9d367f28370b96b967d3",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VPS19-6-capacity-storage",
+      "rationale": "Original-batch pan and serving/count estimates stay planning only; proportions scale but cut dimensions, individual fritter/latke size, clocks and original vessel dimensions do not multiply. Storage is preparation-specific handling, not measured quality life or preservation validation.",
+      "confidence": "moderate pan/timing applications; high handling scope",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet-Potato Latkes.html",
+            "sha256": "1c6fd512d3bc63cf2e9af73315edf418dbcea33b20bb9d367f28370b96b967d3",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "767a834d8d215a4a788a50db6dc38ab842bfa7d63011bb6e2610cd9bd42f8b67",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "9eb4f60c710cd4b6b72915e3d0bb1c979807888ee37b1634c2c6324c4317d1ad",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg mixtures and160°F egg-dish category applied moderately to coatings/fritter centers; not publisher-tested pan or probe performance."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Official indexed full article read: raw-egg dishes cook immediately or refrigerate and cook within24hours. Category application to these batters, not a validated loaded-pan clock."
+        },
+        {
+          "url": "http://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
+          "applicability": "Current primary full card directly read and agrees with native rich formula; no universal elapsed-clock or salt-density equivalence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.timing", "learning.storage"],
+      "questions": [
+        "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
+        "The source salt is unspecified; current sea salt remains primary without claiming density equivalence."
+      ]
+    },
+    {
+      "id": "VPS19-I03-learning.timing",
+      "title": "Bounded independent correction",
+      "rationale": "Remove restored/current/saved-file editing comparisons from cooking guidance while retaining useful original-batch clock and ingredient flow. The written fritter method makes yogurt first, so the preparation note must not require making it first and during a later drain simultaneously. It can remain cold throughout that drain; no source step is reordered.",
+      "confidence": "high scope and sequencing clarity; moderate planning ranges",
+      "applicableSources": [
+        {
+          "file": "docs/HOUSEHOLD_PREFERENCES.md",
+          "applicability": "Public recipe presentation requires direct cooking prose and keeps editing history in private review records."
+        },
+        {
+          "file": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public cooking and internal review/source-disagreement separation."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "b932c2a84111c3495e2a6f2ce3cf39e48305a693ecc14546f8668513090c924c",
+          "applicability": "Full roasting oil and actual handleable-cooling route; preserve all source/current differences privately."
+        },
+        {
+          "url": "https://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
+          "applicability": "Complete original small-pancake batch method and publisher 30-minute card; does not certify the private 60-minute plan. The card-versus-native timing disagreement remains in private evidence."
+        },
+        {
+          "url": "https://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt",
+          "applicability": "Separate chilled yogurt and subsequent 30–40-minute vegetable drain; source does not establish a tested total elapsed time."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Keep publisher-versus-native clocks, source-rich/current-lighter distinction and restoration rationale in private records; no historical evidence is discarded."
+      ]
+    },
+    {
+      "id": "VPS19-I04-content",
+      "title": "Bounded independent correction",
+      "rationale": "The frozen current recipe already has the working /mise/recipes link. The proposal regresses that explicit link to the site root, despite the configured /mise/ base. Preserve the named separately prepared component and every other body byte.",
+      "confidence": "high exact link regression",
+      "applicableSources": [
+        {
+          "file": "astro.config.mjs",
+          "sha256": "f83eb71a2b0d40c416cfe60396f2a559b993db3395b1a7559e04894b0d329017",
+          "applicability": "Actual site base /mise/ establishes the required href; no culinary or meal certification."
+        },
+        {
+          "file": "src/content/recipes/sweet-potato-latkes.md",
+          "sha256": "0ecd961cd071d97481daf8c7e94272fbd69721d6b87628f96d1c5391bffc1a9e",
+          "applicability": "Existing working component href preserved by the prior a6a5ee91 correction in the followed history."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Nana Ruth’s Applesauce is a separately prepared full recipe; no applesauce-to-latke portion equivalence or whole component acceptance is supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sweet-Potato%20Latkes.html",
+    "introductionScope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Native unsqueezed mixture and unspecified salt vs current squeezed mixture/sea salt preserved distinctly. Measured¾cup is not a½inch depth guarantee; original12-inch vessel and small scoop/count retained as context.",
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 lb Sweet Potatoes, peeled and coarsely grated",
+        "destination": "potatoes1–5"
+      },
+      {
+        "index": 1,
+        "text": "2 large Eggs, beaten",
+        "destination": "eggs2→5"
+      },
+      {
+        "index": 2,
+        "text": "1/3 cup All-Purpose Flour",
+        "destination": "flour2"
+      },
+      {
+        "index": 3,
+        "text": "2 Scallions, finely chopped",
+        "destination": "scallions2"
+      },
+      {
+        "index": 4,
+        "text": "1 tsp Sea Salt",
+        "destination": "salt2; unlisted extra6"
+      },
+      {
+        "index": 5,
+        "text": "1/2 tsp Black Pepper",
+        "destination": "pepper2"
+      },
+      {
+        "index": 6,
+        "text": "3/4 cup Neutral Oil (for frying)",
+        "destination": "oil3–5;1/2inch prose not coherent with measured3/4cup"
+      }
+    ],
+    "frozenMethodOnly": [
+      "Additional finishing salt6;½inch oil in Chef note conflicts with measured¾cup."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "1 lb Sweet Potatoes, peeled and coarsely grated",
+        "destination": "potato1–5"
+      },
+      {
+        "index": 1,
+        "text": "2 large Eggs, beaten",
+        "destination": "egg2→5"
+      },
+      {
+        "index": 2,
+        "text": "1/3 cup All-Purpose Flour",
+        "destination": "flour2"
+      },
+      {
+        "index": 3,
+        "text": "2 Scallions, finely chopped",
+        "destination": "scallion2"
+      },
+      {
+        "index": 4,
+        "text": "1 tsp Sea Salt",
+        "destination": "salt2"
+      },
+      {
+        "index": 5,
+        "text": "1/2 tsp Black Pepper",
+        "destination": "pepper2"
+      },
+      {
+        "index": 6,
+        "text": "3/4 cup Neutral Oil (for frying)",
+        "destination": "full oil3–5"
+      },
+      {
+        "index": 7,
+        "text": "Additional salt, to taste (optional)",
+        "destination": "optional finishing6"
+      },
+      {
+        "index": 8,
+        "text": "Nana Ruth’s Applesauce, separately prepared for serving (optional)",
+        "destination": "optional service7"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "text": "1 lb sweet potatoes, peeled and coarsely grated",
+        "destination": "nativemix1→fry2"
+      },
+      {
+        "index": 1,
+        "text": "2 scallions, finely chopped",
+        "destination": "nativemix1→fry2"
+      },
+      {
+        "index": 2,
+        "text": "1/3 cup all-purpose flour",
+        "destination": "nativemix1→fry2"
+      },
+      {
+        "index": 3,
+        "text": "2 large eggs, lightly beaten",
+        "destination": "nativemix1→fry2"
+      },
+      {
+        "index": 4,
+        "text": "1 teaspoon salt",
+        "destination": "nativemix1→fry2"
+      },
+      {
+        "index": 5,
+        "text": "1/2 teaspoon black pepper",
+        "destination": "nativemix1→fry2"
+      },
+      {
+        "index": 6,
+        "text": "3/4 cup vegetable oil",
+        "destination": "nativefrying2"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Prepare",
+      "text": "Wash, peel and coarsely grate the potatoes. For the current squeezed preparation, gather in a clean towel and squeeze out excess liquid; do not expect the shreds to become completely dry."
+    },
+    {
+      "step": 2,
+      "title": "Mix",
+      "text": "Combine all the potatoes, scallions, flour, listed sea salt and black pepper, then all the beaten eggs. Keep raw-egg utensils separate from applesauce and finished pancakes."
+    },
+    {
+      "step": 3,
+      "title": "Heat",
+      "text": "For the original batch, heat all the listed neutral oil in a deep 12-inch skillet over medium-high, until hot but not smoking. Scaled batches need an appropriately sized suitable skillet or separate batches, keeping pancake size fixed; the original ¾ cup does not guarantee a ½-inch depth."
+    },
+    {
+      "step": 4,
+      "title": "Portion",
+      "text": "Use about ⅛ cup mixture per latke, flattening to roughly 3 inches across. Fry about four at a time only if they fit uncrowded; keep pancake size fixed when scaling."
+    },
+    {
+      "step": 5,
+      "title": "Fry",
+      "text": "Reduce heat toward medium as needed. Start checking around 1½–2 minutes per side; cook until golden outside and the egg-bound center is set and reaches 160°F / 71°C. Sample more than one pancake with a thin probe. Adjust heat if outsides darken first."
+    },
+    {
+      "step": 6,
+      "title": "Drain",
+      "text": "Transfer cooked latkes to a clean towel-lined plate or rack. Use optional additional salt to taste while hot."
+    },
+    {
+      "step": 7,
+      "title": "Serve",
+      "text": "Serve promptly with separately prepared Nana Ruth’s Applesauce, if desired. Keep remaining raw mixture refrigerated between extended batches."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Grated-potato preparation",
+      "alternative": "For the unsqueezed version, stir freshly grated potatoes directly with the full scallions, flour, eggs, listed salt and pepper. Use the original-batch deep 12-inch skillet or an appropriately sized suitable skillet for the scaled batch. Heat the full listed oil; use the same ⅛-cup/3-inch portions, about four if they fit, reducing heat toward medium. Begin checking around 1½ minutes per side and retain the main set-center/ 160°F checks. Drain before serving.",
+      "effect": "More vegetable liquid remains; texture and time can differ. This does not reduce eggs, flour or oil."
+    },
+    {
+      "ingredient": "Frying-oil depth",
+      "alternative": "To use the separate ½-inch frying route, use neutral oil as needed to reach that depth in a suitable deep skillet instead of treating the listed ¾-cup supply as an equal depth. Keep the full batter and small-pancake method; the actual oil supply depends on skillet diameter and headroom.",
+      "effect": "A deeper oil layer changes frying and uptake; no cup-to-depth equivalence or absorption figure is asserted."
+    },
+    {
+      "ingredient": "Salt",
+      "alternative": "The original uses the same listed teaspoon amount with unspecified salt; current sea salt remains the main choice. Extra finishing salt is optional to taste.",
+      "effect": "Different crystal types are not assumed equivalent by weight."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "nana-ruths-applesauce",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "avocado-kale-caesar-salad"
+    ],
+    "incomingMeals": [],
+    "scope": "Nana Ruth’s Applesauce whole6lbapple/½sugar/¼honey/1lemon/unmeasuredwater recipe read; separate preparation and no batch-to-latke portion equivalence invented. Other pairings remain metadata."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "26 pancakes",
+    "proposedYield": "26 pancakes",
+    "wholeDosePreservation": "Preserve current squeezed and exact native unsqueezed methods distinctly; reconcile measured ¾ cup with unsupported ½ inch depth, preserve full rich oil and optional extra salt, add actual egg endpoint and fixed-piece batch timing.",
+    "capacity": [
+      "The original 26 pancake count is approximate at the source ⅛-cup/3-inch size, not a kitchen-measured yield. Scale the listed count and supplies, keeping individual size the same.",
+      "In a larger batch, use additional suitable skillets or successive batches; distribute the full scaled frying oil without promising a fixed depth."
+    ],
+    "planningOnly": "Unmeasured actual size/yield/pan load and elapsed schedule; no kitchen observation."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
+    "The source salt is unspecified; current sea salt remains primary without claiming density equivalence."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

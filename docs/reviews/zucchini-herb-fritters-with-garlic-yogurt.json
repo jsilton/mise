@@ -1,0 +1,1738 @@
+{
+  "slug": "zucchini-herb-fritters-with-garlic-yogurt",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "b3ff7d8c58ee7abebb6da633c10be34b2b45a79893ed68fda9df498df93b07df",
+  "acceptedSourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "30 min",
+      "after": "15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "15–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "50–70 min"
+    },
+    {
+      "field": "servings",
+      "before": "12 fritters",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 small Zucchini, grated",
+        "1 small Russet Potato, grated",
+        "2 large Eggs, beaten",
+        "1/3 cup All-Purpose Flour",
+        "1/2 tsp Baking Powder",
+        "1/2 medium Onion, grated",
+        "3 tbsp Fresh Parsley + 2 tbsp Fresh Mint",
+        "1 clove Garlic, grated",
+        "1/2 tsp Ground Cumin",
+        "1/2 cup Plain Yogurt",
+        "1 tbsp Fresh Lemon Juice",
+        "1 tbsp Fresh Mint, chopped"
+      ],
+      "after": [
+        "--- Garlic yogurt ---",
+        "1/2 cup plain yogurt, not Greek",
+        "2 tbsp fresh mint, finely chopped",
+        "2 tbsp fresh lemon juice",
+        "2 tbsp olive oil",
+        "1 tsp honey",
+        "1 garlic clove, finely grated",
+        "kosher salt, to taste",
+        "black pepper, to taste",
+        "--- Drained vegetables ---",
+        "2 small zucchini, washed, ends trimmed and coarsely grated",
+        "1 small russet potato, washed, peeled and coarsely grated",
+        "1/2 medium onion, coarsely grated",
+        "2 tsp kosher salt",
+        "--- Egg and flour binder ---",
+        "2 large eggs, beaten",
+        "1 garlic clove, finely grated",
+        "1/2 tsp ground cumin",
+        "3 tbsp fresh parsley, finely chopped",
+        "2 tbsp fresh mint, finely chopped",
+        "additional kosher salt, to taste, optional",
+        "black pepper, to taste",
+        "1/3 cup all-purpose flour",
+        "1/2 tsp baking powder",
+        "--- Frying and serving ---",
+        "1/2 cup vegetable oil",
+        "additional kosher salt, to taste, optional",
+        "olive oil, for drizzling on yogurt, optional",
+        "additional fresh parsley, for serving, optional",
+        "additional fresh mint, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 75,
+        "protein": 4.5,
+        "carbs": 12,
+        "fat": 1,
+        "fiber": 1,
+        "sugar": 1,
+        "sodium": 70
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "yogurt",
+            "name": "Garlic yogurt",
+            "ingredients": [
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "not Greek"
+              },
+              {
+                "id": "mint",
+                "key": "mint",
+                "name": "fresh mint",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "finely grated"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "vegetables",
+            "name": "Drained vegetables",
+            "ingredients": [
+              {
+                "id": "zucchini",
+                "key": "zucchini",
+                "name": "small zucchini",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "drain",
+                    "share": 1
+                  }
+                ],
+                "plural": "small zucchini",
+                "preparation": "washed, ends trimmed and coarsely grated"
+              },
+              {
+                "id": "potato",
+                "key": "potato",
+                "name": "small russet potato",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "drain",
+                    "share": 1
+                  }
+                ],
+                "plural": "small russet potatoes",
+                "preparation": "washed, peeled and coarsely grated"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "medium onion",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "drain",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium onions",
+                "preparation": "coarsely grated"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "drain",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "batter",
+            "name": "Egg and flour binder",
+            "ingredients": [
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "beaten"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "finely grated"
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "mint",
+                "key": "mint",
+                "name": "fresh mint",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "additional kosher salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "bind",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "bind",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frying",
+            "name": "Frying and serving",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "additional kosher salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "olive",
+                "key": "olive",
+                "name": "olive oil",
+                "allowance": "for drizzling on yogurt",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "additional fresh parsley",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "mint",
+                "key": "mint",
+                "name": "additional fresh mint",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Make yogurt",
+            "text": "Whisk {{ingredients}} in a clean bowl. Cover and refrigerate while making the fritters."
+          },
+          {
+            "id": "drain",
+            "title": "Drain vegetables",
+            "text": "Toss {{ingredients}} in a sieve set over a bowl and stand 30–40 minutes. Gather in portions in a clean towel and squeeze out excess liquid; the vegetables need not become bone dry."
+          },
+          {
+            "id": "mix",
+            "title": "Mix binder",
+            "text": "Mix {{ingredients}}, then add all the squeezed vegetables. Keep this raw-egg mixture and utensils away from the cold yogurt and finished fritters."
+          },
+          {
+            "id": "bind",
+            "title": "Bind",
+            "text": "Sprinkle {{ingredients}} over the vegetable-egg mixture and mix gently."
+          },
+          {
+            "id": "fry",
+            "title": "Fry batches",
+            "text": "Heat {{ingredients}} in a suitable large skillet over medium-high until hot but not smoking. The listed supply does not guarantee ½-inch depth. Fry flattened scoops in uncrowded batches, with a ¼-cup scoop as an optional size reference. Start checking around 3 minutes per side, adjusting heat as needed; finish when golden with set centers at 160°F / 71°C, sampling representative fritters with a thin probe. Keep remaining raw batter refrigerated during extended batches."
+          },
+          {
+            "id": "serve",
+            "title": "Drain and serve",
+            "text": "Drain cooked fritters on a clean rack. Use {{ingredients}} as desired; serve the warm fritters with the cold garlic yogurt."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep sauce and batter allocations separate",
+        "outcome": "Fritters with cooked centers and a cold garlic-yogurt sauce carrying its full rich ingredients.",
+        "techniques": ["seasoning", "temperature", "cold-preparation"],
+        "before": [
+          "Make the yogurt separately and keep it cold while the grated vegetables drain. The full sauce supplies stay separate from the batter garlic and herbs.",
+          "The original recipe gives about 12 portions without a fixed scoop size; a ¼-cup scoop can be used as a practical portion reference, but actual count depends on vegetable size and squeezed yield.",
+          "The listed frying oil is a supply, not a guarantee of ½-inch depth in every skillet."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Liquid has drained and the squeezed vegetables no longer release a stream.",
+            "why": "Excess liquid weakens the binder; “bone dry” is not a realistic required state."
+          },
+          {
+            "step": 5,
+            "cue": "Golden surfaces and cooked egg-bound centers at 160°F / 71°C.",
+            "why": "Three minutes per side is only a first check for the actual scoop and pan heat."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Mixture spreads and fries unevenly.",
+            "cause": "Excess vegetable liquid or very thick scoops.",
+            "fix": "Drain/squeeze the remaining vegetables well before mixing and flatten remaining scoops; adjust heat so centers finish before outsides burn."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Yogurt sauce",
+            "alternative": "For the lighter mint-yogurt option, use the same full listed yogurt amount, half the listed sauce lemon juice and half its mint; omit the sauce olive oil, honey and sauce garlic entirely. Keep the separate batter garlic, full parsley and batter mint, full egg/flour binder and frying supplies. Whisk this mint yogurt separately and refrigerate; do not send its herbs into the batter.",
+            "effect": "The original-batch sauce option is ½ cup yogurt,1 Tb lemon and 1 Tb mint. It is less rich than the full garlic-yogurt version and lacks its honey and separate garlic."
+          },
+          {
+            "ingredient": "Frying-oil depth",
+            "alternative": "For the separate ½-inch pan-depth version, use vegetable oil as needed to reach that depth in a suitable deep skillet instead of claiming the listed ½-cup oil always produces it. Keep the full fritter batter and cooked-center checks; do not add both alternative frying supplies to one shopping total.",
+            "effect": "Required oil depends on the actual vessel; no measured absorption or fixed depth equivalence is supplied."
+          }
+        ],
+        "timing": "About 15 minutes active preparation overlaps the 30–40-minute salting rest. Batch frying adds roughly 15–25 minutes or more for the actual load; plan about 50–70 minutes elapsed.",
+        "storage": "Keep garlic yogurt refrigerated at 40°F / 4°C or below and use within 3–4 days; its lemon/honey mixture is not a validated preservation process. Cook raw-egg batter promptly, or refrigerate and cook within 24 hours. Refrigerate finished fritters in shallow containers within 2 hours (1 hour above 90°F / 32°C), use within 3–4 days or freeze promptly, and reheat to 165°F / 74°C. Reheating does not guarantee the original crispness.",
+        "sources": [
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov cold handling and leftovers",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          },
+          {
+            "title": "FDA egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "CDC garlic and herb oils",
+            "url": "https://www.cdc.gov/botulism/prevention/index.html"
+          },
+          {
+            "title": "USDA raw egg dish handling",
+            "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely"
+          },
+          {
+            "title": "Bon Appétit fritters",
+            "url": "http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to fritters that aren't a soggy mess is removing all the moisture. You must grate the zucchini and potato, salt them heavily, and let them sit for 30 minutes. Then, wrap them in a kitchen towel and squeeze with maximum force until bone-dry. This ensures the fritters have a resilient texture while the exterior develops a shatteringly crisp crust in the oil. The garlic yogurt provides the bright acidity needed to cut the deep-fried richness.\n\n## Directions\n\n1.  **The Squeeze:** Grate zucchini, potato, and onion. Toss with 2 tsp salt. Let stand in a sieve for 30 minutes. **Squeeze in a towel until no juice remains**.\n2.  **The Mix:** In a large bowl, whisk eggs, garlic, cumin, and all fresh herbs.\n3.  **Bind:** Add the dry vegetables to the eggs. Sprinkle the flour and baking powder over the top. Mix gently until a thick, sticky batter forms.\n4.  **The Crunch:** Heat 1/2-inch of neutral oil in a large skillet.\n5.  **Fry:** Drop 1/4-cup scoops into the hot oil. Flatten with a spatula. Fry for 3 minutes per side until deep golden brown.\n6.  **Drain:** Transfer to a wire rack (The Air-Snap Method) to keep the bottom crispy.\n7.  **Serve:** Whisk yogurt ingredients. Serve the warm fritters with a dollop of cold garlic yogurt.\n",
+    "after": "\n## Chef's Note\n\nSalt and drain the grated vegetables, then squeeze out excess liquid before mixing the egg and flour binder. Make the garlic yogurt separately and keep it cold; its oil, honey, mint and lemon belong in the sauce, not the fritter batter.\n\n## Directions\n\n1. **Make yogurt:** Whisk plain yogurt, fresh mint, fresh lemon juice, olive oil, honey, garlic clove, kosher salt, and black pepper in a clean bowl. Cover and refrigerate while making the fritters.\n2. **Drain vegetables:** Toss small zucchini, small russet potato, medium onion, and kosher salt in a sieve set over a bowl and stand 30–40 minutes. Gather in portions in a clean towel and squeeze out excess liquid; the vegetables need not become bone dry.\n3. **Mix binder:** Mix large eggs, garlic clove, ground cumin, fresh parsley, fresh mint, additional kosher salt (if using), and black pepper, then add all the squeezed vegetables. Keep this raw-egg mixture and utensils away from the cold yogurt and finished fritters.\n4. **Bind:** Sprinkle all-purpose flour and baking powder over the vegetable-egg mixture and mix gently.\n5. **Fry batches:** Heat vegetable oil in a suitable large skillet over medium-high until hot but not smoking. The listed supply does not guarantee ½-inch depth. Fry flattened scoops in uncrowded batches, with a ¼-cup scoop as an optional size reference. Start checking around 3 minutes per side, adjusting heat as needed; finish when golden with set centers at 160°F / 71°C, sampling representative fritters with a thin probe. Keep remaining raw batter refrigerated during extended batches.\n6. **Drain and serve:** Drain cooked fritters on a clean rack. Use additional kosher salt (if using), olive oil (if using), additional fresh parsley (if using), and additional fresh mint (if using) as desired; serve the warm fritters with the cold garlic yogurt.\n"
+  },
+  "findings": [
+    {
+      "id": "VPS19-8-cooking",
+      "rationale": "Recover full exact native/current publisher measured rich garlic-yogurt sauce and ½ cup frying oil/2 tsp kosher salt; preserve current leaner mint-yogurt branch and separate ½ inch frying allowance route. Garlic/herb allocations become authored components with all views regenerated.",
+      "confidence": "high ingredient/source accounting; moderate planning/endpoint application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Zucchini-Herb Fritters with Garlic Yogurt.html",
+            "sha256": "c839a887476ee1645d06063562ad0b8d039394d93f2ef341b18929c8a567c87f",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "c00c7e1ba95ef30f615bad3e83cbabba7299eced156f0c3cf0600aa934388576",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "8c6f63493e46f8a93d9b4c206e44c09cd2e7b42614f94cfaf83bd0ca674667e8",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg mixtures and160°F egg-dish category applied moderately to coatings/fritter centers; not publisher-tested pan or probe performance."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Official indexed full article read: raw-egg dishes cook immediately or refrigerate and cook within24hours. Category application to these batters, not a validated loaded-pan clock."
+        },
+        {
+          "url": "http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp",
+          "applicability": "Current primary full card directly read and agrees with native rich formula; no universal elapsed-clock or salt-density equivalence."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",
+        "The bulk reduction does not establish an accepted household rejection of the full yogurt oil/honey/second garlic. Both complete sauce versions remain separate proposals."
+      ]
+    },
+    {
+      "id": "VPS19-8-teaching",
+      "rationale": "Recipe-specific readiness, practical batch capacity, preparation and storage replace unsupported crispness/healthy-child guarantees. Full amounts and exclusive options remain; no tested yield or timing claim.",
+      "confidence": "moderate practical planning; high primary handling categories",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Zucchini-Herb Fritters with Garlic Yogurt.html",
+            "sha256": "c839a887476ee1645d06063562ad0b8d039394d93f2ef341b18929c8a567c87f",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "c00c7e1ba95ef30f615bad3e83cbabba7299eced156f0c3cf0600aa934388576",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "8c6f63493e46f8a93d9b4c206e44c09cd2e7b42614f94cfaf83bd0ca674667e8",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg mixtures and160°F egg-dish category applied moderately to coatings/fritter centers; not publisher-tested pan or probe performance."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Official indexed full article read: raw-egg dishes cook immediately or refrigerate and cook within24hours. Category application to these batters, not a validated loaded-pan clock."
+        },
+        {
+          "url": "http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp",
+          "applicability": "Current primary full card directly read and agrees with native rich formula; no universal elapsed-clock or salt-density equivalence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "prepTime", "cookTime", "totalTime"],
+      "questions": [
+        "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",
+        "The bulk reduction does not establish an accepted household rejection of the full yogurt oil/honey/second garlic. Both complete sauce versions remain separate proposals."
+      ]
+    },
+    {
+      "id": "VPS19-8-metadata",
+      "rationale": "Omit inherited unsupported country/nutrition fields while preserving actual cuisine/style/source credits. Use only implemented cooking-method tags.",
+      "confidence": "high limitation of inherited metadata",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Zucchini-Herb Fritters with Garlic Yogurt.html",
+            "sha256": "c839a887476ee1645d06063562ad0b8d039394d93f2ef341b18929c8a567c87f",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VPS19-8-capacity-storage",
+      "rationale": "Original-batch pan and serving/count estimates stay planning only; proportions scale but cut dimensions, individual fritter/latke size, clocks and original vessel dimensions do not multiply. Storage is preparation-specific handling, not measured quality life or preservation validation.",
+      "confidence": "moderate pan/timing applications; high handling scope",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Zucchini-Herb Fritters with Garlic Yogurt.html",
+            "sha256": "c839a887476ee1645d06063562ad0b8d039394d93f2ef341b18929c8a567c87f",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "c00c7e1ba95ef30f615bad3e83cbabba7299eced156f0c3cf0600aa934388576",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "8c6f63493e46f8a93d9b4c206e44c09cd2e7b42614f94cfaf83bd0ca674667e8",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg mixtures and160°F egg-dish category applied moderately to coatings/fritter centers; not publisher-tested pan or probe performance."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Official indexed full article read: raw-egg dishes cook immediately or refrigerate and cook within24hours. Category application to these batters, not a validated loaded-pan clock."
+        },
+        {
+          "url": "http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp",
+          "applicability": "Current primary full card directly read and agrees with native rich formula; no universal elapsed-clock or salt-density equivalence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.timing", "learning.storage"],
+      "questions": [
+        "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",
+        "The bulk reduction does not establish an accepted household rejection of the full yogurt oil/honey/second garlic. Both complete sauce versions remain separate proposals."
+      ]
+    },
+    {
+      "id": "VPS19-I03-learning.timing",
+      "title": "Bounded independent correction",
+      "rationale": "Remove restored/current/saved-file editing comparisons from cooking guidance while retaining useful original-batch clock and ingredient flow. The written fritter method makes yogurt first, so the preparation note must not require making it first and during a later drain simultaneously. It can remain cold throughout that drain; no source step is reordered.",
+      "confidence": "high scope and sequencing clarity; moderate planning ranges",
+      "applicableSources": [
+        {
+          "file": "docs/HOUSEHOLD_PREFERENCES.md",
+          "applicability": "Public recipe presentation requires direct cooking prose and keeps editing history in private review records."
+        },
+        {
+          "file": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public cooking and internal review/source-disagreement separation."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "b932c2a84111c3495e2a6f2ce3cf39e48305a693ecc14546f8668513090c924c",
+          "applicability": "Full roasting oil and actual handleable-cooling route; preserve all source/current differences privately."
+        },
+        {
+          "url": "https://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
+          "applicability": "Complete original small-pancake batch method and publisher 30-minute card; does not certify the private 60-minute plan. The card-versus-native timing disagreement remains in private evidence."
+        },
+        {
+          "url": "https://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt",
+          "applicability": "Separate chilled yogurt and subsequent 30–40-minute vegetable drain; source does not establish a tested total elapsed time."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Keep publisher-versus-native clocks, source-rich/current-lighter distinction and restoration rationale in private records; no historical evidence is discarded."
+      ]
+    },
+    {
+      "id": "VPS19-I03-learning.before[0]",
+      "title": "Bounded independent correction",
+      "rationale": "Remove restored/current/saved-file editing comparisons from cooking guidance while retaining useful original-batch clock and ingredient flow. The written fritter method makes yogurt first, so the preparation note must not require making it first and during a later drain simultaneously. It can remain cold throughout that drain; no source step is reordered.",
+      "confidence": "high scope and sequencing clarity; moderate planning ranges",
+      "applicableSources": [
+        {
+          "file": "docs/HOUSEHOLD_PREFERENCES.md",
+          "applicability": "Public recipe presentation requires direct cooking prose and keeps editing history in private review records."
+        },
+        {
+          "file": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public cooking and internal review/source-disagreement separation."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "b932c2a84111c3495e2a6f2ce3cf39e48305a693ecc14546f8668513090c924c",
+          "applicability": "Full roasting oil and actual handleable-cooling route; preserve all source/current differences privately."
+        },
+        {
+          "url": "https://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
+          "applicability": "Complete original small-pancake batch method and publisher 30-minute card; does not certify the private 60-minute plan. The card-versus-native timing disagreement remains in private evidence."
+        },
+        {
+          "url": "https://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt",
+          "applicability": "Separate chilled yogurt and subsequent 30–40-minute vegetable drain; source does not establish a tested total elapsed time."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Keep publisher-versus-native clocks, source-rich/current-lighter distinction and restoration rationale in private records; no historical evidence is discarded."
+      ]
+    },
+    {
+      "id": "VPS19-I06-learning.before[2]",
+      "title": "Bounded independent correction",
+      "rationale": "This static note calls the frying supply a measured half-cup even when the enabled scale control changes it. Refer to the listed supply; the fixed half-inch alternative remains a pan-depth route rather than a cup equivalence.",
+      "confidence": "high actual scaling mismatch",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "06003e3438fed5552d309207c03fc986f575df1c16a6d534f77d6487691c119a",
+          "applicability": "Authored frying.oil amount 0.5 cup scales; learning prose remains static."
+        },
+        {
+          "file": "docs/RECIPE_STANDARD.md",
+          "applicability": "Serving control scales quantities while leaving method/learning prose unchanged."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": ["Actual pan diameter, headroom and oil depth remain unmeasured."]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Zucchini-Herb%20Fritters%20with%20Garlic%20Yogurt.html",
+    "introductionScope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact native/045/current BonAppétit full sauce2Tb oil/1tsp honey/secondgarlic/2Tb lemon+mint and½cup frying/2tsp kosher were reduced/omitted atf612. No later explicit acceptance of omission established. Rich primary restored; current reduced mint-yogurt quantities and½inch oil remain exclusive options.",
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 small Zucchini, grated",
+        "destination": "zucchini1→3"
+      },
+      {
+        "index": 1,
+        "text": "1 small Russet Potato, grated",
+        "destination": "potato1→3"
+      },
+      {
+        "index": 2,
+        "text": "2 large Eggs, beaten",
+        "destination": "egg2→3→5"
+      },
+      {
+        "index": 3,
+        "text": "1/3 cup All-Purpose Flour",
+        "destination": "flour3"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Baking Powder",
+        "destination": "baking powder3"
+      },
+      {
+        "index": 5,
+        "text": "1/2 medium Onion, grated",
+        "destination": "onion1→3"
+      },
+      {
+        "index": 6,
+        "text": "3 tbsp Fresh Parsley + 2 tbsp Fresh Mint",
+        "destination": "parsley3Tb+mint2Tb batter2"
+      },
+      {
+        "index": 7,
+        "text": "1 clove Garlic, grated",
+        "destination": "garlic2; no specified yogurt garlic"
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp Ground Cumin",
+        "destination": "cumin2"
+      },
+      {
+        "index": 9,
+        "text": "1/2 cup Plain Yogurt",
+        "destination": "yogurt7"
+      },
+      {
+        "index": 10,
+        "text": "1 tbsp Fresh Lemon Juice",
+        "destination": "lemon7"
+      },
+      {
+        "index": 11,
+        "text": "1 tbsp Fresh Mint, chopped",
+        "destination": "mint1Tb mistakenly caught by allherbs2;7 also ambiguous"
+      }
+    ],
+    "frozenMethodOnly": [
+      "2tsp salting1 (crystaltypeabsent);½inch unlisted frying oil4; ambiguous yogurt garlic7."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "--- Garlic yogurt ---",
+        "authoredEntry": {
+          "divider": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup plain yogurt, not Greek",
+        "authoredEntry": {
+          "id": "yogurt.yogurt",
+          "key": "yogurt",
+          "name": "plain yogurt",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "preparation": "not Greek",
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp fresh mint, finely chopped",
+        "authoredEntry": {
+          "id": "yogurt.mint",
+          "key": "mint",
+          "name": "fresh mint",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "preparation": "finely chopped",
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 3,
+        "text": "2 tbsp fresh lemon juice",
+        "authoredEntry": {
+          "id": "yogurt.lemon",
+          "key": "lemon",
+          "name": "fresh lemon juice",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 4,
+        "text": "2 tbsp olive oil",
+        "authoredEntry": {
+          "id": "yogurt.oil",
+          "key": "oil",
+          "name": "olive oil",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 5,
+        "text": "1 tsp honey",
+        "authoredEntry": {
+          "id": "yogurt.honey",
+          "key": "honey",
+          "name": "honey",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 6,
+        "text": "1 garlic clove, finely grated",
+        "authoredEntry": {
+          "id": "yogurt.garlic",
+          "key": "garlic",
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "plural": "garlic cloves",
+          "preparation": "finely grated",
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 7,
+        "text": "kosher salt, to taste",
+        "authoredEntry": {
+          "id": "yogurt.salt",
+          "key": "salt",
+          "name": "kosher salt",
+          "allowance": "to taste",
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 8,
+        "text": "black pepper, to taste",
+        "authoredEntry": {
+          "id": "yogurt.pepper",
+          "key": "pepper",
+          "name": "black pepper",
+          "allowance": "to taste",
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1
+            }
+          ],
+          "component": "Garlic yogurt"
+        }
+      },
+      {
+        "index": 9,
+        "text": "--- Drained vegetables ---",
+        "authoredEntry": {
+          "divider": "Drained vegetables"
+        }
+      },
+      {
+        "index": 10,
+        "text": "2 small zucchini, washed, ends trimmed and coarsely grated",
+        "authoredEntry": {
+          "id": "vegetables.zucchini",
+          "key": "zucchini",
+          "name": "small zucchini",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "drain",
+              "share": 1
+            }
+          ],
+          "plural": "small zucchini",
+          "preparation": "washed, ends trimmed and coarsely grated",
+          "component": "Drained vegetables"
+        }
+      },
+      {
+        "index": 11,
+        "text": "1 small russet potato, washed, peeled and coarsely grated",
+        "authoredEntry": {
+          "id": "vegetables.potato",
+          "key": "potato",
+          "name": "small russet potato",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "drain",
+              "share": 1
+            }
+          ],
+          "plural": "small russet potatoes",
+          "preparation": "washed, peeled and coarsely grated",
+          "component": "Drained vegetables"
+        }
+      },
+      {
+        "index": 12,
+        "text": "1/2 medium onion, coarsely grated",
+        "authoredEntry": {
+          "id": "vegetables.onion",
+          "key": "onion",
+          "name": "medium onion",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "drain",
+              "share": 1
+            }
+          ],
+          "plural": "medium onions",
+          "preparation": "coarsely grated",
+          "component": "Drained vegetables"
+        }
+      },
+      {
+        "index": 13,
+        "text": "2 tsp kosher salt",
+        "authoredEntry": {
+          "id": "vegetables.salt",
+          "key": "salt",
+          "name": "kosher salt",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "drain",
+              "share": 1
+            }
+          ],
+          "component": "Drained vegetables"
+        }
+      },
+      {
+        "index": 14,
+        "text": "--- Egg and flour binder ---",
+        "authoredEntry": {
+          "divider": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 15,
+        "text": "2 large eggs, beaten",
+        "authoredEntry": {
+          "id": "batter.egg",
+          "key": "egg",
+          "name": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "plural": "large eggs",
+          "preparation": "beaten",
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 16,
+        "text": "1 garlic clove, finely grated",
+        "authoredEntry": {
+          "id": "batter.garlic",
+          "key": "garlic",
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "plural": "garlic cloves",
+          "preparation": "finely grated",
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 17,
+        "text": "1/2 tsp ground cumin",
+        "authoredEntry": {
+          "id": "batter.cumin",
+          "key": "cumin",
+          "name": "ground cumin",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 18,
+        "text": "3 tbsp fresh parsley, finely chopped",
+        "authoredEntry": {
+          "id": "batter.parsley",
+          "key": "parsley",
+          "name": "fresh parsley",
+          "quantity": {
+            "amount": 3,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "preparation": "finely chopped",
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 19,
+        "text": "2 tbsp fresh mint, finely chopped",
+        "authoredEntry": {
+          "id": "batter.mint",
+          "key": "mint",
+          "name": "fresh mint",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "preparation": "finely chopped",
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 20,
+        "text": "additional kosher salt, to taste, optional",
+        "authoredEntry": {
+          "id": "batter.salt",
+          "key": "salt",
+          "name": "additional kosher salt",
+          "allowance": "to taste",
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 21,
+        "text": "black pepper, to taste",
+        "authoredEntry": {
+          "id": "batter.pepper",
+          "key": "pepper",
+          "name": "black pepper",
+          "allowance": "to taste",
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 22,
+        "text": "1/3 cup all-purpose flour",
+        "authoredEntry": {
+          "id": "batter.flour",
+          "key": "flour",
+          "name": "all-purpose flour",
+          "quantity": {
+            "amount": 0.3333333333333333,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "bind",
+              "share": 1
+            }
+          ],
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 23,
+        "text": "1/2 tsp baking powder",
+        "authoredEntry": {
+          "id": "batter.powder",
+          "key": "powder",
+          "name": "baking powder",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "bind",
+              "share": 1
+            }
+          ],
+          "component": "Egg and flour binder"
+        }
+      },
+      {
+        "index": 24,
+        "text": "--- Frying and serving ---",
+        "authoredEntry": {
+          "divider": "Frying and serving"
+        }
+      },
+      {
+        "index": 25,
+        "text": "1/2 cup vegetable oil",
+        "authoredEntry": {
+          "id": "frying.oil",
+          "key": "oil",
+          "name": "vegetable oil",
+          "quantity": {
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1
+            }
+          ],
+          "component": "Frying and serving"
+        }
+      },
+      {
+        "index": 26,
+        "text": "additional kosher salt, to taste, optional",
+        "authoredEntry": {
+          "id": "frying.salt",
+          "key": "salt",
+          "name": "additional kosher salt",
+          "allowance": "to taste",
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Frying and serving"
+        }
+      },
+      {
+        "index": 27,
+        "text": "olive oil, for drizzling on yogurt, optional",
+        "authoredEntry": {
+          "id": "frying.olive",
+          "key": "olive",
+          "name": "olive oil",
+          "allowance": "for drizzling on yogurt",
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Frying and serving"
+        }
+      },
+      {
+        "index": 28,
+        "text": "additional fresh parsley, for serving, optional",
+        "authoredEntry": {
+          "id": "frying.parsley",
+          "key": "parsley",
+          "name": "additional fresh parsley",
+          "allowance": "for serving",
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Frying and serving"
+        }
+      },
+      {
+        "index": 29,
+        "text": "additional fresh mint, for serving, optional",
+        "authoredEntry": {
+          "id": "frying.mint",
+          "key": "mint",
+          "name": "additional fresh mint",
+          "allowance": "for serving",
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1
+            }
+          ],
+          "optional": true,
+          "component": "Frying and serving"
+        }
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "text": "Garlic Yogurt",
+        "destination": "native section heading: Garlic Yogurt"
+      },
+      {
+        "index": 1,
+        "text": "½ cup plain yogurt (not Greek)",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 2,
+        "text": "2 tablespoons finely chopped fresh mint",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 3,
+        "text": "2 tablespoons fresh lemon juice",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 4,
+        "text": "2 tablespoons olive oil",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 5,
+        "text": "1 teaspoon honey",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 6,
+        "text": "1 garlic clove, finely grated",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 7,
+        "text": "Kosher salt and freshly ground black pepper",
+        "destination": "nativeGarlicYogurt section1"
+      },
+      {
+        "index": 8,
+        "text": "Fritters And Assembly",
+        "destination": "native section heading: Fritters and Assembly"
+      },
+      {
+        "index": 9,
+        "text": "2 small zucchini, ends trimmed",
+        "destination": "nativegrate/salt/drain section2"
+      },
+      {
+        "index": 10,
+        "text": "1 small russet potato, peeled",
+        "destination": "nativegrate/salt/drain section2"
+      },
+      {
+        "index": 11,
+        "text": "½ medium onion",
+        "destination": "nativegrate/salt/drain section2"
+      },
+      {
+        "index": 12,
+        "text": "2 teaspoons kosher salt, plus more",
+        "destination": "native salt/drain section2; additional salt allowed binder3 and finished fritters4"
+      },
+      {
+        "index": 13,
+        "text": "2 large eggs, beaten to blend",
+        "destination": "nativebinder section3"
+      },
+      {
+        "index": 14,
+        "text": "1 garlic clove, finely grated",
+        "destination": "nativebinder section3"
+      },
+      {
+        "index": 15,
+        "text": "½ teaspoon ground cumin",
+        "destination": "nativebinder section3"
+      },
+      {
+        "index": 16,
+        "text": "3 tablespoons finely chopped fresh parsley, plus more for serving",
+        "destination": "native parsley binder section3 plus optional serving herbs section4"
+      },
+      {
+        "index": 17,
+        "text": "2 tablespoons finely chopped fresh mint, plus more for serving",
+        "destination": "native mint binder section3 plus optional serving herbs section4"
+      },
+      {
+        "index": 18,
+        "text": "Freshly ground black pepper",
+        "destination": "nativebinder section3"
+      },
+      {
+        "index": 19,
+        "text": "⅓ cup all-purpose flour",
+        "destination": "nativebinder section3"
+      },
+      {
+        "index": 20,
+        "text": "½ teaspoon baking powder",
+        "destination": "nativebinder section3"
+      },
+      {
+        "index": 21,
+        "text": "½ cup vegetable oil",
+        "destination": "nativefrying/serve section4"
+      },
+      {
+        "index": 22,
+        "text": "Olive oil (for serving)",
+        "destination": "nativefrying/serve section4"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "id": "sauce",
+      "title": "Make yogurt",
+      "text": "Whisk {{ingredients}} in a clean bowl. Cover and refrigerate while making the fritters."
+    },
+    {
+      "id": "drain",
+      "title": "Drain vegetables",
+      "text": "Toss {{ingredients}} in a sieve set over a bowl and stand 30–40 minutes. Gather in portions in a clean towel and squeeze out excess liquid; the vegetables need not become bone dry."
+    },
+    {
+      "id": "mix",
+      "title": "Mix binder",
+      "text": "Mix {{ingredients}}, then add all the squeezed vegetables. Keep this raw-egg mixture and utensils away from the cold yogurt and finished fritters."
+    },
+    {
+      "id": "bind",
+      "title": "Bind",
+      "text": "Sprinkle {{ingredients}} over the vegetable-egg mixture and mix gently."
+    },
+    {
+      "id": "fry",
+      "title": "Fry batches",
+      "text": "Heat {{ingredients}} in a suitable large skillet over medium-high until hot but not smoking. The listed supply does not guarantee ½-inch depth. Fry flattened scoops in uncrowded batches, with a ¼-cup scoop as an optional size reference. Start checking around 3 minutes per side, adjusting heat as needed; finish when golden with set centers at 160°F / 71°C, sampling representative fritters with a thin probe. Keep remaining raw batter refrigerated during extended batches."
+    },
+    {
+      "id": "serve",
+      "title": "Drain and serve",
+      "text": "Drain cooked fritters on a clean rack. Use {{ingredients}} as desired; serve the warm fritters with the cold garlic yogurt."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Yogurt sauce",
+      "alternative": "For the lighter mint-yogurt option, use the same full listed yogurt amount, half the listed sauce lemon juice and half its mint; omit the sauce olive oil, honey and sauce garlic entirely. Keep the separate batter garlic, full parsley and batter mint, full egg/flour binder and frying supplies. Whisk this mint yogurt separately and refrigerate; do not send its herbs into the batter.",
+      "effect": "The original-batch sauce option is ½ cup yogurt,1 Tb lemon and 1 Tb mint. It is less rich than the full garlic-yogurt version and lacks its honey and separate garlic."
+    },
+    {
+      "ingredient": "Frying-oil depth",
+      "alternative": "For the separate ½-inch pan-depth version, use vegetable oil as needed to reach that depth in a suitable deep skillet instead of claiming the listed ½-cup oil always produces it. Keep the full fritter batter and cooked-center checks; do not add both alternative frying supplies to one shopping total.",
+      "effect": "Required oil depends on the actual vessel; no measured absorption or fixed depth equivalence is supplied."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "arugula-feta-salad",
+      "peach-salad-with-tomatoes-and-beets",
+      "roasted-broccolini-with-lemon"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings remain metadata and no outgoing component receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "12 fritters",
+    "proposedYield": "12 pieces",
+    "wholeDosePreservation": "Recover full exact native/current publisher measured rich garlic-yogurt sauce and ½ cup frying oil/2 tsp kosher salt; preserve current leaner mint-yogurt branch and separate ½ inch frying allowance route. Garlic/herb allocations become authored components with all views regenerated.",
+    "capacity": [
+      "Make the yogurt separately and keep it cold while the grated vegetables drain. The full sauce supplies stay separate from the batter garlic and herbs.",
+      "The original recipe gives about 12 portions without a fixed scoop size; a ¼-cup scoop can be used as a practical portion reference, but actual count depends on vegetable size and squeezed yield.",
+      "The listed frying oil is a supply, not a guarantee of ½-inch depth in every skillet."
+    ],
+    "planningOnly": "Unmeasured actual size/yield/pan load and elapsed schedule; no kitchen observation."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",
+    "The bulk reduction does not establish an accepted household rejection of the full yogurt oil/honey/second garlic. Both complete sauce versions remain separate proposals."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

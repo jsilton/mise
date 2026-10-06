@@ -1,0 +1,525 @@
+{
+  "slug": "roasted-sweet-potatoes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "ecd2406726ebe63ab479ddd0570354d3d05e8a1190561a833cb3ceca8f23466f",
+  "acceptedSourceSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "30–35 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "40–50 min, plus any remaining preheating"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Sweet Potatoes (about 3 medium), peeled and cut into 3/4-inch wedges",
+        "3 tbsp Olive Oil",
+        "1 tsp Ground Cumin",
+        "1 tsp Chili Powder",
+        "1/2 tsp Smoked Paprika",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Cayenne Pepper (optional)",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "Fresh Cilantro and Lime wedges for serving"
+      ],
+      "after": [
+        "2 lbs Sweet Potatoes, peeled and cut into 3/4-inch wedges (original batch about 3 medium)",
+        "3 tbsp Olive Oil",
+        "1 tsp Ground Cumin",
+        "1 tsp Chili Powder",
+        "1/2 tsp Smoked Paprika",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Cayenne Pepper (optional)",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "Fresh Cilantro and Lime wedges for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 155,
+        "protein": 2,
+        "carbs": 15,
+        "fat": 10.5,
+        "fiber": 3,
+        "sugar": 3,
+        "sodium": 640
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match surface browning to center tenderness",
+        "outcome": "Tender sweet-potato wedges carrying the full cumin-chili oil coating.",
+        "techniques": ["seasoning", "browning"],
+        "before": [
+          "The original 2 lb is about three medium potatoes, not a fixed size conversion. Use the listed weight when scaling.",
+          "Keep the full three tablespoons of oil in the original batch; divide all seasoned wedges and their oil among the actual pans."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "A fork passes easily through the center and edges are browned.",
+            "why": "Edge color alone does not establish tenderness in a thick wedge."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Spices darken while centers remain firm.",
+            "cause": "Very thick wedges or uneven oven heat.",
+            "fix": "Turn and move wedges away from the strongest heat; continue until tender and remove any finished pieces. Do not keep roasting already scorched edges for color."
+          }
+        ],
+        "substitutions": [],
+        "timing": "About 10–15 minutes preparation and 30–35 minutes roasting for one load; roughly 40–50 minutes elapsed. More pans or batches may take longer, without multiplying oven temperature or wedge size. The oven must reach 425°F before loading; any preheating beyond preparation extends elapsed time.",
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat cooked leftovers to 165°F / 74°C. Crispness can soften during storage and reheating.",
+        "sources": [
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov cold handling and leftovers",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSweet potatoes have a high sugar content that makes them prone to steaming and turning mushy on a crowded sheet pan. The fix is threefold: cut wedges uniformly so they cook evenly, spread them in a single layer with space between each piece, and roast at high heat on the lower oven rack where the direct bottom heat promotes caramelization. The cumin-chili spice blend bridges Mexican and American flavors, making these a natural partner for tacos, bowls, and curries alike.\n\n## Directions\n\n1.  **Preheat:** Set oven to 425°F. Line a large baking sheet with parchment paper and place it on the lower oven rack to preheat.\n2.  **Season:** In a large bowl, toss sweet potato wedges with olive oil, cumin, chili powder, smoked paprika, garlic powder, cayenne, salt, and pepper until evenly coated.\n3.  **Arrange:** Spread wedges in a single layer on the hot baking sheet, flat-side down. Leave at least 1/2 inch between pieces -- use two sheets if needed.\n4.  **Roast:** Bake for 20 minutes without touching them. Flip each wedge and roast for another 10-12 minutes until the edges are deeply caramelized and the interior is creamy when pierced with a fork.\n5.  **Finish:** Squeeze lime juice over the hot wedges and scatter with fresh cilantro. Serve warm or at room temperature.\n",
+    "after": "\n## Chef's Note\n\nKeep the full oil and cumin-chili seasoning on the wedges. An uncrowded layer exposes their surfaces to oven heat; a fork should pass through the centers before the edges become scorched.\n\n## Directions\n\n1. **Preheat:** Preheat to 425°F. Use enough rimmed baking sheets for a single layer. If preheating a sheet, check its and the parchment’s temperature instructions and handle it with oven mitts; otherwise arrange on an unheated lined sheet and judge doneness rather than forcing the same clock.\n\n2. **Season:** Wash, peel and cut the sweet potatoes into roughly ¾-inch-thick wedges. Toss with all the listed oil, cumin, chili powder, smoked paprika, garlic powder, optional cayenne, kosher salt and black pepper.\n\n3. **Arrange:** Set wedges flat-side down with space between them; use additional sheets or batches rather than stacking. Keep cut thickness fixed when scaling.\n\n4. **Roast:** Roast about 20 minutes, then turn and begin checking after another 10–12 minutes. Continue until centers are tender when pierced and edges are browned; rotate sheets if they brown unevenly.\n\n5. **Finish:** Serve with the listed lime wedges and cilantro as desired. Squeeze lime at the table or over the warm wedges to taste.\n"
+  },
+  "findings": [
+    {
+      "id": "VPS19-4-cooking",
+      "rationale": "Keep full distinct spice/oil formula and optional finish; resolve empty hot-sheet handling/ratings, honest loaded-pan tenderness/time, source-equivalent counts and linked meal contradictions.",
+      "confidence": "high ingredient/source accounting; moderate planning/endpoint application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/roasted-sweet-potatoes.md",
+            "sha256": "d52af2cd2b15ec89e372267b760558e69bd1c00c0638e7444089da12de34e811",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "002b5a3ea04a8fe9745356bcd2d5943ff09fd273c89be836db6ee259bb07a438",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["prepTime", "cookTime", "totalTime", "ingredients", "content"],
+      "questions": [
+        "Actual sheet temperature rating and load/cook time remain kitchen questions.",
+        "No external publisher or independent original 450 was established; preserve the distinct cumin-chili formula rather than merge with Sweet Potato Fries."
+      ]
+    },
+    {
+      "id": "VPS19-4-teaching",
+      "rationale": "Recipe-specific readiness, practical batch capacity, preparation and storage replace unsupported crispness/healthy-child guarantees. Full amounts and exclusive options remain; no tested yield or timing claim.",
+      "confidence": "moderate practical planning; high primary handling categories",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/roasted-sweet-potatoes.md",
+            "sha256": "d52af2cd2b15ec89e372267b760558e69bd1c00c0638e7444089da12de34e811",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "002b5a3ea04a8fe9745356bcd2d5943ff09fd273c89be836db6ee259bb07a438",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "prepTime", "cookTime", "totalTime"],
+      "questions": [
+        "Actual sheet temperature rating and load/cook time remain kitchen questions.",
+        "No external publisher or independent original 450 was established; preserve the distinct cumin-chili formula rather than merge with Sweet Potato Fries."
+      ]
+    },
+    {
+      "id": "VPS19-4-metadata",
+      "rationale": "Omit inherited unsupported country/nutrition fields while preserving actual cuisine/style/source credits. Use only implemented cooking-method tags.",
+      "confidence": "high limitation of inherited metadata",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/roasted-sweet-potatoes.md",
+            "sha256": "d52af2cd2b15ec89e372267b760558e69bd1c00c0638e7444089da12de34e811",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VPS19-4-capacity-storage",
+      "rationale": "Original-batch pan and serving/count estimates stay planning only; proportions scale but cut dimensions, individual fritter/latke size, clocks and original vessel dimensions do not multiply. Storage is preparation-specific handling, not measured quality life or preservation validation.",
+      "confidence": "moderate pan/timing applications; high handling scope",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/roasted-sweet-potatoes.md",
+            "sha256": "d52af2cd2b15ec89e372267b760558e69bd1c00c0638e7444089da12de34e811",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "002b5a3ea04a8fe9745356bcd2d5943ff09fd273c89be836db6ee259bb07a438",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.timing", "learning.storage"],
+      "questions": [
+        "Actual sheet temperature rating and load/cook time remain kitchen questions.",
+        "No external publisher or independent original 450 was established; preserve the distinct cumin-chili formula rather than merge with Sweet Potato Fries."
+      ]
+    },
+    {
+      "id": "VPS19-I01-totalTime",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    },
+    {
+      "id": "VPS19-I01-learning.timing",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/roasted-sweet-potatoes.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-only exact cooking introduction supports current formula but does not establish an external author, origin, nutritional analysis or tested schedule.",
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 lbs Sweet Potatoes (about 3 medium), peeled and cut into 3/4-inch wedges",
+        "destination": "potatoes2–4"
+      },
+      {
+        "index": 1,
+        "text": "3 tbsp Olive Oil",
+        "destination": "oil2"
+      },
+      {
+        "index": 2,
+        "text": "1 tsp Ground Cumin",
+        "destination": "cumin2"
+      },
+      {
+        "index": 3,
+        "text": "1 tsp Chili Powder",
+        "destination": "chili2"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Smoked Paprika",
+        "destination": "paprika2"
+      },
+      {
+        "index": 5,
+        "text": "1/2 tsp Garlic Powder",
+        "destination": "garlic powder2"
+      },
+      {
+        "index": 6,
+        "text": "1/4 tsp Cayenne Pepper (optional)",
+        "destination": "optional cayenne2"
+      },
+      {
+        "index": 7,
+        "text": "1 tsp Kosher Salt",
+        "destination": "salt2"
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp Black Pepper",
+        "destination": "pepper2"
+      },
+      {
+        "index": 9,
+        "text": "Fresh Cilantro and Lime wedges for serving",
+        "destination": "cilantro/lime5"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "2 lbs Sweet Potatoes, peeled and cut into 3/4-inch wedges (original batch about 3 medium)",
+        "destination": "potatoes2–4"
+      },
+      {
+        "index": 1,
+        "text": "3 tbsp Olive Oil",
+        "destination": "oil2"
+      },
+      {
+        "index": 2,
+        "text": "1 tsp Ground Cumin",
+        "destination": "cumin2"
+      },
+      {
+        "index": 3,
+        "text": "1 tsp Chili Powder",
+        "destination": "chili2"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Smoked Paprika",
+        "destination": "paprika2"
+      },
+      {
+        "index": 5,
+        "text": "1/2 tsp Garlic Powder",
+        "destination": "garlic powder2"
+      },
+      {
+        "index": 6,
+        "text": "1/4 tsp Cayenne Pepper (optional)",
+        "destination": "optional cayenne2"
+      },
+      {
+        "index": 7,
+        "text": "1 tsp Kosher Salt",
+        "destination": "salt2"
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp Black Pepper",
+        "destination": "pepper2"
+      },
+      {
+        "index": 9,
+        "text": "Fresh Cilantro and Lime wedges for serving",
+        "destination": "cilantro/lime5"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Preheat",
+      "text": "Preheat to 425°F. Use enough rimmed baking sheets for a single layer. If preheating a sheet, check its and the parchment’s temperature instructions and handle it with oven mitts; otherwise arrange on an unheated lined sheet and judge doneness rather than forcing the same clock."
+    },
+    {
+      "step": 2,
+      "title": "Season",
+      "text": "Wash, peel and cut the sweet potatoes into roughly ¾-inch-thick wedges. Toss with all the listed oil, cumin, chili powder, smoked paprika, garlic powder, optional cayenne, kosher salt and black pepper."
+    },
+    {
+      "step": 3,
+      "title": "Arrange",
+      "text": "Set wedges flat-side down with space between them; use additional sheets or batches rather than stacking. Keep cut thickness fixed when scaling."
+    },
+    {
+      "step": 4,
+      "title": "Roast",
+      "text": "Roast about 20 minutes, then turn and begin checking after another 10–12 minutes. Continue until centers are tender when pierced and edges are browned; rotate sheets if they brown unevenly."
+    },
+    {
+      "step": 5,
+      "title": "Finish",
+      "text": "Serve with the listed lime wedges and cilantro as desired. Squeeze lime at the table or over the warm wedges to taste."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["tacos", "carnitas-bowl", "coconut-chicken-curry", "everyday-arugula-salad"],
+    "incomingMeals": ["frittata-brunch", "sheet-pan-pesto-chicken"],
+    "scope": "Both meals use cubes/25-minute roast while this component uses¾-inch wedges/30–32-minute reference; quantities/sharedoven/wholemeal not accepted."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "wholeDosePreservation": "Keep full distinct spice/oil formula and optional finish; resolve empty hot-sheet handling/ratings, honest loaded-pan tenderness/time, source-equivalent counts and linked meal contradictions.",
+    "capacity": [
+      "The original 2 lb is about three medium potatoes, not a fixed size conversion. Use the listed weight when scaling.",
+      "Keep the full three tablespoons of oil in the original batch; divide all seasoned wedges and their oil among the actual pans."
+    ],
+    "planningOnly": "Unmeasured actual size/yield/pan load and elapsed schedule; no kitchen observation."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual sheet temperature rating and load/cook time remain kitchen questions.",
+    "No external publisher or independent original 450 was established; preserve the distinct cumin-chili formula rather than merge with Sweet Potato Fries."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

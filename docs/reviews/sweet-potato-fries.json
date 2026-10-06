@@ -1,0 +1,547 @@
+{
+  "slug": "sweet-potato-fries",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "a983e0ef037871aca8c9f2cf57c256fc0a28b5ead9299614dc36407993fa9f0c",
+  "acceptedSourceSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "fry", "steam"],
+      "after": ["roast"]
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "25–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "35–45 min, plus any remaining preheating"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 115,
+        "protein": 1.5,
+        "carbs": 13,
+        "fat": 7,
+        "fiber": 2.5,
+        "sugar": 2.5,
+        "sodium": 610
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Fixed-size pieces across batch scaling",
+        "outcome": "Evenly cooked sweet-potato sticks with the full oil and spice coating.",
+        "techniques": ["seasoning", "browning"],
+        "before": [
+          "The source also permits ¼–½-inch-wide sticks; thinner sticks can finish sooner. Do not enlarge the fries for a larger batch.",
+          "The current smoked paprika and sea salt remain primary. Plain paprika and unspecified salt are a separate original ingredient choice, not a salt-density conversion."
+        ],
+        "checkpoints": [
+          {
+            "step": 6,
+            "cue": "Tender centers and browned surfaces without burnt spice coating.",
+            "why": "A fixed second clock cannot cover different stick widths and oven loads."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "One tray colors faster.",
+            "cause": "Rack position and uneven airflow.",
+            "fix": "Rotate and exchange trays; remove finished sticks while remaining pieces cook."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Paprika and salt",
+            "alternative": "For the plain-paprika version, replace the listed smoked paprika with the same amount of plain paprika and use the listed salt amount with the original unspecified salt choice. Keep the full potatoes, oil, garlic powder and pepper. Cut ¼–½ inch wide and 3 inches long, roast at 400°F with a first turn around 15 minutes and a second check around 10 minutes later; use tender centers and browned surfaces. Do not treat the salt choices as a density conversion.",
+            "effect": "Plain paprika loses the smoke note; thinner sticks can finish sooner. The original 4–6 servings remain a separate planning range."
+          }
+        ],
+        "timing": "About 10 minutes preparation plus 25–30 minutes roasting, roughly 35–45 minutes for one load. Extra loads take longer; the source 4–6 serving range and current four portions are planning choices, not weighed yield. The oven must reach 400°F before loading; any preheating beyond preparation extends elapsed time.",
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat cooked leftovers to 165°F / 74°C. Crispness can soften during storage and reheating.",
+        "sources": [
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov cold handling and leftovers",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          },
+          {
+            "title": "NYT sweet-potato fries",
+            "url": "https://cooking.nytimes.com/recipes/1014647-sweet-potato-fries"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to sweet potato fries that aren't limp and oily is proper spacing. Sweet potatoes have more moisture than Russets; you must spread them across two separate baking sheets to ensure every fry has at least 1 inch of space. This allows the hot air to circulate, resulting in caramelized edges rather than steamed softness. We use smoked paprika as the essential savory element - it introduces a wood-fired depth that balances the natural sweetness of the potato.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 400°F. Line two rimmed baking sheets with parchment paper.\n2.  **Cut:** Slice sweet potatoes into uniform sticks, about 1/2-inch wide and 3 inches long.\n3.  **Toss:** In a large bowl, whisk the oil and all spices. Add the potatoes and toss vigorously until every stick is perfectly coated.\n4.  **The Guard:** Spread the fries onto the two pans. Ensure **no fries are touching**.\n5.  **Bake:** Roast for 15 minutes. Flip the fries with a metal spatula.\n6.  **The Crunch:** Roast for another 10-12 minutes until the edges are dark brown and crispy.\n7.  **Serve:** Serve immediately while hot. (Note: do not cover them, or the steam will destroy the snap).\n",
+    "after": "\n## Chef's Note\n\nSpread the sticks apart and turn when the bottoms brown. Oven-roasted sweet potatoes can have browned edges and tender centers without becoming uniformly crisp; the smoked paprika remains part of this version.\n\n## Directions\n\n1. **Preheat:** Preheat to 400°F. Prepare two rimmed lined sheets for the original batch; use more or fewer sheets as needed for uncrowded scaled batches.\n\n2. **Cut:** Wash and peel the potatoes. Cut into roughly ½-inch-wide, 3-inch-long sticks; keep those dimensions when scaling.\n\n3. **Season:** Toss with all the listed oil, garlic powder, smoked paprika, sea salt and black pepper until distributed.\n\n4. **Arrange:** Spread in a single layer without touching. Divide all the potatoes and seasoning oil among pans.\n\n5. **First roast:** Roast about 15 minutes, until the bottoms begin to brown, then turn with a spatula.\n\n6. **Finish roast:** Begin checking after another 10–12 minutes; continue until centers are tender and edges browned. Rotate sheets if needed; do not wait for blackened edges or promise every stick will become crisp.\n\n7. **Serve:** Serve promptly without trapping steam under a cover.\n"
+  },
+  "findings": [
+    {
+      "id": "VPS19-5-cooking",
+      "rationale": "Preserve full current 2 lb/2 Tb/smoked-paprika/sea-salt formula and complete native plain-paprika/unspecified-salt route, source width range and 4–6 planning portions without replacing current main.",
+      "confidence": "high ingredient/source accounting; moderate planning/endpoint application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet Potato Fries.html",
+            "sha256": "c31385a8d227191a341f3b2a22e6a7b1f41ad793633c2dff07d1a285b7dca663",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "ec4dd884d495a60d3f59f7289d25619e313bafec8c4f6289394ad90c15a00eb8",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "7969cc453553c05f2fdd76db414fa778d3c3e8e0794e30c2b7153cda374806a4",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://cooking.nytimes.com/recipes/1014647-sweet-potato-fries",
+          "applicability": "Direct publisher fetch unavailable; exact bound native and actual Git supply the cooking evidence, no modern-publisher formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime", "totalTime", "content"],
+      "questions": [
+        "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
+        "Which salt crystal type was intended by the original unspecified salt? No equal-density assertion is made."
+      ]
+    },
+    {
+      "id": "VPS19-5-teaching",
+      "rationale": "Recipe-specific readiness, practical batch capacity, preparation and storage replace unsupported crispness/healthy-child guarantees. Full amounts and exclusive options remain; no tested yield or timing claim.",
+      "confidence": "moderate practical planning; high primary handling categories",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet Potato Fries.html",
+            "sha256": "c31385a8d227191a341f3b2a22e6a7b1f41ad793633c2dff07d1a285b7dca663",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "ec4dd884d495a60d3f59f7289d25619e313bafec8c4f6289394ad90c15a00eb8",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "7969cc453553c05f2fdd76db414fa778d3c3e8e0794e30c2b7153cda374806a4",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://cooking.nytimes.com/recipes/1014647-sweet-potato-fries",
+          "applicability": "Direct publisher fetch unavailable; exact bound native and actual Git supply the cooking evidence, no modern-publisher formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "cookTime", "totalTime"],
+      "questions": [
+        "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
+        "Which salt crystal type was intended by the original unspecified salt? No equal-density assertion is made."
+      ]
+    },
+    {
+      "id": "VPS19-5-metadata",
+      "rationale": "Omit inherited unsupported country/nutrition fields while preserving actual cuisine/style/source credits. Use only implemented cooking-method tags.",
+      "confidence": "high limitation of inherited metadata",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet Potato Fries.html",
+            "sha256": "c31385a8d227191a341f3b2a22e6a7b1f41ad793633c2dff07d1a285b7dca663",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "cookingMethods"],
+      "questions": []
+    },
+    {
+      "id": "VPS19-5-capacity-storage",
+      "rationale": "Original-batch pan and serving/count estimates stay planning only; proportions scale but cut dimensions, individual fritter/latke size, clocks and original vessel dimensions do not multiply. Storage is preparation-specific handling, not measured quality life or preservation validation.",
+      "confidence": "moderate pan/timing applications; high handling scope",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sweet Potato Fries.html",
+            "sha256": "c31385a8d227191a341f3b2a22e6a7b1f41ad793633c2dff07d1a285b7dca663",
+            "scope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "ec4dd884d495a60d3f59f7289d25619e313bafec8c4f6289394ad90c15a00eb8",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "7969cc453553c05f2fdd76db414fa778d3c3e8e0794e30c2b7153cda374806a4",
+          "applicability": "Exact durable registry-bound native cooking formula; native import testing not claimed."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        },
+        {
+          "url": "https://cooking.nytimes.com/recipes/1014647-sweet-potato-fries",
+          "applicability": "Direct publisher fetch unavailable; exact bound native and actual Git supply the cooking evidence, no modern-publisher formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.timing", "learning.storage"],
+      "questions": [
+        "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
+        "Which salt crystal type was intended by the original unspecified salt? No equal-density assertion is made."
+      ]
+    },
+    {
+      "id": "VPS19-I01-totalTime",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    },
+    {
+      "id": "VPS19-I01-learning.timing",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sweet%20Potato%20Fries.html",
+    "introductionScope": "Actual earlier Git HTML cooking introduction; exact bound durable original450 independently established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Current smoked paprika/sea salt/four portions versus native plain paprika/unspecifiedsalt/4–6 portion range retained distinctly; NYT direct fetch unavailable.",
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 lbs Sweet Potatoes, peeled",
+        "destination": "potatoes2–6"
+      },
+      {
+        "index": 1,
+        "text": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "oil3"
+      },
+      {
+        "index": 2,
+        "text": "1 tsp Garlic Powder",
+        "destination": "garlic powder3"
+      },
+      {
+        "index": 3,
+        "text": "1 tsp Smoked Paprika",
+        "destination": "paprika3"
+      },
+      {
+        "index": 4,
+        "text": "1 tsp Sea Salt",
+        "destination": "salt3"
+      },
+      {
+        "index": 5,
+        "text": "1/2 tsp Black Pepper",
+        "destination": "pepper3"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "2 lbs Sweet Potatoes, peeled",
+        "destination": "potatoes2–6"
+      },
+      {
+        "index": 1,
+        "text": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "oil3"
+      },
+      {
+        "index": 2,
+        "text": "1 tsp Garlic Powder",
+        "destination": "garlic powder3"
+      },
+      {
+        "index": 3,
+        "text": "1 tsp Smoked Paprika",
+        "destination": "paprika3"
+      },
+      {
+        "index": 4,
+        "text": "1 tsp Sea Salt",
+        "destination": "salt3"
+      },
+      {
+        "index": 5,
+        "text": "1/2 tsp Black Pepper",
+        "destination": "pepper3"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "text": "2 pounds sweet potatoes, peeled",
+        "destination": "nativecut2→roast4"
+      },
+      {
+        "index": 1,
+        "text": "2 tablespoons olive oil",
+        "destination": "nativetoss2"
+      },
+      {
+        "index": 2,
+        "text": "1 teaspoon garlic powder",
+        "destination": "nativeseason3→roast4"
+      },
+      {
+        "index": 3,
+        "text": "1 teaspoon paprika",
+        "destination": "nativeseason3→roast4"
+      },
+      {
+        "index": 4,
+        "text": "1 teaspoon salt",
+        "destination": "nativeseason3→roast4"
+      },
+      {
+        "index": 5,
+        "text": "½ teaspoon black pepper",
+        "destination": "nativeseason3→roast4"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Preheat",
+      "text": "Preheat to 400°F. Prepare two rimmed lined sheets for the original batch; use more or fewer sheets as needed for uncrowded scaled batches."
+    },
+    {
+      "step": 2,
+      "title": "Cut",
+      "text": "Wash and peel the potatoes. Cut into roughly ½-inch-wide, 3-inch-long sticks; keep those dimensions when scaling."
+    },
+    {
+      "step": 3,
+      "title": "Season",
+      "text": "Toss with all the listed oil, garlic powder, smoked paprika, sea salt and black pepper until distributed."
+    },
+    {
+      "step": 4,
+      "title": "Arrange",
+      "text": "Spread in a single layer without touching. Divide all the potatoes and seasoning oil among pans."
+    },
+    {
+      "step": 5,
+      "title": "First roast",
+      "text": "Roast about 15 minutes, until the bottoms begin to brown, then turn with a spatula."
+    },
+    {
+      "step": 6,
+      "title": "Finish roast",
+      "text": "Begin checking after another 10–12 minutes; continue until centers are tender and edges browned. Rotate sheets if needed; do not wait for blackened edges or promise every stick will become crisp."
+    },
+    {
+      "step": 7,
+      "title": "Serve",
+      "text": "Serve promptly without trapping steam under a cover."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Paprika and salt",
+      "alternative": "For the plain-paprika version, replace the listed smoked paprika with the same amount of plain paprika and use the listed salt amount with the original unspecified salt choice. Keep the full potatoes, oil, garlic powder and pepper. Cut ¼–½ inch wide and 3 inches long, roast at 400°F with a first turn around 15 minutes and a second check around 10 minutes later; use tender centers and browned surfaces. Do not treat the salt choices as a density conversion.",
+      "effect": "Plain paprika loses the smoke note; thinner sticks can finish sooner. The original 4–6 servings remain a separate planning range."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "roasted-sweet-potatoes",
+      "honey-glazed-carrots",
+      "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings remain metadata and no outgoing component receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "wholeDosePreservation": "Preserve full current 2 lb/2 Tb/smoked-paprika/sea-salt formula and complete native plain-paprika/unspecified-salt route, source width range and 4–6 planning portions without replacing current main.",
+    "capacity": [
+      "The source also permits ¼–½-inch-wide sticks; thinner sticks can finish sooner. Do not enlarge the fries for a larger batch.",
+      "The current smoked paprika and sea salt remain primary. Plain paprika and unspecified salt are a separate original ingredient choice, not a salt-density conversion."
+    ],
+    "planningOnly": "Unmeasured actual size/yield/pan load and elapsed schedule; no kitchen observation."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
+    "Which salt crystal type was intended by the original unspecified salt? No equal-density assertion is made."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

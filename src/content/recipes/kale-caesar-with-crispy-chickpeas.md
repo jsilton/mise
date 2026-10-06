@@ -1,12 +1,11 @@
 ---
 miseId: 34625cff-8fe7-4681-8a58-101d6a8aefb5
 title: Kale Caesar with Crispy Chickpeas
-origin: United States
 difficulty: easy
 cookingMethods:
   - bake
-  - no-cook
   - blend
+  - no-cook
 dietary:
   - nut-free
 occasions:
@@ -36,61 +35,346 @@ equipment:
   - blender
   - sheet-pan
 prepTime: 15 min
-cookTime: 20 min
-totalTime: 35 min
-servings: '4'
+cookTime: 20–25 min
+totalTime: '35–45 min, plus any remaining preheating'
+servings: 4 portions
 pairsWith:
   - chicken-souvlaki
   - chicken-piccata-unfried
   - san-marzano-tomato-sauce
 ingredients:
-  - '1 large bunch Lacinato (Dino) Kale, stems removed and shredded'
-  - '--- Crispy Chickpea Crunch ---'
-  - '1 can (15 oz) Chickpeas, drained and patted very dry'
-  - 1 tbsp Olive Oil
-  - 1/2 tsp Kosher Salt
-  - 1/4 tsp Paprika
-  - 1/4 tsp Garlic Powder
-  - Pinch of Black Pepper
-  - '--- Caesar Dressing ---'
-  - 1/4 cup Extra-Virgin Olive Oil
-  - '2 cloves Garlic, grated'
-  - 2 tbsp Fresh Lemon Juice
-  - 1 tsp Dijon Mustard
-  - 1 tsp White Miso or Soy Sauce
-  - '1/4 tsp Anchovy Paste (optional, for traditional Caesar depth)'
-  - 1/4 cup Water (to thin)
-  - 1/2 tsp Kosher Salt
-  - 1/4 tsp Black Pepper
+  - '--- Kale and massage ---'
+  - '1 large bunch lacinato kale, washed, dried, tough stems removed and shredded'
+  - 1 tsp olive oil
+  - 'kosher salt, a pinch'
+  - '--- Roasted chickpeas ---'
+  - '1 can (15 oz) chickpeas, drained and patted dry'
+  - 1 tbsp olive oil
+  - 1/2 tsp kosher salt
+  - 1/4 tsp paprika
+  - 1/4 tsp garlic powder
+  - 'black pepper, a pinch'
+  - '--- Caesar dressing ---'
+  - 1/4 cup extra-virgin olive oil
+  - '2 garlic cloves, grated'
+  - 2 tbsp fresh lemon juice
+  - 1 tsp Dijon mustard
+  - '1 tsp white miso or soy sauce, choose one'
+  - '1/4 tsp anchovy paste, optional'
+  - 1/4 cup water
+  - 1/2 tsp kosher salt
+  - 1/4 tsp black pepper
+  - 'additional water, as needed for thinning, optional'
   - '--- Toppings ---'
-  - 1/3 cup Shaved or Grated Parmesan Cheese
-  - Lemon zest for finishing
-nutrition:
-  calories: 750
-  protein: 21
-  carbs: 8
-  fat: 72.5
-  fiber: 1.5
-  sugar: 2
-  sodium: 2240
+  - '1/3 cup Parmesan, shaved or grated'
+  - 'lemon zest, to taste'
+formula:
+  version: 1
+  yield:
+    amount: 4
+    unit: portion
+  components:
+    - id: kale
+      name: Kale and massage
+      ingredients:
+        - id: leaves
+          key: leaves
+          name: large bunch lacinato kale
+          quantity:
+            amount: 1
+            unit: count
+          uses:
+            - step: massage
+              share: 1
+          plural: large bunches lacinato kale
+          preparation: 'washed, dried, tough stems removed and shredded'
+        - id: massage-oil
+          key: massage-oil
+          name: olive oil
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: massage
+              share: 1
+        - id: massage-salt
+          key: massage-salt
+          name: kosher salt
+          allowance: a pinch
+          uses:
+            - step: massage
+              share: 1
+    - id: chickpeas
+      name: Roasted chickpeas
+      ingredients:
+        - id: beans
+          key: beans
+          name: chickpeas
+          quantity:
+            amount: 1
+            unit: can
+          uses:
+            - step: roast
+              share: 1
+          packageSize:
+            amount: 15
+            unit: oz
+          preparation: drained and patted dry
+        - id: oil
+          key: oil
+          name: olive oil
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: roast
+              share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
+          quantity:
+            amount: 0.5
+            unit: tsp
+          uses:
+            - step: roast
+              share: 1
+        - id: paprika
+          key: paprika
+          name: paprika
+          quantity:
+            amount: 0.25
+            unit: tsp
+          uses:
+            - step: roast
+              share: 1
+        - id: garlic
+          key: garlic
+          name: garlic powder
+          quantity:
+            amount: 0.25
+            unit: tsp
+          uses:
+            - step: roast
+              share: 1
+        - id: pepper
+          key: pepper
+          name: black pepper
+          allowance: a pinch
+          uses:
+            - step: roast
+              share: 1
+    - id: dressing
+      name: Caesar dressing
+      ingredients:
+        - id: oil
+          key: oil
+          name: extra-virgin olive oil
+          quantity:
+            amount: 0.25
+            unit: cup
+          uses:
+            - step: blend
+              share: 1
+        - id: garlic
+          key: garlic
+          name: garlic clove
+          quantity:
+            amount: 2
+            unit: count
+          uses:
+            - step: blend
+              share: 1
+          plural: garlic cloves
+          preparation: grated
+        - id: lemon
+          key: lemon
+          name: fresh lemon juice
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: blend
+              share: 1
+        - id: mustard
+          key: mustard
+          name: Dijon mustard
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: blend
+              share: 1
+        - id: miso
+          key: miso
+          name: white miso or soy sauce
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: blend
+              share: 1
+          preparation: choose one
+        - id: anchovy
+          key: anchovy
+          name: anchovy paste
+          quantity:
+            amount: 0.25
+            unit: tsp
+          uses:
+            - step: blend
+              share: 1
+          optional: true
+        - id: water
+          key: water
+          name: water
+          quantity:
+            amount: 0.25
+            unit: cup
+          uses:
+            - step: blend
+              share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
+          quantity:
+            amount: 0.5
+            unit: tsp
+          uses:
+            - step: blend
+              share: 1
+        - id: pepper
+          key: pepper
+          name: black pepper
+          quantity:
+            amount: 0.25
+            unit: tsp
+          uses:
+            - step: blend
+              share: 1
+        - id: extra-water
+          key: extra-water
+          name: additional water
+          allowance: as needed for thinning
+          uses:
+            - step: blend
+              share: 1
+          optional: true
+    - id: top
+      name: Toppings
+      ingredients:
+        - id: cheese
+          key: cheese
+          name: Parmesan
+          quantity:
+            amount: 0.3333333333333333
+            unit: cup
+          uses:
+            - step: finish
+              share: 1
+          preparation: shaved or grated
+        - id: zest
+          key: zest
+          name: lemon zest
+          allowance: to taste
+          uses:
+            - step: finish
+              share: 1
+  steps:
+    - id: roast
+      title: Roast chickpeas
+      text: >-
+        Preheat to 425°F. Toss {{ingredients}} together on a sheet; spread in
+        one layer. Roast about 20–25 minutes, shaking halfway, until golden.
+        Cool on the sheet and assess texture after cooling.
+    - id: massage
+      title: Massage kale
+      text: >-
+        Use {{ingredients}}: massage the washed shredded leaves with the
+        separate oil and salt for about 2 minutes until softened.
+    - id: blend
+      title: Blend dressing
+      text: >-
+        Blend {{ingredients}} until smooth, using the additional water only as
+        needed for a pourable dressing.
+    - id: toss
+      title: Toss
+      text: Toss all the prepared dressing through the softened kale.
+    - id: finish
+      title: Finish
+      text: 'Add {{ingredients}} and all the cooled roasted chickpeas.'
+    - id: rest
+      title: Rest and serve
+      text: >-
+        Rest about 5 minutes, then serve. Refrigerate components promptly when
+        holding; keep chickpeas separate for storage.
+learning:
+  focus: Separate crisp and dressed components
+  outcome: >-
+    Softened kale with evenly distributed dressing and a chickpea topping added
+    near service.
+  techniques:
+    - seasoning
+    - browning
+    - cold-preparation
+  before:
+    - >-
+      The extra teaspoon of massage oil in the original-batch method is separate
+      from the full tablespoon for chickpeas and quarter cup for dressing; all
+      three supplies remain.
+    - >-
+      Drain each 15 oz chickpea can; the package size stays fixed while the
+      number of cans scales. Prepare enough sheets for one layer. Choose miso OR
+      soy sauce, not both.
+  checkpoints:
+    - step: 1
+      cue: Chickpeas are golden outside; assess their texture after cooling.
+      why: >-
+        Wet or crowded chickpeas need longer and do not all become crisp on an
+        identical clock.
+    - step: 3
+      cue: Smooth pourable dressing without chunks of garlic.
+      why: The cold dressing should coat the leaves evenly.
+  troubleshooting:
+    - problem: Chickpeas soften after tossing.
+      cause: Moisture from the dressing reaches the roasted surface.
+      fix: >-
+        Keep remaining chickpeas separate and add at service; do not promise
+        that an already dressed topping will remain crisp.
+  substitutions: []
+  timing: >-
+    About 15 minutes hands-on preparation overlaps the 20–25-minute roast.
+    Cooling plus the 5-minute final rest makes roughly 35–45 minutes elapsed for
+    one load; scaled loads can take longer. The oven must reach 425°F before
+    loading; any preheating beyond preparation extends elapsed time.
+  storage: >-
+    Refrigerate the freshly blended garlic dressing and washed kale promptly at
+    40°F / 4°C or below; use dressing within the original 3-day plan.
+    Refrigerate cooked chickpeas in a separate shallow container and use within
+    3–4 days; their original 2-day make-ahead plan is a quality choice, not
+    permission for room-temperature storage. Do not assume lemon juice makes the
+    garlic-oil mixture shelf stable. Add chickpeas near service.
+  sources:
+    - title: FDA produce preparation
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+    - title: FoodSafety.gov cold handling and leftovers
+      url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
+    - title: CDC garlic and herb oils
+      url: 'https://www.cdc.gov/botulism/prevention/index.html'
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-This Caesar replaces the traditional breadcrumbs and anchovies with crispy roasted chickpeas that add both crunch and plant-based protein. The massage is critical - working salt and a bit of oil into the shredded kale breaks down the tough fibers, transforming them into something tender and sweet. The dressing uses miso or soy sauce for umami depth instead of relying solely on anchovies, making it equally satisfying. This salad is substantial enough to be a meal on its own.
+Dry chickpeas roast more readily than wet ones. Massage the kale until it softens, then toss with the garlic, lemon and miso dressing; add chickpeas near serving so they keep more of their crunch.
 
 ## Directions
 
-1. **Roast the Chickpeas:** Preheat oven to 425°F. Pat the drained chickpeas very dry with a clean kitchen towel - any moisture will prevent them from crisping. Toss with 1 tbsp olive oil, salt, paprika, garlic powder, and pepper on a sheet pan. Spread in a single layer and roast for 20-25 minutes, shaking the pan halfway through, until golden and crispy. Set aside to cool - they will continue to crisp as they cool.
-
-2. **Massage the Kale:** Place the shredded kale in a large bowl. Drizzle with 1 tsp olive oil and a pinch of salt. Using your hands, massage the leaves vigorously for 2 minutes until they turn dark green and soften significantly. This breaks down the cell walls and makes the kale tender.
-
-3. **Make the Dressing:** In a blender or small food processor, combine the 1/4 cup olive oil, grated garlic, lemon juice, Dijon mustard, miso (or soy sauce), anchovy paste if using, water, salt, and pepper. Blend until completely smooth. The dressing should have the consistency of heavy cream. Adjust water if needed.
-
-4. **Toss:** Pour the dressing over the massaged kale and toss well to ensure every leaf is evenly coated.
-
-5. **Assemble:** Top with the crispy roasted chickpeas, shaved Parmesan, and a light dusting of lemon zest.
-
-6. **Rest:** Let the salad sit for 5 minutes before serving. Unlike delicate greens, kale actually improves as it absorbs the dressing - it doesn't wilt.
-
-7. **Make-Ahead:** The crispy chickpeas can be made up to 2 days ahead and stored in an airtight container. The dressing keeps refrigerated for up to 3 days. Massage the kale and dress it just before serving for the best texture.
+1. **Roast chickpeas:** Preheat to 425°F. Toss chickpeas, olive oil, kosher salt, paprika, garlic powder, and black pepper together on a sheet; spread in one layer. Roast about 20–25 minutes, shaking halfway, until golden. Cool on the sheet and assess texture after cooling.
+2. **Massage kale:** Use large bunch lacinato kale, olive oil, and kosher salt: massage the washed shredded leaves with the separate oil and salt for about 2 minutes until softened.
+3. **Blend dressing:** Blend extra-virgin olive oil, garlic cloves, fresh lemon juice, Dijon mustard, white miso or soy sauce, anchovy paste (if using), water, kosher salt, black pepper, and additional water (if using) until smooth, using the additional water only as needed for a pourable dressing.
+4. **Toss:** Toss all the prepared dressing through the softened kale.
+5. **Finish:** Add Parmesan and lemon zest and all the cooled roasted chickpeas.
+6. **Rest and serve:** Rest about 5 minutes, then serve. Refrigerate components promptly when holding; keep chickpeas separate for storage.

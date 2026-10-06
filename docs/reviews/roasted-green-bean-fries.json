@@ -1,0 +1,457 @@
+{
+  "slug": "roasted-green-bean-fries",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "1d574a481d16d5dbfbf5719ae2655ad93d74c4c1298a3b7879f1d07a3096f86c",
+  "acceptedSourceSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "fry", "boil", "steam"],
+      "after": ["roast"]
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "5–10 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "12 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "17 min",
+      "after": "20–30 min, plus any remaining preheating"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 40,
+        "protein": 0.5,
+        "carbs": 2.5,
+        "fat": 3.5,
+        "fiber": 0.5,
+        "sugar": 1,
+        "sodium": 580
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Roasted vegetable tenderness",
+        "outcome": "Tender beans with browned tips and retained oil and seasonings.",
+        "techniques": ["seasoning", "browning"],
+        "before": [
+          "Keep the beans the same size when scaling and use more sheets or batches.",
+          "Choose the quarter-cup original-batch Parmesan or panko topping, or omit it; do not add both as a single shopping total."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Tender bite and browned tips rather than a required dark-brown brittle surface.",
+            "why": "Waiting for every bean to crisp can scorch thinner ends."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Tips blacken before the beans soften.",
+            "cause": "Thin ends brown faster than thick beans.",
+            "fix": "Turn the beans, remove finished ones and continue checking the remaining thicker beans; blackened ends cannot be unburned."
+          }
+        ],
+        "substitutions": [],
+        "timing": "About 5–10 minutes preparation plus a 10–12-minute first roasting check, with more time as tenderness requires. Allow roughly 20–30 minutes for one load; extra batches extend elapsed time. The oven must reach 425°F before loading; any preheating beyond preparation extends elapsed time.",
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat cooked leftovers to 165°F / 74°C. Crispness can soften during storage and reheating.",
+        "sources": [
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov cold handling and leftovers",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRoasting green beans at 425°F evaporates their moisture and caramelizes the tips, creating a crispy texture that mimics french fries rather than the soggy texture of boiled or steamed beans. This makes them far more appealing to kids who might otherwise refuse vegetables.\n\n## Directions\n\n1.  **Preheat:** Preheat oven to 425°F.\n2.  **Dry:** Ensure green beans are bone-dry (moisture = steam).\n3.  **Toss:** On a large baking sheet, toss green beans with oil, garlic powder, and salt. Spread in a **single layer**.\n4.  **Roast:** Bake for 10-12 minutes until the skins are shriveled and the tips are dark brown and crispy.\n5.  **Finish:** Sprinkle with Parmesan or panko if using and toss. Serve immediately while hot.\n",
+    "after": "\n## Chef's Note\n\nDry the beans after washing and spread them out so their surfaces can brown. Look for tender beans and browned tips; they need not become brittle or resemble potato fries.\n\n## Directions\n\n1. **Preheat:** Preheat to 425°F. Prepare enough baking sheets for an uncrowded layer.\n\n2. **Dry:** Wash and trim the beans, then dry them thoroughly with a clean towel.\n\n3. **Season:** Toss with all the listed oil, garlic powder and salt. Spread in one layer, with room to move the beans when turning.\n\n4. **Roast:** Begin checking around 10–12 minutes. Turn if browning unevenly and continue until the beans are tender to bite and their tips are browned, avoiding blackened ends. Smaller beans may finish earlier; crowded or thicker beans may take longer.\n\n5. **Finish:** Toss with the listed optional Parmesan OR panko and serve hot. Panko added now is a crumb topping, not a promise of a toasted crust; use ready-to-eat breadcrumbs.\n"
+  },
+  "findings": [
+    {
+      "id": "VPS19-3-cooking",
+      "rationale": "Preserve exact five-supply formula and original optional topping; replace guaranteed French-fry crispness with real tenderness/browning cues, actual washing and scaling capacity.",
+      "confidence": "high ingredient/source accounting; moderate planning/endpoint application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "cf53871c99aa9edff6b426756165214524649f97",
+            "path": "src/content/recipes/roasted-green-bean-fries.md",
+            "sha256": "0892121a2c0743d1e56df0283aefe03ae768a7680edc1ea44a1e998ac04f5b2e",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "1d9a20a138eec0f1b476a41f09d4b2e2c1811b5f9345b5920cb4653379e7a08c",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["prepTime", "cookTime", "totalTime", "content"],
+      "questions": [
+        "Actual bean thickness and oven load need kitchen checks.",
+        "No independent native source or external publisher was established. Existing unusual pairings remain metadata, not reviewed meal endorsements."
+      ]
+    },
+    {
+      "id": "VPS19-3-teaching",
+      "rationale": "Recipe-specific readiness, practical batch capacity, preparation and storage replace unsupported crispness/healthy-child guarantees. Full amounts and exclusive options remain; no tested yield or timing claim.",
+      "confidence": "moderate practical planning; high primary handling categories",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "cf53871c99aa9edff6b426756165214524649f97",
+            "path": "src/content/recipes/roasted-green-bean-fries.md",
+            "sha256": "0892121a2c0743d1e56df0283aefe03ae768a7680edc1ea44a1e998ac04f5b2e",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "1d9a20a138eec0f1b476a41f09d4b2e2c1811b5f9345b5920cb4653379e7a08c",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "prepTime", "cookTime", "totalTime"],
+      "questions": [
+        "Actual bean thickness and oven load need kitchen checks.",
+        "No independent native source or external publisher was established. Existing unusual pairings remain metadata, not reviewed meal endorsements."
+      ]
+    },
+    {
+      "id": "VPS19-3-metadata",
+      "rationale": "Omit inherited unsupported country/nutrition fields while preserving actual cuisine/style/source credits. Use only implemented cooking-method tags.",
+      "confidence": "high limitation of inherited metadata",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "cf53871c99aa9edff6b426756165214524649f97",
+            "path": "src/content/recipes/roasted-green-bean-fries.md",
+            "sha256": "0892121a2c0743d1e56df0283aefe03ae768a7680edc1ea44a1e998ac04f5b2e",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "cookingMethods"],
+      "questions": []
+    },
+    {
+      "id": "VPS19-3-capacity-storage",
+      "rationale": "Original-batch pan and serving/count estimates stay planning only; proportions scale but cut dimensions, individual fritter/latke size, clocks and original vessel dimensions do not multiply. Storage is preparation-specific handling, not measured quality life or preservation validation.",
+      "confidence": "moderate pan/timing applications; high handling scope",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "cf53871c99aa9edff6b426756165214524649f97",
+            "path": "src/content/recipes/roasted-green-bean-fries.md",
+            "sha256": "0892121a2c0743d1e56df0283aefe03ae768a7680edc1ea44a1e998ac04f5b2e",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "applicability": "Actual cooking introduction; no bulk rewrite establishes household intent or country origin."
+        },
+        {
+          "reference": "privately retained evidence",
+          "sha256": "1d9a20a138eec0f1b476a41f09d4b2e2c1811b5f9345b5920cb4653379e7a08c",
+          "applicability": "Complete followed current cooking changes and source-option omissions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Washing and preparation only, not formula ratios or crispness."
+        },
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Prompt shallow cooling, refrigerated leftovers3–4days and165°F reheating; no initial cooking clock proof."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.timing", "learning.storage"],
+      "questions": [
+        "Actual bean thickness and oven load need kitchen checks.",
+        "No independent native source or external publisher was established. Existing unusual pairings remain metadata, not reviewed meal endorsements."
+      ]
+    },
+    {
+      "id": "VPS19-I01-totalTime",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    },
+    {
+      "id": "VPS19-I01-learning.timing",
+      "title": "Bounded independent correction",
+      "rationale": "Each reference range combines preparation, roasting and stated rests or cooling. The short preparations do not establish that a cold oven reaches temperature within them. Keep every existing planning range, permit real preparation overlap, and explicitly account for remaining oven heating.",
+      "confidence": "high missing clock qualification; moderate existing planning ranges",
+      "applicableSources": [
+        {
+          "file": "privately retained evidence",
+          "sha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "privately retained evidence",
+          "sha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
+          "applicability": "Actual preheat instruction and written preparation/roast schedule; culinary process-graph inference, not a measured appliance heating time."
+        },
+        {
+          "file": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Yield/equipment/time contract requires complete elapsed time, while allowing actual overlap; not a cooking-clock measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual oven heating and cooling times, number of sheets and successive loads remain unmeasured."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/cf53871c99aa9edff6b426756165214524649f97/src/content/recipes/roasted-green-bean-fries.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-only exact cooking introduction supports current formula but does not establish an external author, origin, nutritional analysis or tested schedule.",
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 lb Fresh Green Beans, trimmed",
+        "destination": "beans2–4"
+      },
+      {
+        "index": 1,
+        "text": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "oil3"
+      },
+      {
+        "index": 2,
+        "text": "1/2 tsp Garlic Powder",
+        "destination": "garlic powder3"
+      },
+      {
+        "index": 3,
+        "text": "1/2 tsp Salt",
+        "destination": "salt3"
+      },
+      {
+        "index": 4,
+        "text": "1/4 cup Grated Parmesan or Panko (Optional crunch)",
+        "destination": "Parmesan OR panko5"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "1 lb Fresh Green Beans, trimmed",
+        "destination": "beans2–4"
+      },
+      {
+        "index": 1,
+        "text": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "oil3"
+      },
+      {
+        "index": 2,
+        "text": "1/2 tsp Garlic Powder",
+        "destination": "garlic powder3"
+      },
+      {
+        "index": 3,
+        "text": "1/2 tsp Salt",
+        "destination": "salt3"
+      },
+      {
+        "index": 4,
+        "text": "1/4 cup Grated Parmesan or Panko (Optional crunch)",
+        "destination": "Parmesan OR panko5"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Preheat",
+      "text": "Preheat to 425°F. Prepare enough baking sheets for an uncrowded layer."
+    },
+    {
+      "step": 2,
+      "title": "Dry",
+      "text": "Wash and trim the beans, then dry them thoroughly with a clean towel."
+    },
+    {
+      "step": 3,
+      "title": "Season",
+      "text": "Toss with all the listed oil, garlic powder and salt. Spread in one layer, with room to move the beans when turning."
+    },
+    {
+      "step": 4,
+      "title": "Roast",
+      "text": "Begin checking around 10–12 minutes. Turn if browning unevenly and continue until the beans are tender to bite and their tips are browned, avoiding blackened ends. Smaller beans may finish earlier; crowded or thicker beans may take longer."
+    },
+    {
+      "step": 5,
+      "title": "Finish",
+      "text": "Toss with the listed optional Parmesan OR panko and serve hot. Panko added now is a crumb topping, not a promise of a toasted crust; use ready-to-eat breadcrumbs."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "chicken-fingers",
+      "chocolate-blended-oats-with-raspberry-chia-jam",
+      "classic-beef-stew"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings remain metadata and no outgoing component receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "wholeDosePreservation": "Preserve exact five-supply formula and original optional topping; replace guaranteed French-fry crispness with real tenderness/browning cues, actual washing and scaling capacity.",
+    "capacity": [
+      "Keep the beans the same size when scaling and use more sheets or batches.",
+      "Choose the quarter-cup original-batch Parmesan or panko topping, or omit it; do not add both as a single shopping total."
+    ],
+    "planningOnly": "Unmeasured actual size/yield/pan load and elapsed schedule; no kitchen observation."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual bean thickness and oven load need kitchen checks.",
+    "No independent native source or external publisher was established. Existing unusual pairings remain metadata, not reviewed meal endorsements."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
