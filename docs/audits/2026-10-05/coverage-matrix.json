@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "278 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "290 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 524 recorded complete / 119 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [b3939858](https://github.com/jsilton/mise/commit/b393985858696b052504f6e6a81845e812a93826), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37467363808) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3075,17 +3075,21 @@
         "record": "docs/reviews/brownie-protein-balls.md",
         "acceptedSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/brownie-protein-balls.json",
         "sourceSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "What actual ball size/count does the full dough make? Is one-week quality/storage household-established? Powdercomposition/liquidneed untested.",
@@ -5786,17 +5790,21 @@
         "record": "docs/reviews/chocolate-blended-oats-with-raspberry-chia-jam.md",
         "acceptedSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-blended-oats-with-raspberry-chia-jam.json",
         "sourceSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "What was actual native berrybag size and chocolate amount? Does the household prefer saved5dayplan or modern4dayplan for this richer version? Actualblendercapacity,jarsize,finishedvolume andtexture untested."
@@ -5874,17 +5882,21 @@
         "record": "docs/reviews/chocolate-chia-pudding.md",
         "acceptedSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chia-pudding.json",
         "sourceSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual blender load/smoothness,containercapacity andfinishedshelflife unmeasured. Is immediate texture preferred to coldrest?"
@@ -12189,17 +12201,21 @@
         "record": "docs/reviews/granola.md",
         "acceptedSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/granola.json",
         "sourceSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "What is the measured cooled volume, sheet area and cooling time? Is a wheat-germ amount available for the complete earlier route? Does the household intend the added seeds/salt/fixed vanilla?",
@@ -13463,17 +13479,21 @@
         "record": "docs/reviews/homemade-chicken-stock.md",
         "acceptedSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/homemade-chicken-stock.json",
         "sourceSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "Which raw/cooked bone mix, pot dimensions, finished volume and concentration does the household actually use?",
@@ -18571,17 +18591,21 @@
         "record": "docs/reviews/overnight-oats.md",
         "acceptedSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/overnight-oats.json",
         "sourceSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "What jar volume fits the actual chosen toppings? What scoop definition and extra hydration does the selected protein powder need? No finished-volume or warming-time test.",
@@ -18926,11 +18950,11 @@
         "record": "docs/reviews/pasta-with-abruzzi-style-lamb-sauce.md",
         "acceptedSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pasta-with-abruzzi-style-lamb-sauce.json",
         "sourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9"
       },
@@ -18939,10 +18963,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "b393985858696b052504f6e6a81845e812a93826"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "Can actual very fine diced lamb/pancetta be reliably probed; what label/cut and shoulder simmer duration apply?",
@@ -19542,11 +19571,11 @@
         "record": "docs/reviews/pho-bo-beef-pho.md",
         "acceptedSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pho-bo-beef-pho.json",
         "sourceSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d"
       },
@@ -19555,10 +19584,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "b393985858696b052504f6e6a81845e812a93826"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual stockpot and broiler loads, source of this Git-only formula, noodle package and finished broth output?",
@@ -20573,11 +20607,11 @@
         "record": "docs/reviews/quick-wonton-soup.md",
         "acceptedSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/quick-wonton-soup.json",
         "sourceSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0"
       },
@@ -20591,10 +20625,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "b393985858696b052504f6e6a81845e812a93826"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "Which mini wonton label, filling state, cooking water method and thermometer access applies?",
@@ -26271,11 +26310,11 @@
         "record": "docs/reviews/strawberry-cheesecake-overnight-oatmeal.md",
         "acceptedSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-cheesecake-overnight-oatmeal.json",
         "sourceSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa"
       },
@@ -26284,10 +26323,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "b393985858696b052504f6e6a81845e812a93826"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "What is the actual finished volume and preferred portion size? What after-opening dairy storage window applies? No recipe-specific shelf life or freezing evidence supplied."
@@ -28427,17 +28471,21 @@
         "record": "docs/reviews/vanilla-earl-grey-overnight-oats.md",
         "acceptedSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/vanilla-earl-grey-overnight-oats.json",
         "sourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "What is actual finished volume and acceptable container hot-liquid rating? Is2cups oats intended, despite verydense ratio? No measured jar size or storage life established."
@@ -29451,17 +29499,21 @@
         "record": "docs/reviews/zuppa-toscana.md",
         "acceptedSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/zuppa-toscana.json",
         "sourceSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b393985858696b052504f6e6a81845e812a93826"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc",
+        "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "releaseCommit": "b393985858696b052504f6e6a81845e812a93826",
+        "evidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual sausage species, pot load, potato and kale texture, and serving size?",

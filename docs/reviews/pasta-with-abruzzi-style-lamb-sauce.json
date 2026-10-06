@@ -1,6 +1,6 @@
 {
   "slug": "pasta-with-abruzzi-style-lamb-sauce",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
   "inputSha256": "35c5e53d4cd7e4226feb47697a8470c15bca7a601afce0b8ec0f01e7cbf14c96",
   "acceptedSourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
@@ -1342,7 +1342,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1367,5 +1367,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
-  }
+  },
+  "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+  "releaseCommit": "b393985858696b052504f6e6a81845e812a93826"
 }

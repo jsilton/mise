@@ -1,6 +1,6 @@
 {
   "slug": "vanilla-earl-grey-overnight-oats",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
   "inputSha256": "aec88195a30d4621dae4635d95abe3680186d5e4e1791023b9a024cc67c13765",
   "acceptedSourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
@@ -3510,7 +3510,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -3535,5 +3535,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
-  }
+  },
+  "implementationCommit": "b393985858696b052504f6e6a81845e812a93826",
+  "releaseCommit": "b393985858696b052504f6e6a81845e812a93826"
 }

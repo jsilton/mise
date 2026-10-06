@@ -1,5 +1,9 @@
 # Current campaign state — October 6, 2026
 
+290 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 524 recorded complete / 119 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [b3939858](https://github.com/jsilton/mise/commit/b393985858696b052504f6e6a81845e812a93826), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37467363808) and all 12 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/grain-meat-soups-twelve.md).
+
+## Earlier acceptance checkpoint
+
 524 recorded complete / 119 pending across 643 sources. 278 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/grain-meat-soups-twelve.md).
 
 ## Previous verified checkpoint
