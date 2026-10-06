@@ -1,6 +1,6 @@
 {
   "slug": "gefilte-fish-terrine",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
   "inputSha256": "73c0c04dcc02d78eee02287bc61943425f8054d394ba3fa6655b2af64590ca8e",
   "acceptedSourceSha256": "9f0af553bfe308a66cfca5ea650cf00ce58f795444121ab1d9877ff47ee6b024",
@@ -1924,7 +1924,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
   "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested. Root readability amendment preserves exact authored one-ninth/eight-ninth fractions, ingredient rendering, every measured quantity/share and the protected remainder; bounded independent culinary/software verification passed. Initial validation remains archived and is superseded by checks of the final source.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1956,5 +1956,7 @@
     "schemaContractPreserved": true,
     "priorValidation": "Archived privately; final-source checks required before publication",
     "kitchenTested": false
-  }
+  },
+  "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+  "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
 }

@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "80 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "91 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 325 recorded complete / 318 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [e5276b6f](https://github.com/jsilton/mise/commit/e5276b6f1e0a8e59ba8210eece70a7eb36efead3), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37410524766) and all 11 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -999,17 +999,21 @@
         "record": "docs/reviews/baked-creamy-mac-and-pimento-cheese.md",
         "acceptedSha256": "dab54d060336008765283e90887b0a07048a07c33e77e8abba3cee4d818421f2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/baked-creamy-mac-and-pimento-cheese.json",
         "sourceSha256": "dab54d060336008765283e90887b0a07048a07c33e77e8abba3cee4d818421f2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e5276b6f1e0a8e59ba8210eece70a7eb36efead3"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "dab54d060336008765283e90887b0a07048a07c33e77e8abba3cee4d818421f2",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
@@ -3333,17 +3337,21 @@
         "record": "docs/reviews/cantonese-fish.md",
         "acceptedSha256": "089e31969c8c511f0b906dfb756bdb5131130904cd2c4542f6501eaca2a55d5d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cantonese-fish.json",
         "sourceSha256": "089e31969c8c511f0b906dfb756bdb5131130904cd2c4542f6501eaca2a55d5d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e5276b6f1e0a8e59ba8210eece70a7eb36efead3"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "089e31969c8c511f0b906dfb756bdb5131130904cd2c4542f6501eaca2a55d5d",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Which fish form and edible portion does the household intend?",
@@ -5591,11 +5599,11 @@
         "record": "docs/reviews/chinese-steamed-fish.md",
         "acceptedSha256": "55fc3f725c199681267423b557f175ec356bf3dddb4e36b666166f3e7c6380a6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chinese-steamed-fish.json",
         "sourceSha256": "55fc3f725c199681267423b557f175ec356bf3dddb4e36b666166f3e7c6380a6"
       },
@@ -5604,10 +5612,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "55fc3f725c199681267423b557f175ec356bf3dddb4e36b666166f3e7c6380a6",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Confirm fish thickness/plate capacity and actual four-person edible yield.",
@@ -5640,11 +5653,11 @@
         "record": "docs/reviews/chinese-style-snapper.md",
         "acceptedSha256": "1fbcee124870bba47595ff8ae0f7af21f0d55bc48c54c346df5813fc92f0dec6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chinese-style-snapper.json",
         "sourceSha256": "1fbcee124870bba47595ff8ae0f7af21f0d55bc48c54c346df5813fc92f0dec6"
       },
@@ -5653,10 +5666,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1fbcee124870bba47595ff8ae0f7af21f0d55bc48c54c346df5813fc92f0dec6",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Confirm actual fish thickness, pan fit and6-diner edible yield.",
@@ -7452,11 +7470,11 @@
         "record": "docs/reviews/creamy-avocado-pasta.md",
         "acceptedSha256": "a08894fc91b72f9423162573ff5b5cc3a44ef625b83eceebb1215ba9398849bc",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/creamy-avocado-pasta.json",
         "sourceSha256": "a08894fc91b72f9423162573ff5b5cc3a44ef625b83eceebb1215ba9398849bc"
       },
@@ -7465,10 +7483,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a08894fc91b72f9423162573ff5b5cc3a44ef625b83eceebb1215ba9398849bc",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
@@ -7679,11 +7702,11 @@
         "record": "docs/reviews/creamy-whole-wheat-mac-and-cheese.md",
         "acceptedSha256": "25a70fdee26779c8ddf288f81bca368afe1097a97d4d66ac079a87a1197de565",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/creamy-whole-wheat-mac-and-cheese.json",
         "sourceSha256": "25a70fdee26779c8ddf288f81bca368afe1097a97d4d66ac079a87a1197de565"
       },
@@ -7692,10 +7715,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "25a70fdee26779c8ddf288f81bca368afe1097a97d4d66ac079a87a1197de565",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
@@ -11517,17 +11545,21 @@
         "record": "docs/reviews/gefilte-fish-terrine.md",
         "acceptedSha256": "9f0af553bfe308a66cfca5ea650cf00ce58f795444121ab1d9877ff47ee6b024",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/gefilte-fish-terrine.json",
         "sourceSha256": "9f0af553bfe308a66cfca5ea650cf00ce58f795444121ab1d9877ff47ee6b024"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e5276b6f1e0a8e59ba8210eece70a7eb36efead3"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9f0af553bfe308a66cfca5ea650cf00ce58f795444121ab1d9877ff47ee6b024",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Confirm actual loaf-pan headroom for full1cup cream/¾cup water and24oz fish.",
@@ -14501,8 +14533,10 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole recipe held over prepared-stock strength/volume and second-turn/glaze source-method acceptance.",
+        "Measured prepared-stock strength/volume",
+        "Household instant versus homemade choice",
+        "Second-turn/glaze method acceptance"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17819,6 +17853,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Whole recipe excluded over RM01 and other unapplied findings; the saved vinegar drains with the oats, and no finishing-vinegar route is endorsed.",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -20595,11 +20630,11 @@
         "record": "docs/reviews/real-alfredo-sauce.md",
         "acceptedSha256": "035805d0e8130517df2547b2092a7a9904d50771c7138f66b1d517766977d4ef",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/real-alfredo-sauce.json",
         "sourceSha256": "035805d0e8130517df2547b2092a7a9904d50771c7138f66b1d517766977d4ef"
       },
@@ -20613,10 +20648,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "035805d0e8130517df2547b2092a7a9904d50771c7138f66b1d517766977d4ef",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Measure sauce output and preferred pasta loading; no measured batch volume exists.",
@@ -21911,8 +21951,8 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole recipe held pending actual source and layered capacity/timing evidence.",
+        "Verify layered fit and time after actual source is recovered."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23417,17 +23457,21 @@
         "record": "docs/reviews/shrimp-fettuccine-alfredo.md",
         "acceptedSha256": "797dd6704959c1b39ee868436660eec1118b655229453fcf5dafe631d5c7af16",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-fettuccine-alfredo.json",
         "sourceSha256": "797dd6704959c1b39ee868436660eec1118b655229453fcf5dafe631d5c7af16"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e5276b6f1e0a8e59ba8210eece70a7eb36efead3"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "797dd6704959c1b39ee868436660eec1118b655229453fcf5dafe631d5c7af16",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
@@ -24546,17 +24590,21 @@
         "record": "docs/reviews/smoked-salmon-toast.md",
         "acceptedSha256": "1b2cea172e4c34c800c822489a47d965c05648d960d0bd52e18a7a4f48545824",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/smoked-salmon-toast.json",
         "sourceSha256": "1b2cea172e4c34c800c822489a47d965c05648d960d0bd52e18a7a4f48545824"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e5276b6f1e0a8e59ba8210eece70a7eb36efead3"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1b2cea172e4c34c800c822489a47d965c05648d960d0bd52e18a7a4f48545824",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Which actual salmon label and opening window apply?",
@@ -24881,17 +24929,21 @@
         "record": "docs/reviews/spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.md",
         "acceptedSha256": "7ae28e640a6076541ea399dffbcacf5e03c6db938260a59703040c001cb087e9",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.json",
         "sourceSha256": "7ae28e640a6076541ea399dffbcacf5e03c6db938260a59703040c001cb087e9"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e5276b6f1e0a8e59ba8210eece70a7eb36efead3"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7ae28e640a6076541ea399dffbcacf5e03c6db938260a59703040c001cb087e9",
+        "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json"
       },
       "remainingQuestions": [
         "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",

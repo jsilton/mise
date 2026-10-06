@@ -1,6 +1,6 @@
 {
   "slug": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
   "inputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a",
   "acceptedSourceSha256": "7ae28e640a6076541ea399dffbcacf5e03c6db938260a59703040c001cb087e9",
@@ -1205,7 +1205,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
   "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1229,5 +1229,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+  "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
 }

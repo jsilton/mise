@@ -1,6 +1,6 @@
 {
   "slug": "chinese-steamed-fish",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
   "inputSha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
   "acceptedSourceSha256": "55fc3f725c199681267423b557f175ec356bf3dddb4e36b666166f3e7c6380a6",
@@ -1365,7 +1365,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
   "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1389,5 +1389,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
+  "releaseCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
 }
