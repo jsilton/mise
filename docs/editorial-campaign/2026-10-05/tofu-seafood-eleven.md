@@ -21,3 +21,9 @@ Five tofu/legume dishes and six seafood recipes received complete author review,
 ## Locally validated checkpoint
 
 All 252 tests, 79 authored formula checks, 643-recipe validation, 11 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved. All three exports match 643 sources; private bindings, public privacy and 12,181 built anchors pass. The other 632 recipe sources/export schemas and unrelated review credit remain unchanged. 2 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 11 complete rendered pages and 67 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](tofu-seafood-eleven-preservation.json).
+
+## Verified publication
+
+170 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 404 recorded complete / 239 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [8029b0bd](https://github.com/jsilton/mise/commit/8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37424013240) and all 11 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](tofu-seafood-eleven-production.json).

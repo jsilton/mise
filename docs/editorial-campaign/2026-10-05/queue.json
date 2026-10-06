@@ -254,6 +254,19 @@
       "reviewer": "coverage_check",
       "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
       "status": "assigned; whole author/independent/root pending"
+    },
+    "savory_baked_sides_07": {
+      "slugs": [
+        "corn-casserole",
+        "noodle-pudding",
+        "ham-and-cheese-green-bean-casserole",
+        "broccoli-cheddar-quinoa-bites",
+        "sweet-and-white-potato-gratin",
+        "sweet-potato-sausage-breakfast-casserole"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -1307,8 +1320,8 @@
       "title": "Broccoli Cheddar Quinoa Bites",
       "source": "Adapted from everydaydishes.com",
       "sourceUrl": "http://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/",
-      "group": null,
-      "status": "queued",
+      "group": "savory_baked_sides_07",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1316,7 +1329,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "e82009e59ee26e9f4e5315f39f646b097725a14e940250e7e40a5285b62b4ab3",
-      "plannedBatch": "baked-savory-and-breads-02"
+      "plannedBatch": "baked-savory-and-breads-02",
+      "owner": "coverage_check",
+      "assignmentInputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "broccolini-chicken-sausage-and-orzo-skillet",
@@ -1716,7 +1731,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/chana-begoon.md",
@@ -1732,9 +1747,10 @@
       "plannedBatch": "baked-savory-and-breads-03",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "5b03f431eb63d694ab84a38955bc3a5714b9dd1f58c358ae40602de670591ae4",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "charred-asparagus-with-parmesan",
@@ -2600,8 +2616,8 @@
       "title": "Corn Casserole",
       "source": "Adapted from Glenna Johnson",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "savory_baked_sides_07",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2609,7 +2625,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b930409c5dd6e84ab6b91cb30f5ff20c247b538d405ad516c68badc24864de8c",
-      "plannedBatch": "baked-savory-and-breads-04"
+      "plannedBatch": "baked-savory-and-breads-04",
+      "owner": "coverage_check",
+      "assignmentInputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "corn-shrimp-dumplings",
@@ -3931,7 +3949,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "seafood_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/gambas-al-ajillo.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -3945,9 +3963,10 @@
       "plannedBatch": "context-screening-02",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "b32987b06ec031c542679e823d198af5d0b62d702e8a3bc10d4a0359cbb060bc",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "garlic-butter-green-beans",
@@ -4149,7 +4168,7 @@
       "source": "Adapted from purewow.com",
       "sourceUrl": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
       "group": "tofu_legumes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/general-tsos-cauliflower.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -4164,9 +4183,10 @@
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "general-tsos-tofu",
@@ -4175,7 +4195,7 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/general-tsos-tofu/",
       "group": "tofu_legumes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/general-tsos-tofu.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -4190,9 +4210,10 @@
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "89e3d354239f8b8fe79c4db82eafd672a81a2e56e1a6da9d3910e713a9d8d111",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "glazed-carrots",
@@ -4539,8 +4560,8 @@
       "title": "Ham & Cheese Green Bean Casserole",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "savory_baked_sides_07",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4548,7 +4569,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d4c40924b0149cbb38244158d1309c2107ac3cdb56723f4b6c1e930027f3581e",
-      "plannedBatch": "baked-savory-and-breads-06"
+      "plannedBatch": "baked-savory-and-breads-06",
+      "owner": "coverage_check",
+      "assignmentInputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "ham-and-cheese-quiche",
@@ -5492,7 +5515,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/mapo-tofu.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -5507,9 +5530,10 @@
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "8cab410faa71a2b3e4af9d5384d4131d3f937f3d5ff9f61585a74059194568f3",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "marinated-flank-steak-salad",
@@ -5660,7 +5684,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/misir-wot.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -5675,9 +5699,10 @@
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "daf8090079592009d5b88e98b047a2632a2a47b9ac8b0e3cf8c53d318358eec8",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "miso-glazed-roasted-cauliflower",
@@ -5922,8 +5947,8 @@
       "title": "Noodle Pudding",
       "source": "Adapted from Mary Later",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "savory_baked_sides_07",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5931,7 +5956,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "cbc2cd181bc15dc90eeb723aa7747500a2687d605bb2b451c278ad1f7f1b0ab7",
-      "plannedBatch": "baked-sweets-05"
+      "plannedBatch": "baked-sweets-05",
+      "owner": "coverage_check",
+      "assignmentInputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "oatmeal-risotto",
@@ -7448,7 +7475,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/seafood-chorizo-tacos",
       "group": "seafood_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/seafood-chorizo-tacos.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -7462,9 +7489,10 @@
       "plannedBatch": "stir-fry-and-pan-cooking-05",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "d5d0ce7760a2b4afdfed574e40b3e87a5e0a6055f426ba161df18287e09f1f81",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
@@ -7473,7 +7501,7 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/seared-scallops-with-a-corn-bacon-and-avocado-relish-3414406",
       "group": "seafood_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/seared-scallops-with-a-corn-bacon-and-avocado-relish.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -7487,9 +7515,10 @@
       "plannedBatch": "context-screening-04",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "920b72fe4186938ae41cf93722711bca0bdd5762360870bcf296246c4bf6a51a",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "seasoned-bean-sprouts",
@@ -7646,7 +7675,7 @@
       "source": "Adapted from delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/",
       "group": "seafood_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
         "docs/repairs/2026-09-15/changed-files.json",
@@ -7662,9 +7691,10 @@
       "plannedBatch": "baked-savory-and-breads-10",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "1897512d1925ff842d46e8efa24a1ba903d5c9b76ec52ef8f5ded9fc320ebe5c",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "sheet-pan-shrimp-fajitas",
@@ -7673,7 +7703,7 @@
       "source": "healthyfitnessmeals.com",
       "sourceUrl": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/",
       "group": "seafood_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/sheet-pan-shrimp-fajitas.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -7688,9 +7718,10 @@
       "plannedBatch": "roast-grill-and-sear-04",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "ffc031f819de52b68e0483c6fa382a561ee9dec9f0319137b1a4ed818ab063fa",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "shrimp-and-corn-chowder",
@@ -8435,7 +8466,7 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth",
       "group": "seafood_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/steamed-mussels-chorizo.md",
         "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
@@ -8449,9 +8480,10 @@
       "plannedBatch": "simmer-boil-and-steam-10",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "9e7b9f2f99a998b9b70bc2d055c7fb5996bcb2f52519ce770fcb523c9a04f601",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
+      "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "steel-cut-oatmeal",
@@ -8748,8 +8780,8 @@
       "title": "Sweet and White Potato Gratin",
       "source": "Adapted from Kaitlin Gwock",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "savory_baked_sides_07",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8757,7 +8789,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "672eae7c9311e0f764b6a500d85eb6f7e6538584d0a947e5f46f88b7ab42c0d7",
-      "plannedBatch": "baked-savory-and-breads-11"
+      "plannedBatch": "baked-savory-and-breads-11",
+      "owner": "coverage_check",
+      "assignmentInputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "sweet-chili-chicken-sliders",
@@ -8828,8 +8862,8 @@
       "title": "Sweet Potato Sausage Breakfast Casserole",
       "source": "allthehealthythings.com",
       "sourceUrl": "https://allthehealthythings.com/sausage-breakfast-casserole/",
-      "group": null,
-      "status": "queued",
+      "group": "savory_baked_sides_07",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/sweet-potato-sausage-breakfast-casserole.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8837,7 +8871,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b17bf44004d032dcee20ceb67aae38dbe1f1070090d18921e1eec3a57ab1a929",
-      "plannedBatch": "baked-savory-and-breads-11"
+      "plannedBatch": "baked-savory-and-breads-11",
+      "owner": "coverage_check",
+      "assignmentInputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
     },
     {
       "slug": "sweet-spinach-muffins",
@@ -10168,12 +10204,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 159,
+    "production-verified": 170,
     "held": 18,
-    "assigned": 34,
+    "assigned": 40,
     "proposed": 39,
-    "queued": 146,
-    "accepted": 11,
+    "queued": 140,
     "held-awaiting-evidence": 2
   }
 }

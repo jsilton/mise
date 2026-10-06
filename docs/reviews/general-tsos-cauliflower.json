@@ -1,6 +1,6 @@
 {
   "slug": "general-tsos-cauliflower",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
   "inputSha256": "6fdb84bef083fee77e46d955483a54fa51cb8d9ae87f14e5d734cf8f9f9f55b4",
   "acceptedSourceSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d",
@@ -1779,7 +1779,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
   "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1803,5 +1803,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
+  "releaseCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
 }

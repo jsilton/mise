@@ -1,0 +1,201 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
+  "implementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37424013240",
+  "ci": {
+    "headSha": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
+  "rendered": [
+    {
+      "slug": "general-tsos-tofu",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "general-tsos-cauliflower",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 8
+    },
+    {
+      "slug": "mapo-tofu",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "chana-begoon",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "misir-wot",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "gambas-al-ajillo",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "sheet-pan-pineapple-shrimp-tacos",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "sheet-pan-shrimp-fajitas",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 4
+    },
+    {
+      "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "steamed-mussels-chorizo",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "seafood-chorizo-tacos",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    }
+  ],
+  "verifiedDate": "2026-10-06T06:32:44.067Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "general-tsos-tofu",
+      "acceptedSourceSha256": "89e3d354239f8b8fe79c4db82eafd672a81a2e56e1a6da9d3910e713a9d8d111"
+    },
+    {
+      "slug": "general-tsos-cauliflower",
+      "acceptedSourceSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d"
+    },
+    {
+      "slug": "mapo-tofu",
+      "acceptedSourceSha256": "8cab410faa71a2b3e4af9d5384d4131d3f937f3d5ff9f61585a74059194568f3"
+    },
+    {
+      "slug": "chana-begoon",
+      "acceptedSourceSha256": "5b03f431eb63d694ab84a38955bc3a5714b9dd1f58c358ae40602de670591ae4"
+    },
+    {
+      "slug": "misir-wot",
+      "acceptedSourceSha256": "daf8090079592009d5b88e98b047a2632a2a47b9ac8b0e3cf8c53d318358eec8"
+    },
+    {
+      "slug": "gambas-al-ajillo",
+      "acceptedSourceSha256": "b32987b06ec031c542679e823d198af5d0b62d702e8a3bc10d4a0359cbb060bc"
+    },
+    {
+      "slug": "sheet-pan-pineapple-shrimp-tacos",
+      "acceptedSourceSha256": "1897512d1925ff842d46e8efa24a1ba903d5c9b76ec52ef8f5ded9fc320ebe5c"
+    },
+    {
+      "slug": "sheet-pan-shrimp-fajitas",
+      "acceptedSourceSha256": "ffc031f819de52b68e0483c6fa382a561ee9dec9f0319137b1a4ed818ab063fa"
+    },
+    {
+      "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "acceptedSourceSha256": "920b72fe4186938ae41cf93722711bca0bdd5762360870bcf296246c4bf6a51a"
+    },
+    {
+      "slug": "steamed-mussels-chorizo",
+      "acceptedSourceSha256": "9e7b9f2f99a998b9b70bc2d055c7fb5996bcb2f52519ce770fcb523c9a04f601"
+    },
+    {
+      "slug": "seafood-chorizo-tacos",
+      "acceptedSourceSha256": "d5d0ce7760a2b4afdfed574e40b3e87a5e0a6055f426ba161df18287e09f1f81"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 11; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}
