@@ -1,0 +1,701 @@
+{
+  "slug": "easy-breakfast-yogurt-popsicles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "9fb94b818e56caaecb1850606e98bc4e97a3f5c2b7b4fa7178607313f39edff2",
+  "acceptedSourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "240 min",
+      "after": "0 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "250 min",
+      "after": "4 hr 10 min"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Plain Greek Yogurt (Full-fat preferred)",
+        "1/2 cup Whole Milk",
+        "2 tsp Honey",
+        "1/2 cup Granola (Use [Granola](/mise/recipes/granola) for the Kitchen Standard)",
+        "1 cup Fresh Berries or chopped fruit"
+      ],
+      "after": [
+        "--- Popsicles ---",
+        "1 cup plain Greek yogurt, full-fat preferred",
+        "1/2 cup whole milk",
+        "2 tsp honey",
+        "1/2 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "1 cup fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 55,
+        "protein": 4,
+        "carbs": 9,
+        "fat": 1,
+        "fiber": 0.5,
+        "sugar": 7.5,
+        "sodium": 20
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "pops",
+            "name": "Popsicles",
+            "ingredients": [
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain Greek yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "preparation": "full-fat preferred"
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "whole milk",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "granola",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "granola",
+                "key": "granola",
+                "name": "[granola](/mise/recipes/granola)",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "granola",
+                    "share": 1
+                  }
+                ],
+                "preparation": "prepared and cooled"
+              },
+              {
+                "id": "fruit",
+                "key": "fruit",
+                "name": "fresh berries or chopped fruit",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and drained; large pieces cut to fit the molds"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "base",
+            "title": "Mix the base",
+            "text": "Whisk all {{ingredients}} until smooth. Keep the other half of the honey for the granola."
+          },
+          {
+            "id": "fruit",
+            "title": "Add fruit",
+            "text": "Divide all {{ingredients}} among the molds. The original eight-pop count is a planning yield; actual mold capacity can require more or fewer molds."
+          },
+          {
+            "id": "fill",
+            "title": "Fill",
+            "text": "Divide the entire dairy mixture among the fruit-filled molds, leaving enough room for the granola layer and expansion as directed by the mold maker. The original half-inch gap is a starting context only when suitable for that mold."
+          },
+          {
+            "id": "granola",
+            "title": "Add granola",
+            "text": "Mix {{ingredients}} and divide all of it over the molds, gently pressing into contact with the dairy mixture. If honey is too stiff to mix, warm it briefly in a microwave-safe vessel, checking frequently, then mix it with the granola."
+          },
+          {
+            "id": "freeze",
+            "title": "Freeze",
+            "text": "Insert sticks according to the mold instructions and freeze at least 4 hours, preferably overnight, until firm throughout. Keep dairy cold while working; more or larger molds can take longer."
+          },
+          {
+            "id": "serve",
+            "title": "Release",
+            "text": "Run warm water briefly over the outside of each mold until the pop releases, without immersing the open top. Do not force a stick from an incompletely frozen pop. Serve promptly; keep remaining pops frozen."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Split honey proportionally and freeze molds to a firm endpoint",
+        "outcome": "Firm fruit-yogurt pops that release without tearing away from their sticks.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Choose molds with sticks and freeze upright according to their instructions. Eight is the original planning count, not proof of a particular mold volume.",
+          "Use already prepared, cooled granola. Keep dairy refrigerated and wash/drain fruit before mixing."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Each pop is firm throughout before release.",
+            "why": "A four-hour clock alone does not establish that a large or warm-filled mold is frozen solid."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Stick pulls out but the pop stays in the mold",
+            "cause": "The pop was incompletely frozen or the mold has not loosened.",
+            "fix": "Return it to the freezer until firm, then warm the outside briefly rather than tugging harder."
+          }
+        ],
+        "timing": "About 10 minutes hands-on plus at least 4 hours freezing; overnight is often convenient. Mold capacity and freezer conditions control the actual firm endpoint. Granola preparation/cooling is separate.",
+        "storage": "Keep pops covered or unmolded and wrapped in a freezer at 0°F / −18°C or below; label the preparation date. Keep them frozen until serving. Freezing does not sanitize the dairy or fruit; follow ingredient storage limits before freezing. Granola texture can soften during storage.",
+        "sources": [
+          {
+            "title": "Adapted from Iheartnaptime.net",
+            "url": "https://www.iheartnaptime.net/breakfast-popsicles/"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FDA — cold holding and perishable food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Mold-filling order",
+            "alternative": "For the dairy-first variation, divide the complete dairy mixture among the molds, add all the measured fruit, then top with all the honey-coated granola. Choose this order instead of the fruit-first method.",
+            "effect": "The full ingredients and half-and-half honey allocation stay the same. Reserve room for the granola and the expansion allowance required by your molds."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPrep these up to 5 days ahead for quick summer breakfasts. Microwaving honey for 10 seconds before tossing with granola creates a thin coating that stays crunchy even when frozen. Run molds under hot water for 5 seconds for clean release.\n\n## Directions\n\n1.  **The Base:** Whisk together the milk, yogurt, and 1 tsp of the honey until smooth and creamy.\n2.  **Fruit:** Divide the fresh berries evenly among your popsicle molds.\n3.  **Fill:** Pour the yogurt mixture into the molds, leaving a 1/2-inch gap at the top.\n4.  **The Crunch:** Microwave the remaining 1 tsp honey for 10 seconds. Toss with the granola until coated. Press the granola mixture into the top of each popsicle mold to create a crunchy \"base.\"\n5.  **Set:** Place a wooden stick into each mold. Freeze for **at least 4 hours** (overnight is best).\n6.  **Unmold:** Run the outside of the mold under warm water for 5-10 seconds to release. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nAdapted from the I Heart Naptime recipe contributed by Jane at Baking-Ginger, these pops can be prepared ahead for summer breakfasts or snacks. These fruit-and-yogurt pops keep the full-fat yogurt, whole milk and granola. Half the honey sweetens the dairy mixture and half coats the granola. A frozen granola base may soften where it touches yogurt; honey does not guarantee lasting crunch. Freeze until firm before trying to release a pop.\n\n## Directions\n\n1. **Mix the base:** Whisk all plain Greek yogurt, whole milk, and 1/2 of the honey until smooth. Keep the other half of the honey for the granola.\n2. **Add fruit:** Divide all fresh berries or chopped fruit among the molds. The original eight-pop count is a planning yield; actual mold capacity can require more or fewer molds.\n3. **Fill:** Divide the entire dairy mixture among the fruit-filled molds, leaving enough room for the granola layer and expansion as directed by the mold maker. The original half-inch gap is a starting context only when suitable for that mold.\n4. **Add granola:** Mix 1/2 of the honey and [granola](/mise/recipes/granola) and divide all of it over the molds, gently pressing into contact with the dairy mixture. If honey is too stiff to mix, warm it briefly in a microwave-safe vessel, checking frequently, then mix it with the granola.\n5. **Freeze:** Insert sticks according to the mold instructions and freeze at least 4 hours, preferably overnight, until firm throughout. Keep dairy cold while working; more or larger molds can take longer.\n6. **Release:** Run warm water briefly over the outside of each mold until the pop releases, without immersing the open top. Do not force a stick from an incompletely frozen pop. Serve promptly; keep remaining pops frozen.\n"
+  },
+  "findings": [
+    {
+      "id": "CB01",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB02",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB03",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB04",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB05",
+      "rationale": "No recorded evidence establishes geographic invention; all style/cuisine/source credits remain.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB06",
+      "rationale": "Legacy estimates lack verified product weights and finished yield; no replacement fabricated.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB07",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB08",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[7]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "id": "CB09",
+      "rationale": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-breakfast-yogurt-popsicles.md",
+        "https://www.iheartnaptime.net/breakfast-popsicles/",
+        "evidence/easy-breakfast-yogurt-popsicles-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[8]"],
+      "questions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20Breakfast%20Yogurt%20Popsicles.html",
+    "introductionScope": "Actual earlier cooking HTML distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.iheartnaptime.net/breakfast-popsicles/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact boundoriginal450/native/earlierHTML/045 and current publisher agree1cupyogurt/½cupmilk/2tsphoney/½cupgranola/1cupfruit with equal honey split. ae5 replaced optional honey warming with mandatory microwave and unsupported crunch/five-day assertions; no later accepted process decision found. Preserve current fruit-first route distinctly from publisher dairy-first order; both fill complete same molds and ingredients. Native8pop count is planning, not measured capacity.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 cup Plain Greek Yogurt (Full-fat preferred)",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1"
+      },
+      {
+        "text": "1/2 cup Whole Milk",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1"
+      },
+      {
+        "text": "2 tsp Honey",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": "Literal1tsp+1tsp inherited, incompatiblewithscaledtotal",
+        "actualMethodDestination": "literal1tspstep1+1tspstep4"
+      },
+      {
+        "text": "1/2 cup Granola (Use [Granola](/mise/recipes/granola) for the Kitchen Standard)",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep4"
+      },
+      {
+        "text": "1 cup Fresh Berries or chopped fruit",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep2"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "pops.yogurt",
+        "name": "plain Greek yogurt",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "preparation": "full-fat preferred",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pops.milk",
+        "name": "whole milk",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pops.honey",
+        "name": "honey",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "base",
+            "share": "1/2"
+          },
+          {
+            "step": "granola",
+            "share": "1/2"
+          }
+        ]
+      },
+      {
+        "id": "pops.granola",
+        "name": "[granola](/mise/recipes/granola)",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "preparation": "prepared and cooled",
+        "destinations": [
+          {
+            "step": "granola",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pops.fruit",
+        "name": "fresh berries or chopped fruit",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "preparation": "washed and drained; large pieces cut to fit the molds",
+        "destinations": [
+          {
+            "step": "fruit",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "adjustmentAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix the base: Whisk all plain Greek yogurt, whole milk, and 1/2 of the honey until smooth. Keep the other half of the honey for the granola."
+    },
+    {
+      "step": 2,
+      "text": "Add fruit: Divide all fresh berries or chopped fruit among the molds. The original eight-pop count is a planning yield; actual mold capacity can require more or fewer molds."
+    },
+    {
+      "step": 3,
+      "text": "Fill: Divide the entire dairy mixture among the fruit-filled molds, leaving enough room for the granola layer and expansion as directed by the mold maker. The original half-inch gap is a starting context only when suitable for that mold."
+    },
+    {
+      "step": 4,
+      "text": "Add granola: Mix 1/2 of the honey and granola and divide all of it over the molds, gently pressing into contact with the dairy mixture. If honey is too stiff to mix, warm it briefly in a microwave-safe vessel, checking frequently, then mix it with the granola."
+    },
+    {
+      "step": 5,
+      "text": "Freeze: Insert sticks according to the mold instructions and freeze at least 4 hours, preferably overnight, until firm throughout. Keep dairy cold while working; more or larger molds can take longer."
+    },
+    {
+      "step": 6,
+      "text": "Release: Run warm water briefly over the outside of each mold until the pop releases, without immersing the open top. Do not force a stick from an incompletely frozen pop. Serve promptly; keep remaining pops frozen."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Publisher/native dairy-first order",
+      "scope": "Samefullformula andhoneyhalves;mix dairybase,dividemolds,addallfruit,topallgranola. Currentfruit-first main retained; noquantities or capacity change.",
+      "publicSourceReference": "learning.substitutions[0]: complete dairy-first variation, instead of fruit-first main"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["granola"],
+    "incomingMeals": [],
+    "granola": "Prepared/cool component only; linkedgranola35minpluscooling notincluded in breakfast clocks,6cupyieldclaim unverified; no whole-review status granted",
+    "chocolateChia": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8 pieces",
+    "scope": "Original/current planning count, no actual finished volume or measured portion weight",
+    "capacity": "Unknown mold volume; moreorfewer molds maybenecessary; expansion permanufacturer",
+    "timing": "learning.timing; chilling/freezing explicit elapsed, preparation active"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Popsicles ---",
+        "1/4 cup plain Greek yogurt, full-fat preferred",
+        "1/8 cup whole milk",
+        "1/2 tsp honey",
+        "1/8 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "1/4 cup fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "2 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Popsicles ---",
+        "1/2 cup plain Greek yogurt, full-fat preferred",
+        "1/4 cup whole milk",
+        "1 tsp honey",
+        "1/4 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "1/2 cup fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "4 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Popsicles ---",
+        "1 cup plain Greek yogurt, full-fat preferred",
+        "1/2 cup whole milk",
+        "2 tsp honey",
+        "1/2 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "1 cup fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "8 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Popsicles ---",
+        "1 1/2 cups plain Greek yogurt, full-fat preferred",
+        "3/4 cup whole milk",
+        "3 tsp honey",
+        "3/4 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "1 1/2 cups fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "12 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Popsicles ---",
+        "2 cups plain Greek yogurt, full-fat preferred",
+        "1 cup whole milk",
+        "4 tsp honey",
+        "1 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "2 cups fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "16 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Popsicles ---",
+        "3 cups plain Greek yogurt, full-fat preferred",
+        "1 1/2 cups whole milk",
+        "6 tsp honey",
+        "1 1/2 cups [granola](/mise/recipes/granola), prepared and cooled",
+        "3 cups fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "24 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Popsicles ---",
+        "1 cup plain Greek yogurt, full-fat preferred",
+        "1/2 cup whole milk",
+        "2 tsp honey",
+        "1/2 cup [granola](/mise/recipes/granola), prepared and cooled",
+        "1 cup fresh berries or chopped fruit, washed and drained; large pieces cut to fit the molds"
+      ],
+      "yield": "8 pieces",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual mold volume, filled count and expansion gap remain unknown.",
+    "Freezer firmness time and granola texture require kitchen testing."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

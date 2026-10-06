@@ -1,0 +1,423 @@
+{
+  "slug": "ricotta-toast-with-honey",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "0406d911700cf243f1149d50a7ecec8774d88a764e74cade4ad2fe6e6ae4f8d8",
+  "acceptedSourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 215,
+        "protein": 4,
+        "carbs": 35.5,
+        "fat": 7.5,
+        "fiber": 1,
+        "sugar": 16.5,
+        "sodium": 2530
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Make ricotta spreadable without promising a completely smooth texture",
+        "outcome": "Rich ricotta, honey and pistachios on crisp toast, with the topping portions evenly divided.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Use all the listed whole-milk ricotta and oil; curd size varies by product.",
+          "Wash and dry optional fruit, mint and lemon before cutting or zesting."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The ricotta spreads easily from the fork; small curds may remain.",
+            "why": "Fork stirring distributes oil but does not guarantee the curds disappear."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Mixture stays grainy",
+            "cause": "The ricotta has larger curds and fork stirring cannot remove them completely.",
+            "fix": "Spread it as it is once cohesive; more stirring is not a guarantee of silky texture."
+          }
+        ],
+        "timing": "The original 8-minute plan assumes one toaster round and ready pistachios. Optional fruit preparation and extra toast rounds add time.",
+        "storage": "Refrigerate unused ricotta mixture promptly at 40°F / 4°C or below and follow the product’s remaining opened-storage limit. Keep toppings and bread separate; assembled toast loses crunch. Do not reset ricotta’s storage clock by stirring in oil.",
+        "sources": [
+          {
+            "title": "Mise — Ricotta Toast with Honey",
+            "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FDA — cold holding and perishable food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWhipping ricotta with olive oil and a pinch of salt transforms grainy supermarket ricotta into something cloud-like and spreadable. The technique takes 30 seconds with a fork and the result is dramatically better than spreading ricotta straight from the container. Whole-milk ricotta is essential -- part-skim versions are watery and lack the richness needed to stand up to the honey and pistachios. The contrast of sweet honey, salty pistachios, and creamy ricotta on crunchy toast creates a breakfast that feels indulgent but comes together faster than scrambled eggs.\n\n## Directions\n\n1.  **Whip the Ricotta:** In a small bowl, combine ricotta, olive oil, and a pinch of salt. Stir vigorously with a fork for 30 seconds until the mixture is smooth, fluffy, and spreadable. It should look noticeably lighter and creamier than it did straight from the container.\n2.  **Toast:** Toast the bread until deeply golden and crunchy. The bread must be sturdy enough to support the ricotta without bending.\n3.  **Spread:** Divide the whipped ricotta between the two toasts, spreading it in a thick, generous layer to the edges.\n4.  **Top:** Drizzle honey in a zigzag pattern across the ricotta. Scatter chopped pistachios over the top. Add a pinch of flaky sea salt.\n5.  **Finish:** Add optional toppings -- a few torn mint leaves, a fine grating of lemon zest, or halved fresh figs if in season.\n6.  **Serve:** Eat immediately while the toast is still warm and crunchy. The honey will slowly seep into the ricotta, creating sweet pockets throughout.\n",
+    "after": "\n## Chef's Note\n\nWhole-milk ricotta, olive oil and honey keep this toast rich. Stir the ricotta until spreadable; a fork may leave fine curds, so do not chase a guaranteed whipped-cream texture. Add the full honey and pistachios after spreading the cheese, then serve while the bread is crisp.\n\n## Directions\n\n1. **Stir ricotta:** Combine all the ricotta and measured olive oil with the listed pinch of salt. Stir vigorously with a fork for about 30 seconds or until spreadable; fine curds can remain. Keep the mixture refrigerated if the toast is not ready.\n\n2. **Toast:** Toast all the bread slices until deeply golden and sturdy with crisp edges. Extra slices may need more rounds.\n\n3. **Spread:** Divide all the ricotta mixture among the listed bread slices.\n\n4. **Top:** Divide all the measured honey and chopped pistachios over the toasts. Add the separate unmeasured finishing flaky salt to taste.\n\n5. **Optional finish:** Add washed mint, lemon zest, halved figs or berries if wanted.\n\n6. **Serve:** Serve promptly while the bread is warm and crisp.\n"
+  },
+  "findings": [
+    {
+      "id": "CB01",
+      "rationale": "No recorded evidence establishes geographic invention; all style/cuisine/source credits remain.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md",
+        "evidence/ricotta-toast-with-honey-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
+      ]
+    },
+    {
+      "id": "CB02",
+      "rationale": "Legacy estimates lack verified product weights and finished yield; no replacement fabricated.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md",
+        "evidence/ricotta-toast-with-honey-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
+      ]
+    },
+    {
+      "id": "CB03",
+      "rationale": "fd4 first/current formula matches. Whole-milk richness is preserved; no evidence establishes that all part-skim ricotta is watery or that30seconds fork stirring makes every ricotta smooth. Optionalberries listed in ingredients now receive an explicit method destination. Italy-origin inference omitted without changing Italian/American style.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md",
+        "evidence/ricotta-toast-with-honey-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
+      ]
+    },
+    {
+      "id": "CB04",
+      "rationale": "fd4 first/current formula matches. Whole-milk richness is preserved; no evidence establishes that all part-skim ricotta is watery or that30seconds fork stirring makes every ricotta smooth. Optionalberries listed in ingredients now receive an explicit method destination. Italy-origin inference omitted without changing Italian/American style.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md",
+        "evidence/ricotta-toast-with-honey-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "fd4 first/current formula matches. Whole-milk richness is preserved; no evidence establishes that all part-skim ricotta is watery or that30seconds fork stirring makes every ricotta smooth. Optionalberries listed in ingredients now receive an explicit method destination. Italy-origin inference omitted without changing Italian/American style.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep2then3"
+      },
+      {
+        "text": "3/4 cup Whole-Milk Ricotta",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1then3"
+      },
+      {
+        "text": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1"
+      },
+      {
+        "text": "Pinch of Flaky Sea Salt",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "unmeasuredpinchstep1"
+      },
+      {
+        "text": "2 tbsp Honey (good quality, runny)",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep4"
+      },
+      {
+        "text": "2 tbsp Shelled Pistachios, roughly chopped",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep4"
+      },
+      {
+        "text": "flaky sea salt for finishing",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "separateunmeasuredstep4"
+      },
+      {
+        "text": "Optional: fresh mint leaves, lemon zest, fresh figs or berries",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "mint/zest/figstep5;berrieslistedbutmethodomits"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "destination": "allstep2then3"
+      },
+      {
+        "text": "3/4 cup Whole-Milk Ricotta",
+        "destination": "allstep1/3"
+      },
+      {
+        "text": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "allstep1"
+      },
+      {
+        "text": "Pinch of Flaky Sea Salt",
+        "destination": "listedunmeasuredpinchstep1"
+      },
+      {
+        "text": "2 tbsp Honey (good quality, runny)",
+        "destination": "allstep4"
+      },
+      {
+        "text": "2 tbsp Shelled Pistachios, roughly chopped",
+        "destination": "allstep4"
+      },
+      {
+        "text": "flaky sea salt for finishing",
+        "destination": "separateunmeasuredstep4"
+      },
+      {
+        "text": "Optional: fresh mint leaves, lemon zest, fresh figs or berries",
+        "destination": "optionalallchosenstep5"
+      }
+    ],
+    "adjustmentAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Stir ricotta: Combine all the ricotta and measured olive oil with the listed pinch of salt. Stir vigorously with a fork for about 30 seconds or until spreadable; fine curds can remain. Keep the mixture refrigerated if the toast is not ready."
+    },
+    {
+      "step": 2,
+      "text": "Toast: Toast all the bread slices until deeply golden and sturdy with crisp edges. Extra slices may need more rounds."
+    },
+    {
+      "step": 3,
+      "text": "Spread: Divide all the ricotta mixture among the listed bread slices."
+    },
+    {
+      "step": 4,
+      "text": "Top: Divide all the measured honey and chopped pistachios over the toasts. Add the separate unmeasured finishing flaky salt to taste."
+    },
+    {
+      "step": 5,
+      "text": "Optional finish: Add washed mint, lemon zest, halved figs or berries if wanted."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve promptly while the bread is warm and crisp."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["avocado-toast", "easy-chia-pudding", "granola"],
+    "incomingMeals": [],
+    "granola": "Pairing only: granola has no quantity or destination in the ricotta-toast formula. If served alongside, its preparation and cooling are separate. The linked recipe is not approved by this toast review.",
+    "chocolateChia": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "2",
+    "scope": "Original/current planning count, no actual finished volume or measured portion weight",
+    "capacity": "Additionalbowls/jars/toasterrounds withsame listed scaledamounts",
+    "timing": "learning.timing; chilling/freezing explicit elapsed, preparation active"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 slices Thick-Cut Sourdough or Rustic Bread",
+        "0.19 cup Whole-Milk Ricotta",
+        "1/4 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "1/2 tbsp Honey (good quality, runny)",
+        "1/2 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 1/2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 slices Thick-Cut Sourdough or Rustic Bread",
+        "3/8 cup Whole-Milk Ricotta",
+        "1/2 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "1 tbsp Honey (good quality, runny)",
+        "1 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "3/4 cup Whole-Milk Ricotta",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "2 tbsp Honey (good quality, runny)",
+        "2 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 slices Thick-Cut Sourdough or Rustic Bread",
+        "1 1/8 cups Whole-Milk Ricotta",
+        "1 1/2 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "3 tbsp Honey (good quality, runny)",
+        "3 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 3",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 slices Thick-Cut Sourdough or Rustic Bread",
+        "1 1/2 cups Whole-Milk Ricotta",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "4 tbsp Honey (good quality, runny)",
+        "4 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 slices Thick-Cut Sourdough or Rustic Bread",
+        "2 1/4 cups Whole-Milk Ricotta",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "6 tbsp Honey (good quality, runny)",
+        "6 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "3/4 cup Whole-Milk Ricotta",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "Pinch of Flaky Sea Salt",
+        "2 tbsp Honey (good quality, runny)",
+        "2 tbsp Shelled Pistachios, roughly chopped",
+        "flaky sea salt for finishing",
+        "Optional: fresh mint leaves, lemon zest, fresh figs or berries"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+    "Optional topping quantities remain unmeasured."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

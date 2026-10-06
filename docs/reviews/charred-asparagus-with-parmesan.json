@@ -1,0 +1,498 @@
+{
+  "slug": "charred-asparagus-with-parmesan",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "63533d5e85bd40337508420d0428f2f8510750c6747caa8c67c2d3afaeba94bc",
+  "acceptedSourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "5–10 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "6 min",
+      "after": "4–8 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "11 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 75,
+        "protein": 1,
+        "carbs": 4.5,
+        "fat": 7,
+        "fiber": 1.5,
+        "sugar": 1,
+        "sodium": 580
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match broiler browning to asparagus-stem tenderness",
+        "outcome": "Charred patches on the tips, tender-crisp stems and a full Parmesan-lemon finish.",
+        "techniques": ["browning", "seasoning"],
+        "before": [
+          "Use a broiler-rated rimmed metal sheet and the appliance’s permitted clearance.",
+          "Match spear thickness within each batch; pan dimensions and broiler clocks do not scale."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The thicker stems yield to a fork before the garlic blackens.",
+            "why": "Brown tips alone do not show whether the stems are tender."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Garlic burns before stems soften",
+            "cause": "The pan is too close to the element or spears are thick.",
+            "fix": "Move the pan farther away and continue with gentler heat. Bitter blackened garlic cannot be repaired."
+          }
+        ],
+        "timing": "Allow about 10–20 minutes including broiler heating and preparation for one sheet. Original 4–6 minutes is for medium-thick spears; extra sheets or sequential rounds extend elapsed time.",
+        "storage": "Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept separate when practical.",
+        "sources": [
+          {
+            "title": "Mise — original saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "Reynolds — parchment is not for broiling",
+            "url": "https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe broiler is the most underused tool for vegetables. It delivers restaurant-quality char in a fraction of the time that roasting takes, and asparagus is the ideal candidate because the spears lie flat and cook in minutes. The key is positioning the oven rack 4-6 inches from the element and watching constantly -- the line between perfectly blistered and burnt is about 60 seconds. Grating garlic on a Microplane creates a paste that melts into the oil, distributing flavor evenly without any raw garlic chunks.\n\n## Directions\n\n1.  **Preheat:** Set oven broiler to high. Position an oven rack 4-6 inches from the heating element. Line a baking sheet with foil.\n2.  **Prep:** Snap the woody ends off each asparagus spear by bending from the bottom -- they break naturally at the right point. Choose medium-thick spears; pencil-thin ones burn too quickly under a broiler.\n3.  **Season:** Toss asparagus on the sheet with olive oil, grated garlic, salt, and pepper. Spread in a single layer.\n4.  **Broil:** Place under the broiler for 4-6 minutes, shaking the pan once halfway through. Watch carefully -- the tips should be charred and blistered, and the stems should be tender-crisp with bright green color.\n5.  **Finish:** Remove from oven. Immediately shower with grated Parmesan (it will melt slightly from the residual heat), lemon zest, lemon juice, and flaky sea salt. Serve within minutes -- asparagus does not wait well.\n",
+    "after": "\n## Chef's Note\n\nBroiling gives the tips color quickly, so check the thicker stems separately. Garlic can darken before the asparagus softens; watch the pan and move it farther from the element if needed. Add the full Parmesan and lemon finish after broiling.\n\n## Directions\n\n1. **Preheat:** Set the broiler to high and use a rimmed metal baking sheet and foil suitable for broiling. Follow the appliance’s rack-clearance instructions; the original 4–6-inch distance is a starting context only if permitted. Do not use parchment or an unrated glass pan under the broiler.\n\n2. **Prepare:** Wash and dry the asparagus. Trim the dry, woody ends; test a cut end and trim farther if it is fibrous. Keep similar-thickness spears together; thick stems take longer than pencil-thin ones.\n\n3. **Season:** Toss all asparagus with all the measured olive oil and grated garlic, plus the listed kosher salt and black pepper. Spread in a single layer with space, using additional sheets or batches if needed. Divide the same oil and garlic between them.\n\n4. **Broil:** Broil about 4–6 minutes for the original medium-thick spears, turning with tongs halfway through. Check frequently: tips should have charred patches and stems should yield to a fork while retaining some bite. Pull thin spears sooner; lower the pan or reduce heat if garlic burns before stems soften.\n\n5. **Finish:** Divide all the Parmesan, lemon zest and lemon juice over the hot asparagus, then add the unmeasured finishing flaky salt to taste. Serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "VP01",
+      "rationale": "No recorded evidence establishes geographic invention; preserve all cuisine/style labels.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "id": "VP02",
+      "rationale": "fd4 first Git and later history retain all current quantities. No named publisher or evidence for Italy as geographic invention is present; cuisine/style remain. Broiler placement is model-specific, not a universal safe distance.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "id": "VP03",
+      "rationale": "fd4 first Git and later history retain all current quantities. No named publisher or evidence for Italy as geographic invention is present; cuisine/style remain. Broiler placement is model-specific, not a universal safe distance.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "id": "VP04",
+      "rationale": "fd4 first Git and later history retain all current quantities. No named publisher or evidence for Italy as geographic invention is present; cuisine/style remain. Broiler placement is model-specific, not a universal safe distance.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "id": "VP05",
+      "rationale": "Legacy numerical estimates have no verified product weights/finished-yield analysis; no manufactured replacement.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "id": "VP06",
+      "rationale": "fd4 first Git and later history retain all current quantities. No named publisher or evidence for Italy as geographic invention is present; cuisine/style remain. Broiler placement is model-specific, not a universal safe distance.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "id": "VP07",
+      "rationale": "fd4 first Git and later history retain all current quantities. No named publisher or evidence for Italy as geographic invention is present; cuisine/style remain. Broiler placement is model-specific, not a universal safe distance.",
+      "confidence": "High internal contradiction; moderate untested cooking sequence",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+        "evidence/charred-asparagus-with-parmesan-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "fd4 first Git and later history retain all current quantities. No named publisher or evidence for Italy as geographic invention is present; cuisine/style remain. Broiler placement is model-specific, not a universal safe distance.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Asparagus, woody ends snapped off",
+        "actualMethodDestination": "snapendsstep2;noexplicitwash;step3oil;step4broil",
+        "ambiguity": null
+      },
+      {
+        "text": "2 tbsp Extra-Virgin Olive Oil",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "2 cloves Garlic, finely grated on a Microplane",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "Kosher Salt and Black Pepper",
+        "actualMethodDestination": "unmeasuredstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "1/3 cup Parmesan, finely grated",
+        "actualMethodDestination": "allstep5",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tsp Lemon Zest",
+        "actualMethodDestination": "allstep5",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tbsp Fresh Lemon Juice",
+        "actualMethodDestination": "allstep5",
+        "ambiguity": null
+      },
+      {
+        "text": "Flaky Sea Salt for finishing",
+        "actualMethodDestination": "unmeasuredstep5",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 lb Asparagus, woody ends snapped off",
+        "destination": "washed/drytrim;step3coatstep4broil"
+      },
+      {
+        "text": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "fullstep3dividedpans"
+      },
+      {
+        "text": "2 cloves Garlic, finely grated on a Microplane",
+        "destination": "fullstep3dividedpans"
+      },
+      {
+        "text": "Kosher Salt and Black Pepper",
+        "destination": "unmeasuredstep3"
+      },
+      {
+        "text": "1/3 cup Parmesan, finely grated",
+        "destination": "fullstep5"
+      },
+      {
+        "text": "1 tsp Lemon Zest",
+        "destination": "fullstep5"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon Juice",
+        "destination": "fullstep5"
+      },
+      {
+        "text": "Flaky Sea Salt for finishing",
+        "destination": "unmeasuredstep5"
+      }
+    ],
+    "methodOnlyAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Preheat: Set the broiler to high and use a rimmed metal baking sheet and foil suitable for broiling. Follow the appliance’s rack-clearance instructions; the original 4–6-inch distance is a starting context only if permitted. Do not use parchment or an unrated glass pan under the broiler."
+    },
+    {
+      "step": 2,
+      "text": "Prepare: Wash and dry the asparagus. Trim the dry, woody ends; test a cut end and trim farther if it is fibrous. Keep similar-thickness spears together; thick stems take longer than pencil-thin ones."
+    },
+    {
+      "step": 3,
+      "text": "Season: Toss all asparagus with all the measured olive oil and grated garlic, plus the listed kosher salt and black pepper. Spread in a single layer with space, using additional sheets or batches if needed. Divide the same oil and garlic between them."
+    },
+    {
+      "step": 4,
+      "text": "Broil: Broil about 4–6 minutes for the original medium-thick spears, turning with tongs halfway through. Check frequently: tips should have charred patches and stems should yield to a fork while retaining some bite. Pull thin spears sooner; lower the pan or reduce heat if garlic burns before stems soften."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Divide all the Parmesan, lemon zest and lemon juice over the hot asparagus, then add the unmeasured finishing flaky salt to taste. Serve promptly."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "shrimp-fettuccine-alfredo",
+      "chicken-marsala",
+      "baked-chicken-parmesan",
+      "baked-cod-with-lemon-panko"
+    ],
+    "scope": "Pairings are metadata, not ingredient substitutions or whole-meal approval",
+    "incomingMeals": [
+      {
+        "path": "src/content/meals/chicken-marsala-dinner.md",
+        "scope": "Currentmeal4servings callsbroiler5–7minutes; component approximate4–6startcheck compatible, notguaranteed. Actual chicken main50min and couscous30min contradict the meal’s25min cooking/10mincouscous claims. Four component portions align, but the meal timing/coordination remains separately unreviewed and unapproved."
+      }
+    ]
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Current4portionplan preserved; no measured servingweight/yield or actual pan capacity",
+    "capacity": "Singlelayer orroomytossing;extra vessels share all existing ingredients",
+    "timing": "learning.timing untested planning ranges;activepreparation/heating/batches explained"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Asparagus, woody ends snapped off",
+        "1/2 tbsp Extra-Virgin Olive Oil",
+        "1/2 clove Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "0.0833 cup Parmesan, finely grated",
+        "1/4 tsp Lemon Zest",
+        "1/4 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Asparagus, woody ends snapped off",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1 clove Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "1/6 cup Parmesan, finely grated",
+        "1/2 tsp Lemon Zest",
+        "1/2 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Asparagus, woody ends snapped off",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "2 cloves Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "1/3 cup Parmesan, finely grated",
+        "1 tsp Lemon Zest",
+        "1 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Asparagus, woody ends snapped off",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "3 cloves Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "1/2 cup Parmesan, finely grated",
+        "1 1/2 tsp Lemon Zest",
+        "1 1/2 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Asparagus, woody ends snapped off",
+        "4 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "2/3 cup Parmesan, finely grated",
+        "2 tsp Lemon Zest",
+        "2 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Asparagus, woody ends snapped off",
+        "6 tbsp Extra-Virgin Olive Oil",
+        "6 cloves Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "1 cup Parmesan, finely grated",
+        "3 tsp Lemon Zest",
+        "3 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Asparagus, woody ends snapped off",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "2 cloves Garlic, finely grated on a Microplane",
+        "Kosher Salt and Black Pepper",
+        "1/3 cup Parmesan, finely grated",
+        "1 tsp Lemon Zest",
+        "1 tbsp Fresh Lemon Juice",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual broiler clearance, power and pan rating require appliance verification.",
+    "Parmesan product determines strict vegetarian suitability; no brand assumed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

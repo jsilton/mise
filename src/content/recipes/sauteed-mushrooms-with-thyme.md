@@ -1,7 +1,6 @@
 ---
 miseId: 623b900f-c8f4-472c-865e-1155f2ed0e78
 title: Sauteed Mushrooms with Thyme
-origin: French
 difficulty: easy
 cookingMethods:
   - saute
@@ -29,9 +28,9 @@ nutritionalDensity: light
 leftovers: good
 equipment:
   - large-skillet
-prepTime: 10 min
-cookTime: 12 min
-totalTime: 22 min
+prepTime: 10–15 min
+cookTime: 12–25 min
+totalTime: 25–40 min
 servings: '4'
 pairsWith:
   - chicken-marsala
@@ -47,28 +46,62 @@ ingredients:
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
   - '1 tbsp Fresh Parsley, chopped'
-nutrition:
-  calories: 110
-  protein: 0.5
-  carbs: 1
-  fat: 12
-  fiber: 0.5
-  sugar: 0
-  sodium: 640
+learning:
+  focus: Allow mushroom moisture to evaporate before judging browning
+  outcome: Browned mushrooms coated in the full thyme-garlic butter with a lightly reduced wine finish.
+  techniques:
+    - browning
+    - seasoning
+  before:
+    - 'Surface drying matters for browning; a brief rinse is permitted, followed by drying.'
+    - >-
+      Plan sequential single-layer rounds for the actual pan and divide the same listed oil across
+      them. Full butter belongs to the final aromatics stage.
+  checkpoints:
+    - step: 2
+      cue: A batch has browned surfaces and no standing watery puddle.
+      why: Released moisture must evaporate before the surface can brown effectively.
+  troubleshooting:
+    - problem: Mushrooms steam in a pool
+      cause: The batch was crowded or released more water than expected.
+      fix: >-
+        Spread out or cook smaller batches and allow liquid to evaporate; do not assume darker heat
+        alone will fix crowding.
+  timing: >-
+    Allow about 25–40 minutes including preparation and roughly two single-layer batches. Each
+    browning round is about 5–7 minutes plus the shared aromatics/deglaze finish; more rounds or
+    wetter mushrooms take longer. Actual pan capacity determines the clock.
+  storage: >-
+    Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or
+    1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being
+    served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept
+    separate when practical.
+  sources:
+    - title: Mise — original saved recipe
+      url: >-
+        https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/sauteed-mushrooms-with-thyme.md
+    - title: FDA — washing produce
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
+    - title: USDA FSIS — leftover handling
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-The single most common mistake with mushrooms is crowding the pan. Mushrooms are 90% water, and if they are piled on top of each other, they steam into rubbery, grey slabs instead of developing the deep golden sear you want. Work in batches if needed, give them space, and resist the urge to stir. The butter goes in at the end so it bastes and browns rather than burns, and a splash of sherry deglazes all those caramelized bits stuck to the pan -- that fond is pure flavor.
+A loose single layer gives mushroom surfaces room to brown. Divide the measured oil across the batches, then bring all mushrooms together for the full butter, garlic and thyme finish. Let the pan juices loosen with the sherry or wine rather than treating a thirty-second clock as complete evaporation.
 
 ## Directions
 
-1.  **Dry the Mushrooms:** Wipe mushrooms clean with a damp paper towel -- never wash them under running water. Slice into even 1/4-inch pieces. Make sure they are completely dry.
+1. **Prepare:** Clean mushrooms, using a brief rinse under running water if needed, then dry their surfaces well. Trim tough shiitake stems and tough oyster bases; slice usable mushrooms into even roughly 1/4-inch pieces. Wash and dry the thyme and parsley.
 
-2.  **Sear in Batches:** Heat olive oil in a large skillet over high heat until shimmering. Add mushrooms in a single layer, working in batches to avoid crowding. Cook undisturbed for 3-4 minutes until deep golden brown on the bottom. Flip and cook another 2-3 minutes. Transfer to a plate and repeat with remaining mushrooms.
+2. **Brown in batches:** Divide the listed olive oil across the number of batches your skillet needs. Heat a share over medium-high heat until shimmering, not smoking; add a loose single layer of mushrooms. Cook undisturbed about 3–4 minutes until the underside browns, then turn and cook about 2–3 minutes. If released liquid pools, let it evaporate before judging browning. Transfer to a plate and repeat with remaining mushrooms and shares of the same oil; do not spend the full oil amount anew each round.
 
-3.  **Add Butter and Aromatics:** Return all mushrooms to the skillet and reduce heat to medium. Add butter, garlic, and thyme leaves. Toss constantly for 1-2 minutes as the butter foams and the garlic turns golden.
+3. **Butter and aromatics:** Return all mushrooms and their collected juices to the pan; use more vessels if needed for tossing and divide the measured finish among them. Reduce heat to medium. Add all butter, garlic and thyme leaves. Toss about 1–2 minutes until garlic is fragrant and lightly golden; lower heat if butter or garlic darkens quickly.
 
-4.  **Deglaze:** Pour in the sherry or white wine. It will sizzle and evaporate in about 30 seconds, lifting all the browned bits from the pan. Season with salt and pepper.
+4. **Deglaze:** Add all the measured sherry or white wine. Stir and scrape loosened browned bits until the sharp wine aroma mellows and no free puddle remains; about 30 seconds is an initial check, not a guarantee of complete evaporation or alcohol removal. Add all measured salt and black pepper.
 
-5.  **Finish:** Remove from heat, scatter with fresh parsley, and serve immediately. These are best straight from the pan.
+5. **Finish:** Remove from heat and distribute all parsley over the mushrooms. Serve promptly.

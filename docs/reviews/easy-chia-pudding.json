@@ -1,0 +1,500 @@
+{
+  "slug": "easy-chia-pudding",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "39d9ee5c0ac77dc390d738bf6f081073e709db462bdbc1bb225ef8c066bf0bd9",
+  "acceptedSourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["blend"],
+      "after": ["no-cook"]
+    },
+    {
+      "field": "cookTime",
+      "before": "120 min",
+      "after": "0 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "130 min",
+      "after": "2 hr 10 min"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 165,
+        "protein": 0,
+        "carbs": 14,
+        "fat": 11.5,
+        "fiber": 0,
+        "sugar": 13,
+        "sodium": 90
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Break up early seed clumps before the refrigerated set",
+        "outcome": "Evenly thick, spoonable pudding with no dry pockets of seeds.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Use chia seeds and choose within the listed 3–4 tbsp range for the original cup of milk; products and milk composition vary.",
+          "The milk/sweetener choices are alternatives, not combined doses. Unmeasured toppings and adjustment allowances are separate from the base."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No dry seed pockets remain at the bottom or around the jar.",
+            "why": "A second stir disperses clumps that formed while the surface of each seed began hydrating."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pudding stays thin",
+            "cause": "It needs more chilling time, or the seed/milk combination makes a thinner set.",
+            "fix": "Chill longer first. If needed follow the proportional additional-seed allowance and return it to the refrigerator; do not wait with the dairy on the counter."
+          }
+        ],
+        "timing": "The original 2 hr 10 min plan includes 10 minutes preparation and at least 2 hours refrigerated setting. Overnight adds elapsed time; adjustment can add 30 minutes or longer. No heat-cooking or blending stage occurs in this recipe.",
+        "storage": "Keep pudding covered at 40°F / 4°C or below and follow the shortest remaining storage limit of the milk and other ingredients; mixing does not reset those clocks. Store fruit and crunchy toppings separately when practical.",
+        "sources": [
+          {
+            "title": "Adapted from eatingbirdfood.com",
+            "url": "https://www.eatingbirdfood.com/basic-chia-seed-pudding/"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FDA — cold holding and perishable food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Vanilla extract",
+            "alternative": "Omit it while keeping all other base amounts.",
+            "effect": "Vanilla changes the aroma; all other amounts stay the same."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nStir chia seeds into milk, wait 5 minutes, then stir again before refrigerating. This second stir breaks up clumps that form as the seeds' outer layer begins to gel, creating uniform pudding texture. For silkier texture, see [Chocolate Chia Pudding](/mise/recipes/chocolate-chia-pudding).\n\n## Directions\n\n1.  **Combine:** In a mason jar or bowl, whisk together the chia seeds, milk, maple syrup, and vanilla.\n2.  **The First Set:** Let the mixture sit at room temperature for 5 minutes.\n3.  **The Second Stir:** Stir or shake the jar vigorously one more time to break up any seed clumps. This is the critical step for even consistency.\n4.  **Chill:** Cover and refrigerate for **at least 2 hours** (ideally overnight).\n5.  **Adjust:** If the pudding is too thick, stir in a splash more milk. If too thin, add 1 tbsp more seeds and wait 30 minutes.\n6.  **Serve:** Top with fresh fruit and granola for a crunchy Crunch contrast.\n",
+    "after": "\n## Chef's Note\n\nStir the seeds into the full listed milk, wait five minutes, then stir again before refrigerating. The second stir breaks up early clumps. Three to four tablespoons seeds per cup of milk gives a range of thickness, and milk composition changes the result. For the separate blended chocolate recipe, see [Chocolate Chia Pudding](/mise/recipes/chocolate-chia-pudding); its ingredients and yield are different.\n\n## Directions\n\n1. **Combine:** In a bowl or jar with room to stir, whisk all the listed chia seeds, milk, chosen maple syrup or honey, and vanilla. The original batch uses 3–4 tbsp seeds per 1 cup milk; use the listed scaled quantities.\n\n2. **First set:** Let stand for 5 minutes before the second stir.\n\n3. **Stir again:** Stir thoroughly or close the jar securely and shake, then inspect the bottom and sides for clumps and break them up.\n\n4. **Chill:** Cover and refrigerate at 40°F / 4°C or below for at least 2 hours, preferably overnight, until the pudding is thick and spoonable.\n\n5. **Adjust:** If too thick, stir in a little additional milk. If still thin after sufficient chilling, add about 1 tbsp additional seeds at the original one-cup batch; adjust proportionally for another batch, stir and refrigerate for another 30 minutes or longer until thick. These adjustments are additions beyond the base formula, not a promise that every product sets at one exact time.\n\n6. **Serve:** Wash and drain fresh berries, then top the pudding with the listed berries, almond butter and prepared granola as wanted. These toppings are unmeasured allowances; keep granola separate until serving for crunch.\n"
+  },
+  "findings": [
+    {
+      "id": "CB01",
+      "rationale": "Exact boundnative/earlierHTML/045 preserves3–4tbsp/1cupmilk/½tbspsweetener/¼tspoptionalvanilla and unmeasurednutbutter/granola/fruit, oneportion. Current method omits honey choice and almondbutter destination, and leaves extra-seed30minwait ambiguous; source explicitly refrigerates. Main retains¼tspvanilla, with exact source omit-vanilla option separately. Modern publisher4tbsp/twoservings is not silently substituted. Mixing does not justify imported blender tag.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    },
+    {
+      "id": "CB02",
+      "rationale": "Exact boundnative/earlierHTML/045 preserves3–4tbsp/1cupmilk/½tbspsweetener/¼tspoptionalvanilla and unmeasurednutbutter/granola/fruit, oneportion. Current method omits honey choice and almondbutter destination, and leaves extra-seed30minwait ambiguous; source explicitly refrigerates. Main retains¼tspvanilla, with exact source omit-vanilla option separately. Modern publisher4tbsp/twoservings is not silently substituted. Mixing does not justify imported blender tag.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    },
+    {
+      "id": "CB03",
+      "rationale": "Exact boundnative/earlierHTML/045 preserves3–4tbsp/1cupmilk/½tbspsweetener/¼tspoptionalvanilla and unmeasurednutbutter/granola/fruit, oneportion. Current method omits honey choice and almondbutter destination, and leaves extra-seed30minwait ambiguous; source explicitly refrigerates. Main retains¼tspvanilla, with exact source omit-vanilla option separately. Modern publisher4tbsp/twoservings is not silently substituted. Mixing does not justify imported blender tag.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    },
+    {
+      "id": "CB04",
+      "rationale": "No recorded evidence establishes geographic invention; all style/cuisine/source credits remain.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    },
+    {
+      "id": "CB05",
+      "rationale": "Legacy estimates lack verified product weights and finished yield; no replacement fabricated.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    },
+    {
+      "id": "CB06",
+      "rationale": "Exact boundnative/earlierHTML/045 preserves3–4tbsp/1cupmilk/½tbspsweetener/¼tspoptionalvanilla and unmeasurednutbutter/granola/fruit, oneportion. Current method omits honey choice and almondbutter destination, and leaves extra-seed30minwait ambiguous; source explicitly refrigerates. Main retains¼tspvanilla, with exact source omit-vanilla option separately. Modern publisher4tbsp/twoservings is not silently substituted. Mixing does not justify imported blender tag.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    },
+    {
+      "id": "CB07",
+      "rationale": "Exact boundnative/earlierHTML/045 preserves3–4tbsp/1cupmilk/½tbspsweetener/¼tspoptionalvanilla and unmeasurednutbutter/granola/fruit, oneportion. Current method omits honey choice and almondbutter destination, and leaves extra-seed30minwait ambiguous; source explicitly refrigerates. Main retains¼tspvanilla, with exact source omit-vanilla option separately. Modern publisher4tbsp/twoservings is not silently substituted. Mixing does not justify imported blender tag.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-chia-pudding.md",
+        "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+        "evidence/easy-chia-pudding-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20Chia%20Pudding.html",
+    "introductionScope": "Actual earlier cooking HTML distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact boundnative/earlierHTML/045 preserves3–4tbsp/1cupmilk/½tbspsweetener/¼tspoptionalvanilla and unmeasurednutbutter/granola/fruit, oneportion. Current method omits honey choice and almondbutter destination, and leaves extra-seed30minwait ambiguous; source explicitly refrigerates. Main retains¼tspvanilla, with exact source omit-vanilla option separately. Modern publisher4tbsp/twoservings is not silently substituted. Mixing does not justify imported blender tag.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "3-4 tbsp Chia Seeds",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1range"
+      },
+      {
+        "text": "1 cup Milk of choice (Coconut or Almond preferred)",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1"
+      },
+      {
+        "text": "1/2 tbsp Maple Syrup or Honey",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "mapleonlystep1honeyomitted"
+      },
+      {
+        "text": "1/4 tsp Vanilla Extract",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep1currentmandatory"
+      },
+      {
+        "text": "Fresh Berries",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "step6"
+      },
+      {
+        "text": "Almond Butter",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": "No frozen almondbutter destination",
+        "actualMethodDestination": "nodestination"
+      },
+      {
+        "text": "[Granola](/mise/recipes/granola)",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "step6"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "3-4 tbsp Chia Seeds",
+        "destination": "allstep1rangechosen"
+      },
+      {
+        "text": "1 cup Milk of choice (Coconut or Almond preferred)",
+        "destination": "allstep1"
+      },
+      {
+        "text": "1/2 tbsp Maple Syrup or Honey",
+        "destination": "allstep1chooseone"
+      },
+      {
+        "text": "1/4 tsp Vanilla Extract",
+        "destination": "allstep1;sourceomitoption"
+      },
+      {
+        "text": "Fresh Berries",
+        "destination": "unmeasuredwashedstep6"
+      },
+      {
+        "text": "Almond Butter",
+        "destination": "unmeasuredstep6"
+      },
+      {
+        "text": "[Granola](/mise/recipes/granola)",
+        "destination": "unmeasuredpreparedstep6"
+      }
+    ],
+    "adjustmentAllowances": [
+      "Additionalmilk splash unmeasured",
+      "Approx1tbspadditionalchia ORIGINALonecup context, proportionalotherbatches, refrigerate30minorlonger"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Combine: In a bowl or jar with room to stir, whisk all the listed chia seeds, milk, chosen maple syrup or honey, and vanilla. The original batch uses 3–4 tbsp seeds per 1 cup milk; use the listed scaled quantities."
+    },
+    {
+      "step": 2,
+      "text": "First set: Let stand for 5 minutes before the second stir."
+    },
+    {
+      "step": 3,
+      "text": "Stir again: Stir thoroughly or close the jar securely and shake, then inspect the bottom and sides for clumps and break them up."
+    },
+    {
+      "step": 4,
+      "text": "Chill: Cover and refrigerate at 40°F / 4°C or below for at least 2 hours, preferably overnight, until the pudding is thick and spoonable."
+    },
+    {
+      "step": 5,
+      "text": "Adjust: If too thick, stir in a little additional milk. If still thin after sufficient chilling, add about 1 tbsp additional seeds at the original one-cup batch; adjust proportionally for another batch, stir and refrigerate for another 30 minutes or longer until thick. These adjustments are additions beyond the base formula, not a promise that every product sets at one exact time."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Wash and drain fresh berries, then top the pudding with the listed berries, almond butter and prepared granola as wanted. These toppings are unmeasured allowances; keep granola separate until serving for crunch."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Omit vanilla",
+      "scope": "Exactsavedoptional;main¼tspretained;allsameotheramounts"
+    },
+    {
+      "name": "Linked chocolate version",
+      "scope": "Separate6tbspchia/1cupalmondmilk/¼cupmaple/2tbspcocoa/1tspvanilla/⅛tspsalt blended3hr set,3servingclaim; not a drop-in formula or reviewed dependency"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["granola"],
+    "incomingMeals": [],
+    "granola": "Prepared/cool component only; linkedgranola35minpluscooling notincluded in breakfast clocks,6cupyieldclaim unverified; no whole-review status granted",
+    "chocolateChia": "Separate blenderformula, not instruction to blend thisbase; linkedrecipe remains independently pending"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "1",
+    "scope": "Original/current planning count, no actual finished volume or measured portion weight",
+    "capacity": "Additionalbowls/jars/toasterrounds withsame listed scaledamounts",
+    "timing": "learning.timing; chilling/freezing explicit elapsed, preparation active"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/4–1 tbsp Chia Seeds",
+        "1/4 cup Milk of choice (Coconut or Almond preferred)",
+        "1/8 tbsp Maple Syrup or Honey",
+        "0.0625 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 1/4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2–2 tbsp Chia Seeds",
+        "1/2 cup Milk of choice (Coconut or Almond preferred)",
+        "1/4 tbsp Maple Syrup or Honey",
+        "1/8 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 1/2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "3-4 tbsp Chia Seeds",
+        "1 cup Milk of choice (Coconut or Almond preferred)",
+        "1/2 tbsp Maple Syrup or Honey",
+        "1/4 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2–6 tbsp Chia Seeds",
+        "1 1/2 cups Milk of choice (Coconut or Almond preferred)",
+        "3/4 tbsp Maple Syrup or Honey",
+        "3/8 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 1 1/2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "6–8 tbsp Chia Seeds",
+        "2 cups Milk of choice (Coconut or Almond preferred)",
+        "1 tbsp Maple Syrup or Honey",
+        "1/2 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "9–12 tbsp Chia Seeds",
+        "3 cups Milk of choice (Coconut or Almond preferred)",
+        "1 1/2 tbsp Maple Syrup or Honey",
+        "3/4 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 3",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "3-4 tbsp Chia Seeds",
+        "1 cup Milk of choice (Coconut or Almond preferred)",
+        "1/2 tbsp Maple Syrup or Honey",
+        "1/4 tsp Vanilla Extract",
+        "Fresh Berries",
+        "Almond Butter",
+        "[Granola](/mise/recipes/granola)"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Chosen milk product, chia freshness and final thickness are untested.",
+    "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+    "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

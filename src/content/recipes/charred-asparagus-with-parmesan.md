@@ -1,7 +1,6 @@
 ---
 miseId: e2dfbc1d-c503-47a8-98d6-f9d80322779f
 title: Charred Asparagus with Parmesan
-origin: Italy
 difficulty: easy
 cookingMethods:
   - broil
@@ -21,9 +20,9 @@ cuisines:
   - Mediterranean
 role: side
 vibe: quick
-prepTime: 5 min
-cookTime: 6 min
-totalTime: 11 min
+prepTime: 5–10 min
+cookTime: 4–8 min
+totalTime: 10–20 min
 servings: '4'
 seasons:
   - spring
@@ -45,24 +44,71 @@ ingredients:
   - 1 tsp Lemon Zest
   - 1 tbsp Fresh Lemon Juice
   - Flaky Sea Salt for finishing
-nutrition:
-  calories: 75
-  protein: 1
-  carbs: 4.5
-  fat: 7
-  fiber: 1.5
-  sugar: 1
-  sodium: 580
+learning:
+  focus: Match broiler browning to asparagus-stem tenderness
+  outcome: >-
+    Charred patches on the tips, tender-crisp stems and a full Parmesan-lemon
+    finish.
+  techniques:
+    - browning
+    - seasoning
+  before:
+    - >-
+      Use a broiler-rated rimmed metal sheet and the appliance’s permitted
+      clearance.
+    - >-
+      Match spear thickness within each batch; pan dimensions and broiler clocks
+      do not scale.
+  checkpoints:
+    - step: 4
+      cue: The thicker stems yield to a fork before the garlic blackens.
+      why: Brown tips alone do not show whether the stems are tender.
+  troubleshooting:
+    - problem: Garlic burns before stems soften
+      cause: The pan is too close to the element or spears are thick.
+      fix: >-
+        Move the pan farther away and continue with gentler heat. Bitter
+        blackened garlic cannot be repaired.
+  timing: >-
+    Allow about 10–20 minutes including broiler heating and preparation for one
+    sheet. Original 4–6 minutes is for medium-thick spears; extra sheets or
+    sequential rounds extend elapsed time.
+  storage: >-
+    Best served promptly for texture. Refrigerate leftovers in shallow
+    containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or
+    below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C
+    throughout. Stored vegetables soften; crunchy toppings are best kept
+    separate when practical.
+  sources:
+    - title: Mise — original saved recipe
+      url: >-
+        https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/charred-asparagus-with-parmesan.md
+    - title: FDA — washing produce
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+    - title: USDA FSIS — leftover handling
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - title: Reynolds — parchment is not for broiling
+      url: >-
+        https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-The broiler is the most underused tool for vegetables. It delivers restaurant-quality char in a fraction of the time that roasting takes, and asparagus is the ideal candidate because the spears lie flat and cook in minutes. The key is positioning the oven rack 4-6 inches from the element and watching constantly -- the line between perfectly blistered and burnt is about 60 seconds. Grating garlic on a Microplane creates a paste that melts into the oil, distributing flavor evenly without any raw garlic chunks.
+Broiling gives the tips color quickly, so check the thicker stems separately. Garlic can darken before the asparagus softens; watch the pan and move it farther from the element if needed. Add the full Parmesan and lemon finish after broiling.
 
 ## Directions
 
-1.  **Preheat:** Set oven broiler to high. Position an oven rack 4-6 inches from the heating element. Line a baking sheet with foil.
-2.  **Prep:** Snap the woody ends off each asparagus spear by bending from the bottom -- they break naturally at the right point. Choose medium-thick spears; pencil-thin ones burn too quickly under a broiler.
-3.  **Season:** Toss asparagus on the sheet with olive oil, grated garlic, salt, and pepper. Spread in a single layer.
-4.  **Broil:** Place under the broiler for 4-6 minutes, shaking the pan once halfway through. Watch carefully -- the tips should be charred and blistered, and the stems should be tender-crisp with bright green color.
-5.  **Finish:** Remove from oven. Immediately shower with grated Parmesan (it will melt slightly from the residual heat), lemon zest, lemon juice, and flaky sea salt. Serve within minutes -- asparagus does not wait well.
+1. **Preheat:** Set the broiler to high and use a rimmed metal baking sheet and foil suitable for broiling. Follow the appliance’s rack-clearance instructions; the original 4–6-inch distance is a starting context only if permitted. Do not use parchment or an unrated glass pan under the broiler.
+
+2. **Prepare:** Wash and dry the asparagus. Trim the dry, woody ends; test a cut end and trim farther if it is fibrous. Keep similar-thickness spears together; thick stems take longer than pencil-thin ones.
+
+3. **Season:** Toss all asparagus with all the measured olive oil and grated garlic, plus the listed kosher salt and black pepper. Spread in a single layer with space, using additional sheets or batches if needed. Divide the same oil and garlic between them.
+
+4. **Broil:** Broil about 4–6 minutes for the original medium-thick spears, turning with tongs halfway through. Check frequently: tips should have charred patches and stems should yield to a fork while retaining some bite. Pull thin spears sooner; lower the pan or reduce heat if garlic burns before stems soften.
+
+5. **Finish:** Divide all the Parmesan, lemon zest and lemon juice over the hot asparagus, then add the unmeasured finishing flaky salt to taste. Serve promptly.

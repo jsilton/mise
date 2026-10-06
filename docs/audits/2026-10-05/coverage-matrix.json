@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 358,
-    "completeEditorialPending": 285,
+    "recordedCompleteEditorial": 369,
+    "completeEditorialPending": 274,
     "originalBaseline": 612,
-    "originalReviewed": 337,
+    "originalReviewed": 348,
     "consideredConsolidations": 10,
-    "originalPending": 265,
+    "originalPending": 254,
     "additionalSources": 41,
     "additionalReviewed": 21,
     "additionalPending": 20,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 358,
+      "editoriallyReviewed": 369,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 533
+      "reviewItems": 511
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "124 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 358 recorded complete / 285 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [637ba745](https://github.com/jsilton/mise/commit/637ba74500734929ec1a2ce3b64a87eff3cb168d), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37415810570) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "124 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -780,18 +780,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -799,19 +788,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/avocado-toast.md",
+        "acceptedSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/avocado-toast.json",
+        "sourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2023,18 +2018,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2042,19 +2026,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/blistered-shishito-peppers.md",
+        "acceptedSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/blistered-shishito-peppers.json",
+        "sourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3902,18 +3892,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3921,19 +3900,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/charred-asparagus-with-parmesan.md",
+        "acceptedSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/charred-asparagus-with-parmesan.json",
+        "sourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9056,18 +9041,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/breakfast-popsicles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9075,19 +9049,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/easy-breakfast-yogurt-popsicles.md",
+        "acceptedSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/easy-breakfast-yogurt-popsicles.json",
+        "sourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9103,18 +9083,7 @@
       "baseline": "original canonical",
       "source": "Adapted from eatingbirdfood.com",
       "sourceUrl": "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9122,19 +9091,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/easy-chia-pudding.md",
+        "acceptedSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/easy-chia-pudding.json",
+        "sourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11001,18 +10977,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11020,19 +10985,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/garlic-butter-green-beans.md",
+        "acceptedSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/garlic-butter-green-beans.json",
+        "sourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11492,18 +11463,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11511,19 +11471,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/garlicky-lemon-kale-with-carrots.md",
+        "acceptedSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/garlicky-lemon-kale-with-carrots.json",
+        "sourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12322,18 +12289,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12341,19 +12297,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/greek-yogurt-bowl.md",
+        "acceptedSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/greek-yogurt-bowl.json",
+        "sourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Granola composition and gluten-free certification are product-specific.",
+        "Actual chia topping texture changes with standing time; no exact crunchy-hold claim."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15574,18 +15536,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15593,19 +15544,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/lemon-garlic-broccolini.md",
+        "acceptedSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/lemon-garlic-broccolini.json",
+        "sourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20980,18 +20937,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20999,19 +20945,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/ricotta-toast-with-honey.md",
+        "acceptedSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/ricotta-toast-with-honey.json",
+        "sourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22185,18 +22137,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -22204,19 +22145,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/sauteed-mushrooms-with-thyme.md",
+        "acceptedSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sauteed-mushrooms-with-thyme.json",
+        "sourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet size, number of batches and mixed mushroom yield need kitchen measurements.",
+        "One tablespoon oil divided across batches may be a very thin film; do not add an unsupported extra dose automatically.",
+        "No alcohol-free claim is supported by the short wine finish."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

@@ -1,0 +1,409 @@
+{
+  "slug": "avocado-toast",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "0ecd3b590bcca5addf631be4aef54c76ea4c269752732d278a163cd1e52922bb",
+  "acceptedSourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Australia",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 200,
+        "protein": 5,
+        "carbs": 25,
+        "fat": 9.5,
+        "fiber": 3.5,
+        "sugar": 2,
+        "sodium": 1390
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a crisp toast base beneath a rough avocado mash",
+        "outcome": "Sturdy, crunchy-edged toast with chunky citrus-seasoned avocado.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Toast only as many slices as the toaster holds; larger batches need more rounds.",
+          "Prepare optional eggs and pickled onions ahead or add their preparation time. Wash fresh produce before cutting."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The toast supports the mash without becoming soggy before serving.",
+            "why": "Assembly at the end limits the bread’s contact with the moist topping."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Toast becomes soggy",
+            "cause": "It was assembled early or the bread was barely toasted.",
+            "fix": "Serve immediately now; next time toast firmly and assemble just before eating."
+          }
+        ],
+        "timing": "The original 8-minute plan assumes ready toppings and one toaster round. Washing, preparing eggs or pickled onions and extra toast rounds add time.",
+        "storage": "Best assembled just before eating. Refrigerate leftover avocado mixture promptly at 40°F / 4°C or below in a covered container; contact with air changes color. Follow the remaining storage limits of each topping, including cooked eggs; mixing does not reset them. Keep bread separate.",
+        "sources": [
+          {
+            "title": "Mise — Avocado Toast",
+            "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/avocado-toast.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FDA — cold holding and perishable food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — egg preparation and treated eggs",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nAvocado toast is only as good as its two main ingredients: the bread and the avocado. The bread must be thick-cut and toasted until genuinely crunchy -- a soft, floppy base turns to mush under the weight of the avocado. Sourdough is ideal because its tangy flavor and sturdy crumb provide a counterpoint to the rich, buttery avocado. The avocado should be ripe (yields to gentle pressure but is not mushy) and roughly mashed with a fork rather than pureed smooth -- you want texture and variation in every bite. Acid (lemon or lime) and salt are non-negotiable; without them, avocado tastes flat.\n\n## Directions\n\n1.  **Toast:** Toast the bread until deeply golden and crunchy throughout -- not just colored on the surface. A proper toast should be rigid when held horizontally, not floppy.\n2.  **Prep the Avocado:** Halve the avocado, remove the pit, and scoop the flesh into a bowl. Add lemon juice and a generous pinch of flaky salt. Mash roughly with a fork, leaving some chunky pieces for texture. Do not make it smooth like guacamole.\n3.  **Assemble:** Divide the avocado between the two toasts, spreading it to the edges in a thick, even layer.\n4.  **Season:** Drizzle with olive oil. Sprinkle with flaky sea salt and red pepper flakes.\n5.  **Top (Optional):** Add any combination of toppings: a halved soft-boiled egg, sliced radishes, cherry tomato halves, pickled red onions, microgreens, or everything bagel seasoning.\n6.  **Serve:** Eat immediately. Avocado toast does not wait -- it oxidizes and the bread softens within minutes.\n",
+    "after": "\n## Chef's Note\n\nRipe avocado should yield gently under pressure. Mash it roughly with the full listed citrus juice, then spread it on sturdy, deeply golden toast. Add the oil drizzle and chosen toppings at serving so the bread keeps its crunch.\n\n## Directions\n\n1. **Toast:** Toast all the listed bread slices until deeply golden with crisp edges and a sturdy surface, using the toaster’s suitable setting. Extra slices may need additional rounds.\n\n2. **Mash:** Wash and dry the avocado before cutting. Halve it, remove the pit and scoop all flesh into a bowl. Add all the listed lemon or lime juice and some of the unmeasured flaky salt; mash with a fork, leaving some pieces.\n\n3. **Assemble:** Divide all the avocado mixture among the listed bread slices.\n\n4. **Season:** Drizzle the listed unmeasured olive oil over the toasts. Add flaky salt and red-pepper flakes to taste.\n\n5. **Choose toppings:** Add any desired listed toppings, preparing them separately: washed cherry tomatoes, radishes or microgreens, prepared pickled onions, everything-bagel seasoning, or an already-cooked egg. For ordinary shell eggs, cook whites and yolks until firm; if choosing the soft-yolk variation, use shell eggs treated by pasteurization or another approved Salmonella-control method. Cut cooked egg into portions for the toasts. Egg cooking time is separate from the toast clock.\n\n6. **Serve:** Serve promptly. The bread softens under the avocado and toppings; the avocado darkens with air exposure.\n"
+  },
+  "findings": [
+    {
+      "id": "CB01",
+      "rationale": "No recorded evidence establishes geographic invention; all style/cuisine/source credits remain.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/avocado-toast.md",
+        "evidence/avocado-toast-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
+      ]
+    },
+    {
+      "id": "CB02",
+      "rationale": "Legacy estimates lack verified product weights and finished yield; no replacement fabricated.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/avocado-toast.md",
+        "evidence/avocado-toast-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
+      ]
+    },
+    {
+      "id": "CB03",
+      "rationale": "fd4 original/current Git formula unchanged. No named publisher or evidence establishing Australian invention. Current optional soft-boiled egg remains as a treated-shell-egg variation alongside ordinary eggs cooked firm, scoped to FDA advice; no invented egg clock or zero-risk guarantee.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/avocado-toast.md",
+        "evidence/avocado-toast-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
+      ]
+    },
+    {
+      "id": "CB04",
+      "rationale": "fd4 original/current Git formula unchanged. No named publisher or evidence establishing Australian invention. Current optional soft-boiled egg remains as a treated-shell-egg variation alongside ordinary eggs cooked firm, scoped to FDA advice; no invented egg clock or zero-risk guarantee.",
+      "confidence": "High written correction; moderate untested timing/capacity",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/avocado-toast.md",
+        "evidence/avocado-toast-followed.diff"
+      ],
+      "sourceApplicability": "Saved/native wherebound and Git support exact quantities/variants; actual publishers apply only to cited preparation details. FDA applies only to produce washing/cold holding or explicit egg branch. None validates yield/taste/freezing or chia shelf life. Planning and sensory/capacity prose are editorial, not kitchen evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/avocado-toast.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "fd4 original/current Git formula unchanged. No named publisher or evidence establishing Australian invention. Current optional soft-boiled egg remains as a treated-shell-egg variation alongside ordinary eggs cooked firm, scoped to FDA advice; no invented egg clock or zero-risk guarantee.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "toaststep1"
+      },
+      {
+        "text": "1 large Ripe Avocado",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allfleshstep2/3noexplicitwash"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon or Lime Juice",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "allstep2lemonwordingomitslimechoice"
+      },
+      {
+        "text": "flaky sea salt",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "unmeasuredstep2and4"
+      },
+      {
+        "text": "Red Pepper Flakes",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "unmeasuredstep4"
+      },
+      {
+        "text": "Extra-Virgin Olive Oil for drizzling",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "unmeasureddrizzlestep4"
+      },
+      {
+        "text": "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions",
+        "destination": "Exact frozen Directions are retained in exactChanges.content.before; final allocation is separate",
+        "ambiguity": null,
+        "actualMethodDestination": "optionalstep5unqualifiedsoftboiledegg"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "destination": "alltoaststep1;listedcountscale"
+      },
+      {
+        "text": "1 large Ripe Avocado",
+        "destination": "washedallfleshstep2/3pitandskinremoved"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon or Lime Juice",
+        "destination": "allstep2chooselemonORlime"
+      },
+      {
+        "text": "flaky sea salt",
+        "destination": "unmeasuredstep2and4"
+      },
+      {
+        "text": "Red Pepper Flakes",
+        "destination": "unmeasuredstep4"
+      },
+      {
+        "text": "Extra-Virgin Olive Oil for drizzling",
+        "destination": "unmeasureddrizzlestep4"
+      },
+      {
+        "text": "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions",
+        "destination": "optionalstep5preparedseparately"
+      }
+    ],
+    "adjustmentAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Toast: Toast all the listed bread slices until deeply golden with crisp edges and a sturdy surface, using the toaster’s suitable setting. Extra slices may need additional rounds."
+    },
+    {
+      "step": 2,
+      "text": "Mash: Wash and dry the avocado before cutting. Halve it, remove the pit and scoop all flesh into a bowl. Add all the listed lemon or lime juice and some of the unmeasured flaky salt; mash with a fork, leaving some pieces."
+    },
+    {
+      "step": 3,
+      "text": "Assemble: Divide all the avocado mixture among the listed bread slices."
+    },
+    {
+      "step": 4,
+      "text": "Season: Drizzle the listed unmeasured olive oil over the toasts. Add flaky salt and red-pepper flakes to taste."
+    },
+    {
+      "step": 5,
+      "text": "Choose toppings: Add any desired listed toppings, preparing them separately: washed cherry tomatoes, radishes or microgreens, prepared pickled onions, everything-bagel seasoning, or an already-cooked egg. For ordinary shell eggs, cook whites and yolks until firm; if choosing the soft-yolk variation, use shell eggs treated by pasteurization or another approved Salmonella-control method. Cut cooked egg into portions for the toasts. Egg cooking time is separate from the toast clock."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve promptly. The bread softens under the avocado and toppings; the avocado darkens with air exposure."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["everyday-arugula-salad"],
+    "incomingMeals": [],
+    "chocolateChia": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "2",
+    "scope": "Original/current planning count, no actual finished volume or measured portion weight",
+    "capacity": "Additionalbowls/jars/toasterrounds withsame listed scaledamounts",
+    "timing": "learning.timing; chilling/freezing explicit elapsed, preparation active"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 slices Thick-Cut Sourdough or Rustic Bread",
+        "1/4 large Ripe Avocado",
+        "1/4 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 1/2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 slices Thick-Cut Sourdough or Rustic Bread",
+        "1/2 large Ripe Avocado",
+        "1/2 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "1 large Ripe Avocado",
+        "1 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 slices Thick-Cut Sourdough or Rustic Bread",
+        "1 1/2 large Ripe Avocados",
+        "1 1/2 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 3",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 slices Thick-Cut Sourdough or Rustic Bread",
+        "2 large Ripe Avocados",
+        "2 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 slices Thick-Cut Sourdough or Rustic Bread",
+        "3 large Ripe Avocados",
+        "3 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 slices Thick-Cut Sourdough or Rustic Bread",
+        "1 large Ripe Avocado",
+        "1 tbsp Fresh Lemon or Lime Juice",
+        "flaky sea salt",
+        "Red Pepper Flakes",
+        "Extra-Virgin Olive Oil for drizzling",
+        "Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual toaster cycle and bread thickness vary.",
+    "Optional topping amounts and egg-preparation time are not measured in the base recipe."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

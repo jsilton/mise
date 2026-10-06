@@ -1,0 +1,436 @@
+{
+  "slug": "blistered-shishito-peppers",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "18d41406fa01d69f5a30070a45df1552c9e9c2b12c7156d5cf8d7cdab35b1375",
+  "acceptedSourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Japanese",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "2 min",
+      "after": "2–5 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "5 min",
+      "after": "5–10 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "7 min",
+      "after": "7–15 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 105,
+        "protein": 3.5,
+        "carbs": 14,
+        "fat": 5,
+        "fiber": 4.5,
+        "sugar": 4.5,
+        "sodium": 640
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blister whole peppers without burning the entire surface",
+        "outcome": "Patchy blistered skins and still-juicy flesh with lemon, salt and sesame seeds.",
+        "techniques": ["browning", "seasoning"],
+        "before": [
+          "Dry the washed peppers well before putting them in hot oil.",
+          "A single layer is the capacity limit; additional batches use shares of the same oil and take extra time."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Dark blistered patches form while much of the skin remains green.",
+            "why": "Full blackening gives a different, bitter result; adjust heat before that stage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Peppers stay pale and wet",
+            "cause": "Water on the skins or a crowded pan reduced direct hot-pan contact.",
+            "fix": "Spread them out and let surface water evaporate; next time dry thoroughly and use smaller batches."
+          }
+        ],
+        "timing": "Allow roughly 7–15 minutes for washing, drying, heating and one batch. Each additional batch adds several minutes; the original five-minute cooking clock is a plan, not a limit.",
+        "storage": "Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept separate when practical.",
+        "sources": [
+          {
+            "title": "Mise — original saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "Lodge — oil smoking indicates excessive pan heat",
+            "url": "https://www.lodgecastiron.com/blogs/story/how-keep-food-sticking-cast-iron"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nShishito peppers are mild and sweet with the occasional spicy surprise -- roughly one in ten packs real heat, which makes eating them a fun gamble. The technique is dead simple: screaming hot pan, dry peppers, no oil until the last second. You want aggressive blistering and char on the skin while keeping the interior barely cooked. The whole process takes under five minutes, making this the fastest side dish in your arsenal.\n\n## Directions\n\n1.  **Heat the Pan:** Set a cast-iron skillet over high heat for 2 minutes until it just begins to smoke. You need the pan ripping hot for proper blistering.\n\n2.  **Blister:** Add the oil, then immediately add the shishito peppers in a single layer. Let them sit undisturbed for 60-90 seconds until the skins blister and blacken in spots. Toss once and cook another 60-90 seconds until charred on a second side.\n\n3.  **Season:** Transfer peppers immediately to a serving plate. Squeeze lemon over the top, sprinkle with flaky salt and sesame seeds.\n\n4.  **Serve:** Eat immediately while hot, picking them up by the stems. These do not hold well -- the texture goes soft within minutes.\n",
+    "after": "\n## Chef's Note\n\nDry peppers and a single layer let the skins blister before the flesh becomes soft. Heat varies from pepper to pepper; a mild batch does not guarantee that every pepper is mild. Eat the peppers while hot, holding the stems and leaving them behind.\n\n## Directions\n\n1. **Prepare and heat:** Wash the whole peppers under running water and dry thoroughly. Keep their stems on. Heat a cast-iron skillet over medium-high to high heat until hot, following the pan instructions; visible smoke is not required.\n\n2. **Blister:** Use enough pan space for one loose layer. Divide the listed oil and peppers among batches if necessary. Add each batch’s oil, then the peppers. Leave undisturbed about 60–90 seconds until blistered and dark in spots, then toss and cook another 60–90 seconds. Continue briefly if needed until the skins have several blistered patches; reduce heat if oil smokes or peppers blacken all over.\n\n3. **Season:** Transfer to a serving plate. Squeeze the listed lemon wedge over the peppers and distribute all the measured flaky salt and sesame seeds over the whole batch.\n\n4. **Serve:** Serve promptly, picking peppers up by their stems and leaving the stems behind. Earlier batches soften while later ones cook.\n"
+  },
+  "findings": [
+    {
+      "id": "VP01",
+      "rationale": "No recorded evidence establishes geographic invention; preserve all cuisine/style labels.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "id": "VP02",
+      "rationale": "First c96 had1lb/2tbspoil/unmeasuredsalt/lime and optionalsoy-sesame drizzle, then explicit b7f960 user-preference deletion. fd4 introduced the current8oz/1tbspoil/1tspflaky/1tspsesame/lemon recipe. Preserve current full formula; retain old source privately, not resurrect it as accepted variant. No external publisher is cited.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "id": "VP03",
+      "rationale": "First c96 had1lb/2tbspoil/unmeasuredsalt/lime and optionalsoy-sesame drizzle, then explicit b7f960 user-preference deletion. fd4 introduced the current8oz/1tbspoil/1tspflaky/1tspsesame/lemon recipe. Preserve current full formula; retain old source privately, not resurrect it as accepted variant. No external publisher is cited.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "id": "VP04",
+      "rationale": "First c96 had1lb/2tbspoil/unmeasuredsalt/lime and optionalsoy-sesame drizzle, then explicit b7f960 user-preference deletion. fd4 introduced the current8oz/1tbspoil/1tspflaky/1tspsesame/lemon recipe. Preserve current full formula; retain old source privately, not resurrect it as accepted variant. No external publisher is cited.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "id": "VP05",
+      "rationale": "Legacy numerical estimates have no verified product weights/finished-yield analysis; no manufactured replacement.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "id": "VP06",
+      "rationale": "First c96 had1lb/2tbspoil/unmeasuredsalt/lime and optionalsoy-sesame drizzle, then explicit b7f960 user-preference deletion. fd4 introduced the current8oz/1tbspoil/1tspflaky/1tspsesame/lemon recipe. Preserve current full formula; retain old source privately, not resurrect it as accepted variant. No external publisher is cited.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "id": "VP07",
+      "rationale": "First c96 had1lb/2tbspoil/unmeasuredsalt/lime and optionalsoy-sesame drizzle, then explicit b7f960 user-preference deletion. fd4 introduced the current8oz/1tbspoil/1tspflaky/1tspsesame/lemon recipe. Preserve current full formula; retain old source privately, not resurrect it as accepted variant. No external publisher is cited.",
+      "confidence": "High internal contradiction; moderate untested cooking sequence",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+        "evidence/blistered-shishito-peppers-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "First c96 had1lb/2tbspoil/unmeasuredsalt/lime and optionalsoy-sesame drizzle, then explicit b7f960 user-preference deletion. fd4 introduced the current8oz/1tbspoil/1tspflaky/1tspsesame/lemon recipe. Preserve current full formula; retain old source privately, not resurrect it as accepted variant. No external publisher is cited.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Shishito Peppers, left whole with stems on",
+        "actualMethodDestination": "Whole peppers with stems; Chef’s Note calls for dry peppers, but frozen Directions have no explicit wash/dry preparation step; blister step 2, hold stems to eat step 4.",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tbsp Neutral Oil (avocado or grapeseed)",
+        "actualMethodDestination": "allstep2onepan;batchesnotgiven",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tsp flaky sea salt",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tsp Sesame Seeds",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "1 lemon wedge, for squeezing",
+        "actualMethodDestination": "squeezestep3",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz Shishito Peppers, left whole with stems on",
+        "destination": "washed/driedwhole;step2batches;stemsdiscardaftereating"
+      },
+      {
+        "text": "1 tbsp Neutral Oil (avocado or grapeseed)",
+        "destination": "full1tbspdividedstep2batches"
+      },
+      {
+        "text": "1 tsp flaky sea salt",
+        "destination": "full1tspwholebatchstep3"
+      },
+      {
+        "text": "1 tsp Sesame Seeds",
+        "destination": "full1tspstep3"
+      },
+      {
+        "text": "1 lemon wedge, for squeezing",
+        "destination": "alllistedwedgejuice step3"
+      }
+    ],
+    "methodOnlyAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare and heat: Wash the whole peppers under running water and dry thoroughly. Keep their stems on. Heat a cast-iron skillet over medium-high to high heat until hot, following the pan instructions; visible smoke is not required."
+    },
+    {
+      "step": 2,
+      "text": "Blister: Use enough pan space for one loose layer. Divide the listed oil and peppers among batches if necessary. Add each batch’s oil, then the peppers. Leave undisturbed about 60–90 seconds until blistered and dark in spots, then toss and cook another 60–90 seconds. Continue briefly if needed until the skins have several blistered patches; reduce heat if oil smokes or peppers blacken all over."
+    },
+    {
+      "step": 3,
+      "text": "Season: Transfer to a serving plate. Squeeze the listed lemon wedge over the peppers and distribute all the measured flaky salt and sesame seeds over the whole batch."
+    },
+    {
+      "step": 4,
+      "text": "Serve: Serve promptly, picking peppers up by their stems and leaving the stems behind. Earlier batches soften while later ones cook."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["miso-salmon-with-bok-choy", "sticky-miso-salmon-bowl", "honey-sesame-chicken"],
+    "scope": "Pairings are metadata, not ingredient substitutions or whole-meal approval",
+    "incomingMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Current4portionplan preserved; no measured servingweight/yield or actual pan capacity",
+    "capacity": "Singlelayer orroomytossing;extra vessels share all existing ingredients",
+    "timing": "learning.timing untested planning ranges;activepreparation/heating/batches explained"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz Shishito Peppers, left whole with stems on",
+        "1/4 tbsp Neutral Oil (avocado or grapeseed)",
+        "1/4 tsp flaky sea salt",
+        "1/4 tsp Sesame Seeds",
+        "1/4 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz Shishito Peppers, left whole with stems on",
+        "1/2 tbsp Neutral Oil (avocado or grapeseed)",
+        "1/2 tsp flaky sea salt",
+        "1/2 tsp Sesame Seeds",
+        "1/2 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz Shishito Peppers, left whole with stems on",
+        "1 tbsp Neutral Oil (avocado or grapeseed)",
+        "1 tsp flaky sea salt",
+        "1 tsp Sesame Seeds",
+        "1 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz Shishito Peppers, left whole with stems on",
+        "1 1/2 tbsp Neutral Oil (avocado or grapeseed)",
+        "1 1/2 tsp flaky sea salt",
+        "1 1/2 tsp Sesame Seeds",
+        "1 1/2 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz Shishito Peppers, left whole with stems on",
+        "2 tbsp Neutral Oil (avocado or grapeseed)",
+        "2 tsp flaky sea salt",
+        "2 tsp Sesame Seeds",
+        "2 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz Shishito Peppers, left whole with stems on",
+        "3 tbsp Neutral Oil (avocado or grapeseed)",
+        "3 tsp flaky sea salt",
+        "3 tsp Sesame Seeds",
+        "3 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz Shishito Peppers, left whole with stems on",
+        "1 tbsp Neutral Oil (avocado or grapeseed)",
+        "1 tsp flaky sea salt",
+        "1 tsp Sesame Seeds",
+        "1 lemon wedge, for squeezing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual skillet diameter and number of rounds are unknown.",
+    "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,13 @@
+# Six vegetable sides and five cold breakfasts — complete editorial review
+
+All eleven complete recipes were read by the author, independently challenged and inspected by root against their full current/final cooking text, ingredient allocations, ratios, yield, pan or mold capacity, heat, doneness, elapsed/active time, resting or chilling, storage, scaling and linked-meal scope. Bounded corrections preserve original-batch qualifiers and complete lemon allocations; clarify mushroom batch arithmetic; retain both green-bean methods and every full measured fat, seasoning and topping; and restore the separate complete dairy-first popsicle variation alongside the current fruit-first method.
+
+Root independently rejoined the two exact original native recipes against existing private identities and the durable original archive, read all eleven retained canonical cooking introductions and both actual earlier cooking HTML entries, and inspected the explicit Shishito deletion/replacement decision. The other nine are honestly Git-only; later synchronized copies are not independent originals. Native identities, archives and photos stay private.
+
+The original chia range/one-portion plan differs from the modern publisher’s four-tablespoon/two-portion card; the saved formula remains. The popsicle publisher’s dairy-first filling order remains a distinct complete alternative, with all ingredients and both honey halves allocated. Its Jane at Baking-Ginger contribution is credited. Freezing and chilling are elapsed time, with firmness/thickness cues and product/mold limits rather than invented yields. A prepared granola dependency and all linked meals retain separate review status.
+
+Primary FDA produce, egg and cold-holding guidance was checked for the applicable handling stages; USDA’s primary cached leftovers text supports refrigerated-leftover/reheating guidance (direct fetch403), corroborated by FDA. Lodge and Reynolds manufacturer guidance supports heat and broiler-material cautions within actual appliance instructions. These sources do not certify recipes, kitchen timing, nutrition, product shelf life or absolute risk elimination.
+
+Independent whole reports and the final exact-field/byte-reversal check passed. Release-interface record aliases preserve every cooking value and exact paired full fields/body. No physical kitchen tests, actual print preview or native-app sync occurred.
+
+124 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync.

@@ -1,0 +1,129 @@
+{
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "changed": 11,
+  "unchanged": 632,
+  "protectedIdentities": 643,
+  "exactPairedFieldsAndBody": true,
+  "registerPromotions": 11,
+  "unrelatedReviewCreditPreserved": true,
+  "changedExportSchemas": 11,
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "blistered-shishito-peppers",
+      "acceptedSourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
+      "remainingQuestions": [
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
+      ]
+    },
+    {
+      "slug": "charred-asparagus-with-parmesan",
+      "acceptedSourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
+      "remainingQuestions": [
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
+      ]
+    },
+    {
+      "slug": "garlic-butter-green-beans",
+      "acceptedSourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
+      "remainingQuestions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "slug": "garlicky-lemon-kale-with-carrots",
+      "acceptedSourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
+      "remainingQuestions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "slug": "lemon-garlic-broccolini",
+      "acceptedSourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
+      "remainingQuestions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "slug": "sauteed-mushrooms-with-thyme",
+      "acceptedSourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699",
+      "remainingQuestions": [
+        "Actual skillet size, number of batches and mixed mushroom yield need kitchen measurements.",
+        "One tablespoon oil divided across batches may be a very thin film; do not add an unsupported extra dose automatically.",
+        "No alcohol-free claim is supported by the short wine finish."
+      ]
+    },
+    {
+      "slug": "avocado-toast",
+      "acceptedSourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
+      "remainingQuestions": [
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
+      ]
+    },
+    {
+      "slug": "ricotta-toast-with-honey",
+      "acceptedSourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
+      "remainingQuestions": [
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
+      ]
+    },
+    {
+      "slug": "greek-yogurt-bowl",
+      "acceptedSourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4",
+      "remainingQuestions": [
+        "Granola composition and gluten-free certification are product-specific.",
+        "Actual chia topping texture changes with standing time; no exact crunchy-hold claim."
+      ]
+    },
+    {
+      "slug": "easy-breakfast-yogurt-popsicles",
+      "acceptedSourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
+      "remainingQuestions": [
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
+      ]
+    },
+    {
+      "slug": "easy-chia-pudding",
+      "acceptedSourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
+      "remainingQuestions": [
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

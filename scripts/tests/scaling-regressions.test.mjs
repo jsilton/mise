@@ -269,7 +269,29 @@ test('six ambiguous count-leading equivalents retain their original quantities',
     const { data } = matter(
       fs.readFileSync(new URL(`../../src/content/recipes/${slug}.md`, import.meta.url), 'utf8')
     );
-    assert.ok(data.ingredients.includes(input), 'ambiguous source must remain unchanged');
+    if (slug === 'garlicky-lemon-kale-with-carrots') {
+      // Preserve both original ambiguous parser inputs below. The live ingredient
+      // now explicitly limits its cup/tablespoon estimate to the original batch.
+      const live = input.startsWith('1 large bunch')
+        ? '1 large bunch Kale (stems removed; about 8 cups chopped for the original batch)'
+        : '1/2 Lemon, juiced (about 2 tbsp juice for the original batch)';
+      assert.ok(data.ingredients.includes(live), 'original count and equivalent remain present');
+      const sourceQuantities = [...input.matchAll(number)].map((match) => numeric(match[0]));
+      assert.deepEqual(
+        [...live.matchAll(number)].map((match) => numeric(match[0])),
+        sourceQuantities
+      );
+      for (const factor of factors) {
+        const scaled = scaleIngredient(live, factor);
+        if (factor === 1) assert.equal(scaled, live, 'reset restores the current exact ingredient');
+        const actual = [...scaled.matchAll(number)].map((match) => numeric(match[0]));
+        assert.equal(actual.length, 2);
+        assert.ok(Math.abs(actual[0] - sourceQuantities[0] * factor) <= 0.005001);
+        assert.equal(actual[1], sourceQuantities[1], 'original-batch equivalent stays fixed');
+      }
+    } else {
+      assert.ok(data.ingredients.includes(input), 'ambiguous source must remain unchanged');
+    }
     const parentheses = input.match(/\([^)]*\)/g) || [];
     for (const factor of factors) {
       const output = scaleIngredient(input, factor);

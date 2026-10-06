@@ -1,0 +1,476 @@
+{
+  "slug": "garlic-butter-green-beans",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "9e5c0c5e1b4f487bbd070cdc9e1e10d2c2bd3f1d04ee4da327641086c698fad3",
+  "acceptedSourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "France",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "5–10 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "8 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "13 min",
+      "after": "15–30 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 415,
+        "protein": 12.5,
+        "carbs": 14.5,
+        "fat": 37.5,
+        "fiber": 7.5,
+        "sugar": 3,
+        "sodium": 1230
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate bean tenderness with a brief garlic-butter finish",
+        "outcome": "Tender-crisp beans coated in the full butter, with fragrant garlic and crisp toasted almonds.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Choose either the blanched or direct route before starting. Already-toasted almonds need no second toast.",
+          "The pan must allow tossing; more beans may need more skillets or rounds. Divide the listed butter and garlic across rounds."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A thick bean is tender enough to eat and the garlic is fragrant without blackened edges.",
+            "why": "Raw beans need longer than garlic; the direct route delays the garlic instead of exposing it to the full bean-cooking stage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Garlic is bitter while beans are tough",
+            "cause": "Garlic cooked for the whole raw-bean stage or the heat was too high.",
+            "fix": "Discard burned garlic if separable; next time use the direct sequence with garlic added last or blanch first."
+          }
+        ],
+        "timing": "Plan about 15–30 minutes for one roomy-pan batch, including boiling-water heating on the blanch route. Already-toasted almonds omit the optional 2–3-minute toast; multiple rounds and firmer raw beans take longer.",
+        "storage": "Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept separate when practical.",
+        "sources": [
+          {
+            "title": "Mise — original saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFrench cooks master this in two minutes - the trick is high heat and constant motion so the garlic perfumes the butter without browning and turning bitter. This is the sauté technique that works: start with cold butter and garlic together so the garlic gently infuses as the butter melts. The toasted almonds add crunch and nuttiness that keeps kids interested. Serve immediately so the beans stay bright green and the butter stays glossy.\n\n## Directions\n\n1. **Blanch (optional but smart):** Bring a large pot of salted water to a boil. Add green beans and cook for 3-4 minutes until barely tender-crisp. Drain and set aside. This step can be done ahead.\n2. **Toast Almonds:** In a large skillet over medium-low heat, toast the sliced almonds for 2-3 minutes, stirring often, until fragrant. Transfer to a plate.\n3. **Butter and Garlic:** Return skillet to medium heat. Add cold butter and thinly sliced garlic. Stir constantly for 60-90 seconds until the garlic is soft and fragrant but not browned. Smell it - you'll know when it's ready.\n4. **Combine:** Add the green beans (or fresh uncooked beans if skipping the blanch step, cooking for 7-8 minutes over medium-high heat with constant tossing). Toss constantly for 1-2 minutes to coat with the garlic butter. Season with salt and pepper.\n5. **Finish:** Add the toasted almonds back in. Toss once more. Transfer to a serving dish and finish with flaky sea salt. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nCook the beans to the texture you want before the short garlic-butter finish. The blanched route keeps the garlic cooking brief; the direct route adds garlic only after the raw beans have softened. All the butter and toasted almonds stay in either route.\n\n## Directions\n\n1. **Prepare and blanch:** Wash and trim the beans. For the blanched route, bring a large pot of water to a boil and salt it to taste separately from the measured finishing salt. Cook beans about 3–4 minutes until barely tender-crisp, checking a thick bean; drain well. To prepare ahead, cool and refrigerate promptly as described below. For the direct route, skip the boiling water and continue with raw trimmed beans.\n\n2. **Prepare almonds:** Set aside the already-toasted sliced almonds. If starting with untoasted sliced almonds in the same listed amount, toast in the dry skillet over medium-low heat for about 2–3 minutes, stirring until fragrant and lightly golden; transfer to a plate.\n\n3. **Cook the chosen route:** For blanched beans, melt all the cold butter with the sliced garlic over medium heat, stirring about 60–90 seconds until fragrant without deep browning. Add drained beans and toss about 1–2 minutes until hot. For raw beans, melt all the butter over medium heat, add the beans first and cook, tossing, about 7–8 minutes or longer until a thick bean is tender enough to eat. Reduce heat if the butter darkens; then add all the garlic and toss about 60–90 seconds until fragrant. Use more skillets or rounds rather than crowding; divide the same butter and garlic among them.\n\n4. **Season:** Season the whole batch with all the measured kosher salt and black pepper. The separate blanching-water salt is an unmeasured preparation allowance, not part of this finishing amount.\n\n5. **Finish:** Toss in all the toasted almonds and transfer to a serving dish. Add the listed unmeasured flaky finishing salt to taste and serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "VP01",
+      "rationale": "No recorded evidence establishes geographic invention; preserve all cuisine/style labels.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "id": "VP02",
+      "rationale": "2a7 first Git already lists toasted almonds yet also toasts them, and offers raw beans7–8min at medium-high after garlic has softened. Retain both full-fat routes, clarify almond state and move garlic to the end only in the raw route. This sequence is an editorial mechanism correction, not a restored publisher formula.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "id": "VP03",
+      "rationale": "2a7 first Git already lists toasted almonds yet also toasts them, and offers raw beans7–8min at medium-high after garlic has softened. Retain both full-fat routes, clarify almond state and move garlic to the end only in the raw route. This sequence is an editorial mechanism correction, not a restored publisher formula.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "id": "VP04",
+      "rationale": "2a7 first Git already lists toasted almonds yet also toasts them, and offers raw beans7–8min at medium-high after garlic has softened. Retain both full-fat routes, clarify almond state and move garlic to the end only in the raw route. This sequence is an editorial mechanism correction, not a restored publisher formula.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "id": "VP05",
+      "rationale": "Legacy numerical estimates have no verified product weights/finished-yield analysis; no manufactured replacement.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "id": "VP06",
+      "rationale": "2a7 first Git already lists toasted almonds yet also toasts them, and offers raw beans7–8min at medium-high after garlic has softened. Retain both full-fat routes, clarify almond state and move garlic to the end only in the raw route. This sequence is an editorial mechanism correction, not a restored publisher formula.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    },
+    {
+      "id": "VP07",
+      "rationale": "2a7 first Git already lists toasted almonds yet also toasts them, and offers raw beans7–8min at medium-high after garlic has softened. Retain both full-fat routes, clarify almond state and move garlic to the end only in the raw route. This sequence is an editorial mechanism correction, not a restored publisher formula.",
+      "confidence": "High internal contradiction; moderate untested cooking sequence",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+        "evidence/garlic-butter-green-beans-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/garlic-butter-green-beans.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "2a7 first Git already lists toasted almonds yet also toasts them, and offers raw beans7–8min at medium-high after garlic has softened. Retain both full-fat routes, clarify almond state and move garlic to the end only in the raw route. This sequence is an editorial mechanism correction, not a restored publisher formula.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1.5 lbs Fresh Green Beans, trimmed",
+        "actualMethodDestination": "optionalblanch3–4step1 ORraw7–8mediumhighstep4aftergarlic",
+        "ambiguity": null
+      },
+      {
+        "text": "3 tbsp Unsalted Butter",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "4 cloves Garlic, sliced thin",
+        "actualMethodDestination": "allstep3fragrantbeforebothbeanroutes",
+        "ambiguity": null
+      },
+      {
+        "text": "1/3 cup Sliced Almonds, toasted",
+        "actualMethodDestination": "listedalreadytoasted;step2drytoastsagain;step5all",
+        "ambiguity": "Already toasted ingredient but method toasts again"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "actualMethodDestination": "step4",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "actualMethodDestination": "step4",
+        "ambiguity": null
+      },
+      {
+        "text": "Flaky Sea Salt for finishing",
+        "actualMethodDestination": "step5",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1.5 lbs Fresh Green Beans, trimmed",
+        "destination": "washedtrim;blanchorrawexclusive step1/3"
+      },
+      {
+        "text": "3 tbsp Unsalted Butter",
+        "destination": "fullstep3;dividedrounds"
+      },
+      {
+        "text": "4 cloves Garlic, sliced thin",
+        "destination": "fullstep3;lateonlyrawroute"
+      },
+      {
+        "text": "1/3 cup Sliced Almonds, toasted",
+        "destination": "alreadytoastedallstep5;optionaluntoastedstep2"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "destination": "fullmeasuredstep4"
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "destination": "fullmeasuredstep4"
+      },
+      {
+        "text": "Flaky Sea Salt for finishing",
+        "destination": "unmeasuredstep5"
+      }
+    ],
+    "methodOnlyAllowances": [
+      "Water and salt for optional blanch; salt distinct from measuredfinishing½tsp, no invented dose"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare and blanch: Wash and trim the beans. For the blanched route, bring a large pot of water to a boil and salt it to taste separately from the measured finishing salt. Cook beans about 3–4 minutes until barely tender-crisp, checking a thick bean; drain well. To prepare ahead, cool and refrigerate promptly as described below. For the direct route, skip the boiling water and continue with raw trimmed beans."
+    },
+    {
+      "step": 2,
+      "text": "Prepare almonds: Set aside the already-toasted sliced almonds. If starting with untoasted sliced almonds in the same listed amount, toast in the dry skillet over medium-low heat for about 2–3 minutes, stirring until fragrant and lightly golden; transfer to a plate."
+    },
+    {
+      "step": 3,
+      "text": "Cook the chosen route: For blanched beans, melt all the cold butter with the sliced garlic over medium heat, stirring about 60–90 seconds until fragrant without deep browning. Add drained beans and toss about 1–2 minutes until hot. For raw beans, melt all the butter over medium heat, add the beans first and cook, tossing, about 7–8 minutes or longer until a thick bean is tender enough to eat. Reduce heat if the butter darkens; then add all the garlic and toss about 60–90 seconds until fragrant. Use more skillets or rounds rather than crowding; divide the same butter and garlic among them."
+    },
+    {
+      "step": 4,
+      "text": "Season: Season the whole batch with all the measured kosher salt and black pepper. The separate blanching-water salt is an unmeasured preparation allowance, not part of this finishing amount."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Toss in all the toasted almonds and transfer to a serving dish. Add the listed unmeasured flaky finishing salt to taste and serve promptly."
+    }
+  ],
+  "variantLedgers": {
+    "exclusiveRoutes": [
+      "Blanched3–4minthenbriefgarlicbutterfinish",
+      "Rawbeansfullbutterfirst7–8minorlongerthenallgarliclate"
+    ],
+    "almonds": "Alreadytoasted main; sameamountuntoasted optional drytoast"
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["chicken-piccata-unfried", "garlic-butter-shrimp", "baked-chicken-parmesan"],
+    "scope": "Pairings are metadata, not ingredient substitutions or whole-meal approval",
+    "incomingMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Current4portionplan preserved; no measured servingweight/yield or actual pan capacity",
+    "capacity": "Singlelayer orroomytossing;extra vessels share all existing ingredients",
+    "timing": "learning.timing untested planning ranges;activepreparation/heating/batches explained"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/8 lbs Fresh Green Beans, trimmed",
+        "3/4 tbsp Unsalted Butter",
+        "1 clove Garlic, sliced thin",
+        "0.0833 cup Sliced Almonds, toasted",
+        "1/8 tsp Kosher Salt",
+        "0.0625 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 lbs Fresh Green Beans, trimmed",
+        "1 1/2 tbsp Unsalted Butter",
+        "2 cloves Garlic, sliced thin",
+        "1/6 cup Sliced Almonds, toasted",
+        "1/4 tsp Kosher Salt",
+        "1/8 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1.5 lbs Fresh Green Beans, trimmed",
+        "3 tbsp Unsalted Butter",
+        "4 cloves Garlic, sliced thin",
+        "1/3 cup Sliced Almonds, toasted",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "2 1/4 lbs Fresh Green Beans, trimmed",
+        "4 1/2 tbsp Unsalted Butter",
+        "6 cloves Garlic, sliced thin",
+        "1/2 cup Sliced Almonds, toasted",
+        "3/4 tsp Kosher Salt",
+        "3/8 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "3 lbs Fresh Green Beans, trimmed",
+        "6 tbsp Unsalted Butter",
+        "8 cloves Garlic, sliced thin",
+        "2/3 cup Sliced Almonds, toasted",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 lbs Fresh Green Beans, trimmed",
+        "9 tbsp Unsalted Butter",
+        "12 cloves Garlic, sliced thin",
+        "1 cup Sliced Almonds, toasted",
+        "1 1/2 tsp Kosher Salt",
+        "3/4 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1.5 lbs Fresh Green Beans, trimmed",
+        "3 tbsp Unsalted Butter",
+        "4 cloves Garlic, sliced thin",
+        "1/3 cup Sliced Almonds, toasted",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+    "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

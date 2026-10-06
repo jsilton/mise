@@ -213,6 +213,18 @@
       "reviewer": "baking_editor",
       "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
       "status": "assigned; whole author/independent/root review pending"
+    },
+    "cold_salads_03": {
+      "slugs": [
+        "puffy-muffin-chicken-salad",
+        "mediterranean-grain-salad",
+        "vegan-caesar-pasta-salad",
+        "quick-pickled-cucumber-salad",
+        "mandarinpineapple-organge-salad"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -425,22 +437,26 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_breakfast_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
           "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
-        }
+        },
+        "docs/reviews/avocado-toast.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual toaster cycle and bread thickness vary.",
+        "Optional topping amounts and egg-preparation time are not measured in the base recipe."
       ],
       "inputSha256": "0ecd3b590bcca5addf631be4aef54c76ea4c269752732d278a163cd1e52922bb",
       "plannedBatch": "context-screening-01",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending"
+      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "acceptedSourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
+      "productionVerification": "pending"
     },
     {
       "slug": "babys-first-smash-cake",
@@ -861,17 +877,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/blistered-shishito-peppers.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet diameter and number of rounds are unknown.",
+        "Original c96 recipe was explicitly removed for user preference at b7f960, then reintroduced with a different formula at fd4. Do not automatically restore its optional soy/sesame/lime branch."
       ],
       "inputSha256": "18d41406fa01d69f5a30070a45df1552c9e9c2b12c7156d5cf8d7cdab35b1375",
       "plannedBatch": "roast-grill-and-sear-01",
       "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
-      "owner": "coverage_check"
+      "owner": "coverage_check",
+      "acceptedSourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
+      "productionVerification": "pending"
     },
     {
       "slug": "blueberry-baked-oatmeal",
@@ -1646,17 +1667,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/charred-asparagus-with-parmesan.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual broiler clearance, power and pan rating require appliance verification.",
+        "Parmesan product determines strict vegetarian suitability; no brand assumed."
       ],
       "inputSha256": "63533d5e85bd40337508420d0428f2f8510750c6747caa8c67c2d3afaeba94bc",
       "plannedBatch": "roast-grill-and-sear-01",
       "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
-      "owner": "coverage_check"
+      "owner": "coverage_check",
+      "acceptedSourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
+      "productionVerification": "pending"
     },
     {
       "slug": "charred-guacamole-with-pomegranate",
@@ -3156,22 +3182,26 @@
       "source": "Adapted from Iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/breakfast-popsicles/",
       "group": "cold_breakfast_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
           "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
-        }
+        },
+        "docs/reviews/easy-breakfast-yogurt-popsicles.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual mold volume, filled count and expansion gap remain unknown.",
+        "Freezer firmness time and granola texture require kitchen testing."
       ],
       "inputSha256": "9fb94b818e56caaecb1850606e98bc4e97a3f5c2b7b4fa7178607313f39edff2",
       "plannedBatch": "cold-preparations-01",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending"
+      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "acceptedSourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-chia-pudding",
@@ -3180,22 +3210,27 @@
       "source": "Adapted from eatingbirdfood.com",
       "sourceUrl": "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
       "group": "cold_breakfast_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
           "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
-        }
+        },
+        "docs/reviews/easy-chia-pudding.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Chosen milk product, chia freshness and final thickness are untested.",
+        "Saved/current one-serving plan differs from the modern publisher two-serving card; no measured portion weight is established.",
+        "Publisher storage claims differ within the page; no product-specific validated shelf life established."
       ],
       "inputSha256": "39d9ee5c0ac77dc390d738bf6f081073e709db462bdbc1bb225ef8c066bf0bd9",
       "plannedBatch": "context-screening-02",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending"
+      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "acceptedSourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
@@ -3780,17 +3815,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/garlic-butter-green-beans.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
+        "Actual blanching water volume/salt preference and pan capacity are unmeasured; no dose invented."
       ],
       "inputSha256": "9e5c0c5e1b4f487bbd070cdc9e1e10d2c2bd3f1d04ee4da327641086c698fad3",
       "plannedBatch": "context-screening-02",
       "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
-      "owner": "coverage_check"
+      "owner": "coverage_check",
+      "acceptedSourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
+      "productionVerification": "pending"
     },
     {
       "slug": "garlic-mashed-mock-potatoes",
@@ -3915,17 +3955,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/garlicky-lemon-kale-with-carrots.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
       ],
       "inputSha256": "2ea65585f70b53db5d8bd7b95d29a4fe4be6605c15ba93d4238d644d9eaa2694",
       "plannedBatch": "simmer-boil-and-steam-04",
       "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
-      "owner": "coverage_check"
+      "owner": "coverage_check",
+      "acceptedSourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
+      "productionVerification": "pending"
     },
     {
       "slug": "gefilte-fish-terrine",
@@ -4164,22 +4210,26 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_breakfast_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
           "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
-        }
+        },
+        "docs/reviews/greek-yogurt-bowl.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Granola composition and gluten-free certification are product-specific.",
+        "Actual chia topping texture changes with standing time; no exact crunchy-hold claim."
       ],
       "inputSha256": "1e90896a1a78ae007bbd3df9a92a373047434650991e2998a123f9077f673fa3",
       "plannedBatch": "cold-preparations-02",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending"
+      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "acceptedSourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4",
+      "productionVerification": "pending"
     },
     {
       "slug": "green-smoothie-for-kids-with-2-hidden-veggies",
@@ -5091,17 +5141,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/lemon-garlic-broccolini.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
       ],
       "inputSha256": "2ae47142363dd1b5c4cad08688b69f2d828236be294238aa96756199c8f548f3",
       "plannedBatch": "context-screening-03",
       "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
-      "owner": "coverage_check"
+      "owner": "coverage_check",
+      "acceptedSourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
+      "productionVerification": "pending"
     },
     {
       "slug": "lemon-miso-tofu-with-broccoli",
@@ -5173,8 +5228,8 @@
       "title": "Mandarin/Pineapple Orange Salad",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cold_salads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5182,7 +5237,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1ef61dd8cf9bf18618d995246ee624927f6d306c6f6ff2d2023c71df72e39c2f",
-      "plannedBatch": "simmer-boil-and-steam-06"
+      "plannedBatch": "simmer-boil-and-steam-06",
+      "reviewer": "coverage_check"
     },
     {
       "slug": "mango-rita-green-smoothie",
@@ -5316,8 +5372,8 @@
       "title": "Mediterranean Grain Salad",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cold_salads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5325,7 +5381,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9dea40f3f40facb219ba565832468a1e4674daa8d2c8e68dcd42a7db5f7b97b9",
-      "plannedBatch": "simmer-boil-and-steam-06"
+      "plannedBatch": "simmer-boil-and-steam-06",
+      "reviewer": "coverage_check"
     },
     {
       "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
@@ -6245,8 +6302,8 @@
       "title": "Puffy Muffin Chicken Salad",
       "source": "Adapted from Puffy Muffin",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cold_salads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6254,7 +6311,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "3642d67ca4a27d6f0a982dd86aaae97e3a7dd5f908e666daeab8d0878d51d8b1",
-      "plannedBatch": "simmer-boil-and-steam-08"
+      "plannedBatch": "simmer-boil-and-steam-08",
+      "reviewer": "coverage_check"
     },
     {
       "slug": "pumpkin-breakfast-cookies",
@@ -6373,8 +6431,8 @@
       "title": "Quick-Pickled Cucumber Salad",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cold_salads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6382,7 +6440,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6953927e2182af6cd49a47367fbd95c551003bd13b1acf0446eda43a93d42fac",
-      "plannedBatch": "context-screening-04"
+      "plannedBatch": "context-screening-04",
+      "reviewer": "coverage_check"
     },
     {
       "slug": "quick-wonton-soup",
@@ -6548,22 +6607,26 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_breakfast_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
           "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
-        }
+        },
+        "docs/reviews/ricotta-toast-with-honey.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
+        "Optional topping quantities remain unmeasured."
       ],
       "inputSha256": "0406d911700cf243f1149d50a7ecec8774d88a764e74cade4ad2fe6e6ae4f8d8",
       "plannedBatch": "cold-preparations-04",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending"
+      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "acceptedSourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-asparagus",
@@ -7035,17 +7098,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sauteed-mushrooms-with-thyme.md",
+        "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet size, number of batches and mixed mushroom yield need kitchen measurements.",
+        "One tablespoon oil divided across batches may be a very thin film; do not add an unsupported extra dose automatically.",
+        "No alcohol-free claim is supported by the short wine finish."
       ],
       "inputSha256": "a19d51ba23941041e67fb2ec372f3947fbdc3c6786e4e9e4a5b671f2d3396409",
       "plannedBatch": "context-screening-04",
       "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
-      "owner": "coverage_check"
+      "owner": "coverage_check",
+      "acceptedSourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699",
+      "productionVerification": "pending"
     },
     {
       "slug": "savory-oatmeal-with-egg",
@@ -8749,8 +8818,8 @@
       "title": "Vegan Caesar Pasta Salad",
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/",
-      "group": null,
-      "status": "queued",
+      "group": "cold_salads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8758,7 +8827,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1d2d9cf04d19ac5273ad86fa57ad3f1f308f6c84c5988005b7747954190c4ef4",
-      "plannedBatch": "roast-grill-and-sear-04"
+      "plannedBatch": "roast-grill-and-sear-04",
+      "reviewer": "coverage_check"
     },
     {
       "slug": "vegetable-minestrone",
@@ -9792,9 +9862,10 @@
   "statusCounts": {
     "production-verified": 124,
     "held": 16,
-    "proposed": 75,
-    "queued": 181,
-    "assigned": 11,
+    "proposed": 64,
+    "queued": 176,
+    "accepted": 11,
+    "assigned": 16,
     "held-awaiting-evidence": 2
   }
 }

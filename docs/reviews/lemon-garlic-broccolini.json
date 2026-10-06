@@ -1,0 +1,472 @@
+{
+  "slug": "lemon-garlic-broccolini",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "2ae47142363dd1b5c4cad08688b69f2d828236be294238aa96756199c8f548f3",
+  "acceptedSourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "5–10 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "8 min",
+      "after": "5–12 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "13 min",
+      "after": "10–25 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 110,
+        "protein": 1.5,
+        "carbs": 5,
+        "fat": 10.5,
+        "fiber": 1.5,
+        "sugar": 1,
+        "sodium": 610
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Judge stem tenderness separately from garlic color",
+        "outcome": "Tender-crisp broccolini with fragrant sliced garlic, lemon zest and juice.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Split very thick stalks rather than making all pieces wait for one thick stem.",
+          "Use shares of the full oil/garlic/flakes across additional vessels or rounds; the lemon splits between pan juice and serving wedges."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Thick stems yield to a fork while the garlic remains fragrant rather than black.",
+            "why": "Leaf browning is faster than stem softening, especially with thick broccolini."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Garlic darkens before stems soften",
+            "cause": "The heat is too high or stalk thickness is uneven.",
+            "fix": "Lower the heat and keep tossing. Discard burned garlic if separable; next time split thick stalks before cooking."
+          }
+        ],
+        "timing": "Plan about 10–25 minutes for preparation and one roomy batch. The original 3–4-minute broccolini stage is an early check, not a promise for every stem thickness. Extra rounds take longer.",
+        "storage": "Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept separate when practical.",
+        "sources": [
+          {
+            "title": "Mise — original saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nItalian cooks know the rule: bright greens stay bright only if cooked hot and fast. Broccolini (which is less sulfurous than broccoli) sautés in under 5 minutes over high heat with just garlic, oil, and lemon. The acid from the lemon cuts any bitterness and adds brightness that prevents the dish from feeling heavy. This is a classic preparation called 'garlicky greens' or sautéed spinach technique applied to broccolini - quick, elegant, and perfect for weeknight dinners.\n\n## Directions\n\n1. **Prep:** Zest the lemon and set zest aside. Cut the lemon into wedges for serving.\n2. **Heat:** Heat olive oil in a large skillet over medium-high heat. Add thinly sliced garlic and red pepper flakes. Sauté for 30-45 seconds until fragrant but not browned.\n3. **Add Broccolini:** Add the broccolini to the pan and toss constantly for 3-4 minutes until the stems are tender-crisp and some leaves are slightly browned. Season with salt and a pinch of black pepper.\n4. **Brightness:** Squeeze half the lemon juice over the broccolini and toss once more. Taste and adjust seasoning.\n5. **Finish:** Transfer to a serving dish. Garnish with lemon zest and serve immediately with lemon wedges on the side.\n",
+    "after": "\n## Chef's Note\n\nCheck broccolini at the thicker stems, where tenderness takes longer than the leaves suggest. Keep sliced garlic from darkening while you toss the greens. Zest the lemon first, use half for the pan finish and keep the other half as wedges.\n\n## Directions\n\n1. **Prepare:** Wash and dry the broccolini and lemon. Trim dry stalk ends and split unusually thick stems lengthwise so the pieces cook more evenly. Zest all the listed lemon and reserve all the zest. Set aside half of the listed lemon amount for squeezing and cut the other half into serving wedges.\n\n2. **Heat:** Heat all the measured olive oil in enough roomy skillets for uncrowded cooking over medium heat. Divide the same oil, garlic and flakes across vessels or rounds. Add sliced garlic and all red-pepper flakes and cook about 30–45 seconds until fragrant; do not let garlic blacken.\n\n3. **Cook broccolini:** Add all broccolini and toss about 3–4 minutes as an initial check. Continue until thick stems yield to a fork but retain some bite, adjusting heat down if garlic darkens. Thick stems can take longer. Season with all the measured kosher salt and the listed unmeasured black pepper.\n\n4. **Finish with juice:** Remove from heat and squeeze the reserved half of the listed lemon amount over the whole batch; toss. This is half the listed lemon amount, not an additional half beyond the serving wedges.\n\n5. **Serve:** Transfer to a serving dish, add all reserved zest and serve promptly with the wedges from the other half.\n"
+  },
+  "findings": [
+    {
+      "id": "VP01",
+      "rationale": "No recorded evidence establishes geographic invention; preserve all cuisine/style labels.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "id": "VP02",
+      "rationale": "2a7 first Git matches current formula; no external publisher or specific Italy-origin evidence. Full3tbspoil/fourgarlic/wholelemon/flake/salt retained. Clarify half-lemon allocation and variable thick-stem clock without inventing water or searing.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "id": "VP03",
+      "rationale": "2a7 first Git matches current formula; no external publisher or specific Italy-origin evidence. Full3tbspoil/fourgarlic/wholelemon/flake/salt retained. Clarify half-lemon allocation and variable thick-stem clock without inventing water or searing.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "id": "VP04",
+      "rationale": "2a7 first Git matches current formula; no external publisher or specific Italy-origin evidence. Full3tbspoil/fourgarlic/wholelemon/flake/salt retained. Clarify half-lemon allocation and variable thick-stem clock without inventing water or searing.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "id": "VP05",
+      "rationale": "Legacy numerical estimates have no verified product weights/finished-yield analysis; no manufactured replacement.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "id": "VP06",
+      "rationale": "2a7 first Git matches current formula; no external publisher or specific Italy-origin evidence. Full3tbspoil/fourgarlic/wholelemon/flake/salt retained. Clarify half-lemon allocation and variable thick-stem clock without inventing water or searing.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    },
+    {
+      "id": "VP07",
+      "rationale": "2a7 first Git matches current formula; no external publisher or specific Italy-origin evidence. Full3tbspoil/fourgarlic/wholelemon/flake/salt retained. Clarify half-lemon allocation and variable thick-stem clock without inventing water or searing.",
+      "confidence": "High internal contradiction; moderate untested cooking sequence",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+        "evidence/lemon-garlic-broccolini-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+        "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "2a7 first Git matches current formula; no external publisher or specific Italy-origin evidence. Full3tbspoil/fourgarlic/wholelemon/flake/salt retained. Clarify half-lemon allocation and variable thick-stem clock without inventing water or searing.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1.5 lbs Fresh Broccolini, trimmed",
+        "actualMethodDestination": "All broccolini step 3; frozen Directions contain no explicit wash or thick-stem splitting preparation.",
+        "ambiguity": null
+      },
+      {
+        "text": "3 tbsp Extra-Virgin Olive Oil",
+        "actualMethodDestination": "allstep2",
+        "ambiguity": null
+      },
+      {
+        "text": "4 cloves Garlic, sliced thin",
+        "actualMethodDestination": "allstep2",
+        "ambiguity": null
+      },
+      {
+        "text": "1 Lemon",
+        "actualMethodDestination": "zeststep1;cutallwedges;step4halfjuiceandstep5wedgesambiguoussplit",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes",
+        "actualMethodDestination": "allstep2",
+        "ambiguity": null
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "Black Pepper",
+        "actualMethodDestination": "pinchunmeasuredstep3",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1.5 lbs Fresh Broccolini, trimmed",
+        "destination": "washedtrimthickstemsplitstep1;step3"
+      },
+      {
+        "text": "3 tbsp Extra-Virgin Olive Oil",
+        "destination": "allstep2dividedrounds"
+      },
+      {
+        "text": "4 cloves Garlic, sliced thin",
+        "destination": "allstep2dividedrounds"
+      },
+      {
+        "text": "1 Lemon",
+        "destination": "All listed lemon zest step 5; half of listed lemon amount juiced step 4, other half serving wedges step 5"
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes",
+        "destination": "allstep2"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "destination": "allstep3"
+      },
+      {
+        "text": "Black Pepper",
+        "destination": "unmeasuredstep3"
+      }
+    ],
+    "methodOnlyAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Wash and dry the broccolini and lemon. Trim dry stalk ends and split unusually thick stems lengthwise so the pieces cook more evenly. Zest all the listed lemon and reserve all the zest. Set aside half of the listed lemon amount for squeezing and cut the other half into serving wedges."
+    },
+    {
+      "step": 2,
+      "text": "Heat: Heat all the measured olive oil in enough roomy skillets for uncrowded cooking over medium heat. Divide the same oil, garlic and flakes across vessels or rounds. Add sliced garlic and all red-pepper flakes and cook about 30–45 seconds until fragrant; do not let garlic blacken."
+    },
+    {
+      "step": 3,
+      "text": "Cook broccolini: Add all broccolini and toss about 3–4 minutes as an initial check. Continue until thick stems yield to a fork but retain some bite, adjusting heat down if garlic darkens. Thick stems can take longer. Season with all the measured kosher salt and the listed unmeasured black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Finish with juice: Remove from heat and squeeze the reserved half of the listed lemon amount over the whole batch; toss. This is half the listed lemon amount, not an additional half beyond the serving wedges."
+    },
+    {
+      "step": 5,
+      "text": "Serve: Transfer to a serving dish, add all reserved zest and serve promptly with the wedges from the other half."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "chicken-piccata-unfried",
+      "garlic-butter-shrimp",
+      "one-pan-lemon-herb-chicken-thighs"
+    ],
+    "scope": "Pairings are metadata, not ingredient substitutions or whole-meal approval",
+    "incomingMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Current4portionplan preserved; no measured servingweight/yield or actual pan capacity",
+    "capacity": "Singlelayer orroomytossing;extra vessels share all existing ingredients",
+    "timing": "learning.timing untested planning ranges;activepreparation/heating/batches explained"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/8 lbs Fresh Broccolini, trimmed",
+        "3/4 tbsp Extra-Virgin Olive Oil",
+        "1 clove Garlic, sliced thin",
+        "1/4 Lemon",
+        "0.0625 tsp Red Pepper Flakes",
+        "1/8 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 lbs Fresh Broccolini, trimmed",
+        "1 1/2 tbsp Extra-Virgin Olive Oil",
+        "2 cloves Garlic, sliced thin",
+        "1/2 Lemon",
+        "1/8 tsp Red Pepper Flakes",
+        "1/4 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1.5 lbs Fresh Broccolini, trimmed",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic, sliced thin",
+        "1 Lemon",
+        "1/4 tsp Red Pepper Flakes",
+        "1/2 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "2 1/4 lbs Fresh Broccolini, trimmed",
+        "4 1/2 tbsp Extra-Virgin Olive Oil",
+        "6 cloves Garlic, sliced thin",
+        "1 1/2 Lemons",
+        "3/8 tsp Red Pepper Flakes",
+        "3/4 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "3 lbs Fresh Broccolini, trimmed",
+        "6 tbsp Extra-Virgin Olive Oil",
+        "8 cloves Garlic, sliced thin",
+        "2 Lemons",
+        "1/2 tsp Red Pepper Flakes",
+        "1 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 lbs Fresh Broccolini, trimmed",
+        "9 tbsp Extra-Virgin Olive Oil",
+        "12 cloves Garlic, sliced thin",
+        "3 Lemons",
+        "3/4 tsp Red Pepper Flakes",
+        "1 1/2 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1.5 lbs Fresh Broccolini, trimmed",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic, sliced thin",
+        "1 Lemon",
+        "1/4 tsp Red Pepper Flakes",
+        "1/2 tsp Kosher Salt",
+        "Black Pepper"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
+    "Half-lemon juice volume is not measured and must not become a fabricated tablespoon equivalent."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

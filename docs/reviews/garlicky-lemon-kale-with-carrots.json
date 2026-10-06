@@ -1,0 +1,574 @@
+{
+  "slug": "garlicky-lemon-kale-with-carrots",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
+  "inputSha256": "2ea65585f70b53db5d8bd7b95d29a4fe4be6605c15ba93d4238d644d9eaa2694",
+  "acceptedSourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "8 min",
+      "after": "8–15 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "13 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 large bunch Kale (about 8 cups chopped, stems removed)",
+        "3 medium Carrots, sliced into thin coins",
+        "4 cloves Garlic, minced",
+        "2 tbsp Olive Oil (or vegetable oil)",
+        "1/4 cup Water or Vegetable Broth",
+        "1/2 Lemon, juiced (about 2 tbsp)",
+        "1/2 tsp Kosher Salt (plus more to taste)",
+        "1/4 tsp Black Pepper",
+        "1/4 tsp Red Pepper Flakes (optional, for heat)",
+        "1 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "after": [
+        "1 large bunch Kale (stems removed; about 8 cups chopped for the original batch)",
+        "3 medium Carrots, sliced into thin coins",
+        "4 cloves Garlic, minced",
+        "2 tbsp Olive Oil (or vegetable oil)",
+        "1/4 cup Water or Vegetable Broth",
+        "1/2 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "1/2 tsp Kosher Salt (plus more to taste)",
+        "1/4 tsp Black Pepper",
+        "1/4 tsp Red Pepper Flakes (optional, for heat)",
+        "1 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 2,
+        "carbs": 10,
+        "fat": 10.5,
+        "fiber": 2.5,
+        "sugar": 3,
+        "sodium": 260
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Stage firm carrots and leafy kale before a measured steam",
+        "outcome": "Tender leaves and carrots with garlic and lemon, without a puddle of steaming liquid.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Thin carrot coins cook more evenly; add kale in handfuls rather than overfilling the pan.",
+          "One-quarter cup water or broth belongs to the original batch; use the listed scaled amount and divide it across vessels."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Taste a carrot and a kale leaf: both should be tender to your liking.",
+            "why": "Leaf color and wilt do not establish that thick carrot slices have softened."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Carrots are still hard when kale wilts",
+            "cause": "Carrot coins were thick or their first cooking stage was brief.",
+            "fix": "Continue covered gently and check again; next time slice thinner and give carrots their head start."
+          }
+        ],
+        "timing": "Allow about 20–30 minutes including washing, stemming, slicing and adding kale in stages. The original 8-minute cooking plan assumes thin coins and one vessel; larger or tougher leaves and additional vessels can extend it.",
+        "storage": "Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept separate when practical.",
+        "sources": [
+          {
+            "title": "Mise — original saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md"
+          },
+          {
+            "title": "FDA — washing produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nKale has experienced a massive surge in popularity over the past decade, transforming from a garnish to a nutritional superstar. The key to cooking kale is quick, high-heat sautéing followed by a brief steam - this wilts the tough leaves while preserving their bright green color and preventing bitterness. The carrots add sweetness and crunch to balance the slightly bitter, earthy kale. Lemon juice at the end brightens everything and helps your body absorb the iron in the kale. This technique works for any hearty green: collards, Swiss chard, or mustard greens.\n\n## Directions\n\n1.  **Prep the Kale:** Remove the tough center stems from the kale leaves by folding each leaf in half and slicing out the stem. Roughly chop the leaves into 2-inch pieces. You should have about 8 cups of loosely packed chopped kale.\n\n2.  **Sauté the Carrots:** Heat olive oil in a large skillet or wok over medium-high heat. Add the sliced carrots and sauté for 3-4 minutes, tossing frequently, until they begin to soften and develop some color on the edges.\n\n3.  **Add Garlic:** Add the minced garlic to the carrots and sauté for 30 seconds until fragrant. Don't let the garlic burn.\n\n4.  **Wilt the Kale:** Add the chopped kale to the skillet. It will seem like a huge amount, but it will shrink dramatically. Toss the kale with tongs to coat it in the oil and garlic.\n\n5.  **Steam:** Add the water or broth to the skillet and immediately cover with a lid. Let the kale steam for 2-3 minutes until it wilts and becomes tender but is still bright green.\n\n6.  **Finish:** Remove the lid and toss the vegetables until any excess liquid evaporates (30-60 seconds). Remove from heat. Add lemon juice, salt, black pepper, and red pepper flakes if using. For an Asian-style version, drizzle with sesame oil. Toss well.\n\n7.  **Taste and Adjust:** Taste and add more salt, lemon juice, or pepper as needed. Serve immediately while still warm.\n\n## Variations\n\n**Mediterranean Style:** Add 1/4 cup toasted pine nuts or slivered almonds and 2 tbsp golden raisins in step 6.\n\n**Asian Style:** Use sesame oil instead of olive oil, add 1 tbsp soy sauce in step 6, and garnish with sesame seeds.\n\n**Spicy Style:** Double the red pepper flakes or add 1 tsp sriracha sauce in step 6.\n",
+    "after": "\n## Chef's Note\n\nThin carrot coins get a head start before the kale. Add the leaves in manageable handfuls, then use the measured water or broth for a short covered steam. The lemon and optional sesame-oil finish go in off heat; different hearty greens can need different cooking times.\n\n## Directions\n\n1. **Prepare:** Wash kale and carrots under running water. Remove the tough kale stems and chop leaves into roughly 2-inch pieces. Slice the carrots into thin coins. About 8 cups kale and about 2 tbsp juice from half a lemon describe the original batch, not exact scaled equivalents.\n\n2. **Cook carrots:** Heat all the measured olive or vegetable oil in a large skillet or wok over medium-high heat. Add all carrots and sauté about 3–4 minutes, tossing until starting to soften with some color on the edges. Use enough vessels for the full batch, dividing all the cooking oil and later ingredients among them.\n\n3. **Add garlic:** Add all minced garlic and cook about 30 seconds until fragrant, reducing heat if it browns quickly.\n\n4. **Wilt:** Add kale in handfuls, tossing each until it settles enough for the next. Do not pile more than the vessel can toss and cover.\n\n5. **Steam:** Add all the measured water or broth, cover and steam about 2–3 minutes, then check a leaf and carrot. Continue as needed until tender to your liking; a bright green color alone is not a tenderness test.\n\n6. **Finish:** Uncover and toss about 30–60 seconds to evaporate excess liquid without drying the pan. Remove from heat. Add juice from all the listed lemon, all measured salt and black pepper, and optional red-pepper flakes. Add the optional measured sesame oil now if wanted. Toss through.\n\n7. **Serve:** Taste and use the listed additional-salt allowance if needed. Additional lemon juice or pepper is optional seasoning beyond the measured base; serve warm.\n\n## Variations\n\n**Mediterranean style:** At the original batch, add 1/4 cup toasted pine nuts or slivered almonds and 2 tbsp golden raisins in step 6; scale these additions proportionally and use all in the finish.\n\n**Sesame-soy variation:** Replace the full listed cooking-oil amount with sesame oil in step 2; keep the separate listed optional finishing sesame-oil amount if wanted. Use heat suitable for the actual oil and reduce it if the oil smokes. At the original batch, add 1 tbsp soy sauce in step 6 and sesame seeds as an unmeasured garnish; scale the soy sauce proportionally. Keep all other base ingredients. Soy sauce adds salt, so taste before any additional salt; use a gluten-free soy sauce if required.\n\n**Spicy variation:** Use twice the listed red-pepper flakes, or add 1 tsp sriracha in step 6 at the original batch, scaled proportionally. These are separate options, not an instruction to add both.\n"
+  },
+  "findings": [
+    {
+      "id": "VP01",
+      "rationale": "28be earliest separate Git source already contains three optional variations. Preserve all distinct measured additions and main richness; clarify original-batch/scaling context and separate2tbsp sesame cooking-oil replacement from optional1tsp finishing oil. No universal collard/chard/mustard timing or iron-absorption claim retained.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "id": "VP02",
+      "rationale": "28be earliest separate Git source already contains three optional variations. Preserve all distinct measured additions and main richness; clarify original-batch/scaling context and separate2tbsp sesame cooking-oil replacement from optional1tsp finishing oil. No universal collard/chard/mustard timing or iron-absorption claim retained.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "id": "VP03",
+      "rationale": "28be earliest separate Git source already contains three optional variations. Preserve all distinct measured additions and main richness; clarify original-batch/scaling context and separate2tbsp sesame cooking-oil replacement from optional1tsp finishing oil. No universal collard/chard/mustard timing or iron-absorption claim retained.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "id": "VP04",
+      "rationale": "No recorded evidence establishes geographic invention; preserve all cuisine/style labels.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "id": "VP05",
+      "rationale": "Legacy numerical estimates have no verified product weights/finished-yield analysis; no manufactured replacement.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "id": "VP06",
+      "rationale": "28be earliest separate Git source already contains three optional variations. Preserve all distinct measured additions and main richness; clarify original-batch/scaling context and separate2tbsp sesame cooking-oil replacement from optional1tsp finishing oil. No universal collard/chard/mustard timing or iron-absorption claim retained.",
+      "confidence": "High written evidence; moderate planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    },
+    {
+      "id": "VP07",
+      "rationale": "28be earliest separate Git source already contains three optional variations. Preserve all distinct measured additions and main richness; clarify original-batch/scaling context and separate2tbsp sesame cooking-oil replacement from optional1tsp finishing oil. No universal collard/chard/mustard timing or iron-absorption claim retained.",
+      "confidence": "High internal contradiction; moderate untested cooking sequence",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+        "evidence/garlicky-lemon-kale-with-carrots-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Git supports exact recipe quantities and recorded variations. FDA applies only to produce washing; USDA applies only to cooling/storage/reheat. Cooking-stage/capacity/texture and planning-range corrections are explicitly editorial applications, not publisher or kitchen validation.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+        "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+        "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/28be970580796e0dd2aeab517ba3bce2f1ceec31/src/content/recipes/garlicky-lemon-kale-with-carrots.md",
+    "introductionScope": "Exact retained canonical recipe and complete followed history; no independent native original exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "28be earliest separate Git source already contains three optional variations. Preserve all distinct measured additions and main richness; clarify original-batch/scaling context and separate2tbsp sesame cooking-oil replacement from optional1tsp finishing oil. No universal collard/chard/mustard timing or iron-absorption claim retained.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 large bunch Kale (about 8 cups chopped, stems removed)",
+        "actualMethodDestination": "Stem and chop step 1; about 8 cups loosely packed chopped kale is an approximate original-batch reference, not a fixed measured yield; wilt step 4, steam step 5.",
+        "ambiguity": null
+      },
+      {
+        "text": "3 medium Carrots, sliced into thin coins",
+        "actualMethodDestination": "allstep2",
+        "ambiguity": null
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "allstep3",
+        "ambiguity": null
+      },
+      {
+        "text": "2 tbsp Olive Oil (or vegetable oil)",
+        "actualMethodDestination": "allstep2",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 cup Water or Vegetable Broth",
+        "actualMethodDestination": "allstep5",
+        "ambiguity": null
+      },
+      {
+        "text": "1/2 Lemon, juiced (about 2 tbsp)",
+        "actualMethodDestination": "allstep6;extraunlistedjuiceallowedstep7",
+        "ambiguity": null
+      },
+      {
+        "text": "1/2 tsp Kosher Salt (plus more to taste)",
+        "actualMethodDestination": "allstep6plusstep7allowance",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "actualMethodDestination": "allstep6extraunlistedstep7",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes (optional, for heat)",
+        "actualMethodDestination": "optionalstep6",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tsp Sesame Oil (optional, for Asian-style preparation)",
+        "actualMethodDestination": "optionalstep6;Asianvariationadditionallyreplacescookingoil",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 large bunch Kale (stems removed; about 8 cups chopped for the original batch)",
+        "destination": "washedstemmedchoppedstep1;step4/5"
+      },
+      {
+        "text": "3 medium Carrots, sliced into thin coins",
+        "destination": "washedthincoinsstep1;steps2/5"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "destination": "allstep3"
+      },
+      {
+        "text": "2 tbsp Olive Oil (or vegetable oil)",
+        "destination": "allstep2"
+      },
+      {
+        "text": "1/4 cup Water or Vegetable Broth",
+        "destination": "allstep5"
+      },
+      {
+        "text": "1/2 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "destination": "all listed lemon amount step 6; no exact juice yield"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt (plus more to taste)",
+        "destination": "allmeasuredstep6pluslistedallowancestep7"
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "destination": "allmeasuredstep6"
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes (optional, for heat)",
+        "destination": "optionalallstep6"
+      },
+      {
+        "text": "1 tsp Sesame Oil (optional, for Asian-style preparation)",
+        "destination": "optionalallstep6;distinctfrom2tbspcookingreplacement"
+      }
+    ],
+    "methodOnlyAllowances": [
+      "Optional extra lemon/pepper finishing seasoning beyond base; all distinct variation measures in final Variations"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Wash kale and carrots under running water. Remove the tough kale stems and chop leaves into roughly 2-inch pieces. Slice the carrots into thin coins. About 8 cups kale and about 2 tbsp juice from half a lemon describe the original batch, not exact scaled equivalents."
+    },
+    {
+      "step": 2,
+      "text": "Cook carrots: Heat all the measured olive or vegetable oil in a large skillet or wok over medium-high heat. Add all carrots and sauté about 3–4 minutes, tossing until starting to soften with some color on the edges. Use enough vessels for the full batch, dividing all the cooking oil and later ingredients among them."
+    },
+    {
+      "step": 3,
+      "text": "Add garlic: Add all minced garlic and cook about 30 seconds until fragrant, reducing heat if it browns quickly."
+    },
+    {
+      "step": 4,
+      "text": "Wilt: Add kale in handfuls, tossing each until it settles enough for the next. Do not pile more than the vessel can toss and cover."
+    },
+    {
+      "step": 5,
+      "text": "Steam: Add all the measured water or broth, cover and steam about 2–3 minutes, then check a leaf and carrot. Continue as needed until tender to your liking; a bright green color alone is not a tenderness test."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Uncover and toss about 30–60 seconds to evaporate excess liquid without drying the pan. Remove from heat. Add juice from all the listed lemon, all measured salt and black pepper, and optional red-pepper flakes. Add the optional measured sesame oil now if wanted. Toss through."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Taste and use the listed additional-salt allowance if needed. Additional lemon juice or pepper is optional seasoning beyond the measured base; serve warm."
+    }
+  ],
+  "variantLedgers": {
+    "reference": "final source Variations",
+    "baseCountsUnchanged": true,
+    "exclusiveRoutes": [
+      "Mediterranean¼cupnuts+2tbspraisinsoriginalcontext",
+      "Sesame cooking-oil replacement; separate listed optional finishing sesame-oil amount; original-batch 1 tbsp soy context and unmeasured seeds",
+      "Spicy2×flakes OR1tspsrirachaoriginalcontext"
+    ],
+    "automaticShopping": "Base ingredients only; written variant add-ins must be planned separately"
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "asian-glazed-meatballs",
+      "vietnamese-grilled-chicken",
+      "garlic-butter-roasted-salmon-with-potatoes-and-asparagus"
+    ],
+    "scope": "Pairings are metadata, not ingredient substitutions or whole-meal approval",
+    "incomingMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Current4portionplan preserved; no measured servingweight/yield or actual pan capacity",
+    "capacity": "Singlelayer orroomytossing;extra vessels share all existing ingredients",
+    "timing": "learning.timing untested planning ranges;activepreparation/heating/batches explained"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 large bunch Kale (stems removed; about 8 cups chopped for the original batch)",
+        "3/4 medium Carrot, sliced into thin coins",
+        "1 clove Garlic, minced",
+        "1/2 tbsp Olive Oil (or vegetable oil)",
+        "0.0625 cup Water or Vegetable Broth",
+        "1/8 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "1/8 tsp Kosher Salt (plus more to taste)",
+        "0.0625 tsp Black Pepper",
+        "0.0625 tsp Red Pepper Flakes (optional, for heat)",
+        "1/4 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 large bunch Kale (stems removed; about 8 cups chopped for the original batch)",
+        "1 1/2 medium Carrots, sliced into thin coins",
+        "2 cloves Garlic, minced",
+        "1 tbsp Olive Oil (or vegetable oil)",
+        "1/8 cup Water or Vegetable Broth",
+        "1/4 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "1/4 tsp Kosher Salt (plus more to taste)",
+        "1/8 tsp Black Pepper",
+        "1/8 tsp Red Pepper Flakes (optional, for heat)",
+        "1/2 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 large bunch Kale (stems removed; about 8 cups chopped for the original batch)",
+        "3 medium Carrots, sliced into thin coins",
+        "4 cloves Garlic, minced",
+        "2 tbsp Olive Oil (or vegetable oil)",
+        "1/4 cup Water or Vegetable Broth",
+        "1/2 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "1/2 tsp Kosher Salt (plus more to taste)",
+        "1/4 tsp Black Pepper",
+        "1/4 tsp Red Pepper Flakes (optional, for heat)",
+        "1 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 large bunches Kale (stems removed; about 8 cups chopped for the original batch)",
+        "4 1/2 medium Carrots, sliced into thin coins",
+        "6 cloves Garlic, minced",
+        "3 tbsp Olive Oil (or vegetable oil)",
+        "3/8 cup Water or Vegetable Broth",
+        "3/4 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "3/4 tsp Kosher Salt (plus more to taste)",
+        "3/8 tsp Black Pepper",
+        "3/8 tsp Red Pepper Flakes (optional, for heat)",
+        "1 1/2 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 large bunches Kale (stems removed; about 8 cups chopped for the original batch)",
+        "6 medium Carrots, sliced into thin coins",
+        "8 cloves Garlic, minced",
+        "4 tbsp Olive Oil (or vegetable oil)",
+        "1/2 cup Water or Vegetable Broth",
+        "1 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "1 tsp Kosher Salt (plus more to taste)",
+        "1/2 tsp Black Pepper",
+        "1/2 tsp Red Pepper Flakes (optional, for heat)",
+        "2 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 large bunches Kale (stems removed; about 8 cups chopped for the original batch)",
+        "9 medium Carrots, sliced into thin coins",
+        "12 cloves Garlic, minced",
+        "6 tbsp Olive Oil (or vegetable oil)",
+        "3/4 cup Water or Vegetable Broth",
+        "1 1/2 Lemons, juiced (about 2 tbsp juice for the original batch)",
+        "1 1/2 tsp Kosher Salt (plus more to taste)",
+        "3/4 tsp Black Pepper",
+        "3/4 tsp Red Pepper Flakes (optional, for heat)",
+        "3 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 large bunch Kale (stems removed; about 8 cups chopped for the original batch)",
+        "3 medium Carrots, sliced into thin coins",
+        "4 cloves Garlic, minced",
+        "2 tbsp Olive Oil (or vegetable oil)",
+        "1/4 cup Water or Vegetable Broth",
+        "1/2 Lemon, juiced (about 2 tbsp juice for the original batch)",
+        "1/2 tsp Kosher Salt (plus more to taste)",
+        "1/4 tsp Black Pepper",
+        "1/4 tsp Red Pepper Flakes (optional, for heat)",
+        "1 tsp Sesame Oil (optional, for Asian-style preparation)"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "Final source Directions unchanged at all scales; pan/rack/time not multiplied. Written variant add-ins use original-batch context and require separate proportional planning."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual kale bunch size and carrot thickness determine capacity and cook time.",
+    "The sesame-oil product is unspecified; high-heat suitability must follow its label.",
+    "Variation add-ins are written original-batch amounts and do not enter base shopping totals automatically."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
+  "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 68,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12094,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 60,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven enabled print controls and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
