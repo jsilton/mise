@@ -1,0 +1,454 @@
+{
+  "slug": "tamagoyaki-japanese-rolled-omelet",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "f393af74ff3b37a19cd8707dbc8887928d0432873f7ec2ef958b32bfb2c5d1b6",
+  "acceptedSourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "8 min",
+      "after": "8–18 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "13 min",
+      "after": "15–25 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 Large Eggs",
+        "3 tbsp Dashi (or chicken stock), cooled slightly",
+        "2 tbsp Mirin",
+        "1 tbsp Soy Sauce",
+        "1 tbsp Sugar",
+        "1/4 tsp Salt",
+        "1 tbsp Vegetable Oil, plus more for the pan",
+        "--- Optional ---",
+        "1 tbsp Mitsuba (Japanese parsley) or chives, finely chopped"
+      ],
+      "after": [
+        "8 Large Eggs",
+        "3 tbsp Dashi (or chicken stock), cooled slightly",
+        "2 tbsp Mirin",
+        "1 tbsp Soy Sauce",
+        "1 tbsp Sugar",
+        "1/4 tsp Salt",
+        "1 tbsp Vegetable Oil, plus more for the pan",
+        "--- Optional ---",
+        "1 tbsp Mitsuba (Japanese parsley) or chives, finely chopped",
+        "Soy Sauce for dipping (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 185,
+        "protein": 12.5,
+        "carbs": 4,
+        "fat": 13.5,
+        "fiber": 0,
+        "sugar": 4,
+        "sodium": 970
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Build thin layers into a cooked-through roll",
+        "outcome": "Thin layers join into a sliceable roll with a set center.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Prepare the full listed volume of dashi at its actual product/recipe strength and cool it before mixing with eggs. Follow instant-stock package directions; no universal five-minute homemade-dashi method is implied.",
+          "Use a pan that can make thin layers and a bowl large enough for the listed eggs. Scaled batches use separate rolls; pan footprint, not multiplied layer thickness, governs the pour."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Egg spreads into a thin layer rather than pooling deeply.",
+            "why": "Pan footprint controls layer thickness; a fixed quarter of a scaled batch can become too thick."
+          },
+          {
+            "step": 5,
+            "cue": "Fresh egg flows under the earlier roll and the layer lifts without tearing.",
+            "why": "Lifting the roll lets the layers join instead of trapping uncooked liquid beside it."
+          },
+          {
+            "step": 6,
+            "cue": "Thick center reaches 160°F and contains no liquid egg.",
+            "why": "Soft rolling layers need a final cooking check after all egg is incorporated."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Layer tears or browns before rolling",
+            "cause": "The layer is too thick, the pan is too hot, or it has stuck.",
+            "fix": "Lower the heat if browning rapidly, oil the exposed pan as needed and make the next layer thinner. Enclose a torn layer in the next roll; finish checking the center."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dashi OR prepared chicken stock",
+            "alternative": "Use the full listed stock volume of one choice, cooled before mixing.",
+            "effect": "Chicken stock changes the flavor; it is an existing distinct choice, not a homemade-dashi strength conversion."
+          },
+          {
+            "ingredient": "Mitsuba OR chives",
+            "alternative": "Use the listed optional herb amount of one choice.",
+            "effect": "Fold it into the egg mixture before layering; chives change the herbal flavor."
+          }
+        ],
+        "storage": "Keep the existing 2–3-day refrigerated preparation plan within prompt cold handling: refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Pack chilled portions with an ice or frozen gel pack; reheat stored portions to 165°F / 74°C if serving hot. A room-temperature serving description does not authorize an extended bento hold.",
+        "timing": "About 15–25 minutes for the original batch with prepared stock:5 minutes preparation plus variable layer cooking, final center check and 2 minutes slicing rest. Making dashi first and additional separate rolls add elapsed time; the original 8-minute cooking label did not include every layer/finish/rest reliably.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "Just One Cookbook — Rolling mechanics",
+            "url": "https://www.justonecookbook.com/tamagoyaki-japanese-rolled-omelette/"
+          },
+          {
+            "title": "Just One Cookbook — Mirin",
+            "url": "https://www.justonecookbook.com/mirin/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTamagoyaki is a Japanese omelet rolled into a compact log and sliced thin - a technique that's been perfected by home cooks for generations and looks more impressive than it is. The egg is whisked with dashi and mirin (sweet rice vinegar), creating something between an omelet and a custard. The rolling happens directly in the pan: you layer thin sheets of cooked egg, rolling from one end to the other, then slice it into rounds. It appears on every bento box, appears at breakfast, and is surprisingly forgiving once you understand the roll. The key is a rectangular tamagoyaki pan, which makes the rolling intuitive - but a regular 8-inch square skillet works fine too.\n\n## Directions\n\n1. **Make the Egg Mixture:** In a small bowl, whisk together eggs, dashi, mirin, soy sauce, sugar, and salt until completely combined and uniform. The mixture should be light yellow and frothy. If using mitsuba, fold it in gently now. Let the mixture rest for 1 minute while you heat the pan.\n\n2. **Heat the Pan:** Use a tamagoyaki pan (rectangular Japanese omelet pan) or a small non-stick skillet over medium heat. Add 1 tbsp vegetable oil and let it coat the pan evenly. Wait 30 seconds until the oil shimmers - do not let it smoke.\n\n3. **First Layer:** Pour about 1/4 of the egg mixture into the hot pan, tilting to distribute it evenly in a thin, even layer. Let it cook for about 1-2 minutes until the bottom is set and the top is still slightly wet. This should happen quickly.\n\n4. **Roll:** Using a wooden spatula or chopsticks, gently roll the cooked egg from one end toward the other, creating a tight log. Push the rolled egg to the far side of the pan.\n\n5. **Repeat Layers:** Lightly oil the empty side of the pan. Pour another 1/4 of the egg mixture into the empty space, tilting so it flows under and around the rolled egg. Let it set for 1-2 minutes until mostly firm but still slightly wet on top.\n\n6. **Continue Rolling:** Roll the entire log (including the new layer) from the far end back toward you, creating a larger roll with multiple layers.\n\n7. **Final Layers:** Repeat the process two more times, oiling lightly and pouring the remaining egg mixture around the roll, cooking until set, then rolling forward. By the final roll, your tamagoyaki should be a compact, multi-layered log about 2 inches wide.\n\n8. **Finish Cooking:** Once all egg is incorporated, let the roll cook for 1-2 more minutes, rotating it gently so all sides are lightly cooked and the exterior is set.\n\n9. **Cool and Slice:** Transfer the tamagoyaki to a cutting board. Let it cool for 2 minutes (cooling helps it hold together while slicing). Using a sharp knife, cut the roll into 1/2-inch thick rounds. The layers will be visible and beautiful.\n\n10. **Serve:** Serve warm or at room temperature, often with a small dish of soy sauce for dipping. Can be packed in bento boxes with rice and pickles.\n\n**Pan Choice:** A tamagoyaki pan is narrow and rectangular (about 3 by 4 inches), which makes rolling intuitive. But a regular 8-inch non-stick skillet works - just make slightly thinner layers and be gentler with the roll.\n\n**Dashi Source:** Quick dashi takes 5 minutes (kombu and bonito flakes steeped in hot water) but instant dashi powder (available at any Asian market) is fine. Regular chicken stock works if you prefer.\n\n**Rolling Confidence:** The first roll feels awkward; by the second, you'll get the rhythm. Don't overthink it - the egg is forgiving and will fuse as it cooks.\n\n**Make-Ahead:** Tamagoyaki tastes equally good warm or at room temperature and keeps well in the fridge for 2-3 days, making it perfect for bento box prep.\n",
+    "after": "\n## Chef's Note\n\nTamagoyaki builds an omelet by rolling successive thin egg layers around the earlier roll. Mirin is a sweet rice wine, not rice vinegar. This version keeps the listed dashi, mirin, soy, sugar and optional herbs; a prepared chicken-stock choice remains available. Thin layers and a gentle roll matter more than forcing a fixed fraction into a particular pan.\n\n## Directions\n\n1. **Mix:** Whisk all the eggs with the prepared, cooled dashi OR chicken stock, mirin, soy sauce, sugar and salt until uniform and the sugar dissolves. Avoid whipping in a thick foam. Fold in all the optional mitsuba OR chives if using. Let stand about 1 minute while heating the pan.\n\n2. **Heat:** Use a rectangular tamagoyaki pan or the 8-inch nonstick skillet option over medium heat. Add the full listed tablespoon of vegetable oil for the original batch, or the corresponding listed scaled amount divided among separate rolls, and coat the pan. Heat until the oil shimmers without smoking;30 seconds is only a first check. The separate additional pan-oil allowance is for later layers.\n\n3. **First layer:** Pour enough egg mixture to make a thin layer across the actual pan, tilting to spread it. For a pan that fits the original four-layer plan, about one quarter of an original batch per layer is the starting plan; do not force that volume into a tiny pan. Let the bottom set while the top is still soft, checking after 1–2 minutes.\n\n4. **Roll:** Roll the layer toward one end with a spatula or chopsticks and move it to the far side. An imperfect first roll will be enclosed by later layers.\n\n5. **Build:** Lightly oil the exposed pan as needed using the separate pan-oil allowance. Pour the next thin layer; lift the roll slightly so fresh egg flows underneath it. Once the new layer has set enough to lift, roll the log back across it. Repeat until all the egg mixture for that roll is incorporated. The original four-layer plan may need more thin layers for the actual pan.\n\n6. **Cook through:** Turn the finished roll gently over medium-low heat to finish setting its center, checking after 1–2 minutes and continuing as needed. Check the thick center reaches 160°F / 71°C and has no liquid egg. Browning the outside alone does not establish a cooked center. For larger scaled batches make separate manageable rolls with similar layer thickness rather than one progressively thicker log.\n\n7. **Slice:** Transfer to a clean board, let stand about 2 minutes to firm for slicing, then cut into approximately½-inch slices. Finished width depends on the actual pan and rolling; it is not a guaranteed 2-inch yield.\n\n8. **Serve or pack:** Serve promptly, with optional soy sauce for dipping. For bento preparation chill promptly in shallow containers and keep the packed omelet cold with an ice or frozen gel pack; do not leave it at room temperature for an extended lunch hold.\n"
+  },
+  "findings": [
+    {
+      "id": "EB13-tamagoyaki-japanese-rolled-omelet-1",
+      "title": "EB13-tamagoyaki-japanese-rolled-omelet-1",
+      "rationale": "Correct mirin identity and unsupported pan/stock-clock claims without changing any measured eight-egg formula.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/tamagoyaki-japanese-rolled-omelet.md",
+            "sha256": "382e90017abeecb9730232df457bf6edc67c765b93562be0bf283593af19fd2c",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "160°F egg-dish center and cold packed handling; final roll mechanism application is editorial, no tested time/pan certification."
+        },
+        {
+          "url": "https://www.justonecookbook.com/tamagoyaki-japanese-rolled-omelette/",
+          "applicability": "Japanese rolling mechanics only; its different three-egg formula is not substituted for saved eight-egg formula."
+        },
+        {
+          "url": "https://www.justonecookbook.com/mirin/",
+          "applicability": "Sweet rice wine identity, not rice vinegar; no claim of complete alcohol removal."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual pan footprint, number of layers per roll, measured center and finished slice count need observation. The saved eight-egg formula has no attributed publisher; the separately consulted Japanese publisher supports rolling mechanics and mirin identification, not equivalence to its different three-egg formula."
+      ]
+    },
+    {
+      "id": "EB13-tamagoyaki-japanese-rolled-omelet-2",
+      "title": "EB13-tamagoyaki-japanese-rolled-omelet-2",
+      "rationale": "Preserve rolling/round-pan and stock/herb options; use thin layers/separate scaled rolls and final measured egg-dish endpoint rather than a fixed quarter of multiplied volume.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/tamagoyaki-japanese-rolled-omelet.md",
+            "sha256": "382e90017abeecb9730232df457bf6edc67c765b93562be0bf283593af19fd2c",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "160°F egg-dish center and cold packed handling; final roll mechanism application is editorial, no tested time/pan certification."
+        },
+        {
+          "url": "https://www.justonecookbook.com/tamagoyaki-japanese-rolled-omelette/",
+          "applicability": "Japanese rolling mechanics only; its different three-egg formula is not substituted for saved eight-egg formula."
+        },
+        {
+          "url": "https://www.justonecookbook.com/mirin/",
+          "applicability": "Sweet rice wine identity, not rice vinegar; no claim of complete alcohol removal."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual pan footprint, number of layers per roll, measured center and finished slice count need observation. The saved eight-egg formula has no attributed publisher; the separately consulted Japanese publisher supports rolling mechanics and mirin identification, not equivalence to its different three-egg formula."
+      ]
+    },
+    {
+      "id": "EB13-metadata-tamagoyaki-japanese-rolled-omelet",
+      "title": "EB13-metadata-tamagoyaki-japanese-rolled-omelet",
+      "rationale": "Remove the unverified legacy nutrition while preserving Japan origin and Japanese style context, identity, rating, pairings and the exact unattributed eight-egg formula. The Japanese primary supports geographical/contextual description, rolling mechanics and mirin identity; its distinct three-egg formula does not certify this formula’s quantities or nutrition.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/tamagoyaki-japanese-rolled-omelet.md",
+            "sha256": "382e90017abeecb9730232df457bf6edc67c765b93562be0bf283593af19fd2c",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Actual introduction/followed history distinguishes inherited labels from culinary or geographic proof."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "applicability": "No invented origins/nutrition or kitchen-tested status; method tags describe actual complete route."
+        },
+        {
+          "url": "https://www.justonecookbook.com/tamagoyaki-japanese-rolled-omelette/",
+          "applicability": "Explicit Japanese regional context supports retained Japan origin/style; the modern three-egg formula is distinct from the retained eight-egg Git formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/tamagoyaki-japanese-rolled-omelet.md",
+    "introductionScope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact source is Git-only eight-egg recipe with incorrect vinegar identity, inconsistent3×4/8-inch pan claims and unsized stock shortcut; primary Japanese publisher used only for mechanics/identity, not formula replacement."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "8 Large Eggs",
+        "assessment": "Full eight eggs whisk1; four literalquarter pours3/5/7."
+      },
+      {
+        "index": 1,
+        "text": "3 tbsp Dashi (or chicken stock), cooled slightly",
+        "assessment": "Full prepared dashi OR chicken stock3Tb whisk1, described slightly cooled; shortcut claim later unmeasured."
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Mirin",
+        "assessment": "Full mirin2Tb mix1; Chef note incorrectly calls it sweet rice vinegar."
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Soy Sauce",
+        "assessment": "Full soy sauce1Tb mix1; separate dipping soy in step10 unlisted."
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp Sugar",
+        "assessment": "Full sugar1Tb mix1."
+      },
+      {
+        "index": 5,
+        "text": "1/4 tsp Salt",
+        "assessment": "Full salt¼tsp mix1, crystal type unspecified."
+      },
+      {
+        "index": 6,
+        "text": "1 tbsp Vegetable Oil, plus more for the pan",
+        "assessment": "Full vegetable oil1Tb heat2 plus true additional allowance subsequent layers5/7."
+      },
+      {
+        "index": 7,
+        "text": "--- Optional ---",
+        "assessment": "Divider only, not an ingredient."
+      },
+      {
+        "index": 8,
+        "text": "1 tbsp Mitsuba (Japanese parsley) or chives, finely chopped",
+        "assessment": "Optional mitsuba OR chives1Tb folded1."
+      }
+    ],
+    "frozenMethodOnly": ["Soy sauce for dipping not separately listed."],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "8 Large Eggs",
+        "destination": "eggs: entiremix1 thenlayers3/5/finish6"
+      },
+      {
+        "index": 1,
+        "text": "3 tbsp Dashi (or chicken stock), cooled slightly",
+        "destination": "dashi OR stock: fullmix1 prepared/cooled"
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Mirin",
+        "destination": "mirin: fullmix1 sweetricewine"
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Soy Sauce",
+        "destination": "soy: fullmix1"
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp Sugar",
+        "destination": "sugar: fullmix1 dissolves"
+      },
+      {
+        "index": 5,
+        "text": "1/4 tsp Salt",
+        "destination": "salt: fullmix1"
+      },
+      {
+        "index": 6,
+        "text": "1 tbsp Vegetable Oil, plus more for the pan",
+        "destination": "vegetableoil: measuredmainheat2 dividedseparaterolls; trueadditionalpanallowance5"
+      },
+      {
+        "index": 7,
+        "text": "--- Optional ---",
+        "destination": "Divider only"
+      },
+      {
+        "index": 8,
+        "text": "1 tbsp Mitsuba (Japanese parsley) or chives, finely chopped",
+        "destination": "Full optional herbs mix1"
+      },
+      {
+        "index": 9,
+        "text": "Soy Sauce for dipping (optional)",
+        "destination": "Separate optional dipping soy serve8"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Mix",
+      "text": "Whisk all the eggs with the prepared, cooled dashi OR chicken stock, mirin, soy sauce, sugar and salt until uniform and the sugar dissolves. Avoid whipping in a thick foam. Fold in all the optional mitsuba OR chives if using. Let stand about 1 minute while heating the pan."
+    },
+    {
+      "step": 2,
+      "title": "Heat",
+      "text": "Use a rectangular tamagoyaki pan or the 8-inch nonstick skillet option over medium heat. Add the full listed tablespoon of vegetable oil for the original batch, or the corresponding listed scaled amount divided among separate rolls, and coat the pan. Heat until the oil shimmers without smoking;30 seconds is only a first check. The separate additional pan-oil allowance is for later layers."
+    },
+    {
+      "step": 3,
+      "title": "First layer",
+      "text": "Pour enough egg mixture to make a thin layer across the actual pan, tilting to spread it. For a pan that fits the original four-layer plan, about one quarter of an original batch per layer is the starting plan; do not force that volume into a tiny pan. Let the bottom set while the top is still soft, checking after 1–2 minutes."
+    },
+    {
+      "step": 4,
+      "title": "Roll",
+      "text": "Roll the layer toward one end with a spatula or chopsticks and move it to the far side. An imperfect first roll will be enclosed by later layers."
+    },
+    {
+      "step": 5,
+      "title": "Build",
+      "text": "Lightly oil the exposed pan as needed using the separate pan-oil allowance. Pour the next thin layer; lift the roll slightly so fresh egg flows underneath it. Once the new layer has set enough to lift, roll the log back across it. Repeat until all the egg mixture for that roll is incorporated. The original four-layer plan may need more thin layers for the actual pan."
+    },
+    {
+      "step": 6,
+      "title": "Cook through",
+      "text": "Turn the finished roll gently over medium-low heat to finish setting its center, checking after 1–2 minutes and continuing as needed. Check the thick center reaches 160°F / 71°C and has no liquid egg. Browning the outside alone does not establish a cooked center. For larger scaled batches make separate manageable rolls with similar layer thickness rather than one progressively thicker log."
+    },
+    {
+      "step": 7,
+      "title": "Slice",
+      "text": "Transfer to a clean board, let stand about 2 minutes to firm for slicing, then cut into approximately½-inch slices. Finished width depends on the actual pan and rolling; it is not a guaranteed 2-inch yield."
+    },
+    {
+      "step": 8,
+      "title": "Serve or pack",
+      "text": "Serve promptly, with optional soy sauce for dipping. For bento preparation chill promptly in shallow containers and keep the packed omelet cold with an ice or frozen gel pack; do not leave it at room temperature for an extended lunch hold."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Dashi OR prepared chicken stock",
+      "alternative": "Use the full listed stock volume of one choice, cooled before mixing.",
+      "effect": "Chicken stock changes the flavor; it is an existing distinct choice, not a homemade-dashi strength conversion.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    },
+    {
+      "ingredient": "Mitsuba OR chives",
+      "alternative": "Use the listed optional herb amount of one choice.",
+      "effect": "Fold it into the egg mixture before layering; chives change the herbal flavor.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["steamed-white-rice", "japanese-cucumber-sunomono", "basmati-rice"],
+    "scope": "Existing pairings retained as metadata; no composed meal/source receives review credit. Actual meal source search found no incoming composition."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "wholeDosePreservation": "Preserve eight eggs, 3 tablespoons prepared cooled dashi OR chicken stock, 2 tablespoons mirin, 1 tablespoon soy sauce, 1 tablespoon sugar, 1/4 teaspoon salt and the full 1 tablespoon vegetable oil plus genuine pan allowance. Optional 1 tablespoon mitsuba OR chives mixes into the eggs; the complete egg mixture is rolled in thin layers and the measured oil is distributed across actual rolls. Optional dipping soy sauce is a separate unmeasured serving allowance.",
+    "capacity": [
+      "Prepare the full listed volume of dashi at its actual product/recipe strength and cool it before mixing with eggs. Follow instant-stock package directions; no universal five-minute homemade-dashi method is implied.",
+      "Use a pan that can make thin layers and a bowl large enough for the listed eggs. Scaled batches use separate rolls; pan footprint, not multiplied layer thickness, governs the pour."
+    ],
+    "unmeasured": "Pan footprints, finished filling/bite/roll count and actual center clocks require kitchen observation. No new gram/yield conversion supplied."
+  },
+  "preservedPriorRepairs": [
+    "All full current measured quantities and distinct product options preserved."
+  ],
+  "remainingQuestions": [
+    "Actual pan footprint, number of layers per roll, measured center and finished slice count need observation. The saved eight-egg formula has no attributed publisher; the separately consulted Japanese publisher supports rolling mechanics and mirin identification, not equivalence to its different three-egg formula."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

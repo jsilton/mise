@@ -1,0 +1,1201 @@
+{
+  "slug": "smoky-spanish-rice-and-chickpeas",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "35f9873e27ed28b85451c50f9ab2107a1c3fa5cbe33b360f00ff75ec7099855d",
+  "acceptedSourceSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 30–40 min, plus 6 min covered rest"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 45–60 min, longer for optional shrimp cooking"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Long-grain White Rice, uncooked",
+        "1 can (19 oz) Chickpeas, rinsed and drained",
+        "1 tbsp Smoked Paprika",
+        "1 tbsp Dried Oregano",
+        "3 cloves Garlic, minced",
+        "1 medium Yellow Onion, finely chopped",
+        "1 can (19 oz) Diced Tomatoes",
+        "1 1/2 cups Vegetable Broth",
+        "Shrimp or Fresh Spinach"
+      ],
+      "after": [
+        "--- Ingredients ---",
+        "2 tbsp Olive oil",
+        "1 Medium yellow onion, finely chopped",
+        "3 Garlic cloves, minced",
+        "1 tbsp Smoked paprika",
+        "1 tbsp Dried oregano",
+        "1 cup Dry long-grain white rice",
+        "1 can (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "1 can (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "1 1/2 cups Vegetable broth",
+        "3/4 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Spain",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 80,
+        "protein": 2.5,
+        "carbs": 17,
+        "fat": 0.5,
+        "fiber": 1.5,
+        "sugar": 2,
+        "sodium": 330
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dish",
+            "name": "Ingredients",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "Medium yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "plural": "Medium yellow onions",
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "spice",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "Smoked paprika",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "spice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oregano",
+                "key": "oregano",
+                "name": "Dried oregano",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "spice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rice",
+                "key": "rice",
+                "name": "Dry long-grain white rice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "rice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tomatoes",
+                "key": "tomatoes",
+                "name": "Diced tomatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 19,
+                  "unit": "oz"
+                },
+                "preparation": "include can liquid; do not drain"
+              },
+              {
+                "id": "chickpeas",
+                "key": "chickpeas",
+                "name": "Cooked canned chickpeas",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 19,
+                  "unit": "oz"
+                },
+                "preparation": "rinsed and drained"
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "Vegetable broth",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "quantity": {
+                  "amount": 0.75,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "for the salt and parsley variation"
+              },
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "Fresh parsley",
+                "allowance": "for topping",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "washed and chopped"
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "Fresh spinach",
+                "allowance": "amount as desired",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "washed and drained"
+              },
+              {
+                "id": "poaching-water",
+                "key": "poaching-water",
+                "name": "Water",
+                "allowance": "as needed for separately poaching optional shrimp",
+                "uses": [
+                  {
+                    "step": "shrimp",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "cooking-water"
+              },
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "Raw shrimp",
+                "allowance": "amount as desired",
+                "uses": [
+                  {
+                    "step": "shrimp",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "peeled and deveined; thaw in refrigerator if frozen"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "base",
+            "title": "Soften onion",
+            "text": "Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat {{ingredients}} over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet."
+          },
+          {
+            "id": "spice",
+            "title": "Add aromatics",
+            "text": "Stir in {{ingredients}} and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it."
+          },
+          {
+            "id": "rice",
+            "title": "Coat rice",
+            "text": "Stir in {{ingredients}} and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint."
+          },
+          {
+            "id": "liquid",
+            "title": "Add full base liquids",
+            "text": "Add {{ingredients}}, using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer."
+          },
+          {
+            "id": "cook",
+            "title": "Check rice before resting",
+            "text": "Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers."
+          },
+          {
+            "id": "rest",
+            "title": "Rest covered",
+            "text": "Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp."
+          },
+          {
+            "id": "shrimp",
+            "title": "Cook optional shrimp separately",
+            "text": "For the optional topping, have {{ingredients}} ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice."
+          },
+          {
+            "id": "finish",
+            "title": "Fluff and add optional greens",
+            "text": "Fluff gently and add {{ingredients}} if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Check tomato rice centers before resting and cook optional shrimp separately",
+        "outcome": "Tender rice and chickpeas with fragrant smoked paprika and fully cooked optional additions",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "The main retains one 19-oz can of chickpeas, one 19-oz can of tomatoes with its liquid and 1½ cups broth for 1 cup dry rice. Do not silently replace the measured broth with a rice-cooker fill line.",
+          "When scaling, keep enough skillet capacity for the rice and optional additions, or cook original-size batches. Depth, burner strength and evaporation change the clock.",
+          "Choose optional shrimp or spinach before starting so you have room for the addition and can plan its cooking. Keep raw shrimp cold until the separate cooking step."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Several grains have tender centers before the covered rest.",
+            "why": "A fixed interval or surface color cannot establish the center condition."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Rice still has a chalky center at twenty-two minutes",
+            "cause": "Rice product, tomato liquid or pan evaporation differs from the nominal schedule",
+            "fix": "If liquid remains, continue a gentle covered simmer and recheck before resting. If the pan is dry and the centers are hard, assess hydration before continuing; the written finish time no longer applies."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dried oregano",
+            "alternative": "Use the same listed amount of freeze-dried oregano.",
+            "effect": "Use the chosen oregano product at the aromatic stage; keep the listed amount and assess its fragrance as it cooks."
+          },
+          {
+            "ingredient": "Two-tablespoon version",
+            "alternative": "For the original batch, the salt and parsley variation uses 2–3 tbsp olive oil in place of the main 2 tbsp. Use the listed ¾ tsp salt, or adjust salt to taste, and finish with optional parsley. Freeze-dried oregano can replace the same listed amount of ordinary dried oregano.",
+            "effect": "Choose the variation before cooking and scale its selected amounts. The main version uses the listed olive oil and ordinary dried oregano and omits this salt and parsley option. Both versions keep the measured cans of tomatoes and chickpeas and all the measured broth."
+          }
+        ],
+        "timing": "Allow about 45–60 minutes for preparation, aromatic sautéing, coating rice, heating, covered cooking and the six-minute rest. Covered cooking is mostly elapsed time with grain checks; preparation, aromatics and finishing need attention. Optional shrimp adds work and elapsed time unless coordinated separately. Scaled loads change heat-up and evaporation.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use refrigerated leftovers within 3–4 days or freeze promptly. Reheat the portion served to 165°F /74°C throughout, stirring for even heating and checking several places. Do not leave a large pot out to cool overnight.",
+        "sources": [
+          {
+            "title": "USDA — cooling and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — shrimp cooking and cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "The Kitchen Magpie — rice and chickpea base",
+            "url": "https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Spanish-inspired rice dish draws from paella technique. Frying dry rice in onion-garlic oil for 3 minutes before adding liquid toasts the starch, creating distinct, individual grains rather than sticky clumps - a technique called socarrat in traditional paella. Smoked paprika (pimentón) introduces wood-fired depth that elevates simple canned chickpeas, adding complexity without additional ingredients.\n\n## Directions\n\n1.  **Foundation:** In a large deep skillet, heat 2 tbsp oil. Sauté onion for 7 minutes cook until golden brown and softened. Add garlic, paprika, and oregano; sauté for 30-45 seconds until the spices bloom.\n2.  **The Toast:** Add the dry rice. Stir constantly for 3 minutes until the grains are coated in the red oil and smell nutty.\n3.  **The Simmer:** Stir in the tomatoes, chickpeas, and broth. Bring to a boil.\n4.  **The Finish:** Reduce heat to **low**. Cover tightly. Simmer for 20-22 minutes until the liquid is absorbed.\n5.  **The Steam Cycle:** Remove from heat. **Do not open the lid.** Let sit for 6 minutes (mandatory for structure).\n6.  **Finish:** Fluff with a fork. If adding shrimp, nestle them into the rice during the final 5 minutes of simmering. If adding spinach, stir it in during the steam cycle.\n",
+    "after": "\n## Chef's Note\n\nThis Spanish-inspired skillet rice uses smoked paprika, oregano, tomatoes and chickpeas. Coating the dry rice in aromatic oil happens before the liquid goes in; it is not the browned bottom crust called socarrat. Keep the tomato liquid in the measured base, check grain centers before resting and cook an optional shrimp topping completely rather than rely on warm rice to cook it.\n\n## Directions\n\n1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.\n"
+  },
+  "findings": [
+    {
+      "id": "BL01",
+      "title": "BL01",
+      "rationale": "Exact 045e5ba2 Git and bound native retain 2–3 tbsp oil, ¾ tsp salt or to taste and optional parsley; eab6f8bb removed these during a bulk rewrite and added unmeasured shrimp/spinach with a backward cooking reference. No later explicit household choice between seasoning routes is established. Preserve the complete current 2 tbsp oil/no-added-source-salt route as main; retain the complete source-seasoning route separately, with optional parsley and same-amount freeze-dried oregano. Both routes keep current one 19 oz can each, all 1½ cups broth, and the accepted 30–45-second aromatic interval. Root decides final main/source disposition.",
+      "confidence": "High for exact Git/native amounts and applicable guidance; moderate for untested timing/process choices; independent disposition pending",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence",
+        {
+          "title": "USDA — cooling and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — shrimp cooking and cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        },
+        {
+          "title": "The Kitchen Magpie — rice and chickpea base",
+          "url": "https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/"
+        }
+      ],
+      "sourceApplicability": "FDA firm/pearly/opaque endpoint applies to raw shrimp, not already-cooked rice. Publisher supports base, not a measured shrimp formula.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
+        "Confirm intended shrimp/spinach amounts and practical pan capacity; no yield precision for optional branches.",
+        "Confirm saved freeze-dried oregano versus current ordinary dried preference."
+      ]
+    },
+    {
+      "id": "BL02",
+      "title": "BL02",
+      "rationale": "Publisher card still has malformed canned-package text and prose says two chickpea cans. Preserve accepted current one19oz can each and full tomato liquid/broth rather than silently normalize from ambiguous source formatting. Source no measured shrimp/spinach method; author separately poaches unmeasured shrimp to primary FDA endpoint, no invented dose/clock.",
+      "confidence": "High for exact Git/native amounts and applicable guidance; moderate for untested timing/process choices; independent disposition pending",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence",
+        {
+          "title": "USDA — cooling and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — shrimp cooking and cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        },
+        {
+          "title": "The Kitchen Magpie — rice and chickpea base",
+          "url": "https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/"
+        }
+      ],
+      "sourceApplicability": "FDA firm/pearly/opaque endpoint applies to raw shrimp, not already-cooked rice. Publisher supports base, not a measured shrimp formula.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
+        "Confirm intended shrimp/spinach amounts and practical pan capacity; no yield precision for optional branches.",
+        "Confirm saved freeze-dried oregano versus current ordinary dried preference."
+      ]
+    },
+    {
+      "id": "BL03",
+      "title": "BL03",
+      "rationale": "Preserve2b01ffbb30–45second garlic/spice interval. Correct socarrat definition and unsupported individual-grain guarantee without forcing a crust or changing rice ratio.",
+      "confidence": "High for exact Git/native amounts and applicable guidance; moderate for untested timing/process choices; independent disposition pending",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence",
+        {
+          "title": "USDA — cooling and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — shrimp cooking and cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        },
+        {
+          "title": "The Kitchen Magpie — rice and chickpea base",
+          "url": "https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/"
+        }
+      ],
+      "sourceApplicability": "FDA firm/pearly/opaque endpoint applies to raw shrimp, not already-cooked rice. Publisher supports base, not a measured shrimp formula.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
+        "Confirm intended shrimp/spinach amounts and practical pan capacity; no yield precision for optional branches.",
+        "Confirm saved freeze-dried oregano versus current ordinary dried preference."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Smoky%20Spanish%20Rice%20&%20Chickpeas.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact 045e5ba2 Git and bound native retain 2–3 tbsp oil, ¾ tsp salt or to taste and optional parsley; eab6f8bb removed these during a bulk rewrite and added unmeasured shrimp/spinach with a backward cooking reference. No later explicit household choice between seasoning routes is established. Preserve the complete current 2 tbsp oil/no-added-source-salt route as main; retain the complete source-seasoning route separately, with optional parsley and same-amount freeze-dried oregano. Both routes keep current one 19 oz can each, all 1½ cups broth, and the accepted 30–45-second aromatic interval. Root decides final main/source disposition.",
+    "Publisher card still has malformed canned-package text and prose says two chickpea cans. Preserve accepted current one19oz can each and full tomato liquid/broth rather than silently normalize from ambiguous source formatting. Source no measured shrimp/spinach method; author separately poaches unmeasured shrimp to primary FDA endpoint, no invented dose/clock.",
+    "Preserve2b01ffbb30–45second garlic/spice interval. Correct socarrat definition and unsupported individual-grain guarantee without forcing a crust or changing rice ratio.",
+    "Specific origin country omitted because no evidence establishes the historical birthplace of this saved preparation; existing descriptive cuisine/context stays. No replacement origin invented."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1 cup Long-grain White Rice, uncooked",
+        "destination": "Dry rice aromatic-oil coating, covered broth cook and rest"
+      },
+      {
+        "row": 2,
+        "ingredient": "1 can (19 oz) Chickpeas, rinsed and drained",
+        "destination": "Rinsed/drained chickpeas into broth cook"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 tbsp Smoked Paprika",
+        "destination": "Brief aromatics stage"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 tbsp Dried Oregano",
+        "destination": "Brief aromatics stage"
+      },
+      {
+        "row": 5,
+        "ingredient": "3 cloves Garlic, minced",
+        "destination": "Brief aromatics stage"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 medium Yellow Onion, finely chopped",
+        "destination": "Oil sauté"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 can (19 oz) Diced Tomatoes",
+        "destination": "Frozen can enters broth cook without an explicit draining instruction. Candidate now explicitly retains can liquid; that explicit state is not already authored in frozen text."
+      },
+      {
+        "row": 8,
+        "ingredient": "1 1/2 cups Vegetable Broth",
+        "destination": "Measured broth cook"
+      },
+      {
+        "row": 9,
+        "ingredient": "Shrimp or Fresh Spinach",
+        "destination": "Frozen final step first says fluff, then refers backwards to shrimp during final five minutes of simmering and spinach during the closed-lid rest. Quantities are unspecified and no shrimp endpoint is written. Separate complete shrimp cooking and post-rest spinach wilting exist only in the candidate."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Medium yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "finely chopped",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "minced",
+        "destinations": [
+          {
+            "step": "spice",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Smoked paprika",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "spice",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Dried oregano",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "spice",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Dry long-grain white rice",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "rice",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Diced tomatoes",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 19,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "state": "include can liquid; do not drain",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Cooked canned chickpeas",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 19,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "state": "rinsed and drained",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Vegetable broth",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": {
+          "amount": 0.75,
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "for the salt and parsley variation",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": null
+      },
+      {
+        "ingredient": "Fresh parsley",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "for topping",
+        "state": "washed and chopped",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": null
+      },
+      {
+        "ingredient": "Fresh spinach",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "amount as desired",
+        "state": "washed and drained",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": null
+      },
+      {
+        "ingredient": "Water",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "as needed for separately poaching optional shrimp",
+        "state": null,
+        "destinations": [
+          {
+            "step": "shrimp",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": "cooking-water"
+      },
+      {
+        "ingredient": "Raw shrimp",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "amount as desired",
+        "state": "peeled and deveined; thaw in refrigerator if frozen",
+        "destinations": [
+          {
+            "step": "shrimp",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": null
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Dried oregano",
+        "alternative": "Use the same listed amount of freeze-dried oregano.",
+        "effect": "Use the chosen oregano product at the aromatic stage; keep the listed amount and assess its fragrance as it cooks."
+      },
+      {
+        "ingredient": "Two-tablespoon version",
+        "alternative": "For the original batch, the salt and parsley variation uses 2–3 tbsp olive oil in place of the main 2 tbsp. Use the listed ¾ tsp salt, or adjust salt to taste, and finish with optional parsley. Freeze-dried oregano can replace the same listed amount of ordinary dried oregano.",
+        "effect": "Choose the variation before cooking and scale its selected amounts. The main version uses the listed olive oil and ordinary dried oregano and omits this salt and parsley option. Both versions keep the measured cans of tomatoes and chickpeas and all the measured broth."
+      }
+    ],
+    "frozenUnlistedAllowances": [
+      {
+        "ingredient": "2 tbsp oil",
+        "destination": "Frozen method uses 2 tbsp oil for onion, absent from ingredient rows. Proposed main explicitly lists this current amount; source 2–3 tbsp stays a distinct option."
+      }
+    ]
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Dried oregano",
+        "alternative": "Use the same listed amount of freeze-dried oregano.",
+        "effect": "Use the chosen oregano product at the aromatic stage; keep the listed amount and assess its fragrance as it cooks."
+      },
+      {
+        "ingredient": "Two-tablespoon version",
+        "alternative": "For the original batch, the salt and parsley variation uses 2–3 tbsp olive oil in place of the main 2 tbsp. Use the listed ¾ tsp salt, or adjust salt to taste, and finish with optional parsley. Freeze-dried oregano can replace the same listed amount of ordinary dried oregano.",
+        "effect": "Choose the variation before cooking and scale its selected amounts. The main version uses the listed olive oil and ordinary dried oregano and omits this salt and parsley option. Both versions keep the measured cans of tomatoes and chickpeas and all the measured broth."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Dried oregano",
+        "alternative": "Use the same listed amount of freeze-dried oregano.",
+        "effect": "Use the chosen oregano product at the aromatic stage; keep the listed amount and assess its fragrance as it cooks."
+      },
+      {
+        "ingredient": "Two-tablespoon version",
+        "alternative": "For the original batch, the salt and parsley variation uses 2–3 tbsp olive oil in place of the main 2 tbsp. Use the listed ¾ tsp salt, or adjust salt to taste, and finish with optional parsley. Freeze-dried oregano can replace the same listed amount of ordinary dried oregano.",
+        "effect": "Choose the variation before cooking and scale its selected amounts. The main version uses the listed olive oil and ordinary dried oregano and omits this salt and parsley option. Both versions keep the measured cans of tomatoes and chickpeas and all the measured broth."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["spanish-rice-chorizo", "steamed-mussels-chorizo", "weeknight-paella"],
+    "scope": "Whole paired recipes inspected separately; no dependency or whole meal complete status granted",
+    "linkedMeals": [],
+    "evidence": "evidence/whole-pairings.json",
+    "limitations": "Separate recipe links are not component substitutions. Rice/chorizo-rice/paella each contain starch; choose a rice preparation rather than merge ratios. No whole linked-meal references found."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Ingredients ---",
+        "1/2 tbsp Olive oil",
+        "1/4 Medium yellow onion, finely chopped",
+        "3/4 Garlic clove, minced",
+        "1/4 tbsp Smoked paprika",
+        "1/4 tbsp Dried oregano",
+        "1/4 cup Dry long-grain white rice",
+        "1/4 can (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "1/4 can (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "3/8 cup Vegetable broth",
+        "0.19 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/2 tbsp Olive oil",
+        "1/4 Medium yellow onion",
+        "3/4 Garlic clove",
+        "1/4 tbsp Smoked paprika",
+        "1/4 tbsp Dried oregano",
+        "1/4 cup Dry long-grain white rice",
+        "1/4 can (19 oz) Diced tomatoes",
+        "1/4 can (19 oz) Cooked canned chickpeas",
+        "3/8 cup Vegetable broth",
+        "0.19 tsp Salt, optional",
+        "Fresh parsley, for topping, optional",
+        "Fresh spinach, amount as desired, optional",
+        "Raw shrimp, amount as desired, optional"
+      ],
+      "directions": "1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Ingredients ---",
+        "1 tbsp Olive oil",
+        "1/2 Medium yellow onion, finely chopped",
+        "1 1/2 Garlic cloves, minced",
+        "1/2 tbsp Smoked paprika",
+        "1/2 tbsp Dried oregano",
+        "1/2 cup Dry long-grain white rice",
+        "1/2 can (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "1/2 can (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "3/4 cup Vegetable broth",
+        "3/8 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1 tbsp Olive oil",
+        "1/2 Medium yellow onion",
+        "1 1/2 Garlic cloves",
+        "1/2 tbsp Smoked paprika",
+        "1/2 tbsp Dried oregano",
+        "1/2 cup Dry long-grain white rice",
+        "1/2 can (19 oz) Diced tomatoes",
+        "1/2 can (19 oz) Cooked canned chickpeas",
+        "3/4 cup Vegetable broth",
+        "3/8 tsp Salt, optional",
+        "Fresh parsley, for topping, optional",
+        "Fresh spinach, amount as desired, optional",
+        "Raw shrimp, amount as desired, optional"
+      ],
+      "directions": "1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Ingredients ---",
+        "2 tbsp Olive oil",
+        "1 Medium yellow onion, finely chopped",
+        "3 Garlic cloves, minced",
+        "1 tbsp Smoked paprika",
+        "1 tbsp Dried oregano",
+        "1 cup Dry long-grain white rice",
+        "1 can (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "1 can (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "1 1/2 cups Vegetable broth",
+        "3/4 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "2 tbsp Olive oil",
+        "1 Medium yellow onion",
+        "3 Garlic cloves",
+        "1 tbsp Smoked paprika",
+        "1 tbsp Dried oregano",
+        "1 cup Dry long-grain white rice",
+        "1 can (19 oz) Diced tomatoes",
+        "1 can (19 oz) Cooked canned chickpeas",
+        "1 1/2 cups Vegetable broth",
+        "3/4 tsp Salt, optional",
+        "Fresh parsley, for topping, optional",
+        "Fresh spinach, amount as desired, optional",
+        "Raw shrimp, amount as desired, optional"
+      ],
+      "directions": "1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Ingredients ---",
+        "3 tbsp Olive oil",
+        "1 1/2 Medium yellow onions, finely chopped",
+        "4 1/2 Garlic cloves, minced",
+        "1 1/2 tbsp Smoked paprika",
+        "1 1/2 tbsp Dried oregano",
+        "1 1/2 cups Dry long-grain white rice",
+        "1 1/2 cans (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "1 1/2 cans (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "2 1/4 cups Vegetable broth",
+        "1 1/8 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "3 tbsp Olive oil",
+        "1 1/2 Medium yellow onions",
+        "4 1/2 Garlic cloves",
+        "1 1/2 tbsp Smoked paprika",
+        "1 1/2 tbsp Dried oregano",
+        "1 1/2 cups Dry long-grain white rice",
+        "1 1/2 cans (19 oz) Diced tomatoes",
+        "1 1/2 cans (19 oz) Cooked canned chickpeas",
+        "2 1/4 cups Vegetable broth",
+        "1 1/8 tsp Salt, optional",
+        "Fresh parsley, for topping, optional",
+        "Fresh spinach, amount as desired, optional",
+        "Raw shrimp, amount as desired, optional"
+      ],
+      "directions": "1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Ingredients ---",
+        "4 tbsp Olive oil",
+        "2 Medium yellow onions, finely chopped",
+        "6 Garlic cloves, minced",
+        "2 tbsp Smoked paprika",
+        "2 tbsp Dried oregano",
+        "2 cups Dry long-grain white rice",
+        "2 cans (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "2 cans (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "3 cups Vegetable broth",
+        "1 1/2 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "4 tbsp Olive oil",
+        "2 Medium yellow onions",
+        "6 Garlic cloves",
+        "2 tbsp Smoked paprika",
+        "2 tbsp Dried oregano",
+        "2 cups Dry long-grain white rice",
+        "2 cans (19 oz) Diced tomatoes",
+        "2 cans (19 oz) Cooked canned chickpeas",
+        "3 cups Vegetable broth",
+        "1 1/2 tsp Salt, optional",
+        "Fresh parsley, for topping, optional",
+        "Fresh spinach, amount as desired, optional",
+        "Raw shrimp, amount as desired, optional"
+      ],
+      "directions": "1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Ingredients ---",
+        "6 tbsp Olive oil",
+        "3 Medium yellow onions, finely chopped",
+        "9 Garlic cloves, minced",
+        "3 tbsp Smoked paprika",
+        "3 tbsp Dried oregano",
+        "3 cups Dry long-grain white rice",
+        "3 cans (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "3 cans (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "4 1/2 cups Vegetable broth",
+        "2 1/4 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "6 tbsp Olive oil",
+        "3 Medium yellow onions",
+        "9 Garlic cloves",
+        "3 tbsp Smoked paprika",
+        "3 tbsp Dried oregano",
+        "3 cups Dry long-grain white rice",
+        "3 cans (19 oz) Diced tomatoes",
+        "3 cans (19 oz) Cooked canned chickpeas",
+        "4 1/2 cups Vegetable broth",
+        "2 1/4 tsp Salt, optional",
+        "Fresh parsley, for topping, optional",
+        "Fresh spinach, amount as desired, optional",
+        "Raw shrimp, amount as desired, optional"
+      ],
+      "directions": "1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.\n2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.\n3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.\n4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.\n5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.\n6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.\n7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.\n8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Ingredients ---",
+        "2 tbsp Olive oil",
+        "1 Medium yellow onion, finely chopped",
+        "3 Garlic cloves, minced",
+        "1 tbsp Smoked paprika",
+        "1 tbsp Dried oregano",
+        "1 cup Dry long-grain white rice",
+        "1 can (19 oz) Diced tomatoes, include can liquid; do not drain",
+        "1 can (19 oz) Cooked canned chickpeas, rinsed and drained",
+        "1 1/2 cups Vegetable broth",
+        "3/4 tsp Salt, for the salt and parsley variation, optional",
+        "Fresh parsley, for topping, washed and chopped, optional",
+        "Fresh spinach, amount as desired, washed and drained, optional",
+        "Water, as needed for separately poaching optional shrimp, optional",
+        "Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
+    "Confirm intended shrimp/spinach amounts and practical pan capacity; no yield precision for optional branches.",
+    "Confirm saved freeze-dried oregano versus current ordinary dried preference.",
+    "Which seasoning route should be the normal household version?",
+    "Keep one chickpea can unless household directs otherwise; original card is malformed and publisher prose says two."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

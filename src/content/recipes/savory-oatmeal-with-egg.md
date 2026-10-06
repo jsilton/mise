@@ -1,7 +1,6 @@
 ---
 miseId: 8502d037-a926-43d9-9186-5fea03da2e4c
 title: Savory Oatmeal with Egg
-origin: United States
 difficulty: easy
 cookingMethods:
   - simmer
@@ -27,8 +26,8 @@ equipment:
   - saucepan
   - skillet
 prepTime: 5 min
-cookTime: 10 min
-totalTime: 15 min
+cookTime: 10–15 min
+totalTime: 15–20 min
 servings: '2'
 pairsWith:
   - steel-cut-oatmeal
@@ -47,24 +46,76 @@ ingredients:
   - Red Pepper Flakes
   - Freshly Ground Black Pepper
   - 'Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado'
-nutrition:
-  calories: 495
-  protein: 18.5
-  carbs: 35.5
-  fat: 32.5
-  fiber: 6
-  sugar: 2
-  sodium: 2750
+  - 'Kosher Salt for the eggs, to taste'
+learning:
+  focus: Keep cooking and finishing fats in separate stages
+  outcome: 'Tender, glossy oats support cooked eggs and fresh scallions.'
+  techniques:
+    - starch
+    - gentle-proteins
+  before:
+    - >-
+      Use old-fashioned rolled oats and already-prepared stock if choosing
+      broth. The listed liquid is a complete starting formula, not a dry-grain
+      conversion.
+    - >-
+      Wash scallions and prepare optional toppings before cooking. Choose
+      pasteurized-in-shell eggs for soft-yolk service.
+  checkpoints:
+    - step: 1
+      cue: 'Oats are tender with a creamy, spoonable base.'
+      why: 'Grain texture, not a universal 5-minute clock, determines the finish.'
+    - step: 3
+      cue: The full butter has melted into the oats; sesame oil is added off heat.
+      why: Keeping cooking and finishing fats separate preserves their stated jobs.
+  troubleshooting:
+    - problem: Oats firm up before eggs are ready
+      cause: Oats thicken as they stand.
+      fix: >-
+        Fry the eggs while the oats simmer and assemble promptly. Take the oat
+        pan off heat if it finishes first; if it firms while standing, serve the
+        thicker texture rather than continuing to boil it dry.
+  substitutions:
+    - ingredient: Water OR low-sodium chicken broth
+      alternative: Use the same complete listed liquid volume of one choice.
+      effect: >-
+        Broth changes flavor and sodium; the soy/tamari and measured salt remain
+        the listed formula.
+    - ingredient: Soft yolk
+      alternative: Use pasteurized-in-shell eggs and fully set whites.
+      effect: >-
+        The runny-yolk texture remains separate from the firm-yolk route; no
+        absolute risk elimination is claimed.
+  storage: >-
+    Refrigerate cooked leftovers promptly in shallow containers within 2 hours,
+    or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4
+    days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the
+    refrigerator.
+  timing: >-
+    About 15–20 minutes for the original batch with egg frying overlapping oat
+    cooking. Heating liquid, actual package cooking time, firm yolks and extra
+    egg-pan loads can extend the original 15-minute plan.
+  sources:
+    - title: FDA — Egg Safety
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-Oatmeal does not have to be sweet. Cooking oats in broth instead of water and topping them with a runny fried egg, scallions, and a drizzle of soy sauce creates a deeply satisfying savory bowl that feels more like congee than breakfast cereal. The oats provide the same comforting starchy base, but the umami from soy sauce and the richness of the egg yolk transform it into something entirely different. A splash of sesame oil at the finish adds a nutty aroma that ties everything together.
+Rolled oats make a creamy base for broth, butter, soy sauce and sesame oil. Keep the full finishing butter and both oils in their separate jobs: olive oil cooks the eggs, while butter and sesame oil finish the oats off heat. Scallion whites and greens both go on the finished bowls.
 
 ## Directions
 
-1.  **Cook the Oats:** In a saucepan, bring water or broth and salt to a boil. Stir in the oats. Reduce heat to medium-low and cook for 5 minutes, stirring occasionally, until the oats are creamy and tender but not mushy.
-2.  **Fry the Eggs:** While the oats cook, heat olive oil in a small nonstick skillet over medium-high heat. When the oil shimmers, crack in the eggs. Cook for 2-3 minutes until the whites are fully set and the edges are lacy and crisp, but the yolk is still runny. Season with salt and pepper.
-3.  **Finish the Oats:** Remove the oats from heat. Stir in butter, soy sauce, and sesame oil. The butter should melt and make the oats glossy.
-4.  **Assemble:** Divide the oats between two bowls. Top each with a fried egg, sliced scallions (both white and green parts), and a pinch of red pepper flakes.
-5.  **Serve:** Eat immediately, breaking the yolk so it runs into the oats and creates a rich, silky sauce. Add optional toppings as desired.
+1. **Cook oats:** Bring all the listed water OR broth and the measured salt to a boil in a saucepan with room for bubbling oats. Stir in all the rolled oats, reduce to a gentle simmer and stir occasionally until tender and creamy, checking after about 5 minutes. Follow the actual rolled-oat package if it needs longer; steel-cut or instant oats are not the same clock.
+
+2. **Fry eggs:** While the oats simmer, heat all the olive oil in a nonstick skillet over medium to medium-high heat without smoking. Add the eggs in an uncrowded layer. Cook until whites and yolks are firm for the fully cooked route, checking after 2–3 minutes and allowing more time as needed. Season with the separate egg-salt allowance and listed black pepper. Lower heat if the edges darken before the center sets. For the soft-yolk option choose pasteurized-in-shell eggs and cook the whites fully.
+
+3. **Finish oats:** Remove the oats from heat and stir in all the butter, soy sauce OR tamari, and sesame oil until glossy. The measured salt was used in the oat water; any additional egg salt is the separate to-taste allowance, not a second full measured dose.
+
+4. **Assemble:** Divide the finished oats among the listed servings and distribute all the eggs and both white and green scallion parts among them. For the original two-serving batch, one egg goes on each bowl. Add red-pepper flakes to taste.
+
+5. **Serve:** Serve promptly. Add optional shredded cheddar, already-cooked crumbled bacon, hot sauce or sliced avocado as desired. The soft-yolk option can be broken over the oats at serving; do not describe it as the fully cooked egg route.

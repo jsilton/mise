@@ -1,0 +1,589 @@
+{
+  "slug": "breakfast-quesadilla",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "e7235869fa2a2628d6d1506092905c5b3fcb396d5380b5a93889ecb08916f3ab",
+  "acceptedSourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "8 min",
+      "after": "10–15 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "13 min",
+      "after": "15–20 min"
+    },
+    {
+      "field": "servings",
+      "before": "2",
+      "after": "2 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 large Eggs",
+        "1 tbsp Unsalted Butter",
+        "1/4 tsp Kosher Salt",
+        "2 large (10-inch) Flour Tortillas",
+        "1 cup Shredded Cheddar or Mexican Blend Cheese",
+        "2 tbsp Pickled Jalapenos, chopped (optional)",
+        "Salsa and sour cream for serving"
+      ],
+      "after": [
+        "--- Quesadillas ---",
+        "4 large eggs",
+        "1 tbsp unsalted butter",
+        "1/4 tsp kosher salt",
+        "2 flour tortillas, 10-inch size",
+        "1 cup shredded cheddar OR Mexican-blend cheese",
+        "2 tbsp pickled jalapeños, chopped, optional",
+        "salsa, as needed",
+        "sour cream, as needed"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 645,
+        "protein": 40,
+        "carbs": 3,
+        "fat": 53.5,
+        "fiber": 0,
+        "sugar": 2,
+        "sodium": 2050
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 2,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Quesadillas",
+            "ingredients": [
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "scramble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "scramble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "scramble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tortillas",
+                "key": "tortillas",
+                "name": "flour tortilla",
+                "plural": "flour tortillas",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "build",
+                    "share": 1
+                  }
+                ],
+                "preparation": "10-inch size"
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "shredded cheddar OR Mexican-blend cheese",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "build",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "jalapenos",
+                "key": "jalapenos",
+                "name": "pickled jalapeños",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "build",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "salsa",
+                "key": "salsa",
+                "name": "salsa",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "sour cream",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "scramble",
+            "title": "Scramble",
+            "text": "Scramble {{ingredients}} in a nonstick skillet over medium heat: melt the butter first, whisk the eggs with the salt, then pour them into the pan. Fold gently until the curds are set with no liquid egg, then transfer to a clean plate. The egg filling must reach 160°F / 71°C before serving."
+          },
+          {
+            "id": "build",
+            "title": "Build",
+            "text": "Wipe the skillet clean. Set out {{ingredients}}. Divide all the cooked eggs, cheese and optional jalapeños evenly among the listed tortillas. For the original two-tortilla batch, each tortilla gets half the eggs, half the jalapeños and half the total cheese. Spread half of each tortilla’s own cheese share on one half of it, add its eggs and jalapeños, then top with the rest of that tortilla’s cheese share. Fold each tortilla over the filling. This uses the full listed cheese once."
+          },
+          {
+            "id": "crisp",
+            "title": "Crisp",
+            "text": "Cook as many folded quesadillas as fit flat without overlap in the dry skillet over medium heat. Press gently with a spatula. Begin checking after 2–3 minutes on the first side, then flip and check the second side after about 2 minutes. Continue until both sides are golden and the cheese is melted; check the thick egg filling reaches 160°F / 71°C. Lower the heat if the tortilla is browning too quickly. Extra pan loads take additional time."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Transfer to a clean cutting board, rest about 30 seconds, then cut each quesadilla into thirds. Serve promptly with {{ingredients}}."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Divide the full cheese before building folded pockets",
+        "outcome": "Golden tortillas enclose melted cheese and set eggs.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Set out the listed tortilla count and divide the entire cheese supply among them before cooking. Tortillas stay 10 inches as the count scales.",
+          "Cook folded pockets in uncrowded loads rather than stacking them; keep cooked eggs on a clean plate."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Each tortilla has its own complete cheese share, split below and above its eggs.",
+            "why": "Allocating the cheese first prevents spending the entire batch on the first quesadilla."
+          },
+          {
+            "step": 3,
+            "cue": "Golden tortillas surround melted cheese and set egg filling at 160°F.",
+            "why": "Tortilla color does not measure the temperature of the enclosed egg."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Tortilla browns before filling heats",
+            "cause": "The skillet is too hot or the filling is piled too thickly.",
+            "fix": "Reduce the heat and distribute the filling evenly; continue checking the egg center rather than using color alone."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cheddar OR Mexican blend",
+            "alternative": "Use the same full listed cheese amount of one choice.",
+            "effect": "Melting texture and saltiness differ; the allocation stays the same."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.",
+        "timing": "About 15–20 minutes for the original batch if both folded tortillas fit the pan; two separate 4–5 minute crisping loads can extend that range. The 30-second cutting-board rest is included; additional loads are not a linear temperature adjustment.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA breakfast quesadilla should be crispy on the outside, melty on the inside, and ready in under 15 minutes. The key is scrambling the eggs first and slightly undercooking them -- they will continue to cook inside the quesadilla from the residual heat and the time on the griddle. Using a dry skillet over medium heat (no oil) to cook the quesadilla allows the tortilla to crisp without becoming greasy. Press gently with a spatula while cooking to ensure the cheese makes full contact with the eggs and creates a cohesive, sliceable pocket.\n\n## Directions\n\n1.  **Scramble Eggs:** Melt butter in a nonstick skillet over medium heat. Whisk eggs with salt and pour into the skillet. Stir gently with a spatula until the eggs are just barely set -- slightly wetter than you would normally eat them. Remove to a plate.\n2.  **Build the Quesadilla:** Wipe the skillet clean. Lay one tortilla flat. Spread half the cheese on one half of the tortilla, top with half the scrambled eggs and jalapenos (if using), then add the remaining cheese on top. Fold the tortilla in half. Repeat with the second tortilla.\n3.  **Cook:** Place the quesadilla in the dry skillet over medium heat. Cook for 2-3 minutes, pressing gently with a spatula, until the bottom is golden brown and crispy. Flip carefully and cook for 2 minutes more until the other side is golden and the cheese is fully melted.\n4.  **Slice and Serve:** Transfer to a cutting board. Let rest for 30 seconds, then cut into thirds. Serve with salsa and sour cream on the side.\n",
+    "after": "\n## Chef's Note\n\nA dry skillet crisps the tortilla while the cheese binds the cooked eggs into a folded pocket. Divide the full cheese among all the tortillas before assembly, reserving part of each tortilla’s share for above the eggs. Lower the heat if the bread browns before the filling is hot.\n\n## Directions\n\n1. **Scramble:** Scramble large eggs, unsalted butter, and kosher salt in a nonstick skillet over medium heat: melt the butter first, whisk the eggs with the salt, then pour them into the pan. Fold gently until the curds are set with no liquid egg, then transfer to a clean plate. The egg filling must reach 160°F / 71°C before serving.\n2. **Build:** Wipe the skillet clean. Set out flour tortillas, shredded cheddar OR Mexican-blend cheese, and pickled jalapeños (if using). Divide all the cooked eggs, cheese and optional jalapeños evenly among the listed tortillas. For the original two-tortilla batch, each tortilla gets half the eggs, half the jalapeños and half the total cheese. Spread half of each tortilla’s own cheese share on one half of it, add its eggs and jalapeños, then top with the rest of that tortilla’s cheese share. Fold each tortilla over the filling. This uses the full listed cheese once.\n3. **Crisp:** Cook as many folded quesadillas as fit flat without overlap in the dry skillet over medium heat. Press gently with a spatula. Begin checking after 2–3 minutes on the first side, then flip and check the second side after about 2 minutes. Continue until both sides are golden and the cheese is melted; check the thick egg filling reaches 160°F / 71°C. Lower the heat if the tortilla is browning too quickly. Extra pan loads take additional time.\n4. **Serve:** Transfer to a clean cutting board, rest about 30 seconds, then cut each quesadilla into thirds. Serve promptly with salsa and sour cream.\n"
+  },
+  "findings": [
+    {
+      "id": "EB13-breakfast-quesadilla-1",
+      "title": "EB13-breakfast-quesadilla-1",
+      "rationale": "Repair cheese over-allocation; preserve full one-cup total, two folded tortillas and three cuts each.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/breakfast-quesadilla.md",
+            "sha256": "f183d5607b88c76ec1ada60559d1fdf01d6c3a6dc983d3e60c35b836a6bebf25",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Set scrambled curds and 160°F egg-dish application; no fixed carryover or reheat-duration validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings"],
+      "questions": [
+        "Actual pan footprint, cheese melt and center-probe placement need kitchen observation. No undercooked-egg carryover guarantee is made."
+      ]
+    },
+    {
+      "id": "EB13-breakfast-quesadilla-2",
+      "title": "EB13-breakfast-quesadilla-2",
+      "rationale": "Replace deliberately wet egg finish with set-curd/measured final endpoint; no fixed carryover guarantee.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/breakfast-quesadilla.md",
+            "sha256": "f183d5607b88c76ec1ada60559d1fdf01d6c3a6dc983d3e60c35b836a6bebf25",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Set scrambled curds and 160°F egg-dish application; no fixed carryover or reheat-duration validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings"],
+      "questions": [
+        "Actual pan footprint, cheese melt and center-probe placement need kitchen observation. No undercooked-egg carryover guarantee is made."
+      ]
+    },
+    {
+      "id": "EB13-metadata-breakfast-quesadilla",
+      "title": "EB13-metadata-breakfast-quesadilla",
+      "rationale": "Remove the unverified legacy nutrition and unsupported Mexico country-origin field while preserving Mexican/American style tags, identity, rating, pairings and the complete two-tortilla formula. The exact first Git cooking recipe supports the full amounts and the corrected once-only cheese allocation, not a national-origin or nutrition claim.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/breakfast-quesadilla.md",
+            "sha256": "f183d5607b88c76ec1ada60559d1fdf01d6c3a6dc983d3e60c35b836a6bebf25",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Actual introduction/followed history distinguishes inherited labels from culinary or geographic proof."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "applicability": "No invented origins/nutrition or kitchen-tested status; method tags describe actual complete route."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/breakfast-quesadilla.md",
+    "introductionScope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "No attributed primary publisher or independent450 original exists for this exact recipe; first Git cooking formula retained, arithmetic and applicable egg guidance explicitly distinguished."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "4 large Eggs",
+        "assessment": "Eggs scrambled1 while explicitly wetter than normal; half filling per tortilla2."
+      },
+      {
+        "index": 1,
+        "text": "1 tbsp Unsalted Butter",
+        "assessment": "Full butter scramble1."
+      },
+      {
+        "index": 2,
+        "text": "1/4 tsp Kosher Salt",
+        "assessment": "Full measured kosher salt scramble1."
+      },
+      {
+        "index": 3,
+        "text": "2 large (10-inch) Flour Tortillas",
+        "assessment": "Two10-inch tortillas folded2 and griddled3."
+      },
+      {
+        "index": 4,
+        "text": "1 cup Shredded Cheddar or Mexican Blend Cheese",
+        "assessment": "Step2 spends half cheese then remaining cheese on first tortilla, then repeats; contradictory full-batch allocation."
+      },
+      {
+        "index": 5,
+        "text": "2 tbsp Pickled Jalapenos, chopped (optional)",
+        "assessment": "Optional jalapeños divided2; half on first then repeat."
+      },
+      {
+        "index": 6,
+        "text": "Salsa and sour cream for serving",
+        "assessment": "Unmeasured salsa and sour cream serve4."
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "--- Quesadillas ---",
+        "destination": "Divider only"
+      },
+      {
+        "index": 1,
+        "text": "4 large eggs",
+        "destination": [
+          {
+            "step": "scramble",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "1 tbsp unsalted butter",
+        "destination": [
+          {
+            "step": "scramble",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "text": "1/4 tsp kosher salt",
+        "destination": [
+          {
+            "step": "scramble",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "text": "2 flour tortillas, 10-inch size",
+        "destination": [
+          {
+            "step": "build",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "text": "1 cup shredded cheddar OR Mexican-blend cheese",
+        "destination": [
+          {
+            "step": "build",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "text": "2 tbsp pickled jalapeños, chopped, optional",
+        "destination": [
+          {
+            "step": "build",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "text": "salsa, as needed",
+        "destination": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "text": "sour cream, as needed",
+        "destination": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Scramble",
+      "text": "Scramble {{ingredients}} in a nonstick skillet over medium heat: melt the butter first, whisk the eggs with the salt, then pour them into the pan. Fold gently until the curds are set with no liquid egg, then transfer to a clean plate. The egg filling must reach 160°F / 71°C before serving."
+    },
+    {
+      "step": 2,
+      "title": "Build",
+      "text": "Wipe the skillet clean. Set out {{ingredients}}. Divide all the cooked eggs, cheese and optional jalapeños evenly among the listed tortillas. For the original two-tortilla batch, each tortilla gets half the eggs, half the jalapeños and half the total cheese. Spread half of each tortilla’s own cheese share on one half of it, add its eggs and jalapeños, then top with the rest of that tortilla’s cheese share. Fold each tortilla over the filling. This uses the full listed cheese once."
+    },
+    {
+      "step": 3,
+      "title": "Crisp",
+      "text": "Cook as many folded quesadillas as fit flat without overlap in the dry skillet over medium heat. Press gently with a spatula. Begin checking after 2–3 minutes on the first side, then flip and check the second side after about 2 minutes. Continue until both sides are golden and the cheese is melted; check the thick egg filling reaches 160°F / 71°C. Lower the heat if the tortilla is browning too quickly. Extra pan loads take additional time."
+    },
+    {
+      "step": 4,
+      "title": "Serve",
+      "text": "Transfer to a clean cutting board, rest about 30 seconds, then cut each quesadilla into thirds. Serve promptly with {{ingredients}}."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cheddar OR Mexican blend",
+      "alternative": "Use the same full listed cheese amount of one choice.",
+      "effect": "Melting texture and saltiness differ; the allocation stays the same.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["classic-guacamole", "carnitas-bowl", "shakshuka"],
+    "scope": "Existing pairings retained as metadata; no composed meal/source receives review credit. Actual meal source search found no incoming composition."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "2",
+    "proposedYield": "2 portions",
+    "wholeDosePreservation": "All existing measured supplies remain; Quesadilla migrates full4eggs/1Tbbutter/¼tspkosher/2ten-inch tortillas/1cupcheese/optional2Tbjalapeños together. Method-only genuine allowances separately listed where needed.",
+    "capacity": [
+      "Set out the listed tortilla count and divide the entire cheese supply among them before cooking. Tortillas stay 10 inches as the count scales.",
+      "Cook folded pockets in uncrowded loads rather than stacking them; keep cooked eggs on a clean plate."
+    ],
+    "unmeasured": "Pan footprints, finished filling/bite/roll count and actual center clocks require kitchen observation. No new gram/yield conversion supplied."
+  },
+  "preservedPriorRepairs": [
+    "All full current measured quantities and distinct product options preserved."
+  ],
+  "remainingQuestions": [
+    "Actual pan footprint, cheese melt and center-probe placement need kitchen observation. No undercooked-egg carryover guarantee is made."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

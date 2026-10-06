@@ -1,0 +1,1060 @@
+{
+  "slug": "pizza-beans",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "a9305c8430133a37f9be3138a73485a9bf6fc88399bfd052055801a5eba33594",
+  "acceptedSourceSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "saute", "simmer", "no-cook"],
+      "after": ["saute", "simmer", "bake"]
+    },
+    {
+      "field": "cuisines",
+      "before": ["Mexican"],
+      "after": ["American", "Italian"]
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "About 30–40 min, plus 5 min rest"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 50–65 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "pairsWith",
+      "before": ["queso-fundido-with-chorizo", "homemade-enchilada-sauce", "cilantro-lime-rice"],
+      "after": ["everyday-arugula-salad"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cans (15 oz each) Giant White Beans (Butter or Gigante), rinsed",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1 Yellow Onion, diced",
+        "2 cloves Garlic, minced",
+        "1 (28 oz) can Crushed Tomatoes",
+        "1 bunch Lacinato Kale, chopped",
+        "8 oz Mozzarella Cheese, shredded",
+        "1/3 cup Grated Parmesan",
+        "1 tsp Dried Oregano",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Ingredients ---",
+        "1 tbsp Extra-virgin olive oil",
+        "1 Yellow onion, diced",
+        "2 Garlic cloves, minced",
+        "Red pepper flakes, to taste, optional",
+        "1 Lacinato kale bunch, washed, tough stems removed and leaves chopped",
+        "1 can (28 oz) Crushed tomatoes",
+        "2 cans (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "1 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "8 oz Mozzarella cheese, shredded",
+        "1/3 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 220,
+        "protein": 13.5,
+        "carbs": 6,
+        "fat": 16,
+        "fiber": 1,
+        "sugar": 1.5,
+        "sodium": 360
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dish",
+            "name": "Ingredients",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Extra-virgin olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "Yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "plural": "Yellow onions",
+                "preparation": "diced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "Red pepper flakes",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "kale",
+                "key": "kale",
+                "name": "Lacinato kale bunch",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "greens",
+                    "share": 1
+                  }
+                ],
+                "plural": "Lacinato kale bunches",
+                "preparation": "washed, tough stems removed and leaves chopped"
+              },
+              {
+                "id": "tomatoes",
+                "key": "tomatoes",
+                "name": "Crushed tomatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 28,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "Cooked canned giant white beans (butter or gigante)",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                },
+                "preparation": "rinsed and drained; not dry beans"
+              },
+              {
+                "id": "oregano",
+                "key": "oregano",
+                "name": "Dried oregano",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mozzarella",
+                "key": "mozzarella",
+                "name": "Mozzarella cheese",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded"
+              },
+              {
+                "id": "parmesan",
+                "key": "parmesan",
+                "name": "Parmesan cheese",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "bread",
+                "key": "bread",
+                "name": "Crusty bread",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "base",
+            "title": "Heat oven and soften onion",
+            "text": "Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat {{ingredients}} over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened."
+          },
+          {
+            "id": "garlic",
+            "title": "Add garlic",
+            "text": "Add {{ingredients}} and stir about 1 minute until fragrant; stop before garlic darkens."
+          },
+          {
+            "id": "greens",
+            "title": "Wilt kale",
+            "text": "Add {{ingredients}} in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer the bean base",
+            "text": "Stir in {{ingredients}}. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy."
+          },
+          {
+            "id": "top",
+            "title": "Add the full cheese topping",
+            "text": "Distribute {{ingredients}} across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and rest",
+            "text": "Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Scoop into bowls and offer {{ingredients}} if desired."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate a hot bean-and-kale base with a browned cheese topping",
+        "outcome": "Saucy white beans beneath the full mozzarella and Parmesan topping",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Use fully cooked canned beans, drained after rinsing. Dry gigante or butter beans require a separate complete cooking method before this recipe.",
+          "When scaling, divide the base between suitably rated pans with headroom and a similar depth; pan dimensions and baking time do not scale with the ingredient controls."
+        ],
+        "checkpoints": [
+          {
+            "step": 6,
+            "cue": "The center base is hot and bubbling, measures 165°F /74°C, and the cheese develops golden spots.",
+            "why": "A fixed interval or surface color cannot establish the center condition."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cheese darkens while the bean center is not bubbling",
+            "cause": "A deep or crowded pan heats its center more slowly",
+            "fix": "Shield the top loosely with foil and continue baking until the center is hot. Next time divide the full ingredient batch between pans with comparable depth rather than add cheese or force the timer."
+          }
+        ],
+        "substitutions": [],
+        "timing": "Allow about 50–65 minutes including 15–20 minutes preparation, onion and garlic sautéing, kale wilting, a five-minute simmer, roughly 15–20 minutes baking and a five-minute rest. Heat the oven while preparing ingredients. Additional pans or serial oven loads extend elapsed time; center heat and cheese condition determine the bake finish.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use refrigerated leftovers within 3–4 days or freeze promptly. Reheat the portion served to 165°F /74°C throughout, checking several places including the center. Cover while reheating so the center heats before the cheese overbrowns. Do not leave a large pot out to cool overnight.",
+        "sources": [
+          {
+            "title": "USDA — cooling and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Tex-Mex inspired skillet dish swaps pizza dough for protein-rich white beans, creating a comfort food that's lighter but equally satisfying. Cooking kale just until wilted preserves a slight bite that contrasts with the creamy beans and melted cheese. Giant butter beans or gigante beans work best for their substantial, meaty texture.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 450°F.\n2.  **Base:** Heat oil in an oven-safe heavy skillet (cast iron is best). Sauté the onion until soft (8 mins). Add the garlic and cook for 1 minute.\n3.  **Greens:** Add the kale to the pan and stir until it just turns bright green and collapses.\n4.  **Simmer:** Stir in the tomatoes, beans, and oregano. Season with salt and pepper. Let it simmer for 5 minutes to marry the flavors.\n5.  **Assemble:** Top with mozzarella and Parmesan.\n6.  **Bake:** Transfer the skillet to the oven. Bake for 15-20 minutes until the cheese is bubbling and has golden brown spots.\n7.  **Serve:** Let rest for 5 minutes. Scoop into bowls and serve with crusty bread.\n",
+    "after": "\n## Chef's Note\n\nWhite beans and kale sit beneath a full mozzarella–Parmesan topping in this tomato skillet bake. Drain the rinsed beans and soften the kale before baking; cheese browning alone cannot show that the center is hot. Keep the tomato base saucy enough to scoop and allow the written five-minute rest before serving.\n\n## Directions\n\n1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.\n"
+  },
+  "findings": [
+    {
+      "id": "BL01",
+      "title": "BL01",
+      "rationale": "b26b0ece first Git introduction is a gap-filler recipe with no external source. Do not attribute it to a similarly named modern publisher. cf53871c removed unmeasured red pepper flakes, stem removal/draining and retained the full rich cheese formula; no subsequent explicit accepted omission found. Restore flakes as optional allowance and preparation states.",
+      "confidence": "High for exact Git ingredient/history comparisons; no matched native original or external recipe author is established. Safety guidance has its own stated food-state scope. Timing, pot performance and physical yield remain untested.",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence",
+        {
+          "title": "USDA — cooling and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "Saved formula and household history support exact ingredients; USDA guidance applies to cooling/reheating, not a tested yield or universal culinary rule.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cuisines",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "pairsWith",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm kale bunch size, skillet capacity and measured finished portions.",
+        "Confirm preferred optional pepper flakes and bread; no new measured dose."
+      ]
+    },
+    {
+      "id": "BL02",
+      "title": "BL02",
+      "rationale": "Mexican tagging, Mexico origin and Tex-Mex Chef claim were introduced in bulk metadata/chef edits without source support. Remove origin, use descriptive American/Italian-style tags without a historical birthplace claim, and return the actual first-Git arugula pairing. Remove sauce-as-side and rich queso automatic pairing.",
+      "confidence": "High for exact Git ingredient/history comparisons; no matched native original or external recipe author is established. Safety guidance has its own stated food-state scope. Timing, pot performance and physical yield remain untested.",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence",
+        {
+          "title": "USDA — cooling and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "Saved formula and household history support exact ingredients; USDA guidance applies to cooling/reheating, not a tested yield or universal culinary rule.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cuisines",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "pairsWith",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm kale bunch size, skillet capacity and measured finished portions.",
+        "Confirm preferred optional pepper flakes and bread; no new measured dose."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b26b0ecec464763d062646f2252e10570bfa6556/src/content/recipes/pizza-beans.md",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "b26b0ece first Git introduction is a gap-filler recipe with no external source. Do not attribute it to a similarly named modern publisher. cf53871c removed unmeasured red pepper flakes, stem removal/draining and retained the full rich cheese formula; no subsequent explicit accepted omission found. Restore flakes as optional allowance and preparation states.",
+    "Mexican tagging, Mexico origin and Tex-Mex Chef claim were introduced in bulk metadata/chef edits without source support. Remove origin, use descriptive American/Italian-style tags without a historical birthplace claim, and return the actual first-Git arugula pairing. Remove sauce-as-side and rich queso automatic pairing."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "2 cans (15 oz each) Giant White Beans (Butter or Gigante), rinsed",
+        "destination": "Frozen row says rinsed; frozen method stirs beans into tomato simmer. Draining and fully cooked canned-state clarification are candidate repairs supported by first Git, not explicit frozen instructions."
+      },
+      {
+        "row": 2,
+        "ingredient": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "Onion sauté"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 Yellow Onion, diced",
+        "destination": "Onion sauté"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "After softened onion"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 (28 oz) can Crushed Tomatoes",
+        "destination": "Tomato simmer"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 bunch Lacinato Kale, chopped",
+        "destination": "Frozen chopped kale is wilted, then simmered and baked. Stem removal is absent; candidate restores it from first Git."
+      },
+      {
+        "row": 7,
+        "ingredient": "8 oz Mozzarella Cheese, shredded",
+        "destination": "Full mozzarella topping before bake"
+      },
+      {
+        "row": 8,
+        "ingredient": "1/3 cup Grated Parmesan",
+        "destination": "Full Parmesan topping before bake"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 tsp Dried Oregano",
+        "destination": "Tomato simmer"
+      },
+      {
+        "row": 10,
+        "ingredient": "Salt and Black Pepper",
+        "destination": "Season base"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Extra-virgin olive oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "diced",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "minced",
+        "destinations": [
+          {
+            "step": "garlic",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "to taste",
+        "state": null,
+        "destinations": [
+          {
+            "step": "garlic",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": null
+      },
+      {
+        "ingredient": "Lacinato kale bunch",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "washed, tough stems removed and leaves chopped",
+        "destinations": [
+          {
+            "step": "greens",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Crushed tomatoes",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 28,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Cooked canned giant white beans (butter or gigante)",
+        "quantity": {
+          "amount": 2,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 15,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "state": "rinsed and drained; not dry beans",
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Dried oregano",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "to taste",
+        "state": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Black pepper",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "to taste",
+        "state": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Mozzarella cheese",
+        "quantity": {
+          "amount": 8,
+          "unit": "oz"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "shredded",
+        "destinations": [
+          {
+            "step": "top",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Parmesan cheese",
+        "quantity": {
+          "amount": 0.3333333333333333,
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "allowance": null,
+        "state": "grated",
+        "destinations": [
+          {
+            "step": "top",
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": null
+      },
+      {
+        "ingredient": "Crusty bread",
+        "quantity": null,
+        "packageSize": null,
+        "allowance": "for serving",
+        "state": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": null
+      }
+    ],
+    "variants": [],
+    "frozenUnlistedAllowances": [
+      {
+        "ingredient": "Crusty bread",
+        "destination": "Serving; current body"
+      }
+    ]
+  },
+  "variantLedgers": {
+    "options": [],
+    "publicSubstitutions": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["everyday-arugula-salad"],
+    "scope": "Whole paired recipes inspected separately; no dependency or whole meal complete status granted",
+    "linkedMeals": [],
+    "evidence": "evidence/whole-pairings.json",
+    "limitations": "The source-supported arugula side is a separate five-minute salad when greens are ready. Dress it at service while the bean bake rests; do not substitute it into the tomato base. No composed-meal references were found."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Ingredients ---",
+        "1/4 tbsp Extra-virgin olive oil",
+        "1/4 Yellow onion, diced",
+        "1/2 Garlic clove, minced",
+        "Red pepper flakes, to taste, optional",
+        "1/4 Lacinato kale bunch, washed, tough stems removed and leaves chopped",
+        "1/4 can (28 oz) Crushed tomatoes",
+        "1/2 can (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "1/4 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "2 oz Mozzarella cheese, shredded",
+        "0.0833 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/4 tbsp Extra-virgin olive oil",
+        "1/4 Yellow onion",
+        "1/2 Garlic clove",
+        "Red pepper flakes, to taste, optional",
+        "1/4 Lacinato kale bunch",
+        "1/4 can (28 oz) Crushed tomatoes",
+        "1/2 can (15 oz) Cooked canned giant white beans (butter or gigante)",
+        "1/4 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "2 oz Mozzarella cheese",
+        "0.0833 cup Parmesan cheese",
+        "Crusty bread, for serving, optional"
+      ],
+      "directions": "1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Ingredients ---",
+        "1/2 tbsp Extra-virgin olive oil",
+        "1/2 Yellow onion, diced",
+        "1 Garlic clove, minced",
+        "Red pepper flakes, to taste, optional",
+        "1/2 Lacinato kale bunch, washed, tough stems removed and leaves chopped",
+        "1/2 can (28 oz) Crushed tomatoes",
+        "1 can (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "1/2 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "4 oz Mozzarella cheese, shredded",
+        "1/6 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1/2 tbsp Extra-virgin olive oil",
+        "1/2 Yellow onion",
+        "1 Garlic clove",
+        "Red pepper flakes, to taste, optional",
+        "1/2 Lacinato kale bunch",
+        "1/2 can (28 oz) Crushed tomatoes",
+        "1 can (15 oz) Cooked canned giant white beans (butter or gigante)",
+        "1/2 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "4 oz Mozzarella cheese",
+        "1/6 cup Parmesan cheese",
+        "Crusty bread, for serving, optional"
+      ],
+      "directions": "1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Ingredients ---",
+        "1 tbsp Extra-virgin olive oil",
+        "1 Yellow onion, diced",
+        "2 Garlic cloves, minced",
+        "Red pepper flakes, to taste, optional",
+        "1 Lacinato kale bunch, washed, tough stems removed and leaves chopped",
+        "1 can (28 oz) Crushed tomatoes",
+        "2 cans (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "1 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "8 oz Mozzarella cheese, shredded",
+        "1/3 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 tbsp Extra-virgin olive oil",
+        "1 Yellow onion",
+        "2 Garlic cloves",
+        "Red pepper flakes, to taste, optional",
+        "1 Lacinato kale bunch",
+        "1 can (28 oz) Crushed tomatoes",
+        "2 cans (15 oz) Cooked canned giant white beans (butter or gigante)",
+        "1 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "8 oz Mozzarella cheese",
+        "1/3 cup Parmesan cheese",
+        "Crusty bread, for serving, optional"
+      ],
+      "directions": "1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Ingredients ---",
+        "1 1/2 tbsp Extra-virgin olive oil",
+        "1 1/2 Yellow onions, diced",
+        "3 Garlic cloves, minced",
+        "Red pepper flakes, to taste, optional",
+        "1 1/2 Lacinato kale bunches, washed, tough stems removed and leaves chopped",
+        "1 1/2 cans (28 oz) Crushed tomatoes",
+        "3 cans (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "1 1/2 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "12 oz Mozzarella cheese, shredded",
+        "1/2 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 tbsp Extra-virgin olive oil",
+        "1 1/2 Yellow onions",
+        "3 Garlic cloves",
+        "Red pepper flakes, to taste, optional",
+        "1 1/2 Lacinato kale bunches",
+        "1 1/2 cans (28 oz) Crushed tomatoes",
+        "3 cans (15 oz) Cooked canned giant white beans (butter or gigante)",
+        "1 1/2 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "12 oz Mozzarella cheese",
+        "1/2 cup Parmesan cheese",
+        "Crusty bread, for serving, optional"
+      ],
+      "directions": "1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Ingredients ---",
+        "2 tbsp Extra-virgin olive oil",
+        "2 Yellow onions, diced",
+        "4 Garlic cloves, minced",
+        "Red pepper flakes, to taste, optional",
+        "2 Lacinato kale bunches, washed, tough stems removed and leaves chopped",
+        "2 cans (28 oz) Crushed tomatoes",
+        "4 cans (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "2 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "16 oz Mozzarella cheese, shredded",
+        "2/3 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "2 tbsp Extra-virgin olive oil",
+        "2 Yellow onions",
+        "4 Garlic cloves",
+        "Red pepper flakes, to taste, optional",
+        "2 Lacinato kale bunches",
+        "2 cans (28 oz) Crushed tomatoes",
+        "4 cans (15 oz) Cooked canned giant white beans (butter or gigante)",
+        "2 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "16 oz Mozzarella cheese",
+        "2/3 cup Parmesan cheese",
+        "Crusty bread, for serving, optional"
+      ],
+      "directions": "1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Ingredients ---",
+        "3 tbsp Extra-virgin olive oil",
+        "3 Yellow onions, diced",
+        "6 Garlic cloves, minced",
+        "Red pepper flakes, to taste, optional",
+        "3 Lacinato kale bunches, washed, tough stems removed and leaves chopped",
+        "3 cans (28 oz) Crushed tomatoes",
+        "6 cans (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "3 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "24 oz Mozzarella cheese, shredded",
+        "1 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 tbsp Extra-virgin olive oil",
+        "3 Yellow onions",
+        "6 Garlic cloves",
+        "Red pepper flakes, to taste, optional",
+        "3 Lacinato kale bunches",
+        "3 cans (28 oz) Crushed tomatoes",
+        "6 cans (15 oz) Cooked canned giant white beans (butter or gigante)",
+        "3 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "24 oz Mozzarella cheese",
+        "1 cup Parmesan cheese",
+        "Crusty bread, for serving, optional"
+      ],
+      "directions": "1. **Heat oven and soften onion:** Heat the oven to 450°F. Use an oven-safe skillet and handles rated for that temperature, with room for all beans, tomatoes and kale without overflow. Heat Extra-virgin olive oil and Yellow onion over medium heat, adding onion to the warm oil. Cook about 8 minutes until softened.\n2. **Add garlic:** Add Garlic cloves and Red pepper flakes (if using) and stir about 1 minute until fragrant; stop before garlic darkens.\n3. **Wilt kale:** Add Lacinato kale bunch in manageable handfuls and stir until the leaves collapse and start to soften. The subsequent simmer and bake continue cooking them; bright green alone is not a promise of tenderness.\n4. **Simmer the bean base:** Stir in Crushed tomatoes, Cooked canned giant white beans (butter or gigante), Dried oregano, Salt, and Black pepper. Bring to a steady simmer and cook about 5 minutes, stirring so the bottom does not stick; the canned beans should be hot and the tomato base saucy.\n5. **Add the full cheese topping:** Distribute Mozzarella cheese and Parmesan cheese across the base. If the skillet is too full, transfer the hot base to a suitable oven-safe baking dish or divide between pans, dividing the full cheese amount rather than adding another dose.\n6. **Bake and rest:** Bake, beginning checks after 15 minutes, until the base is hot and bubbling through the center, the center reaches 165°F /74°C, and the cheese has golden spots, usually about 15–20 minutes for the original batch. If the top darkens before the center is hot, shield it loosely with foil and continue cooking. Use protected handles and rest 5 minutes.\n7. **Serve:** Scoop into bowls and offer Crusty bread (if using) if desired.",
+      "scope": "Numeric quantities and package counts scale; package sizes, cooking endpoints and equipment instructions stay fixed. Capacity and serial loads require planning."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Ingredients ---",
+        "1 tbsp Extra-virgin olive oil",
+        "1 Yellow onion, diced",
+        "2 Garlic cloves, minced",
+        "Red pepper flakes, to taste, optional",
+        "1 Lacinato kale bunch, washed, tough stems removed and leaves chopped",
+        "1 can (28 oz) Crushed tomatoes",
+        "2 cans (15 oz) Cooked canned giant white beans (butter or gigante), rinsed and drained; not dry beans",
+        "1 tsp Dried oregano",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "8 oz Mozzarella cheese, shredded",
+        "1/3 cup Parmesan cheese, grated",
+        "Crusty bread, for serving, optional"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm kale bunch size, skillet capacity and measured finished portions.",
+    "Confirm preferred optional pepper flakes and bread; no new measured dose."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,7 +1,6 @@
 ---
 miseId: 444c8dc0-71dd-4073-b299-5fa1aa7c3dda
 title: Tamagoyaki (Japanese Rolled Omelet)
-origin: Japan
 difficulty: intermediate
 cookingMethods:
   - pan-fry
@@ -29,8 +28,8 @@ equipment:
   - small-bowl
   - wooden-spatula
 prepTime: 5 min
-cookTime: 8 min
-totalTime: 13 min
+cookTime: 8–18 min
+totalTime: 15–25 min
 servings: '4'
 pairsWith:
   - steamed-white-rice
@@ -46,46 +45,103 @@ ingredients:
   - '1 tbsp Vegetable Oil, plus more for the pan'
   - '--- Optional ---'
   - '1 tbsp Mitsuba (Japanese parsley) or chives, finely chopped'
-nutrition:
-  calories: 185
-  protein: 12.5
-  carbs: 4
-  fat: 13.5
-  fiber: 0
-  sugar: 4
-  sodium: 970
+  - Soy Sauce for dipping (optional)
+origin: Japan
+learning:
+  focus: Build thin layers into a cooked-through roll
+  outcome: Thin layers join into a sliceable roll with a set center.
+  techniques:
+    - gentle-proteins
+    - temperature
+  before:
+    - >-
+      Prepare the full listed volume of dashi at its actual product/recipe
+      strength and cool it before mixing with eggs. Follow instant-stock package
+      directions; no universal five-minute homemade-dashi method is implied.
+    - >-
+      Use a pan that can make thin layers and a bowl large enough for the listed
+      eggs. Scaled batches use separate rolls; pan footprint, not multiplied
+      layer thickness, governs the pour.
+  checkpoints:
+    - step: 3
+      cue: Egg spreads into a thin layer rather than pooling deeply.
+      why: >-
+        Pan footprint controls layer thickness; a fixed quarter of a scaled
+        batch can become too thick.
+    - step: 5
+      cue: >-
+        Fresh egg flows under the earlier roll and the layer lifts without
+        tearing.
+      why: >-
+        Lifting the roll lets the layers join instead of trapping uncooked
+        liquid beside it.
+    - step: 6
+      cue: Thick center reaches 160°F and contains no liquid egg.
+      why: >-
+        Soft rolling layers need a final cooking check after all egg is
+        incorporated.
+  troubleshooting:
+    - problem: Layer tears or browns before rolling
+      cause: 'The layer is too thick, the pan is too hot, or it has stuck.'
+      fix: >-
+        Lower the heat if browning rapidly, oil the exposed pan as needed and
+        make the next layer thinner. Enclose a torn layer in the next roll;
+        finish checking the center.
+  substitutions:
+    - ingredient: Dashi OR prepared chicken stock
+      alternative: 'Use the full listed stock volume of one choice, cooled before mixing.'
+      effect: >-
+        Chicken stock changes the flavor; it is an existing distinct choice, not
+        a homemade-dashi strength conversion.
+    - ingredient: Mitsuba OR chives
+      alternative: Use the listed optional herb amount of one choice.
+      effect: >-
+        Fold it into the egg mixture before layering; chives change the herbal
+        flavor.
+  storage: >-
+    Keep the existing 2–3-day refrigerated preparation plan within prompt cold
+    handling: refrigerate in shallow containers within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Pack chilled portions with an ice or
+    frozen gel pack; reheat stored portions to 165°F / 74°C if serving hot. A
+    room-temperature serving description does not authorize an extended bento
+    hold.
+  timing: >-
+    About 15–25 minutes for the original batch with prepared stock:5 minutes
+    preparation plus variable layer cooking, final center check and 2 minutes
+    slicing rest. Making dashi first and additional separate rolls add elapsed
+    time; the original 8-minute cooking label did not include every
+    layer/finish/rest reliably.
+  sources:
+    - title: FDA — Egg Safety
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
+    - title: Just One Cookbook — Rolling mechanics
+      url: 'https://www.justonecookbook.com/tamagoyaki-japanese-rolled-omelette/'
+    - title: Just One Cookbook — Mirin
+      url: 'https://www.justonecookbook.com/mirin/'
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-Tamagoyaki is a Japanese omelet rolled into a compact log and sliced thin - a technique that's been perfected by home cooks for generations and looks more impressive than it is. The egg is whisked with dashi and mirin (sweet rice vinegar), creating something between an omelet and a custard. The rolling happens directly in the pan: you layer thin sheets of cooked egg, rolling from one end to the other, then slice it into rounds. It appears on every bento box, appears at breakfast, and is surprisingly forgiving once you understand the roll. The key is a rectangular tamagoyaki pan, which makes the rolling intuitive - but a regular 8-inch square skillet works fine too.
+Tamagoyaki builds an omelet by rolling successive thin egg layers around the earlier roll. Mirin is a sweet rice wine, not rice vinegar. This version keeps the listed dashi, mirin, soy, sugar and optional herbs; a prepared chicken-stock choice remains available. Thin layers and a gentle roll matter more than forcing a fixed fraction into a particular pan.
 
 ## Directions
 
-1. **Make the Egg Mixture:** In a small bowl, whisk together eggs, dashi, mirin, soy sauce, sugar, and salt until completely combined and uniform. The mixture should be light yellow and frothy. If using mitsuba, fold it in gently now. Let the mixture rest for 1 minute while you heat the pan.
+1. **Mix:** Whisk all the eggs with the prepared, cooled dashi OR chicken stock, mirin, soy sauce, sugar and salt until uniform and the sugar dissolves. Avoid whipping in a thick foam. Fold in all the optional mitsuba OR chives if using. Let stand about 1 minute while heating the pan.
 
-2. **Heat the Pan:** Use a tamagoyaki pan (rectangular Japanese omelet pan) or a small non-stick skillet over medium heat. Add 1 tbsp vegetable oil and let it coat the pan evenly. Wait 30 seconds until the oil shimmers - do not let it smoke.
+2. **Heat:** Use a rectangular tamagoyaki pan or the 8-inch nonstick skillet option over medium heat. Add the full listed tablespoon of vegetable oil for the original batch, or the corresponding listed scaled amount divided among separate rolls, and coat the pan. Heat until the oil shimmers without smoking;30 seconds is only a first check. The separate additional pan-oil allowance is for later layers.
 
-3. **First Layer:** Pour about 1/4 of the egg mixture into the hot pan, tilting to distribute it evenly in a thin, even layer. Let it cook for about 1-2 minutes until the bottom is set and the top is still slightly wet. This should happen quickly.
+3. **First layer:** Pour enough egg mixture to make a thin layer across the actual pan, tilting to spread it. For a pan that fits the original four-layer plan, about one quarter of an original batch per layer is the starting plan; do not force that volume into a tiny pan. Let the bottom set while the top is still soft, checking after 1–2 minutes.
 
-4. **Roll:** Using a wooden spatula or chopsticks, gently roll the cooked egg from one end toward the other, creating a tight log. Push the rolled egg to the far side of the pan.
+4. **Roll:** Roll the layer toward one end with a spatula or chopsticks and move it to the far side. An imperfect first roll will be enclosed by later layers.
 
-5. **Repeat Layers:** Lightly oil the empty side of the pan. Pour another 1/4 of the egg mixture into the empty space, tilting so it flows under and around the rolled egg. Let it set for 1-2 minutes until mostly firm but still slightly wet on top.
+5. **Build:** Lightly oil the exposed pan as needed using the separate pan-oil allowance. Pour the next thin layer; lift the roll slightly so fresh egg flows underneath it. Once the new layer has set enough to lift, roll the log back across it. Repeat until all the egg mixture for that roll is incorporated. The original four-layer plan may need more thin layers for the actual pan.
 
-6. **Continue Rolling:** Roll the entire log (including the new layer) from the far end back toward you, creating a larger roll with multiple layers.
+6. **Cook through:** Turn the finished roll gently over medium-low heat to finish setting its center, checking after 1–2 minutes and continuing as needed. Check the thick center reaches 160°F / 71°C and has no liquid egg. Browning the outside alone does not establish a cooked center. For larger scaled batches make separate manageable rolls with similar layer thickness rather than one progressively thicker log.
 
-7. **Final Layers:** Repeat the process two more times, oiling lightly and pouring the remaining egg mixture around the roll, cooking until set, then rolling forward. By the final roll, your tamagoyaki should be a compact, multi-layered log about 2 inches wide.
+7. **Slice:** Transfer to a clean board, let stand about 2 minutes to firm for slicing, then cut into approximately½-inch slices. Finished width depends on the actual pan and rolling; it is not a guaranteed 2-inch yield.
 
-8. **Finish Cooking:** Once all egg is incorporated, let the roll cook for 1-2 more minutes, rotating it gently so all sides are lightly cooked and the exterior is set.
-
-9. **Cool and Slice:** Transfer the tamagoyaki to a cutting board. Let it cool for 2 minutes (cooling helps it hold together while slicing). Using a sharp knife, cut the roll into 1/2-inch thick rounds. The layers will be visible and beautiful.
-
-10. **Serve:** Serve warm or at room temperature, often with a small dish of soy sauce for dipping. Can be packed in bento boxes with rice and pickles.
-
-**Pan Choice:** A tamagoyaki pan is narrow and rectangular (about 3 by 4 inches), which makes rolling intuitive. But a regular 8-inch non-stick skillet works - just make slightly thinner layers and be gentler with the roll.
-
-**Dashi Source:** Quick dashi takes 5 minutes (kombu and bonito flakes steeped in hot water) but instant dashi powder (available at any Asian market) is fine. Regular chicken stock works if you prefer.
-
-**Rolling Confidence:** The first roll feels awkward; by the second, you'll get the rhythm. Don't overthink it - the egg is forgiving and will fuse as it cooks.
-
-**Make-Ahead:** Tamagoyaki tastes equally good warm or at room temperature and keeps well in the fridge for 2-3 days, making it perfect for bento box prep.
+8. **Serve or pack:** Serve promptly, with optional soy sauce for dipping. For bento preparation chill promptly in shallow containers and keep the packed omelet cold with an ice or frozen gel pack; do not leave it at room temperature for an extended lunch hold.

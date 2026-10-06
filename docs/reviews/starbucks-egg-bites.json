@@ -1,0 +1,391 @@
+{
+  "slug": "starbucks-egg-bites",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "16ab8d491f8dd78fc9edc78f4e00690ed4e012bc9547804bc5786005d535766d",
+  "acceptedSourceSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "steam", "no-cook", "blend"],
+      "after": ["bake", "blend"]
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "40–45 min reference, plus any remaining preheating or baking to the center endpoint"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 245,
+        "protein": 15,
+        "carbs": 1.5,
+        "fat": 19.5,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 380
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blend the custard and check its center before unmolding",
+        "outcome": "Set custardy bites release after resting.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use cooked bacon and keep the egg/dairy mixture cold until mixing. The preparation clock assumes bacon has already been cooked.",
+          "Choose actual rated tin/support and blender capacity. Additional oven loads are preferable to overfilled wells."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Standard wells have headroom and a silicone tin is supported.",
+            "why": "Keeping well size and fill level similar makes scaled loads more comparable."
+          },
+          {
+            "step": 5,
+            "cue": "Centers are set and several measured centers reach 165°F.",
+            "why": "Bacon makes this a meat-containing egg bake; the pan-rest interval is not a cooking guarantee."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bites stick or collapse during removal",
+            "cause": "The tin was insufficiently greased, unsupported, or the bites are not set/rested.",
+            "fix": "Check doneness first, allow the pan-rest interval and loosen gently. A suitable spoon avoids cutting silicone; use a supported greased tin next time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Muffin tin",
+            "alternative": "A greased standard metal tin or supported silicone tin.",
+            "effect": "Material can change browning and release; keep similar well size, headroom and measured center checks."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. For freezer quality, package chilled bites individually airtight and freeze for up to 3 months; thaw in the refrigerator or reheat from frozen until the center reaches 165°F / 74°C.",
+        "timing": "About 40–45 minutes for the original batch:10 minutes preparation,20–25 minutes reference baking and 10 minutes pan rest. Preheating begins at setup; any remaining heating, extra blender/oven loads and cooking bacon beforehand add time.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Meat-containing casseroles",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "Eating on a Dime — Egg Bites",
+            "url": "https://www.eatingonadime.com/starbucks-egg-bites-recipe/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nStarbucks popularized sous-vide egg bites with their distinctive velvety texture. Blending eggs with full-fat cottage cheese introduces protein-rich moisture that creates custardy texture standard egg muffins lack. Topping each bite with crispy bacon before baking ensures savory crunch on the surface. Placing a tray of water on the bottom oven rack creates a steam bath that keeps the egg bites moist during baking.\n\n## Directions\n\n1.  **Emulsify:** Preheat oven to 350°F. In a high-speed blender, combine eggs, cottage cheese, salt, and pepper. Blend on high for 30 seconds until completely smooth and frothy.\n2.  **Bind:** Pour the mixture into a bowl. Gently fold in the shredded Gruyère cheese.\n3.  **Assemble:** Generously grease a 12-cup silicone muffin tin. Fill each cup 2/3 full with the egg mixture.\n4.  **The Crunch:** Top each cup with a sprinkle of the chopped bacon. Press down slightly with a spoon to anchor it.\n5.  **Bake:** Bake for 20-25 minutes until the centers are set but not brown.\n6.  **The Finish:** Let rest in the pan for 10 minutes (mandatory). Gently pop them out with a knife.\n7.  **Serve or chill:** Serve promptly. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat leftovers to 165°F / 74°C.\n",
+    "after": "\n## Chef's Note\n\nBlending the eggs with full-fat cottage cheese smooths the curds; folding in the full Gruyère afterward leaves cheese throughout the custard. Press all the cooked bacon into the tops so it stays with the bites. These are oven-baked bites rather than a sous-vide recipe.\n\n## Directions\n\n1. **Blend:** Preheat the oven to 350°F. Blend all the cold eggs, cottage cheese, listed salt and pepper until smooth, checking after about 30 seconds. Use the blender’s actual cold-mixture capacity; divide into loads if necessary and combine all loads in a bowl.\n\n2. **Fold:** Fold all the shredded Gruyère into the complete egg mixture.\n\n3. **Fill:** Generously grease a standard muffin tin with the listed butter OR oil spray. Use a flexible silicone tin on a supporting baking sheet, or a metal tin. For the original batch use 12 standard wells and fill approximately two-thirds full, distributing all the mixture. For scaled batches use enough similar wells or additional loads, keeping headroom rather than forcing the whole mixture into 12 wells.\n\n4. **Add bacon:** Divide all the cooked, chopped bacon among the filled wells. Press it gently into the egg mixture rather than leaving loose pieces on top.\n\n5. **Bake:** Bake until each bite is set in the center without liquid egg, beginning checks after 20 minutes; the original 20–25 minute range is a guide. Check several centers across the tin reach 165°F / 74°C for this meat-containing egg bake. Color alone is not the endpoint. If the surface browns first, reduce direct exposure with an oven-safe loose cover and continue checking the centers.\n\n6. **Rest:** Let the bites rest in the pan for the 10-minute interval, then gently loosen and lift them out with a spoon or tool suitable for the pan. The rest helps release; it does not substitute for a cooked center.\n\n7. **Serve or chill:** Serve promptly. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. To freeze, chill promptly, package individual bites airtight for up to 3 months for freezer quality, and thaw in the refrigerator or reheat directly until the center reaches 165°F; a fixed microwave minute is not a reliable endpoint.\n"
+  },
+  "findings": [
+    {
+      "id": "EB13-starbucks-egg-bites-1",
+      "title": "EB13-starbucks-egg-bites-1",
+      "rationale": "Keep full six eggs/cup cottage/cup Gruyère/four bacon slices and prior a2 cold/reheat repair; add measured meat-bake endpoint and include pan-rest in elapsed time.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Starbucks Egg Bites.html",
+            "sha256": "ff558c91820c97f2058c8b91a0733cdf4b8c6fa476cde33d701c497f0075ce0a",
+            "scope": "Actual earlier cooking HTML; canonical045 migrated the same recipe."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Prompt cooling, cooked egg leftovers and reheating; 165°F initial bacon bake uses FoodSafety.gov casserole category as moderate editorial application."
+        },
+        {
+          "url": "https://www.eatingonadime.com/starbucks-egg-bites-recipe/",
+          "applicability": "Direct current full primary and exact native agree core formula/plain oven bake; publisher five-day storage and one-minute microwave statements do not replace prior accepted3–4-day/165 repair."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "165°F category for meat-containing casserole applied moderately to bacon egg bites, not validation of a particular twenty-minute bake."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual well capacity/finished count, cooked-bacon state and time to165°F need observation. The current optional water-tray claim has no supported tray/fill/appliance configuration and remains a held variation, not required for the complete native/publisher oven route."
+      ]
+    },
+    {
+      "id": "EB13-starbucks-egg-bites-2",
+      "title": "EB13-starbucks-egg-bites-2",
+      "rationale": "Native/publisher use ordinary baking; current steam-tray guarantee is unsupported and held separately, without inventing water or model instructions.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Starbucks Egg Bites.html",
+            "sha256": "ff558c91820c97f2058c8b91a0733cdf4b8c6fa476cde33d701c497f0075ce0a",
+            "scope": "Actual earlier cooking HTML; canonical045 migrated the same recipe."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Prompt cooling, cooked egg leftovers and reheating; 165°F initial bacon bake uses FoodSafety.gov casserole category as moderate editorial application."
+        },
+        {
+          "url": "https://www.eatingonadime.com/starbucks-egg-bites-recipe/",
+          "applicability": "Direct current full primary and exact native agree core formula/plain oven bake; publisher five-day storage and one-minute microwave statements do not replace prior accepted3–4-day/165 repair."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "165°F category for meat-containing casserole applied moderately to bacon egg bites, not validation of a particular twenty-minute bake."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual well capacity/finished count, cooked-bacon state and time to165°F need observation. The current optional water-tray claim has no supported tray/fill/appliance configuration and remains a held variation, not required for the complete native/publisher oven route."
+      ]
+    },
+    {
+      "id": "EB13-metadata-starbucks-egg-bites",
+      "title": "EB13-metadata-starbucks-egg-bites",
+      "rationale": "Remove unverified legacy nutrition and the unsupported United States country-origin field while preserving the American style tag, exact Eating on a Dime credit/link, identity, rating, pairings and full custard/bacon quantities. Keep bake/blend tags for the complete actual route; the bulk-added water-tray route stays separately held without an invented configuration. Native two-bite nutrition notes do not verify the later numerical estimates.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Starbucks Egg Bites.html",
+            "sha256": "ff558c91820c97f2058c8b91a0733cdf4b8c6fa476cde33d701c497f0075ce0a",
+            "scope": "Actual earlier cooking HTML; canonical045 migrated the same recipe."
+          },
+          "applicability": "Actual introduction/followed history distinguishes inherited labels from culinary or geographic proof."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "applicability": "No invented origins/nutrition or kitchen-tested status; method tags describe actual complete route."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods", "origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Starbucks%20Egg%20Bites.html",
+    "introductionScope": "Actual earlier cooking HTML; canonical045 migrated the same recipe.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native generic salt versus current sea salt retained as explicit choice; no crystal conversion.",
+    "Native/publisher five-to-ten-minute release rest versus current ten-minute rest retained; elapsed time now includes it.",
+    "Bulk2f255 added water-tray claim absent from native/current primary; tray variation held rather than inventing configuration.",
+    "Prior a2c9 cold/reheat repair remains, publisher five-day refrigerator and minute microwave not accepted.",
+    "The current Eating on a Dime body suggests about 30 minutes baking while its recipe card and exact bound native route say 20–25 minutes. Retain the native/card starting range with center checks; a 165°F meat-bake endpoint is an editorial category application, not a publisher-validated baking clock.",
+    "The current publisher supplies an individual-wrap, three-month freezer-quality option. The bound original notes contain only the two-bite nutrition reference and do not supply this freezer plan. No later explicit rejection was established; retain the modern option separately from the accepted a2c9e280 refrigerator/reheat guidance."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "6 large Eggs",
+        "assessment": "Six eggs blend1, mixture fill3."
+      },
+      {
+        "index": 1,
+        "text": "1 cup Cottage Cheese for richness",
+        "assessment": "Full cottage cheese blend1; Chef note names full-fat."
+      },
+      {
+        "index": 2,
+        "text": "1 cup Gruyère Cheese, shredded",
+        "assessment": "Full Gruyère folded2."
+      },
+      {
+        "index": 3,
+        "text": "4 slices Bacon, cooked and chopped",
+        "assessment": "Full cooked bacon tops4 and pressed into mixture."
+      },
+      {
+        "index": 4,
+        "text": "1/4 tsp Sea Salt + 1/4 tsp Black Pepper",
+        "assessment": "Full¼tsp sea salt plus¼tsp pepper blend1."
+      },
+      {
+        "index": 5,
+        "text": "Butter or oil spray",
+        "assessment": "Unmeasured butter OR oil spray grease3."
+      }
+    ],
+    "frozenMethodOnly": [
+      "Optional water tray in Chef note has no method stage, volume or vessel constraints."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "6 large Eggs",
+        "destination": "eggs: blend1"
+      },
+      {
+        "index": 1,
+        "text": "1 cup Cottage Cheese for richness",
+        "destination": "cottage cheese: blend1"
+      },
+      {
+        "index": 2,
+        "text": "1 cup Gruyère Cheese, shredded",
+        "destination": "Gruyère: fold2"
+      },
+      {
+        "index": 3,
+        "text": "4 slices Bacon, cooked and chopped",
+        "destination": "cooked bacon: alladd4"
+      },
+      {
+        "index": 4,
+        "text": "1/4 tsp Sea Salt + 1/4 tsp Black Pepper",
+        "destination": "salt+pepper: both full doses blend1"
+      },
+      {
+        "index": 5,
+        "text": "Butter or oil spray",
+        "destination": "butter OR oil spray: grease3 trueallowance"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Blend",
+      "text": "Preheat the oven to 350°F. Blend all the cold eggs, cottage cheese, listed salt and pepper until smooth, checking after about 30 seconds. Use the blender’s actual cold-mixture capacity; divide into loads if necessary and combine all loads in a bowl."
+    },
+    {
+      "step": 2,
+      "title": "Fold",
+      "text": "Fold all the shredded Gruyère into the complete egg mixture."
+    },
+    {
+      "step": 3,
+      "title": "Fill",
+      "text": "Generously grease a standard muffin tin with the listed butter OR oil spray. Use a flexible silicone tin on a supporting baking sheet, or a metal tin. For the original batch use 12 standard wells and fill approximately two-thirds full, distributing all the mixture. For scaled batches use enough similar wells or additional loads, keeping headroom rather than forcing the whole mixture into 12 wells."
+    },
+    {
+      "step": 4,
+      "title": "Add bacon",
+      "text": "Divide all the cooked, chopped bacon among the filled wells. Press it gently into the egg mixture rather than leaving loose pieces on top."
+    },
+    {
+      "step": 5,
+      "title": "Bake",
+      "text": "Bake until each bite is set in the center without liquid egg, beginning checks after 20 minutes; the original 20–25 minute range is a guide. Check several centers across the tin reach 165°F / 74°C for this meat-containing egg bake. Color alone is not the endpoint. If the surface browns first, reduce direct exposure with an oven-safe loose cover and continue checking the centers."
+    },
+    {
+      "step": 6,
+      "title": "Rest",
+      "text": "Let the bites rest in the pan for the 10-minute interval, then gently loosen and lift them out with a spoon or tool suitable for the pan. The rest helps release; it does not substitute for a cooked center."
+    },
+    {
+      "step": 7,
+      "title": "Serve or chill",
+      "text": "Serve promptly. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. To freeze, chill promptly, package individual bites airtight for up to 3 months for freezer quality, and thaw in the refrigerator or reheat directly until the center reaches 165°F; a fixed microwave minute is not a reliable endpoint."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Muffin tin",
+      "alternative": "A greased standard metal tin or supported silicone tin.",
+      "effect": "Material can change browning and release; keep similar well size, headroom and measured center checks.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    }
+  ],
+  "heldOptionalVariants": [
+    {
+      "name": "Water-tray oven variation",
+      "status": "held",
+      "reason": "2f255 introduced the humidity-tray claim without measured water, rated vessel or actual configuration; native/current publisher have no tray. No claim that all such trays are unsafe, but no public validated steam guarantee."
+    }
+  ],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["avocado-kale-caesar-salad", "brownie-protein-balls", "steamed-broccoli"],
+    "scope": "Existing pairings retained as metadata; no composed meal/source receives review credit. Actual meal source search found no incoming composition."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "12 bites",
+    "proposedYield": "12 bites",
+    "wholeDosePreservation": "Preserve all six eggs, 1 cup full-fat cottage cheese, 1 cup shredded Gruyère, four cooked chopped bacon slices, 1/4 teaspoon sea salt and 1/4 teaspoon black pepper. Eggs, cottage cheese, salt and pepper blend; the full Gruyère folds in; all bacon enters the filled wells. Butter OR oil spray remains an exclusive unmeasured greasing allowance. Twelve bites is the original count plan, with proportionally more similar wells or loads when scaling.",
+    "capacity": [
+      "Use cooked bacon and keep the egg/dairy mixture cold until mixing. The preparation clock assumes bacon has already been cooked.",
+      "Choose actual rated tin/support and blender capacity. Additional oven loads are preferable to overfilled wells."
+    ],
+    "unmeasured": "Pan footprints, finished filling/bite/roll count and actual center clocks require kitchen observation. No new gram/yield conversion supplied."
+  },
+  "preservedPriorRepairs": [
+    "a2c9e280 prompt shallow cold storage,3–4days and165°F leftovers preserved; unsupported steam-tray branch held."
+  ],
+  "remainingQuestions": [
+    "Actual well capacity/finished count, cooked-bacon state and time to165°F need observation. The current optional water-tray claim has no supported tray/fill/appliance configuration and remains a held variation, not required for the complete native/publisher oven route."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

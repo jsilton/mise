@@ -1,0 +1,447 @@
+{
+  "slug": "savory-oatmeal-with-egg",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "2690cbd9889f337c93b2e1ae41ee5bafa88b914d936b67d23d5e3e12611af275",
+  "acceptedSourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "10–15 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "15 min",
+      "after": "15–20 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Old-Fashioned Rolled Oats",
+        "2 cups Water or Low-Sodium Chicken Broth",
+        "1/2 tsp Kosher Salt",
+        "2 large Eggs",
+        "1 tbsp Unsalted Butter",
+        "1 tbsp Olive Oil",
+        "2 Scallions, thinly sliced (white and green parts separated)",
+        "1 tsp Soy Sauce or Tamari",
+        "1/2 tsp Sesame Oil",
+        "Red Pepper Flakes",
+        "Freshly Ground Black Pepper",
+        "Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado"
+      ],
+      "after": [
+        "1 cup Old-Fashioned Rolled Oats",
+        "2 cups Water or Low-Sodium Chicken Broth",
+        "1/2 tsp Kosher Salt",
+        "2 large Eggs",
+        "1 tbsp Unsalted Butter",
+        "1 tbsp Olive Oil",
+        "2 Scallions, thinly sliced (white and green parts separated)",
+        "1 tsp Soy Sauce or Tamari",
+        "1/2 tsp Sesame Oil",
+        "Red Pepper Flakes",
+        "Freshly Ground Black Pepper",
+        "Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado",
+        "Kosher Salt for the eggs, to taste"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 495,
+        "protein": 18.5,
+        "carbs": 35.5,
+        "fat": 32.5,
+        "fiber": 6,
+        "sugar": 2,
+        "sodium": 2750
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep cooking and finishing fats in separate stages",
+        "outcome": "Tender, glossy oats support cooked eggs and fresh scallions.",
+        "techniques": ["starch", "gentle-proteins"],
+        "before": [
+          "Use old-fashioned rolled oats and already-prepared stock if choosing broth. The listed liquid is a complete starting formula, not a dry-grain conversion.",
+          "Wash scallions and prepare optional toppings before cooking. Choose pasteurized-in-shell eggs for soft-yolk service."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Oats are tender with a creamy, spoonable base.",
+            "why": "Grain texture, not a universal 5-minute clock, determines the finish."
+          },
+          {
+            "step": 3,
+            "cue": "The full butter has melted into the oats; sesame oil is added off heat.",
+            "why": "Keeping cooking and finishing fats separate preserves their stated jobs."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Oats firm up before eggs are ready",
+            "cause": "Oats thicken as they stand.",
+            "fix": "Fry the eggs while the oats simmer and assemble promptly. Take the oat pan off heat if it finishes first; if it firms while standing, serve the thicker texture rather than continuing to boil it dry."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Water OR low-sodium chicken broth",
+            "alternative": "Use the same complete listed liquid volume of one choice.",
+            "effect": "Broth changes flavor and sodium; the soy/tamari and measured salt remain the listed formula."
+          },
+          {
+            "ingredient": "Soft yolk",
+            "alternative": "Use pasteurized-in-shell eggs and fully set whites.",
+            "effect": "The runny-yolk texture remains separate from the firm-yolk route; no absolute risk elimination is claimed."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.",
+        "timing": "About 15–20 minutes for the original batch with egg frying overlapping oat cooking. Heating liquid, actual package cooking time, firm yolks and extra egg-pan loads can extend the original 15-minute plan.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nOatmeal does not have to be sweet. Cooking oats in broth instead of water and topping them with a runny fried egg, scallions, and a drizzle of soy sauce creates a deeply satisfying savory bowl that feels more like congee than breakfast cereal. The oats provide the same comforting starchy base, but the umami from soy sauce and the richness of the egg yolk transform it into something entirely different. A splash of sesame oil at the finish adds a nutty aroma that ties everything together.\n\n## Directions\n\n1.  **Cook the Oats:** In a saucepan, bring water or broth and salt to a boil. Stir in the oats. Reduce heat to medium-low and cook for 5 minutes, stirring occasionally, until the oats are creamy and tender but not mushy.\n2.  **Fry the Eggs:** While the oats cook, heat olive oil in a small nonstick skillet over medium-high heat. When the oil shimmers, crack in the eggs. Cook for 2-3 minutes until the whites are fully set and the edges are lacy and crisp, but the yolk is still runny. Season with salt and pepper.\n3.  **Finish the Oats:** Remove the oats from heat. Stir in butter, soy sauce, and sesame oil. The butter should melt and make the oats glossy.\n4.  **Assemble:** Divide the oats between two bowls. Top each with a fried egg, sliced scallions (both white and green parts), and a pinch of red pepper flakes.\n5.  **Serve:** Eat immediately, breaking the yolk so it runs into the oats and creates a rich, silky sauce. Add optional toppings as desired.\n",
+    "after": "\n## Chef's Note\n\nRolled oats make a creamy base for broth, butter, soy sauce and sesame oil. Keep the full finishing butter and both oils in their separate jobs: olive oil cooks the eggs, while butter and sesame oil finish the oats off heat. Scallion whites and greens both go on the finished bowls.\n\n## Directions\n\n1. **Cook oats:** Bring all the listed water OR broth and the measured salt to a boil in a saucepan with room for bubbling oats. Stir in all the rolled oats, reduce to a gentle simmer and stir occasionally until tender and creamy, checking after about 5 minutes. Follow the actual rolled-oat package if it needs longer; steel-cut or instant oats are not the same clock.\n\n2. **Fry eggs:** While the oats simmer, heat all the olive oil in a nonstick skillet over medium to medium-high heat without smoking. Add the eggs in an uncrowded layer. Cook until whites and yolks are firm for the fully cooked route, checking after 2–3 minutes and allowing more time as needed. Season with the separate egg-salt allowance and listed black pepper. Lower heat if the edges darken before the center sets. For the soft-yolk option choose pasteurized-in-shell eggs and cook the whites fully.\n\n3. **Finish oats:** Remove the oats from heat and stir in all the butter, soy sauce OR tamari, and sesame oil until glossy. The measured salt was used in the oat water; any additional egg salt is the separate to-taste allowance, not a second full measured dose.\n\n4. **Assemble:** Divide the finished oats among the listed servings and distribute all the eggs and both white and green scallion parts among them. For the original two-serving batch, one egg goes on each bowl. Add red-pepper flakes to taste.\n\n5. **Serve:** Serve promptly. Add optional shredded cheddar, already-cooked crumbled bacon, hot sauce or sliced avocado as desired. The soft-yolk option can be broken over the oats at serving; do not describe it as the fully cooked egg route.\n"
+  },
+  "findings": [
+    {
+      "id": "EB13-savory-oatmeal-with-egg-1",
+      "title": "EB13-savory-oatmeal-with-egg-1",
+      "rationale": "Separate method-only egg salt from the full measured oat-water salt; preserve all butter and both oils.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/savory-oatmeal-with-egg.md",
+            "sha256": "f0d1633536232dbb86e7e80570607f3dd961c6f2e8ece03581c715926fba3b33",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Firm whites/yolks main, pasteurized product for undercooked service, prompt handling; no claim of zero risk or recipe-specific skillet clock."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual oats package, saucepan size, egg firmness time and bowl thickness need observation. No external publisher was identified in the earliest Git source."
+      ]
+    },
+    {
+      "id": "EB13-savory-oatmeal-with-egg-2",
+      "title": "EB13-savory-oatmeal-with-egg-2",
+      "rationale": "Preserve broth/water, soy/tamari and runny texture option while applying egg-product guidance and actual rolled-oat clock.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/savory-oatmeal-with-egg.md",
+            "sha256": "f0d1633536232dbb86e7e80570607f3dd961c6f2e8ece03581c715926fba3b33",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Firm whites/yolks main, pasteurized product for undercooked service, prompt handling; no claim of zero risk or recipe-specific skillet clock."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual oats package, saucepan size, egg firmness time and bowl thickness need observation. No external publisher was identified in the earliest Git source."
+      ]
+    },
+    {
+      "id": "EB13-metadata-savory-oatmeal-with-egg",
+      "title": "EB13-metadata-savory-oatmeal-with-egg",
+      "rationale": "Remove the unverified legacy nutrition and unsupported United States country-origin field while preserving the American style tag, identity, rating, pairings and full oats, egg, butter, oil and seasoning quantities. The first Git recipe is unattributed; the source choices and egg endpoints do not establish country origin or nutrition values.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/savory-oatmeal-with-egg.md",
+            "sha256": "f0d1633536232dbb86e7e80570607f3dd961c6f2e8ece03581c715926fba3b33",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Actual introduction/followed history distinguishes inherited labels from culinary or geographic proof."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "applicability": "No invented origins/nutrition or kitchen-tested status; method tags describe actual complete route."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/savory-oatmeal-with-egg.md",
+    "introductionScope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "No attributed primary publisher or independent450 original exists for this exact recipe; first Git cooking formula retained, arithmetic and applicable egg guidance explicitly distinguished."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 cup Old-Fashioned Rolled Oats",
+        "assessment": "Full rolled oats simmer1."
+      },
+      {
+        "index": 1,
+        "text": "2 cups Water or Low-Sodium Chicken Broth",
+        "assessment": "Full water OR broth cook1."
+      },
+      {
+        "index": 2,
+        "text": "1/2 tsp Kosher Salt",
+        "assessment": "Full measured salt cook1; method2 also calls for egg salt without separate allowance."
+      },
+      {
+        "index": 3,
+        "text": "2 large Eggs",
+        "assessment": "Eggs fry2 with fully set whites/runny yolks and no pasteurized qualification; bowl4."
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp Unsalted Butter",
+        "assessment": "Full butter finish oats3."
+      },
+      {
+        "index": 5,
+        "text": "1 tbsp Olive Oil",
+        "assessment": "Full olive oil egg pan2."
+      },
+      {
+        "index": 6,
+        "text": "2 Scallions, thinly sliced (white and green parts separated)",
+        "assessment": "Both scallion whites and greens top bowls4; separation does not imply different cooking destinations."
+      },
+      {
+        "index": 7,
+        "text": "1 tsp Soy Sauce or Tamari",
+        "assessment": "Full soy OR tamari finish3."
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp Sesame Oil",
+        "assessment": "Full sesame oil finish3."
+      },
+      {
+        "index": 9,
+        "text": "Red Pepper Flakes",
+        "assessment": "Red-pepper flakes garnish4 true allowance."
+      },
+      {
+        "index": 10,
+        "text": "Freshly Ground Black Pepper",
+        "assessment": "Black pepper eggs2 true allowance."
+      },
+      {
+        "index": 11,
+        "text": "Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado",
+        "assessment": "Optional cheddar/crumbled bacon/hot sauce/avocado5; bacon ingredient says crumbled without explicit cooked label in this source."
+      }
+    ],
+    "frozenMethodOnly": ["Additional salt on eggs not separately listed."],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "1 cup Old-Fashioned Rolled Oats",
+        "destination": "oats: allcook1"
+      },
+      {
+        "index": 1,
+        "text": "2 cups Water or Low-Sodium Chicken Broth",
+        "destination": "water OR broth: allcook1"
+      },
+      {
+        "index": 2,
+        "text": "1/2 tsp Kosher Salt",
+        "destination": "measured salt: allcook1, not twice"
+      },
+      {
+        "index": 3,
+        "text": "2 large Eggs",
+        "destination": "eggs: fry2 thenassemble4"
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp Unsalted Butter",
+        "destination": "butter: allfinish3"
+      },
+      {
+        "index": 5,
+        "text": "1 tbsp Olive Oil",
+        "destination": "olive oil: allfry2"
+      },
+      {
+        "index": 6,
+        "text": "2 Scallions, thinly sliced (white and green parts separated)",
+        "destination": "scallions white+green: allassemble4"
+      },
+      {
+        "index": 7,
+        "text": "1 tsp Soy Sauce or Tamari",
+        "destination": "soy OR tamari: allfinish3"
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp Sesame Oil",
+        "destination": "sesame oil: allfinish3"
+      },
+      {
+        "index": 9,
+        "text": "Red Pepper Flakes",
+        "destination": "pepper flakes: assemble4 trueallowance"
+      },
+      {
+        "index": 10,
+        "text": "Freshly Ground Black Pepper",
+        "destination": "black pepper: eggs2 trueallowance"
+      },
+      {
+        "index": 11,
+        "text": "Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado",
+        "destination": "optional toppings: serve5, bacon cooked"
+      },
+      {
+        "index": 12,
+        "text": "Kosher Salt for the eggs, to taste",
+        "destination": "additional egg salt: source-method allowance eggs2"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Cook oats",
+      "text": "Bring all the listed water OR broth and the measured salt to a boil in a saucepan with room for bubbling oats. Stir in all the rolled oats, reduce to a gentle simmer and stir occasionally until tender and creamy, checking after about 5 minutes. Follow the actual rolled-oat package if it needs longer; steel-cut or instant oats are not the same clock."
+    },
+    {
+      "step": 2,
+      "title": "Fry eggs",
+      "text": "While the oats simmer, heat all the olive oil in a nonstick skillet over medium to medium-high heat without smoking. Add the eggs in an uncrowded layer. Cook until whites and yolks are firm for the fully cooked route, checking after 2–3 minutes and allowing more time as needed. Season with the separate egg-salt allowance and listed black pepper. Lower heat if the edges darken before the center sets. For the soft-yolk option choose pasteurized-in-shell eggs and cook the whites fully."
+    },
+    {
+      "step": 3,
+      "title": "Finish oats",
+      "text": "Remove the oats from heat and stir in all the butter, soy sauce OR tamari, and sesame oil until glossy. The measured salt was used in the oat water; any additional egg salt is the separate to-taste allowance, not a second full measured dose."
+    },
+    {
+      "step": 4,
+      "title": "Assemble",
+      "text": "Divide the finished oats among the listed servings and distribute all the eggs and both white and green scallion parts among them. For the original two-serving batch, one egg goes on each bowl. Add red-pepper flakes to taste."
+    },
+    {
+      "step": 5,
+      "title": "Serve",
+      "text": "Serve promptly. Add optional shredded cheddar, already-cooked crumbled bacon, hot sauce or sliced avocado as desired. The soft-yolk option can be broken over the oats at serving; do not describe it as the fully cooked egg route."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Water OR low-sodium chicken broth",
+      "alternative": "Use the same complete listed liquid volume of one choice.",
+      "effect": "Broth changes flavor and sodium; the soy/tamari and measured salt remain the listed formula.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    },
+    {
+      "ingredient": "Soft yolk",
+      "alternative": "Use pasteurized-in-shell eggs and fully set whites.",
+      "effect": "The runny-yolk texture remains separate from the firm-yolk route; no absolute risk elimination is claimed.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["steel-cut-oatmeal", "avocado-toast", "shakshuka"],
+    "scope": "Existing pairings retained as metadata; no composed meal/source receives review credit. Actual meal source search found no incoming composition."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "2",
+    "proposedYield": "2",
+    "wholeDosePreservation": "Preserve 1 cup rolled oats, 2 cups water OR prepared low-sodium chicken broth, 1/2 teaspoon kosher salt for the oats, two eggs, 1 tablespoon butter, 1 tablespoon olive oil, two scallions including both parts, 1 teaspoon soy sauce OR tamari and 1/2 teaspoon sesame oil. The olive oil fries the eggs; butter, soy/tamari and sesame oil finish the oats. Pepper flakes, pepper, optional toppings and the separately listed egg-salting allowance remain unmeasured.",
+    "capacity": [
+      "Use old-fashioned rolled oats and already-prepared stock if choosing broth. The listed liquid is a complete starting formula, not a dry-grain conversion.",
+      "Wash scallions and prepare optional toppings before cooking. Choose pasteurized-in-shell eggs for soft-yolk service."
+    ],
+    "unmeasured": "Pan footprints, finished filling/bite/roll count and actual center clocks require kitchen observation. No new gram/yield conversion supplied."
+  },
+  "preservedPriorRepairs": [
+    "All full current measured quantities and distinct product options preserved."
+  ],
+  "remainingQuestions": [
+    "Actual oats package, saucepan size, egg firmness time and bowl thickness need observation. No external publisher was identified in the earliest Git source."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "slug": "breakfast-burrito",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "adb9b9fe54ee20938cd584bde981c8e839d0725af5be23c4f8bcaa5ba3609870",
+  "acceptedSourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 545,
+        "protein": 32.5,
+        "carbs": 12,
+        "fat": 41,
+        "fiber": 1,
+        "sugar": 9,
+        "sodium": 1310
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook a dry, evenly divided filling before rolling",
+        "outcome": "Warm tortillas enclose an evenly divided filling without leaking.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Start with cooked bacon or cooked breakfast sausage; the listed amount is not a raw-meat cooking instruction.",
+          "Use enough pan space to stir the eggs gently. Larger batches can be cooked in portions, dividing the full butter and vegetables among them. Keep tortilla size fixed as the count scales."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Vegetables are softened and there is no puddle of juice.",
+            "why": "Cooking their water away before adding egg keeps the filling from leaking."
+          },
+          {
+            "step": 2,
+            "cue": "Curds are set without liquid egg; the mixture reaches 160°F.",
+            "why": "A glossy appearance alone does not establish that the egg mixture is cooked."
+          },
+          {
+            "step": 4,
+            "cue": "The sides tuck in without filling squeezing out.",
+            "why": "Even allocation preserves the full filling while keeping each tortilla foldable."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Tortilla splits",
+            "cause": "Cold tortillas or too much wet filling strain the fold.",
+            "fix": "Warm the next tortilla and serve wet toppings alongside. If a tortilla splits, serve the complete filling in a bowl rather than discarding cheese or eggs."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cooked bacon OR cooked breakfast sausage",
+            "alternative": "Use the complete listed amount of one choice, not both.",
+            "effect": "Their listed amounts are recipe alternatives, not weight equivalents. Reheat stored leftovers to 165°F; raw sausage needs its own cooking step before measuring the cooked amount."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. For freezer quality, keep the existing one-month plan; still check the reheated center rather than assuming the oven time.",
+        "timing": "About 20–30 minutes for the original batch when the meat is already cooked, with tortilla warming overlapping egg preparation. Cooking raw meat first, extra skillet loads, cooling and reheating are additional time.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA good breakfast burrito is all about assembly order and restraint -- overfill it and it becomes an unwrappable mess. Cooking the peppers and onions first gives them time to soften and release their moisture before the eggs go in, preventing a soggy tortilla. Warming the tortillas in a dry skillet for 15-20 seconds per side makes them pliable enough to fold tightly without cracking. These freeze beautifully: wrap tightly in foil, freeze for up to a month, and reheat in a 375 degree F oven for 20 minutes straight from frozen.\n\n## Directions\n\n1.  **Cook Vegetables:** Melt butter in a large nonstick skillet over medium heat. Add bell pepper and onion. Cook for 3-4 minutes, stirring occasionally, until softened.\n2.  **Scramble Eggs:** Whisk eggs with milk and salt. Pour into the skillet with the vegetables. Stir gently with a spatula, folding from the edges to the center, until the eggs are just set but still slightly glossy, about 2-3 minutes. Remove from heat immediately.\n3.  **Warm Tortillas:** In a separate dry skillet over medium-high heat, warm each tortilla for 15-20 seconds per side until pliable and lightly toasted.\n4.  **Assemble:** Lay each tortilla flat. Layer in the center: a quarter of the scrambled egg mixture, a quarter of the cheese, and a quarter of the cooked bacon or sausage. Add optional toppings if desired.\n5.  **Roll:** Fold the bottom edge of the tortilla up over the filling, fold both sides in, then roll tightly away from you to seal. The cheese should melt from the residual heat of the eggs.\n6.  **Serve:** Serve immediately with salsa and hot sauce on the side. For meal prep, wrap each burrito tightly in foil before the cheese is added, let cool, and freeze.\n",
+    "after": "\n## Chef's Note\n\nCook the peppers and onions before adding the eggs so their released moisture can evaporate. Warm tortillas fold more easily; keep the filling in a compact strip and leave room to tuck in the sides. The full cheese belongs inside both fresh and make-ahead burritos.\n\n## Directions\n\n1. **Cook vegetables:** Use already-cooked bacon or breakfast sausage. If it is a refrigerated leftover, reheat it separately to 165°F / 74°C before assembling; follow the package instructions for a ready-to-eat product. Melt all the butter in a large nonstick skillet over medium heat. Add all the diced pepper and onion and cook for 3–4 minutes, stirring, until softened. Let visible watery juices cook away before adding eggs.\n\n2. **Scramble:** Whisk all the eggs with the milk and listed salt. Pour over the vegetables. Fold gently from the edges toward the center until the curds are set with no liquid egg remaining; check the egg mixture reaches 160°F / 71°C. Start checking after 2–3 minutes, then remove from heat once cooked rather than leaving the curds in the hot pan.\n\n3. **Warm tortillas:** In a separate dry skillet over medium-high heat, warm each tortilla for about 15–20 seconds per side until pliable. Keep warmed tortillas covered while finishing the rest.\n\n4. **Fill and roll:** Divide the complete egg-and-vegetable mixture, all the cheese and the chosen complete bacon OR sausage quantity evenly among the listed tortillas. For the original four-tortilla batch, each gets one quarter of each filling. Add optional salsa, hot sauce, sour cream or avocado sparingly, or serve them alongside. Fold the bottom edge over the filling, tuck in both sides, then roll tightly. For a scaled batch divide among the listed tortilla count rather than using four portions.\n\n5. **Serve or chill:** Serve promptly. For make-ahead burritos, include the cheese, omit wet optional toppings until serving, and refrigerate the burritos promptly in a single layer in shallow containers; do not leave a foil-wrapped pile to cool on the counter. Once chilled, wrap individually and freeze if desired. Reheat refrigerated or frozen burritos until the center reaches 165°F / 74°C. A 375°F oven is the oven option; use an oven-safe tray and cover or uncover as needed for the tortilla, checking the center rather than relying on 20 minutes from frozen.\n"
+  },
+  "findings": [
+    {
+      "id": "EB13-breakfast-burrito-1",
+      "title": "EB13-breakfast-burrito-1",
+      "rationale": "Correct cheese omission and fixed frozen-reheat promise without changing any measured filling.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/breakfast-burrito.md",
+            "sha256": "3649f2637e29a66bb8a0928aa15aadd3e376aaa4e102b2f02fd2a16ff6cc2033",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Set scrambled curds and 160°F egg-dish application; no fixed carryover or reheat-duration validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual tortilla brand and filling volume, cooked-meat product state, time to reach the egg endpoint, and frozen reheat duration need observation. The earlier one-month freezer claim is a quality plan, not a validated endpoint or guaranteed shelf life."
+      ]
+    },
+    {
+      "id": "EB13-breakfast-burrito-2",
+      "title": "EB13-breakfast-burrito-2",
+      "rationale": "Complete cooked-meat state and egg endpoint, preserve four10-inch tortillas/full cheese and original375°F oven option.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/breakfast-burrito.md",
+            "sha256": "3649f2637e29a66bb8a0928aa15aadd3e376aaa4e102b2f02fd2a16ff6cc2033",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Set scrambled curds and 160°F egg-dish application; no fixed carryover or reheat-duration validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual tortilla brand and filling volume, cooked-meat product state, time to reach the egg endpoint, and frozen reheat duration need observation. The earlier one-month freezer claim is a quality plan, not a validated endpoint or guaranteed shelf life."
+      ]
+    },
+    {
+      "id": "EB13-metadata-breakfast-burrito",
+      "title": "EB13-metadata-breakfast-burrito",
+      "rationale": "Remove the unverified legacy nutrition and unsupported United States country-origin field while preserving the American/Mexican style tags, attribution state, full cooked-meat choices, quantities, identity, rating and pairing controls. The unattributed first Git recipe establishes its cooking formula, not geographical origin or calculated nutrition.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/breakfast-burrito.md",
+            "sha256": "3649f2637e29a66bb8a0928aa15aadd3e376aaa4e102b2f02fd2a16ff6cc2033",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Actual introduction/followed history distinguishes inherited labels from culinary or geographic proof."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "applicability": "No invented origins/nutrition or kitchen-tested status; method tags describe actual complete route."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/breakfast-burrito.md",
+    "introductionScope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "No attributed primary publisher or independent450 original exists for this exact recipe; first Git cooking formula retained, arithmetic and applicable egg guidance explicitly distinguished."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "6 large Eggs",
+        "assessment": "Whisk eggs with milk/salt; scramble with vegetables step2; quarter each tortilla step4."
+      },
+      {
+        "index": 1,
+        "text": "2 tbsp Whole Milk",
+        "assessment": "Full milk whisked into eggs2."
+      },
+      {
+        "index": 2,
+        "text": "1/4 tsp Kosher Salt",
+        "assessment": "Full measured kosher salt in eggs2; density unspecified."
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Unsalted Butter",
+        "assessment": "Full butter softens vegetables1."
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Red or Green Bell Pepper, diced small",
+        "assessment": "Full pepper softened1, eggs2 and filling4."
+      },
+      {
+        "index": 5,
+        "text": "1/4 cup Yellow Onion, diced small",
+        "assessment": "Full onion softened1, eggs2 and filling4."
+      },
+      {
+        "index": 6,
+        "text": "1 cup Shredded Cheddar or Pepper Jack Cheese",
+        "assessment": "Full cheese divided quarter4; current make-ahead6 contradictorily excludes cheese."
+      },
+      {
+        "index": 7,
+        "text": "4 large (10-inch) Flour Tortillas",
+        "assessment": "Four fixed10-inch tortillas warm3, fill4 and roll5."
+      },
+      {
+        "index": 8,
+        "text": "4 slices Cooked Bacon or 1/2 cup Cooked Breakfast Sausage, crumbled",
+        "assessment": "Cooked bacon OR cooked sausage divided4; actual stored/product state unspecified."
+      },
+      {
+        "index": 9,
+        "text": "Optional: salsa, hot sauce, sour cream, avocado slices",
+        "assessment": "Optional toppings4 or salsa/hot sauce serve6."
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "6 large Eggs",
+        "destination": "eggs: whisk with milk/salt then scramble2; divide4"
+      },
+      {
+        "index": 1,
+        "text": "2 tbsp Whole Milk",
+        "destination": "milk: whisk eggs2"
+      },
+      {
+        "index": 2,
+        "text": "1/4 tsp Kosher Salt",
+        "destination": "salt: entire listed dose egg2"
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Unsalted Butter",
+        "destination": "butter: entire dose vegetables1"
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Red or Green Bell Pepper, diced small",
+        "destination": "pepper: soften1 then egg2/fill4"
+      },
+      {
+        "index": 5,
+        "text": "1/4 cup Yellow Onion, diced small",
+        "destination": "onion: soften1 then egg2/fill4"
+      },
+      {
+        "index": 6,
+        "text": "1 cup Shredded Cheddar or Pepper Jack Cheese",
+        "destination": "cheese: whole divided4, including make-ahead"
+      },
+      {
+        "index": 7,
+        "text": "4 large (10-inch) Flour Tortillas",
+        "destination": "tortillas: warm3, fill4"
+      },
+      {
+        "index": 8,
+        "text": "4 slices Cooked Bacon or 1/2 cup Cooked Breakfast Sausage, crumbled",
+        "destination": "bacon OR sausage: already cooked, heat if stored1, divide4"
+      },
+      {
+        "index": 9,
+        "text": "Optional: salsa, hot sauce, sour cream, avocado slices",
+        "destination": "optional toppings: modest fill4 or separate service5"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Cook vegetables",
+      "text": "Use already-cooked bacon or breakfast sausage. If it is a refrigerated leftover, reheat it separately to 165°F / 74°C before assembling; follow the package instructions for a ready-to-eat product. Melt all the butter in a large nonstick skillet over medium heat. Add all the diced pepper and onion and cook for 3–4 minutes, stirring, until softened. Let visible watery juices cook away before adding eggs."
+    },
+    {
+      "step": 2,
+      "title": "Scramble",
+      "text": "Whisk all the eggs with the milk and listed salt. Pour over the vegetables. Fold gently from the edges toward the center until the curds are set with no liquid egg remaining; check the egg mixture reaches 160°F / 71°C. Start checking after 2–3 minutes, then remove from heat once cooked rather than leaving the curds in the hot pan."
+    },
+    {
+      "step": 3,
+      "title": "Warm tortillas",
+      "text": "In a separate dry skillet over medium-high heat, warm each tortilla for about 15–20 seconds per side until pliable. Keep warmed tortillas covered while finishing the rest."
+    },
+    {
+      "step": 4,
+      "title": "Fill and roll",
+      "text": "Divide the complete egg-and-vegetable mixture, all the cheese and the chosen complete bacon OR sausage quantity evenly among the listed tortillas. For the original four-tortilla batch, each gets one quarter of each filling. Add optional salsa, hot sauce, sour cream or avocado sparingly, or serve them alongside. Fold the bottom edge over the filling, tuck in both sides, then roll tightly. For a scaled batch divide among the listed tortilla count rather than using four portions."
+    },
+    {
+      "step": 5,
+      "title": "Serve or chill",
+      "text": "Serve promptly. For make-ahead burritos, include the cheese, omit wet optional toppings until serving, and refrigerate the burritos promptly in a single layer in shallow containers; do not leave a foil-wrapped pile to cool on the counter. Once chilled, wrap individually and freeze if desired. Reheat refrigerated or frozen burritos until the center reaches 165°F / 74°C. A 375°F oven is the oven option; use an oven-safe tray and cover or uncover as needed for the tortilla, checking the center rather than relying on 20 minutes from frozen."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cooked bacon OR cooked breakfast sausage",
+      "alternative": "Use the complete listed amount of one choice, not both.",
+      "effect": "Their listed amounts are recipe alternatives, not weight equivalents. Reheat stored leftovers to 165°F; raw sausage needs its own cooking step before measuring the cooked amount.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["classic-guacamole", "carnitas-bowl", "shakshuka"],
+    "scope": "Existing pairings retained as metadata; no composed meal/source receives review credit. Actual meal source search found no incoming composition."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "wholeDosePreservation": "Preserve all six eggs, 2 tablespoons whole milk, 1/4 teaspoon kosher salt, 1 tablespoon butter, 1/2 cup bell pepper, 1/4 cup onion, 1 cup cheddar OR pepper jack, four 10-inch tortillas and four cooked bacon slices OR 1/2 cup cooked breakfast sausage. Vegetables use the butter; the full cheese and exclusive cooked-meat choice enter the filling. Optional salsa, hot sauce, sour cream and avocado remain unmeasured serving choices.",
+    "capacity": [
+      "Start with cooked bacon or cooked breakfast sausage; the listed amount is not a raw-meat cooking instruction.",
+      "Use enough pan space to stir the eggs gently. Larger batches can be cooked in portions, dividing the full butter and vegetables among them. Keep tortilla size fixed as the count scales."
+    ],
+    "unmeasured": "Pan footprints, finished filling/bite/roll count and actual center clocks require kitchen observation. No new gram/yield conversion supplied."
+  },
+  "preservedPriorRepairs": [
+    "All full current measured quantities and distinct product options preserved."
+  ],
+  "remainingQuestions": [
+    "Actual tortilla brand and filling volume, cooked-meat product state, time to reach the egg endpoint, and frozen reheat duration need observation. The earlier one-month freezer claim is a quality plan, not a validated endpoint or guaranteed shelf life."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

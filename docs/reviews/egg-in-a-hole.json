@@ -1,0 +1,350 @@
+{
+  "slug": "egg-in-a-hole",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "f05ff0939a06d4b662e13e71c924826b38ee08f46aacd658bfc48260a3b4afbf",
+  "acceptedSourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "5 min",
+      "after": "5–9 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "8 min",
+      "after": "8–12 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 315,
+        "protein": 12.5,
+        "carbs": 18,
+        "fat": 22,
+        "fiber": 3.5,
+        "sugar": 2,
+        "sodium": 1570
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match bread browning to egg doneness",
+        "outcome": "Buttered bread and rounds are golden with the chosen egg route cooked as directed.",
+        "techniques": ["browning", "gentle-proteins"],
+        "before": [
+          "Keep slice thickness and hole size similar as the bread and egg counts scale; use more pan loads.",
+          "Choose pasteurized-in-shell eggs for the retained soft-yolk option; pasteurization does not replace clean handling or prompt service."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Bread and rounds fit without overlap.",
+            "why": "Flat contact lets the butter toast them evenly."
+          },
+          {
+            "step": 4,
+            "cue": "For the fully cooked route, white and yolk are firm before serving.",
+            "why": "Bread browning can happen faster than the egg cooks."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bread burns while egg is loose",
+            "cause": "Heat is too high for the bread thickness and egg.",
+            "fix": "Lower the heat and keep cooking the egg; the burnt surface cannot be undone. Use a less aggressive heat for the next load."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Bread choices",
+            "alternative": "Sourdough, white or whole-wheat bread at the listed slice count.",
+            "effect": "Slice dimensions and thickness alter the hole fit and cooking time; do not enlarge the hole until the border breaks."
+          },
+          {
+            "ingredient": "Soft yolk",
+            "alternative": "Pasteurized-in-shell eggs with fully set whites; the original 30–60 second second-side check remains only a starting point.",
+            "effect": "This preserves the soft-yolk texture separately from the firm-white-and-yolk route; do not represent it as equivalent to fully cooking the egg."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Bread and fried eggs lose crispness during storage.",
+        "timing": "About 8–12 minutes for one uncrowded original load, depending on bread thickness and desired yolk texture. Extra skillet loads add time; the firm-yolk route can take longer than the original runny-yolk clock.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nEgg in a hole (also called toad in the hole, egg in a basket, or one-eyed jack) is one of the simplest and most satisfying breakfast preparations. The trick is using enough butter to get the bread golden and crispy while the egg cooks within the cutout. A 2.5 to 3-inch circle cut from the center is the ideal size -- too small and the egg overflows, too large and there is not enough bread left. Do not forget to toast the cutout rounds alongside the bread -- they are the best part for dipping into the runny yolk.\n\n## Directions\n\n1.  **Cut the Holes:** Using a round cookie cutter, biscuit cutter, or the rim of a drinking glass (2.5-3 inches), press and twist to cut a circle from the center of each bread slice. Reserve the cutout rounds.\n2.  **Heat the Pan:** Melt butter in a large skillet over medium heat. Swirl to coat the entire surface evenly.\n3.  **Toast and Fry:** Place the bread slices and the cutout rounds in the skillet. Cook the bread for about 1 minute until the bottom is golden. Crack one egg into each hole. Season with salt and pepper.\n4.  **Cook:** Cook undisturbed for 2-3 minutes until the egg white is mostly set on the bottom and the bread is deeply golden. Flip the bread carefully with a spatula. Cook for another 30-60 seconds for a runny yolk, or 1-2 minutes for a more set yolk. Flip the cutout rounds when golden.\n5.  **Serve:** Transfer to plates. Serve the toasted rounds alongside for dipping into the yolk. Add shredded cheese, hot sauce, or everything bagel seasoning if desired.\n",
+    "after": "\n## Chef's Note\n\nUse enough butter to toast the bread and the cutout rounds together. Choose a hole that fits an egg while leaving a sturdy border;2½–3 inches is a starting range, not a guarantee for every slice. The toasted rounds are useful for scooping the egg and belong on the plate.\n\n## Directions\n\n1. **Cut:** Cut a 2½–3-inch circle from each bread slice with a cutter or glass, adjusting to leave a sturdy bread border. Keep all the cutout rounds. Crack each egg into a small clean cup so it can be poured neatly into its hole.\n\n2. **Heat:** Melt all the listed butter over medium heat in a skillet with room for the bread and rounds to lie flat. If cooking in loads, divide the full butter among those loads rather than using it all on the first.\n\n3. **Toast and add eggs:** Toast the bread and rounds until the underside begins to turn golden, checking after about 1 minute. Pour one egg into each hole and season with the listed salt and pepper to taste. A little white may spread under the bread; let it set before moving the slice.\n\n4. **Finish:** Cook until the underside is golden and the lower white is set, checking after 2–3 minutes. Flip the bread and cook until both the white and yolk are firm; the original 1–2 minute second-side range is a first check, not a guaranteed endpoint. Flip the cutout rounds when golden. Reduce the heat if the bread darkens before the egg sets. For the soft-yolk option use pasteurized-in-shell eggs, cook the whites fully, and check after the original 30–60 second second-side interval; a runny yolk is not the fully cooked route.\n\n5. **Serve:** Serve promptly with all the toasted rounds. Add optional shredded cheese, hot sauce or everything-bagel seasoning as desired.\n"
+  },
+  "findings": [
+    {
+      "id": "EB13-egg-in-a-hole-1",
+      "title": "EB13-egg-in-a-hole-1",
+      "rationale": "Keep full butter and bread rounds; replace default runny unpasteurized serving with full-cooked main and distinct pasteurized soft-yolk option.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/egg-in-a-hole.md",
+            "sha256": "bfb0ab906a1565c66316b10fee9a0262c5706d7a82b8bc9c1720cafc092010f7",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Firm whites/yolks main, pasteurized product for undercooked service, prompt handling; no claim of zero risk or recipe-specific skillet clock."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Bread dimensions, actual hole fit, butter distribution and firm-yolk cooking time need kitchen observation. No specific external source was attributed in the earliest Git recipe."
+      ]
+    },
+    {
+      "id": "EB13-egg-in-a-hole-2",
+      "title": "EB13-egg-in-a-hole-2",
+      "rationale": "Use bread-border/pan-load cues rather than an ideal hole or universally adequate clock.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/egg-in-a-hole.md",
+            "sha256": "bfb0ab906a1565c66316b10fee9a0262c5706d7a82b8bc9c1720cafc092010f7",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Exact retained formula/current method; Git origin is not independent publisher or kitchen validation."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Complete cooking changes reviewed; no later explicit formula or family preference decision inferred from metadata persistence."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Firm whites/yolks main, pasteurized product for undercooked service, prompt handling; no claim of zero risk or recipe-specific skillet clock."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Bread dimensions, actual hole fit, butter distribution and firm-yolk cooking time need kitchen observation. No specific external source was attributed in the earliest Git recipe."
+      ]
+    },
+    {
+      "id": "EB13-metadata-egg-in-a-hole",
+      "title": "EB13-metadata-egg-in-a-hole",
+      "rationale": "Remove the unverified legacy nutrition and unsupported United States country-origin field while preserving the American style tag, identity, rating, pairings, full butter amount and bread cutout rounds. The unattributed first Git recipe supports the cooking route; FDA guidance supports the explicit firm-egg versus pasteurized soft-yolk distinction, not formula nutrition or dish origin.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+            "path": "src/content/recipes/egg-in-a-hole.md",
+            "sha256": "bfb0ab906a1565c66316b10fee9a0262c5706d7a82b8bc9c1720cafc092010f7",
+            "scope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed."
+          },
+          "applicability": "Actual introduction/followed history distinguishes inherited labels from culinary or geographic proof."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "applicability": "No invented origins/nutrition or kitchen-tested status; method tags describe actual complete route."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/egg-in-a-hole.md",
+    "introductionScope": "Actual first retained followed Git cooking introduction; no independent native original or publisher formula attributed.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "No attributed primary publisher or independent450 original exists for this exact recipe; first Git cooking formula retained, arithmetic and applicable egg guidance explicitly distinguished."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 slices Thick-Cut Bread (sourdough, white, or whole wheat)",
+        "assessment": "Bread holes cut1; slices and cutout rounds toast3, flip4, serve5."
+      },
+      {
+        "index": 1,
+        "text": "2 large Eggs",
+        "assessment": "One egg per hole3; default runny yolk4 without product qualification."
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Unsalted Butter",
+        "assessment": "Full butter initially heats pan2; extra-load allocation unstated."
+      },
+      {
+        "index": 3,
+        "text": "Kosher Salt",
+        "assessment": "Unmeasured kosher salt on eggs3."
+      },
+      {
+        "index": 4,
+        "text": "Freshly Ground Black Pepper",
+        "assessment": "Unmeasured black pepper on eggs3."
+      },
+      {
+        "index": 5,
+        "text": "Optional: shredded cheese, hot sauce, everything bagel seasoning",
+        "assessment": "Optional shredded cheese/hot sauce/everything seasoning serve5."
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "2 slices Thick-Cut Bread (sourdough, white, or whole wheat)",
+        "destination": "bread: cut1, toast3/finish4/serve5 including rounds"
+      },
+      {
+        "index": 1,
+        "text": "2 large Eggs",
+        "destination": "eggs: one per hole3/finish4"
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Unsalted Butter",
+        "destination": "butter: allheat2, proportional loads"
+      },
+      {
+        "index": 3,
+        "text": "Kosher Salt",
+        "destination": "salt: season3 trueallowance"
+      },
+      {
+        "index": 4,
+        "text": "Freshly Ground Black Pepper",
+        "destination": "pepper: season3 trueallowance"
+      },
+      {
+        "index": 5,
+        "text": "Optional: shredded cheese, hot sauce, everything bagel seasoning",
+        "destination": "optional cheese/hot sauce/seasoning: service5"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Cut",
+      "text": "Cut a 2½–3-inch circle from each bread slice with a cutter or glass, adjusting to leave a sturdy bread border. Keep all the cutout rounds. Crack each egg into a small clean cup so it can be poured neatly into its hole."
+    },
+    {
+      "step": 2,
+      "title": "Heat",
+      "text": "Melt all the listed butter over medium heat in a skillet with room for the bread and rounds to lie flat. If cooking in loads, divide the full butter among those loads rather than using it all on the first."
+    },
+    {
+      "step": 3,
+      "title": "Toast and add eggs",
+      "text": "Toast the bread and rounds until the underside begins to turn golden, checking after about 1 minute. Pour one egg into each hole and season with the listed salt and pepper to taste. A little white may spread under the bread; let it set before moving the slice."
+    },
+    {
+      "step": 4,
+      "title": "Finish",
+      "text": "Cook until the underside is golden and the lower white is set, checking after 2–3 minutes. Flip the bread and cook until both the white and yolk are firm; the original 1–2 minute second-side range is a first check, not a guaranteed endpoint. Flip the cutout rounds when golden. Reduce the heat if the bread darkens before the egg sets. For the soft-yolk option use pasteurized-in-shell eggs, cook the whites fully, and check after the original 30–60 second second-side interval; a runny yolk is not the fully cooked route."
+    },
+    {
+      "step": 5,
+      "title": "Serve",
+      "text": "Serve promptly with all the toasted rounds. Add optional shredded cheese, hot sauce or everything-bagel seasoning as desired."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Bread choices",
+      "alternative": "Sourdough, white or whole-wheat bread at the listed slice count.",
+      "effect": "Slice dimensions and thickness alter the hole fit and cooking time; do not enlarge the hole until the border breaks.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    },
+    {
+      "ingredient": "Soft yolk",
+      "alternative": "Pasteurized-in-shell eggs with fully set whites; the original 30–60 second second-side check remains only a starting point.",
+      "effect": "This preserves the soft-yolk texture separately from the firm-white-and-yolk route; do not represent it as equivalent to fully cooking the egg.",
+      "scope": "Complete primary measured formula unchanged except explicitly named exclusive choice; no additional dose inferred."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["avocado-toast", "shakshuka", "breakfast-egg-cups"],
+    "scope": "Existing pairings retained as metadata; no composed meal/source receives review credit. Actual meal source search found no incoming composition."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "2",
+    "proposedYield": "2",
+    "wholeDosePreservation": "Preserve two thick bread slices with their cutout rounds, two eggs and the full 2 tablespoons butter. Divide the butter proportionally across actual pan loads; cook one egg in each bread hole and serve all rounds. Salt, pepper and optional shredded cheese, hot sauce or everything seasoning remain genuine allowances.",
+    "capacity": [
+      "Keep slice thickness and hole size similar as the bread and egg counts scale; use more pan loads.",
+      "Choose pasteurized-in-shell eggs for the retained soft-yolk option; pasteurization does not replace clean handling or prompt service."
+    ],
+    "unmeasured": "Pan footprints, finished filling/bite/roll count and actual center clocks require kitchen observation. No new gram/yield conversion supplied."
+  },
+  "preservedPriorRepairs": [
+    "All full current measured quantities and distinct product options preserved."
+  ],
+  "remainingQuestions": [
+    "Bread dimensions, actual hole fit, butter distribution and firm-yolk cooking time need kitchen observation. No specific external source was attributed in the earliest Git recipe."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
