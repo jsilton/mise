@@ -1,0 +1,791 @@
+{
+  "slug": "classic-manhattan",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "e98c22329d3af263ff7c9bd8d09ed847a0917e9b18048a2b3f55ba4c7e79dc77",
+  "acceptedSourceSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "1 cocktail",
+      "after": "1 portion"
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["rich", "sweet", "savory"],
+      "after": ["sweet", "aromatic", "rich"]
+    },
+    {
+      "field": "equipment",
+      "before": ["mixing-glass", "strainer"],
+      "after": ["mixing-glass", "bar-spoon", "jigger", "strainer", "cocktail-glass"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 oz rye whiskey (or bourbon for a sweeter Manhattan)",
+        "1 oz sweet vermouth",
+        "2 dashes aromatic bitters",
+        "Ice for stirring",
+        "Maraschino cherry for garnish",
+        "Orange peel (optional)"
+      ],
+      "after": [
+        "--- Manhattan ---",
+        "ice and water, as needed to chill the serving glass, optional",
+        "2 oz rye whiskey or bourbon",
+        "1 oz sweet vermouth",
+        "2 dashes of aromatic bitters",
+        "ice cubes, as needed for stirring",
+        "--- Garnish ---",
+        "maraschino cherry, for each serving",
+        "orange peel, for each serving, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 60,
+        "protein": 1,
+        "carbs": 15.5,
+        "fat": 0.5,
+        "fiber": 3,
+        "sugar": 12,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Rye or bourbon and sweet vermouth in a 2:1 ratio, stirred with aromatic bitters and a cherry."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "drink",
+            "name": "Manhattan",
+            "ingredients": [
+              {
+                "id": "glass-chill",
+                "key": "glass-chill",
+                "name": "ice and water",
+                "allowance": "as needed to chill the serving glass",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "whiskey",
+                "key": "whiskey",
+                "name": "rye whiskey or bourbon",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vermouth",
+                "key": "vermouth",
+                "name": "sweet vermouth",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "dash of aromatic bitters",
+                "plural": "dashes of aromatic bitters",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mixing-ice",
+                "key": "mixing-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for stirring",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Garnish",
+            "ingredients": [
+              {
+                "id": "cherry",
+                "key": "cherry",
+                "name": "maraschino cherry",
+                "allowance": "for each serving",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "orange",
+                "key": "orange",
+                "name": "orange peel",
+                "allowance": "for each serving",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Chill and measure",
+            "text": "Use {{ingredients}} if the cocktail glass is not already chilled. Set out a glass with room for the stirred drink and headroom; the original recipe begins with 3 fluid ounces plus bitters before ice melts. All ounce measures are fluid ounces."
+          },
+          {
+            "id": "mix",
+            "title": "Combine",
+            "text": "Add {{ingredients}} to a mixing glass. Leave room for stirring; use small batches instead of filling the vessel to the rim. Dash size depends on the bottle, so keep the same bottle and pouring motion for comparisons."
+          },
+          {
+            "id": "stir",
+            "title": "Stir and check",
+            "text": "Stir smoothly until the whiskey-vermouth mixture is well chilled. Taste a small sample with a clean spoon for a rounded finish with distinct whiskey and vermouth; continue briefly if still warm or harsh. Strain promptly once balanced. Ice size and starting temperature change the stirring time."
+          },
+          {
+            "id": "strain",
+            "title": "Strain",
+            "text": "Empty the serving glass of any chilling ice water and strain in the drink, keeping mixing ice out. Divide a scaled batch among the corresponding chilled glasses."
+          },
+          {
+            "id": "garnish",
+            "title": "Finish",
+            "text": "Use {{ingredients}}: add a cherry to each drink and, if using orange peel, twist it over the surface to express its oils. Serve immediately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Judge the whiskey-vermouth balance after chilling",
+        "outcome": "A cold, clear Manhattan with recognizable whiskey, sweet vermouth and aromatic bitters.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Use sweet vermouth, and refrigerate its opened bottle. Dry vermouth makes a distinct variation.",
+          "Have a chilled glass with room for the original 3-fluid-ounce base plus meltwater. Use the same bitters bottle when comparing ratios; fractional dashes are approximate, not standardized volumes."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A small sample tastes chilled and rounded, rather than warm and sharply alcoholic.",
+            "why": "Starting conditions and dilution affect perceived balance even with the same 2:1 liquid ratio."
+          },
+          {
+            "step": 5,
+            "cue": "Cherry is in the glass, and optional orange oil is on the surface.",
+            "why": "The garnish contributes aroma at service rather than changing the stirring ratio."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Drink tastes flat",
+            "cause": "Opened vermouth may have lost its fresh aroma, or the drink is overly diluted.",
+            "fix": "Taste the vermouth separately and use a sound bottle. Dilution already added cannot be removed; check earlier with fresh ice next time."
+          },
+          {
+            "problem": "Bitters dominate",
+            "cause": "Dash size differs between bottles or pouring styles.",
+            "fix": "Keep the two-dash starting formula and compare with the same bottle. Do not assume a dash equals a specified teaspoon amount."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Rye whiskey",
+            "alternative": "Bourbon",
+            "effect": "Changes the whiskey’s aroma and perceived sweetness; it does not change the vermouth’s sugar or the measured 2:1 ratio."
+          },
+          {
+            "ingredient": "Optional orange peel",
+            "alternative": "Omit it",
+            "effect": "Keeps the cherry finish with less citrus aroma; no replacement citrus juice is needed."
+          }
+        ],
+        "timing": "About five minutes for one drink with ice-water glass chilling during setup. No heating, steeping or rest is required. A freezer-chilled glass can be prepared ahead. Scale the liquids and garnishes, allow more stirring batches as needed, and do not multiply the stirring time.",
+        "storage": "Serve the mixed drink promptly. For preparation ahead, keep only the measured liquid ingredients together in a covered refrigerated container, without ice or garnish, and stir small portions over ice at serving. Keep opened vermouth capped and refrigerated, following its label; discard used mixing ice.",
+        "sources": [
+          {
+            "title": "International Bartenders Association — Manhattan",
+            "url": "https://iba-world.com/iba-cocktail/manhattan/"
+          },
+          {
+            "title": "Jerry Thomas — The Bar-Tender’s Guide (1887), Manhattan",
+            "url": "https://euvs-vintage-cocktail-books.cld.bz/1887-The-bar-tender-s-guide/24/"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "MARTINI — Vermouth guide, storage after opening",
+            "url": "https://www.martini.com/be/fr/category/histoire/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Directions\n\n1. **Add the whiskey, sweet:** vermouth, and bitters to a mixing glass filled with ice.\n\n2. **Stir well for 20-30:** seconds until properly chilled and diluted.\n\n3. **Strain into a chilled:** coupe or cocktail glass.\n\n4. **Garnish with a maraschino:** cherry and optionally express an orange peel over the drink.\n\n5. **Serve immediately.:**\n\n## Chef's Note\n\nThe Manhattan was created in the 1870s and is one of the oldest American cocktails, born during the golden age of pre-Prohibition bartending. Legend claims it was invented at the Manhattan Club in New York for a party hosted by Winston Churchill's mother, though this story is likely apocryphal. What's certain is that it became the template for countless whiskey cocktails. The 2:1 ratio of whiskey to vermouth is classic, but you can adjust to taste - some prefer a drier 3:1 Manhattan.\n",
+    "after": "\n## Chef's Note\n\nThe Manhattan’s whiskey-and-vermouth pairing was already in print by 1887. This version uses two parts whiskey to one part sweet vermouth, with aromatic bitters and a cherry. Rye and bourbon give different expressions of the same drink; the vermouth amount stays the same for either. Stir and taste before serving so the finish is rounded while the whiskey remains distinct.\n\n## Directions\n\n1. **Chill and measure:** Use ice and water (if using) if the cocktail glass is not already chilled. Set out a glass with room for the stirred drink and headroom; the original recipe begins with 3 fluid ounces plus bitters before ice melts. All ounce measures are fluid ounces.\n2. **Combine:** Add rye whiskey or bourbon, sweet vermouth, dashes of aromatic bitters, and ice cubes to a mixing glass. Leave room for stirring; use small batches instead of filling the vessel to the rim. Dash size depends on the bottle, so keep the same bottle and pouring motion for comparisons.\n3. **Stir and check:** Stir smoothly until the whiskey-vermouth mixture is well chilled. Taste a small sample with a clean spoon for a rounded finish with distinct whiskey and vermouth; continue briefly if still warm or harsh. Strain promptly once balanced. Ice size and starting temperature change the stirring time.\n4. **Strain:** Empty the serving glass of any chilling ice water and strain in the drink, keeping mixing ice out. Divide a scaled batch among the corresponding chilled glasses.\n5. **Finish:** Use maraschino cherry and orange peel (if using): add a cherry to each drink and, if using orange peel, twist it over the surface to express its oils. Serve immediately.\n\n## A Drier Ratio\n\nFor a 3:1 variation, use three parts whiskey to one part sweet vermouth. This changes the balance and amount of vermouth; it is an alternative to the 2:1 recipe. Compare it in a separate drink rather than adding whiskey to an already diluted glass.\n"
+  },
+  "findings": [
+    {
+      "id": "stirred_drinks_01-classic-manhattan-1",
+      "title": "historical confidence and ratio",
+      "rationale": "Digitized 1887 Manhattan proves that narrower date. The historical formula itself and current IBA amounts differ; neither replaces the saved modern drink. The party legend adds an unverified claim without helping preparation.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "id": "thomasManhattan",
+          "title": "Jerry Thomas — The Bar-Tender’s Guide (1887), Manhattan",
+          "url": "https://euvs-vintage-cocktail-books.cld.bz/1887-The-bar-tender-s-guide/24/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Digitized 1887 original explicitly prints Manhattan. Historical formula includes liqueur and differs substantially from modern saved recipe; establishes in print by 1887, not an 1870s invention or the Churchill-party legend.",
+          "confidence": "high for the stated narrow scope"
+        },
+        {
+          "id": "manhattan",
+          "title": "International Bartenders Association — Manhattan",
+          "url": "https://iba-world.com/iba-cocktail/manhattan/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA supports rye/sweet-vermouth/aromatic-bitters stirred service and cherry. Its 50:20 ratio and one dash differ from saved 2:1 and two dashes; saved recipe is retained.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-classic-manhattan-2",
+      "title": "stirring and bourbon wording",
+      "rationale": "Whiskey choice is retained without guaranteeing every bourbon is sweeter; duration is not a validated endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-classic-manhattan-3",
+      "title": "unsupported nutrition and planning metadata",
+      "rationale": "Remove unverified legacy nutrition without replacement. Equipment follows actual chosen method; cocktail shaker remains only where a complete alternative uses one. Freeze-ahead tags do not describe storing the prepared cocktail. Flavor tags follow actual bitter/sweet/herbal/citrus ingredients without adding juice, smoke or savory ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "recipe standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-classic-manhattan-4",
+      "title": "authored quantities, learning and compilation",
+      "rationale": "Preserve measured totals/options and publish clear destinations, troubleshooting, storage and small-batch capacity. One portion retains the one saved cocktail; no standardized alcohol serving or precise strained yield is invented. The selected seasoning lesson concerns taste comparison, not a heat endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "structured authoring standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/f720c3c20c1fc4adfbb62ac10481e4f45ad254c4/src/content/recipes/classic-manhattan.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "3c0969b02ad029176128852efb764b6820df48e23b931d37406b4683602afba8",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Glass chills while liquids measured → stir with ice → sample → strain without service ice → cherry and optional expressed orange. Optional peel has a destination; no required orange juice.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "0e97e6a1743d2ed8bfc7303c500a7841d9a7afa1dce37b2005c4fb34d3d875d9",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 oz rye whiskey (or bourbon for a sweeter Manhattan)",
+        "destination": "Whiskey fully mixed; saved rye/bourbon option retained without blanket sweetness claim."
+      },
+      {
+        "ingredient": "1 oz sweet vermouth",
+        "destination": "Sweet vermouth fully mixed."
+      },
+      {
+        "ingredient": "2 dashes aromatic bitters",
+        "destination": "Two aromatic bitters dashes fully mixed; no invented dash volume."
+      },
+      {
+        "ingredient": "Ice for stirring",
+        "destination": "Stirring ice supplies dilution and is discarded."
+      },
+      {
+        "ingredient": "Maraschino cherry for garnish",
+        "destination": "Maraschino cherry added at finish."
+      },
+      {
+        "ingredient": "Orange peel (optional)",
+        "destination": "Optional orange peel expressed at finish, as saved."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "drink.glass-chill",
+        "name": "ice and water",
+        "quantity": null,
+        "allowance": "as needed to chill the serving glass",
+        "preparation": null,
+        "optional": true,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.whiskey",
+        "name": "rye whiskey or bourbon",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.vermouth",
+        "name": "sweet vermouth",
+        "quantity": {
+          "amount": 1,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.bitters",
+        "name": "dash of aromatic bitters",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.mixing-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for stirring",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.cherry",
+        "name": "maraschino cherry",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.orange",
+        "name": "orange peel",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": true,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Chill and measure: Use ice and water (if using) if the cocktail glass is not already chilled. Set out a glass with room for the stirred drink and headroom; the original recipe begins with 3 fluid ounces plus bitters before ice melts. All ounce measures are fluid ounces."
+    },
+    {
+      "step": 2,
+      "text": "Combine: Add rye whiskey or bourbon, sweet vermouth, dashes of aromatic bitters, and ice cubes to a mixing glass. Leave room for stirring; use small batches instead of filling the vessel to the rim. Dash size depends on the bottle, so keep the same bottle and pouring motion for comparisons."
+    },
+    {
+      "step": 3,
+      "text": "Stir and check: Stir smoothly until the whiskey-vermouth mixture is well chilled. Taste a small sample with a clean spoon for a rounded finish with distinct whiskey and vermouth; continue briefly if still warm or harsh. Strain promptly once balanced. Ice size and starting temperature change the stirring time."
+    },
+    {
+      "step": 4,
+      "text": "Strain: Empty the serving glass of any chilling ice water and strain in the drink, keeping mixing ice out. Divide a scaled batch among the corresponding chilled glasses."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Use maraschino cherry and orange peel (if using): add a cherry to each drink and, if using orange peel, twist it over the surface to express its oils. Serve immediately."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Rye whiskey",
+      "alternative": "Bourbon",
+      "effect": "Changes the whiskey’s aroma and perceived sweetness; it does not change the vermouth’s sugar or the measured 2:1 ratio.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Optional orange peel",
+      "alternative": "Omit it",
+      "effect": "Keeps the cherry finish with less citrus aroma; no replacement citrus juice is needed.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Chill and measure",
+          "text": "Use {{ingredients}} if the cocktail glass is not already chilled. Set out a glass with room for the stirred drink and headroom; the original recipe begins with 3 fluid ounces plus bitters before ice melts. All ounce measures are fluid ounces."
+        },
+        {
+          "id": "mix",
+          "title": "Combine",
+          "text": "Add {{ingredients}} to a mixing glass. Leave room for stirring; use small batches instead of filling the vessel to the rim. Dash size depends on the bottle, so keep the same bottle and pouring motion for comparisons."
+        },
+        {
+          "id": "stir",
+          "title": "Stir and check",
+          "text": "Stir smoothly until the whiskey-vermouth mixture is well chilled. Taste a small sample with a clean spoon for a rounded finish with distinct whiskey and vermouth; continue briefly if still warm or harsh. Strain promptly once balanced. Ice size and starting temperature change the stirring time."
+        },
+        {
+          "id": "strain",
+          "title": "Strain",
+          "text": "Empty the serving glass of any chilling ice water and strain in the drink, keeping mixing ice out. Divide a scaled batch among the corresponding chilled glasses."
+        },
+        {
+          "id": "garnish",
+          "title": "Finish",
+          "text": "Use {{ingredients}}: add a cherry to each drink and, if using orange peel, twist it over the surface to express its oils. Serve immediately."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["marinated-korean-ribeye"],
+    "composedMeals": "No direct composed-meal reference found for these slugs. Pairing links are suggestions, not required ingredient quantities or a complete meal certification.",
+    "distinctVariants": "No consolidation or identity reassignment. Saved spirit, ratio, garnish and service alternatives retained as specified in individual findings."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": "2 oz whiskey : 1 oz sweet vermouth : two dashes retained. IBA is 50:20 and one dash; exact saved 2:1 is deliberately kept. Three-to-one is an alternative, not combined with the primary. Original base is 3 fluid ounces plus bitters, not a final liquid yield.",
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Use sweet vermouth, and refrigerate its opened bottle. Dry vermouth makes a distinct variation.",
+      "Have a chilled glass with room for the original 3-fluid-ounce base plus meltwater. Use the same bitters bottle when comparing ratios; fractional dashes are approximate, not standardized volumes."
+    ],
+    "timing": "About five minutes for one drink with ice-water glass chilling during setup. No heating, steeping or rest is required. A freezer-chilled glass can be prepared ahead. Scale the liquids and garnishes, allow more stirring batches as needed, and do not multiply the stirring time.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "3cdc079fb7dd91d142bf9d46ef06c8dba2116beff354bad64d0d9316a35aeb9b",
+      "yield": "1/4 portion",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "27c18f8c1d037ec28f0e316d2bd84761e27d1bd856dbf1a8d756f10f636fbb9d",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "f7de2eed14461de3640f441ffb638776a3acc7bd121f56ecf4b087df26f25bdb",
+      "yield": "1/2 portion",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "61509c92b9d331a36fc44c9e29d3f916d21386e3a5dd1316f053b3671f8ef617",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "e868bd09d8be2466d696a4c8fa735e1563528671809cef406dc651002deaa56c",
+      "yield": "1 portion",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "a43ed43be58fc8ce255ea85439e281068eca017e35d0906eae20ce53972bbb80",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "44451e4ab24137ef9c41f1de7e88076fa3c81b35377245a4287d9c38f2cdd92e",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "311fef80f186d3e6f4cf250ed3a67e961aff9996b543338924d72ca66981600d",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "120fce1b1fb72db4ff2e87a8387304df3192f6677a3351d68eefd580185dd7b7",
+      "yield": "2 portions",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "c2f3f2aa942148fae8ea20a52c56aff2e16416220394e6dbab83fc14b918a869",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "5473ffa435277e93c6e8abda2817118cd2414e03dfad2cbaad189b5d741ef6df",
+      "yield": "3 portions",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "9918be77b296fcdf76f2d1f3a376e434ae7e8d50d9a4a8626141cb194f099cf0",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "e868bd09d8be2466d696a4c8fa735e1563528671809cef406dc651002deaa56c",
+      "yield": "1 portion",
+      "directionsSha256": "27b35e9d43dafa76ee1f1603fef88db84e638dfd72e2351bdbd44f089d86dcb2",
+      "shoppingSha256": "a43ed43be58fc8ce255ea85439e281068eca017e35d0906eae20ce53972bbb80",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Compare intended whiskey and sweet-vermouth bottles without changing the saved 2:1 ratio.",
+    "Check repeatability of two dashes and actual chilled glass capacity."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

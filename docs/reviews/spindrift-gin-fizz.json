@@ -1,0 +1,749 @@
+{
+  "slug": "spindrift-gin-fizz",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "40470e1d1410cc1ee1282b0f7edc0c404558e7b1013000eaa5e6f8dbef1766c3",
+  "acceptedSourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker"],
+      "after": ["cocktail-shaker", "strainer", "serving-glasses", "jigger"]
+    },
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": "quick"
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "About 5 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "About 5 min"
+    },
+    {
+      "field": "servings",
+      "before": "3",
+      "after": "3 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4.5 oz cucumber-and-floral dry gin",
+        "12 oz unsweetened sparkling water with grapefruit juice",
+        "2 oz Fresh Lime Juice",
+        "0.5 oz Agave Syrup",
+        "6 dashes Grapefruit Bitters",
+        "Lime wheels for garnish"
+      ],
+      "after": [
+        "--- Base ---",
+        "4 1/2 oz cucumber-and-floral dry gin",
+        "2 oz fresh lime juice",
+        "1/2 oz agave syrup",
+        "ice cubes, as needed for shaking",
+        "--- Serving ---",
+        "fresh ice cubes, as needed for each glass, leaving liquid headroom",
+        "12 oz unsweetened sparkling water with grapefruit juice",
+        "6 dashes of grapefruit bitters",
+        "3 lime wheels"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 1.5,
+        "carbs": 34.5,
+        "fat": 0.5,
+        "fiber": 6.5,
+        "sugar": 20.5,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 3,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "base",
+            "name": "Base",
+            "ingredients": [
+              {
+                "id": "gin",
+                "key": "gin",
+                "name": "cucumber-and-floral dry gin",
+                "quantity": {
+                  "amount": "9/2",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "fresh lime juice",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "agave",
+                "key": "agave",
+                "name": "agave syrup",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mix-ice",
+                "key": "mix-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for shaking",
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "serve",
+            "name": "Serving",
+            "ingredients": [
+              {
+                "id": "serve-ice",
+                "key": "serve-ice",
+                "name": "fresh ice cubes",
+                "allowance": "as needed for each glass, leaving liquid headroom",
+                "uses": [
+                  {
+                    "step": "strain",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sparkle",
+                "key": "sparkle",
+                "name": "unsweetened sparkling water with grapefruit juice",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "dash of grapefruit bitters",
+                "plural": "dashes of grapefruit bitters",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wheel",
+                "key": "wheel",
+                "name": "lime wheel",
+                "plural": "lime wheels",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Measure and plan the glasses",
+            "text": "Set out the serving glasses and cold ingredients. Each full original serving has 2⅓ fluid ounces still base before melted ice and 4 fluid ounces grapefruit sparkling water, plus ice. Choose glasses with enough headroom for that actual liquid."
+          },
+          {
+            "id": "shake",
+            "title": "Shake the still base",
+            "text": "Combine {{ingredients}} in a shaker with room for ice to move. Shake about 15 seconds as a first check, until well chilled. Use more than one small load if needed; keep the sparkling liquid out of the sealed shaker."
+          },
+          {
+            "id": "strain",
+            "title": "Divide over fresh ice",
+            "text": "Put {{ingredients}} in the glasses without filling them to the brim. Strain the base evenly among the listed portions, recombining separate loads first if necessary."
+          },
+          {
+            "id": "finish",
+            "title": "Add bubbles and garnish",
+            "text": "Use {{ingredients}}. Divide the grapefruit sparkling water evenly, 4 fluid ounces per original full serving. Add two bitters dashes per original glass, stir gently once and add one lime wheel per portion. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reserve a grapefruit sparkling topping for each glass",
+        "outcome": "Evenly divided gin drinks with fresh lime, grapefruit bubbles and a bitters finish.",
+        "techniques": ["temperature"],
+        "before": [
+          "Shake the gin, lime and agave in loads with room for ice to move. Recombine the still base before dividing among the listed portions, then divide the measured grapefruit sparkling water and bitters equally at service.",
+          "The original batch uses one 12-fluid-ounce can total, not a full can per glass. The six bitters dashes are two per original serving."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Gin, lime and agave are chilled together before the topping is opened.",
+            "why": "Carbonation stays in the serving stage."
+          },
+          {
+            "step": 4,
+            "cue": "Each glass receives its share of the listed sparkling water and bitters; the original batch uses 12 ounces and six dashes total.",
+            "why": "A scaled serving count must not duplicate the whole batch topping in each glass."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "One glass tastes much sweeter or stronger",
+            "cause": "Base and topping were divided unevenly.",
+            "fix": "Mix/recombine the still base before dividing, then measure each topping share."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cucumber-and-floral dry gin",
+            "alternative": "A different dry gin",
+            "effect": "The same amount keeps the ratio but changes botanical character; it is not an identical flavor promise."
+          }
+        ],
+        "timing": "About five minutes with cold ingredients ready. Additional shaking loads and glass assembly add active time; shaking duration is a first check, not a measured final temperature.",
+        "storage": "Serve after topping. Keep fruit and still ingredients cold; add carbonation and ice at service.",
+        "sources": [
+          {
+            "title": "Dave Arnold — instrumented ice and dilution experiments",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is the ultimate \"In the Park\" cocktail - refreshing, low-sugar, and aromatic. Cucumber notes in the gin pair with the real-fruit acidity of unsweetened sparkling water made with grapefruit juice. The secret is the **Grapefruit Bitters**: it provides the \"High Note\" that bridges the gin and the juice.\n\n## Directions\n\n1.  **Shake:** In a cocktail shaker filled with ice, combine the gin, lime juice, and agave. Shake vigorously for 15 seconds until ice-cold.\n2.  **Strain:** Strain into three glasses filled with fresh ice.\n3.  **Top:** Top each glass with the grapefruit sparkling water.\n4.  **Finish:** Add 2 dashes of bitters to each glass. Stir gently once to combine.\n5.  **Garnish:** Top with a lime wheel.\n",
+    "after": "\n## Chef's Note\n\nCucumber-and-floral gin, lime and agave form the still base; grapefruit sparkling water and bitters finish each glass. Keep the bubbles out of the shaker and measure the topping evenly so each drink has the same balance.\n\n## Directions\n\n1. **Measure and plan the glasses:** Set out the serving glasses and cold ingredients. Each full original serving has 2⅓ fluid ounces still base before melted ice and 4 fluid ounces grapefruit sparkling water, plus ice. Choose glasses with enough headroom for that actual liquid.\n2. **Shake the still base:** Combine cucumber-and-floral dry gin, fresh lime juice, agave syrup, and ice cubes in a shaker with room for ice to move. Shake about 15 seconds as a first check, until well chilled. Use more than one small load if needed; keep the sparkling liquid out of the sealed shaker.\n3. **Divide over fresh ice:** Put fresh ice cubes in the glasses without filling them to the brim. Strain the base evenly among the listed portions, recombining separate loads first if necessary.\n4. **Add bubbles and garnish:** Use unsweetened sparkling water with grapefruit juice, dashes of grapefruit bitters, and lime wheels. Divide the grapefruit sparkling water evenly, 4 fluid ounces per original full serving. Add two bitters dashes per original glass, stir gently once and add one lime wheel per portion. Serve promptly.\n\n## Serving Suggestions\n\nServe with [Smashed Cucumber Salad](/mise/recipes/smashed-cucumber-salad/) and [Beef Tenderloin Dogs](/mise/recipes/beef-tenderloin-dogs-with-corn-relish/).\n"
+  },
+  "findings": [
+    {
+      "id": "shaken_drinks_02-spindrift-gin-fizz-1",
+      "title": "whole formula, destinations and process",
+      "rationale": "First committed recipe uses named Hendricks/Spindrift; ebafdd4d generic ingredient identities retained. Original 4.5/2/.5-ounce base and12-ounce topper/sixdashes unchanged. Restore useful original cucumber-salad/BeefTenderloinDogs suggestions as links in a separate note, without changing current pairings or granting meal review. Current title/rating retained; unsupported low-sugar/ultimate marketing removed.",
+      "confidence": "high for quantities/arithmetic; moderate for planning and sensory method",
+      "applicableSources": [
+        {
+          "reference": "independently recovered committed origin"
+        },
+        {
+          "reference": "retained published checkpoint"
+        },
+        {
+          "reference": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "vibe",
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check three-glass volume/ice fit with actual topping product.",
+        "Compare current generic product descriptions to preferred household bottles/cans."
+      ]
+    },
+    {
+      "id": "shaken_drinks_02-spindrift-gin-fizz-2",
+      "title": "Authorized recipe-specific public and scaling corrections",
+      "rationale": "The gin/lime/agave base is shaken before dividing; listed grapefruit sparkling water and bitters are separately divided among scaled portions. Preserve original twelve-ounce/six-dash context, actual current title/rating, generic product descriptions and both complete serving links.",
+      "confidence": "high for editorial corrections and unchanged arithmetic; method remains untested",
+      "applicableSources": [
+        {
+          "references": [
+            "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+            "docs/RECIPE_STANDARD.md",
+            "privately retained evidence"
+          ],
+          "scope": "The gin/lime/agave base is shaken before dividing; listed grapefruit sparkling water and bitters are separately divided among scaled portions. Preserve original twelve-ounce/six-dash context, actual current title/rating, generic product descriptions and both complete serving links.",
+          "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+        }
+      ],
+      "sourceApplicability": {
+        "references": [
+          "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+          "docs/RECIPE_STANDARD.md",
+          "privately retained evidence"
+        ],
+        "scope": "The gin/lime/agave base is shaken before dividing; listed grapefruit sparkling water and bitters are separately divided among scaled portions. Preserve original twelve-ounce/six-dash context, actual current title/rating, generic product descriptions and both complete serving links.",
+        "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+      },
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "vibe",
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check three-glass volume/ice fit with actual topping product.",
+        "Compare current generic product descriptions to preferred household bottles/cans."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/59a6188e502a93242b141c2232bc510282944cac/src/content/recipes/spindrift-gin-fizz.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "34ae12b9a51b59ac38462f2c7129b2d1e96f30b3bc3b76173aaafa14854ff446",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "First committed recipe uses named Hendricks/Spindrift; ebafdd4d generic ingredient identities retained. Original 4.5/2/.5-ounce base and12-ounce topper/sixdashes unchanged. Restore useful original cucumber-salad/BeefTenderloinDogs suggestions as links in a separate note, without changing current pairings or granting meal review. Current title/rating retained; unsupported low-sugar/ultimate marketing removed.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "a4ffc711beeec1498e0e1ceb7a48d535e43419a45ff25a93a787935c4d006840",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "4.5 oz cucumber-and-floral dry gin",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "12 oz unsweetened sparkling water with grapefruit juice",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "2 oz Fresh Lime Juice",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "0.5 oz Agave Syrup",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "6 dashes Grapefruit Bitters",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "Lime wheels for garnish",
+        "allocation": "retained quantity; see authored destinations"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "base.gin",
+        "name": "cucumber-and-floral dry gin",
+        "quantity": {
+          "amount": "9/2",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.lime",
+        "name": "fresh lime juice",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.agave",
+        "name": "agave syrup",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.mix-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for shaking",
+        "preparation": null,
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.serve-ice",
+        "name": "fresh ice cubes",
+        "quantity": null,
+        "allowance": "as needed for each glass, leaving liquid headroom",
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "strain",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.sparkle",
+        "name": "unsweetened sparkling water with grapefruit juice",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.bitters",
+        "name": "dash of grapefruit bitters",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.wheel",
+        "name": "lime wheel",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Measure and plan the glasses: Set out the serving glasses and cold ingredients. Each full original serving has 2⅓ fluid ounces still base before melted ice and 4 fluid ounces grapefruit sparkling water, plus ice. Choose glasses with enough headroom for that actual liquid."
+    },
+    {
+      "step": 2,
+      "text": "Shake the still base: Combine cucumber-and-floral dry gin, fresh lime juice, agave syrup, and ice cubes in a shaker with room for ice to move. Shake about 15 seconds as a first check, until well chilled. Use more than one small load if needed; keep the sparkling liquid out of the sealed shaker."
+    },
+    {
+      "step": 3,
+      "text": "Divide over fresh ice: Put fresh ice cubes in the glasses without filling them to the brim. Strain the base evenly among the listed portions, recombining separate loads first if necessary."
+    },
+    {
+      "step": 4,
+      "text": "Add bubbles and garnish: Use unsweetened sparkling water with grapefruit juice, dashes of grapefruit bitters, and lime wheels. Divide the grapefruit sparkling water evenly, 4 fluid ounces per original full serving. Add two bitters dashes per original glass, stir gently once and add one lime wheel per portion. Serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cucumber-and-floral dry gin",
+      "alternative": "A different dry gin",
+      "effect": "The same amount keeps the ratio but changes botanical character; it is not an identical flavor promise.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Measure and plan the glasses",
+          "text": "Set out the serving glasses and cold ingredients. Each full original serving has 2⅓ fluid ounces still base before melted ice and 4 fluid ounces grapefruit sparkling water, plus ice. Choose glasses with enough headroom for that actual liquid."
+        },
+        {
+          "id": "shake",
+          "title": "Shake the still base",
+          "text": "Combine {{ingredients}} in a shaker with room for ice to move. Shake about 15 seconds as a first check, until well chilled. Use more than one small load if needed; keep the sparkling liquid out of the sealed shaker."
+        },
+        {
+          "id": "strain",
+          "title": "Divide over fresh ice",
+          "text": "Put {{ingredients}} in the glasses without filling them to the brim. Strain the base evenly among the listed portions, recombining separate loads first if necessary."
+        },
+        {
+          "id": "finish",
+          "title": "Add bubbles and garnish",
+          "text": "Use {{ingredients}}. Divide the grapefruit sparkling water evenly, 4 fluid ounces per original full serving. Add two bitters dashes per original glass, stir gently once and add one lime wheel per portion. Serve promptly."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "beef-tenderloin-dogs-with-corn-relish",
+      "brownie-baked-oatmeal",
+      "chicken-apple-and-butternut-stew"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings and meal schedules do not gain acceptance here."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": null,
+    "planningYield": "3 portions",
+    "capacityAndScaling": [
+      "Shake the gin, lime and agave in loads with room for ice to move. Recombine the still base before dividing among the listed portions, then divide the measured grapefruit sparkling water and bitters equally at service.",
+      "The original batch uses one 12-fluid-ounce can total, not a full can per glass. The six bitters dashes are two per original serving."
+    ],
+    "timing": "About five minutes with cold ingredients ready. Additional shaking loads and glass assembly add active time; shaking duration is a first check, not a measured final temperature.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "7f0881fa2d16ef334b3bf742bc83d5896de12001cd2e2d5349f57a6028c64d43",
+      "yield": "3/4 portion",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "17ea627a086eca326defe1e57ffe8ec12cdeff38eaf15a60edf3a10835ba5e9a",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "d739b7e99944bf22a107d9a559bfa9797ed1b249980ad8bc9d342841ba971d34",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "d4555c301104573036fcea316fad6dfa03f170580bbb6d356bd44980936a771f",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "638ca9d97561bcefd66d877e996cec109e9dce1bbd302496c8dd0610eeaa6954",
+      "yield": "3 portions",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "a08eb17b664c67c504056deb8b2c1cc000dd1a5d4bc6396b30f917bfa59e6640",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "412331ea309508c78d2b0ff04c9ac64d83a6398bf6e82358309f3bf1521755af",
+      "yield": "4 1/2 portions",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "856a669f700cd8d9d869c7549cf3d1b8263b4416079fe826f35af183c3a94e99",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "ceea339658554f128ad45922489d6775bcb1242c319ad98a6117201471ded657",
+      "yield": "6 portions",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "2d713eb40312a55f9930afefb71acbbdd4112f420cb323d2ca3a5f9d859a4e20",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "931702b5557c9479271b4ec3d72b4b81529ce5f957e233a85ab4c1dcabd7318b",
+      "yield": "9 portions",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "ec9ea3ce09261ee177e03e3f2e07fe41a6e4b24badbcc51bc37ca8051fcbb739",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "638ca9d97561bcefd66d877e996cec109e9dce1bbd302496c8dd0610eeaa6954",
+      "yield": "3 portions",
+      "directionsSha256": "e25caf4a963dd4e5e2ec81a07fe1bc4ec85c33d1b2163814d6b8b7d5da551100",
+      "shoppingSha256": "a08eb17b664c67c504056deb8b2c1cc000dd1a5d4bc6396b30f917bfa59e6640",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Check three-glass volume/ice fit with actual topping product.",
+    "Compare current generic product descriptions to preferred household bottles/cans."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "rootBuiltLinkCorrection": {
+    "changes": [
+      {
+        "before": "](/recipes/smashed-cucumber-salad)",
+        "after": "](/mise/recipes/smashed-cucumber-salad/)",
+        "rationale": "Use the verified site base and existing canonical destination while preserving the pairing text and choice."
+      },
+      {
+        "before": "](/recipes/beef-tenderloin-dogs-with-corn-relish)",
+        "after": "](/mise/recipes/beef-tenderloin-dogs-with-corn-relish/)",
+        "rationale": "Use the verified site base and existing canonical destination while preserving the pairing text and choice."
+      }
+    ],
+    "allCulinaryFieldsAndFormulaExact": true,
+    "onlyBodyLinksChanged": true
+  },
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

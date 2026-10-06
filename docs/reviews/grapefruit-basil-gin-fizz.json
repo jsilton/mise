@@ -1,0 +1,708 @@
+{
+  "slug": "grapefruit-basil-gin-fizz",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "9b183015b56197b0a868980ae4cbbf7f35081523a61f69a141032b4fb37b6dd5",
+  "acceptedSourceSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker"],
+      "after": ["highball-glass", "bar-spoon", "muddler", "jigger"]
+    },
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "About 5 min"
+    },
+    {
+      "field": "servings",
+      "before": "1",
+      "after": "1 portion"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 oz London dry gin",
+        "3/4 cup Fresh Pink Grapefruit Juice",
+        "1/4 cup Tonic Water or Seltzer",
+        "1/2 tsp Fresh Basil, finely chopped",
+        "3 dashes aromatic bitters (The Finishing Touch)",
+        "1 Fresh Basil sprig",
+        "Large Ice Cubes"
+      ],
+      "after": [
+        "--- Basil ---",
+        "1/2 tsp fresh basil, finely chopped",
+        "--- Gin and grapefruit ---",
+        "2 oz London dry gin",
+        "3/4 cup fresh pink grapefruit juice",
+        "large ice cubes, as needed for serving, leaving liquid headroom",
+        "--- Sparkling finish ---",
+        "1/4 cup tonic water or seltzer",
+        "3 dashes of aromatic bitters",
+        "1 fresh basil sprig"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45.5,
+        "fat": 1,
+        "fiber": 7.5,
+        "sugar": 30,
+        "sodium": 10
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "basil",
+            "name": "Basil",
+            "ingredients": [
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "fresh basil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "preparation": "finely chopped",
+                "uses": [
+                  {
+                    "step": "muddle",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "base",
+            "name": "Gin and grapefruit",
+            "ingredients": [
+              {
+                "id": "gin",
+                "key": "gin",
+                "name": "London dry gin",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "juice",
+                "key": "juice",
+                "name": "fresh pink grapefruit juice",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ice",
+                "key": "ice",
+                "name": "large ice cubes",
+                "allowance": "as needed for serving, leaving liquid headroom",
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Sparkling finish",
+            "ingredients": [
+              {
+                "id": "sparkle",
+                "key": "sparkle",
+                "name": "tonic water or seltzer",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "dash of aromatic bitters",
+                "plural": "dashes of aromatic bitters",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sprig",
+                "key": "sprig",
+                "name": "fresh basil sprig",
+                "plural": "fresh basil sprigs",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Choose the glass",
+            "text": "Wash the basil and use a tall glass large enough for the full drink and ice. The original liquid amounts total 10 fluid ounces before melted ice; do not fill a small glass to the brim with ice first. Use a larger glass rather than omit juice or tonic."
+          },
+          {
+            "id": "muddle",
+            "title": "Press the basil",
+            "text": "Put {{ingredients}} in the glass. Press gently with a muddler or the back of a spoon just until fragrant, without grinding the leaves to a paste."
+          },
+          {
+            "id": "base",
+            "title": "Add the base and ice",
+            "text": "Add {{ingredients}}. Leave room for the measured sparkling finish and stir the gin and grapefruit together."
+          },
+          {
+            "id": "finish",
+            "title": "Finish gently",
+            "text": "Add {{ingredients}}: pour in the tonic or seltzer, then give one gentle lift with the spoon if the layers remain separate. Add the measured bitters on the surface. Lightly clap the basil sprig between your hands and tuck it into the glass. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Leave room for a generous juice portion and a sparkling finish",
+        "outcome": "A gently mixed grapefruit drink with fragrant basil and lively bubbles.",
+        "techniques": ["temperature"],
+        "before": [
+          "Each full original portion needs room for nominally 10 fluid ounces of liquid, plus bitters, ice and headroom. Choose the glass before adding ice.",
+          "Choose tonic or seltzer deliberately: they do not have identical sweetness or bitterness.",
+          "Build each full portion in its own glass, with room for the listed gin, grapefruit juice, sparkling finish and ice. Keep the per-glass proportions when preparing more portions; add tonic or seltzer gently at service."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Basil smells fragrant rather than being ground to paste.",
+            "why": "Gentle pressing releases aroma without making the drink full of leaf pulp."
+          },
+          {
+            "step": 4,
+            "cue": "All measured sparkling liquid fits and the base is integrated.",
+            "why": "An overfilled glass would force a formula change; one gentle movement can mix layers without vigorous stirring."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Drink will not fit",
+            "cause": "Too much ice was packed into a small glass.",
+            "fix": "Transfer the whole drink to a larger glass and add the remaining measured liquid; keep every original amount."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Tonic water",
+            "alternative": "The listed seltzer option",
+            "effect": "Removes tonic sweetness and bitterness; it is a different flavor, not a claim of identical balance."
+          }
+        ],
+        "timing": "About five minutes with cold ingredients ready. Larger quantities need separate glasses and more assembly time.",
+        "storage": "Build near serving. Keep the juice and prepared basil refrigerated; add ice and sparkling liquid at service.",
+        "sources": [
+          {
+            "title": "Dave Arnold — instrumented ice and dilution experiments",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "Adapted from rachaelraymag.com",
+            "url": "https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMuddling the basil before adding liquids releases its chlorophyll and essential oils, creating the botanical foundation of this cocktail. Fresh pink grapefruit provides bright acidity, amplified with aromatic bitters to bridge the gap between bitter tonic and sweet citrus. The result is a refreshing, herbaceous drink perfect for warm weather.\n\n## Directions\n\n1.  **Muddle:** Place the chopped basil in the bottom of a tall Collins glass or highball glass. Use a muddler or the back of a spoon to press firmly for 10 seconds.\n2.  **Thermal Prep:** Fill the glass to the brim with large ice cubes.\n3.  **Combine:** Pour in the gin and the fresh grapefruit juice. Stir twice to integrate.\n4.  **Effervescence:** Top with the tonic water or seltzer. Do not stir again - let the bubbles carry the basil essence to the top.\n5.  **The Finishing Touch:** Add 3 dashes of bitters directly onto the surface.\n6.  **The Slap:** Take the basil sprig, slap it between your palms to release the scent, and tuck it into the ice as a garnish.\n",
+    "after": "\n## Chef's Note\n\nGrapefruit, gin and fresh basil make a tall drink with a generous juice portion. Press the chopped basil until fragrant, stir the still ingredients together, then add tonic or seltzer gently. Tonic contributes its own sweetness and bitterness; seltzer makes a different, drier finish.\n\n## Directions\n\n1. **Choose the glass:** Wash the basil and use a tall glass large enough for the full drink and ice. The original liquid amounts total 10 fluid ounces before melted ice; do not fill a small glass to the brim with ice first. Use a larger glass rather than omit juice or tonic.\n2. **Press the basil:** Put fresh basil in the glass. Press gently with a muddler or the back of a spoon just until fragrant, without grinding the leaves to a paste.\n3. **Add the base and ice:** Add London dry gin, fresh pink grapefruit juice, and large ice cubes. Leave room for the measured sparkling finish and stir the gin and grapefruit together.\n4. **Finish gently:** Add tonic water or seltzer, dashes of aromatic bitters, and fresh basil sprig: pour in the tonic or seltzer, then give one gentle lift with the spoon if the layers remain separate. Add the measured bitters on the surface. Lightly clap the basil sprig between your hands and tuck it into the glass. Serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "shaken_drinks_02-grapefruit-basil-gin-fizz-1",
+      "title": "whole formula, destinations and process",
+      "rationale": "First committed source muddles basil, includes tonic, stirs, then adds bitters. Current seltzer option and three-dash measure retained as published adaptations. Named RachaelRay link inaccessible; no current publisher formula certification. Correct brim-full glass contradiction by arithmetic, not invented glass dimensions or finished dilution.",
+      "confidence": "high for quantities/arithmetic; moderate for planning and sensory method",
+      "applicableSources": [
+        {
+          "reference": "independently recovered committed origin"
+        },
+        {
+          "reference": "retained published checkpoint"
+        },
+        {
+          "reference": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual glass volume and ice load with all 10 fluid ounces liquid.",
+        "Compare tonic and seltzer options and chopped basil texture without changing quantities."
+      ]
+    },
+    {
+      "id": "shaken_drinks_02-grapefruit-basil-gin-fizz-2",
+      "title": "Authorized recipe-specific public and scaling corrections",
+      "rationale": "The glass-built basil drink has no shaker or blender stage. State headroom for a full original portion and gentle per-glass tonic/seltzer service, preserving the native tonic method and current seltzer/three-dash adaptations without claiming inaccessible publisher confirmation.",
+      "confidence": "high for editorial corrections and unchanged arithmetic; method remains untested",
+      "applicableSources": [
+        {
+          "references": [
+            "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+            "docs/RECIPE_STANDARD.md",
+            "privately retained evidence"
+          ],
+          "scope": "The glass-built basil drink has no shaker or blender stage. State headroom for a full original portion and gentle per-glass tonic/seltzer service, preserving the native tonic method and current seltzer/three-dash adaptations without claiming inaccessible publisher confirmation.",
+          "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+        }
+      ],
+      "sourceApplicability": {
+        "references": [
+          "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+          "docs/RECIPE_STANDARD.md",
+          "privately retained evidence"
+        ],
+        "scope": "The glass-built basil drink has no shaker or blender stage. State headroom for a full original portion and gentle per-glass tonic/seltzer service, preserving the native tonic method and current seltzer/three-dash adaptations without claiming inaccessible publisher confirmation.",
+        "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+      },
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual glass volume and ice load with all 10 fluid ounces liquid.",
+        "Compare tonic and seltzer options and chopped basil texture without changing quantities."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/grapefruit-basil-gin-fizz.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "1b3b50708ec7d0d2b19b340fef857d87ba5cda70e5551574802a0fe1ca8c8cbd",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": "Adapted from rachaelraymag.com",
+      "sourceUrl": "https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz",
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "First committed source muddles basil, includes tonic, stirs, then adds bitters. Current seltzer option and three-dash measure retained as published adaptations. Named RachaelRay link inaccessible; no current publisher formula certification. Correct brim-full glass contradiction by arithmetic, not invented glass dimensions or finished dilution.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "c3594ca84b5612f4c58ddeabaae0ffd67e7b2fc3fe32620d14ba0f3e08de1540",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 oz London dry gin",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "3/4 cup Fresh Pink Grapefruit Juice",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1/4 cup Tonic Water or Seltzer",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1/2 tsp Fresh Basil, finely chopped",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "3 dashes aromatic bitters (The Finishing Touch)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1 Fresh Basil sprig",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "Large Ice Cubes",
+        "allocation": "retained quantity; see authored destinations"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "basil.basil",
+        "name": "fresh basil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": "finely chopped",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "muddle",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.gin",
+        "name": "London dry gin",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.juice",
+        "name": "fresh pink grapefruit juice",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.ice",
+        "name": "large ice cubes",
+        "quantity": null,
+        "allowance": "as needed for serving, leaving liquid headroom",
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.sparkle",
+        "name": "tonic water or seltzer",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.bitters",
+        "name": "dash of aromatic bitters",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.sprig",
+        "name": "fresh basil sprig",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Choose the glass: Wash the basil and use a tall glass large enough for the full drink and ice. The original liquid amounts total 10 fluid ounces before melted ice; do not fill a small glass to the brim with ice first. Use a larger glass rather than omit juice or tonic."
+    },
+    {
+      "step": 2,
+      "text": "Press the basil: Put fresh basil in the glass. Press gently with a muddler or the back of a spoon just until fragrant, without grinding the leaves to a paste."
+    },
+    {
+      "step": 3,
+      "text": "Add the base and ice: Add London dry gin, fresh pink grapefruit juice, and large ice cubes. Leave room for the measured sparkling finish and stir the gin and grapefruit together."
+    },
+    {
+      "step": 4,
+      "text": "Finish gently: Add tonic water or seltzer, dashes of aromatic bitters, and fresh basil sprig: pour in the tonic or seltzer, then give one gentle lift with the spoon if the layers remain separate. Add the measured bitters on the surface. Lightly clap the basil sprig between your hands and tuck it into the glass. Serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Tonic water",
+      "alternative": "The listed seltzer option",
+      "effect": "Removes tonic sweetness and bitterness; it is a different flavor, not a claim of identical balance.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Choose the glass",
+          "text": "Wash the basil and use a tall glass large enough for the full drink and ice. The original liquid amounts total 10 fluid ounces before melted ice; do not fill a small glass to the brim with ice first. Use a larger glass rather than omit juice or tonic."
+        },
+        {
+          "id": "muddle",
+          "title": "Press the basil",
+          "text": "Put {{ingredients}} in the glass. Press gently with a muddler or the back of a spoon just until fragrant, without grinding the leaves to a paste."
+        },
+        {
+          "id": "base",
+          "title": "Add the base and ice",
+          "text": "Add {{ingredients}}. Leave room for the measured sparkling finish and stir the gin and grapefruit together."
+        },
+        {
+          "id": "finish",
+          "title": "Finish gently",
+          "text": "Add {{ingredients}}: pour in the tonic or seltzer, then give one gentle lift with the spoon if the layers remain separate. Add the measured bitters on the surface. Lightly clap the basil sprig between your hands and tuck it into the glass. Serve promptly."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "herb-marinated-pork-tenderloins",
+      "roasted-fall-harvest-salad",
+      "roasted-root-vegetables",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings and meal schedules do not gain acceptance here."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": null,
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Each full original portion needs room for nominally 10 fluid ounces of liquid, plus bitters, ice and headroom. Choose the glass before adding ice.",
+      "Choose tonic or seltzer deliberately: they do not have identical sweetness or bitterness.",
+      "Build each full portion in its own glass, with room for the listed gin, grapefruit juice, sparkling finish and ice. Keep the per-glass proportions when preparing more portions; add tonic or seltzer gently at service."
+    ],
+    "timing": "About five minutes with cold ingredients ready. Larger quantities need separate glasses and more assembly time.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "99cbd014ccbc970818368658a644d4cf3bc1e8ba3de0d3a294f5c50b92ba1701",
+      "yield": "1/4 portion",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "884601f7071f093ac4c523c7e63d0fd94e28259c5ac80ecbe427512ec4b0903e",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "b0c5279b7340978aa7f0941fa3b97ac72ecbef320bc977659143669ed404ed99",
+      "yield": "1/2 portion",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "dc7b56968752e66be682752677582c4ced45a3880002857f5fdd0ea5651a6798",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "c8db86e89a233170ff983b814cbbdacd7a576124630a42b8e55655b0dfdd54f7",
+      "yield": "1 portion",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "f89a9dcc6040c926cc348adde977d3fbb673e45b8f323ef55c8c5b7f4e4d6a0d",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "9b32fa365559b2f5fd9b3ddc19cbbf09cd665d7c3f1301fdb10b898477535090",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "2e14d1a196c45b29dc4130827ff66dedb6561bb73749cd39d987ead32dba110f",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "a40d410fe2c4ea5989bfbe8487343cfceb2036e5e9b6b0773ba3575e9b278865",
+      "yield": "2 portions",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "a08c2119e07ee5efdaf5e53852add8d42ca7fb7996852ab3fcc6b23cb3b47c28",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "0463296122166ace7c2fc411fa46c8acf326a422a510529d9d19b74f373f7be5",
+      "yield": "3 portions",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "4ff9f4f32d0607ae82e0a40b518b02c4a7650ae74d1132deac9da4c9d89db151",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "c8db86e89a233170ff983b814cbbdacd7a576124630a42b8e55655b0dfdd54f7",
+      "yield": "1 portion",
+      "directionsSha256": "77e034af82a4166747b27863d390988f339e61d0641bc4d49748508b19f13881",
+      "shoppingSha256": "f89a9dcc6040c926cc348adde977d3fbb673e45b8f323ef55c8c5b7f4e4d6a0d",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Check actual glass volume and ice load with all 10 fluid ounces liquid.",
+    "Compare tonic and seltzer options and chopped basil texture without changing quantities."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

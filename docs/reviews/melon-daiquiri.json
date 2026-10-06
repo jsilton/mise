@@ -1,0 +1,721 @@
+{
+  "slug": "melon-daiquiri",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "043a5ae2a3a9186b2c0187c75cb16019f0b1991682caa10e53da1e2c03fa497a",
+  "acceptedSourceSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "About 10 min active"
+    },
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "About 40 min with 30 min melon chill"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 cups Honeydew Melon, peeled, deseeded and cubed",
+        "1 cup Light Rum",
+        "1/2 cup Fresh Lime Juice (The Acid Balance)",
+        "1/2 cup green melon liqueur",
+        "12 Cantaloupe cubes (1/2-inch)",
+        "4 Sugar Cane Skewers"
+      ],
+      "after": [
+        "--- Melon drink ---",
+        "6 cups honeydew melon, peeled, deseeded and cubed",
+        "1 cup light rum",
+        "1/2 cup fresh lime juice",
+        "1/2 cup green melon liqueur",
+        "ice cubes, a few at a time only if needed to thicken, optional",
+        "--- Garnish ---",
+        "12 cantaloupe cubes, ½ inch",
+        "4 sugar cane skewers"
+      ]
+    },
+    {
+      "field": "leftovers",
+      "before": "good",
+      "after": "poor"
+    },
+    {
+      "field": "advancePrep",
+      "before": ["freeze-ahead"],
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1460,
+        "protein": 2.5,
+        "carbs": 421,
+        "fat": 0,
+        "fiber": 3,
+        "sugar": 400.5,
+        "sodium": 20
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["blender", "freezer-safe-container", "serving-glasses", "skewers"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "blend",
+            "name": "Melon drink",
+            "ingredients": [
+              {
+                "id": "melon",
+                "key": "melon",
+                "name": "honeydew melon",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "cup"
+                },
+                "preparation": "peeled, deseeded and cubed",
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rum",
+                "key": "rum",
+                "name": "light rum",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "fresh lime juice",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "liqueur",
+                "key": "liqueur",
+                "name": "green melon liqueur",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ice",
+                "key": "ice",
+                "name": "ice cubes",
+                "allowance": "a few at a time only if needed to thicken",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "garnish",
+            "name": "Garnish",
+            "ingredients": [
+              {
+                "id": "cantaloupe",
+                "key": "cantaloupe",
+                "name": "cantaloupe cube",
+                "plural": "cantaloupe cubes",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "count"
+                },
+                "preparation": "½ inch",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "skewer",
+                "key": "skewer",
+                "name": "sugar cane skewer",
+                "plural": "sugar cane skewers",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare and chill the melon",
+            "text": "Wash and scrub both melon rinds under running water before cutting, then peel, deseed and cube the honeydew; the listed amount is prepared flesh (six cups in the original batch). Prepare the cantaloupe garnish separately. For a colder drink, spread the honeydew in a freezer-safe container and chill for about 30 minutes; the pieces may still be soft in the center. For the fresh-melon option, skip this wait."
+          },
+          {
+            "id": "blend",
+            "title": "Blend in suitable loads",
+            "text": "Use {{ingredients}}. Start with the melon and measured rum, lime and liqueur, keeping within the actual blender’s fill limit. Work in smaller loads if needed, divide the measured liquids among them and recombine. Follow the machine’s speed instructions; blend until smooth, stopping safely to check. Add the optional ice gradually only if needed for a thicker pour. Do not keep adding ice to force a precise frozen texture."
+          },
+          {
+            "id": "garnish",
+            "title": "Prepare the skewers",
+            "text": "Use {{ingredients}}. In the original four-portion batch, thread three cantaloupe cubes onto each skewer. For another number of portions, keep the same garnish per full serving; fractional skewers are a serving choice, not something to break into the drink."
+          },
+          {
+            "id": "serve",
+            "title": "Divide and serve",
+            "text": "Divide the recombined mixture evenly among the listed portions in glasses with room for the actual volume. Keep any excess alongside as a refill rather than force a small coupe. Add the prepared skewers and serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blend prepared melon smoothly in loads that fit the machine.",
+        "outcome": "A smooth melon drink with lime, rum and the full cantaloupe-skewer garnish.",
+        "techniques": ["temperature"],
+        "before": [
+          "The listed honeydew amount is peeled, deseeded flesh; the original batch uses six cups.",
+          "Use the actual blender fill limit. The original batch has six cups prepared fruit plus two cups measured liquids and may need multiple loads; final volume depends on the fruit and optional ice.",
+          "Choose fresh melon or a 30-minute freezer chill. The chilled pieces may remain soft in the center.",
+          "Keep each blender load within the machine’s fill limit. Divide the measured fruit and liquids proportionally among loads, then recombine before dividing among the listed portions. Add optional ice gradually; extra loads increase preparation time."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "No firm melon pieces remain and every measured liquid is included.",
+            "why": "A smooth texture depends on actual fruit softness and blender loading, not a universal high-speed clock."
+          },
+          {
+            "step": 4,
+            "cue": "All mixture is divided or retained for refills, with garnish allocated to each portion.",
+            "why": "The actual blended volume determines glass size and whether refills are useful."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Blender stalls",
+            "cause": "The load is too large or the fruit is firmer than expected.",
+            "fix": "Stop the machine and reduce the load according to its manual; distribute the existing liquids across smaller loads rather than add unmeasured rum."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "30-minute chilled honeydew",
+            "alternative": "Fresh prepared honeydew without the freezer chill",
+            "effect": "Skip the freezer wait and blend the same amounts; optional ice can change thickness and dilution."
+          }
+        ],
+        "timing": "Allow about ten minutes active work and a 30-minute freezer chill, about 40 minutes elapsed, plus additional blender loads if needed. The fresh-melon option omits that wait. Glass chilling can overlap melon preparation.",
+        "storage": "Serve after blending for the smoothest texture. Keep prepared melon refrigerated at 40°F or below until blending; add optional ice just before serving, since melting changes the texture.",
+        "sources": [
+          {
+            "title": "Dave Arnold — instrumented ice and dilution experiments",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe daiquiri is a Cuban drink named after a beach near Santiago - born from American occupation and the sugar trade. A good daiquiri is balanced: rum, lime juice, and sugar in equal parts, with the lime juice providing the backbone. Using fresh melon brings fruit sweetness without needing extra sugar, which keeps the drink bright instead of cloying.\n\n## Directions\n\n1.  **Thermal Prep:** Freeze your melon cubes for 30 minutes prior to starting for the best texture.\n2.  **Blend:** Combine the honeydew, light rum, lime juice, and melon liqueur in a high-powered blender.\n3.  **Process:** Pulse on low, then increase to high until perfectly smooth. Add a handful of ice only if needed to reach a \"thick-shake\" consistency.\n4.  **Skew:** Thread 3 cantaloupe cubes onto each sugar cane skewer.\n5.  **Serve:** Pour into chilled coupes or martini glasses. Garnish with the skewers and serve immediately for the maximum \"Bounce.\"\n",
+    "after": "\n## Chef's Note\n\nHoneydew and melon liqueur provide sweetness alongside the rum and lime. Blend the prepared flesh smoothly, then decide whether a little ice is needed for the texture you want. This generous melon mixture can exceed small cocktail glasses; keep room for the actual mixture or offer refills.\n\n## Directions\n\n1. **Prepare and chill the melon:** Wash and scrub both melon rinds under running water before cutting, then peel, deseed and cube the honeydew; the listed amount is prepared flesh (six cups in the original batch). Prepare the cantaloupe garnish separately. For a colder drink, spread the honeydew in a freezer-safe container and chill for about 30 minutes; the pieces may still be soft in the center. For the fresh-melon option, skip this wait.\n2. **Blend in suitable loads:** Use honeydew melon, light rum, fresh lime juice, green melon liqueur, and ice cubes (if using). Start with the melon and measured rum, lime and liqueur, keeping within the actual blender’s fill limit. Work in smaller loads if needed, divide the measured liquids among them and recombine. Follow the machine’s speed instructions; blend until smooth, stopping safely to check. Add the optional ice gradually only if needed for a thicker pour. Do not keep adding ice to force a precise frozen texture.\n3. **Prepare the skewers:** Use cantaloupe cubes and sugar cane skewers. In the original four-portion batch, thread three cantaloupe cubes onto each skewer. For another number of portions, keep the same garnish per full serving; fractional skewers are a serving choice, not something to break into the drink.\n4. **Divide and serve:** Divide the recombined mixture evenly among the listed portions in glasses with room for the actual volume. Keep any excess alongside as a refill rather than force a small coupe. Add the prepared skewers and serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "shaken_drinks_02-melon-daiquiri-1",
+      "title": "whole formula, destinations and process",
+      "rationale": "Exact first committed Fresh Melon Daiquiri formula matches current measured fruit/spirits. Saved original blends fresh and adds ice as needed; current 30-minute chill is retained as an explicit alternate, not a mandatory source instruction. Remove equal-parts rum/lime/sugar rule (not this formula) and unsupported occupation/invention story. Ritz-Carlton attribution retained, unavailable exact publisher evidence not fabricated.",
+      "confidence": "high for quantities/arithmetic; moderate for planning and sensory method",
+      "applicableSources": [
+        {
+          "reference": "independently recovered committed origin"
+        },
+        {
+          "reference": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        },
+        {
+          "reference": "retained published checkpoint"
+        },
+        {
+          "reference": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "leftovers",
+        "advancePrep",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure final blended volume and actual four-portion glass/refill size with chosen melon.",
+        "Test fresh versus 30-minute chilled fruit and optional ice; record texture without claiming frozen solidity.",
+        "Check actual blender capacity and sugar cane skewer handling."
+      ]
+    },
+    {
+      "id": "shaken_drinks_02-melon-daiquiri-2",
+      "title": "Authorized recipe-specific public and scaling corrections",
+      "rationale": "Use the actual blender fill limit and original-batch quantities as context while the listed scaled fruit/liquids govern loads. Preserve fresh blending, optional 30-minute chilling, optional ice and full cantaloupe/skewer garnish; final volume and refills govern glasses. FDA guidance applies to both melon rinds before cutting and refrigerated prepared fruit.",
+      "confidence": "high for editorial corrections and unchanged arithmetic; method remains untested",
+      "applicableSources": [
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "readDate": "2026-10-05",
+          "scope": "Wash/scrub both melon rinds before cutting; prepared fruit held refrigerated at 40°F or below. Does not establish finished drink life or tested volume.",
+          "confidence": "high"
+        }
+      ],
+      "sourceApplicability": {
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "readDate": "2026-10-05",
+        "scope": "Wash/scrub both melon rinds before cutting; prepared fruit held refrigerated at 40°F or below. Does not establish finished drink life or tested volume.",
+        "confidence": "high"
+      },
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "leftovers",
+        "advancePrep",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure final blended volume and actual four-portion glass/refill size with chosen melon.",
+        "Test fresh versus 30-minute chilled fruit and optional ice; record texture without claiming frozen solidity.",
+        "Check actual blender capacity and sugar cane skewer handling."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/fresh-melon-daiquiri.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "860b9f30a19aeda57dbed4e33243554675e76c6602c79cdbc496858965b0553f",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": "Adapted from The Ritz-Carlton, Cancun",
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Exact first committed Fresh Melon Daiquiri formula matches current measured fruit/spirits. Saved original blends fresh and adds ice as needed; current 30-minute chill is retained as an explicit alternate, not a mandatory source instruction. Remove equal-parts rum/lime/sugar rule (not this formula) and unsupported occupation/invention story. Ritz-Carlton attribution retained, unavailable exact publisher evidence not fabricated.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "d0a8c5d819007df6b7b68babc462c035c9984b548a0b9f9431350a55e0b01f4c",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "6 cups Honeydew Melon, peeled, deseeded and cubed",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1 cup Light Rum",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Lime Juice (The Acid Balance)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1/2 cup green melon liqueur",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "12 Cantaloupe cubes (1/2-inch)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "4 Sugar Cane Skewers",
+        "allocation": "retained quantity; see authored destinations"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "blend.melon",
+        "name": "honeydew melon",
+        "quantity": {
+          "amount": 6,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "peeled, deseeded and cubed",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "blend.rum",
+        "name": "light rum",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "blend.lime",
+        "name": "fresh lime juice",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "blend.liqueur",
+        "name": "green melon liqueur",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "blend.ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "a few at a time only if needed to thicken",
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "garnish.cantaloupe",
+        "name": "cantaloupe cube",
+        "quantity": {
+          "amount": 12,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "½ inch",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "garnish.skewer",
+        "name": "sugar cane skewer",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare and chill the melon: Wash and scrub both melon rinds under running water before cutting, then peel, deseed and cube the honeydew; the listed amount is prepared flesh (six cups in the original batch). Prepare the cantaloupe garnish separately. For a colder drink, spread the honeydew in a freezer-safe container and chill for about 30 minutes; the pieces may still be soft in the center. For the fresh-melon option, skip this wait."
+    },
+    {
+      "step": 2,
+      "text": "Blend in suitable loads: Use honeydew melon, light rum, fresh lime juice, green melon liqueur, and ice cubes (if using). Start with the melon and measured rum, lime and liqueur, keeping within the actual blender’s fill limit. Work in smaller loads if needed, divide the measured liquids among them and recombine. Follow the machine’s speed instructions; blend until smooth, stopping safely to check. Add the optional ice gradually only if needed for a thicker pour. Do not keep adding ice to force a precise frozen texture."
+    },
+    {
+      "step": 3,
+      "text": "Prepare the skewers: Use cantaloupe cubes and sugar cane skewers. In the original four-portion batch, thread three cantaloupe cubes onto each skewer. For another number of portions, keep the same garnish per full serving; fractional skewers are a serving choice, not something to break into the drink."
+    },
+    {
+      "step": 4,
+      "text": "Divide and serve: Divide the recombined mixture evenly among the listed portions in glasses with room for the actual volume. Keep any excess alongside as a refill rather than force a small coupe. Add the prepared skewers and serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "30-minute chilled honeydew",
+      "alternative": "Fresh prepared honeydew without the freezer chill",
+      "effect": "Skip the freezer wait and blend the same amounts; optional ice can change thickness and dilution.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Prepare and chill the melon",
+          "text": "Wash and scrub both melon rinds under running water before cutting, then peel, deseed and cube the honeydew; the listed amount is prepared flesh (six cups in the original batch). Prepare the cantaloupe garnish separately. For a colder drink, spread the honeydew in a freezer-safe container and chill for about 30 minutes; the pieces may still be soft in the center. For the fresh-melon option, skip this wait."
+        },
+        {
+          "id": "blend",
+          "title": "Blend in suitable loads",
+          "text": "Use {{ingredients}}. Start with the melon and measured rum, lime and liqueur, keeping within the actual blender’s fill limit. Work in smaller loads if needed, divide the measured liquids among them and recombine. Follow the machine’s speed instructions; blend until smooth, stopping safely to check. Add the optional ice gradually only if needed for a thicker pour. Do not keep adding ice to force a precise frozen texture."
+        },
+        {
+          "id": "garnish",
+          "title": "Prepare the skewers",
+          "text": "Use {{ingredients}}. In the original four-portion batch, thread three cantaloupe cubes onto each skewer. For another number of portions, keep the same garnish per full serving; fractional skewers are a serving choice, not something to break into the drink."
+        },
+        {
+          "id": "serve",
+          "title": "Divide and serve",
+          "text": "Divide the recombined mixture evenly among the listed portions in glasses with room for the actual volume. Keep any excess alongside as a refill rather than force a small coupe. Add the prepared skewers and serve promptly."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "arugula-feta-salad",
+      "asian-slaw",
+      "avocado-kale-caesar-salad",
+      "balsamic-peach-pork"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings and meal schedules do not gain acceptance here."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": null,
+    "planningYield": "4 portions",
+    "capacityAndScaling": [
+      "The listed honeydew amount is peeled, deseeded flesh; the original batch uses six cups.",
+      "Use the actual blender fill limit. The original batch has six cups prepared fruit plus two cups measured liquids and may need multiple loads; final volume depends on the fruit and optional ice.",
+      "Choose fresh melon or a 30-minute freezer chill. The chilled pieces may remain soft in the center.",
+      "Keep each blender load within the machine’s fill limit. Divide the measured fruit and liquids proportionally among loads, then recombine before dividing among the listed portions. Add optional ice gradually; extra loads increase preparation time."
+    ],
+    "timing": "Allow about ten minutes active work and a 30-minute freezer chill, about 40 minutes elapsed, plus additional blender loads if needed. The fresh-melon option omits that wait. Glass chilling can overlap melon preparation.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "4c760d0721545869063a522bbafb672a0ebb7ca5ca35714a41a95b4066e72e1d",
+      "yield": "1 portion",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "c3a51543a1e4850f7874a0fcb518329c3e63d0bab634060ce841729c0e3d3b42",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "e00e1813b29a6d2d0c3a34f76a237df974989384ad9ec233e6a05a5367dacb76",
+      "yield": "2 portions",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "0e4a617a58b8df6806844144f2659d139a6f6119b404ae59dacdcd211c6f7bcf",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "6f3715bdd7b8f8b53d072101eefdb98f17a583f8455f440c2fb312f67cf383af",
+      "yield": "4 portions",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "986cb68efbe5557cff5c7f81dedb39e435afec3cba46ee9d43b6958eb001da71",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "4c6cf54dfa774dff2ed54504d5dc735e741abafc5e2482965b1be53ea9bc1856",
+      "yield": "6 portions",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "c3686ce34e27b8d8ecad2ffe512098a8b9f3c85765d6002bc1fd1c1034ff816e",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "d0ff2d24d0411f5d67ff0eba52ac76661d043c0ff134de3ec1518622e572e23a",
+      "yield": "8 portions",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "c23cedeea146d49914e2098f95c67d22c132c63476aff5f28e50a25aac0c7dce",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "6247944da031d67192913bea82c5b9cdafc71516d116b6a146b1f7120a8cb150",
+      "yield": "12 portions",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "c9076440614e8679acbde9f254d2fe95795e52976ff75925900d5648fa70db0d",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "6f3715bdd7b8f8b53d072101eefdb98f17a583f8455f440c2fb312f67cf383af",
+      "yield": "4 portions",
+      "directionsSha256": "60def65c7b895b1f7f61dae5f6130bbab62dabebc67a4fab3766bd488c57e74d",
+      "shoppingSha256": "986cb68efbe5557cff5c7f81dedb39e435afec3cba46ee9d43b6958eb001da71",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Measure final blended volume and actual four-portion glass/refill size with chosen melon.",
+    "Test fresh versus 30-minute chilled fruit and optional ice; record texture without claiming frozen solidity.",
+    "Check actual blender capacity and sugar cane skewer handling."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "slug": "classic-martini",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "46827674ea26afe37bab032eef7cbc1c7b2c6c4346ee8ec675e1053e60511c6f",
+  "acceptedSourceSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker"],
+      "after": [
+        "mixing-glass",
+        "bar-spoon",
+        "jigger",
+        "hawthorne-strainer",
+        "citrus-peeler",
+        "small-glass-for-excess",
+        "clean-kitchen-cloth"
+      ]
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["acidic", "smoky"],
+      "after": ["herbaceous", "aromatic", "clean"]
+    },
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "15 min, including glass chilling"
+    },
+    {
+      "field": "servings",
+      "before": "1",
+      "after": "1 portion"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 oz London dry gin",
+        "3/4 oz dry French vermouth",
+        "1 large Lemon (for peel)",
+        "Large Ice Cubes (1-inch)"
+      ],
+      "after": [
+        "--- Martini ---",
+        "4 oz London dry gin",
+        "3/4 oz dry French vermouth",
+        "large ice cubes, as needed for stirring; some cracked into large pieces",
+        "--- Lemon and sidecar ---",
+        "1 large lemon, for peel; the remaining fruit is not used in this drink",
+        "ice, as needed under a small sidecar glass, if the main glass cannot hold the drink, optional"
+      ]
+    },
+    {
+      "field": "advancePrep",
+      "before": ["freeze-ahead"],
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 565,
+        "protein": 25,
+        "carbs": 8,
+        "fat": 51,
+        "fiber": 2.5,
+        "sugar": 2.5,
+        "sodium": 280
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "A generous stirred London dry gin Martini with dry French vermouth and expressed lemon peel."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "drink",
+            "name": "Martini",
+            "ingredients": [
+              {
+                "id": "gin",
+                "key": "gin",
+                "name": "London dry gin",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vermouth",
+                "key": "vermouth",
+                "name": "dry French vermouth",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mixing-ice",
+                "key": "mixing-ice",
+                "name": "large ice cubes",
+                "allowance": "as needed for stirring; some cracked into large pieces",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Lemon and sidecar",
+            "ingredients": [
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "large lemon",
+                "plural": "large lemons",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "for peel; the remaining fruit is not used in this drink",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sidecar-ice",
+                "key": "sidecar-ice",
+                "name": "ice",
+                "allowance": "as needed under a small sidecar glass, if the main glass cannot hold the drink",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "strain",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Chill the glass",
+            "text": "Place a freezer-safe Martini glass or Nick and Nora glass in the freezer for about 10 minutes before mixing. This recipe has 4¾ fluid ounces of gin and vermouth in the original batch before dilution, so set out a small sidecar glass for any excess. Scaled batches need corresponding serving glasses and room for ice and stirring in the mixing vessel."
+          },
+          {
+            "id": "mix",
+            "title": "Combine over ice",
+            "text": "Use {{ingredients}}. If starting with large cubes, crack some into large pieces with the back of a bar spoon, catching them in a clean cloth; put them in the mixing glass with additional whole cubes. Add the gin and vermouth. Keep enough free space to stir without spilling. All ounce measures are fluid ounces."
+          },
+          {
+            "id": "stir",
+            "title": "Stir and check",
+            "text": "Stir smoothly around the inside of the glass until the drink is cold. Taste a small sample with a clean spoon; the gin and vermouth should be recognizable with a rounded finish. Continue briefly if it is still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time."
+          },
+          {
+            "id": "strain",
+            "title": "Strain with room to spare",
+            "text": "Strain through a Hawthorne strainer into the chilled serving glass, leaving headroom. Use {{ingredients}} if needed: strain excess into a small sidecar glass set in a bowl of ice, keeping the ice outside the cocktail. Do not force the full drink into a small glass or discard the excess; serve it alongside."
+          },
+          {
+            "id": "garnish",
+            "title": "Express lemon",
+            "text": "Use {{ingredients}}: remove a roughly 1-inch strip of peel for each serving, twist it over the drink to release the oils, rub it around the rim and float it yellow side up. Serve promptly; keep the sidecar chilled until poured."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Chill and dilute a stirred Martini without losing its gin character",
+        "outcome": "A cold, clear drink with a rounded gin-and-vermouth finish and fresh lemon aroma.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Chill a freezer-safe serving glass before mixing; the 15-minute total includes the 10-minute freezer chill.",
+          "The original recipe contains 4¾ fluid ounces before ice melts. Have a sidecar or a larger serving glass with headroom; increasing ingredients does not enlarge a Nick and Nora glass.",
+          "Use fluid-ounce measures. Keep the dry vermouth refrigerated after opening."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "There is enough ice and open space for the spoon to move without spilling.",
+            "why": "Cooling and dilution depend on the ice and circulation, not a large cube alone."
+          },
+          {
+            "step": 3,
+            "cue": "A small sample is cold and rounded, with the gin and vermouth still recognizable.",
+            "why": "Fifty rotations cannot guarantee a particular temperature or dilution under different starting conditions."
+          },
+          {
+            "step": 4,
+            "cue": "The main glass has headroom and the excess remains in a separate glass over external ice.",
+            "why": "The recipe is larger than many small cocktail glasses; the sidecar keeps the full amount available."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Drink tastes warm or harsh",
+            "cause": "Too little effective stirring, warm ingredients or large uncracked ice slowed cooling.",
+            "fix": "Continue stirring and sample again, then strain promptly into the chilled glass."
+          },
+          {
+            "problem": "The drink will not fit",
+            "cause": "The glass is too small for the measured liquid plus melted ice.",
+            "fix": "Use the sidecar or a larger chilled glass. Keep serving ice outside the Martini; do not change the measured gin/vermouth amounts just to fit the glass."
+          },
+          {
+            "problem": "Drink tastes thin",
+            "cause": "Too much meltwater entered before serving.",
+            "fix": "Dilution cannot be removed. Use dry fresh ice and check the taste earlier next time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "London dry gin",
+            "alternative": "Another gin style",
+            "effect": "Its botanicals and strength change the balance; retain the measured vermouth amount for the first comparison and judge dilution by taste."
+          },
+          {
+            "ingredient": "Dry French vermouth",
+            "alternative": "Another dry vermouth",
+            "effect": "Aromatic profile and perceived sweetness change; sweet red vermouth is a different drink rather than an interchangeable replacement."
+          }
+        ],
+        "timing": "Allow about 15 minutes from an unchilled glass: roughly 10 minutes freezer chilling followed by 5 minutes measuring, mixing, straining and garnish. The chilling interval can be done ahead; no heating or required rest follows. Stirring time varies. Larger amounts need more glasses and small mixing batches.",
+        "storage": "Serve the mixed drink promptly. For preparation ahead, keep only the measured liquid ingredients together in a covered refrigerated container, without ice or garnish, and stir small portions over ice at serving. Keep opened vermouth capped and refrigerated, following its label; discard used mixing ice. Keep the finished sidecar over external ice for this service; it is not a stored leftover or a separate precisely measured cocktail.",
+        "sources": [
+          {
+            "title": "International Bartenders Association — Dry Martini",
+            "url": "https://iba-world.com/iba-cocktail/dry-martini/"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: balance and batching",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4601.html"
+          },
+          {
+            "title": "MARTINI — Vermouth guide, storage after opening",
+            "url": "https://www.martini.com/be/fr/category/histoire/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA classic Martini is built on technique and temperature. We stir, never shake, to preserve the silkiness of the gin without introducing air bubbles or excessive dilution. The secret is cracked ice: by hand-cracking a large cube, we increase the surface area, allowing the drink to reach sub-zero temperatures in exactly 50 stirs. The finishing touch is expressed lemon oil - rubbing the peel on the rim ensures the aroma precedes the flavor.\n\n## Directions\n\n1.  **Thermal Prep:** Chill your glass in the freezer for 10 minutes prior to starting.\n2.  **The Ice:** Hold a large ice cube in your palm and crack it into 3-4 pieces using the back of a bar spoon. Fill a mixing glass with the cracked ice and additional large cubes.\n3.  **The Stir:** Add the gin and vermouth. Using a bar spoon, stir **rapidly in a circular motion** for 50 rotations. The outside of the glass should be frosted.\n4.  **Strain:** Double strain using a Hawthorne strainer into your chilled Nick and Nora or Martini glass.\n5.  **The Express:** Use a serrated knife or peeler to remove a 1-inch strip of lemon peel (aim for just the yellow zest, minimal white pith). Twist the peel over the glass to express the oils, rub the rim with the peel, and drop it in.\n",
+    "after": "\n## Chef's Note\n\nThis generous Martini uses London dry gin, dry French vermouth and lemon oil. Crack some of the stirring ice into large pieces, then stir until the drink tastes chilled and rounded while the gin remains clear in the finish. A small Nick and Nora glass may hold only part of the drink; keep the rest in a chilled sidecar rather than pouring to the brim.\n\n## Directions\n\n1. **Chill the glass:** Place a freezer-safe Martini glass or Nick and Nora glass in the freezer for about 10 minutes before mixing. This recipe has 4¾ fluid ounces of gin and vermouth in the original batch before dilution, so set out a small sidecar glass for any excess. Scaled batches need corresponding serving glasses and room for ice and stirring in the mixing vessel.\n2. **Combine over ice:** Use London dry gin, dry French vermouth, and large ice cubes. If starting with large cubes, crack some into large pieces with the back of a bar spoon, catching them in a clean cloth; put them in the mixing glass with additional whole cubes. Add the gin and vermouth. Keep enough free space to stir without spilling. All ounce measures are fluid ounces.\n3. **Stir and check:** Stir smoothly around the inside of the glass until the drink is cold. Taste a small sample with a clean spoon; the gin and vermouth should be recognizable with a rounded finish. Continue briefly if it is still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time.\n4. **Strain with room to spare:** Strain through a Hawthorne strainer into the chilled serving glass, leaving headroom. Use ice (if using) if needed: strain excess into a small sidecar glass set in a bowl of ice, keeping the ice outside the cocktail. Do not force the full drink into a small glass or discard the excess; serve it alongside.\n5. **Express lemon:** Use large lemon: remove a roughly 1-inch strip of peel for each serving, twist it over the drink to release the oils, rub it around the rim and float it yellow side up. Serve promptly; keep the sidecar chilled until poured.\n"
+  },
+  "findings": [
+    {
+      "id": "stirred_drinks_01-classic-martini-1",
+      "title": "identity, ratio and publisher drift",
+      "rationale": "Exact committed 045e5ba2 original matches these amounts. The current publisher link now redirects to an extra-dry vermouth-rinse recipe with different spirit amount; that does not authorize replacing this saved Martini.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "saved-origin",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "ba",
+          "title": "Bon Appétit — Current target of the saved Martini source link",
+          "url": "https://www.bonappetit.com/recipe/classic-martini-2",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Saved URL now redirects to a 2023 extra-dry Martini using discarded vermouth and 2–3 oz spirit, materially different from saved original. Preserve existing attribution/link; exact saved quantities and sidecar recovery rely on committed original, not current publisher recipe.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "martini",
+          "title": "International Bartenders Association — Dry Martini",
+          "url": "https://iba-world.com/iba-cocktail/dry-martini/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA supports gin/dry-vermouth stirred service and expressed lemon. Its 60:10 ratio differs from saved 4 oz plus 3/4 oz; no normalization.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-classic-martini-2",
+      "title": "glass capacity and lost source instruction",
+      "rationale": "Committed original explicitly sends excess to a sidecar. The 4.75-fluid-ounce base plus dilution cannot be assumed to fit a small Nick and Nora; restored original path preserves amount.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "saved-origin",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-classic-martini-3",
+      "title": "technique certainty",
+      "rationale": "No fixed count or surface frost proves the unspecified thermal/dilution state. A Hawthorne alone is one straining pass; source original uses that single strainer. Cracked ice technique remains.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "reference": "saved-origin",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Measure cooling and taste with the actual gin strength, ice and equipment."]
+    },
+    {
+      "id": "stirred_drinks_01-classic-martini-4",
+      "title": "elapsed versus active time",
+      "rationale": "The previously required chill was excluded from elapsed time; now included while active work remains about five minutes. No exact stirring schedule promised.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check whether the chosen freezer-safe glass chills satisfactorily in the planning interval."
+      ]
+    },
+    {
+      "id": "stirred_drinks_01-classic-martini-5",
+      "title": "unsupported nutrition and planning metadata",
+      "rationale": "Remove unverified legacy nutrition without replacement. Equipment follows actual chosen method; cocktail shaker remains only where a complete alternative uses one. Freeze-ahead tags do not describe storing the prepared cocktail. Flavor tags follow actual bitter/sweet/herbal/citrus ingredients without adding juice, smoke or savory ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "recipe standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-classic-martini-6",
+      "title": "authored quantities, learning and compilation",
+      "rationale": "Preserve measured totals/options and publish clear destinations, troubleshooting, storage and small-batch capacity. One portion retains the one saved cocktail; no standardized alcohol serving or precise strained yield is invented. The selected seasoning lesson concerns taste comparison, not a heat endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "structured authoring standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/classic-martini.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "7d2a67efa6fab351ae1fd82b0d5854ea7bd136d248b17f169500341dc11dc70c",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": "Adapted from Bonappetit.com",
+      "sourceUrl": "http://www.bonappetit.com/recipe/classic-martini-2",
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Chill glass → crack some large ice/measure preserved liquids → stir and sample → single Hawthorne strain with sidecar for overflow → lemon oil/rim/peel. No raw animal ingredient or cooking endpoint. Original sidecar protects capacity without silently changing ratio.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "97d116ebb8e476a127a328e9ac578718bd9821d7677127a7db8cfe04f68fe9f5",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "4 oz London dry gin",
+        "destination": "Gin enters mixing/stirring; all measured liquid retained, including sidecar."
+      },
+      {
+        "ingredient": "3/4 oz dry French vermouth",
+        "destination": "Dry vermouth enters mixing/stirring; not discarded as in the current redirected publisher recipe."
+      },
+      {
+        "ingredient": "1 large Lemon (for peel)",
+        "destination": "Only peel is used for garnish; unused lemon flesh is not another required recipe destination."
+      },
+      {
+        "ingredient": "Large Ice Cubes (1-inch)",
+        "destination": "Large ice supplies cooling/dilution; original sidecar ice surrounds its glass and is not dropped into the finished Martini."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "drink.gin",
+        "name": "London dry gin",
+        "quantity": {
+          "amount": 4,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.vermouth",
+        "name": "dry French vermouth",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.mixing-ice",
+        "name": "large ice cubes",
+        "quantity": null,
+        "allowance": "as needed for stirring; some cracked into large pieces",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.lemon",
+        "name": "large lemon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "for peel; the remaining fruit is not used in this drink",
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.sidecar-ice",
+        "name": "ice",
+        "quantity": null,
+        "allowance": "as needed under a small sidecar glass, if the main glass cannot hold the drink",
+        "preparation": null,
+        "optional": true,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "strain",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Chill the glass: Place a freezer-safe Martini glass or Nick and Nora glass in the freezer for about 10 minutes before mixing. This recipe has 4¾ fluid ounces of gin and vermouth in the original batch before dilution, so set out a small sidecar glass for any excess. Scaled batches need corresponding serving glasses and room for ice and stirring in the mixing vessel."
+    },
+    {
+      "step": 2,
+      "text": "Combine over ice: Use London dry gin, dry French vermouth, and large ice cubes. If starting with large cubes, crack some into large pieces with the back of a bar spoon, catching them in a clean cloth; put them in the mixing glass with additional whole cubes. Add the gin and vermouth. Keep enough free space to stir without spilling. All ounce measures are fluid ounces."
+    },
+    {
+      "step": 3,
+      "text": "Stir and check: Stir smoothly around the inside of the glass until the drink is cold. Taste a small sample with a clean spoon; the gin and vermouth should be recognizable with a rounded finish. Continue briefly if it is still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time."
+    },
+    {
+      "step": 4,
+      "text": "Strain with room to spare: Strain through a Hawthorne strainer into the chilled serving glass, leaving headroom. Use ice (if using) if needed: strain excess into a small sidecar glass set in a bowl of ice, keeping the ice outside the cocktail. Do not force the full drink into a small glass or discard the excess; serve it alongside."
+    },
+    {
+      "step": 5,
+      "text": "Express lemon: Use large lemon: remove a roughly 1-inch strip of peel for each serving, twist it over the drink to release the oils, rub it around the rim and float it yellow side up. Serve promptly; keep the sidecar chilled until poured."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "London dry gin",
+      "alternative": "Another gin style",
+      "effect": "Its botanicals and strength change the balance; retain the measured vermouth amount for the first comparison and judge dilution by taste.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Dry French vermouth",
+      "alternative": "Another dry vermouth",
+      "effect": "Aromatic profile and perceived sweetness change; sweet red vermouth is a different drink rather than an interchangeable replacement.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Chill the glass",
+          "text": "Place a freezer-safe Martini glass or Nick and Nora glass in the freezer for about 10 minutes before mixing. This recipe has 4¾ fluid ounces of gin and vermouth in the original batch before dilution, so set out a small sidecar glass for any excess. Scaled batches need corresponding serving glasses and room for ice and stirring in the mixing vessel."
+        },
+        {
+          "id": "mix",
+          "title": "Combine over ice",
+          "text": "Use {{ingredients}}. If starting with large cubes, crack some into large pieces with the back of a bar spoon, catching them in a clean cloth; put them in the mixing glass with additional whole cubes. Add the gin and vermouth. Keep enough free space to stir without spilling. All ounce measures are fluid ounces."
+        },
+        {
+          "id": "stir",
+          "title": "Stir and check",
+          "text": "Stir smoothly around the inside of the glass until the drink is cold. Taste a small sample with a clean spoon; the gin and vermouth should be recognizable with a rounded finish. Continue briefly if it is still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time."
+        },
+        {
+          "id": "strain",
+          "title": "Strain with room to spare",
+          "text": "Strain through a Hawthorne strainer into the chilled serving glass, leaving headroom. Use {{ingredients}} if needed: strain excess into a small sidecar glass set in a bowl of ice, keeping the ice outside the cocktail. Do not force the full drink into a small glass or discard the excess; serve it alongside."
+        },
+        {
+          "id": "garnish",
+          "title": "Express lemon",
+          "text": "Use {{ingredients}}: remove a roughly 1-inch strip of peel for each serving, twist it over the drink to release the oils, rub it around the rim and float it yellow side up. Serve promptly; keep the sidecar chilled until poured."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "avocado-kale-caesar-salad",
+      "avocado-toast",
+      "bbq-chicken-sliders"
+    ],
+    "composedMeals": "No direct composed-meal reference found for these slugs. Pairing links are suggestions, not required ingredient quantities or a complete meal certification.",
+    "distinctVariants": "No consolidation or identity reassignment. Saved spirit, ratio, garnish and service alternatives retained as specified in individual findings."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": "4 oz gin : 3/4 oz dry vermouth retained (16:3). Base liquid volume is 4.75 fluid ounces; final volume is unknown because meltwater and strainer holdback vary. One saved cocktail portion is retained, not normalized to a smaller IBA serving.",
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Chill a freezer-safe serving glass before mixing; the 15-minute total includes the 10-minute freezer chill.",
+      "The original recipe contains 4¾ fluid ounces before ice melts. Have a sidecar or a larger serving glass with headroom; increasing ingredients does not enlarge a Nick and Nora glass.",
+      "Use fluid-ounce measures. Keep the dry vermouth refrigerated after opening."
+    ],
+    "timing": "Allow about 15 minutes from an unchilled glass: roughly 10 minutes freezer chilling followed by 5 minutes measuring, mixing, straining and garnish. The chilling interval can be done ahead; no heating or required rest follows. Stirring time varies. Larger amounts need more glasses and small mixing batches.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "de70f26c1ce424a6f7360c0e4606376470a168d3665e03e7a3c9265cec4750b4",
+      "yield": "1/4 portion",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "b63c0d157ce1dbfa0b4c8f548aa9dc45ee2458ae7703875df7fa0502f3396ea9",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "1655f41dfb35f5c6cf228346d1f2b29aac7ea47e23c12f411263995e2daa6815",
+      "yield": "1/2 portion",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "e2fc1871fb8f151995460668235a9978ab4e79a14eae91fe3cdaef18668a8630",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "15ba3b6106808906e0c6b51b807daae1f2eaa6e94cfdb3e2d8cc93dee0dce428",
+      "yield": "1 portion",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "4e7280a13e66ea78bc485160e7726a19bc67b2f0c1e1ac452cad005fc006bd8f",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "3abb1c16b22828c59adf070a97bbb7b335976170a6691660b40a52572006c3c5",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "3437558cf070b0439312a1f1c84085f6a214c620530f4bf770f4d5eea524296e",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "b3df5ef814435120c8632cd3a7749f74fc8230d7a48b68b34bbba064eae5a0c5",
+      "yield": "2 portions",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "d06113290b5ed79d6d374ac7cc60b3dca193845a06ec1322821e2a30d77c80b4",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "b2da2ebdb7cee4bf2fd472a0790c1e99c58f95aa82c89e042775a5896c55c6c3",
+      "yield": "3 portions",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "2760b5995027eee5bfe37482162604e8e47705ec79d6dbba0592f0db0285d97b",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "15ba3b6106808906e0c6b51b807daae1f2eaa6e94cfdb3e2d8cc93dee0dce428",
+      "yield": "1 portion",
+      "directionsSha256": "a2e2616fa72cda767c5833937dfebae0385fd187a17b22ca96cf5ccbb4b75108",
+      "shoppingSha256": "4e7280a13e66ea78bc485160e7726a19bc67b2f0c1e1ac452cad005fc006bd8f",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Record actual serving-glass usable capacity, final strained volume and sidecar amount without altering the saved ratio.",
+    "Check perceived balance with intended gin/vermouth bottle strengths and the retained cracked-ice method."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

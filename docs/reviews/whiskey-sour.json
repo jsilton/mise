@@ -1,0 +1,851 @@
+{
+  "slug": "whiskey-sour",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "1e6d9964cc3a4b2846bb8c8274ccda8c415808709ecd74f58152a80e7b611f28",
+  "acceptedSourceSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "About 5 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "About 5 min"
+    },
+    {
+      "field": "servings",
+      "before": "1 cocktail",
+      "after": "1 portion"
+    },
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker", "strainer"],
+      "after": ["cocktail-shaker", "strainer", "rocks-glass-or-coupe", "jigger"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 oz bourbon or rye whiskey",
+        "3/4 oz fresh lemon juice",
+        "1/2 oz simple syrup",
+        "1/2 oz pasteurized egg white, optional",
+        "Ice",
+        "aromatic bitters for garnish (optional)",
+        "Maraschino cherry and orange slice (optional)"
+      ],
+      "after": [
+        "--- Whiskey sour ---",
+        "2 oz bourbon or rye whiskey",
+        "3/4 oz fresh lemon juice",
+        "1/2 oz simple syrup",
+        "1/2 oz pasteurized egg white, optional",
+        "ice cubes, as needed for shaking",
+        "--- Serving ---",
+        "fresh ice cubes, as needed for a rocks serving; omit for serving up, optional",
+        "aromatic bitters, a few drops for garnish, optional",
+        "maraschino cherry, one per full serving, optional",
+        "orange slice, one per full serving, optional",
+        "1/2 oz red wine, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 130,
+        "protein": 6.5,
+        "carbs": 32,
+        "fat": 1,
+        "fiber": 8,
+        "sugar": 17,
+        "sodium": 60
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "sour",
+            "name": "Whiskey sour",
+            "ingredients": [
+              {
+                "id": "whiskey",
+                "key": "whiskey",
+                "name": "bourbon or rye whiskey",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "syrup",
+                "key": "syrup",
+                "name": "simple syrup",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "white",
+                "key": "white",
+                "name": "pasteurized egg white",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "oz"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mix-ice",
+                "key": "mix-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for shaking",
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "serve",
+            "name": "Serving",
+            "ingredients": [
+              {
+                "id": "serve-ice",
+                "key": "serve-ice",
+                "name": "fresh ice cubes",
+                "allowance": "as needed for a rocks serving; omit for serving up",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "strain",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "aromatic bitters",
+                "allowance": "a few drops for garnish",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cherry",
+                "key": "cherry",
+                "name": "maraschino cherry",
+                "allowance": "one per full serving",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "orange",
+                "key": "orange",
+                "name": "orange slice",
+                "allowance": "one per full serving",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "red wine",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "oz"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "wine",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare safely",
+            "text": "Chill a rocks glass or coupe while measuring. Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe. Keep the egg product refrigerated and follow its opened-package instructions."
+          },
+          {
+            "id": "mix",
+            "title": "Combine the still ingredients",
+            "text": "Add {{ingredients}} to a shaker without ice. If using white, close securely and dry-shake about 10–15 seconds as a first check to incorporate it and form foam. If omitting white, skip this dry shake."
+          },
+          {
+            "id": "shake",
+            "title": "Chill with ice",
+            "text": "Add {{ingredients}} and shake about 10–15 seconds as a first check, until well chilled. Leave room for ice to move; starting temperature and ice change the duration. Use separate small loads when scaling rather than pack the shaker."
+          },
+          {
+            "id": "strain",
+            "title": "Choose rocks or up",
+            "text": "Use {{ingredients}} only for a rocks serving. Strain the drink into the chilled glass over fresh ice, or into a chilled coupe without serving ice. The original single-portion still base is 3¼ fluid ounces without white, or 3¾ with it, before dilution; choose a glass with room for the resulting drink and foam."
+          },
+          {
+            "id": "garnish",
+            "title": "Finish",
+            "text": "Use {{ingredients}} if wanted. If white formed a foam cap, put the optional bitters drops on top and draw a clean cocktail pick through them. The optional cherry and orange slice can finish either version. Serve promptly unless adding the separate wine-float variation."
+          },
+          {
+            "id": "wine",
+            "title": "Optional New York Sour finish",
+            "text": "For the New York Sour variation, use {{ingredients}}: gently pour the measured red wine over the back of a spoon onto the finished sour as a float. Omit it for the main Whiskey Sour. Do not add this wine to the shaker."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate optional white, chilling ice and a wine-float variation",
+        "outcome": "A chilled whiskey sour with balanced citrus and sweetness, with white foam only when the optional white is used.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe.",
+          "Use one consistent simple-syrup concentration at the listed amount; a stronger or weaker syrup changes sweetness.",
+          "Use shaker loads with room for ice and foam, keeping the listed whiskey, lemon, syrup and optional white in proportion. Extra loads need more active time. Divide the chilled sour among enough glasses, and add optional garnishes and wine after straining."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "White, if selected, is incorporated before ice is added.",
+            "why": "The no-ice stage is for foaming the optional white; it is not a sanitizing step."
+          },
+          {
+            "step": 4,
+            "cue": "The full drink fits with room for foam and any serving ice.",
+            "why": "Predilution arithmetic is not a measured final volume."
+          },
+          {
+            "step": 6,
+            "cue": "Wine remains a separate optional float rather than entering the shake.",
+            "why": "Adding wine after straining preserves a separate layer on the finished sour."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Little foam forms",
+            "cause": "White was omitted, its product foams poorly or shaker room was limited.",
+            "fix": "Check the pasteurized product and shaker load; do not replace it with untreated raw white to chase foam."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Optional pasteurized egg white",
+            "alternative": "Omit it",
+            "effect": "Keeps the whiskey, lemon and syrup amounts, with a lighter texture and no white foam."
+          },
+          {
+            "ingredient": "Bourbon",
+            "alternative": "The listed rye option",
+            "effect": "Changes whiskey character while retaining the same measure."
+          }
+        ],
+        "timing": "About five minutes with syrup and cold ingredients ready. Glass chilling overlaps measuring; separate loads take longer. The two shaking ranges are first checks, not exact dilution or temperature guarantees.",
+        "storage": "Prepare near serving and keep pasteurized egg product refrigerated according to its label. Serve the foamed drink promptly and use clean utensils around egg-containing liquid.",
+        "sources": [
+          {
+            "title": "Dave Arnold — instrumented ice and dilution experiments",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "IBA — Whiskey Sour method, different formula",
+            "url": "https://iba-world.com/iba-cocktail/whiskey-sour/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Directions\n\n1. **Add the whiskey, lemon:** juice, simple syrup, and egg white (if using) to a cocktail shaker without ice.\n\n2. **If using egg white,:** dry shake (shake without ice) vigorously for 10-15 seconds to emulsify.\n\n3. **Add ice to the:** shaker and shake again vigorously for 10-15 seconds until well-chilled.\n\n4. **Strain into a chilled:** rocks glass over fresh ice or serve up in a coupe glass.\n\n5. **If you used egg:** white, garnish with a few drops of aromatic bitters on the foam and drag a toothpick through to create a design.\n\n6. **Optionally add a cherry:** and orange slice. Serve immediately.\n\n## Chef's Note\n\nThe Whiskey Sour appeared in the 1860s during the golden age of American bartending, documented in Jerry Thomas's 1862 'Bartender's Guide.' Sours (spirit + citrus + sweetener) were created to make whiskey more palatable and to prevent scurvy on long sea voyages. The egg white addition came later and transforms it from a simple sour into something elegant with a silky texture and beautiful foam cap. Egg white adds foam and a silky mouthfeel. Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe.\n",
+    "after": "\n## Chef's Note\n\nWhiskey, fresh lemon and simple syrup are the core of this sour. Optional pasteurized white gives foam and a softer texture; it does not change the whiskey-to-citrus ratio. Dry-shake only when using white, then shake with ice and choose a fresh-ice rocks glass or an up serving. The separate wine float makes the New York Sour variation.\n\n## Directions\n\n1. **Prepare safely:** Chill a rocks glass or coupe while measuring. Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe. Keep the egg product refrigerated and follow its opened-package instructions.\n2. **Combine the still ingredients:** Add bourbon or rye whiskey, fresh lemon juice, simple syrup, and pasteurized egg white (if using) to a shaker without ice. If using white, close securely and dry-shake about 10–15 seconds as a first check to incorporate it and form foam. If omitting white, skip this dry shake.\n3. **Chill with ice:** Add ice cubes and shake about 10–15 seconds as a first check, until well chilled. Leave room for ice to move; starting temperature and ice change the duration. Use separate small loads when scaling rather than pack the shaker.\n4. **Choose rocks or up:** Use fresh ice cubes (if using) only for a rocks serving. Strain the drink into the chilled glass over fresh ice, or into a chilled coupe without serving ice. The original single-portion still base is 3¼ fluid ounces without white, or 3¾ with it, before dilution; choose a glass with room for the resulting drink and foam.\n5. **Finish:** Use aromatic bitters (if using), maraschino cherry (if using), and orange slice (if using) if wanted. If white formed a foam cap, put the optional bitters drops on top and draw a clean cocktail pick through them. The optional cherry and orange slice can finish either version. Serve promptly unless adding the separate wine-float variation.\n6. **Optional New York Sour finish:** For the New York Sour variation, use red wine (if using): gently pour the measured red wine over the back of a spoon onto the finished sour as a float. Omit it for the main Whiskey Sour. Do not add this wine to the shaker.\n"
+  },
+  "findings": [
+    {
+      "id": "shaken_drinks_02-whiskey-sour-1",
+      "title": "whole formula, destinations and process",
+      "rationale": "Preserve a2c9e280 pasteurized white ingredient and safety sentence verbatim. IBA45:25:20ml formula differs and is not imposed. f720c3c2 initial New York Sour½oz wine was removed by c1b42561 generic note rewrite, no documented household rejection; restore separate optional float, never combine with main shake. Remove unsupported1862 firstappearance/scurvy origin rather than invent historical replacement. Simple syrup concentration/yield unknown, no fabricated recipe/link.",
+      "confidence": "high for quantities/arithmetic; moderate for planning and sensory method",
+      "applicableSources": [
+        {
+          "reference": "independently recovered committed origin"
+        },
+        {
+          "reference": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "reference": "https://iba-world.com/iba-cocktail/whiskey-sour/"
+        },
+        {
+          "reference": "retained published checkpoint"
+        },
+        {
+          "reference": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
+        "Check chosen pasteurized product foam and actual glass capacity, including white/rocks/up branches.",
+        "Compare restored optional½oz wine float and retained bourbon/rye options."
+      ]
+    },
+    {
+      "id": "shaken_drinks_02-whiskey-sour-2",
+      "title": "Authorized recipe-specific public and scaling corrections",
+      "rationale": "The still sour has optional pasteurized white, optional fresh serving ice and optional garnishes, with no sparkling finish. Preserve the exact a2c9e280 warning and separately restored half-ounce New York Sour float after straining. Syrup concentration remains unknown; no substitute concentration or formula normalization is introduced.",
+      "confidence": "high for editorial corrections and unchanged arithmetic; method remains untested",
+      "applicableSources": [
+        {
+          "references": [
+            "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+            "docs/RECIPE_STANDARD.md",
+            "privately retained evidence"
+          ],
+          "scope": "The still sour has optional pasteurized white, optional fresh serving ice and optional garnishes, with no sparkling finish. Preserve the exact a2c9e280 warning and separately restored half-ounce New York Sour float after straining. Syrup concentration remains unknown; no substitute concentration or formula normalization is introduced.",
+          "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+        }
+      ],
+      "sourceApplicability": {
+        "references": [
+          "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+          "docs/RECIPE_STANDARD.md",
+          "privately retained evidence"
+        ],
+        "scope": "The still sour has optional pasteurized white, optional fresh serving ice and optional garnishes, with no sparkling finish. Preserve the exact a2c9e280 warning and separately restored half-ounce New York Sour float after straining. Syrup concentration remains unknown; no substitute concentration or formula normalization is introduced.",
+        "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+      },
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
+        "Check chosen pasteurized product foam and actual glass capacity, including white/rocks/up branches.",
+        "Compare restored optional½oz wine float and retained bourbon/rye options."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/f720c3c20c1fc4adfbb62ac10481e4f45ad254c4/src/content/recipes/whiskey-sour.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "0f33f231e1b81161492aaca7210757bcc419c8ac75a93f23283b3e295d7530b2",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Preserve a2c9e280 pasteurized white ingredient and safety sentence verbatim. IBA45:25:20ml formula differs and is not imposed. f720c3c2 initial New York Sour½oz wine was removed by c1b42561 generic note rewrite, no documented household rejection; restore separate optional float, never combine with main shake. Remove unsupported1862 firstappearance/scurvy origin rather than invent historical replacement. Simple syrup concentration/yield unknown, no fabricated recipe/link.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "fadbda1b103dac566fe592ed6341109efa311041be743202bc07e23f673a0405",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 oz bourbon or rye whiskey",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "3/4 oz fresh lemon juice",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1/2 oz simple syrup",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1/2 oz pasteurized egg white, optional",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "Ice",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "aromatic bitters for garnish (optional)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "Maraschino cherry and orange slice (optional)",
+        "allocation": "retained quantity; see authored destinations"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "sour.whiskey",
+        "name": "bourbon or rye whiskey",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "sour.lemon",
+        "name": "fresh lemon juice",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "sour.syrup",
+        "name": "simple syrup",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "sour.white",
+        "name": "pasteurized egg white",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "sour.mix-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for shaking",
+        "preparation": null,
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.serve-ice",
+        "name": "fresh ice cubes",
+        "quantity": null,
+        "allowance": "as needed for a rocks serving; omit for serving up",
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "strain",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.bitters",
+        "name": "aromatic bitters",
+        "quantity": null,
+        "allowance": "a few drops for garnish",
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.cherry",
+        "name": "maraschino cherry",
+        "quantity": null,
+        "allowance": "one per full serving",
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.orange",
+        "name": "orange slice",
+        "quantity": null,
+        "allowance": "one per full serving",
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.wine",
+        "name": "red wine",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wine",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare safely: Chill a rocks glass or coupe while measuring. Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe. Keep the egg product refrigerated and follow its opened-package instructions."
+    },
+    {
+      "step": 2,
+      "text": "Combine the still ingredients: Add bourbon or rye whiskey, fresh lemon juice, simple syrup, and pasteurized egg white (if using) to a shaker without ice. If using white, close securely and dry-shake about 10–15 seconds as a first check to incorporate it and form foam. If omitting white, skip this dry shake."
+    },
+    {
+      "step": 3,
+      "text": "Chill with ice: Add ice cubes and shake about 10–15 seconds as a first check, until well chilled. Leave room for ice to move; starting temperature and ice change the duration. Use separate small loads when scaling rather than pack the shaker."
+    },
+    {
+      "step": 4,
+      "text": "Choose rocks or up: Use fresh ice cubes (if using) only for a rocks serving. Strain the drink into the chilled glass over fresh ice, or into a chilled coupe without serving ice. The original single-portion still base is 3¼ fluid ounces without white, or 3¾ with it, before dilution; choose a glass with room for the resulting drink and foam."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Use aromatic bitters (if using), maraschino cherry (if using), and orange slice (if using) if wanted. If white formed a foam cap, put the optional bitters drops on top and draw a clean cocktail pick through them. The optional cherry and orange slice can finish either version. Serve promptly unless adding the separate wine-float variation."
+    },
+    {
+      "step": 6,
+      "text": "Optional New York Sour finish: For the New York Sour variation, use red wine (if using): gently pour the measured red wine over the back of a spoon onto the finished sour as a float. Omit it for the main Whiskey Sour. Do not add this wine to the shaker."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Optional pasteurized egg white",
+      "alternative": "Omit it",
+      "effect": "Keeps the whiskey, lemon and syrup amounts, with a lighter texture and no white foam.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Bourbon",
+      "alternative": "The listed rye option",
+      "effect": "Changes whiskey character while retaining the same measure.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Prepare safely",
+          "text": "Chill a rocks glass or coupe while measuring. Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe. Keep the egg product refrigerated and follow its opened-package instructions."
+        },
+        {
+          "id": "mix",
+          "title": "Combine the still ingredients",
+          "text": "Add {{ingredients}} to a shaker without ice. If using white, close securely and dry-shake about 10–15 seconds as a first check to incorporate it and form foam. If omitting white, skip this dry shake."
+        },
+        {
+          "id": "shake",
+          "title": "Chill with ice",
+          "text": "Add {{ingredients}} and shake about 10–15 seconds as a first check, until well chilled. Leave room for ice to move; starting temperature and ice change the duration. Use separate small loads when scaling rather than pack the shaker."
+        },
+        {
+          "id": "strain",
+          "title": "Choose rocks or up",
+          "text": "Use {{ingredients}} only for a rocks serving. Strain the drink into the chilled glass over fresh ice, or into a chilled coupe without serving ice. The original single-portion still base is 3¼ fluid ounces without white, or 3¾ with it, before dilution; choose a glass with room for the resulting drink and foam."
+        },
+        {
+          "id": "garnish",
+          "title": "Finish",
+          "text": "Use {{ingredients}} if wanted. If white formed a foam cap, put the optional bitters drops on top and draw a clean cocktail pick through them. The optional cherry and orange slice can finish either version. Serve promptly unless adding the separate wine-float variation."
+        },
+        {
+          "id": "wine",
+          "title": "Optional New York Sour finish",
+          "text": "For the New York Sour variation, use {{ingredients}}: gently pour the measured red wine over the back of a spoon onto the finished sour as a float. Omit it for the main Whiskey Sour. Do not add this wine to the shaker."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "avocado-kale-caesar-salad",
+      "blackout-chocolate-cake"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings and meal schedules do not gain acceptance here."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": null,
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe.",
+      "Use one consistent simple-syrup concentration at the listed amount; a stronger or weaker syrup changes sweetness.",
+      "Use shaker loads with room for ice and foam, keeping the listed whiskey, lemon, syrup and optional white in proportion. Extra loads need more active time. Divide the chilled sour among enough glasses, and add optional garnishes and wine after straining."
+    ],
+    "timing": "About five minutes with syrup and cold ingredients ready. Glass chilling overlaps measuring; separate loads take longer. The two shaking ranges are first checks, not exact dilution or temperature guarantees.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "4670de78e85682144ae9067e45044fd37b643c120740db8ecadc5de677ee77d8",
+      "yield": "1/4 portion",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "52b5044fb81d84ccde8bfda467f81deae2cbb84034127c8a7091d40fdbe34ef2",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "d349e9087b8dc21cc5362ae0753a491323dd8ea235054ebe14905d174bf125ce",
+      "yield": "1/2 portion",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "02a360f0b212885c87fc581ff69340ad47d668921382d812667eaaded2003d48",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "7a84c78a4c7da1b56dcc36f03b114911924a4ca073819bd97870902c573b03b9",
+      "yield": "1 portion",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "ba5acfff0e08819aa0b3751f029a0b4385d8e4028619ccce41951a60385d5fec",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "faf977e8f310c15c300f2e129563cab4c15e3a4533ccb619588a3acd44b77b10",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "fa704040578aa1cd7d36c70cff52a4bcb3fed0b97d1731ac46024be324bd7e9c",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "1d6a0a0d222bfaaa61cfbed4b7b28be7abe071fdb64af224ee11927f883ade8b",
+      "yield": "2 portions",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "1668d6789d3866421fbf69f88eb31422d51238f89ecd4c90f606723633681d0f",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "5771fcf51553f11a5d9cbedd502e22cb341f6682c437130995b785ff291f8a58",
+      "yield": "3 portions",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "2ba98d83064b3ae2ab4cca3d5e66a4485c954fec35ef517cb485307355264bc5",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "7a84c78a4c7da1b56dcc36f03b114911924a4ca073819bd97870902c573b03b9",
+      "yield": "1 portion",
+      "directionsSha256": "cacb4ee5b34861ddb33660077d6c317769f538042d207225ba4f40ddaaa22e2f",
+      "shoppingSha256": "ba5acfff0e08819aa0b3751f029a0b4385d8e4028619ccce41951a60385d5fec",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
+    "Check chosen pasteurized product foam and actual glass capacity, including white/rocks/up branches.",
+    "Compare restored optional½oz wine float and retained bourbon/rye options."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

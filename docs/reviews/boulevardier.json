@@ -1,0 +1,815 @@
+{
+  "slug": "boulevardier",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "d119c62155ebd04bc308dbbab38091a8dd8108b9ac212843484b2fa51a2364fd",
+  "acceptedSourceSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "1 cocktail",
+      "after": "1 portion"
+    },
+    {
+      "field": "cuisines",
+      "before": ["American"],
+      "after": ["American", "French"]
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["rich", "savory", "acidic"],
+      "after": ["bitter", "sweet", "rich"]
+    },
+    {
+      "field": "equipment",
+      "before": ["mixing-glass", "strainer"],
+      "after": ["mixing-glass", "bar-spoon", "jigger", "strainer", "cocktail-glass-or-rocks-glass"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 oz bourbon or rye whiskey",
+        "1 oz red Italian bitter aperitif",
+        "1 oz sweet vermouth",
+        "Ice for stirring",
+        "Orange peel for garnish"
+      ],
+      "after": [
+        "--- Boulevardier ---",
+        "ice and water, as needed to chill the serving glass, optional",
+        "1 1/2 oz bourbon or rye whiskey",
+        "1 oz red Italian bitter aperitif",
+        "1 oz sweet vermouth",
+        "ice cubes, as needed for stirring",
+        "--- Serving ---",
+        "large fresh ice cube, as needed for rocks service, optional",
+        "orange peel, for each serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": "Paris, France"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 60,
+        "protein": 1,
+        "carbs": 15.5,
+        "fat": 0.5,
+        "fiber": 3,
+        "sugar": 12,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Whiskey, red Italian bitter aperitif and sweet vermouth, stirred and finished with orange peel."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "drink",
+            "name": "Boulevardier",
+            "ingredients": [
+              {
+                "id": "glass-chill",
+                "key": "glass-chill",
+                "name": "ice and water",
+                "allowance": "as needed to chill the serving glass",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "whiskey",
+                "key": "whiskey",
+                "name": "bourbon or rye whiskey",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "aperitif",
+                "key": "aperitif",
+                "name": "red Italian bitter aperitif",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vermouth",
+                "key": "vermouth",
+                "name": "sweet vermouth",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mixing-ice",
+                "key": "mixing-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for stirring",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Serving",
+            "ingredients": [
+              {
+                "id": "serving-ice",
+                "key": "serving-ice",
+                "name": "large fresh ice cube",
+                "allowance": "as needed for rocks service",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "strain",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "orange",
+                "key": "orange",
+                "name": "orange peel",
+                "allowance": "for each serving",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Choose the serving style",
+            "text": "Use {{ingredients}} if the serving glass is not already chilled. Set out a coupe for service without ice, or a rocks glass large enough for the drink plus a fresh cube. Empty the chilling ice water before straining. All ounce measures are fluid ounces."
+          },
+          {
+            "id": "mix",
+            "title": "Combine",
+            "text": "Add {{ingredients}} to a mixing glass with room for the spoon to move. Measure the same whiskey-to-aperitif-to-vermouth ratio for a scaled batch; use small batches if the vessel becomes crowded."
+          },
+          {
+            "id": "stir",
+            "title": "Stir and check",
+            "text": "Stir smoothly until the whiskey, aperitif and vermouth are well chilled. Taste a small sample with a clean spoon: the finish should be bitter-sweet with distinct whiskey, rather than warm and sharply alcoholic. Continue briefly if needed, then strain; different ice and bottles change the time."
+          },
+          {
+            "id": "strain",
+            "title": "Strain",
+            "text": "For rocks service, put {{ingredients}} in each rocks glass and strain in the corresponding portion. For up service, omit the fresh cube and strain into the chilled coupe. Keep the used mixing ice out of the serving glass. Divide a scaled batch among the corresponding glasses."
+          },
+          {
+            "id": "garnish",
+            "title": "Express orange",
+            "text": "Use {{ingredients}}: twist a peel over each drink to release its oils, then add it as garnish. Serve immediately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Balance whiskey, bitter aperitif and vermouth through stirred service",
+        "outcome": "A chilled bitter-sweet drink with distinct whiskey flavor and fresh orange aroma.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Choose up or rocks service before stirring, and check glass space for the drink and any serving cube.",
+          "Use a red Italian bitter aperitif rather than a sweeter orange spritz aperitif for the first comparison. Opened vermouth belongs capped in the refrigerator."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A small sample tastes cold while whiskey and bitter-sweet flavors remain distinct.",
+            "why": "A time alone does not establish balance with different bottles and ice."
+          },
+          {
+            "step": 4,
+            "cue": "Mixing ice stays behind; a rocks drink has a fresh cube and headroom.",
+            "why": "Serving ice adds further dilution while you sip, so up and rocks service evolve differently."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bitter aperitif overwhelms the drink",
+            "cause": "The chosen bottle is unusually bitter, or the whiskey is less assertive.",
+            "fix": "Check chilling and dilution first. Compare the two-parts-whiskey variation in a separate drink; extra syrup is not part of this formula."
+          },
+          {
+            "problem": "Drink warms quickly when served up",
+            "cause": "The glass started warm or the cocktail waited after straining.",
+            "fix": "Use a chilled glass and serve promptly; choose the rocks option if continued cooling is wanted."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Bourbon",
+            "alternative": "Rye whiskey",
+            "effect": "Whiskey flavor and perceived sweetness change; keep the 1½:1:1 ratio for the first comparison."
+          },
+          {
+            "ingredient": "Red Italian bitter aperitif",
+            "alternative": "A sweeter orange aperitif",
+            "effect": "A less bitter, differently flavored variation; it is not an identical replacement for the original red bitter style."
+          }
+        ],
+        "timing": "About five minutes for one drink, chilling the glass with ice water while setting out measures. No heating or required rest. Start the glass ahead if using the freezer instead. Multiple drinks require more glasses and possibly small stirring batches; do not multiply a stirring duration by the serving count.",
+        "storage": "Serve the mixed drink promptly. For preparation ahead, keep only the measured liquid ingredients together in a covered refrigerated container, without ice or garnish, and stir small portions over ice at serving. Keep opened vermouth capped and refrigerated, following its label; discard used mixing ice.",
+        "sources": [
+          {
+            "title": "International Bartenders Association — Boulevardier",
+            "url": "https://iba-world.com/iba-cocktail/boulevardier/"
+          },
+          {
+            "title": "Harry McElhone — Barflies and Cocktails (1927), p. 80",
+            "url": "https://euvs-vintage-cocktail-books.cld.bz/1927-Barflies-and-Cocktails/80/"
+          },
+          {
+            "title": "Barflies and Cocktails (1927), Boulevardier advertisement, p. 111",
+            "url": "https://euvs-vintage-cocktail-books.cld.bz/1927-Barflies-and-Cocktails/111/"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "MARTINI — Vermouth guide, storage after opening",
+            "url": "https://www.martini.com/be/fr/category/histoire/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Directions\n\n1. **Combine:** Add the bourbon, red Italian bitter aperitif and sweet vermouth to a mixing glass filled with ice.\n\n2. **Stir well for 20-30:** seconds until properly chilled.\n\n3. **Strain into a chilled:** coupe glass or over a large ice cube in an Old Fashioned glass.\n\n4. **Express an orange peel:** over the drink and garnish.\n\n5. **Serve immediately.:**\n\n## Chef's Note\n\nCreated in 1920s Paris by American expat Erskine Gwynne, editor of a magazine called 'The Boulevardier,' this cocktail embodies the era of Americans living the high life in post-WWI Paris. It's essentially a whiskey Negroni, swapping gin for bourbon or rye, and was popular at Harry's New York Bar, the legendary watering hole of Hemingway and F. Scott Fitzgerald. The equal-parts ratio (1:1:1) is traditional, but many prefer more whiskey (1.5 or 2 oz) for a less bitter, more spirit-forward drink.\n",
+    "after": "\n## Chef's Note\n\nThe Boulevardier brings whiskey into the bitter-aperitif-and-vermouth family. Erskine Gwynne’s drink appears in the Paris book Barflies and Cocktails in 1927; this version gives the whiskey a little more room than the equal-parts formula printed there. Serve it up for a steady stirred balance, or over a fresh large cube for a drink that continues to dilute as you sip.\n\n## Directions\n\n1. **Choose the serving style:** Use ice and water (if using) if the serving glass is not already chilled. Set out a coupe for service without ice, or a rocks glass large enough for the drink plus a fresh cube. Empty the chilling ice water before straining. All ounce measures are fluid ounces.\n2. **Combine:** Add bourbon or rye whiskey, red Italian bitter aperitif, sweet vermouth, and ice cubes to a mixing glass with room for the spoon to move. Measure the same whiskey-to-aperitif-to-vermouth ratio for a scaled batch; use small batches if the vessel becomes crowded.\n3. **Stir and check:** Stir smoothly until the whiskey, aperitif and vermouth are well chilled. Taste a small sample with a clean spoon: the finish should be bitter-sweet with distinct whiskey, rather than warm and sharply alcoholic. Continue briefly if needed, then strain; different ice and bottles change the time.\n4. **Strain:** For rocks service, put large fresh ice cube (if using) in each rocks glass and strain in the corresponding portion. For up service, omit the fresh cube and strain into the chilled coupe. Keep the used mixing ice out of the serving glass. Divide a scaled batch among the corresponding glasses.\n5. **Express orange:** Use orange peel: twist a peel over each drink to release its oils, then add it as garnish. Serve immediately.\n\n## Ratio Variations\n\nFor the equal-parts version, use equal volumes of whiskey, bitter aperitif and sweet vermouth. For a more whiskey-forward option, use two parts whiskey to one part of each of the other liquids. Stir and taste either variation on its own; extra whiskey changes strength and bitter-sweet balance rather than removing bitterness. These are alternatives to the 1½:1:1 recipe, not additional ingredients.\n"
+  },
+  "findings": [
+    {
+      "id": "stirred_drinks_01-boulevardier-1",
+      "title": "ratio preservation and origin",
+      "rationale": "The digitized original documents association and equal parts, not the precise moment or sole inventor. Keep useful magazine-era context and saved variations without importing a prestige ratio. Harry’s celebrity claims are removed as unverified.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "id": "barflies",
+          "title": "Harry McElhone — Barflies and Cocktails (1927), p. 80",
+          "url": "https://euvs-vintage-cocktail-books.cld.bz/1927-Barflies-and-Cocktails/80/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Digitized original 1927 book, printed p. 80, associates Erskine Gwynne with an equal-parts Boulevardier. Supports a documented Paris association and historical equal-parts variation, not sole inventor certainty or celebrity patron assertions.",
+          "confidence": "high for the stated narrow scope"
+        },
+        {
+          "id": "magazine",
+          "title": "Barflies and Cocktails (1927), Boulevardier advertisement, p. 111",
+          "url": "https://euvs-vintage-cocktail-books.cld.bz/1927-Barflies-and-Cocktails/111/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Digitized original book p. 111 advertises The Boulevardier at a Paris address. Supports magazine context only; does not prove who mixed the first drink.",
+          "confidence": "high for the stated narrow scope"
+        },
+        {
+          "id": "boulevardier",
+          "title": "International Bartenders Association — Boulevardier",
+          "url": "https://iba-world.com/iba-cocktail/boulevardier/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Current IBA liquid proportions correspond to saved 1.5:1:1; ice, stirring, chilled glass and orange garnish apply. IBA does not document this saved rocks alternative or a specific stirring duration.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "cuisines",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-boulevardier-2",
+      "title": "missing serving ice and stirring claim",
+      "rationale": "The existing rocks option calls for ice not distinguished in its ingredient list. Stirring behavior changes with ice and starting conditions.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "cuisines",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-boulevardier-3",
+      "title": "unsupported nutrition and planning metadata",
+      "rationale": "Remove unverified legacy nutrition without replacement. Equipment follows actual chosen method; cocktail shaker remains only where a complete alternative uses one. Freeze-ahead tags do not describe storing the prepared cocktail. Flavor tags follow actual bitter/sweet/herbal/citrus ingredients without adding juice, smoke or savory ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "recipe standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "cuisines",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-boulevardier-4",
+      "title": "authored quantities, learning and compilation",
+      "rationale": "Preserve measured totals/options and publish clear destinations, troubleshooting, storage and small-batch capacity. One portion retains the one saved cocktail; no standardized alcohol serving or precise strained yield is invented. The selected seasoning lesson concerns taste comparison, not a heat endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "structured authoring standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "cuisines",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/f720c3c20c1fc4adfbb62ac10481e4f45ad254c4/src/content/recipes/boulevardier.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "b7d19fe5d863ae7e62ae90a90c00ee13c9ec2affb3f6866980e40435fc508b63",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Chill chosen glass → measure liquids over mixing ice → stir/sample → strain either up or onto fresh serving cube → express/add orange. Mixing ice and chill water discarded; fresh rocks ice stays in drink.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "896606864e83cc68e56dcf283a92c4607499d8d69e90a776e54216d37f5355c9",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1.5 oz bourbon or rye whiskey",
+        "destination": "Whiskey is fully stirred; rye/bourbon option retained."
+      },
+      {
+        "ingredient": "1 oz red Italian bitter aperitif",
+        "destination": "Bitter aperitif is fully stirred, not replaced with sweeter spritz style."
+      },
+      {
+        "ingredient": "1 oz sweet vermouth",
+        "destination": "Sweet vermouth is fully stirred."
+      },
+      {
+        "ingredient": "Ice for stirring",
+        "destination": "Stirring ice supplies dilution and is strained out; missing separate serving-ice allowance now listed."
+      },
+      {
+        "ingredient": "Orange peel for garnish",
+        "destination": "Orange peel is expressed and remains as garnish."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "drink.glass-chill",
+        "name": "ice and water",
+        "quantity": null,
+        "allowance": "as needed to chill the serving glass",
+        "preparation": null,
+        "optional": true,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.whiskey",
+        "name": "bourbon or rye whiskey",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.aperitif",
+        "name": "red Italian bitter aperitif",
+        "quantity": {
+          "amount": 1,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.vermouth",
+        "name": "sweet vermouth",
+        "quantity": {
+          "amount": 1,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.mixing-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for stirring",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.serving-ice",
+        "name": "large fresh ice cube",
+        "quantity": null,
+        "allowance": "as needed for rocks service",
+        "preparation": null,
+        "optional": true,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "strain",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.orange",
+        "name": "orange peel",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Choose the serving style: Use ice and water (if using) if the serving glass is not already chilled. Set out a coupe for service without ice, or a rocks glass large enough for the drink plus a fresh cube. Empty the chilling ice water before straining. All ounce measures are fluid ounces."
+    },
+    {
+      "step": 2,
+      "text": "Combine: Add bourbon or rye whiskey, red Italian bitter aperitif, sweet vermouth, and ice cubes to a mixing glass with room for the spoon to move. Measure the same whiskey-to-aperitif-to-vermouth ratio for a scaled batch; use small batches if the vessel becomes crowded."
+    },
+    {
+      "step": 3,
+      "text": "Stir and check: Stir smoothly until the whiskey, aperitif and vermouth are well chilled. Taste a small sample with a clean spoon: the finish should be bitter-sweet with distinct whiskey, rather than warm and sharply alcoholic. Continue briefly if needed, then strain; different ice and bottles change the time."
+    },
+    {
+      "step": 4,
+      "text": "Strain: For rocks service, put large fresh ice cube (if using) in each rocks glass and strain in the corresponding portion. For up service, omit the fresh cube and strain into the chilled coupe. Keep the used mixing ice out of the serving glass. Divide a scaled batch among the corresponding glasses."
+    },
+    {
+      "step": 5,
+      "text": "Express orange: Use orange peel: twist a peel over each drink to release its oils, then add it as garnish. Serve immediately."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Bourbon",
+      "alternative": "Rye whiskey",
+      "effect": "Whiskey flavor and perceived sweetness change; keep the 1½:1:1 ratio for the first comparison.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Red Italian bitter aperitif",
+      "alternative": "A sweeter orange aperitif",
+      "effect": "A less bitter, differently flavored variation; it is not an identical replacement for the original red bitter style.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Choose the serving style",
+          "text": "Use {{ingredients}} if the serving glass is not already chilled. Set out a coupe for service without ice, or a rocks glass large enough for the drink plus a fresh cube. Empty the chilling ice water before straining. All ounce measures are fluid ounces."
+        },
+        {
+          "id": "mix",
+          "title": "Combine",
+          "text": "Add {{ingredients}} to a mixing glass with room for the spoon to move. Measure the same whiskey-to-aperitif-to-vermouth ratio for a scaled batch; use small batches if the vessel becomes crowded."
+        },
+        {
+          "id": "stir",
+          "title": "Stir and check",
+          "text": "Stir smoothly until the whiskey, aperitif and vermouth are well chilled. Taste a small sample with a clean spoon: the finish should be bitter-sweet with distinct whiskey, rather than warm and sharply alcoholic. Continue briefly if needed, then strain; different ice and bottles change the time."
+        },
+        {
+          "id": "strain",
+          "title": "Strain",
+          "text": "For rocks service, put {{ingredients}} in each rocks glass and strain in the corresponding portion. For up service, omit the fresh cube and strain into the chilled coupe. Keep the used mixing ice out of the serving glass. Divide a scaled batch among the corresponding glasses."
+        },
+        {
+          "id": "garnish",
+          "title": "Express orange",
+          "text": "Use {{ingredients}}: twist a peel over each drink to release its oils, then add it as garnish. Serve immediately."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["marinated-korean-ribeye", "fresh-egg-pasta"],
+    "composedMeals": "No direct composed-meal reference found for these slugs. Pairing links are suggestions, not required ingredient quantities or a complete meal certification.",
+    "distinctVariants": "No consolidation or identity reassignment. Saved spirit, ratio, garnish and service alternatives retained as specified in individual findings."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": "Saved 1.5:1:1 primary retained. Equal-parts and 2:1:1 alternatives remain readable, without combining their ingredient quantities. Base volume 3.5 fluid ounces; final volume and required ice are unmeasured.",
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Choose up or rocks service before stirring, and check glass space for the drink and any serving cube.",
+      "Use a red Italian bitter aperitif rather than a sweeter orange spritz aperitif for the first comparison. Opened vermouth belongs capped in the refrigerator."
+    ],
+    "timing": "About five minutes for one drink, chilling the glass with ice water while setting out measures. No heating or required rest. Start the glass ahead if using the freezer instead. Multiple drinks require more glasses and possibly small stirring batches; do not multiply a stirring duration by the serving count.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "e04eb1b913f51dcfcb5e73348a304e8b19b3ddaa9a2a8d739d95caf6d5ad4b08",
+      "yield": "1/4 portion",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "b4a78da542e6655e6603550cbe8b4909e2cd2023a3482491f6abd1bc89ee0884",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "bc62d7d0d0947db9a8e4cd6e38ef28d7a9f460ac9eeaa945d0c7095a0979d428",
+      "yield": "1/2 portion",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "c88b3dad65258c6c262c875e4326833d47c9193648fe8922b67b5139a8058639",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "9375aef4aa5145c086d08098811f3552c19001d6f042a1fd3cda8b441dec0bd8",
+      "yield": "1 portion",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "d0599ee012cb4edeeaee278958bdc7d8fb6303f612f280a8684ff04d177df3e8",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "bf495a8ba015a6c22e5bae8dee150fb6383a1074a23aa15ee51f0f44923870bf",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "ecb405f30c7ff103f934cbda9768613b98714ff2d4a165c62bd115db4bdc9a8c",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "3516b07897c3916501351f172a7e692f5b2c0656a5212829a8bccd802716d6c7",
+      "yield": "2 portions",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "eb78bb20a61233ecf4dac4f9df569bc5c8620fcd65732223d0cb1708d2335d8d",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "bc799f9417c54f3e66b45ae3d59384570682656a37a4364a4e72cece59a5cdc2",
+      "yield": "3 portions",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "2390ffb0562dcbfb100354ee7ad2e4e611eec6bdb9c05472d38d0fdbfc4bacc1",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "9375aef4aa5145c086d08098811f3552c19001d6f042a1fd3cda8b441dec0bd8",
+      "yield": "1 portion",
+      "directionsSha256": "36c94b008ccf7a88a0e9308344994543b135316a063a52be24ec50c52ee4edf4",
+      "shoppingSha256": "d0599ee012cb4edeeaee278958bdc7d8fb6303f612f280a8684ff04d177df3e8",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Compare up versus rocks service and intended bitter-aperitif/whiskey bottles.",
+    "Confirm actual glass and mixing capacity for two drinks."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

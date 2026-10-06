@@ -1,0 +1,823 @@
+{
+  "slug": "old-fashioned",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "86188a84a30512eb979b6ab62d49bcf21447b7c517eaa6207f686389a159b2ca",
+  "acceptedSourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "1 cocktail",
+      "after": "1 portion"
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["rich", "sweet", "savory"],
+      "after": ["sweet", "aromatic", "rich"]
+    },
+    {
+      "field": "equipment",
+      "before": ["mixing-glass", "muddler"],
+      "after": ["rocks-glass", "bar-spoon", "jigger", "muddler"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 oz bourbon or rye whiskey",
+        "1 sugar cube (or 1/4 oz simple syrup)",
+        "2-3 dashes aromatic bitters",
+        "Orange peel",
+        "Maraschino cherry (optional)",
+        "Large ice cube"
+      ],
+      "after": [
+        "--- Sugar-cube Old Fashioned ---",
+        "1 sugar cube",
+        "2–3 dashes of aromatic bitters",
+        "plain water, a splash, just enough to dissolve the sugar",
+        "2 oz bourbon or rye whiskey",
+        "large fresh ice cube, for each serving",
+        "--- Garnish ---",
+        "orange peel, for each serving",
+        "maraschino cherry, for each serving, optional",
+        "--- Syrup alternative — replaces sugar cube and water ---",
+        "1/4 oz simple syrup, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 80,
+        "protein": 1,
+        "carbs": 19.5,
+        "fat": 0.5,
+        "fiber": 3,
+        "sugar": 16.5,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Bourbon or rye with dissolved sugar, aromatic bitters, a large ice cube and orange peel."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "drink",
+            "name": "Sugar-cube Old Fashioned",
+            "ingredients": [
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar cube",
+                "plural": "sugar cubes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sweeten",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "dash of aromatic bitters",
+                "plural": "dashes of aromatic bitters",
+                "quantity": {
+                  "amount": 2,
+                  "max": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sweeten",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "plain water",
+                "allowance": "a splash, just enough to dissolve the sugar",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "sweeten",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "whiskey",
+                "key": "whiskey",
+                "name": "bourbon or rye whiskey",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ice",
+                "key": "ice",
+                "name": "large fresh ice cube",
+                "allowance": "for each serving",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Garnish",
+            "ingredients": [
+              {
+                "id": "orange",
+                "key": "orange",
+                "name": "orange peel",
+                "allowance": "for each serving",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cherry",
+                "key": "cherry",
+                "name": "maraschino cherry",
+                "allowance": "for each serving",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "syrup-option",
+            "name": "Syrup alternative — replaces sugar cube and water",
+            "ingredients": [
+              {
+                "id": "syrup",
+                "key": "syrup",
+                "name": "simple syrup",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "oz"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "sweeten",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Set out the glasses",
+            "text": "Use a rocks glass with room for the drink, a large cube and the spoon. All ounce measures are fluid ounces. For a scaled recipe, build each portion in its own glass rather than muddling a crowded group of cubes together."
+          },
+          {
+            "id": "sweeten",
+            "title": "Dissolve the sugar",
+            "text": "Set out {{ingredients}} and choose one sweetening route. For the sugar-cube route, saturate the sugar with bitters and the small splash of water, then muddle and stir until dissolved. Use just enough water to dissolve it. For the syrup route, omit the sugar cube and water, add the measured syrup and bitters directly, and skip muddling. Do not use both sweeteners together."
+          },
+          {
+            "id": "mix",
+            "title": "Add whiskey and ice",
+            "text": "Add {{ingredients}}. Stir gently around the cube until the mixture tastes chilled and the sweetness is evenly distributed. A large cube can chill slowly; continue as needed until the drink is cold and evenly sweet."
+          },
+          {
+            "id": "garnish",
+            "title": "Express orange and serve",
+            "text": "Use {{ingredients}}: twist orange peel over each drink, rub it around the rim and drop it in. Add a cherry if using. Serve promptly; the cube keeps diluting the drink as it sits."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Dissolve sugar before chilling a built cocktail",
+        "outcome": "Even sweetness through a cold whiskey drink, with orange aroma and no gritty sugar at the bottom.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Choose the sugar-cube or simple-syrup route before starting. Their sweetness is not automatically identical.",
+          "Use a rocks glass large enough for the cube and spoon; make scaled portions in separate glasses. A dash is bottle-dependent."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The sugar is dissolved before the ice goes in.",
+            "why": "Sugar trapped under cold ice is harder to distribute evenly through the drink."
+          },
+          {
+            "step": 3,
+            "cue": "The drink tastes cold and consistently sweet from a small stirred sample.",
+            "why": "One large cube and a short fixed stir do not guarantee the same cooling or dilution in every glass."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sugar is gritty at the bottom",
+            "cause": "The cube was not fully dissolved before adding ice.",
+            "fix": "Stir gently to dissolve it if possible; next time complete the bitters-water dissolution first or use the syrup route."
+          },
+          {
+            "problem": "The drink tastes weak after waiting",
+            "cause": "Serving ice has continued to melt.",
+            "fix": "Serve fresh; excess dilution cannot be removed. Use a fresh large cube that fits the glass for the next drink."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "One sugar cube",
+            "alternative": "¼ fluid ounce simple syrup",
+            "effect": "Omit the dissolution water and muddling. Cube mass and syrup strength vary; compare sweetness rather than claim exact sugar equivalence."
+          },
+          {
+            "ingredient": "Bourbon",
+            "alternative": "Rye whiskey",
+            "effect": "Changes whiskey aroma and perceived sweetness while preserving the measured spirit amount."
+          }
+        ],
+        "timing": "About five minutes for one glass, including dissolving the cube, measuring, stirring and garnish. No required chill interval or rest. Scale the portions by building separate glasses; judge the chill and balance separately in each glass.",
+        "storage": "Serve promptly and keep ice out of any liquid mixture prepared ahead. Store unused syrup according to its own recipe or label; this drink does not supply a homemade syrup formula or a validated storage deadline. Discard used serving ice rather than returning it to the supply.",
+        "sources": [
+          {
+            "title": "International Bartenders Association — Old Fashioned",
+            "url": "https://iba-world.com/iba-cocktail/old-fashioned/"
+          },
+          {
+            "title": "Jerry Thomas — The Bar-Tender’s Guide (1887), whiskey cocktail",
+            "url": "https://euvs-vintage-cocktail-books.cld.bz/1887-The-bar-tender-s-guide"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Directions\n\n1. **Place the sugar cube:** in an Old Fashioned glass and saturate with bitters. Add a splash of water.\n\n2. **Muddle the sugar until:** dissolved (or simply add simple syrup instead).\n\n3. **Add the whiskey and:** fill the glass with one large ice cube.\n\n4. **Stir gently for 10-15:** seconds.\n\n5. **Express an orange peel:** over the drink by holding it over the glass and giving it a good twist to release the oils. Rub the peel around the rim of the glass and drop it in.\n\n6. **Optionally add a maraschino:** cherry. Serve immediately.\n\n## Chef's Note\n\nThe Old Fashioned dates to the 1880s, when bartenders started getting fancy with cocktails, adding fruit and elaborate garnishes. Patrons who wanted their drinks made the 'old fashioned way' - just whiskey, sugar, water, and bitters - gave the drink its name. It represents the original cocktail formula before mixology got complicated, and experienced a massive revival in the 21st century craft cocktail movement. Use a large single ice cube instead of small cubes to minimize dilution while keeping the drink properly chilled.\n",
+    "after": "\n## Chef's Note\n\nWhiskey, sugar, bitters and water place the Old Fashioned in the nineteenth-century plain whiskey-cocktail family. Dissolve the sugar before adding the whiskey and ice so the sweetness is evenly distributed instead of sitting in the bottom of the glass. Orange oil supplies the fresh aroma; the optional cherry stays a garnish rather than a muddled fruit ingredient.\n\n## Directions\n\n1. **Set out the glasses:** Use a rocks glass with room for the drink, a large cube and the spoon. All ounce measures are fluid ounces. For a scaled recipe, build each portion in its own glass rather than muddling a crowded group of cubes together.\n2. **Dissolve the sugar:** Set out sugar cube, dashes of aromatic bitters, plain water, and simple syrup (if using) and choose one sweetening route. For the sugar-cube route, saturate the sugar with bitters and the small splash of water, then muddle and stir until dissolved. Use just enough water to dissolve it. For the syrup route, omit the sugar cube and water, add the measured syrup and bitters directly, and skip muddling. Do not use both sweeteners together.\n3. **Add whiskey and ice:** Add bourbon or rye whiskey and large fresh ice cube. Stir gently around the cube until the mixture tastes chilled and the sweetness is evenly distributed. A large cube can chill slowly; continue as needed until the drink is cold and evenly sweet.\n4. **Express orange and serve:** Use orange peel and maraschino cherry (if using): twist orange peel over each drink, rub it around the rim and drop it in. Add a cherry if using. Serve promptly; the cube keeps diluting the drink as it sits.\n\n## Simple-Syrup Variation\n\nUse ¼ fluid ounce of simple syrup in place of each sugar cube. Omit the dissolution water and muddling: put the syrup and the measured bitters in the serving glass, add the whiskey and ice, then stir and garnish as directed. Sugar-cube size and syrup concentration vary, so the two routes can differ in sweetness. Follow the syrup’s storage instructions.\n"
+  },
+  "findings": [
+    {
+      "id": "stirred_drinks_01-old-fashioned-1",
+      "title": "missing ingredient and alternative branch",
+      "rationale": "Current method already requires water; no splash amount is invented. The saved syrup amount is retained as a separate alternative, not silently treated as an exact sugar-mass equivalent.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "old",
+          "title": "International Bartenders Association — Old Fashioned",
+          "url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA directly supports sugar cube, bitters, plain water, built-in-glass stirring and orange/cherry. Whiskey amount, range of bitters and syrup option remain the saved recipe’s.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-old-fashioned-2",
+      "title": "large ice and historical claim",
+      "rationale": "Instrumented science rejects the universal cooling promise. Original 1887 text supports the family of drinks, not a precise naming/invention chronology.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "thomasWhiskey",
+          "title": "Jerry Thomas — The Bar-Tender’s Guide (1887), whiskey cocktail",
+          "url": "https://euvs-vintage-cocktail-books.cld.bz/1887-The-bar-tender-s-guide",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Digitized original 1887 text contains whiskey, syrup, bitters and ice cocktail and an improved variant. Applied only to the 19th-century plain whiskey cocktail family; modern sugar cube/rocks method is supported separately by IBA.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-old-fashioned-3",
+      "title": "unsupported nutrition and planning metadata",
+      "rationale": "Remove unverified legacy nutrition without replacement. Equipment follows actual chosen method; cocktail shaker remains only where a complete alternative uses one. Freeze-ahead tags do not describe storing the prepared cocktail. Flavor tags follow actual bitter/sweet/herbal/citrus ingredients without adding juice, smoke or savory ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "recipe standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-old-fashioned-4",
+      "title": "authored quantities, learning and compilation",
+      "rationale": "Preserve measured totals/options and publish clear destinations, troubleshooting, storage and small-batch capacity. One portion retains the one saved cocktail; no standardized alcohol serving or precise strained yield is invented. The selected seasoning lesson concerns taste comparison, not a heat endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "structured authoring standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/f720c3c20c1fc4adfbb62ac10481e4f45ad254c4/src/content/recipes/old-fashioned.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "4208ba563b911656322290a06b19583969bda8ed3179f028fc048b4fd3d7bf46",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Select cube/syrup branch → dissolve cube with bitters and splash water OR use measured syrup and bitters → whiskey and large cube → gentle stir/sample → orange and optional cherry. All branches keep fruit unmuddled as in the current recipe.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "68c47793d0b173e11aa3965ae5bbc594301af04f2b71ed2d176cc9e03eb2adca",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 oz bourbon or rye whiskey",
+        "destination": "Whiskey added after sugar dissolution."
+      },
+      {
+        "ingredient": "1 sugar cube (or 1/4 oz simple syrup)",
+        "destination": "Sugar cube dissolved with bitters-water; alternative syrup added directly without dissolution water."
+      },
+      {
+        "ingredient": "2-3 dashes aromatic bitters",
+        "destination": "Two-to-three aromatic bitters dashes included in selected sweetening route."
+      },
+      {
+        "ingredient": "Orange peel",
+        "destination": "Orange oil expressed; peel dropped into glass."
+      },
+      {
+        "ingredient": "Maraschino cherry (optional)",
+        "destination": "Optional cherry added at finish, not muddled."
+      },
+      {
+        "ingredient": "Large ice cube",
+        "destination": "Large serving cube included with whiskey; supplies unmeasured dilution."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "drink.sugar",
+        "name": "sugar cube",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "sweeten",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.bitters",
+        "name": "dash of aromatic bitters",
+        "quantity": {
+          "amount": 2,
+          "max": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "sweeten",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.water",
+        "name": "plain water",
+        "quantity": null,
+        "allowance": "a splash, just enough to dissolve the sugar",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "sweeten",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.whiskey",
+        "name": "bourbon or rye whiskey",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.ice",
+        "name": "large fresh ice cube",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.orange",
+        "name": "orange peel",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.cherry",
+        "name": "maraschino cherry",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": true,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "syrup-option.syrup",
+        "name": "simple syrup",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "sweeten",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Set out the glasses: Use a rocks glass with room for the drink, a large cube and the spoon. All ounce measures are fluid ounces. For a scaled recipe, build each portion in its own glass rather than muddling a crowded group of cubes together."
+    },
+    {
+      "step": 2,
+      "text": "Dissolve the sugar: Set out sugar cube, dashes of aromatic bitters, plain water, and simple syrup (if using) and choose one sweetening route. For the sugar-cube route, saturate the sugar with bitters and the small splash of water, then muddle and stir until dissolved. Use just enough water to dissolve it. For the syrup route, omit the sugar cube and water, add the measured syrup and bitters directly, and skip muddling. Do not use both sweeteners together."
+    },
+    {
+      "step": 3,
+      "text": "Add whiskey and ice: Add bourbon or rye whiskey and large fresh ice cube. Stir gently around the cube until the mixture tastes chilled and the sweetness is evenly distributed. A large cube can chill slowly; continue as needed until the drink is cold and evenly sweet."
+    },
+    {
+      "step": 4,
+      "text": "Express orange and serve: Use orange peel and maraschino cherry (if using): twist orange peel over each drink, rub it around the rim and drop it in. Add a cherry if using. Serve promptly; the cube keeps diluting the drink as it sits."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "One sugar cube",
+      "alternative": "¼ fluid ounce simple syrup",
+      "effect": "Omit the dissolution water and muddling. Cube mass and syrup strength vary; compare sweetness rather than claim exact sugar equivalence.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Bourbon",
+      "alternative": "Rye whiskey",
+      "effect": "Changes whiskey aroma and perceived sweetness while preserving the measured spirit amount.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Set out the glasses",
+          "text": "Use a rocks glass with room for the drink, a large cube and the spoon. All ounce measures are fluid ounces. For a scaled recipe, build each portion in its own glass rather than muddling a crowded group of cubes together."
+        },
+        {
+          "id": "sweeten",
+          "title": "Dissolve the sugar",
+          "text": "Set out {{ingredients}} and choose one sweetening route. For the sugar-cube route, saturate the sugar with bitters and the small splash of water, then muddle and stir until dissolved. Use just enough water to dissolve it. For the syrup route, omit the sugar cube and water, add the measured syrup and bitters directly, and skip muddling. Do not use both sweeteners together."
+        },
+        {
+          "id": "mix",
+          "title": "Add whiskey and ice",
+          "text": "Add {{ingredients}}. Stir gently around the cube until the mixture tastes chilled and the sweetness is evenly distributed. A large cube can chill slowly; continue as needed until the drink is cold and evenly sweet."
+        },
+        {
+          "id": "garnish",
+          "title": "Express orange and serve",
+          "text": "Use {{ingredients}}: twist orange peel over each drink, rub it around the rim and drop it in. Add a cherry if using. Serve promptly; the cube keeps diluting the drink as it sits."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "classic-manhattan",
+      "easy-homemade-pumpkin-pancakes",
+      "homemade-sugar-free-ketchup"
+    ],
+    "composedMeals": "No direct composed-meal reference found for these slugs. Pairing links are suggestions, not required ingredient quantities or a complete meal certification.",
+    "distinctVariants": "No consolidation or identity reassignment. Saved spirit, ratio, garnish and service alternatives retained as specified in individual findings."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": "2 fluid ounces bourbon/rye; one sugar cube OR saved 1/4-fluid-ounce simple syrup; two-to-three dashes bitters. No cube mass or syrup concentration inferred. Water remains a genuine splash only in cube route; serving ice melt adds an unknown amount.",
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Choose the sugar-cube or simple-syrup route before starting. Their sweetness is not automatically identical.",
+      "Use a rocks glass large enough for the cube and spoon; make scaled portions in separate glasses. A dash is bottle-dependent."
+    ],
+    "timing": "About five minutes for one glass, including dissolving the cube, measuring, stirring and garnish. No required chill interval or rest. Scale the portions by building separate glasses; judge the chill and balance separately in each glass.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "7ef6bc8442705e37ecbdb4af68ae743ecb8b2200586684be3b200b73452b43ba",
+      "yield": "1/4 portion",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "b9e8828362f8f35f735c42bb6742d4fbc02c9522dcdba598adb1fad3a4e9b8ec",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "89e49e09ed7b76978935a5310e0f7bde3093811d68016dbb1ec0abfbef96d140",
+      "yield": "1/2 portion",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "ea7f7472a3ccebe7aa809715f203db69382e5f602815e77e3e2d52b2e4b9d803",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "dd6826d8c301612eb9587a2794b8012244fa56dc1b5c5568d9dacb7bdbfdc776",
+      "yield": "1 portion",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "84459b91872a8d1965abc2a27d5ac57f2859309f7bfea37d3b0b1d5998404c85",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "e7d10b3dcbcdecaebad56f26d21bab0376d76b03e9bb6fed65d39b44e5c900ca",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "a5303d8603fa4cfb06e6f4d3542d3e1dda64e7a86b561550e728e5aa841e271e",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "3ac4e7f173d83cfda8480b0503a10c35634548a869bb9538c4be7515e5ffd6f5",
+      "yield": "2 portions",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "501cbb545658feba5d3d0e0cbe5d646784069dddc3cd08585e7354cd1ce855f6",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "6160a9163071b13e715212e0c1556df583ed1297aaf4f83019f54579075708e8",
+      "yield": "3 portions",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "bbe971d852d14df4860f2123199a607ae54664e0b2754d4236cd8b8bfc0f1adf",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "dd6826d8c301612eb9587a2794b8012244fa56dc1b5c5568d9dacb7bdbfdc776",
+      "yield": "1 portion",
+      "directionsSha256": "5d7b127f6b2fd92c547b3d3e1a0bb80731e0605d3f79364ece5843152007d684",
+      "shoppingSha256": "84459b91872a8d1965abc2a27d5ac57f2859309f7bfea37d3b0b1d5998404c85",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Record actual sugar-cube size and syrup concentration for preference comparison; do not assume equal sugar content.",
+    "Check glass and cube fit and useful chilled taste with the intended spirit and bitters."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

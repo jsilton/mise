@@ -1,0 +1,999 @@
+{
+  "slug": "vieux-carre",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "c98dbd4bd50461c008d631f39aa3891309fe7ec33c9603300e050c27e3345c44",
+  "acceptedSourceSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker"],
+      "after": [
+        "mixing-glass",
+        "bar-spoon",
+        "jigger",
+        "strainer",
+        "measuring-spoon",
+        "rocks-glass-or-coupe",
+        "cocktail-shaker-for-variation"
+      ]
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["sweet", "acidic"],
+      "after": ["sweet", "herbaceous", "aromatic"]
+    },
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "10 min, including glass chilling"
+    },
+    {
+      "field": "servings",
+      "before": "1 cocktail",
+      "after": "1 portion"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3/4 oz Rye Whiskey",
+        "3/4 oz Cognac (VSOP preferred)",
+        "3/4 oz rich sweet red vermouth",
+        "1 barspoon (1/2 tsp) French honeyed herbal liqueur (40% ABV)",
+        "2 dashes aromatic bitters",
+        "2 dashes New Orleans-style anise-forward bitters",
+        "1 Lemon twist or Maraschino cherry"
+      ],
+      "after": [
+        "--- Vieux Carré ---",
+        "3/4 oz rye whiskey",
+        "3/4 oz Cognac, VSOP preferred",
+        "3/4 oz rich sweet red vermouth",
+        "1/2 tsp French honeyed herbal liqueur (40% ABV)",
+        "2 dashes of aromatic bitters",
+        "2 dashes of New Orleans-style anise-forward bitters",
+        "ice cubes, as needed for stirring",
+        "--- Serving ---",
+        "large fresh ice cube, for each rocks serving, optional",
+        "1 lemon twist or maraschino cherry"
+      ]
+    },
+    {
+      "field": "advancePrep",
+      "before": ["freeze-ahead"],
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 15,
+        "protein": 0.5,
+        "carbs": 5.5,
+        "fat": 0,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Equal measured rye, Cognac and sweet vermouth with French honeyed herbal liqueur and two styles of bitters."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "drink",
+            "name": "Vieux Carré",
+            "ingredients": [
+              {
+                "id": "rye",
+                "key": "rye",
+                "name": "rye whiskey",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cognac",
+                "key": "cognac",
+                "name": "Cognac",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "oz"
+                },
+                "preparation": "VSOP preferred",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vermouth",
+                "key": "vermouth",
+                "name": "rich sweet red vermouth",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "liqueur",
+                "key": "liqueur",
+                "name": "French honeyed herbal liqueur (40% ABV)",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "aromatic-bitters",
+                "key": "aromatic-bitters",
+                "name": "dash of aromatic bitters",
+                "plural": "dashes of aromatic bitters",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "new-orleans-bitters",
+                "key": "new-orleans-bitters",
+                "name": "dash of New Orleans-style anise-forward bitters",
+                "plural": "dashes of New Orleans-style anise-forward bitters",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mixing-ice",
+                "key": "mixing-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for stirring",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Serving",
+            "ingredients": [
+              {
+                "id": "serving-ice",
+                "key": "serving-ice",
+                "name": "large fresh ice cube",
+                "allowance": "for each rocks serving",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "strain",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garnish",
+                "key": "garnish",
+                "name": "lemon twist or maraschino cherry",
+                "plural": "lemon twists or maraschino cherries",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Choose and chill the glass",
+            "text": "Chill a freezer-safe rocks glass or coupe for about 5 minutes before mixing. Choose rocks service with a fresh cube or service without ice. Set out a glass with room for the drink, headroom and any serving cube. All ounce measures are fluid ounces."
+          },
+          {
+            "id": "mix",
+            "title": "Combine over ice",
+            "text": "Add {{ingredients}} to a mixing glass with room for the spoon to move. Use the measured teaspoon amount for the herbal liqueur rather than assuming every barspoon has the same capacity. Use small batches if the scaled amount crowds the vessel."
+          },
+          {
+            "id": "stir",
+            "title": "Stir and check",
+            "text": "Stir smoothly until the mixture is cold. Taste a small sample with a clean spoon: rye and Cognac should remain distinct beneath the vermouth, liqueur and bitters. Continue briefly if still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time."
+          },
+          {
+            "id": "strain",
+            "title": "Strain",
+            "text": "Use {{ingredients}} for each chilled rocks glass, then strain the corresponding portions over the fresh cubes. For service without ice, strain into the chilled coupe and omit the serving cube. Keep the used mixing ice behind."
+          },
+          {
+            "id": "garnish",
+            "title": "Finish either garnish",
+            "text": "Use {{ingredients}}: express a lemon twist over each drink and drop it in, or add the cherry if that is the chosen garnish. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a small herbal-liqueur dose distinct in a stirred drink",
+        "outcome": "A cold, smooth blend of rye, Cognac and vermouth with a restrained herbal finish and the selected garnish.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Use a measuring spoon for the half-teaspoon liqueur amount; barspoons are not assumed to be identical.",
+          "Choose rocks or ice-free service and check the glass capacity. The original base is 2¼ fluid ounces plus half a teaspoon of liqueur and bitters before dilution.",
+          "Chill the freezer-safe glass before mixing and keep opened vermouth refrigerated."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The herbal liqueur is measured separately and both bitters are included.",
+            "why": "A small strongly aromatic ingredient can dominate if free-poured or accidentally doubled."
+          },
+          {
+            "step": 4,
+            "cue": "Mixing ice stays behind; rocks service uses a fresh cube, while coupe service has none.",
+            "why": "The two serving styles develop differently after straining because serving ice keeps melting."
+          },
+          {
+            "step": 5,
+            "cue": "The chosen garnish has actually been used.",
+            "why": "Lemon oil and a cherry give different aromas; either garnish belongs at service."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Herbal liqueur dominates",
+            "cause": "The half-teaspoon amount was free-poured or a large barspoon was assumed equivalent.",
+            "fix": "Use the stated teaspoon measure next time; an already mixed liqueur cannot be removed."
+          },
+          {
+            "problem": "Bitters drown out the spirits",
+            "cause": "Dash volume changed with the bottle or pour.",
+            "fix": "Use the measured two dashes of each for the first comparison and keep the same bottles. Do not invent a teaspoon conversion for a dash."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Lemon twist",
+            "alternative": "Maraschino cherry",
+            "effect": "Adds fruit sweetness/aroma instead of fresh lemon oil; add it whole at service."
+          },
+          {
+            "ingredient": "Stirred method",
+            "alternative": "Shaken rocks variation",
+            "effect": "Produces a different, more aerated presentation; keep the same measured ingredients and use fresh serving ice."
+          }
+        ],
+        "timing": "About ten minutes from an unchilled glass: the five-minute freezer chill plus roughly five minutes for measuring, stirring, straining and garnish. Chilling can be done ahead, reducing service work. No heating or required rest. Extra glasses and small batches extend service time rather than requiring one long multiplied stir.",
+        "storage": "Serve the mixed drink promptly. For preparation ahead, keep only the measured liquid ingredients together in a covered refrigerated container, without ice or garnish, and stir small portions over ice at serving. Keep opened vermouth capped and refrigerated, following its label; discard used mixing ice.",
+        "sources": [
+          {
+            "title": "International Bartenders Association — Vieux Carré",
+            "url": "https://iba-world.com/iba-cocktail/vieux-carre/"
+          },
+          {
+            "title": "Hotel Monteleone — Walter Bergeron and the Vieux Carré",
+            "url": "https://www.hotelmonteleone.com/our-hotel/our-story/"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: balance and batching",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4601.html"
+          },
+          {
+            "title": "MARTINI — Vermouth guide, storage after opening",
+            "url": "https://www.martini.com/be/fr/category/histoire/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe Vieux Carré is a New Orleans masterpiece that demands **Precision and Diligence**. Unlike a citrus-based cocktail, this is a spirit-forward drink that must be **STIRRED, NEVER SHAKEN**. Shaking introduces air bubbles and ice shards that ruin the silky, viscous mouthfeel of the Cognac and Vermouth. We stir for a full 30 seconds to achieve perfect dilution and a crystal-clear appearance.\n\n## Directions\n\n1.  **Chill:** Place your rocks glass or coupe in the freezer for 5 minutes.\n2.  **Combine:** In a mixing glass filled with large, clean ice cubes, combine the rye, cognac, vermouth, French honeyed herbal liqueur, and both bitters.\n3.  **Stir:** Stir gently with a long barspoon for **30 seconds**. You want the liquid to be ice cold and slightly diluted.\n4.  **Strain:** Strain into the chilled glass over one large clear ice cube (or neat).\n5.  **Express:** Squeeze the lemon twist over the surface of the drink to release the oils, then drop it in.\n",
+    "after": "\n## Chef's Note\n\nThe Vieux Carré combines rye, Cognac and sweet vermouth with a little honeyed herbal liqueur and two bitters. Hotel Monteleone credits Walter Bergeron with the drink in the 1930s. Stir this version for a clear, smooth presentation, then choose fresh ice in a rocks glass or service without ice in a coupe. Both the lemon twist and the cherry option have a place at the finish.\n\n## Directions\n\n1. **Choose and chill the glass:** Chill a freezer-safe rocks glass or coupe for about 5 minutes before mixing. Choose rocks service with a fresh cube or service without ice. Set out a glass with room for the drink, headroom and any serving cube. All ounce measures are fluid ounces.\n2. **Combine over ice:** Add rye whiskey, Cognac, rich sweet red vermouth, French honeyed herbal liqueur (40% ABV), dashes of aromatic bitters, dashes of New Orleans-style anise-forward bitters, and ice cubes to a mixing glass with room for the spoon to move. Use the measured teaspoon amount for the herbal liqueur rather than assuming every barspoon has the same capacity. Use small batches if the scaled amount crowds the vessel.\n3. **Stir and check:** Stir smoothly until the mixture is cold. Taste a small sample with a clean spoon: rye and Cognac should remain distinct beneath the vermouth, liqueur and bitters. Continue briefly if still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time.\n4. **Strain:** Use large fresh ice cube (if using) for each chilled rocks glass, then strain the corresponding portions over the fresh cubes. For service without ice, strain into the chilled coupe and omit the serving cube. Keep the used mixing ice behind.\n5. **Finish either garnish:** Use lemon twist or maraschino cherry: express a lemon twist over each drink and drop it in, or add the cherry if that is the chosen garnish. Serve promptly.\n\n## Shaken Variation\n\nFor a shaken variation, combine the same measured liquids and bitters in a shaker with mixing ice, shake until cold, then strain onto fresh ice in a rocks glass. Express the lemon twist and add it, or use the cherry option. Shaking gives a different texture and can leave fine ice; it does not ruin the ingredients. This is an alternative to the stirred method, not another mixing step.\n"
+  },
+  "findings": [
+    {
+      "id": "stirred_drinks_01-vieux-carre-1",
+      "title": "missing ice and ignored garnish option",
+      "rationale": "Existing ingredients/method already establish both jobs and alternatives. Add supplies as genuine allowances without invented cube count per batch or mass.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "vieux",
+          "title": "International Bartenders Association — Vieux Carré",
+          "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA supports stirred rye/Cognac/vermouth/herbal-liqueur service. Its quantities, one-bitters profile and orange/cherry garnish differ; saved 3/4 oz each, 1/2 tsp liqueur, both bitters and lemon-or-cherry remain.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-vieux-carre-2",
+      "title": "liqueur measure",
+      "rationale": "Exactsavedexplicitteaspoonamount and original045e5ba2 retained; no mlconversion orcurrentIBAbarspoonvolume inferred.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "saved-origin",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-vieux-carre-3",
+      "title": "method and original variant preservation",
+      "rationale": "Dogmaticruin/perfect claims unsupported. Completeoldsourcehasallamountsandshakenrocksinstruction, so preservingthatvariantdoesnotrequireinventingamounts. Current2dashes each sitswithinold1–2range andisnotrolledback.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "reference": "saved-origin",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "vieux",
+          "title": "International Bartenders Association — Vieux Carré",
+          "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA supports stirred rye/Cognac/vermouth/herbal-liqueur service. Its quantities, one-bitters profile and orange/cherry garnish differ; saved 3/4 oz each, 1/2 tsp liqueur, both bitters and lemon-or-cherry remain.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-vieux-carre-4",
+      "title": "elapsed time and useful history",
+      "rationale": "Requiredchillingwasnotcounted. Hotelownstorydistinguishes1938drinkfrom1949Carouselopening; broaddecade avoids false1938Carouselcreation.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "hotel",
+          "title": "Hotel Monteleone — Walter Bergeron and the Vieux Carré",
+          "url": "https://www.hotelmonteleone.com/our-hotel/our-story/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary hotel timeline credits Walter Bergeron in 1938, separately places the Carousel opening in 1949. Use hotel attribution and broad 1930s wording rather than silently claim a 1938 Carousel origin.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-vieux-carre-5",
+      "title": "unsupported nutrition and planning metadata",
+      "rationale": "Remove unverified legacy nutrition without replacement. Equipment follows actual chosen method; cocktail shaker remains only where a complete alternative uses one. Freeze-ahead tags do not describe storing the prepared cocktail. Flavor tags follow actual bitter/sweet/herbal/citrus ingredients without adding juice, smoke or savory ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "recipe standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-vieux-carre-6",
+      "title": "authored quantities, learning and compilation",
+      "rationale": "Preserve measured totals/options and publish clear destinations, troubleshooting, storage and small-batch capacity. One portion retains the one saved cocktail; no standardized alcohol serving or precise strained yield is invented. The selected seasoning lesson concerns taste comparison, not a heat endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "structured authoring standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "flavorProfile",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/vieux-carre.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "9d36aa488be32b9534796ad844e41c10d1634819768fdc25d50c491edf14c3e8",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Chill chosen glass → measure equal saved spirits/vermouth, exactteaspoonliqueur andbothbitters overice → currentstir/sample → strainuporfreshice → lemon ORcherry. Completecommittedshakenrocksvariant retained separately, not combinedwithstir.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "7444b03413c14126eca97cce9a223c8d63362e1189125f612f4521ea4b2ba1ec",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "3/4 oz Rye Whiskey",
+        "destination": "Rye fullymixed; noamountnormalizedtoIBA."
+      },
+      {
+        "ingredient": "3/4 oz Cognac (VSOP preferred)",
+        "destination": "Cognac fullymixed; recordedVSOPpreferencekept."
+      },
+      {
+        "ingredient": "3/4 oz rich sweet red vermouth",
+        "destination": "Richsweetredvermouth fullymixed."
+      },
+      {
+        "ingredient": "1 barspoon (1/2 tsp) French honeyed herbal liqueur (40% ABV)",
+        "destination": "Liqueur halfteaspoonfullymixed; no inventedbarspoonconversion."
+      },
+      {
+        "ingredient": "2 dashes aromatic bitters",
+        "destination": "Twoaromaticdashesfullymixed."
+      },
+      {
+        "ingredient": "2 dashes New Orleans-style anise-forward bitters",
+        "destination": "TwoNewOrleansdashesfullymixed."
+      },
+      {
+        "ingredient": "1 Lemon twist or Maraschino cherry",
+        "destination": "Chosenlemonorcherry nowexplicitlyused."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "drink.rye",
+        "name": "rye whiskey",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.cognac",
+        "name": "Cognac",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "VSOP preferred",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.vermouth",
+        "name": "rich sweet red vermouth",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.liqueur",
+        "name": "French honeyed herbal liqueur (40% ABV)",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.aromatic-bitters",
+        "name": "dash of aromatic bitters",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.new-orleans-bitters",
+        "name": "dash of New Orleans-style anise-forward bitters",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.mixing-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for stirring",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.serving-ice",
+        "name": "large fresh ice cube",
+        "quantity": null,
+        "allowance": "for each rocks serving",
+        "preparation": null,
+        "optional": true,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "strain",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.garnish",
+        "name": "lemon twist or maraschino cherry",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Choose and chill the glass: Chill a freezer-safe rocks glass or coupe for about 5 minutes before mixing. Choose rocks service with a fresh cube or service without ice. Set out a glass with room for the drink, headroom and any serving cube. All ounce measures are fluid ounces."
+    },
+    {
+      "step": 2,
+      "text": "Combine over ice: Add rye whiskey, Cognac, rich sweet red vermouth, French honeyed herbal liqueur (40% ABV), dashes of aromatic bitters, dashes of New Orleans-style anise-forward bitters, and ice cubes to a mixing glass with room for the spoon to move. Use the measured teaspoon amount for the herbal liqueur rather than assuming every barspoon has the same capacity. Use small batches if the scaled amount crowds the vessel."
+    },
+    {
+      "step": 3,
+      "text": "Stir and check: Stir smoothly until the mixture is cold. Taste a small sample with a clean spoon: rye and Cognac should remain distinct beneath the vermouth, liqueur and bitters. Continue briefly if still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time."
+    },
+    {
+      "step": 4,
+      "text": "Strain: Use large fresh ice cube (if using) for each chilled rocks glass, then strain the corresponding portions over the fresh cubes. For service without ice, strain into the chilled coupe and omit the serving cube. Keep the used mixing ice behind."
+    },
+    {
+      "step": 5,
+      "text": "Finish either garnish: Use lemon twist or maraschino cherry: express a lemon twist over each drink and drop it in, or add the cherry if that is the chosen garnish. Serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Lemon twist",
+      "alternative": "Maraschino cherry",
+      "effect": "Adds fruit sweetness/aroma instead of fresh lemon oil; add it whole at service.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Stirred method",
+      "alternative": "Shaken rocks variation",
+      "effect": "Produces a different, more aerated presentation; keep the same measured ingredients and use fresh serving ice.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Choose and chill the glass",
+          "text": "Chill a freezer-safe rocks glass or coupe for about 5 minutes before mixing. Choose rocks service with a fresh cube or service without ice. Set out a glass with room for the drink, headroom and any serving cube. All ounce measures are fluid ounces."
+        },
+        {
+          "id": "mix",
+          "title": "Combine over ice",
+          "text": "Add {{ingredients}} to a mixing glass with room for the spoon to move. Use the measured teaspoon amount for the herbal liqueur rather than assuming every barspoon has the same capacity. Use small batches if the scaled amount crowds the vessel."
+        },
+        {
+          "id": "stir",
+          "title": "Stir and check",
+          "text": "Stir smoothly until the mixture is cold. Taste a small sample with a clean spoon: rye and Cognac should remain distinct beneath the vermouth, liqueur and bitters. Continue briefly if still warm or harsh, then strain before it becomes thin. Ice and starting temperature change the stirring time."
+        },
+        {
+          "id": "strain",
+          "title": "Strain",
+          "text": "Use {{ingredients}} for each chilled rocks glass, then strain the corresponding portions over the fresh cubes. For service without ice, strain into the chilled coupe and omit the serving cube. Keep the used mixing ice behind."
+        },
+        {
+          "id": "garnish",
+          "title": "Finish either garnish",
+          "text": "Use {{ingredients}}: express a lemon twist over each drink and drop it in, or add the cherry if that is the chosen garnish. Serve promptly."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "beef-tenderloin-dogs-with-corn-relish",
+      "brownie-baked-oatmeal",
+      "chicken-apple-and-butternut-stew"
+    ],
+    "composedMeals": "No direct composed-meal reference found for these slugs. Pairing links are suggestions, not required ingredient quantities or a complete meal certification.",
+    "distinctVariants": "No consolidation or identity reassignment. Saved spirit, ratio, garnish and service alternatives retained as specified in individual findings."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": "3/4 oz each rye, Cognac and rich sweet red vermouth; exact 1/2 tsp herbal liqueur40%ABV; two dashes each bitters. Current two-dash choice preserved, within original one-to-two range. Base volume 2.25fluidounces plusliqueur/bitters; not a final volume.",
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Use a measuring spoon for the half-teaspoon liqueur amount; barspoons are not assumed to be identical.",
+      "Choose rocks or ice-free service and check the glass capacity. The original base is 2¼ fluid ounces plus half a teaspoon of liqueur and bitters before dilution.",
+      "Chill the freezer-safe glass before mixing and keep opened vermouth refrigerated."
+    ],
+    "timing": "About ten minutes from an unchilled glass: the five-minute freezer chill plus roughly five minutes for measuring, stirring, straining and garnish. Chilling can be done ahead, reducing service work. No heating or required rest. Extra glasses and small batches extend service time rather than requiring one long multiplied stir.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "3a37a1272711cf3c2f613045df9e2b881759ad6d5adce7dd13bc9bf402818977",
+      "yield": "1/4 portion",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "7a17e64fd393a99278efd355a772eb97ec908c433d0e448b59ad121a14c8fca3",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "e4fae86ccf8f808cb486ef7fc4a2035dd64e3df532c44fb107aeb68d8f118680",
+      "yield": "1/2 portion",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "78ced5be32a6269c0b9f6ea12dab7fe1359a60a398d2640d476e1affa05f6fe5",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "7f13a7b03847b364c9c1f9081b3690b4edba43286989b7dd4f0d37abae8e5147",
+      "yield": "1 portion",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "1b6c499031f3e8a55faa32546dfc88d164385780b61fa5d499842fa74a952ba5",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "5449f3390624acf83362e179f2c0e5a552d60d41a3ceaff7b4b6350269d6b5db",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "9e408408b20b21d9a831a49ab263ddea21a53906f5eeaadffdb2f751e472b1d8",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "93e709a6c2f354754224fcce8de859146f9891d0fe28848908a8c383e76e4623",
+      "yield": "2 portions",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "1630994d71bd416c3fbed14fe4a488a640ed739b63fee9ee33bbe489e0a73d82",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "8a86676e31e564095c50cc3b5bb2c9a3b36ccd7314c94697ac8ae1c20c2310a2",
+      "yield": "3 portions",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "78b089a29e46af8ffa8fd65d0cd93a5a52cbf8955d4815811ca37d80875326c8",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "7f13a7b03847b364c9c1f9081b3690b4edba43286989b7dd4f0d37abae8e5147",
+      "yield": "1 portion",
+      "directionsSha256": "74d19148d353e18c0602d1fc32e87815d10d62deb9098c2f270648086a193111",
+      "shoppingSha256": "1b6c499031f3e8a55faa32546dfc88d164385780b61fa5d499842fa74a952ba5",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Compare currentstirredroute and savedshakenrocksroute without changing the measuredingredients.",
+    "Record bottle strengths, bitterspouringmotion, actual1/2tsp measure and glass/ice fit."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

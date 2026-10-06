@@ -1,0 +1,905 @@
+{
+  "slug": "prohibition-style-gin-lemon-fizz",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "934245bc694cb769f9f45116d2165e17ad57d2599d6b7791996b759e72d8eee6",
+  "acceptedSourceSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker"],
+      "after": ["cocktail-shaker", "strainer", "fine-mesh-strainer", "highball-glasses", "jigger"]
+    },
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": "technical"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "About 10 min, including glass chilling"
+    },
+    {
+      "field": "servings",
+      "before": "3",
+      "after": "3 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 oz London dry gin",
+        "2 oz unaged mezcal (The Smoky Pulse)",
+        "1.75 oz cognac",
+        "3 oz Fresh Lemon Juice (The Acid Balance)",
+        "0.75 oz Agave Syrup",
+        "7 dashes Orange Bitters",
+        "12 oz unsweetened sparkling water with lemon juice (to top)",
+        "Lemon Peel twists"
+      ],
+      "after": [
+        "--- Base ---",
+        "3 oz London dry gin",
+        "2 oz unaged mezcal",
+        "1 3/4 oz cognac",
+        "3 oz fresh lemon juice",
+        "3/4 oz agave syrup",
+        "4 dashes of orange bitters",
+        "ice cubes, as needed for shaking",
+        "--- Serving ---",
+        "fresh ice cubes, as needed for each serving glass, leaving liquid headroom",
+        "12 oz unsweetened sparkling water with lemon juice",
+        "3 dashes of orange bitters",
+        "3 lemon peel twists or thin lemon slices"
+      ]
+    },
+    {
+      "field": "advancePrep",
+      "before": ["freeze-ahead"],
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 235,
+        "protein": 6,
+        "carbs": 64.5,
+        "fat": 2,
+        "fiber": 16,
+        "sugar": 36.5,
+        "sodium": 10
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 3,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "base",
+            "name": "Base",
+            "ingredients": [
+              {
+                "id": "gin",
+                "key": "gin",
+                "name": "London dry gin",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mezcal",
+                "key": "mezcal",
+                "name": "unaged mezcal",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cognac",
+                "key": "cognac",
+                "name": "cognac",
+                "quantity": {
+                  "amount": "7/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "agave",
+                "key": "agave",
+                "name": "agave syrup",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "dash of orange bitters",
+                "plural": "dashes of orange bitters",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mix-ice",
+                "key": "mix-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for shaking",
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "shake",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "serve",
+            "name": "Serving",
+            "ingredients": [
+              {
+                "id": "fresh-ice",
+                "key": "fresh-ice",
+                "name": "fresh ice cubes",
+                "allowance": "as needed for each serving glass, leaving liquid headroom",
+                "uses": [
+                  {
+                    "step": "strain",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sparkle",
+                "key": "sparkle",
+                "name": "unsweetened sparkling water with lemon juice",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bitters",
+                "key": "bitters",
+                "name": "dash of orange bitters",
+                "plural": "dashes of orange bitters",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "peel",
+                "key": "peel",
+                "name": "lemon peel twist or thin lemon slice",
+                "plural": "lemon peel twists or thin lemon slices",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Chill and plan the glasses",
+            "text": "Chill the serving glasses while measuring. The original batch makes three glasses: each receives about 3½ fluid ounces of still base before dilution and 4 fluid ounces sparkling water. Leave room for ice and headroom. Use more than one small shaking load if necessary."
+          },
+          {
+            "id": "shake",
+            "title": "Shake the still base",
+            "text": "Combine {{ingredients}}, using only the shaker share of orange bitters. Shake about 15 seconds as a first check, until well chilled; starting temperature and ice change the time. Leave enough room for ice to move. Do not put sparkling water in the sealed shaker."
+          },
+          {
+            "id": "strain",
+            "title": "Divide the base",
+            "text": "Put {{ingredients}} in the chilled glasses, allowing room for the full liquid amount. Double-strain the still base evenly among the listed portions. Recombine separate shaking loads before dividing if needed for even ratios."
+          },
+          {
+            "id": "finish",
+            "title": "Top and garnish",
+            "text": "Use {{ingredients}}. Divide the measured sparkling water equally: 4 fluid ounces per full original serving. Add the finishing orange-bitters share, one dash per original glass, and give one gentle stir. Express each lemon twist over its drink, then add it; a thin lemon slice can garnish instead. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Split bitters and carbonated liquid across an original three-glass batch",
+        "outcome": "Evenly divided citrus drinks with the original spirit blend and lively lemon bubbles.",
+        "techniques": ["temperature"],
+        "before": [
+          "Four of the original seven bitters dashes go in the shaker; three finish the glasses. Keep those shares when scaling. Fractional dashes are approximate.",
+          "Keep sparkling water out of the shaker. Use small shaking loads with room for ice to move, recombine the still base and divide it among the listed portions, then divide the measured topping and finishing bitters equally."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Only still liquids and the shaker bitters share enter the shaker.",
+            "why": "Carbonated liquid is reserved for open-glass service."
+          },
+          {
+            "step": 4,
+            "cue": "Every glass has equal topping and its finishing bitters and twist.",
+            "why": "The original batch’s 12-ounce topping and three-dash finish are divided among three full portions; scaled totals are also divided among the listed portions."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Glasses taste different",
+            "cause": "Shaking loads or toppings were not distributed evenly.",
+            "fix": "Recombine the uncarbonated base before dividing; measure the sparkling topping separately into each glass."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Agave syrup",
+            "alternative": "Omit it if desired",
+            "effect": "Keep every other amount unchanged; the drink becomes less sweet and is not the same flavor balance."
+          },
+          {
+            "ingredient": "Lemon sparkling water",
+            "alternative": "A different unsweetened lemon-juice sparkling water",
+            "effect": "Fruit acidity varies by product; preserve the measured amount and do not silently replace it with plain soda."
+          }
+        ],
+        "timing": "Allow about ten minutes including glass chilling during measuring. Shaking 15 seconds is a first check, not an exact temperature or dilution guarantee; larger batches need separate loads and more assembly time.",
+        "storage": "Keep the still ingredients cold until service; add fresh ice, topping and garnish then.",
+        "sources": [
+          {
+            "title": "Dave Arnold — instrumented ice and dilution experiments",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis cocktail showcases complex aromatic layering. The combination of herbal gin, rich cognac, and a hint of smoky mezcal creates a flavor profile that balances depth with brightness. Unsweetened sparkling water with lemon juice instead of standard soda water provides real fruit acidity that bridges the agave and botanicals. The orange bitters are added twice (in the shaker and on the surface) to ensure the aroma precedes the flavor.\n\n## Directions\n\n1.  **Thermal Prep:** Chill 3 highball glasses in the freezer.\n2.  **The Base:** In a cocktail shaker filled with large ice cubes, combine gin, mezcal, cognac, lemon juice, agave, and 4 dashes of the orange bitters.\n3.  **Aeration:** Shake vigorously for 15 seconds until the shaker is frosted and the mixture is perfectly cold.\n4.  **Strain:** Double strain the mixture into the chilled highball glasses filled with fresh ice.\n5.  **Effervescence:** Top each glass with 4 oz of unsweetened sparkling water with lemon juice. Stir once, very gently, to preserve the bubbles.\n6.  **The Finishing Touch:** Add 1 final dash of orange bitters to the surface of each drink. Garnish with a lemon peel twist (expressed over the rim).\n",
+    "after": "\n## Chef's Note\n\nGin, mezcal and cognac share this lemon-and-agave base. Shake the still ingredients, then divide them evenly before adding the sparkling lemon water. Orange bitters are split between the shaker and each glass; the topping and final dash arrive after shaking.\n\n## Directions\n\n1. **Chill and plan the glasses:** Chill the serving glasses while measuring. The original batch makes three glasses: each receives about 3½ fluid ounces of still base before dilution and 4 fluid ounces sparkling water. Leave room for ice and headroom. Use more than one small shaking load if necessary.\n2. **Shake the still base:** Combine London dry gin, unaged mezcal, cognac, fresh lemon juice, agave syrup, dashes of orange bitters, and ice cubes, using only the shaker share of orange bitters. Shake about 15 seconds as a first check, until well chilled; starting temperature and ice change the time. Leave enough room for ice to move. Do not put sparkling water in the sealed shaker.\n3. **Divide the base:** Put fresh ice cubes in the chilled glasses, allowing room for the full liquid amount. Double-strain the still base evenly among the listed portions. Recombine separate shaking loads before dividing if needed for even ratios.\n4. **Top and garnish:** Use unsweetened sparkling water with lemon juice, dashes of orange bitters, and lemon peel twists or thin lemon slices. Divide the measured sparkling water equally: 4 fluid ounces per full original serving. Add the finishing orange-bitters share, one dash per original glass, and give one gentle stir. Express each lemon twist over its drink, then add it; a thin lemon slice can garnish instead. Serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "shaken_drinks_02-prohibition-style-gin-lemon-fizz-1",
+      "title": "whole formula, destinations and process",
+      "rationale": "All exact published spirit/citrus/agave measures preserved. The first committed body says three servings, inspired by ChatGPT; the original native archive has no such note or external attribution. Original agave called optional, current measured primary retained as published adaptation; optional omission can be discussed but not changed into source-certified equivalence. Seven bitters are authored as four shaker dashes and three finishing dashes with the same ingredient key; exact total and native destinations are preserved without rounded share instructions. Genuine shaking/serving ice and one twist per full portion listed. Delete unrelated freeze-ahead/nutrition guarantees.",
+      "confidence": "high for quantities/arithmetic; moderate for planning and sensory method",
+      "applicableSources": [
+        {
+          "reference": "independently recovered committed origin"
+        },
+        {
+          "reference": "retained published checkpoint"
+        },
+        {
+          "reference": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "vibe",
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
+        "Compare current London dry gin to named saved gin without normalizing brands.",
+        "Compare the saved optional agave omission to the current primary amount without changing other measures."
+      ]
+    },
+    {
+      "id": "shaken_drinks_02-prohibition-style-gin-lemon-fizz-2",
+      "title": "Authorized recipe-specific public and scaling corrections",
+      "rationale": "Native and frozen instructions allocate four bitters dashes to the shaker and one to each of three original glasses. Separate four and three entries retain all seven with no rounded 4/7 or 3/7 public instruction. Carbonation remains outside the shaker. First-Git ChatGPT note is distinct from empty native notes/source/servings.",
+      "confidence": "high for editorial corrections and unchanged arithmetic; method remains untested",
+      "applicableSources": [
+        {
+          "references": [
+            "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+            "docs/RECIPE_STANDARD.md",
+            "privately retained evidence"
+          ],
+          "scope": "Native and frozen instructions allocate four bitters dashes to the shaker and one to each of three original glasses. Separate four and three entries retain all seven with no rounded 4/7 or 3/7 public instruction. Carbonation remains outside the shaker. First-Git ChatGPT note is distinct from empty native notes/source/servings.",
+          "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+        }
+      ],
+      "sourceApplicability": {
+        "references": [
+          "docs/PUBLIC_RECIPE_PROSE_REVIEW.md",
+          "docs/RECIPE_STANDARD.md",
+          "privately retained evidence"
+        ],
+        "scope": "Native and frozen instructions allocate four bitters dashes to the shaker and one to each of three original glasses. Separate four and three entries retain all seven with no rounded 4/7 or 3/7 public instruction. Carbonation remains outside the shaker. First-Git ChatGPT note is distinct from empty native notes/source/servings.",
+        "confidence": "high for exact preserved amounts/destinations/public and scaling corrections; no physical testing"
+      },
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "vibe",
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
+        "Compare current London dry gin to named saved gin without normalizing brands.",
+        "Compare the saved optional agave omission to the current primary amount without changing other measures."
+      ]
+    },
+    {
+      "id": "shaken_drinks_02-prohibition-style-gin-lemon-fizz-3",
+      "title": "Exact four plus three bitters destinations",
+      "rationale": "Two complete original methods give four shaker dashes and three finishing dashes, one per original glass. Same ingredient key and seven total preserved; half = two plus one and a half, double = eight plus six.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "vibe",
+        "prepTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "advancePrep",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
+        "Compare current London dry gin to named saved gin without normalizing brands.",
+        "Compare the saved optional agave omission to the current primary amount without changing other measures."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/prohibition-style-gin-lemon-fizz.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "d7f063987550f71d349369617a1692e5daa3917dc9a4a09569a31698e6af4064",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "All exact published spirit/citrus/agave measures preserved. The first committed body says three servings, inspired by ChatGPT; the original native archive has no such note or external attribution. Original agave called optional, current measured primary retained as published adaptation; optional omission can be discussed but not changed into source-certified equivalence. Seven bitters are authored as four shaker dashes and three finishing dashes with the same ingredient key; exact total and native destinations are preserved without rounded share instructions. Genuine shaking/serving ice and one twist per full portion listed. Delete unrelated freeze-ahead/nutrition guarantees.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "909e011dd7b584d64e3ad1c70c9fd464bdfab201dd483979e57404281c719572",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    },
+    {
+      "description": "Original native versus first committed note remain distinct.",
+      "retainedCorrection": {
+        "before": "All exact published spirit/citrus/agave measures preserved. Native first note describes three servings inspired by ChatGPT, no historical authority. Original agave called optional, current measured primary retained as published adaptation; optional omission can be discussed but not changed into source-certified equivalence. Seven bitters authored shares4/7 and3/7 preserve current destinations. Genuine shaking/serving ice and one twist per full portion listed. Delete unrelated freeze-ahead/nutrition guarantees.",
+        "after": "All exact published spirit/citrus/agave measures preserved. The first committed body says three servings, inspired by ChatGPT; the original native archive has no such note or external attribution. Original agave called optional, current measured primary retained as published adaptation; optional omission can be discussed but not changed into source-certified equivalence. Seven bitters are authored as four shaker dashes and three finishing dashes with the same ingredient key; exact total and native destinations are preserved without rounded share instructions. Genuine shaking/serving ice and one twist per full portion listed. Delete unrelated freeze-ahead/nutrition guarantees.",
+        "confidence": "high; native cooking fields distinguished from first Git body"
+      }
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "3 oz London dry gin",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "2 oz unaged mezcal (The Smoky Pulse)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "1.75 oz cognac",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "3 oz Fresh Lemon Juice (The Acid Balance)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "0.75 oz Agave Syrup",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "7 dashes Orange Bitters",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "12 oz unsweetened sparkling water with lemon juice (to top)",
+        "allocation": "retained quantity; see authored destinations"
+      },
+      {
+        "ingredient": "Lemon Peel twists",
+        "allocation": "retained quantity; see authored destinations"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "base.gin",
+        "name": "London dry gin",
+        "quantity": {
+          "amount": 3,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.mezcal",
+        "name": "unaged mezcal",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.cognac",
+        "name": "cognac",
+        "quantity": {
+          "amount": "7/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.lemon",
+        "name": "fresh lemon juice",
+        "quantity": {
+          "amount": 3,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.agave",
+        "name": "agave syrup",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.bitters",
+        "name": "dash of orange bitters",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "base.mix-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for shaking",
+        "preparation": null,
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "shake",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.fresh-ice",
+        "name": "fresh ice cubes",
+        "quantity": null,
+        "allowance": "as needed for each serving glass, leaving liquid headroom",
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "strain",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.sparkle",
+        "name": "unsweetened sparkling water with lemon juice",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.bitters",
+        "name": "dash of orange bitters",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "serve.peel",
+        "name": "lemon peel twist or thin lemon slice",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Chill and plan the glasses: Chill the serving glasses while measuring. The original batch makes three glasses: each receives about 3½ fluid ounces of still base before dilution and 4 fluid ounces sparkling water. Leave room for ice and headroom. Use more than one small shaking load if necessary."
+    },
+    {
+      "step": 2,
+      "text": "Shake the still base: Combine London dry gin, unaged mezcal, cognac, fresh lemon juice, agave syrup, dashes of orange bitters, and ice cubes, using only the shaker share of orange bitters. Shake about 15 seconds as a first check, until well chilled; starting temperature and ice change the time. Leave enough room for ice to move. Do not put sparkling water in the sealed shaker."
+    },
+    {
+      "step": 3,
+      "text": "Divide the base: Put fresh ice cubes in the chilled glasses, allowing room for the full liquid amount. Double-strain the still base evenly among the listed portions. Recombine separate shaking loads before dividing if needed for even ratios."
+    },
+    {
+      "step": 4,
+      "text": "Top and garnish: Use unsweetened sparkling water with lemon juice, dashes of orange bitters, and lemon peel twists or thin lemon slices. Divide the measured sparkling water equally: 4 fluid ounces per full original serving. Add the finishing orange-bitters share, one dash per original glass, and give one gentle stir. Express each lemon twist over its drink, then add it; a thin lemon slice can garnish instead. Serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Agave syrup",
+      "alternative": "Omit it if desired",
+      "effect": "Keep every other amount unchanged; the drink becomes less sweet and is not the same flavor balance.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Lemon sparkling water",
+      "alternative": "A different unsweetened lemon-juice sparkling water",
+      "effect": "Fruit acidity varies by product; preserve the measured amount and do not silently replace it with plain soda.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Chill and plan the glasses",
+          "text": "Chill the serving glasses while measuring. The original batch makes three glasses: each receives about 3½ fluid ounces of still base before dilution and 4 fluid ounces sparkling water. Leave room for ice and headroom. Use more than one small shaking load if necessary."
+        },
+        {
+          "id": "shake",
+          "title": "Shake the still base",
+          "text": "Combine {{ingredients}}, using only the shaker share of orange bitters. Shake about 15 seconds as a first check, until well chilled; starting temperature and ice change the time. Leave enough room for ice to move. Do not put sparkling water in the sealed shaker."
+        },
+        {
+          "id": "strain",
+          "title": "Divide the base",
+          "text": "Put {{ingredients}} in the chilled glasses, allowing room for the full liquid amount. Double-strain the still base evenly among the listed portions. Recombine separate shaking loads before dividing if needed for even ratios."
+        },
+        {
+          "id": "finish",
+          "title": "Top and garnish",
+          "text": "Use {{ingredients}}. Divide the measured sparkling water equally: 4 fluid ounces per full original serving. Add the finishing orange-bitters share, one dash per original glass, and give one gentle stir. Express each lemon twist over its drink, then add it; a thin lemon slice can garnish instead. Serve promptly."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "chicken-and-wild-rice-soup",
+      "garlic-butter-roasted-salmon-with-potatoes-and-asparagus",
+      "herb-marinated-pork-tenderloins"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings and meal schedules do not gain acceptance here."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": null,
+    "planningYield": "3 portions",
+    "capacityAndScaling": [
+      "Four of the original seven bitters dashes go in the shaker; three finish the glasses. Keep those shares when scaling. Fractional dashes are approximate.",
+      "Keep sparkling water out of the shaker. Use small shaking loads with room for ice to move, recombine the still base and divide it among the listed portions, then divide the measured topping and finishing bitters equally."
+    ],
+    "timing": "Allow about ten minutes including glass chilling during measuring. Shaking 15 seconds is a first check, not an exact temperature or dilution guarantee; larger batches need separate loads and more assembly time.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "b3ad501fbf514cd13b399e0644e7a0cc50901288f801902e59ecb60cd001bf43",
+      "yield": "3/4 portion",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "7a95a53a822cf2d0f38d0610fe9c95e1d88bdbc0880ee1a48b7090c562672456",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "a51556cf0923432fca62f20289a96b426085af0e94658c2b523fca6c9c99e905",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "fc73491c8eb1ff0e19021ae22f5cc5be9372187d9f75e6caba06ff53711ffd21",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "07a15a5761cfb3f05cc65a81fbc4c24b5d5706490a9c47c1f9b92f6edc999dd9",
+      "yield": "3 portions",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "6e6294bc070fb9385fe0c0fc32fb4e6a2b18f0b3114eb8a896c7fae8aa3f19f8",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "69da63a90ca50fb59d44e65e4bf27e7f7363f17d2c3a950e4d61e8827c40737b",
+      "yield": "4 1/2 portions",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "e14d94ee6357c391210bfc8e38626fbdcf3b176c74c04637489b73adfa5ccc96",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "cac6eb7c9ce541076d9104be1a10ecfb4b847d6f5142d2e1223a4a1ec32cca5f",
+      "yield": "6 portions",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "fe1c0eaeea2a3773c8ba8535d5367a0b6249408e229a0043fc63886746c83ded",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "8e41bca74bb76be75b0c8f5549ee8dcd1194ffdab3a5f5f53f08e1c003bbbeb4",
+      "yield": "9 portions",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "99ecc1ac52f31764d14e92288165187b7706ee9709e9bf29842c9047f2fd74ac",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "07a15a5761cfb3f05cc65a81fbc4c24b5d5706490a9c47c1f9b92f6edc999dd9",
+      "yield": "3 portions",
+      "directionsSha256": "b767b005f45368343ee56f321e80a7a5c8d9e5950601b30a535ac13c1010ab65",
+      "shoppingSha256": "6e6294bc070fb9385fe0c0fc32fb4e6a2b18f0b3114eb8a896c7fae8aa3f19f8",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
+    "Compare current London dry gin to named saved gin without normalizing brands.",
+    "Compare the saved optional agave omission to the current primary amount without changing other measures."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

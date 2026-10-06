@@ -1,0 +1,962 @@
+{
+  "slug": "sazerac",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "8cd51b53b2948295224a00cff47fee5872dd0c4c8c744026a50e548d0fecf4d5",
+  "acceptedSourceSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "1 cocktail",
+      "after": "1 portion"
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["rich", "savory", "herbaceous"],
+      "after": ["herbaceous", "aromatic", "spicy"]
+    },
+    {
+      "field": "equipment",
+      "before": ["mixing-glass", "strainer"],
+      "after": ["rocks-glass", "mixing-glass", "bar-spoon", "jigger", "strainer"]
+    },
+    {
+      "field": "advancePrep",
+      "before": ["freeze-ahead"],
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 oz rye whiskey (or Cognac for the original recipe)",
+        "1/4 oz simple syrup",
+        "3 dashes New Orleans-style anise-forward bitters",
+        "1-2 dashes aromatic bitters (optional, but traditional)",
+        "Absinthe or dry anise-flavored spirit for rinsing",
+        "Lemon peel for garnish",
+        "Ice"
+      ],
+      "after": [
+        "--- Glass preparation ---",
+        "ice and water, as needed to chill the serving glass, optional",
+        "absinthe or dry anise-flavored spirit, about ¼ fluid ounce per glass, enough to coat; discard excess",
+        "--- Sazerac ---",
+        "2 oz rye whiskey or Cognac",
+        "1/4 oz simple syrup",
+        "3 dashes of New Orleans-style anise-forward bitters",
+        "1–2 dashes of aromatic bitters, optional",
+        "ice cubes, as needed for stirring",
+        "--- Lemon ---",
+        "lemon peel, for each serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 15,
+        "protein": 0.5,
+        "carbs": 5.5,
+        "fat": 0,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Rye or Cognac stirred with syrup and bitters, served without ice in an anise-rinsed glass."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "glass",
+            "name": "Glass preparation",
+            "ingredients": [
+              {
+                "id": "chill",
+                "key": "chill",
+                "name": "ice and water",
+                "allowance": "as needed to chill the serving glass",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rinse",
+                "key": "rinse",
+                "name": "absinthe or dry anise-flavored spirit",
+                "allowance": "about ¼ fluid ounce per glass, enough to coat; discard excess",
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "rinse",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "drink",
+            "name": "Sazerac",
+            "ingredients": [
+              {
+                "id": "spirit",
+                "key": "spirit",
+                "name": "rye whiskey or Cognac",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "syrup",
+                "key": "syrup",
+                "name": "simple syrup",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "new-orleans-bitters",
+                "key": "new-orleans-bitters",
+                "name": "dash of New Orleans-style anise-forward bitters",
+                "plural": "dashes of New Orleans-style anise-forward bitters",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "aromatic-bitters",
+                "key": "aromatic-bitters",
+                "name": "dash of aromatic bitters",
+                "plural": "dashes of aromatic bitters",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "count"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mixing-ice",
+                "key": "mixing-ice",
+                "name": "ice cubes",
+                "allowance": "as needed for stirring",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Lemon",
+            "ingredients": [
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon peel",
+                "allowance": "for each serving",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Chill the serving glass",
+            "text": "Use {{ingredients}} if the rocks glass is not already chilled in the freezer. Let it chill while measuring the drink. Use a glass with room for the stirred liquid and headroom; serving is without ice. All ounce measures are fluid ounces."
+          },
+          {
+            "id": "mix",
+            "title": "Combine",
+            "text": "Add {{ingredients}} to a mixing glass with room to stir. Use the optional aromatic bitters only if wanted in this version; keep the New Orleans-style bitters in the drink. Dash size varies with bottle and pouring motion."
+          },
+          {
+            "id": "stir",
+            "title": "Stir and check",
+            "text": "Stir smoothly until the whiskey or Cognac mixture is well chilled. Taste a small sample with a clean spoon for a rounded spirit-and-bitters finish, and continue briefly if still warm or harsh. Stop before it becomes thin. The anise rinse is added in the serving glass after this check."
+          },
+          {
+            "id": "rinse",
+            "title": "Rinse the glass",
+            "text": "Discard any chilling ice water. Add {{ingredients}}, swirl to coat the inside of the glass and pour away the excess, leaving a thin aromatic film. The stated allowance is for rinsing, not a measured amount to leave in the finished drink."
+          },
+          {
+            "id": "strain",
+            "title": "Strain without ice",
+            "text": "Strain the mixed drink into the rinsed glass, keeping the mixing ice behind. For scaled service, rinse each glass and divide the drink among them; use small mixing batches as needed."
+          },
+          {
+            "id": "garnish",
+            "title": "Express lemon",
+            "text": "Use {{ingredients}}: twist peel over each drink to release its oils, then discard it or rest it on the rim, as preferred. Serve immediately without a serving cube."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Apply an aromatic rinse while keeping the drink balanced",
+        "outcome": "A chilled whiskey or Cognac drink with a light anise aroma and lemon oil, served without ice.",
+        "techniques": ["seasoning"],
+        "before": [
+          "Choose rye or Cognac, then decide whether to include the optional aromatic bitters.",
+          "Chill the serving glass and set out a separate mixing glass. Keep the rinse separate from the drink’s measured liquids; most rinse spirit is discarded."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "A thin film coats the glass, with no visible pool left at the bottom.",
+            "why": "The rinse provides aroma; leaving the whole allowance changes the finished formula."
+          },
+          {
+            "step": 5,
+            "cue": "The chilled drink is in the rinsed glass with no mixing or serving ice.",
+            "why": "Ice used for stirring contributes dilution, while this serving style avoids continued melting in the glass."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Anise overwhelms the drink",
+            "cause": "Too much rinse spirit remained in the glass.",
+            "fix": "Before straining the drink, pour away any visible pool of rinse spirit so only a thin film remains. Once excess anise spirit is mixed into the drink, transferring it to another rinsed glass cannot remove that flavor; remake it with a thinner rinse if the balance is unacceptable."
+          },
+          {
+            "problem": "The drink warms before service",
+            "cause": "The prepared glass or stirred mixture waited.",
+            "fix": "Finish the rinse close to straining and serve immediately. Make further portions to order instead of holding finished glasses."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Rye whiskey",
+            "alternative": "Cognac",
+            "effect": "Changes the base aroma and flavor while retaining the same measured amount; check the chilled balance with the selected spirit."
+          },
+          {
+            "ingredient": "Absinthe",
+            "alternative": "Dry anise-flavored spirit",
+            "effect": "Different botanical intensity changes the rinse aroma. Coat and drain the glass; do not substitute a sweet anise liqueur as if it were identical."
+          }
+        ],
+        "timing": "About seven minutes for one drink, chilling the serving glass with ice water while measuring and stirring. A freezer-chilled glass can be prepared ahead. No heating or required rest. Rinsing and garnishing every glass add work to scaled batches; the stirring interval is judged by the drink rather than multiplied.",
+        "storage": "Serve promptly, without ice. Keep a mixture prepared ahead covered and refrigerated without mixing ice, rinse spirit or lemon; stir small portions at service and rinse each glass then. Follow the simple syrup’s own storage instructions, since no syrup strength or homemade storage deadline is defined here. Discard used mixing ice and excess rinse spirit.",
+        "sources": [
+          {
+            "title": "International Bartenders Association — Sazerac",
+            "url": "https://iba-world.com/iba-cocktail/sazerac/"
+          },
+          {
+            "title": "Sazerac House — New Orleans cocktail history",
+            "url": "https://www.sazerachouse.com/inspiration/stories/how-the-sazerac-became-the-official-cocktail-of-new-orleans/"
+          },
+          {
+            "title": "Sazerac Company — Historical timeline",
+            "url": "https://www.sazerac.com/our-company/our-story/"
+          },
+          {
+            "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+            "url": "https://www.cookingissues.com/index.html%3Fp=4585.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Directions\n\n1. **Chill an Old Fashioned:** glass by filling it with ice water or placing it in the freezer.\n\n2. **In a mixing glass,:** combine the rye whiskey, simple syrup, and bitters with ice. Stir well for 20-30 seconds.\n\n3. **Discard the ice water:** from the chilled glass. Add a small amount of absinthe (about 1/4 oz) to the glass and swirl to coat the inside, then discard the excess absinthe.\n\n4. **Strain the stirred whiskey:** mixture into the absinthe-rinsed glass (no ice).\n\n5. **Express a lemon peel:** over the drink by twisting it to release the oils. Discard the peel or rest it on the rim (traditionally, it's discarded).\n\n6. **Serve immediately.:**\n\n## Chef's Note\n\nThe Sazerac is one of America's oldest cocktails, created in New Orleans in the 1830s, and it's been the city's official cocktail since 2008. Originally made with Cognac, it switched to rye whiskey when the phylloxera epidemic devastated French vineyards in the 1870s. The drink is named after the Sazerac Coffee House where it was popularized, which itself was named after a brand of Cognac. The absinthe rinse is essential - it provides an aromatic backdrop without overwhelming the whiskey and bitters.\n",
+    "after": "\n## Chef's Note\n\nThe Sazerac belongs to New Orleans’s nineteenth-century coffee-house tradition and became the city’s official cocktail in 2008. Cognac and rye versions both belong to its history; here either spirit can be used with this syrup-and-bitters formula. Swirl the anise spirit around the chilled glass, pour away the excess, then strain in the cold stirred drink. The thin rinse gives aroma without a pool of absinthe dominating the finish.\n\n## Directions\n\n1. **Chill the serving glass:** Use ice and water (if using) if the rocks glass is not already chilled in the freezer. Let it chill while measuring the drink. Use a glass with room for the stirred liquid and headroom; serving is without ice. All ounce measures are fluid ounces.\n2. **Combine:** Add rye whiskey or Cognac, simple syrup, dashes of New Orleans-style anise-forward bitters, dashes of aromatic bitters (if using), and ice cubes to a mixing glass with room to stir. Use the optional aromatic bitters only if wanted in this version; keep the New Orleans-style bitters in the drink. Dash size varies with bottle and pouring motion.\n3. **Stir and check:** Stir smoothly until the whiskey or Cognac mixture is well chilled. Taste a small sample with a clean spoon for a rounded spirit-and-bitters finish, and continue briefly if still warm or harsh. Stop before it becomes thin. The anise rinse is added in the serving glass after this check.\n4. **Rinse the glass:** Discard any chilling ice water. Add absinthe or dry anise-flavored spirit, swirl to coat the inside of the glass and pour away the excess, leaving a thin aromatic film. The stated allowance is for rinsing, not a measured amount to leave in the finished drink.\n5. **Strain without ice:** Strain the mixed drink into the rinsed glass, keeping the mixing ice behind. For scaled service, rinse each glass and divide the drink among them; use small mixing batches as needed.\n6. **Express lemon:** Use lemon peel: twist peel over each drink to release its oils, then discard it or rest it on the rim, as preferred. Serve immediately without a serving cube.\n"
+  },
+  "findings": [
+    {
+      "id": "stirred_drinks_01-sazerac-1",
+      "title": "rinse allocation and ice destinations",
+      "rationale": "No invented retained absinthe amount or water amount. The method’s approximate allowance remains approximate, and scaling must rinse each glass separately.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "sazerac",
+          "title": "International Bartenders Association — Sazerac",
+          "url": "https://iba-world.com/iba-cocktail/sazerac/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA supports chilled rinsed glass, discarded excess anise spirit and stirring before service without ice. Its Cognac/sugar-cube/bitters formula differs from saved rye-or-Cognac/simple-syrup/optional-aromatic-bitters formula; chronology note is not treated as exact historical proof.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-sazerac-2",
+      "title": "historical confidence and retained options",
+      "rationale": "Primary museum tells coffee-house story beginning1850s; companytimeline1885ryeswitch andIBApost-CivilWar generalization differ. Exactdates incurrentnote notestablished. Optionsare preservedasthissavedrecipe, not treatedasIBAorsoleoriginal.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "id": "sazeracHistory",
+          "title": "Sazerac House — New Orleans cocktail history",
+          "url": "https://www.sazerachouse.com/inspiration/stories/how-the-sazerac-became-the-official-cocktail-of-new-orleans/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary brand-owned museum recounts mid-19th-century coffee-house context, Cognac/rye and absinthe/anise-spirit changes, plus 2008 official New Orleans status. It does not establish a precise 1830s invention.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "sazeracCompany",
+          "title": "Sazerac Company — Historical timeline",
+          "url": "https://www.sazerac.com/our-company/our-story/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary company timeline dates a rye transition to 1885, differing from saved 1870s and IBA’s post-Civil-War generalization. Record disagreement; public prose avoids a precise replacement date.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "sazerac",
+          "title": "International Bartenders Association — Sazerac",
+          "url": "https://iba-world.com/iba-cocktail/sazerac/",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "IBA supports chilled rinsed glass, discarded excess anise spirit and stirring before service without ice. Its Cognac/sugar-cube/bitters formula differs from saved rye-or-Cognac/simple-syrup/optional-aromatic-bitters formula; chronology note is not treated as exact historical proof.",
+          "confidence": "high for the stated narrow scope"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-sazerac-3",
+      "title": "stirring target",
+      "rationale": "Variableice/bottlesandstartingconditions preventthesavedtimefromcertifyingdilution.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-sazerac-4",
+      "title": "unsupported nutrition and planning metadata",
+      "rationale": "Remove unverified legacy nutrition without replacement. Equipment follows actual chosen method; cocktail shaker remains only where a complete alternative uses one. Freeze-ahead tags do not describe storing the prepared cocktail. Flavor tags follow actual bitter/sweet/herbal/citrus ingredients without adding juice, smoke or savory ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "recipe standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-sazerac-5",
+      "title": "authored quantities, learning and compilation",
+      "rationale": "Preserve measured totals/options and publish clear destinations, troubleshooting, storage and small-batch capacity. One portion retains the one saved cocktail; no standardized alcohol serving or precise strained yield is invented. The selected seasoning lesson concerns taste comparison, not a heat endpoint.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "structured authoring standard",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "input original",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "id": "science1",
+          "title": "Dave Arnold — Cocktail Science: stirring, ice and dilution",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4585.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s instrumented experiments establish that ice size, starting conditions and stirring affect cooling and dilution. Applied to rejecting a universal count/time endpoint; no numerical target or added-water formula imported.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        },
+        {
+          "id": "science2",
+          "title": "Dave Arnold — Cocktail Science: balance and batching",
+          "url": "https://www.cookingissues.com/index.html%3Fp=4601.html",
+          "access": "Read primary page or digitized original on 2026-10-05; sazeracCompany timeline retrieved as primary search text.",
+          "applicability": "Primary author’s taste comparisons and batching discussion support small-batch tasting and stir-to-order service. Its example dilution percentages and temperature preferences are not this collection’s validated specifications.",
+          "confidence": "moderate for transferring method/history; high for observed source disagreement"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "stirred_drinks_01-sazerac-6",
+      "title": "independent learning-only rinse remedy correction",
+      "rationale": "A transfer cannot remove anise spirit already mixed into the drink, and a second rinse adds aroma. Prevent excess before pouring; remake an unacceptable completed drink.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "retained rinse allocation and method",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        },
+        {
+          "reference": "independent/stirred_drinks_01-challenge.md",
+          "scope": "Retained author evidence reference; no new source claim from normalization"
+        }
+      ],
+      "sourceApplicability": "Retained whole author/independent scope; exact author record referenced separately.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "STIRRED-SAZERAC-PEER",
+      "title": "Exact independently required rinse remedy",
+      "field": "learning.troubleshooting[0].fix",
+      "rationale": "Pre-strain rinse excess can be discarded; transfer cannot remove spirit already mixed into the drink. This records the completed independent correction accurately.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "flavorProfile",
+        "equipment",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "description",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/f720c3c20c1fc4adfbb62ac10481e4f45ad254c4/src/content/recipes/sazerac.md",
+    "introductionScope": "Exact retained Markdown cooking checkpoint verified by Git bytes. This normalization does not relabel it as an earlier HTML introduction or establish a new original-native identity binding.",
+    "originalSha256": "dbf9186aa76ceb752ec657a49013096a8e47c8d0cb2d211c6c79962dffd5da57",
+    "nativeLineage": "Reuse the frozen whole-review native/Git/source distinction. This mechanical normalization verifies no new original-native binding; retained later published export is not an independent original.",
+    "externalPublisher": {
+      "source": null,
+      "sourceUrl": null,
+      "applicabilityReference": "privately retained evidence"
+    },
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Chill glass while measuring → stir measured liquid/bitters over mixing ice → discard chill water → rinse each glass/discard excess → strain without ice → lemon expressed then discarded or rim-rested. Keep primary rye/syrup recipe distinct from current IBA Cognac/cube formula.",
+      "evidenceReference": "privately retained evidence",
+      "evidenceSha256": "95d0ccb617969424b9efec0aadca5730e9dcc24295f2e6ea336f95eb3aadbd8f",
+      "scope": "Original/current/publisher disagreements reused verbatim by reference, no new source certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 oz rye whiskey (or Cognac for the original recipe)",
+        "destination": "Rye or Cognac fully stirred."
+      },
+      {
+        "ingredient": "1/4 oz simple syrup",
+        "destination": "Measured syrup fully stirred; no sugar cube substituted."
+      },
+      {
+        "ingredient": "3 dashes New Orleans-style anise-forward bitters",
+        "destination": "Three New Orleans-style dashes fully stirred."
+      },
+      {
+        "ingredient": "1-2 dashes aromatic bitters (optional, but traditional)",
+        "destination": "Optional one-to-two aromatic dashes stirred only if chosen."
+      },
+      {
+        "ingredient": "Absinthe or dry anise-flavored spirit for rinsing",
+        "destination": "Approximate rinse spirit coats glass and excess discarded."
+      },
+      {
+        "ingredient": "Lemon peel for garnish",
+        "destination": "Lemon peel expressed then discarded or placed on rim."
+      },
+      {
+        "ingredient": "Ice",
+        "destination": "Generic ice split into chilling-water and mixing jobs; none retained at service."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "glass.chill",
+        "name": "ice and water",
+        "quantity": null,
+        "allowance": "as needed to chill the serving glass",
+        "preparation": null,
+        "optional": true,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "glass.rinse",
+        "name": "absinthe or dry anise-flavored spirit",
+        "quantity": null,
+        "allowance": "about ¼ fluid ounce per glass, enough to coat; discard excess",
+        "preparation": null,
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "rinse",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.spirit",
+        "name": "rye whiskey or Cognac",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.syrup",
+        "name": "simple syrup",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.new-orleans-bitters",
+        "name": "dash of New Orleans-style anise-forward bitters",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.aromatic-bitters",
+        "name": "dash of aromatic bitters",
+        "quantity": {
+          "amount": 1,
+          "max": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "drink.mixing-ice",
+        "name": "ice cubes",
+        "quantity": null,
+        "allowance": "as needed for stirring",
+        "preparation": null,
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      },
+      {
+        "ingredient": "finish.lemon",
+        "name": "lemon peel",
+        "quantity": null,
+        "allowance": "for each serving",
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ],
+        "scope": "Preserved authored full supply; allocations sum to one."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Chill the serving glass: Use ice and water (if using) if the rocks glass is not already chilled in the freezer. Let it chill while measuring the drink. Use a glass with room for the stirred liquid and headroom; serving is without ice. All ounce measures are fluid ounces."
+    },
+    {
+      "step": 2,
+      "text": "Combine: Add rye whiskey or Cognac, simple syrup, dashes of New Orleans-style anise-forward bitters, dashes of aromatic bitters (if using), and ice cubes to a mixing glass with room to stir. Use the optional aromatic bitters only if wanted in this version; keep the New Orleans-style bitters in the drink. Dash size varies with bottle and pouring motion."
+    },
+    {
+      "step": 3,
+      "text": "Stir and check: Stir smoothly until the whiskey or Cognac mixture is well chilled. Taste a small sample with a clean spoon for a rounded spirit-and-bitters finish, and continue briefly if still warm or harsh. Stop before it becomes thin. The anise rinse is added in the serving glass after this check."
+    },
+    {
+      "step": 4,
+      "text": "Rinse the glass: Discard any chilling ice water. Add absinthe or dry anise-flavored spirit, swirl to coat the inside of the glass and pour away the excess, leaving a thin aromatic film. The stated allowance is for rinsing, not a measured amount to leave in the finished drink."
+    },
+    {
+      "step": 5,
+      "text": "Strain without ice: Strain the mixed drink into the rinsed glass, keeping the mixing ice behind. For scaled service, rinse each glass and divide the drink among them; use small mixing batches as needed."
+    },
+    {
+      "step": 6,
+      "text": "Express lemon: Use lemon peel: twist peel over each drink to release its oils, then discard it or rest it on the rim, as preferred. Serve immediately without a serving cube."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Rye whiskey",
+      "alternative": "Cognac",
+      "effect": "Changes the base aroma and flavor while retaining the same measured amount; check the chilled balance with the selected spirit.",
+      "sourceField": "learning.substitutions[0]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "ingredient": "Absinthe",
+      "alternative": "Dry anise-flavored spirit",
+      "effect": "Different botanical intensity changes the rinse aroma. Coat and drain the glass; do not substitute a sweet anise liqueur as if it were identical.",
+      "sourceField": "learning.substitutions[1]",
+      "scope": "Complete retained alternative; no source, dose or method normalization."
+    },
+    {
+      "route": "All authored optional and exclusive method paths",
+      "reference": "privately retained evidence#Directions",
+      "authoredSteps": [
+        {
+          "id": "prep",
+          "title": "Chill the serving glass",
+          "text": "Use {{ingredients}} if the rocks glass is not already chilled in the freezer. Let it chill while measuring the drink. Use a glass with room for the stirred liquid and headroom; serving is without ice. All ounce measures are fluid ounces."
+        },
+        {
+          "id": "mix",
+          "title": "Combine",
+          "text": "Add {{ingredients}} to a mixing glass with room to stir. Use the optional aromatic bitters only if wanted in this version; keep the New Orleans-style bitters in the drink. Dash size varies with bottle and pouring motion."
+        },
+        {
+          "id": "stir",
+          "title": "Stir and check",
+          "text": "Stir smoothly until the whiskey or Cognac mixture is well chilled. Taste a small sample with a clean spoon for a rounded spirit-and-bitters finish, and continue briefly if still warm or harsh. Stop before it becomes thin. The anise rinse is added in the serving glass after this check."
+        },
+        {
+          "id": "rinse",
+          "title": "Rinse the glass",
+          "text": "Discard any chilling ice water. Add {{ingredients}}, swirl to coat the inside of the glass and pour away the excess, leaving a thin aromatic film. The stated allowance is for rinsing, not a measured amount to leave in the finished drink."
+        },
+        {
+          "id": "strain",
+          "title": "Strain without ice",
+          "text": "Strain the mixed drink into the rinsed glass, keeping the mixing ice behind. For scaled service, rinse each glass and divide the drink among them; use small mixing batches as needed."
+        },
+        {
+          "id": "garnish",
+          "title": "Express lemon",
+          "text": "Use {{ingredients}}: twist peel over each drink to release its oils, then discard it or rest it on the rim, as preferred. Serve immediately without a serving cube."
+        }
+      ],
+      "scope": "Canonical formula and full source body retain existing optional sugar/syrup, spirit, garnish, egg, wine, ice and service conditions. Full measured/allowance supply ledgers and original disagreements are preserved in the immutable author record."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "honey-glazed-carrots",
+      "old-fashioned-strawberry-ice-cream",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "the-new-england-express"
+    ],
+    "composedMeals": "No direct composed-meal reference found for these slugs. Pairing links are suggestions, not required ingredient quantities or a complete meal certification.",
+    "distinctVariants": "No consolidation or identity reassignment. Saved spirit, ratio, garnish and service alternatives retained as specified in individual findings."
+  },
+  "ratiosYieldAndCapacity": {
+    "retainedWholeReview": "2 oz rye OR Cognac; 1/4 oz simple syrup; three New Orleans-style bitters dashes; optional one-to-two aromatic dashes. Syrup concentration and dash volume not inferred. Rinse about1/4oz is supply allowance, mostly discarded, not part of a precise liquid yield.",
+    "planningYield": "1 portion",
+    "capacityAndScaling": [
+      "Choose rye or Cognac, then decide whether to include the optional aromatic bitters.",
+      "Chill the serving glass and set out a separate mixing glass. Keep the rinse separate from the drink’s measured liquids; most rinse spirit is discarded."
+    ],
+    "timing": "About seven minutes for one drink, chilling the serving glass with ice water while measuring and stirring. A freezer-chilled glass can be prepared ahead. No heating or required rest. Rinsing and garnishing every glass add work to scaled batches; the stirring interval is judged by the drink rather than multiplied.",
+    "scope": "No change to formula/yield/current richness; serving count is planning, not measured final liquid. Actual glass/load/headroom and extra assembly loads remain recipe-specific."
+  },
+  "scalingEvidence": [
+    {
+      "state": 0.25,
+      "ingredientSha256": "e73d65fc933628f4d20e3ef59cd47891ff316b2b7cf5bf4fc947ff724b98c01f",
+      "yield": "1/4 portion",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "678ff03546ac579e460eff4feeb4de95d709d41da161cc9584ed9be8b4483525",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 0.5,
+      "ingredientSha256": "a77be143b07bbf769f618fab3328abf2e0dc9534d711bc027c8993d616b388dd",
+      "yield": "1/2 portion",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "d30f050b232c1644d00754b06af40fab6cab87aee859ea5befd5fbd52fdfaeb6",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1,
+      "ingredientSha256": "436a7644eab6cf5066d4c0961a5256a661ac9fb3e38b9871e2c869219dd28f68",
+      "yield": "1 portion",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "2ba3d65b8d7aec668dd2059cda712f925d3749c09da4df7cd01afa9dcf2b8094",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 1.5,
+      "ingredientSha256": "b910f3b1d4f22f6cb5f30618de8799e1bb046d7b70dcc298642d96d14a52c627",
+      "yield": "1 1/2 portions",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "ecdc0ed48fff2cfc6c167cc5edac032477c874e1879f4036e5d1e0206482258f",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 2,
+      "ingredientSha256": "c23f9c84d3af4b8f788072733ceab2a5a953af88200bb248fcbb8bdde3aa26e2",
+      "yield": "2 portions",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "d9cd6129efb06a509de2c3b9ac585dd4eccec7a405afc0a3afcbe3826d2b5958",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": 3,
+      "ingredientSha256": "8dbfc5acbe0f91b333e588349fb0c5d110e4e64cf24e8baa0706979045f37e7c",
+      "yield": "3 portions",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "1e957727c3c0d3972042f7eedca4fd137e33936b0a5365e6893792892aa654b5",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    },
+    {
+      "state": "reset",
+      "ingredientSha256": "436a7644eab6cf5066d4c0961a5256a661ac9fb3e38b9871e2c869219dd28f68",
+      "yield": "1 portion",
+      "directionsSha256": "6f54df947548c4afb5d4a6de5911de7a1f81e9cc2ec995205ee5295f69e250fd",
+      "shoppingSha256": "2ba3d65b8d7aec668dd2059cda712f925d3749c09da4df7cd01afa9dcf2b8094",
+      "scope": "Arithmetic generated display/check only; actual glass or appliance capacity and fractions require the retained cooking instructions."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing spirit/product descriptions, all measured totals, source URLs/credits, distinct options, identities, ratings, all prior safety sentences and retained correction outcomes preserved exactly from the peer-corrected candidate."
+  ],
+  "remainingQuestions": [
+    "Compare rye/Cognac and optional bitters using the intended bottles, recording dash style and syrup strength.",
+    "Measure actual rinse supply and retained aroma without treating all poured rinse spirit as consumed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
