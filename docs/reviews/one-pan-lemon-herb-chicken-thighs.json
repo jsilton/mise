@@ -1,0 +1,1030 @@
+{
+  "slug": "one-pan-lemon-herb-chicken-thighs",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "9bc2e000ff06c511a0486a4ff1e3b4b984e36f5f3e8d284d68e66af650225b65",
+  "acceptedSourceSha256": "dcd46a42509c40c8dfe6fd5028a9246463eb74cb191198a876fb8fc69db7dc3d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 25 min, longer with extra loads or vegetables"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 40 min, including the 5-minute rest; vegetables may take longer"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "equipment",
+      "before": ["sheet-pan"],
+      "after": ["large-skillet"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 Chicken Thighs, bone-in and skin-on (about 2.5-3 lbs total)",
+        "3 tbsp Olive Oil",
+        "4 cloves Garlic, sliced",
+        "2 tbsp Fresh Oregano (or 2 tsp dried)",
+        "2 tbsp Fresh Thyme (or 2 tsp dried)",
+        "Zest of 2 Lemons",
+        "Juice of 2 Lemons",
+        "1/2 cup Chicken Stock or Water",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "1 lb Potatoes or Root Vegetables (optional, cut into 1-inch pieces)",
+        "Fresh Parsley for garnish"
+      ],
+      "after": [
+        "--- Chicken and lemon-herb pan ---",
+        "8 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "3 tbsp olive oil",
+        "4 garlic cloves, peeled and sliced",
+        "2 tbsp fresh oregano, washed",
+        "2 tbsp fresh thyme, washed",
+        "2 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1/2 cup chicken stock or water",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 300,
+        "protein": 24,
+        "carbs": 7.5,
+        "fat": 20.5,
+        "fiber": 3,
+        "sugar": 1.5,
+        "sodium": 770
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pan",
+            "name": "Chicken and lemon-herb pan",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "bone-in skin-on chicken thigh",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "plural": "bone-in skin-on chicken thighs",
+                "preparation": "raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": "2/3"
+                  },
+                  {
+                    "step": "aromatics",
+                    "share": "1/3"
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "peeled and sliced"
+              },
+              {
+                "id": "oregano",
+                "key": "oregano",
+                "name": "fresh oregano",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed"
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "fresh thyme",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed"
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "deglaze",
+                    "share": 1
+                  }
+                ],
+                "plural": "lemons",
+                "preparation": "washed, zested and juiced; reserve all juice and zest from these same lemons"
+              },
+              {
+                "id": "stock",
+                "key": "stock",
+                "name": "chicken stock or water",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "deglaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "roots",
+                "key": "roots",
+                "name": "potatoes or root vegetables",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "return",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed, peeled if wanted and cut into 1-inch pieces",
+                "optional": true
+              },
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "allowance": "as wanted for garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and chopped",
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Preheat and season",
+            "text": "Preheat the oven to 425°F. Use an oven-safe skillet with room for all the measured thighs in one layer and, if using them, the vegetables; use additional oven-safe vessels if necessary. Pat all the measured thighs dry and season both sides with all {{ingredients}}. Divide every measured ingredient proportionally among any extra vessels; do not add extra oil or stock."
+          },
+          {
+            "id": "sear",
+            "title": "Sear the chicken",
+            "text": "Heat the assigned two-thirds of {{name:pan.oil}} over medium-high heat and use {{ingredients}} for searing. Put chicken skin-side down without crowding; work in loads if needed, using this same measured oil supply across the loads. Cook about 5–6 minutes until deeply golden and releasing from the pan, then turn and cook about 2 minutes. Transfer to a plate; keep all rendered fat in the cooking pan."
+          },
+          {
+            "id": "aromatics",
+            "title": "Cook aromatics",
+            "text": "Use {{ingredients}} for this stage. Reduce heat to medium, add the remaining one-third of the measured oil and all the garlic, and sauté for 30–45 seconds until fragrant. Then stir in all the oregano and thyme for about 15 seconds; do not let the garlic blacken."
+          },
+          {
+            "id": "deglaze",
+            "title": "Add lemon and stock",
+            "text": "Use {{ingredients}} to deglaze: pour in all the juice from the measured lemons and the stock or water, scrape the browned bits, then stir in all the reserved zest. Keep the whole sauce and rendered fat."
+          },
+          {
+            "id": "return",
+            "title": "Return chicken and optional vegetables",
+            "text": "Return all the partly cooked chicken and its plate juices to the pan, skin-side up, keeping skin above the liquid where possible. Nestle {{ingredients}} around the thighs. Transfer the oven-safe vessel or vessels to the preheated oven; do not crowd or stack the thighs."
+          },
+          {
+            "id": "roast",
+            "title": "Finish to temperature and tenderness",
+            "text": "Start checking after 12–15 minutes without vegetables, or 15–18 minutes with them. These are first checks, not guaranteed finishing times. Every thigh must reach 165°F / 74°C in its thickest part away from the bone. Vegetables must be fork-tender; if chicken finishes first, remove it with clean utensils to a clean platter and continue cooking the vegetables and full sauce. Check raw-contact sauce and vegetables reach 165°F / 74°C before tasting or serving them, stirring liquid for a representative reading. Larger loads or different roots can need longer."
+          },
+          {
+            "id": "finish",
+            "title": "Rest and garnish",
+            "text": "Rest cooked chicken for 5 minutes. Once chicken and the raw-contact sauce/vegetables have reached their endpoints, taste the sauce and scatter {{ingredients}} over the finished dish. Serve all the sauce and rendered fat with the chicken."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Finish chicken and optional vegetables by separate cues",
+        "outcome": "Golden skin above the lemon-herb sauce, cooked thigh centers and fork-tender vegetables if included.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use oven-safe vessels rated for 425°F, with room for a single layer of thighs and stirring headroom. Eight is the original thigh count; scale ingredients together and use enough vessels rather than stacking the chicken.",
+          "Zest and juice the same measured lemons. Choose either the measured fresh herbs or the dried-herb alternative; do not add both. Keep the entire three-tablespoon original oil supply and all rendered fat.",
+          "One-inch potatoes or other roots can outlast the chicken. Choose the vegetable before planning service, and have a clean platter ready if the chicken finishes first."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Skin is golden and releases without force.",
+            "why": "Allowing the surface to brown makes turning easier; the sear does not cook the centers completely."
+          },
+          {
+            "step": 6,
+            "cue": "Chicken reaches 165°F / 74°C; optional vegetable centers are fork-tender.",
+            "why": "A meat reading does not establish vegetable tenderness or certify a separate pan of raw-contact sauce."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Chicken is ready while vegetables are firm",
+            "cause": "The vegetable choice, piece size or crowded pan needs longer than the chicken.",
+            "fix": "Remove fully cooked chicken with clean utensils and continue the vegetables and sauce to their stated endpoints. Do not serve firm vegetables to meet the first-check time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh oregano and thyme",
+            "alternative": "For the original batch, use 2 tsp dried oregano instead of 2 tbsp fresh oregano, and 2 tsp dried thyme instead of 2 tbsp fresh thyme. Scale the alternative supplies with the full recipe.",
+            "effect": "The dried herbs have a different aroma; retain the lemon and entire oil/stock amounts."
+          },
+          {
+            "ingredient": "Chicken stock",
+            "alternative": "Use the same listed volume of water instead.",
+            "effect": "The sauce has less stock flavor while retaining the same starting liquid amount."
+          }
+        ],
+        "timing": "Allow about 40 minutes for the original batch without vegetables: 10 minutes preparation, roughly 8 minutes searing, about 1 minute aromatics, 12–15 minutes initial roasting and 5 minutes resting, with heating and handling between stages. Most searing and finishing are active. Extra sear loads, additional vessels and vegetable finishing extend elapsed time; none of the temperatures or clocks multiplies with ingredients.",
+        "storage": "Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat chicken, vegetables and sauce to 165°F / 74°C throughout; USDA additionally recommends bringing reheated sauces to a rolling boil, stirring. Keep that boil brief rather than prolonged, which may concentrate the lemon sauce.",
+        "sources": [
+          {
+            "title": "FDA safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nLemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on thighs are forgiving, hard to overcook, and get crispy skin when seared first. The acid from lemon cuts the richness of the thighs, and the herbs - oregano especially - are what makes you taste the Mediterranean. Searing the chicken before roasting develops a golden, crispy skin while keeping the inside moist.\n\n## Directions\n\n1. **The Prep:** Pat chicken thighs completely dry with paper towels. Season generously with salt and pepper on both sides.\n\n2. **Sear the Chicken:** Heat 2 tbsp olive oil in a large oven-safe skillet over medium-high heat. Once shimmering, add chicken skin-side down. Do not move them for 5-6 minutes until the skin is deeply golden and crispy. Flip and sear the other side for 2 minutes. Transfer to a plate.\n\n3. **Aromatics:** Reduce heat to medium. Add remaining 1 tbsp oil and sliced garlic. Sauté for 30-45 seconds until fragrant. Add fresh oregano and thyme, stirring for 15 seconds.\n\n4. **Deglaze:** Pour in lemon juice and chicken stock. Scrape the bottom of the pan with a wooden spoon to release any browned bits. Stir in lemon zest.\n\n5. **Return and Roast:** Return chicken to the pan, skin-side up. Nestle into the sauce. If using potatoes, add them now around the chicken. Transfer the skillet to a 425°F oven.\n\n6. **Roast:** Bake for 12-15 minutes (without vegetables: 12 min; with vegetables: 15-18 min) until the thighs reach an internal temperature of 165°F at the thickest part of the thigh. The skin should be crispy and golden.\n\n7. **Finish:** Remove from oven. Taste the sauce and adjust lemon juice, salt, or herbs. Garnish with fresh parsley.\n\n**One-Pan Magic:** Everything cooks in the same skillet - proteins, sauce, and vegetables if you add them. The cleanup is minimal.\n\nLet the cooked chicken thighs rest for 5 minutes before serving.\n",
+    "after": "\n## Chef's Note\n\nLemon, oregano and thyme give this skillet chicken its Mediterranean-style flavor. Brown the skin first, keep it above the sauce while roasting where possible, and judge thigh temperature and optional vegetable tenderness separately.\n\n## Directions\n\n1. **Preheat and season:** Preheat the oven to 425°F. Use an oven-safe skillet with room for all the measured thighs in one layer and, if using them, the vegetables; use additional oven-safe vessels if necessary. Pat all the measured thighs dry and season both sides with all kosher salt and black pepper. Divide every measured ingredient proportionally among any extra vessels; do not add extra oil or stock.\n2. **Sear the chicken:** Heat the assigned two-thirds of olive oil over medium-high heat and use bone-in skin-on chicken thighs and 2/3 of the olive oil for searing. Put chicken skin-side down without crowding; work in loads if needed, using this same measured oil supply across the loads. Cook about 5–6 minutes until deeply golden and releasing from the pan, then turn and cook about 2 minutes. Transfer to a plate; keep all rendered fat in the cooking pan.\n3. **Cook aromatics:** Use 1/3 of the olive oil, garlic cloves, fresh oregano, and fresh thyme for this stage. Reduce heat to medium, add the remaining one-third of the measured oil and all the garlic, and sauté for 30–45 seconds until fragrant. Then stir in all the oregano and thyme for about 15 seconds; do not let the garlic blacken.\n4. **Add lemon and stock:** Use lemons and chicken stock or water to deglaze: pour in all the juice from the measured lemons and the stock or water, scrape the browned bits, then stir in all the reserved zest. Keep the whole sauce and rendered fat.\n5. **Return chicken and optional vegetables:** Return all the partly cooked chicken and its plate juices to the pan, skin-side up, keeping skin above the liquid where possible. Nestle potatoes or root vegetables (if using) around the thighs. Transfer the oven-safe vessel or vessels to the preheated oven; do not crowd or stack the thighs.\n6. **Finish to temperature and tenderness:** Start checking after 12–15 minutes without vegetables, or 15–18 minutes with them. These are first checks, not guaranteed finishing times. Every thigh must reach 165°F / 74°C in its thickest part away from the bone. Vegetables must be fork-tender; if chicken finishes first, remove it with clean utensils to a clean platter and continue cooking the vegetables and full sauce. Check raw-contact sauce and vegetables reach 165°F / 74°C before tasting or serving them, stirring liquid for a representative reading. Larger loads or different roots can need longer.\n7. **Rest and garnish:** Rest cooked chicken for 5 minutes. Once chicken and the raw-contact sauce/vegetables have reached their endpoints, taste the sauce and scatter fresh parsley over the finished dish. Serve all the sauce and rendered fat with the chicken.\n"
+  },
+  "findings": [
+    {
+      "id": "P03-L01",
+      "rationale": "Conserve8 thighs/all3tbsp oil2/3+1/3/full rendered fat/herbs/same2lemons/½cup stock or water/optional1lb vegetables. Compile scaled allocations together; qualify original weight and replace unscaled literal oil counts. Current seasoning generous wording now uses the listed1tsp kosher salt/½tsp pepper.",
+      "confidence": "High conservation; capacity untested",
+      "applicableSources": ["2a7f3853", "a2c9e280", "STRUCTURED_RECIPE_AUTHORING"],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content"],
+      "questions": [
+        "Which potatoes/root vegetables and actual oven-safe vessel fit all8 thighs plus1lb vegetables without crowding? Confirm earlier removal and sauce/vegetable endpoint checks.",
+        "Measure actual active/elapsed time, thigh size, rendered-fat sauce amount, skin texture and four-portion service; clarify kosher-salt crystal type without equal-spoon substitution."
+      ]
+    },
+    {
+      "id": "P03-L02",
+      "rationale": "Add missing preheat, real oven-safe vessel requirement, first-check rather than guaranteed vegetable clock, separate tenderness and raw-contact165 checks before tasting; preserve prior garlic30–45 sec and5-minute rest. No added liquid/oil or universal vegetable time.",
+      "confidence": "High internal contradiction/endpoint; moderate raw-contact sequencing inference",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "2b01ffbb",
+        "85691102"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning", "cookTime", "totalTime", "equipment"],
+      "questions": [
+        "Which potatoes/root vegetables and actual oven-safe vessel fit all8 thighs plus1lb vegetables without crowding? Confirm earlier removal and sauce/vegetable endpoint checks.",
+        "Measure actual active/elapsed time, thigh size, rendered-fat sauce amount, skin texture and four-portion service; clarify kosher-salt crystal type without equal-spoon substitution."
+      ]
+    },
+    {
+      "id": "P03-L03",
+      "rationale": "Omit unsupported regional country field and unverified nutrition; retain both style tags and actual source absence.",
+      "confidence": "High",
+      "applicableSources": ["2a7f3853", "902e7e8e", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": [
+        "Which potatoes/root vegetables and actual oven-safe vessel fit all8 thighs plus1lb vegetables without crowding? Confirm earlier removal and sauce/vegetable endpoint checks.",
+        "Measure actual active/elapsed time, thigh size, rendered-fat sauce amount, skin texture and four-portion service; clarify kosher-salt crystal type without equal-spoon substitution."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/one-pan-lemon-herb-chicken-thighs.md",
+    "introductionScope": "Exact retained canonical cooking introduction and complete followed history; native provenance is independently established only where an exact original binding exists.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "First Git2a7f3853 introduces this formula with no external author/source. Bound original450 archive has no registry UID match. Actual later2b01 repairs garlic timing;856 repairs rest; a2 clarifies original thigh-weight total. No external recipe or universal one-pan capacity is substituted. Same-pan sauce165 and endpoint-led vegetable continuation are explicitly editorial applications, not primary certification or physical tests.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 Chicken Thighs, bone-in and skin-on (about 2.5-3 lbs total)",
+        "destination": "dry/season → sear → roast165; eight pieces/weight original context",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "3 tbsp Olive Oil",
+        "destination": "2tbsp sear +1tbsp aromatics; fixed literal split at scale",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "4 cloves Garlic, sliced",
+        "destination": "aromatics30–45 sec",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 tbsp Fresh Oregano (or 2 tsp dried)",
+        "destination": "aromatics; dried alternative not explicit method",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 tbsp Fresh Thyme (or 2 tsp dried)",
+        "destination": "aromatics; dried alternative not explicit method",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Zest of 2 Lemons",
+        "destination": "deglaze; same lemons as juice, leading Zest count not scaled",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Juice of 2 Lemons",
+        "destination": "deglaze; same lemons as zest, leading Juice count not scaled",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/2 cup Chicken Stock or Water",
+        "destination": "deglaze; water alternative not explicit method",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 tsp Kosher Salt",
+        "destination": "season generously; later unlisted adjustment",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/2 tsp Black Pepper",
+        "destination": "season generously",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 lb Potatoes or Root Vegetables (optional, cut into 1-inch pieces)",
+        "destination": "raw optional1-inch pieces added before short roast; tenderness not checked",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Fresh Parsley for garnish",
+        "destination": "finish; genuine unmeasured garnish",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "id": "pan.chicken",
+        "name": "bone-in skin-on chicken thigh",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": "2/3"
+          },
+          {
+            "step": "aromatics",
+            "share": "1/3"
+          }
+        ]
+      },
+      {
+        "id": "pan.garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and sliced",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.oregano",
+        "name": "fresh oregano",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "washed",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.thyme",
+        "name": "fresh thyme",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "washed",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.lemon",
+        "name": "lemon",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "deglaze",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.stock",
+        "name": "chicken stock or water",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "deglaze",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.pepper",
+        "name": "black pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.roots",
+        "name": "potatoes or root vegetables",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "washed, peeled if wanted and cut into 1-inch pieces",
+        "optional": true,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "return",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "pan.parsley",
+        "name": "fresh parsley",
+        "quantity": null,
+        "allowance": "as wanted for garnish",
+        "preparation": "washed and chopped",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "Optional roots",
+        "amount": "1lb original batch,1-inch pieces",
+        "destination": "Around chicken; continue to tenderness if chicken finishes first",
+        "confidence": "Inherited amount; endpoint-led continuation editorial/untested"
+      },
+      {
+        "name": "Dried herbs and water",
+        "amount": "2tsp each dried herb instead of2tbsp fresh;½cup water instead of stock in original batch",
+        "destination": "Same aromatics/deglaze",
+        "confidence": "Exact current alternatives; no gram conversion"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Preheat and season: Preheat the oven to 425°F. Use an oven-safe skillet with room for all the measured thighs in one layer and, if using them, the vegetables; use additional oven-safe vessels if necessary. Pat all the measured thighs dry and season both sides with all kosher salt and black pepper. Divide every measured ingredient proportionally among any extra vessels; do not add extra oil or stock."
+    },
+    {
+      "step": 2,
+      "text": "Sear the chicken: Heat the assigned two-thirds of olive oil over medium-high heat and use bone-in skin-on chicken thighs and 2/3 of the olive oil for searing. Put chicken skin-side down without crowding; work in loads if needed, using this same measured oil supply across the loads. Cook about 5–6 minutes until deeply golden and releasing from the pan, then turn and cook about 2 minutes. Transfer to a plate; keep all rendered fat in the cooking pan."
+    },
+    {
+      "step": 3,
+      "text": "Cook aromatics: Use 1/3 of the olive oil, garlic cloves, fresh oregano, and fresh thyme for this stage. Reduce heat to medium, add the remaining one-third of the measured oil and all the garlic, and sauté for 30–45 seconds until fragrant. Then stir in all the oregano and thyme for about 15 seconds; do not let the garlic blacken."
+    },
+    {
+      "step": 4,
+      "text": "Add lemon and stock: Use lemons and chicken stock or water to deglaze: pour in all the juice from the measured lemons and the stock or water, scrape the browned bits, then stir in all the reserved zest. Keep the whole sauce and rendered fat."
+    },
+    {
+      "step": 5,
+      "text": "Return chicken and optional vegetables: Return all the partly cooked chicken and its plate juices to the pan, skin-side up, keeping skin above the liquid where possible. Nestle potatoes or root vegetables (if using) around the thighs. Transfer the oven-safe vessel or vessels to the preheated oven; do not crowd or stack the thighs."
+    },
+    {
+      "step": 6,
+      "text": "Finish to temperature and tenderness: Start checking after 12–15 minutes without vegetables, or 15–18 minutes with them. These are first checks, not guaranteed finishing times. Every thigh must reach 165°F / 74°C in its thickest part away from the bone. Vegetables must be fork-tender; if chicken finishes first, remove it with clean utensils to a clean platter and continue cooking the vegetables and full sauce. Check raw-contact sauce and vegetables reach 165°F / 74°C before tasting or serving them, stirring liquid for a representative reading. Larger loads or different roots can need longer."
+    },
+    {
+      "step": 7,
+      "text": "Rest and garnish: Rest cooked chicken for 5 minutes. Once chicken and the raw-contact sauce/vegetables have reached their endpoints, taste the sauce and scatter fresh parsley over the finished dish. Serve all the sauce and rendered fat with the chicken."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Optional roots",
+      "amount": "1lb original batch,1-inch pieces",
+      "destination": "Around chicken; continue to tenderness if chicken finishes first",
+      "confidence": "Inherited amount; endpoint-led continuation editorial/untested"
+    },
+    {
+      "name": "Dried herbs and water",
+      "amount": "2tsp each dried herb instead of2tbsp fresh;½cup water instead of stock in original batch",
+      "destination": "Same aromatics/deglaze",
+      "confidence": "Exact current alternatives; no gram conversion"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "incomingRecipes": [
+      "src/content/recipes/lemon-garlic-broccolini.md",
+      "src/content/recipes/crispy-parmesan-roasted-broccoli.md",
+      "src/content/recipes/roasted-brussels-sprouts-with-balsamic.md"
+    ],
+    "outgoingPairings": ["cilantro-lime-rice", "basmati-rice", "charred-asparagus-with-parmesan"],
+    "allReferencesResolve": true,
+    "mealDisposition": "No composed meal approval. Complete incoming meals read; portion/equipment/timeline work remains separate.",
+    "remainingQuestion": null
+  },
+  "ratiosYieldAndCapacity": "All eight thighs, full three tablespoons of oil split two-thirds/one-third, both lemons and half-cup liquid are retained. Optional one-pound roots remain an additional complete route. Use a single layer and additional oven-safe pan when needed; chicken and raw-contact sauce reach 165°F and roots become fork-tender independently. Yield and time are planning values, not measured household output.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "2 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "3/4 tbsp olive oil",
+        "1 garlic clove, peeled and sliced",
+        "1/2 tbsp fresh oregano, washed",
+        "1/2 tbsp fresh thyme, washed",
+        "1/2 lemon, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1/8 cup chicken stock or water",
+        "1/4 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1/4 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "2 bone-in skin-on chicken thighs",
+        "3/4 tbsp olive oil",
+        "1 garlic clove",
+        "1/2 tbsp fresh oregano",
+        "1/2 tbsp fresh thyme",
+        "1/2 lemon",
+        "1/8 cup chicken stock or water",
+        "1/4 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1/4 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "4 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "1 1/2 tbsp olive oil",
+        "2 garlic cloves, peeled and sliced",
+        "1 tbsp fresh oregano, washed",
+        "1 tbsp fresh thyme, washed",
+        "1 lemon, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1/4 cup chicken stock or water",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "1/2 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "4 bone-in skin-on chicken thighs",
+        "1 1/2 tbsp olive oil",
+        "2 garlic cloves",
+        "1 tbsp fresh oregano",
+        "1 tbsp fresh thyme",
+        "1 lemon",
+        "1/4 cup chicken stock or water",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "1/2 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "8 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "3 tbsp olive oil",
+        "4 garlic cloves, peeled and sliced",
+        "2 tbsp fresh oregano, washed",
+        "2 tbsp fresh thyme, washed",
+        "2 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1/2 cup chicken stock or water",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "8 bone-in skin-on chicken thighs",
+        "3 tbsp olive oil",
+        "4 garlic cloves",
+        "2 tbsp fresh oregano",
+        "2 tbsp fresh thyme",
+        "2 lemons",
+        "1/2 cup chicken stock or water",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "12 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "4 1/2 tbsp olive oil",
+        "6 garlic cloves, peeled and sliced",
+        "3 tbsp fresh oregano, washed",
+        "3 tbsp fresh thyme, washed",
+        "3 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "3/4 cup chicken stock or water",
+        "1 1/2 tsp kosher salt",
+        "3/4 tsp black pepper",
+        "1 1/2 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "12 bone-in skin-on chicken thighs",
+        "4 1/2 tbsp olive oil",
+        "6 garlic cloves",
+        "3 tbsp fresh oregano",
+        "3 tbsp fresh thyme",
+        "3 lemons",
+        "3/4 cup chicken stock or water",
+        "1 1/2 tsp kosher salt",
+        "3/4 tsp black pepper",
+        "1 1/2 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "16 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "6 tbsp olive oil",
+        "8 garlic cloves, peeled and sliced",
+        "4 tbsp fresh oregano, washed",
+        "4 tbsp fresh thyme, washed",
+        "4 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1 cup chicken stock or water",
+        "2 tsp kosher salt",
+        "1 tsp black pepper",
+        "2 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "16 bone-in skin-on chicken thighs",
+        "6 tbsp olive oil",
+        "8 garlic cloves",
+        "4 tbsp fresh oregano",
+        "4 tbsp fresh thyme",
+        "4 lemons",
+        "1 cup chicken stock or water",
+        "2 tsp kosher salt",
+        "1 tsp black pepper",
+        "2 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "24 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "9 tbsp olive oil",
+        "12 garlic cloves, peeled and sliced",
+        "6 tbsp fresh oregano, washed",
+        "6 tbsp fresh thyme, washed",
+        "6 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1 1/2 cups chicken stock or water",
+        "3 tsp kosher salt",
+        "1 1/2 tsp black pepper",
+        "3 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "24 bone-in skin-on chicken thighs",
+        "9 tbsp olive oil",
+        "12 garlic cloves",
+        "6 tbsp fresh oregano",
+        "6 tbsp fresh thyme",
+        "6 lemons",
+        "1 1/2 cups chicken stock or water",
+        "3 tsp kosher salt",
+        "1 1/2 tsp black pepper",
+        "3 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Chicken and lemon-herb pan ---",
+        "8 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total",
+        "3 tbsp olive oil",
+        "4 garlic cloves, peeled and sliced",
+        "2 tbsp fresh oregano, washed",
+        "2 tbsp fresh thyme, washed",
+        "2 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons",
+        "1/2 cup chicken stock or water",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional",
+        "fresh parsley, as wanted for garnish, washed and chopped"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "8 bone-in skin-on chicken thighs",
+        "3 tbsp olive oil",
+        "4 garlic cloves",
+        "2 tbsp fresh oregano",
+        "2 tbsp fresh thyme",
+        "2 lemons",
+        "1/2 cup chicken stock or water",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1 lb potatoes or root vegetables, optional",
+        "fresh parsley, as wanted for garnish"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which potatoes/root vegetables and actual oven-safe vessel fit all8 thighs plus1lb vegetables without crowding? Confirm earlier removal and sauce/vegetable endpoint checks.",
+    "Measure actual active/elapsed time, thigh size, rendered-fat sauce amount, skin texture and four-portion service; clarify kosher-salt crystal type without equal-spoon substitution."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

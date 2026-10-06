@@ -227,6 +227,40 @@ for (const row of confirmed) {
           );
         }
         assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
+      } else if (
+        row.slug === 'one-pan-lemon-herb-chicken-thighs' &&
+        [43, 44, 45].includes(row.caseId)
+      ) {
+        // Keep all three original parser inputs and numeric oracles below.
+        // The live formula counts thighs with original-batch weight context,
+        // and uses both juice and zest from the same counted lemons.
+        assert.equal(data.formula?.version, 1);
+        const chicken = row.caseId === 43;
+        const ingredient = data.formula.components
+          .find((c) => c.id === 'pan')
+          .ingredients.find((i) => i.id === (chicken ? 'chicken' : 'lemon'));
+        assert.deepEqual(ingredient.quantity, { amount: chicken ? 8 : 2, unit: 'count' });
+        assert.equal(ingredient.name, chicken ? 'bone-in skin-on chicken thigh' : 'lemon');
+        assert.equal(
+          ingredient.preparation,
+          chicken
+            ? 'raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total'
+            : 'washed, zested and juiced; reserve all juice and zest from these same lemons'
+        );
+        assert.deepEqual(ingredient.uses, [{ step: chicken ? 'sear' : 'deglaze', share: 1 }]);
+        if (!chicken) {
+          const deglaze = data.formula.steps.find((s) => s.id === 'deglaze');
+          assert.match(deglaze.text, /all the juice from the measured lemons/);
+          assert.match(deglaze.text, /all the reserved zest/);
+        }
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(ingredient, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            chicken ? [8 * factor, 2.5, 3] : [2 * factor]
+          );
+          if (factor === 1) assert.equal(scaled, formatFormulaIngredient(ingredient));
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

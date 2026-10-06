@@ -1,0 +1,897 @@
+{
+  "slug": "extraordinary-chocolate-chip-cookie",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "fc94bd5d61ef5b5f7e0828e1eb157264cd9522560c51b86b9a79f57914c6d5f1",
+  "acceptedSourceSha256": "8778d206737241c36ebe41f896985432014b3f3ab464fbdd895336f35f5ca6f2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–17 min per tray"
+    },
+    {
+      "field": "totalTime",
+      "before": "1500 min",
+      "after": "20 min prep, plus 15–17 min per tray, cooling and any optional chill"
+    },
+    {
+      "field": "servings",
+      "before": "24",
+      "after": "24 large cookies (approximate)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+        "1 1/4 cups Dark Brown Sugar, packed",
+        "3/4 cup Granulated Sugar",
+        "2 large Eggs, room temp",
+        "1 tsp Pure Vanilla Extract",
+        "2 3/4 cups All-Purpose Flour",
+        "1 1/4 tsp Kosher Salt",
+        "1 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "4 1/2 cups Semisweet Chocolate Chips (The \"Maximum Chocolate\" Method)"
+      ],
+      "after": [
+        "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+        "1 1/4 cups Dark Brown Sugar, packed",
+        "3/4 cup Granulated Sugar",
+        "2 large Eggs, room temp",
+        "1 tsp Pure Vanilla Extract",
+        "2 3/4 cups All-Purpose Flour",
+        "1 1/4 tsp Kosher Salt",
+        "1 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "4 1/2 cups Semisweet Chocolate Chips"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 390,
+        "protein": 4.5,
+        "carbs": 69.5,
+        "fat": 11.5,
+        "fiber": 4.5,
+        "sugar": 57,
+        "sodium": 220
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cream a very rich chip-filled dough and choose immediate baking or an optional cold rest.",
+        "outcome": "Large cookies have golden edges, soft set centers and chocolate distributed through the dough.",
+        "techniques": ["temperature", "leavening"],
+        "before": [
+          "Start with softened butter and room-temperature eggs that can mix evenly; butter should not be melted. Keep the full listed dark brown sugar and chocolate-chip amount.",
+          "The original batch makes about 24 large cookies with a 2 1/4-inch scoop. Scoop dimensions and 3-inch spacing stay the same when the ingredient batch changes; add loads, not larger portions.",
+          "Choose the route before scheduling: immediate baking has no required chill. Overnight or 24–36 h refrigeration adds that entire rest to elapsed time. The rest does not guarantee a particular flavor change.",
+          "If scaling gives a fractional egg, beat an egg and use the required fraction rather than rounding to a whole egg. Keep portion size, spacing and baking temperature the same."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The butter and sugars are pale and fluffy, with the bowl scraped clean of dense butter.",
+            "why": "Texture governs the creaming endpoint alongside the approximate four-minute guide."
+          },
+          {
+            "step": 3,
+            "cue": "No dry flour remains and all the chips are evenly distributed.",
+            "why": "This large filling should not leave chip-free portions; further flour mixing is unnecessary."
+          },
+          {
+            "step": 6,
+            "cue": "The edges are golden brown and the centers have set while remaining soft.",
+            "why": "Chilled and freshly mixed portions may finish at different times, so the first tray establishes the useful checking window."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Chips collect at the bottom of the bowl",
+            "cause": "The very large chip addition was not evenly folded through.",
+            "fix": "Fold the remaining dough gently until chips are distributed and scoop similar portions; do not discard chips to make the dough easier to portion."
+          },
+          {
+            "problem": "Cookie centers remain unset at the stated time",
+            "cause": "Cold dough, larger portions or a cooler actual oven slowed baking.",
+            "fix": "Continue baking and watch the edge/center cues. Keep the same portion size for the next tray and confirm the oven is preheated."
+          }
+        ],
+        "storage": "Do not taste raw dough. Keep rested or waiting dough covered at 40°F / 4°C or below; use the selected overnight or 24–36-hour rest before baking. Cool plain cookies fully before packing them airtight in a cool, dry place. Freeze for longer storage and thaw covered.",
+        "timing": "Allow about 20 minutes active preparation, 15–17 minutes per oven load and 5 minutes on the pan before rack cooling. Preheat during immediate-route mixing or before portioning rested dough; any heating still needed delays loading. Further loads and complete cooling add elapsed time. Overnight or 24–36-hour refrigeration is a separate optional route, not included in the immediate-baking subtotal.",
+        "sources": [
+          {
+            "title": "PBS: attributed Martha Bakes cookie",
+            "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/"
+          },
+          {
+            "title": "FDA: handling raw flour and dough",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to extraordinary texture is chilling the dough for 24 hours. Refrigerating the dough overnight is mandatory; it allows the starch to fully hydrate and the sugars to undergo enzymatic breakdown, resulting in a cookie with deep, butterscotch-like flavor. We use dark brown sugar instead of light to provide a richer moisture profile and a more pronounced chewy center. This recipe uses a generous chocolate ratio - 4.5 cups ensure that every single bite is dominated by molten chocolate.\n\n## Directions\n\n1.  **Dry Mix:** Whisk together flour, salt, baking powder, and baking soda. Set aside.\n2.  **Cream:** In a stand mixer with the paddle attachment, cream butter and both sugars on medium speed for exactly 4 minutes until pale and aerated. Add eggs one at a time, followed by vanilla.\n3.  **Combine:** On low speed, add the flour mixture until **just combined**. Fold in the chocolate chips by hand to avoid breaking them.\n4.  **The Chill:** Press plastic wrap against the surface of the dough and refrigerate for **at least 24 hours** (ideally 36).\n5.  **Portion:** Preheat oven to 350°F. Using a 2 1/4-inch scoop, drop dough balls onto parchment-lined sheets, 3 inches apart.\n6.  **Bake:** Bake for 15-17 minutes until the edges are golden brown and the centers are set but still look soft.\n7.  **Cool:** Let sit on the sheet for 5 minutes before transferring to a wire rack.\n",
+    "after": "\n## Chef's Note\n\nThis dough has a large chocolate-chip filling and can be baked as soon as it is mixed. A refrigerated rest is optional. Cream the softened butter and sugars until pale and fluffy, then finish mixing as soon as the flour and chips are evenly incorporated.\n\n## Directions\n\n1. **Prepare and dry mix:** For immediate baking, start preheating the oven to 350°F before mixing. Whisk the flour, kosher salt, baking powder and baking soda together. For the refrigerated route, preheat near baking time instead.\n\n2. **Cream:** With a paddle attachment, beat the softened butter and both sugars on medium speed until pale and fluffy, about 4 minutes. Scrape the bowl, then beat in the eggs one at a time and mix in the vanilla.\n\n3. **Combine:** On low speed, add the dry ingredients just until no flour pockets remain. Fold in all the chocolate chips until evenly distributed.\n\n4. **Choose the rest:** Bake the dough now, or cover and refrigerate it overnight. A longer 24–36-hour refrigerated rest is another option, not a requirement. Keep any rested dough covered at 40°F / 4°C or below.\n\n5. **Portion:** Preheat the oven to 350°F if it is not already heating, and line sheets with parchment. Use a 2 1/4-inch scoop and leave 3 inches between portions. Keep waiting dough covered and refrigerated and use additional sheets or loads rather than crowding.\n\n6. **Bake:** Load only when the oven reaches 350°F. Bake for 15–17 minutes per tray, until the edges are golden brown and the centers are set but still soft. For chilled dough, begin checking in the same window and continue as the actual cookies need.\n\n7. **Cool:** Let the cookies sit on the sheet for 5 minutes, then carefully transfer them to a rack to cool completely. Allow the sheet to cool before loading more dough.\n"
+  },
+  "findings": [
+    {
+      "id": "C02-04-01",
+      "field": "cookTime",
+      "rationale": "Recover complete immediate and overnight routes while preserving the current longer refrigerated option separately. Keep the full chocolate supply; remove only the marketing label and unsupported mandatory-chill chemistry. Preheat before immediate-route mixing, or near baking time for rested dough. Use approximate creaming and actual edge/center endpoints; preserve load/cooling dependencies.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-02",
+      "field": "totalTime",
+      "rationale": "Recover complete immediate and overnight routes while preserving the current longer refrigerated option separately. Keep the full chocolate supply; remove only the marketing label and unsupported mandatory-chill chemistry. Preheat before immediate-route mixing, or near baking time for rested dough. Use approximate creaming and actual edge/center endpoints; preserve load/cooling dependencies.",
+      "confidence": "High that omitted required stages need accounting; actual load/preheat/cooling times remain unmeasured.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-03",
+      "field": "servings",
+      "rationale": "Recover complete immediate and overnight routes while preserving the current longer refrigerated option separately. Keep the full chocolate supply; remove only the marketing label and unsupported mandatory-chill chemistry. Preheat before immediate-route mixing, or near baking time for rested dough. Use approximate creaming and actual edge/center endpoints; preserve load/cooling dependencies.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-04",
+      "field": "ingredients",
+      "rationale": "Recover complete immediate and overnight routes while preserving the current longer refrigerated option separately. Keep the full chocolate supply; remove only the marketing label and unsupported mandatory-chill chemistry. Preheat before immediate-route mixing, or near baking time for rested dough. Use approximate creaming and actual edge/center endpoints; preserve load/cooling dependencies.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-05",
+      "field": "origin",
+      "rationale": "Retained evidence establishes publisher/style, without a geographic birth-country claim for this particular recipe. Omit origin while preserving exact source and cuisine context.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-06",
+      "field": "nutrition",
+      "rationale": "Legacy batch-estimated nutrition is not independently verified; actual cookie yield and coating intake have not been measured. Remove the estimate without inventing another.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-07",
+      "field": "learning",
+      "rationale": "Recover complete immediate and overnight routes while preserving the current longer refrigerated option separately. Keep the full chocolate supply; remove only the marketing label and unsupported mandatory-chill chemistry. Preheat before immediate-route mixing, or near baking time for rested dough. Use approximate creaming and actual edge/center endpoints; preserve load/cooling dependencies.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    },
+    {
+      "id": "C02-04-08",
+      "field": "content",
+      "rationale": "Recover complete immediate and overnight routes while preserving the current longer refrigerated option separately. Keep the full chocolate supply; remove only the marketing label and unsupported mandatory-chill chemistry. Preheat before immediate-route mixing, or near baking time for rested dough. Use approximate creaming and actual edge/center endpoints; preserve load/cooling dependencies.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "94ee854bd1a0209120fc3a37ced973cd0083b9be93f6481547024813540a2145",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "aeeaccc1346ae5a9f319d1dff0014d254bf1a2e30796261c13fbaa03be4ae329",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/extraordinary-chocolate-chip-cookie.md",
+    "introductionScope": "Exact retained canonical cooking introduction and complete followed history; native provenance is independently established only where an exact original binding exists.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native and first Git allow immediate baking or covered overnight refrigeration. bc 0 c 8701 makes 24 hours/ideally 36 mandatory and introduces enzymatic-breakdown/full-hydration assertions. Later persistence does not establish an explicit household preference or accepted kitchen result. Recover immediate/overnight choices; retain 24–36 hours separately as an optional current route.",
+    "The native source uses 2-inch gaps; current 3-inch gaps remain. More space does not certify a particular sheet count.",
+    "Current all-purpose flour remains; original unbleached specificity does not establish a new quantity or leavener adjustment.",
+    "PBS primary search result corroborated the recipe, but direct card later returned 403 and the attributed feature URL could not fetch. Formula proof remains the exact retained original and first Git, not a live-card certification."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+        "destination": "cream 2",
+        "state": "Butter softened or at room temperature as listed, then creamed or melted as its destination specifies."
+      },
+      {
+        "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+        "destination": "cream 2",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "3/4 cup Granulated Sugar",
+        "destination": "cream 2",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "2 large Eggs, room temp",
+        "destination": "beat 2",
+        "state": "Raw egg incorporated into dough; oven baking follows."
+      },
+      {
+        "ingredient": "1 tsp Pure Vanilla Extract",
+        "destination": "beat 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "2 3/4 cups All-Purpose Flour",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 1/4 tsp Kosher Salt",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 tsp Baking Soda",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "4 1/2 cups Semisweet Chocolate Chips (The \"Maximum Chocolate\" Method)",
+        "destination": "mix 3",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "3/4 cup Granulated Sugar",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 large Eggs, room temp",
+        "destination": "beat 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 tsp Pure Vanilla Extract",
+        "destination": "beat 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 3/4 cups All-Purpose Flour",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 1/4 tsp Kosher Salt",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 tsp Baking Soda",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+        "destination": "mix 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      }
+    ],
+    "originalNative": [
+      {
+        "ingredient": "2 3/4 cups unbleached all-purpose flour",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 1/4 teaspoons kosher salt",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 teaspoon baking powder",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 teaspoon baking soda",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 1/4 cups (2 1/2 sticks) unsalted butter, room temperature",
+        "destination": "cream source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 1/4 cups dark-brown sugar",
+        "destination": "cream source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "3/4 cup granulated sugar",
+        "destination": "cream source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 large eggs, room temperature",
+        "destination": "beat source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 teaspoon pure vanilla extract",
+        "destination": "beat source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "4 1/2 cups semisweet chocolate chips",
+        "destination": "mix source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      }
+    ],
+    "allocations": [],
+    "variants": [
+      {
+        "name": "Immediate baking",
+        "route": "Complete ingredients; steps 1–3, immediate choice 4, then 5–7.",
+        "effect": "Exact saved primary route; no required chill.",
+        "ingredientLedger": [
+          {
+            "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "3/4 cup Granulated Sugar",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "2 large Eggs, room temp",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "1 tsp Pure Vanilla Extract",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "2 3/4 cups All-Purpose Flour",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 1/4 tsp Kosher Salt",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 tsp Baking Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+            "destination": "mix 3"
+          }
+        ]
+      },
+      {
+        "name": "Optional overnight rest",
+        "route": "Complete ingredients; cover/refrigerate aftermix 3 in 4, then 5–7.",
+        "effect": "Exact source option; do not invent an overnight-hour measurement.",
+        "ingredientLedger": [
+          {
+            "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "3/4 cup Granulated Sugar",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "2 large Eggs, room temp",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "1 tsp Pure Vanilla Extract",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "2 3/4 cups All-Purpose Flour",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 1/4 tsp Kosher Salt",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 tsp Baking Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+            "destination": "mix 3"
+          }
+        ]
+      },
+      {
+        "name": "Optional 24–36-hour rest",
+        "route": "Complete ingredients; covered refrigerated rest 4, then 5–7.",
+        "effect": "Current longer-rest route retained as untested option, not a source-mandated ideal.",
+        "ingredientLedger": [
+          {
+            "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "3/4 cup Granulated Sugar",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "2 large Eggs, room temp",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "1 tsp Pure Vanilla Extract",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "2 3/4 cups All-Purpose Flour",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 1/4 tsp Kosher Salt",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 tsp Baking Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+            "destination": "mix 3"
+          }
+        ]
+      }
+    ],
+    "additionalMethodAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "method": "1. **Prepare and dry mix:** For immediate baking, start preheating the oven to 350°F before mixing. Whisk the flour, kosher salt, baking powder and baking soda together. For the refrigerated route, preheat near baking time instead."
+    },
+    {
+      "step": 2,
+      "method": "2. **Cream:** With a paddle attachment, beat the softened butter and both sugars on medium speed until pale and fluffy, about 4 minutes. Scrape the bowl, then beat in the eggs one at a time and mix in the vanilla."
+    },
+    {
+      "step": 3,
+      "method": "3. **Combine:** On low speed, add the dry ingredients just until no flour pockets remain. Fold in all the chocolate chips until evenly distributed."
+    },
+    {
+      "step": 4,
+      "method": "4. **Choose the rest:** Bake the dough now, or cover and refrigerate it overnight. A longer 24–36-hour refrigerated rest is another option, not a requirement. Keep any rested dough covered at 40°F / 4°C or below."
+    },
+    {
+      "step": 5,
+      "method": "5. **Portion:** Preheat the oven to 350°F if it is not already heating, and line sheets with parchment. Use a 2 1/4-inch scoop and leave 3 inches between portions. Keep waiting dough covered and refrigerated and use additional sheets or loads rather than crowding."
+    },
+    {
+      "step": 6,
+      "method": "6. **Bake:** Load only when the oven reaches 350°F. Bake for 15–17 minutes per tray, until the edges are golden brown and the centers are set but still soft. For chilled dough, begin checking in the same window and continue as the actual cookies need."
+    },
+    {
+      "step": 7,
+      "method": "7. **Cool:** Let the cookies sit on the sheet for 5 minutes, then carefully transfer them to a rack to cool completely. Allow the sheet to cool before loading more dough."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Immediate baking",
+      "route": "Complete ingredients; steps 1–3, immediate choice 4, then 5–7.",
+      "effect": "Exact saved primary route; no required chill.",
+      "ingredientLedger": [
+        {
+          "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "3/4 cup Granulated Sugar",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "2 large Eggs, room temp",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "1 tsp Pure Vanilla Extract",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "2 3/4 cups All-Purpose Flour",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 1/4 tsp Kosher Salt",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 tsp Baking Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+          "destination": "mix 3"
+        }
+      ]
+    },
+    {
+      "name": "Optional overnight rest",
+      "route": "Complete ingredients; cover/refrigerate aftermix 3 in 4, then 5–7.",
+      "effect": "Exact source option; do not invent an overnight-hour measurement.",
+      "ingredientLedger": [
+        {
+          "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "3/4 cup Granulated Sugar",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "2 large Eggs, room temp",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "1 tsp Pure Vanilla Extract",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "2 3/4 cups All-Purpose Flour",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 1/4 tsp Kosher Salt",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 tsp Baking Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+          "destination": "mix 3"
+        }
+      ]
+    },
+    {
+      "name": "Optional 24–36-hour rest",
+      "route": "Complete ingredients; covered refrigerated rest 4, then 5–7.",
+      "effect": "Current longer-rest route retained as untested option, not a source-mandated ideal.",
+      "ingredientLedger": [
+        {
+          "ingredient": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "1 1/4 cups Dark Brown Sugar, packed",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "3/4 cup Granulated Sugar",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "2 large Eggs, room temp",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "1 tsp Pure Vanilla Extract",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "2 3/4 cups All-Purpose Flour",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 1/4 tsp Kosher Salt",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 tsp Baking Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "4 1/2 cups Semisweet Chocolate Chips",
+          "destination": "mix 3"
+        }
+      ]
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal names this cookie source. Existing pairings remain suggestions. Sugar’s optional Royal Icing was read for its already explicit pasteurized-white route, without whole-icing acceptance."
+  },
+  "ratiosYieldAndCapacity": "Preserve all 10 main ingredients: 2 3/4 cups flour,1 1/4 cups butter,1 1/4 cups dark brown sugar,3/4 cup white sugar,2 eggs,1 tsp vanilla,1 1/4 tsp kosher salt,1 tsp each leavener and the full 4 1/2 cups chips. The source 24-cookie count and 2 1/4-inch scoop remain approximate planning. Current 3-inch gaps are retained; no scoop weight, volume or sheet capacity is invented.",
+  "preservedPriorRepairs": [
+    "No earlier targeted safety repair is replaced; completefollowhistory preserved."
+  ],
+  "remainingQuestions": [
+    "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+    "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "slug": "savory-thai-turkey-lettuce-wraps",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "6906ee5286377d41572cd6f14985ab55d3aa13f41b2e5e4e03d54209391f40d3",
+  "acceptedSourceSha256": "9c98b8235a5a6d22ae290b580f454b588401481548868e560718d6433030a30b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "2 medium bell peppers, seeded and chopped",
+        "1 tbsp. vegetable oil",
+        "3 cloves garlic, chopped",
+        "1 lb. ground turkey",
+        "2 tbsp. fish sauce",
+        "1/4 c. packed fresh cilantro, chopped",
+        "1/4 c. packed fresh mint leaves, chopped",
+        "3 tbsp. lime juice",
+        "Lettuce cups",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "after": [
+        "2 medium bell peppers, seeded and chopped",
+        "1 tbsp. vegetable oil",
+        "3 cloves garlic, chopped",
+        "1 lb. ground turkey",
+        "2 tbsp. fish sauce",
+        "1/4 c. packed fresh cilantro, chopped",
+        "1/4 c. packed fresh mint leaves, chopped",
+        "3 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Goodhousekeeping.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Finish cooked turkey with herbs and keep lettuce dry",
+        "outcome": "Crumbled cooked turkey with softened peppers, fresh mint/cilantro and intact lettuce cups.",
+        "techniques": ["temperature"],
+        "before": [
+          "Wash and dry lettuce and herbs before handling the raw turkey. Keep the ready-to-eat leaves separate from the raw meat and its utensils.",
+          "The original route uses a 12-inch skillet for one pound turkey and two peppers. A scaled batch needs enough pan space; use separate loads or vessels and divide all measured oil and seasonings proportionally."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The crumbled turkey reaches 165°F / 74°C before herbs enter.",
+            "why": "The five-minute estimate and loss of pink do not establish ground-poultry doneness."
+          },
+          {
+            "step": 2,
+            "cue": "Filling is moist without a large puddle when spooned into the dry leaves.",
+            "why": "Pooled liquid quickly softens the leaves."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Lettuce cups become soggy",
+            "cause": "Wet leaves or pooled pan liquid are combined too early.",
+            "fix": "Dry the leaves, allow excess cooking liquid to reduce as directed after the turkey is cooked, and assemble just before eating. Keep the full oil and fish-sauce amounts."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Finishing sweetness",
+            "alternative": "For a sweeter original-size four-portion batch, stir 1/2 tsp sugar into the cooked filling with the herbs and lime; scale that alternative amount with the full batch.",
+            "effect": "This separate sweet finish changes the filling. The main method keeps sugar out and offers hoisin at the table; do not add a second unmeasured sugar dose."
+          }
+        ],
+        "timing": "Allow about 25 minutes for the current original batch, with 15 minutes preparation and about 10 minutes stovetop work/assembly. The 3-minute pepper stage, 30-second garlic stage and roughly 5-minute turkey stage are initial estimates; the thermometer endpoint and any liquid reduction can take longer. Most stovetop cooking is active, and extra loads extend elapsed time.",
+        "storage": "Store cooked filling separately from dry lettuce and sauces. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use filling within 3–4 days and reheat to 165°F / 74°C throughout. Assemble cups after reheating so the leaves stay crisp.",
+        "sources": [
+          {
+            "title": "Good Housekeeping savory turkey lettuce wraps",
+            "url": "https://www.goodhousekeeping.com/food-recipes/a42833/thai-turkey-lettuce-wraps-recipe/"
+          },
+          {
+            "title": "FDA safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFish sauce, lime, cilantro and mint season the turkey filling. Let excess pan liquid reduce before filling the lettuce cups so the leaves stay crisp.\n\n## Directions\n\n1. **Continue:** In 12-inch skillet on medium-high, cook bell peppers in vegetable oil 3 minutes. Add garlic; cook 30 seconds. Add ground turkey and fish sauce. Cook 5 minutes, breaking up meat. Check turkey for 165°F / 74°C before adding the herbs. The unmeasured sugar from the saved method is omitted; offer the listed hoisin on the side.\n\n2. **Continue:** Stir in cilantro, mint leaves, lime juice. Serve in lettuce cups with Sriracha hot sauce, if desired.\n",
+    "after": "\n## Chef's Note\n\nFish sauce, lime, cilantro and mint season the turkey filling. Let excess pan liquid reduce before filling the lettuce cups so the leaves stay crisp.\n\n## Directions\n\n1. **Cook filling:** In a 12-inch skillet over medium-high heat, cook all the bell peppers in all the measured vegetable oil for about 3 minutes. Add all the garlic and cook about 30 seconds, then add all the ground turkey and fish sauce. Break up the meat and start checking after about 5 minutes; continue until the turkey reaches 165°F / 74°C on a thermometer before adding herbs. If liquid pools, let excess liquid reduce while stirring, keeping the filling moist. Use more loads or vessels for a larger batch, dividing the full measured ingredients proportionally.\n2. **Finish and serve:** Stir in all the cilantro, mint and lime juice. Spoon the cooked filling into washed, dried lettuce cups using clean utensils. Offer the listed Sriracha and hoisin separately as wanted. Assemble promptly so the leaves stay crisp.\n"
+  },
+  "findings": [
+    {
+      "id": "P03-W01",
+      "rationale": "Preserve e300165-before-herbs and main sugar omission/hoisin choice. Remove public saved-method commentary, state hoisin destination and clean dry lettuce; scale complete measured supplies without changing oil/fish sauce or guessing leaf count.",
+      "confidence": "High",
+      "applicableSources": [
+        "e3001d04",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "original-native"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning", "ingredients"],
+      "questions": [
+        "Confirm fish-sauce/sugar-or-hoisin balance, lettuce type and actual leaf/portion count; no leaf quantity or new yield is invented.",
+        "Measure12-inch skillet load, moisture reduction and25-minute active/elapsed workflow."
+      ]
+    },
+    {
+      "id": "P03-W02",
+      "rationale": "Actual publisher separately records½tsp sugar, unlike unmeasured/unlisted native sugar. Keep it as a distinct optional finish with original-batch context, without changing accepted main omission.",
+      "confidence": "High primary amount; household choice unresolved",
+      "applicableSources": ["GH-wrap", "e3001d04"],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Confirm fish-sauce/sugar-or-hoisin balance, lettuce type and actual leaf/portion count; no leaf quantity or new yield is invented.",
+        "Measure12-inch skillet load, moisture reduction and25-minute active/elapsed workflow."
+      ]
+    },
+    {
+      "id": "P03-W03",
+      "rationale": "Remove publisher-as-origin error while retaining Thai style, exact title and sourceURL; no inferred replacement country.",
+      "confidence": "High",
+      "applicableSources": ["e3001d04", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Confirm fish-sauce/sugar-or-hoisin balance, lettuce type and actual leaf/portion count; no leaf quantity or new yield is invented.",
+        "Measure12-inch skillet load, moisture reduction and25-minute active/elapsed workflow."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Savory%20Thai%20Turkey%20Lettuce%20Wraps.html",
+    "introductionScope": "Actual earlier saved cooking HTML, independently read and distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Actual045/earlierHTML/bound native all mention sugar without listing a dose and include hoisin. b244 deletes earlier path,9fa reimports current route and removes unmeasured sugar, e300 explicitly establishes165-before-herbs/current omission. Preserve that repair. Current actual GH page at the non-easy URL supplies½tsp sugar and no hoisin; keep its finish separate rather than rewrite the main/native history. Original publisher20-minute time differs from current25-minute plan; keep25 while acknowledging endpoint/extra loads.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 medium bell peppers, seeded and chopped",
+        "destination": "skillet3min",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 tbsp. vegetable oil",
+        "destination": "all skilletpepper stage",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "3 cloves garlic, chopped",
+        "destination": "30sec afterpeppers",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 lb. ground turkey",
+        "destination": "groundturkey5min then165 beforeherbs",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 tbsp. fish sauce",
+        "destination": "turkey",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 c. packed fresh cilantro, chopped",
+        "destination": "finish",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 c. packed fresh mint leaves, chopped",
+        "destination": "finish",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "3 tbsp. lime juice",
+        "destination": "finish",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Lettuce cups",
+        "destination": "serve; preparation unrecorded",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Sriracha, for serving",
+        "destination": "optionalserve",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Hoisin Sauce, for serving",
+        "destination": "listed but only mentioned in prior repair annotation, not serving step",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "text": "2 medium bell peppers, seeded and chopped",
+        "destination": "peppers",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 tbsp. vegetable oil",
+        "destination": "peppers",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "3 cloves garlic, chopped",
+        "destination": "garlic",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 lb. ground turkey",
+        "destination": "turkey165",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "2 tbsp. fish sauce",
+        "destination": "turkey",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/4 c. packed fresh cilantro, chopped",
+        "destination": "finish",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/4 c. packed fresh mint leaves, chopped",
+        "destination": "finish",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "3 tbsp. lime juice",
+        "destination": "finish",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "Lettuce cups, washed and dried; as needed for serving",
+        "destination": "servewashed/dry",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "Sriracha, for serving",
+        "destination": "optionalserve",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "Hoisin Sauce, for serving",
+        "destination": "optionalserve",
+        "methodReference": "Final Directions; see complete process graph"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Publisher sweet finish",
+        "amount": "½tsp sugar original4 portions, independently scaled alternative",
+        "destination": "Cooked turkey withherbs/lime",
+        "exclusiveWith": "Primary sugar-omitted filling/hoisin-on-side choice",
+        "confidence": "Actual GH primary; not native recovered dose"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Cook filling: In a 12-inch skillet over medium-high heat, cook all the bell peppers in all the measured vegetable oil for about 3 minutes. Add all the garlic and cook about 30 seconds, then add all the ground turkey and fish sauce. Break up the meat and start checking after about 5 minutes; continue until the turkey reaches 165°F / 74°C on a thermometer before adding herbs. If liquid pools, let excess liquid reduce while stirring, keeping the filling moist. Use more loads or vessels for a larger batch, dividing the full measured ingredients proportionally."
+    },
+    {
+      "step": 2,
+      "text": "Finish and serve: Stir in all the cilantro, mint and lime juice. Spoon the cooked filling into washed, dried lettuce cups using clean utensils. Offer the listed Sriracha and hoisin separately as wanted. Assemble promptly so the leaves stay crisp."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Publisher sweet finish",
+      "amount": "½tsp sugar original4 portions, independently scaled alternative",
+      "destination": "Cooked turkey withherbs/lime",
+      "exclusiveWith": "Primary sugar-omitted filling/hoisin-on-side choice",
+      "confidence": "Actual GH primary; not native recovered dose"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "incomingRecipes": [],
+    "outgoingPairings": [],
+    "allReferencesResolve": true,
+    "mealDisposition": "No composed meal approval. Complete incoming meals read; portion/equipment/timeline work remains separate.",
+    "remainingQuestion": null
+  },
+  "ratiosYieldAndCapacity": "The full one-pound turkey mixture, two peppers, oil, fish sauce, herbs and three limes are retained. Unmeasured lettuce, sriracha and hoisin remain service allowances. The optional modern publisher half-teaspoon sugar is explicitly original-batch and separate from the accepted primary sugar omission; no meat-mixture dose is changed. Twenty-five minutes is an untested plan.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 medium bell pepper, seeded and chopped",
+        "1/4 tbsp. vegetable oil",
+        "3/4 clove garlic, chopped",
+        "1/4 lb. ground turkey",
+        "1/2 tbsp. fish sauce",
+        "0.0625 c. packed fresh cilantro, chopped",
+        "0.0625 c. packed fresh mint leaves, chopped",
+        "3/4 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 medium bell pepper, seeded and chopped",
+        "1/2 tbsp. vegetable oil",
+        "1 1/2 cloves garlic, chopped",
+        "1/2 lb. ground turkey",
+        "1 tbsp. fish sauce",
+        "1/8 c. packed fresh cilantro, chopped",
+        "1/8 c. packed fresh mint leaves, chopped",
+        "1 1/2 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 medium bell peppers, seeded and chopped",
+        "1 tbsp. vegetable oil",
+        "3 cloves garlic, chopped",
+        "1 lb. ground turkey",
+        "2 tbsp. fish sauce",
+        "1/4 c. packed fresh cilantro, chopped",
+        "1/4 c. packed fresh mint leaves, chopped",
+        "3 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 medium bell peppers, seeded and chopped",
+        "1 1/2 tbsp. vegetable oil",
+        "4 1/2 cloves garlic, chopped",
+        "1 1/2 lb. ground turkey",
+        "3 tbsp. fish sauce",
+        "3/8 c. packed fresh cilantro, chopped",
+        "3/8 c. packed fresh mint leaves, chopped",
+        "4 1/2 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 medium bell peppers, seeded and chopped",
+        "2 tbsp. vegetable oil",
+        "6 cloves garlic, chopped",
+        "2 lb. ground turkey",
+        "4 tbsp. fish sauce",
+        "1/2 c. packed fresh cilantro, chopped",
+        "1/2 c. packed fresh mint leaves, chopped",
+        "6 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 8",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 medium bell peppers, seeded and chopped",
+        "3 tbsp. vegetable oil",
+        "9 cloves garlic, chopped",
+        "3 lb. ground turkey",
+        "6 tbsp. fish sauce",
+        "3/4 c. packed fresh cilantro, chopped",
+        "3/4 c. packed fresh mint leaves, chopped",
+        "9 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 medium bell peppers, seeded and chopped",
+        "1 tbsp. vegetable oil",
+        "3 cloves garlic, chopped",
+        "1 lb. ground turkey",
+        "2 tbsp. fish sauce",
+        "1/4 c. packed fresh cilantro, chopped",
+        "1/4 c. packed fresh mint leaves, chopped",
+        "3 tbsp. lime juice",
+        "Lettuce cups, washed and dried; as needed for serving",
+        "Sriracha, for serving",
+        "Hoisin Sauce, for serving"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm fish-sauce/sugar-or-hoisin balance, lettuce type and actual leaf/portion count; no leaf quantity or new yield is invented.",
+    "Measure12-inch skillet load, moisture reduction and25-minute active/elapsed workflow."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

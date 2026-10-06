@@ -1,0 +1,688 @@
+{
+  "slug": "chocolate-crinkle-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "f0c149c3963e7f8c51d6d0cb6f08e9278b6a5ff8e8f292d4aef18af6189c69fb",
+  "acceptedSourceSha256": "4b65a2a815d1644be20311a35641b92592811781a3eed087860dd66f234d2c1b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "12 min",
+      "after": "10–12 min per tray"
+    },
+    {
+      "field": "totalTime",
+      "before": "145 min",
+      "after": "At least 2 h 40 min; extra chilling, trays, preheating and rack cooling add time"
+    },
+    {
+      "field": "servings",
+      "before": "24",
+      "after": "36 small cookies (approximate)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 oz Semisweet Chocolate, chopped",
+        "1/2 cup Salted Butter, cubed",
+        "1/2 cup Light Brown Sugar, packed",
+        "1 1/2 cups Granulated Sugar (divided)",
+        "3 large Eggs",
+        "2 tsp Vanilla Extract",
+        "1 1/2 cups All-Purpose Flour",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 tsp Baking Powder",
+        "1/4 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1 cup Powdered Sugar"
+      ],
+      "after": [
+        "6 oz Semisweet Chocolate, chopped",
+        "1/2 cup Salted Butter, cubed",
+        "1/2 cup Light Brown Sugar, packed",
+        "1 1/2 cups Granulated Sugar (divided)",
+        "3 large Eggs",
+        "2 tsp Vanilla Extract",
+        "1 1/2 cups All-Purpose Flour",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 tsp Baking Powder",
+        "1/4 tsp Baking Soda",
+        "1/4 tsp Kosher Salt",
+        "1 cup Powdered Sugar"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 225,
+        "protein": 2.5,
+        "carbs": 38,
+        "fat": 9,
+        "fiber": 1.5,
+        "sugar": 30,
+        "sodium": 240
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate the dough sugar and two coating sugars before rolling a chilled crinkle dough.",
+        "outcome": "Small cookies have firm edges, soft centers and a cracked powdered-sugar coating.",
+        "techniques": ["cold-preparation", "leavening"],
+        "before": [
+          "The listed granulated sugar is one total: one-third goes into the dough and two-thirds into the rolling bowl. All powdered sugar is a separate coating supply. Some coating sugar will remain in the bowls; do not put that residue into the dough.",
+          "The original batch uses 2 parchment-lined sheets, but the number of oven loads depends on their actual capacity. Keep tablespoon-sized portions and 2-inch spacing when scaling; the approximate yield is a cookie count.",
+          "If scaling gives a fractional egg, beat an egg and use the required fraction rather than rounding to a whole egg. Keep portion size, spacing and baking temperature the same."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Chocolate and butter are smooth and slightly cooled before joining the eggs.",
+            "why": "Gentle indirect heat melts the chocolate; avoid adding a hot mixture directly to raw eggs."
+          },
+          {
+            "step": 4,
+            "cue": "The chilled dough is firm enough to roll into a ball without slumping.",
+            "why": "The chill is a working-state requirement, not just an elapsed timer."
+          },
+          {
+            "step": 5,
+            "cue": "Each ball receives granulated sugar before a complete powdered-sugar coating.",
+            "why": "The two coating supplies have separate destinations; they are not all part of the dough."
+          },
+          {
+            "step": 6,
+            "cue": "The tops have cracked and the edges feel firm.",
+            "why": "Dark dough makes browning difficult to judge, so use the recipe’s edge and surface cues."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dough slumps while coating",
+            "cause": "It has not chilled enough or warmed while later trays were portioned.",
+            "fix": "Return the unportioned dough to the refrigerator until it holds its shape. Keep portions the same size rather than adding unmeasured flour."
+          },
+          {
+            "problem": "Powdered coating disappears or is patchy",
+            "cause": "The outer coating was too thin or the first sugar coat was omitted.",
+            "fix": "Use the two separate coating bowls in order for the next tray. Do not stir extra powdered sugar into the dough."
+          }
+        ],
+        "storage": "Do not taste raw dough. Keep the dough covered at 40°F / 4°C or below during its 2–4-hour chill and while trays wait. Once fully cooled, store the plain cookies airtight at room temperature; for best quality use within about a week, or freeze for up to 3 months. Discard rolling sugar touched by raw dough.",
+        "timing": "Allow about 25 minutes active preparation, a required 2–4-hour chill, 10–12 minutes per oven load and 5 minutes on the pan before complete rack cooling. The 2 h 40 min figure is a lower planning bound for preparation, the shortest chill and the first load’s pan cooling. Whole-batch loads, any remaining oven preheating and rack cooling extend it.",
+        "sources": [
+          {
+            "title": "The Pioneer Woman: chocolate crinkle cookies",
+            "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/"
+          },
+          {
+            "title": "FDA: handling raw flour and dough",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe crinkle cookie is all about the crackly, snowy crust. The secret is the double-sugar roll: we roll the dough balls in granulated sugar first, then in powdered sugar. The granulated sugar acts as a barrier that prevents the powdered sugar from being absorbed into the dough during baking, resulting in high-contrast crunch and a snowy-white finish. Chilling the dough for the full 2 hours is essential for the right texture.\n\n## Directions\n\n1.  **Melt:** Set a heatproof bowl over simmering water. Melt the chopped chocolate and butter together until smooth. Let cool slightly.\n2.  **Dry Mix:** Whisk flour, cocoa, baking powder, baking soda, and salt until no lumps remain.\n3.  **Aeration:** In a large bowl, beat the brown sugar, 1/2 cup granulated sugar, eggs, and vanilla on medium-high for 3 minutes until pale and frothy.\n4.  **Combine:** Fold the chocolate-butter mixture into the eggs. On low speed, add the dry mix until **just combined**.\n5.  **The Chill:** Cover and refrigerate for **at least 2 hours** until firm.\n6.  **Prep:** Preheat oven to 350°F. Line two baking sheets with parchment. Place 1 cup granulated sugar in one bowl and 1 cup powdered sugar in another.\n7.  **The Double Roll:** Scoop 1-tbsp portions of dough. Roll into a ball. Roll in granulated sugar, then immediately in powdered sugar.\n8.  **Bake:** Arrange 2 inches apart. Bake for 10-12 minutes until the tops are cracked and the edges feel firm.\n9.  **Cool:** Let cool on the pan for 5 minutes before transferring to a rack.\n",
+    "after": "\n## Chef's Note\n\nA firm, chilled dough is easier to portion and coat. Roll each ball in granulated sugar first and powdered sugar second, then bake until the coating cracks and the edges feel firm. Keep the centers soft after baking rather than drying them out to make the tops look done.\n\n## Directions\n\n1. **Melt:** Set a heatproof bowl above gently simmering water, with its bottom clear of the water. Melt the chopped chocolate and salted butter together, stirring until smooth. Remove the bowl from the pan and let the mixture cool slightly before adding it to the eggs.\n\n2. **Dry mix:** Whisk the flour, cocoa, baking powder, baking soda and kosher salt until evenly mixed and free of lumps.\n\n3. **Beat:** Beat the brown sugar, eggs, vanilla and one-third of the listed granulated sugar on medium-high until light and smooth, about 2–3 minutes. For the original batch, that sugar portion is 1/2 cup; reserve the other two-thirds for rolling.\n\n4. **Combine:** Mix the slightly cooled chocolate-butter mixture into the egg mixture. On low speed, add the dry ingredients only until the dough is evenly combined. Cover and refrigerate for 2–4 hours, until firm enough to scoop and roll.\n\n5. **Prepare and coat:** Near the end of chilling, preheat the oven to 350°F. Line baking sheets with parchment. Put the reserved two-thirds of the granulated sugar in one shallow bowl and all the powdered sugar in another. Scoop about 1 tablespoon of dough per cookie, form balls, and coat first with granulated sugar and then generously with powdered sugar. Leave about 2 inches between balls. Keep unportioned dough refrigerated while later trays wait.\n\n6. **Bake:** Once the oven reaches 350°F, bake for 10–12 minutes per tray, until the tops have cracked and the edges feel firm. Use further loads as needed; do not crowd the sheets to force a particular count.\n\n7. **Cool:** Leave the cookies on the sheet for 5 minutes, then move them to racks to cool completely. Let a hot sheet cool before loading another batch. Discard coating sugar that has contacted raw dough.\n"
+  },
+  "findings": [
+    {
+      "id": "C02-02-01",
+      "field": "cookTime",
+      "rationale": "Restore the exact source kosher-salt type and source-backed approximate 36-count; no core mass or volume is reduced. Use proportional sugar allocation in the static method, with separate rolling supplies and discarded raw-contact residue. Recover the source 2–4-hour chill and pan/rack cooling, and disclose the actual oven-load dependency.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-02",
+      "field": "totalTime",
+      "rationale": "Restore the exact source kosher-salt type and source-backed approximate 36-count; no core mass or volume is reduced. Use proportional sugar allocation in the static method, with separate rolling supplies and discarded raw-contact residue. Recover the source 2–4-hour chill and pan/rack cooling, and disclose the actual oven-load dependency.",
+      "confidence": "High that omitted required stages need accounting; actual load/preheat/cooling times remain unmeasured.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-03",
+      "field": "servings",
+      "rationale": "Restore the exact source kosher-salt type and source-backed approximate 36-count; no core mass or volume is reduced. Use proportional sugar allocation in the static method, with separate rolling supplies and discarded raw-contact residue. Recover the source 2–4-hour chill and pan/rack cooling, and disclose the actual oven-load dependency.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-04",
+      "field": "ingredients",
+      "rationale": "Restore the exact source kosher-salt type and source-backed approximate 36-count; no core mass or volume is reduced. Use proportional sugar allocation in the static method, with separate rolling supplies and discarded raw-contact residue. Recover the source 2–4-hour chill and pan/rack cooling, and disclose the actual oven-load dependency.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-05",
+      "field": "origin",
+      "rationale": "Retained evidence establishes publisher/style, without a geographic birth-country claim for this particular recipe. Omit origin while preserving exact source and cuisine context.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-06",
+      "field": "nutrition",
+      "rationale": "Legacy batch-estimated nutrition is not independently verified; actual cookie yield and coating intake have not been measured. Remove the estimate without inventing another.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-07",
+      "field": "learning",
+      "rationale": "Restore the exact source kosher-salt type and source-backed approximate 36-count; no core mass or volume is reduced. Use proportional sugar allocation in the static method, with separate rolling supplies and discarded raw-contact residue. Recover the source 2–4-hour chill and pan/rack cooling, and disclose the actual oven-load dependency.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    },
+    {
+      "id": "C02-02-08",
+      "field": "content",
+      "rationale": "Restore the exact source kosher-salt type and source-backed approximate 36-count; no core mass or volume is reduced. Use proportional sugar allocation in the static method, with separate rolling supplies and discarded raw-contact residue. Recover the source 2–4-hour chill and pan/rack cooling, and disclose the actual oven-load dependency.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ba01b296767e090c3055a30fac0d098c8f8e23c501cc4f0b4ac2d0c710ddb1fc",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "16e62288610e20f45daccff1998be6984ffba500ed93f54ae9035dd46ce014ff",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/chocolate-crinkle-cookies.md",
+    "introductionScope": "Exact retained canonical cooking introduction and complete followed history; native provenance is independently established only where an exact original binding exists.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native and first Git say “Yields: 3” without a unit. The directly read publisher says 3 dz. with the same complete ingredients and one-tablespoon scoop. 7 dd 819 d 4 changes 3 to 24 without a count rationale. Propose 36 small cookies as approximate source planning, not a measured household count or three portions.",
+    "Native/first Git and current publisher specify 1/4 tsp kosher salt. 7 dd 819 d 4 changes it to sea salt without a documented household decision or density conversion. Restore kosher at the same quarter-teaspoon measure; do not equate all salt densities.",
+    "Source requires 2–4 hours chilled firming. The current 145-minute total omits baking/pan cooling. About 25 min preparation + 120 min shortest chill + 10 min first bake + 5 min pan rest gives a 160-minute lower planning bound, before further loads, remaining preheating and complete rack cooling."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "6 oz Semisweet Chocolate, chopped",
+        "destination": "melt 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1/2 cup Salted Butter, cubed",
+        "destination": "melt 1",
+        "state": "Butter softened or at room temperature as listed, then creamed or melted as its destination specifies."
+      },
+      {
+        "ingredient": "1/2 cup Light Brown Sugar, packed",
+        "destination": "beat 3",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "1 1/2 cups Granulated Sugar (divided)",
+        "destination": "1/3 beat 3;2/3 bowl 6/roll 7",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "3 large Eggs",
+        "destination": "beat 3",
+        "state": "Raw egg incorporated into dough; oven baking follows."
+      },
+      {
+        "ingredient": "2 tsp Vanilla Extract",
+        "destination": "beat 3",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 1/2 cups All-Purpose Flour",
+        "destination": "drymix 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+        "destination": "drymix 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "drymix 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1/4 tsp Baking Soda",
+        "destination": "drymix 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "drymix 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 cup Powdered Sugar",
+        "destination": "bowl 6/roll 7",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "6 oz Semisweet Chocolate, chopped",
+        "destination": "melt 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/2 cup Salted Butter, cubed",
+        "destination": "melt 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/2 cup Light Brown Sugar, packed",
+        "destination": "beat 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 1/2 cups Granulated Sugar (divided)",
+        "destination": "1/3 beat 3;2/3 coating 5; unused raw-contact coating supply discarded 7",
+        "allocation": "1/3 dough +2/3 coating =1; coating residue discarded."
+      },
+      {
+        "ingredient": "3 large Eggs",
+        "destination": "beat 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 tsp Vanilla Extract",
+        "destination": "beat 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 1/2 cups All-Purpose Flour",
+        "destination": "drymix 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+        "destination": "drymix 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "drymix 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/4 tsp Baking Soda",
+        "destination": "drymix 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/4 tsp Kosher Salt",
+        "destination": "drymix 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 cup Powdered Sugar",
+        "destination": "coating 5; unused raw-contact supply discarded 7",
+        "allocation": "Entire listed supply for coating; residue discarded."
+      }
+    ],
+    "originalNative": [
+      {
+        "ingredient": "1/2 c. salted butter, cubed",
+        "destination": "melt source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "6 oz. semisweet chocolate, chopped",
+        "destination": "melt source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 1/2 c. all-purpose flour",
+        "destination": "dry mix source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1/2 c. unsweetened cocoa powder",
+        "destination": "dry mix source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 tsp. baking powder",
+        "destination": "dry mix source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1/4 tsp. baking soda",
+        "destination": "dry mix source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1/4 tsp. kosher salt",
+        "destination": "dry mix source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1/2 c. packed light brown sugar",
+        "destination": "beat source 3",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "3 large eggs",
+        "destination": "beat source 3",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 tsp. vanilla extract",
+        "destination": "beat source 3",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 1/2 c. granulated sugar, divided",
+        "destination": "1/3 dough source 3;2/3 coating source 4",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 c. powdered sugar",
+        "destination": "coating source 4",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      }
+    ],
+    "allocations": [
+      {
+        "ingredient": "Granulated sugar",
+        "originalTotal": "1 1/2 cups",
+        "uses": [
+          {
+            "share": "1/3",
+            "destination": "beat 3",
+            "original": "1/2 cup"
+          },
+          {
+            "share": "2/3",
+            "destination": "coat 5",
+            "original": "1 cup"
+          }
+        ],
+        "sum": "1",
+        "consumption": "Coating residue unmeasured/discarded; supplies are not nutrition intake."
+      },
+      {
+        "ingredient": "Powdered sugar",
+        "originalTotal": "1 cup",
+        "uses": [
+          {
+            "share": "1",
+            "destination": "coat 5"
+          }
+        ],
+        "sum": "1",
+        "consumption": "Residue discarded."
+      }
+    ],
+    "variants": [],
+    "additionalMethodAllowances": [
+      {
+        "ingredient": "Water below the melting bowl",
+        "amount": "Unmeasured saucepan water, already required by frozen and saved method",
+        "destination": "Melting apparatus step1; separate from food, does not enter dough",
+        "shopping": "No purchased amount or dough hydration inferred"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "method": "1. **Melt:** Set a heatproof bowl above gently simmering water, with its bottom clear of the water. Melt the chopped chocolate and salted butter together, stirring until smooth. Remove the bowl from the pan and let the mixture cool slightly before adding it to the eggs."
+    },
+    {
+      "step": 2,
+      "method": "2. **Dry mix:** Whisk the flour, cocoa, baking powder, baking soda and kosher salt until evenly mixed and free of lumps."
+    },
+    {
+      "step": 3,
+      "method": "3. **Beat:** Beat the brown sugar, eggs, vanilla and one-third of the listed granulated sugar on medium-high until light and smooth, about 2–3 minutes. For the original batch, that sugar portion is 1/2 cup; reserve the other two-thirds for rolling."
+    },
+    {
+      "step": 4,
+      "method": "4. **Combine:** Mix the slightly cooled chocolate-butter mixture into the egg mixture. On low speed, add the dry ingredients only until the dough is evenly combined. Cover and refrigerate for 2–4 hours, until firm enough to scoop and roll."
+    },
+    {
+      "step": 5,
+      "method": "5. **Prepare and coat:** Near the end of chilling, preheat the oven to 350°F. Line baking sheets with parchment. Put the reserved two-thirds of the granulated sugar in one shallow bowl and all the powdered sugar in another. Scoop about 1 tablespoon of dough per cookie, form balls, and coat first with granulated sugar and then generously with powdered sugar. Leave about 2 inches between balls. Keep unportioned dough refrigerated while later trays wait."
+    },
+    {
+      "step": 6,
+      "method": "6. **Bake:** Once the oven reaches 350°F, bake for 10–12 minutes per tray, until the tops have cracked and the edges feel firm. Use further loads as needed; do not crowd the sheets to force a particular count."
+    },
+    {
+      "step": 7,
+      "method": "7. **Cool:** Leave the cookies on the sheet for 5 minutes, then move them to racks to cool completely. Let a hot sheet cool before loading another batch. Discard coating sugar that has contacted raw dough."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal names this cookie source. Existing pairings remain suggestions. Sugar’s optional Royal Icing was read for its already explicit pasteurized-white route, without whole-icing acceptance."
+  },
+  "ratiosYieldAndCapacity": "The complete dough uses 1 1/2 cups flour, 1/2 cup cocoa, 1/2 cup salted butter, 6 oz chocolate, 3 eggs and 1/2 cup brown sugar. Granulated sugar totals 1 1/2 cups: 1/2 cup enters dough and 1 cup is coating supply in the original batch, exactly 1/3 + 2/3 = 1 at every scale. The separate 1 cup powdered sugar also coats the balls. Leftover coating is discarded and has no measured consumed-sugar yield. All core quantities and both leaveners remain.",
+  "preservedPriorRepairs": [
+    "No earlier targeted safety repair is replaced; completefollowhistory preserved."
+  ],
+  "remainingQuestions": [
+    "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+    "Which kosher salt brand/grain is used? No exact salt weight was supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

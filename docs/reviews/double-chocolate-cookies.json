@@ -1,0 +1,960 @@
+{
+  "slug": "double-chocolate-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "d96aee4d34b2c1de3517774d63d393c751195a5d635aaea231232814875d4819",
+  "acceptedSourceSha256": "e012e8227431755be510893db6479f79bb686f27eef6f1f0e744b8b42ba69ede",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "18 min",
+      "after": "About 18 min per tray"
+    },
+    {
+      "field": "totalTime",
+      "before": "1500 min",
+      "after": "24–36 h chilling, plus preparation, baking and cooling"
+    },
+    {
+      "field": "servings",
+      "before": "10 jumbo cookies",
+      "after": "9–10 jumbo cookies (approximate)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "10 tbsp Unsalted Butter, room temp",
+        "3/4 cup Dark Brown Sugar, packed",
+        "2/3 cup Granulated Sugar",
+        "1 large Egg",
+        "2 tsp Pure Vanilla Extract",
+        "1 cup All-Purpose Flour",
+        "3/4 cup Dutch-process Cocoa Powder",
+        "3/4 tsp Kosher Salt",
+        "1/2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "2 cups Semisweet Chocolate Discs (preferred)"
+      ],
+      "after": [
+        "10 tbsp (141 g) Unsalted Butter, room temp",
+        "3/4 cup (150 g) Dark Brown Sugar, packed",
+        "2/3 cup (133 g) Granulated Sugar",
+        "1 large Egg",
+        "2 tsp Pure Vanilla Extract",
+        "1 cup (145 g) All-Purpose Flour",
+        "3/4 cup (75 g) Dutch-process Cocoa Powder",
+        "3/4 tsp Kosher Salt",
+        "1/2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "2 cups (305 g) Semisweet Chocolate Discs (preferred)"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 610,
+        "protein": 8,
+        "carbs": 129.5,
+        "fat": 15.5,
+        "fiber": 9,
+        "sugar": 105.5,
+        "sodium": 1010
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Manage a long-chilled, large chocolate-cookie dough without crowding its baking sheet.",
+        "outcome": "Large cookies hold together with set edges, soft centers and melted chocolate throughout.",
+        "techniques": ["cold-preparation", "temperature"],
+        "before": [
+          "Use Dutch-process cocoa as listed; this formula contains both baking powder and baking soda. Do not normalize its leaveners for another cocoa type.",
+          "Use the listed gram equivalents. In the original batch, 1 cup flour is 145 g and 2 cups discs are 305 g; scale both measures together with the batch. If choosing chips instead, follow the separate chip equivalent in Cooking Notes.",
+          "Use softened butter for creaming and allow the complete 24–36-hour refrigerated rest. At a larger batch size, keep individual portions about 3 1/2 oz and add oven loads; the original sheet’s five-cookie limit does not multiply.",
+          "If scaling gives a fractional egg, beat an egg and use the required fraction rather than rounding to a whole egg. Keep portion size, spacing and baking temperature the same."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The butter-sugar mixture is very light, with no dense unmixed butter on the bowl.",
+            "why": "Use the texture cue alongside the approximate five-minute creaming time."
+          },
+          {
+            "step": 3,
+            "cue": "Dry ingredients are incorporated and discs distributed before the dough is covered.",
+            "why": "The long refrigerated rest follows mixing; it does not replace even ingredient distribution."
+          },
+          {
+            "step": 6,
+            "cue": "Edges are set while the centers remain soft.",
+            "why": "These large, dark cookies should not be baked until the whole center looks dry."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Large cookies spread into one another",
+            "cause": "The sheet held too many portions or the dough warmed between loads.",
+            "fix": "Keep waiting dough refrigerated and use fewer portions on the next cool sheet. The number of sheets grows with the batch."
+          },
+          {
+            "problem": "Cookies break when moved",
+            "cause": "Soft centers were lifted before they could hold the cookie’s weight.",
+            "fix": "Let them firm on the pan, or move the entire parchment to a rack and wait there before lifting each cookie."
+          }
+        ],
+        "storage": "Keep raw dough covered in the refrigerator at 40°F / 4°C or below for its 24–36-hour rest and between loads; do not taste it. Cool plain baked cookies completely before sealing an airtight container. Freeze for longer storage and thaw covered. Serve warm cookies after baking once they hold together, rather than storing them warm in a sealed container.",
+        "timing": "Plan about 20 minutes active preparation followed by the complete 24–36-hour chill. The original 9–10-cookie batch needs at least two loads at the stated maximum of five per sheet, about 18 minutes each, plus pan or rack cooling. Preheating starts before portioning, but the oven must reach 350°F before loading. The full chill, sequential loads and actual cooling determine the elapsed time.",
+        "sources": [
+          {
+            "title": "Samantha Seneviratne: attributed double chocolate cookies",
+            "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies"
+          },
+          {
+            "title": "FDA: handling raw flour and dough",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRefrigerate dough for at least 24 hours before baking - this hydrates the flour fully and allows sugars to break down, creating deep toffee-like flavor complexity. Dutch-process cocoa provides darker, smoother chocolate flavor. Chocolate discs create wide pools of melted chocolate rather than small chip dots.\n\n## Directions\n\n1.  **Dry Mix:** In a medium bowl, whisk together flour, cocoa, salt, baking powder, and baking soda until no lumps remain.\n2.  **Cream:** In a stand mixer, beat butter and both sugars for exactly 5 minutes until very light and aerated. Add the egg and vanilla; beat until combined.\n3.  **Combine:** On low speed, add the dry ingredients and mix until **just combined**. Fold in the chocolate discs.\n4.  **The Chill:** Press plastic wrap directly against the dough. Refrigerate for **at least 24 hours** (36 hours is the Kitchen Standard).\n5.  **Prep:** Preheat oven to 350°F. Line a large baking sheet with parchment paper.\n6.  **Portion:** Form the cold dough into balls larger than golf balls (about 3.5 oz each). Place only 5 balls per sheet, as they will spread significantly.\n7.  **Bake:** Bake for 18 minutes until the edges are set but the center still looks slightly soft.\n8.  **Cool:** Let cool on the sheet for 10 minutes to allow the internal structure to firm up.\n",
+    "after": "\n## Chef's Note\n\nDutch-process cocoa and a generous disc filling make these large cookies deeply chocolatey. Plan for the full 24–36-hour dough chill, then bake a few well-spaced portions at a time. Stop when the edges are set and the centers are still soft.\n\n## Directions\n\n1. **Dry mix:** Whisk the flour, Dutch-process cocoa, kosher salt, baking powder and baking soda until evenly mixed and free of lumps.\n\n2. **Cream:** With a paddle attachment, beat the softened butter and both sugars until very light, about 5 minutes, scraping the bowl. Beat in the egg and vanilla until combined.\n\n3. **Combine and chill:** On low speed, mix in the dry ingredients just until no dry pockets remain, then briefly mix in the chocolate discs. Press plastic wrap against the dough and refrigerate for 24–36 hours.\n\n4. **Prepare:** Preheat the oven to 350°F. Line a large baking sheet with parchment. Keep the remaining dough covered and refrigerated between loads.\n\n5. **Portion:** Make balls slightly larger than golf balls, about 3 1/2 oz each. The original batch makes roughly 9–10 cookies. Put no more than 5 of these large portions on the original-size sheet, with ample room to spread; use fewer if the actual sheet cannot provide that space. Scaling changes the amount of dough and number of loads, not the portion size or pan capacity.\n\n6. **Bake:** Once the oven reaches 350°F, bake for about 18 minutes, until the edges are set and the centers remain slightly soft. Bake the rest in further loads as needed.\n\n7. **Cool:** Let the cookies firm on the sheet for about 10 minutes, then carefully transfer them to a rack. Let the sheet cool before loading more dough. Serve warm once firm enough to lift, or cool completely before packing.\n\n## Cooking Notes\n\nFor the same listed chocolate volume, choose semisweet or bittersweet discs. For the original batch, the discs are 2 cups / 305 g. Alternatively, replace the discs with chocolate chips: the original batch uses 2 cups / 340 g. When scaling, scale that chosen alternative’s volume and weight together; buy and use one option. Chips and discs will distribute differently.\n\nFor rack cooling straight from the oven, move the whole parchment sheet with the baked cookies onto a rack instead of leaving them on the pan for 10 minutes. Let them firm there before lifting individual cookies.\n"
+  },
+  "findings": [
+    {
+      "id": "C02-03-01",
+      "field": "cookTime",
+      "rationale": "Recover exact equivalents and full mutually exclusive chocolate choices without reducing richness or applying a generic cup weight. Keep the source long chill and original portion geometry; use very-light creaming and set-edge/soft-center cues instead of exact timers and unsupported chemical certainty. Keep both documented cooling routes distinct and the current ten-minute pan rest as the main route.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-02",
+      "field": "totalTime",
+      "rationale": "Recover exact equivalents and full mutually exclusive chocolate choices without reducing richness or applying a generic cup weight. Keep the source long chill and original portion geometry; use very-light creaming and set-edge/soft-center cues instead of exact timers and unsupported chemical certainty. Keep both documented cooling routes distinct and the current ten-minute pan rest as the main route.",
+      "confidence": "High that omitted required stages need accounting; actual load/preheat/cooling times remain unmeasured.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-03",
+      "field": "servings",
+      "rationale": "Recover exact equivalents and full mutually exclusive chocolate choices without reducing richness or applying a generic cup weight. Keep the source long chill and original portion geometry; use very-light creaming and set-edge/soft-center cues instead of exact timers and unsupported chemical certainty. Keep both documented cooling routes distinct and the current ten-minute pan rest as the main route.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-04",
+      "field": "ingredients",
+      "rationale": "Recover exact equivalents and full mutually exclusive chocolate choices without reducing richness or applying a generic cup weight. Keep the source long chill and original portion geometry; use very-light creaming and set-edge/soft-center cues instead of exact timers and unsupported chemical certainty. Keep both documented cooling routes distinct and the current ten-minute pan rest as the main route.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-05",
+      "field": "origin",
+      "rationale": "Retained evidence establishes publisher/style, without a geographic birth-country claim for this particular recipe. Omit origin while preserving exact source and cuisine context.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-06",
+      "field": "nutrition",
+      "rationale": "Legacy batch-estimated nutrition is not independently verified; actual cookie yield and coating intake have not been measured. Remove the estimate without inventing another.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-07",
+      "field": "learning",
+      "rationale": "Recover exact equivalents and full mutually exclusive chocolate choices without reducing richness or applying a generic cup weight. Keep the source long chill and original portion geometry; use very-light creaming and set-edge/soft-center cues instead of exact timers and unsupported chemical certainty. Keep both documented cooling routes distinct and the current ten-minute pan rest as the main route.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    },
+    {
+      "id": "C02-03-08",
+      "field": "content",
+      "rationale": "Recover exact equivalents and full mutually exclusive chocolate choices without reducing richness or applying a generic cup weight. Keep the source long chill and original portion geometry; use very-light creaming and set-edge/soft-center cues instead of exact timers and unsupported chemical certainty. Keep both documented cooling routes distinct and the current ten-minute pan rest as the main route.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+          "applicability": "Attribution/source context; live card unavailable. Exact retained original and first Git supply the actual formula/method evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "008f3dd56f4e1d8e2b6d6f59de0e6962a596d7aa5e84d709fb7e4a3e5fbe82db",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "ca80c4078c6254f05ff695b9e8d650ce8c73e410e98ef8dc5146bdb3f7565b09",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/double-chocolate-cookies.md",
+    "introductionScope": "Exact retained canonical cooking introduction and complete followed history; native provenance is independently established only where an exact original binding exists.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "ae 5 f 0 d 298 removes the six exact source equivalents and the bittersweet-disc/chip choices while retaining cup totals. Complete later history does not establish a deliberate household or accepted review removal. Recover those exact equivalents and exclusive choices.",
+    "Native/first Git specify 24–36 hours chilling and 9–10 big cookies. Bulk refinements fix 10 and brand 36 hours as superior. Preserve the actual source window/range, and remove the unestablished full-hydration and sugar-breakdown assertions.",
+    "Native cooling moves the entire parchment directly to a rack; ae 5 f adds 10 minutes on the sheet. Preserve the current pan route as main and the source rack route as a separate option, without a tested equivalence claim.",
+    "Live NYT content could not be fetched. Exact retained original and actual followed Git establish the cooking formula/method and Samantha Seneviratne credit; the live card is not certified.",
+    "306 e 8136 deliberately removed duplicate Serving/Pairs panels including bulk-added flaky salt and ice cream suggestions. They are not silently restored as core formula ingredients."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "10 tbsp Unsalted Butter, room temp",
+        "destination": "cream 2",
+        "state": "Butter softened or at room temperature as listed, then creamed or melted as its destination specifies."
+      },
+      {
+        "ingredient": "3/4 cup Dark Brown Sugar, packed",
+        "destination": "cream 2",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "2/3 cup Granulated Sugar",
+        "destination": "cream 2",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "beat 2",
+        "state": "Raw egg incorporated into dough; oven baking follows."
+      },
+      {
+        "ingredient": "2 tsp Pure Vanilla Extract",
+        "destination": "beat 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 cup All-Purpose Flour",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "3/4 cup Dutch-process Cocoa Powder",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "3/4 tsp Kosher Salt",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1/2 tsp Baking Powder",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1/2 tsp Baking Soda",
+        "destination": "drymix 1",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "2 cups Semisweet Chocolate Discs (preferred)",
+        "destination": "mix 3",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2/3 cup (133 g) Granulated Sugar",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "beat 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 tsp Pure Vanilla Extract",
+        "destination": "beat 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 cup (145 g) All-Purpose Flour",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "3/4 tsp Kosher Salt",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/2 tsp Baking Powder",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/2 tsp Baking Soda",
+        "destination": "drymix 1",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 cups (305 g) Semisweet Chocolate Discs (preferred)",
+        "destination": "mix 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      }
+    ],
+    "originalNative": [
+      {
+        "ingredient": "1 cup/145 grams all-purpose flour",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "¾ cup/75 grams Dutch-process cocoa powder",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "¾ teaspoon kosher salt",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "½ teaspoon baking powder",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "½ teaspoon baking soda",
+        "destination": "dry mix source 1",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "10 tablespoons/141 grams unsalted butter, at room temperature",
+        "destination": "cream source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "¾ cup/150 grams dark brown sugar",
+        "destination": "cream source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "⅔ cup/133 grams granulated sugar",
+        "destination": "cream source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 large egg",
+        "destination": "beat source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 teaspoons pure vanilla extract",
+        "destination": "beat source 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 cups/305 grams semisweet or bittersweet chocolate discs (or use 2 cups/340 grams chocolate chips)",
+        "destination": "mix source 3; exclusive discs or chips",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      }
+    ],
+    "allocations": [],
+    "variants": [
+      {
+        "name": "Bittersweet discs",
+        "replaceIndex": 10,
+        "replacement": "2 cups (305 g) Bittersweet Chocolate Discs (preferred)",
+        "exclusiveGroup": "chocolatechoice",
+        "route": "Same complete dough,24–36-hour chill and steps 1–7; replace only the semisweet discs with the same listed volume/weight.",
+        "effect": "Sweetness changes; original 2 cups/305 g retained.",
+        "ingredientLedger": [
+          {
+            "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "2/3 cup (133 g) Granulated Sugar",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "1 large Egg",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "2 tsp Pure Vanilla Extract",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "1 cup (145 g) All-Purpose Flour",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "3/4 tsp Kosher Salt",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1/2 tsp Baking Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1/2 tsp Baking Soda",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "2 cups (305 g) Bittersweet Chocolate Discs (preferred)",
+            "destination": "mix 3"
+          }
+        ]
+      },
+      {
+        "name": "Chocolate chips",
+        "replaceIndex": 10,
+        "replacement": "2 cups (340 g) Chocolate Chips",
+        "exclusiveGroup": "chocolatechoice",
+        "route": "Same complete dough/rest/method; replace only discs with the original 2 cups/340 g chip supply, scaled proportionally.",
+        "effect": "Separate chip equivalent; do not add both choices or use 305 g as the chip weight.",
+        "ingredientLedger": [
+          {
+            "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "2/3 cup (133 g) Granulated Sugar",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "1 large Egg",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "2 tsp Pure Vanilla Extract",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "1 cup (145 g) All-Purpose Flour",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "3/4 tsp Kosher Salt",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1/2 tsp Baking Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1/2 tsp Baking Soda",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "2 cups (340 g) Chocolate Chips",
+            "destination": "mix 3"
+          }
+        ]
+      },
+      {
+        "name": "Direct parchment rack cooling",
+        "route": "All ingredients unchanged. After bake 6, move the whole parchment to a rack instead of the main ten-minute sheet rest 7; let firm before lifting.",
+        "effect": "Exact retained source cooling option; no tested comparison.",
+        "ingredientLedger": [
+          {
+            "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "2/3 cup (133 g) Granulated Sugar",
+            "destination": "cream 2"
+          },
+          {
+            "ingredient": "1 large Egg",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "2 tsp Pure Vanilla Extract",
+            "destination": "beat 2"
+          },
+          {
+            "ingredient": "1 cup (145 g) All-Purpose Flour",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "3/4 tsp Kosher Salt",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1/2 tsp Baking Powder",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "1/2 tsp Baking Soda",
+            "destination": "drymix 1"
+          },
+          {
+            "ingredient": "2 cups (305 g) Semisweet Chocolate Discs (preferred)",
+            "destination": "mix 3"
+          }
+        ]
+      }
+    ],
+    "additionalMethodAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "method": "1. **Dry mix:** Whisk the flour, Dutch-process cocoa, kosher salt, baking powder and baking soda until evenly mixed and free of lumps."
+    },
+    {
+      "step": 2,
+      "method": "2. **Cream:** With a paddle attachment, beat the softened butter and both sugars until very light, about 5 minutes, scraping the bowl. Beat in the egg and vanilla until combined."
+    },
+    {
+      "step": 3,
+      "method": "3. **Combine and chill:** On low speed, mix in the dry ingredients just until no dry pockets remain, then briefly mix in the chocolate discs. Press plastic wrap against the dough and refrigerate for 24–36 hours."
+    },
+    {
+      "step": 4,
+      "method": "4. **Prepare:** Preheat the oven to 350°F. Line a large baking sheet with parchment. Keep the remaining dough covered and refrigerated between loads."
+    },
+    {
+      "step": 5,
+      "method": "5. **Portion:** Make balls slightly larger than golf balls, about 3 1/2 oz each. The original batch makes roughly 9–10 cookies. Put no more than 5 of these large portions on the original-size sheet, with ample room to spread; use fewer if the actual sheet cannot provide that space. Scaling changes the amount of dough and number of loads, not the portion size or pan capacity."
+    },
+    {
+      "step": 6,
+      "method": "6. **Bake:** Once the oven reaches 350°F, bake for about 18 minutes, until the edges are set and the centers remain slightly soft. Bake the rest in further loads as needed."
+    },
+    {
+      "step": 7,
+      "method": "7. **Cool:** Let the cookies firm on the sheet for about 10 minutes, then carefully transfer them to a rack. Let the sheet cool before loading more dough. Serve warm once firm enough to lift, or cool completely before packing."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Bittersweet discs",
+      "replaceIndex": 10,
+      "replacement": "2 cups (305 g) Bittersweet Chocolate Discs (preferred)",
+      "exclusiveGroup": "chocolatechoice",
+      "route": "Same complete dough,24–36-hour chill and steps 1–7; replace only the semisweet discs with the same listed volume/weight.",
+      "effect": "Sweetness changes; original 2 cups/305 g retained.",
+      "ingredientLedger": [
+        {
+          "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "2/3 cup (133 g) Granulated Sugar",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "1 large Egg",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "2 tsp Pure Vanilla Extract",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "1 cup (145 g) All-Purpose Flour",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "3/4 tsp Kosher Salt",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1/2 tsp Baking Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1/2 tsp Baking Soda",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "2 cups (305 g) Bittersweet Chocolate Discs (preferred)",
+          "destination": "mix 3"
+        }
+      ]
+    },
+    {
+      "name": "Chocolate chips",
+      "replaceIndex": 10,
+      "replacement": "2 cups (340 g) Chocolate Chips",
+      "exclusiveGroup": "chocolatechoice",
+      "route": "Same complete dough/rest/method; replace only discs with the original 2 cups/340 g chip supply, scaled proportionally.",
+      "effect": "Separate chip equivalent; do not add both choices or use 305 g as the chip weight.",
+      "ingredientLedger": [
+        {
+          "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "2/3 cup (133 g) Granulated Sugar",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "1 large Egg",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "2 tsp Pure Vanilla Extract",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "1 cup (145 g) All-Purpose Flour",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "3/4 tsp Kosher Salt",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1/2 tsp Baking Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1/2 tsp Baking Soda",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "2 cups (340 g) Chocolate Chips",
+          "destination": "mix 3"
+        }
+      ]
+    },
+    {
+      "name": "Direct parchment rack cooling",
+      "route": "All ingredients unchanged. After bake 6, move the whole parchment to a rack instead of the main ten-minute sheet rest 7; let firm before lifting.",
+      "effect": "Exact retained source cooling option; no tested comparison.",
+      "ingredientLedger": [
+        {
+          "ingredient": "10 tbsp (141 g) Unsalted Butter, room temp",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "3/4 cup (150 g) Dark Brown Sugar, packed",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "2/3 cup (133 g) Granulated Sugar",
+          "destination": "cream 2"
+        },
+        {
+          "ingredient": "1 large Egg",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "2 tsp Pure Vanilla Extract",
+          "destination": "beat 2"
+        },
+        {
+          "ingredient": "1 cup (145 g) All-Purpose Flour",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "3/4 cup (75 g) Dutch-process Cocoa Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "3/4 tsp Kosher Salt",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1/2 tsp Baking Powder",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "1/2 tsp Baking Soda",
+          "destination": "drymix 1"
+        },
+        {
+          "ingredient": "2 cups (305 g) Semisweet Chocolate Discs (preferred)",
+          "destination": "mix 3"
+        }
+      ]
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal names this cookie source. Existing pairings remain suggestions. Sugar’s optional Royal Icing was read for its already explicit pasteurized-white route, without whole-icing acceptance."
+  },
+  "ratiosYieldAndCapacity": "All 11 main ingredients retain their cup/spoon/count amounts. Recovered recipe-specific equivalents are butter 141 g, brown sugar 150 g, granulated sugar 133 g, flour 145 g, Dutch cocoa 75 g and discs 305 g. These are exact native/first-Git pairs, not generic density conversions. The exclusive chip replacement has its own 2-cup/340-g pair. Preserve the full chocolate and both leaveners. The source 3 1/2-oz portions and 9–10 big cookies are an approximate planning range; sheet size and finished count are unmeasured.",
+  "preservedPriorRepairs": [
+    "No earlier targeted safety repair is replaced; completefollowhistory preserved."
+  ],
+  "remainingQuestions": [
+    "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+    "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+    "Record sheet dimensions before certifying that five large portions fit."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

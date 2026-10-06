@@ -1,0 +1,1221 @@
+{
+  "slug": "one-pot-chicken-meatballs-with-greens",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "17a1016ba1c967f1c60e52692fdfae86fe3859aa09d142b14854787903c02177",
+  "acceptedSourceSha256": "cb1617e707f239ad1356fa306cd412319a0e0e5ee1f79bd935e5913d1ecbbc02",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "saute", "simmer", "steam", "braise"],
+      "after": ["saute", "simmer", "steam", "braise"]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Ground Chicken",
+        "1/3 cup Plain Greek Yogurt for richness",
+        "1/2 cup Panko Breadcrumbs",
+        "2 cloves Garlic, minced",
+        "2 Scallions, thinly sliced",
+        "1 lb Swiss Chard, sliced into ribbons",
+        "1 Lemon, halved (one half sliced, one half juiced)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "1 tsp Ground Cumin",
+        "2 tsp Dried Oregano",
+        "1/4 tsp Red Pepper Flakes"
+      ],
+      "after": [
+        "--- Meatballs ---",
+        "1 lb ground chicken, raw; fresh or fully thawed",
+        "1/3 cup plain Greek yogurt, thick",
+        "1/2 cup panko breadcrumbs",
+        "2 garlic cloves, peeled and minced",
+        "2 scallions, washed and thinly sliced",
+        "2 tsp dried oregano",
+        "1/4 tsp red pepper flakes",
+        "1 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "1 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "1 lemon, washed; half thinly sliced and half reserved for finishing juice",
+        "1/4 cup extra-virgin olive oil",
+        "1 tsp ground cumin",
+        "salt, to taste for the greens"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 725,
+        "protein": 31,
+        "carbs": 9.5,
+        "fat": 64.5,
+        "fiber": 2,
+        "sugar": 2.5,
+        "sodium": 350
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "meatballs",
+            "name": "Meatballs",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "ground chicken",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw; fresh or fully thawed"
+              },
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain Greek yogurt",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thick"
+              },
+              {
+                "id": "panko",
+                "key": "panko",
+                "name": "panko breadcrumbs",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "peeled and minced"
+              },
+              {
+                "id": "scallion",
+                "key": "scallion",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "washed and thinly sliced"
+              },
+              {
+                "id": "oregano",
+                "key": "oregano",
+                "name": "dried oregano",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "red pepper flakes",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mix-salt",
+                "key": "mix-salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "hand-oil",
+                "key": "hand-oil",
+                "name": "olive oil",
+                "allowance": "as needed to coat palms",
+                "uses": [
+                  {
+                    "step": "shape",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-sear-oil",
+                "key": "extra-sear-oil",
+                "name": "additional olive oil",
+                "allowance": "as needed if the pan dries during browning",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "greens",
+            "name": "Greens and lemon",
+            "ingredients": [
+              {
+                "id": "chard",
+                "key": "chard",
+                "name": "Swiss chard",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed; tender stalks sliced and leaves cut into 1-inch ribbons"
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "serve",
+                    "share": "1/2"
+                  }
+                ],
+                "plural": "lemons",
+                "preparation": "washed; half thinly sliced and half reserved for finishing juice"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "toss",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "greens-salt",
+                "key": "greens-salt",
+                "name": "salt",
+                "allowance": "to taste for the greens",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "mix",
+            "title": "Mix gently",
+            "text": "Combine all {{ingredients}} in a bowl, mixing just until evenly combined. The oregano and red pepper belong to this mixture; reserve cumin for the greens. Keep the raw chicken mixture cold if preparation pauses and do not taste it raw."
+          },
+          {
+            "id": "shape",
+            "title": "Shape meatballs",
+            "text": "Use {{ingredients}} to lightly coat your palms, refreshing the coating as needed, and form all the mixture into uniform balls about 2 inches across. The original batch plans about 14 meatballs; at other batch sizes keep the size similar and use the entire mixture rather than holding the count fixed."
+          },
+          {
+            "id": "sear",
+            "title": "Brown meatballs",
+            "text": "Use a heavy pot with a tight lid and a broad base; the original route uses a 12-inch Dutch oven. Heat over medium, then use {{ingredients}}, starting with half of the measured oil supply and adding the separate unmeasured browning allowance only if needed. Add the meatballs without crowding and turn gently when they release, about 7 minutes for initial browning. This is not their final temperature check. Use additional cooking vessels when the complete batch and greens cannot fit; divide the whole measured formula proportionally."
+          },
+          {
+            "id": "toss",
+            "title": "Dress greens",
+            "text": "Meanwhile, in a clean bowl toss all {{ingredients}}, using the remaining half of the measured oil and half the measured lemons as thin slices. Scrunch the leaves to coat; reserve the other lemon half for serving."
+          },
+          {
+            "id": "cover",
+            "title": "Cover with greens",
+            "text": "Pile all the dressed greens and lemon slices directly over all the browned meatballs. Cover tightly and cook over medium for about 12–15 minutes as an initial estimate. The covered greens release moisture to finish cooking the meatballs."
+          },
+          {
+            "id": "check",
+            "title": "Check centers",
+            "text": "Continue covered cooking until meatball centers reach 165°F / 74°C and the greens and tender stalks have softened. Check large meatballs and different pot positions with a thermometer; browning alone does not establish the endpoint. Extra loads or a deeper mound of greens can take longer."
+          },
+          {
+            "id": "serve",
+            "title": "Scoop and finish",
+            "text": "Scoop the meatballs and greens onto plates, spooning all the cooking juices over them. Use all {{ingredients}} for the finish: squeeze the reserved lemon juice over the portions. Use clean serving utensils."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Finish browned meatballs beneath a covered mound of greens",
+        "outcome": "Browned meatballs with cooked centers, tender chard and lemony juices spooned over both.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use a heavy, broad pot with a tight lid and room for the meatballs and the whole mound of greens. The original 12-inch pot is a reference, not a guarantee for every vessel or scaled batch.",
+          "Keep the measured oil separate from the extra allowances: half browns the meatballs and half coats the greens. The original measured total is a quarter cup; use the amount on the scaled list. Oil for your palms and extra browning is additional as needed.",
+          "The original batch uses one teaspoon mixing salt; follow the scaled list. The greens have a separate seasoning allowance. Salt crystal size was not specified, so avoid assuming equivalent spoon volumes across salt types."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The meatballs release and show golden patches without being forced loose.",
+            "why": "A gentle turn preserves the soft yogurt-panko mixture."
+          },
+          {
+            "step": 6,
+            "cue": "Meatball centers reach 165°F / 74°C and chard stalks are tender.",
+            "why": "Covered cooking finishes the raw centers while the greens supply moisture."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Meatballs stick or break while turning",
+            "cause": "They were moved before releasing or the pan dried.",
+            "fix": "Allow the surface to set, ease them loose gently and use the listed additional oil if needed. Do not vigorously toss the soft mixture."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Plain Greek yogurt",
+            "alternative": "For the richer option, use the same measured volume of full-fat thick Greek or Icelandic-style yogurt.",
+            "effect": "This retains the thick-yogurt binder and adds richness without changing the panko or measured olive oil."
+          },
+          {
+            "ingredient": "Scallions and chard",
+            "alternative": "Use scallion white/light-green parts and rainbow chard with its tender stalks, at the same full listed amounts.",
+            "effect": "This changes the greens and scallion flavor while preserving both ingredient totals and stages."
+          },
+          {
+            "ingredient": "Finishing lemon half",
+            "alternative": "Cut the reserved finishing half into wedges and pass all the wedges at the table instead of squeezing it over the dish.",
+            "effect": "Each person controls the final lemon; the other half remains sliced in the covered greens stage."
+          }
+        ],
+        "timing": "Allow about 40 minutes for the original batch, including 15 minutes preparation and 25 minutes cooking/finishing. Toss the greens during the initial roughly 7-minute browning; the covered 12–15-minute stage follows. Active work includes mixing, shaping, browning and serving; most covered cooking is unattended. Larger batches or additional vessels extend elapsed time.",
+        "storage": "Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Store cooked meatballs, greens and juices together for up to 3–4 days. Reheat to 165°F / 74°C throughout, checking meatball centers and stirring the juices; prolonged reheating softens the greens.",
+        "sources": [
+          {
+            "title": "NYT chicken meatballs with greens",
+            "url": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?smid=ck-recipe-iOS-share"
+          },
+          {
+            "title": "FDA safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChicken meatballs can dry out easily since ground chicken is so lean, but adding Greek yogurt and panko keeps them moist and tender. This one-pot method borrows from Italian-American home cooking: brown the meatballs first for flavor, then pile greens and lemon slices on top to steam together. The lemon brightens everything while the chard stays vibrant and tender.\n\n## Directions\n\n1.  **The Mix:** In a large bowl, combine chicken, yogurt, panko, garlic, scallions, and herbs. Mix **gently** until just combined.\n2.  **Shape:** Coat your palms in oil. Form the mixture into 14 uniform balls (about 2 inches each).\n3.  **The Sear:** Heat 2 tbsp oil in a large pot over medium. Sauté meatballs for 7 minutes until golden on all sides.\n4.  **The Layer:** In a separate bowl, toss the chard with cumin, salt, and 2 tbsp oil.\n5.  **The Braise:** Pile the chard and lemon slices directly on top of the meatballs. Cover tightly.\n6.  **Cook:** Simmer for 12-15 minutes until the meatballs are cooked through (165°F) and the chard is tender.\n7.  **Serve:** Use a ladle to scoop meatballs and greens together. Squeeze the remaining lemon half over the top for the mandatory **High Note**.\n",
+    "after": "\n## Chef's Note\n\nYogurt and panko bind these Italian-American-style garlic-and-oregano chicken meatballs. Brown them gently, then cover them with chard and lemon slices to finish cooking in the greens’ moisture. Spoon the cooking juices over the meatballs and greens, and keep the lemon half for the finish.\n\n## Directions\n\n1. **Mix gently:** Combine all ground chicken, plain Greek yogurt, panko breadcrumbs, garlic cloves, scallions, dried oregano, red pepper flakes, and salt in a bowl, mixing just until evenly combined. The oregano and red pepper belong to this mixture; reserve cumin for the greens. Keep the raw chicken mixture cold if preparation pauses and do not taste it raw.\n2. **Shape meatballs:** Use olive oil to lightly coat your palms, refreshing the coating as needed, and form all the mixture into uniform balls about 2 inches across. The original batch plans about 14 meatballs; at other batch sizes keep the size similar and use the entire mixture rather than holding the count fixed.\n3. **Brown meatballs:** Use a heavy pot with a tight lid and a broad base; the original route uses a 12-inch Dutch oven. Heat over medium, then use additional olive oil and 1/2 of the extra-virgin olive oil, starting with half of the measured oil supply and adding the separate unmeasured browning allowance only if needed. Add the meatballs without crowding and turn gently when they release, about 7 minutes for initial browning. This is not their final temperature check. Use additional cooking vessels when the complete batch and greens cannot fit; divide the whole measured formula proportionally.\n4. **Dress greens:** Meanwhile, in a clean bowl toss all Swiss chard, 1/2 of the lemon, 1/2 of the extra-virgin olive oil, ground cumin, and salt, using the remaining half of the measured oil and half the measured lemons as thin slices. Scrunch the leaves to coat; reserve the other lemon half for serving.\n5. **Cover with greens:** Pile all the dressed greens and lemon slices directly over all the browned meatballs. Cover tightly and cook over medium for about 12–15 minutes as an initial estimate. The covered greens release moisture to finish cooking the meatballs.\n6. **Check centers:** Continue covered cooking until meatball centers reach 165°F / 74°C and the greens and tender stalks have softened. Check large meatballs and different pot positions with a thermometer; browning alone does not establish the endpoint. Extra loads or a deeper mound of greens can take longer.\n7. **Scoop and finish:** Scoop the meatballs and greens onto plates, spooning all the cooking juices over them. Use all 1/2 of the lemon for the finish: squeeze the reserved lemon juice over the portions. Use clean serving utensils.\n"
+  },
+  "findings": [
+    {
+      "id": "P03-G01",
+      "rationale": "Restore missing original1tsp mixing salt, separate unmeasured greens salt and real extra oil allowance for palms/browning; do not take palm oil from the already-spent full¼cup. Preserve current full Greek-yogurt amount and lemon juice finish alongside full-fat/scallion/chard/lemon-wedge source options.",
+      "confidence": "High omission lineage; salt crystal type unresolved",
+      "applicableSources": ["original-native", "b7ae012d", "045e5ba2", "23b28c81"],
+      "exactBeforeAfterReferences": ["ingredients", "formula", "content", "learning"],
+      "questions": [
+        "Confirm preferred mixing-salt crystal type, extra oil actually used for palms/pan, approximate14-ball count/size and lid/pot capacity.",
+        "Compare current Greek-yogurt product with the richer full-fat source choice; confirm tender-stalk timing, full juices and40-minute plan."
+      ]
+    },
+    {
+      "id": "P03-G02",
+      "rationale": "Keep current165 endpoint, source moisture-only covered finish without new broth, all juices, approximate2-inch size/original 14 context, proportional measured oil and sufficient vessels. Remove mandatory HighNote jargon and unsupported home-cooking origin claim; retain Italian-American-style context and Italian style tags.",
+      "confidence": "High conservation; actual geometry/time untested",
+      "applicableSources": [
+        "original-native",
+        "045e5ba2",
+        "85691102",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "learning", "equipment"],
+      "questions": [
+        "Confirm preferred mixing-salt crystal type, extra oil actually used for palms/pan, approximate14-ball count/size and lid/pot capacity.",
+        "Compare current Greek-yogurt product with the richer full-fat source choice; confirm tender-stalk timing, full juices and40-minute plan."
+      ]
+    },
+    {
+      "id": "P03-G03",
+      "rationale": "Omit unsupported Italy country/unverified nutrition and unused bake method; retain actual source credit and styles.",
+      "confidence": "High",
+      "applicableSources": ["2a7f3853", "902e7e8e", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "cookingMethods"],
+      "questions": [
+        "Confirm preferred mixing-salt crystal type, extra oil actually used for palms/pan, approximate14-ball count/size and lid/pot capacity.",
+        "Compare current Greek-yogurt product with the richer full-fat source choice; confirm tender-stalk timing, full juices and40-minute plan."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/One-Pot%20Chicken%20Meatballs%20with%20Greens.html",
+    "introductionScope": "Actual earlier saved cooking HTML, independently read and distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?smid=ck-recipe-iOS-share",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "23b28c81 bulk rewrite removes listed salt, extra-oil allowance, full-fat/thick yogurt descriptor and tender-stalk preparation, but retains oil-coated palms and salt in the greens method. Later complete cooking history makes no separate documented quantity decision;9fa adds source credit only. SourceNYT fetch is blocked. Current full¼cup oil, current Greek-yogurt choice and finishing juice remain; restored original full-fat/Icelandic and wedge routes are explicit alternatives. Source salt type remains unestablished; no invented fine/kosher equivalence. 856 removes automatic generic resting text; no new rest imposed.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Ground Chicken",
+        "destination": "mix → shape/sear/covered165; raw",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/3 cup Plain Greek Yogurt for richness",
+        "destination": "mix → cooked binder; fat level unspecified",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/2 cup Panko Breadcrumbs",
+        "destination": "mix → cooked binder",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 cloves Garlic, minced",
+        "destination": "mix",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 Scallions, thinly sliced",
+        "destination": "mix; current uses all scallions, originalwhite/lightgreen separate option",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 lb Swiss Chard, sliced into ribbons",
+        "destination": "toss cumin/salt/oil; leaves ribbons, stalk state missing",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 Lemon, halved (one half sliced, one half juiced)",
+        "destination": "half sliced cover;half juice serving",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": "2tbsp sear +2tbsp greens spends full¼cup; palm oil additional but unlisted",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 tsp Ground Cumin",
+        "destination": "toss greens",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 tsp Dried Oregano",
+        "destination": "generic herbs in mixture",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes",
+        "destination": "generic herbs in mixture; preserve entire¼tsp",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      }
+    ],
+    "frozenMethodOnly": [
+      "salt for greens without listed entry",
+      "palm oil additional to fully consumed¼cup, unlisted"
+    ],
+    "proposed": [
+      {
+        "id": "meatballs.chicken",
+        "name": "ground chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "raw; fresh or fully thawed",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.yogurt",
+        "name": "plain Greek yogurt",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "thick",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.panko",
+        "name": "panko breadcrumbs",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and minced",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.scallion",
+        "name": "scallion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed and thinly sliced",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.oregano",
+        "name": "dried oregano",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.flakes",
+        "name": "red pepper flakes",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.mix-salt",
+        "name": "salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.hand-oil",
+        "name": "olive oil",
+        "quantity": null,
+        "allowance": "as needed to coat palms",
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "shape",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "meatballs.extra-sear-oil",
+        "name": "additional olive oil",
+        "quantity": null,
+        "allowance": "as needed if the pan dries during browning",
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "greens.chard",
+        "name": "Swiss chard",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "greens.lemon",
+        "name": "lemon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed; half thinly sliced and half reserved for finishing juice",
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "toss",
+            "share": "1/2"
+          },
+          {
+            "step": "serve",
+            "share": "1/2"
+          }
+        ]
+      },
+      {
+        "id": "greens.oil",
+        "name": "extra-virgin olive oil",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": "1/2"
+          },
+          {
+            "step": "toss",
+            "share": "1/2"
+          }
+        ]
+      },
+      {
+        "id": "greens.cumin",
+        "name": "ground cumin",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "greens.greens-salt",
+        "name": "salt",
+        "quantity": null,
+        "allowance": "to taste for the greens",
+        "preparation": null,
+        "optional": false,
+        "packageSize": null,
+        "destinations": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "name": "Rich thick-yogurt source option",
+        "amount": "Same⅓cup Greek/Icelandic full-fat yogurt",
+        "destination": "Mixture; full oil/panko unchanged",
+        "confidence": "Exact source descriptor, not forced onto current unspecified-fat main"
+      },
+      {
+        "name": "Original scallion/chard and lemon-wedge choices",
+        "amount": "Same2 scallions/1lb chard/1lemon original batch",
+        "destination": "White/lightgreen parts in mixture; tenderstalk/ribbons in greens;reserved halfwedges serve",
+        "confidence": "Exact saved route; full currentwhole-scallion/juice main preserved"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix gently: Combine all ground chicken, plain Greek yogurt, panko breadcrumbs, garlic cloves, scallions, dried oregano, red pepper flakes, and salt in a bowl, mixing just until evenly combined. The oregano and red pepper belong to this mixture; reserve cumin for the greens. Keep the raw chicken mixture cold if preparation pauses and do not taste it raw."
+    },
+    {
+      "step": 2,
+      "text": "Shape meatballs: Use olive oil to lightly coat your palms, refreshing the coating as needed, and form all the mixture into uniform balls about 2 inches across. The original batch plans about 14 meatballs; at other batch sizes keep the size similar and use the entire mixture rather than holding the count fixed."
+    },
+    {
+      "step": 3,
+      "text": "Brown meatballs: Use a heavy pot with a tight lid and a broad base; the original route uses a 12-inch Dutch oven. Heat over medium, then use additional olive oil and 1/2 of the extra-virgin olive oil, starting with half of the measured oil supply and adding the separate unmeasured browning allowance only if needed. Add the meatballs without crowding and turn gently when they release, about 7 minutes for initial browning. This is not their final temperature check. Use additional cooking vessels when the complete batch and greens cannot fit; divide the whole measured formula proportionally."
+    },
+    {
+      "step": 4,
+      "text": "Dress greens: Meanwhile, in a clean bowl toss all Swiss chard, 1/2 of the lemon, 1/2 of the extra-virgin olive oil, ground cumin, and salt, using the remaining half of the measured oil and half the measured lemons as thin slices. Scrunch the leaves to coat; reserve the other lemon half for serving."
+    },
+    {
+      "step": 5,
+      "text": "Cover with greens: Pile all the dressed greens and lemon slices directly over all the browned meatballs. Cover tightly and cook over medium for about 12–15 minutes as an initial estimate. The covered greens release moisture to finish cooking the meatballs."
+    },
+    {
+      "step": 6,
+      "text": "Check centers: Continue covered cooking until meatball centers reach 165°F / 74°C and the greens and tender stalks have softened. Check large meatballs and different pot positions with a thermometer; browning alone does not establish the endpoint. Extra loads or a deeper mound of greens can take longer."
+    },
+    {
+      "step": 7,
+      "text": "Scoop and finish: Scoop the meatballs and greens onto plates, spooning all the cooking juices over them. Use all 1/2 of the lemon for the finish: squeeze the reserved lemon juice over the portions. Use clean serving utensils."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Rich thick-yogurt source option",
+      "amount": "Same⅓cup Greek/Icelandic full-fat yogurt",
+      "destination": "Mixture; full oil/panko unchanged",
+      "confidence": "Exact source descriptor, not forced onto current unspecified-fat main"
+    },
+    {
+      "name": "Original scallion/chard and lemon-wedge choices",
+      "amount": "Same2 scallions/1lb chard/1lemon original batch",
+      "destination": "White/lightgreen parts in mixture; tenderstalk/ribbons in greens;reserved halfwedges serve",
+      "confidence": "Exact saved route; full currentwhole-scallion/juice main preserved"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "incomingRecipes": [],
+    "outgoingPairings": ["garlic-bread", "everyday-arugula-salad"],
+    "allReferencesResolve": true,
+    "mealDisposition": "No composed meal approval. Complete incoming meals read; portion/equipment/timeline work remains separate.",
+    "remainingQuestion": null
+  },
+  "ratiosYieldAndCapacity": "One pound chicken and one pound chard retain the complete mixture and quarter-cup cooking oil split equally between meatballs/greens; greasing palms is a separate allowance. Fourteen is the original-batch approximate count, not a fixed count when scaled. The twelve-inch lidded pan route preserves vegetable moisture without adding liquid; 165°F chicken determines completion.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Meatballs ---",
+        "1/4 lb ground chicken, raw; fresh or fully thawed",
+        "0.0833 cup plain Greek yogurt, thick",
+        "1/8 cup panko breadcrumbs",
+        "1/2 garlic clove, peeled and minced",
+        "1/2 scallion, washed and thinly sliced",
+        "1/2 tsp dried oregano",
+        "0.0625 tsp red pepper flakes",
+        "1/4 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "1/4 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "1/4 lemon, washed; half thinly sliced and half reserved for finishing juice",
+        "0.0625 cup extra-virgin olive oil",
+        "1/4 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/4 lb ground chicken",
+        "0.0833 cup plain Greek yogurt",
+        "1/8 cup panko breadcrumbs",
+        "1/2 garlic clove",
+        "1/2 scallion",
+        "1/2 tsp dried oregano",
+        "0.0625 tsp red pepper flakes",
+        "1/4 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "1/4 lb Swiss chard",
+        "1/4 lemon",
+        "0.0625 cup extra-virgin olive oil",
+        "1/4 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Meatballs ---",
+        "1/2 lb ground chicken, raw; fresh or fully thawed",
+        "1/6 cup plain Greek yogurt, thick",
+        "1/4 cup panko breadcrumbs",
+        "1 garlic clove, peeled and minced",
+        "1 scallion, washed and thinly sliced",
+        "1 tsp dried oregano",
+        "1/8 tsp red pepper flakes",
+        "1/2 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "1/2 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "1/2 lemon, washed; half thinly sliced and half reserved for finishing juice",
+        "1/8 cup extra-virgin olive oil",
+        "1/2 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1/2 lb ground chicken",
+        "1/6 cup plain Greek yogurt",
+        "1/4 cup panko breadcrumbs",
+        "1 garlic clove",
+        "1 scallion",
+        "1 tsp dried oregano",
+        "1/8 tsp red pepper flakes",
+        "1/2 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "1/2 lb Swiss chard",
+        "1/2 lemon",
+        "1/8 cup extra-virgin olive oil",
+        "1/2 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Meatballs ---",
+        "1 lb ground chicken, raw; fresh or fully thawed",
+        "1/3 cup plain Greek yogurt, thick",
+        "1/2 cup panko breadcrumbs",
+        "2 garlic cloves, peeled and minced",
+        "2 scallions, washed and thinly sliced",
+        "2 tsp dried oregano",
+        "1/4 tsp red pepper flakes",
+        "1 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "1 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "1 lemon, washed; half thinly sliced and half reserved for finishing juice",
+        "1/4 cup extra-virgin olive oil",
+        "1 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 lb ground chicken",
+        "1/3 cup plain Greek yogurt",
+        "1/2 cup panko breadcrumbs",
+        "2 garlic cloves",
+        "2 scallions",
+        "2 tsp dried oregano",
+        "1/4 tsp red pepper flakes",
+        "1 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "1 lb Swiss chard",
+        "1 lemon",
+        "1/4 cup extra-virgin olive oil",
+        "1 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Meatballs ---",
+        "1 1/2 lb ground chicken, raw; fresh or fully thawed",
+        "1/2 cup plain Greek yogurt, thick",
+        "3/4 cup panko breadcrumbs",
+        "3 garlic cloves, peeled and minced",
+        "3 scallions, washed and thinly sliced",
+        "3 tsp dried oregano",
+        "3/8 tsp red pepper flakes",
+        "1 1/2 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "1 1/2 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "1 1/2 lemons, washed; half thinly sliced and half reserved for finishing juice",
+        "3/8 cup extra-virgin olive oil",
+        "1 1/2 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 lb ground chicken",
+        "1/2 cup plain Greek yogurt",
+        "3/4 cup panko breadcrumbs",
+        "3 garlic cloves",
+        "3 scallions",
+        "3 tsp dried oregano",
+        "3/8 tsp red pepper flakes",
+        "1 1/2 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "1 1/2 lb Swiss chard",
+        "1 1/2 lemons",
+        "3/8 cup extra-virgin olive oil",
+        "1 1/2 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Meatballs ---",
+        "2 lb ground chicken, raw; fresh or fully thawed",
+        "2/3 cup plain Greek yogurt, thick",
+        "1 cup panko breadcrumbs",
+        "4 garlic cloves, peeled and minced",
+        "4 scallions, washed and thinly sliced",
+        "4 tsp dried oregano",
+        "1/2 tsp red pepper flakes",
+        "2 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "2 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "2 lemons, washed; half thinly sliced and half reserved for finishing juice",
+        "1/2 cup extra-virgin olive oil",
+        "2 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "2 lb ground chicken",
+        "2/3 cup plain Greek yogurt",
+        "1 cup panko breadcrumbs",
+        "4 garlic cloves",
+        "4 scallions",
+        "4 tsp dried oregano",
+        "1/2 tsp red pepper flakes",
+        "2 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "2 lb Swiss chard",
+        "2 lemons",
+        "1/2 cup extra-virgin olive oil",
+        "2 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Meatballs ---",
+        "3 lb ground chicken, raw; fresh or fully thawed",
+        "1 cup plain Greek yogurt, thick",
+        "1 1/2 cups panko breadcrumbs",
+        "6 garlic cloves, peeled and minced",
+        "6 scallions, washed and thinly sliced",
+        "6 tsp dried oregano",
+        "3/4 tsp red pepper flakes",
+        "3 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "3 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "3 lemons, washed; half thinly sliced and half reserved for finishing juice",
+        "3/4 cup extra-virgin olive oil",
+        "3 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 lb ground chicken",
+        "1 cup plain Greek yogurt",
+        "1 1/2 cups panko breadcrumbs",
+        "6 garlic cloves",
+        "6 scallions",
+        "6 tsp dried oregano",
+        "3/4 tsp red pepper flakes",
+        "3 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "3 lb Swiss chard",
+        "3 lemons",
+        "3/4 cup extra-virgin olive oil",
+        "3 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Meatballs ---",
+        "1 lb ground chicken, raw; fresh or fully thawed",
+        "1/3 cup plain Greek yogurt, thick",
+        "1/2 cup panko breadcrumbs",
+        "2 garlic cloves, peeled and minced",
+        "2 scallions, washed and thinly sliced",
+        "2 tsp dried oregano",
+        "1/4 tsp red pepper flakes",
+        "1 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "--- Greens and lemon ---",
+        "1 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons",
+        "1 lemon, washed; half thinly sliced and half reserved for finishing juice",
+        "1/4 cup extra-virgin olive oil",
+        "1 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 lb ground chicken",
+        "1/3 cup plain Greek yogurt",
+        "1/2 cup panko breadcrumbs",
+        "2 garlic cloves",
+        "2 scallions",
+        "2 tsp dried oregano",
+        "1/4 tsp red pepper flakes",
+        "1 tsp salt",
+        "olive oil, as needed to coat palms",
+        "additional olive oil, as needed if the pan dries during browning",
+        "1 lb Swiss chard",
+        "1 lemon",
+        "1/4 cup extra-virgin olive oil",
+        "1 tsp ground cumin",
+        "salt, to taste for the greens"
+      ],
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm preferred mixing-salt crystal type, extra oil actually used for palms/pan, approximate14-ball count/size and lid/pot capacity.",
+    "Compare current Greek-yogurt product with the richer full-fat source choice; confirm tender-stalk timing, full juices and40-minute plan."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -2222,23 +2222,26 @@
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
       "group": "cookies_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/chocolate-chip-walnut-cookies.md",
         {
           "path": ".mise/editorial-campaign/2026-10-05/cookies_02/manifest.json",
           "sha256": "d0c5a052bbd05eea5bf00eaddaaea20ed7c3410dae5706cefaed2efcab72b5fb"
-        }
+        },
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+        "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
       ],
       "inputSha256": "2e8bd2edae4199fa0817e2c1138facac0d69211a13e592a6911ed60623bbae7b",
       "plannedBatch": "baked-sweets-02",
       "reviewPhase": "Frozen whole author proposal; independent challenge in progress",
-      "owner": "baking_editor"
+      "owner": "baking_editor",
+      "acceptedSourceSha256": "c389db25d92e20b433a0cd9582e202c05a8acd7938653b2c710faf1e6e8defc5",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-crinkle-cookies",
@@ -2247,22 +2250,26 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
       "group": "cookies_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cookies_02/manifest.json",
           "sha256": "d0c5a052bbd05eea5bf00eaddaaea20ed7c3410dae5706cefaed2efcab72b5fb"
-        }
+        },
+        "docs/reviews/chocolate-crinkle-cookies.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
+        "Which kosher salt brand/grain is used? No exact salt weight was supplied."
       ],
       "inputSha256": "f0c149c3963e7f8c51d6d0cb6f08e9278b6a5ff8e8f292d4aef18af6189c69fb",
       "plannedBatch": "baked-sweets-02",
       "reviewPhase": "Frozen whole author proposal; independent challenge in progress",
-      "owner": "baking_editor"
+      "owner": "baking_editor",
+      "acceptedSourceSha256": "4b65a2a815d1644be20311a35641b92592811781a3eed087860dd66f234d2c1b",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-pie",
@@ -3111,22 +3118,27 @@
       "source": "Adapted from Samantha Seneviratne",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
       "group": "cookies_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cookies_02/manifest.json",
           "sha256": "d0c5a052bbd05eea5bf00eaddaaea20ed7c3410dae5706cefaed2efcab72b5fb"
-        }
+        },
+        "docs/reviews/double-chocolate-cookies.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
+        "Compare the current ten-minute pan rest with source direct-parchment rack cooling for center texture and transfer fragility.",
+        "Record sheet dimensions before certifying that five large portions fit."
       ],
       "inputSha256": "d96aee4d34b2c1de3517774d63d393c751195a5d635aaea231232814875d4819",
       "plannedBatch": "baked-sweets-03",
       "reviewPhase": "Frozen whole author proposal; independent challenge in progress",
-      "owner": "baking_editor"
+      "owner": "baking_editor",
+      "acceptedSourceSha256": "e012e8227431755be510893db6479f79bb686f27eef6f1f0e744b8b42ba69ede",
+      "productionVerification": "pending"
     },
     {
       "slug": "double-chocolate-layer-cake",
@@ -3172,23 +3184,28 @@
       "source": "Adapted from Blog.myfitnesspal.com",
       "sourceUrl": "http://blog.myfitnesspal.com/easy-baked-turkey-meatballs/",
       "group": "poultry_assembled_mains_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
           "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
-        }
+        },
+        "docs/reviews/easy-baked-turkey-meatballs.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual number and cooked portion weight of two-tablespoon meatballs and whether12 portions suits dinner service.",
+        "Confirm sea-salt crystal size, binding and tenderness with93/7 versus the separate breast option, oven pan capacity and45-minute plan.",
+        "Choose actual vegetable supplies/amounts and their own preparation schedule before planning this optional composed serving. No tested yield or timing is asserted."
       ],
       "inputSha256": "a0ea0d809a38dc3cf2d2ed141dbda3f0fbf428406403825a82bf46ef0adf71ce",
       "plannedBatch": "baked-savory-and-breads-05",
       "owner": "poultry_editor",
-      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending",
+      "acceptedSourceSha256": "94afecaf3ab7f9cc76504701d19c1ccd739f446f2a7b8dca8672033f99ef9d4a",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-breakfast-yogurt-popsicles",
@@ -3490,22 +3507,26 @@
       "source": "Adapted from pbs.org",
       "sourceUrl": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
       "group": "cookies_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cookies_02/manifest.json",
           "sha256": "d0c5a052bbd05eea5bf00eaddaaea20ed7c3410dae5706cefaed2efcab72b5fb"
-        }
+        },
+        "docs/reviews/extraordinary-chocolate-chip-cookie.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
+        "Confirm 24 count and number of loads with the actual 2 1/4-inch scoop and 3-inch gaps."
       ],
       "inputSha256": "fc94bd5d61ef5b5f7e0828e1eb157264cd9522560c51b86b9a79f57914c6d5f1",
       "plannedBatch": "baked-sweets-03",
       "reviewPhase": "Frozen whole author proposal; independent challenge in progress",
-      "owner": "baking_editor"
+      "owner": "baking_editor",
+      "acceptedSourceSha256": "8778d206737241c36ebe41f896985432014b3f3ab464fbdd895336f35f5ca6f2",
+      "productionVerification": "pending"
     },
     {
       "slug": "farfel-muffins",
@@ -4275,22 +4296,26 @@
       "source": "Adapted from Goodhousekeeping.com",
       "sourceUrl": "http://www.goodhousekeeping.com/food-recipes/a40851/grilled-chicken-with-herbed-corn-salsa-recipe/",
       "group": "poultry_assembled_mains_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
           "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
-        }
+        },
+        "docs/reviews/grilled-chicken-with-herbed-corn-salsa.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual thigh size, grill flare behavior, four portions and chicken/corn parallel capacity.",
+        "Confirm preferred salt type/seasoning and coarse topping balance; extra grill loads may exceed35-minute plan."
       ],
       "inputSha256": "c0c482e16b818bc9c26c9368e3fd6bf5c867379e64821b94c17065bcc2a65ee3",
       "plannedBatch": "roast-grill-and-sear-02",
       "owner": "poultry_editor",
-      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending",
+      "acceptedSourceSha256": "402f16eafe422b7e50ec691900995c2e8527497ded4d5ad86b5d3692cc4b0677",
+      "productionVerification": "pending"
     },
     {
       "slug": "grilled-corn-salad-with-feta",
@@ -4352,8 +4377,8 @@
       "title": "Banh Mi",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/grilled-pork-banh-mi",
-      "group": null,
-      "status": "queued",
+      "group": "marinated_meat_mains_04",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/quick-pickled-carrots-and-daikon.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4361,7 +4386,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "82c6fb3bb45cca413180e6916b85733e7d5b18a1f5f7d0f035fcbea09d09450f",
-      "plannedBatch": "roast-grill-and-sear-02"
+      "plannedBatch": "roast-grill-and-sear-02",
+      "assignment": "poultry_editor",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "gwock-family-macaroni-and-cheese",
@@ -4706,8 +4733,8 @@
       "title": "Honey-Glazed Spareribs",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/honey-glazed-spareribs",
-      "group": null,
-      "status": "queued",
+      "group": "marinated_meat_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4715,7 +4742,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "634a2c9ff22100dfed4987d8cad66a8424ef1baf1ffcc38c4c60a1a66aa2ced2",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "assignment": "poultry_editor",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "hot-and-sour-soup",
@@ -4923,8 +4952,8 @@
       "title": "Kalbi",
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
-      "group": null,
-      "status": "queued",
+      "group": "marinated_meat_mains_04",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4932,7 +4961,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "cff078e20a7836a13c974cc21c021d2ebdd3a11915ed19d8541c23524b7f2c0a",
-      "plannedBatch": "roast-grill-and-sear-02"
+      "plannedBatch": "roast-grill-and-sear-02",
+      "assignment": "poultry_editor",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "kale-caesar-with-crispy-chickpeas",
@@ -5101,8 +5132,8 @@
       "title": "Korean Style Tacos",
       "source": "Adapted from Steamykitchen.com",
       "sourceUrl": "http://steamykitchen.com/4474-korean-style-tacos-with-kogi-bbq-sauce.html",
-      "group": null,
-      "status": "queued",
+      "group": "marinated_meat_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5110,7 +5141,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "502f02a09d32a63eb0b6908bb6713264c241a880036211d8a5ae528dc0fb2c7d",
-      "plannedBatch": "cold-preparations-03"
+      "plannedBatch": "cold-preparations-03",
+      "assignment": "poultry_editor",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "lamb-keema-matar",
@@ -5118,8 +5151,8 @@
       "title": "Lamb Keema Matar",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "marinated_meat_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5127,7 +5160,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "273f7e94a08d793965dad6f6beac689fa1c38d4bf625973ca632c30ed689d4c2",
-      "plannedBatch": "simmer-boil-and-steam-06"
+      "plannedBatch": "simmer-boil-and-steam-06",
+      "assignment": "poultry_editor",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "lemon-basil-shrimp-risotto",
@@ -5359,8 +5394,8 @@
       "title": "Bulgogi",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "marinated_meat_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5368,7 +5403,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "72d663a75ba3f8f4d0f7f6dd00a36a4a7cf90001177457d55aa5996beb429d4e",
-      "plannedBatch": "roast-grill-and-sear-03"
+      "plannedBatch": "roast-grill-and-sear-03",
+      "assignment": "poultry_editor",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "mediterranean-chicken-bowls",
@@ -5839,23 +5876,27 @@
       "source": null,
       "sourceUrl": null,
       "group": "poultry_assembled_mains_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
           "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
-        }
+        },
+        "docs/reviews/one-pan-lemon-herb-chicken-thighs.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which potatoes/root vegetables and actual oven-safe vessel fit all8 thighs plus1lb vegetables without crowding? Confirm earlier removal and sauce/vegetable endpoint checks.",
+        "Measure actual active/elapsed time, thigh size, rendered-fat sauce amount, skin texture and four-portion service; clarify kosher-salt crystal type without equal-spoon substitution."
       ],
       "inputSha256": "9bc2e000ff06c511a0486a4ff1e3b4b984e36f5f3e8d284d68e66af650225b65",
       "plannedBatch": "roast-grill-and-sear-03",
       "owner": "poultry_editor",
-      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending",
+      "acceptedSourceSha256": "dcd46a42509c40c8dfe6fd5028a9246463eb74cb191198a876fb8fc69db7dc3d",
+      "productionVerification": "pending"
     },
     {
       "slug": "one-pot-chicken-meatballs-with-greens",
@@ -5864,23 +5905,27 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?smid=ck-recipe-iOS-share",
       "group": "poultry_assembled_mains_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
           "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
-        }
+        },
+        "docs/reviews/one-pot-chicken-meatballs-with-greens.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm preferred mixing-salt crystal type, extra oil actually used for palms/pan, approximate14-ball count/size and lid/pot capacity.",
+        "Compare current Greek-yogurt product with the richer full-fat source choice; confirm tender-stalk timing, full juices and40-minute plan."
       ],
       "inputSha256": "17a1016ba1c967f1c60e52692fdfae86fe3859aa09d142b14854787903c02177",
       "plannedBatch": "braises-and-slow-cooking-02",
       "owner": "poultry_editor",
-      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending",
+      "acceptedSourceSha256": "cb1617e707f239ad1356fa306cd412319a0e0e5ee1f79bd935e5913d1ecbbc02",
+      "productionVerification": "pending"
     },
     {
       "slug": "one-pot-spicy-thai-noodles",
@@ -7163,23 +7208,26 @@
       "source": "Goodhousekeeping.com",
       "sourceUrl": "http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/",
       "group": "poultry_assembled_mains_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/savory-thai-turkey-lettuce-wraps.md",
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
           "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
-        }
+        },
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm fish-sauce/sugar-or-hoisin balance, lettuce type and actual leaf/portion count; no leaf quantity or new yield is invented.",
+        "Measure12-inch skillet load, moisture reduction and25-minute active/elapsed workflow."
       ],
       "inputSha256": "6906ee5286377d41572cd6f14985ab55d3aa13f41b2e5e4e03d54209391f40d3",
       "plannedBatch": "context-screening-04",
       "owner": "poultry_editor",
-      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending",
+      "acceptedSourceSha256": "9c98b8235a5a6d22ae290b580f454b588401481548868e560718d6433030a30b",
+      "productionVerification": "pending"
     },
     {
       "slug": "sazerac",
@@ -7912,22 +7960,27 @@
       "source": "Adapted from joyfoodsunshine.com",
       "sourceUrl": "https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/",
       "group": "cookies_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cookies_02/manifest.json",
           "sha256": "d0c5a052bbd05eea5bf00eaddaaea20ed7c3410dae5706cefaed2efcab72b5fb"
-        }
+        },
+        "docs/reviews/soft-batch-chocolate-chip-cookies.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm 36 count and load count with the actual 2-tablespoon portions.",
+        "Compare current unsalted and source salted butter for salt balance; no household intent is established.",
+        "Record the chocolate brand and actual 14 oz cup fill."
       ],
       "inputSha256": "7fa950c49b92fcbab8a89ecb2cd1ac21d4727692aebfe0cffcd2f4ed2fe9b695",
       "plannedBatch": "baked-sweets-06",
       "reviewPhase": "Frozen whole author proposal; independent challenge in progress",
-      "owner": "baking_editor"
+      "owner": "baking_editor",
+      "acceptedSourceSha256": "1a78ea49281d6775f2ecedaef3d860b7264ec391c87c132125da7dd8c6e49b89",
+      "productionVerification": "pending"
     },
     {
       "slug": "soy-ginger-dipping-sauce",
@@ -8413,22 +8466,27 @@
       "source": "Adapted from preppykitchen.com",
       "sourceUrl": "https://preppykitchen.com/sugar-cookies/",
       "group": "cookies_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cookies_02/manifest.json",
           "sha256": "d0c5a052bbd05eea5bf00eaddaaea20ed7c3410dae5706cefaed2efcab72b5fb"
-        }
+        },
+        "docs/reviews/sugar-cookie.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual 36 count, number of loads and cooling with 2 1/2-inch cutters.",
+        "Measure dusting flour used; no quantity is invented.",
+        "Plan decoration quantities/storage separately before party service; whole Royal Icing acceptance remains outside scope."
       ],
       "inputSha256": "99fafdc80141deea64024ab5b8e49c6cac6883fb3f5365e2682a7a3ce9bb07c9",
       "plannedBatch": "baked-savory-and-breads-11",
       "reviewPhase": "Frozen whole author proposal; independent challenge in progress",
-      "owner": "baking_editor"
+      "owner": "baking_editor",
+      "acceptedSourceSha256": "cc51e68eb956f01042569146aebc778b51a0767996de1d2dfee9d8d90a12f374",
+      "productionVerification": "pending"
     },
     {
       "slug": "super-lemony-olive-oil-cake",
@@ -8488,22 +8546,26 @@
       "source": null,
       "sourceUrl": null,
       "group": "poultry_assembled_mains_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
           "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
-        }
+        },
+        "docs/reviews/sweet-chili-chicken-sliders.md",
+        "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the intended salad-kit package size/composition and actual quantity per12 sliders?",
+        "Measure thigh count/thickness, pan capacity, broiler settings, glaze burning and65-minute one-load workflow; confirm all sauce/mayo/kit and butter fit the rolls."
       ],
       "inputSha256": "935541d002da362fe9b9bb81132c88ae7ce23b89899fee21086309629e9b4d08",
       "plannedBatch": "roast-grill-and-sear-04",
       "owner": "poultry_editor",
-      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending",
+      "acceptedSourceSha256": "6c07cd09cbf1331fccc9298baad8a4a97fd174ac3f9faeb7ae85e3931b105711",
+      "productionVerification": "pending"
     },
     {
       "slug": "sweet-potato-fries",
@@ -9885,9 +9947,10 @@
   "statusCounts": {
     "production-verified": 135,
     "held": 16,
-    "proposed": 64,
-    "assigned": 22,
-    "queued": 170,
+    "proposed": 52,
+    "assigned": 28,
+    "queued": 164,
+    "accepted": 12,
     "held-awaiting-evidence": 2
   }
 }

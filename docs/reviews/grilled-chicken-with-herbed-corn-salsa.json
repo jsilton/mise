@@ -1,0 +1,473 @@
+{
+  "slug": "grilled-chicken-with-herbed-corn-salsa",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "c0c482e16b818bc9c26c9368e3fd6bf5c867379e64821b94c17065bcc2a65ee3",
+  "acceptedSourceSha256": "402f16eafe422b7e50ec691900995c2e8527497ded4d5ad86b5d3692cc4b0677",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "2 1/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "2 large ears Fresh Corn, shucked",
+        "1 cup Fresh Basil, packed",
+        "1/2 cup Fresh Mint, packed",
+        "1/4 cup Freshly Grated Parmesan",
+        "1 clove Garlic",
+        "1/4 cup Fresh Lemon Juice (The Finishing Touch)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "2 1/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "2 large ears Fresh Corn, shucked",
+        "1 cup Fresh Basil, packed",
+        "1/2 cup Fresh Mint, packed",
+        "1/4 cup Freshly Grated Parmesan",
+        "1 clove Garlic",
+        "1/4 cup Fresh Lemon Juice",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 145,
+        "protein": 4,
+        "carbs": 18.5,
+        "fat": 7.5,
+        "fiber": 3.5,
+        "sugar": 3.5,
+        "sodium": 10
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate grilled chicken with a chunky corn-herb topping",
+        "outcome": "Chicken cooked through with browned skin, spot-charred corn and a coarse basil-mint topping.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw chicken utensils and plates separate from the ready-to-eat herb sauce and cooked corn. Wash fresh herbs and use clean equipment for the sauce.",
+          "Leave room on the grill for chicken and corn; cook in additional loads if needed. The chicken weight does not specify a fixed thigh count, and the four portions are the original serving plan.",
+          "Salt the chicken with the listed allowance, then season the herb sauce separately to taste. Salt crystal size affects spoon measures if using the measured-seasoning alternative."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The thickest part of each thigh reaches 165°F / 74°C away from the bone.",
+            "why": "Browning and grill marks do not establish the center temperature."
+          },
+          {
+            "step": 3,
+            "cue": "Herbs are finely chopped but the sauce still has visible pieces.",
+            "why": "Brief pulses keep a coarse topping instead of a smooth paste."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Skin darkens before the chicken center is ready",
+            "cause": "Direct heat or dripping fat scorches the surface.",
+            "fix": "Move chicken to a less intense area of the grill and continue to 165°F / 74°C; do not rely on the fifteen-to-twenty-minute estimate alone."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chicken and salsa seasoning",
+            "alternative": "For the original four-portion batch, use 1/2 tsp salt and 1/2 tsp pepper on chicken, plus 1/4 tsp salt in the herb sauce, instead of unmeasured seasoning; scale these supplies proportionally.",
+            "effect": "This is a separate measured-seasoning option. Salt type was not specified; do not assume equal volumes of fine and coarse salt."
+          },
+          {
+            "ingredient": "Grill route",
+            "alternative": "Use medium heat with the grill covered for chicken, starting checks at 15–20 minutes and turning once; grill corn on medium for about 10 minutes.",
+            "effect": "This gentler route retains the same ingredients and 165°F endpoint; it does not promise the same char as the medium-high route."
+          }
+        ],
+        "timing": "Allow about 35 minutes for the original batch, with 15 minutes preparation and about 20 minutes grilling as initial planning estimates. Corn and the herb sauce can be prepared while chicken cooks. Grill preheating, larger thighs or additional loads add elapsed time; tending the grill and processor are active.",
+        "storage": "Store chicken and corn-herb topping separately. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat chicken to 165°F / 74°C throughout. The cold herb topping loses its fresh texture with reheating.",
+        "sources": [
+          {
+            "title": "Good Housekeeping grilled chicken and herbed corn",
+            "url": "https://www.goodhousekeeping.com/food-recipes/a40851/grilled-chicken-with-herbed-corn-salsa-recipe/"
+          },
+          {
+            "title": "FDA safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Mexican-inspired grilled chicken showcases summer corn charred directly on the grill until the kernels develop smoky, caramelized spots. The herb salsa combines fresh basil and mint with lemon and Parmesan, creating a bright, aromatic topping. The lemon's acidity cuts through the rich fat of chicken thighs.\n\n## Directions\n\n1.  **The Chicken:** Preheat grill to medium-high. Season chicken thighs generously with salt and pepper. Grill, skin-side down first, for 15-20 minutes total, turning once, until the skin is crispy and internal temp reaches 165°F.\n2.  **The Corn:** Place corn ears directly on the grill. Cook for 10 minutes, rotating occasionally, until charred in spots.\n3.  **The Salsa:** While grilling, place basil, mint, Parmesan, and garlic in a food processor. Pulse until finely chopped. Drizzle in the lemon juice and olive oil and pulse once more until a chunky emulsion forms.\n4.  **Combine:** Shear the charred kernels off the cobs. In a small bowl, toss the kernels with the herb sauce.\n5.  **Serve:** Place grilled chicken on a platter and top generously with the herbed corn salsa. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nThis Mexican-inspired grilled chicken showcases summer corn charred directly on the grill until the kernels develop smoky, caramelized spots. The herb salsa combines fresh basil and mint with lemon and Parmesan, creating a bright, aromatic topping. The lemon's acidity cuts through the rich fat of chicken thighs.\n\n## Directions\n\n1. **Grill chicken:** Preheat the grill to medium-high. Season all the thighs with the listed salt and pepper allowance. Grill skin-side down first, turning as the surface browns; start checking at 15–20 minutes total and continue until the thickest part of each thigh reaches 165°F / 74°C, away from the bone. Move away from flare-ups or excessive direct heat. Transfer cooked chicken with clean utensils to a clean platter.\n2. **Grill corn:** Grill all the shucked corn, rotating occasionally, for about 10 minutes, until the kernels are tender and charred in spots. Keep ready-to-eat corn away from raw chicken and its utensils.\n3. **Make herb sauce:** While grilling, pulse all the basil, mint, Parmesan and garlic in a clean food processor until finely chopped. Add all the lemon juice and olive oil and pulse just to combine. Season with the listed salt allowance to taste.\n4. **Combine:** When the corn is safe to handle, cut all its kernels off the cobs into a bowl and mix them with all the herb sauce.\n5. **Serve:** Divide the chicken and complete corn-herb topping among the listed portions and serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "P03-C01",
+      "rationale": "Preserve current medium-high char route, restore missing salsa seasoning destination using existing allowance and retain source medium-covered/measured-seasoning route distinctly. No actual pan/grill/time guarantee.",
+      "confidence": "High lineage; moderate heat/capacity",
+      "applicableSources": [
+        "original-native",
+        "b7ae012d",
+        "045e5ba2",
+        "38b29fc2",
+        "GH-corn",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "Check actual thigh size, grill flare behavior, four portions and chicken/corn parallel capacity.",
+        "Confirm preferred salt type/seasoning and coarse topping balance; extra grill loads may exceed35-minute plan."
+      ]
+    },
+    {
+      "id": "P03-C02",
+      "rationale": "Omit unsupported national origin/unverified nutrient numbers and remove editorial ingredient slogan; retain Mexican style/context, Parmesan, all herbs/lemon/oil and targeted e956 GreekVillage link repair.",
+      "confidence": "High",
+      "applicableSources": ["2a7f3853", "c99632a9", "e956346b", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "ingredients"],
+      "questions": [
+        "Check actual thigh size, grill flare behavior, four portions and chicken/corn parallel capacity.",
+        "Confirm preferred salt type/seasoning and coarse topping balance; extra grill loads may exceed35-minute plan."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Grilled%20Chicken%20with%20Herbed%20Corn%20Salsa.html",
+    "introductionScope": "Actual earlier saved cooking HTML, independently read and distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.goodhousekeeping.com/food-recipes/a40851/grilled-chicken-with-herbed-corn-salsa-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "38b29fc2 replaces source medium-covered chicken and measured seasoning with current medium-high charred treatment and unmeasured seasoning, omitting salsa salt. Later c99632a9 explicitly retains Mexican-inspired body context; keep that style rather than infer a birthplace. Bound native/earlier HTML/actual GH source agree on the alternative. No extra oil or changed chicken cut is introduced.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 1/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "destination": "season/grill165; raw bone-in thighs",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 large ears Fresh Corn, shucked",
+        "destination": "grill kernels → herb sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 cup Fresh Basil, packed",
+        "destination": "processor → sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/2 cup Fresh Mint, packed",
+        "destination": "processor → sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 cup Freshly Grated Parmesan",
+        "destination": "processor → sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 clove Garlic",
+        "destination": "processor → sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 cup Fresh Lemon Juice (The Finishing Touch)",
+        "destination": "processor → sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "processor → sauce",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "chicken only in frozen method; salsa salt omitted from original route",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "text": "2 1/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "destination": "season/grill165; raw bone-in thighs",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "2 large ears Fresh Corn, shucked",
+        "destination": "grill kernels → herb sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 cup Fresh Basil, packed",
+        "destination": "processor → sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/2 cup Fresh Mint, packed",
+        "destination": "processor → sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/4 cup Freshly Grated Parmesan",
+        "destination": "processor → sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 clove Garlic",
+        "destination": "processor → sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/4 cup Fresh Lemon Juice",
+        "destination": "processor → sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "processor → sauce",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "season chicken and sauce independently with same listed allowance",
+        "methodReference": "Final Directions; see complete process graph"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Source medium-covered grill and measured seasoning",
+        "amount": "Original4 portions:½tsp each salt/pepper on thighs;¼tsp salt in sauce",
+        "destination": "Same chicken/corn/herb formula; separate route",
+        "confidence": "Bound saved and actual publisher; salt crystal type unresolved"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Grill chicken: Preheat the grill to medium-high. Season all the thighs with the listed salt and pepper allowance. Grill skin-side down first, turning as the surface browns; start checking at 15–20 minutes total and continue until the thickest part of each thigh reaches 165°F / 74°C, away from the bone. Move away from flare-ups or excessive direct heat. Transfer cooked chicken with clean utensils to a clean platter."
+    },
+    {
+      "step": 2,
+      "text": "Grill corn: Grill all the shucked corn, rotating occasionally, for about 10 minutes, until the kernels are tender and charred in spots. Keep ready-to-eat corn away from raw chicken and its utensils."
+    },
+    {
+      "step": 3,
+      "text": "Make herb sauce: While grilling, pulse all the basil, mint, Parmesan and garlic in a clean food processor until finely chopped. Add all the lemon juice and olive oil and pulse just to combine. Season with the listed salt allowance to taste."
+    },
+    {
+      "step": 4,
+      "text": "Combine: When the corn is safe to handle, cut all its kernels off the cobs into a bowl and mix them with all the herb sauce."
+    },
+    {
+      "step": 5,
+      "text": "Serve: Divide the chicken and complete corn-herb topping among the listed portions and serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Source medium-covered grill and measured seasoning",
+      "amount": "Original4 portions:½tsp each salt/pepper on thighs;¼tsp salt in sauce",
+      "destination": "Same chicken/corn/herb formula; separate route",
+      "confidence": "Bound saved and actual publisher; salt crystal type unresolved"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": ["src/content/meals/grilled-chicken-summer-plate.md"],
+    "incomingRecipes": [
+      "src/content/recipes/lemon-herb-quinoa.md",
+      "src/content/recipes/coconut-jasmine-rice.md",
+      "src/content/recipes/chimichurri.md",
+      "src/content/recipes/red-zone-margarita.md",
+      "src/content/recipes/grilled-zucchini-with-mint.md"
+    ],
+    "outgoingPairings": ["greek-village-salad", "cilantro-lime-rice", "mexican-street-corn-salad"],
+    "allReferencesResolve": true,
+    "mealDisposition": "No composed meal approval. Complete incoming meals read; portion/equipment/timeline work remains separate.",
+    "remainingQuestion": "Summer Plate shorter chicken clock/combined potatoes-zucchini timing and grill loads need whole review."
+  },
+  "ratiosYieldAndCapacity": "The full 2¼-pound chicken, two ears of corn, herb/cheese amounts and two tablespoons of salsa oil are retained. Grill capacity and timing depend on thighs and grill conditions. Current charred corn and the separate complete source covered/medium route remain distinct; no serving-weight precision is invented.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "0.56 lbs Skin-on, Bone-in Chicken Thighs",
+        "1/2 large ears Fresh Corn, shucked",
+        "1/4 cup Fresh Basil, packed",
+        "1/8 cup Fresh Mint, packed",
+        "0.0625 cup Freshly Grated Parmesan",
+        "1/4 clove Garlic",
+        "0.0625 cup Fresh Lemon Juice",
+        "1/2 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/8 lbs Skin-on, Bone-in Chicken Thighs",
+        "1 large ears Fresh Corn, shucked",
+        "1/2 cup Fresh Basil, packed",
+        "1/4 cup Fresh Mint, packed",
+        "1/8 cup Freshly Grated Parmesan",
+        "1/2 clove Garlic",
+        "1/8 cup Fresh Lemon Juice",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 1/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "2 large ears Fresh Corn, shucked",
+        "1 cup Fresh Basil, packed",
+        "1/2 cup Fresh Mint, packed",
+        "1/4 cup Freshly Grated Parmesan",
+        "1 clove Garlic",
+        "1/4 cup Fresh Lemon Juice",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 3/8 lbs Skin-on, Bone-in Chicken Thighs",
+        "3 large ears Fresh Corn, shucked",
+        "1 1/2 cups Fresh Basil, packed",
+        "3/4 cup Fresh Mint, packed",
+        "3/8 cup Freshly Grated Parmesan",
+        "1 1/2 cloves Garlic",
+        "3/8 cup Fresh Lemon Juice",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 lbs Skin-on, Bone-in Chicken Thighs",
+        "4 large ears Fresh Corn, shucked",
+        "2 cups Fresh Basil, packed",
+        "1 cup Fresh Mint, packed",
+        "1/2 cup Freshly Grated Parmesan",
+        "2 cloves Garlic",
+        "1/2 cup Fresh Lemon Juice",
+        "4 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 8",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 3/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "6 large ears Fresh Corn, shucked",
+        "3 cups Fresh Basil, packed",
+        "1 1/2 cups Fresh Mint, packed",
+        "3/4 cup Freshly Grated Parmesan",
+        "3 cloves Garlic",
+        "3/4 cup Fresh Lemon Juice",
+        "6 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 1/4 lbs Skin-on, Bone-in Chicken Thighs",
+        "2 large ears Fresh Corn, shucked",
+        "1 cup Fresh Basil, packed",
+        "1/2 cup Fresh Mint, packed",
+        "1/4 cup Freshly Grated Parmesan",
+        "1 clove Garlic",
+        "1/4 cup Fresh Lemon Juice",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directionsReference": "Final authored formula or legacy Directions; sizes, heat and clocks stay fixed"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Check actual thigh size, grill flare behavior, four portions and chicken/corn parallel capacity.",
+    "Confirm preferred salt type/seasoning and coarse topping balance; extra grill loads may exceed35-minute plan."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

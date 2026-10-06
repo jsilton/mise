@@ -1,0 +1,489 @@
+{
+  "slug": "chocolate-chip-walnut-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "2e8bd2edae4199fa0817e2c1138facac0d69211a13e592a6911ed60623bbae7b",
+  "acceptedSourceSha256": "c389db25d92e20b433a0cd9582e202c05a8acd7938653b2c710faf1e6e8defc5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "35–55 min, including cooling and multiple trays",
+      "after": "35–55 min planning range; remaining preheating or extra trays may add time"
+    },
+    {
+      "field": "servings",
+      "before": "24",
+      "after": "24 large cookies (approximate)"
+    },
+    {
+      "field": "origin",
+      "before": "allrecipes.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Dissolve a small baking-soda addition before mixing a nut-and-chocolate cookie dough.",
+        "outcome": "Walnuts and chocolate are evenly distributed in cookies with browned edges and soft, set centers.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The butter should be soft enough to beat smoothly, without being melted or oily. The small hot-water measure belongs with the baking soda; it is part of the dough, not an extra thinning allowance.",
+          "Keep the large spoonfuls the same size. The yield is an approximate cookie count, not a number of diners. For a larger batch, use more trays while keeping portion size, spacing and oven temperature the same.",
+          "If scaling gives a fractional egg, beat an egg and use the required fraction rather than rounding to a whole egg. Keep portion size, spacing and baking temperature the same."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The soda has dissolved in the small water measure before it enters the dough.",
+            "why": "This keeps the concentrated soda addition from remaining in dry pockets."
+          },
+          {
+            "step": 4,
+            "cue": "No dry flour pockets remain, and nuts and chips appear throughout the dough.",
+            "why": "Finish mixing once the additions are distributed so extra beating does not toughen the cookies."
+          },
+          {
+            "step": 5,
+            "cue": "Edges are brown and the center has set, while the cookie is still soft.",
+            "why": "Pan color and portion size can change the bake time; softness alone does not mean the center should remain raw."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cookies merge into one another",
+            "cause": "Portions were crowded or butter was too warm.",
+            "fix": "Keep the remaining dough refrigerated if it becomes very soft, allow the next sheet to cool, and leave room between portions. Already merged cookies cannot regain separate outlines."
+          },
+          {
+            "problem": "Cookies break during transfer",
+            "cause": "They were lifted before they had firmed enough on the sheet.",
+            "fix": "Wait until a spatula lifts the cookie intact, then finish cooling on a rack."
+          }
+        ],
+        "storage": "Do not taste raw dough. Keep waiting egg-containing dough covered in the refrigerator at 40°F / 4°C or below. Pack fully cooled plain cookies airtight; freeze for longer storage and thaw covered so they do not dry out.",
+        "timing": "The 35–55-minute range is a planning estimate from ready ingredients, including several trays and cooling. Preparation is about 15 minutes and baking about 10 minutes per tray. Start preheating during preparation; any oven heating still needed before loading, extra loads, or longer cooling extends the elapsed time.",
+        "sources": [
+          {
+            "title": "Allrecipes: attributed walnut-and-chocolate cookie",
+            "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"
+          },
+          {
+            "title": "FDA: handling raw flour and dough",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis walnut-and-chocolate version dissolves the baking soda in hot water before mixing it into the dough. Bake similarly sized portions together and take them out when the edges brown.\n\n## Directions\n\n1. **Prepare:** Preheat oven to 350 degrees F (175 degrees C).\n\n2. **Continue:** Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.\n\n3. **Cook:** Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.\n",
+    "after": "\n## Chef's Note\n\nDissolve the baking soda in the listed hot water before adding it to this walnut-and-chocolate dough. Keep the portions similar in size and leave room for them to spread; browned edges and a center that has set are more useful than a timer alone.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F / 175°C. Set out ungreased baking sheets and a cooling rack.\n\n2. **Cream:** Beat the softened butter with the white sugar and packed brown sugar until smooth and creamy, scraping the bowl. Beat in the eggs one at a time, then mix in the vanilla.\n\n3. **Dissolve:** In a small cup, dissolve the baking soda in the listed hot water. Stir this mixture and the salt into the butter mixture.\n\n4. **Mix and portion:** Stir in the flour just until no dry pockets remain, then distribute the chocolate chips and chopped walnuts throughout. Drop similarly sized large spoonfuls onto the ungreased sheets, leaving about 2 inches between portions. Keep dough waiting for later trays covered and refrigerated.\n\n5. **Bake:** Load the oven only once it has reached temperature. Bake for about 10 minutes per tray, until the edges are browned and the centers have set but remain soft. Check the first tray closely; scoop size and your pan affect the time. Bake the remaining dough in further loads as needed.\n\n6. **Cool:** Let the cookies firm on the sheet until they can be lifted intact, then transfer them to a rack. Let the sheets cool before loading more dough. Cool the cookies completely before packing them.\n"
+  },
+  "findings": [
+    {
+      "id": "C02-01-01",
+      "field": "totalTime",
+      "rationale": "Separate the compressed mixing step into creaming, dissolved soda/water, flour/filling and portioning, preserving every amount. Add transfer/rack cooling and repeat-load guidance. Keep the current 24-count and 35–55-minute planning range approximate rather than declaring them tested output. Remove the publisher domain from geographic-origin metadata while preserving source and American cuisine style.",
+      "confidence": "High that omitted required stages need accounting; actual load/preheat/cooling times remain unmeasured.",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "549c469ef37ab101d0855fb1dbe00fd662c8e4879a5f009015472ab88ce62f43",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5d902dc2e13127afa1f538ea6aaca7ee0a97222e1267c128476e67aad04f4e7b",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+        "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
+      ]
+    },
+    {
+      "id": "C02-01-02",
+      "field": "servings",
+      "rationale": "Separate the compressed mixing step into creaming, dissolved soda/water, flour/filling and portioning, preserving every amount. Add transfer/rack cooling and repeat-load guidance. Keep the current 24-count and 35–55-minute planning range approximate rather than declaring them tested output. Remove the publisher domain from geographic-origin metadata while preserving source and American cuisine style.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "549c469ef37ab101d0855fb1dbe00fd662c8e4879a5f009015472ab88ce62f43",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5d902dc2e13127afa1f538ea6aaca7ee0a97222e1267c128476e67aad04f4e7b",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+        "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
+      ]
+    },
+    {
+      "id": "C02-01-03",
+      "field": "origin",
+      "rationale": "Retained evidence establishes publisher/style, without a geographic birth-country claim for this particular recipe. Omit origin while preserving exact source and cuisine context.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "549c469ef37ab101d0855fb1dbe00fd662c8e4879a5f009015472ab88ce62f43",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5d902dc2e13127afa1f538ea6aaca7ee0a97222e1267c128476e67aad04f4e7b",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+        "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
+      ]
+    },
+    {
+      "id": "C02-01-04",
+      "field": "learning",
+      "rationale": "Separate the compressed mixing step into creaming, dissolved soda/water, flour/filling and portioning, preserving every amount. Add transfer/rack cooling and repeat-load guidance. Keep the current 24-count and 35–55-minute planning range approximate rather than declaring them tested output. Remove the publisher domain from geographic-origin metadata while preserving source and American cuisine style.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "549c469ef37ab101d0855fb1dbe00fd662c8e4879a5f009015472ab88ce62f43",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5d902dc2e13127afa1f538ea6aaca7ee0a97222e1267c128476e67aad04f4e7b",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+        "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
+      ]
+    },
+    {
+      "id": "C02-01-05",
+      "field": "content",
+      "rationale": "Separate the compressed mixing step into creaming, dissolved soda/water, flour/filling and portioning, preserving every amount. Add transfer/rack cooling and repeat-load guidance. Keep the current 24-count and 35–55-minute planning range approximate rather than declaring them tested output. Remove the publisher domain from geographic-origin metadata while preserving source and American cuisine style.",
+      "confidence": "High for exact written source/history/preservation; culinary reproducibility untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "applicability": "Direct primary publisher corroborates specific formula, scoop or route facts; disagreements are documented separately."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "549c469ef37ab101d0855fb1dbe00fd662c8e4879a5f009015472ab88ce62f43",
+          "applicability": "Exact first-Git formula/method; not independent kitchen evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5d902dc2e13127afa1f538ea6aaca7ee0a97222e1267c128476e67aad04f4e7b",
+          "applicability": "Complete followed history of bulk and later edits. No explicit household/accepted removal is established; this does not prove motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg handling: no tasting, raw-contact cleanup and40°F refrigeration. Not a cookie internal-temperature, sensory-doneness, formula, timing or shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+        "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/chocolate-chip-walnut-cookies.md",
+    "introductionScope": "Exact retained canonical cooking introduction and complete followed history; native provenance is independently established only where an exact original binding exists.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "The exact retained original and first Git use 24 and large spoonfuls. The current publisher uses 48 with a smaller scoop. Preserve 24 as an approximate count without importing the modern smaller-cookie yield.",
+    "Frozen preparation is 15 min while the native card says 20 m. Retain the current 15 min as planning, qualify the existing 35–55 min range, and allow extra oven heating, loads and cooling.",
+    "The original foil paragraph is a partner marketing tip; the actual method uses ungreased pans. It is not a missing formula ingredient."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 cup butter, softened",
+        "destination": "cream/eggs/vanilla in frozen 2",
+        "state": "Butter softened or at room temperature as listed, then creamed or melted as its destination specifies."
+      },
+      {
+        "ingredient": "1 cup white sugar",
+        "destination": "cream in frozen 2",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "1 cup packed brown sugar",
+        "destination": "cream in frozen 2",
+        "state": "Dough sweetener or separate coating supply as the exact destination states."
+      },
+      {
+        "ingredient": "2 eggs",
+        "destination": "beat one at a time frozen 2",
+        "state": "Raw egg incorporated into dough; oven baking follows."
+      },
+      {
+        "ingredient": "2 teaspoons vanilla extract",
+        "destination": "stir frozen 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 teaspoon baking soda",
+        "destination": "dissolve and add frozen 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "2 teaspoons hot water",
+        "destination": "dissolve soda; entire water into dough frozen 2",
+        "state": "Listed hot water dissolves the soda; entire measured water enters the dough."
+      },
+      {
+        "ingredient": "1/2 teaspoon salt",
+        "destination": "add with soda frozen 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "3 cups all-purpose flour",
+        "destination": "stir frozen 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "2 cups semisweet chocolate chips",
+        "destination": "stir frozen 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      },
+      {
+        "ingredient": "1 cup chopped walnuts",
+        "destination": "stir frozen 2",
+        "state": "Ingredient state as listed; complete measure reaches its specified destination."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 cup butter, softened",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 cup white sugar",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 cup packed brown sugar",
+        "destination": "cream 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 eggs",
+        "destination": "beat 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 teaspoons vanilla extract",
+        "destination": "stir 2",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 teaspoon baking soda",
+        "destination": "dissolve 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 teaspoons hot water",
+        "destination": "dissolve 3; entire water enters dough",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1/2 teaspoon salt",
+        "destination": "add 3",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "3 cups all-purpose flour",
+        "destination": "mix 4",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "2 cups semisweet chocolate chips",
+        "destination": "mix 4",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      },
+      {
+        "ingredient": "1 cup chopped walnuts",
+        "destination": "mix 4",
+        "allocation": "Whole listed amount to its named destination; no duplicated measured allocation."
+      }
+    ],
+    "originalNative": [
+      {
+        "ingredient": "1 cup butter, softened",
+        "destination": "cream source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 cup white sugar",
+        "destination": "cream source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 cup packed brown sugar",
+        "destination": "cream source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 eggs",
+        "destination": "beat one at a time source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 teaspoons vanilla extract",
+        "destination": "stir source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 teaspoon baking soda",
+        "destination": "dissolve/add source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 teaspoons hot water",
+        "destination": "dissolve soda; entire water enters dough source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1/2 teaspoon salt",
+        "destination": "add with soda source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "3 cups all-purpose flour",
+        "destination": "stir source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "2 cups semisweet chocolate chips",
+        "destination": "stir source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      },
+      {
+        "ingredient": "1 cup chopped walnuts",
+        "destination": "stir source paragraph 2",
+        "state": "Exact saved ingredient state as written, separate from frozen-current data."
+      }
+    ],
+    "allocations": [],
+    "variants": [],
+    "additionalMethodAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "method": "1. **Prepare:** Preheat the oven to 350°F / 175°C. Set out ungreased baking sheets and a cooling rack."
+    },
+    {
+      "step": 2,
+      "method": "2. **Cream:** Beat the softened butter with the white sugar and packed brown sugar until smooth and creamy, scraping the bowl. Beat in the eggs one at a time, then mix in the vanilla."
+    },
+    {
+      "step": 3,
+      "method": "3. **Dissolve:** In a small cup, dissolve the baking soda in the listed hot water. Stir this mixture and the salt into the butter mixture."
+    },
+    {
+      "step": 4,
+      "method": "4. **Mix and portion:** Stir in the flour just until no dry pockets remain, then distribute the chocolate chips and chopped walnuts throughout. Drop similarly sized large spoonfuls onto the ungreased sheets, leaving about 2 inches between portions. Keep dough waiting for later trays covered and refrigerated."
+    },
+    {
+      "step": 5,
+      "method": "5. **Bake:** Load the oven only once it has reached temperature. Bake for about 10 minutes per tray, until the edges are browned and the centers have set but remain soft. Check the first tray closely; scoop size and your pan affect the time. Bake the remaining dough in further loads as needed."
+    },
+    {
+      "step": 6,
+      "method": "6. **Cool:** Let the cookies firm on the sheet until they can be lifted intact, then transfer them to a rack. Let the sheets cool before loading more dough. Cool the cookies completely before packing them."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal names this cookie source. Existing pairings remain suggestions. Sugar’s optional Royal Icing was read for its already explicit pasteurized-white route, without whole-icing acceptance."
+  },
+  "ratiosYieldAndCapacity": "The complete dough uses 3 cups flour, 1 cup butter, 1 cup each white and brown sugar, 2 eggs, 2 cups chips and 1 cup walnuts. Keep the 1 tsp soda dissolved in the entire 2 tsp hot water; no extra liquid or alternate leavener is introduced. The retained 24 is a large-spoonful planning count. Scoop weight, finished count and sheet dimensions have not been measured.",
+  "preservedPriorRepairs": ["Oct5 hotwater/soda method and qualified35–55minrange preserved."],
+  "remainingQuestions": [
+    "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
+    "Does the chosen butter contain salt? No butter salt type or universal salt adjustment is established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

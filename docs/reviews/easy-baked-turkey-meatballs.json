@@ -1,0 +1,535 @@
+{
+  "slug": "easy-baked-turkey-meatballs",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
+  "inputSha256": "a0ea0d809a38dc3cf2d2ed141dbda3f0fbf428406403825a82bf46ef0adf71ce",
+  "acceptedSourceSha256": "94afecaf3ab7f9cc76504701d19c1ccd739f446f2a7b8dca8672033f99ef9d4a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1/2 cup Unseasoned Breadcrumbs",
+        "1/2 cup Carrots, finely minced",
+        "1/4 cup Yellow Onion, finely minced",
+        "2 large Eggs",
+        "1 tbsp Italian Seasoning",
+        "1 tsp Garlic Powder",
+        "1 tsp Sea Salt",
+        "Pinch of Red Pepper Flakes"
+      ],
+      "after": [
+        "2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1/2 cup Unseasoned Breadcrumbs",
+        "1/2 cup Carrots, finely minced",
+        "1/4 cup Yellow Onion, finely minced",
+        "2 large Eggs",
+        "1 tbsp Italian Seasoning",
+        "1 tsp Garlic Powder",
+        "1 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 30,
+        "protein": 1.5,
+        "carbs": 3,
+        "fat": 1,
+        "fiber": 0.5,
+        "sugar": 1,
+        "sodium": 220
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Mix gently and keep meatballs the same size",
+        "outcome": "Evenly sized meatballs with finely dispersed vegetables and cooked centers.",
+        "techniques": ["temperature"],
+        "before": [
+          "Finely mince the measured carrots and onion before handling the turkey. Keep raw turkey and eggs cold until mixing; do not taste the raw mixture.",
+          "Use enough parchment-lined baking sheets to leave space between the meatballs. Keep the two-tablespoon portion size when changing the batch; extra pans or oven loads can change elapsed time.",
+          "The twelve servings are the original serving plan, not a count of twelve meatballs or a measured cooked portion weight."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The vegetables and seasonings are dispersed with no dry pockets of crumbs.",
+            "why": "Gentle mixing combines the binder without prolonged kneading."
+          },
+          {
+            "step": 5,
+            "cue": "Meatball centers reach 165°F / 74°C on a thermometer.",
+            "why": "Color alone cannot establish poultry doneness; equal portions help centers cook at a similar rate."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Some centers cook before others",
+            "cause": "Portions differ in size or the oven has hotter areas.",
+            "fix": "Keep portions uniform, check more than one pan position and return underdone meatballs to the oven. Do not wait for every center to change color."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Ground turkey",
+            "alternative": "Use the same two-pound amount of ground turkey breast for the original batch, scaling the full recipe together.",
+            "effect": "This leaner option changes richness and may dry sooner; retain the eggs, crumbs and vegetables, and cook to the same measured endpoint."
+          }
+        ],
+        "timing": "Allow about 45 minutes for the original batch: 15 minutes preparation and 25–30 minutes baking, plus oven preheating if needed. Mixing and portioning are active; baking is mostly unattended. Additional pans or loads can extend elapsed time. Separately prepared pasta, sauce or squash has its own clock.",
+        "storage": "Cool cooked meatballs promptly. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat to 165°F / 74°C throughout. For make-ahead freezing, freeze the cooked meatballs airtight for up to 3 months for quality; thaw in the refrigerator before reheating.",
+        "sources": [
+          {
+            "title": "Turkey meatballs",
+            "url": "http://blog.myfitnesspal.com/easy-baked-turkey-meatballs/"
+          },
+          {
+            "title": "FDA safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nLean turkey needs moisture - finely minced carrots release liquid as they bake, keeping meatballs juicy from within. Mince carrots almost to a paste so they integrate seamlessly. Two-tablespoon portions cook quickly at 350°F without drying out.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Line a large baking sheet with parchment paper.\n2.  **Mince:** Use a food processor or sharp knife to finely mince the carrots and onions until they are almost a paste - this ensures they integrate perfectly into the meat.\n3.  **Combine:** In a large bowl, combine turkey, breadcrumbs, minced veg, eggs, and seasonings. Use your hands to mix **gently** until just incorporated. Do not over-mix, or the meatballs will become tough.\n4.  **Shape:** Form the mixture into 2-tablespoon-sized balls (about the size of a golf ball). Arrange on the prepared baking sheet.\n5.  **Bake:** Bake for 25-30 minutes until the internal temperature reaches 165°F and there is no pink in the center.\n6.  **Serve:** Serve hot with your favorite tomato sauce or over spaghetti squash.\n",
+    "after": "\n## Chef's Note\n\nFinely minced carrots and onion disperse through the turkey and breadcrumb mixture. Mix just until combined and keep the two-tablespoon portions uniform; use their center temperature to judge when baking is complete.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350°F. Line enough baking sheets with parchment paper to leave space between meatballs.\n2. **Mince:** Finely mince all the measured carrots and onion by hand or in a food processor.\n3. **Combine:** In a large bowl, gently combine all the turkey, breadcrumbs, minced vegetables, eggs, Italian seasoning, garlic powder, sea salt and red pepper flakes if using. Stop when the ingredients are evenly distributed.\n4. **Shape:** Form all the mixture into two-tablespoon portions and gently roll each into a ball. Keep that size at every batch amount and arrange with space between them on the prepared sheets.\n5. **Bake:** Start checking at 25–30 minutes and continue baking until meatball centers reach 165°F / 74°C. Insert a thermometer into the center, checking large meatballs and different pan positions; use additional oven loads if needed. A lack of pink is not a substitute for the temperature check.\n6. **Serve:** Serve the cooked meatballs with separately prepared tomato sauce, pasta or spaghetti squash if wanted. For a vegetable serving option, add separately sautéed onion, zucchini, red pepper and grape tomatoes; these are additional serving supplies, with no amounts included in the meatball mixture.\n"
+  },
+  "findings": [
+    {
+      "id": "P03-T01",
+      "rationale": "Replace no-pink safety condition and conflicting golf-ball analogy with existing165°F and source two-tablespoon portion; preserve25–30 first check and gentle mixing.",
+      "confidence": "High",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "045e5ba2",
+        "ae5f0d29"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "Measure actual number and cooked portion weight of two-tablespoon meatballs and whether12 portions suits dinner service.",
+        "Confirm sea-salt crystal size, binding and tenderness with93/7 versus the separate breast option, oven pan capacity and45-minute plan."
+      ]
+    },
+    {
+      "id": "P03-T02",
+      "rationale": "Retain93/7 current primary and separate exact original two-pound turkey-breast option; serving12 remains inherited, with no invented meatball count/weight. Restore source optional flakes and cooked3-month freezer plan; remove unsupported no-drying guarantee.",
+      "confidence": "High lineage; moderate texture application",
+      "applicableSources": [
+        "original-native",
+        "b7ae012d",
+        "045e5ba2",
+        "ae5f0d29",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Measure actual number and cooked portion weight of two-tablespoon meatballs and whether12 portions suits dinner service.",
+        "Confirm sea-salt crystal size, binding and tenderness with93/7 versus the separate breast option, oven pan capacity and45-minute plan."
+      ]
+    },
+    {
+      "id": "P03-T03",
+      "rationale": "Omit bulk-inferred country and unverified nutrition while preserving American style, source credit and all main quantities.",
+      "confidence": "High",
+      "applicableSources": ["2a7f3853", "902e7e8e", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": [
+        "Measure actual number and cooked portion weight of two-tablespoon meatballs and whether12 portions suits dinner service.",
+        "Confirm sea-salt crystal size, binding and tenderness with93/7 versus the separate breast option, oven pan capacity and45-minute plan."
+      ]
+    },
+    {
+      "id": "P03-I01",
+      "rationale": "The exact bound native, earlier HTML and045 Markdown retain the separate sautéed-vegetable serving option. ae5f0d298 bulk rewrite removed it. Complete later cooking history establishes no specific household rejection.306e8136 removed later duplicate serving panels, not this earlier core paragraph, which had already disappeared. Preserve the useful option without reducing/changing the current turkey formula, importing an extra oil dose or guessing vegetable weights/clock.",
+      "confidence": "high preservation lineage; preparation timing/amounts unresolved",
+      "applicableSources": ["privately retained evidence#P03-I01"],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Choose actual vegetable supplies/amounts and their own preparation schedule before planning this optional composed serving. No tested yield or timing is asserted."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20Baked%20Turkey%20Meatballs.html",
+    "introductionScope": "Actual earlier saved cooking HTML, independently read and distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://blog.myfitnesspal.com/easy-baked-turkey-meatballs/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "ae5f0d29 changes original100% turkey breast to current93/7 preference and generic salt to sea salt. Keep current main; original lean turkey option is distinct, with no equal-spoon salt conversion. Current source recipe fetch unavailable. 85691102 removes an automatic five-minute slicing/rest instruction; do not resurrect it. 306e8136 deliberately removes duplicate serving sections; do not restore those bodies. P03-I01 preserves the original core serving paragraph’s separately sautéed onion, zucchini, red pepper and grape tomatoes: its ae5f0d298 loss preceded306e8136 duplicate-panel deletion and is distinct from those deliberately removed later panels. No measured vegetable amounts or preparation clock are established.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "destination": "mixture → shape → bake; raw turkey",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/2 cup Unseasoned Breadcrumbs",
+        "destination": "mixture → bake",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/2 cup Carrots, finely minced",
+        "destination": "minced in step2 → mixture",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1/4 cup Yellow Onion, finely minced",
+        "destination": "minced in step2 → mixture",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "2 large Eggs",
+        "destination": "mixture → bake; raw eggs",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 tbsp Italian Seasoning",
+        "destination": "generic seasonings in mixture",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 tsp Garlic Powder",
+        "destination": "generic seasonings in mixture",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "1 tsp Sea Salt",
+        "destination": "generic seasonings in mixture",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      },
+      {
+        "text": "Pinch of Red Pepper Flakes",
+        "destination": "generic seasonings in mixture; optionality lost vs original",
+        "scope": "Actual frozen method; original omissions retained here, not projected from repaired proposal"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "text": "2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "destination": "mixture → shape → bake; raw turkey",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/2 cup Unseasoned Breadcrumbs",
+        "destination": "mixture → bake",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/2 cup Carrots, finely minced",
+        "destination": "minced in step2 → mixture",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1/4 cup Yellow Onion, finely minced",
+        "destination": "minced in step2 → mixture",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "2 large Eggs",
+        "destination": "mixture → bake; raw eggs",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 tbsp Italian Seasoning",
+        "destination": "generic seasonings in mixture",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 tsp Garlic Powder",
+        "destination": "generic seasonings in mixture",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "1 tsp Sea Salt",
+        "destination": "generic seasonings in mixture",
+        "methodReference": "Final Directions; see complete process graph"
+      },
+      {
+        "text": "Pinch of red pepper flakes, optional",
+        "destination": "generic seasonings in mixture; optionality lost vs original",
+        "methodReference": "Final Directions; see complete process graph"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Lean turkey-breast option",
+        "amount": "2lb in original batch; scale all original ingredients together",
+        "destination": "Same mixture/bake",
+        "exclusiveWith": "93/7 ground turkey",
+        "confidence": "Exact saved option; leaner texture untested"
+      },
+      {
+        "name": "Optional flakes and separately prepared service",
+        "destination": "Flakes in mixture; pasta/sauce/squash and separately sautéed onion, zucchini, red pepper and grape tomatoes are separate serving choices, not quantified meatball components",
+        "source": "Bound native/first Git/current service",
+        "methodReference": "Directions step6; all optional vegetables are separately prepared serving supplies"
+      }
+    ],
+    "separateServiceSupplies": [
+      {
+        "ingredient": "onion",
+        "amount": "Unmeasured optional additional serving supply",
+        "state": "Separately sautéed",
+        "destination": "Directions step6 alongside cooked meatballs; outside turkey/binder mixture",
+        "source": "privately retained evidence#P03-I01"
+      },
+      {
+        "ingredient": "zucchini",
+        "amount": "Unmeasured optional additional serving supply",
+        "state": "Separately sautéed",
+        "destination": "Directions step6 alongside cooked meatballs; outside turkey/binder mixture",
+        "source": "privately retained evidence#P03-I01"
+      },
+      {
+        "ingredient": "red pepper",
+        "amount": "Unmeasured optional additional serving supply",
+        "state": "Separately sautéed",
+        "destination": "Directions step6 alongside cooked meatballs; outside turkey/binder mixture",
+        "source": "privately retained evidence#P03-I01"
+      },
+      {
+        "ingredient": "grape tomatoes",
+        "amount": "Unmeasured optional additional serving supply",
+        "state": "Separately sautéed",
+        "destination": "Directions step6 alongside cooked meatballs; outside turkey/binder mixture",
+        "source": "privately retained evidence#P03-I01"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prep: Preheat the oven to 350°F. Line enough baking sheets with parchment paper to leave space between meatballs."
+    },
+    {
+      "step": 2,
+      "text": "Mince: Finely mince all the measured carrots and onion by hand or in a food processor."
+    },
+    {
+      "step": 3,
+      "text": "Combine: In a large bowl, gently combine all the turkey, breadcrumbs, minced vegetables, eggs, Italian seasoning, garlic powder, sea salt and red pepper flakes if using. Stop when the ingredients are evenly distributed."
+    },
+    {
+      "step": 4,
+      "text": "Shape: Form all the mixture into two-tablespoon portions and gently roll each into a ball. Keep that size at every batch amount and arrange with space between them on the prepared sheets."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Start checking at 25–30 minutes and continue baking until meatball centers reach 165°F / 74°C. Insert a thermometer into the center, checking large meatballs and different pan positions; use additional oven loads if needed. A lack of pink is not a substitute for the temperature check."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve the cooked meatballs with separately prepared tomato sauce, pasta or spaghetti squash if wanted. For a vegetable serving option, add separately sautéed onion, zucchini, red pepper and grape tomatoes; these are additional serving supplies, with no amounts included in the meatball mixture."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Lean turkey-breast option",
+      "amount": "2lb in original batch; scale all original ingredients together",
+      "destination": "Same mixture/bake",
+      "exclusiveWith": "93/7 ground turkey",
+      "confidence": "Exact saved option; leaner texture untested"
+    },
+    {
+      "name": "Optional flakes and separately prepared service",
+      "destination": "Flakes in mixture; pasta/sauce/squash and separately sautéed onion, zucchini, red pepper and grape tomatoes are separate serving choices, not quantified meatball components",
+      "source": "Bound native/first Git/current service",
+      "methodReference": "Directions step6; all optional vegetables are separately prepared serving supplies"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "incomingRecipes": [],
+    "outgoingPairings": ["fresh-egg-pasta", "garlic-bread"],
+    "allReferencesResolve": true,
+    "mealDisposition": "No composed meal approval. Complete incoming meals read; portion/equipment/timeline work remains separate.",
+    "remainingQuestion": null
+  },
+  "ratiosYieldAndCapacity": "The full two-pound mixture and every binder/seasoning are preserved. Twelve is the retained serving plan, not a measured meatball count. Two-tablespoon portions share a single layer; actual count and pan loads are unmeasured. Optional sautéed vegetables are separate unmeasured serving supplies.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1/8 cup Unseasoned Breadcrumbs",
+        "1/8 cup Carrots, finely minced",
+        "0.0625 cup Yellow Onion, finely minced",
+        "1/2 large Egg",
+        "1/4 tbsp Italian Seasoning",
+        "1/4 tsp Garlic Powder",
+        "1/4 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 3",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1/4 cup Unseasoned Breadcrumbs",
+        "1/4 cup Carrots, finely minced",
+        "1/8 cup Yellow Onion, finely minced",
+        "1 large Egg",
+        "1/2 tbsp Italian Seasoning",
+        "1/2 tsp Garlic Powder",
+        "1/2 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1/2 cup Unseasoned Breadcrumbs",
+        "1/2 cup Carrots, finely minced",
+        "1/4 cup Yellow Onion, finely minced",
+        "2 large Eggs",
+        "1 tbsp Italian Seasoning",
+        "1 tsp Garlic Powder",
+        "1 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "3/4 cup Unseasoned Breadcrumbs",
+        "3/4 cup Carrots, finely minced",
+        "3/8 cup Yellow Onion, finely minced",
+        "3 large Eggs",
+        "1 1/2 tbsp Italian Seasoning",
+        "1 1/2 tsp Garlic Powder",
+        "1 1/2 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 18",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1 cup Unseasoned Breadcrumbs",
+        "1 cup Carrots, finely minced",
+        "1/2 cup Yellow Onion, finely minced",
+        "4 large Eggs",
+        "2 tbsp Italian Seasoning",
+        "2 tsp Garlic Powder",
+        "2 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 24",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1 1/2 cups Unseasoned Breadcrumbs",
+        "1 1/2 cups Carrots, finely minced",
+        "3/4 cup Yellow Onion, finely minced",
+        "6 large Eggs",
+        "3 tbsp Italian Seasoning",
+        "3 tsp Garlic Powder",
+        "3 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 36",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 lbs Ground Turkey (93/7 fat ratio preferred)",
+        "1/2 cup Unseasoned Breadcrumbs",
+        "1/2 cup Carrots, finely minced",
+        "1/4 cup Yellow Onion, finely minced",
+        "2 large Eggs",
+        "1 tbsp Italian Seasoning",
+        "1 tsp Garlic Powder",
+        "1 tsp Sea Salt",
+        "Pinch of red pepper flakes, optional"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directionsReference": "privately retained evidence#Directions; optional vegetables remain separately prepared unmeasured service supplies"
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Measure actual number and cooked portion weight of two-tablespoon meatballs and whether12 portions suits dinner service.",
+    "Confirm sea-salt crystal size, binding and tenderness with93/7 versus the separate breast option, oven pan capacity and45-minute plan.",
+    "Choose actual vegetable supplies/amounts and their own preparation schedule before planning this optional composed serving. No tested yield or timing is asserted."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
+  "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 71,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12120,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 75,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview not inspected",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
