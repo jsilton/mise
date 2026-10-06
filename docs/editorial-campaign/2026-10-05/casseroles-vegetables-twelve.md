@@ -22,3 +22,9 @@ Six casseroles and baked sides and six vegetable sides received complete author 
 ## Locally validated checkpoint
 
 All 252 tests, 98 authored formula checks, 643-recipe validation, 12 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved. All three exports match 643 sources; private bindings, public privacy and 12,269 built anchors pass. The other 631 recipe sources/export schemas and unrelated review credit remain unchanged. 2 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 12 complete rendered pages and 72 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](casseroles-vegetables-twelve-preservation.json).
+
+## Verified publication
+
+213 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 447 recorded complete / 196 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [0099ae5b](https://github.com/jsilton/mise/commit/0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37436130449) and all 12 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](casseroles-vegetables-twelve-production.json).

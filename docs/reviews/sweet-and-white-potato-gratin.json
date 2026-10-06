@@ -1,6 +1,6 @@
 {
   "slug": "sweet-and-white-potato-gratin",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
   "inputSha256": "672eae7c9311e0f764b6a500d85eb6f7e6538584d0a947e5f46f88b7ab42c0d7",
   "acceptedSourceSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841",
@@ -557,7 +557,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
   "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -581,5 +581,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+  "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
 }

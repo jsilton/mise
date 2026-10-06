@@ -1,6 +1,6 @@
 {
   "slug": "sweet-potato-sausage-breakfast-casserole",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
   "inputSha256": "b17bf44004d032dcee20ceb67aae38dbe1f1070090d18921e1eec3a57ab1a929",
   "acceptedSourceSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d",
@@ -590,7 +590,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
   "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -614,5 +614,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+  "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
 }

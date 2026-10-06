@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "201 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "213 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 447 recorded complete / 196 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [0099ae5b](https://github.com/jsilton/mise/commit/0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37436130449) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2810,17 +2810,21 @@
         "record": "docs/reviews/broccoli-cheddar-quinoa-bites.md",
         "acceptedSha256": "287566efaa65a7e2938c192e48e8abe45c4090b625bdfd4e5fc10c6f91e283b5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/broccoli-cheddar-quinoa-bites.json",
         "sourceSha256": "287566efaa65a7e2938c192e48e8abe45c4090b625bdfd4e5fc10c6f91e283b5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "287566efaa65a7e2938c192e48e8abe45c4090b625bdfd4e5fc10c6f91e283b5",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual scoop size and cooked-quinoa moisture affect the count, firmness and clock; the listed 30 bites is planning only.",
@@ -7189,17 +7193,21 @@
         "record": "docs/reviews/corn-casserole.md",
         "acceptedSha256": "15123e7f537dc5cd6a81b028d8e86e95ec3c0dae9118ea4238f80cf88bbd5278",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/corn-casserole.json",
         "sourceSha256": "15123e7f537dc5cd6a81b028d8e86e95ec3c0dae9118ea4238f80cf88bbd5278"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "15123e7f537dc5cd6a81b028d8e86e95ec3c0dae9118ea4238f80cf88bbd5278",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Which complete family formula is intended: exact smaller8/8oz source versus current larger full cans? Neither automatic source prestige nor bulk change decides it.",
@@ -9756,17 +9764,21 @@
         "record": "docs/reviews/elote-style-corn-on-the-cob.md",
         "acceptedSha256": "bba824fe56a1beb3cd03dd5c4386c5b528d13834efdd3db97827671dddc6d80a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/elote-style-corn-on-the-cob.json",
         "sourceSha256": "bba824fe56a1beb3cd03dd5c4386c5b528d13834efdd3db97827671dddc6d80a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bba824fe56a1beb3cd03dd5c4386c5b528d13834efdd3db97827671dddc6d80a",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Does actual broiler permit the 4–6-inch placement and foil-lined sheet? Follow that appliance’s safe distances/material limits.",
@@ -10752,17 +10764,21 @@
         "record": "docs/reviews/fried-plantains.md",
         "acceptedSha256": "d5f70172a045d1141f3dcd6f489d76a142b237462d503a2d7947251f43f10295",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/fried-plantains.json",
         "sourceSha256": "d5f70172a045d1141f3dcd6f489d76a142b237462d503a2d7947251f43f10295"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d5f70172a045d1141f3dcd6f489d76a142b237462d503a2d7947251f43f10295",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Does the actual skillet hold all slices in one round? Three fruit may need several rounds; record actual finish time.",
@@ -11717,17 +11733,21 @@
         "record": "docs/reviews/glazed-carrots.md",
         "acceptedSha256": "46aecaeb4cdef0aaa0f8c0104a6588f746ef08f701dacd44a8c3c5dad56b9588",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/glazed-carrots.json",
         "sourceSha256": "46aecaeb4cdef0aaa0f8c0104a6588f746ef08f701dacd44a8c3c5dad56b9588"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "46aecaeb4cdef0aaa0f8c0104a6588f746ef08f701dacd44a8c3c5dad56b9588",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual matchstick thickness/saucepan depth may finish before 8 minutes; record the pan and cut after cooking.",
@@ -12581,17 +12601,21 @@
         "record": "docs/reviews/grilled-corn-salad-with-feta.md",
         "acceptedSha256": "cdf119af7117fed9f2a54ec62769e600b7e42fceb985e028e566ebc38ffc3dfa",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/grilled-corn-salad-with-feta.json",
         "sourceSha256": "cdf119af7117fed9f2a54ec62769e600b7e42fceb985e028e566ebc38ffc3dfa"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cdf119af7117fed9f2a54ec62769e600b7e42fceb985e028e566ebc38ffc3dfa",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual corn-size yield differs; the two source count choices are not a measured mass equivalence.",
@@ -12846,11 +12870,11 @@
         "record": "docs/reviews/ham-and-cheese-green-bean-casserole.md",
         "acceptedSha256": "9f3da7c4c369bdfb86532abd9043cdc481b9b26bdd5e3318b2c8add6411ae37c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/ham-and-cheese-green-bean-casserole.json",
         "sourceSha256": "9f3da7c4c369bdfb86532abd9043cdc481b9b26bdd5e3318b2c8add6411ae37c"
       },
@@ -12859,10 +12883,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9f3da7c4c369bdfb86532abd9043cdc481b9b26bdd5e3318b2c8add6411ae37c",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual dish depth and load determine bake time; source10×12 alternative and current9×13 are not capacity-equivalent claims.",
@@ -13753,17 +13782,21 @@
         "record": "docs/reviews/honey-glazed-carrots.md",
         "acceptedSha256": "9e13280600246dd66bb17305d96400d1462dfc50ca08923df6e64e469705b2e7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/honey-glazed-carrots.json",
         "sourceSha256": "9e13280600246dd66bb17305d96400d1462dfc50ca08923df6e64e469705b2e7"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9e13280600246dd66bb17305d96400d1462dfc50ca08923df6e64e469705b2e7",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual baton thickness, baby-carrot product and available trays determine tenderness/loads.",
@@ -17799,11 +17832,11 @@
         "record": "docs/reviews/noodle-pudding.md",
         "acceptedSha256": "3dc9b28f5c52c3448431c1e77b4988106147d8f1a6612c492559b2b4e3ea6bac",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/noodle-pudding.json",
         "sourceSha256": "3dc9b28f5c52c3448431c1e77b4988106147d8f1a6612c492559b2b4e3ea6bac"
       },
@@ -17812,10 +17845,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3dc9b28f5c52c3448431c1e77b4988106147d8f1a6612c492559b2b4e3ea6bac",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual deep glass dish dimensions/capacity and overflow count need kitchen observation; no measured batter yield.",
@@ -20595,17 +20633,21 @@
         "record": "docs/reviews/ratatouille.md",
         "acceptedSha256": "c88a83f12276c2901723f175610e2627078a5d7d47609a97d7c19b15a308fc25",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/ratatouille.json",
         "sourceSha256": "c88a83f12276c2901723f175610e2627078a5d7d47609a97d7c19b15a308fc25"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c88a83f12276c2901723f175610e2627078a5d7d47609a97d7c19b15a308fc25",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Source vegetable sizes are approximate; current medium-size option remains distinct rather than silently normalized to 8 oz.",
@@ -26812,11 +26854,11 @@
         "record": "docs/reviews/sweet-and-white-potato-gratin.md",
         "acceptedSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-and-white-potato-gratin.json",
         "sourceSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841"
       },
@@ -26825,10 +26867,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual dish depth and potato thickness determine whether the full original load fits and its tender-first clock.",
@@ -27006,17 +27053,21 @@
         "record": "docs/reviews/sweet-potato-sausage-breakfast-casserole.md",
         "acceptedSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-potato-sausage-breakfast-casserole.json",
         "sourceSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d",
+        "implementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "releaseCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
+        "evidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual casserole dish depth, potato cube size and meat moisture determine capacity and elapsed bake time.",
