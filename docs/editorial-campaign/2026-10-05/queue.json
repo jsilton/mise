@@ -489,6 +489,36 @@
       "reviewer": "coverage_check",
       "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
       "status": "assigned; whole author/independent/root pending"
+    },
+    "savory_breakfast_bakes_21": {
+      "slugs": [
+        "sausage-breakfast-casserole",
+        "shakshuka",
+        "spinach-and-mushroom-quiche",
+        "sheet-pan-pancakes",
+        "slow-cooker-cheesy-mushroom-quinoa",
+        "tomato-cobbler-with-cornmeal-cheddar-biscuits"
+      ],
+      "reviewer": "poultry_editor",
+      "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "status": "assigned; whole author/independent/root pending"
+    },
+    "beverages_mixes_22": {
+      "slugs": [
+        "crock-pot-hot-chocolate",
+        "golden-veil",
+        "green-smoothie-for-kids-with-2-hidden-veggies",
+        "hot-mulled-apple-cider",
+        "in-the-park",
+        "mango-rita-green-smoothie",
+        "shruffs-end",
+        "stevens-margs",
+        "thai-basil-ginger-spritzer",
+        "the-new-england-express"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -1002,7 +1032,7 @@
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
       "group": "griddle_breads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/basic-crepes.md",
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
@@ -1018,7 +1048,7 @@
       "plannedBatch": "context-screening-01",
       "owner": "coverage_check",
       "inputSourceSha256": "c61609bb0951ad2772825606fcd2571ceae23d1de025e2c27f46fdac03a9c96e",
-      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "completeEditorialReview": false,
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
@@ -1029,7 +1059,8 @@
         "recordSha256": "4300daf198f072459856fda3151b1da1dcf3378639c4f705b83fbaa203b0250c"
       },
       "acceptedSourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
     },
     {
       "slug": "bbq-chicken-sliders",
@@ -2136,7 +2167,7 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678",
       "group": "cheesy_mains_09",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/cheese-fondue.json",
@@ -2162,7 +2193,9 @@
         "recordSha256": "343bc881ccf6cdbec08c664b6407dc8efe8472d1da4e7e22b4d881dd51496f3b"
       },
       "acceptedSourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "cheesy-cauliflower-sauce",
@@ -2932,7 +2965,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "griddle_breads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/classic-french-toast.json",
@@ -2949,7 +2982,7 @@
       "plannedBatch": "context-screening-02",
       "owner": "coverage_check",
       "inputSourceSha256": "7ecccdcc8d9a472682680bc50d354159193e8fc5fb8e4650342da7e346482a45",
-      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "completeEditorialReview": false,
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
@@ -2960,7 +2993,8 @@
         "recordSha256": "0e87be912142dfd6e85816f95b0e42f510912334e66d570dad841f958d5789d3"
       },
       "acceptedSourceSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
     },
     {
       "slug": "classic-guacamole",
@@ -3469,8 +3503,8 @@
       "title": "Hot Chocolate",
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3478,7 +3512,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9a57d8ff9d1fb0096264605de6eb608e1da345983eaffa843f401410ef0ffeef",
-      "plannedBatch": "braises-and-slow-cooking-01"
+      "plannedBatch": "braises-and-slow-cooking-01",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "crockpot-mac-and-cheese",
@@ -3798,7 +3833,7 @@
       "source": "Adapted from prettyprovidence.com",
       "sourceUrl": "https://prettyprovidence.com/german-pancakes/",
       "group": "griddle_breads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/dutch-baby-pancake.json",
@@ -3816,7 +3851,7 @@
       "plannedBatch": "baked-savory-and-breads-04",
       "owner": "coverage_check",
       "inputSourceSha256": "311e21cb72411d583c7b4eab93c8aa92700e547d0c580dd0120ddfaa9dac8b16",
-      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "completeEditorialReview": false,
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
@@ -3827,7 +3862,8 @@
         "recordSha256": "98167a3f2f7d53a87c738029f488ddebcd678e216c57bb2acbda54d14b759308"
       },
       "acceptedSourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
     },
     {
       "slug": "easy-baked-turkey-meatballs",
@@ -3961,7 +3997,7 @@
       "source": "Adapted from justataste.com",
       "sourceUrl": "https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/",
       "group": "griddle_breads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/easy-cinnamon-french-toast-sticks.json",
@@ -3977,7 +4013,7 @@
       "plannedBatch": "stir-fry-and-pan-cooking-02",
       "owner": "coverage_check",
       "inputSourceSha256": "6b1c9730a18a0672de888ad25ee55dc2c5df5e965d03cbd7b8d683aabfcf04d1",
-      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "completeEditorialReview": false,
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
@@ -3988,7 +4024,8 @@
         "recordSha256": "cb79c54fb970c355b80e6768c494c24cf31d705ec758d15a03715cb766e560dc"
       },
       "acceptedSourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
     },
     {
       "slug": "easy-homemade-pumpkin-pancakes",
@@ -4517,7 +4554,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408",
       "group": "griddle_breads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/french-toast.json",
@@ -4535,7 +4572,7 @@
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "owner": "coverage_check",
       "inputSourceSha256": "6892ddf7060216187c4260d355516d20eafa639a5e8a66c467748cf9984bbca2",
-      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "completeEditorialReview": false,
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
@@ -4546,7 +4583,8 @@
         "recordSha256": "86b2962cd58f13cf116443909b19789e1cf27bd8f9058b95ada8fbd306b2d51b"
       },
       "acceptedSourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
     },
     {
       "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
@@ -5111,8 +5149,8 @@
       "title": "Golden Veil",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5120,7 +5158,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df",
-      "plannedBatch": "cold-preparations-02"
+      "plannedBatch": "cold-preparations-02",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "grandmommys-pecan-pie",
@@ -5237,8 +5276,8 @@
       "title": "Green Smoothie",
       "source": "Adapted from theconsciousplantkitchen.com",
       "sourceUrl": "https://www.theconsciousplantkitchen.com/green-smoothie-for-kids/",
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5246,7 +5285,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1881e40640298afdde29f6c1c791542ed5c022a2849b66c8dd0850f765bf8d2a",
-      "plannedBatch": "context-screening-03"
+      "plannedBatch": "context-screening-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "grilled-chicken-with-herbed-corn-salsa",
@@ -5375,7 +5415,7 @@
       "source": "Gwock Family",
       "sourceUrl": null,
       "group": "cheesy_mains_09",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/gwock-family-macaroni-and-cheese.md",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
@@ -5401,7 +5441,9 @@
         "recordSha256": "421d1fb740b669ce7373b4970448e6b5a7b2ef1e1f65f9ae20f3de86b8f19ad1"
       },
       "acceptedSourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "ham-and-cheese-green-bean-casserole",
@@ -5912,8 +5954,8 @@
       "title": "Hot Mulled Apple Cider",
       "source": "Adapted from Food.com",
       "sourceUrl": "http://www.food.com/recipe/hot-mulled-apple-cider-3713",
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5921,7 +5963,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d355b36335f7d34836913cc8bfa0cd455863bfb1a0300f95ecac5c8d8806ecc9",
-      "plannedBatch": "braises-and-slow-cooking-02"
+      "plannedBatch": "braises-and-slow-cooking-02",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "how-to-make-frittatas-stovetop-or-baked",
@@ -5956,8 +5999,8 @@
       "title": "In the Park",
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/in-the-park.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5965,7 +6008,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1d05474099e170017cd19583d4f9b4fa7e2723a8b8f70fe086f448b01428dd2a",
-      "plannedBatch": "cold-preparations-03"
+      "plannedBatch": "cold-preparations-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "instant-pot-butternut-squash-soup",
@@ -6545,8 +6589,8 @@
       "title": "Mango-Rita Green Smoothie",
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2017/mango-pineapple-green-smoothie/",
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6554,7 +6598,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "f8f2a869043c43c21bc52c0a98203a75b5a9bc0cb3a429fce0cabda796f496cb",
-      "plannedBatch": "context-screening-03"
+      "plannedBatch": "context-screening-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "maple-roasted-sweet-potato-wedges",
@@ -7935,7 +7980,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cheesy_mains_09",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/queso-fundido-with-chorizo.json",
@@ -7961,7 +8006,9 @@
         "recordSha256": "5f1f8434ec25c05b0f88a81a981a4d61da52f218ed4b65f23f15c0e89835606a"
       },
       "acceptedSourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "quick-and-easy-drop-biscuits",
@@ -8374,7 +8421,7 @@
       "source": "Adapted from Thefeedfeed.com",
       "sourceUrl": "https://thefeedfeed.com/video/roasted-butternut-squash-mac-and-cheese",
       "group": "cheesy_mains_09",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
@@ -8403,7 +8450,9 @@
         "recordSha256": "616350ebbc6e5992412c7a453165304007eb724b7a544870a56eab3c95cfcc17"
       },
       "acceptedSourceSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
@@ -8761,8 +8810,8 @@
       "title": "Sausage Breakfast Casserole",
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a37215621/sausage-breakfast-casserole-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "savory_breakfast_bakes_21",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8770,7 +8819,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8803dd7bb5b9a64b20dddc99f7f6c347391c677534b5272367b9d7e4943f865b",
-      "plannedBatch": "baked-savory-and-breads-09"
+      "plannedBatch": "baked-savory-and-breads-09",
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
     },
     {
       "slug": "sausage-shrimp-and-quinoa-skillet",
@@ -8995,8 +9045,8 @@
       "title": "Shakshuka",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "savory_breakfast_bakes_21",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9004,7 +9054,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "941a2ca997a31e15cfe08f289f10c3d28bbb6668512d3216a1ae8e19ea9cd14f",
-      "plannedBatch": "simmer-boil-and-steam-09"
+      "plannedBatch": "simmer-boil-and-steam-09",
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
     },
     {
       "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
@@ -9074,8 +9125,8 @@
       "title": "Sheet Pan Pancakes",
       "source": "bellyfull.net",
       "sourceUrl": "https://bellyfull.net/sheet-pan-pancakes/",
-      "group": null,
-      "status": "queued",
+      "group": "savory_breakfast_bakes_21",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/sheet-pan-pancakes.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -9083,7 +9134,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "893da67a0b8fd7a3872654c52d962d286892f65fc9c3d7f0fe04ddd34c11b313",
-      "plannedBatch": "baked-savory-and-breads-10"
+      "plannedBatch": "baked-savory-and-breads-10",
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
     },
     {
       "slug": "sheet-pan-pesto-chicken-meal-prep-bowls",
@@ -9360,8 +9412,8 @@
       "title": "Shruff's End",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9369,7 +9421,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "81456a440207ca765a4f1da97b40042266dc0d57d1c6f93013e3bb986ee275a4",
-      "plannedBatch": "cold-preparations-04"
+      "plannedBatch": "cold-preparations-04",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "simply-seasoned-korean-spinach-salad",
@@ -9438,7 +9491,7 @@
       "source": "Adapted from Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/skinny-baked-broccoli-macaroni-and/",
       "group": "cheesy_mains_09",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
@@ -9466,7 +9519,9 @@
         "recordSha256": "2d796148c97fa606bea7dd8a27e3ebbd2ffcb894b760c200353c5a9eee3f8310"
       },
       "acceptedSourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
+      "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "slow-cooker-cheesy-mushroom-quinoa",
@@ -9474,8 +9529,8 @@
       "title": "Slow Cooker Cheesy Mushroom Quinoa",
       "source": "Adapted from Lecremedelacrumb.com",
       "sourceUrl": "https://www.lecremedelacrumb.com/slow-cooker-cheesy-mushroom-quinoa/",
-      "group": null,
-      "status": "queued",
+      "group": "savory_breakfast_bakes_21",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9483,7 +9538,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "17a7a118b1bd3aedc5af1a7b440371c7a7120dd4fd84b71df12736b5e20e9795",
-      "plannedBatch": "braises-and-slow-cooking-03"
+      "plannedBatch": "braises-and-slow-cooking-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
     },
     {
       "slug": "slow-cooker-korean-beef",
@@ -9940,8 +9996,8 @@
       "title": "Spinach & Mushroom Quiche",
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/",
-      "group": null,
-      "status": "queued",
+      "group": "savory_breakfast_bakes_21",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9949,7 +10005,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e",
-      "plannedBatch": "baked-savory-and-breads-10"
+      "plannedBatch": "baked-savory-and-breads-10",
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
     },
     {
       "slug": "spindrift-gin-fizz",
@@ -10065,8 +10122,8 @@
       "title": "Steven’s Margaritas",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10074,7 +10131,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "0d60ad59e43c82c39c0f6cd22de0acb9b1daf46ff35963d8d91acdd7068b5668",
-      "plannedBatch": "context-screening-04"
+      "plannedBatch": "context-screening-04",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "sticky-peking-meatball-rice-bowls",
@@ -10591,8 +10649,8 @@
       "title": "Thai Basil-Ginger Spritzer",
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/thai-basil-ginger-spritzer",
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10600,7 +10658,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b8b9bc9990150df39c09dd17f00888a9537fe0d0cd5a3502530ed0f25e3dcdb0",
-      "plannedBatch": "simmer-boil-and-steam-10"
+      "plannedBatch": "simmer-boil-and-steam-10",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "thai-basil-noodles",
@@ -10747,8 +10806,8 @@
       "title": "New England Express",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/the-new-england-express",
-      "group": null,
-      "status": "queued",
+      "group": "beverages_mixes_22",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10756,7 +10815,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "57b5f244a5db9e794c6824a38aa1421d1f19bc0f6ea2195315b5f97254b12a8a",
-      "plannedBatch": "simmer-boil-and-steam-11"
+      "plannedBatch": "simmer-boil-and-steam-11",
+      "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json"
     },
     {
       "slug": "the-original-rice-krispies-treatstm",
@@ -10820,8 +10880,8 @@
       "title": "Tomato Cobbler with Cornmeal-Cheddar Biscuits",
       "source": "Adapted from thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-tomato-cobbler-with-cornmeal-cheddar-biscuits-206816",
-      "group": null,
-      "status": "queued",
+      "group": "savory_breakfast_bakes_21",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10829,7 +10889,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "3c52a891ca585e41b05b25d892a643b450e09eba49fca666f23b89f29b1e0f2b",
-      "plannedBatch": "baked-savory-and-breads-12"
+      "plannedBatch": "baked-savory-and-breads-12",
+      "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json"
     },
     {
       "slug": "tuscan-spaghetti-squash",
@@ -11997,12 +12058,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 224,
+    "production-verified": 234,
     "held": 25,
-    "accepted": 10,
     "proposed": 110,
-    "assigned": 7,
-    "queued": 31,
+    "assigned": 23,
+    "queued": 15,
     "held-awaiting-evidence": 2
   }
 }

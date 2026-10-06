@@ -1,6 +1,6 @@
 {
   "slug": "skinny-baked-broccoli-macaroni-and-cheese",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
   "inputSha256": "237fdf63629bbac0c1046ba03bb46191df6687e3b6f1594b72da7fb06a76d904",
   "acceptedSourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b",
@@ -546,7 +546,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -570,5 +570,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+  "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
 }

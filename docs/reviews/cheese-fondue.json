@@ -1,6 +1,6 @@
 {
   "slug": "cheese-fondue",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
   "inputSha256": "b567ee6e17f19a708bfc6d2d41ea50c0724139f9fbf5dce4d8c5fe5d794f3525",
   "acceptedSourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
@@ -438,7 +438,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -462,5 +462,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+  "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
 }

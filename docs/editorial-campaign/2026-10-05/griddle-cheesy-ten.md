@@ -20,3 +20,9 @@ Five griddle recipes and five cheese dishes preserve their full rich formulas, f
 ## Locally validated checkpoint
 
 All 252 tests, 106 authored formula checks, 643-recipe validation, 10 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved. All three exports match 643 sources; private bindings, public privacy and 12,316 built anchors pass. The other 633 recipe sources/export schemas and unrelated review credit remain unchanged. 0 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 10 complete rendered pages and 58 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](griddle-cheesy-ten-preservation.json).
+
+## Verified publication
+
+234 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 468 recorded complete / 175 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [63382586](https://github.com/jsilton/mise/commit/633825861e9687843b532d4f9fdfa0273e6a5e15), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37454705788) and all 10 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](griddle-cheesy-ten-production.json).

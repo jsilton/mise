@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "224 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "234 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 468 recorded complete / 175 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [63382586](https://github.com/jsilton/mise/commit/633825861e9687843b532d4f9fdfa0273e6a5e15), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37454705788) and all 10 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1401,17 +1401,21 @@
         "record": "docs/reviews/basic-crepes.md",
         "acceptedSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/basic-crepes.json",
         "sourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual pan diameter determines scoop/yield; eight is the source planning count, not a verified yield.",
@@ -4056,17 +4060,21 @@
         "record": "docs/reviews/cheese-fondue.md",
         "acceptedSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cheese-fondue.json",
         "sourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual fondue-pot material, heat-source rating and usable capacity are unknown.",
@@ -6577,17 +6585,21 @@
         "record": "docs/reviews/classic-french-toast.md",
         "acceptedSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-french-toast.json",
         "sourceSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual skillet capacity, bread absorption and center heating need kitchen tests.",
@@ -8987,17 +8999,21 @@
         "record": "docs/reviews/dutch-baby-pancake.md",
         "acceptedSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/dutch-baby-pancake.json",
         "sourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
@@ -9228,17 +9244,21 @@
         "record": "docs/reviews/easy-cinnamon-french-toast-sticks.md",
         "acceptedSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-cinnamon-french-toast-sticks.json",
         "sourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual number of sticks fitting the household skillet and batter absorption determine the schedule;30–55minutes is an untested original-batch planning range.",
@@ -10489,17 +10509,21 @@
         "record": "docs/reviews/french-toast.md",
         "acceptedSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/french-toast.json",
         "sourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
@@ -12822,17 +12846,21 @@
         "record": "docs/reviews/gwock-family-macaroni-and-cheese.md",
         "acceptedSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/gwock-family-macaroni-and-cheese.json",
         "sourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Family meaning of medium cheese, milk product/volume, margarine stick size and actual9x9dish depth remain unrecorded.",
@@ -20184,17 +20212,21 @@
         "record": "docs/reviews/queso-fundido-with-chorizo.md",
         "acceptedSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/queso-fundido-with-chorizo.json",
         "sourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["633825861e9687843b532d4f9fdfa0273e6a5e15"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual sausage species/product label and skillet depth are needed at cooking time.",
@@ -21281,11 +21313,11 @@
         "record": "docs/reviews/roasted-butternut-squash-mac-and-cheese.md",
         "acceptedSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/roasted-butternut-squash-mac-and-cheese.json",
         "sourceSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0"
       },
@@ -21294,10 +21326,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "633825861e9687843b532d4f9fdfa0273e6a5e15"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual finished pasta/cheese volume and baking-dish depths need kitchen capacity checks; two-quart source assertion is not certified.",
@@ -24080,11 +24117,11 @@
         "record": "docs/reviews/skinny-baked-broccoli-macaroni-and-cheese.md",
         "acceptedSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/skinny-baked-broccoli-macaroni-and-cheese.json",
         "sourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b"
       },
@@ -24093,10 +24130,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "633825861e9687843b532d4f9fdfa0273e6a5e15"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b",
+        "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+        "evidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json"
       },
       "remainingQuestions": [
         "Actual pasta product and floret size govern boil time; all-at-start source route can yield softer broccoli.",

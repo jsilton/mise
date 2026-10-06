@@ -1,6 +1,6 @@
 {
   "slug": "gwock-family-macaroni-and-cheese",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
   "inputSha256": "ba148f4b8864748afa95009d938d3329ef7008c964f5d183e49f4875732ffe33",
   "acceptedSourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
@@ -335,7 +335,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -359,5 +359,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+  "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
 }

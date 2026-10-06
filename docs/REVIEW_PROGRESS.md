@@ -1,5 +1,9 @@
 # Current campaign state — October 6, 2026
 
+234 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 468 recorded complete / 175 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [63382586](https://github.com/jsilton/mise/commit/633825861e9687843b532d4f9fdfa0273e6a5e15), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37454705788) and all 10 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/griddle-cheesy-ten.md).
+
+## Earlier acceptance checkpoint
+
 468 recorded complete / 175 pending across 643 sources. 224 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/griddle-cheesy-ten.md).
 
 ## Previous verified checkpoint

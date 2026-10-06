@@ -1,0 +1,176 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+  "implementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37454705788",
+  "ci": {
+    "headSha": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+  "rendered": [
+    {
+      "slug": "basic-crepes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "classic-french-toast",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "french-toast",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "easy-cinnamon-french-toast-sticks",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "dutch-baby-pancake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "cheese-fondue",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "queso-fundido-with-chorizo",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "gwock-family-macaroni-and-cheese",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "roasted-butternut-squash-mac-and-cheese",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "skinny-baked-broccoli-macaroni-and-cheese",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T11:13:23.442Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "basic-crepes",
+      "acceptedSourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1"
+    },
+    {
+      "slug": "classic-french-toast",
+      "acceptedSourceSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e"
+    },
+    {
+      "slug": "french-toast",
+      "acceptedSourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f"
+    },
+    {
+      "slug": "easy-cinnamon-french-toast-sticks",
+      "acceptedSourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502"
+    },
+    {
+      "slug": "dutch-baby-pancake",
+      "acceptedSourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba"
+    },
+    {
+      "slug": "cheese-fondue",
+      "acceptedSourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598"
+    },
+    {
+      "slug": "queso-fundido-with-chorizo",
+      "acceptedSourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44"
+    },
+    {
+      "slug": "gwock-family-macaroni-and-cheese",
+      "acceptedSourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f"
+    },
+    {
+      "slug": "roasted-butternut-squash-mac-and-cheese",
+      "acceptedSourceSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0"
+    },
+    {
+      "slug": "skinny-baked-broccoli-macaroni-and-cheese",
+      "acceptedSourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 10; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}
