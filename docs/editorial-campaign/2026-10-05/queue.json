@@ -225,7 +225,23 @@
       "reviewer": "coverage_check",
       "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
       "status": "assigned; whole author/independent/root pending"
-    }
+    },
+    "pies_tarts_05": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "grandmommys-pecan-pie",
+      "key-lime-pie-with-lime-zest",
+      "heirloom-tomato-pesto-and-ricotta-galette",
+      "tomato-and-goat-cheese-tart"
+    ],
+    "layer_family_cakes_05": [
+      "babys-first-smash-cake",
+      "chocolate-vanilla-swirl-layer-cake",
+      "classic-carrot-cake",
+      "double-chocolate-layer-cake",
+      "funfetti-cake-from-scratch-and-an-unbirthday",
+      "grandmommys-pound-cake"
+    ]
   },
   "recipes": [
     {
@@ -278,18 +294,23 @@
       "source": "Adapted from Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/16245/anadama-bread/",
       "group": "biscuits_rolls_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/anadama-bread.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
       ],
       "inputSha256": "5992ac2eabffbed7c3984d4eaed89aac5132b46c673f0abb71d630dec689cc9e",
       "plannedBatch": "baked-savory-and-breads-01",
       "owner": "baking_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json",
+      "acceptedSourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b",
+      "productionVerification": "pending"
     },
     {
       "slug": "anelletti-al-forno",
@@ -369,8 +390,8 @@
       "title": "Apple Cider Cream Pie",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/apple-cider-cream-pie",
-      "group": null,
-      "status": "queued",
+      "group": "pies_tarts_05",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -378,7 +399,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "87f8509feb4fa3a50a08de91540fcba82b851c005193f10111f7350c14b75228",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "87f8509feb4fa3a50a08de91540fcba82b851c005193f10111f7350c14b75228"
     },
     {
       "slug": "apple-pie",
@@ -386,8 +409,8 @@
       "title": "Apple Pie",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423",
-      "group": null,
-      "status": "queued",
+      "group": "pies_tarts_05",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -395,7 +418,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "bddc43ad787fd61a9135ed8d45e2bcced26662a9be33b39ff92682b3abeab4e5",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "bddc43ad787fd61a9135ed8d45e2bcced26662a9be33b39ff92682b3abeab4e5"
     },
     {
       "slug": "avgolemono-soup",
@@ -467,8 +492,8 @@
       "title": "Baby’s First Smash Cake",
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
-      "group": null,
-      "status": "queued",
+      "group": "layer_family_cakes_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -476,7 +501,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716"
     },
     {
       "slug": "baked-chicken-and-broccoli",
@@ -798,18 +825,23 @@
       "source": "Cambrea Gordon, Cambrea Bakes; earlier saved version",
       "sourceUrl": "https://cambreabakes.com/the-best-cinnamon-rolls/",
       "group": "biscuits_rolls_02",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual warm-serving time and center doneness using the retained 3/4 cup tangzhong water and metal pan.",
+        "Confirm overnight and frozen final-rise times; no universal room-temperature proof duration or frosting shelf-life validation is claimed."
       ],
       "inputSha256": "7768b834d70e30e4f44089a0efd8f306aaeaba7ed0dbe79068bc13fcf397e386",
       "plannedBatch": "baked-sweets-01",
       "owner": "baking_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json",
+      "acceptedSourceSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5",
+      "productionVerification": "pending"
     },
     {
       "slug": "best-homemade-brownies",
@@ -818,18 +850,22 @@
       "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
       "group": "chocolate_bakes_03",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/best-homemade-brownies.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/best-homemade-brownies.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual oven and pan material may change the first moist-crumb check; no kitchen testing."
       ],
       "inputSha256": "c510264a25bd5b52da184bf95589de8c293b60088c5d1ca660eca15a3789bff6",
       "plannedBatch": "baked-sweets-01",
       "owner": "coverage_check",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json",
+      "acceptedSourceSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422",
+      "productionVerification": "pending"
     },
     {
       "slug": "bibimbap",
@@ -1563,18 +1599,24 @@
       "source": "butfirstwebrunch.com",
       "sourceUrl": "https://butfirstwebrunch.com/cast-iron-biscuits/",
       "group": "biscuits_rolls_02",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/cast-iron-buttermilk-biscuits.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/cast-iron-buttermilk-biscuits.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
       ],
       "inputSha256": "bfe7f2fe5b934d867a01c587bd54535edbba6c469fd2a0258555b2ffab299ad2",
       "plannedBatch": "baked-savory-and-breads-03",
       "owner": "baking_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json",
+      "acceptedSourceSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133",
+      "productionVerification": "pending"
     },
     {
       "slug": "cauliflower-alfredo-sauce",
@@ -1789,18 +1831,22 @@
       "source": "Adapted from Riki Shore",
       "sourceUrl": "https://food52.com/recipes/16997-chewy-chocolate-meringues",
       "group": "chocolate_bakes_03",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chewy-chocolate-meringues.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which pasteurized whites does the household use, and do they whip reliably? The specific heated foam is not temperature tested; pasteurization does not promise risk elimination. Food52 current page fetch unavailable."
       ],
       "inputSha256": "c7bd7951578473b18594e4f163f40b1a92ab432156a4ae7bad4a15c749dae4ba",
       "plannedBatch": "baked-sweets-01",
       "owner": "coverage_check",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json",
+      "acceptedSourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619",
+      "productionVerification": "pending"
     },
     {
       "slug": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
@@ -2342,8 +2388,8 @@
       "title": "Chocolate Vanilla Swirl Layer Cake",
       "source": "Adapted from Foodiewithfamily.com",
       "sourceUrl": "https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/",
-      "group": null,
-      "status": "queued",
+      "group": "layer_family_cakes_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2351,7 +2397,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "931cc56bb9132c5979447567fc03107b58f22f2bda76fbbbf5117394d3d14f89",
-      "plannedBatch": "baked-sweets-02"
+      "plannedBatch": "baked-sweets-02",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "931cc56bb9132c5979447567fc03107b58f22f2bda76fbbbf5117394d3d14f89"
     },
     {
       "slug": "classic-carrot-cake",
@@ -2359,8 +2407,8 @@
       "title": "Classic Carrot Cake",
       "source": "Adapted from ajc.com",
       "sourceUrl": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc",
-      "group": null,
-      "status": "queued",
+      "group": "layer_family_cakes_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2368,7 +2416,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9",
-      "plannedBatch": "baked-sweets-02"
+      "plannedBatch": "baked-sweets-02",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9"
     },
     {
       "slug": "classic-chocolate-chip-cookies",
@@ -3149,8 +3199,8 @@
       "title": "Double Chocolate Layer Cake",
       "source": "Ed Kasky, Gourmet (March 1999), via Epicurious",
       "sourceUrl": "https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275",
-      "group": null,
-      "status": "queued",
+      "group": "layer_family_cakes_05",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/double-chocolate-layer-cake.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3158,7 +3208,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1",
-      "plannedBatch": "baked-sweets-03"
+      "plannedBatch": "baked-sweets-03",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1"
     },
     {
       "slug": "dutch-baby-pancake",
@@ -3820,8 +3872,8 @@
       "title": "Funfetti Cake",
       "source": "Adapted from sugarspunrun.com",
       "sourceUrl": "https://sugarspunrun.com/funfetti-cake-scratch/",
-      "group": null,
-      "status": "queued",
+      "group": "layer_family_cakes_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3829,7 +3881,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "512ff47b1a410aa7b6ace06c17b56cc63f3ea552fd1c0ee886ca51298b5f9677",
-      "plannedBatch": "baked-sweets-03"
+      "plannedBatch": "baked-sweets-03",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "512ff47b1a410aa7b6ace06c17b56cc63f3ea552fd1c0ee886ca51298b5f9677"
     },
     {
       "slug": "gambas-al-ajillo",
@@ -4186,8 +4240,8 @@
       "title": "Grandmommy’s Pecan Pie",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "pies_tarts_05",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4195,7 +4249,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07",
-      "plannedBatch": "baked-sweets-04"
+      "plannedBatch": "baked-sweets-04",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07"
     },
     {
       "slug": "grandmommys-pound-cake",
@@ -4203,8 +4259,8 @@
       "title": "Grandmommy’s Pound Cake",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "layer_family_cakes_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4212,7 +4268,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
-      "plannedBatch": "baked-sweets-04"
+      "plannedBatch": "baked-sweets-04",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b"
     },
     {
       "slug": "granola",
@@ -4575,8 +4633,8 @@
       "title": "Heirloom Tomato & Pesto Galette",
       "source": "Adapted from abrightmoment.com",
       "sourceUrl": "https://www.abrightmoment.com/recipes/heirloom-tomato-pesto-ricotta-galette",
-      "group": null,
-      "status": "queued",
+      "group": "pies_tarts_05",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4584,7 +4642,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ca69202cbe527b63f6cb16a206fad7adfbb8dbd7263898af4b546643543e1524",
-      "plannedBatch": "baked-savory-and-breads-06"
+      "plannedBatch": "baked-savory-and-breads-06",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "ca69202cbe527b63f6cb16a206fad7adfbb8dbd7263898af4b546643543e1524"
     },
     {
       "slug": "herb-marinated-pork-tenderloins",
@@ -4995,18 +5055,22 @@
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
       "group": "chocolate_bakes_03",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/katharine-hepburns-brownies.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Exact cooling time and pan material remain kitchen questions. NYT page fetch was unavailable; no claim of verification against today’s publisher formula."
       ],
       "inputSha256": "516dd4337fbce7a9cd853db6cceb7ba4e89ccfd90ed02950e35fdd82c1cea8e8",
       "plannedBatch": "baked-sweets-04",
       "owner": "coverage_check",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json",
+      "acceptedSourceSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269",
+      "productionVerification": "pending"
     },
     {
       "slug": "keto-egg-muffins",
@@ -5059,8 +5123,8 @@
       "title": "Key Lime Pie with Lime Zest",
       "source": "food52.com",
       "sourceUrl": "https://food52.com/recipes/33481-key-lime-pie",
-      "group": null,
-      "status": "queued",
+      "group": "pies_tarts_05",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5068,7 +5132,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "57bfc7ce855ea12e2f2dd5f954242972ce3ad6d4f668c74258a8a87a47525251",
-      "plannedBatch": "baked-sweets-04"
+      "plannedBatch": "baked-sweets-04",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "57bfc7ce855ea12e2f2dd5f954242972ce3ad6d4f668c74258a8a87a47525251"
     },
     {
       "slug": "key-lime-pie",
@@ -5381,18 +5447,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "beef_lamb_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/marinated-flank-steak-salad.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record the actual flank thickness, pan and oil behavior,145°F time and rested texture; compare with the former 130°F preference without treating that as the federal endpoint.",
+        "Confirm salad-head sizes and thr ee-portion yield, preferred salt crystal type and crispy-shallot amount; whole linked dinner timing remains pending."
       ],
       "inputSha256": "4a0984d76816a52aa42ceb0425105f65dcaec1eb3394b51bea958491e053a999",
       "plannedBatch": "roast-grill-and-sear-03",
       "owner": "poultry_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json",
+      "acceptedSourceSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2",
+      "productionVerification": "pending"
     },
     {
       "slug": "marinated-korean-ribeye",
@@ -5490,18 +5561,24 @@
       "source": "Adapted from Chabad.org",
       "sourceUrl": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
       "group": "beef_lamb_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
+        "Record pan/cut thickness, actual tenderness and reheat clocks, shallow cooling behavior, retained fat and final thin-slice/portion yield."
       ],
       "inputSha256": "0d1dc6ea4180831cc87b0060d052ada0ad17e2f89afdf5128a246963ea20dd17",
       "plannedBatch": "braises-and-slow-cooking-02",
       "owner": "poultry_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json",
+      "acceptedSourceSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0",
+      "productionVerification": "pending"
     },
     {
       "slug": "misir-wot",
@@ -5722,18 +5799,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "biscuits_rolls_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/nanas-biscuits.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
       ],
       "inputSha256": "a24644e988d22414514368c9898fdf0ad9f21c05ead5617175b91ed541235941",
       "plannedBatch": "baked-savory-and-breads-07",
       "owner": "baking_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json",
+      "acceptedSourceSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a",
+      "productionVerification": "pending"
     },
     {
       "slug": "no-cook-playdough",
@@ -6429,18 +6512,22 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/quadruple-chocolate-brownies",
       "group": "chocolate_bakes_03",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/quadruple-chocolate-brownies.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan material, filled depth and cooling time need kitchen checks. Source48-piece claim is retained without promising2-inch precision. Food & Wine fetch unavailable. Kosher brand/crystal density remains unspecified; no volume-to-weight conversion invented."
       ],
       "inputSha256": "7984acda6b8027d889407192dc2698490ea098c80556b30116cd8dac566075c3",
       "plannedBatch": "baked-sweets-06",
       "owner": "coverage_check",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json",
+      "acceptedSourceSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce",
+      "productionVerification": "pending"
     },
     {
       "slug": "queso-fundido-with-chorizo",
@@ -6466,18 +6553,24 @@
       "source": "Adapted from Seriouseats.com",
       "sourceUrl": "http://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html",
       "group": "biscuits_rolls_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/quick-and-easy-drop-biscuits.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
       ],
       "inputSha256": "a128bbf5dfa98f50bb2b535069085aaf0bad18f58f40e3d18ec5678a0a5d0f94",
       "plannedBatch": "baked-savory-and-breads-08",
       "owner": "baking_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json",
+      "acceptedSourceSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37",
+      "productionVerification": "pending"
     },
     {
       "slug": "quick-lamb-ragu",
@@ -6486,18 +6579,24 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share",
       "group": "beef_lamb_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/quick-lamb-ragu.md",
+        "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which route is preferred: dry 12 oz/current balsamic/½cup water versus cooked 12 oz/no-balsamic/sourcehalf-can water? Confirm actual sauce-to-pasta balance without mixing the routes.",
+        "Record pot and package sizes, stage clocks, sauce reduction, full rendered fat, cheese/herb/drizzle amounts and finished portions."
       ],
       "inputSha256": "e1b8e296e3cbd90410bb7b6eb336e206f1a00715ea70b51ef2593df799ddfa52",
       "plannedBatch": "braises-and-slow-cooking-02",
       "owner": "poultry_editor",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json",
+      "acceptedSourceSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8",
+      "productionVerification": "pending"
     },
     {
       "slug": "quick-pickled-cucumber-salad",
@@ -8847,8 +8946,8 @@
       "title": "Heirloom Tomato & Goat Cheese Tart",
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart",
-      "group": null,
-      "status": "queued",
+      "group": "pies_tarts_05",
+      "status": "proposed",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8856,7 +8955,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ce39bded2a91a1cb21dc101fa3c01f701a5fca46e1ee2e8c7d86e3bea6f9c531",
-      "plannedBatch": "baked-savory-and-breads-12"
+      "plannedBatch": "baked-savory-and-breads-12",
+      "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+      "assignmentInputSha256": "ce39bded2a91a1cb21dc101fa3c01f701a5fca46e1ee2e8c7d86e3bea6f9c531"
     },
     {
       "slug": "tomato-cobbler-with-cornmeal-cheddar-biscuits",
@@ -9958,10 +10059,11 @@
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
     "production-verified": 147,
-    "held": 16,
-    "proposed": 52,
-    "assigned": 28,
-    "queued": 164,
+    "held": 17,
+    "accepted": 12,
+    "assigned": 34,
+    "proposed": 45,
+    "queued": 152,
     "held-awaiting-evidence": 2
   }
 }

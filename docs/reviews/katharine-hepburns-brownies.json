@@ -1,0 +1,270 @@
+{
+  "slug": "katharine-hepburns-brownies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "516dd4337fbce7a9cd853db6cceb7ba4e89ccfd90ed02950e35fdd82c1cea8e8",
+  "acceptedSourceSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "30–35 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "40–45 min plus cooling completely"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 cup Unsalted Butter (1 stick)",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 cup Granulated Sugar",
+        "2 large Eggs",
+        "1/4 cup All-Purpose Flour",
+        "1 cup Walnuts or Pecans, coarsely chopped",
+        "1 tsp Pure Vanilla Extract",
+        "Pinch of Sea Salt"
+      ],
+      "after": [
+        "1/2 cup Unsalted Butter (1 stick)",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 cup Granulated Sugar",
+        "2 large Eggs",
+        "1/4 cup All-Purpose Flour",
+        "1 cup Walnuts or Pecans, coarsely chopped",
+        "1 tsp Pure Vanilla Extract",
+        "Pinch of Sea Salt",
+        "Additional butter, as needed to grease the pan"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 385,
+        "protein": 6.5,
+        "carbs": 31.5,
+        "fat": 29.5,
+        "fiber": 4,
+        "sugar": 17.5,
+        "sodium": 320
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a low-flour brownie fudgy without leaving a liquid center",
+        "outcome": "Dense brownies with the full nut and butter formula, cut after cooling.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep all the listed batter butter; use the separate unmeasured butter only for greasing.",
+          "The 8×8-inch pan and 30–35-minute range describe the original batch. For multiples, make separate original-size pans; smaller batches need an appropriate smaller pan and earlier center checks. Keep similar batter depth and headroom; pan dimensions and cooking time do not scale arithmetically."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Cocoa butter is warm rather than hot before the first egg goes in.",
+            "why": "A very hot mixture can set streaks of egg before they are dispersed."
+          },
+          {
+            "step": 4,
+            "cue": "Set center and moist crumbs, without liquid batter.",
+            "why": "Low flour makes these fudgy; a liquid center is a different condition."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bars break when cut",
+            "cause": "The center may still be warm and soft.",
+            "fix": "Wait for complete cooling, then chill if a firmer cut is wanted."
+          }
+        ],
+        "timing": "Allow about 10 minutes preparation and 30–35 minutes baking, plus complete cooling. Cooling time depends on the pan and room; allow it before cutting.",
+        "storage": "Keep cooled brownies covered. Refrigeration gives a firmer texture.",
+        "sources": [
+          {
+            "title": "Katharine Hepburn’s brownies — saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/katharine-hepburns-brownies.md"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is the classic Katharine Hepburn brownie recipe. The secret to its fudgy texture is the ultra-low flour ratio: using only 1/4 cup of flour ensures the structure remains gooey and fudge-like rather than cakey. We melt the cocoa directly into the hot butter to bloom the chocolate flavor instantly. Large nut pieces provide a necessary crunch to contrast the decadent fudge. Do not over-bake; pull them when they still look slightly underdone.\n\n## Directions\n\n1.  **The Bloom:** Preheat oven to 325°F. Grease an 8x8-inch square pan. In a medium saucepan, melt the butter over low heat. Whisk in the cocoa powder until smooth and glossy. Remove from heat and let cool for 5 minutes.\n2.  **Emulsify:** Whisk the eggs into the cocoa-butter mixture one at a time. Stir in the vanilla and salt.\n3.  **The Fold:** In a separate bowl, whisk the sugar and flour. Add the dry mix and the nuts to the saucepan. Stir with a spatula until **just combined**.\n4.  **Bake:** Pour the batter into the prepared pan. Bake for 30-35 minutes. **The Kitchen Standard Test:** The center should still have a slight jiggle and a toothpick should come out with moist crumbs.\n5.  **Cool:** Let cool completely in the pan before slicing. These brownies are elite when refrigerated and eaten cold.\n",
+    "after": "\n## Chef's Note\n\nThe small flour measure keeps these brownies dense and fudgy. Keep all the butter, sugar and nuts. Stop mixing once the flour disappears; the center should set while a toothpick still carries moist crumbs, rather than liquid batter. Cool completely before cutting.\n\n## Directions\n\n1. **Prepare:** Heat the oven to 325°F. For the original batch, grease an 8×8-inch square pan with the separate additional butter. Melt all the measured butter over low heat in a saucepan and stir in all the cocoa until smooth. Remove from the heat and cool for about 5 minutes, until warm rather than hot; transfer to a bowl large enough for the complete mixture.\n\n2. **Add eggs:** Whisk in all the eggs one at a time, then all the vanilla and the pinch of salt.\n\n3. **Fold:** Combine all the sugar, flour and chopped walnuts or pecans in a separate bowl. Stir them into the cocoa mixture just until no dry flour remains.\n\n4. **Bake:** Spread all the batter evenly in the prepared pan. Begin checking at 30 minutes; the original batch usually needs 30–35 minutes. The center should be set and fudgy, without a liquid wobble, and a toothpick should carry moist crumbs rather than wet batter. A chocolate smear can differ from raw batter; check another nearby spot if uncertain.\n\n5. **Cool:** Cool completely in the pan before cutting into the listed portions. Chill after cooling if you prefer a firmer slice.\n"
+  },
+  "findings": [
+    {
+      "id": "CH02",
+      "rationale": "The saved method greases the pan and transfers the cocoa mixture to a large bowl; make the unmeasured pan supply visible without taking it from the full batter butter. Qualify original pan geometry and exclude cooling from the short total. Clarify set/fudgy versus liquid rather than relying on slightly underdone prose.",
+      "confidence": "High allocation/source; moderate untested cues/planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/katharine-hepburns-brownies.md"
+      ],
+      "sourceApplicability": "Bound native and followed Git support exact formula, original pan, cool-before-eggs and 30–35 minutes. Set-versus-liquid cue and scaling geometry are moderate editorial mechanism, not a tested new baking schedule.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "CH-N",
+      "rationale": "Unverified legacy per-serving estimate has no ingredient-weight/yield evidence; do not carry it forward as verified nutrition after review/state or formula changes.",
+      "confidence": "High absence of verification",
+      "applicableSources": ["evidence/katharine-hepburns-brownies-followed.diff"],
+      "sourceApplicability": "The estimate was introduced by automated nutrition work; neither publisher/native nor this editorial review supplies verified calculation or measured yield.",
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Nutrition may be recalculated separately from actual ingredient weights/product labels and chosen cutting yield."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Katharine%20Hepburn%E2%80%99s%20Brownies.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1/2 cup Unsalted Butter (1 stick)",
+        "frozenDestination": "step1 cocoa butter"
+      },
+      {
+        "index": 1,
+        "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+        "frozenDestination": "step1 cocoa butter"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 cup Granulated Sugar",
+        "frozenDestination": "step3 dry mixture"
+      },
+      {
+        "index": 3,
+        "ingredient": "2 large Eggs",
+        "frozenDestination": "step2 one at a time"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/4 cup All-Purpose Flour",
+        "frozenDestination": "step3 dry mixture"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 cup Walnuts or Pecans, coarsely chopped",
+        "frozenDestination": "step3 choose walnuts OR pecans"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 tsp Pure Vanilla Extract",
+        "frozenDestination": "step2 eggs mixture"
+      },
+      {
+        "index": 7,
+        "ingredient": "Pinch of Sea Salt",
+        "frozenDestination": "step2 eggs mixture"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1/2 cup Unsalted Butter (1 stick)",
+        "destination": "step1 cocoa butter"
+      },
+      {
+        "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+        "destination": "step1 cocoa butter"
+      },
+      {
+        "ingredient": "1 cup Granulated Sugar",
+        "destination": "step3 dry mixture"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "step2 one at a time"
+      },
+      {
+        "ingredient": "1/4 cup All-Purpose Flour",
+        "destination": "step3 dry mixture"
+      },
+      {
+        "ingredient": "1 cup Walnuts or Pecans, coarsely chopped",
+        "destination": "step3 choose walnuts OR pecans"
+      },
+      {
+        "ingredient": "1 tsp Pure Vanilla Extract",
+        "destination": "step2 eggs mixture"
+      },
+      {
+        "ingredient": "Pinch of Sea Salt",
+        "destination": "step2 eggs mixture"
+      },
+      {
+        "ingredient": "Additional butter, as needed to grease the pan",
+        "destination": "Separate additional pan butter atstep1; no batter butter reduction"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "scope": "Walnuts OR pecans, same full listed cup; chilling for a firmer slice remains optional."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": "Complete half-cup butter/cocoa, two eggs, one cup sugar/nuts, quarter-cup flour, vanilla and salt remain. One eight-inch-square original pan; additional original-depth pans for greater batches. Twelve is a retained piece plan, not measured weight. Greasing is separate from batter butter; 30–35-minute bake and complete cooling determine serving time.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Exact cooling time and pan material remain kitchen questions. NYT page fetch was unavailable; no claim of verification against today’s publisher formula."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

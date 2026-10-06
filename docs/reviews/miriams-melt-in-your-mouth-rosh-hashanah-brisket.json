@@ -1,0 +1,766 @@
+{
+  "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "0d1dc6ea4180831cc87b0060d052ada0ad17e2f89afdf5128a246963ea20dd17",
+  "acceptedSourceSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "5 hr",
+      "after": "5 hr, plus reheating"
+    },
+    {
+      "field": "totalTime",
+      "before": "12 hr",
+      "after": "Overnight, plus 5 hr 30 min and reheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 lb. First-cut Brisket (well-marbled)",
+        "2 large Spanish Onions, sliced into thick rounds",
+        "2 tbsp Paprika",
+        "2 tbsp Garlic Powder",
+        "1 tbsp Kosher Salt",
+        "2 tbsp Dried Chives (optional)",
+        "1/2 cup Balsamic Vinegar",
+        "1/3 cup Honey"
+      ],
+      "after": [
+        "--- Brisket and Onions ---",
+        "3 lb first-cut brisket, well-marbled",
+        "2 large Spanish onions, sliced into thick rounds",
+        "--- Spice Rub ---",
+        "2 tbsp paprika",
+        "2 tbsp garlic powder",
+        "1 tbsp kosher salt",
+        "2 tbsp dried chives, optional",
+        "--- Braising Sauce ---",
+        "1/2 cup balsamic vinegar",
+        "1/3 cup honey"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 130,
+        "protein": 2.5,
+        "carbs": 30.5,
+        "fat": 1,
+        "fiber": 1,
+        "sugar": 27,
+        "sodium": 610
+      },
+      "after": null
+    },
+    {
+      "field": "source",
+      "before": "Adapted from Chabad.org",
+      "after": "Adapted from Miriam Szokovski, Chabad.org"
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["oven", "covered-braising-dish", "shallow-storage-containers", "food-thermometer"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "meat",
+            "name": "Brisket and Onions",
+            "ingredients": [
+              {
+                "id": "brisket",
+                "key": "brisket",
+                "name": "first-cut brisket",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "lb"
+                },
+                "preparation": "well-marbled",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "large Spanish onion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "plural": "large Spanish onions",
+                "preparation": "sliced into thick rounds",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rub",
+            "name": "Spice Rub",
+            "ingredients": [
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "paprika",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic-powder",
+                "key": "garlic-powder",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "kosher-salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chives",
+                "key": "chives",
+                "name": "dried chives",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Braising Sauce",
+            "ingredients": [
+              {
+                "id": "balsamic",
+                "key": "balsamic",
+                "name": "balsamic vinegar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Foundation",
+            "text": "Preheat the oven to 400°F. Lay {{ingredients}} across the bottom of a heavy baking dish or Dutch oven. Choose a vessel in which the meat can lie without folding or crowding, with room for its juices and a tight lid or foil cover. For a larger batch, use enough vessels and divide all the onions, rub and liquids in proportion to the meat in each; a smaller batch needs an appropriately smaller vessel."
+          },
+          {
+            "id": "rub",
+            "title": "Rub",
+            "text": "Mix {{ingredients}} in a small bowl, omitting the chives if not using them. Pat the full measured rub over both sides of {{name:meat.brisket}}."
+          },
+          {
+            "id": "roast",
+            "title": "Uncovered Roast",
+            "text": "Place {{ingredients}} on the onions. Roast uncovered for 1 hour for the original 3 lb batch. Watch for browning rather than blackened spices or onions; smaller or thinner cuts need earlier browning checks, and pan shape affects the result."
+          },
+          {
+            "id": "braise",
+            "title": "Cover",
+            "text": "Remove the dish from the oven. Pour {{ingredients}} over the meat, retaining all its juices. Cover tightly with a heavy lid or double layer of foil, and reduce the oven to 250°F. The onions and meat release liquid during the covered cook."
+          },
+          {
+            "id": "tender",
+            "title": "Low and Slow",
+            "text": "Return the covered dish to the oven and begin checking around 4 more hours for the original batch. Turn the meat about once an hour, or at least once halfway through, spooning the liquid back over it and promptly replacing the cover. Begin checking tenderness earlier for smaller or thinner cuts, and allow longer for thicker cuts. Continue until a fork enters with almost no resistance; size, thickness, pan and oven can change the clock. Check that the center has reached at least 145°F, then let it rest at least 3 minutes before handling."
+          },
+          {
+            "id": "chill",
+            "title": "Chill for Slicing",
+            "text": "Divide the cooked brisket into smaller sections that can lie in shallow containers, and divide all the onions, juices and rendered fat among them. Refrigerate promptly at 40°F or below, within 2 hours of cooking, or within 1 hour above 90°F. Do not leave a deep pan on the counter until completely cold. Chill until the meat is cold throughout, preferably overnight."
+          },
+          {
+            "id": "serve",
+            "title": "Slice and Reheat",
+            "text": "Remove the cold meat and slice thinly against the grain. Reheat the full onions, sauce and fat in a saucepan, stirring to bring the sauce to a rolling boil briefly. Return all of it to the sliced meat and reheat covered in the oven or on the stovetop until the meat and sauce reach 165°F throughout, checking several places. Serve with all the onions and sauce; prolonged boiling will concentrate the sweet sauce, so avoid unnecessary continued reduction."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Tender brisket and thin slices through a covered braise followed by chilling.",
+        "outcome": "A fork enters the braised brisket easily, cold slices stay together, and the reheated meat is coated in onion-rich honey and balsamic sauce.",
+        "techniques": ["braising", "temperature"],
+        "before": [
+          "Keep the full honey, vinegar and rub amounts. Dried chives are optional; no extra water or stock is prescribed.",
+          "Use a pan that holds the cut without folding and seals tightly. More meat needs enough separate vessels with the complete formula divided proportionally; do not multiply the oven temperature or promise the same cooking time.",
+          "Plan refrigerator space and shallow containers for the overnight cold-slicing route, or use the fresh-service option below. For the original 3 lb batch, twelve portions are a planning count and the source estimates about forty thin slices. Follow the listed portion plan when scaling; these counts do not establish measured dinner sizes."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The lid or foil seals the whole dish, with no open edges.",
+            "why": "Retaining the meat and onion juices is central to this small-liquid braise."
+          },
+          {
+            "step": 5,
+            "cue": "A fork enters with almost no resistance and the center has reached at least 145°F.",
+            "why": "Tenderness can take longer than the written clock; temperature and tenderness answer different questions."
+          },
+          {
+            "step": 7,
+            "cue": "Thin slices are hot to 165°F in several checked places, with all the sauce and onions returned.",
+            "why": "A bubbling edge alone does not establish that the center of the chilled meat has reheated."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The meat is still chewy at four hours.",
+            "cause": "The cut is thicker, the oven differs or the cover has leaked steam.",
+            "fix": "Replace the tight cover and continue the covered cook until the fork test passes. Do not slice tough meat merely because the timer finished."
+          },
+          {
+            "problem": "The sweet sauce is reducing too far during reheating.",
+            "cause": "A broad uncovered pan or prolonged boiling evaporates more liquid.",
+            "fix": "Bring the sauce briefly to the recommended boil, then reheat the slices covered and watch the measured endpoint. Burnt spices or sauce cannot be repaired by scraping them into the dish."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dried chives",
+            "alternative": "Omit the optional chives",
+            "effect": "The full paprika, garlic powder, honey, vinegar and onions remain."
+          },
+          {
+            "ingredient": "Rendered fat",
+            "alternative": "Keep it in the sauce, or skim the chilled surface fat if wanted",
+            "effect": "Keeping it gives a fuller sauce; skimming changes its richness. Keep all the onions and sauce with the meat either way."
+          },
+          {
+            "ingredient": "Kosher salt",
+            "alternative": "Use the same salt crystal type for a repeatable rub",
+            "effect": "Equal spoon volumes of different salts can have different masses; the source’s unspecified salt does not establish a fine-salt conversion."
+          },
+          {
+            "ingredient": "Cold-sliced serving route",
+            "alternative": "Serve freshly cooked brisket without the overnight chill",
+            "effect": "Complete the same uncovered start and covered braise until the fork enters easily and the center reaches at least 145°F. Rest at least 3 minutes before slicing across the grain and serving with all the onions, sauce and rendered fat. Warm slices may be less tidy than cold slices; this option skips the chilling and reheating stages. Refrigerate any leftovers promptly as described below."
+          }
+        ],
+        "timing": "Allow 30 minutes for preparation, 1 hour uncovered and about 4 hours covered for the original cut, longer if tenderness requires it. Turning is brief attended work during the braise. Cooling, preferably overnight chilling, slicing and reheating are additional; plan the overnight route across two days rather than a fixed twelve-hour window. Scaled cut geometry and extra vessels can change cooking and reheating time.",
+        "storage": "Cool the cooked meat, onions, full sauce and fat promptly in shallow containers at 40°F or below. Use refrigerated cooked leftovers within 3–4 days. Freeze cooled portions with sauce if wanted and thaw in the refrigerator. Reheat meat and sauce evenly to 165°F; FDA additionally recommends bringing reheated sauces and gravy to a boil. Stir and keep that boil brief rather than reducing away the sauce.",
+        "sources": [
+          {
+            "title": "Miriam Szokovski: Rosh Hashanah Brisket",
+            "url": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm"
+          },
+          {
+            "title": "FDA: Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov: Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov: Cold Food Storage Chart",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRosh Hashanah brisket is a Jewish holiday tradition that carries prayer and memory into the kitchen - the dish is as much about the ritual as the flavor. A long, low braise at 300°F for hours breaks down the connective tissue into gelatin, which is why it's so tender. The braising liquid becomes a gravy that coats each slice.\n\n## Directions\n\n1.  **Foundation:** Preheat oven to 400°F. Lay the onion rounds in a single layer at the bottom of a heavy baking dish or Dutch oven.\n2.  **Rub:** In a small bowl, mix the paprika, garlic powder, salt, and chives. Rub the mixture aggressively into every surface of the brisket.\n3.  **The High Sear:** Place the brisket on top of the onions. Roast uncovered for 1 hour. This builds the \"bark\" and browns the onions.\n4.  **The Braise:** Remove from oven. Pour the balsamic vinegar and honey over the meat. Cover the dish **extremely tightly** with a heavy lid or double layer of foil.\n5.  **Low & Slow:** Lower the oven temperature to 250°F. Return the brisket to the oven and cook for 4 more hours until fork-tender.\n6.  **The Chill (Optional but Recommended):** Let the meat cool in its juices, then refrigerate overnight. This allows the fat to be easily removed and the meat to be sliced perfectly thin.\n7.  **Serve:** Slice against the grain. Return to the sauce and reheat gently before serving.\n",
+    "after": "\n## Chef's Note\n\nMiriam Szokovski’s honey-and-balsamic brisket is a Rosh Hashanah centerpiece with onions cooked underneath the meat. Its uncovered 400°F start is followed by a tightly covered 250°F braise; check for tenderness with a fork rather than treating four hours as a guarantee. Chilling makes thin slices easier, and all the onions, sauce and rendered fat can return to the serving dish.\n\n## Directions\n\n1. **Foundation:** Preheat the oven to 400°F. Lay large Spanish onions across the bottom of a heavy baking dish or Dutch oven. Choose a vessel in which the meat can lie without folding or crowding, with room for its juices and a tight lid or foil cover. For a larger batch, use enough vessels and divide all the onions, rub and liquids in proportion to the meat in each; a smaller batch needs an appropriately smaller vessel.\n2. **Rub:** Mix paprika, garlic powder, kosher salt, and dried chives (if using) in a small bowl, omitting the chives if not using them. Pat the full measured rub over both sides of first-cut brisket.\n3. **Uncovered Roast:** Place first-cut brisket on the onions. Roast uncovered for 1 hour for the original 3 lb batch. Watch for browning rather than blackened spices or onions; smaller or thinner cuts need earlier browning checks, and pan shape affects the result.\n4. **Cover:** Remove the dish from the oven. Pour balsamic vinegar and honey over the meat, retaining all its juices. Cover tightly with a heavy lid or double layer of foil, and reduce the oven to 250°F. The onions and meat release liquid during the covered cook.\n5. **Low and Slow:** Return the covered dish to the oven and begin checking around 4 more hours for the original batch. Turn the meat about once an hour, or at least once halfway through, spooning the liquid back over it and promptly replacing the cover. Begin checking tenderness earlier for smaller or thinner cuts, and allow longer for thicker cuts. Continue until a fork enters with almost no resistance; size, thickness, pan and oven can change the clock. Check that the center has reached at least 145°F, then let it rest at least 3 minutes before handling.\n6. **Chill for Slicing:** Divide the cooked brisket into smaller sections that can lie in shallow containers, and divide all the onions, juices and rendered fat among them. Refrigerate promptly at 40°F or below, within 2 hours of cooking, or within 1 hour above 90°F. Do not leave a deep pan on the counter until completely cold. Chill until the meat is cold throughout, preferably overnight.\n7. **Slice and Reheat:** Remove the cold meat and slice thinly against the grain. Reheat the full onions, sauce and fat in a saucepan, stirring to bring the sauce to a rolling boil briefly. Return all of it to the sliced meat and reheat covered in the oven or on the stovetop until the meat and sauce reach 165°F throughout, checking several places. Serve with all the onions and sauce; prolonged boiling will concentrate the sweet sauce, so avoid unnecessary continued reduction.\n"
+  },
+  "findings": [
+    {
+      "id": "BL01-M01",
+      "rationale": "Preserve the current full rub/honey/vinegar and kosher-salt adaptation; restore the actual publisher’s turning option and no-fixed-time fork test. Preserve current 12 as inherited planning portions, distinct from saved approximately 40 thin slices. Use authored ingredient destinations and capacity decisions without new liquid or pan dimensions.",
+      "confidence": "High source and allocation; actual capacity/yield untested",
+      "applicableSources": ["native", "045", "5442f8b8", "Chabad"],
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "content",
+        "source",
+        "learning"
+      ],
+      "questions": [
+        "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
+        "Record pan/cut thickness, actual tenderness and reheat clocks, shallow cooling behavior, retained fat and final thin-slice/portion yield."
+      ]
+    },
+    {
+      "id": "BL01-M02",
+      "rationale": "Replace unspecific deep-pan cooling/gentle reheating with prompt shallow cooling and measured 165°F reheating plus the separate FDA sauce-boil recommendation. Keep all fat/sauce, overnight cold slicing, and distinguish first-cook 145°F+3 minute minimum from tenderness.",
+      "confidence": "High primary handling; slicing/cooling sec tion size is an editorial operating choice",
+      "applicableSources": ["FDA", "FoodSafety", "ColdStorage"],
+      "exactBeforeAfterReferences": ["content", "learning", "cookTime", "totalTime"],
+      "questions": [
+        "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
+        "Record pan/cut thickness, actual tenderness and reheat clocks, shallow cooling behavior, retained fat and final thin-slice/portion yield."
+      ]
+    },
+    {
+      "id": "BL01-M03",
+      "rationale": "Remove the unverified automated nutrition estimate and unsupported 300°F/context generalization; preserve Jewish holiday context and credit Miriam by the actual publisher byline.",
+      "confidence": "High",
+      "applicableSources": ["902e7e8e", "2f34ff12", "Chabad", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["nutrition", "content"],
+      "questions": [
+        "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
+        "Record pan/cut thickness, actual tenderness and reheat clocks, shallow cooling behavior, retained fat and final thin-slice/portion yield."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Miriam%E2%80%99s%20Melt-In-Your-Mouth%20Rosh%20Hashanah%20Brisket.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Current kosher-salt adaptation",
+      "status": "preserved primary",
+      "difference": "Current 1 tbsp kosher salt is retained; saved/publisher 1 tbsp unspecified salt is recorded without an equal-volume conversion."
+    },
+    {
+      "name": "Source turn frequency",
+      "status": "preserved complete choice",
+      "difference": "Turn approximately hourly or once halfway thr ough; both source choices retain full liquid."
+    },
+    {
+      "name": "Chilled fat skimming",
+      "status": "current optional choice retained distinctly",
+      "difference": "Current chill rationale allows easy fat removal. Full fat remains primary; optional skimming is an explicit change in richness, not a default health reduction."
+    },
+    {
+      "name": "Saved thin-slice yield",
+      "status": "source context, not conversion",
+      "difference": "Approximately 40 thin slices cannot certify 12 full dinner portions."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "3 lb. First-cut Brisket (well-marbled)",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 2 rub and step 3 roast.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "2 large Spanish Onions, sliced into thick rounds",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 1 onion bottom.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "2 tbsp Paprika",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 2 rub.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "2 tbsp Garlic Powder",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 2 rub.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "1 tbsp Kosher Salt",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 2 rub.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "2 tbsp Dried Chives (optional)",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 2 rub says chives without qualifying optional.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "1/2 cup Balsamic Vinegar",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 4 braise.",
+        "quantityInference": null
+      },
+      {
+        "ingredient": "1/3 cup Honey",
+        "preparationState": "As written in this exact frozen ingredient string; no new dose/state supplied.",
+        "destination": "Step 4 braise.",
+        "quantityInference": null
+      }
+    ],
+    "proposed": [
+      {
+        "id": "meat.brisket",
+        "ingredient": "3 lb first-cut brisket, well-marbled",
+        "quantity": {
+          "amount": 3,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "well-marbled",
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "roast",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "meat.onion",
+        "ingredient": "2 large Spanish onions, sliced into thick rounds",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "sliced into thick rounds",
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "rub.paprika",
+        "ingredient": "2 tbsp paprika",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "rub.garlic-powder",
+        "ingredient": "2 tbsp garlic powder",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "rub.kosher-salt",
+        "ingredient": "1 tbsp kosher salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "rub.chives",
+        "ingredient": "2 tbsp dried chives, optional",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": true,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.balsamic",
+        "ingredient": "1/2 cup balsamic vinegar",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "braise",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.honey",
+        "ingredient": "1/3 cup honey",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "uses": [
+          {
+            "step": "braise",
+            "share": 1
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "methodOnlyFrozenInputs": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "Foundation: Preheat oven to 400°F. Lay the onion rounds in a single layer at the bottom of a heavy baking dish or Dutch oven."
+      },
+      {
+        "step": 2,
+        "text": "Rub: In a small bowl, mix the paprika, garlic powder, salt, and chives. Rub the mixture aggressively into every surface of the brisket."
+      },
+      {
+        "step": 3,
+        "text": "The High Sear: Place the brisket on top of the onions. Roast uncovered for 1 hour. This builds the \"bark\" and browns the onions."
+      },
+      {
+        "step": 4,
+        "text": "The Braise: Remove from oven. Pour the balsamic vinegar and honey over the meat. Cover the dish extremely tightly with a heavy lid or double layer of foil."
+      },
+      {
+        "step": 5,
+        "text": "Low & Slow: Lower the oven temperature to 250°F. Return the brisket to the oven and cook for 4 more hours until fork-tender."
+      },
+      {
+        "step": 6,
+        "text": "The Chill (Optional but Recommended): Let the meat cool in its juices, then refrigerate overnight. This allows the fat to be easily removed and the meat to be sliced perfectly thin."
+      },
+      {
+        "step": 7,
+        "text": "Serve: Slice against the grain. Return to the sauce and reheat gently before serving."
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "Foundation: Preheat the oven to 400°F. Lay large Spanish onions across the bottom of a heavy baking dish or Dutch oven. Choose a vessel in which the meat can lie without folding or crowding, with room for its juices and a tight lid or foil cover. For a larger batch, use enough vessels and divide all the onions, rub and liquids in proportion to the meat in each; a smaller batch needs an appropriately smaller vessel."
+      },
+      {
+        "step": 2,
+        "text": "Rub: Mix paprika, garlic powder, kosher salt, and dried chives (if using) in a small bowl, omitting the chives if not using them. Pat the full measured rub over both sides of first-cut brisket."
+      },
+      {
+        "step": 3,
+        "text": "Uncovered Roast: Place first-cut brisket on the onions. Roast uncovered for 1 hour for the original 3 lb batch. Watch for browning rather than blackened spices or onions; smaller or thinner cuts need earlier browning checks, and pan shape affects the result."
+      },
+      {
+        "step": 4,
+        "text": "Cover: Remove the dish from the oven. Pour balsamic vinegar and honey over the meat, retaining all its juices. Cover tightly with a heavy lid or double layer of foil, and reduce the oven to 250°F. The onions and meat release liquid during the covered cook."
+      },
+      {
+        "step": 5,
+        "text": "Low and Slow: Return the covered dish to the oven and begin checking around 4 more hours for the original batch. Turn the meat about once an hour, or at least once halfway through, spooning the liquid back over it and promptly replacing the cover. Begin checking tenderness earlier for smaller or thinner cuts, and allow longer for thicker cuts. Continue until a fork enters with almost no resistance; size, thickness, pan and oven can change the clock. Check that the center has reached at least 145°F, then let it rest at least 3 minutes before handling."
+      },
+      {
+        "step": 6,
+        "text": "Chill for Slicing: Divide the cooked brisket into smaller sections that can lie in shallow containers, and divide all the onions, juices and rendered fat among them. Refrigerate promptly at 40°F or below, within 2 hours of cooking, or within 1 hour above 90°F. Do not leave a deep pan on the counter until completely cold. Chill until the meat is cold throughout, preferably overnight."
+      },
+      {
+        "step": 7,
+        "text": "Slice and Reheat: Remove the cold meat and slice thinly against the grain. Reheat the full onions, sauce and fat in a saucepan, stirring to bring the sauce to a rolling boil briefly. Return all of it to the sliced meat and reheat covered in the oven or on the stovetop until the meat and sauce reach 165°F throughout, checking several places. Serve with all the onions and sauce; prolonged boiling will concentrate the sweet sauce, so avoid unnecessary continued reduction."
+      }
+    ],
+    "invariant": "Graph preserves actual method statements; held graph is not repaired or endorsed."
+  },
+  "variantLedgers": [
+    {
+      "name": "Current kosher-salt adaptation",
+      "status": "preserved primary",
+      "difference": "Current 1 tbsp kosher salt is retained; saved/publisher 1 tbsp unspecified salt is recorded without an equal-volume conversion."
+    },
+    {
+      "name": "Source turn frequency",
+      "status": "preserved complete choice",
+      "difference": "Turn approximately hourly or once halfway thr ough; both source choices retain full liquid."
+    },
+    {
+      "name": "Chilled fat skimming",
+      "status": "current optional choice retained distinctly",
+      "difference": "Current chill rationale allows easy fat removal. Full fat remains primary; optional skimming is an explicit change in richness, not a default health reduction."
+    },
+    {
+      "name": "Saved thin-slice yield",
+      "status": "source context, not conversion",
+      "difference": "Approximately 40 thin slices cannot certify 12 full dinner portions."
+    },
+    {
+      "name": "Fresh-service route",
+      "status": "preserved current optional-chill choice",
+      "difference": "Complete the same uncovered start and covered braise until the fork enters easily and the center reaches at least 145°F. Rest at least 3 minutes before slicing across the grain and serving with all the onions, sauce and rendered fat. Warm slices may be less tidy than cold slices; this option skips the chilling and reheating stages. Refrigerate any leftovers promptly as described below."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "disposition": "Allthreeexistingpairingsvalidtargets;noingredient-linkedsidequantityornewmealapproval."
+  },
+  "ratiosYieldAndCapacity": "Allow 30 minutes for preparation, 1 hour uncovered and about 4 hours covered for the original cut, longer if tenderness requires it. Turning is brief attended work during the braise. Cooling, preferably overnight chilling, slicing and reheating are additional; plan the overnight route across two days rather than a fixed twelve-hour window. Scaled cut geometry and extra vessels can change cooking and reheating time.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
+    "Record pan/cut thickness, actual tenderness and reheat clocks, shallow cooling behavior, retained fat and final thin-slice/portion yield."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

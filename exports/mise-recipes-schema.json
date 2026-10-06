@@ -200,7 +200,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Anadama Bread",
-      "description": "Anadama is a quintessential New England bread, supposedly named after a fisherman's wife named Anna. The bread is defined by the bittersweet depth of molasses and the rustic texture of cornmeal.",
+      "description": "Molasses and a cooked cornmeal porridge give this New England bread its distinctive flavor and texture. Cool the porridge before adding it to the yeast, and let both rises reach their volume cues.",
       "url": "https://jordansilton.com/mise/recipes/anadama-bread/",
       "recipeIngredient": [
         "1/2 cup Water",
@@ -210,53 +210,55 @@
         "1 pkg (.25 oz) Active Dry Yeast",
         "1/2 cup Warm Water (110°F)",
         "3 cups All-Purpose Flour",
-        "1 tsp Kosher Salt"
+        "1 tsp Kosher Salt",
+        "Oil, for coating the rising bowl",
+        "Butter, for greasing the loaf pan",
+        "All-purpose flour, for dusting"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Porridge: In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat."
+          "text": "Cook the porridge: In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil over medium heat, stirring, and cook for about 5 minutes until thickened. Remove from the heat."
         },
         {
           "@type": "HowToStep",
-          "text": "Melt: Stir in the butter and molasses. Let cool until lukewarm (critical - if too hot, it will kill the yeast)."
+          "text": "Cool: Stir in the measured porridge butter and molasses. Let the mixture cool until lukewarm before it meets the yeast."
         },
         {
           "@type": "HowToStep",
-          "text": "The Yeast: In a large bowl, dissolve the yeast in the warm water. Let sit for 10 minutes until foamy."
+          "text": "Activate the yeast: In a large bowl, dissolve the active dry yeast in the listed warm water at 110°F. Let stand for about 10 minutes; look for a creamy, foamy surface."
         },
         {
           "@type": "HowToStep",
-          "text": "The Dough: Stir the cornmeal mixture into the yeast. Add two thirds of the measured flour and the salt. Gradually add the remaining flour until a shaggy dough forms."
+          "text": "Mix the dough: Stir the cooled cornmeal mixture into the yeast mixture. Mix in two thirds of the measured flour and all the salt, then gradually add the remaining measured flour until a shaggy dough forms."
         },
         {
           "@type": "HowToStep",
-          "text": "Knead: Turn out onto a floured surface. Knead for 8-10 minutes until smooth and elastic. The dough should be slightly tacky but not sticky."
+          "text": "Knead: Turn out onto a lightly floured surface. Knead for about 8–10 minutes until smooth and elastic, using only enough dusting flour to keep it manageable. The dough should remain slightly tacky."
         },
         {
           "@type": "HowToStep",
-          "text": "Rise 1: Place in an oiled bowl, cover, and let rise in a warm spot until doubled (about 1 hour)."
+          "text": "First rise: Lightly oil a bowl, place the dough inside and turn to coat it. Cover and leave in a warm spot until doubled in volume, about 1 hour."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Deflate the dough. Shape into a loaf and place in a greased 9x5 pan."
+          "text": "Shape and heat the oven: Deflate and shape the dough. The original batch makes one loaf in a butter-greased 9 x 5-inch loaf pan. For larger batches, divide into original-size loaves in separate pans. For a smaller or partial loaf, choose a suitable smaller pan with similar dough depth and room to rise, and begin bake checks earlier. Begin preheating the oven to 375°F while the loaves rise."
         },
         {
           "@type": "HowToStep",
-          "text": "Rise 2: Cover and let rise again until doubled (about 45 minutes)."
+          "text": "Second rise: Cover and let the loaf double again, about 45 minutes. Wait until the oven has reached 375°F before loading."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake at 375°F for 30 minutes until the top is dark golden brown and the bottom sounds hollow when tapped."
+          "text": "Bake and cool: For original-size loaves, begin checking around 30 minutes. Bake until the crust is deep golden and firm, the sides are baked and the bottom sounds hollow when tapped. Carefully turn the loaves out onto a rack and let them cool completely before slicing."
         }
       ],
       "prepTime": "PT30M",
       "cookTime": "PT30M",
-      "totalTime": "PT180M",
       "recipeYield": "1 loaf",
       "recipeCategory": "Base",
       "recipeCuisine": ["American"],
-      "keywords": "American, sweet, rich, weekend-project, comfort-food, bake, roast, boil",
+      "keywords": "American, sweet, rich, weekend-project, comfort-food, bake, boil",
       "citation": {
         "@type": "CreativeWork",
         "name": "Adapted from Allrecipes.com",
@@ -2107,6 +2109,7 @@
         "12 tbsp Salted Butter (cool room temp)",
         "3/4 cup Light Brown Sugar, packed",
         "2 tbsp Ground Cinnamon",
+        "2 tsp Vanilla Powder (optional, for the filling)",
         "5 oz Cream Cheese (cold)",
         "6 tbsp Unsalted Butter (room temp)",
         "1 cup Powdered Sugar",
@@ -2123,47 +2126,47 @@
           "itemListElement": [
             {
               "@type": "HowToStep",
-              "text": "The Tangzhong: In a small saucepan, whisk 1/4 cup flour and 3/4 cup water. Cook over medium heat, whisking constantly until it forms a thick paste. Let cool until just warm, not hot."
+              "text": "The Tangzhong: In a small saucepan, whisk the tangzhong flour and water. Cook over medium heat, whisking constantly, until a thick paste forms, about 4–5 minutes. Scrape into a bowl and cool until just warm."
             },
             {
               "@type": "HowToStep",
-              "text": "The Mix: In a stand mixer, combine the dough flour, granulated sugar, yeast, and salt. Add the cream, milk, egg, vanilla, and the cooled Tangzhong. Knead with a dough hook for 2 minutes."
+              "text": "The Mix: In a stand mixer, combine the dough flour, granulated sugar, yeast and salt. Add the cream, milk, egg, dough vanilla and all the cooled tangzhong. Knead with a dough hook on low speed for about 2 minutes."
             },
             {
               "@type": "HowToStep",
-              "text": "The Butter: On low speed, add the 8 tbsp butter one tablespoon at a time. Once incorporated, knead for 10-12 minutes until the dough is smooth, elastic, and passes the windowpane test."
+              "text": "The Butter: On low speed, add the dough butter one tablespoon at a time, letting each addition incorporate. Knead for another 10–12 minutes, until smooth and elastic and a stretched piece forms a thin windowpane."
             },
             {
               "@type": "HowToStep",
-              "text": "Rest the Dough: Shape into a ball, place in a greased bowl, cover, and let rest in a warm spot for 30 minutes."
+              "text": "Rest the Dough: Shape into a ball, place seam-side down in a butter-greased bowl, cover and rest for 30 minutes."
             },
             {
               "@type": "HowToStep",
-              "text": "Make the Filling: During the dough rest, mix the 12 tbsp filling butter, 3/4 cup brown sugar, and 2 tbsp cinnamon into a spreadable paste."
+              "text": "Make the Filling: During the rest, mix all the filling butter, brown sugar and cinnamon with the optional vanilla powder into a spreadable paste."
             },
             {
               "@type": "HowToStep",
-              "text": "Shape: On a floured surface, roll dough into a 15x21-inch rectangle with a 21-inch edge facing you. Spread the cinnamon filling to the edges, leaving a 1-inch border along the far 21-inch edge."
+              "text": "Shape: On a lightly floured surface, roll to a 15 x 21-inch rectangle with a 21-inch edge facing you. Spread all the filling over the dough, leaving a 1-inch clean border along the far 21-inch edge."
             },
             {
               "@type": "HowToStep",
-              "text": "The Cut: Cut across the 21-inch width to make twelve strips, each 1.75 inches wide and 15 inches long. Roll each strip away from you toward its clean edge and place in a parchment-lined metal 9x13-inch pan."
+              "text": "The Cut: Cut across the 21-inch width into twelve strips, each 1.75 inches wide and 15 inches long. Roll each strip away from you toward its clean edge and place in a parchment-lined metal 9 x 13-inch pan."
             },
             {
               "@type": "HowToStep",
-              "text": "Final Rise: Cover and let rise until doubled (1-2 hours). Preheat oven to 325°F."
+              "text": "Final Rise: Cover and let rise until doubled, about 1–2 hours. Preheat the oven to 325°F during this rise and wait for it to reach temperature before baking."
             },
             {
               "@type": "HowToStep",
-              "text": "Bake: Bake for 30-35 minutes until the tops are just starting to turn golden brown."
+              "text": "Bake: Bake for about 30–35 minutes, until the tops are lightly golden and the center roll is set rather than wet dough. Check the center as well as the edges; continue baking if the middle is still doughy."
             },
             {
               "@type": "HowToStep",
-              "text": "The Frosting: While the rolls bake, whip the cream cheese and butter until smooth. Mix in powdered sugar, vanilla, and cream until fluffy."
+              "text": "The Frosting: While the rolls bake, beat all the frosting cream cheese and butter until smooth. Mix in the powdered sugar, frosting vanilla and cream, beating until fluffy."
             },
             {
               "@type": "HowToStep",
-              "text": "Finish: Let the rolls cool for 15 minutes, then spread the frosting generously while they are still warm to allow some of it to seep into the spirals."
+              "text": "Finish: Cool the pan on a rack for 15 minutes. Spread all the frosting over the warm rolls, then let stand another 15 minutes before serving warm."
             }
           ]
         }
@@ -2227,6 +2230,7 @@
       ],
       "prepTime": "PT10M",
       "cookTime": "PT45M",
+      "totalTime": "PT175M",
       "recipeYield": "16",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
@@ -4389,7 +4393,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Cast-Iron Buttermilk Biscuits",
-      "description": "Keep the butter cold and leave pea-sized pieces in the flour. Two gentle folds create layers; press the cutter straight down rather than twisting and sealing the edges.",
+      "description": "Keep the butter cold and leave pea-sized pieces in the flour. Two gentle folds create layers; press the cutter straight down and keep the biscuits close together in the pan.",
       "url": "https://jordansilton.com/mise/recipes/cast-iron-buttermilk-biscuits/",
       "recipeIngredient": [
         "2 cups (240 g) all-purpose flour",
@@ -4399,28 +4403,30 @@
         "1 cup (240 g) buttermilk plus more for brushing (optional)",
         "All-purpose flour, for dusting",
         "Butter, for greasing the skillet",
-        "Melted butter, for finishing, optional"
+        "Butter, melted or left in a stick for finishing, optional",
+        "1 egg, beaten (optional)",
+        "Water, a splash for the optional egg wash"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prepare: Heat oven to 450°F. Grease a cast-iron skillet large enough for nine biscuits. Whisk flour, baking powder and salt together."
+          "text": "Prepare: Preheat the oven to 450°F. Grease a cast-iron skillet large enough to hold the biscuits close together without crushing them. Whisk all the flour, baking powder and salt in a large bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Prepare: Cut the cold butter into the flour until the mixture has coarse crumbs and pea-sized butter pieces. Stir in buttermilk just until the dough comes together."
+          "text": "Cut in and mix: Work the cold butter into the dry mixture until coarse crumbs and pea-sized butter pieces remain. Stir in the measured buttermilk just until the dough comes together."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: On a lightly floured surface, pat into a rectangle about one inch thick. Fold over twice, then pat back to one inch thick. Cut straight down with a floured biscuit cutter; do not twist."
+          "text": "Fold and cut: Turn onto a lightly floured surface. Pat into a rectangle about 1 inch thick, fold over twice, then pat back to about 1 inch thick. Cut with a floured biscuit cutter, pressing straight down without twisting. Gently gather scraps for the remaining biscuits. A 2-inch cutter is a useful size for this batch; the count depends on thickness and scraps."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Arrange biscuits close together in the skillet. If the oven is still heating, refrigerate the biscuits to keep butter cold. Brush tops with a little buttermilk if desired."
+          "text": "Keep cold and brush: Arrange close together in the skillet. If the oven is still heating or the butter has softened, refrigerate the biscuits; a brief freezer chill is another option. Load only after the oven reaches 450°F. Brush with extra buttermilk if desired, or use the optional beaten egg mixed with a splash of water instead; discard leftover raw egg wash."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook: Bake on a lower rack about 15 minutes, then move higher for about 3 minutes if tops need more color. Check that centers are baked through. Brush with optional melted butter. Cool ten minutes before serving."
+          "text": "Bake and rest: Bake on a lower rack for about 15 minutes, then move higher for about 3 minutes if the tops need color. They should be golden and the middle biscuit should have a set crumb rather than wet dough; continue baking if needed. Brush with the optional melted finishing butter, or rub the finishing butter stick over the warm tops, then rest in the skillet for 10 minutes before serving."
         }
       ],
       "prepTime": "PT20M",
@@ -5025,10 +5031,10 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Chewy Chocolate Meringues",
-      "description": "The secret to a meringue that is \"Chewy\" rather than just \"Crispy\" is the Sugar Dissolution. By gently heating the egg whites and sugar before whipping, you ensure the sugar crystals are fully dissolved into the protein structure.",
+      "description": "Dissolving the sugar before whipping helps build a smooth foam. Keep all the listed whites and sugar; measure the whites by volume rather than assuming a count of eggs.",
       "url": "https://jordansilton.com/mise/recipes/chewy-chocolate-meringues/",
       "recipeIngredient": [
-        "1 cup Egg Whites, room temperature (about 6-7 large eggs)",
+        "1 cup Pasteurized Egg Whites, suitable for whipping",
         "2 cups Granulated Sugar",
         "1 cup Dark Chocolate Chips",
         "1/2 tsp Cream of Tartar",
@@ -5037,36 +5043,34 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 250°F. Line two baking sheets with parchment paper."
+          "text": "Prepare: Heat the oven to 250°F and line two baking sheets with parchment. Keep the measured pasteurized whites refrigerated until ready to heat; use pasteurized shell-egg whites or a pasteurized product labeled suitable for whipping, measured to the full listed volume."
         },
         {
           "@type": "HowToStep",
-          "text": "Dissolve: In a heat-proof bowl set over a pot of simmering water (double boiler), combine egg whites, sugar, and salt. Whisk gently until the sugar is dissolved and the mixture feels smooth (not gritty) between your fingers."
+          "text": "Dissolve: Combine all the whites, sugar and salt in a heat-proof bowl over simmering water, with the bowl bottom above the water. Whisk gently until the sugar is dissolved; check for remaining grains with a clean spoon rather than touching the hot mixture or tasting it. Use the pasteurized whites selected in the preparation step; sugar dissolution is not an egg-temperature check."
         },
         {
           "@type": "HowToStep",
-          "text": "Whip: Transfer to a stand mixer. Add cream of tartar. Whip on high speed for 8-10 minutes until the whites are stiff, glossy, and the bowl feels cool to the touch."
+          "text": "Whip: Transfer the complete mixture to a stand mixer. Add all the cream of tartar and whip on high until stiff, glossy peaks hold and the bowl is no longer warm, starting checks around 8 minutes; mixer and egg product affect the clock."
         },
         {
           "@type": "HowToStep",
-          "text": "Fold: Gently fold in the chocolate chips by hand."
+          "text": "Fold: Gently fold in all the chocolate chips until dispersed."
         },
         {
           "@type": "HowToStep",
-          "text": "Portion: Use a large spoon or cookie scoop to place clouds of batter onto the sheets. They will not spread, so you can place them 1 inch apart."
+          "text": "Portion: Scoop large spoonfuls onto the sheets, leaving about 1 inch between them. The original 36-cookie yield is a planning count; keep portions similar in size when making more or fewer cookies, using additional sheets or oven rounds as needed."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 45-50 minutes. The cookies are done when the outside is firm but the center still feels slightly soft."
+          "text": "Bake: Bake about 45–50 minutes for the original portion size, rotating the sheets halfway through. The exterior should be firm. Break a sample open: the center should be cooked through but still soft, without flowing egg foam. Keep the pasteurized-white precaution even when the center looks set."
         },
         {
           "@type": "HowToStep",
-          "text": "Cool: Let cool completely on the baking sheet to allow the shell to set."
+          "text": "Cool: Cool completely on the sheets before lifting carefully into an airtight container."
         }
       ],
       "prepTime": "PT20M",
-      "cookTime": "PT45M",
-      "totalTime": "PT70M",
       "recipeYield": "36 cookies",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["French"],
@@ -18577,7 +18581,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Katharine Hepburn’s Brownies",
-      "description": "This is the classic Katharine Hepburn brownie recipe. The secret to its fudgy texture is the ultra-low flour ratio: using only 1/4 cup of flour ensures the structure remains gooey and fudge-like rather than cakey.",
+      "description": "The small flour measure keeps these brownies dense and fudgy. Keep all the butter, sugar and nuts.",
       "url": "https://jordansilton.com/mise/recipes/katharine-hepburns-brownies/",
       "recipeIngredient": [
         "1/2 cup Unsalted Butter (1 stick)",
@@ -18587,33 +18591,32 @@
         "1/4 cup All-Purpose Flour",
         "1 cup Walnuts or Pecans, coarsely chopped",
         "1 tsp Pure Vanilla Extract",
-        "Pinch of Sea Salt"
+        "Pinch of Sea Salt",
+        "Additional butter, as needed to grease the pan"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Bloom: Preheat oven to 325°F. Grease an 8x8-inch square pan. In a medium saucepan, melt the butter over low heat. Whisk in the cocoa powder until smooth and glossy. Remove from heat and let cool for 5 minutes."
+          "text": "Prepare: Heat the oven to 325°F. For the original batch, grease an 8×8-inch square pan with the separate additional butter. Melt all the measured butter over low heat in a saucepan and stir in all the cocoa until smooth. Remove from the heat and cool for about 5 minutes, until warm rather than hot; transfer to a bowl large enough for the complete mixture."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Whisk the eggs into the cocoa-butter mixture one at a time. Stir in the vanilla and salt."
+          "text": "Add eggs: Whisk in all the eggs one at a time, then all the vanilla and the pinch of salt."
         },
         {
           "@type": "HowToStep",
-          "text": "The Fold: In a separate bowl, whisk the sugar and flour. Add the dry mix and the nuts to the saucepan. Stir with a spatula until just combined."
+          "text": "Fold: Combine all the sugar, flour and chopped walnuts or pecans in a separate bowl. Stir them into the cocoa mixture just until no dry flour remains."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Pour the batter into the prepared pan. Bake for 30-35 minutes. The Kitchen Standard Test: The center should still have a slight jiggle and a toothpick should come out with moist crumbs."
+          "text": "Bake: Spread all the batter evenly in the prepared pan. Begin checking at 30 minutes; the original batch usually needs 30–35 minutes. The center should be set and fudgy, without a liquid wobble, and a toothpick should carry moist crumbs rather than wet batter. A chocolate smear can differ from raw batter; check another nearby spot if uncertain."
         },
         {
           "@type": "HowToStep",
-          "text": "Cool: Let cool completely in the pan before slicing. These brownies are elite when refrigerated and eaten cold."
+          "text": "Cool: Cool completely in the pan before cutting into the listed portions. Chill after cooling if you prefer a firmer slice."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT30M",
-      "totalTime": "PT40M",
       "recipeYield": "12",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
@@ -20360,72 +20363,70 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Marinated Flank Steak Salad",
-      "description": "Flank steak is an outstanding cut for salads due to its robust beefy flavor, but its long, fibrous grain requires deliberate technique. We score the steak in a shallow diamond pattern to sever surface fibers, allowing a bright soy-dijon marinade to penetrate and tenderize the meat.",
+      "description": "Flank steak’s long grain makes the direction of slicing especially important. This soy-Dijon and lemon version keeps a rich vinaigrette, pepitas and crisp shallots around the sliced beef.",
       "url": "https://jordansilton.com/mise/recipes/marinated-flank-steak-salad/",
       "recipeIngredient": [
-        "1.25 lbs Flank Steak",
-        "1/4 cup Extra Virgin Olive Oil",
-        "3 tbsp Soy Sauce (use Tamari for gluten-free)",
-        "1 tbsp Dijon Mustard",
-        "2 cloves Garlic, minced",
-        "1 tbsp Fresh Lemon Juice",
-        "1 tbsp Neutral Cooking Oil (or shallot oil, for searing)",
-        "1 large head Romaine Lettuce, washed and torn",
-        "1 head Butter Lettuce, washed and torn",
-        "1 English Cucumber, sliced",
-        "1 Avocado, diced",
-        "4 Radishes, shaved thinly",
-        "1/4 cup Toasted Pepitas",
-        "[Crispy Shallots](/mise/recipes/crispy-shallots) (condiment)",
-        "1/3 cup Extra Virgin Olive Oil",
-        "3 tbsp Fresh Lemon Juice",
-        "1 tsp Dijon Mustard",
-        "1 small Shallot, finely minced",
-        "1/2 tsp Kosher Salt",
-        "1/4 tsp Freshly Ground Black Pepper"
+        "1 1/4 lb flank steak",
+        "1/4 cup extra-virgin olive oil, for the marinade",
+        "3 tbsp soy sauce, or gluten-free tamari",
+        "1 tbsp Dijon mustard",
+        "2 garlic cloves, minced",
+        "1 tbsp fresh lemon juice",
+        "1 tbsp neutral cooking oil, or shallot oil, for searing",
+        "1 large head romaine lettuce, washed and torn",
+        "1 head butter lettuce, washed and torn",
+        "1 English cucumber, washed and sliced",
+        "1 avocado, washed before cutting, then diced",
+        "4 radishes, washed and shaved thinly",
+        "1/4 cup toasted pepitas",
+        "[Crispy Shallots](/mise/recipes/crispy-shallots), for topping",
+        "1/3 cup extra-virgin olive oil",
+        "3 tbsp fresh lemon juice",
+        "1 tsp Dijon mustard",
+        "1 small shallot, finely minced",
+        "1/2 tsp kosher salt",
+        "1/4 tsp freshly ground black pepper"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Score the Steak: Lay the flank steak flat on a cutting board. Using a sharp knife, lightly score the surface in a diagonal diamond pattern on both sides, cutting about 1/8-inch deep. This prevents the steak from curling in the pan and helps the marinade penetrate."
+          "text": "Score the Steak: Lightly score both sides of flank steak in a shallow diagonal diamond pattern, about 1/8 inch deep. Keep the cuts superficial; do not cut through the steak. Use separate equipment for the raw meat and ready-to-eat salad."
         },
         {
           "@type": "HowToStep",
-          "text": "Marinate: In a small bowl, whisk together the marinade ingredients: 1/4 cup olive oil, soy sauce, 1 tbsp dijon mustard, minced garlic, and 1 tbsp lemon juice. Place the steak in a shallow dish or zip-top bag and pour the marinade over it. Seal and refrigerate for at least 2 hours, or up to 12 hours."
+          "text": "Marinate: Whisk extra-virgin olive oil, soy sauce, Dijon mustard, garlic cloves, and fresh lemon juice in a nonreactive dish or food-storage bag and add the steak. Seal and refrigerate for at least 2 hours, or up to 12 hours."
         },
         {
           "@type": "HowToStep",
-          "text": "Bring to Temp: Remove the steak from the refrigerator 30 minutes before cooking to take the chill off. This ensures even cooking. Pat the steak dry with paper towels to remove excess moisture so it sears rather than steams."
+          "text": "Dry the Surface: Take the steak from the refrigerator when ready to cook. Lift it from the marinade and pat the surface dry. Discard the used marinade; keep it away from the dressing and salad."
         },
         {
           "@type": "HowToStep",
-          "text": "Make the Vinaigrette: In a jar or small bowl, combine the vinaigrette ingredients: 1/3 cup olive oil, 3 tbsp lemon juice, 1 tsp dijon mustard, minced shallot, salt, and pepper. Shake or whisk vigorously until emulsified."
+          "text": "Make the Vinaigrette: Shake or whisk extra-virgin olive oil, fresh lemon juice, Dijon mustard, small shallot, kosher salt, and freshly ground black pepper together. Keep the washed salad and toppings cold while the meat cooks."
         },
         {
           "@type": "HowToStep",
-          "text": "Sear the Steak: Heat a cast-iron skillet over high heat until it is smoking hot. Add 1 tbsp of neutral oil (or leftover shallot oil). Lay the steak in the skillet and sear undisturbed for 4 to 5 minutes per side for medium-rare (targeting an internal temperature of 130°F)."
+          "text": "Sear the Steak: Use flank steak and neutral cooking oil: heat the oil in a cast-iron skillet over medium-high to high heat until shimmering. Lay the steak flat without crowding. Begin checking around 4–5 minutes per side for the original cut, adjusting heat if the surface is burning; continue until the thickest part reaches at least 145°F before removing it. For more steaks, use additional suitable pans or complete cooking batches, dividing all the measured searing oil among them. Cut thickness and starting temperature change the clock."
         },
         {
           "@type": "HowToStep",
-          "text": "Rest: Transfer the steak to a clean cutting board and let it rest undisturbed for 10 minutes to allow the juices to redistribute."
+          "text": "Rest: Transfer to a clean cutting board and let the steak rest for 10 minutes, exceeding the minimum 3-minute rest after the 145°F endpoint. Keep the meat and cooked juices separate from the raw-meat equipment."
         },
         {
           "@type": "HowToStep",
-          "text": "Slice: Using a sharp carving knife held at a 45-degree angle, slice the rested steak as thinly as possible against the grain."
+          "text": "Slice: Slice as thinly as possible across the grain with the carving knife angled about 45 degrees. Keep the salad cold until assembly."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: In a large serving bowl, toss the romaine and butter lettuces with half of the vinaigrette. Arrange the sliced cucumbers, diced avocado, and shaved radishes on top. Arrange the sliced steak over the greens. Drizzle with the remaining vinaigrette."
+          "text": "Assemble: Bring large head romaine lettuce, head butter lettuce, English cucumber, avocado, and radishes to the serving bowl. Toss both lettuces with half of the prepared vinaigrette. Arrange the cucumber, avocado and radishes over the greens, add all the sliced steak, and drizzle with all the remaining vinaigrette."
         },
         {
           "@type": "HowToStep",
-          "text": "Finishing Touch: Generously scatter the Crispy Shallots and toasted pepitas over the top just before serving to preserve their crunch."
+          "text": "Finish: Scatter toasted pepitas and Crispy Shallots over the top just before serving so the toppings stay crisp."
         }
       ],
       "prepTime": "PT20M",
-      "cookTime": "PT10M",
-      "totalTime": "PT150M",
-      "recipeYield": "3",
+      "recipeYield": "3 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
       "keywords": "American, acidic, bright, savory, clean, crispy, umami, weeknight, everyday, kid-friendly, marinate, sear, toss"
@@ -21187,58 +21188,56 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket",
-      "description": "Rosh Hashanah brisket is a Jewish holiday tradition that carries prayer and memory into the kitchen - the dish is as much about the ritual as the flavor. A long, low braise at 300°F for hours breaks down the connective tissue into gelatin, which is why it's so tender.",
+      "description": "Miriam Szokovski’s honey-and-balsamic brisket is a Rosh Hashanah centerpiece with onions cooked underneath the meat. Its uncovered 400°F start is followed by a tightly covered 250°F braise; check for tenderness with a fork rather than treating four hours as a guarantee.",
       "url": "https://jordansilton.com/mise/recipes/miriams-melt-in-your-mouth-rosh-hashanah-brisket/",
       "recipeIngredient": [
-        "3 lb. First-cut Brisket (well-marbled)",
-        "2 large Spanish Onions, sliced into thick rounds",
-        "2 tbsp Paprika",
-        "2 tbsp Garlic Powder",
-        "1 tbsp Kosher Salt",
-        "2 tbsp Dried Chives (optional)",
-        "1/2 cup Balsamic Vinegar",
-        "1/3 cup Honey"
+        "3 lb first-cut brisket, well-marbled",
+        "2 large Spanish onions, sliced into thick rounds",
+        "2 tbsp paprika",
+        "2 tbsp garlic powder",
+        "1 tbsp kosher salt",
+        "2 tbsp dried chives, optional",
+        "1/2 cup balsamic vinegar",
+        "1/3 cup honey"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Foundation: Preheat oven to 400°F. Lay the onion rounds in a single layer at the bottom of a heavy baking dish or Dutch oven."
+          "text": "Foundation: Preheat the oven to 400°F. Lay large Spanish onions across the bottom of a heavy baking dish or Dutch oven. Choose a vessel in which the meat can lie without folding or crowding, with room for its juices and a tight lid or foil cover. For a larger batch, use enough vessels and divide all the onions, rub and liquids in proportion to the meat in each; a smaller batch needs an appropriately smaller vessel."
         },
         {
           "@type": "HowToStep",
-          "text": "Rub: In a small bowl, mix the paprika, garlic powder, salt, and chives. Rub the mixture aggressively into every surface of the brisket."
+          "text": "Rub: Mix paprika, garlic powder, kosher salt, and dried chives (if using) in a small bowl, omitting the chives if not using them. Pat the full measured rub over both sides of first-cut brisket."
         },
         {
           "@type": "HowToStep",
-          "text": "The High Sear: Place the brisket on top of the onions. Roast uncovered for 1 hour. This builds the \"bark\" and browns the onions."
+          "text": "Uncovered Roast: Place first-cut brisket on the onions. Roast uncovered for 1 hour for the original 3 lb batch. Watch for browning rather than blackened spices or onions; smaller or thinner cuts need earlier browning checks, and pan shape affects the result."
         },
         {
           "@type": "HowToStep",
-          "text": "The Braise: Remove from oven. Pour the balsamic vinegar and honey over the meat. Cover the dish extremely tightly with a heavy lid or double layer of foil."
+          "text": "Cover: Remove the dish from the oven. Pour balsamic vinegar and honey over the meat, retaining all its juices. Cover tightly with a heavy lid or double layer of foil, and reduce the oven to 250°F. The onions and meat release liquid during the covered cook."
         },
         {
           "@type": "HowToStep",
-          "text": "Low & Slow: Lower the oven temperature to 250°F. Return the brisket to the oven and cook for 4 more hours until fork-tender."
+          "text": "Low and Slow: Return the covered dish to the oven and begin checking around 4 more hours for the original batch. Turn the meat about once an hour, or at least once halfway through, spooning the liquid back over it and promptly replacing the cover. Begin checking tenderness earlier for smaller or thinner cuts, and allow longer for thicker cuts. Continue until a fork enters with almost no resistance; size, thickness, pan and oven can change the clock. Check that the center has reached at least 145°F, then let it rest at least 3 minutes before handling."
         },
         {
           "@type": "HowToStep",
-          "text": "The Chill (Optional but Recommended): Let the meat cool in its juices, then refrigerate overnight. This allows the fat to be easily removed and the meat to be sliced perfectly thin."
+          "text": "Chill for Slicing: Divide the cooked brisket into smaller sections that can lie in shallow containers, and divide all the onions, juices and rendered fat among them. Refrigerate promptly at 40°F or below, within 2 hours of cooking, or within 1 hour above 90°F. Do not leave a deep pan on the counter until completely cold. Chill until the meat is cold throughout, preferably overnight."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Slice against the grain. Return to the sauce and reheat gently before serving."
+          "text": "Slice and Reheat: Remove the cold meat and slice thinly against the grain. Reheat the full onions, sauce and fat in a saucepan, stirring to bring the sauce to a rolling boil briefly. Return all of it to the sliced meat and reheat covered in the oven or on the stovetop until the meat and sauce reach 165°F throughout, checking several places. Serve with all the onions and sauce; prolonged boiling will concentrate the sweet sauce, so avoid unnecessary continued reduction."
         }
       ],
       "prepTime": "PT30M",
-      "cookTime": "PT300M",
-      "totalTime": "PT720M",
-      "recipeYield": "12",
+      "recipeYield": "12 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Jewish"],
       "keywords": "Jewish, sweet, acidic, holiday, bake, roast, braise",
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from Chabad.org",
+        "name": "Adapted from Miriam Szokovski, Chabad.org",
         "url": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm"
       }
     },
@@ -22186,43 +22185,44 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Nana’s Biscuits",
-      "description": "Biscuits are Southern breakfast staple, but the technique is universal - cold butter cut into flour creates pockets of steam that make them rise and flake. Buttermilk adds tang and helps with rise.",
+      "description": "Nana’s biscuits are mixed by hand, rolled into small balls and flattened with the palm. Keep the butter version’s fat cold and handle the dough gently.",
       "url": "https://jordansilton.com/mise/recipes/nanas-biscuits/",
       "recipeIngredient": [
         "2 cups Self-Rising Flour (sifted)",
         "1/4 cup Unsalted Butter, cold and cubed",
         "3/4 cup Buttermilk",
-        "Pinch of Baking Soda"
+        "Pinch of Baking Soda",
+        "Butter, for greasing the baking sheet",
+        "Self-rising flour, for dusting as needed",
+        "Buttermilk, extra only as needed"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 425°F. Lightly grease a baking sheet with a little butter."
+          "text": "Prepare: Preheat the oven to 425°F. Lightly grease a metal baking sheet with butter. If you plan to broil the tops, use a broiler-rated pan without parchment and follow your oven’s rack-clearance instructions."
         },
         {
           "@type": "HowToStep",
-          "text": "Cut the Fat: Place the sifted flour in a large bowl. Add the cold, cubed butter. Use your fingertips to rub the butter into the flour until it looks like coarse crumbs with some pea-sized bits remaining. (Speed is key to keep the butter cold)."
+          "text": "Cut the fat: Put the sifted self-rising flour in a large bowl. Rub in all the cold cubed butter with your fingertips until coarse crumbs and some pea-sized butter pieces remain."
         },
         {
           "@type": "HowToStep",
-          "text": "Hydrate: Add the buttermilk and the pinch of baking soda. Mix gently with your hand just until the dough comes together. If it's too dry, add a tablespoon more buttermilk; if too sticky, a dusting of flour."
+          "text": "Mix gently: Add the listed buttermilk and pinch of baking soda. Mix gently by hand just until the dough comes together. If dry flour remains, add extra buttermilk a little at a time; if too sticky to handle, use a light dusting of self-rising flour."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Roll the dough into 12 small balls. Place on the greased cookie sheet and flatten slightly with the palm of your hand. This flat shape ensures a crispy exterior and a tender middle."
+          "text": "Shape: Roll into similarly sized small balls and flatten slightly with your palm on the greased sheet. The original-size butter batch plans about 12; follow the listed scaled count without enlarging the biscuits or crowding the sheet."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 10-12 minutes. If the tops are not golden brown, switch to Broil for 1 minute, watching intensely to prevent burning."
+          "text": "Bake and serve: Bake for about 10–12 minutes until the centers have set. If baked through but still pale on top, broil briefly, watching continuously and removing the pan as soon as the color develops, about 1 minute. Broiling colors the top; it does not replace baking the middle. Let the biscuits stand briefly before serving."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT12M",
-      "totalTime": "PT22M",
-      "recipeYield": "12",
+      "recipeYield": "12 small biscuits (planning count)",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["Southern"],
-      "keywords": "Southern, sweet, savory, rich, comfort-food, bake, roast",
+      "keywords": "Southern, sweet, savory, rich, comfort-food, bake",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"]
     },
     {
@@ -25305,54 +25305,53 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Quadruple Chocolate Brownies",
-      "description": "Folding chunks of bittersweet, white, and milk chocolate into unsweetened chocolate batter, then drizzling melted versions on top before swirling creates varying textures in every square - some pockets stay fudgy, others develop crisp edges. A full pound of unsweetened chocolate as the base provides bitter depth that balances the sugar and eggs, preventing these dense, rich brownies from tasting overly sweet.",
+      "description": "Keep all five sticks of butter in the original batch. Unsweetened chocolate forms the batter, while bittersweet, white and milk chocolate each supply both pieces inside and a separate melted swirl on top.",
       "url": "https://jordansilton.com/mise/recipes/quadruple-chocolate-brownies/",
       "recipeIngredient": [
-        "1 lb (4 sticks) Unsalted Butter, softened",
-        "1 lb Unsweetened Chocolate, chopped",
-        "5 1/2 cups Granulated Sugar",
-        "16 large Eggs",
-        "2 tbsp Pure Vanilla Extract",
-        "1 1/2 tsp Sea Salt",
-        "3 3/4 cups All-Purpose Flour",
-        "1/2 lb Bittersweet Chocolate, chopped",
-        "1/2 lb White Chocolate, chopped",
-        "1/2 lb Milk Chocolate, chopped"
+        "1 1/4 lb (5 sticks) unsalted butter, softened",
+        "1 lb unsweetened chocolate, chopped",
+        "5 1/2 cups granulated sugar",
+        "16 large eggs",
+        "2 tbsp pure vanilla extract",
+        "1 1/2 tsp kosher salt",
+        "3 3/4 cups all-purpose flour",
+        "1/2 lb bittersweet chocolate, chopped into approximately 1/2-inch pieces",
+        "1/2 lb white chocolate, chopped into approximately 1/2-inch pieces",
+        "1/2 lb milk chocolate, chopped into approximately 1/2-inch pieces",
+        "additional butter, as needed for greasing"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Melt: Preheat oven to 300°F. In a large saucepan, melt the butter and unsweetened chocolate over low heat until glossy. Let cool for 10 minutes."
+          "text": "Prepare pans: Heat the oven to 300°F. For the original batch, line the bottoms of two 9×13-inch baking pans with parchment and lightly grease the pans with additional butter. Have a mixing bowl large enough for the complete batter."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: In a massive bowl, whisk sugar, eggs, vanilla, and salt until thick and pale. Stir in the melted chocolate."
+          "text": "Melt: Melt unsalted butter and unsweetened chocolate over low heat in a large saucepan, stirring frequently. Remove from heat and cool for about 10 minutes, until warm rather than hot before combining with eggs."
         },
         {
           "@type": "HowToStep",
-          "text": "Incorporate: Gradually fold in the flour until just combined. Fold in 5 oz each of the chopped bittersweet, white, and milk chocolates."
+          "text": "Mix eggs: Whisk granulated sugar, large eggs, pure vanilla extract, and kosher salt together until evenly combined. Whisk in all the warm melted chocolate mixture until smooth; stop once evenly combined."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Spread the batter into two greased 9x13-inch pans."
+          "text": "Fold: Fold in all-purpose flour, 5/8 of the bittersweet chocolate, 5/8 of the white chocolate, and 5/8 of the milk chocolate just until no dry flour remains and the chocolate pieces are dispersed. The three partial chocolate shares belong in the batter; keep their remaining shares separate for the swirl. Divide all the batter evenly among the prepared pans."
         },
         {
           "@type": "HowToStep",
-          "text": "The Swirl: Melt the remaining chopped chocolates in separate microwave-safe bowls. Drizzle the three chocolates over the batter and use a knife to create a marbled \"High Note\" pattern."
+          "text": "Swirl: Keep 3/8 of the bittersweet chocolate, 3/8 of the white chocolate, and 3/8 of the milk chocolate in three separate microwave-safe bowls. Melt each gently in short intervals, stirring between intervals and stopping once smooth. Divide each melted chocolate over all the pans, then draw a table knife through the batter to marble the tops."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 35-40 minutes until the tops are mirror-shiny and the edges are firm."
+          "text": "Bake: Bake for about 35–40 minutes for the original pans, rotating halfway through. Begin checking at 35 minutes: the tops should be shiny and the brownies set at the center, without liquid batter. A toothpick should show moist crumbs rather than a wet batter coating; avoid a chocolate pocket or check a second spot."
         },
         {
           "@type": "HowToStep",
-          "text": "The Finish: Cool completely in the pans before slicing into squares. This is mandatory for the structural integrity."
+          "text": "Cool: Set the pans on a wire rack and cool completely before cutting into the listed pieces. Do not use the oven clock as a cooling deadline."
         }
       ],
       "prepTime": "PT30M",
-      "cookTime": "PT35M",
-      "totalTime": "PT120M",
-      "recipeYield": "48 squares",
+      "recipeYield": "48 pieces",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, comfort-food, bake, no-cook",
@@ -25482,7 +25481,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Drop Biscuits",
-      "description": "Drop biscuits are a Southern staple for quick weeknight meals - they skip the rolling and cutting of traditional biscuits. Cold butter cubed into pea-sized pieces steams instantly when it hits a 400°F oven, creating flaky layers within the crumb.",
+      "description": "This rich drop-biscuit dough is scooped rather than rolled. Keep the butter cold, then stir the milk only until the dough holds together.",
       "url": "https://jordansilton.com/mise/recipes/quick-and-easy-drop-biscuits/",
       "recipeIngredient": [
         "1 1/2 cups All-Purpose Flour",
@@ -25490,45 +25489,46 @@
         "3/4 cup Whole Milk (chilled)",
         "2 tsp Baking Powder",
         "1 tsp Sea Salt",
-        "1/4 tsp Garlic Powder (Optional)"
+        "1/4 tsp Garlic Powder (Optional)",
+        "Butter, for greasing the sheet if not using parchment",
+        "Salted butter, for serving, optional",
+        "Honey, for serving, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Preheat oven to 400°F. Line a baking sheet with parchment paper."
+          "text": "Prepare: Preheat the oven to 400°F. Line a baking sheet with parchment, or grease it with the handling butter. Keep the measured dough butter cold."
         },
         {
           "@type": "HowToStep",
-          "text": "Dry Mix: In a large bowl, whisk together flour, baking powder, and salt."
+          "text": "Dry mix: Whisk all the flour, baking powder, sea salt and optional garlic powder in a bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "The Bind: Add the cold butter cubes. Use your fingers or a pastry blender to rub the butter into the flour until it resembles coarse meal with a few larger chunks (The Crunch Pockets)."
+          "text": "Cut in: Toss in the cold butter cubes, then quickly rub or cut them into the flour with your fingers or a pastry blender until coarse meal and a few pea-sized pieces remain. Alternatively, pulse the dry mixture and butter in a food processor 2–3 times to reach the same coarse state, then transfer to a bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Hydrate: Pour in the milk. Stir with a fork for exactly 15-20 seconds until a sticky, shaggy dough forms. Stop immediately."
+          "text": "Hydrate: Pour in all the milk and stir with a fork just until a slightly sticky, shaggy dough comes together. Stop when no dry pockets remain; the dough does not need kneading or an exact stirring duration."
         },
         {
           "@type": "HowToStep",
-          "text": "Drop: Using a large spoon or cookie scoop, drop walnut-sized mounds onto the pan. Do not smooth the tops - the \"nooks and crannies\" are essential for the final \"Snap.\""
+          "text": "Drop: Divide into similar mounds, leaving room between them. The original-size main batch plans 12 biscuits; follow the listed scaled count. For the separate smaller option, use a teaspoon or small scoop for about 20 walnut-sized mounds from the original batch. For the larger option, use a ¼ cup scoop for about 8 from the original batch. Scale those approximate counts with the amount of dough while keeping the chosen scoop size."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 15-18 minutes until the tops are golden brown and the bottoms are crispy."
+          "text": "Bake: Load only once the oven has reached 400°F. Bake until golden with baked centers, beginning checks around 15 minutes for small biscuits and around 20 minutes for the ¼ cup size. The 12-piece batch may fall between them; use the crumb and color rather than assuming a fixed duration. Bake further trays as needed while keeping waiting dough cold."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Serve warm with plenty of salted butter and honey."
+          "text": "Cool and serve: Let the biscuits cool slightly until they lift intact, then transfer to a rack. Serve warm or at room temperature, with the optional salted butter and honey if desired."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT15M",
-      "totalTime": "PT25M",
-      "recipeYield": "12 small biscuits",
-      "recipeCategory": "Main course",
+      "recipeYield": "12 biscuits (planning count)",
+      "recipeCategory": "Base",
       "recipeCuisine": ["Southern"],
-      "keywords": "Southern, spicy, sweet, rich, weeknight, quick-lunch, bake, steam, blend",
+      "keywords": "Southern, spicy, sweet, rich, weeknight, quick-lunch, bake",
       "citation": {
         "@type": "CreativeWork",
         "name": "Adapted from Seriouseats.com",
@@ -25590,55 +25590,67 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Lamb Ragù",
-      "description": "Lamb ragù is popular in Central and Southern Italy, especially in regions like Abruzzo, Molise, and Lazio where sheep farming is traditional. Unlike beef or pork ragù, lamb has a distinctive gamey richness that pairs beautifully with tomatoes and aromatic herbs like oregano and rosemary.",
+      "description": "This Italian-style lamb ragù builds a savory base with onion, garlic, tomato paste and anchovy before the meat and tomatoes simmer together. Keep the lamb’s rendered fat in the sauce and let the tomato paste deepen without burning.",
       "url": "https://jordansilton.com/mise/recipes/quick-lamb-ragu/",
       "recipeIngredient": [
-        "1 lb Ground Lamb",
-        "12 oz Dry Pasta (Penne or Shells)",
-        "1 medium Yellow Onion, finely chopped",
-        "4 cloves Garlic, minced",
-        "2 tbsp Tomato Paste",
-        "1 can (28 oz) Crushed Tomatoes",
-        "2 Anchovy Fillets for umami",
-        "2 tbsp Balsamic Vinegar",
-        "1/4 tsp Red Pepper Flakes",
-        "Fresh Oregano or Marjoram",
-        "Extra-Virgin Olive Oil"
+        "2 tbsp extra-virgin olive oil",
+        "1 medium yellow onion, finely chopped",
+        "4 garlic cloves, minced",
+        "1/4 tsp red pepper flakes",
+        "2 anchovy fillets",
+        "2 tbsp tomato paste",
+        "1 lb ground lamb",
+        "1 can (28 oz) crushed tomatoes",
+        "1/2 cup water",
+        "salt, to taste for the sauce",
+        "black pepper, to taste for the sauce",
+        "2 tbsp balsamic vinegar",
+        "fresh oregano or marjoram, for finishing, leaves picked",
+        "12 oz dry pasta, penne or shells",
+        "water, enough to boil the pasta in a suitable pot",
+        "Parmesan or Pecorino, for grating over the finished dish",
+        "extra-virgin olive oil, for drizzling at serving"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Base: In a large heavy pot, heat 2 tbsp oil. Sauté onion for 5-8 minutes until golden brown and softened. Add garlic and cook for 30-45 seconds until fragrant. Stir in the red pepper flakes and anchovies; cook for 2 minutes until the fish \"melts\" into the oil."
+          "text": "Onion Base: Heat extra-virgin olive oil and medium yellow onion in a large heavy pot over medium heat, coating the onion with the full measured oil. Cook the onion for 5–8 minutes until softened and golden. Choose enough pot capacity for stirring the full lamb and tomato load without spilling; a larger batch may need separate pots with the formula divided proportionally."
         },
         {
           "@type": "HowToStep",
-          "text": "The Bloom: Add the tomato paste. Sauté for 3 minutes until dark and fragrant."
+          "text": "Garlic: Add garlic cloves and cook for 30–45 seconds until fragrant."
         },
         {
           "@type": "HowToStep",
-          "text": "The Sear: Add the ground lamb. Increase heat to medium-high. Cook, stirring frequently, for 8 minutes until the meat is browned and starting to crisp."
+          "text": "Anchovy and Chile: Stir in red pepper flakes and anchovy fillets and cook for about 2 minutes until the anchovy breaks down into the oil. Keep the heat low enough that the garlic does not burn."
         },
         {
           "@type": "HowToStep",
-          "text": "Simmer: Pour in the crushed tomatoes and 1/2 cup water. Season with salt and pepper. Bring to a boil, then reduce heat and simmer for 25-30 minutes until the sauce is thick and meaty."
+          "text": "Tomato Paste: Stir in tomato paste and cook for about 3 minutes, stirring, until it darkens and smells roasted rather than scorched."
         },
         {
           "@type": "HowToStep",
-          "text": "Boil: While sauce simmers, cook pasta until very al dente."
+          "text": "Brown the Lamb: Add ground lamb. Increase the heat to medium-high and break it up while cooking, about 8 minutes for the original batch, until it browns and sizzles in its fat. Retain all the rendered fat."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Stir the balsamic vinegar and fresh herbs into the sauce. Toss with the hot pasta."
+          "text": "Simmer: Stir in crushed tomatoes, water, salt, and black pepper, scraping up the browned bits. Bring to a boil, reduce to a gentle simmer and cook 25–30 minutes, stirring as needed, until thick and meaty. Check that the ground lamb has reached at least 160°F; browned color alone is not the safety endpoint. Taste the fully cooked sauce before adjusting its seasoning."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Garnish with a \"High Note\" pat of Parmesan or Pecorino."
+          "text": "Cook the Pasta: While the sauce simmers, use dry pasta and water and follow the pasta package’s cooking instructions, stopping while it still has a firm center. Drain and keep it ready to finish in the sauce; the listed pasta amount is dry weight."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish: Stir balsamic vinegar and fresh oregano or marjoram into the sauce. Toss with all the hot pasta until it is coated and cooked to the firmness you want."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Serve: Finish with Parmesan or Pecorino and extra-virgin olive oil: grate the cheese over the portions and drizzle with the extra oil. This oil allowance is separate from the full measured oil already used for the onion base."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT35M",
-      "totalTime": "PT45M",
-      "recipeYield": "4",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Italian"],
       "keywords": "Italian, savory, acidic, umami, rich, herbaceous, comfort-food, weekend-project, entertaining, fry, saute, simmer, boil, braise",

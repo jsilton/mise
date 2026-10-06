@@ -1,5 +1,11 @@
 # Current campaign state — October 6, 2026
 
+393 recorded complete / 250 pending across 643 sources. 147 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve.md).
+
+## Previous verified checkpoint
+
+# Current campaign state — October 6, 2026
+
 147 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 381 recorded complete / 262 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [87e10cbd](https://github.com/jsilton/mise/commit/87e10cbd4a4eca57ca3a5edbfd853d73736f95cc), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37418831631) and all 12 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/cookies-poultry-twelve.md).
 
 ## Earlier acceptance checkpoint

@@ -66,8 +66,24 @@ test('blueberry pancakes preserve saved honey, exact berry allocation and rating
 });
 test('anadama retains its source formula, cooling-before-yeast and loaf geometry', () => {
   const { data, content } = read('anadama-bread');
-  assert.equal(data.ingredients.length, 8);
-  assert.match(content, /Let cool until lukewarm/);
-  assert.match(content, /9x5 pan/);
+  assert.deepEqual(data.ingredients.slice(0, 8), [
+    '1/2 cup Water',
+    '1/4 cup Yellow Cornmeal',
+    '2 tbsp Unsalted Butter',
+    '1/2 cup Molasses (The signature flavor)',
+    '1 pkg (.25 oz) Active Dry Yeast',
+    '1/2 cup Warm Water (110°F)',
+    '3 cups All-Purpose Flour',
+    '1 tsp Kosher Salt',
+  ]);
+  assert.equal(data.ingredients.filter((line) => /^\d/.test(line)).length, 8);
+  assert.deepEqual(data.ingredients.slice(8), [
+    '--- For handling ---',
+    'Oil, for coating the rising bowl',
+    'Butter, for greasing the loaf pan',
+    'All-purpose flour, for dusting',
+  ]);
+  assert.match(content, /Let the mixture cool until lukewarm/);
+  assert.match(content, /9 x 5-inch loaf pan/);
   assert.match(content, /375°F/);
 });

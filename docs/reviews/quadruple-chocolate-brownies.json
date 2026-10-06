@@ -1,0 +1,697 @@
+{
+  "slug": "quadruple-chocolate-brownies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "7984acda6b8027d889407192dc2698490ea098c80556b30116cd8dac566075c3",
+  "acceptedSourceSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "35 min",
+      "after": "35–40 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "120 min",
+      "after": "65–80 min plus cooling completely"
+    },
+    {
+      "field": "servings",
+      "before": "48 squares",
+      "after": "48 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb (4 sticks) Unsalted Butter, softened",
+        "1 lb Unsweetened Chocolate, chopped",
+        "5 1/2 cups Granulated Sugar",
+        "16 large Eggs",
+        "2 tbsp Pure Vanilla Extract",
+        "1 1/2 tsp Sea Salt",
+        "3 3/4 cups All-Purpose Flour",
+        "1/2 lb Bittersweet Chocolate, chopped",
+        "1/2 lb White Chocolate, chopped",
+        "1/2 lb Milk Chocolate, chopped"
+      ],
+      "after": [
+        "--- Brownies ---",
+        "1 1/4 lb (5 sticks) unsalted butter, softened",
+        "1 lb unsweetened chocolate, chopped",
+        "5 1/2 cups granulated sugar",
+        "16 large eggs",
+        "2 tbsp pure vanilla extract",
+        "1 1/2 tsp kosher salt",
+        "3 3/4 cups all-purpose flour",
+        "1/2 lb bittersweet chocolate, chopped into approximately 1/2-inch pieces",
+        "1/2 lb white chocolate, chopped into approximately 1/2-inch pieces",
+        "1/2 lb milk chocolate, chopped into approximately 1/2-inch pieces",
+        "additional butter, as needed for greasing"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 150,
+        "protein": 3,
+        "carbs": 30.5,
+        "fat": 2,
+        "fiber": 0.5,
+        "sugar": 23.5,
+        "sodium": 100
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 48,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "brownies",
+            "name": "Brownies",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "melt",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 5,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "softened"
+              },
+              {
+                "id": "unsweetened-chocolate",
+                "key": "unsweetened-chocolate",
+                "name": "unsweetened chocolate",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "melt",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "5 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "3 3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bittersweet-chocolate",
+                "key": "bittersweet-chocolate",
+                "name": "bittersweet chocolate",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": "5/8"
+                  },
+                  {
+                    "step": "swirl",
+                    "share": "3/8"
+                  }
+                ],
+                "preparation": "chopped into approximately 1/2-inch pieces"
+              },
+              {
+                "id": "white-chocolate",
+                "key": "white-chocolate",
+                "name": "white chocolate",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": "5/8"
+                  },
+                  {
+                    "step": "swirl",
+                    "share": "3/8"
+                  }
+                ],
+                "preparation": "chopped into approximately 1/2-inch pieces"
+              },
+              {
+                "id": "milk-chocolate",
+                "key": "milk-chocolate",
+                "name": "milk chocolate",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": "5/8"
+                  },
+                  {
+                    "step": "swirl",
+                    "share": "3/8"
+                  }
+                ],
+                "preparation": "chopped into approximately 1/2-inch pieces"
+              },
+              {
+                "id": "pan-butter",
+                "key": "pan-butter",
+                "name": "additional butter",
+                "allowance": "as needed for greasing",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare pans",
+            "text": "Heat the oven to 300°F. For the original batch, line the bottoms of two 9×13-inch baking pans with parchment and lightly grease the pans with {{ingredients}}. Have a mixing bowl large enough for the complete batter."
+          },
+          {
+            "id": "melt",
+            "title": "Melt",
+            "text": "Melt {{ingredients}} over low heat in a large saucepan, stirring frequently. Remove from heat and cool for about 10 minutes, until warm rather than hot before combining with eggs."
+          },
+          {
+            "id": "mix",
+            "title": "Mix eggs",
+            "text": "Whisk {{ingredients}} together until evenly combined. Whisk in all the warm melted chocolate mixture until smooth; stop once evenly combined."
+          },
+          {
+            "id": "fold",
+            "title": "Fold",
+            "text": "Fold in {{ingredients}} just until no dry flour remains and the chocolate pieces are dispersed. The three partial chocolate shares belong in the batter; keep their remaining shares separate for the swirl. Divide all the batter evenly among the prepared pans."
+          },
+          {
+            "id": "swirl",
+            "title": "Swirl",
+            "text": "Keep {{ingredients}} in three separate microwave-safe bowls. Melt each gently in short intervals, stirring between intervals and stopping once smooth. Divide each melted chocolate over all the pans, then draw a table knife through the batter to marble the tops."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake for about 35–40 minutes for the original pans, rotating halfway through. Begin checking at 35 minutes: the tops should be shiny and the brownies set at the center, without liquid batter. A toothpick should show moist crumbs rather than a wet batter coating; avoid a chocolate pocket or check a second spot."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Set the pans on a wire rack and cool completely before cutting into the listed pieces. Do not use the oven clock as a cooling deadline."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Divide three chocolates between the batter and separate swirls",
+        "outcome": "Rich brownies with intact chocolate pieces and marbled tops.",
+        "techniques": ["temperature"],
+        "before": [
+          "Each finishing chocolate uses five eighths in the batter and three eighths for its own swirl. For the original half-pound amount, those shares are 5 oz and 3 oz; follow the proportional shares at other scales.",
+          "The two 9×13-inch pans and original baking range apply to the original batch. Make multiples in separate original-size pans or batches; smaller quantities need an appropriate smaller pan, similar batter depth and earlier center checks. Pan dimensions and oven times do not multiply with ingredients."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The chopped chocolate shares are dispersed and no dry flour remains.",
+            "why": "The remaining three shares must stay out of the batter until they are melted separately."
+          },
+          {
+            "step": 6,
+            "cue": "Shiny tops and a set, fudgy center without liquid batter.",
+            "why": "Firm edges alone do not establish that the deep center is ready."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Swirl becomes a single blended color",
+            "cause": "Repeated knife passes mixed the melted chocolates together.",
+            "fix": "Use a few gentle passes and stop while the three colors are still visible."
+          }
+        ],
+        "timing": "Plan about 30 minutes preparation, a short warm-mixture cooling interval and 35–40 minutes baking for the original pans, plus complete cooling before cutting. Larger batches may require more oven rounds; cooling can extend the schedule beyond the oven time.",
+        "storage": "Keep completely cooled brownies covered. Cover after complete cooling; refrigerating gives a firmer texture.",
+        "sources": [
+          {
+            "title": "Quadruple chocolate brownies — saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/quadruple-chocolate-brownies.md"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFolding chunks of bittersweet, white, and milk chocolate into unsweetened chocolate batter, then drizzling melted versions on top before swirling creates varying textures in every square - some pockets stay fudgy, others develop crisp edges. A full pound of unsweetened chocolate as the base provides bitter depth that balances the sugar and eggs, preventing these dense, rich brownies from tasting overly sweet.\n\n## Directions\n\n1.  **The Melt:** Preheat oven to 300°F. In a large saucepan, melt the butter and unsweetened chocolate over low heat until glossy. Let cool for 10 minutes.\n2.  **The Emulsion:** In a massive bowl, whisk sugar, eggs, vanilla, and salt until thick and pale. Stir in the melted chocolate.\n3.  **Incorporate:** Gradually fold in the flour until **just combined**. Fold in 5 oz each of the chopped bittersweet, white, and milk chocolates.\n4.  **Assemble:** Spread the batter into two greased 9x13-inch pans.\n5.  **The Swirl:** Melt the remaining chopped chocolates in separate microwave-safe bowls. Drizzle the three chocolates over the batter and use a knife to create a marbled \"High Note\" pattern.\n6.  **Bake:** Bake for 35-40 minutes until the tops are mirror-shiny and the edges are firm.\n7.  **The Finish:** Cool **completely** in the pans before slicing into squares. This is mandatory for the structural integrity.\n",
+    "after": "\n## Chef's Note\n\nKeep all five sticks of butter in the original batch. Unsweetened chocolate forms the batter, while bittersweet, white and milk chocolate each supply both pieces inside and a separate melted swirl on top. Reserve those shares before folding; complete cooling gives the rich center time to firm for cutting.\n\n## Directions\n\n1. **Prepare pans:** Heat the oven to 300°F. For the original batch, line the bottoms of two 9×13-inch baking pans with parchment and lightly grease the pans with additional butter. Have a mixing bowl large enough for the complete batter.\n2. **Melt:** Melt unsalted butter and unsweetened chocolate over low heat in a large saucepan, stirring frequently. Remove from heat and cool for about 10 minutes, until warm rather than hot before combining with eggs.\n3. **Mix eggs:** Whisk granulated sugar, large eggs, pure vanilla extract, and kosher salt together until evenly combined. Whisk in all the warm melted chocolate mixture until smooth; stop once evenly combined.\n4. **Fold:** Fold in all-purpose flour, 5/8 of the bittersweet chocolate, 5/8 of the white chocolate, and 5/8 of the milk chocolate just until no dry flour remains and the chocolate pieces are dispersed. The three partial chocolate shares belong in the batter; keep their remaining shares separate for the swirl. Divide all the batter evenly among the prepared pans.\n5. **Swirl:** Keep 3/8 of the bittersweet chocolate, 3/8 of the white chocolate, and 3/8 of the milk chocolate in three separate microwave-safe bowls. Melt each gently in short intervals, stirring between intervals and stopping once smooth. Divide each melted chocolate over all the pans, then draw a table knife through the batter to marble the tops.\n6. **Bake:** Bake for about 35–40 minutes for the original pans, rotating halfway through. Begin checking at 35 minutes: the tops should be shiny and the brownies set at the center, without liquid batter. A toothpick should show moist crumbs rather than a wet batter coating; avoid a chocolate pocket or check a second spot.\n7. **Cool:** Set the pans on a wire rack and cool completely before cutting into the listed pieces. Do not use the oven clock as a cooling deadline.\n"
+  },
+  "findings": [
+    {
+      "id": "CH03",
+      "rationale": "23b28c81 bulk edit removed¼lb butter and replaced kosher salt with sea salt. Full later followed history contains no explicit accepted quantity decision. Restore exact bound native/045 richness and salt identity, preserving all chocolate totals with scalable5/8+3/8 allocations. Migrate whole formula and compile all views. Preserve current optional pan greasing as separate allowance, alongside original parchment.",
+      "confidence": "High exact source/history; moderate cues/planning",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/quadruple-chocolate-brownies.md",
+        "evidence/quadruple-chocolate-brownies-followed.diff",
+        "evidence/quadruple-chocolate-brownies-native.json"
+      ],
+      "sourceApplicability": "Exact saved evidence supports amounts, shares, pan and set-center requirement. Microwave intervals, warm-before-eggs, moist-crumb interpretation and pan scaling guidance are moderate culinary editorial applications, not primary publisher or kitchen certification. Nutrition removed because no verified calculation accompanies restored formula.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "CH-N",
+      "rationale": "Unverified legacy per-serving estimate has no ingredient-weight/yield evidence; do not carry it forward as verified nutrition after review/state or formula changes.",
+      "confidence": "High absence of verification",
+      "applicableSources": ["evidence/quadruple-chocolate-brownies-followed.diff"],
+      "sourceApplicability": "The estimate was introduced by automated nutrition work; neither publisher/native nor this editorial review supplies verified calculation or measured yield.",
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Nutrition may be recalculated separately from actual ingredient weights/product labels and chosen cutting yield."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Quadruple%20Chocolate%20Brownies.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.foodandwine.com/recipes/quadruple-chocolate-brownies",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 lb (4 sticks) Unsalted Butter, softened",
+        "frozenDestination": "step1 current butter/chocolate melt"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 lb Unsweetened Chocolate, chopped",
+        "frozenDestination": "step1 melt"
+      },
+      {
+        "index": 2,
+        "ingredient": "5 1/2 cups Granulated Sugar",
+        "frozenDestination": "step2 eggs mixture"
+      },
+      {
+        "index": 3,
+        "ingredient": "16 large Eggs",
+        "frozenDestination": "step2 eggs mixture"
+      },
+      {
+        "index": 4,
+        "ingredient": "2 tbsp Pure Vanilla Extract",
+        "frozenDestination": "step2 eggs mixture"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 1/2 tsp Sea Salt",
+        "frozenDestination": "step2 current sea salt"
+      },
+      {
+        "index": 6,
+        "ingredient": "3 3/4 cups All-Purpose Flour",
+        "frozenDestination": "step3 flour fold"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/2 lb Bittersweet Chocolate, chopped",
+        "frozenDestination": "step3 five oz; remainderstep5"
+      },
+      {
+        "index": 8,
+        "ingredient": "1/2 lb White Chocolate, chopped",
+        "frozenDestination": "step3 five oz; remainderstep5"
+      },
+      {
+        "index": 9,
+        "ingredient": "1/2 lb Milk Chocolate, chopped",
+        "frozenDestination": "step3 five oz; remainderstep5"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "brownies.butter",
+        "key": "butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "melt",
+            "share": 1
+          }
+        ],
+        "equivalents": [
+          {
+            "amount": 5,
+            "unit": "stick"
+          }
+        ],
+        "preparation": "softened",
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.unsweetened-chocolate",
+        "key": "unsweetened-chocolate",
+        "name": "unsweetened chocolate",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "melt",
+            "share": 1
+          }
+        ],
+        "preparation": "chopped",
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.sugar",
+        "key": "sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": "5 1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 16,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "plural": "large eggs",
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.vanilla",
+        "key": "vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.salt",
+        "key": "salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.flour",
+        "key": "flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "3 3/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": 1
+          }
+        ],
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.bittersweet-chocolate",
+        "key": "bittersweet-chocolate",
+        "name": "bittersweet chocolate",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": "5/8"
+          },
+          {
+            "step": "swirl",
+            "share": "3/8"
+          }
+        ],
+        "preparation": "chopped into approximately 1/2-inch pieces",
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.white-chocolate",
+        "key": "white-chocolate",
+        "name": "white chocolate",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": "5/8"
+          },
+          {
+            "step": "swirl",
+            "share": "3/8"
+          }
+        ],
+        "preparation": "chopped into approximately 1/2-inch pieces",
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.milk-chocolate",
+        "key": "milk-chocolate",
+        "name": "milk chocolate",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": "5/8"
+          },
+          {
+            "step": "swirl",
+            "share": "3/8"
+          }
+        ],
+        "preparation": "chopped into approximately 1/2-inch pieces",
+        "component": "Brownies"
+      },
+      {
+        "id": "brownies.pan-butter",
+        "key": "pan-butter",
+        "name": "additional butter",
+        "allowance": "as needed for greasing",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "component": "Brownies"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "scope": "Three finishing chocolates are all required and each has two destinations; this is not a choose-one shopping alternative."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": "Source five sticks/one-and-a-quarter pounds butter restored after an unsupported bulk reduction. Full sixteen eggs, five-and-a-half cups sugar and four chocolate supplies remain. Each of three finishing chocolates is allocated five-eighths into batter and three-eighths to separate swirls. Original two nine-by-thirteen pans; additional equivalent-depth pans and loads when scaled. Forty-eight is a piece plan; a two-inch dimension is not certified. Complete cooling remains additional to baking.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual pan material, filled depth and cooling time need kitchen checks. Source48-piece claim is retained without promising2-inch precision. Food & Wine fetch unavailable. Kosher brand/crystal density remains unspecified; no volume-to-weight conversion invented."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

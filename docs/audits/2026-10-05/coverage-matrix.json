@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 381,
-    "completeEditorialPending": 262,
+    "recordedCompleteEditorial": 393,
+    "completeEditorialPending": 250,
     "originalBaseline": 612,
-    "originalReviewed": 358,
+    "originalReviewed": 369,
     "consideredConsolidations": 10,
-    "originalPending": 244,
+    "originalPending": 233,
     "additionalSources": 41,
-    "additionalReviewed": 23,
-    "additionalPending": 18,
+    "additionalReviewed": 24,
+    "additionalPending": 17,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 381,
+      "editoriallyReviewed": 393,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 489
+      "reviewItems": 469
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "147 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 381 recorded complete / 262 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [87e10cbd](https://github.com/jsilton/mise/commit/87e10cbd4a4eca57ca3a5edbfd853d73736f95cc), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37418831631) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "147 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -201,18 +201,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/16245/anadama-bread/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "no change in bounded pass",
         "acceleratedEvidence": {
@@ -223,19 +212,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/anadama-bread.md",
+        "acceptedSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/anadama-bread.json",
+        "sourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1744,13 +1739,7 @@
       "baseline": "original canonical",
       "source": "Cambrea Gordon, Cambrea Bakes; earlier saved version",
       "sourceUrl": "https://cambreabakes.com/the-best-cinnamon-rolls/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1758,12 +1747,18 @@
         "evidence": ["docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md",
-        "recordImplementationCommit": "493885bb88fa96b1ab626b20a5c8ec78830f9145"
+        "acceptedSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.json",
+        "sourceSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -1772,11 +1767,11 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual warm-serving time and center doneness using the retained 3/4 cup tangzhong water and metal pan.",
+        "Confirm overnight and frozen final-rise times; no universal room-temperature proof duration or frosting shelf-life validation is claimed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1792,13 +1787,7 @@
       "baseline": "original canonical",
       "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1806,12 +1795,18 @@
         "evidence": ["docs/reviews/best-homemade-brownies.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/best-homemade-brownies.md",
-        "recordImplementationCommit": "493885bb88fa96b1ab626b20a5c8ec78830f9145"
+        "acceptedSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/best-homemade-brownies.json",
+        "sourceSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -1820,11 +1815,10 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual oven and pan material may change the first moist-crumb check; no kitchen testing."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3618,13 +3612,7 @@
       "baseline": "addition",
       "source": "butfirstwebrunch.com",
       "sourceUrl": "https://butfirstwebrunch.com/cast-iron-biscuits/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3632,19 +3620,26 @@
         "evidence": ["docs/reviews/cast-iron-buttermilk-biscuits.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/cast-iron-buttermilk-biscuits.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/cast-iron-buttermilk-biscuits.json",
+        "sourceSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4181,18 +4176,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Riki Shore",
       "sourceUrl": "https://food52.com/recipes/16997-chewy-chocolate-meringues",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4200,19 +4184,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chewy-chocolate-meringues.md",
+        "acceptedSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chewy-chocolate-meringues.json",
+        "sourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which pasteurized whites does the household use, and do they whip reliably? The specific heated foam is not temperature tested; pasteurization does not promise risk elimination. Food52 current page fetch unavailable."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14878,18 +14867,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -14897,19 +14875,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/katharine-hepburns-brownies.md",
+        "acceptedSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/katharine-hepburns-brownies.json",
+        "sourceSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Exact cooling time and pan material remain kitchen questions. NYT page fetch was unavailable; no claim of verification against today’s publisher formula."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16252,13 +16235,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16266,19 +16243,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/marinated-flank-steak-salad.md",
+        "acceptedSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/marinated-flank-steak-salad.json",
+        "sourceSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record the actual flank thickness, pan and oil behavior,145°F time and rested texture; compare with the former 130°F preference without treating that as the federal endpoint.",
+        "Confirm salad-head sizes and thr ee-portion yield, preferred salt crystal type and crispy-shallot amount; whole linked dinner timing remains pending."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16871,18 +16854,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Chabad.org",
       "sourceUrl": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16890,19 +16862,25 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
+        "acceptedSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/miriams-melt-in-your-mouth-rosh-hashanah-brisket.json",
+        "sourceSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
+        "Record pan/cut thickness, actual tenderness and reheat clocks, shallow cooling behavior, retained fat and final thin-slice/portion yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17631,18 +17609,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17650,19 +17617,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/nanas-biscuits.md",
+        "acceptedSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/nanas-biscuits.json",
+        "sourceSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20079,18 +20053,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/quadruple-chocolate-brownies",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20098,19 +20061,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/quadruple-chocolate-brownies.md",
+        "acceptedSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/quadruple-chocolate-brownies.json",
+        "sourceSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan material, filled depth and cooling time need kitchen checks. Source48-piece claim is retained without promising2-inch precision. Food & Wine fetch unavailable. Kosher brand/crystal density remains unspecified; no volume-to-weight conversion invented."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20212,18 +20180,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Seriouseats.com",
       "sourceUrl": "http://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20231,19 +20188,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/quick-and-easy-drop-biscuits.md",
+        "acceptedSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/quick-and-easy-drop-biscuits.json",
+        "sourceSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20301,18 +20265,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20320,19 +20273,25 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/quick-lamb-ragu.md",
+        "acceptedSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/quick-lamb-ragu.json",
+        "sourceSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which route is preferred: dry 12 oz/current balsamic/½cup water versus cooked 12 oz/no-balsamic/sourcehalf-can water? Confirm actual sauce-to-pasta balance without mixing the routes.",
+        "Record pot and package sizes, stage clocks, sauce reduction, full rendered fat, cheese/herb/drizzle amounts and finished portions."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

@@ -1,0 +1,930 @@
+{
+  "slug": "quick-and-easy-drop-biscuits",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "a128bbf5dfa98f50bb2b535069085aaf0bad18f58f40e3d18ec5678a0a5d0f94",
+  "acceptedSourceSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "steam", "blend"],
+      "after": ["bake"]
+    },
+    {
+      "field": "role",
+      "before": "main",
+      "after": "base"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15–20 min per tray, depending on size"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30–40 min, plus any remaining preheating or extra trays"
+    },
+    {
+      "field": "servings",
+      "before": "12 small biscuits",
+      "after": "12 biscuits (planning count)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/2 cups All-Purpose Flour",
+        "4 oz (1 stick) Unsalted Butter, cold and cubed",
+        "3/4 cup Whole Milk (chilled)",
+        "2 tsp Baking Powder",
+        "1 tsp Sea Salt",
+        "1/4 tsp Garlic Powder (Optional)"
+      ],
+      "after": [
+        "1 1/2 cups All-Purpose Flour",
+        "4 oz (1 stick) Unsalted Butter, cold and cubed",
+        "3/4 cup Whole Milk (chilled)",
+        "2 tsp Baking Powder",
+        "1 tsp Sea Salt",
+        "1/4 tsp Garlic Powder (Optional)",
+        "--- For handling and serving ---",
+        "Butter, for greasing the sheet if not using parchment",
+        "Salted butter, for serving, optional",
+        "Honey, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 95,
+        "protein": 3.5,
+        "carbs": 15,
+        "fat": 2,
+        "fiber": 0.5,
+        "sugar": 3,
+        "sodium": 300
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Mix a rich drop-biscuit dough to a cohesive state and keep portion sizes consistent.",
+        "outcome": "Rough-topped, golden biscuits with baked, tender centers.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The original batch contains 1½ cups flour, 4 oz/1 stick butter and ¾ cup milk; follow the scaled list, and keep the butter cold until cutting in. Optional garlic powder goes into the dry mixture.",
+          "Twelve pieces is the current planning division of one batch. Separate small/large options plan about 20 or 8 from the original batch; keep scoop size constant when scaling, add trays and judge count as approximate."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The butter remains in coarse crumbs and some pea-sized pieces.",
+            "why": "Both the hand and processor routes stop before the fat becomes a uniform paste."
+          },
+          {
+            "step": 4,
+            "cue": "All the milk is mixed in and the dough is shaggy with no dry pockets.",
+            "why": "This dough is brought together without kneading; a fixed 15–20-second instruction cannot cover every batch."
+          },
+          {
+            "step": 6,
+            "cue": "The top is golden and the center has set, without wet dough.",
+            "why": "Scoop size changes the time, so one bake clock cannot describe every size option."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dense, smooth biscuits",
+            "cause": "Butter was worked into a paste or the hydrated dough was mixed excessively.",
+            "fix": "Stop the next batch at coarse butter pieces and cohesive shaggy dough. Finished dense biscuits cannot be made airy by extra baking."
+          },
+          {
+            "problem": "Large mounds brown outside but stay doughy inside",
+            "cause": "The larger portions need more baking.",
+            "fix": "Continue baking, shielding top color if needed. Bake similarly sized portions together rather than mixing small and large on one timed tray."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Sea salt",
+            "alternative": "Same listed volume of kosher salt",
+            "effect": "A separate full-recipe option; crystal size changes salinity, so equal volumes are not a weight or flavor equivalence."
+          }
+        ],
+        "timing": "About 10 minutes active preparation plus roughly 15–20 minutes baking and a brief transfer/cooling rest support a 30–40-minute planning window for one load. Preheating overlaps preparation only as the oven allows; remaining heating and further trays add elapsed time. Small, twelve-piece and large portion routes have different bake checks.",
+        "storage": "Do not taste raw dough. Keep waiting milk-containing dough covered and refrigerated at 40°F /4°C or below. Cool plain baked biscuits completely before packing or freezing; thaw covered and rewarm before serving if desired. These instructions do not assign a tested shelf life to perishable toppings.",
+        "sources": [
+          {
+            "title": "Marissa Sertich Velie: drop biscuits",
+            "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe"
+          },
+          {
+            "title": "FDA: raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nDrop biscuits are a Southern staple for quick weeknight meals - they skip the rolling and cutting of traditional biscuits. Cold butter cubed into pea-sized pieces steams instantly when it hits a 400°F oven, creating flaky layers within the crumb. Stirring the milk just until the dough comes together prevents gluten development; over-mixing destroys the air pockets and produces dense, leaden biscuits instead of light, tender ones.\n\n## Directions\n\n1.  **Thermal Prep:** Preheat oven to 400°F. Line a baking sheet with parchment paper.\n2.  **Dry Mix:** In a large bowl, whisk together flour, baking powder, and salt.\n3.  **The Bind:** Add the cold butter cubes. Use your fingers or a pastry blender to rub the butter into the flour until it resembles coarse meal with a few larger chunks (The Crunch Pockets).\n4.  **Hydrate:** Pour in the milk. Stir with a fork for exactly 15-20 seconds until a sticky, shaggy dough forms. **Stop immediately.**\n5.  **Drop:** Using a large spoon or cookie scoop, drop walnut-sized mounds onto the pan. Do not smooth the tops - the \"nooks and crannies\" are essential for the final \"Snap.\"\n6.  **Bake:** Bake for 15-18 minutes until the tops are golden brown and the bottoms are crispy.\n7.  **Serve:** Serve warm with plenty of salted butter and honey.\n",
+    "after": "\n## Chef's Note\n\nThis rich drop-biscuit dough is scooped rather than rolled. Keep the butter cold, then stir the milk only until the dough holds together. Similar mound sizes and a fully heated oven are more useful than an exact stirring clock.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 400°F. Line a baking sheet with parchment, or grease it with the handling butter. Keep the measured dough butter cold.\n\n2. **Dry mix:** Whisk all the flour, baking powder, sea salt and optional garlic powder in a bowl.\n\n3. **Cut in:** Toss in the cold butter cubes, then quickly rub or cut them into the flour with your fingers or a pastry blender until coarse meal and a few pea-sized pieces remain. Alternatively, pulse the dry mixture and butter in a food processor 2–3 times to reach the same coarse state, then transfer to a bowl.\n\n4. **Hydrate:** Pour in all the milk and stir with a fork just until a slightly sticky, shaggy dough comes together. Stop when no dry pockets remain; the dough does not need kneading or an exact stirring duration.\n\n5. **Drop:** Divide into similar mounds, leaving room between them. The original-size main batch plans 12 biscuits; follow the listed scaled count. For the separate smaller option, use a teaspoon or small scoop for about 20 walnut-sized mounds from the original batch. For the larger option, use a ¼ cup scoop for about 8 from the original batch. Scale those approximate counts with the amount of dough while keeping the chosen scoop size.\n\n6. **Bake:** Load only once the oven has reached 400°F. Bake until golden with baked centers, beginning checks around 15 minutes for small biscuits and around 20 minutes for the ¼ cup size. The 12-piece batch may fall between them; use the crumb and color rather than assuming a fixed duration. Bake further trays as needed while keeping waiting dough cold.\n\n7. **Cool and serve:** Let the biscuits cool slightly until they lift intact, then transfer to a rack. Serve warm or at room temperature, with the optional salted butter and honey if desired.\n\n## Salt Variation\n\nReplace the listed sea salt with the same measured volume of kosher salt for the separate kosher-salt version; all other ingredients and steps remain unchanged. Different salt crystal sizes make equal spoon volumes differently salty, so this is a distinct flavor choice, not a universal weight equivalent.\n"
+  },
+  "findings": [
+    {
+      "id": "BR02-05-01",
+      "field": "cookingMethods",
+      "rationale": "Keep actual cooking techniques; hand mixing/steam within baking is not a separate steam or blender cooking route.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-02",
+      "field": "role",
+      "rationale": "A baked biscuit batch is a bread base rather than a complete main meal; ingredient quantities and pairing suggestions stay intact.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        }
+      ],
+      "exactBeforeAfterReferences": ["role"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-03",
+      "field": "cookTime",
+      "rationale": "Preserve all current measured amounts/richness, allocate optional garlic, and recover complete processor/salt/portion options distinctly. Use size-dependent bake cues, brief cooling and honest oven/load timing; hold the contradictory flour-weight equivalence rather than guess.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-04",
+      "field": "totalTime",
+      "rationale": "Preserve all current measured amounts/richness, allocate optional garlic, and recover complete processor/salt/portion options distinctly. Use size-dependent bake cues, brief cooling and honest oven/load timing; hold the contradictory flour-weight equivalence rather than guess.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-05",
+      "field": "servings",
+      "rationale": "Preserve all current measured amounts/richness, allocate optional garlic, and recover complete processor/salt/portion options distinctly. Use size-dependent bake cues, brief cooling and honest oven/load timing; hold the contradictory flour-weight equivalence rather than guess.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-06",
+      "field": "ingredients",
+      "rationale": "Preserve all current measured amounts/richness, allocate optional garlic, and recover complete processor/salt/portion options distinctly. Use size-dependent bake cues, brief cooling and honest oven/load timing; hold the contradictory flour-weight equivalence rather than guess.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-07",
+      "field": "origin",
+      "rationale": "Origin is later bulk country/domain metadata without direct geographical-birth evidence for this particular recipe; omit only origin, preserving style/credits.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-08",
+      "field": "nutrition",
+      "rationale": "Inherited nutrition is unverified; no replacement calculation or tested yield is fabricated.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-09",
+      "field": "learning",
+      "rationale": "Preserve all current measured amounts/richness, allocate optional garlic, and recover complete processor/salt/portion options distinctly. Use size-dependent bake cues, brief cooling and honest oven/load timing; hold the contradictory flour-weight equivalence rather than guess.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    },
+    {
+      "id": "BR02-05-10",
+      "field": "content",
+      "rationale": "Preserve all current measured amounts/richness, allocate optional garlic, and recover complete processor/salt/portion options distinctly. Use size-dependent bake cues, brief cooling and honest oven/load timing; hold the contradictory flour-weight equivalence rather than guess.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "6892c811c93f3f8fbf7601fab967df361ca05573a91fedd4570ad493e4b8bbbc",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6fdce80ec3b9dacd1d679722e4208372662e975c7878ad63b64090f30a4e18f9",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.seriouseats.com/quick-easy-drop-biscuits-recipe",
+          "applicability": "Primary corroborates ingredient volumes, optional processor and small/large scoop routes. Its6.6oz flour conflicts with exact old8oz, and neither is forced into the volume-only main."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+        "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+        "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Quick%20and%20Easy%20Drop%20Biscuits.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "23b28c81 bulk refinement changed native kosher salt to sea salt, native 20 small/8 large count to 12 small, dropped the processor/large option and flour 8 oz, and added optional garlic without a method destination. No later explicit household decision establishes intentional rejection of the separate source options. Preserve current main salt/count and optional garlic; recover source routes distinctly.",
+    "Native 1½ cups flour is labeled 8 oz; current Serious Eats card labels the same volume 6.6 oz/190 g. Do not claim both are equivalent or average them. Main volume is retained; exact old weight route stays unresolved pending a choice/test, not published as an equivalent.",
+    "Native 15 prep+30 cook card gives 45 min, but its actual small/large method says about 15/20 minutes. Current publisher card says 35 total with 10 cool; preface 25. Proposal uses a conditional 30–40-minute one-load planning window, not source-tested household elapsed time.",
+    "The current exact 15–20 second stirring and instant-steam/zero-gluten/destroyed-air-pocket claims are unsupported. Replace them with coarse-fat/cohesive-dough checkpoints.",
+    "Bulk origin/nutrition and rolemain/cookingMethodssteam/blend do not accurately describe this baked bread base. Remove unsupported origin/nutrition and classify bake/base, preserving Southern style and all existing pair suggestions."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 1/2 cups All-Purpose Flour",
+        "destination": "dry 2",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+        "destination": "cut in 3",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "3/4 cup Whole Milk (chilled)",
+        "destination": "hydrate 4",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "2 tsp Baking Powder",
+        "destination": "dry 2",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1 tsp Sea Salt",
+        "destination": "dry 2",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1/4 tsp Garlic Powder (Optional)",
+        "destination": "optional garlic has NO frozen destination",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 1/2 cups All-Purpose Flour",
+        "destination": "dry 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+        "destination": "cut in 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "3/4 cup Whole Milk (chilled)",
+        "destination": "hydrate 4",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "2 tsp Baking Powder",
+        "destination": "dry 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1 tsp Sea Salt",
+        "destination": "dry 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1/4 tsp Garlic Powder (Optional)",
+        "destination": "optional dry 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "--- For handling and serving ---",
+        "destination": "heading",
+        "allocation": "heading"
+      },
+      {
+        "ingredient": "Butter, for greasing the sheet if not using parchment",
+        "destination": "optional grease 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Salted butter, for serving, optional",
+        "destination": "optional serve 7",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Honey, for serving, optional",
+        "destination": "optional serve 7",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      }
+    ],
+    "exactSavedOriginal": [
+      {
+        "ingredient": "4 ounces (1 stick) cold unsalted butter, cut into 1/4-inch pieces and refrigerated",
+        "destination": "coarse hand/processor mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 1/2 cups all-purpose flour (8 ounces)",
+        "destination": "dry mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "2 teaspoons baking powder",
+        "destination": "dry mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 teaspoon kosher salt",
+        "destination": "dry mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "3/4 cup whole milk",
+        "destination": "whole listed amount into dough",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kosher salt route",
+        "replace": 4,
+        "replacement": "1 tsp Kosher salt",
+        "dest": "dry2",
+        "route": "All current other ingredients including optional garlic remain; same volume of kosher salt replaces sea salt, no claim of equal salinity.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "1 1/2 cups All-Purpose Flour",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+            "destination": "cut in 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3/4 cup Whole Milk (chilled)",
+            "destination": "hydrate 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "2 tsp Baking Powder",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tsp Kosher salt",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 tsp Garlic Powder (Optional)",
+            "destination": "optional dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling and serving ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Butter, for greasing the sheet if not using parchment",
+            "destination": "optional grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Salted butter, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Honey, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Replace only the listed salt; do not add both salts."
+      },
+      {
+        "name": "Small source portions",
+        "route": "Full current dough; about 20 small teaspoon/scoop walnut-sized mounds per original batch, step 5; begin checks around 15 min 6; cool 7.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "1 1/2 cups All-Purpose Flour",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+            "destination": "cut in 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3/4 cup Whole Milk (chilled)",
+            "destination": "hydrate 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "2 tsp Baking Powder",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tsp Sea Salt",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 tsp Garlic Powder (Optional)",
+            "destination": "optional dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling and serving ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Butter, for greasing the sheet if not using parchment",
+            "destination": "optional grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Salted butter, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Honey, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Choose one portion size per timed tray; do not buy a second dough."
+      },
+      {
+        "name": "Large source portions",
+        "route": "Full current dough; about 8 mounds made with a ¼ cup scoop per original batch, step 5; begin checks around 20 min in step 6; cool in step 7.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "1 1/2 cups All-Purpose Flour",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+            "destination": "cut in 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3/4 cup Whole Milk (chilled)",
+            "destination": "hydrate 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "2 tsp Baking Powder",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tsp Sea Salt",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 tsp Garlic Powder (Optional)",
+            "destination": "optional dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling and serving ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Butter, for greasing the sheet if not using parchment",
+            "destination": "optional grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Salted butter, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Honey, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Choose one portion size per timed tray; do not buy a second dough."
+      },
+      {
+        "name": "Processor mixing",
+        "route": "Full current dry ingredients and optional garlic 2; pulse butter/dry mixture 2–3 times to coarse pieces 3, transfer to bowl, stir all milk by fork 4; chosen portions 5/bake 6/cool 7.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "1 1/2 cups All-Purpose Flour",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+            "destination": "cut in 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3/4 cup Whole Milk (chilled)",
+            "destination": "hydrate 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "2 tsp Baking Powder",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tsp Sea Salt",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 tsp Garlic Powder (Optional)",
+            "destination": "optional dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling and serving ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Butter, for greasing the sheet if not using parchment",
+            "destination": "optional grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Salted butter, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Honey, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Same full batch, separate route rather than duplicate shopping amounts."
+      },
+      {
+        "name": "Greased sheet",
+        "route": "Full current dough and steps; use unmeasured handling butter instead of parchment 1.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "1 1/2 cups All-Purpose Flour",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+            "destination": "cut in 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3/4 cup Whole Milk (chilled)",
+            "destination": "hydrate 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "2 tsp Baking Powder",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tsp Sea Salt",
+            "destination": "dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 tsp Garlic Powder (Optional)",
+            "destination": "optional dry 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling and serving ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Butter, for greasing the sheet if not using parchment",
+            "destination": "optional grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Salted butter, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Honey, for serving, optional",
+            "destination": "optional serve 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Same full batch, separate route rather than duplicate shopping amounts."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "stage": "Prepare",
+      "method": "Preheat the oven to 400°F. Line a baking sheet with parchment, or grease it with the handling butter. Keep the measured dough butter cold.",
+      "ingredientDestinations": ["Butter, for greasing the sheet if not using parchment"]
+    },
+    {
+      "step": 2,
+      "stage": "Dry mix",
+      "method": "Whisk all the flour, baking powder, sea salt and optional garlic powder in a bowl.",
+      "ingredientDestinations": [
+        "1 1/2 cups All-Purpose Flour",
+        "2 tsp Baking Powder",
+        "1 tsp Sea Salt",
+        "1/4 tsp Garlic Powder (Optional)"
+      ]
+    },
+    {
+      "step": 3,
+      "stage": "Cut in",
+      "method": "Toss in the cold butter cubes, then quickly rub or cut them into the flour with your fingers or a pastry blender until coarse meal and a few pea-sized pieces remain. Alternatively, pulse the dry mixture and butter in a food processor 2–3 times to reach the same coarse state, then transfer to a bowl.",
+      "ingredientDestinations": ["4 oz (1 stick) Unsalted Butter, cold and cubed"]
+    },
+    {
+      "step": 4,
+      "stage": "Hydrate",
+      "method": "Pour in all the milk and stir with a fork just until a slightly sticky, shaggy dough comes together. Stop when no dry pockets remain; the dough does not need kneading or an exact stirring duration.",
+      "ingredientDestinations": ["3/4 cup Whole Milk (chilled)"]
+    },
+    {
+      "step": 5,
+      "stage": "Drop",
+      "method": "Divide into similar mounds, leaving room between them. The original-size main batch plans 12 biscuits; follow the listed scaled count. For the separate smaller option, use a teaspoon or small scoop for about 20 walnut-sized mounds from the original batch. For the larger option, use a ¼ cup scoop for about 8 from the original batch. Scale those approximate counts with the amount of dough while keeping the chosen scoop size.",
+      "ingredientDestinations": []
+    },
+    {
+      "step": 6,
+      "stage": "Bake",
+      "method": "Load only once the oven has reached 400°F. Bake until golden with baked centers, beginning checks around 15 minutes for small biscuits and around 20 minutes for the ¼ cup size. The 12-piece batch may fall between them; use the crumb and color rather than assuming a fixed duration. Bake further trays as needed while keeping waiting dough cold.",
+      "ingredientDestinations": []
+    },
+    {
+      "step": 7,
+      "stage": "Cool and serve",
+      "method": "Let the biscuits cool slightly until they lift intact, then transfer to a rack. Serve warm or at room temperature, with the optional salted butter and honey if desired.",
+      "ingredientDestinations": [
+        "Salted butter, for serving, optional",
+        "Honey, for serving, optional"
+      ]
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["cornbread", "corn-casserole"],
+    "incomingMeals": [],
+    "scope": "No composed meal names these canonical slugs. Existing recipe pair suggestions remain; they do not certify another recipe or a coordinated meal."
+  },
+  "ratiosYieldAndCapacity": "All current dough quantities remain 1½ cups flour,4 oz/1 stick butter,¾ cup milk,2 tsp powder,1 tsp sea salt and optional ¼ tsp garlic. Source kosher option retains 1 tsp as a distinct ingredient route. No generic gram conversion or salt reduction. Current 12 is a planning division; exact native 20 small/8 large are separate approximate scoop options. One tray’s capacity is not specified; use room between like-sized portions and more loads.",
+  "preservedPriorRepairs": [
+    "No earlier accepted safety or quantity repair removed; all complete followed history inspected."
+  ],
+  "remainingQuestions": [
+    "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
+    "Measure actual count and bake time for current 12, source 20 small and source 8 large divisions on the household sheet.",
+    "Compare current sea-salt and separate kosher-salt routes; no explicit preference or crystal density is established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

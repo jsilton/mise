@@ -23,3 +23,21 @@ The saved source and current publisher agree on the relevant method. Arithmetic 
 ## Integrated serving control
 
 This recipe uses a fixed-batch serving control. Written for one 8-inch square pan. Make separate batches rather than changing batter depth in the same pan. The shared serving control changes ingredient amounts but intentionally does not rewrite method allocations, shape dimensions, or oven batches. Fixed metadata prevents a scaled ingredient list from conflicting with the explicitly written batch.
+
+---
+
+# Brownies — complete editorial review
+
+Accepted after complete author review, independent challenge and root inspection of the complete diff. Implementation and production verification pending; no kitchen tests or native-app import.
+
+[Exact before/after fields, ingredient and variant ledgers, evidence, confidence and remaining questions](best-homemade-brownies.json). [Combined review and source applicability](../editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md).
+
+Accepted source SHA-256: 4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422.
+
+## Independently checked release metadata
+
+Preserve the same 175-minute plan and all explicit two-hour cooling prose. The parser adds the parenthetical two hours a second time, falsely reading 295 minutes. Store the single elapsed number and keep cooling context in the unchanged introduction, method and learning record. The retained formula requires complete cooling before cutting and supports covered make-ahead storage. This is not a newly required refrigerator chill. Complete the recipe-specific required internal learning record after whole author/peer/root review. Cues, cooling, fixed-pan behavior and complete source variants are grounded in the unchanged actual cooking method and primary publisher/FDA evidence. No kitchen testing claim or public review panel is added. Full cooking prose and ingredient quantities are unchanged; no kitchen test.
+
+## Local integrated validation
+
+All 252 tests, 75 authored formula checks, 643-recipe validation, 12 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved. All three exports match 643 sources; private bindings, public privacy and 12,151 built anchors pass. The other 631 recipe sources/export schemas and unrelated review credit remain unchanged. 3 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 12 complete rendered pages and 87 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](../editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-preservation.json).

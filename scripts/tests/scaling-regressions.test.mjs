@@ -261,6 +261,23 @@ for (const row of confirmed) {
           );
           if (factor === 1) assert.equal(scaled, formatFormulaIngredient(ingredient));
         }
+      } else if (row.slug === 'chewy-chocolate-meringues' && row.caseId === 7) {
+        // Retain the original parser input and all numeric oracles below.
+        // The current recipe measures pasteurized whites by volume without
+        // claiming an undocumented equivalent count of whole eggs.
+        const liveIngredient = '1 cup Pasteurized Egg Whites, suitable for whipping';
+        assert.ok(data.ingredients.includes(liveIngredient));
+        assert.ok(data.ingredients.includes('2 cups Granulated Sugar'));
+        assert.ok(data.ingredients.includes('1 cup Dark Chocolate Chips'));
+        for (const factor of factors) {
+          const scaled = scaleIngredient(liveIngredient, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [factor]
+          );
+          assert.match(scaled, /Pasteurized Egg Whites, suitable for whipping/);
+          if (factor === 1) assert.equal(scaled, liveIngredient);
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

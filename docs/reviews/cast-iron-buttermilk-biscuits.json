@@ -1,0 +1,673 @@
+{
+  "slug": "cast-iron-buttermilk-biscuits",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "bfe7f2fe5b934d867a01c587bd54535edbba6c469fd2a0258555b2ffab299ad2",
+  "acceptedSourceSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "50 min, including ten minutes cooling",
+      "after": "About 50 min; remaining preheating or optional chilling adds time"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups (240 g) all-purpose flour",
+        "1 tablespoon (12 g) baking powder",
+        "1 teaspoon (6 g) kosher salt",
+        "8 tablespoons (113 g) unsalted butter cold and cubed",
+        "1 cup (240 g) buttermilk plus more for brushing (optional)",
+        "All-purpose flour, for dusting",
+        "Butter, for greasing the skillet",
+        "Melted butter, for finishing, optional"
+      ],
+      "after": [
+        "2 cups (240 g) all-purpose flour",
+        "1 tablespoon (12 g) baking powder",
+        "1 teaspoon (6 g) kosher salt",
+        "8 tablespoons (113 g) unsalted butter cold and cubed",
+        "1 cup (240 g) buttermilk plus more for brushing (optional)",
+        "All-purpose flour, for dusting",
+        "Butter, for greasing the skillet",
+        "Butter, melted or left in a stick for finishing, optional",
+        "--- Optional egg wash instead of buttermilk brushing ---",
+        "1 egg, beaten (optional)",
+        "Water, a splash for the optional egg wash"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "butfirstwebrunch.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Leave cold butter pieces intact while folding and cutting a buttermilk biscuit dough.",
+        "outcome": "Golden biscuits with visible layers and a set, tender center.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Keep the measured dough butter cold; optional finishing butter is a separate allowance. Have flour for the surface and butter for greasing ready before mixing.",
+          "The original batch plans nine biscuits; a 2-inch cutter gives roughly 8–10 depending on thickness and scraps. Choose a skillet that fits them close together without crushing them. More dough needs more pan capacity or loads."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Pea-sized pieces of butter remain and no dry flour pockets remain after the milk is stirred in.",
+            "why": "The fat stays distinct while the dough is brought together without prolonged mixing."
+          },
+          {
+            "step": 3,
+            "cue": "Two folds are complete, the dough is about 1 inch thick and the cutter goes straight down.",
+            "why": "Thickness and a clean edge matter more than forcing an exact biscuit count."
+          },
+          {
+            "step": 5,
+            "cue": "The central biscuit’s crumb has set before the ten-minute rest.",
+            "why": "Top color alone cannot show whether tightly packed centers have finished baking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter smears and the dough becomes very soft",
+            "cause": "Handling or a warm kitchen has warmed the butter.",
+            "fix": "Chill the cut biscuits while the oven heats, then bake in the fully heated oven; do not compensate by kneading in a large amount of flour."
+          },
+          {
+            "problem": "Brown tops but a doughy middle",
+            "cause": "The packed pan’s center needs more heat.",
+            "fix": "Continue baking and judge the central crumb. Shield tops with foil if color develops too quickly."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Extra buttermilk for brushing",
+            "alternative": "Optional listed egg beaten with a splash of water",
+            "effect": "Use one wash, not both; egg wash gives a shinier top. It is separate from the measured buttermilk mixed into the dough."
+          }
+        ],
+        "timing": "About 20 minutes preparation plus 18 minutes baking and 10 minutes resting is roughly 50 minutes. Start heating the oven before mixing; heating beyond actual preparation and any optional chilling or additional loads extends the elapsed time. The freezer/fridge option has no guaranteed duration.",
+        "storage": "Do not taste raw dough or egg wash. Keep unbaked biscuits cold while waiting. Cool plain baked biscuits before packing airtight; they are best within 1–2 days for texture, or freeze for longer keeping. Rewarm in a 300°F oven until warm. These quality suggestions apply to plain biscuits; perishable fillings need their own refrigeration.",
+        "sources": [
+          {
+            "title": "Cynthia Christensen: cast-iron biscuits",
+            "url": "https://butfirstwebrunch.com/cast-iron-biscuits/"
+          },
+          {
+            "title": "FDA: raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nKeep the butter cold and leave pea-sized pieces in the flour. Two gentle folds create layers; press the cutter straight down rather than twisting and sealing the edges.\n\n## Directions\n\n1. **Prepare:** Heat oven to 450°F. Grease a cast-iron skillet large enough for nine biscuits. Whisk flour, baking powder and salt together.\n\n2. **Prepare:** Cut the cold butter into the flour until the mixture has coarse crumbs and pea-sized butter pieces. Stir in buttermilk just until the dough comes together.\n\n3. **Continue:** On a lightly floured surface, pat into a rectangle about one inch thick. Fold over twice, then pat back to one inch thick. Cut straight down with a floured biscuit cutter; do not twist.\n\n4. **Continue:** Arrange biscuits close together in the skillet. If the oven is still heating, refrigerate the biscuits to keep butter cold. Brush tops with a little buttermilk if desired.\n\n5. **Cook:** Bake on a lower rack about 15 minutes, then move higher for about 3 minutes if tops need more color. Check that centers are baked through. Brush with optional melted butter. Cool ten minutes before serving.\n",
+    "after": "\n## Chef's Note\n\nKeep the butter cold and leave pea-sized pieces in the flour. Two gentle folds create layers; press the cutter straight down and keep the biscuits close together in the pan. Check the middle biscuit as well as the tops before the ten-minute rest.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 450°F. Grease a cast-iron skillet large enough to hold the biscuits close together without crushing them. Whisk all the flour, baking powder and salt in a large bowl.\n\n2. **Cut in and mix:** Work the cold butter into the dry mixture until coarse crumbs and pea-sized butter pieces remain. Stir in the measured buttermilk just until the dough comes together.\n\n3. **Fold and cut:** Turn onto a lightly floured surface. Pat into a rectangle about 1 inch thick, fold over twice, then pat back to about 1 inch thick. Cut with a floured biscuit cutter, pressing straight down without twisting. Gently gather scraps for the remaining biscuits. A 2-inch cutter is a useful size for this batch; the count depends on thickness and scraps.\n\n4. **Keep cold and brush:** Arrange close together in the skillet. If the oven is still heating or the butter has softened, refrigerate the biscuits; a brief freezer chill is another option. Load only after the oven reaches 450°F. Brush with extra buttermilk if desired, or use the optional beaten egg mixed with a splash of water instead; discard leftover raw egg wash.\n\n5. **Bake and rest:** Bake on a lower rack for about 15 minutes, then move higher for about 3 minutes if the tops need color. They should be golden and the middle biscuit should have a set crumb rather than wet dough; continue baking if needed. Brush with the optional melted finishing butter, or rub the finishing butter stick over the warm tops, then rest in the skillet for 10 minutes before serving.\n\n## Cooking Notes\n\nFor the original batch, a 2-inch cutter commonly gives about 8–10 biscuits; nine is a planning count. For more dough, use additional suitable skillets or bake in loads while keeping unbaked biscuits cold. Keep thickness and cutter size unchanged; oven temperature and bake time do not multiply.\n"
+  },
+  "findings": [
+    {
+      "id": "BR02-03-01",
+      "field": "totalTime",
+      "rationale": "Preserve every main source amount/equivalent and restore the complete optional egg wash/freezer choice. Replace generic step labels with specific flow, cutter/center checks and honest preheat/chill capacity.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "526fd23ffad5c0f8c11d73e00b2457a3a90ea690229240e296543101ad4cf6b7",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "1dd1b21dc5f4b8b0c1f7a133c7f1d8dbaa22c7ab03f351ef89635f68bce82eae",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://butfirstwebrunch.com/cast-iron-biscuits/",
+          "applicability": "Primary corroborates supplied quantities/equivalents,2-inch cutter, approximate8–10 count, alternative egg wash and cold handling; no skillet diameter established."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
+      ]
+    },
+    {
+      "id": "BR02-03-02",
+      "field": "ingredients",
+      "rationale": "Preserve every main source amount/equivalent and restore the complete optional egg wash/freezer choice. Replace generic step labels with specific flow, cutter/center checks and honest preheat/chill capacity.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "526fd23ffad5c0f8c11d73e00b2457a3a90ea690229240e296543101ad4cf6b7",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "1dd1b21dc5f4b8b0c1f7a133c7f1d8dbaa22c7ab03f351ef89635f68bce82eae",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://butfirstwebrunch.com/cast-iron-biscuits/",
+          "applicability": "Primary corroborates supplied quantities/equivalents,2-inch cutter, approximate8–10 count, alternative egg wash and cold handling; no skillet diameter established."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
+      ]
+    },
+    {
+      "id": "BR02-03-03",
+      "field": "origin",
+      "rationale": "Origin is later bulk country/domain metadata without direct geographical-birth evidence for this particular recipe; omit only origin, preserving style/credits.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "1dd1b21dc5f4b8b0c1f7a133c7f1d8dbaa22c7ab03f351ef89635f68bce82eae",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
+      ]
+    },
+    {
+      "id": "BR02-03-04",
+      "field": "learning",
+      "rationale": "Preserve every main source amount/equivalent and restore the complete optional egg wash/freezer choice. Replace generic step labels with specific flow, cutter/center checks and honest preheat/chill capacity.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "526fd23ffad5c0f8c11d73e00b2457a3a90ea690229240e296543101ad4cf6b7",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "1dd1b21dc5f4b8b0c1f7a133c7f1d8dbaa22c7ab03f351ef89635f68bce82eae",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://butfirstwebrunch.com/cast-iron-biscuits/",
+          "applicability": "Primary corroborates supplied quantities/equivalents,2-inch cutter, approximate8–10 count, alternative egg wash and cold handling; no skillet diameter established."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
+      ]
+    },
+    {
+      "id": "BR02-03-05",
+      "field": "content",
+      "rationale": "Preserve every main source amount/equivalent and restore the complete optional egg wash/freezer choice. Replace generic step labels with specific flow, cutter/center checks and honest preheat/chill capacity.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "526fd23ffad5c0f8c11d73e00b2457a3a90ea690229240e296543101ad4cf6b7",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "1dd1b21dc5f4b8b0c1f7a133c7f1d8dbaa22c7ab03f351ef89635f68bce82eae",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://butfirstwebrunch.com/cast-iron-biscuits/",
+          "applicability": "Primary corroborates supplied quantities/equivalents,2-inch cutter, approximate8–10 count, alternative egg wash and cold handling; no skillet diameter established."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+        "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+        "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/cast-iron-buttermilk-biscuits.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently read; exact native original is only established when bound.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://butfirstwebrunch.com/cast-iron-biscuits/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "The exact bound Aug 2026 native and current publisher include optional 1 egg plus splash water wash and brief freezer/fridge chill. Narrow 9fa import retained buttermilk brushing and fridge only without establishing deliberate rejection; restore the alternatives distinctly.",
+    "Source equivalents 1 tsp kosher salt/6 g are preserved despite product-density dependence. No equally sized fine-salt spoon is substituted and no new grams inferred.",
+    "Native cutter diameter is unspecified; current attributed publisher supplies 2 inch and about 8–10 counts. Keep current 9-count planning with source-specific geometry, not a guarantee or invented skillet size.",
+    "Later origin is a publisher domain, not geographic evidence. Remove only origin; preserve source and American style. Same source URL/credit stays exact."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 cups (240 g) all-purpose flour",
+        "destination": "dry mix 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1 tablespoon (12 g) baking powder",
+        "destination": "dry mix 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1 teaspoon (6 g) kosher salt",
+        "destination": "dry mix 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "8 tablespoons (113 g) unsalted butter cold and cubed",
+        "destination": "cut in 2",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1 cup (240 g) buttermilk plus more for brushing (optional)",
+        "destination": "dough 2 plus optional additional brushing 4",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "All-purpose flour, for dusting",
+        "destination": "dust 3",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "Butter, for greasing the skillet",
+        "destination": "grease 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "Melted butter, for finishing, optional",
+        "destination": "optional finish 5",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 cups (240 g) all-purpose flour",
+        "destination": "dry mix 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1 tablespoon (12 g) baking powder",
+        "destination": "dry mix 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1 teaspoon (6 g) kosher salt",
+        "destination": "dry mix 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "8 tablespoons (113 g) unsalted butter cold and cubed",
+        "destination": "cut in 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1 cup (240 g) buttermilk plus more for brushing (optional)",
+        "destination": "dough 2 plus optional additional brushing 4",
+        "allocation": "whole measured cup into dough; additional brushing independent unmeasured optional allowance"
+      },
+      {
+        "ingredient": "All-purpose flour, for dusting",
+        "destination": "dust 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Butter, for greasing the skillet",
+        "destination": "grease 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Butter, melted or left in a stick for finishing, optional",
+        "destination": "Optional finishing butter: melted brushing or butter-stick rubbing over warm tops in step 5; independent of all measured dough butter.",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "--- Optional egg wash instead of buttermilk brushing ---",
+        "destination": "heading",
+        "allocation": "heading"
+      },
+      {
+        "ingredient": "1 egg, beaten (optional)",
+        "destination": "optional alternative wash 4; leftover discarded",
+        "allocation": "optional wash supply, separate from dough; remaining wash discarded"
+      },
+      {
+        "ingredient": "Water, a splash for the optional egg wash",
+        "destination": "optional wash 4",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      }
+    ],
+    "exactSavedOriginal": [
+      {
+        "ingredient": "2 cups (240 g) all-purpose flour",
+        "destination": "dry mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 tablespoon (12 g) baking powder",
+        "destination": "dry mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 teaspoon (6 g) kosher salt",
+        "destination": "dry mixture",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "8 tablespoons (113 g) unsalted butter cold and cubed",
+        "destination": "cut into flour",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 cup (240 g) buttermilk plus more for brushing (optional)",
+        "destination": "full measured amount into dough; optional additional brushing separate",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Buttermilk brushing",
+        "route": "Full main ingredients and steps; use additional buttermilk at 4, omit the optional egg and wash water.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "2 cups (240 g) all-purpose flour",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tablespoon (12 g) baking powder",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 teaspoon (6 g) kosher salt",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "8 tablespoons (113 g) unsalted butter cold and cubed",
+            "destination": "cut in 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 cup (240 g) buttermilk plus more for brushing (optional)",
+            "destination": "dough 2 plus optional additional brushing 4",
+            "allocation": "whole measured cup into dough; additional brushing independent unmeasured optional allowance"
+          },
+          {
+            "ingredient": "All-purpose flour, for dusting",
+            "destination": "dust 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, for greasing the skillet",
+            "destination": "grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, melted or left in a stick for finishing, optional",
+            "destination": "optional finish 5",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- Optional egg wash instead of buttermilk brushing ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "1 egg, beaten (optional)",
+            "destination": "optional alternative wash 4; leftover discarded",
+            "allocation": "optional wash supply, separate from dough; remaining wash discarded"
+          },
+          {
+            "ingredient": "Water, a splash for the optional egg wash",
+            "destination": "optional wash 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Omit egg/water wash; measured dough milk stays."
+      },
+      {
+        "name": "Egg-wash alternative",
+        "route": "Full main ingredients and steps; substitute listed beaten egg plus splashwater at 4 for extra buttermilk brushing; discard leftover wash.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "2 cups (240 g) all-purpose flour",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tablespoon (12 g) baking powder",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 teaspoon (6 g) kosher salt",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "8 tablespoons (113 g) unsalted butter cold and cubed",
+            "destination": "cut in 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 cup (240 g) buttermilk plus more for brushing (optional)",
+            "destination": "dough 2 plus optional additional brushing 4",
+            "allocation": "whole measured cup into dough; additional brushing independent unmeasured optional allowance"
+          },
+          {
+            "ingredient": "All-purpose flour, for dusting",
+            "destination": "dust 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, for greasing the skillet",
+            "destination": "grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, melted or left in a stick for finishing, optional",
+            "destination": "optional finish 5",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- Optional egg wash instead of buttermilk brushing ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "1 egg, beaten (optional)",
+            "destination": "optional alternative wash 4; leftover discarded",
+            "allocation": "optional wash supply, separate from dough; remaining wash discarded"
+          },
+          {
+            "ingredient": "Water, a splash for the optional egg wash",
+            "destination": "optional wash 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Optional egg/water instead of extra buttermilk brushing; measured dough buttermilk stays."
+      },
+      {
+        "name": "Brief freezer chill",
+        "route": "Full main ingredients and steps; use freezer rather than refrigerator briefly in 4 to keep butter cold; no fixed minutes asserted.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "2 cups (240 g) all-purpose flour",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 tablespoon (12 g) baking powder",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 teaspoon (6 g) kosher salt",
+            "destination": "dry mix 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "8 tablespoons (113 g) unsalted butter cold and cubed",
+            "destination": "cut in 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 cup (240 g) buttermilk plus more for brushing (optional)",
+            "destination": "dough 2 plus optional additional brushing 4",
+            "allocation": "whole measured cup into dough; additional brushing independent unmeasured optional allowance"
+          },
+          {
+            "ingredient": "All-purpose flour, for dusting",
+            "destination": "dust 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, for greasing the skillet",
+            "destination": "grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, melted or left in a stick for finishing, optional",
+            "destination": "optional finish 5",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- Optional egg wash instead of buttermilk brushing ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "1 egg, beaten (optional)",
+            "destination": "optional alternative wash 4; leftover discarded",
+            "allocation": "optional wash supply, separate from dough; remaining wash discarded"
+          },
+          {
+            "ingredient": "Water, a splash for the optional egg wash",
+            "destination": "optional wash 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Same full batch, separate route rather than duplicate shopping amounts."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "stage": "Prepare",
+      "method": "Preheat the oven to 450°F. Grease a cast-iron skillet large enough to hold the biscuits close together without crushing them. Whisk all the flour, baking powder and salt in a large bowl.",
+      "ingredientDestinations": [
+        "2 cups (240 g) all-purpose flour",
+        "1 tablespoon (12 g) baking powder",
+        "1 teaspoon (6 g) kosher salt",
+        "Butter, for greasing the skillet"
+      ]
+    },
+    {
+      "step": 2,
+      "stage": "Cut in and mix",
+      "method": "Work the cold butter into the dry mixture until coarse crumbs and pea-sized butter pieces remain. Stir in the measured buttermilk just until the dough comes together.",
+      "ingredientDestinations": [
+        "8 tablespoons (113 g) unsalted butter cold and cubed",
+        "1 cup (240 g) buttermilk plus more for brushing (optional)"
+      ]
+    },
+    {
+      "step": 3,
+      "stage": "Fold and cut",
+      "method": "Turn onto a lightly floured surface. Pat into a rectangle about 1 inch thick, fold over twice, then pat back to about 1 inch thick. Cut with a floured biscuit cutter, pressing straight down without twisting. Gently gather scraps for the remaining biscuits. A 2-inch cutter is a useful size for this batch; the count depends on thickness and scraps.",
+      "ingredientDestinations": ["All-purpose flour, for dusting"]
+    },
+    {
+      "step": 4,
+      "stage": "Keep cold and brush",
+      "method": "Arrange close together in the skillet. If the oven is still heating or the butter has softened, refrigerate the biscuits; a brief freezer chill is another option. Load only after the oven reaches 450°F. Brush with extra buttermilk if desired, or use the optional beaten egg mixed with a splash of water instead; discard leftover raw egg wash.",
+      "ingredientDestinations": [
+        "1 cup (240 g) buttermilk plus more for brushing (optional)",
+        "1 egg, beaten (optional)",
+        "Water, a splash for the optional egg wash"
+      ]
+    },
+    {
+      "step": 5,
+      "stage": "Bake and rest",
+      "method": "Bake on a lower rack for about 15 minutes, then move higher for about 3 minutes if the tops need color. They should be golden and the middle biscuit should have a set crumb rather than wet dough; continue baking if needed. Brush with the optional melted finishing butter, or rub the finishing butter stick over the warm tops, then rest in the skillet for 10 minutes before serving.",
+      "ingredientDestinations": ["Butter, melted or left in a stick for finishing, optional"]
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "No composed meal names these canonical slugs. Existing recipe pair suggestions remain; they do not certify another recipe or a coordinated meal."
+  },
+  "ratiosYieldAndCapacity": "Full source amounts remain 2 cups/240 g flour,1 tbsp/12 g powder,1 tsp/6 g kosher salt,8 tbsp/113 g cold butter and 1 cup/240 g buttermilk. All supplied equivalents are retained without standardizing their densities. Source 9-count card versus prose 8–10 with 2-inch cutter is approximate pan planning, not 9 diners. Skillet diameter is unspecified; no capacity certification is manufactured.",
+  "preservedPriorRepairs": [
+    "No earlier accepted safety or quantity repair removed; all complete followed history inspected."
+  ],
+  "remainingQuestions": [
+    "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
+    "Which kosher salt produces the listed 1 tsp/6 g equivalence? Retain both source measures without certifying every brand.",
+    "The publisher mentions milk/cream or other solid fats without a complete measured replacement route; those alternatives remain pending rather than inventing quantities."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

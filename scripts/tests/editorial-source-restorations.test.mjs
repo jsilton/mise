@@ -103,9 +103,11 @@ test('cake vanilla is quantified and exact pan depth accompanies spreadable gana
 test('cinnamon filling is prepared and its twelve-strip geometry is explicit', () => {
   const { data, content } = read('best-cinnamon-roll-recipe-cinnabon-copycat');
   assert.ok(data.ingredients.some((line) => line.includes('12 tbsp Salted Butter')));
+  assert.ok(data.ingredients.some((line) => line.startsWith('3/4 cup Light Brown Sugar')));
+  assert.ok(data.ingredients.includes('2 tbsp Ground Cinnamon'));
   assert.match(
     content,
-    /mix the 12 tbsp filling butter, 3\/4 cup brown sugar, and 2 tbsp cinnamon/
+    /mix all the filling butter, brown sugar and cinnamon with the optional vanilla powder into a spreadable paste/
   );
   assert.match(content, /1\.75 inches wide and 15 inches long/);
   assert.match(content, /21-inch edge/);

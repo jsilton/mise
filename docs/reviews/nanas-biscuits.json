@@ -1,0 +1,602 @@
+{
+  "slug": "nanas-biscuits",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "a24644e988d22414514368c9898fdf0ad9f21c05ead5617175b91ed541235941",
+  "acceptedSourceSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast"],
+      "after": ["bake"]
+    },
+    {
+      "field": "cookTime",
+      "before": "12 min",
+      "after": "10–12 min, plus optional brief broiling"
+    },
+    {
+      "field": "totalTime",
+      "before": "22 min",
+      "after": "About 25–30 min, plus any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 small biscuits (planning count)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Self-Rising Flour (sifted)",
+        "1/4 cup Unsalted Butter, cold and cubed",
+        "3/4 cup Buttermilk",
+        "Pinch of Baking Soda"
+      ],
+      "after": [
+        "2 cups Self-Rising Flour (sifted)",
+        "1/4 cup Unsalted Butter, cold and cubed",
+        "3/4 cup Buttermilk",
+        "Pinch of Baking Soda",
+        "--- For handling ---",
+        "Butter, for greasing the baking sheet",
+        "Self-rising flour, for dusting as needed",
+        "Buttermilk, extra only as needed"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 535,
+        "protein": 0.5,
+        "carbs": 0,
+        "fat": 61.5,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 540
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Bring a self-rising-flour dough together by hand and shape it by palm rather than rolling and cutting.",
+        "outcome": "Small, gently flattened biscuits with baked centers and browned tops.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use self-rising flour; it already contains leavening. The baking-soda pinch is unmeasured; use judgment when scaling rather than treating it as a fixed teaspoon quantity.",
+          "The butter version plans about 12 small biscuits for the original batch. Nana’s method uses hand shaping rather than a cutter; keep pieces similar and allow more sheets or loads when scaling."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The dough holds together without extended hand mixing.",
+            "why": "Extra handling toughens this simple dough; hydration adjustments are small and conditional."
+          },
+          {
+            "step": 4,
+            "cue": "The balls are similar in size and flattened with the palm.",
+            "why": "This family method does not require folds or a biscuit cutter."
+          },
+          {
+            "step": 5,
+            "cue": "The centers are set before any optional broiling for top color.",
+            "why": "A rapidly browned top is separate from a baked center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dry flour remains after mixing",
+            "cause": "Flour absorption and measurement vary.",
+            "fix": "Add a little extra buttermilk and mix only until cohesive; stop adding when no dry flour remains."
+          },
+          {
+            "problem": "Tops burn while centers remain doughy",
+            "cause": "Broiling was used too early or watched too loosely.",
+            "fix": "Return any unburned, underbaked biscuits to baking heat to finish the centers. For the next tray, broil only after the crumb has set and watch continuously."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Listed dough butter",
+            "alternative": "Same listed volume of solid vegetable shortening",
+            "effect": "Use the separate hand-mixed shortening variation. It has less butter flavor and different water content; no equal texture or timing guarantee is claimed."
+          }
+        ],
+        "timing": "The butter version plans about 10 minutes mixing/shaping and 10–12 minutes baking, followed by a brief serving rest; optional broiling adds about 1 minute. Allow about 25–30 minutes, plus oven heating still needed after preparation and extra loads. Biscuit size and handling affect the actual count and elapsed time.",
+        "storage": "Best served freshly baked. Cool plain biscuits completely before wrapping or freezing, and thaw covered before rewarming. Do not taste raw dough; refrigerate waiting dairy-containing dough at 40°F /4°C or below. Perishable fillings or toppings need their own storage guidance.",
+        "sources": [
+          {
+            "title": "FDA: raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "Reynolds: parchment is not suitable under a broiler",
+            "url": "https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBiscuits are Southern breakfast staple, but the technique is universal - cold butter cut into flour creates pockets of steam that make them rise and flake. Buttermilk adds tang and helps with rise. The shaping matters: fold dough gently a few times to create layers, then cut straight down (don't twist) so the edges seal and the biscuits puff instead of spreading.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 425°F. Lightly grease a baking sheet with a little butter.\n2.  **Cut the Fat:** Place the sifted flour in a large bowl. Add the cold, cubed butter. Use your fingertips to rub the butter into the flour until it looks like coarse crumbs with some pea-sized bits remaining. (Speed is key to keep the butter cold).\n3.  **Hydrate:** Add the buttermilk and the pinch of baking soda. Mix gently with your hand just until the dough comes together. If it's too dry, add a tablespoon more buttermilk; if too sticky, a dusting of flour.\n4.  **Shape:** Roll the dough into 12 small balls. Place on the greased cookie sheet and flatten slightly with the palm of your hand. This flat shape ensures a crispy exterior and a tender middle.\n5.  **Bake:** Bake for 10-12 minutes. If the tops are not golden brown, switch to **Broil** for 1 minute, watching intensely to prevent burning.\n",
+    "after": "\n## Chef's Note\n\nNana’s biscuits are mixed by hand, rolled into small balls and flattened with the palm. Keep the butter version’s fat cold and handle the dough gently. The self-rising flour supplies the main leavening; retain the listed pinch of baking soda without adding a second measured baking-powder dose.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 425°F. Lightly grease a metal baking sheet with butter. If you plan to broil the tops, use a broiler-rated pan without parchment and follow your oven’s rack-clearance instructions.\n\n2. **Cut the fat:** Put the sifted self-rising flour in a large bowl. Rub in all the cold cubed butter with your fingertips until coarse crumbs and some pea-sized butter pieces remain.\n\n3. **Mix gently:** Add the listed buttermilk and pinch of baking soda. Mix gently by hand just until the dough comes together. If dry flour remains, add extra buttermilk a little at a time; if too sticky to handle, use a light dusting of self-rising flour.\n\n4. **Shape:** Roll into similarly sized small balls and flatten slightly with your palm on the greased sheet. The original-size butter batch plans about 12; follow the listed scaled count without enlarging the biscuits or crowding the sheet.\n\n5. **Bake and serve:** Bake for about 10–12 minutes until the centers have set. If baked through but still pale on top, broil briefly, watching continuously and removing the pan as soon as the color develops, about 1 minute. Broiling colors the top; it does not replace baking the middle. Let the biscuits stand briefly before serving.\n\n## Shortening Variation\n\nFor the original batch, replace the ¼ cup dough butter with about ¼ cup solid vegetable shortening; scale that replacement with the listed dough butter amount. Keep the full self-rising flour, buttermilk and pinch of baking soda. Work the shortening into the sifted flour by hand, adding the listed buttermilk and soda a little at a time until the dough comes together. Use extra flour only as needed, then roll and flatten as in step 4 and bake at 425°F, with the same optional brief broil for color after the centers are baked. This is a separate fat and mixing route; keep the butter version’s cold-cutting method for the main recipe.\n"
+  },
+  "findings": [
+    {
+      "id": "BR02-04-01",
+      "field": "cookingMethods",
+      "rationale": "Keep actual cooking techniques; hand mixing/steam within baking is not a separate steam or blender cooking route.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-02",
+      "field": "cookTime",
+      "rationale": "Preserve current butter main and complete family shortening branch, remove incompatible folding/cutting teaching. Supply the already-required unmeasured handling ingredients; distinguish baked centers from optional broiled color and qualify planning count/time.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-03",
+      "field": "totalTime",
+      "rationale": "Preserve current butter main and complete family shortening branch, remove incompatible folding/cutting teaching. Supply the already-required unmeasured handling ingredients; distinguish baked centers from optional broiled color and qualify planning count/time.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-04",
+      "field": "servings",
+      "rationale": "Preserve current butter main and complete family shortening branch, remove incompatible folding/cutting teaching. Supply the already-required unmeasured handling ingredients; distinguish baked centers from optional broiled color and qualify planning count/time.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-05",
+      "field": "ingredients",
+      "rationale": "Preserve current butter main and complete family shortening branch, remove incompatible folding/cutting teaching. Supply the already-required unmeasured handling ingredients; distinguish baked centers from optional broiled color and qualify planning count/time.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-06",
+      "field": "origin",
+      "rationale": "Origin is later bulk country/domain metadata without direct geographical-birth evidence for this particular recipe; omit only origin, preserving style/credits.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-07",
+      "field": "nutrition",
+      "rationale": "Inherited nutrition is unverified; no replacement calculation or tested yield is fabricated.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-08",
+      "field": "learning",
+      "rationale": "Preserve current butter main and complete family shortening branch, remove incompatible folding/cutting teaching. Supply the already-required unmeasured handling ingredients; distinguish baked centers from optional broiled color and qualify planning count/time.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper",
+          "applicability": "Actual manufacturer instruction against using parchment under broiler; not biscuit formula/doneness/yield."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    },
+    {
+      "id": "BR02-04-09",
+      "field": "content",
+      "rationale": "Preserve current butter main and complete family shortening branch, remove incompatible folding/cutting teaching. Supply the already-required unmeasured handling ingredients; distinguish baked centers from optional broiled color and qualify planning count/time.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "0cccc5a91e4da53bdca2d2ecf5003eaacc8adc7df88d3dfaa00dbcf3ce4cba7a",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "8ec156f29437df33395a05623c002c593b647416d3cd143809b07dc26806be7c",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper",
+          "applicability": "Actual manufacturer instruction against using parchment under broiler; not biscuit formula/doneness/yield."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+        "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+        "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Nana's%20Biscuits.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "d607033f replaces original approximate 1/4 cup shortening with 1/4 cup butter and claims a health/modern upgrade; no explicit household instruction or accepted source decision for removing the family fat route is established. Preserve butter main and recover the complete shortening route separately, without repeating unsupported superiority claims.",
+    "Later chef prose directs folding/cutting, contrary to both actual current method and family original palm-flattening. Correct the prose without changing the family shaping method.",
+    "The family original has no count or preparation time; later 12/10 min are house planning metadata rather than source-tested precision. Qualify them and include oven readiness/serving rest.",
+    "Original grease and extra-flour allowances are unmeasured. Frozen extra-buttermilk instruction allows a tablespoon when needed; replace exact implied requirement with conditional small additions, no new measured base liquid.",
+    "Bulk origin/nutrition do not establish this family recipe’s birthplace or nutrients; omit them, preserving title, Southern style, all links and family authorship."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 cups Self-Rising Flour (sifted)",
+        "destination": "flour 2 plus unlisted dusting 3",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1/4 cup Unsalted Butter, cold and cubed",
+        "destination": "cut in 2 plus unlisted grease 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "3/4 cup Buttermilk",
+        "destination": "dough 3 plus conditional unlisted extra 1 tbsp",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "Pinch of Baking Soda",
+        "destination": "dough 3",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 cups Self-Rising Flour (sifted)",
+        "destination": "flour 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1/4 cup Unsalted Butter, cold and cubed",
+        "destination": "cut in 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "3/4 cup Buttermilk",
+        "destination": "dough 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Pinch of Baking Soda",
+        "destination": "dough 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "--- For handling ---",
+        "destination": "heading",
+        "allocation": "heading"
+      },
+      {
+        "ingredient": "Butter, for greasing the baking sheet",
+        "destination": "grease 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Self-rising flour, for dusting as needed",
+        "destination": "conditional dusting 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Buttermilk, extra only as needed",
+        "destination": "conditional extra hydration 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      }
+    ],
+    "exactSavedOriginal": [
+      {
+        "ingredient": "¾ Cups buttermilk",
+        "destination": "gradual hand-mixed hydration",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "Pinch of Baking Soda",
+        "destination": "listed pinch; exact native method omits its explicit destination, current addition with milk retained editorially",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "2 cups Self Rising Flour (sifted)",
+        "destination": "hand-mixed dough and conditional extra flour",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1/4 cup Crisco",
+        "destination": "hand-mixed dough; approximate ¼ cup in source method",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Family shortening method",
+        "replace": 1,
+        "replacement": "1/4 cup Solid vegetable shortening",
+        "dest": "hand mix with flour and gradual listed buttermilk/soda",
+        "route": "Full flour/milk/soda remain; replace only dough butter with same-volume shortening. Hand mix, roll and palm-flatten, then 425°F bake and optional post-bake broil. Greasing butter remains an independent unmeasured allowance.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "2 cups Self-Rising Flour (sifted)",
+            "destination": "flour 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 cup Solid vegetable shortening",
+            "destination": "hand mix with flour and gradual listed buttermilk/soda",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3/4 cup Buttermilk",
+            "destination": "dough 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Pinch of Baking Soda",
+            "destination": "dough 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Butter, for greasing the baking sheet",
+            "destination": "grease 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Self-rising flour, for dusting as needed",
+            "destination": "conditional dusting 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Buttermilk, extra only as needed",
+            "destination": "conditional extra hydration 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Replace only dough butter; handling butter is independent."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "stage": "Prepare",
+      "method": "Preheat the oven to 425°F. Lightly grease a metal baking sheet with butter. If you plan to broil the tops, use a broiler-rated pan without parchment and follow your oven’s rack-clearance instructions.",
+      "ingredientDestinations": ["Butter, for greasing the baking sheet"]
+    },
+    {
+      "step": 2,
+      "stage": "Cut the fat",
+      "method": "Put the sifted self-rising flour in a large bowl. Rub in all the cold cubed butter with your fingertips until coarse crumbs and some pea-sized butter pieces remain.",
+      "ingredientDestinations": [
+        "2 cups Self-Rising Flour (sifted)",
+        "1/4 cup Unsalted Butter, cold and cubed"
+      ]
+    },
+    {
+      "step": 3,
+      "stage": "Mix gently",
+      "method": "Add the listed buttermilk and pinch of baking soda. Mix gently by hand just until the dough comes together. If dry flour remains, add extra buttermilk a little at a time; if too sticky to handle, use a light dusting of self-rising flour.",
+      "ingredientDestinations": [
+        "3/4 cup Buttermilk",
+        "Pinch of Baking Soda",
+        "Self-rising flour, for dusting as needed",
+        "Buttermilk, extra only as needed"
+      ]
+    },
+    {
+      "step": 4,
+      "stage": "Shape",
+      "method": "Roll into similarly sized small balls and flatten slightly with your palm on the greased sheet. The original-size butter batch plans about 12; follow the listed scaled count without enlarging the biscuits or crowding the sheet.",
+      "ingredientDestinations": []
+    },
+    {
+      "step": 5,
+      "stage": "Bake and serve",
+      "method": "Bake for about 10–12 minutes until the centers have set. If baked through but still pale on top, broil briefly, watching continuously and removing the pan as soon as the color develops, about 1 minute. Broiling colors the top; it does not replace baking the middle. Let the biscuits stand briefly before serving.",
+      "ingredientDestinations": []
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "pulled-pork",
+      "shrimp-and-grits",
+      "tomato-cobbler-with-cornmeal-cheddar-biscuits"
+    ],
+    "incomingMeals": [],
+    "scope": "No composed meal names these canonical slugs. Existing recipe pair suggestions remain; they do not certify another recipe or a coordinated meal."
+  },
+  "ratiosYieldAndCapacity": "Current butter main retains 2 cups self-rising flour,1/4 cup butter,3/4 cup buttermilk and an unmeasured pinch of soda. Exact family original uses approximately 1/4 cup solid shortening instead of butter, with hand mixing and palm flattening. No soda teaspoon, self-rising-flour conversion, biscuit thickness or tested 12-count yield is invented. Current 12 is retained explicitly as a planning count.",
+  "preservedPriorRepairs": [
+    "No earlier accepted safety or quantity repair removed; all complete followed history inspected."
+  ],
+  "remainingQuestions": [
+    "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
+    "Measure what the original pinch of soda means if reliable large-batch scaling is needed; no amount is fabricated.",
+    "Compare butter and shortening hydration/texture using the full retained amounts; no kitchen evaluation has occurred."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

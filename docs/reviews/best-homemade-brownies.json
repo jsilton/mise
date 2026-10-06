@@ -1,0 +1,314 @@
+{
+  "slug": "best-homemade-brownies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "c510264a25bd5b52da184bf95589de8c293b60088c5d1ca660eca15a3789bff6",
+  "acceptedSourceSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "175 min (including at least 2 hours cooling)",
+      "after": "175 min"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "advancePrep",
+      "before": null,
+      "after": ["make-ahead"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Let a fudgy brownie finish setting before cutting",
+        "outcome": "Dense, fudgy centers and chewy edges that hold together after complete cooling.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use the specified 8-inch square pan and keep the full sugar, oil, cocoa and chocolate amounts. This fixed batch is repeated in separate pans; a larger pan makes a thinner layer that bakes faster.",
+          "Measure and sift lumpy dry ingredients before combining. Keep raw batter away from ready-to-eat food and do not taste it."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The thick batter has no dry flour streaks after gentle folding.",
+            "why": "Stop when the dry ingredients are incorporated rather than continuing to beat the batter."
+          },
+          {
+            "step": 5,
+            "cue": "A toothpick has a few moist crumbs rather than flowing batter.",
+            "why": "The bake range is a starting check; the pan and oven determine when the center is baked."
+          },
+          {
+            "step": 6,
+            "cue": "The pan and center have cooled completely before slicing.",
+            "why": "A warm, soft center firms during cooling; cutting too early can break the bars."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The bars break when cut",
+            "cause": "The center may still be warm and soft.",
+            "fix": "Let the pan cool completely before cutting. Allow at least two hours and longer if it is still warm; refrigerate after cooling if a firmer cut is preferred."
+          },
+          {
+            "problem": "The brownie layer is dry and thin",
+            "cause": "A wider pan or extra baking can overcook this fixed quantity.",
+            "fix": "Use the specified 8-inch square pan for the next batch and begin checking the center in the stated range. Cooling cannot restore moisture lost through overbaking."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Extra-virgin olive oil",
+            "alternative": "Use the same amount of canola oil.",
+            "effect": "The saved publisher option gives a more neutral flavor; the full primary oil amount remains unchanged."
+          },
+          {
+            "ingredient": "Granulated sugar",
+            "alternative": "For the separate less-sweet version of this fixed batch, use 1 cup rather than 1½ cups; keep every other amount and pan unchanged.",
+            "effect": "This saved publisher option changes sweetness and may change texture and bake time. It does not reduce the primary formula."
+          }
+        ],
+        "timing": "Plan 10 minutes preparation, about 40–45 minutes baking and at least two hours complete cooling: approximately 175 minutes through slicing. A still-warm center needs longer. Separate fixed batches or oven loads add time; refrigerated firming is optional after cooling.",
+        "storage": "Once completely cooled, keep covered at room temperature for up to three days for best quality, following the saved publisher guidance. Freeze for longer storage; refrigeration makes a firmer brownie.",
+        "sources": [
+          {
+            "title": "Love and Lemons — brownie formula, fixed pan and complete cooling",
+            "url": "https://www.loveandlemons.com/brownies-recipe/"
+          },
+          {
+            "title": "FDA — handling flour and raw batter safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "Exact published recipe with retained source repairs",
+            "url": "https://github.com/jsilton/mise/blob/f14b15b846b3cac895cc09c7830250c1a48d27d3/src/content/recipes/best-homemade-brownies.md"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese brownies have dense, fudgy centers, chewy edges, and a noticeable olive-oil flavor. Keep the 8-inch square pan: a wider pan makes a thinner layer that bakes faster. Fold only until no dry flour remains, and cool completely before cutting so the soft center has time to firm up. Budget about 2 hours 55 minutes, including at least 2 hours of cooling; a warm pan may need longer.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 325°F. Spray an 8x8 baking pan and line with parchment paper so it hangs over the edges. Spray the parchment too.\n2.  **Dry Mix:** In a medium bowl, whisk together the sugar, flour, cocoa, powdered sugar, chocolate chips, and salt.\n3.  **Wet Mix:** In a large bowl, whisk eggs, olive oil, water, and vanilla until well combined and slightly frothy.\n4.  **Combine:** Sprinkle the dry ingredients over the wet. Fold gently with a spatula until **just combined**. The batter will be very thick.\n5.  **Bake:** Spread evenly in the prepared pan. Bake for 40-45 minutes until a toothpick comes out with a few moist crumbs.\n6.  **The Finish:** Allow to cool completely in the pan for at least 2 hours before slicing. This is mandatory for the structure to set.\n",
+    "after": "\n## Chef's Note\n\nThese brownies have dense, fudgy centers, chewy edges, and a noticeable olive-oil flavor. Keep the 8-inch square pan: a wider pan makes a thinner layer that bakes faster. Fold only until no dry flour remains, and cool completely before cutting so the soft center has time to firm up. Budget about 2 hours 55 minutes, including at least 2 hours of cooling; a warm pan may need longer.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 325°F. Spray an 8x8 baking pan and line with parchment paper so it hangs over the edges. Spray the parchment too.\n2.  **Dry Mix:** In a medium bowl, whisk together the sugar, flour, cocoa, powdered sugar, chocolate chips, and salt.\n3.  **Wet Mix:** In a large bowl, whisk eggs, olive oil, water, and vanilla until well combined and slightly frothy.\n4.  **Combine:** Sprinkle the dry ingredients over the wet. Fold gently with a spatula until **just combined**. The batter will be very thick.\n5.  **Bake:** Spread evenly in the prepared pan. Bake for 40-45 minutes until a toothpick comes out with a few moist crumbs.\n6.  **The Finish:** Allow to cool completely in the pan for at least 2 hours before slicing. This is mandatory for the structure to set.\n\n## Variations\n\nUse canola oil in place of the same listed olive-oil amount for a more neutral flavor. For a separate less-sweet version of this fixed batch, use 1 cup granulated sugar instead of 1½ cups; keep every other quantity, the 8-inch square pan and the method unchanged. Keep the moist-crumb cue and complete cooling; texture and baking time may differ.\n"
+  },
+  "findings": [
+    {
+      "id": "CH01",
+      "rationale": "The full primary formula and all 493885bb pan, cooling and scaling repairs remain unchanged. Exact saved and current publisher options are preserved separately; source evidence does not establish deliberate household rejection.",
+      "confidence": "High written agreement",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/best-homemade-brownies.md",
+        "https://www.loveandlemons.com/brownies-recipe/"
+      ],
+      "sourceApplicability": "Publisher supports exact core formula, pan and cooling. The planning yield is its claim, not a measured kitchen result.",
+      "exactBeforeAfterReferences": ["origin", "content"],
+      "questions": []
+    },
+    {
+      "id": "RELEASE-METADATA-1",
+      "rationale": "Preserve the same 175-minute plan and all explicit two-hour cooling prose. The parser adds the parenthetical two hours a second time, falsely reading 295 minutes. Store the single elapsed number and keep cooling context in the unchanged introduction, method and learning record.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/f14b15b846b3cac895cc09c7830250c1a48d27d3/src/content/recipes/best-homemade-brownies.md"
+      ],
+      "sourceApplicability": "Bounded exact release correction independently challenged; all complete cooking prose and ingredient amounts remain unchanged.",
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "RELEASE-METADATA-2",
+      "rationale": "The retained formula requires complete cooling before cutting and supports covered make-ahead storage. This is not a newly required refrigerator chill.",
+      "confidence": "high",
+      "applicableSources": ["https://www.loveandlemons.com/brownies-recipe/"],
+      "sourceApplicability": "Bounded exact release correction independently challenged; all complete cooking prose and ingredient amounts remain unchanged.",
+      "exactBeforeAfterReferences": ["advancePrep"],
+      "questions": []
+    },
+    {
+      "id": "RELEASE-METADATA-3",
+      "rationale": "Complete the recipe-specific required internal learning record after whole author/peer/root review. Cues, cooling, fixed-pan behavior and complete source variants are grounded in the unchanged actual cooking method and primary publisher/FDA evidence. No kitchen testing claim or public review panel is added.",
+      "confidence": "high",
+      "applicableSources": ["https://www.loveandlemons.com/brownies-recipe/"],
+      "sourceApplicability": "Bounded exact release correction independently challenged; all complete cooking prose and ingredient amounts remain unchanged.",
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Best%20Homemade%20Brownies.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.loveandlemons.com/brownies-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 1/2 cups Granulated Sugar",
+        "frozenDestination": "step2 dry mixture"
+      },
+      {
+        "index": 1,
+        "ingredient": "3/4 cup All-Purpose Flour",
+        "frozenDestination": "step2 dry mixture"
+      },
+      {
+        "index": 2,
+        "ingredient": "2/3 cup Unsweetened Cocoa Powder, sifted",
+        "frozenDestination": "step2 sifted dry mixture"
+      },
+      {
+        "index": 3,
+        "ingredient": "1/2 cup Powdered Sugar",
+        "frozenDestination": "step2 dry mixture"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/2 cup Dark Chocolate Chips (60% cacao or higher)",
+        "frozenDestination": "step2 dry mixture"
+      },
+      {
+        "index": 5,
+        "ingredient": "3/4 tsp Sea Salt",
+        "frozenDestination": "step2 dry mixture"
+      },
+      {
+        "index": 6,
+        "ingredient": "2 large Eggs",
+        "frozenDestination": "step3 wet mixture"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/2 cup Extra-Virgin Olive Oil",
+        "frozenDestination": "step3 wet mixture"
+      },
+      {
+        "index": 8,
+        "ingredient": "2 tbsp Water",
+        "frozenDestination": "step3 wet mixture"
+      },
+      {
+        "index": 9,
+        "ingredient": "1/2 tsp Vanilla Extract",
+        "frozenDestination": "step3 wet mixture"
+      },
+      {
+        "index": 10,
+        "ingredient": "Cooking spray, for the pan and parchment",
+        "frozenDestination": "step1 pan and parchment"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 1/2 cups Granulated Sugar",
+        "destination": "step2 dry mixture"
+      },
+      {
+        "ingredient": "3/4 cup All-Purpose Flour",
+        "destination": "step2 dry mixture"
+      },
+      {
+        "ingredient": "2/3 cup Unsweetened Cocoa Powder, sifted",
+        "destination": "step2 sifted dry mixture"
+      },
+      {
+        "ingredient": "1/2 cup Powdered Sugar",
+        "destination": "step2 dry mixture"
+      },
+      {
+        "ingredient": "1/2 cup Dark Chocolate Chips (60% cacao or higher)",
+        "destination": "step2 dry mixture"
+      },
+      {
+        "ingredient": "3/4 tsp Sea Salt",
+        "destination": "step2 dry mixture"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "step3 wet mixture"
+      },
+      {
+        "ingredient": "1/2 cup Extra-Virgin Olive Oil",
+        "destination": "step3 wet mixture"
+      },
+      {
+        "ingredient": "2 tbsp Water",
+        "destination": "step3 wet mixture"
+      },
+      {
+        "ingredient": "1/2 tsp Vanilla Extract",
+        "destination": "step3 wet mixture"
+      },
+      {
+        "ingredient": "Cooking spray, for the pan and parchment",
+        "destination": "step1 pan and parchment"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "source": "Bound native/publisher",
+      "scope": "The unchanged main uses 1½ cups granulated sugar and ½ cup extra-virgin olive oil. A separate source oil option uses the same ½ cup canola oil in the wet mixture instead of olive oil. A separate source less-sweet option uses 1 cup granulated sugar in the dry mixture instead of 1½ cups; all other ingredients and the original pan/method remain unchanged. 69022e6d removed these options; the later 493885bb targeted pan/cooling repair preserved the existing main but does not document rejection of the separate options. These are source options, not household kitchen-test results."
+    },
+    {
+      "name": "Same-volume canola option",
+      "scope": "Replace only the listed olive oil with the same listed amount of canola oil in the wet mixture; all other quantities and method unchanged."
+    },
+    {
+      "name": "Separate less-sweet source option",
+      "scope": "For the fixed original batch replace only 1½ cups granulated sugar with 1 cup; retain all remaining quantities, 8-inch pan, moist-crumb cue and complete cooling. Untested texture and timing may differ."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": "Full one-and-a-half cups of primary granulated sugar, half-cup oil and all other doses remain. Current eight-inch-square pan, 40–45-minute bake and full two-hour cooling repair remain. Source one-cup-sugar and neutral-canola routes are exclusive optional original-batch variants, not primary reductions; extra pans and complete cooling change elapsed time.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual oven and pan material may change the first moist-crumb check; no kitchen testing."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "releaseMetadataAmendment": {
+    "previousAcceptedSourceSha256": "46c9abc1f4eb5e977301704c836da6fca4a6f4db7d28db24331f189148bfd87c",
+    "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+    "fields": ["totalTime", "advancePrep", "learning"],
+    "bodyAndIngredientsUnchanged": true,
+    "kitchenTested": false
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

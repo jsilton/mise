@@ -1,0 +1,244 @@
+{
+  "slug": "chewy-chocolate-meringues",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "c7bd7951578473b18594e4f163f40b1a92ab432156a4ae7bad4a15c749dae4ba",
+  "acceptedSourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "45 min",
+      "after": "45–50 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "70 min",
+      "after": "65–80 min plus cooling completely"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Egg Whites, room temperature (about 6-7 large eggs)",
+        "2 cups Granulated Sugar",
+        "1 cup Dark Chocolate Chips",
+        "1/2 tsp Cream of Tartar",
+        "Pinch of Kosher Salt"
+      ],
+      "after": [
+        "1 cup Pasteurized Egg Whites, suitable for whipping",
+        "2 cups Granulated Sugar",
+        "1 cup Dark Chocolate Chips",
+        "1/2 tsp Cream of Tartar",
+        "Pinch of Kosher Salt"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "France",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 75,
+        "protein": 0.5,
+        "carbs": 14.5,
+        "fat": 1.5,
+        "fiber": 0.5,
+        "sugar": 14,
+        "sodium": 70
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Dissolve sugar and whip a stable foam without guessing an egg count",
+        "outcome": "Firm shells with soft baked centers, using the complete sugar and chocolate amounts.",
+        "techniques": ["temperature"],
+        "before": [
+          "Measure the whites by the listed volume. Pasteurized products vary: use whites suitable for whipping and follow their handling label; do not assume every carton whips identically."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Glossy peaks hold their shape after the whisk lifts.",
+            "why": "A clock alone does not establish the same foam strength with every mixer or egg product."
+          },
+          {
+            "step": 6,
+            "cue": "A broken sample has a firm exterior and cooked-through soft center.",
+            "why": "A soft baked center is different from flowing, uncooked foam."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Whites do not form stiff peaks",
+            "cause": "The product may not whip well, or fat or yolk may have contaminated the equipment.",
+            "fix": "Use a clean, grease-free bowl and whisk and a product suitable for whipping; do not keep baking a loose foam expecting the original shape."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cream-of-tartar and salt version",
+            "alternative": "For the three-ingredient version, use only the same listed whites, sugar and chocolate chips; omit cream of tartar and salt. Pulse the sugar moderately fine in a food processor. Stir all whites and sugar over medium-low heat in a saucepan until dissolved, then whip the warm mixture on high to stiff glossy peaks, starting checks at 5–10 minutes. Mix in all chips on medium just until incorporated. Portion and bake at 250°F as above, rotate halfway through and break a sample to check a cooked-through soft center, then cool completely. Keep the pasteurized-white selection and handling precautions for this route too.",
+            "effect": "This route heats directly and has no added foam stabilizer; it requires close stirring and its clock is a starting check, not a verified egg temperature."
+          }
+        ],
+        "storage": "Cool the baked cookies completely, then keep them airtight for up to 4 days for best quality.",
+        "timing": "Allow about 20–30 minutes for setup, dissolving and whipping, then 45–50 minutes baking plus complete cooling. Extra sheet rounds add elapsed time.",
+        "sources": [
+          {
+            "title": "Riki Shore’s chocolate meringues — saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/chewy-chocolate-meringues.md"
+          },
+          {
+            "title": "FDA — egg safety and pasteurized eggs",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to a meringue that is \"Chewy\" rather than just \"Crispy\" is the **Sugar Dissolution**. By gently heating the egg whites and sugar before whipping, you ensure the sugar crystals are fully dissolved into the protein structure. This results in a silky, stable foam that bakes into a cookie with a \"shattering\" shell and a marshmallow-like fudgy center.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 250°F. Line two baking sheets with parchment paper.\n2.  **Dissolve:** In a heat-proof bowl set over a pot of simmering water (double boiler), combine egg whites, sugar, and salt. Whisk gently until the sugar is dissolved and the mixture feels smooth (not gritty) between your fingers.\n3.  **Whip:** Transfer to a stand mixer. Add cream of tartar. Whip on high speed for 8-10 minutes until the whites are stiff, glossy, and the bowl feels cool to the touch.\n4.  **Fold:** Gently fold in the chocolate chips by hand.\n5.  **Portion:** Use a large spoon or cookie scoop to place clouds of batter onto the sheets. They will not spread, so you can place them 1 inch apart.\n6.  **Bake:** Bake for 45-50 minutes. The cookies are done when the outside is firm but the center still feels slightly soft.\n7.  **Cool:** Let cool completely on the baking sheet to allow the shell to set.\n",
+    "after": "\n## Chef's Note\n\nDissolving the sugar before whipping helps build a smooth foam. Keep all the listed whites and sugar; measure the whites by volume rather than assuming a count of eggs. The exterior should set while the baked center stays soft. Use pasteurized whites suitable for whipping because a soft center and an unmeasured heating stage do not establish a safety temperature.\n\n## Directions\n\n1. **Prepare:** Heat the oven to 250°F and line two baking sheets with parchment. Keep the measured pasteurized whites refrigerated until ready to heat; use pasteurized shell-egg whites or a pasteurized product labeled suitable for whipping, measured to the full listed volume.\n\n2. **Dissolve:** Combine all the whites, sugar and salt in a heat-proof bowl over simmering water, with the bowl bottom above the water. Whisk gently until the sugar is dissolved; check for remaining grains with a clean spoon rather than touching the hot mixture or tasting it. Use the pasteurized whites selected in the preparation step; sugar dissolution is not an egg-temperature check.\n\n3. **Whip:** Transfer the complete mixture to a stand mixer. Add all the cream of tartar and whip on high until stiff, glossy peaks hold and the bowl is no longer warm, starting checks around 8 minutes; mixer and egg product affect the clock.\n\n4. **Fold:** Gently fold in all the chocolate chips until dispersed.\n\n5. **Portion:** Scoop large spoonfuls onto the sheets, leaving about 1 inch between them. The original 36-cookie yield is a planning count; keep portions similar in size when making more or fewer cookies, using additional sheets or oven rounds as needed.\n\n6. **Bake:** Bake about 45–50 minutes for the original portion size, rotating the sheets halfway through. The exterior should be firm. Break a sample open: the center should be cooked through but still soft, without flowing egg foam. Keep the pasteurized-white precaution even when the center looks set.\n\n7. **Cool:** Cool completely on the sheets before lifting carefully into an airtight container.\n"
+  },
+  "findings": [
+    {
+      "id": "CH04",
+      "rationale": "The actual source specifies one cup, not6–7large eggs. Keep full volume and current stabilizer/salt formula; retain complete exclusive three-ingredient source route rather than deleting added richness or silently adopting it. Soft centers and unmeasured warming require pasteurized whites; preserve source break-open cooked-through cue and remove direct hot finger check. Qualify original portion count and actual elapsed cooling.",
+      "confidence": "High source distinction; moderate precaution/product and planning application",
+      "applicableSources": [
+        "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/chewy-chocolate-meringues.md",
+        "evidence/chewy-chocolate-meringues-followed.diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Bound native/045 supports3ingredient formula, direct heat, source cooked-through soft cue and4dayquality statement. FDA supports pasteurized eggs for undercooked dishes; applying that precaution to an unverified soft-meringue endpoint is explicit editorial inference. FDA does not certify this cookie method, storage or whip performance. Water-bath/current stabilizer version is preserved as current adaptation, not recast as native.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "CH-N",
+      "rationale": "Unverified legacy per-serving estimate has no ingredient-weight/yield evidence; do not carry it forward as verified nutrition after review/state or formula changes.",
+      "confidence": "High absence of verification",
+      "applicableSources": ["evidence/chewy-chocolate-meringues-followed.diff"],
+      "sourceApplicability": "The estimate was introduced by automated nutrition work; neither publisher/native nor this editorial review supplies verified calculation or measured yield.",
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Nutrition may be recalculated separately from actual ingredient weights/product labels and chosen cutting yield."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chewy%20Chocolate%20Meringues.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://food52.com/recipes/16997-chewy-chocolate-meringues",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 cup Egg Whites, room temperature (about 6-7 large eggs)",
+        "frozenDestination": "step2 sugar heating; currentunsupported6–7eggcount"
+      },
+      {
+        "index": 1,
+        "ingredient": "2 cups Granulated Sugar",
+        "frozenDestination": "step2 heating"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 cup Dark Chocolate Chips",
+        "frozenDestination": "step4 fold"
+      },
+      {
+        "index": 3,
+        "ingredient": "1/2 tsp Cream of Tartar",
+        "frozenDestination": "step3 whip"
+      },
+      {
+        "index": 4,
+        "ingredient": "Pinch of Kosher Salt",
+        "frozenDestination": "step2 heating"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 cup Pasteurized Egg Whites, suitable for whipping",
+        "destination": "step2 sugar heating; full listed pasteurized-white volume"
+      },
+      {
+        "ingredient": "2 cups Granulated Sugar",
+        "destination": "step2 heating"
+      },
+      {
+        "ingredient": "1 cup Dark Chocolate Chips",
+        "destination": "step4 fold"
+      },
+      {
+        "ingredient": "1/2 tsp Cream of Tartar",
+        "destination": "step3 whip"
+      },
+      {
+        "ingredient": "Pinch of Kosher Salt",
+        "destination": "step2 heating"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "scope": "Exclusive saved three-ingredient/direct saucepan route; same full whites/sugar/chips, omit only current tartar/salt. Pasteurized-white precaution carried to both routes, not claimed native."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": "Full one cup egg whites, two cups sugar and one cup dark chocolate chips remain; current cream of tartar and salt stay primary, original direct-saucepan route without them is complete and separate. Pasteurized whites must be suitable for whipping; no fixed egg count or undocumented measured heating endpoint is invented. Thirty-six is a planning count; actual scoop/oven loads and complete sheet cooling change time.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which pasteurized whites does the household use, and do they whip reliably? The specific heated foam is not temperature tested; pasteurization does not promise risk elimination. Food52 current page fetch unavailable."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

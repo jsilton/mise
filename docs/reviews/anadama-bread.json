@@ -1,0 +1,676 @@
+{
+  "slug": "anadama-bread",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
+  "inputSha256": "5992ac2eabffbed7c3984d4eaed89aac5132b46c673f0abb71d630dec689cc9e",
+  "acceptedSourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "boil"],
+      "after": ["bake", "boil"]
+    },
+    {
+      "field": "totalTime",
+      "before": "3 hr",
+      "after": "About 3 hr to a baked loaf, plus cooling; rise time varies"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 cup Water",
+        "1/4 cup Yellow Cornmeal",
+        "2 tbsp Unsalted Butter",
+        "1/2 cup Molasses (The signature flavor)",
+        "1 pkg (.25 oz) Active Dry Yeast",
+        "1/2 cup Warm Water (110°F)",
+        "3 cups All-Purpose Flour",
+        "1 tsp Kosher Salt"
+      ],
+      "after": [
+        "1/2 cup Water",
+        "1/4 cup Yellow Cornmeal",
+        "2 tbsp Unsalted Butter",
+        "1/2 cup Molasses (The signature flavor)",
+        "1 pkg (.25 oz) Active Dry Yeast",
+        "1/2 cup Warm Water (110°F)",
+        "3 cups All-Purpose Flour",
+        "1 tsp Kosher Salt",
+        "--- For handling ---",
+        "Oil, for coating the rising bowl",
+        "Butter, for greasing the loaf pan",
+        "All-purpose flour, for dusting"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": "New England cornmeal-and-molasses bread."
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 2070,
+        "protein": 51,
+        "carbs": 393.5,
+        "fat": 31,
+        "fiber": 19,
+        "sugar": 1,
+        "sodium": 2510
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook and cool a cornmeal porridge before building a molasses bread dough.",
+        "outcome": "A risen loaf with a firm golden crust and a set, sliceable crumb.",
+        "techniques": ["starch", "leavening", "temperature"],
+        "before": [
+          "Keep the two listed water portions separate: the first cooks the cornmeal; the warm portion activates the yeast. The three cups of flour in the original batch are divided two thirds first and one third afterward; follow the listed scaled amount.",
+          "The original batch fits one 9 x 5-inch loaf pan. Use more pans for additional full loaves rather than forcing more dough into one pan; a smaller loaf needs its own size and bake check."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The cornmeal mixture is lukewarm rather than hot.",
+            "why": "The yeast is added afterward and should not be exposed to the saucepan’s cooking heat."
+          },
+          {
+            "step": 6,
+            "cue": "The covered dough has doubled in volume.",
+            "why": "Dough and room temperature affect how long the rise takes; the clock is a guide."
+          },
+          {
+            "step": 9,
+            "cue": "The loaf has a firm crust, baked sides and a hollow sound at the base; it cools on a rack before cutting.",
+            "why": "Checking more than the top color and allowing the crumb to set helps avoid a gummy slice."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Little rise after the expected hour",
+            "cause": "The dough may be cool, or yeast may be inactive or have met hot porridge.",
+            "fix": "Allow more time in a gently warm place if it is rising slowly. If the yeast never became creamy or foamy and the dough remains unchanged, start again with fresh yeast and cooled porridge."
+          },
+          {
+            "problem": "Sticky, gummy slices",
+            "cause": "The loaf may have been sliced hot or underbaked.",
+            "fix": "Let the loaf cool completely before judging the crumb. For the next loaf, check the sides and base as well as the top; extra dusting flour does not repair a baked gummy center."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Butter in the porridge",
+            "alternative": "The same listed amount of margarine",
+            "effect": "An alternative in the attributed recipe; it changes the butter flavor. Keep the full molasses and water amounts."
+          }
+        ],
+        "storage": "Do not taste raw dough. Cool the plain loaf completely before wrapping. Freeze wrapped slices or a wrapped loaf for longer keeping, and thaw covered; added perishable spreads need their own refrigeration.",
+        "timing": "About 30 minutes of hands-on preparation, two rises planned at about 1 hour and 45 minutes, and about 30 minutes baking make roughly 3 hours to a baked loaf. Porridge cooling and yeast activation can partly overlap. Oven heating runs during the second rise; any remaining heating or slower rise extends the elapsed time. Complete rack cooling is additional before slicing.",
+        "sources": [
+          {
+            "title": "Allrecipes: Anadama Bread, submitted by Behr",
+            "url": "https://www.allrecipes.com/recipe/16245/anadama-bread/"
+          },
+          {
+            "title": "King Arthur Baking: bread doneness and cooling",
+            "url": "https://www.kingarthurbaking.com/blog/2023/05/31/how-to-tell-if-bread-is-done"
+          },
+          {
+            "title": "FDA: raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nAnadama is a quintessential New England bread, supposedly named after a fisherman's wife named Anna. The bread is defined by the bittersweet depth of molasses and the rustic texture of cornmeal. The secret is the cornmeal porridge: you must cook the cornmeal in water first to hydrate the starch, ensuring the bread stays moist rather than gritty. This traditional keeper pairs perfectly with salted butter or a bowl of chowder.\n\n## Directions\n\n1.  **The Porridge:** In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.\n2.  **Melt:** Stir in the butter and molasses. Let cool until lukewarm (critical - if too hot, it will kill the yeast).\n3.  **The Yeast:** In a large bowl, dissolve the yeast in the warm water. Let sit for 10 minutes until foamy.\n4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add two thirds of the measured flour and the salt. Gradually add the remaining flour until a shaggy dough forms.\n5.  **Knead:** Turn out onto a floured surface. Knead for 8-10 minutes until smooth and elastic. The dough should be slightly tacky but not sticky.\n6.  **Rise 1:** Place in an oiled bowl, cover, and let rise in a warm spot until doubled (about 1 hour).\n7.  **Shape:** Deflate the dough. Shape into a loaf and place in a greased 9x5 pan.\n8.  **Rise 2:** Cover and let rise again until doubled (about 45 minutes).\n9.  **Bake:** Bake at 375°F for 30 minutes until the top is dark golden brown and the bottom sounds hollow when tapped.\n",
+    "after": "\n## Chef's Note\n\nMolasses and a cooked cornmeal porridge give this New England bread its distinctive flavor and texture. Cool the porridge before adding it to the yeast, and let both rises reach their volume cues. A cooled loaf slices more cleanly than one cut straight from the oven.\n\n## Directions\n\n1. **Cook the porridge:** In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil over medium heat, stirring, and cook for about 5 minutes until thickened. Remove from the heat.\n\n2. **Cool:** Stir in the measured porridge butter and molasses. Let the mixture cool until lukewarm before it meets the yeast.\n\n3. **Activate the yeast:** In a large bowl, dissolve the active dry yeast in the listed warm water at 110°F. Let stand for about 10 minutes; look for a creamy, foamy surface.\n\n4. **Mix the dough:** Stir the cooled cornmeal mixture into the yeast mixture. Mix in two thirds of the measured flour and all the salt, then gradually add the remaining measured flour until a shaggy dough forms.\n\n5. **Knead:** Turn out onto a lightly floured surface. Knead for about 8–10 minutes until smooth and elastic, using only enough dusting flour to keep it manageable. The dough should remain slightly tacky.\n\n6. **First rise:** Lightly oil a bowl, place the dough inside and turn to coat it. Cover and leave in a warm spot until doubled in volume, about 1 hour.\n\n7. **Shape and heat the oven:** Deflate and shape the dough. The original batch makes one loaf in a butter-greased 9 x 5-inch loaf pan. For larger batches, divide into original-size loaves in separate pans. For a smaller or partial loaf, choose a suitable smaller pan with similar dough depth and room to rise, and begin bake checks earlier. Begin preheating the oven to 375°F while the loaves rise.\n\n8. **Second rise:** Cover and let the loaf double again, about 45 minutes. Wait until the oven has reached 375°F before loading.\n\n9. **Bake and cool:** For original-size loaves, begin checking around 30 minutes. Bake until the crust is deep golden and firm, the sides are baked and the bottom sounds hollow when tapped. Carefully turn the loaves out onto a rack and let them cool completely before slicing.\n"
+  },
+  "findings": [
+    {
+      "id": "BR02-01-01",
+      "field": "cookingMethods",
+      "rationale": "Keep actual cooking techniques; hand mixing/steam within baking is not a separate steam or blender cooking route.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "bc4b2ac7c71cb5f1b854ffc0a172a68c14d452f3a31ff9f6bfdc6d93afe2297d",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16245/anadama-bread/",
+          "applicability": "Attributed primary supports8core amounts, cooked porridge, yeast, two rises and375°F/9x5 pan; cooling is a separate editorial addition supported by King Arthur."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "BR02-01-02",
+      "field": "totalTime",
+      "rationale": "Preserve all eight core quantities and prior proportional water/flour repairs; supply already-required handling ingredients and explicit preheat, unmolding and cooling. Use observed rise/doneness states and identify the missing cooling time; remove unsupported nutrition and geographical/legend certainty.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "bc4b2ac7c71cb5f1b854ffc0a172a68c14d452f3a31ff9f6bfdc6d93afe2297d",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16245/anadama-bread/",
+          "applicability": "Attributed primary supports8core amounts, cooked porridge, yeast, two rises and375°F/9x5 pan; cooling is a separate editorial addition supported by King Arthur."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "BR02-01-03",
+      "field": "ingredients",
+      "rationale": "Preserve all eight core quantities and prior proportional water/flour repairs; supply already-required handling ingredients and explicit preheat, unmolding and cooling. Use observed rise/doneness states and identify the missing cooling time; remove unsupported nutrition and geographical/legend certainty.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "bc4b2ac7c71cb5f1b854ffc0a172a68c14d452f3a31ff9f6bfdc6d93afe2297d",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16245/anadama-bread/",
+          "applicability": "Attributed primary supports8core amounts, cooked porridge, yeast, two rises and375°F/9x5 pan; cooling is a separate editorial addition supported by King Arthur."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "BR02-01-04",
+      "field": "origin",
+      "rationale": "Origin is later bulk country/domain metadata without direct geographical-birth evidence for this particular recipe; omit only origin, preserving style/credits.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "BR02-01-05",
+      "field": "nutrition",
+      "rationale": "Inherited nutrition is unverified; no replacement calculation or tested yield is fabricated.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "BR02-01-06",
+      "field": "learning",
+      "rationale": "Preserve all eight core quantities and prior proportional water/flour repairs; supply already-required handling ingredients and explicit preheat, unmolding and cooling. Use observed rise/doneness states and identify the missing cooling time; remove unsupported nutrition and geographical/legend certainty.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "bc4b2ac7c71cb5f1b854ffc0a172a68c14d452f3a31ff9f6bfdc6d93afe2297d",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16245/anadama-bread/",
+          "applicability": "Attributed primary supports8core amounts, cooked porridge, yeast, two rises and375°F/9x5 pan; cooling is a separate editorial addition supported by King Arthur."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.kingarthurbaking.com/blog/2023/05/31/how-to-tell-if-bread-is-done",
+          "applicability": "Pan-loaf color/firmness/cooling rationale as a conservative editorial application, not a tested Anadama endpoint."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "BR02-01-07",
+      "field": "content",
+      "rationale": "Preserve all eight core quantities and prior proportional water/flour repairs; supply already-required handling ingredients and explicit preheat, unmolding and cooling. Use observed rise/doneness states and identify the missing cooling time; remove unsupported nutrition and geographical/legend certainty.",
+      "confidence": "High for exact retained facts, allocations and byte preservation; moderate for editorial process/timing/center checks, untested in the household kitchen.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "bc4b2ac7c71cb5f1b854ffc0a172a68c14d452f3a31ff9f6bfdc6d93afe2297d",
+          "applicability": "Exact first canonical cooking formula/method, corroborated by separately bound original cooking extract; not a kitchen test."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "67ad3b2cc4ddb313ebeffc249f090f6169b8b91819519a082fdf426516b0376b",
+          "applicability": "Complete actual followed cooking/metadata history. Explicit bulk changes are identified; absence of a documented household decision is not proof of the editor’s motive."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16245/anadama-bread/",
+          "applicability": "Attributed primary supports8core amounts, cooked porridge, yeast, two rises and375°F/9x5 pan; cooling is a separate editorial addition supported by King Arthur."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "applicability": "Raw flour/egg dough: no tasting, separate raw handling and clean utensils. Refrigerated waiting pastry dough40°F. Does not validate these formulas, fermentation clocks, baked centers, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.kingarthurbaking.com/blog/2023/05/31/how-to-tell-if-bread-is-done",
+          "applicability": "Pan-loaf color/firmness/cooling rationale as a conservative editorial application, not a tested Anadama endpoint."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+        "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+      ]
+    },
+    {
+      "id": "RELEASE-METADATA-1",
+      "rationale": "Actual Allrecipes primary description explicitly identifies New England, cornmeal and molasses. Retain supported regional context without restoring the unsupported name legend; no recipe quantity or process is changed.",
+      "confidence": "high",
+      "applicableSources": ["https://www.allrecipes.com/recipe/16245/anadama-bread/"],
+      "sourceApplicability": "Bounded exact release correction independently challenged; all complete cooking prose and ingredient amounts remain unchanged.",
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Anadama%20Bread.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently read, distinguished from later canonical Markdown.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://allrecipes.com/recipe/16245/anadama-bread/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "The first Git and exact native ingredients say butter, cornmeal and salt without the current unsalted/yellow/kosher properties. Preserve the current properties and amounts; the butter-or-margarine method option is recovered distinctly. No universal kosher-to-fine-salt conversion is inferred.",
+    "The native/publisher second rise says about 40 minutes; current 45 minutes is retained as a planning guide with doubled volume governing. Native 8 servings and current 1 loaf describe different units, not a measured 8-slice yield.",
+    "The fisherman/Anna legend is absent from the retained attributed recipe; remove the unsupported story and moisture guarantee. Later origin United States is bulk metadata; New England style is supported without proving this particular recipe’s birth country.",
+    "e7f48228 accepted first-listed-water and two-thirds-flour scaling repairs remain exact in meaning. Prior Oct 5 no-change review was narrow and did not certify the whole loaf, cooling, nutrition or legend."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1/2 cup Water",
+        "destination": "porridge 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1/4 cup Yellow Cornmeal",
+        "destination": "porridge 1",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "2 tbsp Unsalted Butter",
+        "destination": "melt 2",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1/2 cup Molasses (The signature flavor)",
+        "destination": "melt 2",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1 pkg (.25 oz) Active Dry Yeast",
+        "destination": "activate 3",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1/2 cup Warm Water (110°F)",
+        "destination": "activate 3",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "3 cups All-Purpose Flour",
+        "destination": "two thirds then remaining in dough 4; surface dusting not separately listed",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      },
+      {
+        "ingredient": "1 tsp Kosher Salt",
+        "destination": "dough 4",
+        "state": "Exactly frozen-current string; its stated preparation/temperature is retained. Missing destinations are named explicitly."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1/2 cup Water",
+        "destination": "porridge 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1/4 cup Yellow Cornmeal",
+        "destination": "porridge 1",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "2 tbsp Unsalted Butter",
+        "destination": "melt 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1/2 cup Molasses (The signature flavor)",
+        "destination": "melt 2",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1 pkg (.25 oz) Active Dry Yeast",
+        "destination": "activate 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "1/2 cup Warm Water (110°F)",
+        "destination": "activate 3",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "3 cups All-Purpose Flour",
+        "destination": "two thirds then remaining in dough 4",
+        "allocation": "2/3 +1/3 =whole measured flour; extra dusting separate"
+      },
+      {
+        "ingredient": "1 tsp Kosher Salt",
+        "destination": "dough 4",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "--- For handling ---",
+        "destination": "heading",
+        "allocation": "heading"
+      },
+      {
+        "ingredient": "Oil, for coating the rising bowl",
+        "destination": "coat bowl 6",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "Butter, for greasing the loaf pan",
+        "destination": "grease pan 7",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      },
+      {
+        "ingredient": "All-purpose flour, for dusting",
+        "destination": "dust surface 5",
+        "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+      }
+    ],
+    "exactSavedOriginal": [
+      {
+        "ingredient": "1/2 cup water",
+        "destination": "porridge",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1/4 cup cornmeal",
+        "destination": "porridge",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "2 tablespoons butter",
+        "destination": "melt into porridge; method names butter or margarine",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1/2 cup molasses",
+        "destination": "melt into porridge",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 (.25 ounce) package active dry yeast",
+        "destination": "activate in second water",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1/2 cup warm water (110 degrees F)",
+        "destination": "activate yeast",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "3 cups all-purpose flour, divided",
+        "destination": "2 cups then remaining 1 cup dough; extra dusting independent",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      },
+      {
+        "ingredient": "1 teaspoon salt",
+        "destination": "dough",
+        "state": "Exact retained original cooking record, not frozen-current ingredients."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Margarine porridge option",
+        "replace": 2,
+        "replacement": "2 tbsp Margarine",
+        "dest": "melt 2",
+        "route": "Same full recipe and all stages; replace only the listed porridge butter with the same amount of margarine. Handling butter remains a separate unmeasured allowance.",
+        "completeIngredientLedger": [
+          {
+            "ingredient": "1/2 cup Water",
+            "destination": "porridge 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/4 cup Yellow Cornmeal",
+            "destination": "porridge 1",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "2 tbsp Margarine",
+            "destination": "melt 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/2 cup Molasses (The signature flavor)",
+            "destination": "melt 2",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1 pkg (.25 oz) Active Dry Yeast",
+            "destination": "activate 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "1/2 cup Warm Water (110°F)",
+            "destination": "activate 3",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "3 cups All-Purpose Flour",
+            "destination": "two thirds then remaining in dough 4",
+            "allocation": "2/3 +1/3 =whole measured flour; extra dusting separate"
+          },
+          {
+            "ingredient": "1 tsp Kosher Salt",
+            "destination": "dough 4",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "--- For handling ---",
+            "destination": "heading",
+            "allocation": "heading"
+          },
+          {
+            "ingredient": "Oil, for coating the rising bowl",
+            "destination": "coat bowl 6",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "Butter, for greasing the loaf pan",
+            "destination": "grease pan 7",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          },
+          {
+            "ingredient": "All-purpose flour, for dusting",
+            "destination": "dust surface 5",
+            "allocation": "whole listed measured supply to the named destination; handling/serving allowances remain unmeasured"
+          }
+        ],
+        "exclusiveChoices": "Same full batch, separate route rather than duplicate shopping amounts."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "stage": "Cook the porridge",
+      "method": "In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil over medium heat, stirring, and cook for about 5 minutes until thickened. Remove from the heat.",
+      "ingredientDestinations": ["1/2 cup Water", "1/4 cup Yellow Cornmeal"]
+    },
+    {
+      "step": 2,
+      "stage": "Cool",
+      "method": "Stir in the measured porridge butter and molasses. Let the mixture cool until lukewarm before it meets the yeast.",
+      "ingredientDestinations": [
+        "2 tbsp Unsalted Butter",
+        "1/2 cup Molasses (The signature flavor)"
+      ]
+    },
+    {
+      "step": 3,
+      "stage": "Activate the yeast",
+      "method": "In a large bowl, dissolve the active dry yeast in the listed warm water at 110°F. Let stand for about 10 minutes; look for a creamy, foamy surface.",
+      "ingredientDestinations": ["1 pkg (.25 oz) Active Dry Yeast", "1/2 cup Warm Water (110°F)"]
+    },
+    {
+      "step": 4,
+      "stage": "Mix the dough",
+      "method": "Stir the cooled cornmeal mixture into the yeast mixture. Mix in two thirds of the measured flour and all the salt, then gradually add the remaining measured flour until a shaggy dough forms.",
+      "ingredientDestinations": ["3 cups All-Purpose Flour", "1 tsp Kosher Salt"]
+    },
+    {
+      "step": 5,
+      "stage": "Knead",
+      "method": "Turn out onto a lightly floured surface. Knead for about 8–10 minutes until smooth and elastic, using only enough dusting flour to keep it manageable. The dough should remain slightly tacky.",
+      "ingredientDestinations": ["All-purpose flour, for dusting"]
+    },
+    {
+      "step": 6,
+      "stage": "First rise",
+      "method": "Lightly oil a bowl, place the dough inside and turn to coat it. Cover and leave in a warm spot until doubled in volume, about 1 hour.",
+      "ingredientDestinations": ["Oil, for coating the rising bowl"]
+    },
+    {
+      "step": 7,
+      "stage": "Shape and heat the oven",
+      "method": "Deflate and shape the dough. The original batch makes one loaf in a butter-greased 9 x 5-inch loaf pan. For larger batches, divide into original-size loaves in separate pans. For a smaller or partial loaf, choose a suitable smaller pan with similar dough depth and room to rise, and begin bake checks earlier. Begin preheating the oven to 375°F while the loaves rise.",
+      "ingredientDestinations": ["Butter, for greasing the loaf pan"]
+    },
+    {
+      "step": 8,
+      "stage": "Second rise",
+      "method": "Cover and let the loaf double again, about 45 minutes. Wait until the oven has reached 375°F before loading.",
+      "ingredientDestinations": []
+    },
+    {
+      "step": 9,
+      "stage": "Bake and cool",
+      "method": "For original-size loaves, begin checking around 30 minutes. Bake until the crust is deep golden and firm, the sides are baked and the bottom sounds hollow when tapped. Carefully turn the loaves out onto a rack and let them cool completely before slicing.",
+      "ingredientDestinations": []
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["tomato-soup", "classic-beef-stew"],
+    "incomingMeals": [],
+    "scope": "No composed meal names these canonical slugs. Existing recipe pair suggestions remain; they do not certify another recipe or a coordinated meal."
+  },
+  "ratiosYieldAndCapacity": "The original loaf uses 3 cups wheat flour plus 1/4 cup cornmeal, 1 cup total water in two independent portions, 1/2 cup molasses, 2 tablespoons butter and one .25-ounce yeast package. No baker’s mass percentage is inferred from cup measures or molasses composition. One 9 x 5-inch pan makes one loaf, distinct from the native eight serving portions.",
+  "preservedPriorRepairs": ["e7f48228 first-listed-water and2/3-flour allocations."],
+  "remainingQuestions": [
+    "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
+    "Confirm pan material and actual finished loaf weight; no source flour grams or measured slice count are established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+  "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "releaseMetadataAmendment": {
+    "previousAcceptedSourceSha256": "c5974fd108226853afe0510dfcadbb93a2f283092ae743fbb439bf077bf237da",
+    "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
+    "fields": ["origin"],
+    "bodyAndIngredientsUnchanged": true,
+    "kitchenTested": false
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 75,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12151,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 87,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls and shared styles preserved; actual print preview unverified.",
+    "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
