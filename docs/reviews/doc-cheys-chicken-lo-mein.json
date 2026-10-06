@@ -1,0 +1,1254 @@
+{
+  "slug": "doc-cheys-chicken-lo-mein",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "9bf5cdd97ec6578e042b6b7555eb531900e6a252c72a61b4a313f889a71b986e",
+  "acceptedSourceSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "About 20–30 min active preparation with cooked noodles and edamame"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15–25 min cooking, depending on chicken batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 35–55 min, plus any separate noodle or edamame cooking"
+    },
+    {
+      "field": "servings",
+      "before": "2",
+      "after": "2 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 pound boneless chicken breast",
+        "Salt and pepper",
+        "1 tablespoon vegetable oil",
+        "2 teaspoons minced garlic",
+        "1 teaspoon minced ginger",
+        "1 cups sliced onions",
+        "1 cup sliced carrots",
+        "1 cup sliced bok choy",
+        "1 cup edamame",
+        "4 cups cooked egg noodles",
+        "Cantonese Sauce (see recipe)",
+        "2 tablespoons sliced scallions",
+        "Cantonese Sauce",
+        "1/4 cup soy sauce",
+        "1/4 cup Shaoxing cooking wine",
+        "1/4 cup oyster sauce",
+        "2 tablespoons granulated sugar"
+      ],
+      "after": [
+        "--- Cantonese sauce ---",
+        "1/4 cup Soy sauce",
+        "1/4 cup Shaoxing cooking wine",
+        "1/4 cup Oyster sauce",
+        "2 tbsp Granulated sugar",
+        "--- Chicken and vegetables ---",
+        "1 lb Boneless chicken breast, thin strips",
+        "Salt and pepper, to season the chicken",
+        "1 tbsp Vegetable oil",
+        "2 tsp Garlic, minced",
+        "1 tsp Ginger, minced",
+        "1 cup Onion, sliced",
+        "1 cup Carrot, sliced",
+        "1 cup Bok choy, sliced",
+        "1 cup Edamame, edible shelled beans, fully cooked per actual package instructions",
+        "4 cups Cooked egg noodles",
+        "2 tbsp Scallions, sliced"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "ajc.com",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 2,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "sauce",
+            "name": "Cantonese sauce",
+            "ingredients": [
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "Soy sauce",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "Shaoxing cooking wine",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oyster",
+                "key": "oyster",
+                "name": "Oyster sauce",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Chicken and vegetables",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "Boneless chicken breast",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "chicken",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thin strips"
+              },
+              {
+                "id": "seasoning",
+                "key": "seasoning",
+                "name": "Salt and pepper",
+                "allowance": "to season the chicken",
+                "uses": [
+                  {
+                    "step": "chicken",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Vegetable oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "chicken",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "Ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "Onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "carrot",
+                "key": "carrot",
+                "name": "Carrot",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "bok",
+                "key": "bok",
+                "name": "Bok choy",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "edamame",
+                "key": "edamame",
+                "name": "Edamame",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "edible shelled beans, fully cooked per actual package instructions"
+              },
+              {
+                "id": "noodles",
+                "key": "noodles",
+                "name": "Cooked egg noodles",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "Scallions",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Make the sauce",
+            "text": "Whisk {{ingredients}} until the sugar dissolves. Set aside the complete prepared batch for the final toss."
+          },
+          {
+            "id": "chicken",
+            "title": "Cook the chicken",
+            "text": "Use {{ingredients}}. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean plate; keep raw-contact utensils away from cooked food."
+          },
+          {
+            "id": "vegetables",
+            "title": "Cook the vegetables",
+            "text": "Have {{ingredients}} ready. Add garlic and ginger to the pan and stir for about 30 seconds until fragrant without burning. Add onions, carrots and bok choy, and stir until crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat through; lower heat if the pan catches rather than leaving aromatics to burn."
+          },
+          {
+            "id": "finish",
+            "title": "Combine",
+            "text": "Add {{ingredients}}, the full prepared sauce batch and cooked chicken. Lift and toss gently until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it coats the noodles. For multiple pan batches, divide cooked components and sauce proportionally."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Divide among bowls and garnish with {{ingredients}}."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Doc Chey’s chicken lo mein uses one prepared soy-wine-oyster sauce with all the listed vegetables and noodles",
+        "outcome": "Cooked chicken and all the vegetables evenly coated with one prepared Cantonese sauce.",
+        "techniques": ["stir-frying", "temperature"],
+        "before": [
+          "At the original batch, plan two portions. Use a wok or skillet large enough to toss the listed cooked noodles with all the vegetables; split into batches if needed. The original batch uses four cups cooked noodles, and actual bowl size depends on how the dish is served.",
+          "Make one complete batch of the listed sauce and add it at the final toss. The soy sauce, wine, oyster sauce and sugar listed in that component are all its ingredients.",
+          "Cook frozen edamame according to its actual package, then shell and measure the listed edible beans. Do not assume a brief vegetable stir-fry cooks a frozen product that requires longer preparation."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Thickest chicken pieces reach 165°F and move to a clean plate.",
+            "why": "Browning and elapsed time do not establish the chicken’s internal temperature."
+          },
+          {
+            "step": 4,
+            "cue": "All noodles, chicken and vegetables are hot and evenly coated.",
+            "why": "Add the prepared sauce once and stop reducing when it coats the noodles; reducing by a fixed fraction can overconcentrate it."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Chicken steams or noodles are hard to toss",
+            "cause": "Pan is overcrowded or noodles were not prepared in advance",
+            "fix": "Cook chicken in smaller loads, keep cooked food on a clean plate and toss the complete noodle mixture in manageable batches with sauce divided proportionally."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Freshly cooked egg noodles",
+            "alternative": "Use chilled cooked noodles prepared ahead at the same listed cooked volume.",
+            "effect": "Refrigerate promptly and use within 3–4 days. Loosen gently and heat the finished leftovers to 165°F; no dried-weight conversion is supplied."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.",
+        "timing": "About 20–30 min active preparation with cooked noodles and edamame; About 15–25 min cooking, depending on chicken batches; About 35–55 min, plus any separate noodle or edamame cooking. Plan for extra time if the actual pan loads or component preparation take longer.",
+        "sources": [
+          {
+            "title": "AJC — Doc Chey’s Chicken Lo Mein",
+            "url": "https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/"
+          },
+          {
+            "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nDoc Chey’s lo mein uses a soy, wine and oyster-sauce mixture with chicken and several vegetables. Have the cooked noodles and sauce ready before heating the wok, and return the cooked chicken only near the end.\n\n## Directions\n\n1. **Prepare:** Cut chicken into thin strips and season with salt and pepper. Whisk soy sauce, Shaoxing wine, oyster sauce and sugar together until sugar dissolves. Prepare the cooked noodles and vegetables before heating the pan.\n\n2. **Cook:** Heat oil in a large wok or skillet over medium-high heat. Sear chicken in uncrowded batches, about 3 minutes or as needed, until the thickest pieces reach 165°F / 74°C. Transfer to a clean plate.\n\n3. **Continue:** Add garlic and ginger to the pan and stir about 30 seconds. Add onions, carrots, bok choy and edamame. Stir-fry about 4 minutes, until vegetables are tender-crisp; use fully cooked edamame prepared according to its package.\n\n4. **Continue:** Add noodles and the prepared Cantonese sauce. Return chicken and toss about 3 minutes, until hot and coated and the sauce has reduced. Divide between bowls and garnish with scallions.\n",
+    "after": "\n## Chef's Note\n\nDoc Chey’s chicken lo mein uses one prepared soy-wine-oyster sauce with all the listed vegetables and noodles. Have cooked noodles and properly cooked edamame ready before heating the pan. Keep the chicken in small loads so it cooks through, then return it near the end.\n\n## Directions\n\n1. **Make the sauce:** Whisk Soy sauce, Shaoxing cooking wine, Oyster sauce, and Granulated sugar until the sugar dissolves. Set aside the complete prepared batch for the final toss.\n2. **Cook the chicken:** Use Boneless chicken breast, Salt and pepper, and Vegetable oil. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean plate; keep raw-contact utensils away from cooked food.\n3. **Cook the vegetables:** Have Garlic, Ginger, Onion, Carrot, Bok choy, and Edamame ready. Add garlic and ginger to the pan and stir for about 30 seconds until fragrant without burning. Add onions, carrots and bok choy, and stir until crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat through; lower heat if the pan catches rather than leaving aromatics to burn.\n4. **Combine:** Add Cooked egg noodles, the full prepared sauce batch and cooked chicken. Lift and toss gently until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it coats the noodles. For multiple pan batches, divide cooked components and sauce proportionally.\n5. **Serve:** Divide among bowls and garnish with Scallions.\n"
+  },
+  "findings": [
+    {
+      "id": "N02-ROOT-1",
+      "title": "whole source and ingredient allocation",
+      "rationale": "Exact original native source gives sauce makes¾cup and adds Cantonese Sauce without specifying a reserved portion. Current whole prepared-batch use is retained explicitly; no arbitrary sauce reduction based on a different green-bean article. Source method says cabbage while ingredient list says bokchoy; currentbokchoy destination is kept, not converted to a new vegetable quantity. Saved original edamame was missing from its method; accepted imported package-cooked edamame destination remains. Direct AJC lo-mein fetch failed. Separate AJC green-bean article has a different sauce batch and cannot establish the lo-mein dose; original identity-bound native is the evidence.",
+      "confidence": "High for original/current exact proof and arithmetic; source yields remain claims, household choice/untested clocks as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record household pan loads and elapsed time.",
+        "Confirm edible shelled edamame preparation/product; original ingredient does not specify pods.",
+        "Confirm full saved sauce batch preference; original method does not state a separate fraction to reserve."
+      ]
+    },
+    {
+      "id": "N02-ROOT-2",
+      "title": "complete cooking method",
+      "rationale": "Follow every ingredient through preparation, destination and selected variant; preserve accepted raw-contact and endpoint repairs, qualify clocks and original geometry.",
+      "confidence": "High for applicable measured endpoints/source method; moderate for untested planning ranges",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record household pan loads and elapsed time.",
+        "Confirm edible shelled edamame preparation/product; original ingredient does not specify pods.",
+        "Confirm full saved sauce batch preference; original method does not state a separate fraction to reserve."
+      ]
+    },
+    {
+      "id": "N02-ROOT-3",
+      "title": "one sauce batch",
+      "rationale": "Original native explicitly has one batch and says makes¾cup; no dose or extra sauce invented.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record household pan loads and elapsed time.",
+        "Confirm edible shelled edamame preparation/product; original ingredient does not specify pods.",
+        "Confirm full saved sauce batch preference; original method does not state a separate fraction to reserve."
+      ]
+    },
+    {
+      "id": "N02-ROOT-4",
+      "title": "edamame and chicken states",
+      "rationale": "Current safety/ingredient destination repairs remain; original cabbage versusbokchoy discrepancy does not replace listed bokchoy.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record household pan loads and elapsed time.",
+        "Confirm edible shelled edamame preparation/product; original ingredient does not specify pods.",
+        "Confirm full saved sauce batch preference; original method does not state a separate fraction to reserve."
+      ]
+    },
+    {
+      "id": "N02-ROOT-5",
+      "title": "exact comparison scope",
+      "rationale": "Use complete originals and proposals for integration; short summaries are not presented as byte-exact quotes.",
+      "confidence": "High, programmatic snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-6",
+      "title": "Authorized subsequent peer correction N02-03",
+      "rationale": "A publisher domain is not a geographic origin. It was introduced as metadata; omit only this origin, preserve cuisine style, source and exact sourceUrl. Do not invent a replacement country.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "e3001d04 metadata addition and unchanged formula"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-7",
+      "title": "Authorized subsequent peer correction N02-15",
+      "rationale": "Keep the existing approximate preparation/cooking/total labels and dependencies; put kitchen-test status in the private record, not public cooking guidance.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-8",
+      "title": "Authorized subsequent peer correction N02-22",
+      "rationale": "The two-source-portion plan is supported; the fixed four-cup sentence must explicitly refer to the original batch because UI scales ingredients and leaves learning prose unchanged.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original four cooked cups and method Serves2; no weighed-yield certification"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-9",
+      "title": "Authorized subsequent peer correction N02-23",
+      "rationale": "Teach the165°F checkpoint without source-review phrasing.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Chicken165°F measured endpoint"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-10",
+      "title": "Authorized subsequent peer correction N02-24",
+      "rationale": "Preserve the full single sauce batch and sensory endpoint; remove editorial reference to a manufactured half-volume finding.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Doc%20Chey%E2%80%99s%20Chinese%20Lomein.html",
+    "introductionScope": "Actual earliest saved HTML plus earliest canonical culinary ancestor recovered; renamed/copy/reintroduced source is one stable current recipe.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact original native source gives sauce makes¾cup and adds Cantonese Sauce without specifying a reserved portion. Current whole prepared-batch use is retained explicitly; no arbitrary sauce reduction based on a different green-bean article.",
+    "Source method says cabbage while ingredient list says bokchoy; currentbokchoy destination is kept, not converted to a new vegetable quantity.",
+    "Saved original edamame was missing from its method; accepted imported package-cooked edamame destination remains.",
+    "Direct AJC lo-mein fetch failed. Separate AJC green-bean article has a different sauce batch and cannot establish the lo-mein dose; original identity-bound native is the evidence."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1 pound boneless chicken breast",
+        "destinationOrQuestion": "chicken:full1lbthinstrips165"
+      },
+      {
+        "row": 2,
+        "ingredient": "Salt and pepper",
+        "destinationOrQuestion": "chicken:seasoningallowance"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 tablespoon vegetable oil",
+        "destinationOrQuestion": "chicken:full1tbspoil, reusablepanfat"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 teaspoons minced garlic",
+        "destinationOrQuestion": "vegetables:2tspgarlic"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 teaspoon minced ginger",
+        "destinationOrQuestion": "vegetables:1tspginger"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 cups sliced onions",
+        "destinationOrQuestion": "vegetables:full1cuponion"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 cup sliced carrots",
+        "destinationOrQuestion": "vegetables:full1cupcarrot"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 cup sliced bok choy",
+        "destinationOrQuestion": "vegetables:full1cupbok"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 cup edamame",
+        "destinationOrQuestion": "vegetables:full1cupediblecookededamame"
+      },
+      {
+        "row": 10,
+        "ingredient": "4 cups cooked egg noodles",
+        "destinationOrQuestion": "finish:full4cupsCOOKEDnoodles"
+      },
+      {
+        "row": 11,
+        "ingredient": "Cantonese Sauce (see recipe)",
+        "destinationOrQuestion": "Reference to preparedsauce below; not a second amount"
+      },
+      {
+        "row": 12,
+        "ingredient": "2 tablespoons sliced scallions",
+        "destinationOrQuestion": "serve:all2tbspscallions"
+      },
+      {
+        "row": 13,
+        "ingredient": "Cantonese Sauce",
+        "destinationOrQuestion": "Sauce component heading"
+      },
+      {
+        "row": 14,
+        "ingredient": "1/4 cup soy sauce",
+        "destinationOrQuestion": "sauce thenfinish:¼cupsoy"
+      },
+      {
+        "row": 15,
+        "ingredient": "1/4 cup Shaoxing cooking wine",
+        "destinationOrQuestion": "sauce thenfinish:¼cupwine"
+      },
+      {
+        "row": 16,
+        "ingredient": "1/4 cup oyster sauce",
+        "destinationOrQuestion": "sauce thenfinish:¼cupoyster"
+      },
+      {
+        "row": 17,
+        "ingredient": "2 tablespoons granulated sugar",
+        "destinationOrQuestion": "sauce thenfinish:full2tbspsugar"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Soy sauce",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Shaoxing cooking wine",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Oyster sauce",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Granulated sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Boneless chicken breast",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "thin strips",
+        "destinations": [
+          {
+            "step": "chicken",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt and pepper",
+        "quantity": null,
+        "allowance": "to season the chicken",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "chicken",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Vegetable oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "chicken",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Carrot",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Bok choy",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Edamame",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "edible shelled beans, fully cooked per actual package instructions",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cooked egg noodles",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Scallions",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Freshly cooked egg noodles",
+        "alternative": "Use chilled cooked noodles prepared ahead at the same listed cooked volume.",
+        "effect": "Refrigerate promptly and use within 3–4 days. Loosen gently and heat the finished leftovers to 165°F; no dried-weight conversion is supplied."
+      }
+    ],
+    "preparedComponents": "Full prepared sauce made once and added once; repeated sauce labels are references, not extra doses."
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Freshly cooked egg noodles",
+        "alternative": "Use chilled cooked noodles prepared ahead at the same listed cooked volume.",
+        "effect": "Refrigerate promptly and use within 3–4 days. Loosen gently and heat the finished leftovers to 165°F; no dried-weight conversion is supplied."
+      }
+    ],
+    "preparedComponents": "Full prepared sauce made once and added once; repeated sauce labels are references, not extra doses.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Freshly cooked egg noodles",
+        "alternative": "Use chilled cooked noodles prepared ahead at the same listed cooked volume.",
+        "effect": "Refrigerate promptly and use within 3–4 days. Loosen gently and heat the finished leftovers to 165°F; no dried-weight conversion is supplied."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "scope": "No linked-meal certification; rice/noodles/edamame component preparation clocks separate"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "2 portions",
+    "scope": "Saved source planning claim; not measured yield or kitchen test",
+    "pan": "At the original batch, plan two portions. Use a wok or skillet large enough to toss the listed cooked noodles with all the vegetables; split into batches if needed. The original batch uses four cups cooked noodles, and actual bowl size depends on how the dish is served.",
+    "timing": [
+      "About 20–30 min active preparation with cooked noodles and edamame",
+      "About 15–25 min cooking, depending on chicken batches",
+      "About 35–55 min, plus any separate noodle or edamame cooking"
+    ],
+    "scale": "Measured formula values scale together; actual pan loads/product state/endpoints govern timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Cantonese sauce ---",
+        "1/8 cup Soy sauce",
+        "1/8 cup Shaoxing cooking wine",
+        "1/8 cup Oyster sauce",
+        "1 tbsp Granulated sugar",
+        "--- Chicken and vegetables ---",
+        "1/2 lb Boneless chicken breast, thin strips",
+        "Salt and pepper, to season the chicken",
+        "1/2 tbsp Vegetable oil",
+        "1 tsp Garlic, minced",
+        "1/2 tsp Ginger, minced",
+        "1/2 cup Onion, sliced",
+        "1/2 cup Carrot, sliced",
+        "1/2 cup Bok choy, sliced",
+        "1/2 cup Edamame, edible shelled beans, fully cooked per actual package instructions",
+        "2 cups Cooked egg noodles",
+        "1 tbsp Scallions, sliced"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Make the sauce:** Whisk Soy sauce, Shaoxing cooking wine, Oyster sauce, and Granulated sugar until the sugar dissolves. Set aside the complete prepared batch for the final toss.\n2. **Cook the chicken:** Use Boneless chicken breast, Salt and pepper, and Vegetable oil. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean plate; keep raw-contact utensils away from cooked food.\n3. **Cook the vegetables:** Have Garlic, Ginger, Onion, Carrot, Bok choy, and Edamame ready. Add garlic and ginger to the pan and stir for about 30 seconds until fragrant without burning. Add onions, carrots and bok choy, and stir until crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat through; lower heat if the pan catches rather than leaving aromatics to burn.\n4. **Combine:** Add Cooked egg noodles, the full prepared sauce batch and cooked chicken. Lift and toss gently until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it coats the noodles. For multiple pan batches, divide cooked components and sauce proportionally.\n5. **Serve:** Divide among bowls and garnish with Scallions.",
+      "shopping": [
+        "1/8 cup Soy sauce",
+        "1/8 cup Shaoxing cooking wine",
+        "1/8 cup Oyster sauce",
+        "1 tbsp Granulated sugar",
+        "1/2 lb Boneless chicken breast",
+        "Salt and pepper, to season the chicken",
+        "1/2 tbsp Vegetable oil",
+        "1 tsp Garlic",
+        "1/2 tsp Ginger",
+        "1/2 cup Onion",
+        "1/2 cup Carrot",
+        "1/2 cup Bok choy",
+        "1/2 cup Edamame",
+        "2 cups Cooked egg noodles",
+        "1 tbsp Scallions"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Cantonese sauce ---",
+        "1/4 cup Soy sauce",
+        "1/4 cup Shaoxing cooking wine",
+        "1/4 cup Oyster sauce",
+        "2 tbsp Granulated sugar",
+        "--- Chicken and vegetables ---",
+        "1 lb Boneless chicken breast, thin strips",
+        "Salt and pepper, to season the chicken",
+        "1 tbsp Vegetable oil",
+        "2 tsp Garlic, minced",
+        "1 tsp Ginger, minced",
+        "1 cup Onion, sliced",
+        "1 cup Carrot, sliced",
+        "1 cup Bok choy, sliced",
+        "1 cup Edamame, edible shelled beans, fully cooked per actual package instructions",
+        "4 cups Cooked egg noodles",
+        "2 tbsp Scallions, sliced"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Make the sauce:** Whisk Soy sauce, Shaoxing cooking wine, Oyster sauce, and Granulated sugar until the sugar dissolves. Set aside the complete prepared batch for the final toss.\n2. **Cook the chicken:** Use Boneless chicken breast, Salt and pepper, and Vegetable oil. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean plate; keep raw-contact utensils away from cooked food.\n3. **Cook the vegetables:** Have Garlic, Ginger, Onion, Carrot, Bok choy, and Edamame ready. Add garlic and ginger to the pan and stir for about 30 seconds until fragrant without burning. Add onions, carrots and bok choy, and stir until crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat through; lower heat if the pan catches rather than leaving aromatics to burn.\n4. **Combine:** Add Cooked egg noodles, the full prepared sauce batch and cooked chicken. Lift and toss gently until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it coats the noodles. For multiple pan batches, divide cooked components and sauce proportionally.\n5. **Serve:** Divide among bowls and garnish with Scallions.",
+      "shopping": [
+        "1/4 cup Soy sauce",
+        "1/4 cup Shaoxing cooking wine",
+        "1/4 cup Oyster sauce",
+        "2 tbsp Granulated sugar",
+        "1 lb Boneless chicken breast",
+        "Salt and pepper, to season the chicken",
+        "1 tbsp Vegetable oil",
+        "2 tsp Garlic",
+        "1 tsp Ginger",
+        "1 cup Onion",
+        "1 cup Carrot",
+        "1 cup Bok choy",
+        "1 cup Edamame",
+        "4 cups Cooked egg noodles",
+        "2 tbsp Scallions"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Cantonese sauce ---",
+        "1/2 cup Soy sauce",
+        "1/2 cup Shaoxing cooking wine",
+        "1/2 cup Oyster sauce",
+        "4 tbsp Granulated sugar",
+        "--- Chicken and vegetables ---",
+        "2 lb Boneless chicken breast, thin strips",
+        "Salt and pepper, to season the chicken",
+        "2 tbsp Vegetable oil",
+        "4 tsp Garlic, minced",
+        "2 tsp Ginger, minced",
+        "2 cups Onion, sliced",
+        "2 cups Carrot, sliced",
+        "2 cups Bok choy, sliced",
+        "2 cups Edamame, edible shelled beans, fully cooked per actual package instructions",
+        "8 cups Cooked egg noodles",
+        "4 tbsp Scallions, sliced"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Make the sauce:** Whisk Soy sauce, Shaoxing cooking wine, Oyster sauce, and Granulated sugar until the sugar dissolves. Set aside the complete prepared batch for the final toss.\n2. **Cook the chicken:** Use Boneless chicken breast, Salt and pepper, and Vegetable oil. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean plate; keep raw-contact utensils away from cooked food.\n3. **Cook the vegetables:** Have Garlic, Ginger, Onion, Carrot, Bok choy, and Edamame ready. Add garlic and ginger to the pan and stir for about 30 seconds until fragrant without burning. Add onions, carrots and bok choy, and stir until crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat through; lower heat if the pan catches rather than leaving aromatics to burn.\n4. **Combine:** Add Cooked egg noodles, the full prepared sauce batch and cooked chicken. Lift and toss gently until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it coats the noodles. For multiple pan batches, divide cooked components and sauce proportionally.\n5. **Serve:** Divide among bowls and garnish with Scallions.",
+      "shopping": [
+        "1/2 cup Soy sauce",
+        "1/2 cup Shaoxing cooking wine",
+        "1/2 cup Oyster sauce",
+        "4 tbsp Granulated sugar",
+        "2 lb Boneless chicken breast",
+        "Salt and pepper, to season the chicken",
+        "2 tbsp Vegetable oil",
+        "4 tsp Garlic",
+        "2 tsp Ginger",
+        "2 cups Onion",
+        "2 cups Carrot",
+        "2 cups Bok choy",
+        "2 cups Edamame",
+        "8 cups Cooked egg noodles",
+        "4 tbsp Scallions"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Cantonese sauce ---",
+        "1/4 cup Soy sauce",
+        "1/4 cup Shaoxing cooking wine",
+        "1/4 cup Oyster sauce",
+        "2 tbsp Granulated sugar",
+        "--- Chicken and vegetables ---",
+        "1 lb Boneless chicken breast, thin strips",
+        "Salt and pepper, to season the chicken",
+        "1 tbsp Vegetable oil",
+        "2 tsp Garlic, minced",
+        "1 tsp Ginger, minced",
+        "1 cup Onion, sliced",
+        "1 cup Carrot, sliced",
+        "1 cup Bok choy, sliced",
+        "1 cup Edamame, edible shelled beans, fully cooked per actual package instructions",
+        "4 cups Cooked egg noodles",
+        "2 tbsp Scallions, sliced"
+      ],
+      "yield": "2 portions"
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Full1lbchicken/1tbspoil",
+    "All1cupEACHonion/carrot/bokchoy/edamame",
+    "Full4cupsCOOKEDnoodles",
+    "All¼cupEACHsoy/wine/oyster and2tbsp sugar",
+    "All2tbsp scallions",
+    "Current chicken165°F/cleanplate and actual-package cookededamame repairs",
+    "Title/restaurant attribution/URL retained"
+  ],
+  "remainingQuestions": [
+    "Record household pan loads and elapsed time.",
+    "Confirm edible shelled edamame preparation/product; original ingredient does not specify pods.",
+    "Confirm full saved sauce batch preference; original method does not state a separate fraction to reserve."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

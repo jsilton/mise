@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 503,
-    "completeEditorialPending": 140,
+    "recordedCompleteEditorial": 512,
+    "completeEditorialPending": 131,
     "originalBaseline": 612,
-    "originalReviewed": 470,
+    "originalReviewed": 476,
     "consideredConsolidations": 10,
-    "originalPending": 132,
+    "originalPending": 126,
     "additionalSources": 41,
-    "additionalReviewed": 33,
-    "additionalPending": 8,
+    "additionalReviewed": 36,
+    "additionalPending": 5,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 503,
+      "editoriallyReviewed": 512,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 270
+      "reviewItems": 256
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "269 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 503 recorded complete / 140 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [8bbde922](https://github.com/jsilton/mise/commit/8bbde922fd3ec820b5c8f57b6c0b063a599e91c7), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37460085760) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "269 campaign versions are verified live; 9 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1606,13 +1606,7 @@
       "baseline": "addition",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/pad-see-ew/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1620,19 +1614,26 @@
         "evidence": ["docs/reviews/beef-pad-see-ew.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/beef-pad-see-ew.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/beef-pad-see-ew.json",
+        "sourceSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm household noodle product and pan batch count.",
+        "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+        "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1704,13 +1705,7 @@
       "baseline": "addition",
       "source": "foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ree-drummond/beef-with-snow-peas-recipe-3381538",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1718,19 +1713,25 @@
         "evidence": ["docs/reviews/beef-with-snow-peas.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/beef-with-snow-peas.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/beef-with-snow-peas.json",
+        "sourceSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual household main-meal portions with rice.",
+        "Verify pan batch count and elapsed time; do not assume the source’s brief clocks fully cook every slice."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8398,18 +8399,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/shanghai-fried-noodles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8417,12 +8407,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cu-chao-mian.md",
+        "acceptedSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/cu-chao-mian.json",
+        "sourceSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -8431,11 +8427,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+        "Record actual pan batch size and timing.",
+        "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8810,13 +8807,7 @@
       "baseline": "addition",
       "source": "ajc.com",
       "sourceUrl": "https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8824,19 +8815,26 @@
         "evidence": ["docs/reviews/doc-cheys-chicken-lo-mein.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/doc-cheys-chicken-lo-mein.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/doc-cheys-chicken-lo-mein.json",
+        "sourceSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record household pan loads and elapsed time.",
+        "Confirm edible shelled edamame preparation/product; original ingredient does not specify pods.",
+        "Confirm full saved sauce batch preference; original method does not state a separate fraction to reserve."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15226,18 +15224,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15245,19 +15232,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/kimchi-jjigae-kimchi-stew.md",
+        "acceptedSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/kimchi-jjigae-kimchi-stew.json",
+        "sourceSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Thin-probe access and actual pork cut/thickness/tenderness must be checked;145+3minute hot-simmer application needs peer/root challenge.",
+        "Vegetarian sauce/kimchi products and flavor equivalence are not supplied; no homemade fish-sauce conversion claimed.",
+        "Existing beef note lacks a cut/schedule and is explicitly unresolved.",
+        "Incoming KimchiJjigaeComfort meal has unlisted beans, simultaneous pork/tofu and staggered-service handling; remains unreviewed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18361,13 +18356,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Domesticsuperhero.com",
       "sourceUrl": "https://domesticsuperhero.com/one-pot-spicy-thai-noodles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -18378,12 +18367,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/one-pot-spicy-thai-noodles.md",
+        "acceptedSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/one-pot-spicy-thai-noodles.json",
+        "sourceSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -18392,12 +18387,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Four generous portions versus modern source six are unmeasured plans.",
+        "Optional raw-protein preparation remains separately timed; actual pot capacity determines extra batches.",
+        "Original red-flake amount and modern¼cup peanuts are source differences, not authority to reduce the current full peanut supply."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18687,18 +18682,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1025396-pad-woon-sen",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -18706,19 +18690,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pad-woon-sen.md",
+        "acceptedSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pad-woon-sen.json",
+        "sourceSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual noodle package instructions and pan usable capacity need cooking checks.",
+        "Original4–6 versus current4 portions remain unmeasured planning.",
+        "Compare rinsed combined-vegetable and separate unrinsed routes without assuming identical texture."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -19248,18 +19239,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -19267,19 +19247,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/peanut-noodles.md",
+        "acceptedSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/peanut-noodles.json",
+        "sourceSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual peanut butter, noodles and bowl capacity affect sauce water and portion size.",
+        "No independent original publisher is established for this Git-authored formula.",
+        "Four portions and current nutrition were unverified; no replacement precision offered."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27500,18 +27487,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/thai-basil-noodles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27519,19 +27495,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/thai-basil-noodles.md",
+        "acceptedSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/thai-basil-noodles.json",
+        "sourceSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual rice noodle package and pan capacity are not measured.",
+        "Meat and vegetable route sauce intensity/portion sizes need kitchen comparison.",
+        "Source card omits dark soy mixing destination; explicit inclusion is an editorial allocation supported by listed ingredient and source narrative."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

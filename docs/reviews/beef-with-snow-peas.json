@@ -1,0 +1,685 @@
+{
+  "slug": "beef-with-snow-peas",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "0ff4511e49dc79b56c5c0788d96ff2ced660e9a140c0f4b3600ae899d3a216e6",
+  "acceptedSourceSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–25 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 10–20 min cooking, depending on pan loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min, plus any separate rice cooking",
+      "after": "About 30–45 min, plus separate rice cooking"
+    },
+    {
+      "field": "origin",
+      "before": "foodnetwork.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Slice flank steak thinly across the grain and divide the sauce before it touches raw meat",
+        "outcome": "Tender beef, crisp-tender snow peas and all the scallions with thickened sauce.",
+        "techniques": ["stir-frying", "temperature"],
+        "before": [
+          "At the original batch, plan eight servings with rice. Scale the ingredients together and use more beef batches as needed; actual portion size depends on the rice and how the dish is served.",
+          "Whisk the sauce before dividing: one-third coats raw beef and two-thirds stays clean for finishing. Leave excess raw-contact marinade behind and discard it.",
+          "Use one-half of the scallions with each half of the beef in the original batch; more pan batches should divide the full scallion amount proportionally."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "All beef reaches 145°F, the finishing sauce has thickened, and the dish rests 3 minutes before serving.",
+            "why": "Thin meat and browning cues still need a measured endpoint; simmering finishes the cornstarch."
+          },
+          {
+            "step": 3,
+            "cue": "Scallions are distributed across all beef batches.",
+            "why": "Repeating only the meat instruction must not leave half the scallions unused."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Beef steams or sauce stays cloudy",
+            "cause": "Pan is crowded or the starch-containing sauce has not simmered",
+            "fix": "Use smaller beef loads. Restir the clean reserved sauce before adding it and cook until gently bubbling and evenly thickened, keeping the meat endpoint as well."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Peanut oil",
+            "alternative": "Use the listed olive-oil alternative.",
+            "effect": "Keep the full 3 tbsp original-batch total; control heat so the selected oil does not smoke."
+          },
+          {
+            "ingredient": "Sherry",
+            "alternative": "Use cooking sherry at the same listed amount.",
+            "effect": "Cooking sherry may contain salt, so keep the final salt allowance to taste."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F throughout; Snow peas lose some crunch in storage.",
+        "timing": "About 15–25 min active preparation; About 10–20 min cooking, depending on pan loads; About 30–45 min, plus separate rice cooking. Plan for extra time if the actual pan loads or component preparation take longer.",
+        "sources": [
+          {
+            "title": "Food Network — Ree Drummond’s Beef with Snow Peas",
+            "url": "https://www.foodnetwork.com/recipes/ree-drummond/beef-with-snow-peas-recipe-3381538"
+          },
+          {
+            "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThinly cut flank steak and brief cooking keep this stir-fry tender. Divide the sauce before it touches raw beef and use a clean plate for cooked meat. Cook in batches so the steak sears instead of steaming.\n\n## Directions\n\n1. **Mix:** In a bowl, mix together the soy sauce, sherry, cornstarch, brown sugar and ginger. Add the beef to a separate bowl and pour one-third of the liquid over the top. Save the rest of the liquid. Toss the beef and set aside.\n\n2. **Cook:** Heat the oil in a heavy skillet (iron is best) over high heat. Add the snow peas and stir for 45 seconds, getting as much color on them as possible. Remove to a plate.\n\n3. **Finish:** Allow the skillet to get very hot again. With tongs, add half the meat mixture, leaving most of the marinade still in the bowl. Spread out the meat as you add it to skillet, but do not stir for a good minute. (You want the meat to get as brown as possible as quickly as possible.) Sprinkle half the scallions over the meat. Flip the meat to the other side and cook for another 30 seconds. Remove to a clean plate.\n\n4. **Continue:** Repeat with the other half of the meat, allowing the skillet to get very hot again first. After flipping, add the first plateful of meat, the reserved liquid, the crushed red pepper and snow peas. Stir over high heat for 30 seconds, and then turn off the heat. Check the seasonings and add salt only if it needs it. The mixture will thicken as it sits. Use a clean plate for the first cooked batch. Discard the raw-contact marinade; the reserved sauce must have been kept separate. Check beef for 145°F / 63°C and allow three minutes before serving. Serve immediately over rice.\n",
+    "after": "\n## Chef's Note\n\nSlice flank steak thinly across the grain and divide the sauce before it touches raw meat. Cook the beef in uncrowded batches and keep the cooked batch on a clean plate. Add the second half of the scallions with the second beef batch so all the listed scallions reach the finished dish.\n\n## Directions\n\n1. **Divide the sauce:** Whisk soy sauce, sherry, cornstarch, brown sugar and ginger until smooth. Pour one-third into a separate bowl with the thinly sliced beef; keep the other two-thirds clean for finishing. Toss beef to coat and keep refrigerated while preparing the pan.\n2. **Cook snow peas:** Heat the full listed oil in a heavy skillet or wok over medium-high heat until shimmering, without letting it smoke. Add trimmed snow peas and stir until bright and crisp-tender, starting checks after about 45 seconds. Transfer to a plate.\n3. **Cook beef batches and all scallions:** Bring the pan back to cooking heat. Lift half the beef from its coating with tongs, leaving excess marinade in the raw bowl, and spread in a thin layer. Add half the sliced scallions. Let the first side brown, starting checks around 1 minute, then turn and continue as needed. Transfer to a clean plate. Repeat with the other half of BOTH beef and scallions. If the pan needs more than two loads, divide both ingredients across those loads rather than crowding it. Discard the unused raw-contact marinade; do not use that bowl for cooked food.\n4. **Finish and check:** Return cooked beef and snow peas to the pan. Restir the clean reserved sauce and add it with crushed red pepper. Stir over heat until the sauce gently bubbles and thickens and all the beef reaches 145°F /63°C. Remove from heat and rest at least 3 minutes before serving. Taste with a clean spoon and add the listed salt allowance only as needed.\n5. **Serve:** Serve over jasmine or long-grain rice cooked separately according to its package instructions.\n"
+  },
+  "findings": [
+    {
+      "id": "N02-ROOT-1",
+      "title": "whole source and ingredient allocation",
+      "rationale": "Food Network original repeats the meat stage without explicitly naming the second scallion half. Ree’s own photo walkthrough identifies the omitted second half. This closes a destination gap without increasing the five-scallion total. Ree’s own site uses a half/half marinade split, whereas saved FoodNetwork/native/current useone-third/two-thirds. Keep current/source saved split; no silent substitution. Current safety discard/clean sauce requirement remains even though older source wording is ambiguous about marinade reuse. No raw-contact sauce served uncooked.",
+      "confidence": "High for original/current exact proof and arithmetic; source yields remain claims, household choice/untested clocks as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual household main-meal portions with rice.",
+        "Verify pan batch count and elapsed time; do not assume the source’s brief clocks fully cook every slice."
+      ]
+    },
+    {
+      "id": "N02-ROOT-2",
+      "title": "complete cooking method",
+      "rationale": "Follow every ingredient through preparation, destination and selected variant; preserve accepted raw-contact and endpoint repairs, qualify clocks and original geometry.",
+      "confidence": "High for applicable measured endpoints/source method; moderate for untested planning ranges",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual household main-meal portions with rice.",
+        "Verify pan batch count and elapsed time; do not assume the source’s brief clocks fully cook every slice."
+      ]
+    },
+    {
+      "id": "N02-ROOT-3",
+      "title": "scallion destination",
+      "rationale": "Original source walkthrough explicitly identifies the missing second half; total five scallions unchanged.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual household main-meal portions with rice.",
+        "Verify pan batch count and elapsed time; do not assume the source’s brief clocks fully cook every slice."
+      ]
+    },
+    {
+      "id": "N02-ROOT-4",
+      "title": "raw-contact preservation",
+      "rationale": "No raw-contact sauce is reused; source disagreement about split/reuse is explicit.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual household main-meal portions with rice.",
+        "Verify pan batch count and elapsed time; do not assume the source’s brief clocks fully cook every slice."
+      ]
+    },
+    {
+      "id": "N02-ROOT-5",
+      "title": "exact comparison scope",
+      "rationale": "Use complete originals and proposals for integration; short summaries are not presented as byte-exact quotes.",
+      "confidence": "High, programmatic snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-6",
+      "title": "Authorized subsequent peer correction N02-02",
+      "rationale": "A publisher domain is not a geographic origin. It was introduced as metadata; omit only this origin, preserve cuisine style, source and exact sourceUrl. Do not invent a replacement country.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "e3001d04 metadata addition and unchanged formula"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-7",
+      "title": "Authorized subsequent peer correction N02-09",
+      "rationale": "Preserve the recorded eight-serving planning yield and separate rice without archive or weighed-testing commentary.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Saved eight-serving yield; rice allowance"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-8",
+      "title": "Authorized subsequent peer correction N02-10",
+      "rationale": "Retain the exact accepted raw-contact discard/clean-reserve route; remove only the editorial-repair disclosure.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Clean reservation versus raw-contact marinade"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-9",
+      "title": "Authorized subsequent peer correction N02-11",
+      "rationale": "Keep the saved same-amount alternative through ordinary cooking prose.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-10",
+      "title": "Authorized subsequent peer correction N02-12",
+      "rationale": "This recipe has no noodles; the final texture sentence was copied from the noodle recipes. Preserve all cold holding, use and measured-reheat conditions.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Prompt cooling,40°F,2h/1h conditions and165°F reheating"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Actual snow-pea/rice ingredients; no noodles"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-11",
+      "title": "Authorized subsequent peer correction N02-13",
+      "rationale": "Keep the existing approximate preparation/cooking/total labels and dependencies; put kitchen-test status in the private record, not public cooking guidance.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-12",
+      "title": "Authorized subsequent peer correction N02-27",
+      "rationale": "Correct the historical destination gap rather than saying frozen prose already assigned every scallion.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Frozen scallion half instruction"
+        },
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a10922/beef-with-snow-peas/",
+          "scope": "Photo walkthrough explicitly uses the second half"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Beef%20with%20Snow%20Peas.html",
+    "introductionScope": "Actual earliest saved HTML plus earliest canonical culinary ancestor recovered; renamed/copy/reintroduced source is one stable current recipe.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Food Network original repeats the meat stage without explicitly naming the second scallion half. Ree’s own photo walkthrough identifies the omitted second half. This closes a destination gap without increasing the five-scallion total.",
+    "Ree’s own site uses a half/half marinade split, whereas saved FoodNetwork/native/current useone-third/two-thirds. Keep current/source saved split; no silent substitution.",
+    "Current safety discard/clean sauce requirement remains even though older source wording is ambiguous about marinade reuse. No raw-contact sauce served uncooked."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1/2 cup low-sodium soy sauce",
+        "destinationOrQuestion": "mix:soy¹/3rawcoat/²/3cleanfinish"
+      },
+      {
+        "row": 2,
+        "ingredient": "3 tablespoons sherry or cooking sherry",
+        "destinationOrQuestion": "mix:sherry samesplit"
+      },
+      {
+        "row": 3,
+        "ingredient": "2 tablespoons cornstarch",
+        "destinationOrQuestion": "mix:starch samesplit/restir"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 tablespoons brown sugar",
+        "destinationOrQuestion": "mix:brownsugar samesplit"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 tablespoon peeled and minced fresh ginger",
+        "destinationOrQuestion": "mix:ginger samesplit"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 1/2 pounds flank steak, trimmed of fat and sliced very thin against the grain",
+        "destinationOrQuestion": "beef:full1.5lb batches"
+      },
+      {
+        "row": 7,
+        "ingredient": "3 tablespoons peanut or olive oil",
+        "destinationOrQuestion": "peas:full3tbspoil reusedforbeef"
+      },
+      {
+        "row": 8,
+        "ingredient": "8 ounces fresh snow peas, trimmed",
+        "destinationOrQuestion": "peas thenfinish:full8oz"
+      },
+      {
+        "row": 9,
+        "ingredient": "5 whole scallions, cut into 1/2-inch pieces on the diagonal",
+        "destinationOrQuestion": "beef: frozen step3 names the first half of the5scallions; frozen step4 repeats only the meat stage and does not explicitly allocate the remaining half. Proposal assigns the full total across all beef loads."
+      },
+      {
+        "row": 10,
+        "ingredient": "Crushed red pepper",
+        "destinationOrQuestion": "finish:crushedpepper"
+      },
+      {
+        "row": 11,
+        "ingredient": "Salt, as needed (use sparingly!)",
+        "destinationOrQuestion": "finish:saltasneeded"
+      },
+      {
+        "row": 12,
+        "ingredient": "Jasmine or long-grain rice, cooked according to package directions",
+        "destinationOrQuestion": "serve:separaterice"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "1/2 cup low-sodium soy sauce",
+        "destination": "mix: fullsoy sauce then¹/3marinade/²/3cleanreserved"
+      },
+      {
+        "ingredient": "3 tablespoons sherry or cooking sherry",
+        "destination": "mix: sherry same split"
+      },
+      {
+        "ingredient": "2 tablespoons cornstarch",
+        "destination": "mix: starch same split, restir before use"
+      },
+      {
+        "ingredient": "2 tablespoons brown sugar",
+        "destination": "mix: brown sugar same split"
+      },
+      {
+        "ingredient": "1 tablespoon peeled and minced fresh ginger",
+        "destination": "mix: ginger same split"
+      },
+      {
+        "ingredient": "1 1/2 pounds flank steak, trimmed of fat and sliced very thin against the grain",
+        "destination": "beef: all1.5lb in manageable batches"
+      },
+      {
+        "ingredient": "3 tablespoons peanut or olive oil",
+        "destination": "peas: full3tbsp oil, reused during beef cooking"
+      },
+      {
+        "ingredient": "8 ounces fresh snow peas, trimmed",
+        "destination": "peas: full8ozthenfinish"
+      },
+      {
+        "ingredient": "5 whole scallions, cut into 1/2-inch pieces on the diagonal",
+        "destination": "beef: all5scallions splitbetweenALLmeatloads"
+      },
+      {
+        "ingredient": "Crushed red pepper",
+        "destination": "finish: crushedpepper"
+      },
+      {
+        "ingredient": "Salt, as needed (use sparingly!)",
+        "destination": "finish: salt onlyasneeded"
+      },
+      {
+        "ingredient": "Jasmine or long-grain rice, cooked according to package directions",
+        "destination": "serve: separately preparedrice"
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Peanut oil",
+        "alternative": "Use the listed olive-oil alternative.",
+        "effect": "Keep the full 3 tbsp original-batch total; control heat so the selected oil does not smoke."
+      },
+      {
+        "ingredient": "Sherry",
+        "alternative": "Use cooking sherry at the same listed amount.",
+        "effect": "Cooking sherry may contain salt, so keep the final salt allowance to taste."
+      }
+    ],
+    "preparedComponents": "One-third sauce raw marinade, excess discarded; two-thirds kept clean for final pan. All raw inputs mixed once; transformed components allocated explicitly in method."
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Peanut oil",
+        "alternative": "Use the listed olive-oil alternative.",
+        "effect": "Keep the full 3 tbsp original-batch total; control heat so the selected oil does not smoke."
+      },
+      {
+        "ingredient": "Sherry",
+        "alternative": "Use cooking sherry at the same listed amount.",
+        "effect": "Cooking sherry may contain salt, so keep the final salt allowance to taste."
+      }
+    ],
+    "preparedComponents": "One-third sauce raw marinade, excess discarded; two-thirds kept clean for final pan. All raw inputs mixed once; transformed components allocated explicitly in method.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Peanut oil",
+        "alternative": "Use the listed olive-oil alternative.",
+        "effect": "Keep the full 3 tbsp original-batch total; control heat so the selected oil does not smoke."
+      },
+      {
+        "ingredient": "Sherry",
+        "alternative": "Use cooking sherry at the same listed amount.",
+        "effect": "Cooking sherry may contain salt, so keep the final salt allowance to taste."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "scope": "No linked-meal certification; rice/noodles/edamame component preparation clocks separate"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8, as recorded",
+    "scope": "Saved source planning claim; not measured yield or kitchen test",
+    "pan": "At the original batch, plan eight servings with rice. Scale the ingredients together and use more beef batches as needed; actual portion size depends on the rice and how the dish is served.",
+    "timing": [
+      "About 15–25 min active preparation",
+      "About 10–20 min cooking, depending on pan loads",
+      "About 30–45 min, plus separate rice cooking"
+    ],
+    "scale": "Measured formula values scale together; actual pan loads/product state/endpoints govern timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1/4 cup low-sodium soy sauce",
+        "1 1/2 tablespoons sherry or cooking sherry",
+        "1 tablespoon cornstarch",
+        "1 tablespoon brown sugar",
+        "1/2 tablespoon peeled and minced fresh ginger",
+        "3/4 pound flank steak, trimmed of fat and sliced very thin against the grain",
+        "1 1/2 tablespoons peanut or olive oil",
+        "4 ounces fresh snow peas, trimmed",
+        "2 1/2 whole scallions, cut into 1/2-inch pieces on the diagonal",
+        "Crushed red pepper",
+        "Salt, as needed (use sparingly!)",
+        "Jasmine or long-grain rice, cooked according to package directions"
+      ],
+      "geometry": "Legacy source quantities scale; prepared rice/product/pan loads and endpoints govern elapsed time."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1/2 cup low-sodium soy sauce",
+        "3 tablespoons sherry or cooking sherry",
+        "2 tablespoons cornstarch",
+        "2 tablespoons brown sugar",
+        "1 tablespoon peeled and minced fresh ginger",
+        "1 1/2 pounds flank steak, trimmed of fat and sliced very thin against the grain",
+        "3 tablespoons peanut or olive oil",
+        "8 ounces fresh snow peas, trimmed",
+        "5 whole scallions, cut into 1/2-inch pieces on the diagonal",
+        "Crushed red pepper",
+        "Salt, as needed (use sparingly!)",
+        "Jasmine or long-grain rice, cooked according to package directions"
+      ],
+      "geometry": "Legacy source quantities scale; prepared rice/product/pan loads and endpoints govern elapsed time."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "1 cup low-sodium soy sauce",
+        "6 tablespoons sherry or cooking sherry",
+        "4 tablespoons cornstarch",
+        "4 tablespoons brown sugar",
+        "2 tablespoons peeled and minced fresh ginger",
+        "3 pounds flank steak, trimmed of fat and sliced very thin against the grain",
+        "6 tablespoons peanut or olive oil",
+        "16 ounces fresh snow peas, trimmed",
+        "10 whole scallions, cut into 1/2-inch pieces on the diagonal",
+        "Crushed red pepper",
+        "Salt, as needed (use sparingly!)",
+        "Jasmine or long-grain rice, cooked according to package directions"
+      ],
+      "geometry": "Legacy source quantities scale; prepared rice/product/pan loads and endpoints govern elapsed time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1/2 cup low-sodium soy sauce",
+        "3 tablespoons sherry or cooking sherry",
+        "2 tablespoons cornstarch",
+        "2 tablespoons brown sugar",
+        "1 tablespoon peeled and minced fresh ginger",
+        "1 1/2 pounds flank steak, trimmed of fat and sliced very thin against the grain",
+        "3 tablespoons peanut or olive oil",
+        "8 ounces fresh snow peas, trimmed",
+        "5 whole scallions, cut into 1/2-inch pieces on the diagonal",
+        "Crushed red pepper",
+        "Salt, as needed (use sparingly!)",
+        "Jasmine or long-grain rice, cooked according to package directions"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "All12current ingredient strings/amounts",
+    "One-third raw coating/two-thirds clean reserved sauce",
+    "Discard raw-contact remainder, clean plate,145°F and3minute rest",
+    "Current rice timing exclusion",
+    "Full3tbspoil/2tbspbrownsugar/5scallions"
+  ],
+  "remainingQuestions": [
+    "Record actual household main-meal portions with rice.",
+    "Verify pan batch count and elapsed time; do not assume the source’s brief clocks fully cook every slice."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

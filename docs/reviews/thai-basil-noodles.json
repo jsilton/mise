@@ -1,0 +1,633 @@
+{
+  "slug": "thai-basil-noodles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "b983f36541c541deb91a6570557c13db5c7c76fa0eb673701d11d5c0cc2497a5",
+  "acceptedSourceSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 15–20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 25–35 min, plus extra pan batches"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Wide Dried Rice Noodles",
+        "1 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce (Thai Thin or Light)",
+        "1 tsp Dark Soy Sauce (for color)",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Brown Sugar",
+        "1 lb Ground Pork or Chicken",
+        "2 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "3 cloves Garlic, minced",
+        "1-3 Thai Bird’s Eye Chilies, minced",
+        "1/2 Bell Pepper, thinly sliced",
+        "1 Fresh Lime, cut into wedges"
+      ],
+      "after": [
+        "8 oz Wide Dried Rice Noodles",
+        "1 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce (Thai Thin or Light)",
+        "1 tsp Dark Soy Sauce (for color)",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Brown Sugar",
+        "1 lb Ground Pork or Chicken",
+        "2 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "3 cloves Garlic, minced",
+        "1-3 Thai Bird’s Eye Chilies, minced",
+        "1/2 Bell Pepper, thinly sliced",
+        "1 Fresh Lime, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Thailand",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 440,
+        "protein": 31,
+        "carbs": 57,
+        "fat": 10.5,
+        "fiber": 4.5,
+        "sugar": 5.5,
+        "sodium": 1950
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Ground pork reaches 160°F / 71°C, or ground chicken 165°F / 74°C.",
+        "outcome": "Basil has just wilted and all the lime has a destination.",
+        "techniques": ["stir-frying", "starch"],
+        "before": [
+          "Use enough pan space to stir the ground meat and noodles; divide all ingredients proportionally for additional batches, without multiplying heat or cooking clocks.",
+          "Choose the complete meat route or complete vegetable/scallion route before measuring the sauce."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Ground pork reaches 160°F / 71°C, or ground chicken 165°F / 74°C.",
+            "why": "Color and crust do not measure the meat center."
+          },
+          {
+            "step": 5,
+            "cue": "Noodles are hot and uniformly coated.",
+            "why": "Dark soy colors the sauce; color does not establish meat doneness."
+          },
+          {
+            "step": 6,
+            "cue": "Basil has just wilted and all the lime has a destination.",
+            "why": "Brief final heat preserves the herb while half the lime finishes and half serves alongside."
+          }
+        ],
+        "timing": "About 25–35 minutes for the original meat batch, depending on noodle preparation and ground-meat cooking. The vegetable route originally plans 30 minutes. Extra batches take additional time.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below, use cooked leftovers within 3–4 days or freeze promptly, and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.",
+        "substitutions": [
+          {
+            "ingredient": "Vegetable and scallion variation",
+            "alternative": "Follow the complete vegetable and scallion variation below; its sauce quantities replace the meat-route sauce, and all ingredient amounts scale with the batch.",
+            "effect": "Choose its full sauce and ingredient set instead of the meat/lime route."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles or aromatics stick and scorch",
+            "cause": "The pan is crowded or heat exceeds what the ingredient stage can tolerate.",
+            "fix": "Lower heat and divide into additional proportional batches; stop and remove any burnt pieces rather than scraping burnt material through the sauce."
+          }
+        ],
+        "sources": [
+          {
+            "title": "The Woks of Life — Thai Basil Noodles",
+            "url": "https://thewoksoflife.com/thai-basil-noodles/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPad Kra Pao is Thailand's most popular street food - a fast, pungent stir-fry of holy basil and ground pork that goes from wok to plate in under 10 minutes. The key is very high heat and not stirring too much - let the meat get some color and the basil char slightly before you toss. Serve over rice with a fried egg.\n\n## Directions\n\n1.  **Noodles:** Soak rice noodles in hot water for 15-20 minutes until pliable but still firm (al dente). Drain and set aside.\n2.  **Sauce:** Whisk all sauce ingredients in a small bowl.\n3.  **Meat:** Heat oil in a wok until smoking. Add the ground meat and spread it flat. Let it sear undisturbed for 2 minutes to get a \"crust,\" then break it up and cook until browned.\n4.  **Aromatics:** Add the garlic, chilies, and bell pepper. Stir-fry for 30 seconds until fragrant.\n5.  **Toss:** Add the noodles and the sauce. Stir-fry vigorously over high heat, scraping the bottom of the wok, until the noodles absorb the sauce and turn dark brown.\n6.  **Wilt:** Add the basil. Toss for 30 seconds until just wilted.\n7.  **The Acid Balance:** Turn off the heat. Squeeze half a lime over the noodles and toss.\n",
+    "after": "\n## Chef's Note\n\nThe meat version uses the full ground-meat and richer sauce quantities listed here, with lime at the finish. The separate vegetable version uses different sauce proportions and scallions. Have the sauce and basil ready before cooking; add basil at the end, just long enough to wilt.\n\n## Directions\n\n1. **Prepare noodles and vegetables:** Wash the basil, pepper, chilies and lime. Prepare the rice noodles according to their package instructions, checking often for a cooked but still firm and chewy center; a soak alone may not cook every product. Drain well. Mince the garlic and chilies, slice the pepper, and have the basil ready.\n2. **Mix sauce:** Whisk together all the fish sauce, light soy sauce, dark soy sauce, oyster sauce and brown sugar. Keep the lime separate.\n3. **Cook meat:** Heat enough of the oil allowance to coat a wok or large skillet over medium-high heat, staying within the pan's instructions. Add all the ground pork or chicken, break into small pieces and stir until cooked through: 160°F / 71°C for ground pork, or 165°F / 74°C for ground chicken. Brown color or a two-minute crust does not establish doneness. Cook in batches if crowded, transferring cooked meat to a clean plate.\n4. **Aromatics:** Add all the garlic, chilies and pepper to the pan and stir until the garlic is fragrant and the pepper begins to soften, starting checks around 30 seconds. Return any separately cooked meat.\n5. **Toss:** Add all the drained noodles and prepared sauce. Toss and scrape the pan until hot and evenly coated, reducing heat if the garlic or sauce begins to scorch. There is no need to char the basil or evaporate every drop of sauce.\n6. **Wilt and finish:** Fold in all the basil just until wilted. Turn off heat. Squeeze half of the listed lime over the noodles and serve the remaining half as wedges. Serve promptly, with the optional chili crisp separately.\n\n## Vegetable and Scallion Variation\n\nChoose this complete route instead of the meat-and-lime version. For the original batch use 8 oz wide dried rice noodles; 1 tsp brown sugar dissolved in 1 tbsp hot water; 2 tsp light soy sauce; 1 tsp dark soy sauce; 1 tbsp fish sauce; 2 tsp oyster sauce; 2 tbsp neutral oil; 3 garlic cloves, sliced; 3 scallions cut into 3-inch pieces with whites and greens separated; 1–3 optional chopped Thai red chilies; 1/2 bell pepper, thinly sliced; and 2 cups Thai basil leaves. Scale all these amounts with the batch, keeping the scallion cut size fixed. Omit the ground meat, lime and main sauce quantities entirely.\n\nBoil the noodles until cooked but still firm, starting checks around the source's 5-minute plan and following the actual package; drain, rinse cold and drain well. Mix the dissolved sugar with both soy sauces, fish sauce and oyster sauce. Heat all the oil in a suitable wok or skillet without exceeding its rating. Stir-fry the garlic, scallion whites, optional chilies and pepper until fragrant, starting checks around 30 seconds. Add all the noodles and toss until warmed, beginning checks around 1 minute. Add all the sauce and toss until uniformly coated, beginning checks around another minute. Fold in all the basil and scallion greens just until wilted, then serve. For a vegan version of this vegetable route, use vegan fish sauce and vegetarian mushroom-based oyster sauce in the same listed amounts; check their labels. Extra pan batches take longer.\n"
+  },
+  "findings": [
+    {
+      "id": "ANS12-2",
+      "title": "ANS12-2",
+      "rationale": "958fc77 bulk rewrite changed saved plant-based formula into1lb ground meat, increased light/oyster/sugar, omitted2tbsp oil/scallions/hot water and added lime. No later explicit source decision rejects the saved route; preserve full current meat/richer sauce and distinct complete exact native/publisher vegetable route. Both source soy types are listed and source prose requires both despite card omitting dark soy from mixing sentence. Current method uses unlisted oil, raw ground meat without endpoint and only half lime; list true allowance, measure species endpoint and allocate remaining half to serving, no imposed extra acid. No imported8oz publisher protein or velveting formula.",
+      "confidence": "High exact retained source/history and ingredient conservation; moderate untested method, elapsed planning, temperature application and capacity",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Thai Basil Noodles.html",
+            "sha256": "6e754403061a1243e610328cde20b7283d2c3fc660c134c15394e6b43dcac550",
+            "scope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git; canonical045 retained separately"
+          },
+          "scope": "Exact first cooking source; no publisher authority or independent kitchen result inferred."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full followed canonical diffs and exact consequential omissions; persistence alone does not establish household rejection."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Current private binding to exact durable original450 cooking payload; private identity values excluded."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, raw-contact separation, fully set eggs, prompt shallow refrigeration and cold temperature; no formula, exact elapsed clock or kimchi manufacturing validation."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftover3–4days/165 reheat; no fermented kimchi shelf life or first-cook formula validation."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Ground pork160 vs ground chicken165; source meat-free noodle formula does not validate the current1lb ground-meat adaptation."
+        },
+        {
+          "url": "https://thewoksoflife.com/thai-basil-noodles/",
+          "scope": "Actual full primary publisher fetched; agrees saved vegetable route, source optional8oz protein not imported into current1lb formula."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual rice noodle package and pan capacity are not measured.",
+        "Meat and vegetable route sauce intensity/portion sizes need kitchen comparison.",
+        "Source card omits dark soy mixing destination; explicit inclusion is an editorial allocation supported by listed ingredient and source narrative."
+      ]
+    },
+    {
+      "id": "ROOT-ANS12-COOKING-PROSE",
+      "title": "Clarify garlic timing and the complete sauce replacement",
+      "rationale": "Public prose should explain the cooking sequence and mutually exclusive ingredient choice. Pad’s later-garlic phrase is clearer as an actual onion/carrot cue, retaining accepted2b01 order. Thai’s exact-source label narrates private recovery instead of the culinary choice; replace it with the existing complete variation’s cooking name and explicitly state sauce replacement. No new stage, amount, time, cultural claim or dietary guarantee is introduced. Public prose should explain the cooking sequence and mutually exclusive ingredient choice. Pad’s later-garlic phrase is clearer as an actual onion/carrot cue, retaining accepted2b01 order. Thai’s exact-source label narrates private recovery instead of the culinary choice; replace it with the existing complete variation’s cooking name and explicitly state sauce replacement. No new stage, amount, time, cultural claim or dietary guarantee is introduced.",
+      "confidence": "High literal cooking clarification; no new dose or cooking claim.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Natural cooking prose; archive/editing workflow belongs in records"
+        },
+        {
+          "path": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Public recipe presentation preference"
+        },
+        {
+          "path": "privately retained evidence",
+          "commit": "2b01ffbb6b122bbc8a40597eeff2f2cdb80fdc7d",
+          "scope": "Accepted onion/carrot before garlic sequence unchanged"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "content Vegetable and Scallion Variation",
+          "scope": "Existing full mutually exclusive route and original-batch proportional amounts unchanged"
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Natural cooking prose; archive/editing workflow belongs in records"
+        },
+        {
+          "path": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Public recipe presentation preference"
+        },
+        {
+          "path": "privately retained evidence",
+          "commit": "2b01ffbb6b122bbc8a40597eeff2f2cdb80fdc7d",
+          "scope": "Accepted onion/carrot before garlic sequence unchanged"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "content Vegetable and Scallion Variation",
+          "scope": "Existing full mutually exclusive route and original-batch proportional amounts unchanged"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Thai%20Basil%20Noodles.html",
+    "introductionScope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git; canonical045 retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "958fc77 bulk rewrite changed saved plant-based formula into1lb ground meat, increased light/oyster/sugar, omitted2tbsp oil/scallions/hot water and added lime. No later explicit source decision rejects the saved route; preserve full current meat/richer sauce and distinct complete exact native/publisher vegetable route. Both source soy types are listed and source prose requires both despite card omitting dark soy from mixing sentence. Current method uses unlisted oil, raw ground meat without endpoint and only half lime; list true allowance, measure species endpoint and allocate remaining half to serving, no imposed extra acid. No imported8oz publisher protein or velveting formula.",
+      "remainingQuestions": [
+        "Actual rice noodle package and pan capacity are not measured.",
+        "Meat and vegetable route sauce intensity/portion sizes need kitchen comparison.",
+        "Source card omits dark soy mixing destination; explicit inclusion is an editorial allocation supported by listed ingredient and source narrative."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Wide Dried Rice Noodles",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "1 tbsp Fish Sauce",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 tbsp Soy Sauce (Thai Thin or Light)",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 tsp Dark Soy Sauce (for color)",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 tbsp Oyster Sauce",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 tbsp Brown Sugar",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 lb Ground Pork or Chicken",
+        "actualMethodDestination": 3
+      },
+      {
+        "text": "2 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "actualMethodDestination": 6
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1-3 Thai Bird’s Eye Chilies, minced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1/2 Bell Pepper, thinly sliced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1 Fresh Lime, cut into wedges",
+        "actualMethodDestination": "7 half only; remaining half unallocated"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz Wide Dried Rice Noodles",
+        "destination": 1
+      },
+      {
+        "text": "1 tbsp Fish Sauce",
+        "destination": 2
+      },
+      {
+        "text": "1 tbsp Soy Sauce (Thai Thin or Light)",
+        "destination": 2
+      },
+      {
+        "text": "1 tsp Dark Soy Sauce (for color)",
+        "destination": 2
+      },
+      {
+        "text": "1 tbsp Oyster Sauce",
+        "destination": 2
+      },
+      {
+        "text": "1 tbsp Brown Sugar",
+        "destination": 2
+      },
+      {
+        "text": "1 lb Ground Pork or Chicken",
+        "destination": 3
+      },
+      {
+        "text": "2 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "destination": 6
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "destination": 4
+      },
+      {
+        "text": "1-3 Thai Bird’s Eye Chilies, minced",
+        "destination": 4
+      },
+      {
+        "text": "1/2 Bell Pepper, thinly sliced",
+        "destination": 4
+      },
+      {
+        "text": "1 Fresh Lime, cut into wedges",
+        "destination": "6 half finish/half serve"
+      },
+      {
+        "text": "Neutral oil, as needed for the meat stir-fry",
+        "destination": 3
+      },
+      {
+        "text": "Chili crisp, optional for serving",
+        "destination": "6 optional serving"
+      }
+    ],
+    "frozenMethodOnly": ["Oilstep3 unlisted; halfLimeusedstep7 remainderunallocated"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare noodles and vegetables: Wash the basil, pepper, chilies and lime. Prepare the rice noodles according to their package instructions, checking often for a cooked but still firm and chewy center; a soak alone may not cook every product. Drain well. Mince the garlic and chilies, slice the pepper, and have the basil ready."
+    },
+    {
+      "step": 2,
+      "text": "Mix sauce: Whisk together all the fish sauce, light soy sauce, dark soy sauce, oyster sauce and brown sugar. Keep the lime separate."
+    },
+    {
+      "step": 3,
+      "text": "Cook meat: Heat enough of the oil allowance to coat a wok or large skillet over medium-high heat, staying within the pan's instructions. Add all the ground pork or chicken, break into small pieces and stir until cooked through: 160°F / 71°C for ground pork, or 165°F / 74°C for ground chicken. Brown color or a two-minute crust does not establish doneness. Cook in batches if crowded, transferring cooked meat to a clean plate."
+    },
+    {
+      "step": 4,
+      "text": "Aromatics: Add all the garlic, chilies and pepper to the pan and stir until the garlic is fragrant and the pepper begins to soften, starting checks around 30 seconds. Return any separately cooked meat."
+    },
+    {
+      "step": 5,
+      "text": "Toss: Add all the drained noodles and prepared sauce. Toss and scrape the pan until hot and evenly coated, reducing heat if the garlic or sauce begins to scorch. There is no need to char the basil or evaporate every drop of sauce."
+    },
+    {
+      "step": 6,
+      "text": "Wilt and finish: Fold in all the basil just until wilted. Turn off heat. Squeeze half of the listed lime over the noodles and serve the remaining half as wedges. Serve promptly, with the optional chili crisp separately."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Exact source vegetable/scallion route",
+        "reference": "Final Vegetable and Scallion Variation",
+        "formula": "All twelve saved rows and sugar dissolving water retained; mutually exclusive with current meat/lime/richer sauce. Vegan requires both appropriate sauce products."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Vegetable and scallion variation",
+        "alternative": "Follow the complete vegetable and scallion variation below; its sauce quantities replace the meat-route sauce, and all ingredient amounts scale with the batch.",
+        "effect": "Choose its full sauce and ingredient set instead of the meat/lime route."
+      }
+    ],
+    "completeCookingOptions": "Choose this complete route instead of the meat-and-lime version. For the original batch use 8 oz wide dried rice noodles; 1 tsp brown sugar dissolved in 1 tbsp hot water; 2 tsp light soy sauce; 1 tsp dark soy sauce; 1 tbsp fish sauce; 2 tsp oyster sauce; 2 tbsp neutral oil; 3 garlic cloves, sliced; 3 scallions cut into 3-inch pieces with whites and greens separated; 1–3 optional chopped Thai red chilies; 1/2 bell pepper, thinly sliced; and 2 cups Thai basil leaves. Scale all these amounts with the batch, keeping the scallion cut size fixed. Omit the ground meat, lime and main sauce quantities entirely.\n\nBoil the noodles until cooked but still firm, starting checks around the source's 5-minute plan and following the actual package; drain, rinse cold and drain well. Mix the dissolved sugar with both soy sauces, fish sauce and oyster sauce. Heat all the oil in a suitable wok or skillet without exceeding its rating. Stir-fry the garlic, scallion whites, optional chilies and pepper until fragrant, starting checks around 30 seconds. Add all the noodles and toss until warmed, beginning checks around 1 minute. Add all the sauce and toss until uniformly coated, beginning checks around another minute. Fold in all the basil and scallion greens just until wilted, then serve. For a vegan version of this vegetable route, use vegan fish sauce and vegetarian mushroom-based oyster sauce in the same listed amounts; check their labels. Extra pan batches take longer."
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "coconut-jasmine-rice",
+      "eggplant-with-garlic-sauce",
+      "quick-pickled-carrots-and-daikon"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairing ingredients are separate complete components, not additional doses in this formula; retained links verified. Linked meal receives no full review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Existing planning portions preserved; no new portion weight or precise cooked yield.",
+    "capacity": [
+      "Use enough pan space to stir the ground meat and noodles; divide all ingredients proportionally for additional batches, without multiplying heat or cooking clocks.",
+      "Choose the complete meat route or complete vegetable/scallion route before measuring the sauce."
+    ],
+    "timing": "About 25–35 minutes for the original meat batch, depending on noodle preparation and ground-meat cooking. The vegetable route originally plans 30 minutes. Extra batches take additional time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz Wide Dried Rice Noodles",
+        "1/4 tbsp Fish Sauce",
+        "1/4 tbsp Soy Sauce (Thai Thin or Light)",
+        "1/4 tsp Dark Soy Sauce (for color)",
+        "1/4 tbsp Oyster Sauce",
+        "1/4 tbsp Brown Sugar",
+        "1/4 lb Ground Pork or Chicken",
+        "1/2 cup Fresh Thai Basil (Holy Basil is ideal)",
+        "3/4 clove Garlic, minced",
+        "1/4–3/4 Thai Bird’s Eye Chilies, minced",
+        "1/8 Bell Pepper, thinly sliced",
+        "1/4 Fresh Lime, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz Wide Dried Rice Noodles",
+        "1/2 tbsp Fish Sauce",
+        "1/2 tbsp Soy Sauce (Thai Thin or Light)",
+        "1/2 tsp Dark Soy Sauce (for color)",
+        "1/2 tbsp Oyster Sauce",
+        "1/2 tbsp Brown Sugar",
+        "1/2 lb Ground Pork or Chicken",
+        "1 cup Fresh Thai Basil (Holy Basil is ideal)",
+        "1 1/2 cloves Garlic, minced",
+        "1/2–1 1/2 Thai Bird’s Eye Chilies, minced",
+        "1/4 Bell Pepper, thinly sliced",
+        "1/2 Fresh Lime, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz Wide Dried Rice Noodles",
+        "1 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce (Thai Thin or Light)",
+        "1 tsp Dark Soy Sauce (for color)",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Brown Sugar",
+        "1 lb Ground Pork or Chicken",
+        "2 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "3 cloves Garlic, minced",
+        "1-3 Thai Bird’s Eye Chilies, minced",
+        "1/2 Bell Pepper, thinly sliced",
+        "1 Fresh Lime, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz Wide Dried Rice Noodles",
+        "1 1/2 tbsp Fish Sauce",
+        "1 1/2 tbsp Soy Sauce (Thai Thin or Light)",
+        "1 1/2 tsp Dark Soy Sauce (for color)",
+        "1 1/2 tbsp Oyster Sauce",
+        "1 1/2 tbsp Brown Sugar",
+        "1 1/2 lb Ground Pork or Chicken",
+        "3 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "4 1/2 cloves Garlic, minced",
+        "1 1/2–4 1/2 Thai Bird’s Eye Chilies, minced",
+        "3/4 Bell Pepper, thinly sliced",
+        "1 1/2 Fresh Limes, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz Wide Dried Rice Noodles",
+        "2 tbsp Fish Sauce",
+        "2 tbsp Soy Sauce (Thai Thin or Light)",
+        "2 tsp Dark Soy Sauce (for color)",
+        "2 tbsp Oyster Sauce",
+        "2 tbsp Brown Sugar",
+        "2 lb Ground Pork or Chicken",
+        "4 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "6 cloves Garlic, minced",
+        "2–6 Thai Bird’s Eye Chilies, minced",
+        "1 Bell Pepper, thinly sliced",
+        "2 Fresh Limes, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz Wide Dried Rice Noodles",
+        "3 tbsp Fish Sauce",
+        "3 tbsp Soy Sauce (Thai Thin or Light)",
+        "3 tsp Dark Soy Sauce (for color)",
+        "3 tbsp Oyster Sauce",
+        "3 tbsp Brown Sugar",
+        "3 lb Ground Pork or Chicken",
+        "6 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "9 cloves Garlic, minced",
+        "3–9 Thai Bird’s Eye Chilies, minced",
+        "1 1/2 Bell Peppers, thinly sliced",
+        "3 Fresh Limes, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz Wide Dried Rice Noodles",
+        "1 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce (Thai Thin or Light)",
+        "1 tsp Dark Soy Sauce (for color)",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Brown Sugar",
+        "1 lb Ground Pork or Chicken",
+        "2 cups Fresh Thai Basil (Holy Basil is ideal)",
+        "3 cloves Garlic, minced",
+        "1-3 Thai Bird’s Eye Chilies, minced",
+        "1/2 Bell Pepper, thinly sliced",
+        "1 Fresh Lime, cut into wedges",
+        "Neutral oil, as needed for the meat stir-fry",
+        "Chili crisp, optional for serving"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every current measured core supply, sourceURL/cuisine/title/identity/rating/control preserved; current and exact source alternatives distinguished.",
+  "remainingQuestions": [
+    "Actual rice noodle package and pan capacity are not measured.",
+    "Meat and vegetable route sauce intensity/portion sizes need kitchen comparison.",
+    "Source card omits dark soy mixing destination; explicit inclusion is an editorial allocation supported by listed ingredient and source narrative."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

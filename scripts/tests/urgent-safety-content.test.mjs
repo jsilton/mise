@@ -119,7 +119,11 @@ const cases = [
   [
     'cu-chao-mian',
     ['Add the noodles and use your hands'],
-    ['before they enter the wok', 'chopsticks or tongs', 'keep hands out of the hot oil'],
+    [
+      'Loosen noodles on a clean board or in a bowl before they reach the hot wok',
+      'cooking chopsticks or tongs in the pan',
+      'then lift and fold with chopsticks or tongs',
+    ],
   ],
   [
     'honey-glazed-spareribs',

@@ -1,0 +1,1509 @@
+{
+  "slug": "beef-pad-see-ew",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "9c0cdfb15cd860fc6029bb98255fbe47c7692252c56b10a6876daecd6312308c",
+  "acceptedSourceSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "About 15–25 min preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15–30 min cooking, depending on batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 35–60 min with prepared noodles, plus any separate noodle preparation"
+    },
+    {
+      "field": "servings",
+      "before": "Yield not recorded",
+      "after": "3 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "FOR THE STEAK & MARINADE, YOU’LL NEED:",
+        "8 ounces flank steak (thinly sliced)",
+        "1 teaspoon Thai black soy sauce (or regular light soy sauce)",
+        "1 teaspoon vegetable oil",
+        "1 teaspoon cornstarch (or tapioca starch)",
+        "FOR THE REST OF THE DISH, YOU’LL NEED:",
+        "1 tablespoon oyster sauce",
+        "½ teaspoon sugar",
+        "2 teaspoons Thai soy sauce (or regular light soy sauce)",
+        "1 tablespoon Thai black soy sauce",
+        "1 teaspoon fish sauce",
+        "Freshly ground white pepper (to taste)",
+        "1 pound fresh wide rice noodles (you can also use 8 ounces dried rice noodles)",
+        "4 tablespoons vegetable oil",
+        "3 cloves garlic (sliced thinly)",
+        "3 cups Chinese broccoli (cut into 2-inch/5 cm pieces)",
+        "2 large eggs (slightly beaten)",
+        "Water, a small splash for steaming broccoli if needed"
+      ],
+      "after": [
+        "--- Steak and marinade ---",
+        "8 oz Flank steak, thinly sliced against the grain",
+        "1 tsp Thai black soy sauce or regular light soy sauce",
+        "1 tsp Vegetable oil for the marinade",
+        "1 tsp Cornstarch or tapioca starch",
+        "--- Sauce ---",
+        "1 tbsp Oyster sauce",
+        "1/2 tsp Sugar",
+        "2 tsp Thai soy sauce or regular light soy sauce",
+        "1 tbsp Thai black soy sauce",
+        "1 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "--- Fresh-noodle pan route ---",
+        "1 lb Fresh wide rice noodles",
+        "4 tbsp Vegetable cooking oil",
+        "3 Garlic cloves, thinly sliced",
+        "3 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced to cook evenly",
+        "Water, a small splash for steaming broccoli only if needed",
+        "2 Large eggs, lightly beaten",
+        "--- Optional finish ---",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "thewoksoflife.com",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 3,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "marinade",
+            "name": "Steak and marinade",
+            "ingredients": [
+              {
+                "id": "beef",
+                "key": "beef",
+                "name": "Flank steak",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thinly sliced against the grain"
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "Thai black soy sauce or regular light soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Vegetable oil for the marinade",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "Cornstarch or tapioca starch",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Sauce",
+            "ingredients": [
+              {
+                "id": "oyster",
+                "key": "oyster",
+                "name": "Oyster sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thin-soy",
+                "key": "thin-soy",
+                "name": "Thai soy sauce or regular light soy sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dark-soy",
+                "key": "dark-soy",
+                "name": "Thai black soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "fish",
+                "key": "fish",
+                "name": "Fish sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Freshly ground white pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Fresh-noodle pan route",
+            "ingredients": [
+              {
+                "id": "noodles",
+                "key": "noodles",
+                "name": "Fresh wide rice noodles",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Vegetable cooking oil",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "beef",
+                    "share": 0.25
+                  },
+                  {
+                    "step": "vegetables",
+                    "share": 0.25
+                  },
+                  {
+                    "step": "egg",
+                    "share": 0.5
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "thinly sliced"
+              },
+              {
+                "id": "broccoli",
+                "key": "broccoli",
+                "name": "Chinese broccoli",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cut into roughly 2-inch pieces; thick stems sliced to cook evenly"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Water",
+                "allowance": "a small splash for steaming broccoli only if needed",
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "Large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "Large eggs",
+                "preparation": "lightly beaten"
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Optional finish",
+            "ingredients": [
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "Chili oil or Chiu Chow sauce",
+                "allowance": "for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "marinate",
+            "title": "Marinate the beef",
+            "text": "Toss {{ingredients}} until evenly coated. Keep refrigerated while preparing the remaining ingredients."
+          },
+          {
+            "id": "sauce",
+            "title": "Prepare the sauce",
+            "text": "Mix {{ingredients}} in a separate bowl until the sugar dissolves."
+          },
+          {
+            "id": "noodles",
+            "title": "Loosen fresh noodles",
+            "text": "Prepare {{ingredients}} following their package guidance immediately before stir-frying. If chilled noodles are stiff, briefly rinse with hot water to loosen, then drain thoroughly. Keep hands away from the hot pan."
+          },
+          {
+            "id": "beef",
+            "title": "Cook the beef",
+            "text": "Heat {{ingredients}} in a wok or large skillet over medium-high heat until shimmering. Add marinated beef in a thin layer, cooking manageable batches. Turn and check the thickest pieces for 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables; keep raw-contact dishes and utensils separate."
+          },
+          {
+            "id": "vegetables",
+            "title": "Cook vegetables and noodles",
+            "text": "Use {{ingredients}}. Add this step’s cooking oil, garlic and broccoli to the wok. Stir until stems begin to soften, starting checks after about 2 minutes; add the small steaming-water allowance and briefly cover only if the stems remain tough. Add loosened noodles and all the prepared sauce. Fold gently until coated, then add the cooked, rested beef."
+          },
+          {
+            "id": "egg",
+            "title": "Cook and fold the eggs",
+            "text": "Have {{ingredients}} ready. Push noodles aside, add this step’s cooking oil and the beaten eggs, and scramble until fully set. Fold through the noodles and continue cooking until evenly hot and the mixed egg-and-beef dish measures 165°F /74°C. Cook longer if needed rather than relying on a brief timer."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve hot and offer {{ingredients}} separately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "This beef version keeps Thai black soy sauce, oyster sauce and fish sauce distinct",
+        "outcome": "Wide rice noodles, fully set egg and beef evenly coated in a savory soy-sauce mixture.",
+        "techniques": ["stir-frying", "temperature"],
+        "before": [
+          "At the original batch, plan three portions. Keep the noodle widths and beef slices similar when scaling; cook more batches rather than crowding the pan or multiplying brief stir-fry clocks.",
+          "For the original batch, the marinade teaspoon of oil is separate from the four tablespoons cooking oil. The fresh-noodle route uses one-quarter cooking oil for beef, one-quarter for vegetables and one-half for eggs; the dried route uses one-quarter each for noodle coating, beef, vegetables and eggs.",
+          "Keep marinated raw beef refrigerated while preparing other ingredients. Do not return cooked beef to the raw marinade bowl."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Beef reaches 145°F and rests at least 3 minutes on a clean plate.",
+            "why": "Use a clean plate and utensils for the cooked beef so raw-contact marinade and tools do not touch it."
+          },
+          {
+            "step": 6,
+            "cue": "Egg is fully set and the mixed dish reaches 165°F.",
+            "why": "An egg-and-meat dish needs its own endpoint; beef color or 145°F alone does not check it."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Rice noodles stick together or break",
+            "cause": "Noodles are stiff, poorly drained or the pan is crowded",
+            "fix": "Loosen fresh noodles just before cooking using their package guidance. Drain dried noodles thoroughly and use their oil-coating allocation. Lift and fold manageable pan batches instead of stirring hard."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh wide rice noodles",
+            "alternative": "For the original batch, use 8 oz dried wide rice noodles instead of 1 lb fresh. Prepare to a just-tender bite per package, drain well and coat with 1 tbsp from the 4 tbsp cooking-oil total.",
+            "effect": "Complete dried route: use 1 tbsp cooking oil each for noodles, beef, vegetables and eggs; marinade 1 tsp oil remains separate. Scale chosen allocations together, and do not add the fresh-route 2 tbsp egg dose on top."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.",
+        "timing": "Plan about 15–25 min preparation with noodles ready; about 15–30 min cooking, depending on batches; about 35–60 min overall, plus any separate noodle preparation. Pan heating, beef checks and the 3-minute rest affect elapsed time; product preparation and extra pan batches can extend it.",
+        "sources": [
+          {
+            "title": "The Woks of Life — Pad See Ew",
+            "url": "https://thewoksoflife.com/pad-see-ew/"
+          },
+          {
+            "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "CDC — meat-containing egg dishes",
+            "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis beef version uses Thai black soy sauce, oyster sauce and a little fish sauce. Loosen the noodles before they reach the wok, cook in manageable batches and use a clean plate for the seared beef.\n\n## Directions\n\n1. **Toss:** Toss steak with its marinade soy sauce, one teaspoon oil and cornstarch. Mix oyster sauce, sugar, regular soy sauce, Thai black soy sauce, fish sauce and white pepper separately.\n\n2. **Continue:** Loosen fresh rice noodles according to package instructions just before cooking. If using dried noodles, cook slightly short of package time, drain well and toss with one tablespoon of the measured cooking oil.\n\n3. **Cook:** Heat one tablespoon cooking oil in a wok. Sear beef in a thin layer, then transfer to a clean plate. Work in batches as needed; keep the remaining noodle ingredients divided proportionately.\n\n4. **Continue:** Add one tablespoon cooking oil, garlic and broccoli. Stir-fry about two minutes; add a splash of water and cover briefly if stems are still tough. Add noodles, sauce and beef. Toss gently until coated.\n\n5. **Continue:** Push the mixture aside. Add the remaining cooking oil and eggs. Scramble until set, then fold through the noodles. Continue cooking until everything is hot and the beef reaches 145°F / 63°C; allow the beef three minutes before serving. Cook longer if necessary, using tenderness and doneness rather than the original brief timer.\n",
+    "after": "\n## Chef's Note\n\nThis beef version keeps Thai black soy sauce, oyster sauce and fish sauce distinct. Prepare the sauce and loosen the noodles before heating the wok. Fresh and dried noodles use the same total cooking oil but need different allocations; cook in batches that leave room to turn the noodles without breaking them.\n\n## Directions\n\n1. **Marinate the beef:** Toss Flank steak, Thai black soy sauce or regular light soy sauce, Vegetable oil for the marinade, and Cornstarch or tapioca starch until evenly coated. Keep refrigerated while preparing the remaining ingredients.\n2. **Prepare the sauce:** Mix Oyster sauce, Sugar, Thai soy sauce or regular light soy sauce, Thai black soy sauce, Fish sauce, and Freshly ground white pepper in a separate bowl until the sugar dissolves.\n3. **Loosen fresh noodles:** Prepare Fresh wide rice noodles following their package guidance immediately before stir-frying. If chilled noodles are stiff, briefly rinse with hot water to loosen, then drain thoroughly. Keep hands away from the hot pan.\n4. **Cook the beef:** Heat 1/4 of the Vegetable cooking oil in a wok or large skillet over medium-high heat until shimmering. Add marinated beef in a thin layer, cooking manageable batches. Turn and check the thickest pieces for 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables; keep raw-contact dishes and utensils separate.\n5. **Cook vegetables and noodles:** Use 1/4 of the Vegetable cooking oil, Garlic cloves, Chinese broccoli, and Water. Add this step’s cooking oil, garlic and broccoli to the wok. Stir until stems begin to soften, starting checks after about 2 minutes; add the small steaming-water allowance and briefly cover only if the stems remain tough. Add loosened noodles and all the prepared sauce. Fold gently until coated, then add the cooked, rested beef.\n6. **Cook and fold the eggs:** Have 1/2 of the Vegetable cooking oil and Large eggs ready. Push noodles aside, add this step’s cooking oil and the beaten eggs, and scramble until fully set. Fold through the noodles and continue cooking until evenly hot and the mixed egg-and-beef dish measures 165°F /74°C. Cook longer if needed rather than relying on a brief timer.\n7. **Serve:** Serve hot and offer Chili oil or Chiu Chow sauce (if using) separately.\n"
+  },
+  "findings": [
+    {
+      "id": "N02-ROOT-1",
+      "title": "whole source and ingredient allocation",
+      "rationale": "Exact original native Serves:3 was lost as Yield not recorded in9fa import. Restore the recorded planning yield with source provenance, not a measured household certification. Current Woks of Life adds⅛tsp baking soda and1tbsp marinade water, also3tbsp sauce water, and changes sauce thin-soy from saved2tsp to1tbsp. It describes broccoli as6oz/about3cups; the saved recipe records3cups without a weight conversion. Preserve the saved formula: do not import these amounts or equate the separate broccoli-steaming allowance with marinade or sauce water. Saved native fresh method explicitly uses1tbsp cooking oil at each beef, vegetable and egg stage and allows a little more if needed, leaving1tbsp of the listed4tbsp without a fixed default stage. Frozen current says remaining cooking oil at the egg stage, mathematically2tbsp for fresh noodles; proposal preserves that current route. Dried route spends1tbsp each on noodle coating/beef/vegetables/eggs. Both proposals use4tbsp total; neither is a kitchen-tested oil allocation, and the current fresh2tbsp egg share is not quoted as native’s explicit dose. Mixed beef-and-egg dish requires165°F under CDC applicability, while retaining beef145°F/3minute rest and clean handling.",
+      "confidence": "High for original/current exact proof and arithmetic; source yields remain claims, household choice/untested clocks as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household noodle product and pan batch count.",
+        "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+        "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
+      ]
+    },
+    {
+      "id": "N02-ROOT-2",
+      "title": "complete cooking method",
+      "rationale": "Follow every ingredient through preparation, destination and selected variant; preserve accepted raw-contact and endpoint repairs, qualify clocks and original geometry.",
+      "confidence": "High for applicable measured endpoints/source method; moderate for untested planning ranges",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "CDC — meat-containing egg dishes",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household noodle product and pan batch count.",
+        "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+        "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
+      ]
+    },
+    {
+      "id": "N02-ROOT-3",
+      "title": "yield recovery",
+      "rationale": "Original native bound by stable registry identity supplies missing publisher yield; no household weighed precision.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household noodle product and pan batch count.",
+        "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+        "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
+      ]
+    },
+    {
+      "id": "N02-ROOT-4",
+      "title": "fresh/dried oil routes",
+      "rationale": "Exact current arithmetic preserved without spending the dried coating oil twice; original source branch retained fully.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household noodle product and pan batch count.",
+        "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+        "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
+      ]
+    },
+    {
+      "id": "N02-ROOT-5",
+      "title": "meat/egg endpoint",
+      "rationale": "CDC meat-containing egg scope is more specific than beef-only or generic egg guidance.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": [
+        "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household noodle product and pan batch count.",
+        "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+        "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
+      ]
+    },
+    {
+      "id": "N02-ROOT-6",
+      "title": "exact comparison scope",
+      "rationale": "Use complete originals and proposals for integration; short summaries are not presented as byte-exact quotes.",
+      "confidence": "High, programmatic snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-7",
+      "title": "Authorized subsequent peer correction N02-01",
+      "rationale": "A publisher domain is not a geographic origin. It was introduced as metadata; omit only this origin, preserve cuisine style, source and exact sourceUrl. Do not invent a replacement country.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "e3001d04 metadata addition and unchanged formula"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-8",
+      "title": "Authorized subsequent peer correction N02-04",
+      "rationale": "Use sensory cooking prose; saved-formula history belongs in the private record.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-9",
+      "title": "Authorized subsequent peer correction N02-05",
+      "rationale": "Preserve the source-backed three-portion planning count without public archive commentary.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact bound saved Serves:3"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-10",
+      "title": "Authorized subsequent peer correction N02-06",
+      "rationale": "Teach the reason for clean handling rather than narrating an editorial repair.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Separate raw-contact dishes/tools from cooked food"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-11",
+      "title": "Authorized subsequent peer correction N02-07",
+      "rationale": "The actual fresh/dried product preparation can add time; current total says it includes all noodle preparation without a known product or duration. Keep the author planning range, qualify the starting state rather than invent a new clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://thewoksoflife.com/pad-see-ew/",
+          "scope": "Fresh and dried products have different preparation; package route governs"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Three-step component prep and batch-dependent cooking"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual noodle product, preparation time and pan loads in a kitchen record."
+      ]
+    },
+    {
+      "id": "N02-ROOT-12",
+      "title": "Authorized subsequent peer correction N02-08",
+      "rationale": "Qualify the noodle starting state and dependencies; keep untested status private, while public prose describes a planning range.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://thewoksoflife.com/pad-see-ew/",
+          "scope": "Separate noodle preparation and staged wok cooking"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-13",
+      "title": "Authorized subsequent peer correction N02-26",
+      "rationale": "A frozen ledger must describe frozen text, not attribute the proposal’s new mixed-dish endpoint to it.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Actual frozen step5"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "New mixed-dish endpoint"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-14",
+      "title": "Authorized subsequent peer correction N02-30",
+      "rationale": "The comparison omits the current publisher’s separate3tbsp sauce water, making the source disagreement incomplete. This is evidence correction only, not a water addition.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://thewoksoflife.com/pad-see-ew/",
+          "scope": "Current full marinade/sauce ingredient card"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact saved sauce and broccoli count"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-15",
+      "title": "Authorized subsequent peer correction N02-31",
+      "rationale": "Document the saved-versus-current allocation disagreement fully; preserve the current4tbsp total and conditional dried route. Do not invent additional oil beyond the source total or silently change the accepted current remainder route.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Original explicit1/1/1, optional extra oil and listed4 total"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Current remainder-oil wording"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Pad%20See%20Ew%202.html",
+    "introductionScope": "Actual earliest matching saved cooking HTML, distinguished from two other Pad See Ew recipes by all native ingredient lines; historical title is not native identity proof. Current private stable binding establishes exact durable450 native original separately.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact original native Serves:3 was lost as Yield not recorded in9fa import. Restore the recorded planning yield with source provenance, not a measured household certification.",
+    "Current Woks of Life adds⅛tsp baking soda and1tbsp marinade water, also3tbsp sauce water, and changes sauce thin-soy from saved2tsp to1tbsp. It describes broccoli as6oz/about3cups; the saved recipe records3cups without a weight conversion. Preserve the saved formula: do not import these amounts or equate the separate broccoli-steaming allowance with marinade or sauce water.",
+    "Saved native fresh method explicitly uses1tbsp cooking oil at each beef, vegetable and egg stage and allows a little more if needed, leaving1tbsp of the listed4tbsp without a fixed default stage. Frozen current says remaining cooking oil at the egg stage, mathematically2tbsp for fresh noodles; proposal preserves that current route. Dried route spends1tbsp each on noodle coating/beef/vegetables/eggs. Both proposals use4tbsp total; neither is a kitchen-tested oil allocation, and the current fresh2tbsp egg share is not quoted as native’s explicit dose.",
+    "Mixed beef-and-egg dish requires165°F under CDC applicability, while retaining beef145°F/3minute rest and clean handling."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "FOR THE STEAK & MARINADE, YOU’LL NEED:",
+        "destinationOrQuestion": "Heading: steak marinade"
+      },
+      {
+        "row": 2,
+        "ingredient": "8 ounces flank steak (thinly sliced)",
+        "destinationOrQuestion": "marinate then cook beef"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 teaspoon Thai black soy sauce (or regular light soy sauce)",
+        "destinationOrQuestion": "marinate:1tspsoy"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 teaspoon vegetable oil",
+        "destinationOrQuestion": "marinate:1tspoil, separate from cooking4tbsp"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 teaspoon cornstarch (or tapioca starch)",
+        "destinationOrQuestion": "marinate:1tspstarch"
+      },
+      {
+        "row": 6,
+        "ingredient": "FOR THE REST OF THE DISH, YOU’LL NEED:",
+        "destinationOrQuestion": "Heading: rest of dish"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tablespoon oyster sauce",
+        "destinationOrQuestion": "sauce: oyster"
+      },
+      {
+        "row": 8,
+        "ingredient": "½ teaspoon sugar",
+        "destinationOrQuestion": "sauce: sugar"
+      },
+      {
+        "row": 9,
+        "ingredient": "2 teaspoons Thai soy sauce (or regular light soy sauce)",
+        "destinationOrQuestion": "sauce: thinsoy saved2tsp"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 tablespoon Thai black soy sauce",
+        "destinationOrQuestion": "sauce: fullblacksoy1tbsp"
+      },
+      {
+        "row": 11,
+        "ingredient": "1 teaspoon fish sauce",
+        "destinationOrQuestion": "sauce: fish"
+      },
+      {
+        "row": 12,
+        "ingredient": "Freshly ground white pepper (to taste)",
+        "destinationOrQuestion": "sauce: pepperallowance"
+      },
+      {
+        "row": 13,
+        "ingredient": "1 pound fresh wide rice noodles (you can also use 8 ounces dried rice noodles)",
+        "destinationOrQuestion": "noodles:1lb fresh OR8ozdry, exactnative alternatives"
+      },
+      {
+        "row": 14,
+        "ingredient": "4 tablespoons vegetable oil",
+        "destinationOrQuestion": "pan:4tbsp TOTAL, route-specific shares; marinade oil extra"
+      },
+      {
+        "row": 15,
+        "ingredient": "3 cloves garlic (sliced thinly)",
+        "destinationOrQuestion": "vegetables: all3garliccloves"
+      },
+      {
+        "row": 16,
+        "ingredient": "3 cups Chinese broccoli (cut into 2-inch/5 cm pieces)",
+        "destinationOrQuestion": "vegetables: all3cup broccoli"
+      },
+      {
+        "row": 17,
+        "ingredient": "2 large eggs (slightly beaten)",
+        "destinationOrQuestion": "egg: both eggs added and mixed in frozen step5; frozen method has no explicit mixed-dish165°F endpoint. Proposed method adds fully-set egg and measured165°F."
+      },
+      {
+        "row": 18,
+        "ingredient": "Water, a small splash for steaming broccoli if needed",
+        "destinationOrQuestion": "vegetables: existing small steamwaterallowance"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Flank steak",
+        "quantity": {
+          "amount": 8,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "thinly sliced against the grain",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Thai black soy sauce or regular light soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Vegetable oil for the marinade",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cornstarch or tapioca starch",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Oyster sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Thai soy sauce or regular light soy sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Thai black soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fish sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Freshly ground white pepper",
+        "quantity": null,
+        "allowance": "to taste",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh wide rice noodles",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Vegetable cooking oil",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "beef",
+            "share": 0.25
+          },
+          {
+            "step": "vegetables",
+            "share": 0.25
+          },
+          {
+            "step": "egg",
+            "share": 0.5
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "thinly sliced",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Chinese broccoli",
+        "quantity": {
+          "amount": 3,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "cut into roughly 2-inch pieces; thick stems sliced to cook evenly",
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water",
+        "quantity": null,
+        "allowance": "a small splash for steaming broccoli only if needed",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "lightly beaten",
+        "destinations": [
+          {
+            "step": "egg",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Chili oil or Chiu Chow sauce",
+        "quantity": null,
+        "allowance": "for serving, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Fresh wide rice noodles",
+        "alternative": "For the original batch, use 8 oz dried wide rice noodles instead of 1 lb fresh. Prepare to a just-tender bite per package, drain well and coat with 1 tbsp from the 4 tbsp cooking-oil total.",
+        "effect": "Complete dried route: use 1 tbsp cooking oil each for noodles, beef, vegetables and eggs; marinade 1 tsp oil remains separate. Scale chosen allocations together, and do not add the fresh-route 2 tbsp egg dose on top."
+      }
+    ],
+    "preparedComponents": null
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Fresh wide rice noodles",
+        "alternative": "For the original batch, use 8 oz dried wide rice noodles instead of 1 lb fresh. Prepare to a just-tender bite per package, drain well and coat with 1 tbsp from the 4 tbsp cooking-oil total.",
+        "effect": "Complete dried route: use 1 tbsp cooking oil each for noodles, beef, vegetables and eggs; marinade 1 tsp oil remains separate. Scale chosen allocations together, and do not add the fresh-route 2 tbsp egg dose on top."
+      }
+    ],
+    "preparedComponents": null,
+    "publicSubstitutions": [
+      {
+        "ingredient": "Fresh wide rice noodles",
+        "alternative": "For the original batch, use 8 oz dried wide rice noodles instead of 1 lb fresh. Prepare to a just-tender bite per package, drain well and coat with 1 tbsp from the 4 tbsp cooking-oil total.",
+        "effect": "Complete dried route: use 1 tbsp cooking oil each for noodles, beef, vegetables and eggs; marinade 1 tsp oil remains separate. Scale chosen allocations together, and do not add the fresh-route 2 tbsp egg dose on top."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "scope": "No linked-meal certification; rice/noodles/edamame component preparation clocks separate"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "3 portions",
+    "scope": "Saved source planning claim; not measured yield or kitchen test",
+    "pan": "At the original batch, plan three portions. Keep the noodle widths and beef slices similar when scaling; cook more batches rather than crowding the pan or multiplying brief stir-fry clocks.",
+    "timing": [
+      "About 15–25 min preparation",
+      "About 15–30 min cooking, depending on batches",
+      "About 35–60 min with prepared noodles, plus any separate noodle preparation"
+    ],
+    "scale": "Measured formula values scale together; actual pan loads/product state/endpoints govern timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Steak and marinade ---",
+        "4 oz Flank steak, thinly sliced against the grain",
+        "1/2 tsp Thai black soy sauce or regular light soy sauce",
+        "1/2 tsp Vegetable oil for the marinade",
+        "1/2 tsp Cornstarch or tapioca starch",
+        "--- Sauce ---",
+        "1/2 tbsp Oyster sauce",
+        "1/4 tsp Sugar",
+        "1 tsp Thai soy sauce or regular light soy sauce",
+        "1/2 tbsp Thai black soy sauce",
+        "1/2 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "--- Fresh-noodle pan route ---",
+        "1/2 lb Fresh wide rice noodles",
+        "2 tbsp Vegetable cooking oil",
+        "1 1/2 Garlic cloves, thinly sliced",
+        "1 1/2 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced to cook evenly",
+        "Water, a small splash for steaming broccoli only if needed",
+        "1 Large egg, lightly beaten",
+        "--- Optional finish ---",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Marinate the beef:** Toss Flank steak, Thai black soy sauce or regular light soy sauce, Vegetable oil for the marinade, and Cornstarch or tapioca starch until evenly coated. Keep refrigerated while preparing the remaining ingredients.\n2. **Prepare the sauce:** Mix Oyster sauce, Sugar, Thai soy sauce or regular light soy sauce, Thai black soy sauce, Fish sauce, and Freshly ground white pepper in a separate bowl until the sugar dissolves.\n3. **Loosen fresh noodles:** Prepare Fresh wide rice noodles following their package guidance immediately before stir-frying. If chilled noodles are stiff, briefly rinse with hot water to loosen, then drain thoroughly. Keep hands away from the hot pan.\n4. **Cook the beef:** Heat 1/4 of the Vegetable cooking oil in a wok or large skillet over medium-high heat until shimmering. Add marinated beef in a thin layer, cooking manageable batches. Turn and check the thickest pieces for 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables; keep raw-contact dishes and utensils separate.\n5. **Cook vegetables and noodles:** Use 1/4 of the Vegetable cooking oil, Garlic cloves, Chinese broccoli, and Water. Add this step’s cooking oil, garlic and broccoli to the wok. Stir until stems begin to soften, starting checks after about 2 minutes; add the small steaming-water allowance and briefly cover only if the stems remain tough. Add loosened noodles and all the prepared sauce. Fold gently until coated, then add the cooked, rested beef.\n6. **Cook and fold the eggs:** Have 1/2 of the Vegetable cooking oil and Large eggs ready. Push noodles aside, add this step’s cooking oil and the beaten eggs, and scramble until fully set. Fold through the noodles and continue cooking until evenly hot and the mixed egg-and-beef dish measures 165°F /74°C. Cook longer if needed rather than relying on a brief timer.\n7. **Serve:** Serve hot and offer Chili oil or Chiu Chow sauce (if using) separately.",
+      "shopping": [
+        "4 oz Flank steak",
+        "1/2 tsp Thai black soy sauce or regular light soy sauce",
+        "1/2 tsp Vegetable oil for the marinade",
+        "1/2 tsp Cornstarch or tapioca starch",
+        "1/2 tbsp Oyster sauce",
+        "1/4 tsp Sugar",
+        "1 tsp Thai soy sauce or regular light soy sauce",
+        "1/2 tbsp Thai black soy sauce",
+        "1/2 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "1/2 lb Fresh wide rice noodles",
+        "2 tbsp Vegetable cooking oil",
+        "1 1/2 Garlic cloves",
+        "1 1/2 cups Chinese broccoli",
+        "1 Large egg",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Steak and marinade ---",
+        "8 oz Flank steak, thinly sliced against the grain",
+        "1 tsp Thai black soy sauce or regular light soy sauce",
+        "1 tsp Vegetable oil for the marinade",
+        "1 tsp Cornstarch or tapioca starch",
+        "--- Sauce ---",
+        "1 tbsp Oyster sauce",
+        "1/2 tsp Sugar",
+        "2 tsp Thai soy sauce or regular light soy sauce",
+        "1 tbsp Thai black soy sauce",
+        "1 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "--- Fresh-noodle pan route ---",
+        "1 lb Fresh wide rice noodles",
+        "4 tbsp Vegetable cooking oil",
+        "3 Garlic cloves, thinly sliced",
+        "3 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced to cook evenly",
+        "Water, a small splash for steaming broccoli only if needed",
+        "2 Large eggs, lightly beaten",
+        "--- Optional finish ---",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Marinate the beef:** Toss Flank steak, Thai black soy sauce or regular light soy sauce, Vegetable oil for the marinade, and Cornstarch or tapioca starch until evenly coated. Keep refrigerated while preparing the remaining ingredients.\n2. **Prepare the sauce:** Mix Oyster sauce, Sugar, Thai soy sauce or regular light soy sauce, Thai black soy sauce, Fish sauce, and Freshly ground white pepper in a separate bowl until the sugar dissolves.\n3. **Loosen fresh noodles:** Prepare Fresh wide rice noodles following their package guidance immediately before stir-frying. If chilled noodles are stiff, briefly rinse with hot water to loosen, then drain thoroughly. Keep hands away from the hot pan.\n4. **Cook the beef:** Heat 1/4 of the Vegetable cooking oil in a wok or large skillet over medium-high heat until shimmering. Add marinated beef in a thin layer, cooking manageable batches. Turn and check the thickest pieces for 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables; keep raw-contact dishes and utensils separate.\n5. **Cook vegetables and noodles:** Use 1/4 of the Vegetable cooking oil, Garlic cloves, Chinese broccoli, and Water. Add this step’s cooking oil, garlic and broccoli to the wok. Stir until stems begin to soften, starting checks after about 2 minutes; add the small steaming-water allowance and briefly cover only if the stems remain tough. Add loosened noodles and all the prepared sauce. Fold gently until coated, then add the cooked, rested beef.\n6. **Cook and fold the eggs:** Have 1/2 of the Vegetable cooking oil and Large eggs ready. Push noodles aside, add this step’s cooking oil and the beaten eggs, and scramble until fully set. Fold through the noodles and continue cooking until evenly hot and the mixed egg-and-beef dish measures 165°F /74°C. Cook longer if needed rather than relying on a brief timer.\n7. **Serve:** Serve hot and offer Chili oil or Chiu Chow sauce (if using) separately.",
+      "shopping": [
+        "8 oz Flank steak",
+        "1 tsp Thai black soy sauce or regular light soy sauce",
+        "1 tsp Vegetable oil for the marinade",
+        "1 tsp Cornstarch or tapioca starch",
+        "1 tbsp Oyster sauce",
+        "1/2 tsp Sugar",
+        "2 tsp Thai soy sauce or regular light soy sauce",
+        "1 tbsp Thai black soy sauce",
+        "1 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "1 lb Fresh wide rice noodles",
+        "4 tbsp Vegetable cooking oil",
+        "3 Garlic cloves",
+        "3 cups Chinese broccoli",
+        "2 Large eggs",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Steak and marinade ---",
+        "16 oz Flank steak, thinly sliced against the grain",
+        "2 tsp Thai black soy sauce or regular light soy sauce",
+        "2 tsp Vegetable oil for the marinade",
+        "2 tsp Cornstarch or tapioca starch",
+        "--- Sauce ---",
+        "2 tbsp Oyster sauce",
+        "1 tsp Sugar",
+        "4 tsp Thai soy sauce or regular light soy sauce",
+        "2 tbsp Thai black soy sauce",
+        "2 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "--- Fresh-noodle pan route ---",
+        "2 lb Fresh wide rice noodles",
+        "8 tbsp Vegetable cooking oil",
+        "6 Garlic cloves, thinly sliced",
+        "6 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced to cook evenly",
+        "Water, a small splash for steaming broccoli only if needed",
+        "4 Large eggs, lightly beaten",
+        "--- Optional finish ---",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Marinate the beef:** Toss Flank steak, Thai black soy sauce or regular light soy sauce, Vegetable oil for the marinade, and Cornstarch or tapioca starch until evenly coated. Keep refrigerated while preparing the remaining ingredients.\n2. **Prepare the sauce:** Mix Oyster sauce, Sugar, Thai soy sauce or regular light soy sauce, Thai black soy sauce, Fish sauce, and Freshly ground white pepper in a separate bowl until the sugar dissolves.\n3. **Loosen fresh noodles:** Prepare Fresh wide rice noodles following their package guidance immediately before stir-frying. If chilled noodles are stiff, briefly rinse with hot water to loosen, then drain thoroughly. Keep hands away from the hot pan.\n4. **Cook the beef:** Heat 1/4 of the Vegetable cooking oil in a wok or large skillet over medium-high heat until shimmering. Add marinated beef in a thin layer, cooking manageable batches. Turn and check the thickest pieces for 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables; keep raw-contact dishes and utensils separate.\n5. **Cook vegetables and noodles:** Use 1/4 of the Vegetable cooking oil, Garlic cloves, Chinese broccoli, and Water. Add this step’s cooking oil, garlic and broccoli to the wok. Stir until stems begin to soften, starting checks after about 2 minutes; add the small steaming-water allowance and briefly cover only if the stems remain tough. Add loosened noodles and all the prepared sauce. Fold gently until coated, then add the cooked, rested beef.\n6. **Cook and fold the eggs:** Have 1/2 of the Vegetable cooking oil and Large eggs ready. Push noodles aside, add this step’s cooking oil and the beaten eggs, and scramble until fully set. Fold through the noodles and continue cooking until evenly hot and the mixed egg-and-beef dish measures 165°F /74°C. Cook longer if needed rather than relying on a brief timer.\n7. **Serve:** Serve hot and offer Chili oil or Chiu Chow sauce (if using) separately.",
+      "shopping": [
+        "16 oz Flank steak",
+        "2 tsp Thai black soy sauce or regular light soy sauce",
+        "2 tsp Vegetable oil for the marinade",
+        "2 tsp Cornstarch or tapioca starch",
+        "2 tbsp Oyster sauce",
+        "1 tsp Sugar",
+        "4 tsp Thai soy sauce or regular light soy sauce",
+        "2 tbsp Thai black soy sauce",
+        "2 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "2 lb Fresh wide rice noodles",
+        "8 tbsp Vegetable cooking oil",
+        "6 Garlic cloves",
+        "6 cups Chinese broccoli",
+        "4 Large eggs",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Steak and marinade ---",
+        "8 oz Flank steak, thinly sliced against the grain",
+        "1 tsp Thai black soy sauce or regular light soy sauce",
+        "1 tsp Vegetable oil for the marinade",
+        "1 tsp Cornstarch or tapioca starch",
+        "--- Sauce ---",
+        "1 tbsp Oyster sauce",
+        "1/2 tsp Sugar",
+        "2 tsp Thai soy sauce or regular light soy sauce",
+        "1 tbsp Thai black soy sauce",
+        "1 tsp Fish sauce",
+        "Freshly ground white pepper, to taste",
+        "--- Fresh-noodle pan route ---",
+        "1 lb Fresh wide rice noodles",
+        "4 tbsp Vegetable cooking oil",
+        "3 Garlic cloves, thinly sliced",
+        "3 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced to cook evenly",
+        "Water, a small splash for steaming broccoli only if needed",
+        "2 Large eggs, lightly beaten",
+        "--- Optional finish ---",
+        "Chili oil or Chiu Chow sauce, for serving, if desired, optional"
+      ],
+      "yield": "3 portions"
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Saved8oz steak/1lb fresh OR8oz dried noodle amounts",
+    "Full4tbsp cooking oil plus separate1tsp marinade oil",
+    "Saved2tsp sauce thin-soy amount; no modern1tbsp normalization",
+    "Both2eggs/all3cup broccoli",
+    "Current clean-plate,145°F beef and3-minute rest repairs",
+    "Current steam-water allowance and no guessed marinade water/baking soda"
+  ],
+  "remainingQuestions": [
+    "Confirm household noodle product and pan batch count.",
+    "The saved three-serving yield is a publisher claim, not a weighed household yield.",
+    "Taste and record the fresh-noodle egg-stage oil allocation already implied by the current remainder instruction."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

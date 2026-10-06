@@ -1,0 +1,1621 @@
+{
+  "slug": "cu-chao-mian",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "b3cec1df317f4d7b4e764b1314085e13572e276c261d7e4b53b4a1e19d012df7",
+  "acceptedSourceSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 15–25 min preparation, including the 10-minute marinade"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 15–20 min cooking, plus any separate noodle or dried-mushroom preparation"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 30–45 min with prepared noodles and fresh mushrooms"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Japanese-style Udon or thick Egg Noodles",
+        "6 oz Pork Tenderloin, sliced into thin strips",
+        "3/4 tsp Cornstarch",
+        "1 tsp Shaoxing Wine",
+        "1/2 tsp Light Soy Sauce",
+        "2 1/2 tsp Dark Soy Sauce (for the iconic \"Gold\" color)",
+        "2 1/2 tsp Light Soy Sauce",
+        "1/4 tsp Sugar",
+        "8 Fresh Shiitake Mushrooms, sliced",
+        "1 bunch Baby Bok Choy, trimmed",
+        "Neutral Oil"
+      ],
+      "after": [
+        "--- Pork and marinade ---",
+        "6 oz Pork tenderloin, thin strips",
+        "3/4 tsp Cornstarch",
+        "1 tsp Shaoxing wine",
+        "1/2 tsp Light soy sauce for the marinade",
+        "1/8 tsp Dark soy sauce for the marinade",
+        "1/8 tsp Sugar for the marinade",
+        "--- Pan and noodle glaze ---",
+        "3 tbsp Neutral oil",
+        "8 Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1 lb Japanese-style udon or thick egg noodles, prepare per actual product instructions before pan cooking",
+        "Water, for noodle preparation only if the package requires it",
+        "2 1/2 tsp Dark soy sauce for the noodles",
+        "2 1/2 tsp Light soy sauce for the noodles",
+        "1/4 tsp Sugar for the noodles",
+        "1 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves separated",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "--- Optional table finish ---",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 570,
+        "protein": 29,
+        "carbs": 89.5,
+        "fat": 12,
+        "fiber": 3.5,
+        "sugar": 3.5,
+        "sodium": 2020
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "marinade",
+            "name": "Pork and marinade",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Pork tenderloin",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thin strips"
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "Cornstarch",
+                "quantity": {
+                  "amount": 0.75,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "Shaoxing wine",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "light-soy",
+                "key": "light-soy",
+                "name": "Light soy sauce for the marinade",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dark-soy",
+                "key": "dark-soy",
+                "name": "Dark soy sauce for the marinade",
+                "quantity": {
+                  "amount": 0.125,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar for the marinade",
+                "quantity": {
+                  "amount": 0.125,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Pan and noodle glaze",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Neutral oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "pork",
+                    "share": 0.3333333333333333
+                  },
+                  {
+                    "step": "noodles",
+                    "share": 0.6666666666666666
+                  }
+                ]
+              },
+              {
+                "id": "mushroom",
+                "key": "mushroom",
+                "name": "Fresh shiitake mushroom",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "plural": "Fresh shiitake mushrooms",
+                "preparation": "tough stems removed, caps sliced"
+              },
+              {
+                "id": "noodles",
+                "key": "noodles",
+                "name": "Japanese-style udon or thick egg noodles",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ],
+                "preparation": "prepare per actual product instructions before pan cooking"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Water",
+                "allowance": "for noodle preparation only if the package requires it",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "dark-soy",
+                "key": "dark-soy",
+                "name": "Dark soy sauce for the noodles",
+                "quantity": {
+                  "amount": 2.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "light-soy",
+                "key": "light-soy",
+                "name": "Light soy sauce for the noodles",
+                "quantity": {
+                  "amount": 2.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar for the noodles",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bok",
+                "key": "bok",
+                "name": "Bunch of baby bok choy",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "plural": "Bunches of baby bok choy",
+                "preparation": "washed, trimmed and sliced; stems and leaves separated"
+              },
+              {
+                "id": "extra-dark-soy",
+                "key": "dark-soy",
+                "name": "Additional dark soy sauce",
+                "allowance": "a little more for color, only if desired",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "serve",
+            "name": "Optional table finish",
+            "ingredients": [
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "Chinese black vinegar",
+                "allowance": "a few drops at the table, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "marinate",
+            "title": "Marinate the pork",
+            "text": "Toss {{ingredients}} until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients."
+          },
+          {
+            "id": "prepare",
+            "title": "Prepare the noodles",
+            "text": "Use {{ingredients}}. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan."
+          },
+          {
+            "id": "pork",
+            "title": "Cook the pork",
+            "text": "Heat {{ingredients}} over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate."
+          },
+          {
+            "id": "noodles",
+            "title": "Cook mushrooms and noodles",
+            "text": "Use {{ingredients}}. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot."
+          },
+          {
+            "id": "finish",
+            "title": "Coat noodles and cook greens",
+            "text": "Have {{ingredients}} ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add {{name:pan.extra-dark-soy}} a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve hot and offer {{ingredients}} separately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cu chao mian keeps thick noodles, pork and greens together in a dark-soy coating",
+        "outcome": "Thick noodles, cooked pork and tender stems with separate marinade and glaze allocations.",
+        "techniques": ["stir-frying", "temperature"],
+        "before": [
+          "For the original batch, use one pound of Japanese-style udon for four planning portions. Prepare the actual product before stir-frying; frozen, refrigerated and dried noodles need different preparation. Thick egg noodles follow their own package instructions and may give a different cooked quantity.",
+          "Scale measured ingredients together, keep pork strips thin and use manageable pan batches. The ten-minute marinade and doneness endpoint do not multiply with quantity.",
+          "For the original batch, the oil total is 3 tbsp: one-third for pork and two-thirds for mushrooms and noodles. The marinade’s dark soy and sugar are separate from the noodle-glaze amounts."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Pork reaches 145°F and rests 3 minutes on a clean plate.",
+            "why": "Brown appearance alone is not the whole-muscle pork endpoint."
+          },
+          {
+            "step": 5,
+            "cue": "Noodles are evenly coated and bok choy stems crisp-tender with leaves wilted.",
+            "why": "Split stems and leaves within the final stage so a fixed minute does not leave tough stems."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles clump or sauce burns",
+            "cause": "Noodles were not prepared/loosened or the final heat is too high",
+            "fix": "Follow the product preparation before pan cooking, drain well and use smaller loads. Reduce to medium after cooking pork, and lift gently while coating noodles."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Pork tenderloin",
+            "alternative": "Use the same listed weight of thinly sliced pork shoulder, butt or loin.",
+            "effect": "The cuts differ in tenderness; slice thinly and retain 145°F plus a 3-minute rest."
+          },
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "Use the same listed amount of dry cooking sherry.",
+            "effect": "This replaces the Shaoxing wine without adding a second marinade liquid."
+          },
+          {
+            "ingredient": "Baby bok choy",
+            "alternative": "Use the same listed bunch count of choy sum.",
+            "effect": "A distinct purchase option, not a weight conversion; use stem tenderness and wilted leaves as cues."
+          },
+          {
+            "ingredient": "Fresh shiitake mushrooms",
+            "alternative": "Use the same listed count of dried shiitake mushrooms, fully reconstituted and sliced.",
+            "effect": "Follow the product soaking instructions in advance; keep prolonged soaking refrigerated, drain well and exclude that separate task from the fresh-mushroom clock."
+          },
+          {
+            "ingredient": "Udon",
+            "alternative": "Use thick egg noodles at the listed purchase weight.",
+            "effect": "Follow that product’s instructions; dried and fresh products may give different cooked quantities, so use pan batches without claiming an equivalent finished yield."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.",
+        "timing": "About 15–25 min preparation, including the 10-minute marinade; About 15–20 min cooking, plus any separate noodle or dried-mushroom preparation; About 30–45 min with prepared noodles and fresh mushrooms. Plan for extra time if the actual pan loads or component preparation take longer.",
+        "sources": [
+          {
+            "title": "The Woks of Life — Shanghai Fried Noodles",
+            "url": "https://thewoksoflife.com/shanghai-fried-noodles/"
+          },
+          {
+            "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCu chao mian is a Shanghai classic characterized by its dark, glossy noodles coated in generous dark soy sauce for a deep mahogany color and subtle sweetness. Velveting the pork in cornstarch and Shaoxing wine keeps it tender during high-heat cooking, while thick udon noodles provide a satisfying chew against wilted bok choy.\n\n## Directions\n\n1.  **Velvet:** Toss pork strips with cornstarch, wine, and soy sauce. Let stand for 10 minutes.\n2.  **The Sear:** Heat 1 tbsp oil in a wok until smoking. Sear the pork for 2 minutes until browned. Remove.\n3.  **The Crunch:** Add 1 tbsp oil. Sauté shiitakes for 2 minutes. Separate the prepared noodles before they enter the wok. Add them to the hot pan and loosen or toss with cooking chopsticks or tongs; keep hands out of the hot oil.\n4.  **Glaze:** Add both soy sauces and sugar. Stir-fry for 3 minutes over high heat until the noodles are evenly dark and glossy.\n5.  **Finish:** Add the bok choy and the cooked pork. Toss for 1 minute until the greens are just wilted but the stems stay crunchy.\n6.  **Serve:** Serve immediately. Add a dash of Chinese black vinegar at the table for the mandatory **Acid Balance**.\n",
+    "after": "\n## Chef's Note\n\nCu chao mian keeps thick noodles, pork and greens together in a dark-soy coating. The small marinade and finishing sauce are separate: do not spend the marinade soy again in the noodle glaze. Loosen prepared noodles before they enter the hot pan, then lift and fold with chopsticks or tongs.\n\n## Directions\n\n1. **Marinate the pork:** Toss Pork tenderloin, Cornstarch, Shaoxing wine, Light soy sauce for the marinade, Dark soy sauce for the marinade, and Sugar for the marinade until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients.\n2. **Prepare the noodles:** Use Japanese-style udon or thick egg noodles and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.\n3. **Cook the pork:** Heat 1/3 of the Neutral oil over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate.\n4. **Cook mushrooms and noodles:** Use 2/3 of the Neutral oil and Fresh shiitake mushrooms. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot.\n5. **Coat noodles and cook greens:** Have Dark soy sauce for the noodles, Light soy sauce for the noodles, Sugar for the noodles, Bunch of baby bok choy, and Additional dark soy sauce (if using) ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add Additional dark soy sauce a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish.\n6. **Serve:** Serve hot and offer Chinese black vinegar (if using) separately.\n"
+  },
+  "findings": [
+    {
+      "id": "N02-ROOT-1",
+      "title": "whole source and ingredient allocation",
+      "rationale": "Exact045e5ba2 ancestor shanghai-fried-noodles-cu-chao-mian.md already lists3tbsp neutral oil,⅛tsp marinade dark soy and⅛tsp marinade sugar. eab6f8bb bulk rewrite makes oil unmeasured with1+1tbsp method assignments and omits those marinade entries and several source options.799028b2 copies the ancestor recipe to the current canonical path byte-exact; the retained314-line history is canonical-path history only. Complete independent follow history is776lines and includes the copy ancestor. Later9fa adds attribution, and no separate accepted household removal instruction is established. Restore the exact saved amounts while preserving current tenderloin/fresh main and prior safety/tool repairs. Current fresh mushrooms/tenderloin/babybokchoy main remain; saved dried mushrooms/pork shoulder-butt-loin/choysum/sherry alternatives retained distinctly. Black vinegar is optional in exact saved source, whereas generated current method wrongly makes it mandatory. Preserve the optional ingredient and separate serving destination; no generic acid rule. Exact045 ancestor, bound saved source and publisher permit additional dark soy only if desired for deeper color. N02-25 restores that separate genuine unmeasured finish allowance, with no change to either measured marinade or noodle-glaze amount; more dark soy also increases saltiness.",
+      "confidence": "High for original/current exact proof and arithmetic; source yields remain claims, household choice/untested clocks as recorded",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+        "Record actual pan batch size and timing.",
+        "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
+      ]
+    },
+    {
+      "id": "N02-ROOT-2",
+      "title": "complete cooking method",
+      "rationale": "Follow every ingredient through preparation, destination and selected variant; preserve accepted raw-contact and endpoint repairs, qualify clocks and original geometry.",
+      "confidence": "High for applicable measured endpoints/source method; moderate for untested planning ranges",
+      "applicableSources": [
+        "privately retained evidence",
+        {
+          "title": "FoodSafety.gov — state-specific minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+        "Record actual pan batch size and timing.",
+        "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
+      ]
+    },
+    {
+      "id": "N02-ROOT-3",
+      "title": "nutrition",
+      "rationale": "Inherited estimate lacks formula and yield calculation evidence; no replacement nutritional precision manufactured.",
+      "confidence": "High",
+      "applicableSources": ["Exact complete ingredient ledger"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-4",
+      "title": "source marinade/oil restoration",
+      "rationale": "Exact045 ancestor and exact identity-bound saved source establish the restored measures; eab6 removes them before799 copies the shortened ancestor to the canonical path. Full independently retained copy-follow history establishes the lineage but does not by itself prove household omission intent. Restoration and retained variants remain root-final-gate pending.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+        "Record actual pan batch size and timing.",
+        "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
+      ]
+    },
+    {
+      "id": "N02-ROOT-5",
+      "title": "optional vinegar",
+      "rationale": "Exact original source makes vinegar optional; no generic acid requirement imposed.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+        "Record actual pan batch size and timing.",
+        "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
+      ]
+    },
+    {
+      "id": "N02-ROOT-6",
+      "title": "pork endpoint and tool repair",
+      "rationale": "Applicable whole-muscle pork guidance, no raw-hands-in-hot-oil regression.",
+      "confidence": "High for exact source proof and allocation arithmetic; untested timings and household choices remain open",
+      "applicableSources": [
+        "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+        "Record actual pan batch size and timing.",
+        "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
+      ]
+    },
+    {
+      "id": "N02-ROOT-7",
+      "title": "exact comparison scope",
+      "rationale": "Use complete originals and proposals for integration; short summaries are not presented as byte-exact quotes.",
+      "confidence": "High, programmatic snapshots",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-8",
+      "title": "Authorized subsequent peer correction N02-14",
+      "rationale": "Keep the existing approximate preparation/cooking/total labels and dependencies; put kitchen-test status in the private record, not public cooking guidance.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-9",
+      "title": "Authorized subsequent peer correction N02-16",
+      "rationale": "Preserve all three source cuts and exact purchase weight without public archive history.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://thewoksoflife.com/shanghai-fried-noodles/",
+          "scope": "These source pork alternatives match exact native and045 ancestor"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-10",
+      "title": "Authorized subsequent peer correction N02-17",
+      "rationale": "Preserve state-specific endpoint and real cut difference through cooking prose.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Whole-muscle pork145°F and3-minute rest"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-11",
+      "title": "Authorized subsequent peer correction N02-18",
+      "rationale": "Keep the mutually exclusive same-volume sherry branch without archive commentary.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Shaoxing OR dry cooking sherry"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-12",
+      "title": "Authorized subsequent peer correction N02-19",
+      "rationale": "Preserve the distinct bunch-count source option, with no invented weight conversion.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://thewoksoflife.com/shanghai-fried-noodles/",
+          "scope": "Choy sum OR baby bok choy"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-13",
+      "title": "Authorized subsequent peer correction N02-20",
+      "rationale": "Preserve the exact count branch and existing refrigerated/product-guided soak caution without public archive history.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        },
+        {
+          "url": "https://thewoksoflife.com/shanghai-fried-noodles/",
+          "scope": "Fresh OR dried shiitake source count"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-14",
+      "title": "Authorized subsequent peer correction N02-21",
+      "rationale": "Preserve the current distinct egg-noodle alternative and its existing different-cooked-yield caveat; remove revision-history phrasing.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe presentation and source/variant preservation"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-15",
+      "title": "Authorized subsequent peer correction N02-25",
+      "rationale": "Exact045 ancestor, exact bound native and current primary all allow a little extra dark soy for color. eab6 bulk rewrite dropped it; later current-path history does not establish a separate accepted household removal. Existing⅛tsp marinade and2½tsp glaze quantities stay unchanged. The new allowance has no invented numeric dose. Component ID/token must use the actual owning component, with all three generated views regenerated together.",
+      "confidence": "high for source presence; household desired use not tested",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Original step3 optional extra dark soy"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact original archive method"
+        },
+        {
+          "url": "https://thewoksoflife.com/shanghai-fried-noodles/",
+          "scope": "Current source same optional color adjustment"
+        }
+      ],
+      "sourceApplicability": "Separate optional finish; preserves current main, total measured oil, all original measured soy/sugar quantities and4-portion planning yield.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Restore as optional source branch or explicitly hold it; do not infer deliberate disappearance."
+      ]
+    },
+    {
+      "id": "N02-ROOT-16",
+      "title": "Authorized subsequent peer correction N02-28",
+      "rationale": "Keep frozen, saved-original and proposed oil totals distinct; the frozen ingredient ledger currently calls its unmeasured oil restored3tbsp.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Frozen list and1+1tbsp method"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Saved3tbsp total and remaining-oil stage"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-17",
+      "title": "Authorized subsequent peer correction N02-29",
+      "rationale": "The frozen ledger currently attributes the new stem/leaf sequencing to the old method.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Frozen all-at-once final greens"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "New stem/leaf sequencing"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-18",
+      "title": "Authorized subsequent peer correction N02-32",
+      "rationale": "Recover the actual source-changing ancestor; current record’s assertion of complete history omits the bulk loss and the earliest committed source formula.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "ExactC100 copy proof and045/eab lineage"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "All776lines through original ancestor"
+        }
+      ],
+      "sourceApplicability": "Only this recipe and named field; preserve all other culinary/identity/source/rating/scaling values.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N02-ROOT-19",
+      "title": "Authorized subsequent peer correction N02-33",
+      "rationale": "Canonical introduction is not the first culinary source. All proposed restore quantities are corroborated earlier; the history record must not imply they were never committed or establish house-specific omission intent from persistence.306e8136 deliberately removed duplicate serving sections; do not restore them blindly.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact copy,earliest file, fullhistory and duplicate-section policy"
+        }
+      ],
+      "sourceApplicability": "Private provenance; no native UID identity claims beyond verified archive binding; no culinary amount changes.",
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Shanghai%20Fried%20Noodles%20(Cu%20Chao%20Mian).html",
+    "introductionScope": "Actual earliest saved HTML plus earliest canonical culinary ancestor recovered; renamed/copy/reintroduced source is one stable current recipe.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact045e5ba2 ancestor shanghai-fried-noodles-cu-chao-mian.md already lists3tbsp neutral oil,⅛tsp marinade dark soy and⅛tsp marinade sugar. eab6f8bb bulk rewrite makes oil unmeasured with1+1tbsp method assignments and omits those marinade entries and several source options.799028b2 copies the ancestor recipe to the current canonical path byte-exact; the retained314-line history is canonical-path history only. Complete independent follow history is776lines and includes the copy ancestor. Later9fa adds attribution, and no separate accepted household removal instruction is established. Restore the exact saved amounts while preserving current tenderloin/fresh main and prior safety/tool repairs.",
+    "Current fresh mushrooms/tenderloin/babybokchoy main remain; saved dried mushrooms/pork shoulder-butt-loin/choysum/sherry alternatives retained distinctly.",
+    "Black vinegar is optional in exact saved source, whereas generated current method wrongly makes it mandatory. Preserve the optional ingredient and separate serving destination; no generic acid rule.",
+    "Exact045 ancestor, bound saved source and publisher permit additional dark soy only if desired for deeper color. N02-25 restores that separate genuine unmeasured finish allowance, with no change to either measured marinade or noodle-glaze amount; more dark soy also increases saltiness."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1 lb Japanese-style Udon or thick Egg Noodles",
+        "destinationOrQuestion": "prepare:noodles1lb purchaseweight; actualproductstate instructions"
+      },
+      {
+        "row": 2,
+        "ingredient": "6 oz Pork Tenderloin, sliced into thin strips",
+        "destinationOrQuestion": "marinate thenpork:6oztenderloin unchangedmain"
+      },
+      {
+        "row": 3,
+        "ingredient": "3/4 tsp Cornstarch",
+        "destinationOrQuestion": "marinate:¾tspstarch"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 tsp Shaoxing Wine",
+        "destinationOrQuestion": "marinate:1tspwine"
+      },
+      {
+        "row": 5,
+        "ingredient": "1/2 tsp Light Soy Sauce",
+        "destinationOrQuestion": "marinate:½tsplightsoy only"
+      },
+      {
+        "row": 6,
+        "ingredient": "2 1/2 tsp Dark Soy Sauce (for the iconic \"Gold\" color)",
+        "destinationOrQuestion": "finish:2½tspdarksoy distinct from restored⅛tspmarinade"
+      },
+      {
+        "row": 7,
+        "ingredient": "2 1/2 tsp Light Soy Sauce",
+        "destinationOrQuestion": "finish:2½tsplightsoy distinct from½tspmarinade"
+      },
+      {
+        "row": 8,
+        "ingredient": "1/4 tsp Sugar",
+        "destinationOrQuestion": "finish:¼tspsugar distinct from restored⅛tspmarinade"
+      },
+      {
+        "row": 9,
+        "ingredient": "8 Fresh Shiitake Mushrooms, sliced",
+        "destinationOrQuestion": "noodles:all8freshmushrooms; distinctdriedvariant"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 bunch Baby Bok Choy, trimmed",
+        "destinationOrQuestion": "frozen: the entire listed bunch enters in step5 with pork for the fixed1-minute finish; proposal separates stems then leaves and checks stem tenderness."
+      },
+      {
+        "row": 11,
+        "ingredient": "Neutral Oil",
+        "destinationOrQuestion": "frozen: Neutral Oil has no listed total; method assigns1tbsp to pork and1tbsp to mushrooms/noodles,2tbsp explicitly. Exact045 ancestor/native lists3tbsp; proposal restores3tbsp as1tbsp pork plus2tbsp mushrooms/noodles."
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "Pork tenderloin",
+        "quantity": {
+          "amount": 6,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "thin strips",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Cornstarch",
+        "quantity": {
+          "amount": 0.75,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Shaoxing wine",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Light soy sauce for the marinade",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Dark soy sauce for the marinade",
+        "quantity": {
+          "amount": 0.125,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar for the marinade",
+        "quantity": {
+          "amount": 0.125,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Neutral oil",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "pork",
+            "share": 0.3333333333333333
+          },
+          {
+            "step": "noodles",
+            "share": 0.6666666666666666
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh shiitake mushroom",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "tough stems removed, caps sliced",
+        "destinations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Japanese-style udon or thick egg noodles",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "prepare per actual product instructions before pan cooking",
+        "destinations": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water",
+        "quantity": null,
+        "allowance": "for noodle preparation only if the package requires it",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Dark soy sauce for the noodles",
+        "quantity": {
+          "amount": 2.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Light soy sauce for the noodles",
+        "quantity": {
+          "amount": 2.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar for the noodles",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Bunch of baby bok choy",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed, trimmed and sliced; stems and leaves separated",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Additional dark soy sauce",
+        "quantity": null,
+        "allowance": "a little more for color, only if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Chinese black vinegar",
+        "quantity": null,
+        "allowance": "a few drops at the table, if desired",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Pork tenderloin",
+        "alternative": "Use the same listed weight of thinly sliced pork shoulder, butt or loin.",
+        "effect": "The cuts differ in tenderness; slice thinly and retain 145°F plus a 3-minute rest."
+      },
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "Use the same listed amount of dry cooking sherry.",
+        "effect": "This replaces the Shaoxing wine without adding a second marinade liquid."
+      },
+      {
+        "ingredient": "Baby bok choy",
+        "alternative": "Use the same listed bunch count of choy sum.",
+        "effect": "A distinct purchase option, not a weight conversion; use stem tenderness and wilted leaves as cues."
+      },
+      {
+        "ingredient": "Fresh shiitake mushrooms",
+        "alternative": "Use the same listed count of dried shiitake mushrooms, fully reconstituted and sliced.",
+        "effect": "Follow the product soaking instructions in advance; keep prolonged soaking refrigerated, drain well and exclude that separate task from the fresh-mushroom clock."
+      },
+      {
+        "ingredient": "Udon",
+        "alternative": "Use thick egg noodles at the listed purchase weight.",
+        "effect": "Follow that product’s instructions; dried and fresh products may give different cooked quantities, so use pan batches without claiming an equivalent finished yield."
+      }
+    ],
+    "preparedComponents": null,
+    "optionalFinish": {
+      "ingredient": "Additional dark soy sauce",
+      "quantity": null,
+      "allowance": "a little more for color, only if desired",
+      "optional": true,
+      "destination": "finish",
+      "sourceScope": "Exact045 ancestor and saved source; not a new numeric dose",
+      "measuredMarinadeAndGlazeUnchanged": true
+    }
+  },
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Pork tenderloin",
+        "alternative": "Use the same listed weight of thinly sliced pork shoulder, butt or loin.",
+        "effect": "The cuts differ in tenderness; slice thinly and retain 145°F plus a 3-minute rest."
+      },
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "Use the same listed amount of dry cooking sherry.",
+        "effect": "This replaces the Shaoxing wine without adding a second marinade liquid."
+      },
+      {
+        "ingredient": "Baby bok choy",
+        "alternative": "Use the same listed bunch count of choy sum.",
+        "effect": "A distinct purchase option, not a weight conversion; use stem tenderness and wilted leaves as cues."
+      },
+      {
+        "ingredient": "Fresh shiitake mushrooms",
+        "alternative": "Use the same listed count of dried shiitake mushrooms, fully reconstituted and sliced.",
+        "effect": "Follow the product soaking instructions in advance; keep prolonged soaking refrigerated, drain well and exclude that separate task from the fresh-mushroom clock."
+      },
+      {
+        "ingredient": "Udon",
+        "alternative": "Use thick egg noodles at the listed purchase weight.",
+        "effect": "Follow that product’s instructions; dried and fresh products may give different cooked quantities, so use pan batches without claiming an equivalent finished yield."
+      }
+    ],
+    "preparedComponents": null,
+    "publicSubstitutions": [
+      {
+        "ingredient": "Pork tenderloin",
+        "alternative": "Use the same listed weight of thinly sliced pork shoulder, butt or loin.",
+        "effect": "The cuts differ in tenderness; slice thinly and retain 145°F plus a 3-minute rest."
+      },
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "Use the same listed amount of dry cooking sherry.",
+        "effect": "This replaces the Shaoxing wine without adding a second marinade liquid."
+      },
+      {
+        "ingredient": "Baby bok choy",
+        "alternative": "Use the same listed bunch count of choy sum.",
+        "effect": "A distinct purchase option, not a weight conversion; use stem tenderness and wilted leaves as cues."
+      },
+      {
+        "ingredient": "Fresh shiitake mushrooms",
+        "alternative": "Use the same listed count of dried shiitake mushrooms, fully reconstituted and sliced.",
+        "effect": "Follow the product soaking instructions in advance; keep prolonged soaking refrigerated, drain well and exclude that separate task from the fresh-mushroom clock."
+      },
+      {
+        "ingredient": "Udon",
+        "alternative": "Use thick egg noodles at the listed purchase weight.",
+        "effect": "Follow that product’s instructions; dried and fresh products may give different cooked quantities, so use pan batches without claiming an equivalent finished yield."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["smashed-cucumber-salad", "steamed-broccoli"],
+    "scope": "No linked-meal certification; rice/noodles/edamame component preparation clocks separate"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "scope": "Saved source planning claim; not measured yield or kitchen test",
+    "pan": "For the original batch, use one pound of Japanese-style udon for four planning portions. Prepare the actual product before stir-frying; frozen, refrigerated and dried noodles need different preparation. Thick egg noodles follow their own package instructions and may give a different cooked quantity.",
+    "timing": [
+      "About 15–25 min preparation, including the 10-minute marinade",
+      "About 15–20 min cooking, plus any separate noodle or dried-mushroom preparation",
+      "About 30–45 min with prepared noodles and fresh mushrooms"
+    ],
+    "scale": "Measured formula values scale together; actual pan loads/product state/endpoints govern timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Pork and marinade ---",
+        "3 oz Pork tenderloin, thin strips",
+        "3/8 tsp Cornstarch",
+        "1/2 tsp Shaoxing wine",
+        "1/4 tsp Light soy sauce for the marinade",
+        "0.0625 tsp Dark soy sauce for the marinade",
+        "0.0625 tsp Sugar for the marinade",
+        "--- Pan and noodle glaze ---",
+        "1 1/2 tbsp Neutral oil",
+        "4 Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1/2 lb Japanese-style udon or thick egg noodles, prepare per actual product instructions before pan cooking",
+        "Water, for noodle preparation only if the package requires it",
+        "1 1/4 tsp Dark soy sauce for the noodles",
+        "1 1/4 tsp Light soy sauce for the noodles",
+        "1/8 tsp Sugar for the noodles",
+        "1/2 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves separated",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "--- Optional table finish ---",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Marinate the pork:** Toss Pork tenderloin, Cornstarch, Shaoxing wine, Light soy sauce for the marinade, Dark soy sauce for the marinade, and Sugar for the marinade until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients.\n2. **Prepare the noodles:** Use Japanese-style udon or thick egg noodles and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.\n3. **Cook the pork:** Heat 1/3 of the Neutral oil over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate.\n4. **Cook mushrooms and noodles:** Use 2/3 of the Neutral oil and Fresh shiitake mushrooms. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot.\n5. **Coat noodles and cook greens:** Have Dark soy sauce for the noodles, Light soy sauce for the noodles, Sugar for the noodles, Bunch of baby bok choy, and Additional dark soy sauce (if using) ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add Additional dark soy sauce a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish.\n6. **Serve:** Serve hot and offer Chinese black vinegar (if using) separately.",
+      "shopping": [
+        "3 oz Pork tenderloin",
+        "3/8 tsp Cornstarch",
+        "1/2 tsp Shaoxing wine",
+        "1/4 tsp Light soy sauce for the marinade",
+        "0.0625 tsp Dark soy sauce for the marinade",
+        "0.0625 tsp Sugar for the marinade",
+        "1 1/2 tbsp Neutral oil",
+        "4 Fresh shiitake mushrooms",
+        "1/2 lb Japanese-style udon or thick egg noodles",
+        "1 1/4 tsp Dark soy sauce for the noodles",
+        "1 1/4 tsp Light soy sauce for the noodles",
+        "1/8 tsp Sugar for the noodles",
+        "1/2 Bunch of baby bok choy",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Pork and marinade ---",
+        "6 oz Pork tenderloin, thin strips",
+        "3/4 tsp Cornstarch",
+        "1 tsp Shaoxing wine",
+        "1/2 tsp Light soy sauce for the marinade",
+        "1/8 tsp Dark soy sauce for the marinade",
+        "1/8 tsp Sugar for the marinade",
+        "--- Pan and noodle glaze ---",
+        "3 tbsp Neutral oil",
+        "8 Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1 lb Japanese-style udon or thick egg noodles, prepare per actual product instructions before pan cooking",
+        "Water, for noodle preparation only if the package requires it",
+        "2 1/2 tsp Dark soy sauce for the noodles",
+        "2 1/2 tsp Light soy sauce for the noodles",
+        "1/4 tsp Sugar for the noodles",
+        "1 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves separated",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "--- Optional table finish ---",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Marinate the pork:** Toss Pork tenderloin, Cornstarch, Shaoxing wine, Light soy sauce for the marinade, Dark soy sauce for the marinade, and Sugar for the marinade until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients.\n2. **Prepare the noodles:** Use Japanese-style udon or thick egg noodles and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.\n3. **Cook the pork:** Heat 1/3 of the Neutral oil over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate.\n4. **Cook mushrooms and noodles:** Use 2/3 of the Neutral oil and Fresh shiitake mushrooms. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot.\n5. **Coat noodles and cook greens:** Have Dark soy sauce for the noodles, Light soy sauce for the noodles, Sugar for the noodles, Bunch of baby bok choy, and Additional dark soy sauce (if using) ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add Additional dark soy sauce a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish.\n6. **Serve:** Serve hot and offer Chinese black vinegar (if using) separately.",
+      "shopping": [
+        "6 oz Pork tenderloin",
+        "3/4 tsp Cornstarch",
+        "1 tsp Shaoxing wine",
+        "1/2 tsp Light soy sauce for the marinade",
+        "1/8 tsp Dark soy sauce for the marinade",
+        "1/8 tsp Sugar for the marinade",
+        "3 tbsp Neutral oil",
+        "8 Fresh shiitake mushrooms",
+        "1 lb Japanese-style udon or thick egg noodles",
+        "2 1/2 tsp Dark soy sauce for the noodles",
+        "2 1/2 tsp Light soy sauce for the noodles",
+        "1/4 tsp Sugar for the noodles",
+        "1 Bunch of baby bok choy",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Pork and marinade ---",
+        "12 oz Pork tenderloin, thin strips",
+        "1 1/2 tsp Cornstarch",
+        "2 tsp Shaoxing wine",
+        "1 tsp Light soy sauce for the marinade",
+        "1/4 tsp Dark soy sauce for the marinade",
+        "1/4 tsp Sugar for the marinade",
+        "--- Pan and noodle glaze ---",
+        "6 tbsp Neutral oil",
+        "16 Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "2 lb Japanese-style udon or thick egg noodles, prepare per actual product instructions before pan cooking",
+        "Water, for noodle preparation only if the package requires it",
+        "5 tsp Dark soy sauce for the noodles",
+        "5 tsp Light soy sauce for the noodles",
+        "1/2 tsp Sugar for the noodles",
+        "2 Bunches of baby bok choy, washed, trimmed and sliced; stems and leaves separated",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "--- Optional table finish ---",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Marinate the pork:** Toss Pork tenderloin, Cornstarch, Shaoxing wine, Light soy sauce for the marinade, Dark soy sauce for the marinade, and Sugar for the marinade until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients.\n2. **Prepare the noodles:** Use Japanese-style udon or thick egg noodles and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.\n3. **Cook the pork:** Heat 1/3 of the Neutral oil over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate.\n4. **Cook mushrooms and noodles:** Use 2/3 of the Neutral oil and Fresh shiitake mushrooms. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot.\n5. **Coat noodles and cook greens:** Have Dark soy sauce for the noodles, Light soy sauce for the noodles, Sugar for the noodles, Bunch of baby bok choy, and Additional dark soy sauce (if using) ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add Additional dark soy sauce a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish.\n6. **Serve:** Serve hot and offer Chinese black vinegar (if using) separately.",
+      "shopping": [
+        "12 oz Pork tenderloin",
+        "1 1/2 tsp Cornstarch",
+        "2 tsp Shaoxing wine",
+        "1 tsp Light soy sauce for the marinade",
+        "1/4 tsp Dark soy sauce for the marinade",
+        "1/4 tsp Sugar for the marinade",
+        "6 tbsp Neutral oil",
+        "16 Fresh shiitake mushrooms",
+        "2 lb Japanese-style udon or thick egg noodles",
+        "5 tsp Dark soy sauce for the noodles",
+        "5 tsp Light soy sauce for the noodles",
+        "1/2 tsp Sugar for the noodles",
+        "2 Bunches of baby bok choy",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "geometry": "Keep original-size cuts, manageable pan loads and endpoints; elapsed time does not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Pork and marinade ---",
+        "6 oz Pork tenderloin, thin strips",
+        "3/4 tsp Cornstarch",
+        "1 tsp Shaoxing wine",
+        "1/2 tsp Light soy sauce for the marinade",
+        "1/8 tsp Dark soy sauce for the marinade",
+        "1/8 tsp Sugar for the marinade",
+        "--- Pan and noodle glaze ---",
+        "3 tbsp Neutral oil",
+        "8 Fresh shiitake mushrooms, tough stems removed, caps sliced",
+        "1 lb Japanese-style udon or thick egg noodles, prepare per actual product instructions before pan cooking",
+        "Water, for noodle preparation only if the package requires it",
+        "2 1/2 tsp Dark soy sauce for the noodles",
+        "2 1/2 tsp Light soy sauce for the noodles",
+        "1/4 tsp Sugar for the noodles",
+        "1 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves separated",
+        "Additional dark soy sauce, a little more for color, only if desired, optional",
+        "--- Optional table finish ---",
+        "Chinese black vinegar, a few drops at the table, if desired, optional"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Current6oz tenderloin main",
+    "Full1lb noodles/8freshmushrooms/1bunchbabybokchoy",
+    "Current3/4tspstarch/1tspwine/.5tspmarinadelightsoy",
+    "Currentfull2.5tspEACHglazesoies/.25tspsugar",
+    "a2c9e280 prepare noodles outside hot wok and use tools, not hands",
+    "Current cultural title and pairings"
+  ],
+  "remainingQuestions": [
+    "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
+    "Record actual pan batch size and timing.",
+    "Confirm household preference for tenderloin main versus saved shoulder/butt/loin options."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

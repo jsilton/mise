@@ -1,0 +1,643 @@
+{
+  "slug": "pad-woon-sen",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "0d6061a056a7126ad96e6e41f3b1c39a85797f3c3b76328e0377c2e8890c2229",
+  "acceptedSourceSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35–45 min, plus extra pan batches"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6.3 oz Dried Mung Bean Glass Noodles",
+        "3 tbsp Oyster Sauce",
+        "3 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce",
+        "1 tsp Granulated Sugar",
+        "1/4 Napa Cabbage, sliced",
+        "1 Bell Pepper, sliced",
+        "1 medium Carrot, grated",
+        "1 Yellow Onion, sliced",
+        "4 cloves Garlic, thinly sliced",
+        "3 large Eggs, whisked",
+        "1 Thai Bird Chile, sliced",
+        "4 Scallions, sliced",
+        "Grapeseed Oil"
+      ],
+      "after": [
+        "6.3 oz Dried Mung Bean Glass Noodles",
+        "3 tbsp Oyster Sauce",
+        "3 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce",
+        "1 tsp Granulated Sugar",
+        "1/4 Napa Cabbage, sliced",
+        "1 Bell Pepper, sliced",
+        "1 medium Carrot, grated",
+        "1 Yellow Onion, sliced",
+        "4 cloves Garlic, thinly sliced",
+        "3 large Eggs, whisked",
+        "1 Thai Bird Chile, sliced",
+        "4 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Thailand",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 7.5,
+        "carbs": 11,
+        "fat": 7.5,
+        "fiber": 1.5,
+        "sugar": 6,
+        "sodium": 3140
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Noodles bend easily without a hard center.",
+        "outcome": "Noodles are evenly coated and hot; vegetables have softened.",
+        "techniques": ["stir-frying", "starch"],
+        "before": [
+          "Keep the original-size thin vegetable cuts when scaling. Use additional pan batches and divide every sauce and vegetable supply proportionally; heat and cooking time do not multiply.",
+          "Prepare the sauce, vegetables and clean cooked-food plate before heating the pan."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Noodles bend easily without a hard center.",
+            "why": "Product thickness changes the soaking requirement; ten minutes is a first check, not a universal endpoint."
+          },
+          {
+            "step": 4,
+            "cue": "Eggs are fully set, with no liquid remaining.",
+            "why": "Cook the eggs before they join the finished noodles."
+          },
+          {
+            "step": 8,
+            "cue": "Noodles are evenly coated and hot; vegetables have softened.",
+            "why": "Even coating does not require evaporating all the sauce."
+          }
+        ],
+        "timing": "About 35–45 minutes for the original batch, with noodle soaking and sauce preparation overlapping. Separate vegetable stages or extra pan batches add active time.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below, use cooked leftovers within 3–4 days or freeze promptly, and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.",
+        "substitutions": [
+          {
+            "ingredient": "Combined-vegetable variation",
+            "alternative": "Follow the complete combined-vegetable variation described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+            "effect": "Retain every named supply and preparation destination in that route."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles or aromatics stick and scorch",
+            "cause": "The pan is crowded or heat exceeds what the ingredient stage can tolerate.",
+            "fix": "Lower heat and divide into additional proportional batches; stop and remove any burnt pieces rather than scraping burnt material through the sauce."
+          }
+        ],
+        "sources": [
+          {
+            "title": "New York Times — Pad Woon Sen",
+            "url": "https://cooking.nytimes.com/recipes/1025396-pad-woon-sen"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPad woon sen is a Thai glass noodle stir-fry that's lighter than pad thai. Mung bean glass noodles should be soaked in hot (not boiling) water for exactly 10 minutes to reach their optimal translucent texture. Sautéing cabbage and peppers over high heat until they develop charred edges before adding noodles creates smoky depth.\n\n## Directions\n\n1.  **Noodles:** Soak mung bean noodles in hot water for 10 minutes. Drain and rinse in cold water.\n2.  **The Sauce:** In a small bowl, whisk together oyster sauce, fish sauce, soy sauce, and sugar.\n3.  **The Egg:** In a wok, heat a splash of oil. Scramble the eggs with a pinch of salt until just set. Remove and roughly chop.\n4.  **The Crunch:** Heat oil until smoking. Sauté cabbage and peppers for 3-4 minutes until charred at the edges but still firm. Transfer to the egg plate.\n5.  **Aromatics:** Add fresh oil. Sauté onions and carrots for 2 minutes until soft. Add garlic and sauté for 45 seconds.\n6.  **Bind:** Add the drained noodles and the sauce. Toss vigorously over medium-high for 3 minutes until the noodles are glossy and have absorbed the liquid.\n7.  **Finish:** Return the eggs and charred veg to the wok. Stir in the Thai chile and scallions for the mandatory **High Note**.\n8.  **Serve:** Serve hot or at room temperature for the Kitchen Standard fuel profile.\n",
+    "after": "\n## Chef's Note\n\nMung bean glass noodles need to soften before they enter the pan. Cook the eggs separately and give the vegetables room to soften; the sauce should coat the noodles, rather than disappear into a dry pan. Add the garlic after the onion and carrot begin to soften so it does not scorch.\n\n## Directions\n\n1. **Prepare:** Wash the fresh vegetables and herbs. Slice the cabbage and pepper thinly; peel and grate the carrot, slice the onion and garlic, and keep the chile and scallions for the finish. Have a clean plate ready for the cooked eggs and vegetables.\n2. **Soften noodles:** Cover the mung bean glass noodles with hot, not boiling, water, starting checks around 10 minutes for the original noodle product. They should bend easily without a hard center. Follow different package preparation instructions if required by your product, then drain well. The combined-vegetable variation below retains the cold rinse.\n3. **Mix sauce:** Whisk together all the oyster sauce, fish sauce, soy sauce and sugar.\n4. **Cook eggs:** Heat a splash of the listed oil over medium-high heat in a large wok or skillet until shimmering. Add all the whisked eggs and a pinch of the salt allowance. Stir until fully set with no liquid egg remaining, beginning checks around 1 minute. Transfer to the clean plate and roughly chop.\n5. **Cook cabbage:** Add enough of the oil allowance to coat the pan. Add all the cabbage and a pinch of salt. Cook, stirring, until softened and charred in spots, beginning checks around 3–4 minutes. Transfer to the cooked-egg plate. Work in additional batches if the cabbage cannot move freely in the pan.\n6. **Cook pepper:** Add another splash of oil, all the pepper and a pinch of salt. Stir until softened, beginning checks around 3–4 minutes, then transfer to the same cooked-food plate.\n7. **Soften aromatics:** Add fresh oil from the allowance. Cook all the onion and carrot, beginning checks around 2 minutes, then add all the garlic and cook about 45 seconds until fragrant without burning. Continue as needed for softened onion and carrot.\n8. **Coat noodles:** Add the drained noodles, all the cooked eggs and vegetables, then all the sauce around the perimeter of the pan. Toss over medium-high heat until evenly coated and hot, beginning checks around 3–5 minutes. Reduce heat if the pan dries or the noodles stick; do not wait for every trace of sauce to vanish.\n9. **Finish:** Take off heat and fold in all the sliced chile and scallions. Serve promptly hot, or refrigerate promptly for a chilled meal.\n\n## Combined-Vegetable Variation\n\nUse the same full ingredient quantities. After soaking and draining, rinse the noodles in cold water and drain well. Cook the eggs as above. Instead of separate cabbage and pepper stages, cook both together in a lightly oiled pan until softened with a little char, starting checks around 3–4 minutes; divide into batches if crowded. Transfer to the cooked-egg plate. Keep the onion/carrot followed by garlic stage, then add noodles and all the sauce. Return all the cooked eggs and vegetables, toss until hot and evenly coated, and finish off heat with the full chile and scallions.\n"
+  },
+  "findings": [
+    {
+      "id": "ANS12-1",
+      "title": "ANS12-1",
+      "rationale": "Exact bound native/045 source has salt allowance and separate cabbage/pepper stages; 23b28 bulk edit omitted salt, combined stages, added a cold rinse, smoke requirement and exact ten-minute claims. Preserve the full published combined/rinsed route distinctly and all thirteen measured quantities. Primary source route restores separate vegetable loading; retain deliberate later2b01 onion/carrot then45sec garlic order in both routes. Current4 remains planning versus saved4–6; no precision certified. NYT fetch unavailable; exact native/Git source is established.",
+      "confidence": "High exact retained source/history and ingredient conservation; moderate untested method, elapsed planning, temperature application and capacity",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Pad Woon Sen.html",
+            "sha256": "4983df23f7b3d00c6beb3720782ba82db2ecfba92de05a23f81acac86a21833a",
+            "scope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git; canonical045 retained separately"
+          },
+          "scope": "Exact first cooking source; no publisher authority or independent kitchen result inferred."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full followed canonical diffs and exact consequential omissions; persistence alone does not establish household rejection."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Current private binding to exact durable original450 cooking payload; private identity values excluded."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, raw-contact separation, fully set eggs, prompt shallow refrigeration and cold temperature; no formula, exact elapsed clock or kimchi manufacturing validation."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftover3–4days/165 reheat; no fermented kimchi shelf life or first-cook formula validation."
+        },
+        {
+          "url": "https://cooking.nytimes.com/recipes/1025396-pad-woon-sen",
+          "scope": "Actual NYT direct fetch unavailable; exact saved native/Git cooking used without claiming current publisher agreement."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual noodle package instructions and pan usable capacity need cooking checks.",
+        "Original4–6 versus current4 portions remain unmeasured planning.",
+        "Compare rinsed combined-vegetable and separate unrinsed routes without assuming identical texture."
+      ]
+    },
+    {
+      "id": "ROOT-ANS12-COOKING-PROSE",
+      "title": "Clarify garlic timing and the complete sauce replacement",
+      "rationale": "Public prose should explain the cooking sequence and mutually exclusive ingredient choice. Pad’s later-garlic phrase is clearer as an actual onion/carrot cue, retaining accepted2b01 order. Thai’s exact-source label narrates private recovery instead of the culinary choice; replace it with the existing complete variation’s cooking name and explicitly state sauce replacement. No new stage, amount, time, cultural claim or dietary guarantee is introduced.",
+      "confidence": "High literal cooking clarification; no new dose or cooking claim.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Natural cooking prose; archive/editing workflow belongs in records"
+        },
+        {
+          "path": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Public recipe presentation preference"
+        },
+        {
+          "path": "privately retained evidence",
+          "commit": "2b01ffbb6b122bbc8a40597eeff2f2cdb80fdc7d",
+          "scope": "Accepted onion/carrot before garlic sequence unchanged"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "content Vegetable and Scallion Variation",
+          "scope": "Existing full mutually exclusive route and original-batch proportional amounts unchanged"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Pad%20Woon%20Sen.html",
+    "introductionScope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git; canonical045 retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact bound native/045 source has salt allowance and separate cabbage/pepper stages; 23b28 bulk edit omitted salt, combined stages, added a cold rinse, smoke requirement and exact ten-minute claims. Preserve the full published combined/rinsed route distinctly and all thirteen measured quantities. Primary source route restores separate vegetable loading; retain deliberate later2b01 onion/carrot then45sec garlic order in both routes. Current4 remains planning versus saved4–6; no precision certified. NYT fetch unavailable; exact native/Git source is established.",
+      "remainingQuestions": [
+        "Actual noodle package instructions and pan usable capacity need cooking checks.",
+        "Original4–6 versus current4 portions remain unmeasured planning.",
+        "Compare rinsed combined-vegetable and separate unrinsed routes without assuming identical texture."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "6.3 oz Dried Mung Bean Glass Noodles",
+        "actualMethodDestination": 6
+      },
+      {
+        "text": "3 tbsp Oyster Sauce",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "3 tbsp Fish Sauce",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 tbsp Soy Sauce",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1 tsp Granulated Sugar",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1/4 Napa Cabbage, sliced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1 Bell Pepper, sliced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1 medium Carrot, grated",
+        "actualMethodDestination": 5
+      },
+      {
+        "text": "1 Yellow Onion, sliced",
+        "actualMethodDestination": 5
+      },
+      {
+        "text": "4 cloves Garlic, thinly sliced",
+        "actualMethodDestination": 5
+      },
+      {
+        "text": "3 large Eggs, whisked",
+        "actualMethodDestination": 3
+      },
+      {
+        "text": "1 Thai Bird Chile, sliced",
+        "actualMethodDestination": 7
+      },
+      {
+        "text": "4 Scallions, sliced",
+        "actualMethodDestination": 7
+      },
+      {
+        "text": "Grapeseed Oil",
+        "actualMethodDestination": "3/4/5 unmeasured"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "6.3 oz Dried Mung Bean Glass Noodles",
+        "destination": 8
+      },
+      {
+        "text": "3 tbsp Oyster Sauce",
+        "destination": 3
+      },
+      {
+        "text": "3 tbsp Fish Sauce",
+        "destination": 3
+      },
+      {
+        "text": "1 tbsp Soy Sauce",
+        "destination": 3
+      },
+      {
+        "text": "1 tsp Granulated Sugar",
+        "destination": 3
+      },
+      {
+        "text": "1/4 Napa Cabbage, sliced",
+        "destination": 5
+      },
+      {
+        "text": "1 Bell Pepper, sliced",
+        "destination": 6
+      },
+      {
+        "text": "1 medium Carrot, grated",
+        "destination": 7
+      },
+      {
+        "text": "1 Yellow Onion, sliced",
+        "destination": 7
+      },
+      {
+        "text": "4 cloves Garlic, thinly sliced",
+        "destination": 7
+      },
+      {
+        "text": "3 large Eggs, whisked",
+        "destination": 4
+      },
+      {
+        "text": "1 Thai Bird Chile, sliced",
+        "destination": 9
+      },
+      {
+        "text": "4 Scallions, sliced",
+        "destination": 9
+      },
+      {
+        "text": "Grapeseed Oil",
+        "destination": "4/5/6/7 allowance"
+      },
+      {
+        "text": "Salt, as needed for the eggs and vegetables",
+        "destination": "4/5/6 allowance"
+      }
+    ],
+    "frozenMethodOnly": [
+      "Salt pinch eggstep3 omitted fromingredient; oil genuineunmeasuredstageallowance"
+    ],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Wash the fresh vegetables and herbs. Slice the cabbage and pepper thinly; peel and grate the carrot, slice the onion and garlic, and keep the chile and scallions for the finish. Have a clean plate ready for the cooked eggs and vegetables."
+    },
+    {
+      "step": 2,
+      "text": "Soften noodles: Cover the mung bean glass noodles with hot, not boiling, water, starting checks around 10 minutes for the original noodle product. They should bend easily without a hard center. Follow different package preparation instructions if required by your product, then drain well. The combined-vegetable variation below retains the cold rinse."
+    },
+    {
+      "step": 3,
+      "text": "Mix sauce: Whisk together all the oyster sauce, fish sauce, soy sauce and sugar."
+    },
+    {
+      "step": 4,
+      "text": "Cook eggs: Heat a splash of the listed oil over medium-high heat in a large wok or skillet until shimmering. Add all the whisked eggs and a pinch of the salt allowance. Stir until fully set with no liquid egg remaining, beginning checks around 1 minute. Transfer to the clean plate and roughly chop."
+    },
+    {
+      "step": 5,
+      "text": "Cook cabbage: Add enough of the oil allowance to coat the pan. Add all the cabbage and a pinch of salt. Cook, stirring, until softened and charred in spots, beginning checks around 3–4 minutes. Transfer to the cooked-egg plate. Work in additional batches if the cabbage cannot move freely in the pan."
+    },
+    {
+      "step": 6,
+      "text": "Cook pepper: Add another splash of oil, all the pepper and a pinch of salt. Stir until softened, beginning checks around 3–4 minutes, then transfer to the same cooked-food plate."
+    },
+    {
+      "step": 7,
+      "text": "Soften aromatics: Add fresh oil from the allowance. Cook all the onion and carrot, beginning checks around 2 minutes, then add all the garlic and cook about 45 seconds until fragrant without burning. Continue as needed for softened onion and carrot."
+    },
+    {
+      "step": 8,
+      "text": "Coat noodles: Add the drained noodles, all the cooked eggs and vegetables, then all the sauce around the perimeter of the pan. Toss over medium-high heat until evenly coated and hot, beginning checks around 3–5 minutes. Reduce heat if the pan dries or the noodles stick; do not wait for every trace of sauce to vanish."
+    },
+    {
+      "step": 9,
+      "text": "Finish: Take off heat and fold in all the sliced chile and scallions. Serve promptly hot, or refrigerate promptly for a chilled meal."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Combined-vegetable variation",
+        "reference": "Final Combined-Vegetable Variation",
+        "formula": "Same full thirteen measured supplies; oil and salt genuine allowances; cold-rinsed noodles, combined cabbage/pepper, later garlic, all eggs/sauce/chile/scallions."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Combined-vegetable variation",
+        "alternative": "Follow the complete combined-vegetable variation described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+        "effect": "Retain every named supply and preparation destination in that route."
+      }
+    ],
+    "completeCookingOptions": null
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "coconut-jasmine-rice",
+      "quick-pickled-carrots-and-daikon",
+      "charred-broccoli-with-garlic"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairing ingredients are separate complete components, not additional doses in this formula; retained links verified. Linked meal receives no full review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Existing planning portions preserved; no new portion weight or precise cooked yield.",
+    "capacity": [
+      "Keep the original-size thin vegetable cuts when scaling. Use additional pan batches and divide every sauce and vegetable supply proportionally; heat and cooking time do not multiply.",
+      "Prepare the sauce, vegetables and clean cooked-food plate before heating the pan."
+    ],
+    "timing": "About 35–45 minutes for the original batch, with noodle soaking and sauce preparation overlapping. Separate vegetable stages or extra pan batches add active time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1.57 oz Dried Mung Bean Glass Noodles",
+        "3/4 tbsp Oyster Sauce",
+        "3/4 tbsp Fish Sauce",
+        "1/4 tbsp Soy Sauce",
+        "1/4 tsp Granulated Sugar",
+        "0.0625 Napa Cabbage, sliced",
+        "1/4 Bell Pepper, sliced",
+        "1/4 medium Carrot, grated",
+        "1/4 Yellow Onion, sliced",
+        "1 clove Garlic, thinly sliced",
+        "3/4 large Egg, whisked",
+        "1/4 Thai Bird Chile, sliced",
+        "1 Scallion, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "3.15 oz Dried Mung Bean Glass Noodles",
+        "1 1/2 tbsp Oyster Sauce",
+        "1 1/2 tbsp Fish Sauce",
+        "1/2 tbsp Soy Sauce",
+        "1/2 tsp Granulated Sugar",
+        "1/8 Napa Cabbage, sliced",
+        "1/2 Bell Pepper, sliced",
+        "1/2 medium Carrot, grated",
+        "1/2 Yellow Onion, sliced",
+        "2 cloves Garlic, thinly sliced",
+        "1 1/2 large Eggs, whisked",
+        "1/2 Thai Bird Chile, sliced",
+        "2 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "6.3 oz Dried Mung Bean Glass Noodles",
+        "3 tbsp Oyster Sauce",
+        "3 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce",
+        "1 tsp Granulated Sugar",
+        "1/4 Napa Cabbage, sliced",
+        "1 Bell Pepper, sliced",
+        "1 medium Carrot, grated",
+        "1 Yellow Onion, sliced",
+        "4 cloves Garlic, thinly sliced",
+        "3 large Eggs, whisked",
+        "1 Thai Bird Chile, sliced",
+        "4 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "9.45 oz Dried Mung Bean Glass Noodles",
+        "4 1/2 tbsp Oyster Sauce",
+        "4 1/2 tbsp Fish Sauce",
+        "1 1/2 tbsp Soy Sauce",
+        "1 1/2 tsp Granulated Sugar",
+        "3/8 Napa Cabbage, sliced",
+        "1 1/2 Bell Peppers, sliced",
+        "1 1/2 medium Carrots, grated",
+        "1 1/2 Yellow Onions, sliced",
+        "6 cloves Garlic, thinly sliced",
+        "4 1/2 large Eggs, whisked",
+        "1 1/2 Thai Bird Chile, sliced",
+        "6 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "12.6 oz Dried Mung Bean Glass Noodles",
+        "6 tbsp Oyster Sauce",
+        "6 tbsp Fish Sauce",
+        "2 tbsp Soy Sauce",
+        "2 tsp Granulated Sugar",
+        "1/2 Napa Cabbage, sliced",
+        "2 Bell Peppers, sliced",
+        "2 medium Carrots, grated",
+        "2 Yellow Onions, sliced",
+        "8 cloves Garlic, thinly sliced",
+        "6 large Eggs, whisked",
+        "2 Thai Bird Chile, sliced",
+        "8 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "18.9 oz Dried Mung Bean Glass Noodles",
+        "9 tbsp Oyster Sauce",
+        "9 tbsp Fish Sauce",
+        "3 tbsp Soy Sauce",
+        "3 tsp Granulated Sugar",
+        "3/4 Napa Cabbage, sliced",
+        "3 Bell Peppers, sliced",
+        "3 medium Carrots, grated",
+        "3 Yellow Onions, sliced",
+        "12 cloves Garlic, thinly sliced",
+        "9 large Eggs, whisked",
+        "3 Thai Bird Chile, sliced",
+        "12 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "6.3 oz Dried Mung Bean Glass Noodles",
+        "3 tbsp Oyster Sauce",
+        "3 tbsp Fish Sauce",
+        "1 tbsp Soy Sauce",
+        "1 tsp Granulated Sugar",
+        "1/4 Napa Cabbage, sliced",
+        "1 Bell Pepper, sliced",
+        "1 medium Carrot, grated",
+        "1 Yellow Onion, sliced",
+        "4 cloves Garlic, thinly sliced",
+        "3 large Eggs, whisked",
+        "1 Thai Bird Chile, sliced",
+        "4 Scallions, sliced",
+        "Grapeseed Oil",
+        "Salt, as needed for the eggs and vegetables"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every current measured core supply, sourceURL/cuisine/title/identity/rating/control preserved; current and exact source alternatives distinguished.",
+  "remainingQuestions": [
+    "Actual noodle package instructions and pan usable capacity need cooking checks.",
+    "Original4–6 versus current4 portions remain unmeasured planning.",
+    "Compare rinsed combined-vegetable and separate unrinsed routes without assuming identical texture."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

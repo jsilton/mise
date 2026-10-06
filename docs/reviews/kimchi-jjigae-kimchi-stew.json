@@ -1,0 +1,668 @@
+{
+  "slug": "kimchi-jjigae-kimchi-stew",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "5091a8db27e65b6f7826d43e6ea30f3b39bc1c5dc55e305b1ae5da3181b2cc6b",
+  "acceptedSourceSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Korea",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 25–35 min or longer for pork tenderness"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35–50 min or longer for pork tenderness, plus rice cooking"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)",
+        "8 oz Pork Belly or Shoulder, thinly sliced (or tofu for vegetarian)",
+        "1 medium Onion, sliced",
+        "4 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Gochugaru (Korean red chili flakes)",
+        "2 tsp Gochujang (Korean red chili paste)",
+        "3 cups Pork Stock (or chicken stock)",
+        "1 tbsp Fish Sauce",
+        "1 tsp Sugar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Vegetable Oil",
+        "2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "2 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice"
+      ],
+      "after": [
+        "2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)",
+        "8 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "1 medium Onion, sliced",
+        "4 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Gochugaru (Korean red chili flakes)",
+        "2 tsp Gochujang (Korean red chili paste)",
+        "3 cups Pork Stock (or chicken stock)",
+        "1 tbsp Fish Sauce",
+        "1 tsp Sugar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Vegetable Oil",
+        "2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "2 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 120,
+        "protein": 3,
+        "carbs": 10.5,
+        "fat": 8,
+        "fiber": 1.5,
+        "sugar": 5,
+        "sodium": 820
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Chili pastes dispersed without burnt patches.",
+        "outcome": "Pork is tender and its measured cooking/hot-hold is complete.",
+        "techniques": ["braising", "temperature"],
+        "before": [
+          "Keep the pork slices thin and consistent; do not assume shoulder and belly have identical tenderness clocks. Scaling needs more pan capacity, not multiplied temperatures or a fixed multiplied simmer.",
+          "Check kimchi refrigeration and dietary labels; old or strongly sour flavor is not evidence of safe preservation. Cook rice separately before service."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Chili pastes dispersed without burnt patches.",
+            "why": "Take the doenjang loosening stock from the full measured supply."
+          },
+          {
+            "step": 5,
+            "cue": "Pork is tender and its measured cooking/hot-hold is complete.",
+            "why": "A twelve-to-fifteen-minute first check cannot cover every cut and thickness."
+          }
+        ],
+        "timing": "About 35–50 minutes or longer for the actual pork to soften; rice cooking is additional, though it can overlap stew preparation.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below, use cooked leftovers within 3–4 days or freeze promptly, and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Bring stored stew to a boil while stirring when reheating; kimchi ingredient storage remains governed by its own product instructions.",
+        "substitutions": [
+          {
+            "ingredient": "Tofu option",
+            "alternative": "Follow the complete tofu option described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+            "effect": "Replacing pork alone does not establish vegetarian suitability of the stock, fish sauce or kimchi."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pork remains chewy at the first check",
+            "cause": "The actual cut and slice thickness need more cooking.",
+            "fix": "Continue a gentle simmer and check tenderness; do not serve according to a twelve-minute clock alone."
+          }
+        ],
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nKimchi jjigae is Korean comfort food in its rawest form - kimchi is already fermented and pungent, so when you braise it with pork in stock, it becomes even more funky and complex. This is not a refined dish; it's what Korean mothers make on cold nights when they have leftover kimchi and want something warming and bold. The pork adds richness (or use tofu for vegetarian), and gochugaru (Korean chili flakes) amplifies the heat. Korean home cooks don't measure precisely - they taste and adjust. The final balance should be hot, salty, and deep-savory.\n\n## Directions\n\n1. **Prepare Ingredients:** Chop the kimchi into roughly 1-inch pieces, reserving 2 tbsp of the brine. Slice the pork belly thinly (it will cook fast). Slice the onion and mushrooms. Mince the garlic.\n\n2. **Heat the Pan:** Place a medium saucepan over medium-high heat. Add 1 tbsp vegetable oil and let it get hot.\n\n3. **Cook the Pork:** Add the sliced pork and let it sit for 1-2 minutes without stirring to develop color. Stir and cook another 1-2 minutes until the pork is mostly opaque. Don't fully cook it - it will finish cooking in the braise.\n\n4. **Add Aromatics:** Add the minced garlic and cook for 30 seconds until fragrant. Add the sliced onion and mushrooms, cooking for 2 minutes until they begin to soften.\n\n5. **Build the Flavor Base:** Add the gochugaru and gochujang, stirring quickly so they coat the vegetables and heat in the hot pan (about 30 seconds). This blooms the chili flavors. If using doenjang, add it now.\n\n6. **Add Kimchi:** Add the chopped kimchi and stir everything together. Cook for 2 minutes so the kimchi heats through and releases its pungent aroma.\n\n7. **Braise:** Add the stock and kimchi brine, stirring well. Bring to a gentle simmer over medium heat. Once simmering, reduce heat to low and simmer uncovered for 12-15 minutes so the flavors meld and the pork becomes tender. The liquid should reduce slightly and taste deeply savory and spicy.\n\n8. **Taste and Season:** Taste carefully. Add fish sauce for more umami, sugar to balance heat and salt, or gochugaru if you want more spice. The balance should feel bold but balanced - no single flavor should overwhelm.\n\n9. **Finish:** Drizzle with 1 tbsp sesame oil. Remove from heat.\n\n10. **Serve:** Ladle into individual bowls over warm rice. Garnish with chopped green onions and sesame seeds. Serve with kimchi on the side and extra rice.\n\n**Kimchi Quality:** Use kimchi that's at least a few days old - the older and funkier the better. Store-bought kimchi is fine; homemade is better.\n\n**Pork Options:** Pork belly is traditional because it becomes tender and adds richness. But pork shoulder, beef, or tofu all work.\n\n**Heat Level:** Gochugaru and gochujang can be intense. Start with the amounts listed and taste before adding more. You can always add heat; you can't take it out.\n\n**Doenjang Note:** Doenjang (soybean paste) adds deep umami and is traditional but optional. If using, dissolve it in a bit of stock before adding to avoid lumps.\n\n**Make-Ahead:** Kimchi jjigae tastes better the next day as flavors deepen. Store in the refrigerator for up to 4 days and reheat gently.\n",
+    "after": "\n## Chef's Note\n\nKimchi, its brine and pork make a savory Korean-style stew; gochugaru and gochujang supply different chili flavors. Use refrigerated kimchi within its product instructions, and simmer until the actual pork cut is tender. A tofu substitution alone does not make animal stock, fish sauce or seafood-containing kimchi vegetarian.\n\n## Directions\n\n1. **Prepare:** Keep raw pork and its tools separate from the vegetables. Wash the onion, mushrooms and scallions, then slice or chop as listed. Chop all the kimchi and reserve the listed brine. Use properly refrigerated kimchi according to its label; this recipe does not provide instructions for making or preserving kimchi.\n2. **Cook pork:** Heat all the listed vegetable oil in a saucepan with room for the full stock, pork and vegetables to simmer without overflowing. Add all the thinly sliced pork and cook, stirring, until its surface becomes opaque, starting checks around 3–4 minutes. This is an initial stage; the pork finishes in the simmer. Use additional vessels and divide the complete formula proportionally if needed.\n3. **Aromatics:** Add all the garlic and stir about 30 seconds until fragrant, reducing heat if it begins to burn. Add all the onion and mushrooms and stir until beginning to soften, starting checks around 2 minutes.\n4. **Spices and kimchi:** Stir in all the gochugaru and gochujang for about 30 seconds without scorching. If using the optional doenjang, loosen it with a little taken from the listed stock and stir it in now; do not add another stock supply. Add all the chopped kimchi and cook about 2 minutes until hot.\n5. **Simmer:** Add all the remaining listed stock and all the reserved brine. Bring to a gentle simmer, reduce heat and simmer uncovered, beginning tenderness checks around 12–15 minutes. Continue until the actual pork slices are tender and cooked through. Check thick pieces with a thin probe for at least 145°F / 63°C, then keep the stew gently simmering for at least 3 minutes; color or the first-check clock does not establish doneness. Shoulder may take longer than belly, depending on thickness.\n6. **Season and finish:** Once the pork has completed its cooking and hot hold, stir in the full listed fish sauce and sugar. Taste carefully; any further gochugaru comes from the separate optional allowance. Remove from heat and stir in all the listed sesame oil.\n7. **Serve:** Add all the scallions and sesame seeds. Serve with the cooked rice and any separately listed additional kimchi. Keep the stew hot for service or refrigerate promptly rather than leaving it out for staggered diners.\n\n## Tofu Option\n\nReplace the full listed pork amount with the same weight of tofu. Omit the raw-pork cooking stage; heat the full vegetable oil and cook the aromatics, spices and kimchi as above. Add the tofu with the full stock and brine and simmer until hot throughout, then finish with all the fish sauce, sugar, sesame oil and garnishes. This is not automatically vegetarian: for a vegetarian version use the same listed quantities of vegetable stock and a fish-free sauce substitute, and choose kimchi, gochujang and doenjang whose labels suit that diet. The flavor depends on those products; the recipe does not establish an equivalent homemade fish-sauce formula. A beef variation needs its own cut-specific cooking plan; the pork clock does not apply.\n"
+  },
+  "findings": [
+    {
+      "id": "ANS12-5",
+      "title": "ANS12-5",
+      "rationale": "Exact actual2a7 Git-authored formula has no publisher or bound original450 record. Preserve full8oz pork/3cups stock/2tbsp brine/1tbsp each oil/1tbsp fish/1tsp sugar/all spices, optionaldoenjang, tofu and source context. Allocate measured seasonings rather than leaving mandatory quantities unnamed; borrow doenjang loosening stock from existing3cups. Whole-muscle pork145+3minute continued hot simmer is a moderate editorial application of primary pork145/rest guidance, not publisher validation; tenderness can extend time. Tofu dietary claim explicitly needs all animal-source products considered; no manufactured sauce formula. Remove unsupported older/funkier/homemade superiority and cultural generalizations. Linked meal incorrectly combines pork+tofu and calls for beans; record separately, no component/meal approval.",
+      "confidence": "High exact retained source/history and ingredient conservation; moderate untested method, elapsed planning, temperature application and capacity",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/kimchi-jjigae-kimchi-stew.md",
+            "sha256": "43d4c31a62fa9a9194d3cff3bcc4896e72c9fc4f01a39001e648de93b337af1a",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "scope": "Exact first cooking source; no publisher authority or independent kitchen result inferred."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full followed canonical diffs and exact consequential omissions; persistence alone does not establish household rejection."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, raw-contact separation, fully set eggs, prompt shallow refrigeration and cold temperature; no formula, exact elapsed clock or kimchi manufacturing validation."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftover3–4days/165 reheat; no fermented kimchi shelf life or first-cook formula validation."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Whole-muscle pork145+3minute rest; continued hot simmer after measured145 is a moderate editorial application, not explicitly tested stew method. Thin probe and actual tenderness remain questions."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Thin-probe access and actual pork cut/thickness/tenderness must be checked;145+3minute hot-simmer application needs peer/root challenge.",
+        "Vegetarian sauce/kimchi products and flavor equivalence are not supplied; no homemade fish-sauce conversion claimed.",
+        "Existing beef note lacks a cut/schedule and is explicitly unresolved.",
+        "Incoming KimchiJjigaeComfort meal has unlisted beans, simultaneous pork/tofu and staggered-service handling; remains unreviewed."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/kimchi-jjigae-kimchi-stew.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact actual2a7 Git-authored formula has no publisher or bound original450 record. Preserve full8oz pork/3cups stock/2tbsp brine/1tbsp each oil/1tbsp fish/1tsp sugar/all spices, optionaldoenjang, tofu and source context. Allocate measured seasonings rather than leaving mandatory quantities unnamed; borrow doenjang loosening stock from existing3cups. Whole-muscle pork145+3minute continued hot simmer is a moderate editorial application of primary pork145/rest guidance, not publisher validation; tenderness can extend time. Tofu dietary claim explicitly needs all animal-source products considered; no manufactured sauce formula. Remove unsupported older/funkier/homemade superiority and cultural generalizations. Linked meal incorrectly combines pork+tofu and calls for beans; record separately, no component/meal approval.",
+      "remainingQuestions": [
+        "Thin-probe access and actual pork cut/thickness/tenderness must be checked;145+3minute hot-simmer application needs peer/root challenge.",
+        "Vegetarian sauce/kimchi products and flavor equivalence are not supplied; no homemade fish-sauce conversion claimed.",
+        "Existing beef note lacks a cut/schedule and is explicitly unresolved.",
+        "Incoming KimchiJjigaeComfort meal has unlisted beans, simultaneous pork/tofu and staggered-service handling; remains unreviewed."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)",
+        "actualMethodDestination": "1 brine/6 kimchi/7 liquid"
+      },
+      {
+        "text": "8 oz Pork Belly or Shoulder, thinly sliced (or tofu for vegetarian)",
+        "actualMethodDestination": 3
+      },
+      {
+        "text": "1 medium Onion, sliced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "4 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1 tbsp Gochugaru (Korean red chili flakes)",
+        "actualMethodDestination": 5
+      },
+      {
+        "text": "2 tsp Gochujang (Korean red chili paste)",
+        "actualMethodDestination": 5
+      },
+      {
+        "text": "3 cups Pork Stock (or chicken stock)",
+        "actualMethodDestination": 7
+      },
+      {
+        "text": "1 tbsp Fish Sauce",
+        "actualMethodDestination": "8 unspecified amount"
+      },
+      {
+        "text": "1 tsp Sugar",
+        "actualMethodDestination": "8 unspecified amount"
+      },
+      {
+        "text": "1 tbsp Sesame Oil",
+        "actualMethodDestination": 9
+      },
+      {
+        "text": "1 tbsp Vegetable Oil",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "actualMethodDestination": "5 direct vs note dissolved inbitstock"
+      },
+      {
+        "text": "--- For Serving ---",
+        "actualMethodDestination": "Divider"
+      },
+      {
+        "text": "2 Green Onions (scallions), chopped",
+        "actualMethodDestination": 10
+      },
+      {
+        "text": "Sesame Seeds",
+        "actualMethodDestination": 10
+      },
+      {
+        "text": "Cooked Rice",
+        "actualMethodDestination": 10
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)",
+        "destination": "1/4 kimchi/5 brine"
+      },
+      {
+        "text": "8 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "destination": 2
+      },
+      {
+        "text": "1 medium Onion, sliced",
+        "destination": 3
+      },
+      {
+        "text": "4 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "destination": 3
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "destination": 3
+      },
+      {
+        "text": "1 tbsp Gochugaru (Korean red chili flakes)",
+        "destination": 4
+      },
+      {
+        "text": "2 tsp Gochujang (Korean red chili paste)",
+        "destination": 4
+      },
+      {
+        "text": "3 cups Pork Stock (or chicken stock)",
+        "destination": "4 borrowed/5 remainder"
+      },
+      {
+        "text": "1 tbsp Fish Sauce",
+        "destination": 6
+      },
+      {
+        "text": "1 tsp Sugar",
+        "destination": 6
+      },
+      {
+        "text": "1 tbsp Sesame Oil",
+        "destination": 6
+      },
+      {
+        "text": "1 tbsp Vegetable Oil",
+        "destination": 2
+      },
+      {
+        "text": "2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "destination": 4
+      },
+      {
+        "text": "--- For Serving ---",
+        "destination": "Divider"
+      },
+      {
+        "text": "2 Green Onions (scallions), chopped",
+        "destination": 7
+      },
+      {
+        "text": "Sesame Seeds",
+        "destination": 7
+      },
+      {
+        "text": "Cooked Rice",
+        "destination": 7
+      },
+      {
+        "text": "Additional gochugaru, optional to taste",
+        "destination": 6
+      },
+      {
+        "text": "Additional kimchi, optional for serving",
+        "destination": 7
+      }
+    ],
+    "frozenMethodOnly": ["Extragochugaru8/extrakimchi10; doenjangnote borrowedstockunquantified"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Keep raw pork and its tools separate from the vegetables. Wash the onion, mushrooms and scallions, then slice or chop as listed. Chop all the kimchi and reserve the listed brine. Use properly refrigerated kimchi according to its label; this recipe does not provide instructions for making or preserving kimchi."
+    },
+    {
+      "step": 2,
+      "text": "Cook pork: Heat all the listed vegetable oil in a saucepan with room for the full stock, pork and vegetables to simmer without overflowing. Add all the thinly sliced pork and cook, stirring, until its surface becomes opaque, starting checks around 3–4 minutes. This is an initial stage; the pork finishes in the simmer. Use additional vessels and divide the complete formula proportionally if needed."
+    },
+    {
+      "step": 3,
+      "text": "Aromatics: Add all the garlic and stir about 30 seconds until fragrant, reducing heat if it begins to burn. Add all the onion and mushrooms and stir until beginning to soften, starting checks around 2 minutes."
+    },
+    {
+      "step": 4,
+      "text": "Spices and kimchi: Stir in all the gochugaru and gochujang for about 30 seconds without scorching. If using the optional doenjang, loosen it with a little taken from the listed stock and stir it in now; do not add another stock supply. Add all the chopped kimchi and cook about 2 minutes until hot."
+    },
+    {
+      "step": 5,
+      "text": "Simmer: Add all the remaining listed stock and all the reserved brine. Bring to a gentle simmer, reduce heat and simmer uncovered, beginning tenderness checks around 12–15 minutes. Continue until the actual pork slices are tender and cooked through. Check thick pieces with a thin probe for at least 145°F / 63°C, then keep the stew gently simmering for at least 3 minutes; color or the first-check clock does not establish doneness. Shoulder may take longer than belly, depending on thickness."
+    },
+    {
+      "step": 6,
+      "text": "Season and finish: Once the pork has completed its cooking and hot hold, stir in the full listed fish sauce and sugar. Taste carefully; any further gochugaru comes from the separate optional allowance. Remove from heat and stir in all the listed sesame oil."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Add all the scallions and sesame seeds. Serve with the cooked rice and any separately listed additional kimchi. Keep the stew hot for service or refrigerate promptly rather than leaving it out for staggered diners."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Tofu option",
+        "reference": "Final Tofu Option",
+        "formula": "Full8oz tofu replacing pork; same full stock/oils/seasonings/kimchi/garnishes. Vegetarian requires compatible stock, fish-free sauce and kimchi/pastes; no substitute recipe invented."
+      },
+      {
+        "name": "Earlier beef option",
+        "status": "variant-held",
+        "reason": "Unspecified cut/preparation/cooking endpoint and time; source retained privately, not assigned pork method."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Tofu option",
+        "alternative": "Follow the complete tofu option described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+        "effect": "Replacing pork alone does not establish vegetarian suitability of the stock, fish sauce or kimchi."
+      }
+    ],
+    "completeCookingOptions": "Replace the full listed pork amount with the same weight of tofu. Omit the raw-pork cooking stage; heat the full vegetable oil and cook the aromatics, spices and kimchi as above. Add the tofu with the full stock and brine and simmer until hot throughout, then finish with all the fish sauce, sugar, sesame oil and garnishes. This is not automatically vegetarian: for a vegetarian version use the same listed quantities of vegetable stock and a fish-free sauce substitute, and choose kimchi, gochujang and doenjang whose labels suit that diet. The flavor depends on those products; the recipe does not establish an equivalent homemade fish-sauce formula. A beef variation needs its own cut-specific cooking plan; the pork clock does not apply."
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["steamed-white-rice", "korean-pickled-cucumbers"],
+    "incomingMeals": [
+      {
+        "path": "src/content/meals/kimchi-jjigae-comfort.md",
+        "finding": "Meal calls for simultaneous tofu/pork and unlisted beans; component offers exclusive tofu. Meal staggered service lacks hot/cold constraint. Meal/component pair remains unreviewed; no automatic combined formula."
+      }
+    ],
+    "scope": "Pairing ingredients are separate complete components, not additional doses in this formula; retained links verified. Linked meal receives no full review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Existing planning portions preserved; no new portion weight or precise cooked yield.",
+    "capacity": [
+      "Keep the pork slices thin and consistent; do not assume shoulder and belly have identical tenderness clocks. Scaling needs more pan capacity, not multiplied temperatures or a fixed multiplied simmer.",
+      "Check kimchi refrigeration and dietary labels; old or strongly sour flavor is not evidence of safe preservation. Cook rice separately before service."
+    ],
+    "timing": "About 35–50 minutes or longer for the actual pork to soften; rice cooking is additional, though it can overlap stew preparation."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup Kimchi, coarsely chopped (plus 1/2 tbsp kimchi juice)",
+        "2 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "1/4 medium Onion, sliced",
+        "1 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "3/4 clove Garlic, minced",
+        "1/4 tbsp Gochugaru (Korean red chili flakes)",
+        "1/2 tsp Gochujang (Korean red chili paste)",
+        "3/4 cup Pork Stock (or chicken stock)",
+        "1/4 tbsp Fish Sauce",
+        "1/4 tsp Sugar",
+        "1/4 tbsp Sesame Oil",
+        "1/4 tbsp Vegetable Oil",
+        "1/2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "1/2 Green Onion (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup Kimchi, coarsely chopped (plus 1 tbsp kimchi juice)",
+        "4 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "1/2 medium Onion, sliced",
+        "2 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "1 1/2 cloves Garlic, minced",
+        "1/2 tbsp Gochugaru (Korean red chili flakes)",
+        "1 tsp Gochujang (Korean red chili paste)",
+        "1 1/2 cups Pork Stock (or chicken stock)",
+        "1/2 tbsp Fish Sauce",
+        "1/2 tsp Sugar",
+        "1/2 tbsp Sesame Oil",
+        "1/2 tbsp Vegetable Oil",
+        "1 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "1 Green Onion (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)",
+        "8 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "1 medium Onion, sliced",
+        "4 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Gochugaru (Korean red chili flakes)",
+        "2 tsp Gochujang (Korean red chili paste)",
+        "3 cups Pork Stock (or chicken stock)",
+        "1 tbsp Fish Sauce",
+        "1 tsp Sugar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Vegetable Oil",
+        "2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "2 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 cups Kimchi, coarsely chopped (plus 3 tbsp kimchi juice)",
+        "12 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "1 1/2 medium Onions, sliced",
+        "6 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "4 1/2 cloves Garlic, minced",
+        "1 1/2 tbsp Gochugaru (Korean red chili flakes)",
+        "3 tsp Gochujang (Korean red chili paste)",
+        "4 1/2 cups Pork Stock (or chicken stock)",
+        "1 1/2 tbsp Fish Sauce",
+        "1 1/2 tsp Sugar",
+        "1 1/2 tbsp Sesame Oil",
+        "1 1/2 tbsp Vegetable Oil",
+        "3 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "3 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 cups Kimchi, coarsely chopped (plus 4 tbsp kimchi juice)",
+        "16 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "2 medium Onions, sliced",
+        "8 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "6 cloves Garlic, minced",
+        "2 tbsp Gochugaru (Korean red chili flakes)",
+        "4 tsp Gochujang (Korean red chili paste)",
+        "6 cups Pork Stock (or chicken stock)",
+        "2 tbsp Fish Sauce",
+        "2 tsp Sugar",
+        "2 tbsp Sesame Oil",
+        "2 tbsp Vegetable Oil",
+        "4 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "4 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 cups Kimchi, coarsely chopped (plus 6 tbsp kimchi juice)",
+        "24 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "3 medium Onions, sliced",
+        "12 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "9 cloves Garlic, minced",
+        "3 tbsp Gochugaru (Korean red chili flakes)",
+        "6 tsp Gochujang (Korean red chili paste)",
+        "9 cups Pork Stock (or chicken stock)",
+        "3 tbsp Fish Sauce",
+        "3 tsp Sugar",
+        "3 tbsp Sesame Oil",
+        "3 tbsp Vegetable Oil",
+        "6 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "6 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)",
+        "8 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu option)",
+        "1 medium Onion, sliced",
+        "4 oz Mushrooms, sliced (shiitake, oyster, or cremini)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Gochugaru (Korean red chili flakes)",
+        "2 tsp Gochujang (Korean red chili paste)",
+        "3 cups Pork Stock (or chicken stock)",
+        "1 tbsp Fish Sauce",
+        "1 tsp Sugar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Vegetable Oil",
+        "2 tbsp Doenjang (Korean soybean paste, optional but recommended)",
+        "--- For Serving ---",
+        "2 Green Onions (scallions), chopped",
+        "Sesame Seeds",
+        "Cooked Rice",
+        "Additional gochugaru, optional to taste",
+        "Additional kimchi, optional for serving"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every current measured core supply, sourceURL/cuisine/title/identity/rating/control preserved; current and exact source alternatives distinguished.",
+  "remainingQuestions": [
+    "Thin-probe access and actual pork cut/thickness/tenderness must be checked;145+3minute hot-simmer application needs peer/root challenge.",
+    "Vegetarian sauce/kimchi products and flavor equivalence are not supplied; no homemade fish-sauce conversion claimed.",
+    "Existing beef note lacks a cut/schedule and is explicitly unresolved.",
+    "Incoming KimchiJjigaeComfort meal has unlisted beans, simultaneous pork/tofu and staggered-service handling; remains unreviewed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "slug": "peanut-noodles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "76730f450b32429a4a9b4855badbe34c20548a7ae7d52a2a06d11ac343dc989c",
+  "acceptedSourceSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "About 10 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "15 min",
+      "after": "About 20–25 min, plus chilling for cold service"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1/2 cup Peanut Butter (natural or creamy)",
+        "3 tbsp Soy Sauce",
+        "2 tbsp Rice Vinegar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Honey or Brown Sugar",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, grated",
+        "1/4 tsp Red Pepper Flakes (adjust to taste)",
+        "1/4 to 1/2 cup Warm Water (to achieve sauce consistency)",
+        "2 Green Onions, sliced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)"
+      ],
+      "after": [
+        "1 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1/2 cup Peanut Butter (natural or creamy)",
+        "3 tbsp Soy Sauce",
+        "2 tbsp Rice Vinegar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Honey or Brown Sugar",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, grated",
+        "1/4 tsp Red Pepper Flakes (adjust to taste)",
+        "1/4 to 1/2 cup Warm Water (to achieve sauce consistency)",
+        "2 Green Onions, sliced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "1 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 505,
+        "protein": 18,
+        "carbs": 27,
+        "fat": 42.5,
+        "fiber": 8,
+        "sugar": 12.5,
+        "sodium": 1120
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Sauce smooth and thick enough to coat.",
+        "outcome": "Every strand coated, without dry clumps.",
+        "techniques": ["cold-preparation", "starch"],
+        "before": [
+          "The full main listed sesame oil goes into the sauce; the separately listed optional additional oil coats advance-prepared noodles and scales independently.",
+          "Use enough bowl and pot capacity when scaling; additional cooking batches and chilling add time."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Sauce smooth and thick enough to coat.",
+            "why": "Natural and creamy peanut butters can need different amounts of the listed water range."
+          },
+          {
+            "step": 3,
+            "cue": "Every strand coated, without dry clumps.",
+            "why": "Use reserved measured water before the extra loosening allowance."
+          }
+        ],
+        "timing": "About 20–25 minutes for boiling water, noodle cooking and sauce/garnish preparation, with some overlap. Chilling for cold service is additional elapsed time.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below, use cooked leftovers within 3–4 days or freeze promptly, and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.",
+        "substitutions": [
+          {
+            "ingredient": "Cold/advance service",
+            "alternative": "Follow the complete cold/advance service described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+            "effect": "Retain every named supply and preparation destination in that route."
+          },
+          {
+            "ingredient": "Optional vegetable toppings",
+            "alternative": "Follow the complete optional vegetable toppings described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+            "effect": "Retain every named supply and preparation destination in that route."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce tightens into clumps",
+            "cause": "Cooling and noodle absorption reduce its fluidity.",
+            "fix": "Toss in reserved measured water first, then a little additional water from the loosening allowance until it coats."
+          }
+        ],
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPeanut noodles are Chinese-American comfort food born from the post-WWII boom when peanut butter became accessible in Chinese restaurants. What started as a Chinatown fusion dish is now everywhere - and for good reason. It's simultaneously cold (for summer), warm (for any season), endlessly customizable, and tastes just as good the next day. The sauce comes together in one bowl and clings to whatever noodles you use. Balance is key: the peanut butter needs enough acid (vinegar) and salt (soy) to not taste heavy.\n\n## Directions\n\n1. **Make the Sauce:** In a small bowl, whisk together peanut butter, soy sauce, rice vinegar, sesame oil, honey, minced garlic, ginger, and red pepper flakes. The mixture will be thick. Whisk in warm water a little at a time until you reach the consistency you want - think thickened pasta sauce that clings to noodles, not a soup. Taste and adjust for salt, heat, and acid.\n\n2. **Cook the Noodles:** Bring a large pot of salted water to a boil. Add noodles and cook according to package directions until al dente. Drain well - don't rinse (the starch helps the sauce cling). If making this ahead, toss drained noodles with 1 tsp sesame oil to prevent sticking.\n\n3. **Combine:** In a large bowl, add warm or room-temperature noodles. Pour peanut sauce over the noodles and toss until every strand is coated. If the sauce seems too thick, add a few splashes of warm water.\n\n4. **Finish:** Sprinkle with sliced green onions, fresh cilantro, sesame seeds, and roasted peanuts if using. Serve with lime wedges on the side.\n\n5. **To Serve Cold:** Let the dressed noodles cool to room temperature (or chill for up to 4 hours). The sauce will continue to coat as it cools. If it tightens, add a splash of warm water before serving.\n\n**Warm or Cold:** Eat immediately while warm, or chill and serve cold the next day. Both are completely valid.\n\n**Customization:** Top with shredded carrots, cucumber, steamed edamame, or blanched broccoli. This is a base - build on it.\n",
+    "after": "\n## Chef's Note\n\nThese Chinese-American-style noodles can be served warm or chilled. Whisk the peanut sauce before dressing the noodles. Add the listed water gradually until the sauce coats rather than clumps; the amount depends partly on the peanut butter and noodle shape. Dress promptly for a warm meal, or refrigerate in shallow containers for a cold one.\n\n## Directions\n\n1. **Make sauce:** Whisk all the peanut butter, soy sauce, rice vinegar, main sesame oil, honey or brown sugar, garlic, ginger and red pepper flakes. Gradually whisk in water from the listed water range until smooth and thick enough to coat noodles; reserve any not yet needed for the toss. Taste if desired and use the separately listed additional-seasoning allowance only if needed.\n2. **Cook noodles:** Bring a pot of water to a boil and salt from the allowance. Cook all the noodles according to their package until cooked but still firm. Drain well without rinsing. If preparing the noodles separately in advance, toss with the separately listed additional sesame oil; this is extra to the full sauce oil, not borrowed from it. Refrigerate promptly in a shallow container.\n3. **Dress:** Toss all the noodles with all the sauce in a bowl with enough room to turn them. Use any reserved measured water first if the sauce clumps, then additional water from the genuine loosening allowance as needed. Do not leave cooked noodles at room temperature awaiting a later meal.\n4. **Finish:** Wash and prepare the scallions, cilantro and lime. Add all the scallions and cilantro, sesame seeds and optional chopped roasted peanuts. Serve the lime wedges alongside. Optional washed carrots/cucumber, edamame cooked according to its package, or blanched broccoli can be added as toppings; keep them separate from the measured sauce formula.\n5. **Cold service:** For a cold meal, refrigerate the dressed noodles promptly in shallow containers until chilled. Before serving, loosen as needed with a little additional water. Keep cold until serving rather than cooling on the counter for an unspecified period.\n"
+  },
+  "findings": [
+    {
+      "id": "ANS12-4",
+      "title": "ANS12-4",
+      "rationale": "Git-only actual2a7 authored introduction has no publisher or exact native match. Preserve every fifteen-row full formula and all toppings; genuine method-only1tsp extra sesame oil now separate optional ingredient rather than borrowing full sauce oil. Honey/brown sugar both allocated. Salted water, subsequent water/seasoning and customization allowances are actual original prose, now listed without invented doses. Replace unbounded counter-cooling with prompt shallow refrigeration; FDA/USDA guidance validates handling only, not this unsourced formula or15min clock. Remove unsupported post-WWII origin story while retaining Chinese-American culinary style.",
+      "confidence": "High exact retained source/history and ingredient conservation; moderate untested method, elapsed planning, temperature application and capacity",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+            "path": "src/content/recipes/peanut-noodles.md",
+            "sha256": "c1d0d683ed0e0edbad7536fae4a59fccd228da540a87cb8ad541c30750ef6e7a",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "scope": "Exact first cooking source; no publisher authority or independent kitchen result inferred."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full followed canonical diffs and exact consequential omissions; persistence alone does not establish household rejection."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, raw-contact separation, fully set eggs, prompt shallow refrigeration and cold temperature; no formula, exact elapsed clock or kimchi manufacturing validation."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftover3–4days/165 reheat; no fermented kimchi shelf life or first-cook formula validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual peanut butter, noodles and bowl capacity affect sauce water and portion size.",
+        "No independent original publisher is established for this Git-authored formula.",
+        "Four portions and current nutrition were unverified; no replacement precision offered."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/peanut-noodles.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Git-only actual2a7 authored introduction has no publisher or exact native match. Preserve every fifteen-row full formula and all toppings; genuine method-only1tsp extra sesame oil now separate optional ingredient rather than borrowing full sauce oil. Honey/brown sugar both allocated. Salted water, subsequent water/seasoning and customization allowances are actual original prose, now listed without invented doses. Replace unbounded counter-cooling with prompt shallow refrigeration; FDA/USDA guidance validates handling only, not this unsourced formula or15min clock. Remove unsupported post-WWII origin story while retaining Chinese-American culinary style.",
+      "remainingQuestions": [
+        "Actual peanut butter, noodles and bowl capacity affect sauce water and portion size.",
+        "No independent original publisher is established for this Git-authored formula.",
+        "Four portions and current nutrition were unverified; no replacement precision offered."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1/2 cup Peanut Butter (natural or creamy)",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "3 tbsp Soy Sauce",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "2 tbsp Rice Vinegar",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "1 tbsp Sesame Oil",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "1 tbsp Honey or Brown Sugar",
+        "actualMethodDestination": "1 honey only; brown option unnamed"
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, grated",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes (adjust to taste)",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "1/4 to 1/2 cup Warm Water (to achieve sauce consistency)",
+        "actualMethodDestination": "1 gradual/3/5 extra unlisted"
+      },
+      {
+        "text": "2 Green Onions, sliced",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1/4 cup Fresh Cilantro, chopped",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "Sesame seeds for garnish",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "Lime Wedges",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "Roasted Peanuts, chopped (optional)",
+        "actualMethodDestination": 4
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "destination": 2
+      },
+      {
+        "text": "1/2 cup Peanut Butter (natural or creamy)",
+        "destination": 1
+      },
+      {
+        "text": "3 tbsp Soy Sauce",
+        "destination": 1
+      },
+      {
+        "text": "2 tbsp Rice Vinegar",
+        "destination": 1
+      },
+      {
+        "text": "1 tbsp Sesame Oil",
+        "destination": 1
+      },
+      {
+        "text": "1 tbsp Honey or Brown Sugar",
+        "destination": 1
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "destination": 1
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, grated",
+        "destination": 1
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes (adjust to taste)",
+        "destination": 1
+      },
+      {
+        "text": "1/4 to 1/2 cup Warm Water (to achieve sauce consistency)",
+        "destination": "1/3 flexible range"
+      },
+      {
+        "text": "2 Green Onions, sliced",
+        "destination": 4
+      },
+      {
+        "text": "1/4 cup Fresh Cilantro, chopped",
+        "destination": 4
+      },
+      {
+        "text": "Sesame seeds for garnish",
+        "destination": 4
+      },
+      {
+        "text": "Lime Wedges",
+        "destination": 4
+      },
+      {
+        "text": "Roasted Peanuts, chopped (optional)",
+        "destination": 4
+      },
+      {
+        "text": "1 tsp additional sesame oil, optional for advance noodle preparation",
+        "destination": "2 optional extra"
+      },
+      {
+        "text": "Salt, as needed for noodle cooking water",
+        "destination": 2
+      },
+      {
+        "text": "Warm water, additional as needed to loosen dressed noodles",
+        "destination": "3/5 extra"
+      },
+      {
+        "text": "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "destination": "1 optional taste"
+      },
+      {
+        "text": "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed",
+        "destination": 4
+      }
+    ],
+    "frozenMethodOnly": [
+      "Extra1tspsesameoilstep2 beyondfullsauceoil",
+      "Extra warmwater3/5; optional seasoning1; vegetable toppings customization"
+    ],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Make sauce: Whisk all the peanut butter, soy sauce, rice vinegar, main sesame oil, honey or brown sugar, garlic, ginger and red pepper flakes. Gradually whisk in water from the listed water range until smooth and thick enough to coat noodles; reserve any not yet needed for the toss. Taste if desired and use the separately listed additional-seasoning allowance only if needed."
+    },
+    {
+      "step": 2,
+      "text": "Cook noodles: Bring a pot of water to a boil and salt from the allowance. Cook all the noodles according to their package until cooked but still firm. Drain well without rinsing. If preparing the noodles separately in advance, toss with the separately listed additional sesame oil; this is extra to the full sauce oil, not borrowed from it. Refrigerate promptly in a shallow container."
+    },
+    {
+      "step": 3,
+      "text": "Dress: Toss all the noodles with all the sauce in a bowl with enough room to turn them. Use any reserved measured water first if the sauce clumps, then additional water from the genuine loosening allowance as needed. Do not leave cooked noodles at room temperature awaiting a later meal."
+    },
+    {
+      "step": 4,
+      "text": "Finish: Wash and prepare the scallions, cilantro and lime. Add all the scallions and cilantro, sesame seeds and optional chopped roasted peanuts. Serve the lime wedges alongside. Optional washed carrots/cucumber, edamame cooked according to its package, or blanched broccoli can be added as toppings; keep them separate from the measured sauce formula."
+    },
+    {
+      "step": 5,
+      "text": "Cold service: For a cold meal, refrigerate the dressed noodles promptly in shallow containers until chilled. Before serving, loosen as needed with a little additional water. Keep cold until serving rather than cooling on the counter for an unspecified period."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Cold/advance service",
+        "reference": "Final steps2/5",
+        "formula": "Same full sauce with separate optional1tsp noodle oil; prompt refrigerator handling, not four hours of counter cooling."
+      },
+      {
+        "name": "Optional vegetable toppings",
+        "reference": "Final step4",
+        "formula": "Unmeasured genuine original customization; edamame product must be cooked if its package requires."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Cold/advance service",
+        "alternative": "Follow the complete cold/advance service described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+        "effect": "Retain every named supply and preparation destination in that route."
+      },
+      {
+        "ingredient": "Optional vegetable toppings",
+        "alternative": "Follow the complete optional vegetable toppings described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+        "effect": "Retain every named supply and preparation destination in that route."
+      }
+    ],
+    "completeCookingOptions": null
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["steamed-bok-choy-with-oyster-sauce", "asian-slaw", "everyday-arugula-salad"],
+    "incomingMeals": [],
+    "scope": "Pairing ingredients are separate complete components, not additional doses in this formula; retained links verified. Linked meal receives no full review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Existing planning portions preserved; no new portion weight or precise cooked yield.",
+    "capacity": [
+      "The full main listed sesame oil goes into the sauce; the separately listed optional additional oil coats advance-prepared noodles and scales independently.",
+      "Use enough bowl and pot capacity when scaling; additional cooking batches and chilling add time."
+    ],
+    "timing": "About 20–25 minutes for boiling water, noodle cooking and sauce/garnish preparation, with some overlap. Chilling for cold service is additional elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1/8 cup Peanut Butter (natural or creamy)",
+        "3/4 tbsp Soy Sauce",
+        "1/2 tbsp Rice Vinegar",
+        "1/4 tbsp Sesame Oil",
+        "1/4 tbsp Honey or Brown Sugar",
+        "3/4 clove Garlic, minced",
+        "1/4 tbsp Fresh Ginger, grated",
+        "0.0625 tsp Red Pepper Flakes (adjust to taste)",
+        "0.0625–1/8 cup Warm Water (to achieve sauce consistency)",
+        "1/2 Green Onion, sliced",
+        "0.0625 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "1/4 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1/4 cup Peanut Butter (natural or creamy)",
+        "1 1/2 tbsp Soy Sauce",
+        "1 tbsp Rice Vinegar",
+        "1/2 tbsp Sesame Oil",
+        "1/2 tbsp Honey or Brown Sugar",
+        "1 1/2 cloves Garlic, minced",
+        "1/2 tbsp Fresh Ginger, grated",
+        "1/8 tsp Red Pepper Flakes (adjust to taste)",
+        "1/8–1/4 cup Warm Water (to achieve sauce consistency)",
+        "1 Green Onion, sliced",
+        "1/8 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "1/2 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1/2 cup Peanut Butter (natural or creamy)",
+        "3 tbsp Soy Sauce",
+        "2 tbsp Rice Vinegar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Honey or Brown Sugar",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, grated",
+        "1/4 tsp Red Pepper Flakes (adjust to taste)",
+        "1/4 to 1/2 cup Warm Water (to achieve sauce consistency)",
+        "2 Green Onions, sliced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "1 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "3/4 cup Peanut Butter (natural or creamy)",
+        "4 1/2 tbsp Soy Sauce",
+        "3 tbsp Rice Vinegar",
+        "1 1/2 tbsp Sesame Oil",
+        "1 1/2 tbsp Honey or Brown Sugar",
+        "4 1/2 cloves Garlic, minced",
+        "1 1/2 tbsp Fresh Ginger, grated",
+        "3/8 tsp Red Pepper Flakes (adjust to taste)",
+        "3/8–3/4 cup Warm Water (to achieve sauce consistency)",
+        "3 Green Onions, sliced",
+        "3/8 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "1 1/2 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1 cup Peanut Butter (natural or creamy)",
+        "6 tbsp Soy Sauce",
+        "4 tbsp Rice Vinegar",
+        "2 tbsp Sesame Oil",
+        "2 tbsp Honey or Brown Sugar",
+        "6 cloves Garlic, minced",
+        "2 tbsp Fresh Ginger, grated",
+        "1/2 tsp Red Pepper Flakes (adjust to taste)",
+        "1/2–1 cup Warm Water (to achieve sauce consistency)",
+        "4 Green Onions, sliced",
+        "1/2 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "2 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1 1/2 cups Peanut Butter (natural or creamy)",
+        "9 tbsp Soy Sauce",
+        "6 tbsp Rice Vinegar",
+        "3 tbsp Sesame Oil",
+        "3 tbsp Honey or Brown Sugar",
+        "9 cloves Garlic, minced",
+        "3 tbsp Fresh Ginger, grated",
+        "3/4 tsp Red Pepper Flakes (adjust to taste)",
+        "3/4–1 1/2 cups Warm Water (to achieve sauce consistency)",
+        "6 Green Onions, sliced",
+        "3/4 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "3 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Noodles (spaghetti, angel hair, or wheat noodles)",
+        "1/2 cup Peanut Butter (natural or creamy)",
+        "3 tbsp Soy Sauce",
+        "2 tbsp Rice Vinegar",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Honey or Brown Sugar",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, grated",
+        "1/4 tsp Red Pepper Flakes (adjust to taste)",
+        "1/4 to 1/2 cup Warm Water (to achieve sauce consistency)",
+        "2 Green Onions, sliced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Sesame seeds for garnish",
+        "Lime Wedges",
+        "Roasted Peanuts, chopped (optional)",
+        "1 tsp additional sesame oil, optional for advance noodle preparation",
+        "Salt, as needed for noodle cooking water",
+        "Warm water, additional as needed to loosen dressed noodles",
+        "Rice vinegar, red pepper flakes or salt, optional additional seasoning to taste",
+        "Shredded carrots, cucumber, cooked edamame or blanched broccoli, optional toppings as needed"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every current measured core supply, sourceURL/cuisine/title/identity/rating/control preserved; current and exact source alternatives distinguished.",
+  "remainingQuestions": [
+    "Actual peanut butter, noodles and bowl capacity affect sauce water and portion size.",
+    "No independent original publisher is established for this Git-authored formula.",
+    "Four portions and current nutrition were unverified; no replacement precision offered."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "slug": "one-pot-spicy-thai-noodles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
+  "inputSha256": "8124b06f5bd0970039af588e7d1f077d4b756b58db33ebfaa49ccec0ce3411d4",
+  "acceptedSourceSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Thailand",
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Penne or Linguine",
+        "2 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1/3 cup Low-sodium Soy Sauce",
+        "2 tbsp Dark Brown Sugar",
+        "1.5 tbsp Sriracha (adjust for heat)",
+        "2 inches Fresh Ginger, grated",
+        "2 large Eggs, beaten",
+        "1 Zucchini, cut into half-moons",
+        "8 oz Mushrooms, chopped",
+        "1/2 cup Carrots, shredded",
+        "4 Green Onions, chopped",
+        "1/2 cup Fresh Cilantro, chopped",
+        "1/2 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste"
+      ],
+      "after": [
+        "1 lb Penne or Linguine",
+        "2 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1/3 cup Low-sodium Soy Sauce",
+        "2 tbsp Dark Brown Sugar",
+        "1.5 tbsp Sriracha (adjust for heat)",
+        "2 inches Fresh Ginger, grated",
+        "2 large Eggs, beaten",
+        "1 Zucchini, cut into half-moons",
+        "8 oz Mushrooms, chopped",
+        "1/2 cup Carrots, shredded",
+        "4 Green Onions, chopped",
+        "1/2 cup Fresh Cilantro, chopped",
+        "1/2 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "3 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Eggs fully set with no liquid remaining.",
+        "outcome": "Pasta evenly coated and hot; refrigerated leftover protein 165°F / 74°C throughout.",
+        "techniques": ["stir-frying", "starch"],
+        "before": [
+          "Divide the full listed oil equally between eggs and vegetables. Keep the listed carrot, cilantro and peanut amounts; the garlic joins the vegetable stage.",
+          "Prepare sauce while pasta cooks. Extra batches and separately cooking optional protein add elapsed time."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Eggs fully set with no liquid remaining.",
+            "why": "Scramble separately so the egg remains in pieces rather than coating the pasta."
+          },
+          {
+            "step": 4,
+            "cue": "Vegetables tender-crisp and garlic fragrant without burning.",
+            "why": "Stir and reduce heat if the pot begins to scorch."
+          },
+          {
+            "step": 6,
+            "cue": "Pasta evenly coated and hot; refrigerated leftover protein 165°F / 74°C throughout.",
+            "why": "The final one-to-two-minute toss is a first check, not a leftover reheating guarantee."
+          }
+        ],
+        "timing": "About 35 minutes for the base original batch, with sauce mixed during pasta cooking. Additional pan batches and separately preparing optional raw protein add time.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below, use cooked leftovers within 3–4 days or freeze promptly, and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.",
+        "substitutions": [
+          {
+            "ingredient": "Source red-flake heat option",
+            "alternative": "Follow the complete source red-flake heat option described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+            "effect": "Retain every named supply and preparation destination in that route."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles or aromatics stick and scorch",
+            "cause": "The pan is crowded or heat exceeds what the ingredient stage can tolerate.",
+            "fix": "Lower heat and divide into additional proportional batches; stop and remove any burnt pieces rather than scraping burnt material through the sauce."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Domestic Superhero — One Pot Spicy Thai Noodles",
+            "url": "https://domesticsuperhero.com/one-pot-spicy-thai-noodles/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Thai-inspired pasta uses the same pot for boiling noodles, scrambling eggs, and sautéing vegetables. Divide the oil between the eggs and vegetables, then toss everything with the soy-ginger sauce. Cilantro and green onions go in at the end.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **Boil:** Cook pasta in a large pot of salted water according to package directions. Drain and set aside.\n2.  **The Sauce:** In a small bowl, whisk together soy sauce, brown sugar, Sriracha, and grated ginger until smooth.\n3.  **The Eggs:** In the same large pot, heat 1 tbsp oil. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the pasta.\n4.  **The Veg:** Add the remaining half of the oil to the pot. Sauté zucchini, mushrooms, and carrots for 5 minutes over high heat until tender-crisp.\n5.  **Bind:** Turn heat to low. Return the pasta and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything.\n6.  **Toss:** Toss until the pasta is evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer.\n7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve immediately, or refrigerate promptly for chilled servings.\n\n## Cooking Notes\n\nAllow about 35 minutes for the base recipe, including water heating, with sauce preparation overlapping the pasta cooking. Cooking an optional protein separately adds time. If starting with raw chicken, cook it separately to 165°F / 74°C; cook raw shrimp until pearly and opaque through the center before adding. For chilled servings, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below.\n",
+    "after": "\n## Chef's Note\n\nThis Thai-inspired pasta uses the same pot for boiling noodles, scrambling eggs, and sautéing vegetables. Divide the oil between the eggs and vegetables, then toss everything with the soy-ginger sauce. Cilantro and green onions go in at the end.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **Boil:** Cook pasta in a large pot of salted water according to package directions. Drain and set aside.\n2.  **The Sauce:** In a small bowl, whisk together soy sauce, brown sugar, Sriracha, and grated ginger until smooth.\n3.  **The Eggs:** In the same large pot, heat half of the listed oil over medium heat. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the pasta.\n4.  **The Veg:** Add the remaining half of the oil to the pot. Sauté zucchini, mushrooms, carrots and all the garlic, starting checks around 5 minutes over medium-high heat. Stir until tender-crisp and fragrant, reducing heat if the garlic begins to burn.\n5.  **Bind:** Turn heat to low. Return the pasta and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything.\n6.  **Toss:** Toss until the pasta is evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer.\n7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve immediately, or refrigerate promptly for chilled servings.\n\n## Cooking Notes\n\nFor an original-batch source heat option, use 1/2 tsp crushed red pepper flakes instead of the optional pinch, scaling proportionally; keep all other current quantities.\n\nAllow about 35 minutes for the base recipe, including water heating, with sauce preparation overlapping the pasta cooking. Cooking an optional protein separately adds time. If starting with raw chicken, cook it separately to 165°F / 74°C; cook raw shrimp until pearly and opaque through the center before adding. For chilled servings, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below.\n"
+  },
+  "findings": [
+    {
+      "id": "ANS12-3",
+      "title": "ANS12-3",
+      "rationale": "23b28 bulk diff removed exact saved3cloves garlic; native/045 and current primary Domestic Superhero still establish garlic in the vegetable stage. Restore exact amount without normalizing current½cup carrots/cilantro/peanuts, four-portion planning or full sauce.858 restored full2tbsp oil and safety/timing; preserve all its measured endpoints/cold handling and35min plan, but replace inherited literal1tbsp egg stage with half the listed oil for scale. Source modern6portions/¼cup peanuts differs; do not replace published½cup. Saved½tsp red flakes is retained as a separate original-batch heat option; current optional pinch remains main.",
+      "confidence": "High exact retained source/history and ingredient conservation; moderate untested method, elapsed planning, temperature application and capacity",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/One Pot Spicy Thai Noodles.html",
+            "sha256": "dbd8c7e818b8e09b88235bdfb47e33d775e0c18f11968932d5febd5e2db91426",
+            "scope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git; canonical045 retained separately"
+          },
+          "scope": "Exact first cooking source; no publisher authority or independent kitchen result inferred."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full followed canonical diffs and exact consequential omissions; persistence alone does not establish household rejection."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Current private binding to exact durable original450 cooking payload; private identity values excluded."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, raw-contact separation, fully set eggs, prompt shallow refrigeration and cold temperature; no formula, exact elapsed clock or kimchi manufacturing validation."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftover3–4days/165 reheat; no fermented kimchi shelf life or first-cook formula validation."
+        },
+        {
+          "url": "https://domesticsuperhero.com/one-pot-spicy-thai-noodles/",
+          "scope": "Actual full primary publisher fetched; confirms garlic/divided2tbsp oil. Modern¼cup peanuts and6servings differ from current½cup/four; current retained."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "ingredients", "learning", "content"],
+      "questions": [
+        "Four generous portions versus modern source six are unmeasured plans.",
+        "Optional raw-protein preparation remains separately timed; actual pot capacity determines extra batches.",
+        "Original red-flake amount and modern¼cup peanuts are source differences, not authority to reduce the current full peanut supply."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/One%20Pot%20Spicy%20Thai%20Noodles.html",
+    "introductionScope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git; canonical045 retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "23b28 bulk diff removed exact saved3cloves garlic; native/045 and current primary Domestic Superhero still establish garlic in the vegetable stage. Restore exact amount without normalizing current½cup carrots/cilantro/peanuts, four-portion planning or full sauce.858 restored full2tbsp oil and safety/timing; preserve all its measured endpoints/cold handling and35min plan, but replace inherited literal1tbsp egg stage with half the listed oil for scale. Source modern6portions/¼cup peanuts differs; do not replace published½cup. Saved½tsp red flakes is retained as a separate original-batch heat option; current optional pinch remains main.",
+      "remainingQuestions": [
+        "Four generous portions versus modern source six are unmeasured plans.",
+        "Optional raw-protein preparation remains separately timed; actual pot capacity determines extra batches.",
+        "Original red-flake amount and modern¼cup peanuts are source differences, not authority to reduce the current full peanut supply."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Penne or Linguine",
+        "actualMethodDestination": 1
+      },
+      {
+        "text": "2 tbsp olive oil, divided",
+        "actualMethodDestination": "3 literal1tbsp/4 remaininghalf"
+      },
+      {
+        "text": "Red pepper flakes, a pinch, optional",
+        "actualMethodDestination": 3
+      },
+      {
+        "text": "1/3 cup Low-sodium Soy Sauce",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "2 tbsp Dark Brown Sugar",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "1.5 tbsp Sriracha (adjust for heat)",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "2 inches Fresh Ginger, grated",
+        "actualMethodDestination": 2
+      },
+      {
+        "text": "2 large Eggs, beaten",
+        "actualMethodDestination": 3
+      },
+      {
+        "text": "1 Zucchini, cut into half-moons",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "8 oz Mushrooms, chopped",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "1/2 cup Carrots, shredded",
+        "actualMethodDestination": 4
+      },
+      {
+        "text": "4 Green Onions, chopped",
+        "actualMethodDestination": 7
+      },
+      {
+        "text": "1/2 cup Fresh Cilantro, chopped",
+        "actualMethodDestination": 7
+      },
+      {
+        "text": "1/2 cup Peanuts, crushed",
+        "actualMethodDestination": 7
+      },
+      {
+        "text": "Fully cooked chicken or shrimp, optional addition, to taste",
+        "actualMethodDestination": "5/6 fully cooked"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 lb Penne or Linguine",
+        "destination": 1
+      },
+      {
+        "text": "2 tbsp olive oil, divided",
+        "destination": "3 half/4 half"
+      },
+      {
+        "text": "Red pepper flakes, a pinch, optional",
+        "destination": 3
+      },
+      {
+        "text": "1/3 cup Low-sodium Soy Sauce",
+        "destination": 2
+      },
+      {
+        "text": "2 tbsp Dark Brown Sugar",
+        "destination": 2
+      },
+      {
+        "text": "1.5 tbsp Sriracha (adjust for heat)",
+        "destination": 2
+      },
+      {
+        "text": "2 inches Fresh Ginger, grated",
+        "destination": 2
+      },
+      {
+        "text": "2 large Eggs, beaten",
+        "destination": 3
+      },
+      {
+        "text": "1 Zucchini, cut into half-moons",
+        "destination": 4
+      },
+      {
+        "text": "8 oz Mushrooms, chopped",
+        "destination": 4
+      },
+      {
+        "text": "1/2 cup Carrots, shredded",
+        "destination": 4
+      },
+      {
+        "text": "4 Green Onions, chopped",
+        "destination": 7
+      },
+      {
+        "text": "1/2 cup Fresh Cilantro, chopped",
+        "destination": 7
+      },
+      {
+        "text": "1/2 cup Peanuts, crushed",
+        "destination": 7
+      },
+      {
+        "text": "Fully cooked chicken or shrimp, optional addition, to taste",
+        "destination": "5/6 fully cooked"
+      },
+      {
+        "text": "3 cloves garlic, minced",
+        "destination": 4
+      },
+      {
+        "text": "Salt, as needed for pasta cooking water",
+        "destination": 1
+      }
+    ],
+    "frozenMethodOnly": [
+      "Saltedpastawaterstep1; garlicabsent; oilsplitliteral1tbsp thenremaininghalf"
+    ],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Boil: Cook pasta in a large pot of salted water according to package directions. Drain and set aside."
+    },
+    {
+      "step": 2,
+      "text": "The Sauce: In a small bowl, whisk together soy sauce, brown sugar, Sriracha, and grated ginger until smooth."
+    },
+    {
+      "step": 3,
+      "text": "The Eggs: In the same large pot, heat half of the listed oil over medium heat. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the pasta."
+    },
+    {
+      "step": 4,
+      "text": "The Veg: Add the remaining half of the oil to the pot. Sauté zucchini, mushrooms, carrots and all the garlic, starting checks around 5 minutes over medium-high heat. Stir until tender-crisp and fragrant, reducing heat if the garlic begins to burn."
+    },
+    {
+      "step": 5,
+      "text": "Bind: Turn heat to low. Return the pasta and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything."
+    },
+    {
+      "step": 6,
+      "text": "Toss: Toss until the pasta is evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve immediately, or refrigerate promptly for chilled servings."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Source red-flake heat option",
+        "reference": "Final Cooking Notes",
+        "formula": "For original batch use½tsp crushed red pepper flakes instead of optional pinch; scale proportionally. All current other quantities unchanged."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Source red-flake heat option",
+        "alternative": "Follow the complete source red-flake heat option described in the cooking instructions; any separately specified amounts apply to the original batch and scale with the batch.",
+        "effect": "Retain every named supply and preparation destination in that route."
+      }
+    ],
+    "completeCookingOptions": null
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "coconut-jasmine-rice",
+      "eggplant-with-garlic-sauce",
+      "quick-pickled-carrots-and-daikon"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairing ingredients are separate complete components, not additional doses in this formula; retained links verified. Linked meal receives no full review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Existing planning portions preserved; no new portion weight or precise cooked yield.",
+    "capacity": [
+      "Divide the full listed oil equally between eggs and vegetables. Keep the listed carrot, cilantro and peanut amounts; the garlic joins the vegetable stage.",
+      "Prepare sauce while pasta cooks. Extra batches and separately cooking optional protein add elapsed time."
+    ],
+    "timing": "About 35 minutes for the base original batch, with sauce mixed during pasta cooking. Additional pan batches and separately preparing optional raw protein add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Penne or Linguine",
+        "1/2 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "0.0833 cup Low-sodium Soy Sauce",
+        "1/2 tbsp Dark Brown Sugar",
+        "3/8 tbsp Sriracha (adjust for heat)",
+        "1/2 inches Fresh Ginger, grated",
+        "1/2 large Egg, beaten",
+        "1/4 Zucchini, cut into half-moons",
+        "2 oz Mushrooms, chopped",
+        "1/8 cup Carrots, shredded",
+        "1 Green Onion, chopped",
+        "1/8 cup Fresh Cilantro, chopped",
+        "1/8 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "3/4 clove garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Penne or Linguine",
+        "1 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1/6 cup Low-sodium Soy Sauce",
+        "1 tbsp Dark Brown Sugar",
+        "3/4 tbsp Sriracha (adjust for heat)",
+        "1 inches Fresh Ginger, grated",
+        "1 large Egg, beaten",
+        "1/2 Zucchini, cut into half-moons",
+        "4 oz Mushrooms, chopped",
+        "1/4 cup Carrots, shredded",
+        "2 Green Onions, chopped",
+        "1/4 cup Fresh Cilantro, chopped",
+        "1/4 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "1 1/2 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Penne or Linguine",
+        "2 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1/3 cup Low-sodium Soy Sauce",
+        "2 tbsp Dark Brown Sugar",
+        "1.5 tbsp Sriracha (adjust for heat)",
+        "2 inches Fresh Ginger, grated",
+        "2 large Eggs, beaten",
+        "1 Zucchini, cut into half-moons",
+        "8 oz Mushrooms, chopped",
+        "1/2 cup Carrots, shredded",
+        "4 Green Onions, chopped",
+        "1/2 cup Fresh Cilantro, chopped",
+        "1/2 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "3 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Penne or Linguine",
+        "3 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1/2 cup Low-sodium Soy Sauce",
+        "3 tbsp Dark Brown Sugar",
+        "2 1/4 tbsp Sriracha (adjust for heat)",
+        "3 inches Fresh Ginger, grated",
+        "3 large Eggs, beaten",
+        "1 1/2 Zucchini, cut into half-moons",
+        "12 oz Mushrooms, chopped",
+        "3/4 cup Carrots, shredded",
+        "6 Green Onions, chopped",
+        "3/4 cup Fresh Cilantro, chopped",
+        "3/4 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "4 1/2 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Penne or Linguine",
+        "4 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "2/3 cup Low-sodium Soy Sauce",
+        "4 tbsp Dark Brown Sugar",
+        "3 tbsp Sriracha (adjust for heat)",
+        "4 inches Fresh Ginger, grated",
+        "4 large Eggs, beaten",
+        "2 Zucchini, cut into half-moons",
+        "16 oz Mushrooms, chopped",
+        "1 cup Carrots, shredded",
+        "8 Green Onions, chopped",
+        "1 cup Fresh Cilantro, chopped",
+        "1 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "6 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Penne or Linguine",
+        "6 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1 cup Low-sodium Soy Sauce",
+        "6 tbsp Dark Brown Sugar",
+        "4 1/2 tbsp Sriracha (adjust for heat)",
+        "6 inches Fresh Ginger, grated",
+        "6 large Eggs, beaten",
+        "3 Zucchini, cut into half-moons",
+        "24 oz Mushrooms, chopped",
+        "1 1/2 cups Carrots, shredded",
+        "12 Green Onions, chopped",
+        "1 1/2 cups Fresh Cilantro, chopped",
+        "1 1/2 cups Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "9 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Penne or Linguine",
+        "2 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
+        "1/3 cup Low-sodium Soy Sauce",
+        "2 tbsp Dark Brown Sugar",
+        "1.5 tbsp Sriracha (adjust for heat)",
+        "2 inches Fresh Ginger, grated",
+        "2 large Eggs, beaten",
+        "1 Zucchini, cut into half-moons",
+        "8 oz Mushrooms, chopped",
+        "1/2 cup Carrots, shredded",
+        "4 Green Onions, chopped",
+        "1/2 cup Fresh Cilantro, chopped",
+        "1/2 cup Peanuts, crushed",
+        "Fully cooked chicken or shrimp, optional addition, to taste",
+        "3 cloves garlic, minced",
+        "Salt, as needed for pasta cooking water"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "858ff2c full2tbsp oil, fully set eggs, raw optional protein separately cooked, refrigerated protein165,35min base and shallow promptcold paragraph retained.",
+  "remainingQuestions": [
+    "Four generous portions versus modern source six are unmeasured plans.",
+    "Optional raw-protein preparation remains separately timed; actual pot capacity determines extra batches.",
+    "Original red-flake amount and modern¼cup peanuts are source differences, not authority to reduce the current full peanut supply."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 128,
+    "targetedLint": "Zero errors; 3 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12422,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 57,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

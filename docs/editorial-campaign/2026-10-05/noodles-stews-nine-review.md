@@ -1,0 +1,11 @@
+# 9 recipes — complete editorial review
+
+All listed recipes received complete author review, independent whole-recipe challenge, required bounded final challenge and root inspection of the complete current-to-final cooking diff. Existing frozen evidence is reused. Every ingredient is traced through preparation, allocation and destination. Ratios, planning yield, actual capacity, heat and doneness, active versus elapsed time, rests, chilling, storage, scaling and linked meals were considered. Paired records retain exact before/after fields and bodies, sources, confidence, source disagreements, complete variant ledgers and remaining questions.
+
+Noodle form, batch capacity, raw-contact sauces and complete ingredient destinations are explicit. Pad See Ew keeps its current fresh-noodle formula and complete saved dried-noodle route separately, including every oil destination. Beef and Snow Peas retains the saved raw-contact marinade discard and separate clean sauce route. Cu Chao Mian restores documented oil, marinade and sauce allocations without replacing the modern method or dried mushroom option. Doc Chey's listed noodle amount is cooked volume and its full sauce is used once. Household adaptations and prior poultry endpoints remain. Dan Dan remains held over conflicting total versus per-bowl sauce amounts.
+
+Primary FDA/USDA guidance applies to the relevant food category; it does not establish recipe-specific clocks or eliminate all risk. Distinct source routes and household adaptations remain explicit. Native originals and stable bindings remain private. Every identity, source link, family attribution, deliberate richness, meaningful note and supported cuisine tag is preserved. No measured yield, nutrition or kitchen-tested claim is invented.
+
+No kitchen testing or native-app import has occurred. Actual capacity, finished yields and texture remain questions where unmeasured. Held optional branches remain held. This acceptance covers only the listed complete versions, not related meals or other proposals.
+
+269 campaign versions are verified live; 9 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync.
