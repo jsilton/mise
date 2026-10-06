@@ -1,0 +1,694 @@
+{
+  "slug": "how-to-make-frittatas-stovetop-or-baked",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "bc26cbc37cf869aa634340a92c10c9cc4043bbbf22572d1210acf34a04ed665a",
+  "acceptedSourceSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15–30 min (method and vegetables vary)"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30–50 min (includes preparation and brief cooling)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 large Eggs",
+        "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1/2 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)"
+      ],
+      "after": [
+        "12 large Eggs",
+        "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1/2 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 190,
+        "protein": 12.5,
+        "carbs": 2,
+        "fat": 15,
+        "fiber": 0.5,
+        "sugar": 1,
+        "sodium": 540
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook vegetable moisture away before setting a frittata",
+        "outcome": "Tender vegetables sit in a gently set egg base without pools of water or a dry, deeply browned top.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+          "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+          "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Vegetables are tender and no water puddle remains.",
+            "why": "Different vegetables soften and shed moisture at different rates; eggs finish sooner than raw dense vegetables."
+          },
+          {
+            "step": 4,
+            "cue": "Skillet center is gently set and measures 160 °F.",
+            "why": "A slight surface movement is not a reason to leave liquid egg or to overbrown the top."
+          },
+          {
+            "step": 6,
+            "cue": "Standard cups keep the same portion depth, and centers are set.",
+            "why": "Partly filled tins and different portion depth change heating time."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Frittata weeps water",
+            "cause": "Wet vegetables were folded in before their moisture evaporated.",
+            "fix": "Cook vegetables fully and evaporate visible liquid before adding eggs next time; do not automatically remove dairy."
+          },
+          {
+            "problem": "Edges dry before the center sets",
+            "cause": "Layer is too deep, pan too small or heat continued too long.",
+            "fix": "Use original geometry or a suitable smaller pan for a smaller batch; stop once the center endpoint is met. The overcooked edges cannot be restored."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh 3–5 cups vegetables",
+            "alternative": "Up to 3 cups cooked leftover vegetables for a 12-egg batch; scale with the selected egg amount",
+            "effect": "Warm through and evaporate any liquid; use the cooked amount in place of the raw-vegetable amount."
+          },
+          {
+            "ingredient": "Heavy cream or crème fraîche",
+            "alternative": "The same-volume whole milk, half-and-half, sour cream or yogurt options",
+            "effect": "Change richness, acidity and texture; keep the listed dairy volume."
+          }
+        ],
+        "timing": "Plan 30–50 minutes depending on chopping and how long the vegetables need. Skillet finish 7–14 minutes follows vegetable cooking; casserole 20–25 minutes and mini 13–17 minutes follow cooking and brief vegetable cooling. Additional oven batches add elapsed time. The full original batch is planned as six portions.",
+        "storage": "Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in shallow containers at 40°F / 4°C or below. Use refrigerated portions within 3–4 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion size and starting temperature change the time, so use short intervals and check the center.",
+        "sources": [
+          {
+            "title": "Adapted from cookieandkate.com",
+            "url": "https://cookieandkate.com/best-frittata-recipe/"
+          },
+          {
+            "title": "FDA egg cooking, cold holding and reheating",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFrittatas are Italian open-faced omelets perfect for using up vegetables and leftover ingredients - a thrifty tradition that dates back centuries. The ratio matters: 12 eggs to 3 tablespoons of cream creates a custardy texture that stays tender, not rubbery. Start on the stovetop to set the edges, then finish in a 425°F oven for a puffed, golden top with a slightly jiggly center.\n\n## Directions\n\n1.  **Aeration:** In a large bowl, whisk the eggs, dairy, and salt until the yolks and whites are perfectly blended and slightly frothy. Fold in half the cheese.\n2.  **Sauté:** Heat oil in a 12-inch cast-iron or oven-safe skillet over medium-high. Add your dense vegetables (onions, peppers) first, then softer ones (zucchini, greens). Sauté until tender-crisp.\n3.  **The Edge-Set:** Pour the egg mixture over the vegetables. Use a spatula to distribute evenly. Let sit undisturbed for 1 minute until the very edge looks set and opaque.\n4.  **The Rise:** Sprinkle the remaining cheese on top. Transfer the skillet to a **425°F oven**.\n5.  **Bake:** Bake for 7-10 minutes until the frittata is puffed and the center has a very slight wobble when shaken. **Do not over-bake.**\n6.  **Finish:** Garnish with fresh herbs. Slice into wedges and serve immediately or at room temperature for the Kitchen Standard experience.\n",
+    "after": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n"
+  },
+  "findings": [
+    {
+      "id": "EG-1",
+      "field": "Chef note",
+      "rationale": "Native/045e5ba2 and current publisher agree on 12 eggs,3 tbsp full-fatdairy,1 cup/4ozcheese,3–5cupsrawvegetables and 1tbspoil. Native preserved three alternate methods; current had removed baked variants. Restore both with original pan/cup geometry and ranges, add only genuine separate pan-greasing allowance. Restore publisher 7–14 minute range instead of hard 7–10cutoff; preserve current six portions. Do not claim centuries-old origin or universal custardy guarantee. Reduced batches require geometry judgment, not numeric pan invention.",
+      "confidence": "high for provenance corrections; sensory outcome untested",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-2",
+      "field": "Directions",
+      "rationale": "Complete recipe-specific ingredient destinations, state, capacity, endpoint and elapsed-time correction; see individual source disagreement.",
+      "confidence": "high for ingredient tracking and applicable safety; moderate for planning ranges",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-3",
+      "field": "vibe",
+      "rationale": "Plan 30–50 minutes depending on chopping and how long the vegetables need. Skillet finish 7–14 minutes follows vegetable cooking; casserole 20–25 minutes and mini 13–17 minutes follow cooking and brief vegetable cooling. Additional oven batches add elapsed time. Six portions remain the current yield, not the publisher’s eight.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["vibe"],
+      "questions": []
+    },
+    {
+      "id": "EG-4",
+      "field": "prepTime",
+      "rationale": "Plan 30–50 minutes depending on chopping and how long the vegetables need. Skillet finish 7–14 minutes follows vegetable cooking; casserole 20–25 minutes and mini 13–17 minutes follow cooking and brief vegetable cooling. Additional oven batches add elapsed time. Six portions remain the current yield, not the publisher’s eight.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["prepTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-5",
+      "field": "cookTime",
+      "rationale": "Plan 30–50 minutes depending on chopping and how long the vegetables need. Skillet finish 7–14 minutes follows vegetable cooking; casserole 20–25 minutes and mini 13–17 minutes follow cooking and brief vegetable cooling. Additional oven batches add elapsed time. Six portions remain the current yield, not the publisher’s eight.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-6",
+      "field": "totalTime",
+      "rationale": "Plan 30–50 minutes depending on chopping and how long the vegetables need. Skillet finish 7–14 minutes follows vegetable cooking; casserole 20–25 minutes and mini 13–17 minutes follow cooking and brief vegetable cooling. Additional oven batches add elapsed time. Six portions remain the current yield, not the publisher’s eight.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-7",
+      "field": "ingredients",
+      "rationale": "Native/045e5ba2 and current publisher agree on 12 eggs,3 tbsp full-fatdairy,1 cup/4ozcheese,3–5cupsrawvegetables and 1tbspoil. Native preserved three alternate methods; current had removed baked variants. Restore both with original pan/cup geometry and ranges, add only genuine separate pan-greasing allowance. Restore publisher 7–14 minute range instead of hard 7–10cutoff; preserve current six portions. Do not claim centuries-old origin or universal custardy guarantee. Reduced batches require geometry judgment, not numeric pan invention.",
+      "confidence": "high for exact retained totals and supported optional allowance",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "EG-8",
+      "field": "nutrition",
+      "rationale": "Unsupported legacy estimates withheld; no manufactured replacement.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "EG-9",
+      "field": "learning",
+      "rationale": "Recipe-specific complete teaching and applicability; no kitchen-tested claim.",
+      "confidence": "editorial",
+      "applicableSources": [
+        {
+          "title": "Adapted from cookieandkate.com",
+          "url": "https://cookieandkate.com/best-frittata-recipe/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/how-to-make-frittatas-stovetop-or-baked.md",
+    "introductionScope": "Verified retained earlier canonical cooking text; not a claim that this is the oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Modern publisher differences and exact saved/current formula choices are independently documented; publisher changes do not silently replace the retained recipe.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Native/045e5ba2 and current publisher agree on 12 eggs,3 tbsp full-fatdairy,1 cup/4ozcheese,3–5cupsrawvegetables and 1tbspoil. Native preserved three alternate methods; current had removed baked variants. Restore both with original pan/cup geometry and ranges, add only genuine separate pan-greasing allowance. Restore publisher 7–14 minute range instead of hard 7–10cutoff; preserve current six portions. Do not claim centuries-old origin or universal custardy guarantee. Reduced batches require geometry judgment, not numeric pan invention.",
+  "ledger": {
+    "final": [
+      {
+        "ingredient": "12 large Eggs",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "destination": 1,
+        "allocation": "1/2step1;1/2top in chosen alternate method"
+      },
+      {
+        "ingredient": "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 tsp Sea Salt",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "destination": 7,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants",
+        "destination": "5 or6, chosen method only"
+      }
+    ],
+    "frozen": [
+      {
+        "ingredient": "12 large Eggs",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "destination": 1,
+        "allocation": "1/2step1;1/2top in chosen alternate method"
+      },
+      {
+        "ingredient": "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 tsp Sea Salt",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "destination": 7,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants",
+        "destination": "5 or6, chosen method only"
+      }
+    ],
+    "preparationAndAllocation": [
+      "Eggs/dairy/salt whole1; halfcheese1 plushalfchosen4/5/6; chooseonlyonemethod, no tripleallocation.",
+      "Raw vegetables3–5cups whole2; measuredoliveoil whole2; no automaticadditional sautéoil.",
+      "Alternatecasserole/mini separatepanfat allowance5or6; freshherbsallfinish7."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Choose the method and blend: Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature."
+    },
+    {
+      "step": 2,
+      "text": "Cook the vegetables: Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix."
+    },
+    {
+      "step": 3,
+      "text": "Set the skillet edges: For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables."
+    },
+    {
+      "step": 4,
+      "text": "Finish the skillet: Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top."
+    },
+    {
+      "step": 5,
+      "text": "Baked casserole variant: For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth."
+    },
+    {
+      "step": 6,
+      "text": "Baked mini variant: Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches."
+    },
+    {
+      "step": 7,
+      "text": "Finish: Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Fresh 3–5 cups vegetables",
+      "alternative": "Up to 3 cups cooked leftover vegetables for a 12-egg batch; scale with the selected egg amount",
+      "effect": "Warm through and evaporate any liquid; use the cooked amount in place of the raw-vegetable amount."
+    },
+    {
+      "ingredient": "Heavy cream or crème fraîche",
+      "alternative": "The same-volume whole milk, half-and-half, sour cream or yogurt options",
+      "effect": "Change richness, acidity and texture; keep the listed dairy volume."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": ["frittata-brunch.md"],
+    "outgoingPairings": ["everyday-arugula-salad", "garlic-bread"],
+    "scope": "No linked meal or recipe endorsed; all alternate methods remain one formula."
+  },
+  "ratiosYieldAndCapacity": {
+    "measuredIngredients": [
+      "12 large Eggs",
+      "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+      "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+      "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+      "1 tbsp Extra-Virgin Olive Oil",
+      "1/2 tsp Sea Salt",
+      "Fresh Herbs (Basil, Chives, or Cilantro)",
+      "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+    ],
+    "planningYield": "6",
+    "geometryAndCapacity": [
+      "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+      "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+      "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+    ],
+    "processAndTiming": "Plan 30–50 minutes depending on chopping and how long the vegetables need. Skillet finish 7–14 minutes follows vegetable cooking; casserole 20–25 minutes and mini 13–17 minutes follow cooking and brief vegetable cooling. Additional oven batches add elapsed time. The full original batch is planned as six portions.",
+    "measurementLimit": "Source/current planning yield; actual edible output, pan capacity and sensory outcomes are unmeasured."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3 large Eggs",
+        "3/4 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1/4 cup (1 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "3/4–1 1/4 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1/4 tbsp Extra-Virgin Olive Oil",
+        "1/8 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 1 1/2",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "6 large Eggs",
+        "1 1/2 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1/2 cup (2 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "1 1/2–2 1/2 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1/2 tbsp Extra-Virgin Olive Oil",
+        "1/4 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 3",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "12 large Eggs",
+        "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1/2 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 6",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "18 large Eggs",
+        "4 1/2 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1 1/2 cups (6 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "4 1/2–7 1/2 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1 1/2 tbsp Extra-Virgin Olive Oil",
+        "3/4 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 9",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "24 large Eggs",
+        "6 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "2 cups (8 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "6–10 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "1 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 12",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "36 large Eggs",
+        "9 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "3 cups (12 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "9–15 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "1 1/2 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 18",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "12 large Eggs",
+        "3 tbsp Heavy Cream or Crème Fraîche (for richness)",
+        "1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)",
+        "3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1/2 tsp Sea Salt",
+        "Fresh Herbs (Basil, Chives, or Cilantro)",
+        "Butter or oil, as needed to grease the casserole dish or muffin cups for baked variants"
+      ],
+      "yield": "Serves 6",
+      "methods": "\n## Chef's Note\n\nCook the vegetables until tender and let excess moisture evaporate before adding eggs; spinach and zucchini contribute different amounts of water. Whisk the eggs just until blended, then finish gently enough to keep the center tender. The skillet method starts the edges on the stove; the casserole and muffin versions begin with cooked vegetables and bake at 350 °F.\n\n## Directions\n\n1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.\n\n2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.\n\n3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.\n\n4. **Finish the skillet:** Sprinkle the reserved half of the cheese over the eggs and transfer carefully to the 425 °F oven. Bake about 7–14 minutes as a first range, until puffed and opaque, with a center that is gently set rather than liquid and reaches 160 °F / 71 °C. Check without touching the skillet. Remove as soon as the endpoint is reached; do not chase a deeply browned top.\n\n5. **Baked casserole variant:** For the original batch, grease a 9-by 13-inch baking dish with the separate butter or oil allowance. Let the cooked vegetables cool briefly, stir them into the eggs, pour into the dish and add the reserved cheese. Bake at 350 °F for about 20–25 minutes as a first range, until the center is set and reaches 160 °F / 71 °C. Check earlier or continue as needed for the actual depth.\n\n6. **Baked mini variant:** Instead of a casserole, grease standard muffin cups with the separate butter or oil allowance. Briefly cool the cooked vegetables and stir them into the eggs. The original batch fills about 18 cups with a scant 1/3 cup mixture each; scaled batches need more or fewer standard cups at the same depth. Add reserved cheese and bake at 350 °F for about 13–17 minutes as a first range, until centers are set and reach 160 °F / 71 °C. Check partially filled tins early and allow oven space or extra batches.\n\n7. **Finish:** Let settle briefly, garnish with the fresh herbs and serve. The full original batch makes six portions; apportion a different batch size accordingly. The methods are alternatives using one batch of eggs, vegetables and cheese. Serve promptly; refrigerate leftovers within 2 hours, or 1 hour above 90 °F, and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Choose one method; the three methods use the same batch, not three sets of filling. Match original geometry:12-inch skillet, 9-by 13-inch casserole or about 18 standard muffin cups.",
+        "At the original 12-egg batch, 3–5 cups describes the vegetables before cooking, not the volume of cooked spinach. For a batch with 12 eggs, the cooked-vegetable option uses up to 3 cups; scale that amount with the eggs and warm the vegetables through in the measured oil.",
+        "For multiples use separate original-size pans. A reduced skillet batch needs an appropriately smaller oven-safe skillet and earlier checks; do not enlarge layer depth and assume the same clock."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "No existing measured ingredient, source link or supported current adaptation removed."
+  ],
+  "remainingQuestions": [
+    "Measure cooked yield and moisture for actual spinach/zucchini/pepper mix.",
+    "Record six portions versus native/publisher eight and whether 18 standard muffin cups fits the actual mixture.",
+    "Compare three methods at 160 °F and actual elapsed time; evaluate cold leftovers before assuming freezer quality."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

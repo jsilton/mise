@@ -1,0 +1,711 @@
+{
+  "slug": "crustless-sausage-and-spinach-quiche",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "2a1bbd4b6be1070e09dfa7e3fdda8a1f1a5d0776b5601796594f55b78975eede",
+  "acceptedSourceSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "About 45–55 min (skillet and oven)"
+    },
+    {
+      "field": "totalTime",
+      "before": "55 min",
+      "after": "About 65–75 min (includes 5 min rest)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 links Italian Chicken Sausage, casings removed",
+        "12 oz Fresh Baby Spinach",
+        "5 large Eggs",
+        "2/3 cup 2% Milk",
+        "1/4 cup Half & Half",
+        "1 cup Sharp Cheddar (or Havarti), freshly grated",
+        "1/4 cup Freshly Grated Parmesan",
+        "3/4 tsp Sea Salt",
+        "1/8 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "after": [
+        "8.5 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "12 oz Fresh Baby Spinach",
+        "5 large Eggs",
+        "2/3 cup 2% Milk",
+        "1/4 cup Half & Half",
+        "1 cup Sharp Cheddar (or Havarti), freshly grated",
+        "1/4 cup Freshly Grated Parmesan",
+        "3/4 tsp kosher salt",
+        "1/8 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 360,
+        "protein": 24,
+        "carbs": 8,
+        "fat": 26.5,
+        "fiber": 1.5,
+        "sugar": 4.5,
+        "sodium": 1740
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Drain cooked spinach and measure sausage before a custard bake",
+        "outcome": "Fully cooked crumbled sausage and wilted spinach sit in set custard without excess water collecting beneath the slices.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+          "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+          "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Small sausage crumbles are cooked through and measure 165 °F.",
+            "why": "Raw chicken sausage requires the poultry endpoint even when browned."
+          },
+          {
+            "step": 3,
+            "cue": "Spinach is wilted and excess water drains through the sieve.",
+            "why": "Draining water protects custard texture without imposing a fat-removal rule."
+          },
+          {
+            "step": 7,
+            "cue": "Center is set and measures 165 °F.",
+            "why": "This chicken-sausage bake uses the higher meat/poultry casserole endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Quiche is watery",
+            "cause": "Spinach liquid entered the custard.",
+            "fix": "Drain cooked greens before assembly. Keep the dairy and cheese quantities rather than removing richness to conceal a draining problem."
+          },
+          {
+            "problem": "Sausage amount varies by package",
+            "cause": "Three links were treated as a fixed weight.",
+            "fix": "Use the listed total sausage weight rather than assuming all links weigh the same."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Italian chicken sausage",
+            "alternative": "Italian turkey sausage in the same listed total weight",
+            "effect": "Raw turkey sausage also requires 165 °F; flavor and fat vary."
+          },
+          {
+            "ingredient": "Sharp cheddar",
+            "alternative": "The listed Havarti option",
+            "effect": "Changes flavor and melting; keep the listed total cheese amount."
+          }
+        ],
+        "timing": "About 15 minutes preparation, roughly 5 minutes sausage cooking plus 7 minutes wilting/draining, 35–40 minutes baking and 5 minutes rest: allow about 65–75 minutes with some preparation overlap. Raw sausage and spinach condition can extend the clock.",
+        "storage": "Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in shallow containers at 40°F / 4°C or below. Use refrigerated portions within 3–4 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion size and starting temperature change the time, so use short intervals and check the center.",
+        "sources": [
+          {
+            "title": "Adapted from skinnytaste.com",
+            "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+          },
+          {
+            "title": "FDA egg cooking, cold holding and reheating",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis French-inspired crustless quiche prevents wateriness by draining spinach thoroughly after wilting it in sausage fat. Press the mixture firmly in a sieve to remove all excess liquid. A pinch of nutmeg enhances savory custard without making it sweet - a classic French technique.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Spray a 9-inch pie dish generously with oil spray.\n2.  **The Sear:** In a large skillet over medium-high heat, cook the sausage meat, breaking it into small crumbles, until browned (5 mins).\n3.  **The Wilt:** Add the spinach to the skillet. Reduce heat to medium and toss until just wilted. **Drain the mixture in a sieve**, pressing firmly to remove all excess liquid.\n4.  **The Custard:** In a medium bowl, whisk together eggs, milk, half & half, salt, pepper, and nutmeg until frothy and well aerated.\n5.  **Assemble:** Spread the dry sausage/spinach mixture in the bottom of the pie dish. Top with the Cheddar and Parmesan.\n6.  **Pour:** Pour the egg mixture over the fillings.\n7.  **Bake:** Bake for 35-40 minutes until the center is set and the edges are slightly golden and puffed.\n8.  **Rest:** Let sit for 5 minutes before slicing into 6 wedges.\n",
+    "after": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n"
+  },
+  "findings": [
+    {
+      "id": "EG-1",
+      "field": "Chef note",
+      "rationale": "Native original,045e5ba2 and current publisher all specify 8.5 oz total across three links and 3/4 tsp kosher salt. e5567b7c automatic refinement removed the weight and substituted sea salt without evidence; later history shows metadata/prose changes, not an accepted salt adaptation. Restore exact saved identities/amounts without converting densities or inferring grams. All milk, half-and-half, current full-fat cheeses and nutmeg remain unchanged. Current 9-inch geometry stays with a depth question; native publisher only says pie dish.",
+      "confidence": "high for provenance corrections; sensory outcome untested",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-2",
+      "field": "Directions",
+      "rationale": "Complete recipe-specific ingredient destinations, state, capacity, endpoint and elapsed-time correction; see individual source disagreement.",
+      "confidence": "high for ingredient tracking and applicable safety; moderate for planning ranges",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-3",
+      "field": "cookTime",
+      "rationale": "About 15 minutes preparation, roughly 5 minutes sausage cooking plus 7 minutes wilting/draining,35–40 minutes baking and 5 minutes rest: allow about 65–75 minutes with some preparation overlap. Raw sausage and spinach condition can extend the clock.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-4",
+      "field": "totalTime",
+      "rationale": "About 15 minutes preparation, roughly 5 minutes sausage cooking plus 7 minutes wilting/draining,35–40 minutes baking and 5 minutes rest: allow about 65–75 minutes with some preparation overlap. Raw sausage and spinach condition can extend the clock.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-5",
+      "field": "ingredients",
+      "rationale": "Native original,045e5ba2 and current publisher all specify 8.5 oz total across three links and 3/4 tsp kosher salt. e5567b7c automatic refinement removed the weight and substituted sea salt without evidence; later history shows metadata/prose changes, not an accepted salt adaptation. Restore exact saved identities/amounts without converting densities or inferring grams. All milk, half-and-half, current full-fat cheeses and nutmeg remain unchanged. Current 9-inch geometry stays with a depth question; native publisher only says pie dish.",
+      "confidence": "high for exact retained totals and supported optional allowance",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "EG-6",
+      "field": "nutrition",
+      "rationale": "Unsupported legacy estimates withheld; no manufactured replacement.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "EG-7",
+      "field": "learning",
+      "rationale": "Recipe-specific complete teaching and applicability; no kitchen-tested claim.",
+      "confidence": "editorial",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/crustless-sausage-and-spinach-quiche.md",
+    "introductionScope": "Verified retained earlier canonical cooking text; not a claim that this is the oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Modern publisher differences and exact saved/current formula choices are independently documented; publisher changes do not silently replace the retained recipe.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Native original,045e5ba2 and current publisher all specify 8.5 oz total across three links and 3/4 tsp kosher salt. e5567b7c automatic refinement removed the weight and substituted sea salt without evidence; later history shows metadata/prose changes, not an accepted salt adaptation. Restore exact saved identities/amounts without converting densities or inferring grams. All milk, half-and-half, current full-fat cheeses and nutmeg remain unchanged. Current 9-inch geometry stays with a depth question; native publisher only says pie dish.",
+  "ledger": {
+    "final": [
+      {
+        "ingredient": "8.5 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "12 oz Fresh Baby Spinach",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "5 large Eggs",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "2/3 cup 2% Milk",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 cup Half & Half",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup Sharp Cheddar (or Havarti), freshly grated",
+        "destination": 5,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 cup Freshly Grated Parmesan",
+        "destination": 5,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3/4 tsp kosher salt",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/8 tsp Black Pepper",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Pinch of Freshly Grated Nutmeg",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Cooking spray",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      }
+    ],
+    "frozen": [
+      {
+        "ingredient": "3 links Italian Chicken Sausage, casings removed",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "12 oz Fresh Baby Spinach",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "5 large Eggs",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "2/3 cup 2% Milk",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 cup Half & Half",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup Sharp Cheddar (or Havarti), freshly grated",
+        "destination": 5,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 cup Freshly Grated Parmesan",
+        "destination": 5,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3/4 tsp Sea Salt",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/8 tsp Black Pepper",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Pinch of Freshly Grated Nutmeg",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Cooking spray",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      }
+    ],
+    "preparationAndAllocation": [
+      "Sausage actual8.5ozwhole2; spinachwhole3; all cooked/drainedmixture5.",
+      "Eggs,milk,halfandhalf,salt,pepper,nutmeg all4 then6; cheddar/Havarti andParmesanall5.",
+      "Sprayseparateallowance1; no divided measuredquantity or discardedfat requirement."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prep: Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach."
+    },
+    {
+      "step": 2,
+      "text": "Cook the sausage: Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint."
+    },
+    {
+      "step": 3,
+      "text": "Wilt and drain: Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat."
+    },
+    {
+      "step": 4,
+      "text": "The Custard: Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam."
+    },
+    {
+      "step": 5,
+      "text": "Assemble: Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it."
+    },
+    {
+      "step": 6,
+      "text": "Pour: Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks."
+    },
+    {
+      "step": 7,
+      "text": "Bake: Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color."
+    },
+    {
+      "step": 8,
+      "text": "Rest: Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Italian chicken sausage",
+      "alternative": "Italian turkey sausage in the same listed total weight",
+      "effect": "Raw turkey sausage also requires 165 °F; flavor and fat vary."
+    },
+    {
+      "ingredient": "Sharp cheddar",
+      "alternative": "The listed Havarti option",
+      "effect": "Changes flavor and melting; keep the listed total cheese amount."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "outgoingPairings": [
+      "sweet-and-white-potato-gratin",
+      "tarragon-potatoes",
+      "everyday-arugula-salad"
+    ],
+    "scope": "No linked meal or recipe endorsed; all alternate methods remain one formula."
+  },
+  "ratiosYieldAndCapacity": {
+    "measuredIngredients": [
+      "8.5 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+      "12 oz Fresh Baby Spinach",
+      "5 large Eggs",
+      "2/3 cup 2% Milk",
+      "1/4 cup Half & Half",
+      "1 cup Sharp Cheddar (or Havarti), freshly grated",
+      "1/4 cup Freshly Grated Parmesan",
+      "3/4 tsp kosher salt",
+      "1/8 tsp Black Pepper",
+      "Pinch of Freshly Grated Nutmeg",
+      "Cooking spray"
+    ],
+    "planningYield": "6",
+    "geometryAndCapacity": [
+      "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+      "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+      "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+    ],
+    "processAndTiming": "About 15 minutes preparation, roughly 5 minutes sausage cooking plus 7 minutes wilting/draining, 35–40 minutes baking and 5 minutes rest: allow about 65–75 minutes with some preparation overlap. Raw sausage and spinach condition can extend the clock.",
+    "measurementLimit": "Source/current planning yield; actual edible output, pan capacity and sensory outcomes are unmeasured."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 1/8 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "3 oz Fresh Baby Spinach",
+        "1 1/4 large Eggs",
+        "1/6 cup 2% Milk",
+        "0.0625 cup Half & Half",
+        "1/4 cup Sharp Cheddar (or Havarti), freshly grated",
+        "0.0625 cup Freshly Grated Parmesan",
+        "0.19 tsp kosher salt",
+        "0.0313 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 1 1/2",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/4 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "6 oz Fresh Baby Spinach",
+        "2 1/2 large Eggs",
+        "1/3 cup 2% Milk",
+        "1/8 cup Half & Half",
+        "1/2 cup Sharp Cheddar (or Havarti), freshly grated",
+        "1/8 cup Freshly Grated Parmesan",
+        "3/8 tsp kosher salt",
+        "0.0625 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 3",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8.5 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "12 oz Fresh Baby Spinach",
+        "5 large Eggs",
+        "2/3 cup 2% Milk",
+        "1/4 cup Half & Half",
+        "1 cup Sharp Cheddar (or Havarti), freshly grated",
+        "1/4 cup Freshly Grated Parmesan",
+        "3/4 tsp kosher salt",
+        "1/8 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 6",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 3/4 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "18 oz Fresh Baby Spinach",
+        "7 1/2 large Eggs",
+        "1 cup 2% Milk",
+        "3/8 cup Half & Half",
+        "1 1/2 cups Sharp Cheddar (or Havarti), freshly grated",
+        "3/8 cup Freshly Grated Parmesan",
+        "1 1/8 tsp kosher salt",
+        "0.19 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 9",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "17 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "24 oz Fresh Baby Spinach",
+        "10 large Eggs",
+        "1 1/3 cups 2% Milk",
+        "1/2 cup Half & Half",
+        "2 cups Sharp Cheddar (or Havarti), freshly grated",
+        "1/2 cup Freshly Grated Parmesan",
+        "1 1/2 tsp kosher salt",
+        "1/4 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 12",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "25 1/2 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "36 oz Fresh Baby Spinach",
+        "15 large Eggs",
+        "2 cups 2% Milk",
+        "3/4 cup Half & Half",
+        "3 cups Sharp Cheddar (or Havarti), freshly grated",
+        "3/4 cup Freshly Grated Parmesan",
+        "2 1/4 tsp kosher salt",
+        "3/8 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 18",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8.5 oz raw Italian chicken sausage, casings removed (3 links in the original batch)",
+        "12 oz Fresh Baby Spinach",
+        "5 large Eggs",
+        "2/3 cup 2% Milk",
+        "1/4 cup Half & Half",
+        "1 cup Sharp Cheddar (or Havarti), freshly grated",
+        "1/4 cup Freshly Grated Parmesan",
+        "3/4 tsp kosher salt",
+        "1/8 tsp Black Pepper",
+        "Pinch of Freshly Grated Nutmeg",
+        "Cooking spray"
+      ],
+      "yield": "Serves 6",
+      "methods": "\n## Chef's Note\n\nWilt spinach with the cooked sausage, then drain the released water before adding the custard. Nutmeg seasons the milk and eggs without turning the filling sweet. Use the listed total sausage weight; links vary in size between packages.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F and generously spray the 9-inch pie dish. Use the listed total sausage weight. Link sizes vary; the three-link note describes the original 8.5 oz batch. Have a sieve ready for the cooked spinach.\n\n2. **Cook the sausage:** Cook the raw chicken sausage in a large skillet over medium heat, breaking it into small crumbles, until cooked through and reaching 165 °F / 74 °C. About 5 minutes is a first estimate, not a guarantee; browning alone does not establish the endpoint.\n\n3. **Wilt and drain:** Add the spinach in manageable handfuls, reduce heat to low and cook, stirring occasionally, until fully wilted, about 7 minutes. Drain the sausage-spinach mixture in a sieve and press gently to release excess water; do not treat this as a requirement to strip away every bit of fat.\n\n4. **The Custard:** Whisk the eggs, milk, half-and-half, measured kosher salt, pepper and nutmeg until smoothly blended without separate egg-white streaks. Do not whip to a thick foam.\n\n5. **Assemble:** Spread the drained sausage and spinach in the prepared dish and distribute all the cheddar or Havarti and Parmesan over it.\n\n6. **Pour:** Pour the custard over the filling, leaving space below the rim. Nine-inch dishes vary in depth; do not force an enlarged batch into this dish. For multiples, use separate original-size dishes; reduced batches need an appropriately smaller dish and earlier center checks.\n\n7. **Bake:** Bake about 35–40 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the dish. Edges may be lightly golden and puffed. Continue if the center has not reached the endpoint rather than relying on color.\n\n8. **Rest:** Rest 5 minutes before slicing. The full original batch makes six wedges; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Measure the listed total sausage weight rather than relying on the link count; links vary in size.",
+        "Use the listed kosher salt. Crystal density varies between brands, so taste the finished dish before adding extra seasoning.",
+        "Use the original 9-inch dish and inspect its depth; doubling needs separate dishes, not a deeper layer."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "No existing measured ingredient, source link or supported current adaptation removed."
+  ],
+  "remainingQuestions": [
+    "Record actual kosher salt brand/crystal and sensory result without inventing a gram conversion.",
+    "Record sausage package weight/link count, pie-dish depth and final custard capacity.",
+    "Measure skillet, bake and rest elapsed times and slice texture at 165 °F."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,1366 @@
+{
+  "slug": "shrimp-with-black-bean-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "3f668c3c76d1d3db2df025df250c8a5ba099e16adce5a000a941c95319f10396",
+  "acceptedSourceSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "About 20 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–15 min after blanching water is hot"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 30–40 min; water heating may add time"
+    },
+    {
+      "field": "servings",
+      "before": "2",
+      "after": "2 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 oz Shrimp (21/25 size)",
+        "4 oz Ground Pork",
+        "2 tbsp Vegetable Oil",
+        "1 clove Garlic, minced",
+        "1/4 tsp Fresh Ginger, minced",
+        "2 tbsp Cold Water, for the slurry",
+        "Water, for blanching the pork",
+        "1 1/2 tbsp Fermented Black Beans (Douchi)",
+        "1 1/2 cups Chicken Stock (hot)",
+        "1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce",
+        "1 tbsp Shaoxing Wine",
+        "1/2 tsp Toasted Sesame Oil",
+        "1 large Egg, beaten (The Egg Ribbon Method)",
+        "2 1/2 tbsp Cornstarch, for the slurry",
+        "1/4 cup Green Bell Pepper, diced",
+        "1 Scallion, chopped"
+      ],
+      "after": [
+        "--- Shrimp and pork ---",
+        "12 oz shrimp, raw, peeled and deveined, 21/25 size",
+        "4 oz ground pork",
+        "water, enough to cover pork for blanching",
+        "2 tbsp vegetable oil",
+        "1 garlic clove, minced",
+        "1/4 tsp fresh ginger, minced",
+        "1 1/2 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed slightly",
+        "1/4 cup green bell pepper, finely diced",
+        "1 tbsp Shaoxing wine",
+        "--- Stock mixture ---",
+        "1 1/2 cups chicken stock, hot",
+        "1 tbsp oyster sauce",
+        "1 tsp dark soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp sugar",
+        "1/8 tsp white pepper",
+        "--- Slurry ---",
+        "2 1/2 tbsp cornstarch",
+        "2 tbsp cold water",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "--- Egg and scallion ---",
+        "1 large egg, beaten",
+        "1 scallion, washed and chopped"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 770,
+        "protein": 90,
+        "carbs": 46.5,
+        "fat": 27,
+        "fiber": 8.5,
+        "sugar": 3.5,
+        "sodium": 2830
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 2,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "base",
+            "name": "Shrimp and pork",
+            "ingredients": [
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "shrimp",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw, peeled and deveined, 21/25 size"
+              },
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "ground pork",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "blanch",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "blanch-water",
+                "key": "blanch-water",
+                "name": "water",
+                "allowance": "enough to cover pork for blanching",
+                "uses": [
+                  {
+                    "step": "blanch",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "fermented black beans (douchi)",
+                "quantity": {
+                  "amount": "3/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "preparation": "quickly rinsed, drained and mashed slightly"
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "green bell pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely diced"
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "Shaoxing wine",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Stock mixture",
+            "ingredients": [
+              {
+                "id": "stock",
+                "key": "stock",
+                "name": "chicken stock",
+                "quantity": {
+                  "amount": "3/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "preparation": "hot"
+              },
+              {
+                "id": "oyster",
+                "key": "oyster",
+                "name": "oyster sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dark",
+                "key": "dark",
+                "name": "dark soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "white-pepper",
+                "key": "white-pepper",
+                "name": "white pepper",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "slurry",
+            "name": "Slurry",
+            "ingredients": [
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": "5/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "bind",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "cold water",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "bind",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "extra",
+                "key": "extra",
+                "name": "additional water or chicken stock",
+                "allowance": "a little at a time only if needed to loosen sauce",
+                "uses": [
+                  {
+                    "step": "bind",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Egg and scallion",
+            "ingredients": [
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "beaten"
+              },
+              {
+                "id": "scallion",
+                "key": "scallion",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "washed and chopped"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Rinse the black beans and mash slightly. Whisk {{ingredients}}. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture."
+          },
+          {
+            "id": "blanch",
+            "title": "Blanch pork",
+            "text": "Prepare {{ingredients}}. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil."
+          },
+          {
+            "id": "sear",
+            "title": "Cook aromatics and start shrimp",
+            "text": "Use {{ingredients}}: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness."
+          },
+          {
+            "id": "simmer",
+            "title": "Heat stock mixture",
+            "text": "Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer."
+          },
+          {
+            "id": "bind",
+            "title": "Thicken gradually",
+            "text": "Use {{ingredients}}. Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking."
+          },
+          {
+            "id": "egg",
+            "title": "Set egg ribbons",
+            "text": "Keep the sauce at a gentle simmer. Pour {{ingredients}} across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Garnish with {{ingredients}} and serve immediately over separately prepared steamed jasmine rice if wanted."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control gradual slurry thickening without shortening pork and egg cooking",
+        "outcome": "Cooked shrimp in a dark spoon-coating gravy with set egg ribbons.",
+        "techniques": ["starch", "gentle-proteins"],
+        "before": [
+          "Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.",
+          "Keep stock mixture and measured slurry in separate bowls; re-stir slurry immediately before use.",
+          "Scale all sauce amounts together; use adequate pan working space or complete separate loads. Beat a fractional egg before measuring its portion."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Pork is broken into small crumbles and moves directly to further cooking.",
+            "why": "The one-minute blanch is not a final safety endpoint."
+          },
+          {
+            "step": 5,
+            "cue": "Hot sauce coats a spoon before the entire slurry is necessarily added.",
+            "why": "The measured maximum slurry may thicken more than wanted."
+          },
+          {
+            "step": 6,
+            "cue": "The pork and egg sauce has reached 160°F, and the shrimp centers are pearly and opaque.",
+            "why": "Ten seconds or pink outer shrimp alone cannot replace these checks."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce gets too thick",
+            "cause": "The full slurry was added faster than its effect could be judged.",
+            "fix": "Add the listed optional water or stock a little at a time; next time stop adding slurry at spoon-coating consistency."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fermented black beans",
+            "alternative": "Use whole douchi as listed, rather than a measured-equal jarred black-bean sauce",
+            "effect": "Jarred sauce changes salt, liquid and aromatics; no equal-volume replacement is established."
+          }
+        ],
+        "timing": "About 20 min active preparation; About 10–15 min after blanching water is hot; About 30–40 min; water heating may add time. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.",
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F / 74°C throughout. USDA additionally recommends bringing leftover sauces and gravies to a rolling boil; stir so heat reaches the whole gravy and stop after that brief boil rather than reducing it for a long time. Prolonged boiling can concentrate the gravy and firm the shrimp and egg ribbons. These are handling recommendations, not a promise of unchanged texture.",
+        "sources": [
+          {
+            "title": "Adapted from thewoksoflife.com",
+            "url": "https://thewoksoflife.com/shrimp-black-bean-sauce/"
+          },
+          {
+            "title": "FDA — Selecting and serving seafood safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Cantonese dish builds flavor from fermented black beans (douchi), which provide a pungent, earthy base when fried with ground pork. Drizzling beaten egg across the surface of the hot sauce and letting it set before folding creates the characteristic silky ribbons found in classic lobster-style sauces popular in Chinese-American restaurants.\n\n## Directions\n\n1.  **Prep:** Rinse black beans and mash slightly. Whisk stock, oyster sauce, soy sauce, and sesame oil. Separately stir the cornstarch with the measured cold water until smooth.\n2.  **The Render:** Bring enough water to cover the pork to a boil in the wok. Add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.\n3.  **The Sear:** Heat 2 tbsp oil. Sauté garlic, ginger, peppers, black beans, and the blanched pork for 30 seconds. Add shrimp and Shaoxing wine. Stir-fry for 30 seconds.\n4.  **Simmer:** Pour in the stock mixture. Bring to a rapid boil.\n5.  **Bind:** Re-stir the slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed.\n6.  **The Ribbon:** Keep the sauce at a gentle simmer. Pour the egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.\n7.  **Serve:** Garnish with scallions and serve immediately over steamed jasmine rice.\n\n## Sources\n\n- [Source comparison for ingredient and method corrections](https://thewoksoflife.com/shrimp-black-bean-sauce/). This version retains other existing adaptations; it has not been kitchen-tested.\n- [FoodSafety.gov minimum cooking guidance](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures).\n",
+    "after": "\n## Chef's Note\n\nFermented black beans season this dark gravy, which also contains ground pork and egg ribbons. Blanching the pork is a preliminary preparation step; it still cooks in the sauce. Re-stir the measured slurry and add it gradually, then let egg ribbons set before folding gently.\n\n## Directions\n\n1. **Prepare:** Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.\n2. **Blanch pork:** Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.\n3. **Cook aromatics and start shrimp:** Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.\n4. **Heat stock mixture:** Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.\n5. **Thicken gradually:** Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.\n6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.\n7. **Serve:** Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted.\n"
+  },
+  "findings": [
+    {
+      "id": "SH-1",
+      "title": "formula/allocation/source decisions",
+      "rationale": "FirstGit045e5ba2 and actualWoksBill publisher include¼tsp sugar/⅛tspwhitepepper. eab6 bulkrewrite dropped them along with garlic/ginger/oil/slurrywater. Later ee9c restored four omittedmeasurements/safeprocess and explicitly retained otheradaptations, but no individual sugar/pepper decision is established in laterwholehistory. Propose exact source restoration of these two with all current richer stock/pork/egg quantities intact; independent/root decision required. ee9c blanch-notfinal, drywok, gradualslurry,160°Fpork/egg and pearlyopaque shrimp remain. Originalsource ten-second egg instruction is insufficient alone and not reinstated. Low-sodium stock optional sourceproperty notnew mandatory quantity. Remove public Sources editorialdisclaimer into private record only.",
+      "confidence": "high for quantities and recorded diff; household intent not inferred from persistence",
+      "applicableSources": [
+        {
+          "title": "Recipe-specific source and mechanism",
+          "reference": [
+            "evidence/shrimp-with-black-bean-sauce-first-git.md",
+            "evidence/shrimp-with-black-bean-sauce-history.diff",
+            {
+              "title": "Adapted from thewoksoflife.com",
+              "url": "https://thewoksoflife.com/shrimp-black-bean-sauce/"
+            }
+          ],
+          "applicability": "Exact saved formula/history supports only the stated ingredient or variant decisions; publisher prestige is not acceptance."
+        }
+      ],
+      "sourceApplicability": "Exact saved formula/history supports only the stated ingredient or variant decisions; publisher prestige is not acceptance.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Challenge proposed exact sugar/pepper restoration against any household decision not in Git.",
+        "Check actual slurry use and160°F sauce/ribbon texture.",
+        "Measure twoportion claim and rice service separately."
+      ]
+    },
+    {
+      "id": "SH-2",
+      "title": "whole process/endpoints/time/scaling",
+      "rationale": "Follow every ingredient through preparation, allocation and heat; replace fixed clocks/color-only endpoints with applicable cooking checks. Preserve quantities and recipe-specific routes.",
+      "confidence": "high for applicable safety guidance; moderate for untested timing/texture",
+      "applicableSources": [
+        {
+          "title": "Recipe-specific source and mechanism",
+          "reference": [
+            {
+              "title": "FDA — Selecting and serving seafood safely",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+            },
+            {
+              "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+              "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+            }
+          ],
+          "applicability": "Ground pork and egg dishes160°F; shrimp firm/pearly/opaque centers. Not a poultry165°F or universal casserole rule."
+        }
+      ],
+      "sourceApplicability": "Ground pork and egg dishes160°F; shrimp firm/pearly/opaque centers. Not a poultry165°F or universal casserole rule.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Challenge proposed exact sugar/pepper restoration against any household decision not in Git.",
+        "Check actual slurry use and160°F sauce/ribbon texture.",
+        "Measure twoportion claim and rice service separately."
+      ]
+    },
+    {
+      "id": "SH-3",
+      "title": "nutrition",
+      "rationale": "Legacy estimated nutrition removed because ingredient formula/allowances or source interpretation changes; no replacement invented.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Recipe-specific source and mechanism",
+          "reference": ["docs/RECIPE_STANDARD.md"]
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/shrimp-with-black-bean-sauce.md",
+    "introductionScope": "Verified retained earlier canonical cooking text with complete followed history; native binding separately checked",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific actual publisher comparisons, unavailable fetches and retained current adaptations are distinguished in the full frozen source packet.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "FirstGit045e5ba2 and actualWoksBill publisher include¼tsp sugar/⅛tspwhitepepper. eab6 bulkrewrite dropped them along with garlic/ginger/oil/slurrywater. Later ee9c restored four omittedmeasurements/safeprocess and explicitly retained otheradaptations, but no individual sugar/pepper decision is established in laterwholehistory. Propose exact source restoration of these two with all current richer stock/pork/egg quantities intact; independent/root decision required. ee9c blanch-notfinal, drywok, gradualslurry,160°Fpork/egg and pearlyopaque shrimp remain. Originalsource ten-second egg instruction is insufficient alone and not reinstated. Low-sodium stock optional sourceproperty notnew mandatory quantity. Remove public Sources editorialdisclaimer into private record only.",
+    "Root subsequently reproduced one exact original450 binding against the existing private registry from durable Git; the earlier packet’s Git-only certification limit remains historical. Exact native cooking evidence was read and corroborates these formula choices."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "12 oz Shrimp (21/25 size)",
+        "preparationAndDestination": "shrimp3→4→6"
+      },
+      {
+        "ingredient": "4 oz Ground Pork",
+        "preparationAndDestination": "porkblanch2→sear3→egg6"
+      },
+      {
+        "ingredient": "2 tbsp Vegetable Oil",
+        "preparationAndDestination": "oil3"
+      },
+      {
+        "ingredient": "1 clove Garlic, minced",
+        "preparationAndDestination": "mincedgarlic3"
+      },
+      {
+        "ingredient": "1/4 tsp Fresh Ginger, minced",
+        "preparationAndDestination": "mincedginger3"
+      },
+      {
+        "ingredient": "2 tbsp Cold Water, for the slurry",
+        "preparationAndDestination": "coldslurrywaterprep1→bind5"
+      },
+      {
+        "ingredient": "Water, for blanching the pork",
+        "preparationAndDestination": "blanchingwater2discarded"
+      },
+      {
+        "ingredient": "1 1/2 tbsp Fermented Black Beans (Douchi)",
+        "preparationAndDestination": "douchirinsedprep1→sear3"
+      },
+      {
+        "ingredient": "1 1/2 cups Chicken Stock (hot)",
+        "preparationAndDestination": "hotstockprep1→simmer4"
+      },
+      {
+        "ingredient": "1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce",
+        "preparationAndDestination": "oyster+darksoyprep1→simmer4"
+      },
+      {
+        "ingredient": "1 tbsp Shaoxing Wine",
+        "preparationAndDestination": "Shaoxingwine3"
+      },
+      {
+        "ingredient": "1/2 tsp Toasted Sesame Oil",
+        "preparationAndDestination": "sesameoilprep1→simmer4"
+      },
+      {
+        "ingredient": "1 large Egg, beaten (The Egg Ribbon Method)",
+        "preparationAndDestination": "beatenegg6"
+      },
+      {
+        "ingredient": "2 1/2 tbsp Cornstarch, for the slurry",
+        "preparationAndDestination": "cornstarchprep1→bind5;unusedportionpermitted"
+      },
+      {
+        "ingredient": "1/4 cup Green Bell Pepper, diced",
+        "preparationAndDestination": "dicedgreenpepper3"
+      },
+      {
+        "ingredient": "1 Scallion, chopped",
+        "preparationAndDestination": "scalliongarnish7"
+      }
+    ],
+    "current": [
+      {
+        "ref": "base.shrimp",
+        "name": "shrimp",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "raw, peeled and deveined, 21/25 size",
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.pork",
+        "name": "ground pork",
+        "quantity": {
+          "amount": 4,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "blanch",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.blanch-water",
+        "name": "water",
+        "quantity": null,
+        "allowance": "enough to cover pork for blanching",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "blanch",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.oil",
+        "name": "vegetable oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.ginger",
+        "name": "fresh ginger",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.beans",
+        "name": "fermented black beans (douchi)",
+        "quantity": {
+          "amount": "3/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "quickly rinsed, drained and mashed slightly",
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.pepper",
+        "name": "green bell pepper",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "finely diced",
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "base.wine",
+        "name": "Shaoxing wine",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "sauce.stock",
+        "name": "chicken stock",
+        "quantity": {
+          "amount": "3/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "hot",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "sauce.oyster",
+        "name": "oyster sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "sauce.dark",
+        "name": "dark soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "sauce.sesame",
+        "name": "toasted sesame oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "sauce.sugar",
+        "name": "sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "sauce.white-pepper",
+        "name": "white pepper",
+        "quantity": {
+          "amount": "1/8",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "slurry.starch",
+        "name": "cornstarch",
+        "quantity": {
+          "amount": "5/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "bind",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "slurry.water",
+        "name": "cold water",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "bind",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "slurry.extra",
+        "name": "additional water or chicken stock",
+        "quantity": null,
+        "allowance": "a little at a time only if needed to loosen sauce",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "bind",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "finish.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "beaten",
+        "destinations": [
+          {
+            "step": "egg",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ref": "finish.scallion",
+        "name": "scallion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed and chopped",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "water",
+        "allowance": "enough to cover pork for blanching",
+        "destination": [
+          {
+            "step": "blanch",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "additional water or chicken stock",
+        "allowance": "a little at a time only if needed to loosen sauce",
+        "destination": [
+          {
+            "step": "bind",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "separateMealComponents": [
+      "Optional separately prepared rice at service; no measured rice quantity, yield or elapsed time certified."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture."
+    },
+    {
+      "step": 2,
+      "text": "Blanch pork: Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil."
+    },
+    {
+      "step": 3,
+      "text": "Cook aromatics and start shrimp: Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness."
+    },
+    {
+      "step": 4,
+      "text": "Heat stock mixture: Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Thicken gradually: Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking."
+    },
+    {
+      "step": 6,
+      "text": "Set egg ribbons: Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Fermented black beans",
+      "alternative": "Use whole douchi as listed, rather than a measured-equal jarred black-bean sauce",
+      "effect": "Jarred sauce changes salt, liquid and aromatics; no equal-volume replacement is established."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "lo-mein"],
+    "incomingMeals": [],
+    "bodyRecipeLinks": [],
+    "scope": "Separate sides/rice and linked meals require their own complete review; their service time is additional, no status promotion."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "2 portions",
+    "capacity": "Original source planning count retained, not measured yield. Adequate pan working space or separate complete loads; sauce and fat divided across whole batch, no pan dimensions invented.",
+    "richness": "All retained current defining measures preserved; exact source restorations separately documented.",
+    "semanticAllocation": null
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Shrimp and pork ---",
+        "6 oz shrimp, raw, peeled and deveined, 21/25 size",
+        "2 oz ground pork",
+        "water, enough to cover pork for blanching",
+        "1 tbsp vegetable oil",
+        "1/2 garlic clove, minced",
+        "1/8 tsp fresh ginger, minced",
+        "3/4 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed slightly",
+        "1/8 cup green bell pepper, finely diced",
+        "1/2 tbsp Shaoxing wine",
+        "--- Stock mixture ---",
+        "3/4 cup chicken stock, hot",
+        "1/2 tbsp oyster sauce",
+        "1/2 tsp dark soy sauce",
+        "1/4 tsp toasted sesame oil",
+        "1/8 tsp sugar",
+        "0.0625 tsp white pepper",
+        "--- Slurry ---",
+        "1 1/4 tbsp cornstarch",
+        "1 tbsp cold water",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "--- Egg and scallion ---",
+        "1/2 large egg, beaten",
+        "1/2 scallion, washed and chopped"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Prepare:** Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.\n2. **Blanch pork:** Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.\n3. **Cook aromatics and start shrimp:** Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.\n4. **Heat stock mixture:** Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.\n5. **Thicken gradually:** Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.\n6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.\n7. **Serve:** Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted.",
+      "shoppingList": [
+        "6 oz shrimp",
+        "2 oz ground pork",
+        "1 tbsp vegetable oil",
+        "1/2 garlic clove",
+        "1/8 tsp fresh ginger",
+        "3/4 tbsp fermented black beans (douchi)",
+        "1/8 cup green bell pepper",
+        "1/2 tbsp Shaoxing wine",
+        "3/4 cup chicken stock",
+        "1/2 tbsp oyster sauce",
+        "1/2 tsp dark soy sauce",
+        "1/4 tsp toasted sesame oil",
+        "1/8 tsp sugar",
+        "0.0625 tsp white pepper",
+        "1 1/4 tbsp cornstarch",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "1/2 large egg",
+        "1/2 scallion"
+      ],
+      "capacity": "Adequate working space or complete separate pan loads. Divide all oils, ingredients and sauces across loads. Geometry, fixed package size, endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Shrimp and pork ---",
+        "12 oz shrimp, raw, peeled and deveined, 21/25 size",
+        "4 oz ground pork",
+        "water, enough to cover pork for blanching",
+        "2 tbsp vegetable oil",
+        "1 garlic clove, minced",
+        "1/4 tsp fresh ginger, minced",
+        "1 1/2 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed slightly",
+        "1/4 cup green bell pepper, finely diced",
+        "1 tbsp Shaoxing wine",
+        "--- Stock mixture ---",
+        "1 1/2 cups chicken stock, hot",
+        "1 tbsp oyster sauce",
+        "1 tsp dark soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp sugar",
+        "1/8 tsp white pepper",
+        "--- Slurry ---",
+        "2 1/2 tbsp cornstarch",
+        "2 tbsp cold water",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "--- Egg and scallion ---",
+        "1 large egg, beaten",
+        "1 scallion, washed and chopped"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Prepare:** Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.\n2. **Blanch pork:** Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.\n3. **Cook aromatics and start shrimp:** Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.\n4. **Heat stock mixture:** Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.\n5. **Thicken gradually:** Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.\n6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.\n7. **Serve:** Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted.",
+      "shoppingList": [
+        "12 oz shrimp",
+        "4 oz ground pork",
+        "2 tbsp vegetable oil",
+        "1 garlic clove",
+        "1/4 tsp fresh ginger",
+        "1 1/2 tbsp fermented black beans (douchi)",
+        "1/4 cup green bell pepper",
+        "1 tbsp Shaoxing wine",
+        "1 1/2 cups chicken stock",
+        "1 tbsp oyster sauce",
+        "1 tsp dark soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp sugar",
+        "1/8 tsp white pepper",
+        "2 1/2 tbsp cornstarch",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "1 large egg",
+        "1 scallion"
+      ],
+      "capacity": "Adequate working space or complete separate pan loads. Divide all oils, ingredients and sauces across loads. Geometry, fixed package size, endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Shrimp and pork ---",
+        "24 oz shrimp, raw, peeled and deveined, 21/25 size",
+        "8 oz ground pork",
+        "water, enough to cover pork for blanching",
+        "4 tbsp vegetable oil",
+        "2 garlic cloves, minced",
+        "1/2 tsp fresh ginger, minced",
+        "3 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed slightly",
+        "1/2 cup green bell pepper, finely diced",
+        "2 tbsp Shaoxing wine",
+        "--- Stock mixture ---",
+        "3 cups chicken stock, hot",
+        "2 tbsp oyster sauce",
+        "2 tsp dark soy sauce",
+        "1 tsp toasted sesame oil",
+        "1/2 tsp sugar",
+        "1/4 tsp white pepper",
+        "--- Slurry ---",
+        "5 tbsp cornstarch",
+        "4 tbsp cold water",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "--- Egg and scallion ---",
+        "2 large eggs, beaten",
+        "2 scallions, washed and chopped"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Prepare:** Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.\n2. **Blanch pork:** Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.\n3. **Cook aromatics and start shrimp:** Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.\n4. **Heat stock mixture:** Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.\n5. **Thicken gradually:** Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.\n6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.\n7. **Serve:** Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted.",
+      "shoppingList": [
+        "24 oz shrimp",
+        "8 oz ground pork",
+        "4 tbsp vegetable oil",
+        "2 garlic cloves",
+        "1/2 tsp fresh ginger",
+        "3 tbsp fermented black beans (douchi)",
+        "1/2 cup green bell pepper",
+        "2 tbsp Shaoxing wine",
+        "3 cups chicken stock",
+        "2 tbsp oyster sauce",
+        "2 tsp dark soy sauce",
+        "1 tsp toasted sesame oil",
+        "1/2 tsp sugar",
+        "1/4 tsp white pepper",
+        "5 tbsp cornstarch",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "2 large eggs",
+        "2 scallions"
+      ],
+      "capacity": "Adequate working space or complete separate pan loads. Divide all oils, ingredients and sauces across loads. Geometry, fixed package size, endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Shrimp and pork ---",
+        "12 oz shrimp, raw, peeled and deveined, 21/25 size",
+        "4 oz ground pork",
+        "water, enough to cover pork for blanching",
+        "2 tbsp vegetable oil",
+        "1 garlic clove, minced",
+        "1/4 tsp fresh ginger, minced",
+        "1 1/2 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed slightly",
+        "1/4 cup green bell pepper, finely diced",
+        "1 tbsp Shaoxing wine",
+        "--- Stock mixture ---",
+        "1 1/2 cups chicken stock, hot",
+        "1 tbsp oyster sauce",
+        "1 tsp dark soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp sugar",
+        "1/8 tsp white pepper",
+        "--- Slurry ---",
+        "2 1/2 tbsp cornstarch",
+        "2 tbsp cold water",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "--- Egg and scallion ---",
+        "1 large egg, beaten",
+        "1 scallion, washed and chopped"
+      ],
+      "yield": "2 portions",
+      "shoppingList": [
+        "12 oz shrimp",
+        "4 oz ground pork",
+        "2 tbsp vegetable oil",
+        "1 garlic clove",
+        "1/4 tsp fresh ginger",
+        "1 1/2 tbsp fermented black beans (douchi)",
+        "1/4 cup green bell pepper",
+        "1 tbsp Shaoxing wine",
+        "1 1/2 cups chicken stock",
+        "1 tbsp oyster sauce",
+        "1 tsp dark soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp sugar",
+        "1/8 tsp white pepper",
+        "2 1/2 tbsp cornstarch",
+        "additional water or chicken stock, a little at a time only if needed to loosen sauce, optional",
+        "1 large egg",
+        "1 scallion"
+      ],
+      "directions": "1. **Prepare:** Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.\n2. **Blanch pork:** Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.\n3. **Cook aromatics and start shrimp:** Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.\n4. **Heat stock mixture:** Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.\n5. **Thicken gradually:** Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.\n6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.\n7. **Serve:** Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "ee9c7078 measured oil/garlic/ginger/slurrywater",
+    "preliminary porkblanch+drywok",
+    "gradualslurry unusedportion permitted",
+    "160°F pork/egg+pearlyopaque shrimp"
+  ],
+  "remainingQuestions": [
+    "Challenge proposed exact sugar/pepper restoration against any household decision not in Git.",
+    "Check actual slurry use and160°F sauce/ribbon texture.",
+    "Measure twoportion claim and rice service separately."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

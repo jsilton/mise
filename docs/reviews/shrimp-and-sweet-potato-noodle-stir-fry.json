@@ -1,0 +1,787 @@
+{
+  "slug": "shrimp-and-sweet-potato-noodle-stir-fry",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "f2d9ba47107b573050c68561f9e8c334ef710f43b691df652f0c44ff2bb5b980",
+  "acceptedSourceSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 20–25 min active preparation; includes overlapping 10 min coating stand"
+    },
+    {
+      "field": "cookTime",
+      "before": "12 min",
+      "after": "About 10–15 min pan cooking, plus noodle/package and water-heating time"
+    },
+    {
+      "field": "totalTime",
+      "before": "27 min",
+      "after": "About 35–45 min; additional pan loads add time"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "--- Velveted Shrimp ---",
+        "1 lb large shrimp, peeled and deveined",
+        "1 tbsp soy sauce",
+        "1 tbsp cornstarch",
+        "--- Noodles ---",
+        "8 oz sweet potato glass noodles (dangmyeon)",
+        "1 tsp toasted sesame oil",
+        "--- Vegetables ---",
+        "6 oz snow peas, strings removed",
+        "1 large carrot, julienned thin",
+        "3 cloves garlic, minced",
+        "1 tbsp fresh ginger, minced",
+        "4 green onions, whites and greens separated, sliced",
+        "--- The Sauce (whisk before cooking) ---",
+        "3 tbsp soy sauce",
+        "1 tbsp fresh lime juice",
+        "1 tbsp honey",
+        "1 tsp toasted sesame oil",
+        "1 tsp fish sauce",
+        "--- Finish ---",
+        "1 lime, cut into wedges",
+        "Toasted sesame seeds",
+        "Gochugaru or red pepper flakes (optional, for heat)",
+        "2 tbsp high-smoke-point oil (avocado or grapeseed), divided"
+      ],
+      "after": [
+        "--- Velveted Shrimp ---",
+        "1 lb large shrimp, peeled and deveined",
+        "1 tbsp soy sauce",
+        "1 tbsp cornstarch",
+        "--- Noodles ---",
+        "8 oz sweet potato glass noodles (dangmyeon)",
+        "1 tsp toasted sesame oil",
+        "--- Vegetables ---",
+        "6 oz snow peas, strings removed",
+        "1 large carrot, julienned thin",
+        "3 cloves garlic, minced",
+        "1 tbsp fresh ginger, minced",
+        "4 green onions, whites and greens separated, sliced",
+        "--- The Sauce (whisk before cooking) ---",
+        "3 tbsp soy sauce",
+        "1 tbsp fresh lime juice",
+        "1 tbsp honey",
+        "1 tsp toasted sesame oil",
+        "1 tsp fish sauce",
+        "--- Finish ---",
+        "1 lime, cut into wedges",
+        "Toasted sesame seeds",
+        "Gochugaru or red pepper flakes (optional, for heat)",
+        "2 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "Water, for cooking noodles according to the package"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 745,
+        "protein": 47.5,
+        "carbs": 105.5,
+        "fat": 17,
+        "fiber": 22.5,
+        "sugar": 31.5,
+        "sodium": 2400
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Stage noodles, vegetables and shrimp before the final toss",
+        "outcome": "Chewy noodles, crisp-tender vegetables and cooked shrimp coated in sauce.",
+        "techniques": ["stir-frying", "starch"],
+        "before": [
+          "Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.",
+          "Cut vegetables and whisk sauce before pan cooking; allow boiling water/package time.",
+          "Split the high-smoke-point oil in half. Noodle sesame oil and sauce sesame oil are separate full teaspoon amounts at the original batch."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Noodles are springy and drained, without a hard center.",
+            "why": "Package and noodle thickness govern the boil, not a universal clock."
+          },
+          {
+            "step": 7,
+            "cue": "Shrimp centers are cooked and coating starch is dispersed through the hot sauce.",
+            "why": "The preliminary fry and claimed instant gloss do not certify the final toss."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Final pan load steams and is hard to toss",
+            "cause": "Noodles and vegetables exceed the working space of the pan.",
+            "fix": "Divide the whole dish into smaller complete loads with their allocated sauce; shrimp-only batching is not enough."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Gochugaru",
+            "alternative": "The listed red-pepper flakes, or omit this optional allowance",
+            "effect": "Heat and texture differ; neither requires a second finish dose."
+          }
+        ],
+        "timing": "About 20–25 min active preparation; includes overlapping 10 min coating stand; About 10–15 min pan cooking, plus noodle/package and water-heating time; About 35–45 min; additional pan loads add time. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.",
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days and reheat hot leftovers to 165°F throughout. Shrimp can become firmer with reheating; these times describe handling, not a promise of unchanged texture.",
+        "sources": [
+          {
+            "title": "FDA — Selecting and serving seafood safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis dish lives at the intersection of Korean japchae technique and Chinese wok fundamentals. Sweet potato noodles (dangmyeon) have a uniquely springy, glass-like chew that no other noodle replicates - but they turn into a gummy mass if you don't toss them in sesame oil immediately after draining. The cornstarch \"velvet\" on the shrimp isn't optional: it creates a thin barrier that keeps them succulent under high heat and gives the sauce something to grip. Bloom the garlic and ginger in oil with a pinch of gochugaru before the vegetables - it infuses the fat with a rounded heat that permeates the entire dish. For kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1. **Velvet the Shrimp:** Pat the shrimp dry with paper towels. Toss cleaned shrimp with 1 tbsp soy sauce and 1 tbsp cornstarch in a bowl. Mix until evenly coated - the cornstarch creates a thin protective barrier that keeps shrimp succulent under high heat. Let sit for 10 minutes while you prep everything else.\n\n2. **Cook the Noodles:** Boil sweet potato noodles for 6-7 minutes until just al dente - they should still have bite. Drain immediately, toss with 1 tsp toasted sesame oil to prevent sticking, and set aside. Don't skip the sesame oil - dangmyeon bonds to itself within seconds.\n\n3. **Whisk the Sauce:** Combine 3 tbsp soy sauce, lime juice, honey, 1 tsp sesame oil, and fish sauce in a small bowl. Whisk until honey dissolves. Set near the stove.\n\n4. **Sear the Shrimp:** Heat wok or heavy skillet over high heat (400-450°F) until smoking. Add 1 tbsp oil, swirl to coat. Sear shrimp in a single layer - about 1 minute per side until pink with charred spots but not fully curled. They'll finish in the sauce. Remove to a plate.\n\n5. **Bloom the Aromatics:** Add remaining 1 tbsp oil to the hot wok. Toss in garlic, ginger, white parts of green onions, and a pinch of gochugaru if using. Stir for 30 seconds until fragrant - the oil should turn slightly red from the gochugaru. Don't let the garlic burn.\n\n6. **High-Heat Vegetables:** Add julienned carrots first (they take longest) - toss for 2 minutes over high heat. Add snow peas and toss another 1-2 minutes. You want a snap when you bite a snow pea, not a limp string.\n\n7. **The Marriage:** Add the noodles and seared shrimp back to the wok. Pour the sauce over everything. Use tongs to lift and toss constantly over high heat for 1-2 minutes. The residual cornstarch from the shrimp and the starch in the noodles will cause the sauce to thicken into a glossy glaze almost instantly.\n\n8. **Finish:** Kill the heat. Fold in the green parts of the green onions, a final squeeze of lime, and a heavy sprinkle of toasted sesame seeds. Serve immediately - stir-fries don't wait.\n",
+    "after": "\n## Chef's Note\n\nThis shrimp stir-fry combines Korean sweet potato glass noodles with soy, lime and ginger. The noodles stay chewy when cooked to the package’s endpoint and drained well. Keep their sesame oil separate from the sauce oil, and prepare the sauce and vegetables before the shrimp enter the pan. The cornstarch coating joins the sauce during the final toss; cook the shrimp centers through without waiting for char or a particular curl.\n\n## Directions\n\n1. **Coat and stage:** Pat the prepared raw shrimp dry with paper towels. Toss large shrimp, soy sauce, and cornstarch until evenly coated. Keep chilled during the 10-minute stand while preparing the other ingredients; cook promptly after preparation. Keep coating and sauce soy sauce separate.\n2. **Cook noodles:** Have sweet potato glass noodles (dangmyeon), toasted sesame oil, and water ready for the noodles. Boil the noodles following the package for water, timing and any rinse instruction, checking for pliable, springy noodles without a hard center. Drain thoroughly and toss with their measured sesame oil. Start checking around 6–7 minutes only if consistent with the actual package.\n3. **Whisk sauce:** Whisk soy sauce, fresh lime juice, honey, toasted sesame oil, and fish sauce until the honey disperses; keep beside the stove.\n4. **Start shrimp:** Heat a wok or heavy skillet over medium-high to high heat appropriate to the pan, following its preheating instructions; keep the oil below its smoke point. Add 1/2 of the high-smoke-point oil (avocado or grapeseed), reserving the other half of this oil for aromatics. Spread the coated shrimp into a single layer, using batches and dividing this oil allowance across them if needed. Cook about 1 minute per side as an initial check, until the surface changes color; transfer immediately to a temporary dish for further cooking in step 7. Do not taste partly cooked shrimp.\n5. **Cook aromatics:** Add 1/2 of the high-smoke-point oil (avocado or grapeseed), garlic cloves, fresh ginger, the green-onion whites, and gochugaru or red pepper flakes (if using) to the pan. Keep all green-onion greens for finishing. Stir about 30 seconds until fragrant, reducing heat if garlic begins to brown too quickly.\n6. **Cook vegetables:** Add large carrot and snow peas, carrots first for about 2 minutes, then snow peas for another 1–2 minutes, stirring until crisp-tender. These are first checks, not fixed endpoints for every cut.\n7. **Toss and finish cooking:** Return all noodles, shrimp and collected shrimp juices to the pan. Add all the sauce and lift/toss to distribute it, starting to check after 1–2 minutes. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness. The sauce should coat the noodles without dry starch patches. A larger batch needs separate complete pan loads; do not crowd the final toss after batching shrimp.\n8. **Finish:** Finish with the green-onion greens, lime, and toasted sesame seeds: fold in all green-onion greens, scatter sesame seeds as wanted, and offer the lime wedges for squeezing to taste. This lime is separate from the measured sauce juice. Transfer to a clean serving dish and serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "SH-1",
+      "title": "formula/allocation/source decisions",
+      "rationale": "Exact introduction2a7f3853 is a repository-authored formula with no external recipe publisher recorded; do not invent attribution. All measured quantities retained, including distinct soy1+3tbsp and sesame1+1tsp. Current green-onion destination is whole whites vs whole greens, not mathematical half by weight. Retain legacy anatomical allocation without invented equal-weight formula shares; no ingredient-formula change is required. Package noodle requirements override generic6–7minute/no-rinse assumptions. Remove unsupported mandatory cornstarch protective-barrier, immediate bonding, smoking400–450°F, curl and instant-gloss claims; no new liquid/oil added.",
+      "confidence": "high for quantities and recorded diff; household intent not inferred from persistence",
+      "applicableSources": [
+        {
+          "title": "Recipe-specific source and mechanism",
+          "reference": [
+            "evidence/shrimp-and-sweet-potato-noodle-stir-fry-first-git.md",
+            "evidence/shrimp-and-sweet-potato-noodle-stir-fry-history.diff"
+          ],
+          "applicability": "Exact saved formula/history supports only the stated ingredient or variant decisions; publisher prestige is not acceptance."
+        }
+      ],
+      "sourceApplicability": "Exact saved formula/history supports only the stated ingredient or variant decisions; publisher prestige is not acceptance.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual dangmyeon package and rinse instruction.",
+        "Measure final wok capacity and pan load count.",
+        "Record coating/starch glaze and center cooking without overcooking shrimp."
+      ]
+    },
+    {
+      "id": "SH-2",
+      "title": "whole process/endpoints/time/scaling",
+      "rationale": "Follow every ingredient through preparation, allocation and heat; replace fixed clocks/color-only endpoints with applicable cooking checks. Preserve quantities and recipe-specific routes.",
+      "confidence": "high for applicable safety guidance; moderate for untested timing/texture",
+      "applicableSources": [
+        {
+          "title": "Recipe-specific source and mechanism",
+          "reference": [
+            {
+              "title": "FDA — Selecting and serving seafood safely",
+              "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+            }
+          ],
+          "applicability": "FDA shrimp center/145°F, thawing and raw-contact control; not a formula or yield endorsement."
+        }
+      ],
+      "sourceApplicability": "FDA shrimp center/145°F, thawing and raw-contact control; not a formula or yield endorsement.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Check actual dangmyeon package and rinse instruction.",
+        "Measure final wok capacity and pan load count.",
+        "Record coating/starch glaze and center cooking without overcooking shrimp."
+      ]
+    },
+    {
+      "id": "SH-3",
+      "title": "nutrition",
+      "rationale": "Legacy estimated nutrition removed because ingredient formula/allowances or source interpretation changes; no replacement invented.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Recipe-specific source and mechanism",
+          "reference": ["docs/RECIPE_STANDARD.md"]
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/shrimp-and-sweet-potato-noodle-stir-fry.md",
+    "introductionScope": "Verified retained earlier canonical cooking text with complete followed history; native binding separately checked",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": "Recipe-specific actual publisher comparisons, unavailable fetches and retained current adaptations are distinguished in the full frozen source packet.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact introduction2a7f3853 is a repository-authored formula with no external recipe publisher recorded; do not invent attribution. All measured quantities retained, including distinct soy1+3tbsp and sesame1+1tsp. Current green-onion destination is whole whites vs whole greens, not mathematical half by weight. Retain legacy anatomical allocation without invented equal-weight formula shares; no ingredient-formula change is required. Package noodle requirements override generic6–7minute/no-rinse assumptions. Remove unsupported mandatory cornstarch protective-barrier, immediate bonding, smoking400–450°F, curl and instant-gloss claims; no new liquid/oil added.",
+    "Root reproduced the existing private binding but found no exact original450 match. Retained Git evidence establishes this version; later native sync is not an independent original."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "--- Velveted Shrimp ---",
+        "preparationAndDestination": "divider"
+      },
+      {
+        "ingredient": "1 lb large shrimp, peeled and deveined",
+        "preparationAndDestination": "pat dry, then coat in step 1"
+      },
+      {
+        "ingredient": "1 tbsp soy sauce",
+        "preparationAndDestination": "coat1"
+      },
+      {
+        "ingredient": "1 tbsp cornstarch",
+        "preparationAndDestination": "coat1"
+      },
+      {
+        "ingredient": "--- Noodles ---",
+        "preparationAndDestination": "divider"
+      },
+      {
+        "ingredient": "8 oz sweet potato glass noodles (dangmyeon)",
+        "preparationAndDestination": "noodles2"
+      },
+      {
+        "ingredient": "1 tsp toasted sesame oil",
+        "preparationAndDestination": "noodles2"
+      },
+      {
+        "ingredient": "--- Vegetables ---",
+        "preparationAndDestination": "divider"
+      },
+      {
+        "ingredient": "6 oz snow peas, strings removed",
+        "preparationAndDestination": "veg6"
+      },
+      {
+        "ingredient": "1 large carrot, julienned thin",
+        "preparationAndDestination": "veg6"
+      },
+      {
+        "ingredient": "3 cloves garlic, minced",
+        "preparationAndDestination": "aromatics5"
+      },
+      {
+        "ingredient": "1 tbsp fresh ginger, minced",
+        "preparationAndDestination": "aromatics5"
+      },
+      {
+        "ingredient": "4 green onions, whites and greens separated, sliced",
+        "preparationAndDestination": "whites5/greens8"
+      },
+      {
+        "ingredient": "--- The Sauce (whisk before cooking) ---",
+        "preparationAndDestination": "divider"
+      },
+      {
+        "ingredient": "3 tbsp soy sauce",
+        "preparationAndDestination": "sauce3"
+      },
+      {
+        "ingredient": "1 tbsp fresh lime juice",
+        "preparationAndDestination": "sauce3"
+      },
+      {
+        "ingredient": "1 tbsp honey",
+        "preparationAndDestination": "sauce3"
+      },
+      {
+        "ingredient": "1 tsp toasted sesame oil",
+        "preparationAndDestination": "sauce3"
+      },
+      {
+        "ingredient": "1 tsp fish sauce",
+        "preparationAndDestination": "sauce3"
+      },
+      {
+        "ingredient": "--- Finish ---",
+        "preparationAndDestination": "divider"
+      },
+      {
+        "ingredient": "1 lime, cut into wedges",
+        "preparationAndDestination": "finish8"
+      },
+      {
+        "ingredient": "Toasted sesame seeds",
+        "preparationAndDestination": "finish8"
+      },
+      {
+        "ingredient": "Gochugaru or red pepper flakes (optional, for heat)",
+        "preparationAndDestination": "optionalaromatics5"
+      },
+      {
+        "ingredient": "2 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "preparationAndDestination": "halfsear4/halfaromatics5"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "--- Velveted Shrimp ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "1 lb large shrimp, peeled and deveined",
+        "destination": "pat dry, then coat in step 1"
+      },
+      {
+        "ingredient": "1 tbsp soy sauce",
+        "destination": "coat1"
+      },
+      {
+        "ingredient": "1 tbsp cornstarch",
+        "destination": "coat1"
+      },
+      {
+        "ingredient": "--- Noodles ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "8 oz sweet potato glass noodles (dangmyeon)",
+        "destination": "noodles2"
+      },
+      {
+        "ingredient": "1 tsp toasted sesame oil",
+        "destination": "noodles2"
+      },
+      {
+        "ingredient": "--- Vegetables ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "6 oz snow peas, strings removed",
+        "destination": "veg6"
+      },
+      {
+        "ingredient": "1 large carrot, julienned thin",
+        "destination": "veg6"
+      },
+      {
+        "ingredient": "3 cloves garlic, minced",
+        "destination": "aromatics5"
+      },
+      {
+        "ingredient": "1 tbsp fresh ginger, minced",
+        "destination": "aromatics5"
+      },
+      {
+        "ingredient": "4 green onions, whites and greens separated, sliced",
+        "destination": "whites5/greens8"
+      },
+      {
+        "ingredient": "--- The Sauce (whisk before cooking) ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "3 tbsp soy sauce",
+        "destination": "sauce3"
+      },
+      {
+        "ingredient": "1 tbsp fresh lime juice",
+        "destination": "sauce3"
+      },
+      {
+        "ingredient": "1 tbsp honey",
+        "destination": "sauce3"
+      },
+      {
+        "ingredient": "1 tsp toasted sesame oil",
+        "destination": "sauce3"
+      },
+      {
+        "ingredient": "1 tsp fish sauce",
+        "destination": "sauce3"
+      },
+      {
+        "ingredient": "--- Finish ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "1 lime, cut into wedges",
+        "destination": "finish8"
+      },
+      {
+        "ingredient": "Toasted sesame seeds",
+        "destination": "finish8"
+      },
+      {
+        "ingredient": "Gochugaru or red pepper flakes (optional, for heat)",
+        "destination": "optionalaromatics5"
+      },
+      {
+        "ingredient": "2 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "destination": "halfsear4/halfaromatics5"
+      },
+      {
+        "ingredient": "Water, for cooking noodles according to the package",
+        "destination": "noodles2"
+      }
+    ],
+    "additionalAllowances": [],
+    "separateMealComponents": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Coat and stage: Pat the prepared raw shrimp dry with paper towels. Toss large shrimp, soy sauce, and cornstarch until evenly coated. Keep chilled during the 10-minute stand while preparing the other ingredients; cook promptly after preparation. Keep coating and sauce soy sauce separate."
+    },
+    {
+      "step": 2,
+      "text": "Cook noodles: Have sweet potato glass noodles (dangmyeon), toasted sesame oil, and water ready for the noodles. Boil the noodles following the package for water, timing and any rinse instruction, checking for pliable, springy noodles without a hard center. Drain thoroughly and toss with their measured sesame oil. Start checking around 6–7 minutes only if consistent with the actual package."
+    },
+    {
+      "step": 3,
+      "text": "Whisk sauce: Whisk soy sauce, fresh lime juice, honey, toasted sesame oil, and fish sauce until the honey disperses; keep beside the stove."
+    },
+    {
+      "step": 4,
+      "text": "Start shrimp: Heat a wok or heavy skillet over medium-high to high heat appropriate to the pan, following its preheating instructions; keep the oil below its smoke point. Add 1/2 of the high-smoke-point oil (avocado or grapeseed), reserving the other half of this oil for aromatics. Spread the coated shrimp into a single layer, using batches and dividing this oil allowance across them if needed. Cook about 1 minute per side as an initial check, until the surface changes color; transfer immediately to a temporary dish for further cooking in step 7. Do not taste partly cooked shrimp."
+    },
+    {
+      "step": 5,
+      "text": "Cook aromatics: Add 1/2 of the high-smoke-point oil (avocado or grapeseed), garlic cloves, fresh ginger, the green-onion whites, and gochugaru or red pepper flakes (if using) to the pan. Keep all green-onion greens for finishing. Stir about 30 seconds until fragrant, reducing heat if garlic begins to brown too quickly."
+    },
+    {
+      "step": 6,
+      "text": "Cook vegetables: Add large carrot and snow peas, carrots first for about 2 minutes, then snow peas for another 1–2 minutes, stirring until crisp-tender. These are first checks, not fixed endpoints for every cut."
+    },
+    {
+      "step": 7,
+      "text": "Toss and finish cooking: Return all noodles, shrimp and collected shrimp juices to the pan. Add all the sauce and lift/toss to distribute it, starting to check after 1–2 minutes. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness. The sauce should coat the noodles without dry starch patches. A larger batch needs separate complete pan loads; do not crowd the final toss after batching shrimp."
+    },
+    {
+      "step": 8,
+      "text": "Finish: Finish with the green-onion greens, lime, and toasted sesame seeds: fold in all green-onion greens, scatter sesame seeds as wanted, and offer the lime wedges for squeezing to taste. This lime is separate from the measured sauce juice. Transfer to a clean serving dish and serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Gochugaru",
+      "alternative": "The listed red-pepper flakes, or omit this optional allowance",
+      "effect": "Heat and texture differ; neither requires a second finish dose."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "quick-pickled-cucumber-salad",
+      "sesame-roasted-edamame",
+      "japanese-cucumber-sunomono"
+    ],
+    "incomingMeals": [],
+    "bodyRecipeLinks": [],
+    "scope": "Separate sides/rice and linked meals require their own complete review; their service time is additional, no status promotion."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "capacity": "Original source planning count retained, not measured yield. Adequate pan working space or separate complete loads; sauce and fat divided across whole batch, no pan dimensions invented.",
+    "richness": "All retained current defining measures preserved; exact source restorations separately documented.",
+    "semanticAllocation": "Legacy anatomical whites/greens allocation retained; no invented half-by-weight structured share. Other measured oil halves remain proportional."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Velveted Shrimp ---",
+        "1/2 lb large shrimp, peeled and deveined",
+        "1/2 tbsp soy sauce",
+        "1/2 tbsp cornstarch",
+        "--- Noodles ---",
+        "4 oz sweet potato glass noodles (dangmyeon)",
+        "1/2 tsp toasted sesame oil",
+        "--- Vegetables ---",
+        "3 oz snow peas, strings removed",
+        "1/2 large carrot, julienned thin",
+        "1 1/2 cloves garlic, minced",
+        "1/2 tbsp fresh ginger, minced",
+        "2 green onions, whites and greens separated, sliced",
+        "--- The Sauce (whisk before cooking) ---",
+        "1 1/2 tbsp soy sauce",
+        "1/2 tbsp fresh lime juice",
+        "1/2 tbsp honey",
+        "1/2 tsp toasted sesame oil",
+        "1/2 tsp fish sauce",
+        "--- Finish ---",
+        "1/2 lime, cut into wedges",
+        "Toasted sesame seeds",
+        "Gochugaru or red pepper flakes (optional, for heat)",
+        "1 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "Water, for cooking noodles according to the package"
+      ],
+      "yield": "Serves 2",
+      "directions": [
+        {
+          "@type": "HowToStep",
+          "text": "Coat and stage: Pat the prepared raw shrimp dry with paper towels. Toss large shrimp, soy sauce, and cornstarch until evenly coated. Keep chilled during the 10-minute stand while preparing the other ingredients; cook promptly after preparation. Keep coating and sauce soy sauce separate."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook noodles: Have sweet potato glass noodles (dangmyeon), toasted sesame oil, and water ready for the noodles. Boil the noodles following the package for water, timing and any rinse instruction, checking for pliable, springy noodles without a hard center. Drain thoroughly and toss with their measured sesame oil. Start checking around 6–7 minutes only if consistent with the actual package."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Whisk sauce: Whisk soy sauce, fresh lime juice, honey, toasted sesame oil, and fish sauce until the honey disperses; keep beside the stove."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Start shrimp: Heat a wok or heavy skillet over medium-high to high heat appropriate to the pan, following its preheating instructions; keep the oil below its smoke point. Add 1/2 of the high-smoke-point oil (avocado or grapeseed), reserving the other half of this oil for aromatics. Spread the coated shrimp into a single layer, using batches and dividing this oil allowance across them if needed. Cook about 1 minute per side as an initial check, until the surface changes color; transfer immediately to a temporary dish for further cooking in step 7. Do not taste partly cooked shrimp."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook aromatics: Add 1/2 of the high-smoke-point oil (avocado or grapeseed), garlic cloves, fresh ginger, the green-onion whites, and gochugaru or red pepper flakes (if using) to the pan. Keep all green-onion greens for finishing. Stir about 30 seconds until fragrant, reducing heat if garlic begins to brown too quickly."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook vegetables: Add large carrot and snow peas, carrots first for about 2 minutes, then snow peas for another 1–2 minutes, stirring until crisp-tender. These are first checks, not fixed endpoints for every cut."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Toss and finish cooking: Return all noodles, shrimp and collected shrimp juices to the pan. Add all the sauce and lift/toss to distribute it, starting to check after 1–2 minutes. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness. The sauce should coat the noodles without dry starch patches. A larger batch needs separate complete pan loads; do not crowd the final toss after batching shrimp."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish: Finish with the green-onion greens, lime, and toasted sesame seeds: fold in all green-onion greens, scatter sesame seeds as wanted, and offer the lime wedges for squeezing to taste. This lime is separate from the measured sauce juice. Transfer to a clean serving dish and serve promptly."
+        }
+      ],
+      "shoppingList": null,
+      "capacity": "Adequate working space or complete separate pan loads. Divide all oils, ingredients and sauces across loads. Geometry, fixed package size, endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Velveted Shrimp ---",
+        "1 lb large shrimp, peeled and deveined",
+        "1 tbsp soy sauce",
+        "1 tbsp cornstarch",
+        "--- Noodles ---",
+        "8 oz sweet potato glass noodles (dangmyeon)",
+        "1 tsp toasted sesame oil",
+        "--- Vegetables ---",
+        "6 oz snow peas, strings removed",
+        "1 large carrot, julienned thin",
+        "3 cloves garlic, minced",
+        "1 tbsp fresh ginger, minced",
+        "4 green onions, whites and greens separated, sliced",
+        "--- The Sauce (whisk before cooking) ---",
+        "3 tbsp soy sauce",
+        "1 tbsp fresh lime juice",
+        "1 tbsp honey",
+        "1 tsp toasted sesame oil",
+        "1 tsp fish sauce",
+        "--- Finish ---",
+        "1 lime, cut into wedges",
+        "Toasted sesame seeds",
+        "Gochugaru or red pepper flakes (optional, for heat)",
+        "2 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "Water, for cooking noodles according to the package"
+      ],
+      "yield": "Serves 4",
+      "directions": [
+        {
+          "@type": "HowToStep",
+          "text": "Coat and stage: Pat the prepared raw shrimp dry with paper towels. Toss large shrimp, soy sauce, and cornstarch until evenly coated. Keep chilled during the 10-minute stand while preparing the other ingredients; cook promptly after preparation. Keep coating and sauce soy sauce separate."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook noodles: Have sweet potato glass noodles (dangmyeon), toasted sesame oil, and water ready for the noodles. Boil the noodles following the package for water, timing and any rinse instruction, checking for pliable, springy noodles without a hard center. Drain thoroughly and toss with their measured sesame oil. Start checking around 6–7 minutes only if consistent with the actual package."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Whisk sauce: Whisk soy sauce, fresh lime juice, honey, toasted sesame oil, and fish sauce until the honey disperses; keep beside the stove."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Start shrimp: Heat a wok or heavy skillet over medium-high to high heat appropriate to the pan, following its preheating instructions; keep the oil below its smoke point. Add 1/2 of the high-smoke-point oil (avocado or grapeseed), reserving the other half of this oil for aromatics. Spread the coated shrimp into a single layer, using batches and dividing this oil allowance across them if needed. Cook about 1 minute per side as an initial check, until the surface changes color; transfer immediately to a temporary dish for further cooking in step 7. Do not taste partly cooked shrimp."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook aromatics: Add 1/2 of the high-smoke-point oil (avocado or grapeseed), garlic cloves, fresh ginger, the green-onion whites, and gochugaru or red pepper flakes (if using) to the pan. Keep all green-onion greens for finishing. Stir about 30 seconds until fragrant, reducing heat if garlic begins to brown too quickly."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook vegetables: Add large carrot and snow peas, carrots first for about 2 minutes, then snow peas for another 1–2 minutes, stirring until crisp-tender. These are first checks, not fixed endpoints for every cut."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Toss and finish cooking: Return all noodles, shrimp and collected shrimp juices to the pan. Add all the sauce and lift/toss to distribute it, starting to check after 1–2 minutes. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness. The sauce should coat the noodles without dry starch patches. A larger batch needs separate complete pan loads; do not crowd the final toss after batching shrimp."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish: Finish with the green-onion greens, lime, and toasted sesame seeds: fold in all green-onion greens, scatter sesame seeds as wanted, and offer the lime wedges for squeezing to taste. This lime is separate from the measured sauce juice. Transfer to a clean serving dish and serve promptly."
+        }
+      ],
+      "shoppingList": null,
+      "capacity": "Adequate working space or complete separate pan loads. Divide all oils, ingredients and sauces across loads. Geometry, fixed package size, endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Velveted Shrimp ---",
+        "2 lb large shrimp, peeled and deveined",
+        "2 tbsp soy sauce",
+        "2 tbsp cornstarch",
+        "--- Noodles ---",
+        "16 oz sweet potato glass noodles (dangmyeon)",
+        "2 tsp toasted sesame oil",
+        "--- Vegetables ---",
+        "12 oz snow peas, strings removed",
+        "2 large carrots, julienned thin",
+        "6 cloves garlic, minced",
+        "2 tbsp fresh ginger, minced",
+        "8 green onions, whites and greens separated, sliced",
+        "--- The Sauce (whisk before cooking) ---",
+        "6 tbsp soy sauce",
+        "2 tbsp fresh lime juice",
+        "2 tbsp honey",
+        "2 tsp toasted sesame oil",
+        "2 tsp fish sauce",
+        "--- Finish ---",
+        "2 limes, cut into wedges",
+        "Toasted sesame seeds",
+        "Gochugaru or red pepper flakes (optional, for heat)",
+        "4 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "Water, for cooking noodles according to the package"
+      ],
+      "yield": "Serves 8",
+      "directions": [
+        {
+          "@type": "HowToStep",
+          "text": "Coat and stage: Pat the prepared raw shrimp dry with paper towels. Toss large shrimp, soy sauce, and cornstarch until evenly coated. Keep chilled during the 10-minute stand while preparing the other ingredients; cook promptly after preparation. Keep coating and sauce soy sauce separate."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook noodles: Have sweet potato glass noodles (dangmyeon), toasted sesame oil, and water ready for the noodles. Boil the noodles following the package for water, timing and any rinse instruction, checking for pliable, springy noodles without a hard center. Drain thoroughly and toss with their measured sesame oil. Start checking around 6–7 minutes only if consistent with the actual package."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Whisk sauce: Whisk soy sauce, fresh lime juice, honey, toasted sesame oil, and fish sauce until the honey disperses; keep beside the stove."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Start shrimp: Heat a wok or heavy skillet over medium-high to high heat appropriate to the pan, following its preheating instructions; keep the oil below its smoke point. Add 1/2 of the high-smoke-point oil (avocado or grapeseed), reserving the other half of this oil for aromatics. Spread the coated shrimp into a single layer, using batches and dividing this oil allowance across them if needed. Cook about 1 minute per side as an initial check, until the surface changes color; transfer immediately to a temporary dish for further cooking in step 7. Do not taste partly cooked shrimp."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook aromatics: Add 1/2 of the high-smoke-point oil (avocado or grapeseed), garlic cloves, fresh ginger, the green-onion whites, and gochugaru or red pepper flakes (if using) to the pan. Keep all green-onion greens for finishing. Stir about 30 seconds until fragrant, reducing heat if garlic begins to brown too quickly."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook vegetables: Add large carrot and snow peas, carrots first for about 2 minutes, then snow peas for another 1–2 minutes, stirring until crisp-tender. These are first checks, not fixed endpoints for every cut."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Toss and finish cooking: Return all noodles, shrimp and collected shrimp juices to the pan. Add all the sauce and lift/toss to distribute it, starting to check after 1–2 minutes. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness. The sauce should coat the noodles without dry starch patches. A larger batch needs separate complete pan loads; do not crowd the final toss after batching shrimp."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish: Finish with the green-onion greens, lime, and toasted sesame seeds: fold in all green-onion greens, scatter sesame seeds as wanted, and offer the lime wedges for squeezing to taste. This lime is separate from the measured sauce juice. Transfer to a clean serving dish and serve promptly."
+        }
+      ],
+      "shoppingList": null,
+      "capacity": "Adequate working space or complete separate pan loads. Divide all oils, ingredients and sauces across loads. Geometry, fixed package size, endpoints and clocks do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Velveted Shrimp ---",
+        "1 lb large shrimp, peeled and deveined",
+        "1 tbsp soy sauce",
+        "1 tbsp cornstarch",
+        "--- Noodles ---",
+        "8 oz sweet potato glass noodles (dangmyeon)",
+        "1 tsp toasted sesame oil",
+        "--- Vegetables ---",
+        "6 oz snow peas, strings removed",
+        "1 large carrot, julienned thin",
+        "3 cloves garlic, minced",
+        "1 tbsp fresh ginger, minced",
+        "4 green onions, whites and greens separated, sliced",
+        "--- The Sauce (whisk before cooking) ---",
+        "3 tbsp soy sauce",
+        "1 tbsp fresh lime juice",
+        "1 tbsp honey",
+        "1 tsp toasted sesame oil",
+        "1 tsp fish sauce",
+        "--- Finish ---",
+        "1 lime, cut into wedges",
+        "Toasted sesame seeds",
+        "Gochugaru or red pepper flakes (optional, for heat)",
+        "2 tbsp high-smoke-point oil (avocado or grapeseed), divided",
+        "Water, for cooking noodles according to the package"
+      ],
+      "yield": "Serves 4",
+      "shoppingList": null
+    }
+  ],
+  "preservedPriorRepairs": [
+    "884605320313637ed3ff6be9f048d0a94f7de354: pat shrimp dry before soy/cornstarch coating"
+  ],
+  "remainingQuestions": [
+    "Check actual dangmyeon package and rinse instruction.",
+    "Measure final wok capacity and pan load count.",
+    "Record coating/starch glaze and center cooking without overcooking shrimp."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

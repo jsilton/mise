@@ -1,0 +1,627 @@
+{
+  "slug": "keto-egg-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "c273f5547a216e54be88bbad30867e3605798a3a71a9efa8607d292b69d58aa0",
+  "acceptedSourceSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "5–10 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 25–35 min (includes 5 min cooling)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 large Eggs",
+        "5 oz Spanish Chorizo or Salami, finely diced",
+        "6 oz Sharp Cheddar, shredded",
+        "2 Scallions, finely chopped",
+        "2 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "after": [
+        "12 large Eggs",
+        "5 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "6 oz Sharp Cheddar, shredded",
+        "2 Scallions, finely chopped",
+        "2 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 9.5,
+        "carbs": 1.5,
+        "fat": 10.5,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 170
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match cured-meat state to a portioned egg bake",
+        "outcome": "Pesto and finely diced cured meat season set egg evenly, with cheese inside and on top.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+          "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The meat is ready to eat and cut into small pieces.",
+            "why": "Meat labeled ready to eat can go directly into the cups; raw fresh sausage needs a different preparation process."
+          },
+          {
+            "step": 6,
+            "cue": "Centers are set and measure 165 °F.",
+            "why": "The higher meat-bake endpoint is used, and a short clock alone does not verify it."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "A strong salty bite occurs in one cup",
+            "cause": "Cured meat pieces are large or unevenly divided.",
+            "fix": "Dice finely and divide before pouring the eggs. Additional acid or sugar is not required by this formula."
+          },
+          {
+            "problem": "Egg muffins are rubbery",
+            "cause": "They baked far beyond the center endpoint or were repeatedly overheated.",
+            "fix": "Check early and remove once the centers meet the endpoint; lost tenderness cannot be restored."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Air-dried Spanish chorizo or salami",
+            "alternative": "Cooked, chopped bacon in the same total weight as the listed cured meat (5 oz at the original batch)",
+            "effect": "Keeps the total meat amount; bacon must be cooked first and changes smokiness and fat."
+          },
+          {
+            "ingredient": "Basil pesto",
+            "alternative": "Red pesto in the same listed amount",
+            "effect": "Changes flavor and possibly allergens; keep the listed pesto amount."
+          }
+        ],
+        "timing": "About 5–10 minutes chopping/mixing, 15–20 minutes baking as a first range and 5 minutes cooling give 25–35 minutes elapsed once the oven is ready. Additional batches add time.",
+        "storage": "Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in shallow containers at 40°F / 4°C or below. Use refrigerated portions within 3–4 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion size and starting temperature change the time, so use short intervals and check the center.",
+        "sources": [
+          {
+            "title": "Adapted from dietdoctor.com",
+            "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+          },
+          {
+            "title": "FDA egg cooking, cold holding and reheating",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are ideal for high-protein, low-carb meal prep. The secret to avoiding the rubbery sponginess of many egg muffins is placing the raw chorizo at the bottom of the tin so it renders its spicy fat directly into the egg, creating a crispy finish on the bottom. Whisking the oily pesto directly into the eggs ensures every bite has savory depth that cuts through the richness of the yolk.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Generously grease a 12-cup muffin tin with butter (do not use paper liners, as the eggs will stick).\n2.  **The Base:** Divide the diced chorizo and scallions evenly among the 12 muffin cups.\n3.  **Aeration:** In a large bowl, whisk the eggs with the pesto, salt, and pepper until very frothy and well-integrated.\n4.  **Fold:** Stir in 3/4 of the shredded cheese.\n5.  **Fill:** Pour the egg mixture into the muffin cups, filling each about 3/4 full. Sprinkle the remaining cheese over the tops for a golden \"Bounce.\"\n6.  **Bake:** Bake for 15-20 minutes until the centers are set and the tops are slightly golden.\n7.  **Serve:** Let cool for 5 minutes before popping them out with a knife.\n",
+    "after": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n"
+  },
+  "findings": [
+    {
+      "id": "EG-1",
+      "field": "Chef note",
+      "rationale": "Native/045e5ba2 specify air-dried chorizo/salami/cooked bacon; current DietDoctor specifies cooked bacon/salami,12 eggs,6ozcheese and 2 tbsp pesto. Current Spanish chorizo choice is preserved and its ready-to-eat state made explicit; unsupported raw-rendering claim removed.493885bb unused lemon removal remains preserved. Current 3/4inside 1/4top cheese split remains proportional, not a literal tbsp split.",
+      "confidence": "high for provenance corrections; sensory outcome untested",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-2",
+      "field": "Directions",
+      "rationale": "Complete recipe-specific ingredient destinations, state, capacity, endpoint and elapsed-time correction; see individual source disagreement.",
+      "confidence": "high for ingredient tracking and applicable safety; moderate for planning ranges",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-3",
+      "field": "prepTime",
+      "rationale": "About 5–10 minutes chopping/mixing,15–20 minutes baking as a first range and 5 minutes cooling give 25–35 minutes elapsed once the oven is ready. Additional batches add time.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["prepTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-4",
+      "field": "totalTime",
+      "rationale": "About 5–10 minutes chopping/mixing,15–20 minutes baking as a first range and 5 minutes cooling give 25–35 minutes elapsed once the oven is ready. Additional batches add time.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-5",
+      "field": "ingredients",
+      "rationale": "Native/045e5ba2 specify air-dried chorizo/salami/cooked bacon; current DietDoctor specifies cooked bacon/salami,12 eggs,6ozcheese and 2 tbsp pesto. Current Spanish chorizo choice is preserved and its ready-to-eat state made explicit; unsupported raw-rendering claim removed.493885bb unused lemon removal remains preserved. Current 3/4inside 1/4top cheese split remains proportional, not a literal tbsp split.",
+      "confidence": "high for exact retained totals and supported optional allowance",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "EG-6",
+      "field": "nutrition",
+      "rationale": "Unsupported legacy estimates withheld; no manufactured replacement.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "EG-7",
+      "field": "learning",
+      "rationale": "Recipe-specific complete teaching and applicability; no kitchen-tested claim.",
+      "confidence": "editorial",
+      "applicableSources": [
+        {
+          "title": "Adapted from dietdoctor.com",
+          "url": "https://www.dietdoctor.com/recipes/keto-egg-muffins"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "EG-RTE-CLARITY",
+      "field": "learning.checkpoints[0].why",
+      "rationale": "Cured is not a universal ready-to-eat state. The final ingredient already specifies ready-to-eat air-dried chorizo/salami, and the existing method requires the product label. This reason now matches that applicable label-specific route; raw fresh sausage remains a distinct preparation.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/sausages-and-food-safety",
+          "applicability": "USDA distinguishes ready-to-eat and not-ready-to-eat sausage and requires attention to the label/cooking directions; this does not validate every cured product, the recipe timing, texture or cup capacity.",
+          "retrieval": "The manifest’s old /meat/ URL returned403. Current official FSIS /meat-catfish/ indexed full guidance was inspected and explicitly distinguishes ready-to-eat versus not-ready-to-eat products and label cooking instructions."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/keto-egg-muffins.md",
+    "introductionScope": "Verified retained earlier canonical cooking text; not a claim that this is the oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Modern publisher differences and exact saved/current formula choices are independently documented; publisher changes do not silently replace the retained recipe.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Native/045e5ba2 specify air-dried chorizo/salami/cooked bacon; current DietDoctor specifies cooked bacon/salami,12 eggs,6ozcheese and 2 tbsp pesto. Current Spanish chorizo choice is preserved and its ready-to-eat state made explicit; unsupported raw-rendering claim removed.493885bb unused lemon removal remains preserved. Current 3/4inside 1/4top cheese split remains proportional, not a literal tbsp split.",
+  "ledger": {
+    "final": [
+      {
+        "ingredient": "12 large Eggs",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "5 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "6 oz Sharp Cheddar, shredded",
+        "destination": 4,
+        "allocation": "3/4 step4;1/4step5"
+      },
+      {
+        "ingredient": "2 Scallions, finely chopped",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "2 tbsp Basil Pesto (homemade or storebought)",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Unsalted Butter (for the tin)",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      }
+    ],
+    "frozen": [
+      {
+        "ingredient": "12 large Eggs",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "5 oz Spanish Chorizo or Salami, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "6 oz Sharp Cheddar, shredded",
+        "destination": 4,
+        "allocation": "3/4 step4;1/4step5"
+      },
+      {
+        "ingredient": "2 Scallions, finely chopped",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "2 tbsp Basil Pesto (homemade or storebought)",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Unsalted Butter (for the tin)",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      }
+    ],
+    "preparationAndAllocation": [
+      "Ready-to-eat meat and scallions whole2; eggs,pesto,salt,pepper whole3.",
+      "Cheddar3/4fold4 plus1/4top5, total1; butter separate tin allowance1."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prep: Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage."
+    },
+    {
+      "step": 2,
+      "text": "The Base: Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups."
+    },
+    {
+      "step": 3,
+      "text": "The Eggs: Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed."
+    },
+    {
+      "step": 4,
+      "text": "Fold: Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping."
+    },
+    {
+      "step": 5,
+      "text": "Fill: Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling."
+    },
+    {
+      "step": 6,
+      "text": "Bake: Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Air-dried Spanish chorizo or salami",
+      "alternative": "Cooked, chopped bacon in the same total weight as the listed cured meat (5 oz at the original batch)",
+      "effect": "Keeps the total meat amount; bacon must be cooked first and changes smokiness and fat."
+    },
+    {
+      "ingredient": "Basil pesto",
+      "alternative": "Red pesto in the same listed amount",
+      "effect": "Changes flavor and possibly allergens; keep the listed pesto amount."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "outgoingPairings": [
+      "avocado-kale-caesar-salad",
+      "brownie-protein-balls",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "scope": "No linked meal or recipe endorsed; all alternate methods remain one formula."
+  },
+  "ratiosYieldAndCapacity": {
+    "measuredIngredients": [
+      "12 large Eggs",
+      "5 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+      "6 oz Sharp Cheddar, shredded",
+      "2 Scallions, finely chopped",
+      "2 tbsp Basil Pesto (homemade or storebought)",
+      "Salt and Black Pepper",
+      "Unsalted Butter (for the tin)"
+    ],
+    "planningYield": "12 muffins",
+    "geometryAndCapacity": [
+      "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+      "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+    ],
+    "processAndTiming": "About 5–10 minutes chopping/mixing, 15–20 minutes baking as a first range and 5 minutes cooling give 25–35 minutes elapsed once the oven is ready. Additional batches add time.",
+    "measurementLimit": "Source/current planning yield; actual edible output, pan capacity and sensory outcomes are unmeasured."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3 large Eggs",
+        "1 1/4 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "1 1/2 oz Sharp Cheddar, shredded",
+        "1/2 Scallion, finely chopped",
+        "1/2 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "3 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "6 large Eggs",
+        "2 1/2 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "3 oz Sharp Cheddar, shredded",
+        "1 Scallion, finely chopped",
+        "1 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "6 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "12 large Eggs",
+        "5 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "6 oz Sharp Cheddar, shredded",
+        "2 Scallions, finely chopped",
+        "2 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "12 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "18 large Eggs",
+        "7 1/2 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "9 oz Sharp Cheddar, shredded",
+        "3 Scallions, finely chopped",
+        "3 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "18 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "24 large Eggs",
+        "10 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "12 oz Sharp Cheddar, shredded",
+        "4 Scallions, finely chopped",
+        "4 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "24 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "36 large Eggs",
+        "15 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "18 oz Sharp Cheddar, shredded",
+        "6 Scallions, finely chopped",
+        "6 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "36 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "12 large Eggs",
+        "5 oz ready-to-eat air-dried Spanish chorizo or salami, finely diced",
+        "6 oz Sharp Cheddar, shredded",
+        "2 Scallions, finely chopped",
+        "2 tbsp Basil Pesto (homemade or storebought)",
+        "Salt and Black Pepper",
+        "Unsalted Butter (for the tin)"
+      ],
+      "yield": "12 muffins",
+      "methods": "\n## Chef's Note\n\nUse ready-to-eat air-dried Spanish chorizo or salami, not raw sausage. Finely diced meat and scallions distribute their flavor through the eggs, while pesto is whisked into the base. The cured meat is already prepared; it does not need to render from raw to create a crisp bottom.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Grease standard muffin cups generously with the listed butter. The original batch uses about 12 cups; prepare more or fewer standard cups for different quantities, keeping the same fill depth. Use chorizo or salami labeled ready to eat, not a raw fresh sausage.\n\n2. **The Base:** Divide the diced ready-to-eat chorizo or salami and scallions evenly among the prepared cups.\n\n3. **The Eggs:** Whisk eggs with all the pesto and the salt and black pepper until blended without separate white streaks. No thick foam is needed.\n\n4. **Fold:** Stir three-quarters of the shredded cheddar into the egg mixture; save one-quarter for topping.\n\n5. **Fill:** Divide the egg mixture among the cups with about one-quarter headroom, stirring gently between pours to redistribute cheese. Sprinkle the reserved quarter of the cheese over the tops. Add extra cups if needed rather than overfilling.\n\n6. **Bake:** Bake for about 15–20 minutes as a first range, until the centers are set with no liquid egg and reach 165 °F / 74 °C. Cup size and fill depth change the clock; check without touching the metal tin and continue baking if needed.\n\n7. **Serve:** Let stand in the tin 5 minutes before loosening and removing. Refrigerate leftovers promptly, use within 3–4 days and reheat centers to 165 °F / 74 °C.\n",
+      "capacity": [
+        "Check the meat label for ready-to-eat status; the original air-dried chorizo does not authorize using raw Mexican-style chorizo.",
+        "Salt and pepper remain unmeasured allowances. Cured meat, pesto and cheddar already contribute salt; do not invent a measured extra dose. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "493885bb removed unused lemon; current proportional three-quarter/one-quarter cheese split retained."
+  ],
+  "remainingQuestions": [
+    "Confirm actual 12 cup count at three-quarter fill with 12 eggs plus cheese and meat.",
+    "Check actual cured-meat salt/fat and pesto strength; preserve quantities pending cooking evidence.",
+    "Record baked texture at 165 °F and reheating behavior."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

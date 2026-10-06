@@ -253,7 +253,7 @@
       "source": "Adapted from Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/16245/anadama-bread/",
       "group": "biscuits_rolls_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -263,7 +263,8 @@
       "inputSha256": "5992ac2eabffbed7c3984d4eaed89aac5132b46c673f0abb71d630dec689cc9e",
       "plannedBatch": "baked-savory-and-breads-01",
       "owner": "baking_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
     },
     {
       "slug": "anelletti-al-forno",
@@ -751,7 +752,7 @@
       "source": "Cambrea Gordon, Cambrea Bakes; earlier saved version",
       "sourceUrl": "https://cambreabakes.com/the-best-cinnamon-rolls/",
       "group": "biscuits_rolls_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -761,7 +762,8 @@
       "inputSha256": "7768b834d70e30e4f44089a0efd8f306aaeaba7ed0dbe79068bc13fcf397e386",
       "plannedBatch": "baked-sweets-01",
       "owner": "baking_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
     },
     {
       "slug": "best-homemade-brownies",
@@ -770,7 +772,7 @@
       "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
       "group": "chocolate_bakes_03",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/best-homemade-brownies.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -780,7 +782,8 @@
       "inputSha256": "c510264a25bd5b52da184bf95589de8c293b60088c5d1ca660eca15a3789bff6",
       "plannedBatch": "baked-sweets-01",
       "owner": "coverage_check",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
     },
     {
       "slug": "bibimbap",
@@ -1085,17 +1088,23 @@
       "source": "Adapted from superhealthykids.com",
       "sourceUrl": "https://www.superhealthykids.com/recipes/breakfast-egg-cups-recipe/",
       "group": "egg_bakes_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/breakfast-egg-cups.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record standard cup volume, pepper size and actual cup count at three-quarter fill.",
+        "Compare current 1 cup spinach against saved 3/4 cup without presuming the newer amount is a defect.",
+        "Measure center endpoint and microwave reheating time in actual equipment."
       ],
       "inputSha256": "74b25c7365ea7590c16cd14ddc377072c41824763f21a9c48fb4cb517754c0e4",
       "plannedBatch": "baked-savory-and-breads-02",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "74b25c7365ea7590c16cd14ddc377072c41824763f21a9c48fb4cb517754c0e4"
+      "assignmentInputSha256": "74b25c7365ea7590c16cd14ddc377072c41824763f21a9c48fb4cb517754c0e4",
+      "acceptedSourceSha256": "c2c16c54b181787d3f84685b2f0df21f98306b2cd8c7deee6d62fb92a79b37f8",
+      "productionVerification": "pending"
     },
     {
       "slug": "breakfast-protein-biscuits",
@@ -1481,7 +1490,7 @@
       "source": "butfirstwebrunch.com",
       "sourceUrl": "https://butfirstwebrunch.com/cast-iron-biscuits/",
       "group": "biscuits_rolls_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/cast-iron-buttermilk-biscuits.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -1491,7 +1500,8 @@
       "inputSha256": "bfe7f2fe5b934d867a01c587bd54535edbba6c469fd2a0258555b2ffab299ad2",
       "plannedBatch": "baked-savory-and-breads-03",
       "owner": "baking_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
     },
     {
       "slug": "cauliflower-alfredo-sauce",
@@ -1678,17 +1688,17 @@
       "source": "Adapted from campmicah.com",
       "sourceUrl": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/",
       "group": "beef_lamb_mains_01",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Ketchup bottle and carrot-bag sizes are absent in exactnative, earlierHTML, firstMarkdown and complete laterhistory; liveCampMicah fetch unavailable. Source brisket has no weight;4–5 lb/12 portions are bulk 59 a 6188 e additions. No reliable sauce-to-meat/capacity or 1½–2 hour tender guarantee is established."
       ],
       "inputSha256": "9245bcdd9c037f5f9e9a7b284213c4353009a1d533a013a7347a32ae4f3ba921",
       "plannedBatch": "braises-and-slow-cooking-01",
       "owner": "poultry_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Author whole hold; no acceptance or endorsement",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
     },
     {
       "slug": "chewy-chocolate-meringues",
@@ -1697,7 +1707,7 @@
       "source": "Adapted from Riki Shore",
       "sourceUrl": "https://food52.com/recipes/16997-chewy-chocolate-meringues",
       "group": "chocolate_bakes_03",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1707,7 +1717,8 @@
       "inputSha256": "c7bd7951578473b18594e4f163f40b1a92ab432156a4ae7bad4a15c749dae4ba",
       "plannedBatch": "baked-sweets-01",
       "owner": "coverage_check",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
     },
     {
       "slug": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
@@ -2030,17 +2041,19 @@
       "source": "Adapted from The Ritz-Carlton, Cancun",
       "sourceUrl": null,
       "group": "chocolate_bakes_03",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm exact intended cream reservation from1½cups total, or actual original author correction.",
+        "Confirm prepared filled volume/headroom and intended eight6ozcups versus later9×13dish; different baking schedules cannot be assumed equivalent.",
+        "Confirm all2cupsicecream serve allocation and actual portion yield; current45minute total does not account clearly for15minute soaking."
       ],
       "inputSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
       "plannedBatch": "baked-sweets-01",
       "owner": "coverage_check",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Author whole hold; no acceptance or endorsement",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
     },
     {
       "slug": "chocolate-chia-pudding",
@@ -2771,17 +2784,23 @@
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/",
       "group": "egg_bakes_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/crustless-sausage-and-spinach-quiche.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual kosher salt brand/crystal and sensory result without inventing a gram conversion.",
+        "Record sausage package weight/link count, pie-dish depth and final custard capacity.",
+        "Measure skillet, bake and rest elapsed times and slice texture at 165 °F."
       ],
       "inputSha256": "2a1bbd4b6be1070e09dfa7e3fdda8a1f1a5d0776b5601796594f55b78975eede",
       "plannedBatch": "baked-savory-and-breads-04",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "2a1bbd4b6be1070e09dfa7e3fdda8a1f1a5d0776b5601796594f55b78975eede"
+      "assignmentInputSha256": "2a1bbd4b6be1070e09dfa7e3fdda8a1f1a5d0776b5601796594f55b78975eede",
+      "acceptedSourceSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a",
+      "productionVerification": "pending"
     },
     {
       "slug": "crustless-spinach-quiche",
@@ -3665,8 +3684,8 @@
       "title": "Gambas al Ajillo",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "seafood_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3674,7 +3693,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d70ada86c837fca3a1588d47b4687e4af9f62eded2c84c6ea51358eb2e7ebaef",
-      "plannedBatch": "context-screening-02"
+      "plannedBatch": "context-screening-02",
+      "assignedTo": "poultry_editor",
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
     },
     {
       "slug": "garlic-butter-green-beans",
@@ -4231,17 +4252,23 @@
       "source": "Adapted from iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/ham-and-cheese-quiche/",
       "group": "egg_bakes_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/ham-and-cheese-quiche.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual deep-shell internal depth/capacity and whether filling with optional bacon fits.",
+        "Test chosen shell-specific parbake and bottom-crust result.",
+        "Record bake time at 165 °F, slice firmness after 10 minutes and reheating texture."
       ],
       "inputSha256": "950a5aef8a89960137342358517d0739a73b02844081d7925ff623909067e2fc",
       "plannedBatch": "baked-savory-and-breads-06",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "950a5aef8a89960137342358517d0739a73b02844081d7925ff623909067e2fc"
+      "assignmentInputSha256": "950a5aef8a89960137342358517d0739a73b02844081d7925ff623909067e2fc",
+      "acceptedSourceSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c",
+      "productionVerification": "pending"
     },
     {
       "slug": "hamantaschen",
@@ -4580,17 +4607,23 @@
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/best-frittata-recipe/",
       "group": "egg_bakes_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/how-to-make-frittatas-stovetop-or-baked.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure cooked yield and moisture for actual spinach/zucchini/pepper mix.",
+        "Record six portions versus native/publisher eight and whether 18 standard muffin cups fits the actual mixture.",
+        "Compare three methods at 160 °F and actual elapsed time; evaluate cold leftovers before assuming freezer quality."
       ],
       "inputSha256": "bc26cbc37cf869aa634340a92c10c9cc4043bbbf22572d1210acf34a04ed665a",
       "plannedBatch": "baked-savory-and-breads-07",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "bc26cbc37cf869aa634340a92c10c9cc4043bbbf22572d1210acf34a04ed665a"
+      "assignmentInputSha256": "bc26cbc37cf869aa634340a92c10c9cc4043bbbf22572d1210acf34a04ed665a",
+      "acceptedSourceSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927",
+      "productionVerification": "pending"
     },
     {
       "slug": "in-the-park",
@@ -4650,17 +4683,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "beef_lamb_mains_01",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The exactGit-created mirin alternative says brown sugar+water without proportions. The original/current onion sauté uses unlistedpinchsalt and no specifiedfat or cookingliquid. Adding oil or spending an invented fraction of the measuredstock would silently create a new formula; a complete alternative/cooking clarification is needed."
       ],
       "inputSha256": "bebd1baa852b87e45ffa6c4639b0a8477afcd79d9e47a42201e2b5af99a3404d",
       "plannedBatch": "simmer-boil-and-steam-06",
       "owner": "poultry_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Author whole hold; no acceptance or endorsement",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
     },
     {
       "slug": "japanese-style-trout-with-dashi",
@@ -4769,7 +4802,7 @@
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
       "group": "chocolate_bakes_03",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4779,7 +4812,8 @@
       "inputSha256": "516dd4337fbce7a9cd853db6cceb7ba4e89ccfd90ed02950e35fdd82c1cea8e8",
       "plannedBatch": "baked-sweets-04",
       "owner": "coverage_check",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
     },
     {
       "slug": "keto-egg-muffins",
@@ -4788,17 +4822,24 @@
       "source": "Adapted from dietdoctor.com",
       "sourceUrl": "https://www.dietdoctor.com/recipes/keto-egg-muffins",
       "group": "egg_bakes_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/source-restorations-2026-10-05.md",
+        "docs/reviews/keto-egg-muffins.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual 12 cup count at three-quarter fill with 12 eggs plus cheese and meat.",
+        "Check actual cured-meat salt/fat and pesto strength; preserve quantities pending cooking evidence.",
+        "Record baked texture at 165 °F and reheating behavior."
       ],
       "inputSha256": "c273f5547a216e54be88bbad30867e3605798a3a71a9efa8607d292b69d58aa0",
       "plannedBatch": "baked-savory-and-breads-07",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "c273f5547a216e54be88bbad30867e3605798a3a71a9efa8607d292b69d58aa0"
+      "assignmentInputSha256": "c273f5547a216e54be88bbad30867e3605798a3a71a9efa8607d292b69d58aa0",
+      "acceptedSourceSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff",
+      "productionVerification": "pending"
     },
     {
       "slug": "key-lime-pie-ice-cream",
@@ -4994,17 +5035,23 @@
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/",
       "group": "egg_bakes_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/loaded-baked-omelet-muffins.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual 12 cup yield and filling headroom with the household standard tin.",
+        "Record actual spinach product preparation and measured drained yield.",
+        "Check reheated texture and center temperature from chilled and frozen."
       ],
       "inputSha256": "b6c593b79e08908211cff2aa4cd99f6e92a2bc771ad8cd0ccaec8e5091e9891a",
       "plannedBatch": "baked-savory-and-breads-07",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "b6c593b79e08908211cff2aa4cd99f6e92a2bc771ad8cd0ccaec8e5091e9891a"
+      "assignmentInputSha256": "b6c593b79e08908211cff2aa4cd99f6e92a2bc771ad8cd0ccaec8e5091e9891a",
+      "acceptedSourceSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7",
+      "productionVerification": "pending"
     },
     {
       "slug": "made-in-the-pan-chocolate-cake",
@@ -5116,7 +5163,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "beef_lamb_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5126,7 +5173,8 @@
       "inputSha256": "4a0984d76816a52aa42ceb0425105f65dcaec1eb3394b51bea958491e053a999",
       "plannedBatch": "roast-grill-and-sear-03",
       "owner": "poultry_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
     },
     {
       "slug": "marinated-korean-ribeye",
@@ -5221,7 +5269,7 @@
       "source": "Adapted from Chabad.org",
       "sourceUrl": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
       "group": "beef_lamb_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5231,7 +5279,8 @@
       "inputSha256": "0d1dc6ea4180831cc87b0060d052ada0ad17e2f89afdf5128a246963ea20dd17",
       "plannedBatch": "braises-and-slow-cooking-02",
       "owner": "poultry_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
     },
     {
       "slug": "misir-wot",
@@ -5449,7 +5498,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "biscuits_rolls_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5459,7 +5508,8 @@
       "inputSha256": "a24644e988d22414514368c9898fdf0ad9f21c05ead5617175b91ed541235941",
       "plannedBatch": "baked-savory-and-breads-07",
       "owner": "baking_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
     },
     {
       "slug": "no-cook-playdough",
@@ -6144,7 +6194,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/quadruple-chocolate-brownies",
       "group": "chocolate_bakes_03",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6154,7 +6204,8 @@
       "inputSha256": "7984acda6b8027d889407192dc2698490ea098c80556b30116cd8dac566075c3",
       "plannedBatch": "baked-sweets-06",
       "owner": "coverage_check",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
     },
     {
       "slug": "queso-fundido-with-chorizo",
@@ -6180,7 +6231,7 @@
       "source": "Adapted from Seriouseats.com",
       "sourceUrl": "http://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html",
       "group": "biscuits_rolls_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6190,7 +6241,8 @@
       "inputSha256": "a128bbf5dfa98f50bb2b535069085aaf0bad18f58f40e3d18ec5678a0a5d0f94",
       "plannedBatch": "baked-savory-and-breads-08",
       "owner": "baking_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/biscuits_rolls_02/results.json"
     },
     {
       "slug": "quick-lamb-ragu",
@@ -6199,7 +6251,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share",
       "group": "beef_lamb_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6209,7 +6261,8 @@
       "inputSha256": "e1b8e296e3cbd90410bb7b6eb336e206f1a00715ea70b51ef2593df799ddfa52",
       "plannedBatch": "braises-and-slow-cooking-02",
       "owner": "poultry_editor",
-      "reviewPhase": "Whole editorial author review in progress"
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
     },
     {
       "slug": "quick-pickled-cucumber-salad",
@@ -6950,8 +7003,8 @@
       "title": "Seafood-Chorizo Tacos",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/seafood-chorizo-tacos",
-      "group": null,
-      "status": "queued",
+      "group": "seafood_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6959,7 +7012,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "988b9811179aca1e98303248559d3020c2bde9994cbdc260efaacd6ad742c75e",
-      "plannedBatch": "stir-fry-and-pan-cooking-05"
+      "plannedBatch": "stir-fry-and-pan-cooking-05",
+      "assignedTo": "poultry_editor",
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
     },
     {
       "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
@@ -6967,8 +7022,8 @@
       "title": "Seared Scallops with Corn & Avocado Relish",
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/seared-scallops-with-a-corn-bacon-and-avocado-relish-3414406",
-      "group": null,
-      "status": "queued",
+      "group": "seafood_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6976,7 +7031,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "77da2044fd53103d4937c3e5b67b56a8fc6f7557deb7f79a6f4a6f1aead4e314",
-      "plannedBatch": "context-screening-04"
+      "plannedBatch": "context-screening-04",
+      "assignedTo": "poultry_editor",
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
     },
     {
       "slug": "seasoned-bean-sprouts",
@@ -7132,8 +7189,8 @@
       "title": "Sheet Pan Pineapple Shrimp Tacos",
       "source": "Adapted from delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "seafood_pan_02",
+      "status": "assigned",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
         "docs/repairs/2026-09-15/changed-files.json"
@@ -7144,7 +7201,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "17a5eb8a596f921ba5b804a03eabad9f3d767a36f1c04aa9082c5e677cf961c7",
-      "plannedBatch": "baked-savory-and-breads-10"
+      "plannedBatch": "baked-savory-and-breads-10",
+      "assignedTo": "poultry_editor",
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
     },
     {
       "slug": "sheet-pan-shrimp-fajitas",
@@ -7152,8 +7211,8 @@
       "title": "Sheet Pan Shrimp Fajitas",
       "source": "healthyfitnessmeals.com",
       "sourceUrl": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/",
-      "group": null,
-      "status": "queued",
+      "group": "seafood_pan_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/sheet-pan-shrimp-fajitas.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7161,7 +7220,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "fe0d95c52890bd20edc03cd71253b406dfda8a3a213518691a76967725ce9ecb",
-      "plannedBatch": "roast-grill-and-sear-04"
+      "plannedBatch": "roast-grill-and-sear-04",
+      "assignedTo": "poultry_editor",
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
     },
     {
       "slug": "shrimp-and-corn-chowder",
@@ -7187,18 +7248,24 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share",
       "group": "shrimp_pan_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shrimp-and-mango-tacos.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual tortilla size/filling distribution and pan batch count.",
+        "Record preparation/seed-toasting time and mango ripeness texture.",
+        "Choose chili heat without assuming pepper equivalence."
       ],
       "inputSha256": "69df82f9c41da924f1c1ace6f6f3afce3c6cae9f3fc4cc9c7cd28ee2ca1c915a",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
       "assignmentInputCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
       "assignmentInputSha256": "69df82f9c41da924f1c1ace6f6f3afce3c6cae9f3fc4cc9c7cd28ee2ca1c915a",
-      "reviewPhase": "complete author review; independent challenge and root acceptance pending"
+      "reviewPhase": "complete author review; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-and-sweet-potato-noodle-stir-fry",
@@ -7207,18 +7274,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "shrimp_pan_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shrimp-and-sweet-potato-noodle-stir-fry.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual dangmyeon package and rinse instruction.",
+        "Measure final wok capacity and pan load count.",
+        "Record coating/starch glaze and center cooking without overcooking shrimp."
       ],
       "inputSha256": "f2d9ba47107b573050c68561f9e8c334ef710f43b691df652f0c44ff2bb5b980",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
       "assignmentInputCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
       "assignmentInputSha256": "f2d9ba47107b573050c68561f9e8c334ef710f43b691df652f0c44ff2bb5b980",
-      "reviewPhase": "complete author review; independent challenge and root acceptance pending"
+      "reviewPhase": "complete author review; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-fettuccine-alfredo",
@@ -7254,18 +7327,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "shrimp_pan_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shrimp-lobster-sauce.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check egg-ribbon texture while meeting160°F pork/egg endpoint.",
+        "Measure sauce thickening and pan capacity at scaled batches.",
+        "Compare source molasses alternative before preference decisions."
       ],
       "inputSha256": "b24cab0a7efceb8f4c6914246b76244ae784402cffbb29b011af0e2e71a329aa",
       "plannedBatch": "stir-fry-and-pan-cooking-06",
       "assignmentInputCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
       "assignmentInputSha256": "b24cab0a7efceb8f4c6914246b76244ae784402cffbb29b011af0e2e71a329aa",
-      "reviewPhase": "complete author review; independent challenge and root acceptance pending"
+      "reviewPhase": "complete author review; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "824ff0317f161245538a009f59f996e3b9f822032f9a33dd90a79ab5545b0a49",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-with-black-bean-sauce",
@@ -7274,18 +7353,24 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/shrimp-black-bean-sauce/",
       "group": "shrimp_pan_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shrimp-with-black-bean-sauce.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Challenge proposed exact sugar/pepper restoration against any household decision not in Git.",
+        "Check actual slurry use and160°F sauce/ribbon texture.",
+        "Measure twoportion claim and rice service separately."
       ],
       "inputSha256": "3f668c3c76d1d3db2df025df250c8a5ba099e16adce5a000a941c95319f10396",
       "plannedBatch": "stir-fry-and-pan-cooking-06",
       "assignmentInputCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
       "assignmentInputSha256": "3f668c3c76d1d3db2df025df250c8a5ba099e16adce5a000a941c95319f10396",
-      "reviewPhase": "complete author review; independent challenge and root acceptance pending"
+      "reviewPhase": "complete author review; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-wonton-soup",
@@ -7863,8 +7948,8 @@
       "title": "Mussels with Chorizo Broth",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth",
-      "group": null,
-      "status": "queued",
+      "group": "seafood_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7872,7 +7957,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b4d8ec87a19af6f17dae6a2b7ab70bc551941a59cc8879a3de18e3cb99c6d34c",
-      "plannedBatch": "simmer-boil-and-steam-10"
+      "plannedBatch": "simmer-boil-and-steam-10",
+      "assignedTo": "poultry_editor",
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
     },
     {
       "slug": "steel-cut-oatmeal",
@@ -8336,18 +8423,24 @@
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/coconut-curry-shrimp/",
       "group": "shrimp_pan_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/thai-red-curry-shrimp.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/thai-red-curry-shrimp.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual yield with separately prepared rice.",
+        "Check actual curry-paste composition/heat and desired half/full can choice.",
+        "Measure vegetable tenderness and shrimp finish for householdpan."
       ],
       "inputSha256": "8d351f9cf53be6389eda0341020d9b759f41c48b7f295a30d07a5c81706b565f",
       "plannedBatch": "simmer-boil-and-steam-11",
       "assignmentInputCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
       "assignmentInputSha256": "8d351f9cf53be6389eda0341020d9b759f41c48b7f295a30d07a5c81706b565f",
-      "reviewPhase": "complete author review; independent challenge and root acceptance pending"
+      "reviewPhase": "complete author review; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "946bac13e44716c64a08d34584fc5a97985d43ef4dfb2e24e335b46858613afb",
+      "productionVerification": "pending"
     },
     {
       "slug": "the-best-belgian-waffles",
@@ -8795,18 +8888,25 @@
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/257004/zucchini-noodles-with-avocado-pesto-shrimp/",
       "group": "shrimp_pan_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/zucchini-noodles-with-avocado-pesto-and-shrimp.md",
+        "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual five-zucchini prepared mass, seedy-core discard and colander capacity.",
+        "Test restored full6tbsp oil distribution and salt with actual seafood seasoning.",
+        "Measure spiralizing/draining overlap and pan loads.",
+        "Check pesto color/strand texture after refrigeration; best freshly combined."
       ],
       "inputSha256": "0629c29372f15624d3ddd6a5fc284b5bcbcaf76740b26b46a65ad0ade7365fe6",
       "plannedBatch": "context-screening-04",
       "assignmentInputCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
       "assignmentInputSha256": "0629c29372f15624d3ddd6a5fc284b5bcbcaf76740b26b46a65ad0ade7365fe6",
-      "reviewPhase": "complete author review; independent challenge and root acceptance pending"
+      "reviewPhase": "complete author review; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "a39feebef8958af6830cf1829cb468cb0a06ee140b740f7cbcb48e5991a5deed",
+      "productionVerification": "pending"
     },
     {
       "slug": "zuppa-toscana",
@@ -9543,11 +9643,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
+    "accepted": 12,
+    "assigned": 11,
+    "held": 16,
+    "held-awaiting-evidence": 2,
     "production-verified": 100,
-    "held": 13,
-    "assigned": 20,
-    "queued": 198,
     "proposed": 76,
-    "held-awaiting-evidence": 2
+    "queued": 192
   }
 }

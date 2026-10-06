@@ -7,12 +7,27 @@ const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 
 
 test('shrimp sauce lists its aromatics and slurry and finishes pork and egg safely', () => {
   const { data, content } = read('shrimp-with-black-bean-sauce');
+  assert.equal(data.formula?.version, 1);
+  for (const [componentId, ingredientId, quantity, preparation, uses] of [
+    ['base', 'oil', { amount: 2, unit: 'tbsp' }, undefined, [{ step: 'sear', share: 1 }]],
+    ['base', 'garlic', { amount: 1, unit: 'count' }, 'minced', [{ step: 'sear', share: 1 }]],
+    ['base', 'ginger', { amount: '1/4', unit: 'tsp' }, 'minced', [{ step: 'sear', share: 1 }]],
+    ['slurry', 'water', { amount: 2, unit: 'tbsp' }, undefined, [{ step: 'bind', share: 1 }]],
+    ['slurry', 'starch', { amount: '5/2', unit: 'tbsp' }, undefined, [{ step: 'bind', share: 1 }]],
+  ]) {
+    const ingredient = data.formula.components
+      .find((component) => component.id === componentId)
+      .ingredients.find((item) => item.id === ingredientId);
+    assert.deepEqual(ingredient.quantity, quantity, ingredientId);
+    assert.equal(ingredient.preparation, preparation, ingredientId);
+    assert.deepEqual(ingredient.uses, uses, ingredientId);
+  }
   for (const ingredient of [
-    '2 tbsp Vegetable Oil',
-    '1 clove Garlic, minced',
-    '1/4 tsp Fresh Ginger, minced',
-    '2 tbsp Cold Water, for the slurry',
-    '2 1/2 tbsp Cornstarch, for the slurry',
+    '2 tbsp vegetable oil',
+    '1 garlic clove, minced',
+    '1/4 tsp fresh ginger, minced',
+    '2 tbsp cold water',
+    '2 1/2 tbsp cornstarch',
   ])
     assert.ok(data.ingredients.includes(ingredient), ingredient);
   assert.match(content, /immediate further cooking/);

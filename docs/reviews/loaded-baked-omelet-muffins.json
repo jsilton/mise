@@ -1,0 +1,605 @@
+{
+  "slug": "loaded-baked-omelet-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "b6c593b79e08908211cff2aa4cd99f6e92a2bc771ad8cd0ccaec8e5091e9891a",
+  "acceptedSourceSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35–40 min (from prepared bacon and spinach)"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 140,
+        "protein": 8,
+        "carbs": 6.5,
+        "fat": 9,
+        "fiber": 1.5,
+        "sugar": 3.5,
+        "sodium": 350
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control vegetable moisture in egg muffins",
+        "outcome": "Small savory fillings are dispersed through set egg, without puddles from thawed spinach.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+          "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Spinach no longer releases a stream when squeezed and bacon is cooked.",
+            "why": "The ingredient state affects both water release and the preparation schedule."
+          },
+          {
+            "step": 5,
+            "cue": "Centers measure 165 °F and no liquid egg remains.",
+            "why": "This meat-containing bake uses the higher casserole endpoint, rather than assuming browned tops are enough."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Muffins are watery",
+            "cause": "Spinach was not drained or tomatoes were cut in large wet pieces.",
+            "fix": "Squeeze spinach after package preparation and dice the tomato finely; retain the actual measured amounts."
+          },
+          {
+            "problem": "Reheated edges are rubbery but center is cold",
+            "cause": "Microwave heated unevenly, especially from frozen.",
+            "fix": "Use short intervals, rotate or rearrange portions, allow a brief stand and check the center before serving."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Sharp cheddar",
+            "alternative": "Mozzarella or Swiss in the same listed total weight",
+            "effect": "Different melting and salt intensity; keep the listed total cheese weight."
+          }
+        ],
+        "timing": "From prepared bacon and spinach, about 10 minutes assembly, 20–25 minutes baking and 5 minutes cooling give 35–40 minutes elapsed. Include bacon cooking and package-required spinach cooking/cooling when starting earlier in the process.",
+        "storage": "Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in shallow containers at 40°F / 4°C or below. Use refrigerated portions within 3–4 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion size and starting temperature change the time, so use short intervals and check the center.",
+        "sources": [
+          {
+            "title": "Adapted from skinnytaste.com",
+            "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+          },
+          {
+            "title": "FDA egg cooking, cold holding and reheating",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are ideal for breakfast meal prep. The secret to avoiding the rubbery, watery texture of most egg muffins is squeezing the thawed spinach in a towel until bone-dry before adding to the eggs. Placing the bacon and diced vegetables at the bottom of the tin ensures they develop a slight crisp against the metal, providing a savory foundation for the fluffy egg top.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Spray a 12-cup muffin tin generously with oil spray.\n2.  **The Base:** Divide the bacon, dry spinach, tomatoes, onions, and peppers evenly among the 12 cups.\n3.  **Aeration:** In a large bowl, whisk the eggs, salt, and pepper until very frothy and no streaks remain.\n4.  **Assemble:** Pour the egg mixture into the cups, filling each about 3/4 full. Sprinkle the cheese over the tops.\n5.  **Bake:** Bake for 20-25 minutes until the centers are firm and the tops are slightly golden and puffed.\n6.  **Store:** Let cool for 5 minutes before removing. These can be frozen for up to 3 months and reheated in 45 seconds.\n",
+    "after": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n"
+  },
+  "findings": [
+    {
+      "id": "EG-1",
+      "field": "Chef note",
+      "rationale": "Native/045e5ba2/publisher agree on 9 eggs,3 tbsp each vegetable,2ozcheddar and cooked bacon. Retain current layering/cheese topping as a published adaptation instead of asserting it creates crispness. Publisher freezer 3months is a quality plan under cold holding; its short microwave estimate is not an endpoint.",
+      "confidence": "high for provenance corrections; sensory outcome untested",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-2",
+      "field": "Directions",
+      "rationale": "Complete recipe-specific ingredient destinations, state, capacity, endpoint and elapsed-time correction; see individual source disagreement.",
+      "confidence": "high for ingredient tracking and applicable safety; moderate for planning ranges",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-3",
+      "field": "cookTime",
+      "rationale": "From prepared bacon and spinach, about 10 minutes assembly,20–25 minutes baking and 5 minutes cooling give 35–40 minutes elapsed. Include bacon cooking and package-required spinach cooking/cooling when starting earlier in the process.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-4",
+      "field": "totalTime",
+      "rationale": "From prepared bacon and spinach, about 10 minutes assembly,20–25 minutes baking and 5 minutes cooling give 35–40 minutes elapsed. Include bacon cooking and package-required spinach cooking/cooling when starting earlier in the process.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-5",
+      "field": "nutrition",
+      "rationale": "Unsupported legacy estimates withheld; no manufactured replacement.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "EG-6",
+      "field": "learning",
+      "rationale": "Recipe-specific complete teaching and applicability; no kitchen-tested claim.",
+      "confidence": "editorial",
+      "applicableSources": [
+        {
+          "title": "Adapted from skinnytaste.com",
+          "url": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/loaded-baked-omelet-muffins.md",
+    "introductionScope": "Verified retained earlier canonical cooking text; not a claim that this is the oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Modern publisher differences and exact saved/current formula choices are independently documented; publisher changes do not silently replace the retained recipe.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Native/045e5ba2/publisher agree on 9 eggs,3 tbsp each vegetable,2ozcheddar and cooked bacon. Retain current layering/cheese topping as a published adaptation instead of asserting it creates crispness. Publisher freezer 3months is a quality plan under cold holding; its short microwave estimate is not an endpoint.",
+  "ledger": {
+    "final": [
+      {
+        "ingredient": "9 large Eggs",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 slices Bacon, cooked and chopped",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "2 oz Sharp Cheddar, shredded",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Frozen Spinach, thawed and squeezed dry",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Roma Tomato, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Onion, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Bell Pepper, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 tsp Kosher Salt",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Black Pepper",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Cooking spray",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      }
+    ],
+    "frozen": [
+      {
+        "ingredient": "9 large Eggs",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 slices Bacon, cooked and chopped",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "2 oz Sharp Cheddar, shredded",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Frozen Spinach, thawed and squeezed dry",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Roma Tomato, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Onion, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "3 tbsp Bell Pepper, finely diced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 tsp Kosher Salt",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Black Pepper",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Cooking spray",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      }
+    ],
+    "preparationAndAllocation": [
+      "Bacon already cooked before2; frozen spinach package preparation/cool/squeeze/measure1 then divide2.",
+      "Tomato/onion/pepper whole divided2; eggs/salt/pepper whole3 then4; cheddar all4; spray1."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prep: Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done."
+    },
+    {
+      "step": 2,
+      "text": "The Base: Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth."
+    },
+    {
+      "step": 3,
+      "text": "The Eggs: Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam."
+    },
+    {
+      "step": 4,
+      "text": "Assemble: Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check."
+    },
+    {
+      "step": 6,
+      "text": "Cool and store: Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Sharp cheddar",
+      "alternative": "Mozzarella or Swiss in the same listed total weight",
+      "effect": "Different melting and salt intensity; keep the listed total cheese weight."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "outgoingPairings": ["avocado-kale-caesar-salad", "steamed-broccoli", "brownie-protein-balls"],
+    "scope": "No linked meal or recipe endorsed; all alternate methods remain one formula."
+  },
+  "ratiosYieldAndCapacity": {
+    "measuredIngredients": [
+      "9 large Eggs",
+      "3 slices Bacon, cooked and chopped",
+      "2 oz Sharp Cheddar, shredded",
+      "3 tbsp Frozen Spinach, thawed and squeezed dry",
+      "3 tbsp Roma Tomato, finely diced",
+      "3 tbsp Onion, finely diced",
+      "3 tbsp Bell Pepper, finely diced",
+      "1/4 tsp Kosher Salt",
+      "Black Pepper",
+      "Cooking spray"
+    ],
+    "planningYield": "12 muffins",
+    "geometryAndCapacity": [
+      "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+      "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+    ],
+    "processAndTiming": "From prepared bacon and spinach, about 10 minutes assembly, 20–25 minutes baking and 5 minutes cooling give 35–40 minutes elapsed. Include bacon cooking and package-required spinach cooking/cooling when starting earlier in the process.",
+    "measurementLimit": "Source/current planning yield; actual edible output, pan capacity and sensory outcomes are unmeasured."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 1/4 large Eggs",
+        "3/4 slices Bacon, cooked and chopped",
+        "1/2 oz Sharp Cheddar, shredded",
+        "3/4 tbsp Frozen Spinach, thawed and squeezed dry",
+        "3/4 tbsp Roma Tomato, finely diced",
+        "3/4 tbsp Onion, finely diced",
+        "3/4 tbsp Bell Pepper, finely diced",
+        "0.0625 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "3 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 large Eggs",
+        "1 1/2 slices Bacon, cooked and chopped",
+        "1 oz Sharp Cheddar, shredded",
+        "1 1/2 tbsp Frozen Spinach, thawed and squeezed dry",
+        "1 1/2 tbsp Roma Tomato, finely diced",
+        "1 1/2 tbsp Onion, finely diced",
+        "1 1/2 tbsp Bell Pepper, finely diced",
+        "1/8 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "6 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "9 large Eggs",
+        "3 slices Bacon, cooked and chopped",
+        "2 oz Sharp Cheddar, shredded",
+        "3 tbsp Frozen Spinach, thawed and squeezed dry",
+        "3 tbsp Roma Tomato, finely diced",
+        "3 tbsp Onion, finely diced",
+        "3 tbsp Bell Pepper, finely diced",
+        "1/4 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "12 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "13 1/2 large Eggs",
+        "4 1/2 slices Bacon, cooked and chopped",
+        "3 oz Sharp Cheddar, shredded",
+        "4 1/2 tbsp Frozen Spinach, thawed and squeezed dry",
+        "4 1/2 tbsp Roma Tomato, finely diced",
+        "4 1/2 tbsp Onion, finely diced",
+        "4 1/2 tbsp Bell Pepper, finely diced",
+        "3/8 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "18 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "18 large Eggs",
+        "6 slices Bacon, cooked and chopped",
+        "4 oz Sharp Cheddar, shredded",
+        "6 tbsp Frozen Spinach, thawed and squeezed dry",
+        "6 tbsp Roma Tomato, finely diced",
+        "6 tbsp Onion, finely diced",
+        "6 tbsp Bell Pepper, finely diced",
+        "1/2 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "24 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "27 large Eggs",
+        "9 slices Bacon, cooked and chopped",
+        "6 oz Sharp Cheddar, shredded",
+        "9 tbsp Frozen Spinach, thawed and squeezed dry",
+        "9 tbsp Roma Tomato, finely diced",
+        "9 tbsp Onion, finely diced",
+        "9 tbsp Bell Pepper, finely diced",
+        "3/4 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "36 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "9 large Eggs",
+        "3 slices Bacon, cooked and chopped",
+        "2 oz Sharp Cheddar, shredded",
+        "3 tbsp Frozen Spinach, thawed and squeezed dry",
+        "3 tbsp Roma Tomato, finely diced",
+        "3 tbsp Onion, finely diced",
+        "3 tbsp Bell Pepper, finely diced",
+        "1/4 tsp Kosher Salt",
+        "Black Pepper",
+        "Cooking spray"
+      ],
+      "yield": "12 muffins",
+      "methods": "\n## Chef's Note\n\nUse cooked bacon and thawed spinach squeezed free of excess water. Divide the finely diced vegetables among the cups, then add the eggs and cheese. The filling supplies savory flavor; a crisp bottom is not guaranteed once it is surrounded by moist egg.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.\n\n2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.\n\n3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.\n\n4. **Assemble:** Divide the eggs evenly among the filled cups, leaving about one-quarter headroom. Sprinkle all the cheddar over the tops. Use additional cups if needed rather than pouring over the rim.\n\n5. **Bake:** Bake for about 20–25 minutes, until the centers are set and opaque with no liquid egg, and reach 165 °F / 74 °C. Check a center without touching the metal tin; surface color does not replace the temperature check.\n\n6. **Cool and store:** Let stand 5 minutes before loosening and removing. Refrigerate promptly in shallow containers and use within 3–4 days, or freeze individually for up to 3 months for quality. Reheat the center to 165 °F / 74 °C; a fixed 45-second microwave time cannot cover chilled and frozen portions.\n",
+      "capacity": [
+        "The listed bacon is already cooked; cooking raw bacon adds work and time.",
+        "Thawed frozen spinach is not automatically ready to eat: follow its package cooking directions before cooling, squeezing and measuring. For a different quantity, keep standard cup size and the same fill depth; use more or fewer cups and additional tins or oven batches. Baking time does not multiply."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "No existing measured ingredient, source link or supported current adaptation removed."
+  ],
+  "remainingQuestions": [
+    "Confirm actual 12 cup yield and filling headroom with the household standard tin.",
+    "Record actual spinach product preparation and measured drained yield.",
+    "Check reheated texture and center temperature from chilled and frozen."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

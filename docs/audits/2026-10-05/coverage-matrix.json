@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 334,
-    "completeEditorialPending": 309,
+    "recordedCompleteEditorial": 346,
+    "completeEditorialPending": 297,
     "originalBaseline": 612,
-    "originalReviewed": 315,
+    "originalReviewed": 326,
     "consideredConsolidations": 10,
-    "originalPending": 287,
+    "originalPending": 276,
     "additionalSources": 41,
-    "additionalReviewed": 19,
-    "additionalPending": 22,
+    "additionalReviewed": 20,
+    "additionalPending": 21,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 334,
+      "editoriallyReviewed": 346,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 578
+      "reviewItems": 556
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "100 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 334 recorded complete / 309 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 9 accepted source versions match exact remote commit [d1ad45b0](https://github.com/jsilton/mise/commit/d1ad45b086f2b6a9c7020107bc9d26e2d8505029), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37412639469) and all 9 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "100 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2561,18 +2561,7 @@
       "baseline": "original canonical",
       "source": "Adapted from superhealthykids.com",
       "sourceUrl": "https://www.superhealthykids.com/recipes/breakfast-egg-cups-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2580,19 +2569,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/breakfast-egg-cups.md",
+        "acceptedSha256": "c2c16c54b181787d3f84685b2f0df21f98306b2cd8c7deee6d62fb92a79b37f8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/breakfast-egg-cups.json",
+        "sourceSha256": "c2c16c54b181787d3f84685b2f0df21f98306b2cd8c7deee6d62fb92a79b37f8"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record standard cup volume, pepper size and actual cup count at three-quarter fill.",
+        "Compare current 1 cup spinach against saved 3/4 cup without presuming the newer amount is a defect.",
+        "Measure center endpoint and microwave reheating time in actual equipment."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8276,18 +8272,7 @@
       "baseline": "original canonical",
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8295,19 +8280,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/crustless-sausage-and-spinach-quiche.md",
+        "acceptedSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/crustless-sausage-and-spinach-quiche.json",
+        "sourceSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual kosher salt brand/crystal and sensory result without inventing a gram conversion.",
+        "Record sausage package weight/link count, pie-dish depth and final custard capacity.",
+        "Measure skillet, bake and rest elapsed times and slice texture at 165 °F."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12889,18 +12881,7 @@
       "baseline": "original canonical",
       "source": "Adapted from iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/ham-and-cheese-quiche/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12908,19 +12889,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/ham-and-cheese-quiche.md",
+        "acceptedSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/ham-and-cheese-quiche.json",
+        "sourceSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual deep-shell internal depth/capacity and whether filling with optional bacon fits.",
+        "Test chosen shell-specific parbake and bottom-crust result.",
+        "Record bake time at 165 °F, slice firmness after 10 minutes and reheating texture."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14059,18 +14047,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/best-frittata-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -14078,19 +14055,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/how-to-make-frittatas-stovetop-or-baked.md",
+        "acceptedSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/how-to-make-frittatas-stovetop-or-baked.json",
+        "sourceSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure cooked yield and moisture for actual spinach/zucchini/pepper mix.",
+        "Record six portions versus native/publisher eight and whether 18 standard muffin cups fits the actual mixture.",
+        "Compare three methods at 160 °F and actual elapsed time; evaluate cold leftovers before assuming freezer quality."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14932,18 +14916,7 @@
       "baseline": "original canonical",
       "source": "Adapted from dietdoctor.com",
       "sourceUrl": "https://www.dietdoctor.com/recipes/keto-egg-muffins",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -14951,12 +14924,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/keto-egg-muffins.md",
+        "acceptedSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/keto-egg-muffins.json",
+        "sourceSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -14965,11 +14944,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual 12 cup count at three-quarter fill with 12 eggs plus cheese and meat.",
+        "Check actual cured-meat salt/fat and pesto strength; preserve quantities pending cooking evidence.",
+        "Record baked texture at 165 °F and reheating behavior."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15933,18 +15913,7 @@
       "baseline": "original canonical",
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15952,19 +15921,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/loaded-baked-omelet-muffins.md",
+        "acceptedSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/loaded-baked-omelet-muffins.json",
+        "sourceSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual 12 cup yield and filling headroom with the household standard tin.",
+        "Record actual spinach product preparation and measured drained yield.",
+        "Check reheated texture and center temperature from chilled and frozen."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23342,13 +23318,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23356,19 +23326,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/shrimp-and-mango-tacos.md",
+        "acceptedSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/shrimp-and-mango-tacos.json",
+        "sourceSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual tortilla size/filling distribution and pan batch count.",
+        "Record preparation/seed-toasting time and mango ripeness texture.",
+        "Choose chili heat without assuming pepper equivalence."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23420,18 +23397,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23439,19 +23405,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/shrimp-and-sweet-potato-noodle-stir-fry.md",
+        "acceptedSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/shrimp-and-sweet-potato-noodle-stir-fry.json",
+        "sourceSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual dangmyeon package and rinse instruction.",
+        "Measure final wok capacity and pan load count.",
+        "Record coating/starch glaze and center cooking without overcooking shrimp."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23550,18 +23523,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23569,19 +23531,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/shrimp-lobster-sauce.md",
+        "acceptedSha256": "824ff0317f161245538a009f59f996e3b9f822032f9a33dd90a79ab5545b0a49",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/shrimp-lobster-sauce.json",
+        "sourceSha256": "824ff0317f161245538a009f59f996e3b9f822032f9a33dd90a79ab5545b0a49"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check egg-ribbon texture while meeting160°F pork/egg endpoint.",
+        "Measure sauce thickening and pan capacity at scaled batches.",
+        "Compare source molasses alternative before preference decisions."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23669,18 +23638,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/shrimp-black-bean-sauce/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -23691,12 +23649,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/shrimp-with-black-bean-sauce.md",
+        "acceptedSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/shrimp-with-black-bean-sauce.json",
+        "sourceSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -23705,12 +23669,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Challenge proposed exact sugar/pepper restoration against any household decision not in Git.",
+        "Check actual slurry use and160°F sauce/ribbon texture.",
+        "Measure twoportion claim and rice service separately."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27523,13 +27487,7 @@
       "baseline": "addition",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/coconut-curry-shrimp/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27537,19 +27495,26 @@
         "evidence": ["docs/reviews/thai-red-curry-shrimp.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/thai-red-curry-shrimp.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "946bac13e44716c64a08d34584fc5a97985d43ef4dfb2e24e335b46858613afb",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/thai-red-curry-shrimp.json",
+        "sourceSha256": "946bac13e44716c64a08d34584fc5a97985d43ef4dfb2e24e335b46858613afb"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual yield with separately prepared rice.",
+        "Check actual curry-paste composition/heat and desired half/full can choice.",
+        "Measure vegetable tenderness and shrimp finish for householdpan."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29278,18 +29243,7 @@
       "baseline": "original canonical",
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/257004/zucchini-noodles-with-avocado-pesto-shrimp/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -29297,19 +29251,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/zucchini-noodles-with-avocado-pesto-and-shrimp.md",
+        "acceptedSha256": "a39feebef8958af6830cf1829cb468cb0a06ee140b740f7cbcb48e5991a5deed",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/zucchini-noodles-with-avocado-pesto-and-shrimp.json",
+        "sourceSha256": "a39feebef8958af6830cf1829cb468cb0a06ee140b740f7cbcb48e5991a5deed"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual five-zucchini prepared mass, seedy-core discard and colander capacity.",
+        "Test restored full6tbsp oil distribution and salt with actual seafood seasoning.",
+        "Measure spiralizing/draining overlap and pan loads.",
+        "Check pesto color/strand texture after refrigeration; best freshly combined."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

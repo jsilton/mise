@@ -4,9 +4,9 @@ title: Thai Red Curry Shrimp
 role: main
 vibe: quick
 difficulty: easy
-prepTime: 15 min
-cookTime: 10 min
-totalTime: 25 min
+prepTime: About 15–20 min active preparation
+cookTime: About 10–15 min cooking
+totalTime: 'About 25–35 min, excluding shrimp thawing and separate rice'
 servings: Yield not recorded
 cookingMethods:
   - saute
@@ -18,31 +18,71 @@ ingredients:
   - '1 pound large peeled, deveined shrimp (21/25 size)'
   - 2 cloves garlic (minced)
   - 2 slices ginger
-  - >-
-    ½ – 1 can Thai red curry paste (to make the recipe milder, use ½ a can; 1
-    can = 4 ounces/115g)
+  - 1/2–1 can Thai red curry paste (4 ounces/115 g per can; use the lower end of the listed range for less heat)
   - 2 teaspoons brown sugar (or palm sugar)
   - 1 medium onion (cut into small wedges or large diced)
   - ½ red bell pepper (thinly sliced)
   - 13.5 ounces full-fat coconut milk (1 can)
   - cilantro (optional garnish)
-  - 'salt (optional, to taste; not needed if using whole can of curry paste)'
+  - 'salt (optional, to taste after the shrimp and sauce finish cooking)'
 sourceUrl: 'https://thewoksoflife.com/coconut-curry-shrimp/'
 cuisines:
   - Thai
 origin: thewoksoflife.com
+learning:
+  focus: Finish shrimp after the coconut curry sauce and vegetables are ready
+  outcome: Cooked shrimp in gently simmered full-fat coconut curry with tender onion and pepper.
+  techniques:
+    - gentle-proteins
+  before:
+    - 'Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.'
+    - 'At the original batch, the curry-paste range is half to one 4 oz/115 g can. At any scale, use the lower end of the listed range for less heat; the can size stays fixed. Keep all the listed full-fat coconut milk.'
+    - 'Wash the pepper and optional cilantro, peel the onion and garlic, and prepare all the listed cuts before cooking. Half the listed neutral oil starts the shrimp; the other half cooks aromatics. Scale using additional complete pan loads, not repeated full doses or multiplied simmer times.'
+  checkpoints:
+    - step: 1
+      cue: Shrimp surfaces change color but still need further cooking.
+      why: A visual estimate of 75% cooked does not establish doneness.
+    - step: 3
+      cue: Sauce gently simmers and onion/pepper are as tender as wanted.
+      why: Finish the vegetables before returning shrimp; hard-boiling can make sauce grainy.
+    - step: 4
+      cue: 'Thickest shrimp centers are firm, pearly and opaque.'
+      why: The final minute is only a first check.
+  troubleshooting:
+    - problem: Shrimp get tough while vegetables soften
+      cause: Shrimp were returned before the sauce and vegetables were ready.
+      fix: 'Cook vegetables to the desired tenderness first, then return shrimp only for the final cooking stage.'
+  substitutions:
+    - ingredient: Brown sugar
+      alternative: The listed palm sugar at the same teaspoon amount
+      effect: Disperse into the curry stage; flavor changes without removing sweetness.
+    - ingredient: Thai red curry paste
+      alternative: 'Use the lower end of the listed paste range for less heat. In the original batch, this is half of a 4 oz/115 g can instead of the full can; scale both ends proportionally.'
+      effect: 'This replaces the stronger paste amount, rather than adding another dose. Taste the cooked finished sauce before adding the optional salt; paste composition and strength vary.'
+  timing: 'About 15–20 min active preparation; About 10–15 min cooking; About 25–35 min, excluding shrimp thawing and separate rice. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.'
+  storage: "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F / 74°C throughout. USDA additionally recommends bringing leftover sauces to a rolling boil; stir so heat reaches the whole curry and stop after that brief boil rather than reducing it for a long time. Prolonged boiling may change the coconut sauce's texture and firm the shrimp. These are handling recommendations, not a promise of unchanged texture."
+  sources:
+    - title: thewoksoflife.com
+      url: 'https://thewoksoflife.com/coconut-curry-shrimp/'
+    - title: FDA — Selecting and serving seafood safely
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely'
+    - title: USDA — Handling leftovers safely
+      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-Thai red curry paste supplies the spice and salt in this coconut sauce. Start with half the can for less heat. Cook the shrimp briefly at the start and finish them in the sauce only until opaque.
+Use the full-fat coconut milk and choose the listed curry-paste amount before cooking. Start the shrimp briefly, then make the sauce and cook the vegetables before returning them to finish. Keep the coconut sauce at a gentle simmer; shrimp centers, not an estimated percentage or a one-minute clock, tell you when to serve.
 
 ## Directions
 
-1. **Cook:** Heat a wok or large skillet over medium-high heat until. Add 1 tablespoon of oil, and spread it around to coat. Add the shrimp, and allow it to sear for 30 seconds on 1 side. Then stir-fry for 30 seconds, until the shrimp is 75% cooked (it should be mostly opaque). Turn off the heat, remove the shrimp to a bowl, and set aside.
+1. **Start shrimp:** Heat a wok or large skillet over medium-high heat. Add half the listed neutral oil and spread it over the pan. Add the prepared raw shrimp in a single layer and start checking after about 30 seconds on one side and 30 seconds stirring. The surface should begin to change color; no visual percentage proves doneness. Transfer to a temporary bowl for immediate further cooking in step 4. Divide this oil allowance across pan loads if necessary.
 
-2. **Continue:** Over medium heat, add the remaining tablespoon of oil to the pan, along with the garlic and ginger. Fry for 30 seconds, until fragrant. Increase the heat to medium-high, add the curry paste, and fry for another minute. Stir in the brown sugar. Then add the onion and pepper, and fry for 2 minutes.
+2. **Cook curry base:** Over medium heat, add the other half of the listed oil with all the garlic and ginger. Stir about 30 seconds until fragrant without scorching. Add the selected listed curry-paste amount (half to one 4 oz/115 g can at the original batch; scale the amount, not the can size) and fry about 1 minute, stirring. Add all the brown or palm sugar, then the onion and red bell pepper; cook about 2 minutes, stirring.
 
-3. **Continue:** Add the coconut milk. Bring to a simmer over medium-high heat. (From this point on, keep the curry at a simmer. Avoid boiling it too vigorously, or the coconut milk may split and have a grainy appearance.) Simmer for 2 minutes to thicken the sauce and cook the onions down.
+3. **Simmer sauce:** Stir in all the full-fat coconut milk and bring to a gentle simmer. Start checking after about 2 minutes; continue until the onion and pepper are as tender as wanted before returning shrimp. Reduce heat rather than boil vigorously if the sauce starts to separate or turn grainy.
 
-4. **Continue:** Stir in the shrimp, and simmer for 1 more minute. Taste and season with additional salt if needed (particularly if you used less curry paste). Garnish with cilantro if desired, and serve!
+4. **Finish shrimp and serve:** Return all shrimp and collected juices. Simmer, beginning to check after about 1 minute, until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Only after the shrimp and raw-contact sauce finish cooking, taste and add the optional salt as needed. The upper end of the listed paste range may supply enough salt; paste composition varies. Use all the optional cilantro you chose to prepare as garnish. Transfer to a clean serving dish and serve promptly, with separately prepared rice if wanted.

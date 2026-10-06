@@ -1,0 +1,758 @@
+{
+  "slug": "ham-and-cheese-quiche",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
+  "inputSha256": "950a5aef8a89960137342358517d0739a73b02844081d7925ff623909067e2fc",
+  "acceptedSourceSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "35 min",
+      "after": "About 30–45 min (plus any longer shell preparation)"
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "About 55–70 min (includes 10 min rest; shell preparation may add time)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 9-inch Deep-dish Pie Crust (unbaked)",
+        "1 cup Cooked Ham, cubed",
+        "1 cup Sharp Cheddar, shredded",
+        "1/2 cup Mozzarella, shredded",
+        "1/2 cup Fresh Spinach, chopped",
+        "1/2 cup Yellow Onion, minced",
+        "1 tbsp Unsalted Butter",
+        "5 large Eggs",
+        "1/2 cup Half-and-Half (for texture)",
+        "1/2 tsp Dried Parsley",
+        "1/4 tsp Black Pepper",
+        "Pinch of Nutmeg"
+      ],
+      "after": [
+        "1 9-inch Deep-dish Pie Crust (unbaked)",
+        "1 cup Cooked Ham, cubed",
+        "1 cup Sharp Cheddar, shredded",
+        "1/2 cup Mozzarella, shredded",
+        "1/2 cup Fresh Spinach, chopped",
+        "1/2 cup Yellow Onion, minced",
+        "1 tbsp Unsalted Butter",
+        "5 large Eggs",
+        "1/2 cup Half-and-Half (for texture)",
+        "1/2 tsp Dried Parsley",
+        "1/4 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "1/4 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 175,
+        "protein": 11,
+        "carbs": 2,
+        "fat": 14,
+        "fiber": 0.5,
+        "sugar": 1,
+        "sodium": 230
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate custard seasonings and manage a filled pie shell",
+        "outcome": "Seasonings reach every slice, filling stays below the rim and the rested center slices without liquid egg.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+          "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+          "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Parsley, pepper and nutmeg are visible throughout the blended custard.",
+            "why": "Whisking disperses the seasonings throughout the custard."
+          },
+          {
+            "step": 4,
+            "cue": "The filling stays below the shell rim.",
+            "why": "Shell depth varies and overflow can spill onto the oven or prevent even cooking."
+          },
+          {
+            "step": 5,
+            "cue": "The center is set and measures 165 °F.",
+            "why": "Cooked ham and optional bacon make this a meat-containing bake; deep-golden color is not the endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bottom crust stays soft",
+            "cause": "The brief parbake did not sufficiently cook the chosen shell, or the filling wet it.",
+            "fix": "Follow the shell-specific partial-bake method next time. Do not assume five minutes creates a waterproof barrier."
+          },
+          {
+            "problem": "Crust browns before the center cooks",
+            "cause": "The rim heats faster than the deep custard.",
+            "fix": "Shield the rim and continue until the center meets the endpoint."
+          },
+          {
+            "problem": "Filling exceeds the shell",
+            "cause": "Deep-dish shell depth or optional filling differs.",
+            "fix": "Keep headroom and use a separately greased oven-safe dish for excess; its cooking time differs."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Half-and-half",
+            "alternative": "Milk in the same listed volume",
+            "effect": "Produces a less rich filling; keep the listed dairy volume."
+          },
+          {
+            "ingredient": "Optional cooked bacon",
+            "alternative": "Omit it",
+            "effect": "Keeps the ham-and-cheese base with less smoky flavor."
+          }
+        ],
+        "timing": "About 15 minutes preparation, 5–7 minutes short parbake, 25–35 minutes filling bake and 10 minutes rest: plan about 55–70 minutes. Onion preparation can overlap the crust. Shell-specific longer partial baking, oven heating and any separate excess dish add time.",
+        "storage": "Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in shallow containers at 40°F / 4°C or below. Use refrigerated portions within 3 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion size and starting temperature change the time, so use short intervals and check the center.",
+        "sources": [
+          {
+            "title": "Adapted from iheartnaptime.net",
+            "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+          },
+          {
+            "title": "FDA egg cooking, cold holding and reheating",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPre-baking the crust for 5 minutes creates a moisture barrier that prevents soggy bottom - essential for any quiche. A ratio of 5 eggs to 1/2 cup cream produces firm, sliceable custard that remains creamy rather than rubbery. Sautéing the onions in butter first develops their natural sweetness, providing contrast to salty ham.\n\n## Directions\n\n1.  **Blind Bake:** Preheat oven to 400°F. Pierce the bottom of the pie crust with a fork. Place on a baking sheet and bake for 5-7 minutes. Remove and set aside.\n2.  **The Sauté:** In a small skillet, melt butter over medium heat. Sauté onions for 2-3 minutes until translucent. Add the ham and optional bacon; cook for 2 more minutes until slightly browned. Remove from heat.\n3.  **The Custard:** In a large bowl, whisk together the eggs and half-and-half until perfectly smooth and frothy.\n4.  **Assemble:** Scatter the ham mixture, spinach, and both cheeses into the pre-baked crust. Pour the egg custard slowly over the fillings.\n5.  **Bake:** Reduce oven to 375°F. Bake for 25-35 minutes until the top is deep golden brown and a knife inserted in the center comes out clean.\n6.  **Rest:** Let the quiche rest for 10 minutes before slicing. This allows the custard to fully set.\n",
+    "after": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n"
+  },
+  "findings": [
+    {
+      "id": "EG-1",
+      "field": "Chef note",
+      "rationale": "Native and 045e5ba2 confirm 1/2 cup dairy and optional 1/4 cup cooked bacon; publisher now 2/3 cup dairy. Preserve saved/current 1/2 cup, both current cheeses, current spinach 1/2 cup and nutmeg addition. Restore omitted optional bacon with its exact native amount, not a guessed allowance. Native uses 10-inch dough fitted to 9-inchdish; current deep-dish 9-inchshell remains. No fabricated fill-volume or guaranteed brief moisture barrier.",
+      "confidence": "high for provenance corrections; sensory outcome untested",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-2",
+      "field": "Directions",
+      "rationale": "Complete recipe-specific ingredient destinations, state, capacity, endpoint and elapsed-time correction; see individual source disagreement.",
+      "confidence": "high for ingredient tracking and applicable safety; moderate for planning ranges",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    },
+    {
+      "id": "EG-3",
+      "field": "cookTime",
+      "rationale": "About 15 minutes preparation,5–7 minutes short parbake,25–35 minutes filling bake and 10 minutes rest: plan about 55–70 minutes. Onion preparation can overlap the crust. Shell-specific longer partial baking, oven heating and any separate excess dish add time.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-4",
+      "field": "totalTime",
+      "rationale": "About 15 minutes preparation,5–7 minutes short parbake,25–35 minutes filling bake and 10 minutes rest: plan about 55–70 minutes. Onion preparation can overlap the crust. Shell-specific longer partial baking, oven heating and any separate excess dish add time.",
+      "confidence": "moderate planning estimate; no measured yield",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "EG-5",
+      "field": "ingredients",
+      "rationale": "Native and 045e5ba2 confirm 1/2 cup dairy and optional 1/4 cup cooked bacon; publisher now 2/3 cup dairy. Preserve saved/current 1/2 cup, both current cheeses, current spinach 1/2 cup and nutmeg addition. Restore omitted optional bacon with its exact native amount, not a guessed allowance. Native uses 10-inch dough fitted to 9-inchdish; current deep-dish 9-inchshell remains. No fabricated fill-volume or guaranteed brief moisture barrier.",
+      "confidence": "high for exact retained totals and supported optional allowance",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "EG-6",
+      "field": "nutrition",
+      "rationale": "Unsupported legacy estimates withheld; no manufactured replacement.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "EG-7",
+      "field": "learning",
+      "rationale": "Recipe-specific complete teaching and applicability; no kitchen-tested claim.",
+      "confidence": "editorial",
+      "applicableSources": [
+        {
+          "title": "Adapted from iheartnaptime.net",
+          "url": "https://www.iheartnaptime.net/ham-and-cheese-quiche/"
+        },
+        {
+          "title": "FDA egg cooking, cold holding and reheating",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/ham-and-cheese-quiche.md",
+    "introductionScope": "Verified retained earlier canonical cooking text; not a claim that this is the oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Modern publisher differences and exact saved/current formula choices are independently documented; publisher changes do not silently replace the retained recipe.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Native and 045e5ba2 confirm 1/2 cup dairy and optional 1/4 cup cooked bacon; publisher now 2/3 cup dairy. Preserve saved/current 1/2 cup, both current cheeses, current spinach 1/2 cup and nutmeg addition. Restore omitted optional bacon with its exact native amount, not a guessed allowance. Native uses 10-inch dough fitted to 9-inchdish; current deep-dish 9-inchshell remains. No fabricated fill-volume or guaranteed brief moisture barrier.",
+  "ledger": {
+    "final": [
+      {
+        "ingredient": "1 9-inch Deep-dish Pie Crust (unbaked)",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup Cooked Ham, cubed",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup Sharp Cheddar, shredded",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Mozzarella, shredded",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Spinach, chopped",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Yellow Onion, minced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 tbsp Unsalted Butter",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "5 large Eggs",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Half-and-Half (for texture)",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 tsp Dried Parsley",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Pinch of Nutmeg",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 cup cooked bacon, chopped, optional",
+        "destination": 2
+      },
+      {
+        "ingredient": "Butter or oil, as needed to grease a separate dish for excess filling",
+        "destination": 4
+      }
+    ],
+    "frozen": [
+      {
+        "ingredient": "1 9-inch Deep-dish Pie Crust (unbaked)",
+        "destination": 1,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup Cooked Ham, cubed",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 cup Sharp Cheddar, shredded",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Mozzarella, shredded",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Spinach, chopped",
+        "destination": 4,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Yellow Onion, minced",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1 tbsp Unsalted Butter",
+        "destination": 2,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "5 large Eggs",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 cup Half-and-Half (for texture)",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/2 tsp Dried Parsley",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "Pinch of Nutmeg",
+        "destination": 3,
+        "allocation": "whole measured total; no duplicated allocation"
+      },
+      {
+        "ingredient": "1/4 cup cooked bacon, chopped, optional",
+        "destination": 2
+      },
+      {
+        "ingredient": "Butter or oil, as needed to grease a separate dish for excess filling",
+        "destination": 4
+      }
+    ],
+    "preparationAndAllocation": [
+      "Crust partialbake1; butter/onion/ham/optional cookedbacon all2 and all into4.",
+      "Eggs/dairy/parsley/pepper/nutmeg whole3 and pour4. Spinach/bothcheeses all4.",
+      "Separate optional excess-dish grease genuineallowance4, not removed from sauté butter."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare the shell: Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer."
+    },
+    {
+      "step": 2,
+      "text": "The Sauté: Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly."
+    },
+    {
+      "step": 3,
+      "text": "The Custard: Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam."
+    },
+    {
+      "step": 4,
+      "text": "Assemble: Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed."
+    },
+    {
+      "step": 6,
+      "text": "Rest: Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Half-and-half",
+      "alternative": "Milk in the same listed volume",
+      "effect": "Produces a less rich filling; keep the listed dairy volume."
+    },
+    {
+      "ingredient": "Optional cooked bacon",
+      "alternative": "Omit it",
+      "effect": "Keeps the ham-and-cheese base with less smoky flavor."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "outgoingPairings": ["sweet-and-white-potato-gratin", "tarragon-potatoes", "garlic-bread"],
+    "scope": "No linked meal or recipe endorsed; all alternate methods remain one formula."
+  },
+  "ratiosYieldAndCapacity": {
+    "measuredIngredients": [
+      "1 9-inch Deep-dish Pie Crust (unbaked)",
+      "1 cup Cooked Ham, cubed",
+      "1 cup Sharp Cheddar, shredded",
+      "1/2 cup Mozzarella, shredded",
+      "1/2 cup Fresh Spinach, chopped",
+      "1/2 cup Yellow Onion, minced",
+      "1 tbsp Unsalted Butter",
+      "5 large Eggs",
+      "1/2 cup Half-and-Half (for texture)",
+      "1/2 tsp Dried Parsley",
+      "1/4 tsp Black Pepper",
+      "Pinch of Nutmeg",
+      "1/4 cup cooked bacon, chopped, optional",
+      "Butter or oil, as needed to grease a separate dish for excess filling"
+    ],
+    "planningYield": "8",
+    "geometryAndCapacity": [
+      "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+      "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+      "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+    ],
+    "processAndTiming": "About 15 minutes preparation, 5–7 minutes short parbake, 25–35 minutes filling bake and 10 minutes rest: plan about 55–70 minutes. Onion preparation can overlap the crust. Shell-specific longer partial baking, oven heating and any separate excess dish add time.",
+    "measurementLimit": "Source/current planning yield; actual edible output, pan capacity and sensory outcomes are unmeasured."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 9-inch Deep-dish Pie Crust (unbaked)",
+        "1/4 cup Cooked Ham, cubed",
+        "1/4 cup Sharp Cheddar, shredded",
+        "1/8 cup Mozzarella, shredded",
+        "1/8 cup Fresh Spinach, chopped",
+        "1/8 cup Yellow Onion, minced",
+        "1/4 tbsp Unsalted Butter",
+        "1 1/4 large Eggs",
+        "1/8 cup Half-and-Half (for texture)",
+        "1/8 tsp Dried Parsley",
+        "0.0625 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "0.0625 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 2",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 9-inch Deep-dish Pie Crust (unbaked)",
+        "1/2 cup Cooked Ham, cubed",
+        "1/2 cup Sharp Cheddar, shredded",
+        "1/4 cup Mozzarella, shredded",
+        "1/4 cup Fresh Spinach, chopped",
+        "1/4 cup Yellow Onion, minced",
+        "1/2 tbsp Unsalted Butter",
+        "2 1/2 large Eggs",
+        "1/4 cup Half-and-Half (for texture)",
+        "1/4 tsp Dried Parsley",
+        "1/8 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "1/8 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 4",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 9-inch Deep-dish Pie Crust (unbaked)",
+        "1 cup Cooked Ham, cubed",
+        "1 cup Sharp Cheddar, shredded",
+        "1/2 cup Mozzarella, shredded",
+        "1/2 cup Fresh Spinach, chopped",
+        "1/2 cup Yellow Onion, minced",
+        "1 tbsp Unsalted Butter",
+        "5 large Eggs",
+        "1/2 cup Half-and-Half (for texture)",
+        "1/2 tsp Dried Parsley",
+        "1/4 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "1/4 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 8",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 9-inch Deep-dish Pie Crust (unbaked)",
+        "1 1/2 cups Cooked Ham, cubed",
+        "1 1/2 cups Sharp Cheddar, shredded",
+        "3/4 cup Mozzarella, shredded",
+        "3/4 cup Fresh Spinach, chopped",
+        "3/4 cup Yellow Onion, minced",
+        "1 1/2 tbsp Unsalted Butter",
+        "7 1/2 large Eggs",
+        "3/4 cup Half-and-Half (for texture)",
+        "3/4 tsp Dried Parsley",
+        "3/8 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "3/8 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 12",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 9-inch Deep-dish Pie Crust (unbaked)",
+        "2 cups Cooked Ham, cubed",
+        "2 cups Sharp Cheddar, shredded",
+        "1 cup Mozzarella, shredded",
+        "1 cup Fresh Spinach, chopped",
+        "1 cup Yellow Onion, minced",
+        "2 tbsp Unsalted Butter",
+        "10 large Eggs",
+        "1 cup Half-and-Half (for texture)",
+        "1 tsp Dried Parsley",
+        "1/2 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "1/2 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 16",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 9-inch Deep-dish Pie Crust (unbaked)",
+        "3 cups Cooked Ham, cubed",
+        "3 cups Sharp Cheddar, shredded",
+        "1 1/2 cups Mozzarella, shredded",
+        "1 1/2 cups Fresh Spinach, chopped",
+        "1 1/2 cups Yellow Onion, minced",
+        "3 tbsp Unsalted Butter",
+        "15 large Eggs",
+        "1 1/2 cups Half-and-Half (for texture)",
+        "1 1/2 tsp Dried Parsley",
+        "3/4 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "3/4 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 24",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 9-inch Deep-dish Pie Crust (unbaked)",
+        "1 cup Cooked Ham, cubed",
+        "1 cup Sharp Cheddar, shredded",
+        "1/2 cup Mozzarella, shredded",
+        "1/2 cup Fresh Spinach, chopped",
+        "1/2 cup Yellow Onion, minced",
+        "1 tbsp Unsalted Butter",
+        "5 large Eggs",
+        "1/2 cup Half-and-Half (for texture)",
+        "1/2 tsp Dried Parsley",
+        "1/4 tsp Black Pepper",
+        "Pinch of Nutmeg",
+        "1/4 cup cooked bacon, chopped, optional",
+        "Butter or oil, as needed to grease a separate dish for excess filling"
+      ],
+      "yield": "Serves 8",
+      "methods": "\n## Chef's Note\n\nSauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.\n\n## Directions\n\n1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.\n\n2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.\n\n3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.\n\n4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.\n\n5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.\n\n6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.\n",
+      "capacity": [
+        "Use the stated deep-dish 9-inch shell and inspect its partial-bake instructions; diameter alone does not establish capacity.",
+        "Keep the optional bacon already cooked. Prepare the shell before making the filling; a longer shell parbake extends elapsed time.",
+        "For multiples use separate original-size quiches. Smaller quantities require a suitable smaller shell or separate crustless dish and earlier center checks; neither crust diameter nor baking time scales arithmetically."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "No existing measured ingredient, source link or supported current adaptation removed."
+  ],
+  "remainingQuestions": [
+    "Record actual deep-shell internal depth/capacity and whether filling with optional bacon fits.",
+    "Test chosen shell-specific parbake and bottom-crust result.",
+    "Record bake time at 165 °F, slice firmness after 10 minutes and reheating texture."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 62,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12040,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 78,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all12 rendered pages; shared print styles unchanged. Actual print preview not verified; no physical kitchen testing.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
