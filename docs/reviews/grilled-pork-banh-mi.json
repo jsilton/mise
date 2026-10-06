@@ -1,0 +1,915 @@
+{
+  "slug": "grilled-pork-banh-mi",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
+  "inputSha256": "82c6fb3bb45cca413180e6916b85733e7d5b18a1f5f7d0f035fcbea09d09450f",
+  "acceptedSourceSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10 min, longer with extra grill loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "4 hr",
+      "after": "About 3 hr with a 2-hour marinade; overnight is longer"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 lbs Pork Tenderloin or Butt, thinly sliced",
+        "1/4 cup Fish Sauce",
+        "2 tbsp Sugar",
+        "1 tbsp Honey",
+        "3 cloves Garlic, minced",
+        "2 stalks Lemongrass, finely minced (white parts only)",
+        "2 Crusty Baguettes (soft crumb, crispy crust)",
+        "[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon)",
+        "Fresh Cilantro and Sliced Jalapeños",
+        "Cucumber spears",
+        "Mayonnaise and liquid seasoning (or soy sauce)"
+      ],
+      "after": [
+        "--- Pork and marinade ---",
+        "1 1/2 lb pork tenderloin or pork butt, raw, fresh or fully thawed; thinly sliced",
+        "1/4 cup fish sauce",
+        "2 tbsp sugar",
+        "1 tbsp honey",
+        "3 garlic cloves, peeled and minced",
+        "2 lemongrass stalks, tough outer layers removed; white parts finely minced",
+        "suitable grilling oil, as needed for the grates or grill basket",
+        "--- Bread and cold toppings ---",
+        "2 crusty baguettes, soft crumb and crisp crust; cut into serving lengths",
+        "[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), as wanted for the sandwiches; prepared ahead, chilled and drained",
+        "fresh cilantro, as wanted for the sandwiches, washed",
+        "jalapeños, as wanted for heat, washed and sliced",
+        "cucumber spears, as wanted for the sandwiches, washed and cut",
+        "mayonnaise, a generous layer as wanted",
+        "liquid seasoning or soy sauce, a few drops as wanted per sandwich"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 160,
+        "protein": 11.5,
+        "carbs": 22.5,
+        "fat": 3,
+        "fiber": 2.5,
+        "sugar": 14,
+        "sodium": 13090
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["grill", "skewers-or-grill-basket", "thin-probe-thermometer"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pork",
+            "name": "Pork and marinade",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "pork tenderloin or pork butt",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "lb"
+                },
+                "preparation": "raw, fresh or fully thawed; thinly sliced",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "fish-sauce",
+                "key": "fish-sauce",
+                "name": "fish sauce",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "preparation": "peeled and minced",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemongrass",
+                "key": "lemongrass",
+                "name": "lemongrass stalk",
+                "plural": "lemongrass stalks",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "tough outer layers removed; white parts finely minced",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "grill-oil",
+                "key": "grill-oil",
+                "name": "suitable grilling oil",
+                "allowance": "as needed for the grates or grill basket",
+                "uses": [
+                  {
+                    "step": "grill",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sandwich",
+            "name": "Bread and cold toppings",
+            "ingredients": [
+              {
+                "id": "bread",
+                "key": "bread",
+                "name": "crusty baguette",
+                "plural": "crusty baguettes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "soft crumb and crisp crust; cut into serving lengths",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pickles",
+                "key": "pickles",
+                "name": "[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon)",
+                "allowance": "as wanted for the sandwiches; prepared ahead, chilled and drained",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "allowance": "as wanted for the sandwiches",
+                "preparation": "washed",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "jalapeno",
+                "key": "jalapeno",
+                "name": "jalapeños",
+                "allowance": "as wanted for heat",
+                "preparation": "washed and sliced",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cucumber",
+                "key": "cucumber",
+                "name": "cucumber spears",
+                "allowance": "as wanted for the sandwiches",
+                "preparation": "washed and cut",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mayo",
+                "key": "mayo",
+                "name": "mayonnaise",
+                "allowance": "a generous layer as wanted",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "seasoning",
+                "key": "seasoning",
+                "name": "liquid seasoning or soy sauce",
+                "allowance": "a few drops as wanted per sandwich",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "marinate",
+            "title": "Marinate the pork cold",
+            "text": "Have {{ingredients}} ready. Whisk the full fish sauce, sugar, honey, garlic and lemongrass supply together, then toss with all the thinly sliced pork. Cover and refrigerate at 40°F or below for at least 2 hours, or overnight. Keep the entire batch coated and use enough covered food-safe vessels for larger batches."
+          },
+          {
+            "id": "pickles",
+            "title": "Prepare the pickles",
+            "text": "If not prepared ahead, make the linked [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon) while the pork marinates: allow about 20 minutes cutting and packing, then at least 1 hour in the refrigerator. Keep them refrigerated until assembly; choose the serving amount separately rather than assuming the full pickle recipe is used."
+          },
+          {
+            "id": "grill",
+            "title": "Grill the thin pork",
+            "text": "Thread the pork onto suitable skewers or use a grill basket, following the equipment’s preparation instructions. Use {{ingredients}} as needed for the cooking surface. Lift the pork from the marinade and wipe away excess; discard the raw-contact marinade. Grill uncrowded slices over medium heat, starting checks around 3–4 minutes per side, until browned without blackening and at least 145°F in the thickest part, measured from the side with a thermometer suitable for thin food. Pork butt and tenderloin can differ in chewing texture; neither is guaranteed finished by the clock. Keep waiting raw pork refrigerated and add grill loads as needed."
+          },
+          {
+            "id": "rest",
+            "title": "Rest cooked pork",
+            "text": "Transfer fully cooked pork to a clean platter and rest at least 3 minutes before assembly. Use clean utensils and remove any skewers before eating."
+          },
+          {
+            "id": "assemble",
+            "title": "Assemble and serve",
+            "text": "Use {{ingredients}}. Split the measured bread, spread generously with mayonnaise and add a few drops of liquid seasoning or soy sauce. Divide all the cooked pork among the serving lengths; layer cucumber, drained chilled pickles and cilantro, then jalapeños if wanted. Serve promptly. Four portions is the current original-batch plan, not a measured baguette-size yield."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Balance a sweet grilled filling with cold drained toppings",
+        "outcome": "Cooked, lightly charred pork in bread with cool pickles and cucumber, without a scorched marinade or soaked crumb.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Choose thin slices of the stated pork cut and enough grill space or loads. Shoulder/butt and tenderloin are different textures; keep the temperature check and rest for either.",
+          "The linked pickle recipe has its own measured formula and at least one hour refrigerated time. Make the sandwich topping amount you want and drain them before adding them to the bread."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The sweet coating browns without blackening and the thickest slices reach at least 145°F.",
+            "why": "Honey and sugar can color before the meat center finishes; the thermometer and three-minute rest govern the meat endpoint."
+          },
+          {
+            "step": 5,
+            "cue": "Pickles are cold and drained; cooked pork is divided among the bread being used.",
+            "why": "Excess brine soaks the crumb, and baguette dimensions determine how the original four-portion plan is cut."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Marinade blackens before the slices finish.",
+            "cause": "Excess marinade or heat too fierce for the sugary coating.",
+            "fix": "Move to a cooler part of the grill and continue to the endpoint. Do not reuse the raw-contact marinade as a fresh sandwich sauce."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Lemongrass-mayonnaise sandwich route",
+            "alternative": "Scallion-pepper pork with hoisin and sriracha",
+            "effect": "For the original 1.5 lb pork-tenderloin batch, keep 1/4 cup fish sauce, 1 tbsp honey and 2 tbsp sugar; replace the 3 minced garlic cloves and 2 lemongrass stalks with 2 thinly sliced garlic cloves, 6 sliced scallions (white and tender green parts) and 1 tsp freshly ground black pepper. Puree this marinade, toss with the thinly sliced tenderloin and refrigerate 2–4 hours. Scale those alternative amounts with the full recipe. Choose 6 rolls about 8 inches long for the original batch, or the listed baguettes cut into serving lengths, in place of the main bread allocation. Use hoisin and sriracha, unmeasured as wanted, instead of mayonnaise and liquid seasoning; use 1/2 seedless cucumber cut into matchsticks and 1 1/2 loosely packed cups cilantro sprigs for the original batch, scaled proportionally. Carrot-daikon pickles and jalapeños are not required by this route. Use a separate unmeasured grilling-oil allowance for grates and brushing the pork; grill uncrowded skewered slices over high heat with about 4 minutes total as a first check, turning and watching the sugars. Reach the same 145°F endpoint and three-minute rest, and remove skewers before serving. This route has different aromatics, toppings, heat and portion planning."
+          }
+        ],
+        "timing": "Allow about 3 hours with the minimum 2-hour refrigerated marinade: about 30 minutes sandwich preparation, grill setup, roughly 10 minutes cooking for the original batch and a 3-minute cooked rest. The linked pickle’s 20-minute preparation plus at least one hour chilled can run during marination. Extra grill loads, thicker slices, the actual grill setup and overnight marination extend elapsed time.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F, at 40°F or below. Use within 3–4 days and reheat to 165°F throughout. Store pork separately from bread and cold toppings. Use the linked pickle’s own storage guidance; assemble sandwiches near serving, since dressed bread loses texture.",
+        "sources": [
+          {
+            "title": "Luke Nguyen — Grilled Pork Banh Mi",
+            "url": "https://www.foodandwine.com/recipes/grilled-pork-banh-mi"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "USDA — Thermometers for thin foods",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBanh mi sandwiches are Vietnamese street food defined by contrast: grilled pork against pickled vegetables, cilantro, and creamy mayo on crusty bread. The marinade is garlic, fish sauce, and brown sugar - a workhorse base that caramelizes on the grill. The pickled vegetables are non-negotiable: they're the cooling, cutting element that makes the sandwich balanced.\n\n## Directions\n\n1.  **Marinate:** Whisk fish sauce, sugar, honey, garlic, and lemongrass. Toss with the pork. Let marinate for at least 2 hours (ideally overnight).\n2.  **Pickles:** Prepare your [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon) while the pork marinates: allow about 20 minutes for cutting and packing, then at least 1 hour in the refrigerator before serving. Keep them refrigerated until assembly.\n3.  **Grill:** Thread pork onto skewers or use a grill basket. Wipe off excess marinade and grill over medium heat for 3-4 minutes per side until charred and just cooked through.\n4.  **Assemble:** Split the baguettes. Spread a generous layer of mayo. Drizzle with a few drops of liquid seasoning or soy sauce.\n5.  **Fill:** Layer the grilled pork, cucumber spears, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), and fresh cilantro. Top with jalapeños for heat.\n",
+    "after": "\n## Chef's Note\n\nBánh mì sandwiches bring grilled pork, crisp bread, cool pickled vegetables, cilantro and creamy mayonnaise together. This lemongrass version uses the listed sugar and honey with fish sauce and garlic; a medium grill helps keep the sweet coating from blackening. Drain the pickles for assembly so they brighten the filling without soaking the bread.\n\n## Directions\n\n1. **Marinate the pork cold:** Have pork tenderloin or pork butt, fish sauce, sugar, honey, garlic cloves, and lemongrass stalks ready. Whisk the full fish sauce, sugar, honey, garlic and lemongrass supply together, then toss with all the thinly sliced pork. Cover and refrigerate at 40°F or below for at least 2 hours, or overnight. Keep the entire batch coated and use enough covered food-safe vessels for larger batches.\n2. **Prepare the pickles:** If not prepared ahead, make the linked [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon) while the pork marinates: allow about 20 minutes cutting and packing, then at least 1 hour in the refrigerator. Keep them refrigerated until assembly; choose the serving amount separately rather than assuming the full pickle recipe is used.\n3. **Grill the thin pork:** Thread the pork onto suitable skewers or use a grill basket, following the equipment’s preparation instructions. Use suitable grilling oil as needed for the cooking surface. Lift the pork from the marinade and wipe away excess; discard the raw-contact marinade. Grill uncrowded slices over medium heat, starting checks around 3–4 minutes per side, until browned without blackening and at least 145°F in the thickest part, measured from the side with a thermometer suitable for thin food. Pork butt and tenderloin can differ in chewing texture; neither is guaranteed finished by the clock. Keep waiting raw pork refrigerated and add grill loads as needed.\n4. **Rest cooked pork:** Transfer fully cooked pork to a clean platter and rest at least 3 minutes before assembly. Use clean utensils and remove any skewers before eating.\n5. **Assemble and serve:** Use crusty baguettes, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), fresh cilantro, jalapeños, cucumber spears, mayonnaise, and liquid seasoning or soy sauce. Split the measured bread, spread generously with mayonnaise and add a few drops of liquid seasoning or soy sauce. Divide all the cooked pork among the serving lengths; layer cucumber, drained chilled pickles and cilantro, then jalapeños if wanted. Serve promptly. Four portions is the current original-batch plan, not a measured baguette-size yield.\n"
+  },
+  "findings": [
+    {
+      "id": "MM04-B01",
+      "rationale": "Keep complete958fc77a currentlemongrass/threegarlic/mayo/pickle/tenderloinORbutt/fourportion route; preserve whole exact earlier/native/primary LukeNguyen scallion-pepper/hoisin-sriracha/cucumber-cilantro/sixroll route separately with original-batch amounts scaled. No ingredient blend or rollback, no equal bread size/porktexture/portion count claim. Expose genuine unmeasuredgrillingoil from actual source without altering fullsweet/fish dose.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "958fc77a",
+        "045e5ba2",
+        "b7ae012d",
+        "https://www.foodandwine.com/grilled-pork-banh-mi-6413764"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "formula", "servings", "content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "MM04-B02",
+      "rationale": "Refrigerate wholemarinade, discardrawcontact, keep accepted2b01ffbb mediumheat/excesswipe/3–4minfirstchecks and add applicable145°F+3minrest for boththinwhole-pork cuts. Keep actualvessel/skewerinstructions/no guarantee cookertimeortendertexture for shoulder. Wholebread/porkallocation and coldunmeasuredtoppings reachassembly.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "2b01ffbb",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers"
+      ],
+      "exactBeforeAfterReferences": ["formula", "content", "learning", "equipment"],
+      "questions": []
+    },
+    {
+      "id": "MM04-B03",
+      "rationale": "Retain1bdaad090 pickle20minpreparation +atleast1hrrefrigerator andebaf genericliquidseasoning repair. Account2hrminimum porkmarinade/overnightadditional/grillloads/rest andseparate linkedpickles elapsed overlap; current4hr is not a tested endpoint. Remove unverifiednutrition, preserve links/familyratings/currentVietnamesecontext; no duplicate serving-section policy resurrection.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "1bdaad090",
+        "ebaf",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "306"
+      ],
+      "exactBeforeAfterReferences": ["cookTime", "totalTime", "nutrition", "learning"],
+      "questions": []
+    },
+    {
+      "id": "MM04-I02",
+      "rationale": "The method text stays static while the structured bread count scales. Calling two baguettes the listed amount becomes false at half/double. The six-roll source option already has explicit original-batch context; reference the actual listed baguettes without changing the two-baguette original dose or either planning yield.",
+      "confidence": "High for exact text and actual shared scaling behavior; no portion-size or geometry measurement.",
+      "applicableSources": [
+        {
+          "source": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/grilled-pork-banh-mi.md",
+          "scope": "Exact saved six-roll-or-two-baguette option."
+        },
+        {
+          "source": "https://www.foodandwine.com/recipes/grilled-pork-banh-mi",
+          "scope": "Primary corroborates the saved original bread option; arithmetic scaling follows the existing shared formula."
+        },
+        {
+          "source": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Static prose must distinguish original-batch counts from the scaled listed amount."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual bread dimensions and the current four-portion versus source six-roll plan remain unmeasured, already disclosed."
+      ]
+    },
+    {
+      "id": "MM04-I04",
+      "rationale": "The frozen fourth step spreads mayonnaise and liquid seasoning; the linked pickle appears in frozen steps two and five. The existing steps4–5 ledger reference falsely places it in the original fourth step. Correct only that before-state ledger entry; the actual frozen source and all current/proposed quantities remain exact.",
+      "confidence": "High, direct exact-before text comparison.",
+      "applicableSources": [
+        {
+          "source": "privately retained evidence",
+          "scope": "Exact frozen source has pickle preparation in step2 and sandwich pickle filling in step5, not step4."
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Grilled-Pork%20Banh%20Mi.html",
+    "introductionScope": "Exact earlier HTML cooking text; photos and native identity metadata excluded from review extract",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.foodandwine.com/recipes/grilled-pork-banh-mi",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Current lemongrass and mayonnaise/pickle sandwich",
+      "status": "primary preserved",
+      "difference": "958fc77a changes3garlic+2lemongrass, porkbutt choice, current4planning,unmeasuredcold toppings/mayo/seasoning. All remain intact."
+    },
+    {
+      "route": "Saved LukeNguyen scallion/hoisin sandwich",
+      "status": "public separate complete variant",
+      "difference": "Original1.5lbtenderloin:2thin-slicedgarlic,6scallions,1tsppepper in pureedfish/honey/sugar marinade2–4hr;6eightinchrollsOR2baguettes,hoisin+sriracha,1/2seedlesscucumbermatchsticks,1½looselypackedcupcilantro;unmeasuredgrate+brushoil,highheat4mintotalfirstcheck. Sourcecurrent/savedagrees, but differentdeliberatecurrentadaptation notoverwritten."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1.5 lbs Pork Tenderloin or Butt, thinly sliced",
+        "destination": "Step1 tenderloin ORbutt thinporkmarinade; step3 medium3–4perside/wipe; step5 sandwich no thermometer/rest.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/4 cup Fish Sauce",
+        "destination": "Step1 fullfishsauce.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Sugar",
+        "destination": "Step1 fullsugar; ChefNote wronglycalls brownsugar.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Honey",
+        "destination": "Step1 fullhoney.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "3 cloves Garlic, minced",
+        "destination": "Step1 full3garliccloves.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "2 stalks Lemongrass, finely minced (white parts only)",
+        "destination": "Step1 full2lemongrasswhitepart.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "2 Crusty Baguettes (soft crumb, crispy crust)",
+        "destination": "Step4 splitbread/mayo/seasoning thenstep5pork/toppings;4portionbreadsizeunmeasured.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon)",
+        "destination": "Step2 linkedpickles20prep+atleast1hourfridge;step5 unmeasured pickle topping, notassignedfullpickleformula.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "Fresh Cilantro and Sliced Jalapeños",
+        "destination": "Step5 cilantro+jalaunmeasured.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "Cucumber spears",
+        "destination": "Step5 cucumberunmeasured.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "Mayonnaise and liquid seasoning (or soy sauce)",
+        "destination": "Step4 generousmayo/fewdropsliquidseasoningORsoy;alternative exclusive.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [],
+    "proposed": [
+      {
+        "id": "pork.pork",
+        "component": "Pork and marinade",
+        "name": "pork tenderloin or pork butt",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "raw, fresh or fully thawed; thinly sliced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pork.fish-sauce",
+        "component": "Pork and marinade",
+        "name": "fish sauce",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pork.sugar",
+        "component": "Pork and marinade",
+        "name": "sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pork.honey",
+        "component": "Pork and marinade",
+        "name": "honey",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pork.garlic",
+        "component": "Pork and marinade",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and minced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pork.lemongrass",
+        "component": "Pork and marinade",
+        "name": "lemongrass stalk",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "tough outer layers removed; white parts finely minced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pork.grill-oil",
+        "component": "Pork and marinade",
+        "name": "suitable grilling oil",
+        "quantity": null,
+        "allowance": "as needed for the grates or grill basket",
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "grill",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned grill (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.bread",
+        "component": "Bread and cold toppings",
+        "name": "crusty baguette",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "soft crumb and crisp crust; cut into serving lengths",
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.pickles",
+        "component": "Bread and cold toppings",
+        "name": "[Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon)",
+        "quantity": null,
+        "allowance": "as wanted for the sandwiches; prepared ahead, chilled and drained",
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.cilantro",
+        "component": "Bread and cold toppings",
+        "name": "fresh cilantro",
+        "quantity": null,
+        "allowance": "as wanted for the sandwiches",
+        "preparation": "washed",
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.jalapeno",
+        "component": "Bread and cold toppings",
+        "name": "jalapeños",
+        "quantity": null,
+        "allowance": "as wanted for heat",
+        "preparation": "washed and sliced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.cucumber",
+        "component": "Bread and cold toppings",
+        "name": "cucumber spears",
+        "quantity": null,
+        "allowance": "as wanted for the sandwiches",
+        "preparation": "washed and cut",
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.mayo",
+        "component": "Bread and cold toppings",
+        "name": "mayonnaise",
+        "quantity": null,
+        "allowance": "a generous layer as wanted",
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "sandwich.seasoning",
+        "component": "Bread and cold toppings",
+        "name": "liquid seasoning or soy sauce",
+        "quantity": null,
+        "allowance": "a few drops as wanted per sandwich",
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned assemble (1 share); full subsequent route in processGraph and authored formula."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Scallion-pepper pork with hoisin/sriracha",
+        "supply": "Original1.5lb tenderloin +1/4cupfish/1tbsphoney/2tbspsugar;replace3garlic+2lemongrass with2garlic+6scallions+1tsppepper;6eightinchrollsOR2baguettes,1/2cucumber,1½cupcilantro,unmeasuredhoisin/sriracha+separategrate/brushoil.",
+        "replacement": "Omit mainlemongrass/3garlic,mayo/liquidseasoning;pickles/jala notrequired. All originalalternative amounts scale withbatch; current4plan differssaved6rollplan.",
+        "destination": "Puree marinade→2–4hrcold→skeweredhighgrillabout4mintotalfirstcheck→145°F+3minrest→remove skewers→hoisin/sriracha/cucumber/cilantro bread. No exactskewer or perrollpork capacitycert."
+      },
+      {
+        "name": "Main pork-cut/liquid-seasoning choices",
+        "supply": "Same scaled1.5lb tenderloin ORbutt; unmeasuredliquidseasoning ORsoy.",
+        "replacement": "Exclusive cut and seasoning choices; no extra pork or double liquids.",
+        "destination": "Full chosenporkmarinade→mediumgrillendpoint/rest→samebread/toppings;cuttexturecookingclock maydiffer."
+      }
+    ],
+    "quantityScope": "Full current measured doses retained; genuine method/source allowances and explicitly separated original alternatives documented. Frozen ledger is never retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Marinate the pork cold: Have pork tenderloin or pork butt, fish sauce, sugar, honey, garlic cloves, and lemongrass stalks ready. Whisk the full fish sauce, sugar, honey, garlic and lemongrass supply together, then toss with all the thinly sliced pork. Cover and refrigerate at 40°F or below for at least 2 hours, or overnight. Keep the entire batch coated and use enough covered food-safe vessels for larger batches.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the pickles: If not prepared ahead, make the linked Pickled Carrots and Daikon while the pork marinates: allow about 20 minutes cutting and packing, then at least 1 hour in the refrigerator. Keep them refrigerated until assembly; choose the serving amount separately rather than assuming the full pickle recipe is used.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 3,
+      "text": "Grill the thin pork: Thread the pork onto suitable skewers or use a grill basket, following the equipment’s preparation instructions. Use suitable grilling oil as needed for the cooking surface. Lift the pork from the marinade and wipe away excess; discard the raw-contact marinade. Grill uncrowded slices over medium heat, starting checks around 3–4 minutes per side, until browned without blackening and at least 145°F in the thickest part, measured from the side with a thermometer suitable for thin food. Pork butt and tenderloin can differ in chewing texture; neither is guaranteed finished by the clock. Keep waiting raw pork refrigerated and add grill loads as needed.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 4,
+      "text": "Rest cooked pork: Transfer fully cooked pork to a clean platter and rest at least 3 minutes before assembly. Use clean utensils and remove any skewers before eating.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 5,
+      "text": "Assemble and serve: Use crusty baguettes, Pickled Carrots and Daikon, fresh cilantro, jalapeños, cucumber spears, mayonnaise, and liquid seasoning or soy sauce. Split the measured bread, spread generously with mayonnaise and add a few drops of liquid seasoning or soy sauce. Divide all the cooked pork among the serving lengths; layer cucumber, drained chilled pickles and cilantro, then jalapeños if wanted. Serve promptly. Four portions is the current original-batch plan, not a measured baguette-size yield.",
+      "dependencies": [2, 4],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Scallion-pepper pork with hoisin/sriracha",
+      "supply": "Original1.5lb tenderloin +1/4cupfish/1tbsphoney/2tbspsugar;replace3garlic+2lemongrass with2garlic+6scallions+1tsppepper;6eightinchrollsOR2baguettes,1/2cucumber,1½cupcilantro,unmeasuredhoisin/sriracha+separategrate/brushoil.",
+      "replacement": "Omit mainlemongrass/3garlic,mayo/liquidseasoning;pickles/jala notrequired. All originalalternative amounts scale withbatch; current4plan differssaved6rollplan.",
+      "destination": "Puree marinade→2–4hrcold→skeweredhighgrillabout4mintotalfirstcheck→145°F+3minrest→remove skewers→hoisin/sriracha/cucumber/cilantro bread. No exactskewer or perrollpork capacitycert."
+    },
+    {
+      "name": "Main pork-cut/liquid-seasoning choices",
+      "supply": "Same scaled1.5lb tenderloin ORbutt; unmeasuredliquidseasoning ORsoy.",
+      "replacement": "Exclusive cut and seasoning choices; no extra pork or double liquids.",
+      "destination": "Full chosenporkmarinade→mediumgrillendpoint/rest→samebread/toppings;cuttexturecookingclock maydiffer."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "quick-pickled-carrots-and-daikon",
+      "coconut-jasmine-rice",
+      "eggplant-with-garlic-sauce"
+    ],
+    "outgoingRecipeReferences": ["quick-pickled-carrots-and-daikon"],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings and linked preparations retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": "Current1.5lb pork : 1/4cupfish : 2tbspsugar : 1tbsphoney : 3garlic : 2lemongrass;2baguettes/4planningportions. Source keepsfish/sugar/honey but2garlic+6scallions+1tsppepper and6rolls/6planning. Pickleamount unmeasured;linkedformula outputnot assigned or guaranteedpersandwich.",
+  "preservedPriorRepairs": [
+    "2b01ffbb mediumheat/wipedmarinade/3–4minperside kept asfirstchecks.",
+    "1bdaad090 linkedpickle20minprep+atleast1hourrefrigerated stage preserved exactly,not shortcut;ebaf liquidseasoningORsoy preserved.",
+    "Allcurrentrichness/aromatics/cut/toppings/title/ID/source/Vietnameseculturalcontext/pairings kept; sourceoriginaldifferentroute separately available."
+  ],
+  "remainingQuestions": [
+    "Confirm actualthin cut, skewers/basket/grillheat, probe suitability and texture/time for tenderloin versus porkbutt;do not treatcutalternativesasequal clocks.",
+    "Whichbreadlength/size andamount oflinkedpickles/cucumber/mayo arepreferred forcurrent4plan? No doseinvented.",
+    "Confirm savedscallion/hoisin six-roll route remains wanted;thisproposal preserves it without overridingcurrentlemongrassmain.",
+    "Actual bread dimensions and the current four-portion versus source six-roll plan remain unmeasured, already disclosed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 93,
+    "targetedLint": "Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12251,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 68,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all ten pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

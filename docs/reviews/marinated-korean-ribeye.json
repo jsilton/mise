@@ -1,0 +1,787 @@
+{
+  "slug": "marinated-korean-ribeye",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
+  "inputSha256": "72d663a75ba3f8f4d0f7f6dd00a36a4a7cf90001177457d55aa5996beb429d4e",
+  "acceptedSourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Korea",
+      "after": null
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["sear", "smoke"],
+      "after": ["marinate", "sear"]
+    },
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "10 min, plus partial firming if slicing a whole steak"
+    },
+    {
+      "field": "cookTime",
+      "before": "5 min",
+      "after": "About 5–15 min, depending on pan loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "15 min",
+      "after": "About 50–60 min with a 30-minute marinade; overnight or freezer firming adds time"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Ribeye Beef, very thinly sliced (The \"Super H-Mart\" Shortcut: Buy pre-sliced or pre-marinated \"Bulgogi\" beef)",
+        "3 tbsp Soy Sauce",
+        "1 tbsp Toasted Sesame Oil",
+        "1 tbsp Brown Sugar",
+        "1/2 Pear (Bosc or Asian), grated (The enzyme that tenderizes the meat)",
+        "2 cloves Garlic, minced",
+        "1 tsp Ginger, grated",
+        "2 Green Onions, minced",
+        "1/4 tsp Black Pepper"
+      ],
+      "after": [
+        "--- Beef and marinade ---",
+        "1 lb ribeye beef, raw, fresh or fully thawed; very thinly sliced, unseasoned for the homemade marinade",
+        "3 tbsp soy sauce",
+        "1 tbsp toasted sesame oil",
+        "1 tbsp brown sugar",
+        "1/2 Bosc or Asian pear, washed, cored and grated",
+        "2 garlic cloves, peeled and minced",
+        "1 tsp fresh ginger, grated",
+        "2 green onions, washed and minced",
+        "1/4 tsp black pepper",
+        "suitable high-heat cooking oil, a small splash as needed for the pan"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 255,
+        "protein": 26,
+        "carbs": 10,
+        "fat": 13.5,
+        "fiber": 1,
+        "sugar": 6,
+        "sodium": 1030
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["heavy-skillet-or-wok", "thin-probe-thermometer"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "beef",
+            "name": "Beef and marinade",
+            "ingredients": [
+              {
+                "id": "beef",
+                "key": "beef",
+                "name": "ribeye beef",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "preparation": "raw, fresh or fully thawed; very thinly sliced, unseasoned for the homemade marinade",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame-oil",
+                "key": "sesame-oil",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pear",
+                "key": "pear",
+                "name": "Bosc or Asian pear",
+                "plural": "Bosc or Asian pears",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "count"
+                },
+                "preparation": "washed, cored and grated",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "peeled and minced",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "preparation": "grated",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "green onion",
+                "plural": "green onions",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "washed and minced",
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pan-oil",
+                "key": "pan-oil",
+                "name": "suitable high-heat cooking oil",
+                "allowance": "a small splash as needed for the pan",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare thin slices",
+            "text": "Keep the beef cold. If starting with a whole ribeye, use about 45 minutes in the freezer as a first check until firm enough to slice thinly, still yielding to the knife; this adds preparation time. Pat unseasoned sliced beef dry with paper towels before marinating."
+          },
+          {
+            "id": "marinate",
+            "title": "Mix and marinate",
+            "text": "For the homemade route, use {{ingredients}}. Whisk the soy sauce, sesame oil, sugar, grated pear, garlic, ginger, green onions and pepper together. Toss with all the sliced beef, cover and refrigerate at 40°F or below for at least 30 minutes or overnight. The pre-marinated option below replaces the complete homemade marinade."
+          },
+          {
+            "id": "sear",
+            "title": "Cook in uncrowded loads",
+            "text": "Heat a heavy skillet or wok over high heat until hot, adjusting if the coating scorches rather than browns. Use {{ingredients}} as needed. Lift the marinated beef from excess pooled marinade, leaving a coating on the slices, and spread one uncrowded layer in the pan. Begin checking after 1–2 minutes for browned edges, then flip and begin checking after about 30 seconds. Continue until the pieces reach at least 145°F in the center with a thermometer suitable for thin food, inserted from the side; follow any higher endpoint on a product label. These are first checks, not guaranteed finishing times."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and serve",
+            "text": "Move fully cooked beef to a clean serving dish and rest at least 3 minutes before eating. Continue with the remaining pan loads, keeping waiting raw beef cold and using separate clean utensils for cooked beef. Discard pooled raw-contact marinade; do not add it at the end. More loads extend elapsed time."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook thin marinated beef without crowding the pan",
+        "outcome": "Browned edges and cooked thin slices that retain their sweet-savory coating.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "For the H-Mart shortcut, choose pre-sliced unseasoned ribeye for the homemade marinade or the complete purchased pre-marinated alternative. A product sold as mechanically tenderized or with a cooking instruction needs its label directions.",
+          "Have a hot-pan oil suitable for the chosen vessel and a thermometer that can measure thin slices. Four portions is the original planning yield; slice thickness and pan loads govern the clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Slices lie in one layer and brown rather than sitting in a deep pool.",
+            "why": "A crowded pan and excess pooled marinade slow browning and give the sweet coating more time to scorch."
+          },
+          {
+            "step": 4,
+            "cue": "Fully cooked beef reaches its temperature endpoint and rests before eating.",
+            "why": "A brief turn and browned exterior do not establish the center temperature."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sweet coating burns while slices are still cooking.",
+            "cause": "The vessel is too hot for the marinade or the load stays against the pan too long.",
+            "fix": "Lower the heat and turn or move the slices as needed, continuing to their endpoint. Blackened sugar cannot be repaired by extra sauce."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Unseasoned ribeye plus the homemade marinade",
+            "alternative": "The same listed weight of purchased pre-marinated bulgogi beef",
+            "effect": "Omit all the homemade soy sauce, sesame oil, brown sugar, pear, garlic, ginger, green onions and pepper. Keep the separate pan-oil allowance and follow the actual product’s storage and cooking directions, including any higher endpoint; no marinade amount or equivalence is assumed. The flavor depends on that product."
+          }
+        ],
+        "timing": "Allow about 50–60 minutes from ready-sliced beef with the minimum 30-minute refrigerated marinade: around 10 minutes preparation, about 5–15 minutes cooking in loads and at least 3 minutes cooked rest, with some pan heating alongside the marinade. Whole-steak freezer firming and overnight marination extend elapsed time. Scale the full ingredients together and add pan loads, not heat or guaranteed cooking minutes.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F, at 40°F or below. Use within 3–4 days and reheat to 165°F throughout. Raw marinated beef can be frozen airtight for the freeze-ahead option and thawed in the refrigerator; follow the actual product’s storage limits. Never thaw or marinate on the counter.",
+        "sources": [
+          {
+            "title": "Mise — Bulgogi with thinly sliced ribeye",
+            "url": "https://github.com/jsilton/mise/blob/12816aa2a3827e97bca1c2393ad9e61bfeaae3f6/src/content/recipes/marinated-korean-ribeye.md"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "USDA — Thermometers for thin foods",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to authentic Bulgogi is the **thickness of the cut**. It should be paper-thin. If you are not buying it pre-sliced from H-Mart, freeze your ribeye for 45 minutes before slicing - this allows you to get those translucent, restaurant-style strips. The grated pear contains an enzyme called calpain that breaks down the meat fibers, making it melt-in-your-mouth tender.\n\n## Directions\n\n1.  **The Meat:** Pat beef dry with paper towels. If not pre-marinated, whisk all marinade ingredients in a bowl. Add the thinly sliced ribeye and toss to coat. Let marinate for at least 30 minutes (or overnight).\n2.  **The Pan:** Heat a cast-iron skillet or wok over high heat until smoking. Add a tiny splash of oil.\n3.  **The Sear:** Spread the beef in a single layer. Do not crowd the pan (work in batches). Let it sear undisturbed for 1-2 minutes until you get charred, crispy edges.\n4.  **Finish:** Flip and cook for 30 more seconds. Remove immediately.\n",
+    "after": "\n## Chef's Note\n\nBulgogi uses very thin slices so the beef can cook quickly in uncrowded pan loads. This marinade keeps its soy, sesame oil, brown sugar and grated pear; the pear contributes fruit and sweetness without a promise of enzyme-driven tenderness. If slicing a whole ribeye, partial freezer firming can make thin cuts easier, but the meat should remain sliceable.\n\n## Directions\n\n1. **Prepare thin slices:** Keep the beef cold. If starting with a whole ribeye, use about 45 minutes in the freezer as a first check until firm enough to slice thinly, still yielding to the knife; this adds preparation time. Pat unseasoned sliced beef dry with paper towels before marinating.\n2. **Mix and marinate:** For the homemade route, use ribeye beef, soy sauce, toasted sesame oil, brown sugar, Bosc or Asian pear, garlic cloves, fresh ginger, green onions, and black pepper. Whisk the soy sauce, sesame oil, sugar, grated pear, garlic, ginger, green onions and pepper together. Toss with all the sliced beef, cover and refrigerate at 40°F or below for at least 30 minutes or overnight. The pre-marinated option below replaces the complete homemade marinade.\n3. **Cook in uncrowded loads:** Heat a heavy skillet or wok over high heat until hot, adjusting if the coating scorches rather than browns. Use suitable high-heat cooking oil as needed. Lift the marinated beef from excess pooled marinade, leaving a coating on the slices, and spread one uncrowded layer in the pan. Begin checking after 1–2 minutes for browned edges, then flip and begin checking after about 30 seconds. Continue until the pieces reach at least 145°F in the center with a thermometer suitable for thin food, inserted from the side; follow any higher endpoint on a product label. These are first checks, not guaranteed finishing times.\n4. **Rest and serve:** Move fully cooked beef to a clean serving dish and rest at least 3 minutes before eating. Continue with the remaining pan loads, keeping waiting raw beef cold and using separate clean utensils for cooked beef. Discard pooled raw-contact marinade; do not add it at the end. More loads extend elapsed time.\n"
+  },
+  "findings": [
+    {
+      "id": "MM04-R01",
+      "rationale": "Preserve every Git-created homemade dose and four-portion plan. Restore a complete exclusive pre-marinated product choice: it replaces all homemade marinade ingredients, not doubles them; keep pre-sliced/H-Mart shortcut and actual label restrictions. Expose tiny pan-oil splash as a genuine independent allowance. Original799028 divider removal is not proof of double seasoning. No exact native450 binding or external original author established.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": ["12816aa2", "799028b2", "88460532"],
+      "exactBeforeAfterReferences": ["ingredients", "formula", "servings", "learning", "content"],
+      "questions": []
+    },
+    {
+      "id": "MM04-R02",
+      "rationale": "Preserve accepted88460532 dry-before-marinating, original paper-thin/45minute firming/uncrowded pan checks, but qualify firming by actual sliceable state and refrigerate30minute/overnight marinade. Replace smoking mandatory/stop immediately after30sec with controlled sweet-coating heat, thin center145°F and at least3minute rest; purchased-label higher endpoint applies. Smoke metadata does not describe a real smoking process. Unsupported authenticity, calpain and guaranteed tenderness claims removed without changing pear.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "88460532",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers",
+        "12816aa2"
+      ],
+      "exactBeforeAfterReferences": [
+        "formula",
+        "content",
+        "learning",
+        "cookTime",
+        "equipment",
+        "cookingMethods"
+      ],
+      "questions": []
+    },
+    {
+      "id": "MM04-R03",
+      "rationale": "Include30minute marinade and3minute rest, slice-firming ifneeded and actual loads in elapsed planning; active work remains short but original15minute total is false. Remove optional quick classification because actual total exceeds repo45minute quick gate, leaving weeknight/meal-prep occasions. Remove unverified nutrition; no new nutritional estimates or kitchen clock.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "12816aa2",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "scripts/lint-recipe.mjs"
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "vibe",
+        "nutrition",
+        "learning"
+      ],
+      "questions": []
+    },
+    {
+      "id": "MM04-I01",
+      "rationale": "A country field is a geographic-origin claim, distinct from a cuisine/style tag. Kalbi’s directly inspected primary identifies the flanken route as L.A. kalbi developed by Korean immigrants in Los Angeles. Ribeye and Keema have Git-only recipe introductions; neither first source establishes a national birthplace. ec691311 adds all three country labels in a title/metadata pass. The author confirms no retained contrary geographic evidence. Omit these unsupported fields without substituting another country or changing the Korean/Indian styles, authorship, ingredients or cooking routes. Banh Mi’s Vietnam field can remain: its publisher explicitly traces the sandwich to South Vietnam.",
+      "confidence": "High that the retained evidence does not establish these particular national-origin claims; this is evidence-limited omission, not a claim that Korean or Indian cuisine context is wrong.",
+      "applicableSources": [
+        {
+          "source": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
+          "scope": "Current primary explicitly distinguishes L.A. flanken style; it does not support Korea as this version’s geographic origin."
+        },
+        {
+          "source": "https://github.com/jsilton/mise/blob/12816aa2a3827e97bca1c2393ad9e61bfeaae3f6/src/content/recipes/marinated-korean-ribeye.md",
+          "scope": "Actual Git-only recipe introduction and whole formula; no geographic-origin field or external original."
+        },
+        {
+          "source": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/lamb-keema-matar.md",
+          "scope": "Actual Git-only recipe introduction and whole formula; no geographic-origin field or external original."
+        },
+        {
+          "source": "ec691311c835b756940788b5d587124ac76be446",
+          "scope": "Exact followed Git changes add the three country labels; this proves metadata chronology, not the labels’ historical truth."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/12816aa2a3827e97bca1c2393ad9e61bfeaae3f6/src/content/recipes/marinated-korean-ribeye.md",
+    "introductionScope": "Actual Git-authored cooking introduction; no original450 native binding established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Homemade unseasoned ribeye",
+      "status": "preserved primary",
+      "difference": "Actual12816 introduction establishes1lb slicedbeef and complete soy/sesame/sugar/pear/garlic/ginger/scallion/pepper formula; no saved native match or primary external original."
+    },
+    {
+      "route": "Purchased pre-marinated/H-Mart shortcut",
+      "status": "complete public exclusive variant",
+      "difference": "The current if-not-pre-marinated condition omits homemade marinade for purchasedproduct; explicit entire homemade omission plus same meatweight/panoil retained, realpackage directions govern. Product taste/dose/quality not inferred."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Ribeye Beef, very thinly sliced (The \"Super H-Mart\" Shortcut: Buy pre-sliced or pre-marinated \"Bulgogi\" beef)",
+        "destination": "Step1 dry then homemade marinade unless purchased pre-marinated; steps3/4 frozen1–2min/30sec immediate removal has no measured endpoint/rest.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "3 tbsp Soy Sauce",
+        "destination": "Step1 homemade marinade only conditional if not pre-marinated.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Toasted Sesame Oil",
+        "destination": "Step1 homemade marinade only; separate tiny pan splash is not listed.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Brown Sugar",
+        "destination": "Step1 homemade brown sugar marinade.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/2 Pear (Bosc or Asian), grated (The enzyme that tenderizes the meat)",
+        "destination": "Step1 grated pear marinade; ingredient/note incorrectly name guaranteed tenderizing enzyme.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "Step1 homemade garlic.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Ginger, grated",
+        "destination": "Step1 homemade ginger.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "2 Green Onions, minced",
+        "destination": "Step1 homemade green onions.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": "Step1 homemade pepper.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [
+      {
+        "supply": "A tiny splash of oil",
+        "destination": "Step2 smoking cast-iron/wok; genuine unmeasured pan supply omitted from list."
+      }
+    ],
+    "proposed": [
+      {
+        "id": "beef.beef",
+        "component": "Beef and marinade",
+        "name": "ribeye beef",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "raw, fresh or fully thawed; very thinly sliced, unseasoned for the homemade marinade",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.soy",
+        "component": "Beef and marinade",
+        "name": "soy sauce",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.sesame-oil",
+        "component": "Beef and marinade",
+        "name": "toasted sesame oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.sugar",
+        "component": "Beef and marinade",
+        "name": "brown sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.pear",
+        "component": "Beef and marinade",
+        "name": "Bosc or Asian pear",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed, cored and grated",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.garlic",
+        "component": "Beef and marinade",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and minced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.ginger",
+        "component": "Beef and marinade",
+        "name": "fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": "grated",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.scallions",
+        "component": "Beef and marinade",
+        "name": "green onion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed and minced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.pepper",
+        "component": "Beef and marinade",
+        "name": "black pepper",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinate (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "beef.pan-oil",
+        "component": "Beef and marinade",
+        "name": "suitable high-heat cooking oil",
+        "quantity": null,
+        "allowance": "a small splash as needed for the pan",
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned sear (1 share); full subsequent route in processGraph and authored formula."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Purchased pre-marinated bulgogi beef",
+        "supply": "Same scaled1lb raw product instead of unseasoned ribeye; retain separate asneeded pan oil.",
+        "replacement": "Omit all3tbsp soy,1tbsp sesameoil,1tbsp brownsugar,1/2pear,2garlic,1tsp ginger,2greenonions,1/4tsp pepper for originalbatch; no homemade marinade doubled.",
+        "destination": "Actual product cold storage/thaw/cooking directions and any higher endpoint; uncrowded panloads then required cookedrest; no package amount equivalence claimed."
+      }
+    ],
+    "quantityScope": "Full current measured doses retained; genuine method/source allowances and explicitly separated original alternatives documented. Frozen ledger is never retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare thin slices: Keep the beef cold. If starting with a whole ribeye, use about 45 minutes in the freezer as a first check until firm enough to slice thinly, still yielding to the knife; this adds preparation time. Pat unseasoned sliced beef dry with paper towels before marinating.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 2,
+      "text": "Mix and marinate: For the homemade route, use ribeye beef, soy sauce, toasted sesame oil, brown sugar, Bosc or Asian pear, garlic cloves, fresh ginger, green onions, and black pepper. Whisk the soy sauce, sesame oil, sugar, grated pear, garlic, ginger, green onions and pepper together. Toss with all the sliced beef, cover and refrigerate at 40°F or below for at least 30 minutes or overnight. The pre-marinated option below replaces the complete homemade marinade.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 3,
+      "text": "Cook in uncrowded loads: Heat a heavy skillet or wok over high heat until hot, adjusting if the coating scorches rather than browns. Use suitable high-heat cooking oil as needed. Lift the marinated beef from excess pooled marinade, leaving a coating on the slices, and spread one uncrowded layer in the pan. Begin checking after 1–2 minutes for browned edges, then flip and begin checking after about 30 seconds. Continue until the pieces reach at least 145°F in the center with a thermometer suitable for thin food, inserted from the side; follow any higher endpoint on a product label. These are first checks, not guaranteed finishing times.",
+      "dependencies": [2],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 4,
+      "text": "Rest and serve: Move fully cooked beef to a clean serving dish and rest at least 3 minutes before eating. Continue with the remaining pan loads, keeping waiting raw beef cold and using separate clean utensils for cooked beef. Discard pooled raw-contact marinade; do not add it at the end. More loads extend elapsed time.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Purchased pre-marinated bulgogi beef",
+      "supply": "Same scaled1lb raw product instead of unseasoned ribeye; retain separate asneeded pan oil.",
+      "replacement": "Omit all3tbsp soy,1tbsp sesameoil,1tbsp brownsugar,1/2pear,2garlic,1tsp ginger,2greenonions,1/4tsp pepper for originalbatch; no homemade marinade doubled.",
+      "destination": "Actual product cold storage/thaw/cooking directions and any higher endpoint; uncrowded panloads then required cookedrest; no package amount equivalence claimed."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["avocado-kale-caesar-salad", "smashed-cucumber-salad", "sesame-tomato-salad"],
+    "outgoingRecipeReferences": [],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings and linked preparations retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": "Original1lb raw thinribeye : 3tbsp soy : 1tbsp sesameoil : 1tbsp brownsugar : 1/2pear, with2garlic/1tsp ginger/2greenonions/1/4tsp pepper. Genuine pan-oil allowance remains unmeasured. Four planning portions, no cooked mass/yield or product-flavor equivalence.",
+  "preservedPriorRepairs": [
+    "88460532 patdry beef before homemade marinade preserved; purchased marinated product is not washed or stripped.",
+    "All original homemade amounts, thin slicing, partial firming option, pre-sliced/pre-marinated shortcut, overnight/freezeahead and pairings preserved.",
+    "No native450 or external original author invented."
+  ],
+  "remainingQuestions": [
+    "Confirm actual thinbeef cut, thermometer sensor suitability, panload and texture/time at desired scale; scientifically named enzyme/tenderness not verified.",
+    "Which H-Mart or other pre-marinated product is used, and do its actual label/mechanically-tenderized directions require different cooking? No product identity/dose assumed.",
+    "Confirm raw marinated freeze-ahead quality and actual package storage deadlines; no precise freezer quality duration invented.",
+    "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 93,
+    "targetedLint": "Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12251,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 68,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all ten pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

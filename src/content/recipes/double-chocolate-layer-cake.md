@@ -66,7 +66,6 @@ ingredients:
   - 2 tbsp granulated sugar
   - 2 tbsp light corn syrup
   - '1/4 cup unsalted butter, cubed'
-origin: United States
 source: 'Ed Kasky, Gourmet (March 1999), via Epicurious'
 sourceUrl: 'https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275'
 formula:
@@ -306,6 +305,68 @@ formula:
         frost between the layers and over the top and sides. If refrigerated ganache has become too
         firm, let it soften briefly just until it spreads without tearing the cake. Refrigerate the
         assembled cake until serving.
+learning:
+  focus: Judge ganache consistency before frosting fully cooled layers
+  outcome: >-
+    Set chocolate layers and smooth ganache that spreads between them and over the outside without
+    sliding or tearing the cake.
+  techniques:
+    - temperature
+  before:
+    - >-
+      Use two 10-inch round pans, each 2 inches deep. The written batch stays fixed; make separate
+      batches for more cake so batter depth and baking time remain comparable.
+    - >-
+      Keep unsweetened natural cocoa and the listed leaveners together. Melt the cake chocolate in
+      hot coffee, then let that mixture cool while preparing the other ingredients. Set out racks
+      and a shallow bowl for the ganache.
+  checkpoints:
+    - step: 4
+      cue: The eggs are slightly thickened and pale yellow before the liquids go in.
+      why: Use this appearance alongside the stated stand-mixer or hand-mixer time.
+    - step: 7
+      cue: >-
+        A tester inserted in each center comes out clean; the layers then cool completely in their
+        pans.
+      why: >-
+        The written bake range is a checking guide, and warm layers are difficult to invert and
+        frost.
+    - step: 10
+      cue: 'The ganache is smooth and holds a soft, spreadable consistency.'
+      why: >-
+        Chocolate and cooling conditions determine when it is ready to spread; the cooling clock
+        alone does not establish that consistency.
+  troubleshooting:
+    - problem: Chilled ganache tears the cake while spreading
+      cause: The ganache is too firm for assembly.
+      fix: >-
+        Let it soften briefly only until it spreads without tearing. Keep the rest refrigerated and
+        count that time toward the cumulative room-temperature limit.
+  substitutions:
+    - ingredient: Natural cocoa
+      alternative: Use another unsweetened natural cocoa rather than switching to Dutch-process cocoa.
+      effect: >-
+        Brand changes can change flavor and color; keep the natural-cocoa type and the listed
+        leaveners.
+  timing: >-
+    Allow about 4 hours for preparation, baking, complete layer cooling, ganache cooling, and
+    assembly; cooling can take longer in a warm kitchen. Make the ganache during the layers' cooling
+    period and refrigerate it while waiting. The planning estimate does not mean leaving the ganache
+    or frosted cake at room temperature for four hours.
+  storage: >-
+    Keep the frosted cake covered at 40°F or below for up to 3 days. Let only the slices you plan to
+    serve soften briefly at room temperature, keeping the rest refrigerated. Count ganache cooling,
+    frosting, and service toward a combined 2-hour limit out of refrigeration, or 1 hour above 90°F;
+    refrigerate sooner if needed. The plain, unfrosted layers may be made one day ahead and kept at
+    room temperature, wrapped well once completely cool.
+  sources:
+    - title: Epicurious — Double Chocolate Layer Cake
+      url: 'https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275'
+    - title: FDA — Safe Food Handling
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note

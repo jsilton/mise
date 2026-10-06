@@ -1,0 +1,907 @@
+{
+  "slug": "lamb-keema-matar",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
+  "inputSha256": "273f7e94a08d793965dad6f6beac689fa1c38d4bf625973ca632c30ed689d4c2",
+  "acceptedSourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "India",
+      "after": null
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["simmer"],
+      "after": ["sear", "saute", "simmer"]
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 20–30 min, depending on browning and simmering"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 30–40 min, plus separately prepared rice or naan"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Ground Lamb",
+        "1 cup Frozen Peas",
+        "1 large Yellow Onion, finely diced",
+        "1 tbsp Fresh Ginger, grated",
+        "1 tbsp Fresh Garlic, minced",
+        "1 tsp Cumin Seeds",
+        "1 tsp Turmeric",
+        "1 tsp Garam Masala",
+        "1 tsp Kashmiri Chili Powder",
+        "1 tbsp Tomato Paste",
+        "1/2 Lemon, juiced",
+        "Fresh Cilantro, chopped"
+      ],
+      "after": [
+        "--- Lamb and peas ---",
+        "1 lb ground lamb, raw, fresh or fully thawed",
+        "1 cup frozen peas",
+        "1 large yellow onion, peeled and finely diced",
+        "1 tbsp fresh ginger, grated",
+        "1 tbsp fresh garlic, minced",
+        "1 tsp cumin seeds",
+        "1 tsp turmeric",
+        "1 tsp garam masala",
+        "1 tsp Kashmiri chili powder",
+        "1 tbsp tomato paste",
+        "1/4 cup water, approximately, to keep the mixture saucy",
+        "1/2 lemon, washed and juiced",
+        "fresh cilantro, as wanted for finishing, washed and chopped"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 60,
+        "protein": 3,
+        "carbs": 12.5,
+        "fat": 0.5,
+        "fiber": 3.5,
+        "sugar": 4.5,
+        "sodium": 110
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-skillet-with-lid", "food-thermometer"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pan",
+            "name": "Lamb and peas",
+            "ingredients": [
+              {
+                "id": "lamb",
+                "key": "lamb",
+                "name": "ground lamb",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "preparation": "raw, fresh or fully thawed",
+                "uses": [
+                  {
+                    "step": "brown",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "peas",
+                "key": "peas",
+                "name": "frozen peas",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "large yellow onion",
+                "plural": "large yellow onions",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "peeled and finely diced",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "preparation": "grated",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "fresh garlic",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "cumin seeds",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "bloom",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "turmeric",
+                "key": "turmeric",
+                "name": "turmeric",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "bloom",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garam",
+                "key": "garam",
+                "name": "garam masala",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "Kashmiri chili powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "bloom",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paste",
+                "key": "paste",
+                "name": "tomato paste",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "bloom",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "preparation": "approximately, to keep the mixture saucy",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon",
+                "plural": "lemons",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "count"
+                },
+                "preparation": "washed and juiced",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "allowance": "as wanted for finishing",
+                "preparation": "washed and chopped",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "brown",
+            "title": "Brown the lamb",
+            "text": "Heat a large skillet and use {{ingredients}}, breaking it into small pieces as its fat renders. Cook until browned, adjusting heat to avoid blackened patches. Keep the full rendered fat in the pan. Use a vessel with room to stir the listed batch; for more meat use extra pans or loads and divide every ingredient proportionally."
+          },
+          {
+            "id": "aromatics",
+            "title": "Soften the onion",
+            "text": "Have {{ingredients}} ready. Add the diced onion to the lamb pan and cook about 5 minutes as a first check until it softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and sauté 30–45 seconds until fragrant without scorching."
+          },
+          {
+            "id": "bloom",
+            "title": "Add spices and tomato paste",
+            "text": "Stir in {{ingredients}} and cook about 1 minute, stirring constantly, until fragrant without burning. The garam masala remains for the finish."
+          },
+          {
+            "id": "simmer",
+            "title": "Cook the peas and finish the lamb",
+            "text": "Add {{ingredients}}, cover and simmer gently, beginning checks around 5 minutes. Stir to distribute heat and continue until peas are hot and tender, following any package cooking directions, and the ground-lamb mixture reaches 160°F in several places with a food thermometer. A brown exterior and the covered clock do not establish the meat endpoint."
+          },
+          {
+            "id": "finish",
+            "title": "Finish the seasoning",
+            "text": "Once the lamb is fully cooked, stir in {{ingredients}}, using all the juice from the measured lemon, and taste."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve with separately prepared warm [Naan](/mise/recipes/naan) or [Basmati Rice](/mise/recipes/basmati-rice). Those components have their own amounts and preparation clocks; four portions is the original planning yield."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Render lamb fat and finish ground meat by temperature",
+        "outcome": "Saucy browned lamb with tender peas, fragrant spices and a lemon-cilantro finish.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Have all spices measured and vegetables prepared before browning. Garam masala and lemon belong to the finished cooked mixture; cumin, turmeric and chili cook with the tomato paste.",
+          "Use enough skillet room for the full listed batch and stir the covered mixture before checking its temperature. Have the cumin, turmeric, chili and tomato paste ready for their short fragrant cooking stage."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Onion softens in the retained lamb fat without blackened garlic.",
+            "why": "The onion stage needs its own time; the short garlic-ginger stage comes after onion softening."
+          },
+          {
+            "step": 4,
+            "cue": "Peas are hot and tender and the stirred ground-lamb mixture reaches 160°F.",
+            "why": "Ground meat needs a different endpoint from whole lamb cuts; browned pieces alone are not the temperature check."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The mixture catches before the peas are tender.",
+            "cause": "Heat is too fierce or a wide pan has evaporated the small water supply rapidly.",
+            "fix": "Lower the heat, stir through the bottom and keep covered while continuing to the stated endpoints. A burnt base will make the whole mixture bitter."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Kashmiri chili powder",
+            "alternative": "Reduce or omit the chili for a milder serving",
+            "effect": "Keep all remaining spices, lamb fat, peas and the lemon-cilantro finish; the dish loses some chili color and warmth. No equal-spoon replacement with a different hot chili blend is assumed."
+          }
+        ],
+        "timing": "Allow about 30–40 minutes for the original batch: about 10 minutes preparation and roughly 20–30 minutes browning, onion softening, the short aromatic/spice stages, water heat-up and covered pea cooking. Most cooking is attended; extra pans, loads or evaporation corrections extend time. Rice or naan preparation is separate.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F, at 40°F or below. Use within 3–4 days and reheat to 165°F throughout. Stir when reheating the saucy mixture. FDA recommends a boil for reheated sauces and USDA additionally recommends a rolling boil; keep that stage brief rather than reducing the small water supply through prolonged boiling.",
+        "sources": [
+          {
+            "title": "Mise — Lamb Keema Matar",
+            "url": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/lamb-keema-matar.md"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to a great Keema is **Deep Browning**. You must sear the ground lamb until it develops a dark, savory crust before adding the aromatics. The peas provide a sweet \"pop\" that balances the richness of the lamb. We finish with a heavy hit of lemon juice and fresh cilantro to provide the **Acid Balance** that keeps this dish from feeling heavy.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **Sear:** Heat a large skillet over high heat. Add the lamb and cook, breaking it up with a spoon, until deeply browned and slightly crispy.\n2.  **Aromatics:** Add the diced onion to the lamb fat. Cook for 5 minutes until soft. Stir in the ginger and garlic and sauté for 30-45 seconds.\n3.  **Bloom:** Add the cumin seeds, turmeric, chili, and tomato paste. Stir constantly for 1 minute until fragrant.\n4.  **Simmer:** Add a splash of water (about 1/4 cup) to keep it saucy. Stir in the frozen peas. Cover and simmer for 5 minutes.\n5.  **Finish:** Stir in the Garam Masala, lemon juice, and cilantro.\n6.  **Serve:** Serve with warm Naan or over rice.\n",
+    "after": "\n## Chef's Note\n\nKeema matar pairs spiced ground lamb with sweet peas. Brown the lamb in its own rendered fat, soften the onion in that same pan and add the garam masala near the finish. The small water supply keeps the mixture saucy; lemon and cilantro finish it without discarding the lamb’s richness.\nFor kids, serve the heat on the side or reduce or omit the spicy elements.\n\n## Directions\n\n1. **Brown the lamb:** Heat a large skillet and use ground lamb, breaking it into small pieces as its fat renders. Cook until browned, adjusting heat to avoid blackened patches. Keep the full rendered fat in the pan. Use a vessel with room to stir the listed batch; for more meat use extra pans or loads and divide every ingredient proportionally.\n2. **Soften the onion:** Have large yellow onion, fresh ginger, and fresh garlic ready. Add the diced onion to the lamb pan and cook about 5 minutes as a first check until it softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and sauté 30–45 seconds until fragrant without scorching.\n3. **Add spices and tomato paste:** Stir in cumin seeds, turmeric, Kashmiri chili powder, and tomato paste and cook about 1 minute, stirring constantly, until fragrant without burning. The garam masala remains for the finish.\n4. **Cook the peas and finish the lamb:** Add frozen peas and water, cover and simmer gently, beginning checks around 5 minutes. Stir to distribute heat and continue until peas are hot and tender, following any package cooking directions, and the ground-lamb mixture reaches 160°F in several places with a food thermometer. A brown exterior and the covered clock do not establish the meat endpoint.\n5. **Finish the seasoning:** Once the lamb is fully cooked, stir in garam masala, lemon, and fresh cilantro, using all the juice from the measured lemon, and taste.\n6. **Serve:** Serve with separately prepared warm [Naan](/mise/recipes/naan) or [Basmati Rice](/mise/recipes/basmati-rice). Those components have their own amounts and preparation clocks; four portions is the original planning yield.\n"
+  },
+  "findings": [
+    {
+      "id": "MM04-L01",
+      "rationale": "Keep actuale70 Git-created formula/4planning portions andallfat/spices/lemon/peas. Add method-onlyapproximately¼cupwater as authored cooking-water supply,not extra liquidorfalsevolume exactness; no invented salt/oil. Migrate substantialstageallocation toformula preservinggaram/lemon/cilantrofinish versusbloominitialspices. Familykidheat choice retained without replacingfullbase. No exactnativebinding/externaloriginauthor invented.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": ["e70d098f", "2b01ffbb"],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "servings", "content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "MM04-L02",
+      "rationale": "Preserve ground-lamb browning inownfat and2b01ffbb onionthen30–45secginger/garlic and1minspice stage. Qualifyclocksbysensorycues/actualcapacity, keepfullrenderedfat, stirto160°Fgroundlamb in severalplacesandfollowactualfrozenpea instructions. This distinctFDAgroundmeatendpointisnot145wholelamb. No generic acidbrowningextra step orfat reduction imposed.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "2b01ffbb",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["formula", "content", "learning", "equipment", "cookTime"],
+      "questions": []
+    },
+    {
+      "id": "MM04-L03",
+      "rationale": "Include actualbrowning/onion/aromatic/spice/waterheatup/coveredpeastages attended30–40minplanplusseparaterice/naan. Initialsimmer-onlymetadata incomplete. Remove unverifiablelegacy60cal nutrition without new calculation. Promptshallowcooling3–4day/165reheating andsauce-specificFDAboilvsUSDArollingboil withbrief concentration caution do not prescribenewwater/fatloss/firstcookboil.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "e70d098f",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "cookingMethods",
+        "nutrition",
+        "learning"
+      ],
+      "questions": []
+    },
+    {
+      "id": "MM04-I01",
+      "rationale": "A country field is a geographic-origin claim, distinct from a cuisine/style tag. Kalbi’s directly inspected primary identifies the flanken route as L.A. kalbi developed by Korean immigrants in Los Angeles. Ribeye and Keema have Git-only recipe introductions; neither first source establishes a national birthplace. ec691311 adds all three country labels in a title/metadata pass. The author confirms no retained contrary geographic evidence. Omit these unsupported fields without substituting another country or changing the Korean/Indian styles, authorship, ingredients or cooking routes. Banh Mi’s Vietnam field can remain: its publisher explicitly traces the sandwich to South Vietnam.",
+      "confidence": "High that the retained evidence does not establish these particular national-origin claims; this is evidence-limited omission, not a claim that Korean or Indian cuisine context is wrong.",
+      "applicableSources": [
+        {
+          "source": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
+          "scope": "Current primary explicitly distinguishes L.A. flanken style; it does not support Korea as this version’s geographic origin."
+        },
+        {
+          "source": "https://github.com/jsilton/mise/blob/12816aa2a3827e97bca1c2393ad9e61bfeaae3f6/src/content/recipes/marinated-korean-ribeye.md",
+          "scope": "Actual Git-only recipe introduction and whole formula; no geographic-origin field or external original."
+        },
+        {
+          "source": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/lamb-keema-matar.md",
+          "scope": "Actual Git-only recipe introduction and whole formula; no geographic-origin field or external original."
+        },
+        {
+          "source": "ec691311c835b756940788b5d587124ac76be446",
+          "scope": "Exact followed Git changes add the three country labels; this proves metadata chronology, not the labels’ historical truth."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/lamb-keema-matar.md",
+    "introductionScope": "Actual Git-authored cooking introduction; no original450 native binding established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Git-created full lamb formula",
+      "status": "primary preserved",
+      "difference": "Actuale70 introduction has allcurrentlistedamounts plusmethodapproximately¼cupwater. No exact450 nativejoin or externaloriginalauthor; no sourceprestige normalization. Existing recipeserving/doublepairingpolicy306notreversed."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Ground Lamb",
+        "destination": "Step1 deeplybrown/crispygroundlamb,renderfat usedstep2;no meattemperatureendpoint;clock5coveredstep4.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 cup Frozen Peas",
+        "destination": "Step4 frozenpeas five-minute coveredclock,no productdirection/hot-through cue.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 large Yellow Onion, finely diced",
+        "destination": "Step2 onion5minsoftinlambfat.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Fresh Ginger, grated",
+        "destination": "Step2 gingertogethergarlic30–45sec acceptedrepair.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Fresh Garlic, minced",
+        "destination": "Step2 garlicwithginger30–45sec acceptedrepair.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Cumin Seeds",
+        "destination": "Step3 cuminseeds1minbloom.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Turmeric",
+        "destination": "Step3 turmeric1minbloom.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Garam Masala",
+        "destination": "Step5 finalgaram masala.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Kashmiri Chili Powder",
+        "destination": "Step3 chili1minbloom.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Tomato Paste",
+        "destination": "Step3 paste1minbloom.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/2 Lemon, juiced",
+        "destination": "Step5 fullhalf lemonjuice.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "Fresh Cilantro, chopped",
+        "destination": "Step5 unmeasured choppedcilantro.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [
+      {
+        "supply": "A splash of water (about1/4cup)",
+        "destination": "Step4 coveredpeas/saucymoisture;approximate measuredmethodamount omitted fromingredientlist."
+      }
+    ],
+    "proposed": [
+      {
+        "id": "pan.lamb",
+        "component": "Lamb and peas",
+        "name": "ground lamb",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "raw, fresh or fully thawed",
+        "role": "food",
+        "uses": [
+          {
+            "step": "brown",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned brown (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.peas",
+        "component": "Lamb and peas",
+        "name": "frozen peas",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned simmer (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.onion",
+        "component": "Lamb and peas",
+        "name": "large yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and finely diced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned aromatics (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.ginger",
+        "component": "Lamb and peas",
+        "name": "fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "grated",
+        "role": "food",
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned aromatics (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.garlic",
+        "component": "Lamb and peas",
+        "name": "fresh garlic",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned aromatics (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.cumin",
+        "component": "Lamb and peas",
+        "name": "cumin seeds",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "bloom",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned bloom (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.turmeric",
+        "component": "Lamb and peas",
+        "name": "turmeric",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "bloom",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned bloom (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.garam",
+        "component": "Lamb and peas",
+        "name": "garam masala",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned finish (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.chili",
+        "component": "Lamb and peas",
+        "name": "Kashmiri chili powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "bloom",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned bloom (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.paste",
+        "component": "Lamb and peas",
+        "name": "tomato paste",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "bloom",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned bloom (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.water",
+        "component": "Lamb and peas",
+        "name": "water",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "approximately, to keep the mixture saucy",
+        "role": "cooking-water",
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned simmer (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.lemon",
+        "component": "Lamb and peas",
+        "name": "lemon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed and juiced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned finish (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "pan.cilantro",
+        "component": "Lamb and peas",
+        "name": "fresh cilantro",
+        "quantity": null,
+        "allowance": "as wanted for finishing",
+        "preparation": "washed and chopped",
+        "role": "garnish",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned finish (1 share); full subsequent route in processGraph and authored formula."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Milder kid serving",
+        "supply": "Fullcurrentlamb/peas/fat/spices/lemon/cilantro;reduceoromitchosenchilipowder for that separateprepchoice.",
+        "replacement": "Currentnotealreadypermits reducedheat;noequalspoon substitution withunidentifiedhotblend, noalteredfullbase asdefault.",
+        "destination": "Choose reducedchili beforebloom;retain remainingcumin/turmeric/paste andlate garam/lemon/cilantro. Heat-on-side currentnote remainsoption,not certifying madefullyspicedpanbecomesmild."
+      }
+    ],
+    "quantityScope": "Full current measured doses retained; genuine method/source allowances and explicitly separated original alternatives documented. Frozen ledger is never retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Brown the lamb: Heat a large skillet and use ground lamb, breaking it into small pieces as its fat renders. Cook until browned, adjusting heat to avoid blackened patches. Keep the full rendered fat in the pan. Use a vessel with room to stir the listed batch; for more meat use extra pans or loads and divide every ingredient proportionally.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 2,
+      "text": "Soften the onion: Have large yellow onion, fresh ginger, and fresh garlic ready. Add the diced onion to the lamb pan and cook about 5 minutes as a first check until it softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and sauté 30–45 seconds until fragrant without scorching.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 3,
+      "text": "Add spices and tomato paste: Stir in cumin seeds, turmeric, Kashmiri chili powder, and tomato paste and cook about 1 minute, stirring constantly, until fragrant without burning. The garam masala remains for the finish.",
+      "dependencies": [2],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 4,
+      "text": "Cook the peas and finish the lamb: Add frozen peas and water, cover and simmer gently, beginning checks around 5 minutes. Stir to distribute heat and continue until peas are hot and tender, following any package cooking directions, and the ground-lamb mixture reaches 160°F in several places with a food thermometer. A brown exterior and the covered clock do not establish the meat endpoint.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 5,
+      "text": "Finish the seasoning: Once the lamb is fully cooked, stir in garam masala, lemon, and fresh cilantro, using all the juice from the measured lemon, and taste.",
+      "dependencies": [4],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve with separately prepared warm Naan or Basmati Rice. Those components have their own amounts and preparation clocks; four portions is the original planning yield.",
+      "dependencies": [5],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Milder kid serving",
+      "supply": "Fullcurrentlamb/peas/fat/spices/lemon/cilantro;reduceoromitchosenchilipowder for that separateprepchoice.",
+      "replacement": "Currentnotealreadypermits reducedheat;noequalspoon substitution withunidentifiedhotblend, noalteredfullbase asdefault.",
+      "destination": "Choose reducedchili beforebloom;retain remainingcumin/turmeric/paste andlate garam/lemon/cilantro. Heat-on-side currentnote remainsoption,not certifying madefullyspicedpanbecomesmild."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "cucumber-raita", "naan"],
+    "outgoingRecipeReferences": ["naan", "basmati-rice"],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings and linked preparations retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": "Original1lb groundlamb : 1cup frozenpeas : 1largeonion : 1tbspginger : 1tbspgarlic : 1tsp eachcumin/turmeric/garam/chili : 1tbsppaste : approximately¼cupmethodwater : juice1/2lemon. Cilantro unmeasured;4planningportions,not cookedweight or fixedevaporation ratio.",
+  "preservedPriorRepairs": [
+    "2b01ffbb onionsofteningbeforegarlic/ginger30–45seconds shortstage preserved.",
+    "Fullrenderedlambfat,allcurrentmeat/peas/aromatics/spices/paste/lemon/cilantro retained;methodwater becomeslist supplyonly.",
+    "Indian cuisine/style,currentorigin/title/ID/pairings andexisting kidheat option retained;no inventedexternal/familyoriginal."
+  ],
+  "remainingQuestions": [
+    "Confirm actualground-lamb fatcontent, pan/lid/load andsmallwater evaporation throughpeacooking;noadditionalwater/oil/salt dose guessed.",
+    "Whichfrozenpea product is used andwhat cookingdirections apply? Five-minuteclock isfirstcheck only.",
+    "Confirmactualbrowntexturewithoutblackenedspices,160endpointand fullfat/lemonbalance atscale;anyextrabatchtimeuntested.",
+    "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 93,
+    "targetedLint": "Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12251,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 68,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all ten pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

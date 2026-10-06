@@ -1,0 +1,530 @@
+{
+  "slug": "babys-first-smash-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
+  "inputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716",
+  "acceptedSourceSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "About 1 1/2–2 hr, plus extra frosting chilling if needed"
+    },
+    {
+      "field": "servings",
+      "before": "4 mini cakes",
+      "after": "Original batch: four mini cakes plus six to eight muffins"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 very ripe Bananas (The sweetener)",
+        "1/2 cup Natural Unsweetened Applesauce",
+        "3 tbsp Coconut Oil, melted",
+        "3/4 cup Whole Wheat Flour",
+        "3/4 cup Oat Flour (blended oats)",
+        "1 tsp Baking Soda",
+        "1 tsp Cinnamon",
+        "8 oz Cream Cheese, softened",
+        "1/2 cup Apple Juice Concentrate (The sweetener)",
+        "2 tsp Vanilla Extract"
+      ],
+      "after": [
+        "4 very ripe bananas",
+        "1/2 cup natural unsweetened applesauce",
+        "3 tbsp coconut oil, melted",
+        "3 tsp vanilla extract, for batter",
+        "3/4 cup whole wheat flour",
+        "3/4 cup oat flour, grind rolled oats then measure",
+        "1 tsp baking soda",
+        "1 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "8 oz cream cheese, softened",
+        "1/2 cup apple juice concentrate, thawed and undiluted",
+        "2 tsp vanilla extract, for frosting"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1050,
+        "protein": 29.5,
+        "carbs": 158,
+        "fat": 39,
+        "fiber": 24,
+        "sugar": 26.5,
+        "sodium": 540
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate vanilla and use the complete pan plan",
+        "outcome": "Moist banana cakes with set centers and cream cheese frosting that holds between completely cooled layers.",
+        "techniques": ["temperature"],
+        "before": [
+          "Pan dimensions describe the original batch. Make multiples as separate original-size cakes with similar batter depth and headroom; smaller amounts need appropriately smaller pans and earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or cooling and baking times.",
+          "Measure oat flour after grinding the oats. Thaw the apple juice concentrate without diluting it. Use softened cream cheese, then refrigerate the finished frosting while waiting."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Every center is set and the tester has no wet batter.",
+            "why": "Small pans and the amount of banana change the baking time."
+          },
+          {
+            "step": 5,
+            "cue": "The cake is completely cool and the frosting holds a spreadable shape.",
+            "why": "Warm layers and diluted concentrate loosen the cream cheese."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Frosting slides or melts",
+            "cause": "The cake is still warm or the topping is too loose.",
+            "fix": "Wait for completely cool layers; chill the topping until it holds a spreadable shape, then stir gently."
+          }
+        ],
+        "timing": "Allow roughly 30 minutes active preparation,15–25 minutes or longer baking, and enough cooling to frost cold layers: about 1½–2 hours overall. Loose frosting may add 1–2 hours refrigerator chilling; cooling and actual pans determine the finish.",
+        "substitutions": [
+          {
+            "ingredient": "Bananas",
+            "alternative": "For the original batch, use four or five ripe bananas; the listed batch starts with four. If scaling this option, scale that original banana count proportionally. Banana size changes batter volume and moisture, so check the centers rather than assuming a weight equivalence.",
+            "effect": "A different banana count changes moisture and batter volume; follow the listed count for the primary batch."
+          },
+          {
+            "ingredient": "Pan shape",
+            "alternative": "For the original batch, use either four mini tart pans plus 6–8 muffin cups, or two 8- or 9-inch rounds cut into smaller circles after cooling. Keep all the batter and the offcuts. The stated yield describes that original pan plan; actual cake and muffin counts depend on the pans and batter depth.",
+            "effect": "Changes cake shape and offcut/muffin output without discarding batter or claiming a precise finished count."
+          }
+        ],
+        "storage": "Keep the frosted cake covered in the refrigerator at 40°F /4°C or below. Return frosting to the refrigerator within 2 hours of cumulative preparation and serving time, or 1 hour above 90°F /32°C. Refrigerate frosting while waiting for layers to cool.",
+        "sources": [
+          {
+            "title": "Fit Mama Real Food — Baby’s First Smash Cake",
+            "url": "https://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis cake is designed for an 8-month-old to grab and taste, so it contains only familiar foods and no added sugar (bananas and applesauce do the sweetening). The whole wheat and oat flours provide nutrition and fiber, while the cream cheese frosting sweetened with apple juice concentrate is mild enough for a baby's palate. Small, stackable cakes make it easy for little hands to hold and explore.\n\n## Directions\n\n1.  **Batter:** Mash bananas until smooth. Whisk in applesauce, coconut oil, and vanilla. Fold in the flours, baking soda, and cinnamon.\n2.  **Bake:** Pour into mini tart pans or a muffin tin. Bake at 375°F for 15-20 minutes until a tester comes out clean. Cool completely.\n3.  **Frosting:** Whisk the softened cream cheese with the apple juice concentrate and vanilla until pale and fluffy.\n4.  **Assemble:** Stack the mini rounds with a layer of frosting between them. \"Frost\" the entire outside.\n5.  **Smash:** Serve to the birthday guest of honor.\n",
+    "after": "\n## Chef's Note\n\nThe banana cake and cream cheese frosting have separate vanilla amounts. Thawed apple juice concentrate goes into the frosting without added water; diluted juice makes a looser topping. This is a first-birthday cake, with the family choosing the serving shape and foods familiar to their child.\n\n## Directions\n\n1. Preheat the oven to 375°F. For the original batch, lightly oil four mini tart pans plus 6–8 standard muffin cups, or two 8- or 9-inch round pans. These are alternative full-batch pan plans; four mini pans alone do not account for all the batter. Keep comparable shallow batter depth, leave rising room and use additional cups if needed.\n2. Mash all the bananas. Whisk the whole wheat flour, measured oat flour, baking soda and cinnamon in a separate bowl. Mix all the applesauce, melted coconut oil and batter vanilla with the mashed bananas, then fold into the dry ingredients just until combined.\n3. Divide all the batter among the prepared pans. Bake at 375°F, starting checks around 15–20 minutes for the original shallow cakes; centers should be set and a tester should come out without wet batter. Pan size and banana size change the clock; muffins or different pans may finish at different times. Cool completely before frosting. If using large rounds, cut smaller cake circles with an overturned bowl once cool; keep the offcuts for serving.\n4. With clean tools, whisk all the softened cream cheese, thawed undiluted apple juice concentrate and frosting vanilla until creamy. Refrigerate while the cakes cool. If too loose to spread, chill 1–2 hours, then whisk again; the consistency of the concentrate and cream cheese matters.\n5. Stack the completely cooled mini rounds with some frosting between them and spread the remaining frosting over the outside and any muffins you want to frost. Keep refrigerated until serving to the birthday guest.\n"
+  },
+  "findings": [
+    {
+      "id": "LFC05-1",
+      "rationale": "The listed2tsp vanilla was consumed twice; exact bound source and publisher establish separate3tsp batter plus2tsp frosting. Source full batch needs4mini cakes PLUS6–8muffins, not4cakes alone. Current four bananas retained; saved four-or-five option distinguished from modern five. Added pan oil is separate from full3tbsp batter oil. Remove unverified infant-age/nutritional/digestibility claims and automatic nutrition. Complex dual yield remains legacy under authoring standard rather than inventing a single precise count. Its spelled-out original-batch yield stays fixed context under ingredient scaling; actual scaled muffin/cake count is unresolved, so no partial automatic count is presented.",
+      "confidence": "High for exact saved allocation/quantity; moderate for untested planning and conservative perishable handling",
+      "applicableSources": [
+        {
+          "title": "Fit Mama Real Food — Baby’s First Smash Cake",
+          "url": "https://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
+          "scope": "Actual publisher fetched: separate3tsp batter/2tsp frosting,4mini tart pans plus6–8muffins or two8/9-inch rounds, thawed undiluted concentrate. Modern five bananas and20–23min differ from saved4or5 and15–20; current four retained, source choice explicit. Not infant nutritional or swallowing-safety evidence."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Prompt refrigerator40°F,perishable2h/1h above90°F,clean separation and produce washing only. Conservative editorial application to cream/cream-cheese/heavy-cream toppings; not recipe-specific pH/water-activity or frosting shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content",
+        "origin"
+      ],
+      "questions": [
+        "Actual banana size/mashed yield and chosen current four versus saved four-or-five remain household/kitchen questions; no new weight equivalence.",
+        "Which mini pans does the household own, and how many muffins result at that actual shallow depth? Publisher4.75-inch mini pans are source context, not certification of every mini pan.",
+        "Will the actual cream cheese and concentrate spread after chilling without formula changes?",
+        "First-birthday context is preserved; no blanket suitability or nutrition advice for infants."
+      ]
+    },
+    {
+      "id": "ROOT-FINISHING-CLARITY",
+      "title": "Clear topping names and preserve finishing advice",
+      "rationale": "Remove a repeated instruction without changing the cooling or consistency cues. Name the actual topping; retain every existing cold-handling time and temperature.",
+      "confidence": "High for text/source preservation; no kitchen test.",
+      "applicableSources": [
+        {
+          "url": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
+          "scope": "Existing recipe topping and independently reviewed handling guidance."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Baby%E2%80%99s%20First%20Smash%20Cake.html",
+    "introductionScope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "The listed2tsp vanilla was consumed twice; exact bound source and publisher establish separate3tsp batter plus2tsp frosting. Source full batch needs4mini cakes PLUS6–8muffins, not4cakes alone. Current four bananas retained; saved four-or-five option distinguished from modern five. Added pan oil is separate from full3tbsp batter oil. Remove unverified infant-age/nutritional/digestibility claims and automatic nutrition. Complex dual yield remains legacy under authoring standard rather than inventing a single precise count. Its spelled-out original-batch yield stays fixed context under ingredient scaling; actual scaled muffin/cake count is unresolved, so no partial automatic count is presented.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "4 very ripe Bananas (The sweetener)",
+        "actualMethodDestination": "All mashed step1"
+      },
+      {
+        "text": "1/2 cup Natural Unsweetened Applesauce",
+        "actualMethodDestination": "All batter step1"
+      },
+      {
+        "text": "3 tbsp Coconut Oil, melted",
+        "actualMethodDestination": "All batter step1; pan greasing absent"
+      },
+      {
+        "text": "3/4 cup Whole Wheat Flour",
+        "actualMethodDestination": "All batter step1"
+      },
+      {
+        "text": "3/4 cup Oat Flour (blended oats)",
+        "actualMethodDestination": "All batter step1"
+      },
+      {
+        "text": "1 tsp Baking Soda",
+        "actualMethodDestination": "All batter step1"
+      },
+      {
+        "text": "1 tsp Cinnamon",
+        "actualMethodDestination": "All batter step1"
+      },
+      {
+        "text": "8 oz Cream Cheese, softened",
+        "actualMethodDestination": "All frosting step3"
+      },
+      {
+        "text": "1/2 cup Apple Juice Concentrate (The sweetener)",
+        "actualMethodDestination": "All frosting step3; concentrate thaw/dilution unspecified"
+      },
+      {
+        "text": "2 tsp Vanilla Extract",
+        "actualMethodDestination": "Spent in BOTH batter step1 and frosting step3; no allocation/total"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "4 very ripe bananas",
+        "actualMethodDestination": "All mashed into batter step2; current4 retained, saved4or5 choice separate."
+      },
+      {
+        "text": "1/2 cup natural unsweetened applesauce",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "3 tbsp coconut oil, melted",
+        "actualMethodDestination": "All batter step2; extra pan oil independent"
+      },
+      {
+        "text": "3 tsp vanilla extract, for batter",
+        "actualMethodDestination": "All3tsp batter step2, separate from frosting2tsp"
+      },
+      {
+        "text": "3/4 cup whole wheat flour",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "3/4 cup oat flour, grind rolled oats then measure",
+        "actualMethodDestination": "All after grinding/measuring batter step2"
+      },
+      {
+        "text": "1 tsp baking soda",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1 tsp ground cinnamon",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "Oil as needed, for greasing pans",
+        "actualMethodDestination": "Pan coating step1 only; genuine unmeasured allowance"
+      },
+      {
+        "text": "8 oz cream cheese, softened",
+        "actualMethodDestination": "All frosting step4"
+      },
+      {
+        "text": "1/2 cup apple juice concentrate, thawed and undiluted",
+        "actualMethodDestination": "All frosting step4, thawed concentrate not diluted juice"
+      },
+      {
+        "text": "2 tsp vanilla extract, for frosting",
+        "actualMethodDestination": "All2tsp frosting step4"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "4 or 5 ripe bananas",
+        "1/2 cup natural no sugar added applesauce",
+        "3 tbsp coconut oil (melted)",
+        "3 teaspoons vanilla extract",
+        "1 teaspoon baking soda",
+        "3/4 cups whole wheat flour",
+        "3/4 cup oat flour (grind rolled oats in blender, then measure)",
+        "1 teaspoon cinnamon",
+        "1 cup (8 ounces) cream cheese",
+        "1/2 cup (4 ounces) no sugar added apple juice concentrate",
+        "2 teaspoons pure vanilla extract"
+      ],
+      "methodReference": "privately retained evidence",
+      "directions": "Mash the bananas in a medium bowl.\n\nIn a separate large bowl, mix the flours, baking soda, and cinnamon together.\n\nAdd the mashed bananas, applesauce, coconut oil, and vanilla to the flour mixture. Mix just until incorporated.\n\nCoat your 4 mini tart pans (these are the mini tart pans I use) + 6-8 muffin pans (or 2 8 or 9″round pans) with oil.\n\nSpread the batter into the bottom of the pans.\n\nBake at 375° for 15-20 minutes. Check with a toothpick for doneness.\n\nCool the cakes before frosting. If you used the 8″ or 9″ pan, then use an overturned smaller bowl to cut out small cake rounds.\n\nSoften the cream cheese.\n\nWhisk the cream cheese with the apple juice concentrate and vanilla extract until creamy.",
+      "scope": "Exact bound independent original; all ingredient/method text retained privately. Source formula differs from frozen fields where explained, not mislabeled frozen ingredients."
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. For the original batch, lightly oil four mini tart pans plus 6–8 standard muffin cups, or two 8- or 9-inch round pans. These are alternative full-batch pan plans; four mini pans alone do not account for all the batter. Keep comparable shallow batter depth, leave rising room and use additional cups if needed."
+    },
+    {
+      "step": 2,
+      "text": "Mash all the bananas. Whisk the whole wheat flour, measured oat flour, baking soda and cinnamon in a separate bowl. Mix all the applesauce, melted coconut oil and batter vanilla with the mashed bananas, then fold into the dry ingredients just until combined."
+    },
+    {
+      "step": 3,
+      "text": "Divide all the batter among the prepared pans. Bake at 375°F, starting checks around 15–20 minutes for the original shallow cakes; centers should be set and a tester should come out without wet batter. Pan size and banana size change the clock; muffins or different pans may finish at different times. Cool completely before frosting. If using large rounds, cut smaller cake circles with an overturned bowl once cool; keep the offcuts for serving."
+    },
+    {
+      "step": 4,
+      "text": "With clean tools, whisk all the softened cream cheese, thawed undiluted apple juice concentrate and frosting vanilla until creamy. Refrigerate while the cakes cool. If too loose to spread, chill 1–2 hours, then whisk again; the consistency of the concentrate and cream cheese matters."
+    },
+    {
+      "step": 5,
+      "text": "Stack the completely cooled mini rounds with some frosting between them and spread the remaining frosting over the outside and any muffins you want to frost. Keep refrigerated until serving to the birthday guest."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Bananas",
+      "alternative": "For the original batch, use four or five ripe bananas; the listed batch starts with four. If scaling this option, scale that original banana count proportionally. Banana size changes batter volume and moisture, so check the centers rather than assuming a weight equivalence.",
+      "scope": "Exclusive option; do not combine ingredients or alternate routes with primary",
+      "allocationReference": "Complete original and final primary plus full optional prose retained in exactChanges and source evidence"
+    },
+    {
+      "ingredient": "Pan shape",
+      "alternative": "For the original batch, use either four mini tart pans plus 6–8 muffin cups, or two 8- or 9-inch rounds cut into smaller circles after cooling. Keep all the batter and the offcuts. The stated yield describes that original pan plan; actual cake and muffin counts depend on the pans and batter depth.",
+      "scope": "Exclusive option; do not combine ingredients or alternate routes with primary",
+      "allocationReference": "Complete original and final primary plus full optional prose retained in exactChanges and source evidence"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "best-cinnamon-roll-recipe-cinnabon-copycat",
+      "best-homemade-brownies"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed-meal references found. Metadata dessert pairings are separate recipes, not shared ingredient substitutions. Carrot/Funfetti links to favorite-cream-cheese-frosting do not replace their full listed frosting automatically; other cakes/pies/rolls/ice creams need separate preparation/cooling/oven plans.",
+    "linkedReadScope": "Whole current paired recipe sources read for component versus optional pair and schedules, no whole-review status granted by this record."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": "The listed2tsp vanilla was consumed twice; exact bound source and publisher establish separate3tsp batter plus2tsp frosting. Source full batch needs4mini cakes PLUS6–8muffins, not4cakes alone. Current four bananas retained; saved four-or-five option distinguished from modern five. Added pan oil is separate from full3tbsp batter oil. Remove unverified infant-age/nutritional/digestibility claims and automatic nutrition. Complex dual yield remains legacy under authoring standard rather than inventing a single precise count. Its spelled-out original-batch yield stays fixed context under ingredient scaling; actual scaled muffin/cake count is unresolved, so no partial automatic count is presented.",
+    "yield": "Combined4mini plus6–8muffins is source pan plan, not manufactured finished yield; complex dual yield intentionally remains legacy.",
+    "capacity": "Pan dimensions describe the original batch. Make multiples as separate original-size cakes with similar batter depth and headroom; smaller amounts need appropriately smaller pans and earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or cooling and baking times.",
+    "timing": "Allow roughly30minutes active preparation,15–25minutes or longer baking, and enough cooling to frost cold layers: about1½–2hours overall. Loose frosting may add1–2hours refrigerator chilling; cooling and actual pans determine the finish."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1 very ripe banana",
+        "1/8 cup natural unsweetened applesauce",
+        "3/4 tbsp coconut oil, melted",
+        "3/4 tsp vanilla extract, for batter",
+        "0.19 cup whole wheat flour",
+        "0.19 cup oat flour, grind rolled oats then measure",
+        "1/4 tsp baking soda",
+        "1/4 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "2 oz cream cheese, softened",
+        "1/8 cup apple juice concentrate, thawed and undiluted",
+        "1/2 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins · 0.25× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "2 very ripe bananas",
+        "1/4 cup natural unsweetened applesauce",
+        "1 1/2 tbsp coconut oil, melted",
+        "1 1/2 tsp vanilla extract, for batter",
+        "3/8 cup whole wheat flour",
+        "3/8 cup oat flour, grind rolled oats then measure",
+        "1/2 tsp baking soda",
+        "1/2 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "4 oz cream cheese, softened",
+        "1/4 cup apple juice concentrate, thawed and undiluted",
+        "1 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins · 0.5× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "4 very ripe bananas",
+        "1/2 cup natural unsweetened applesauce",
+        "3 tbsp coconut oil, melted",
+        "3 tsp vanilla extract, for batter",
+        "3/4 cup whole wheat flour",
+        "3/4 cup oat flour, grind rolled oats then measure",
+        "1 tsp baking soda",
+        "1 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "8 oz cream cheese, softened",
+        "1/2 cup apple juice concentrate, thawed and undiluted",
+        "2 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "6 very ripe bananas",
+        "3/4 cup natural unsweetened applesauce",
+        "4 1/2 tbsp coconut oil, melted",
+        "4 1/2 tsp vanilla extract, for batter",
+        "1 1/8 cups whole wheat flour",
+        "1 1/8 cups oat flour, grind rolled oats then measure",
+        "1 1/2 tsp baking soda",
+        "1 1/2 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "12 oz cream cheese, softened",
+        "3/4 cup apple juice concentrate, thawed and undiluted",
+        "3 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins · 1.5× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "8 very ripe bananas",
+        "1 cup natural unsweetened applesauce",
+        "6 tbsp coconut oil, melted",
+        "6 tsp vanilla extract, for batter",
+        "1 1/2 cups whole wheat flour",
+        "1 1/2 cups oat flour, grind rolled oats then measure",
+        "2 tsp baking soda",
+        "2 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "16 oz cream cheese, softened",
+        "1 cup apple juice concentrate, thawed and undiluted",
+        "4 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins · 2× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "12 very ripe bananas",
+        "1 1/2 cups natural unsweetened applesauce",
+        "9 tbsp coconut oil, melted",
+        "9 tsp vanilla extract, for batter",
+        "2 1/4 cups whole wheat flour",
+        "2 1/4 cups oat flour, grind rolled oats then measure",
+        "3 tsp baking soda",
+        "3 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "24 oz cream cheese, softened",
+        "1 1/2 cups apple juice concentrate, thawed and undiluted",
+        "6 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins · 3× ingredients",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "4 very ripe bananas",
+        "1/2 cup natural unsweetened applesauce",
+        "3 tbsp coconut oil, melted",
+        "3 tsp vanilla extract, for batter",
+        "3/4 cup whole wheat flour",
+        "3/4 cup oat flour, grind rolled oats then measure",
+        "1 tsp baking soda",
+        "1 tsp ground cinnamon",
+        "Oil as needed, for greasing pans",
+        "8 oz cream cheese, softened",
+        "1/2 cup apple juice concentrate, thawed and undiluted",
+        "2 tsp vanilla extract, for frosting"
+      ],
+      "yield": "Original yield: Original batch: four mini cakes plus six to eight muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every identity/rating/title/source/sourceURL/cuisine/pairing and existing ingredient scaling control protected; complete current alternatives retained where source formula restoration differs. No prior narrow repair promoted to whole acceptance.",
+  "remainingQuestions": [
+    "Actual banana size/mashed yield and chosen current four versus saved four-or-five remain household/kitchen questions; no new weight equivalence.",
+    "Which mini pans does the household own, and how many muffins result at that actual shallow depth? Publisher4.75-inch mini pans are source context, not certification of every mini pan.",
+    "Will the actual cream cheese and concentrate spread after chilling without formula changes?",
+    "First-birthday context is preserved; no blanket suitability or nutrition advice for infants."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 93,
+    "targetedLint": "Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12251,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 68,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all ten pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

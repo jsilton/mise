@@ -1,0 +1,1462 @@
+{
+  "slug": "classic-carrot-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
+  "inputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9",
+  "acceptedSourceSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "90 min",
+      "after": "About 2–3 hr, including complete cooling"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/2 cups All-Purpose Flour",
+        "1 cup Granulated Sugar",
+        "1 1/2 tsp Baking Soda",
+        "1 tsp Baking Powder",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Ground Allspice",
+        "1/2 tsp Nutmeg",
+        "1/2 tsp Salt",
+        "2/3 cup Brown Butter, cooled (Replaces Vegetable Oil)",
+        "3 large Eggs",
+        "1 1/2 lbs Carrots, finely grated",
+        "1 Granny Smith Apple, grated",
+        "1/2 cup Sugar",
+        "1/2 cup Water",
+        "1 lb Cream Cheese, cold",
+        "1 stick Butter, softened",
+        "4 cups Powdered Sugar",
+        "2 tsp Vanilla Extract"
+      ],
+      "after": [
+        "--- Pans ---",
+        "1 tbsp unsalted butter, for greasing pans",
+        "2 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "1 1/2 cups all-purpose flour",
+        "1 cup granulated sugar",
+        "1 1/2 tsp baking soda",
+        "1 tsp baking powder",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground allspice",
+        "1/2 tsp ground cloves",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp salt",
+        "2/3 cup vegetable oil",
+        "3 large eggs",
+        "1 1/2 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "1 Granny Smith apple, washed, peeled and grated",
+        "1/2 cup granulated sugar",
+        "1/2 cup water",
+        "--- Cream cheese frosting ---",
+        "1 lb brick-style cream cheese, cold, not softened",
+        "1 stick unsalted butter, softened",
+        "8 cups powdered sugar",
+        "2 tsp vanilla extract",
+        "1/2 tsp salt"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 935,
+        "protein": 6.5,
+        "carbs": 118,
+        "fat": 53,
+        "fiber": 1,
+        "sugar": 104,
+        "sodium": 840
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cool the layers before the light syrup brush",
+        "outcome": "Set carrot-cake layers with a light apple-syrup glaze and smooth cream cheese frosting, without soaking the crumb.",
+        "techniques": ["temperature"],
+        "before": [
+          "Pan dimensions describe the original batch. Make multiples as separate original-size cakes with similar batter depth and headroom; smaller amounts need appropriately smaller pans and earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or cooling and baking times.",
+          "Use the full listed frosting sugar for the source route. Cold brick-style cream cheese and softened butter are different ingredient states.",
+          "The dusting flour is separate from batter flour; the syrup makes excess to reserve."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Set centers, slight pulling from the edges and no wet batter on the tester.",
+            "why": "The 25–30 minute clock describes the source pans, not every cake."
+          },
+          {
+            "step": 6,
+            "cue": "Only a light syrup coat covers each cool cut surface; excess stays separate.",
+            "why": "Pouring the entire syrup batch changes the cake’s moisture formula."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Frosting slides or melts",
+            "cause": "The cake is still warm or the topping is too loose.",
+            "fix": "Wait for completely cool layers; chill the topping until it holds a spreadable shape, then stir gently."
+          }
+        ],
+        "timing": "Allow roughly 35–45 minutes active preparation,25–30 minutes or longer baking and full layer cooling before assembly: about 2–3 hours total, longer for larger batches or slower cooling.",
+        "substitutions": [
+          {
+            "ingredient": "Brown-butter cake and reduced-sugar frosting",
+            "alternative": "For a brown-butter variation, replace all the listed vegetable oil with the same listed volume of already browned butter measured after browning and cooled to room temperature. Omit the cloves. For its frosting, use half the listed powdered sugar and omit the frosting salt, keeping the full cream cheese, butter and vanilla. Keep the pan greasing and dusting supplies separate. Do not start with the listed oil volume of raw butter and assume it produces the same finished volume after browning.",
+            "effect": "This is a separate brown-butter cake and reduced-sugar frosting option. The original batch uses four cups of frosting sugar; scaled batches use half the listed powdered sugar."
+          },
+          {
+            "ingredient": "Warm syrup brush",
+            "alternative": "For a warm-syrup variation, boil the same full apple, syrup sugar and water for 5 minutes, strain and brush the warm layers lightly after removal from the pans. Reserve extra syrup; do not pour the whole batch over the cakes. Let the layers cool completely before adding any cream cheese frosting. The main method instead removes the syrup from heat once it reaches a boil and brushes cool leveled cakes.",
+            "effect": "Changes syrup heating and brushing state and may change how much syrup the layers absorb."
+          },
+          {
+            "ingredient": "Pan greasing",
+            "alternative": "Use lard or pan spray instead of the listed pan butter for greasing; keep the separate dusting flour. This changes only pan preparation.",
+            "effect": "Changes only the pan-greasing supply."
+          }
+        ],
+        "storage": "Keep the frosted cake covered in the refrigerator at 40°F /4°C or below. Return frosting to the refrigerator within 2 hours of cumulative preparation and serving time, or 1 hour above 90°F /32°C. Refrigerate frosting while waiting for layers to cool.",
+        "sources": [
+          {
+            "title": "AJC — Mercer Street Meals Carrot Cake",
+            "url": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pans",
+            "name": "Pans",
+            "ingredients": [
+              {
+                "id": "grease",
+                "key": "grease",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for greasing pans"
+              },
+              {
+                "id": "dust",
+                "key": "dust",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for dusting pans"
+              }
+            ]
+          },
+          {
+            "id": "cake",
+            "name": "Cake batter",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "allspice",
+                "key": "allspice",
+                "name": "ground allspice",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cloves",
+                "key": "cloves",
+                "name": "ground cloves",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "freshly grated nutmeg",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": "2/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "carrots",
+                "key": "carrots",
+                "name": "carrot",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "peeled and finely grated"
+              }
+            ]
+          },
+          {
+            "id": "syrup",
+            "name": "Apple syrup",
+            "ingredients": [
+              {
+                "id": "apple",
+                "key": "apple",
+                "name": "Granny Smith apple",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "syrup",
+                    "share": 1
+                  }
+                ],
+                "plural": "Granny Smith apples",
+                "preparation": "washed, peeled and grated"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "syrup",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "syrup",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frosting",
+            "name": "Cream cheese frosting",
+            "ingredients": [
+              {
+                "id": "cream-cheese",
+                "key": "cream-cheese",
+                "name": "brick-style cream cheese",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cold, not softened"
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "stick"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ],
+                "preparation": "softened"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "powdered sugar",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare pans",
+            "text": "Heat the oven to 350°F. For the original batch, use {{ingredients}} to grease two 8-inch round cake pans with all the pan butter, then divide the dusting flour between them, coating and shaking out excess. Dusting flour is separate from batter flour."
+          },
+          {
+            "id": "mix",
+            "title": "Mix batter",
+            "text": "Combine {{ingredients}} until the batter is smooth and all the carrot is distributed. Divide between the prepared pans, keeping similar depth and room to rise."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake at 350°F, starting checks around 25–30 minutes for the original pans. Layers should begin pulling slightly from the sides, centers should be set and a tester should have no wet batter. Cool in the pans, then remove carefully once cool. Wait until fully cool before leveling and frosting."
+          },
+          {
+            "id": "syrup",
+            "title": "Make and strain syrup",
+            "text": "Bring {{ingredients}} to a rolling boil in a small saucepan, then remove from heat. Strain through a sieve and discard the apple solids. Keep the strained syrup for a light brush and reserve the excess separately; the cake does not absorb the whole syrup batch."
+          },
+          {
+            "id": "frost",
+            "title": "Mix frosting",
+            "text": "Beat {{ingredients}} with a stand mixer or electric beaters until smooth, beginning slowly so powdered sugar does not scatter. Keep refrigerated while waiting for the cakes."
+          },
+          {
+            "id": "assemble",
+            "title": "Glaze and assemble",
+            "text": "Level the completely cool cakes with a serrated knife. Brush each cut surface lightly with apple syrup: about 1 tbsp per layer is the original-batch guide, not all the syrup. Reserve unused syrup separately in the refrigerator. Spread about one-third of the frosting on the first layer, stack the second and use all the rest over the top and sides. Refrigerate the finished cake."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Mercer Street classic is elevated using Stella Parks' (Bravetart) brown butter technique. By replacing generic vegetable oil with toasted brown butter, you inject a deep, nutty complexity that perfectly complements the carrots and spices. The apple syrup is the final secret - it is brushed onto the warm cake layers to ensure they stay moist and add a subtle tartness that balances the rich cream cheese frosting.\n\n## Directions\n\n1.  **Brown the Butter:** Melt the 2/3 cup butter in a pan until the solids turn dark brown and smell nutty. Cool to room temperature.\n2.  **Bake:** Whisk the brown butter with eggs, carrots, and sugar. Fold in the dry ingredients. Pour into two 8-inch greased pans. Bake at 350°F for 25-30 minutes.\n3.  **The Syrup:** Boil the apple, sugar, and water for 5 minutes. Strain and discard solids. **Brush the warm syrup** over the warm cake layers immediately after removing them from the pans.\n4.  **Frosting:** Beat the cream cheese and butter until smooth. Add powdered sugar and vanilla.\n5.  **Assemble:** Layer the cakes with a thick spread of frosting between them. Frost the top and sides generously.\n",
+    "after": "\n## Chef's Note\n\nMercer Street Meals’ carrot cake uses a light brush of strained apple syrup on completely cooled layers. Keep the remaining syrup separate rather than soaking the cakes with the full batch. The cream cheese frosting is mixed from cold brick-style cream cheese and softened butter; chill it while the cakes cool.\n\n## Directions\n\n1. **Prepare pans:** Heat the oven to 350°F. For the original batch, use unsalted butter and all-purpose flour to grease two 8-inch round cake pans with all the pan butter, then divide the dusting flour between them, coating and shaking out excess. Dusting flour is separate from batter flour.\n2. **Mix batter:** Combine all-purpose flour, granulated sugar, baking soda, baking powder, ground cinnamon, ground allspice, ground cloves, freshly grated nutmeg, salt, vegetable oil, large eggs, and carrot until the batter is smooth and all the carrot is distributed. Divide between the prepared pans, keeping similar depth and room to rise.\n3. **Bake and cool:** Bake at 350°F, starting checks around 25–30 minutes for the original pans. Layers should begin pulling slightly from the sides, centers should be set and a tester should have no wet batter. Cool in the pans, then remove carefully once cool. Wait until fully cool before leveling and frosting.\n4. **Make and strain syrup:** Bring Granny Smith apple, granulated sugar, and water to a rolling boil in a small saucepan, then remove from heat. Strain through a sieve and discard the apple solids. Keep the strained syrup for a light brush and reserve the excess separately; the cake does not absorb the whole syrup batch.\n5. **Mix frosting:** Beat brick-style cream cheese, unsalted butter, powdered sugar, vanilla extract, and salt with a stand mixer or electric beaters until smooth, beginning slowly so powdered sugar does not scatter. Keep refrigerated while waiting for the cakes.\n6. **Glaze and assemble:** Level the completely cool cakes with a serrated knife. Brush each cut surface lightly with apple syrup: about 1 tbsp per layer is the original-batch guide, not all the syrup. Reserve unused syrup separately in the refrigerator. Spread about one-third of the frosting on the first layer, stack the second and use all the rest over the top and sides. Refrigerate the finished cake.\n"
+  },
+  "findings": [
+    {
+      "id": "LFC05-3",
+      "rationale": "Exact native/b7/045 source restores½tsp cloves,8cups frosting sugar/½tsp frosting salt and separate1tbsp greasingfat+2tbsp dusting flour.6d6ff bulk introduced finished⅔cup brown butter but method started with⅔cup raw butter, which cannot produce equal finished volume because water evaporates; no actual raw starting measure supported. Preserve the entire current brown-butter/4cup-frosting route distinctly using already prepared measured finished brown butter, not a fabricated conversion. Source syrup reaches boil then leaves heat, cooled leveled cakes get light1tbsp original-context brushes; current5min/warm brushing route retained separately as untested variation with full cooling before frosting. AJC unavailable; exact saved formula evidence sufficient for source route proposal, not current publisher certification.",
+      "confidence": "High for exact saved allocation/quantity; moderate for untested planning and conservative perishable handling",
+      "applicableSources": [
+        {
+          "title": "AJC — Mercer Street Meals Carrot Cake",
+          "url": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/",
+          "scope": "Current fetch unavailable. Exact bound original450 and actual b7HTML/045 canonical source agree with oil/cloves,8cups frosting sugar,½tsp frosting salt,grease/dusting supplies,cooled cakes and light syrup brush. Source formula proof is retained saved source, not modern publisher verification."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Prompt refrigerator40°F,perishable2h/1h above90°F,clean separation and produce washing only. Conservative editorial application to cream/cream-cheese/heavy-cream toppings; not recipe-specific pH/water-activity or frosting shelf-life validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content",
+        "origin"
+      ],
+      "questions": [
+        "Which source-oil versus prepared-finished-brown-butter route does the household prefer? No later accepted formula decision identified after bulk6d6ff; later Stella wording is not proof of technique attribution.",
+        "What starting butter quantity actually yields the desired finished⅔cup after browning? Kept unresolved; only prepared measured brown butter option is usable here.",
+        "Two8-inch pan depths, full8cup-sugar frosting handling and cooling need kitchen verification.",
+        "Retained current warm brushing may change absorption; no comparative testing or promised equivalence."
+      ]
+    },
+    {
+      "id": "ROOT-FINISHING-CLARITY",
+      "title": "Clear topping names and preserve finishing advice",
+      "rationale": "Remove a repeated instruction without changing the cooling or consistency cues. Name the actual topping; retain every existing cold-handling time and temperature.",
+      "confidence": "High for text/source preservation; no kitchen test.",
+      "applicableSources": [
+        {
+          "url": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc",
+          "scope": "Existing recipe topping and independently reviewed handling guidance."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Mercer%20Street%20Meals%20Carrot%20Cake.html",
+    "introductionScope": "Actual earlier HTML cooking introduction, independently retrieved from durable Git",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact native/b7/045 source restores½tsp cloves,8cups frosting sugar/½tsp frosting salt and separate1tbsp greasingfat+2tbsp dusting flour.6d6ff bulk introduced finished⅔cup brown butter but method started with⅔cup raw butter, which cannot produce equal finished volume because water evaporates; no actual raw starting measure supported. Preserve the entire current brown-butter/4cup-frosting route distinctly using already prepared measured finished brown butter, not a fabricated conversion. Source syrup reaches boil then leaves heat, cooled leveled cakes get light1tbsp original-context brushes; current5min/warm brushing route retained separately as untested variation with full cooling before frosting. AJC unavailable; exact saved formula evidence sufficient for source route proposal, not current publisher certification.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 1/2 cups All-Purpose Flour",
+        "actualMethodDestination": "All batter step2; pan dusting absent"
+      },
+      {
+        "text": "1 cup Granulated Sugar",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1 1/2 tsp Baking Soda",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1 tsp Baking Powder",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1 tsp Ground Cinnamon",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1/2 tsp Ground Allspice",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1/2 tsp Nutmeg",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1/2 tsp Salt",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "2/3 cup Brown Butter, cooled (Replaces Vegetable Oil)",
+        "actualMethodDestination": "Ingredient says finished brown butter; step1 starts equal raw volume, amount ambiguity"
+      },
+      {
+        "text": "3 large Eggs",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1 1/2 lbs Carrots, finely grated",
+        "actualMethodDestination": "All batter step2"
+      },
+      {
+        "text": "1 Granny Smith Apple, grated",
+        "actualMethodDestination": "All syrup step3"
+      },
+      {
+        "text": "1/2 cup Sugar",
+        "actualMethodDestination": "All syrup step3"
+      },
+      {
+        "text": "1/2 cup Water",
+        "actualMethodDestination": "All syrup step3"
+      },
+      {
+        "text": "1 lb Cream Cheese, cold",
+        "actualMethodDestination": "All frosting step4"
+      },
+      {
+        "text": "1 stick Butter, softened",
+        "actualMethodDestination": "All frosting step4"
+      },
+      {
+        "text": "4 cups Powdered Sugar",
+        "actualMethodDestination": "All frosting step4"
+      },
+      {
+        "text": "2 tsp Vanilla Extract",
+        "actualMethodDestination": "All frosting step4"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 tbsp unsalted butter, for greasing pans",
+        "id": "pans.grease",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "prep share 1",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "preparation": "for greasing pans",
+        "equivalents": []
+      },
+      {
+        "text": "2 tbsp all-purpose flour, for dusting pans",
+        "id": "pans.dust",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "prep share 1",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "preparation": "for dusting pans",
+        "equivalents": []
+      },
+      {
+        "text": "1 1/2 cups all-purpose flour",
+        "id": "cake.flour",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1 cup granulated sugar",
+        "id": "cake.sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1 1/2 tsp baking soda",
+        "id": "cake.soda",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1 tsp baking powder",
+        "id": "cake.powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1 tsp ground cinnamon",
+        "id": "cake.cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1/2 tsp ground allspice",
+        "id": "cake.allspice",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1/2 tsp ground cloves",
+        "id": "cake.cloves",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1/2 tsp freshly grated nutmeg",
+        "id": "cake.nutmeg",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1/2 tsp salt",
+        "id": "cake.salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "2/3 cup vegetable oil",
+        "id": "cake.oil",
+        "quantity": {
+          "amount": "2/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "3 large eggs",
+        "id": "cake.eggs",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1 1/2 lb carrot, peeled and finely grated",
+        "id": "cake.carrots",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "lb"
+        },
+        "allowance": null,
+        "actualMethodDestination": "mix share 1",
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": "peeled and finely grated",
+        "equivalents": []
+      },
+      {
+        "text": "1 Granny Smith apple, washed, peeled and grated",
+        "id": "syrup.apple",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "actualMethodDestination": "syrup share 1",
+        "uses": [
+          {
+            "step": "syrup",
+            "share": 1
+          }
+        ],
+        "preparation": "washed, peeled and grated",
+        "equivalents": []
+      },
+      {
+        "text": "1/2 cup granulated sugar",
+        "id": "syrup.sugar",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "actualMethodDestination": "syrup share 1",
+        "uses": [
+          {
+            "step": "syrup",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1/2 cup water",
+        "id": "syrup.water",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "actualMethodDestination": "syrup share 1",
+        "uses": [
+          {
+            "step": "syrup",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1 lb brick-style cream cheese, cold, not softened",
+        "id": "frosting.cream-cheese",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "actualMethodDestination": "frost share 1",
+        "uses": [
+          {
+            "step": "frost",
+            "share": 1
+          }
+        ],
+        "preparation": "cold, not softened",
+        "equivalents": []
+      },
+      {
+        "text": "1 stick unsalted butter, softened",
+        "id": "frosting.butter",
+        "quantity": {
+          "amount": 1,
+          "unit": "stick"
+        },
+        "allowance": null,
+        "actualMethodDestination": "frost share 1",
+        "uses": [
+          {
+            "step": "frost",
+            "share": 1
+          }
+        ],
+        "preparation": "softened",
+        "equivalents": []
+      },
+      {
+        "text": "8 cups powdered sugar",
+        "id": "frosting.sugar",
+        "quantity": {
+          "amount": 8,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "actualMethodDestination": "frost share 1",
+        "uses": [
+          {
+            "step": "frost",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "2 tsp vanilla extract",
+        "id": "frosting.vanilla",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "frost share 1",
+        "uses": [
+          {
+            "step": "frost",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      },
+      {
+        "text": "1/2 tsp salt",
+        "id": "frosting.salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "actualMethodDestination": "frost share 1",
+        "uses": [
+          {
+            "step": "frost",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "equivalents": []
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "For the cake:",
+        "1 tablespoon unsalted butter (or lard or pan spray), for greasing pans",
+        "1 1/2 cups + 2 tablespoons all-purpose flour",
+        "1 cup granulated sugar",
+        "1 1/2 teaspoons baking soda",
+        "1 teaspoon baking powder",
+        "1 teaspoon ground cinnamon",
+        "1/2 teaspoon ground allspice",
+        "1/2 teaspoon ground cloves",
+        "1/2 teaspoon freshly grated nutmeg",
+        "1/2 teaspoon salt",
+        "2/3 cup vegetable oil",
+        "3 eggs",
+        "1 1/2 pounds carrots, peeled and grated",
+        "For the frosting:",
+        "1 pound brick-style cream cheese, not softened",
+        "8 tablespoons (1 stick) unsalted butter",
+        "8 cups powdered sugar",
+        "2 teaspoons vanilla extract",
+        "1/2 teaspoon salt",
+        "For the syrup:",
+        "1 Granny Smith apple, peeled and grated",
+        "1/2 cup granulated sugar",
+        "1/2 cup water"
+      ],
+      "methodReference": "privately retained evidence",
+      "directions": "Heat the oven to 350 degrees. Grease 2 (8-inch) round cake pans with butter, lard or pan spray. Dust each greased pan with 1 tablespoon of flour, and shake the pan to spread and coat the flour over the oil. Mix 1 1/2 cups flour, the sugar, baking soda, baking powder, cinnamon, allspice, cloves, nutmeg, salt, oil, eggs and carrots, stirring until the batter is smooth. Divide the batter between the 2 greased pans. Bake until the cake starts to pull slightly away from the sides of the pan, about 25-30 minutes. Set aside to cool. Once cooled, remove the cakes from the pans.\n\nMake the frosting: Place the cream cheese, butter, powdered sugar, vanilla and salt in a mixing bowl. Use a tabletop mixer, or an electric beater to combine all ingredients until smooth.\n\nMake the syrup: Add the grated apple, sugar and water to a small saucepan. Bring to a rolling boil, then remove from heat. Strain the mixture through a strainer and discard the solids.\n\nAssemble the cake: Using a serrated knife, remove the muffin-like top from both cakes. Discard the removed part or feed it to your children or your chickens. Using a pastry brush, lightly glaze the top of each cake with about 1 tablespoon of the syrup mixture. You will not use all of the syrup. Discard what you don’t use or save it to mix with recreational spirits. Spread 1/3 of the frosting on top of 1 of the cakes. Set the other cake on top to create 2 layers. Spread remaining frosting over top and sides of the cake. Serves 12.",
+      "scope": "Exact bound independent original; all ingredient/method text retained privately. Source formula differs from frozen fields where explained, not mislabeled frozen ingredients."
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare pans: Heat the oven to 350°F. For the original batch, use unsalted butter and all-purpose flour to grease two 8-inch round cake pans with all the pan butter, then divide the dusting flour between them, coating and shaking out excess. Dusting flour is separate from batter flour."
+    },
+    {
+      "step": 2,
+      "text": "Mix batter: Combine all-purpose flour, granulated sugar, baking soda, baking powder, ground cinnamon, ground allspice, ground cloves, freshly grated nutmeg, salt, vegetable oil, large eggs, and carrot until the batter is smooth and all the carrot is distributed. Divide between the prepared pans, keeping similar depth and room to rise."
+    },
+    {
+      "step": 3,
+      "text": "Bake and cool: Bake at 350°F, starting checks around 25–30 minutes for the original pans. Layers should begin pulling slightly from the sides, centers should be set and a tester should have no wet batter. Cool in the pans, then remove carefully once cool. Wait until fully cool before leveling and frosting."
+    },
+    {
+      "step": 4,
+      "text": "Make and strain syrup: Bring Granny Smith apple, granulated sugar, and water to a rolling boil in a small saucepan, then remove from heat. Strain through a sieve and discard the apple solids. Keep the strained syrup for a light brush and reserve the excess separately; the cake does not absorb the whole syrup batch."
+    },
+    {
+      "step": 5,
+      "text": "Mix frosting: Beat brick-style cream cheese, unsalted butter, powdered sugar, vanilla extract, and salt with a stand mixer or electric beaters until smooth, beginning slowly so powdered sugar does not scatter. Keep refrigerated while waiting for the cakes."
+    },
+    {
+      "step": 6,
+      "text": "Glaze and assemble: Level the completely cool cakes with a serrated knife. Brush each cut surface lightly with apple syrup: about 1 tbsp per layer is the original-batch guide, not all the syrup. Reserve unused syrup separately in the refrigerator. Spread about one-third of the frosting on the first layer, stack the second and use all the rest over the top and sides. Refrigerate the finished cake."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Brown-butter cake and reduced-sugar frosting",
+      "alternative": "For a brown-butter variation, replace all the listed vegetable oil with the same listed volume of already browned butter measured after browning and cooled to room temperature. Omit the cloves. For its frosting, use half the listed powdered sugar and omit the frosting salt, keeping the full cream cheese, butter and vanilla. Keep the pan greasing and dusting supplies separate. Do not start with the listed oil volume of raw butter and assume it produces the same finished volume after browning.",
+      "scope": "Exclusive option; do not combine ingredients or alternate routes with primary",
+      "allocationReference": "Complete original and final primary plus full optional prose retained in exactChanges and source evidence"
+    },
+    {
+      "ingredient": "Warm syrup brush",
+      "alternative": "For a warm-syrup variation, boil the same full apple, syrup sugar and water for 5 minutes, strain and brush the warm layers lightly after removal from the pans. Reserve extra syrup; do not pour the whole batch over the cakes. Let the layers cool completely before adding any cream cheese frosting. The main method instead removes the syrup from heat once it reaches a boil and brushes cool leveled cakes.",
+      "scope": "Exclusive option; do not combine ingredients or alternate routes with primary",
+      "allocationReference": "Complete original and final primary plus full optional prose retained in exactChanges and source evidence"
+    },
+    {
+      "ingredient": "Pan greasing",
+      "alternative": "Use lard or pan spray instead of the listed pan butter for greasing; keep the separate dusting flour. This changes only pan preparation.",
+      "scope": "Exclusive option; do not combine ingredients or alternate routes with primary",
+      "allocationReference": "Complete original and final primary plus full optional prose retained in exactChanges and source evidence"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["favorite-cream-cheese-frosting"],
+    "incomingMeals": [],
+    "scope": "No incoming composed-meal references found. Metadata dessert pairings are separate recipes, not shared ingredient substitutions. Carrot/Funfetti links to favorite-cream-cheese-frosting do not replace their full listed frosting automatically; other cakes/pies/rolls/ice creams need separate preparation/cooling/oven plans.",
+    "linkedReadScope": "Whole current paired recipe sources read for component versus optional pair and schedules, no whole-review status granted by this record."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": "Exact native/b7/045 source restores½tsp cloves,8cups frosting sugar/½tsp frosting salt and separate1tbsp greasingfat+2tbsp dusting flour.6d6ff bulk introduced finished⅔cup brown butter but method started with⅔cup raw butter, which cannot produce equal finished volume because water evaporates; no actual raw starting measure supported. Preserve the entire current brown-butter/4cup-frosting route distinctly using already prepared measured finished brown butter, not a fabricated conversion. Source syrup reaches boil then leaves heat, cooled leveled cakes get light1tbsp original-context brushes; current5min/warm brushing route retained separately as untested variation with full cooling before frosting. AJC unavailable; exact saved formula evidence sufficient for source route proposal, not current publisher certification.",
+    "yield": "Current12portions repository planning retained, not new physical yield certification.",
+    "capacity": "Pan dimensions describe the original batch. Make multiples as separate original-size cakes with similar batter depth and headroom; smaller amounts need appropriately smaller pans and earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or cooling and baking times.",
+    "timing": "Allow roughly35–45minutes active preparation,25–30minutes or longer baking and full layer cooling before assembly: about2–3hours total, longer for larger batches or slower cooling."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Pans ---",
+        "1/4 tbsp unsalted butter, for greasing pans",
+        "1/2 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "3/8 cup all-purpose flour",
+        "1/4 cup granulated sugar",
+        "3/8 tsp baking soda",
+        "1/4 tsp baking powder",
+        "1/4 tsp ground cinnamon",
+        "1/8 tsp ground allspice",
+        "1/8 tsp ground cloves",
+        "1/8 tsp freshly grated nutmeg",
+        "1/8 tsp salt",
+        "1/6 cup vegetable oil",
+        "3/4 large egg",
+        "3/8 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "1/4 Granny Smith apple, washed, peeled and grated",
+        "1/8 cup granulated sugar",
+        "1/8 cup water",
+        "--- Cream cheese frosting ---",
+        "1/4 lb brick-style cream cheese, cold, not softened",
+        "1/4 stick unsalted butter, softened",
+        "2 cups powdered sugar",
+        "1/2 tsp vanilla extract",
+        "1/8 tsp salt"
+      ],
+      "yield": "3 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Pans ---",
+        "1/2 tbsp unsalted butter, for greasing pans",
+        "1 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "3/4 cup all-purpose flour",
+        "1/2 cup granulated sugar",
+        "3/4 tsp baking soda",
+        "1/2 tsp baking powder",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground allspice",
+        "1/4 tsp ground cloves",
+        "1/4 tsp freshly grated nutmeg",
+        "1/4 tsp salt",
+        "1/3 cup vegetable oil",
+        "1 1/2 large eggs",
+        "3/4 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "1/2 Granny Smith apple, washed, peeled and grated",
+        "1/4 cup granulated sugar",
+        "1/4 cup water",
+        "--- Cream cheese frosting ---",
+        "1/2 lb brick-style cream cheese, cold, not softened",
+        "1/2 stick unsalted butter, softened",
+        "4 cups powdered sugar",
+        "1 tsp vanilla extract",
+        "1/4 tsp salt"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Pans ---",
+        "1 tbsp unsalted butter, for greasing pans",
+        "2 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "1 1/2 cups all-purpose flour",
+        "1 cup granulated sugar",
+        "1 1/2 tsp baking soda",
+        "1 tsp baking powder",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground allspice",
+        "1/2 tsp ground cloves",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp salt",
+        "2/3 cup vegetable oil",
+        "3 large eggs",
+        "1 1/2 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "1 Granny Smith apple, washed, peeled and grated",
+        "1/2 cup granulated sugar",
+        "1/2 cup water",
+        "--- Cream cheese frosting ---",
+        "1 lb brick-style cream cheese, cold, not softened",
+        "1 stick unsalted butter, softened",
+        "8 cups powdered sugar",
+        "2 tsp vanilla extract",
+        "1/2 tsp salt"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Pans ---",
+        "1 1/2 tbsp unsalted butter, for greasing pans",
+        "3 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "2 1/4 cups all-purpose flour",
+        "1 1/2 cups granulated sugar",
+        "2 1/4 tsp baking soda",
+        "1 1/2 tsp baking powder",
+        "1 1/2 tsp ground cinnamon",
+        "3/4 tsp ground allspice",
+        "3/4 tsp ground cloves",
+        "3/4 tsp freshly grated nutmeg",
+        "3/4 tsp salt",
+        "1 cup vegetable oil",
+        "4 1/2 large eggs",
+        "2 1/4 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "1 1/2 Granny Smith apples, washed, peeled and grated",
+        "3/4 cup granulated sugar",
+        "3/4 cup water",
+        "--- Cream cheese frosting ---",
+        "1 1/2 lb brick-style cream cheese, cold, not softened",
+        "1 1/2 sticks unsalted butter, softened",
+        "12 cups powdered sugar",
+        "3 tsp vanilla extract",
+        "3/4 tsp salt"
+      ],
+      "yield": "18 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Pans ---",
+        "2 tbsp unsalted butter, for greasing pans",
+        "4 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "3 cups all-purpose flour",
+        "2 cups granulated sugar",
+        "3 tsp baking soda",
+        "2 tsp baking powder",
+        "2 tsp ground cinnamon",
+        "1 tsp ground allspice",
+        "1 tsp ground cloves",
+        "1 tsp freshly grated nutmeg",
+        "1 tsp salt",
+        "1 1/3 cups vegetable oil",
+        "6 large eggs",
+        "3 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "2 Granny Smith apples, washed, peeled and grated",
+        "1 cup granulated sugar",
+        "1 cup water",
+        "--- Cream cheese frosting ---",
+        "2 lb brick-style cream cheese, cold, not softened",
+        "2 sticks unsalted butter, softened",
+        "16 cups powdered sugar",
+        "4 tsp vanilla extract",
+        "1 tsp salt"
+      ],
+      "yield": "24 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Pans ---",
+        "3 tbsp unsalted butter, for greasing pans",
+        "6 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "4 1/2 cups all-purpose flour",
+        "3 cups granulated sugar",
+        "4 1/2 tsp baking soda",
+        "3 tsp baking powder",
+        "3 tsp ground cinnamon",
+        "1 1/2 tsp ground allspice",
+        "1 1/2 tsp ground cloves",
+        "1 1/2 tsp freshly grated nutmeg",
+        "1 1/2 tsp salt",
+        "2 cups vegetable oil",
+        "9 large eggs",
+        "4 1/2 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "3 Granny Smith apples, washed, peeled and grated",
+        "1 1/2 cups granulated sugar",
+        "1 1/2 cups water",
+        "--- Cream cheese frosting ---",
+        "3 lb brick-style cream cheese, cold, not softened",
+        "3 sticks unsalted butter, softened",
+        "24 cups powdered sugar",
+        "6 tsp vanilla extract",
+        "1 1/2 tsp salt"
+      ],
+      "yield": "36 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Pans ---",
+        "1 tbsp unsalted butter, for greasing pans",
+        "2 tbsp all-purpose flour, for dusting pans",
+        "--- Cake batter ---",
+        "1 1/2 cups all-purpose flour",
+        "1 cup granulated sugar",
+        "1 1/2 tsp baking soda",
+        "1 tsp baking powder",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground allspice",
+        "1/2 tsp ground cloves",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp salt",
+        "2/3 cup vegetable oil",
+        "3 large eggs",
+        "1 1/2 lb carrot, peeled and finely grated",
+        "--- Apple syrup ---",
+        "1 Granny Smith apple, washed, peeled and grated",
+        "1/2 cup granulated sugar",
+        "1/2 cup water",
+        "--- Cream cheese frosting ---",
+        "1 lb brick-style cream cheese, cold, not softened",
+        "1 stick unsalted butter, softened",
+        "8 cups powdered sugar",
+        "2 tsp vanilla extract",
+        "1/2 tsp salt"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every identity/rating/title/source/sourceURL/cuisine/pairing and existing ingredient scaling control protected; complete current alternatives retained where source formula restoration differs. No prior narrow repair promoted to whole acceptance.",
+  "remainingQuestions": [
+    "Which source-oil versus prepared-finished-brown-butter route does the household prefer? No later accepted formula decision identified after bulk6d6ff; later Stella wording is not proof of technique attribution.",
+    "What starting butter quantity actually yields the desired finished⅔cup after browning? Kept unresolved; only prepared measured brown butter option is usable here.",
+    "Two8-inch pan depths, full8cup-sugar frosting handling and cooling need kitchen verification.",
+    "Retained current warm brushing may change absorption; no comparative testing or promised equivalence."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 93,
+    "targetedLint": "Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12251,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 68,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all ten pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

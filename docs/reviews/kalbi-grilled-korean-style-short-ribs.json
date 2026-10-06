@@ -1,0 +1,879 @@
+{
+  "slug": "kalbi-grilled-korean-style-short-ribs",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
+  "inputSha256": "cff078e20a7836a13c974cc21c021d2ebdd3a11915ed19d8541c23524b7f2c0a",
+  "acceptedSourceSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Korea",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15–30 min, longer with extra grill loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "600 min",
+      "after": "About 10 hr with an 8-hour marinade; overnight may be longer"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "5 lbs Flanken-style Beef Short Ribs (1/2-inch thick)",
+        "1/3 cup Sake",
+        "1/4 cup Granulated Sugar",
+        "1 cup Soy Sauce",
+        "3 tbsp Dark Brown Sugar",
+        "1/2 tsp Toasted Sesame Oil",
+        "4 Scallions, finely chopped",
+        "7 cloves Garlic, minced",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Vegetable Oil"
+      ],
+      "after": [
+        "--- Ribs and sake-sugar rub ---",
+        "5 lb flanken-style beef short ribs, raw, fresh or fully thawed; cut across the bones about 1/2 inch thick",
+        "1/3 cup sake",
+        "1/4 cup granulated sugar",
+        "--- Soy marinade ---",
+        "1 cup soy sauce",
+        "3 tbsp dark brown sugar",
+        "1/2 tsp toasted sesame oil",
+        "4 scallions, washed and finely chopped",
+        "7 garlic cloves, peeled and minced",
+        "1/4 tsp black pepper",
+        "2 tbsp vegetable oil",
+        "suitable grilling oil, as needed for the grill grates"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1150,
+        "protein": 70.5,
+        "carbs": 43.5,
+        "fat": 80,
+        "fiber": 0,
+        "sugar": 40.5,
+        "sodium": 3400
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": [
+        "charcoal-grill",
+        "food-safe-marination-vessels",
+        "thin-probe-thermometer",
+        "clean-serving-platter"
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "ribs",
+            "name": "Ribs and sake-sugar rub",
+            "ingredients": [
+              {
+                "id": "ribs",
+                "key": "ribs",
+                "name": "flanken-style beef short ribs",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "lb"
+                },
+                "preparation": "raw, fresh or fully thawed; cut across the bones about 1/2 inch thick",
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sake",
+                "key": "sake",
+                "name": "sake",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "white-sugar",
+                "key": "white-sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "rub",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "marinade",
+            "name": "Soy marinade",
+            "ingredients": [
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "dark brown sugar",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame-oil",
+                "key": "sesame-oil",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "scallion",
+                "plural": "scallions",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "washed and finely chopped",
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 7,
+                  "unit": "count"
+                },
+                "preparation": "peeled and minced",
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinade",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "grate-oil",
+                "key": "grate-oil",
+                "name": "suitable grilling oil",
+                "allowance": "as needed for the grill grates",
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "grill",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Inspect and prepare",
+            "text": "Inspect the cut ribs for loose bone fragments; remove visible fragments with a damp paper towel and pat dry, keeping raw juices away from ready-to-eat foods. Use covered food-safe vessels with room to turn the entire listed batch; divide all ingredients proportionally if more vessels are needed."
+          },
+          {
+            "id": "rub",
+            "title": "Apply the sake-sugar rub",
+            "text": "Use {{ingredients}}. Stir the sake and granulated sugar together and rub the mixture onto both sides of the ribs. Cover and refrigerate for 15 minutes while preparing the soy marinade."
+          },
+          {
+            "id": "marinade",
+            "title": "Mix the soy marinade",
+            "text": "Whisk {{ingredients}} until the brown sugar dissolves. This main marinade has no added water; the water-diluted alternative below is a separate choice."
+          },
+          {
+            "id": "chill",
+            "title": "Marinate cold",
+            "text": "Pour the entire soy marinade over the ribs and turn to coat every slice. Cover and refrigerate at 40°F or below for at least 8 hours or overnight. Turn with clean utensils if needed for even contact; do not leave the ribs on the counter to warm through."
+          },
+          {
+            "id": "grill",
+            "title": "Set up the grill and sear",
+            "text": "Set up a charcoal grill with medium-high direct heat and a cooler zone, following its operating instructions. Use {{ingredients}} as needed for the grates. Drain the ribs and wipe away excess marinade just before grilling; discard the raw-contact marinade. Grill uncrowded ribs over direct heat, starting checks around 2–3 minutes per side, until seared without blackening the sugar. Work in loads and keep waiting raw ribs refrigerated."
+          },
+          {
+            "id": "finish",
+            "title": "Finish on the cooler zone",
+            "text": "Move the ribs to the cooler zone and begin checking after about 5 minutes, turning as needed. Continue until the meat is cooked through to at least 145°F in its thickest part away from bone, using a probe suitable for thin meat from the side. The fat and edges should be cooked to your liking; a clock or char alone does not establish the center temperature."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and serve",
+            "text": "Transfer to a clean platter and rest 5 minutes before cutting between the bones with clean kitchen shears and serving. For larger batches use enough grill space or more loads; keep the cut size, heat zones and endpoint the same."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control sweet marinade over two heat zones",
+        "outcome": "Seared edges and cooked rib meat without a blackened sugar coating.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Choose true flanken-cut ribs about 1/2 inch thick; a thick English-cut short rib needs a different braise or grill schedule. Have a thin-food thermometer and separate raw and cooked utensils ready.",
+          "Plan refrigerated marination and enough uncrowded grilling loads for all the measured ribs. Six portions is the current original-batch planning yield, rather than a weighed finished yield."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Edges sear while the sweet coating stays brown rather than black.",
+            "why": "Direct heat builds color quickly; the cooler zone provides more finishing time without leaving the sugary exterior over the coals."
+          },
+          {
+            "step": 6,
+            "cue": "Thin-food readings reach at least 145°F away from bone before the five-minute rest.",
+            "why": "Surface char and softened fat do not measure the meat center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The coating blackens before the meat finishes.",
+            "cause": "Excess wet marinade or an overly fierce direct zone.",
+            "fix": "Move to the cooler zone and finish by temperature. Burnt coating cannot be restored; drain and wipe excess marinade before the next load."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Main soy marinade without water",
+            "alternative": "Water-diluted marinade",
+            "effect": "For the original 5 lb batch, add 1 1/3 cups water to the soy marinade, scaling that water with the full recipe. Keep every sake, sugar, soy, oil and aromatic amount. Use scallion whites and the first 2 inches of greens and choose large garlic cloves for the measured clove count if following this route. Refrigerate at least 8 hours; discard the raw-contact marinade. The more diluted marinade seasons differently. Grill over direct heat until seared, then turn on the cooler zone with about 5 minutes per side as first checks, continuing to the same temperature and five-minute rest."
+          },
+          {
+            "ingredient": "Charcoal grill",
+            "alternative": "Broiler for the thin flanken ribs",
+            "effect": "Use a broiler-safe vessel and an uncrowded layer. The original broiler route uses a rack about 3 inches from the heat only if the broiler and vessel instructions permit that clearance; start checks around 2–3 minutes per side, watching the sweet coating closely. Continue to at least 145°F away from bone and rest 5 minutes. More loads extend time; this is not a route for thick-cut short ribs."
+          }
+        ],
+        "timing": "Allow about 10 hours with the minimum 8-hour soy-marination stage: the original preparation plan is about 60 minutes, including handling and grill setup, with a separate 15-minute refrigerated sake-sugar stage, grilling loads and a 5-minute cooked rest. Grill lighting can overlap preparation; overnight marination or extra loads extend elapsed time. None of the clocks or temperatures scales arithmetically.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F, at 40°F or below. Use within 3–4 days and reheat to 165°F throughout. Keep any waiting raw marinated ribs refrigerated and discard their marinade rather than serving it as sauce.",
+        "sources": [
+          {
+            "title": "Linda Burum and Linda Merinoff — Kalbi",
+            "url": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "USDA — Thermometers for thin foods",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers"
+          },
+          {
+            "title": "USDA — Raw meat handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nKalbi is Korean barbecue short ribs. The secret to tender meat with crisp edges is rubbing the ribs with sake and sugar for 15 minutes before adding the soy sauce. This allows the alcohol and sugar crystals to penetrate the tough flanken-style fibers, ensuring succulent meat. Grill directly over charcoal for exactly 2 minutes per side to develop the smoky lacquered char.\n\n## Directions\n\n1.  **The Prep:** Rinse the ribs in cold water to remove any bone fragments. Pat **bone-dry** with paper towels.\n2.  **The Tenderizer:** In a large bowl, toss the ribs with the sake and white sugar. Massage the mixture into the meat and let stand for 15 minutes.\n3.  **The Marinade:** In a separate jar, whisk together the soy sauce, brown sugar, sesame oil, garlic, scallions, pepper, and oil until the sugar is dissolved.\n4.  **The Soak:** Pour the marinade over the ribs. Ensure every slice is coated. Cover and refrigerate for **at least 8 hours** (overnight is mandatory for the Kitchen Standard).\n5.  **Thermal Prep:** Bring the ribs to room temperature for 30 minutes before cooking. Discard the marinade.\n6.  **The Sear:** Light a charcoal grill to medium-high heat. Wipe off excess marinade from the ribs to prevent the sugars from burning, then place directly over the coals. Grill for 2-3 minutes per side until seared and charred.\n7.  **Finish:** Move to the cooler side of the grill for 5 minutes until the fat is rendered and \"Snappy.\"\n8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.\n\nLet the cooked ribs rest for 5 minutes before cutting and serving.\n",
+    "after": "\n## Chef's Note\n\nKalbi brings a soy, sake and sugar marinade to flanken-cut Korean barbecue ribs. Keep the 1/2-inch cut consistent and use both a direct-heat and a cooler grilling zone: the sweet coating can darken before the meat finishes. The sake-sugar rub is a separate preparation stage; its short rest does not guarantee tender meat.\n\n## Directions\n\n1. **Inspect and prepare:** Inspect the cut ribs for loose bone fragments; remove visible fragments with a damp paper towel and pat dry, keeping raw juices away from ready-to-eat foods. Use covered food-safe vessels with room to turn the entire listed batch; divide all ingredients proportionally if more vessels are needed.\n2. **Apply the sake-sugar rub:** Use flanken-style beef short ribs, sake, and granulated sugar. Stir the sake and granulated sugar together and rub the mixture onto both sides of the ribs. Cover and refrigerate for 15 minutes while preparing the soy marinade.\n3. **Mix the soy marinade:** Whisk soy sauce, dark brown sugar, toasted sesame oil, scallions, garlic cloves, black pepper, and vegetable oil until the brown sugar dissolves. This main marinade has no added water; the water-diluted alternative below is a separate choice.\n4. **Marinate cold:** Pour the entire soy marinade over the ribs and turn to coat every slice. Cover and refrigerate at 40°F or below for at least 8 hours or overnight. Turn with clean utensils if needed for even contact; do not leave the ribs on the counter to warm through.\n5. **Set up the grill and sear:** Set up a charcoal grill with medium-high direct heat and a cooler zone, following its operating instructions. Use suitable grilling oil as needed for the grates. Drain the ribs and wipe away excess marinade just before grilling; discard the raw-contact marinade. Grill uncrowded ribs over direct heat, starting checks around 2–3 minutes per side, until seared without blackening the sugar. Work in loads and keep waiting raw ribs refrigerated.\n6. **Finish on the cooler zone:** Move the ribs to the cooler zone and begin checking after about 5 minutes, turning as needed. Continue until the meat is cooked through to at least 145°F in its thickest part away from bone, using a probe suitable for thin meat from the side. The fat and edges should be cooked to your liking; a clock or char alone does not establish the center temperature.\n7. **Rest and serve:** Transfer to a clean platter and rest 5 minutes before cutting between the bones with clean kitchen shears and serving. For larger batches use enough grill space or more loads; keep the cut size, heat zones and endpoint the same.\n"
+  },
+  "findings": [
+    {
+      "id": "MM04-K01",
+      "rationale": "Keep all current measured doses and six-portion planning, migrate the substantial whole method to authored formula, and expose the exact saved/publisher water-diluted route separately. fa0ce161 drops 1⅓ cups water and changes ten to six portions; full followed history does not establish a specific household decision accepting this omission. Preserve current undiluted main, not a silent rollback. The alternate adds only source water with proportional original-batch context, retains scallion-part preparation and distinct finishing clocks/broiler choice.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "fa0ce161",
+        "045e5ba2",
+        "b7ae012d",
+        "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "formula", "servings", "learning", "content"],
+      "questions": []
+    },
+    {
+      "id": "MM04-K02",
+      "rationale": "Replace raw washing, counter warming, guaranteed exact searing and guaranteed sake/sugar tenderness with cold handling and applicable thin-cut endpoint. Preserve 2b01ffbb wiped marinade/medium-high/2–3-minute checks and 85691102 five-minute cooked rest. A suitable thin probe, actual bone avoidance, uncrowded loads and cooler-zone finish are editorial application, not tested geometry. Add separate genuine grate-oil allowance from source rather than take the full2tbsp marinade oil.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "2b01ffbb",
+        "85691102",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food",
+        "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs"
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "learning"],
+      "questions": []
+    },
+    {
+      "id": "MM04-K03",
+      "rationale": "Retain original60-minute prep and approximate10-hour minimum plan while naming eight-hour refrigerator wait, separate15-minute rub, actual grill loads and cooked rest. Replace15-minute cooking guarantee with a planning range. Remove unverifiable nutrition without new estimates; no cooked yield/pan capacity measurement claimed.",
+      "confidence": "High for exact saved/Git/current text and cited primary scope; moderate for recipe-specific handling, allocations, planning and texture applications; untested.",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "fa0ce161"
+      ],
+      "exactBeforeAfterReferences": ["cookTime", "totalTime", "equipment", "nutrition", "learning"],
+      "questions": []
+    },
+    {
+      "id": "MM04-I01",
+      "rationale": "A country field is a geographic-origin claim, distinct from a cuisine/style tag. Kalbi’s directly inspected primary identifies the flanken route as L.A. kalbi developed by Korean immigrants in Los Angeles. Ribeye and Keema have Git-only recipe introductions; neither first source establishes a national birthplace. ec691311 adds all three country labels in a title/metadata pass. The author confirms no retained contrary geographic evidence. Omit these unsupported fields without substituting another country or changing the Korean/Indian styles, authorship, ingredients or cooking routes. Banh Mi’s Vietnam field can remain: its publisher explicitly traces the sandwich to South Vietnam.",
+      "confidence": "High that the retained evidence does not establish these particular national-origin claims; this is evidence-limited omission, not a claim that Korean or Indian cuisine context is wrong.",
+      "applicableSources": [
+        {
+          "source": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
+          "scope": "Current primary explicitly distinguishes L.A. flanken style; it does not support Korea as this version’s geographic origin."
+        },
+        {
+          "source": "https://github.com/jsilton/mise/blob/12816aa2a3827e97bca1c2393ad9e61bfeaae3f6/src/content/recipes/marinated-korean-ribeye.md",
+          "scope": "Actual Git-only recipe introduction and whole formula; no geographic-origin field or external original."
+        },
+        {
+          "source": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/lamb-keema-matar.md",
+          "scope": "Actual Git-only recipe introduction and whole formula; no geographic-origin field or external original."
+        },
+        {
+          "source": "ec691311c835b756940788b5d587124ac76be446",
+          "scope": "Exact followed Git changes add the three country labels; this proves metadata chronology, not the labels’ historical truth."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Kalbi%20(Grilled%20Korean-Style%20Short%20Ribs).html",
+    "introductionScope": "Exact earlier HTML cooking text; photos and native identity metadata excluded from review extract",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Current undiluted marinade",
+      "status": "primary preserved",
+      "difference": "fa0ce161 deletes original1⅓cups water and changes original ten-serving plan to six; all current amounts and six planning portions preserved. This is not inferred deliberate household preference."
+    },
+    {
+      "route": "Saved/publisher diluted marinade",
+      "status": "public separate alternative",
+      "difference": "Add1⅓cups water per original5lb batch, proportional at scale; same sake/white sugar and complete soy/sugar/oil/aromatics. Scallion whites+2inches greens, direct sear then about5min per side cooler first checks; exact source broiler close rack only where actual equipment permits. FDA145+current5min rest applies without time guarantee."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "5 lbs Flanken-style Beef Short Ribs (1/2-inch thick)",
+        "destination": "Steps2/4 sake-sugar rub then soy marinade; step1 raw rinse, step5 counter warm, step6 sear, step7 literal5min cooler finish, later5min rest.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/3 cup Sake",
+        "destination": "Step2 full sake rubbed on raw ribs; its15min stand has no location.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/4 cup Granulated Sugar",
+        "destination": "Step2 full white sugar rub.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1 cup Soy Sauce",
+        "destination": "Step3 full soy marinade.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "3 tbsp Dark Brown Sugar",
+        "destination": "Step3 full dark brown sugar marinade.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/2 tsp Toasted Sesame Oil",
+        "destination": "Step3 full sesame oil marinade.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "4 Scallions, finely chopped",
+        "destination": "Step3 full chopped scallions; exact original whites/2inch greens are no longer specified.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "7 cloves Garlic, minced",
+        "destination": "Step3 full garlic.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": "Step3 full pepper.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Vegetable Oil",
+        "destination": "Step3 full measured vegetable oil; no separate grate-oil supply in frozen list.",
+        "stateAndMeasure": "Exact frozen ingredient string; destination describes the old method including its unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [],
+    "proposed": [
+      {
+        "id": "ribs.ribs",
+        "component": "Ribs and sake-sugar rub",
+        "name": "flanken-style beef short ribs",
+        "quantity": {
+          "amount": 5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "raw, fresh or fully thawed; cut across the bones about 1/2 inch thick",
+        "role": "food",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned rub (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "ribs.sake",
+        "component": "Ribs and sake-sugar rub",
+        "name": "sake",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned rub (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "ribs.white-sugar",
+        "component": "Ribs and sake-sugar rub",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "rub",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned rub (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.soy",
+        "component": "Soy marinade",
+        "name": "soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.brown-sugar",
+        "component": "Soy marinade",
+        "name": "dark brown sugar",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.sesame-oil",
+        "component": "Soy marinade",
+        "name": "toasted sesame oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.scallions",
+        "component": "Soy marinade",
+        "name": "scallion",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed and finely chopped",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.garlic",
+        "component": "Soy marinade",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 7,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and minced",
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.pepper",
+        "component": "Soy marinade",
+        "name": "black pepper",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.oil",
+        "component": "Soy marinade",
+        "name": "vegetable oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "role": "food",
+        "uses": [
+          {
+            "step": "marinade",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned marinade (1 share); full subsequent route in processGraph and authored formula."
+      },
+      {
+        "id": "marinade.grate-oil",
+        "component": "Soy marinade",
+        "name": "suitable grilling oil",
+        "quantity": null,
+        "allowance": "as needed for the grill grates",
+        "preparation": null,
+        "role": "discarded",
+        "uses": [
+          {
+            "step": "grill",
+            "share": 1
+          }
+        ],
+        "destination": "Assigned grill (1 share); full subsequent route in processGraph and authored formula."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Water-diluted soy marinade",
+        "supply": "Complete current5lb ribs,1/3cup sake,1/4cup white sugar,1cup soy,3tbsp brown sugar,1/2tsp sesame oil,4scallions,7garlic,1/4tsp pepper,2tbsp vegetable oil, plus original1⅓cup water; independent grate oil asneeded.",
+        "replacement": "Adds source water to soy stage; scallions use whites+first2inches greens. Keep every measured amount; scale allincluding alternativewater proportionally.",
+        "destination": "Rub→cold soy soak→discard raw marinade→uncrowded direct sear→cooler about5min per side firstchecks→145°F awaybone→5minrest. Broiler is separate heat option, not simultaneous grill."
+      },
+      {
+        "name": "Broiler for thin flanken ribs",
+        "supply": "Same complete chosen marinade and1/2inch ribs, suitable broiler vessel; no thick English-cut substitution.",
+        "replacement": "Replace grill heat route, not meat or seasoning doses.",
+        "destination": "About3inches from heat only actual manualpermits,2–3minperside firstchecks/watchsweetcoating→145°F→5minrest; separate loads asneeded."
+      }
+    ],
+    "quantityScope": "Full current measured doses retained; genuine method/source allowances and explicitly separated original alternatives documented. Frozen ledger is never retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Inspect and prepare: Inspect the cut ribs for loose bone fragments; remove visible fragments with a damp paper towel and pat dry, keeping raw juices away from ready-to-eat foods. Use covered food-safe vessels with room to turn the entire listed batch; divide all ingredients proportionally if more vessels are needed.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 2,
+      "text": "Apply the sake-sugar rub: Use flanken-style beef short ribs, sake, and granulated sugar. Stir the sake and granulated sugar together and rub the mixture onto both sides of the ribs. Cover and refrigerate for 15 minutes while preparing the soy marinade.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 3,
+      "text": "Mix the soy marinade: Whisk soy sauce, dark brown sugar, toasted sesame oil, scallions, garlic cloves, black pepper, and vegetable oil until the brown sugar dissolves. This main marinade has no added water; the water-diluted alternative below is a separate choice.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 4,
+      "text": "Marinate cold: Pour the entire soy marinade over the ribs and turn to coat every slice. Cover and refrigerate at 40°F or below for at least 8 hours or overnight. Turn with clean utensils if needed for even contact; do not leave the ribs on the counter to warm through.",
+      "dependencies": [2, 3],
+      "attended": false,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 5,
+      "text": "Set up the grill and sear: Set up a charcoal grill with medium-high direct heat and a cooler zone, following its operating instructions. Use suitable grilling oil as needed for the grates. Drain the ribs and wipe away excess marinade just before grilling; discard the raw-contact marinade. Grill uncrowded ribs over direct heat, starting checks around 2–3 minutes per side, until seared without blackening the sugar. Work in loads and keep waiting raw ribs refrigerated.",
+      "dependencies": [4],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 6,
+      "text": "Finish on the cooler zone: Move the ribs to the cooler zone and begin checking after about 5 minutes, turning as needed. Continue until the meat is cooked through to at least 145°F in its thickest part away from bone, using a probe suitable for thin meat from the side. The fat and edges should be cooked to your liking; a clock or char alone does not establish the center temperature.",
+      "dependencies": [5],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    },
+    {
+      "step": 7,
+      "text": "Rest and serve: Transfer to a clean platter and rest 5 minutes before cutting between the bones with clean kitchen shears and serving. For larger batches use enough grill space or more loads; keep the cut size, heat zones and endpoint the same.",
+      "dependencies": [6],
+      "attended": true,
+      "capacity": "Actual vessel/uncrowded layer or proportional extra batches as written; no measured capacity or guaranteed scaled clock."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Water-diluted soy marinade",
+      "supply": "Complete current5lb ribs,1/3cup sake,1/4cup white sugar,1cup soy,3tbsp brown sugar,1/2tsp sesame oil,4scallions,7garlic,1/4tsp pepper,2tbsp vegetable oil, plus original1⅓cup water; independent grate oil asneeded.",
+      "replacement": "Adds source water to soy stage; scallions use whites+first2inches greens. Keep every measured amount; scale allincluding alternativewater proportionally.",
+      "destination": "Rub→cold soy soak→discard raw marinade→uncrowded direct sear→cooler about5min per side firstchecks→145°F awaybone→5minrest. Broiler is separate heat option, not simultaneous grill."
+    },
+    {
+      "name": "Broiler for thin flanken ribs",
+      "supply": "Same complete chosen marinade and1/2inch ribs, suitable broiler vessel; no thick English-cut substitution.",
+      "replacement": "Replace grill heat route, not meat or seasoning doses.",
+      "destination": "About3inches from heat only actual manualpermits,2–3minperside firstchecks/watchsweetcoating→145°F→5minrest; separate loads asneeded."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "korean-pickled-cucumbers",
+      "seasoned-bean-sprouts",
+      "fresh-cabbage-cucumber-and-radish-kimchi"
+    ],
+    "outgoingRecipeReferences": [],
+    "incomingComposedMeals": [
+      {
+        "path": "src/content/meals/korean-bbq-night.md",
+        "sha256": "ec2842f4d1ea000e248cf368ff49109f8e319e771fa77f840dbc5ecdda090cbe",
+        "acceptance": "Not reviewed or accepted by this recipe batch."
+      }
+    ],
+    "scope": "Existing valid pairings and linked preparations retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": "Original main5lb meat : 1cup soy : 1/3cup sake : 1/4cup white sugar : 3tbsp brown sugar : 2tbsp marinadeoil : 1/2tsp sesameoil. Diluted alternative adds1⅓cupwater to the soy stage; volume after mixing/absorption is not measured. Current six portions and source ten are different inherited plans, not measured equivalence.",
+  "preservedPriorRepairs": [
+    "All current measured meat, sake, sugars, soy and oils unchanged; separate grate oil does not consume marinade dose.",
+    "2b01ffbb medium-high heat, wiped excess marinade and2–3minute sear firstchecks preserved.",
+    "85691102 five-minute rest before cutting preserved.",
+    "Korean cuisine/origin, title/ID/source links and all pairings retained."
+  ],
+  "remainingQuestions": [
+    "Confirm actual1/2inch flanken thickness, thin thermometer applicability, grill vessel/zone/load counts and tenderness with145°F plus5minute rest. No tested fat-rendering or snappy texture guarantee.",
+    "Which marinade is intended for regular use: current undiluted main or exact water-diluted source route? Both remain available; no household intent inferred from bulk edit.",
+    "Confirm actual broiler clearance and safe vessel before choosing its close-rack route.",
+    "Korean BBQ Night meal needs its own review: four-hour minimum conflicts with8-hour recipe, missing cooler-zone/endpoint/rest and held kimchi dependency. No meal acceptance.",
+    "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+  "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 93,
+    "targetedLint": "Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12251,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 68,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all ten pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -29,3 +29,17 @@ This recipe uses a fixed-batch serving control. Written for two 10-inch round pa
 The same-day final implementation uses `formula.version: 1`, with cake and ganache components and one explicit consuming destination per ingredient. Separate preparation, dry-mixing, egg-beating, liquid-addition, heated-cream, chocolate-addition, and butter-addition steps protect the source sequence and keep the restored vanilla and both leaveners in generated instructions. The method now has eleven steps; no learning checkpoint indices existed to remap.
 
 The structured yield remains a range of 12–14, rendered as portions. The fixed-batch pan constraint remains unchanged. Pan-greasing fat is an unmeasured allowance with its own destination, independent of the measured batter oil and frosting butter. No unsupported equivalents are invented: the shopping list retains 3 oz and 1 lb chocolate as separate entries, likewise 3 cups and 2 tbsp sugar. Generated ingredients, method, yield, shopping list, and internal half/double/reset representations were inspected; these internal arithmetic checks do not enable public scaling. The complete Chef's Note, timing/storage prose, attribution, and fixed-batch metadata were compared with the immediate pre-migration copy and are unchanged.
+
+---
+
+# Double Chocolate Layer Cake — complete editorial review
+
+Accepted after complete author review, independent challenge and root inspection of the complete diff. Implementation and production verification pending; no kitchen tests or native-app import.
+
+[Exact before/after fields, ingredient and variant ledgers, evidence, confidence and remaining questions](double-chocolate-layer-cake.json). [Combined review and source applicability](../editorial-campaign/2026-10-05/marinated-cakes-ten-review.md).
+
+Accepted source SHA-256: c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2.
+
+## Local integrated validation
+
+All 252 tests, 93 authored formula checks, 643-recipe validation, 10 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; one disclosed metadata warning from Swirl Cake’s corrected 3–4-hour elapsed plan. Cooling, ganache thickening and the minimum one-hour refrigerator set are explicit in the full clock and method; its advancePrep field remains unset. All three exports match 643 sources; private bindings, public privacy and 12,251 built anchors pass. The other 633 recipe sources/export schemas and unrelated review credit remain unchanged. 0 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 10 complete rendered pages and 68 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](../editorial-campaign/2026-10-05/marinated-cakes-ten-preservation.json).

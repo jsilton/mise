@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 425,
-    "completeEditorialPending": 218,
+    "recordedCompleteEditorial": 435,
+    "completeEditorialPending": 208,
     "originalBaseline": 612,
-    "originalReviewed": 398,
+    "originalReviewed": 408,
     "consideredConsolidations": 10,
-    "originalPending": 204,
+    "originalPending": 194,
     "additionalSources": 41,
     "additionalReviewed": 27,
     "additionalPending": 14,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 425,
+      "editoriallyReviewed": 435,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 412
+      "reviewItems": 394
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "191 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 425 recorded complete / 218 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [bc7c88ea](https://github.com/jsilton/mise/commit/bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37429384204) and all 11 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "191 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -823,18 +823,7 @@
       "baseline": "original canonical",
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -842,19 +831,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/babys-first-smash-cake.md",
+        "acceptedSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/babys-first-smash-cake.json",
+        "sourceSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual banana size/mashed yield and chosen current four versus saved four-or-five remain household/kitchen questions; no new weight equivalence.",
+        "Which mini pans does the household own, and how many muffins result at that actual shallow depth? Publisher4.75-inch mini pans are source context, not certification of every mini pan.",
+        "Will the actual cream cheese and concentrate spread after chilling without formula changes?",
+        "First-birthday context is preserved; no blanket suitability or nutrition advice for infants."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6299,18 +6296,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodiewithfamily.com",
       "sourceUrl": "https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6318,19 +6304,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-vanilla-swirl-layer-cake.md",
+        "acceptedSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-vanilla-swirl-layer-cake.json",
+        "sourceSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual two8- or9-inch pan depths/headroom and oven fit need kitchen confirmation; no guessed depth.",
+        "Compare original white additions/four-layer route with current simplified white/two-layer option; no household preference inferred from bulk omission.",
+        "Ganache set time varies with chocolate and fridge;3–4hr is planning, not tested."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6467,18 +6460,7 @@
       "baseline": "original canonical",
       "source": "Adapted from ajc.com",
       "sourceUrl": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6486,19 +6468,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/classic-carrot-cake.md",
+        "acceptedSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/classic-carrot-cake.json",
+        "sourceSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which source-oil versus prepared-finished-brown-butter route does the household prefer? No later accepted formula decision identified after bulk6d6ff; later Stella wording is not proof of technique attribution.",
+        "What starting butter quantity actually yields the desired finished⅔cup after browning? Kept unresolved; only prepared measured brown butter option is usable here.",
+        "Two8-inch pan depths, full8cup-sugar frosting handling and cooling need kitchen verification.",
+        "Retained current warm brushing may change absorption; no comparative testing or promised equivalence."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8884,13 +8874,7 @@
       "baseline": "original canonical",
       "source": "Ed Kasky, Gourmet (March 1999), via Epicurious",
       "sourceUrl": "https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8898,12 +8882,18 @@
         "evidence": ["docs/reviews/double-chocolate-layer-cake.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/double-chocolate-layer-cake.md",
-        "recordImplementationCommit": "493885bb88fa96b1ab626b20a5c8ec78830f9145"
+        "acceptedSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/double-chocolate-layer-cake.json",
+        "sourceSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -8912,11 +8902,11 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Physical kitchen testing remains absent.",
+        "Actual chocolate/oven/cooling behavior remains untested; fixed pan controls preserved."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10843,18 +10833,7 @@
       "baseline": "original canonical",
       "source": "Adapted from sugarspunrun.com",
       "sourceUrl": "https://sugarspunrun.com/funfetti-cake-scratch/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10862,19 +10841,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/funfetti-cake-from-scratch-and-an-unbirthday.md",
+        "acceptedSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/funfetti-cake-from-scratch-and-an-unbirthday.json",
+        "sourceSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan depth and oven fit for three8-inch layers; source volume12cups is not a new tested household yield.",
+        "How much additional decorative frosting does the household use? Separate1.5×all frosting option is exact saved recommendation, not compulsory.",
+        "Current sea-salt crystal density differs from original generic/current publisher table salt; no unsupported mass equivalence.",
+        "Compare source supplied gram equivalents with household measuring technique; these are publisher companions, not newly weighed results."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12677,18 +12664,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/grilled-pork-banh-mi",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12696,19 +12672,27 @@
         "evidence": ["docs/reviews/quick-pickled-carrots-and-daikon.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/grilled-pork-banh-mi.md",
+        "acceptedSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/grilled-pork-banh-mi.json",
+        "sourceSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actualthin cut, skewers/basket/grillheat, probe suitability and texture/time for tenderloin versus porkbutt;do not treatcutalternativesasequal clocks.",
+        "Whichbreadlength/size andamount oflinkedpickles/cucumber/mayo arepreferred forcurrent4plan? No doseinvented.",
+        "Confirm savedscallion/hoisin six-roll route remains wanted;thisproposal preserves it without overridingcurrentlemongrassmain.",
+        "Actual bread dimensions and the current four-portion versus source six-roll plan remain unmeasured, already disclosed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14756,18 +14740,7 @@
       "baseline": "original canonical",
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -14775,19 +14748,28 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/kalbi-grilled-korean-style-short-ribs.md",
+        "acceptedSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/kalbi-grilled-korean-style-short-ribs.json",
+        "sourceSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual1/2inch flanken thickness, thin thermometer applicability, grill vessel/zone/load counts and tenderness with145°F plus5minute rest. No tested fat-rendering or snappy texture guarantee.",
+        "Which marinade is intended for regular use: current undiluted main or exact water-diluted source route? Both remain available; no household intent inferred from bulk edit.",
+        "Confirm actual broiler clearance and safe vessel before choosing its close-rack route.",
+        "Korean BBQ Night meal needs its own review: four-hour minimum conflicts with8-hour recipe, missing cooler-zone/endpoint/rest and held kimchi dependency. No meal acceptance.",
+        "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15328,13 +15310,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Steamykitchen.com",
       "sourceUrl": "http://steamykitchen.com/4474-korean-style-tacos-with-kogi-bbq-sauce.html",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15342,19 +15318,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/korean-style-tacos-with-kogi-bbq-sauce.md",
+        "acceptedSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/korean-style-tacos-with-kogi-bbq-sauce.json",
+        "sourceSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirmactualcookedmeat seasoning/moisture fromchosenlinkedporkORchicken and sauce sweetness/heat withfull-sauce orquartercupsear choice;not native or kitchen approval.",
+        "Does thecurrentquartercup sauceportion yield preferredtextureat largerpanloads withoutscorch? No fullmixedyield/dilution guessed.",
+        "Confirmactualcucumber/tortillasize andfilledtacocount;sourcefourportions/current12count remainplanning.",
+        "Choose extra chili to taste only if desired; no new measured quantity or claimed household preference."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15370,18 +15354,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15389,19 +15362,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/lamb-keema-matar.md",
+        "acceptedSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/lamb-keema-matar.json",
+        "sourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actualground-lamb fatcontent, pan/lid/load andsmallwater evaporation throughpeacooking;noadditionalwater/oil/salt dose guessed.",
+        "Whichfrozenpea product is used andwhat cookingdirections apply? Five-minuteclock isfirstcheck only.",
+        "Confirmactualbrowntexturewithoutblackenedspices,160endpointand fullfat/lemonbalance atscale;anyextrabatchtimeuntested.",
+        "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16311,18 +16292,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16330,19 +16300,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/marinated-korean-ribeye.md",
+        "acceptedSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/marinated-korean-ribeye.json",
+        "sourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual thinbeef cut, thermometer sensor suitability, panload and texture/time at desired scale; scientifically named enzyme/tenderness not verified.",
+        "Which H-Mart or other pre-marinated product is used, and do its actual label/mechanically-tenderized directions require different cooking? No product identity/dose assumed.",
+        "Confirm raw marinated freeze-ahead quality and actual package storage deadlines; no precise freezer quality duration invented.",
+        "No alternative country is proposed. A later explicit primary historical source could support a reconsidered geographic field."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
