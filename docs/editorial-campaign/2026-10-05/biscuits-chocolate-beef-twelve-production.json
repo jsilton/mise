@@ -1,0 +1,216 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37421483418",
+  "ci": {
+    "headSha": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "rendered": [
+    {
+      "slug": "anadama-bread",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 9
+    },
+    {
+      "slug": "best-cinnamon-roll-recipe-cinnabon-copycat",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 11
+    },
+    {
+      "slug": "cast-iron-buttermilk-biscuits",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "nanas-biscuits",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "quick-and-easy-drop-biscuits",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "best-homemade-brownies",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "katharine-hepburns-brownies",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "quadruple-chocolate-brownies",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "chewy-chocolate-meringues",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "marinated-flank-steak-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 9
+    },
+    {
+      "slug": "quick-lamb-ragu",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 9
+    }
+  ],
+  "verifiedDate": "2026-10-06T06:03:47.067Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "anadama-bread",
+      "acceptedSourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b"
+    },
+    {
+      "slug": "best-cinnamon-roll-recipe-cinnabon-copycat",
+      "acceptedSourceSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5"
+    },
+    {
+      "slug": "cast-iron-buttermilk-biscuits",
+      "acceptedSourceSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133"
+    },
+    {
+      "slug": "nanas-biscuits",
+      "acceptedSourceSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a"
+    },
+    {
+      "slug": "quick-and-easy-drop-biscuits",
+      "acceptedSourceSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37"
+    },
+    {
+      "slug": "best-homemade-brownies",
+      "acceptedSourceSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422"
+    },
+    {
+      "slug": "katharine-hepburns-brownies",
+      "acceptedSourceSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269"
+    },
+    {
+      "slug": "quadruple-chocolate-brownies",
+      "acceptedSourceSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce"
+    },
+    {
+      "slug": "chewy-chocolate-meringues",
+      "acceptedSourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619"
+    },
+    {
+      "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
+      "acceptedSourceSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0"
+    },
+    {
+      "slug": "marinated-flank-steak-salad",
+      "acceptedSourceSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2"
+    },
+    {
+      "slug": "quick-lamb-ragu",
+      "acceptedSourceSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 12; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}

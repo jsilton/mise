@@ -1,6 +1,6 @@
 {
   "slug": "best-cinnamon-roll-recipe-cinnabon-copycat",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
   "inputSha256": "7768b834d70e30e4f44089a0efd8f306aaeaba7ed0dbe79068bc13fcf397e386",
   "acceptedSourceSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5",
@@ -1265,7 +1265,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "releaseMetadataAmendment": {
@@ -1296,5 +1296,7 @@
     "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
 }

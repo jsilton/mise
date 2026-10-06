@@ -1,6 +1,6 @@
 {
   "slug": "quick-lamb-ragu",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
   "inputSha256": "e1b8e296e3cbd90410bb7b6eb336e206f1a00715ea70b51ef2593df799ddfa52",
   "acceptedSourceSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8",
@@ -1039,7 +1039,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1063,5 +1063,7 @@
     "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
 }

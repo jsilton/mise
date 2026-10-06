@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "147 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "159 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 393 recorded complete / 250 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [09da71e2](https://github.com/jsilton/mise/commit/09da71e2a129a8c0b2ff601e55eca5c0dc95c878), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37421483418) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -216,17 +216,21 @@
         "record": "docs/reviews/anadama-bread.md",
         "acceptedSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/anadama-bread.json",
         "sourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure the actual hands-on time, porridge cooling, rise times and complete cooling in the household kitchen.",
@@ -1751,11 +1755,11 @@
         "record": "docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md",
         "acceptedSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.json",
         "sourceSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5"
       },
@@ -1764,10 +1768,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ee4b4dec7c9d0bb40061a9d3cd5e1df114d6aff03d9a6b20182708f4f7452ee5",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure actual warm-serving time and center doneness using the retained 3/4 cup tangzhong water and metal pan.",
@@ -1799,11 +1808,11 @@
         "record": "docs/reviews/best-homemade-brownies.md",
         "acceptedSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/best-homemade-brownies.json",
         "sourceSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422"
       },
@@ -1812,10 +1821,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4f3bb629fb64dddcfb36943988d97fa43c7c290bfc236f4dbd187777cbdc9422",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual oven and pan material may change the first moist-crumb check; no kitchen testing."
@@ -3624,17 +3638,21 @@
         "record": "docs/reviews/cast-iron-buttermilk-biscuits.md",
         "acceptedSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cast-iron-buttermilk-biscuits.json",
         "sourceSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1e379919f89bdd7445f4e97c7d276a83078bace983a3a9c1dc131e0bad5fe133",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm skillet diameter, cutter size, exact count and center bake time with the retained gram/volume measures.",
@@ -4188,17 +4206,21 @@
         "record": "docs/reviews/chewy-chocolate-meringues.md",
         "acceptedSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chewy-chocolate-meringues.json",
         "sourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Which pasteurized whites does the household use, and do they whip reliably? The specific heated foam is not temperature tested; pasteurization does not promise risk elimination. Food52 current page fetch unavailable."
@@ -14879,17 +14901,21 @@
         "record": "docs/reviews/katharine-hepburns-brownies.md",
         "acceptedSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/katharine-hepburns-brownies.json",
         "sourceSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3717cc471c6436d8be078c1b026e349389472000099f0b07e25d42bb055ed269",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Exact cooling time and pan material remain kitchen questions. NYT page fetch was unavailable; no claim of verification against today’s publisher formula."
@@ -16247,17 +16273,21 @@
         "record": "docs/reviews/marinated-flank-steak-salad.md",
         "acceptedSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/marinated-flank-steak-salad.json",
         "sourceSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "38f41403caa527ba225253b8a43a6e4dcd1c5c0a0d838366b270317c9ce7eba2",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Record the actual flank thickness, pan and oil behavior,145°F time and rested texture; compare with the former 130°F preference without treating that as the federal endpoint.",
@@ -16866,17 +16896,21 @@
         "record": "docs/reviews/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
         "acceptedSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/miriams-melt-in-your-mouth-rosh-hashanah-brisket.json",
         "sourceSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f093020044b3e0d357853b5f0de9d84235ad0d896842a411fcc32febf4e6f0c0",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Which kosher-salt crystal type was used, and how do the full spices taste on the actual 3 lb cut?",
@@ -17621,17 +17655,21 @@
         "record": "docs/reviews/nanas-biscuits.md",
         "acceptedSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/nanas-biscuits.json",
         "sourceSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm Nana’s actual biscuit size/count and mixing time, especially the source shortening version.",
@@ -20065,17 +20103,21 @@
         "record": "docs/reviews/quadruple-chocolate-brownies.md",
         "acceptedSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/quadruple-chocolate-brownies.json",
         "sourceSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ac7bee37ade36023a66155bff5cf65a02cd074620371d46f49638012a4d5cfce",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual pan material, filled depth and cooling time need kitchen checks. Source48-piece claim is retained without promising2-inch precision. Food & Wine fetch unavailable. Kosher brand/crystal density remains unspecified; no volume-to-weight conversion invented."
@@ -20192,17 +20234,21 @@
         "record": "docs/reviews/quick-and-easy-drop-biscuits.md",
         "acceptedSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/quick-and-easy-drop-biscuits.json",
         "sourceSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fa80aa424d8f75b8c27c5823bcd5667fcadb6ac1ee42515f6a8ec4d01fae8b37",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Choose between source 1½ cups/8 oz and modern 1½ cups/6.6 oz before publishing a flour-weight equivalent; the source disagreement is unresolved.",
@@ -20277,17 +20323,21 @@
         "record": "docs/reviews/quick-lamb-ragu.md",
         "acceptedSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/quick-lamb-ragu.json",
         "sourceSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["09da71e2a129a8c0b2ff601e55eca5c0dc95c878"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "346dde3c710c54a5934ddd4151c6095e39e55eb261db8d5ec8729b38774f3ba8",
+        "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+        "evidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json"
       },
       "remainingQuestions": [
         "Which route is preferred: dry 12 oz/current balsamic/½cup water versus cooked 12 oz/no-balsamic/sourcehalf-can water? Confirm actual sauce-to-pasta balance without mixing the routes.",

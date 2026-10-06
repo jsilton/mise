@@ -1,6 +1,6 @@
 {
   "slug": "anadama-bread",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
   "inputSha256": "5992ac2eabffbed7c3984d4eaed89aac5132b46c673f0abb71d630dec689cc9e",
   "acceptedSourceSha256": "f367f36351d0204fe0657d73431d10c23eedec1dd6c8686047a44d28d4616f8b",
@@ -641,7 +641,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "releaseMetadataAmendment": {
@@ -672,5 +672,7 @@
     "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
 }

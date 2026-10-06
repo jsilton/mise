@@ -1,6 +1,6 @@
 {
   "slug": "chewy-chocolate-meringues",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
   "inputSha256": "c7bd7951578473b18594e4f163f40b1a92ab432156a4ae7bad4a15c749dae4ba",
   "acceptedSourceSha256": "0d14edc693063fece30940266a76a600ea7e01ce6c438d49ed4dcca202682619",
@@ -216,7 +216,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
   "rootDisposition": "Root accepts these twelve full versions. Defining ingredients, full richness, exact native originals, family and publisher authorship, distinct source/current routes and earlier safety/allocation repairs remain. Source disagreements are explicit; optional missing-evidence questions and linked meals stay unapproved. Household output and timings are plans; zero kitchen tests.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -240,5 +240,7 @@
     "compatibilityTests": "3 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
+  "releaseCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
 }
