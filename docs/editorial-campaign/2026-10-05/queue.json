@@ -569,7 +569,7 @@
       "source": "Adapted from meaningfuleats.com",
       "sourceUrl": "https://meaningfuleats.com/banana-egg-almond-butter-pancakes-grain-free-dairy-free/",
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/banana-egg-oat-pancakes.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -584,7 +584,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "5e6222db1834cf33db49a9a2608be6c811c110fc83cb4f22e6684b2a7245b4e5",
       "acceptedSourceSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "banana-nut-bread",
@@ -648,7 +650,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/banana-pancakes.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -663,7 +665,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "31545799b7fb8cd346cf91b10fcbc20e2fd42ab2e8658f8ab179bed6bcb4459d",
       "acceptedSourceSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "basic-crepes",
@@ -992,7 +996,7 @@
       "source": "Adapted from Kingarthurflour.com",
       "sourceUrl": "http://www.kingarthurflour.com/recipes/blueberry-pancakes-recipe",
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/blueberry-pancakes.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -1008,7 +1012,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "e904eb1d0b49ce7461533b0271a4f0486476585a5fb85b1976df943759e39e68",
       "acceptedSourceSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "boston-style-peking-ravioli",
@@ -1360,7 +1366,7 @@
       "source": "Adapted from lilluna.com",
       "sourceUrl": "https://lilluna.com/buttermilk-waffles/",
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/buttermilk-waffles.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -1375,7 +1381,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "eda1ed24ae20ed3dbb3083c8f0bf52696900b0791c2515f01b3fe3a922399d62",
       "acceptedSourceSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "butternut-squash-fettuccine-alfredo",
@@ -1618,7 +1626,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -1628,7 +1636,8 @@
       "inputSha256": "80f197c8918a877d66d9b3a20a0b6e2489c7668e45055d283c18e65640e68193",
       "plannedBatch": "baked-savory-and-breads-03",
       "assignedTo": "coverage_check",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "charred-asparagus-with-parmesan",
@@ -1958,7 +1967,7 @@
       "source": "Adapted from Taste.com.au",
       "sourceUrl": "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
       "group": "rice_mixed_mains_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "docs/reviews/chinese-sausage-fried-rice.md",
@@ -1972,9 +1981,10 @@
       ],
       "inputSha256": "13b89ab85624b2039ee41d881efee3c2b421d197899925dc7fb3cc713c6ba17d",
       "plannedBatch": "stir-fry-and-pan-cooking-02",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
     },
     {
       "slug": "chinese-steamed-fish",
@@ -2499,7 +2509,7 @@
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/",
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/cottage-cheese-banana-oatmeal-protein-pancakes.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -2515,7 +2525,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "711525879e45b3ccc11d88c2651db13043fff9f99fbc1a05f9c4bb9cffb5df15",
       "acceptedSourceSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "cranberry-crunch",
@@ -3247,7 +3259,7 @@
       "source": "Adapted from inspiredtaste.net",
       "sourceUrl": "https://www.inspiredtaste.net/8896/pumpkin-pancakes/",
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/easy-homemade-pumpkin-pancakes.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -3262,7 +3274,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "983567216ab4057665a1d7d3b59cb2a758814935b39cfce3ebbda1784cde99c7",
       "acceptedSourceSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "easy-oreo-truffles",
@@ -3746,7 +3760,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "seafood_pan_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3756,7 +3770,8 @@
       "inputSha256": "d70ada86c837fca3a1588d47b4687e4af9f62eded2c84c6ea51358eb2e7ebaef",
       "plannedBatch": "context-screening-02",
       "assignedTo": "poultry_editor",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "garlic-butter-green-beans",
@@ -3945,7 +3960,7 @@
       "source": "Adapted from purewow.com",
       "sourceUrl": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
       "group": "tofu_legumes_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3955,7 +3970,8 @@
       "inputSha256": "6fdb84bef083fee77e46d955483a54fa51cb8d9ae87f14e5d734cf8f9f9f55b4",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "assignedTo": "coverage_check",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "general-tsos-tofu",
@@ -3964,7 +3980,7 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/general-tsos-tofu/",
       "group": "tofu_legumes_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3974,7 +3990,8 @@
       "inputSha256": "7430bc03878cb160a751799e7366e7dd0b669367af0ae128b59f8191668bb866",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "assignedTo": "coverage_check",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "glazed-carrots",
@@ -5049,7 +5066,7 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-basil-shrimp-risotto/",
       "group": "rice_mixed_mains_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/lemon-basil-shrimp-risotto.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -5062,9 +5079,10 @@
       ],
       "inputSha256": "ace4f27fa27ed22222a86580984bd9489d870ed2539a3297587806d89981df3a",
       "plannedBatch": "context-screening-03",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
     },
     {
       "slug": "lemon-garlic-broccolini",
@@ -5225,7 +5243,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5235,7 +5253,8 @@
       "inputSha256": "bcd334bb7c1adac2c6a57287ce25cc2516dd6719a972251ca9c955aa193245b8",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignedTo": "coverage_check",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "marinated-flank-steak-salad",
@@ -5370,7 +5389,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5380,7 +5399,8 @@
       "inputSha256": "e4cc6b96e1a96156ca5cbb23ed2e3f06f67a4824f0eb04bead81dfe71fe19bde",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignedTo": "coverage_check",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "miso-glazed-roasted-cauliflower",
@@ -6989,7 +7009,7 @@
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/sausage-shrimp-quinoa-skillet",
       "group": "rice_mixed_mains_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/sausage-shrimp-and-quinoa-skillet.md",
@@ -7003,9 +7023,10 @@
       ],
       "inputSha256": "329fe5e71f9694399dab1dcaa09c48dd09e0f879f25080c25324ea46ae95b3cc",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
     },
     {
       "slug": "sauteed-mushrooms-with-thyme",
@@ -7094,7 +7115,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/seafood-chorizo-tacos",
       "group": "seafood_pan_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7104,7 +7125,8 @@
       "inputSha256": "988b9811179aca1e98303248559d3020c2bde9994cbdc260efaacd6ad742c75e",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
       "assignedTo": "poultry_editor",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
@@ -7113,7 +7135,7 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/seared-scallops-with-a-corn-bacon-and-avocado-relish-3414406",
       "group": "seafood_pan_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7123,7 +7145,8 @@
       "inputSha256": "77da2044fd53103d4937c3e5b67b56a8fc6f7557deb7f79a6f4a6f1aead4e314",
       "plannedBatch": "context-screening-04",
       "assignedTo": "poultry_editor",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "seasoned-bean-sprouts",
@@ -7280,7 +7303,7 @@
       "source": "Adapted from delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/",
       "group": "seafood_pan_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
         "docs/repairs/2026-09-15/changed-files.json"
@@ -7293,7 +7316,8 @@
       "inputSha256": "17a5eb8a596f921ba5b804a03eabad9f3d767a36f1c04aa9082c5e677cf961c7",
       "plannedBatch": "baked-savory-and-breads-10",
       "assignedTo": "poultry_editor",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "sheet-pan-shrimp-fajitas",
@@ -7302,7 +7326,7 @@
       "source": "healthyfitnessmeals.com",
       "sourceUrl": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/",
       "group": "seafood_pan_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/sheet-pan-shrimp-fajitas.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7312,7 +7336,8 @@
       "inputSha256": "fe0d95c52890bd20edc03cd71253b406dfda8a3a213518691a76967725ce9ecb",
       "plannedBatch": "roast-grill-and-sear-04",
       "assignedTo": "poultry_editor",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "shrimp-and-corn-chowder",
@@ -7931,7 +7956,7 @@
       "source": "Adapted from saveur.com",
       "sourceUrl": "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
       "group": "rice_mixed_mains_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/spanish-rice-chorizo.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -7945,9 +7970,10 @@
       ],
       "inputSha256": "b89cfc607a9f52a54751490104213ddb2ea6fb800e6f20bb9d9a7aaf2adfef94",
       "plannedBatch": "stir-fry-and-pan-cooking-06",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
     },
     {
       "slug": "spatchcocked-roast-chicken",
@@ -8050,7 +8076,7 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth",
       "group": "seafood_pan_02",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8060,7 +8086,8 @@
       "inputSha256": "b4d8ec87a19af6f17dae6a2b7ab70bc551941a59cc8879a3de18e3cb99c6d34c",
       "plannedBatch": "simmer-boil-and-steam-10",
       "assignedTo": "poultry_editor",
-      "assignmentScope": "Complete author review; independent challenge and root acceptance pending"
+      "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
     },
     {
       "slug": "steel-cut-oatmeal",
@@ -8121,7 +8148,7 @@
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
       "group": "rice_mixed_mains_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/sticky-peking-meatball-rice-bowls.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -8135,9 +8162,10 @@
       ],
       "inputSha256": "23183d64d4af6c2bd824fcdcb84a890e6cb60af83658c827fb634246f964109c",
       "plannedBatch": "simmer-boil-and-steam-10",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
     },
     {
       "slug": "stovetop-macaroni-and-cheese",
@@ -8559,7 +8587,7 @@
       "source": "Adapted from Food.com",
       "sourceUrl": "http://www.food.com/recipe/the-best-belgian-waffles-63071",
       "group": "griddle_batters_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/the-best-belgian-waffles.md",
         "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md"
@@ -8575,7 +8603,9 @@
       "assignmentInputCommit": "1c4aa802d7cf9906c9231c69aaeb16b3e843a2a8",
       "assignmentInputSha256": "2638291dd92a78015f27ce83ae10ac638a2f8fa042bd3795495e30c4b618fe42",
       "acceptedSourceSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
+      "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "the-easiest-spinach-lasagna",
@@ -9760,12 +9790,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 112,
+    "production-verified": 124,
     "held": 16,
-    "proposed": 64,
+    "proposed": 75,
     "queued": 181,
-    "accepted": 12,
-    "assigned": 22,
+    "assigned": 11,
     "held-awaiting-evidence": 2
   }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "spanish-rice-chorizo",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
   "inputSha256": "b89cfc607a9f52a54751490104213ddb2ea6fb800e6f20bb9d9a7aaf2adfef94",
   "acceptedSourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8",
@@ -1290,7 +1290,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
   "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1314,5 +1314,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+  "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
 }

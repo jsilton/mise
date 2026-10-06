@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "112 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "124 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 358 recorded complete / 285 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [637ba745](https://github.com/jsilton/mise/commit/637ba74500734929ec1a2ce3b64a87eff3cb168d), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37415810570) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1156,17 +1156,21 @@
         "record": "docs/reviews/banana-egg-oat-pancakes.md",
         "acceptedSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/banana-egg-oat-pancakes.json",
         "sourceSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure actual banana mass, number of 3-inch pancakes and center doneness at the chosen heat.",
@@ -1311,11 +1315,11 @@
         "record": "docs/reviews/banana-pancakes.md",
         "acceptedSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/banana-pancakes.json",
         "sourceSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176"
       },
@@ -1324,10 +1328,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Weigh the peeled two large bananas and record mashed volume to evaluate the retained approximate 3/4 cup total without silently changing the formula.",
@@ -2275,17 +2284,21 @@
         "record": "docs/reviews/blueberry-pancakes.md",
         "acceptedSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-pancakes.json",
         "sourceSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm actual pancake count and full cooking duration with the household griddle.",
@@ -3222,11 +3235,11 @@
         "record": "docs/reviews/buttermilk-waffles.md",
         "acceptedSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/buttermilk-waffles.json",
         "sourceSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224"
       },
@@ -3235,10 +3248,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Record the iron model, actual fill amount, cycle duration and finished waffle count.",
@@ -5530,11 +5548,11 @@
         "record": "docs/reviews/chinese-sausage-fried-rice.md",
         "acceptedSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chinese-sausage-fried-rice.json",
         "sourceSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b"
       },
@@ -5543,10 +5561,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Which lap cheong product, meat type and cook-before-eating label is used?",
@@ -7286,17 +7309,21 @@
         "record": "docs/reviews/cottage-cheese-banana-oatmeal-protein-pancakes.md",
         "acceptedSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cottage-cheese-banana-oatmeal-protein-pancakes.json",
         "sourceSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Record banana edible mass, blended batter volume, blender cup and actual pancake count.",
@@ -9236,17 +9263,21 @@
         "record": "docs/reviews/easy-homemade-pumpkin-pancakes.md",
         "acceptedSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-homemade-pumpkin-pancakes.json",
         "sourceSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure finished batter volume, quarter-cup pancake count and actual time on the household pan.",
@@ -15429,11 +15460,11 @@
         "record": "docs/reviews/lemon-basil-shrimp-risotto.md",
         "acceptedSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/lemon-basil-shrimp-risotto.json",
         "sourceSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732"
       },
@@ -15442,10 +15473,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm actual main-portion yield rather than treating publisher12servings as equal to4main servings.",
@@ -22111,17 +22147,21 @@
         "record": "docs/reviews/sausage-shrimp-and-quinoa-skillet.md",
         "acceptedSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sausage-shrimp-and-quinoa-skillet.json",
         "sourceSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Which chicken sausage and frozen cooked quinoa product is used?",
@@ -25116,11 +25156,11 @@
         "record": "docs/reviews/spanish-rice-chorizo.md",
         "acceptedSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spanish-rice-chorizo.json",
         "sourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8"
       },
@@ -25129,10 +25169,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Which full route does household prefer?",
@@ -25943,17 +25988,21 @@
         "record": "docs/reviews/sticky-peking-meatball-rice-bowls.md",
         "acceptedSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sticky-peking-meatball-rice-bowls.json",
         "sourceSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Which rice cooker/manual permits this coconut-milk load and ratio, including its rest cycle?",
@@ -27544,17 +27593,21 @@
         "record": "docs/reviews/the-best-belgian-waffles.md",
         "acceptedSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/the-best-belgian-waffles.json",
         "sourceSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["637ba74500734929ec1a2ce3b64a87eff3cb168d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7",
+        "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+        "evidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-production.json"
       },
       "remainingQuestions": [
         "Record the actual iron model, manual fill amount and finished waffle count from this whole batch.",

@@ -1,0 +1,216 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+  "implementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37415810570",
+  "ci": {
+    "headSha": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
+  "rendered": [
+    {
+      "slug": "chinese-sausage-fried-rice",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "spanish-rice-chorizo",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 8
+    },
+    {
+      "slug": "sausage-shrimp-and-quinoa-skillet",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "lemon-basil-shrimp-risotto",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 9
+    },
+    {
+      "slug": "sticky-peking-meatball-rice-bowls",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "banana-egg-oat-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "banana-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "blueberry-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "buttermilk-waffles",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "cottage-cheese-banana-oatmeal-protein-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "easy-homemade-pumpkin-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 8
+    },
+    {
+      "slug": "the-best-belgian-waffles",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 8
+    }
+  ],
+  "verifiedDate": "2026-10-06T04:55:17.465Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "chinese-sausage-fried-rice",
+      "acceptedSourceSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b"
+    },
+    {
+      "slug": "spanish-rice-chorizo",
+      "acceptedSourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8"
+    },
+    {
+      "slug": "sausage-shrimp-and-quinoa-skillet",
+      "acceptedSourceSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476"
+    },
+    {
+      "slug": "lemon-basil-shrimp-risotto",
+      "acceptedSourceSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732"
+    },
+    {
+      "slug": "sticky-peking-meatball-rice-bowls",
+      "acceptedSourceSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34"
+    },
+    {
+      "slug": "banana-egg-oat-pancakes",
+      "acceptedSourceSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde"
+    },
+    {
+      "slug": "banana-pancakes",
+      "acceptedSourceSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176"
+    },
+    {
+      "slug": "blueberry-pancakes",
+      "acceptedSourceSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f"
+    },
+    {
+      "slug": "buttermilk-waffles",
+      "acceptedSourceSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224"
+    },
+    {
+      "slug": "cottage-cheese-banana-oatmeal-protein-pancakes",
+      "acceptedSourceSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16"
+    },
+    {
+      "slug": "easy-homemade-pumpkin-pancakes",
+      "acceptedSourceSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022"
+    },
+    {
+      "slug": "the-best-belgian-waffles",
+      "acceptedSourceSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 12; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}
