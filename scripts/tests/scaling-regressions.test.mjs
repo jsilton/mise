@@ -401,6 +401,25 @@ for (const row of confirmed) {
         for (const factor of factors) {
           assert.equal(numeric(scaleIngredient(current, factor).match(number)[0]), 2 * factor);
         }
+      } else if (row.slug === 'super-lemony-olive-oil-cake' && row.caseId === 63) {
+        // Preserve the original compound parser input and all numeric oracles below.
+        // The authored formula counts whole lemons and uses all their zest and juice.
+        assert.equal(data.formula?.version, 1);
+        const lemon = data.formula.components
+          .find((c) => c.id === 'cake')
+          .ingredients.find((i) => i.id === 'lemon');
+        assert.equal(lemon.name, 'large lemon');
+        assert.equal(lemon.plural, 'large lemons');
+        assert.deepEqual(lemon.quantity, { amount: 2, unit: 'count' });
+        assert.deepEqual(lemon.uses, [{ step: 'flavor', share: 1 }]);
+        assert.equal(lemon.preparation, 'wash; use all zest and juice');
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(lemon)));
+        for (const factor of factors) {
+          assert.equal(
+            numeric(formatFormulaIngredient(lemon, factor).match(number)[0]),
+            2 * factor
+          );
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

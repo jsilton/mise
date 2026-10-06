@@ -1,0 +1,1569 @@
+{
+  "slug": "made-in-the-pan-chocolate-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "67e71b819d251013e0cff525b501a096e00563d4cfcf1b6cdbd592376033d39a",
+  "acceptedSourceSha256": "219e5ae78da737dee0cdba95c7d3049ec51a826680e8fc0ea83e33098813586b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "28–33 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "38–43 min, plus cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "9",
+      "after": "9 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/4 cups All-Purpose Flour",
+        "1 cup Granulated Sugar",
+        "1/3 cup Unsweetened Cocoa Powder",
+        "3/4 tsp Baking Soda",
+        "1/2 tsp Sea Salt",
+        "1/3 cup Canola or Avocado Oil",
+        "1 tsp Pure Vanilla Extract",
+        "1 tsp Apple Cider Vinegar for richness",
+        "1 cup Cold Water",
+        "2 tbsp Semisweet Chocolate Chips"
+      ],
+      "after": [
+        "--- Cake ---",
+        "1 1/4 cups all-purpose flour",
+        "1 cup granulated sugar",
+        "1/3 cup unsweetened cocoa powder",
+        "3/4 tsp baking soda",
+        "1/2 tsp sea salt",
+        "1/3 cup canola or avocado oil",
+        "1 tsp pure vanilla extract",
+        "1 tsp apple cider vinegar",
+        "1 cup water, cold",
+        "2 tbsp semisweet chocolate chips",
+        "--- Optional finish ---",
+        "confectioners’ sugar, a light dusting after cooling, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 400,
+        "protein": 4,
+        "carbs": 43,
+        "fat": 26,
+        "fiber": 4,
+        "sugar": 24,
+        "sodium": 700
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 9,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Cake",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "unsweetened cocoa powder",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "canola or avocado oil",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wells",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wells",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "apple cider vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wells",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cold",
+                "role": "cooking-water"
+              },
+              {
+                "id": "chips",
+                "key": "chips",
+                "name": "semisweet chocolate chips",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "serving",
+            "name": "Optional finish",
+            "ingredients": [
+              {
+                "id": "powdered",
+                "key": "powdered",
+                "name": "confectioners’ sugar",
+                "allowance": "a light dusting after cooling",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "dry",
+            "title": "Prepare and mix dry ingredients",
+            "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan."
+          },
+          {
+            "id": "wells",
+            "title": "Add the oil and flavorings",
+            "text": "Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one, vanilla in another and vinegar in the third."
+          },
+          {
+            "id": "mix",
+            "title": "Mix the batter",
+            "text": "Pour {{ingredients}} over everything. Stir slowly with a fork or small whisk, mashing lumps and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread evenly."
+          },
+          {
+            "id": "top",
+            "title": "Add the chocolate",
+            "text": "Sprinkle {{ingredients}} over the batter. Wipe batter off the pan rim with a damp paper towel."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into the center should come out mostly clean with a few cake crumbs, rather than coated in wet batter. Pan material, depth and oven loads can change the time."
+          },
+          {
+            "id": "finish",
+            "title": "Cool and finish",
+            "text": "Let the cake cool before cutting into portions. Dust with {{ingredients}} if desired; it is optional."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Mixing a complete egg-free batter in the baking pan.",
+        "outcome": "An evenly mixed chocolate cake whose center has cake crumbs rather than raw batter.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use the original 8×8-inch pan for the original batch; scaling requires proportional pan area and an endpoint check, not a longer clock alone. Nine portions are the original-batch planning yield; the original source allows 9–12 cuts for that batch.",
+          "Do not taste raw batter. Wash hands and tools after handling raw flour or eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No dry flour or cocoa pockets remain at the pan corners.",
+            "why": "The pan replaces a mixing bowl, so its corners need deliberate scraping."
+          },
+          {
+            "step": 5,
+            "cue": "The center tester carries a few cake crumbs without wet batter.",
+            "why": "Chocolate color alone cannot show whether the center has baked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dry pockets remain in the baked corners.",
+            "cause": "Batter was not scraped and mixed across the entire dish.",
+            "fix": "Before baking, scrape the bottom and all corners and mash remaining dry lumps into the full listed liquid."
+          },
+          {
+            "problem": "Center is still wet at the end of the range.",
+            "cause": "Pan depth, material or oven conditions differ.",
+            "fix": "Continue baking and recheck the center; do not cut a wet-batter cake merely because the timer ended."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Apple cider vinegar",
+            "alternative": "Same listed amount of white vinegar",
+            "effect": "A complete vinegar replacement, with the other batter quantities unchanged."
+          },
+          {
+            "ingredient": "Semisweet chocolate chips",
+            "alternative": "Omit, or use the same listed amount of vegan chips",
+            "effect": "The chocolate is an optional topping in the original recipe; check chip ingredients for a vegan choice."
+          }
+        ],
+        "storage": "Cool before covering. Follow the storage requirements of any separately added perishable topping.",
+        "timing": "Ten minutes of preparation plus 28–33 minutes of baking gives a 38–43-minute subtotal. Preheating starts during preparation; any heating still needed before loading extends that subtotal. Cooling before cutting is additional and has no measured duration here.",
+        "sources": [
+          {
+            "title": "NYT — Made-In-The-Pan Chocolate Cake",
+            "url": "https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake"
+          },
+          {
+            "title": "FDA — handling raw flour",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis cake is pure American efficiency - everything mixes right in the pan, no bowls to clean. The trick is understanding what each ingredient does: vinegar reacts with baking soda to create lift and crumb structure, cocoa powder needs cold water to bloom properly, and the whole formula relies on mixing order so ingredients emulsify correctly into a smooth, lump-free batter.\n\n## Directions\n\n1.  **The Dry Mix:** Preheat oven to 325°F. In an 8x8-inch square baking dish, whisk the flour, sugar, cocoa, baking soda, and salt until uniform. Use your fingers to crush any cocoa lumps.\n2.  **The Wells:** Make three wells in the dry mix. Pour the oil into one, the vanilla into the second, and the vinegar into the third.\n3.  **Combine:** Pour the cold water over everything. Using a fork or small whisk, stir in circular motions until a smooth batter forms. Scrape the corners of the pan carefully.\n4.  **Bake:** Sprinkle the chocolate chips over the top. Wipe the edges of the dish with a damp towel for a clean \"Kitchen Standard\" look.\n5.  **Cook:** Bake for 28-33 minutes until a toothpick comes out with just a few moist crumbs.\n6.  **Finish:** Dust with confectioners' sugar once cool for the mandatory **High Note** visual.\n",
+    "after": "\n## Chef's Note\n\nMixing directly in the pan works only if the corners and bottom are scraped thoroughly. The vinegar and baking soda provide leavening in this egg-free batter; cold water is retained here, but it is not required to “bloom” the cocoa. Use the full listed oil and sugar, and judge the center with a toothpick rather than the color of the chocolate surface.\n\n## Directions\n\n1. **Prepare and mix dry ingredients:** Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk all-purpose flour, granulated sugar, unsweetened cocoa powder, baking soda, and sea salt directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan.\n2. **Add the oil and flavorings:** Make three wells in the dry mixture and divide canola or avocado oil, pure vanilla extract, and apple cider vinegar between them: oil in one, vanilla in another and vinegar in the third.\n3. **Mix the batter:** Pour water over everything. Stir slowly with a fork or small whisk, mashing lumps and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread evenly.\n4. **Add the chocolate:** Sprinkle semisweet chocolate chips over the batter. Wipe batter off the pan rim with a damp paper towel.\n5. **Bake:** Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into the center should come out mostly clean with a few cake crumbs, rather than coated in wet batter. Pan material, depth and oven loads can change the time.\n6. **Cool and finish:** Let the cake cool before cutting into portions. Dust with confectioners’ sugar (if using) if desired; it is optional.\n\n## Cooking Notes\n\n### Vinegar and chocolate options\n\nUse the same listed amount of white vinegar instead of apple cider vinegar if desired. Keep the full water, oil, flour and leavening amounts. The chocolate topping may be omitted, or the same listed amount of vegan chocolate chips may replace the semisweet chips. A vegan version requires checking the selected chips; the powdered-sugar finish is optional.\n\nFor the original batch, the source uses ½ tsp kosher salt rather than the listed ½ tsp sea salt, but it does not identify a salt density or a fine-salt equivalent. Those spoon volumes are not a demonstrated conversion; keep the listed sea salt for this version.\n"
+  },
+  "findings": [
+    {
+      "id": "CQT07-M01",
+      "title": "CQT07-M01",
+      "rationale": "Restore genuinely unmeasured optional powdered sugar and white-vinegar/optional-chip choices supported by native/b7/045. Preserve all current main doses, avocado choice, sea salt, cold water and three-well sequence. Remove false cold-water blooming and mandatory finish claims; restore actual crumb endpoint, proportional pan guidance and cooling in elapsed planning. Bulk d3300d7e changed source variants and nine-count but no later accepted variant removal was established.",
+      "confidence": "high for saved instructions and missing allowance; moderate for pan scaling and elapsed plan",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "d3300d7ef6968c6bdf4de9904e951d8c3e294cc0",
+        "https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Saved complete primary-attributed recipe establishes doses, pan and endpoint. NYT web access failed, so no current publisher certification. FDA supports only raw-flour handling; ratio/pan/elapsed guidance is editorial inference, not a tested yield.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "content",
+        "learning",
+        "totalTime",
+        "cookTime",
+        "servings"
+      ],
+      "questions": [
+        "Does the household prefer the current sea salt/avocado/mandatory-chip adaptation? No explicit decision found. What is the measured cooling time and preferred cut count? Source kosher salt brand/density is unresolved."
+      ]
+    },
+    {
+      "id": "CQT07-META",
+      "title": "CQT07-META",
+      "rationale": "Omit unsupported bulk country/region-origin and unverified per-serving nutrition, preserving exact cuisine/style, title, rating and source attribution. Recipe-specific learning and authored quantities allocate the complete measured recipe plus supported genuine allowances. Retain current numerical planning yields, now labeled as portions/cupcakes rather than a new measured yield.",
+      "confidence": "high for metadata provenance; planning counts unmeasured",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "The retained native and earlier Git cooking text do not establish a country of origin. The current country and numerical nutrition are later bulk metadata; retain the recipe’s cuisine/style and NYT attribution without inventing geographic or nutrition precision. Source salt and cut-count disagreements are addressed separately. No kitchen testing occurred.",
+      "exactBeforeAfterReferences": ["origin", "nutrition", "learning", "formula", "servings"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-SOURCE-DETAILS-AND-COOKING-PROSE",
+      "title": "Preserve source details and clear cooking instructions",
+      "rationale": "The user asks for clear cooking prose rather than audit or shelf-life-test commentary. These replacements keep every existing storage clock, cold temperature, freezing option and refrigerator thaw, while removing commentary about invented/measured keeping life. Private records must retain the conservative category application and unknown frosting/product life; no new shelf duration is proposed.",
+      "confidence": "High source existence and semantic preservation; formula/product outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific useful prose and truthful untested/private evidence; do not add procedural review panels."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "General perishable cold handling supports the conservative frosting choice, not validation of a specific cake/frosting shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Made-In-The-Pan%20Chocolate%20Cake.html",
+    "introductionScope": "Actual first cooking HTML introduction before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "CQT07-M01",
+      "rationale": "Restore genuinely unmeasured optional powdered sugar and white-vinegar/optional-chip choices supported by native/b7/045. Preserve all current main doses, avocado choice, sea salt, cold water and three-well sequence. Remove false cold-water blooming and mandatory finish claims; restore actual crumb endpoint, proportional pan guidance and cooling in elapsed planning. Bulk d3300d7e changed source variants and nine-count but no later accepted variant removal was established.",
+      "applicability": "Saved complete primary-attributed recipe establishes doses, pan and endpoint. NYT web access failed, so no current publisher certification. FDA supports only raw-flour handling; ratio/pan/elapsed guidance is editorial inference, not a tested yield."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 1/4 cups All-Purpose Flour",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "All dry flour"
+      },
+      {
+        "index": 1,
+        "text": "1 cup Granulated Sugar",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "All batter sugar"
+      },
+      {
+        "index": 2,
+        "text": "1/3 cup Unsweetened Cocoa Powder",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "All cocoa"
+      },
+      {
+        "index": 3,
+        "text": "3/4 tsp Baking Soda",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "All soda"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Sea Salt",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "All sea salt"
+      },
+      {
+        "index": 5,
+        "text": "1/3 cup Canola or Avocado Oil",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Oil well"
+      },
+      {
+        "index": 6,
+        "text": "1 tsp Pure Vanilla Extract",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Vanilla well"
+      },
+      {
+        "index": 7,
+        "text": "1 tsp Apple Cider Vinegar for richness",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Vinegar well"
+      },
+      {
+        "index": 8,
+        "text": "1 cup Cold Water",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Full cold water"
+      },
+      {
+        "index": 9,
+        "text": "2 tbsp Semisweet Chocolate Chips",
+        "source": "exact frozen current ingredient row",
+        "destinations": 4,
+        "stateAndAllocation": "All chips sprinkled"
+      }
+    ],
+    "unlistedBefore": [
+      {
+        "name": "confectioners’ sugar",
+        "amount": "unmeasured",
+        "step": 6
+      }
+    ],
+    "proposed": [
+      {
+        "id": "cake.flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.cocoa",
+        "name": "unsweetened cocoa powder",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.oil",
+        "name": "canola or avocado oil",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wells",
+            "share": 1,
+            "text": "Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one, vanilla in another and vinegar in the third."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wells",
+            "share": 1,
+            "text": "Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one, vanilla in another and vinegar in the third."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.vinegar",
+        "name": "apple cider vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wells",
+            "share": 1,
+            "text": "Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one, vanilla in another and vinegar in the third."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.water",
+        "name": "water",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "cold",
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Pour {{ingredients}} over everything. Stir slowly with a fork or small whisk, mashing lumps and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread evenly."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.chips",
+        "name": "semisweet chocolate chips",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "top",
+            "share": 1,
+            "text": "Sprinkle {{ingredients}} over the batter. Wipe batter off the pan rim with a damp paper towel."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "serving.powdered",
+        "name": "confectioners’ sugar",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "a light dusting after cooling",
+        "state": "",
+        "optional": true,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1,
+            "text": "Let the cake cool before cutting into portions. Dust with {{ingredients}} if desired; it is optional."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "dry",
+      "title": "Prepare and mix dry ingredients",
+      "text": "Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan.",
+      "generatedText": "1. **Prepare and mix dry ingredients:** Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk all-purpose flour, granulated sugar, unsweetened cocoa powder, baking soda, and sea salt directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan.",
+      "dependsOn": [],
+      "assigned": ["cake.flour", "cake.sugar", "cake.cocoa", "cake.soda", "cake.salt"]
+    },
+    {
+      "index": 2,
+      "id": "wells",
+      "title": "Add the oil and flavorings",
+      "text": "Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one, vanilla in another and vinegar in the third.",
+      "generatedText": "2. **Add the oil and flavorings:** Make three wells in the dry mixture and divide canola or avocado oil, pure vanilla extract, and apple cider vinegar between them: oil in one, vanilla in another and vinegar in the third.",
+      "dependsOn": ["dry"],
+      "assigned": ["cake.oil", "cake.vanilla", "cake.vinegar"]
+    },
+    {
+      "index": 3,
+      "id": "mix",
+      "title": "Mix the batter",
+      "text": "Pour {{ingredients}} over everything. Stir slowly with a fork or small whisk, mashing lumps and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread evenly.",
+      "generatedText": "3. **Mix the batter:** Pour water over everything. Stir slowly with a fork or small whisk, mashing lumps and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread evenly.",
+      "dependsOn": ["wells"],
+      "assigned": ["cake.water"]
+    },
+    {
+      "index": 4,
+      "id": "top",
+      "title": "Add the chocolate",
+      "text": "Sprinkle {{ingredients}} over the batter. Wipe batter off the pan rim with a damp paper towel.",
+      "generatedText": "4. **Add the chocolate:** Sprinkle semisweet chocolate chips over the batter. Wipe batter off the pan rim with a damp paper towel.",
+      "dependsOn": ["mix"],
+      "assigned": ["cake.chips"]
+    },
+    {
+      "index": 5,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into the center should come out mostly clean with a few cake crumbs, rather than coated in wet batter. Pan material, depth and oven loads can change the time.",
+      "generatedText": "5. **Bake:** Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into the center should come out mostly clean with a few cake crumbs, rather than coated in wet batter. Pan material, depth and oven loads can change the time.",
+      "dependsOn": ["top"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "finish",
+      "title": "Cool and finish",
+      "text": "Let the cake cool before cutting into portions. Dust with {{ingredients}} if desired; it is optional.",
+      "generatedText": "6. **Cool and finish:** Let the cake cool before cutting into portions. Dust with confectioners’ sugar (if using) if desired; it is optional.",
+      "dependsOn": ["bake"],
+      "assigned": ["serving.powdered"]
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Apple cider vinegar",
+        "alternative": "Same listed amount of white vinegar",
+        "effect": "A complete vinegar replacement, with the other batter quantities unchanged."
+      },
+      {
+        "ingredient": "Semisweet chocolate chips",
+        "alternative": "Omit, or use the same listed amount of vegan chips",
+        "effect": "The chocolate is an optional topping in the original recipe; check chip ingredients for a vegan choice."
+      }
+    ],
+    "completeCookingOptions": "### Vinegar and chocolate options\n\nUse the same listed amount of white vinegar instead of apple cider vinegar if desired. Keep the full water, oil, flour and leavening amounts. The chocolate topping may be omitted, or the same listed amount of vegan chocolate chips may replace the semisweet chips. A vegan version requires checking the selected chips; the powdered-sugar finish is optional.\n\nFor the original batch, the source uses ½ tsp kosher salt rather than the listed ½ tsp sea salt, but it does not identify a salt density or a fine-salt equivalent. Those spoon volumes are not a demonstrated conversion; keep the listed sea salt for this version.",
+    "scaling": "Every main formula quantity/equivalent follows the ingredient control. Explicit original-batch alternate quantities are separate entire replacements and scale proportionally with that batch; time/pan dimensions never multiply. Options with unspecified original amounts remain unresolved rather than receiving guessed quantities.",
+    "allMainDestinations": [
+      {
+        "id": "cake.flour",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.sugar",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.cocoa",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.soda",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.salt",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.oil",
+        "destinations": ["wells"]
+      },
+      {
+        "id": "cake.vanilla",
+        "destinations": ["wells"]
+      },
+      {
+        "id": "cake.vinegar",
+        "destinations": ["wells"]
+      },
+      {
+        "id": "cake.water",
+        "destinations": ["mix"]
+      },
+      {
+        "id": "cake.chips",
+        "destinations": ["top"]
+      },
+      {
+        "id": "serving.powdered",
+        "destinations": ["finish"]
+      }
+    ],
+    "noSourceQuantityImportedIntoUnrelatedMain": true,
+    "completeBranches": [
+      {
+        "name": "White-vinegar replacement",
+        "replace": [
+          {
+            "id": "cake.vinegar",
+            "name": "white vinegar",
+            "amount": 1,
+            "unit": "tsp",
+            "destination": "wells"
+          }
+        ],
+        "scope": "All other complete main entries unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["mix"]
+          },
+          {
+            "id": "cake.chips",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["top"]
+          },
+          {
+            "id": "serving.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooling",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 0.25,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 0.5,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 1,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 1.5,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 2,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 3,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "white vinegar",
+                "amount": 1,
+                "unit": "tsp",
+                "destination": "wells",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Optional chip topping",
+        "replace": [
+          {
+            "id": "cake.chips",
+            "name": "vegan chips",
+            "amount": 2,
+            "unit": "tbsp",
+            "destination": "top"
+          }
+        ],
+        "scope": "Same full main, or omit chip entry. Vegan status depends on chip label; powdered finish optional.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.vinegar",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["mix"]
+          },
+          {
+            "id": "serving.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooling",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 0.5,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 4,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 6,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.chips",
+                "name": "vegan chips",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "top",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Exact saved salt reference",
+        "replace": [
+          {
+            "id": "cake.salt",
+            "name": "kosher salt",
+            "amount": 0.5,
+            "unit": "tsp",
+            "destination": "dry"
+          }
+        ],
+        "scope": "Saved measured source choice, not equal-density conversion to current sea salt; product density unresolved.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.vinegar",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wells"]
+          },
+          {
+            "id": "cake.water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["mix"]
+          },
+          {
+            "id": "cake.chips",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["top"]
+          },
+          {
+            "id": "serving.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooling",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 0.125,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 0.25,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 0.5,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 0.75,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 1,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 1.5,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.salt",
+                "name": "kosher salt",
+                "amount": 0.5,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream"
+    ],
+    "scope": "Actual meal search found no incoming linked meals for these six. Generic pairsWith metadata retained without meal certification. RedVelvet linked frosting is a separate recipe, not whole-reviewed here."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Does the household prefer the current sea salt/avocado/mandatory-chip adaptation? No explicit decision found. What is the measured cooling time and preferred cut count? Source kosher salt brand/density is unresolved.",
+    "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

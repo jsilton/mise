@@ -1,0 +1,1525 @@
+{
+  "slug": "the-moistest-chocolate-mug-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "3bd3bbedd108627d7f18b6d504d19e18345e4396e18f184671a29cd4a506bd6d",
+  "acceptedSourceSha256": "6278c35ec3b4cf009d50e7833b25a548d3b1b24888156374588efcf5da1e4238",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["steam"],
+      "after": ["mix"]
+    },
+    {
+      "field": "cookTime",
+      "before": "1 min",
+      "after": "70 sec at 950 W; adjust to the microwave"
+    },
+    {
+      "field": "totalTime",
+      "before": "2 min",
+      "after": "About 3 min, plus any additional heating or cooling"
+    },
+    {
+      "field": "servings",
+      "before": "1",
+      "after": "1 portion"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/4 cup All-Purpose Flour",
+        "2 tbsp Unsweetened Cocoa Powder",
+        "2 tbsp Granulated Sugar",
+        "1/4 tsp Baking Powder",
+        "1/4 cup + 1 tbsp Milk",
+        "2 tbsp Vegetable Oil",
+        "1 tbsp chocolate-hazelnut spread",
+        "Pinch of Sea Salt"
+      ],
+      "after": [
+        "--- Mug-cake batter ---",
+        "1/4 cup all-purpose flour",
+        "2 tbsp unsweetened cocoa powder",
+        "2 tbsp granulated sugar",
+        "1/4 tsp baking powder",
+        "5 tbsp milk, the original ¼ cup plus 1 tbsp total",
+        "2 tbsp vegetable oil",
+        "1 tbsp chocolate-hazelnut spread",
+        "sea salt, a pinch",
+        "--- Optional extra sweetness and finish ---",
+        "1 tbsp additional granulated sugar, only for the sweeter option, optional",
+        "powdered sugar, a light dusting after cooking, if desired, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 815,
+        "protein": 15.5,
+        "carbs": 127,
+        "fat": 30,
+        "fiber": 7,
+        "sugar": 25.5,
+        "sodium": 2820
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Mug-cake batter",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "unsweetened cocoa powder",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "milk",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "preparation": "the original ¼ cup plus 1 tbsp total"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spread",
+                "key": "spread",
+                "name": "chocolate-hazelnut spread",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "center",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "options",
+            "name": "Optional extra sweetness and finish",
+            "ingredients": [
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "additional granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "only for the sweeter option"
+              },
+              {
+                "id": "powdered",
+                "key": "powdered",
+                "name": "powdered sugar",
+                "allowance": "a light dusting after cooking, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "dry",
+            "title": "Mix dry ingredients",
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          },
+          {
+            "id": "wet",
+            "title": "Add milk and oil",
+            "text": "Whisk in {{ingredients}} with a fork until no flour or cocoa pockets remain, including at the bottom of the mug. The listed milk total is 5 tbsp in the original batch, exactly ¼ cup plus 1 tbsp."
+          },
+          {
+            "id": "center",
+            "title": "Add the center",
+            "text": "Drop {{ingredients}} in the center on top of the batter. Do not stir it through or push it down."
+          },
+          {
+            "id": "cook",
+            "title": "Microwave",
+            "text": "Microwave one original-size mug on high for the source reference of 70 seconds at 950 watts. Different power, mug shape or batter volume needs adjustment; this is not a universal finishing clock. If using a paper towel beneath the mug to catch drips, first confirm that the microwave instructions permit it. Check that the cake around the spread has set rather than remaining liquid batter; do not confuse melted spread with uncooked batter. Continue cooking as needed according to the appliance instructions. For multiple cakes, divide into individual original-size mugs and cook separately rather than placing doubled batter in this mug."
+          },
+          {
+            "id": "stand",
+            "title": "Stand",
+            "text": "Remove carefully; the mug can be very hot. Let stand for the listed one minute, then check that the cake is cooked through and cool enough to eat. The standing minute is additional to the heating time. Smaller scaled quantities also change heating behavior; they do not inherit the original mug’s clock."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Dust with {{ingredients}} if desired. Eat freshly made; further cooling may be needed before serving."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Relating a single-mug heating reference to actual microwave power and cake doneness.",
+        "outcome": "A cooked flour cake surrounding its melted chocolate center, with no dry pockets or liquid batter.",
+        "techniques": ["temperature", "leavening"],
+        "before": [
+          "Use a microwave-safe mug with enough headspace; the original single-cake reference uses about 14 fl oz. Microwave capacity is not a request to fill the mug to its rim.",
+          "The 70-second reference is for 950 W/high power. Two or more portions need individual mugs and separate heating; small scaled quantities also need their own checks.",
+          "Do not taste raw batter. Wash hands and tools after handling raw flour or eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "No dry flour or cocoa pockets at the mug bottom.",
+            "why": "A narrow mug makes it easy to mix the top while leaving unmixed powder below."
+          },
+          {
+            "step": 4,
+            "cue": "Cake around the melted center is set rather than liquid batter.",
+            "why": "The spread can remain melted even when the surrounding cake is cooked; the reference time is appliance-specific."
+          },
+          {
+            "step": 5,
+            "cue": "One-minute stand, then a cooked-through cake cool enough to eat.",
+            "why": "The mug and filling can remain hot after microwave heating, and the stand extends elapsed time."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Center looks liquid after heating.",
+            "cause": "Melted spread may be confused with uncooked flour batter, or heating may be insufficient.",
+            "fix": "Check the surrounding cake; continue heating as needed for the actual appliance if batter remains liquid. Do not taste raw batter to judge it."
+          },
+          {
+            "problem": "Cake is dry or rubbery.",
+            "cause": "The original reference overcooked this mug/power/volume.",
+            "fix": "On the next batch adjust heating for that appliance and mug, checking the cake rather than treating 70 seconds as a universal clock. Do not dilute the full formula to correct an overcooking issue."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chocolate-hazelnut spread",
+            "alternative": "Same listed amount of mini chocolate chips, or omit the center",
+            "effect": "Exclusive source center choices; keep the full remaining batter and adjust actual microwave checks."
+          },
+          {
+            "ingredient": "Sea-salt pinch",
+            "alternative": "⅛ tsp kosher salt in the original batch, proportionally scaled",
+            "effect": "A distinct measured publisher alternative, not an equal-volume sea-salt conversion."
+          }
+        ],
+        "storage": "Best eaten freshly made after the stand and sufficient cooling. No leftover quality or freezer duration is supplied. Follow product instructions for milk and any unheated perishable additions; do not keep unused milk batter out for prolonged periods.",
+        "timing": "One minute of preparation plus the 70-second source heating reference and the existing one-minute stand totals 190 seconds, approximately 3 minutes 10 seconds. Additional microwave heating and cooling extend that plan. The publisher’s two-minute label excludes this version’s separate one-minute stand.",
+        "sources": [
+          {
+            "title": "Table for Two / Julie Chiou — wattage, mug capacity and complete options",
+            "url": "https://www.tablefortwoblog.com/the-moistest-chocolate-mug-cake/"
+          },
+          {
+            "title": "FDA — cook flour batter and avoid raw tasting",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMug cakes are a modern microwave technique, but this one works because it respects the physics: oil keeps the crumb moist, cocoa powder blooms with milk, and a hazelnut center stays molten while the surrounding cake sets. Seventy seconds is precise because microwave power varies - you're aiming for a cake that rises high, sinks slightly, then holds that barely-set center.\n\n## Directions\n\n1.  **Dry Mix:** In a large (14 oz) microwave-safe mug, whisk flour, cocoa, sugar, baking powder, and salt.\n2.  **Emulsify:** Add the milk and oil. Whisk with a fork until no flour pockets remain and the batter is glossy.\n3.  **The Core:** Drop the hazelnut spread into the center of the batter. **Do not push it down.**\n4.  **Cook:** Microwave on **High for 70 seconds**. (The cake will riseVertical and then sink slightly - this is the Texture setting).\n5.  **The Finish:** Let stand for 1 minute before eating. This allows the crumb to set and the center to become molten.\n6.  **Serve:** Dust with a tiny bit of powdered sugar if feeling fancy.\n",
+    "after": "\n## Chef's Note\n\nThe chocolate-hazelnut spread is dropped onto the center without stirring, while the surrounding flour batter must cook through. The publisher’s 70-second reference is for a 950-watt microwave, and another microwave took 90 seconds. Mug shape and batter volume also matter, so use the reference with the actual appliance instructions and check the cake around the melted center.\n\n## Directions\n\n1. **Mix dry ingredients:** Whisk all-purpose flour, unsweetened cocoa powder, granulated sugar, baking powder, sea salt, and additional granulated sugar (if using) in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising.\n2. **Add milk and oil:** Whisk in milk and vegetable oil with a fork until no flour or cocoa pockets remain, including at the bottom of the mug. The listed milk total is 5 tbsp in the original batch, exactly ¼ cup plus 1 tbsp.\n3. **Add the center:** Drop chocolate-hazelnut spread in the center on top of the batter. Do not stir it through or push it down.\n4. **Microwave:** Microwave one original-size mug on high for the source reference of 70 seconds at 950 watts. Different power, mug shape or batter volume needs adjustment; this is not a universal finishing clock. If using a paper towel beneath the mug to catch drips, first confirm that the microwave instructions permit it. Check that the cake around the spread has set rather than remaining liquid batter; do not confuse melted spread with uncooked batter. Continue cooking as needed according to the appliance instructions. For multiple cakes, divide into individual original-size mugs and cook separately rather than placing doubled batter in this mug.\n5. **Stand:** Remove carefully; the mug can be very hot. Let stand for the listed one minute, then check that the cake is cooked through and cool enough to eat. The standing minute is additional to the heating time. Smaller scaled quantities also change heating behavior; they do not inherit the original mug’s clock.\n6. **Serve:** Dust with powdered sugar (if using) if desired. Eat freshly made; further cooling may be needed before serving.\n\n## Cooking Notes\n\n### Center and salt options\n\nKeep the full listed chocolate-hazelnut center for the main version. The same listed amount of mini chocolate chips may replace it, or the center may be omitted; the rest of the full batter stays unchanged. Other spreads are named possibilities without a measured heating plan here.\n\nThe sweeter option uses the separate optional sugar amount in the dry mixture. This version uses a pinch of sea salt. The publisher specifies ⅛ tsp kosher salt for its original single-cake batch; scale that measured source alternative proportionally if selected INSTEAD of the sea-salt pinch, not in addition. Do not assume the sea-salt pinch and kosher-salt spoon volume are equal.\n\nThe cake is written for microwave cooking. No oven temperature or time is supplied. Self-rising flour is not a recommended replacement for the listed flour and powder. The original bowl-mixing route is also available: whisk all dry ingredients in a bowl, whisk in all milk and oil, pour into the mug, add the center, then use the same microwave checks.\n"
+  },
+  "findings": [
+    {
+      "id": "CQT07-G01",
+      "title": "CQT07-G01",
+      "rationale": "Keep full current rich egg-free main, current sea-salt pinch and one-minute stand. Restore optional extra1tbsp sugar and source exclusive center choices; expose missing powdered finish. Represent exact mixed milk total5tbsp=5/16cup without invented weight. Replace universal70seconds/barelyset/microwavephysics claims with primary950W reference and surrounding-batter cooking checks, separately preserving publisher90second experience and capacity/model uncertainty. Native notes empty; actual publisher supplies missing power notes. Classify the actual mixing operation instead of unsupported steam method.",
+      "confidence": "high for publisher reference/options and arithmetic; moderate for practical endpoint/model guidance",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "f6128211ccdbc8926119618119f0e93b7cbd911b",
+        "https://www.tablefortwoblog.com/the-moistest-chocolate-mug-cake/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Actual publisher establishes950W/70seconds and different appliance90seconds, source⅛tspkosher rather than currentsea pinch, optionalextra sugar/chip route,14ozmug and no oven plan. FDA establishes flour must be cooked and no raw tasting; it does not validate a universal sensory endpoint or microbial kill time for this cake. All apparatus/scaled heating remains untested.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "content",
+        "learning",
+        "totalTime",
+        "cookTime",
+        "cookingMethods",
+        "servings"
+      ],
+      "questions": [
+        "What are the actual microwave model/power and mug dimensions? No measured microbial endpoint or smaller/larger-volume clock established. Is the salt change deliberate? Other spread amounts/heating remain unprovided."
+      ]
+    },
+    {
+      "id": "CQT07-META",
+      "title": "CQT07-META",
+      "rationale": "Omit unsupported bulk country/region-origin and unverified per-serving nutrition, preserving exact cuisine/style, title, rating and source attribution. Recipe-specific learning and authored quantities allocate the complete measured recipe plus supported genuine allowances. Retain current numerical planning yields, now labeled as portions/cupcakes rather than a new measured yield.",
+      "confidence": "high for metadata provenance; planning counts unmeasured",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "The exact saved Table for Two recipe and current primary page support the mug formula and appliance-specific reference clocks, not the repository country or numerical nutrition estimate. Retain source credit and American style without inferring birthplace or validated nutrition. No kitchen testing occurred.",
+      "exactBeforeAfterReferences": ["origin", "nutrition", "learning", "formula", "servings"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/The%20Moistest%20Chocolate%20Mug%20Cake.html",
+    "introductionScope": "Actual first cooking HTML introduction before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "CQT07-G01",
+      "rationale": "Keep full current rich egg-free main, current sea-salt pinch and one-minute stand. Restore optional extra1tbsp sugar and source exclusive center choices; expose missing powdered finish. Represent exact mixed milk total5tbsp=5/16cup without invented weight. Replace universal70seconds/barelyset/microwavephysics claims with primary950W reference and surrounding-batter cooking checks, separately preserving publisher90second experience and capacity/model uncertainty. Native notes empty; actual publisher supplies missing power notes. Classify the actual mixing operation instead of unsupported steam method.",
+      "applicability": "Actual publisher establishes950W/70seconds and different appliance90seconds, source⅛tspkosher rather than currentsea pinch, optionalextra sugar/chip route,14ozmug and no oven plan. FDA establishes flour must be cooked and no raw tasting; it does not validate a universal sensory endpoint or microbial kill time for this cake. All apparatus/scaled heating remains untested."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1/4 cup All-Purpose Flour",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Flour dry"
+      },
+      {
+        "index": 1,
+        "text": "2 tbsp Unsweetened Cocoa Powder",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Cocoa dry"
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Granulated Sugar",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Sugar dry"
+      },
+      {
+        "index": 3,
+        "text": "1/4 tsp Baking Powder",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Powder dry"
+      },
+      {
+        "index": 4,
+        "text": "1/4 cup + 1 tbsp Milk",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Both milk measures wet"
+      },
+      {
+        "index": 5,
+        "text": "2 tbsp Vegetable Oil",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Oil wet"
+      },
+      {
+        "index": 6,
+        "text": "1 tbsp chocolate-hazelnut spread",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Full center"
+      },
+      {
+        "index": 7,
+        "text": "Pinch of Sea Salt",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Sea salt pinch"
+      }
+    ],
+    "unlistedBefore": [
+      {
+        "name": "powdered sugar",
+        "amount": "tiny bit unmeasured",
+        "step": 6
+      }
+    ],
+    "proposed": [
+      {
+        "id": "cake.flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.cocoa",
+        "name": "unsweetened cocoa powder",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.milk",
+        "name": "milk",
+        "quantity": {
+          "amount": 5,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "the original ¼ cup plus 1 tbsp total",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk in {{ingredients}} with a fork until no flour or cocoa pockets remain, including at the bottom of the mug. The listed milk total is 5 tbsp in the original batch, exactly ¼ cup plus 1 tbsp."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.oil",
+        "name": "vegetable oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk in {{ingredients}} with a fork until no flour or cocoa pockets remain, including at the bottom of the mug. The listed milk total is 5 tbsp in the original batch, exactly ¼ cup plus 1 tbsp."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.spread",
+        "name": "chocolate-hazelnut spread",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "center",
+            "share": 1,
+            "text": "Drop {{ingredients}} in the center on top of the batter. Do not stir it through or push it down."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.salt",
+        "name": "sea salt",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "a pinch",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "options.sugar",
+        "name": "additional granulated sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "only for the sweeter option",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "options.powdered",
+        "name": "powdered sugar",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "a light dusting after cooking, if desired",
+        "state": "",
+        "optional": true,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Dust with {{ingredients}} if desired. Eat freshly made; further cooling may be needed before serving."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "dry",
+      "title": "Mix dry ingredients",
+      "text": "Whisk {{ingredients}} in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising.",
+      "generatedText": "1. **Mix dry ingredients:** Whisk all-purpose flour, unsweetened cocoa powder, granulated sugar, baking powder, sea salt, and additional granulated sugar (if using) in the microwave-safe mug until evenly combined; include the additional sugar only if choosing the sweeter option. For the original single-cake batch use a microwave-safe mug with about 14 fl oz capacity and enough headspace for rising.",
+      "dependsOn": [],
+      "assigned": [
+        "cake.flour",
+        "cake.cocoa",
+        "cake.sugar",
+        "cake.powder",
+        "cake.salt",
+        "options.sugar"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "wet",
+      "title": "Add milk and oil",
+      "text": "Whisk in {{ingredients}} with a fork until no flour or cocoa pockets remain, including at the bottom of the mug. The listed milk total is 5 tbsp in the original batch, exactly ¼ cup plus 1 tbsp.",
+      "generatedText": "2. **Add milk and oil:** Whisk in milk and vegetable oil with a fork until no flour or cocoa pockets remain, including at the bottom of the mug. The listed milk total is 5 tbsp in the original batch, exactly ¼ cup plus 1 tbsp.",
+      "dependsOn": ["dry"],
+      "assigned": ["cake.milk", "cake.oil"]
+    },
+    {
+      "index": 3,
+      "id": "center",
+      "title": "Add the center",
+      "text": "Drop {{ingredients}} in the center on top of the batter. Do not stir it through or push it down.",
+      "generatedText": "3. **Add the center:** Drop chocolate-hazelnut spread in the center on top of the batter. Do not stir it through or push it down.",
+      "dependsOn": ["wet"],
+      "assigned": ["cake.spread"]
+    },
+    {
+      "index": 4,
+      "id": "cook",
+      "title": "Microwave",
+      "text": "Microwave one original-size mug on high for the source reference of 70 seconds at 950 watts. Different power, mug shape or batter volume needs adjustment; this is not a universal finishing clock. If using a paper towel beneath the mug to catch drips, first confirm that the microwave instructions permit it. Check that the cake around the spread has set rather than remaining liquid batter; do not confuse melted spread with uncooked batter. Continue cooking as needed according to the appliance instructions. For multiple cakes, divide into individual original-size mugs and cook separately rather than placing doubled batter in this mug.",
+      "generatedText": "4. **Microwave:** Microwave one original-size mug on high for the source reference of 70 seconds at 950 watts. Different power, mug shape or batter volume needs adjustment; this is not a universal finishing clock. If using a paper towel beneath the mug to catch drips, first confirm that the microwave instructions permit it. Check that the cake around the spread has set rather than remaining liquid batter; do not confuse melted spread with uncooked batter. Continue cooking as needed according to the appliance instructions. For multiple cakes, divide into individual original-size mugs and cook separately rather than placing doubled batter in this mug.",
+      "dependsOn": ["center"],
+      "assigned": []
+    },
+    {
+      "index": 5,
+      "id": "stand",
+      "title": "Stand",
+      "text": "Remove carefully; the mug can be very hot. Let stand for the listed one minute, then check that the cake is cooked through and cool enough to eat. The standing minute is additional to the heating time. Smaller scaled quantities also change heating behavior; they do not inherit the original mug’s clock.",
+      "generatedText": "5. **Stand:** Remove carefully; the mug can be very hot. Let stand for the listed one minute, then check that the cake is cooked through and cool enough to eat. The standing minute is additional to the heating time. Smaller scaled quantities also change heating behavior; they do not inherit the original mug’s clock.",
+      "dependsOn": ["cook"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "serve",
+      "title": "Serve",
+      "text": "Dust with {{ingredients}} if desired. Eat freshly made; further cooling may be needed before serving.",
+      "generatedText": "6. **Serve:** Dust with powdered sugar (if using) if desired. Eat freshly made; further cooling may be needed before serving.",
+      "dependsOn": ["stand"],
+      "assigned": ["options.powdered"]
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Chocolate-hazelnut spread",
+        "alternative": "Same listed amount of mini chocolate chips, or omit the center",
+        "effect": "Exclusive source center choices; keep the full remaining batter and adjust actual microwave checks."
+      },
+      {
+        "ingredient": "Sea-salt pinch",
+        "alternative": "⅛ tsp kosher salt in the original batch, proportionally scaled",
+        "effect": "A distinct measured publisher alternative, not an equal-volume sea-salt conversion."
+      }
+    ],
+    "completeCookingOptions": "### Center and salt options\n\nKeep the full listed chocolate-hazelnut center for the main version. The same listed amount of mini chocolate chips may replace it, or the center may be omitted; the rest of the full batter stays unchanged. Other spreads are named possibilities without a measured heating plan here.\n\nThe sweeter option uses the separate optional sugar amount in the dry mixture. This version uses a pinch of sea salt. The publisher specifies ⅛ tsp kosher salt for its original single-cake batch; scale that measured source alternative proportionally if selected INSTEAD of the sea-salt pinch, not in addition. Do not assume the sea-salt pinch and kosher-salt spoon volume are equal.\n\nThe cake is written for microwave cooking. No oven temperature or time is supplied. Self-rising flour is not a recommended replacement for the listed flour and powder. The original bowl-mixing route is also available: whisk all dry ingredients in a bowl, whisk in all milk and oil, pour into the mug, add the center, then use the same microwave checks.",
+    "scaling": "Every main formula quantity/equivalent follows the ingredient control. Explicit original-batch alternate quantities are separate entire replacements and scale proportionally with that batch; time/pan dimensions never multiply. Options with unspecified original amounts remain unresolved rather than receiving guessed quantities.",
+    "allMainDestinations": [
+      {
+        "id": "cake.flour",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.cocoa",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.sugar",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.powder",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.milk",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "cake.oil",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "cake.spread",
+        "destinations": ["center"]
+      },
+      {
+        "id": "cake.salt",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "options.sugar",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "options.powdered",
+        "destinations": ["serve"]
+      }
+    ],
+    "noSourceQuantityImportedIntoUnrelatedMain": true,
+    "completeBranches": [
+      {
+        "name": "Sweeter option",
+        "replace": [],
+        "scope": "Full original2tbspmain sugar PLUS optional1tbsp additional entry; scale both. All other entries remain.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.milk",
+            "quantity": {
+              "amount": 5,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.spread",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["center"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooking, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Chip center",
+        "replace": [
+          {
+            "id": "cake.spread",
+            "name": "mini chocolate chips",
+            "amount": 1,
+            "unit": "tbsp",
+            "destination": "center"
+          }
+        ],
+        "scope": "Exclusive complete replacement, or omit thecenter. Otherfullmainentriesunchanged; nonprovidedspreads no invented clock.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.milk",
+            "quantity": {
+              "amount": 5,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooking, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 0.25,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 0.5,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 1.5,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.spread",
+                "name": "mini chocolate chips",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "center",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Publisher kosher salt",
+        "remove": ["cake.salt"],
+        "replace": [
+          {
+            "id": "option.salt",
+            "name": "kosher salt",
+            "amount": 0.125,
+            "unit": "tsp",
+            "destination": "dry"
+          }
+        ],
+        "scope": "Current publisher measured alternative replaces current unmeasuredsea pinch, not in addition. Native only says salt.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.milk",
+            "quantity": {
+              "amount": 5,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.spread",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["center"]
+          },
+          {
+            "id": "options.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooking, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.03125,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.0625,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.125,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.1875,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.25,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.375,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.salt",
+                "name": "kosher salt",
+                "amount": 0.125,
+                "unit": "tsp",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Bowl mixing",
+        "replace": [],
+        "scope": "All same full ingredients mixdry/wet inbowl thenmug/centerdrop;950W70sec reference oneoriginalmug;stand1min currentpreserved.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.milk",
+            "quantity": {
+              "amount": 5,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.spread",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["center"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "options.powdered",
+            "quantity": null,
+            "allowance": "a light dusting after cooking, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "scope": "Actual meal search found no incoming linked meals for these six. Generic pairsWith metadata retained without meal certification. RedVelvet linked frosting is a separate recipe, not whole-reviewed here."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What are the actual microwave model/power and mug dimensions? No measured microbial endpoint or smaller/larger-volume clock established. Is the salt change deliberate? Other spread amounts/heating remain unprovided."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

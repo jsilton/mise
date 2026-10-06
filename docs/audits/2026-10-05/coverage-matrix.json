@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 479,
-    "completeEditorialPending": 164,
+    "recordedCompleteEditorial": 491,
+    "completeEditorialPending": 152,
     "originalBaseline": 612,
-    "originalReviewed": 446,
+    "originalReviewed": 458,
     "consideredConsolidations": 10,
-    "originalPending": 156,
+    "originalPending": 144,
     "additionalSources": 41,
     "additionalReviewed": 33,
     "additionalPending": 8,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 479,
+      "editoriallyReviewed": 491,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 314
+      "reviewItems": 291
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "245 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 479 recorded complete / 164 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [dbfd4909](https://github.com/jsilton/mise/commit/dbfd49098a096dc683268b96ab32ebf2e34b4b68), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37456514904) and all 11 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "245 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -13241,18 +13241,7 @@
       "baseline": "original canonical",
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13260,19 +13249,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/healthy-carrot-cake-muffins-with-cream-cheese-glaze.md",
+        "acceptedSha256": "336b9526b72ac586c80e73702bca9c832ce4d55fc89447d04a6844e90e5e5b2f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/healthy-carrot-cake-muffins-with-cream-cheese-glaze.json",
+        "sourceSha256": "336b9526b72ac586c80e73702bca9c832ce4d55fc89447d04a6844e90e5e5b2f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which optional mix-ins fit the actual tin without changing the twelve-muffin planning count? How long is complete rack cooling? Is the current sea-salt choice intentional? Gluten-free flour blend suitability remains untested by the source."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16060,18 +16054,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16079,19 +16062,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/made-in-the-pan-chocolate-cake.md",
+        "acceptedSha256": "219e5ae78da737dee0cdba95c7d3049ec51a826680e8fc0ea83e33098813586b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/made-in-the-pan-chocolate-cake.json",
+        "sourceSha256": "219e5ae78da737dee0cdba95c7d3049ec51a826680e8fc0ea83e33098813586b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does the household prefer the current sea salt/avocado/mandatory-chip adaptation? No explicit decision found. What is the measured cooling time and preferred cut count? Source kosher salt brand/density is unresolved.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17377,18 +17366,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Maryls McConnell",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17396,19 +17374,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/moms-famous-chocolate-cake.md",
+        "acceptedSha256": "24a062e37a21111f8cefc36a954ee2fedbc56c5b40eb2d4398825a72232c7a63",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/moms-famous-chocolate-cake.json",
+        "sourceSha256": "24a062e37a21111f8cefc36a954ee2fedbc56c5b40eb2d4398825a72232c7a63"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm original confectioners’ sugar box weight, rectangular/square pan dimensions and intended yield before presenting current precision as family measurements. Is butter rather than margarine an intended preference? Which fat is intended in the original frosting? The full original frosting variant is held pending box weight.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20038,18 +20022,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Leelalicious.com",
       "sourceUrl": "http://leelalicious.com/pumpkin-breakfast-cookies/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20057,19 +20030,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pumpkin-breakfast-cookies.md",
+        "acceptedSha256": "6b7980ed6e0cedb7844b83fc4d75a088dbb7efa446f9f3535502ebd527fc52f3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pumpkin-breakfast-cookies.json",
+        "sourceSha256": "6b7980ed6e0cedb7844b83fc4d75a088dbb7efa446f9f3535502ebd527fc52f3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual quarter-cup count and full cooling duration remain unmeasured. Source chia-egg preparation is unspecified. Do nut/seed/chip combinations need a different center check?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20085,13 +20063,7 @@
       "baseline": "original canonical",
       "source": "Chelsey White, Chelsweets",
       "sourceUrl": "https://chelsweets.com/pumpkin-cheesecake-cookies/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20099,12 +20071,18 @@
         "evidence": ["docs/reviews/pumpkin-cheesecake-cookies.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/pumpkin-cheesecake-cookies.md",
-        "recordImplementationCommit": "493885bb88fa96b1ab626b20a5c8ec78830f9145"
+        "acceptedSha256": "755e62e520a46eaea3d623c075a8d4dd6d919f8e63a6522a029d5e46786ce4e5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pumpkin-cheesecake-cookies.json",
+        "sourceSha256": "755e62e520a46eaea3d623c075a8d4dd6d919f8e63a6522a029d5e46786ce4e5"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -20113,11 +20091,10 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm desired modern optional glaze/color/mini route before altering the accepted main. Source native filling scoop≈1tbsp differs from currentprimary≈1½tbsp; equal twelve portions retained. Actual oven-sheet capacity and cold-service cooling remain unmeasured."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20835,18 +20812,7 @@
       "baseline": "original canonical",
       "source": "Adapted from sallysbakingaddiction.com",
       "sourceUrl": "https://sallysbakingaddiction.com/red-velvet-cupcakes/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20854,19 +20820,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/red-velvet-cupcakes.md",
+        "acceptedSha256": "912138b247559a38f49282f00868c1995a22998b5aa5fab7e5d8f9b5737917ca",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/red-velvet-cupcakes.json",
+        "sourceSha256": "912138b247559a38f49282f00868c1995a22998b5aa5fab7e5d8f9b5737917ca"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "How many regular cakes does the actual tin produce at½–⅔ fill? Which source metric weight set, if any, should be used? Linked frosting has not received a whole review here; amount/piping/storage depend on that separate recipe. No natural-color or layer-pan formula supplied.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -26362,18 +26334,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Myfussyeater.com",
       "sourceUrl": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -26381,19 +26342,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/strawberry-quinoa-breakfast-bars.md",
+        "acceptedSha256": "1aee6219e0acff01a09ff0bfcc754b65e7dad1ce5a76c50a443f9f8a0d112e29",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/strawberry-quinoa-breakfast-bars.json",
+        "sourceSha256": "1aee6219e0acff01a09ff0bfcc754b65e7dad1ce5a76c50a443f9f8a0d112e29"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual banana mass, finished layer depth, nine-square portion size and cooling time are unmeasured. Current publisher could not be read. Does the actual bar center reach160°F within the20–25reference? No kitchen test has been performed.",
+        "Does the actual bar center reach the endpoint within the source reference timer?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -26791,18 +26758,7 @@
       "baseline": "original canonical",
       "source": "Adapted from bonappetit.com",
       "sourceUrl": "https://www.bonappetit.com/recipe/super-lemony-olive-oil-cake?intcid=inline_amp",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -26810,19 +26766,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/super-lemony-olive-oil-cake.md",
+        "acceptedSha256": "fb3e56bf0c0696a0fb8727f083ff5cdcdfbe028c1f2ffdcc2dc81ba298843cef",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/super-lemony-olive-oil-cake.json",
+        "sourceSha256": "fb3e56bf0c0696a0fb8727f083ff5cdcdfbe028c1f2ffdcc2dc81ba298843cef"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which salt type is intended? No sea-salt equivalent to the named source products is established. Is twelve the preferred cut count rather than source10–12? Actual cooling duration and scaled pan layouts remain unmeasured."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27782,18 +27743,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Tablefortwoblog.com",
       "sourceUrl": "https://www.tablefortwoblog.com/the-moistest-chocolate-mug-cake/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27801,19 +27751,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/the-moistest-chocolate-mug-cake.md",
+        "acceptedSha256": "6278c35ec3b4cf009d50e7833b25a548d3b1b24888156374588efcf5da1e4238",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/the-moistest-chocolate-mug-cake.json",
+        "sourceSha256": "6278c35ec3b4cf009d50e7833b25a548d3b1b24888156374588efcf5da1e4238"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What are the actual microwave model/power and mug dimensions? No measured microbial endpoint or smaller/larger-volume clock established. Is the salt change deliberate? Other spread amounts/heating remain unprovided."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27876,18 +27831,7 @@
       "baseline": "original canonical",
       "source": "Adapted from ricekrispies.com",
       "sourceUrl": "https://www.ricekrispies.com/en_US/recipes/the-original-treats-recipe.html",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27895,19 +27839,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/the-original-rice-krispies-treatstm.md",
+        "acceptedSha256": "0d62a2f7cb0c5e3a997bbd40a4a368ae1b5d20785387cca9a7bd7ad895cec5f1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/the-original-rice-krispies-treatstm.json",
+        "sourceSha256": "0d62a2f7cb0c5e3a997bbd40a4a368ae1b5d20785387cca9a7bd7ad895cec5f1"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual microwave wattage/bowl capacity and scaled heating remain unspecified. Which marshmallow product/gelatin status and form are selected? Which cutting layout is preferred for twelve portions? Cooling duration remains unmeasured.",
+        "Actual chosen pan depth and cooled layer height remain kitchen questions.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29069,18 +29020,7 @@
       "baseline": "original canonical",
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "http://www.100daysofrealfood.com/recipe-whole-spelt-pumpkin-muffins-and-other-spelt-recipes/#more-3102",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -29088,19 +29028,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/whole-spelt-pumpkin-muffins.md",
+        "acceptedSha256": "5ac4f1d52d245a39602a317ad56716926998d74277742ba24500651b287338a0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/whole-spelt-pumpkin-muffins.json",
+        "sourceSha256": "5ac4f1d52d245a39602a317ad56716926998d74277742ba24500651b287338a0"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Can the actual ingredient measuring and butter cooling fit five active minutes? Actual twelve-well fill and full cooling time are unmeasured. Source unnamed salt differs from current sea-salt specificity; no equal-density conversion asserted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29116,18 +29061,7 @@
       "baseline": "original canonical",
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/recipe-fruit-nut-or-berry-or-whatever-you-want-them-to-be-whole-wheat-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -29135,19 +29069,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/whole-wheat-muffins-fruit-nut-or-berry.md",
+        "acceptedSha256": "19fe83cc616403b16ab6eadb58b5684675cbda0b6ac72533ca7c0b65c124720f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/whole-wheat-muffins-fruit-nut-or-berry.json",
+        "sourceSha256": "19fe83cc616403b16ab6eadb58b5684675cbda0b6ac72533ca7c0b65c124720f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual mix-in capacity and useful twelve-muffin count are unmeasured. Mixed nuts/fruit ratios are unspecified. Source modern¼–½cupmoisture additions for dry variations and meat/dairy fillings are separate unvalidated options, not an alteration to the complete main."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

@@ -1,0 +1,1142 @@
+{
+  "slug": "the-original-rice-krispies-treatstm",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "b16b69cffb30d7ae84bf6ba548ac5749359893e9eeec22919aec1ba8c917d7c7",
+  "acceptedSourceSha256": "0d62a2f7cb0c5e3a997bbd40a4a368ae1b5d20785387cca9a7bd7ad895cec5f1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["no-cook"],
+      "after": ["mix"]
+    },
+    {
+      "field": "dietary",
+      "before": ["vegetarian"],
+      "after": []
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "Until the marshmallows melt; no fixed stovetop clock"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 40 min, plus any remaining melting or cooling"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 cups crisp rice cereal",
+        "10 oz (1 package) Fresh Marshmallows",
+        "3 tbsp Unsalted Butter (Cold)",
+        "Pinch of Sea Salt",
+        "1/2 tsp Pure Vanilla Extract"
+      ],
+      "after": [
+        "--- Treats ---",
+        "6 cups crisp rice cereal",
+        "10 oz (1 package) fresh marshmallows",
+        "3 tbsp unsalted butter",
+        "sea salt, a pinch",
+        "1/2 tsp pure vanilla extract",
+        "--- Pan and utensil preparation ---",
+        "butter or cooking spray, enough to lightly grease the pan and spatula"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 25,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 3,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 210
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "treats",
+            "name": "Treats",
+            "ingredients": [
+              {
+                "id": "cereal",
+                "key": "cereal",
+                "name": "crisp rice cereal",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "marshmallows",
+                "key": "marshmallows",
+                "name": "fresh marshmallows",
+                "quantity": {
+                  "amount": 10,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "melt",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 1,
+                    "unit": "package"
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "melt",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "flavor",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "flavor",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "handling",
+            "name": "Pan and utensil preparation",
+            "ingredients": [
+              {
+                "id": "grease",
+                "key": "grease",
+                "name": "butter or cooking spray",
+                "allowance": "enough to lightly grease the pan and spatula",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "For the original batch, lightly grease a 9×13×2-inch pan and spatula with {{ingredients}}. Have wax paper available for pressing. Scaling needs proportional pan area or additional pans to keep a similar layer thickness; do not cram extra full batches into the original pan."
+          },
+          {
+            "id": "melt",
+            "title": "Melt gently",
+            "text": "Use {{ingredients}} in a large saucepan: melt the butter over low heat, then add the marshmallows and stir until completely melted and smooth. Remove from heat; there is no fixed stovetop melting time."
+          },
+          {
+            "id": "flavor",
+            "title": "Flavor off heat",
+            "text": "Stir {{ingredients}} into the melted mixture off the heat."
+          },
+          {
+            "id": "fold",
+            "title": "Coat the cereal",
+            "text": "Fold in {{ingredients}} until evenly coated, scraping the bottom and sides. Use the full cereal amount."
+          },
+          {
+            "id": "press",
+            "title": "Press",
+            "text": "Transfer the full mixture to the prepared pan, or divide across the selected proportional pans. Use the greased spatula or wax paper to press gently into an even layer; avoid compacting it firmly."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let cool at room temperature until set and cool enough to cut. Thirty minutes is the current planning allowance, not a guaranteed finish; thickness and room conditions can change it."
+          },
+          {
+            "id": "cut",
+            "title": "Cut and serve",
+            "text": "Cut into the listed number of planning portions, or smaller squares as desired. The original two-inch-square suggestion is a cutting option, not a claim that a 9×13-inch pan produces twelve exact two-inch squares. Serve the same day for best texture."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Fully melting the marshmallows, coating all the cereal and preserving an open pressed texture.",
+        "outcome": "Set, evenly coated treats that can be cut without forcing a fixed cooling clock.",
+        "techniques": ["temperature"],
+        "before": [
+          "Have the pan, lightly greased spatula and wax paper ready before melting. The original batch uses a 9×13×2-inch pan; scaling needs proportional area to keep the same layer thickness.",
+          "Choose one marshmallow form, keeping the full butter, cereal, salt and vanilla. For a vegetarian choice, check the marshmallow or crème ingredient label rather than assuming ordinary marshmallows qualify."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Marshmallows are completely melted and smooth over low heat.",
+            "why": "The original smooth-melt endpoint accounts for the entire marshmallow amount; a prescribed 90% is unnecessary."
+          },
+          {
+            "step": 5,
+            "cue": "An evenly coated layer pressed gently into the pan.",
+            "why": "Hard compaction changes the texture even when the ingredient ratio is unchanged."
+          },
+          {
+            "step": 6,
+            "cue": "Set and cool enough to cut, rather than simply thirty minutes old.",
+            "why": "Layer thickness and room conditions affect cooling."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Treats are hard or densely packed.",
+            "cause": "The melt was overheated, marshmallows were stale or pressing was too firm.",
+            "fix": "Use fresh marshmallows, gentle heat and remove the smooth melt promptly; press only enough to level the layer. Do not reduce the full butter to compensate."
+          },
+          {
+            "problem": "Mixture does not fit the pan or bowl.",
+            "cause": "A scaled batch was forced into the original equipment.",
+            "fix": "Use proportional pan area and a suitable bowl or work in separate batches. Microwave expansion needs headspace; no universal bowl size is supplied."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "10 oz fresh marshmallows",
+            "alternative": "5½ cups mini marshmallows OR one 7 oz jar crème for the original batch",
+            "effect": "Exclusive source substitutions. Scale the selected route proportionally; mini volume is not a generic mass conversion and jar size remains fixed."
+          }
+        ],
+        "storage": "Serve the same day for best texture. Store airtight at room temperature for no more than two days. For the source freezer option, pack in an airtight container with wax paper between layers and freeze up to six weeks; let stand at room temperature for 15 minutes before serving.",
+        "timing": "Ten minutes of preparation and the current thirty-minute cooling allowance gives an approximately 40-minute plan before any extra melting or cooling time. Melting is endpoint-driven and unmeasured. The source’s current 30-minute total is a separate planning label; it does not establish this version’s actual cooling duration. Microwave route 3 minutes/stir after 2 applies only as the original-batch source reference.",
+        "sources": [
+          {
+            "title": "Original publisher — complete stovetop/microwave routes and source storage options",
+            "url": "https://www.ricekrispies.us/recipes/the-original-treats-recipe"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe key to crisp rice marshmallow treats that aren't rock-hard is melting the butter and marshmallows on the lowest possible heat. High heat denatures the sugar and leads to brittle treats. We add sea salt and vanilla extract to balance the corn-syrup sweetness, providing a more sophisticated flavor than commercial versions.\n\n## Directions\n\n1.  **The Melt:** In a large heavy-bottomed pot, melt butter over **low heat**. Add marshmallows and stir constantly with a greased spatula until 90% melted.\n2.  **Emulsify:** Remove from heat immediately. Stir in the sea salt and vanilla extract.\n3.  **The Fold:** Gently fold in the cereal until every grain is coated in the marshmallow silk.\n4.  **The Press:** Transfer to a greased 9x13-inch pan. Use a piece of wax paper to **press down very gently** - if you pack them too tight, you destroy the Texture air pockets.\n5.  **The Finish:** Let cool completely at room temperature for 30 minutes. **Do not refrigerate.**\n6.  **Cut:** Slice into 2-inch squares and serve the same day for the Kitchen Standard texture.\n",
+    "after": "\n## Chef's Note\n\nMelt the butter and fresh marshmallows gently over low heat, then remove the pan from heat before adding the salt, vanilla and cereal. Stir until the marshmallows have melted fully; leaving a prescribed fraction unmelted is not needed. Use the full butter and cereal amounts, and press gently instead of packing the mixture firmly.\n\n## Directions\n\n1. **Prepare:** For the original batch, lightly grease a 9×13×2-inch pan and spatula with butter or cooking spray. Have wax paper available for pressing. Scaling needs proportional pan area or additional pans to keep a similar layer thickness; do not cram extra full batches into the original pan.\n2. **Melt gently:** Use fresh marshmallows and unsalted butter in a large saucepan: melt the butter over low heat, then add the marshmallows and stir until completely melted and smooth. Remove from heat; there is no fixed stovetop melting time.\n3. **Flavor off heat:** Stir sea salt and pure vanilla extract into the melted mixture off the heat.\n4. **Coat the cereal:** Fold in crisp rice cereal until evenly coated, scraping the bottom and sides. Use the full cereal amount.\n5. **Press:** Transfer the full mixture to the prepared pan, or divide across the selected proportional pans. Use the greased spatula or wax paper to press gently into an even layer; avoid compacting it firmly.\n6. **Cool:** Let cool at room temperature until set and cool enough to cut. Thirty minutes is the current planning allowance, not a guaranteed finish; thickness and room conditions can change it.\n7. **Cut and serve:** Cut into the listed number of planning portions, or smaller squares as desired. The original two-inch-square suggestion is a cutting option, not a claim that a 9×13-inch pan produces twelve exact two-inch squares. Serve the same day for best texture.\n\n## Cooking Notes\n\n### Marshmallow alternatives\n\nChoose ONE marshmallow route. The full listed 10 oz fresh marshmallows is the main version. For the original 6-cup cereal batch, the publisher’s alternatives are 5½ cups miniature marshmallows OR one 7 oz jar of marshmallow crème in place of all the marshmallows. Scale the chosen total with the cereal, keeping jar size fixed while scaling the jar count or crème weight. The miniature volume describes the source product, not a universal weight conversion for every marshmallow. Keep all the current butter, cereal, salt and vanilla amounts in either option. Diet, reduced-calorie and tub margarine are not recommended by the source; the main uses the full unsalted butter.\n\n### Microwave route\n\nUse a microwave-safe bowl with enough room for the butter and marshmallows to expand and for the full cereal to be folded in afterward. For the original batch, microwave the full butter and chosen marshmallow amount on HIGH for the source reference of 3 minutes, stirring after 2 minutes, then stir until smooth. Times vary with the microwave and volume; follow its instructions and the smooth-melt endpoint rather than multiplying the clock when scaling. Stir in the full salt and vanilla off heat, fold in the entire cereal, then press, cool and cut as above. The bowl capacity and microwave wattage are not specified in the source; divide a larger batch or use suitable larger equipment instead of assuming it fits.\n"
+  },
+  "findings": [
+    {
+      "id": "CQT07-T01",
+      "title": "CQT07-T01",
+      "rationale": "Preserve full current cereal10ozmarshmallows/3tbspbutter/sea-saltpinch/½tspvanilla, add required unmeasured handling grease and restore complete source alternatives/microwave/storagenotes lost atf6128211. Restore full smooth melt rather than90%, remove false sugar-denaturation claim and guarantee30mincool/no refrigeration as universal instruction. Current12servings is planning cuts, not12exact2in squares. Remove unqualified vegetarian label because unspecifiedmarshmallows can contain gelatin; actualmix operation replaces no-cook label while microwave/stovetop heat remains explicit.",
+      "confidence": "high for source route/storage preservation; moderate for scaled equipment/cooling planning",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "f6128211ccdbc8926119618119f0e93b7cbd911b",
+        "https://www.ricekrispies.us/recipes/the-original-treats-recipe"
+      ],
+      "sourceApplicability": "Exact saved/current primary establish fullcore/formexclusiveoptions/melt/pan/microwave3minuteoriginalreference and source2day/6week/15minnotes. Current salt/vanilla additions preserved but not labeled source. Product-specific mini volume is not an all-brand equivalence; gelatin label check is ordinary ingredient applicability, not fabricated nutrition or testing.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "content",
+        "learning",
+        "totalTime",
+        "cookTime",
+        "cookingMethods",
+        "dietary",
+        "servings"
+      ],
+      "questions": [
+        "Actual microwave wattage/bowl capacity and scaled heating remain unspecified. Which marshmallow product/gelatin status and form are selected? Which cutting layout is preferred for twelve portions? Cooling duration remains unmeasured."
+      ]
+    },
+    {
+      "id": "CQT07-META",
+      "title": "CQT07-META",
+      "rationale": "Omit unsupported bulk country/region-origin and unverified per-serving nutrition, preserving exact cuisine/style, title, rating and source attribution. Recipe-specific learning and authored quantities allocate the complete measured recipe plus supported genuine allowances. Retain current numerical planning yields, now labeled as portions/cupcakes rather than a new measured yield.",
+      "confidence": "high for metadata provenance; planning counts unmeasured",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "The retained original and current Rice Krispies publisher recipe support the cereal/marshmallow/butter formula and storage options, not a geographic-origin claim for this adapted formula or its numerical nutrition. Retain American style, trademark/source credit and current salt/vanilla additions. No kitchen testing occurred.",
+      "exactBeforeAfterReferences": ["origin", "nutrition", "learning", "formula", "servings"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-SOURCE-DETAILS-AND-COOKING-PROSE",
+      "title": "Preserve source details and clear cooking instructions",
+      "rationale": "Exact native and current publisher specify2-inch depth. Candidate retains the footprint and sensible proportional-layer scaling; omission is not demonstrated capacity failure, so this is preservation advice, not a whole-recipe blocker. If chosen, regenerate all three formula views; no dose/clock/count change. Exact native and current publisher specify2-inch depth. Candidate retains the footprint and sensible proportional-layer scaling; omission is not demonstrated capacity failure, so this is preservation advice, not a whole-recipe blocker. If chosen, regenerate all three formula views; no dose/clock/count change. The user asks for clear cooking prose rather than audit or shelf-life-test commentary. These replacements keep every existing storage clock, cold temperature, freezing option and refrigerator thaw, while removing commentary about invented/measured keeping life. Private records must retain the conservative category application and unknown frosting/product life; no new shelf duration is proposed.",
+      "confidence": "High source existence and semantic preservation; formula/product outcomes untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.ricekrispies.us/recipes/the-original-treats-recipe",
+          "scope": "Complete original pan footprint and depth; not tested alternate capacity."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact same source pan depth retained in native evidence."
+        },
+        {
+          "url": "https://www.ricekrispies.us/recipes/the-original-treats-recipe",
+          "scope": "Complete original pan footprint and depth; not tested alternate capacity."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact same source pan depth retained in native evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific useful prose and truthful untested/private evidence; do not add procedural review panels."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "General perishable cold handling supports the conservative frosting choice, not validation of a specific cake/frosting shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula", "learning"],
+      "questions": [
+        "Actual chosen pan depth and cooled layer height remain kitchen questions.",
+        "Actual chosen pan depth and cooled layer height remain kitchen questions.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/The%20Original%20Rice%20Krispies%20Treats%E2%84%A2.html",
+    "introductionScope": "Actual first cooking HTML introduction before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "CQT07-T01",
+      "rationale": "Preserve full current cereal10ozmarshmallows/3tbspbutter/sea-saltpinch/½tspvanilla, add required unmeasured handling grease and restore complete source alternatives/microwave/storagenotes lost atf6128211. Restore full smooth melt rather than90%, remove false sugar-denaturation claim and guarantee30mincool/no refrigeration as universal instruction. Current12servings is planning cuts, not12exact2in squares. Remove unqualified vegetarian label because unspecifiedmarshmallows can contain gelatin; actualmix operation replaces no-cook label while microwave/stovetop heat remains explicit.",
+      "applicability": "Exact saved/current primary establish fullcore/formexclusiveoptions/melt/pan/microwave3minuteoriginalreference and source2day/6week/15minnotes. Current salt/vanilla additions preserved but not labeled source. Product-specific mini volume is not an all-brand equivalence; gelatin label check is ordinary ingredient applicability, not fabricated nutrition or testing."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "6 cups crisp rice cereal",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Full cereal folded"
+      },
+      {
+        "index": 1,
+        "text": "10 oz (1 package) Fresh Marshmallows",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Marshmallows only90%melted"
+      },
+      {
+        "index": 2,
+        "text": "3 tbsp Unsalted Butter (Cold)",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Full butter melted"
+      },
+      {
+        "index": 3,
+        "text": "Pinch of Sea Salt",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Salt offheat"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Pure Vanilla Extract",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Vanilla offheat"
+      }
+    ],
+    "unlistedBefore": [
+      {
+        "name": "grease for spatula and pan",
+        "amount": "unmeasured",
+        "step": [1, 4]
+      }
+    ],
+    "proposed": [
+      {
+        "id": "treats.cereal",
+        "name": "crisp rice cereal",
+        "quantity": {
+          "amount": 6,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "fold",
+            "share": 1,
+            "text": "Fold in {{ingredients}} until evenly coated, scraping the bottom and sides. Use the full cereal amount."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "treats.marshmallows",
+        "name": "fresh marshmallows",
+        "quantity": {
+          "amount": 10,
+          "unit": "oz"
+        },
+        "equivalents": [
+          {
+            "amount": 1,
+            "unit": "package"
+          }
+        ],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "melt",
+            "share": 1,
+            "text": "Use {{ingredients}} in a large saucepan: melt the butter over low heat, then add the marshmallows and stir until completely melted and smooth. Remove from heat; there is no fixed stovetop melting time."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "treats.butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "melt",
+            "share": 1,
+            "text": "Use {{ingredients}} in a large saucepan: melt the butter over low heat, then add the marshmallows and stir until completely melted and smooth. Remove from heat; there is no fixed stovetop melting time."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "treats.salt",
+        "name": "sea salt",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "a pinch",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "flavor",
+            "share": 1,
+            "text": "Stir {{ingredients}} into the melted mixture off the heat."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "treats.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "flavor",
+            "share": 1,
+            "text": "Stir {{ingredients}} into the melted mixture off the heat."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "handling.grease",
+        "name": "butter or cooking spray",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "enough to lightly grease the pan and spatula",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1,
+            "text": "For the original batch, lightly grease a 9×13-inch pan and spatula with {{ingredients}}. Have wax paper available for pressing. Scaling needs proportional pan area or additional pans to keep a similar layer thickness; do not cram extra full batches into the original pan."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare",
+      "text": "For the original batch, lightly grease a 9×13-inch pan and spatula with {{ingredients}}. Have wax paper available for pressing. Scaling needs proportional pan area or additional pans to keep a similar layer thickness; do not cram extra full batches into the original pan.",
+      "generatedText": "1. **Prepare:** For the original batch, lightly grease a 9×13-inch pan and spatula with butter or cooking spray. Have wax paper available for pressing. Scaling needs proportional pan area or additional pans to keep a similar layer thickness; do not cram extra full batches into the original pan.",
+      "dependsOn": [],
+      "assigned": ["handling.grease"]
+    },
+    {
+      "index": 2,
+      "id": "melt",
+      "title": "Melt gently",
+      "text": "Use {{ingredients}} in a large saucepan: melt the butter over low heat, then add the marshmallows and stir until completely melted and smooth. Remove from heat; there is no fixed stovetop melting time.",
+      "generatedText": "2. **Melt gently:** Use fresh marshmallows and unsalted butter in a large saucepan: melt the butter over low heat, then add the marshmallows and stir until completely melted and smooth. Remove from heat; there is no fixed stovetop melting time.",
+      "dependsOn": ["prep"],
+      "assigned": ["treats.marshmallows", "treats.butter"]
+    },
+    {
+      "index": 3,
+      "id": "flavor",
+      "title": "Flavor off heat",
+      "text": "Stir {{ingredients}} into the melted mixture off the heat.",
+      "generatedText": "3. **Flavor off heat:** Stir sea salt and pure vanilla extract into the melted mixture off the heat.",
+      "dependsOn": ["melt"],
+      "assigned": ["treats.salt", "treats.vanilla"]
+    },
+    {
+      "index": 4,
+      "id": "fold",
+      "title": "Coat the cereal",
+      "text": "Fold in {{ingredients}} until evenly coated, scraping the bottom and sides. Use the full cereal amount.",
+      "generatedText": "4. **Coat the cereal:** Fold in crisp rice cereal until evenly coated, scraping the bottom and sides. Use the full cereal amount.",
+      "dependsOn": ["flavor"],
+      "assigned": ["treats.cereal"]
+    },
+    {
+      "index": 5,
+      "id": "press",
+      "title": "Press",
+      "text": "Transfer the full mixture to the prepared pan, or divide across the selected proportional pans. Use the greased spatula or wax paper to press gently into an even layer; avoid compacting it firmly.",
+      "generatedText": "5. **Press:** Transfer the full mixture to the prepared pan, or divide across the selected proportional pans. Use the greased spatula or wax paper to press gently into an even layer; avoid compacting it firmly.",
+      "dependsOn": ["fold"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Let cool at room temperature until set and cool enough to cut. Thirty minutes is the current planning allowance, not a guaranteed finish; thickness and room conditions can change it.",
+      "generatedText": "6. **Cool:** Let cool at room temperature until set and cool enough to cut. Thirty minutes is the current planning allowance, not a guaranteed finish; thickness and room conditions can change it.",
+      "dependsOn": ["press"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "cut",
+      "title": "Cut and serve",
+      "text": "Cut into the listed number of planning portions, or smaller squares as desired. The original two-inch-square suggestion is a cutting option, not a claim that a 9×13-inch pan produces twelve exact two-inch squares. Serve the same day for best texture.",
+      "generatedText": "7. **Cut and serve:** Cut into the listed number of planning portions, or smaller squares as desired. The original two-inch-square suggestion is a cutting option, not a claim that a 9×13-inch pan produces twelve exact two-inch squares. Serve the same day for best texture.",
+      "dependsOn": ["cool"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "10 oz fresh marshmallows",
+        "alternative": "5½ cups mini marshmallows OR one 7 oz jar crème for the original batch",
+        "effect": "Exclusive source substitutions. Scale the selected route proportionally; mini volume is not a generic mass conversion and jar size remains fixed."
+      }
+    ],
+    "completeCookingOptions": "### Marshmallow alternatives\n\nChoose ONE marshmallow route. The full listed 10 oz fresh marshmallows is the main version. For the original 6-cup cereal batch, the publisher’s alternatives are 5½ cups miniature marshmallows OR one 7 oz jar of marshmallow crème in place of all the marshmallows. Scale the chosen total with the cereal, keeping jar size fixed while scaling the jar count or crème weight. The miniature volume describes the source product, not a universal weight conversion for every marshmallow. Keep all the current butter, cereal, salt and vanilla amounts in either option. Diet, reduced-calorie and tub margarine are not recommended by the source; the main uses the full unsalted butter.\n\n### Microwave route\n\nUse a microwave-safe bowl with enough room for the butter and marshmallows to expand and for the full cereal to be folded in afterward. For the original batch, microwave the full butter and chosen marshmallow amount on HIGH for the source reference of 3 minutes, stirring after 2 minutes, then stir until smooth. Times vary with the microwave and volume; follow its instructions and the smooth-melt endpoint rather than multiplying the clock when scaling. Stir in the full salt and vanilla off heat, fold in the entire cereal, then press, cool and cut as above. The bowl capacity and microwave wattage are not specified in the source; divide a larger batch or use suitable larger equipment instead of assuming it fits.",
+    "scaling": "Every main formula quantity/equivalent follows the ingredient control. Explicit original-batch alternate quantities are separate entire replacements and scale proportionally with that batch; time/pan dimensions never multiply. Options with unspecified original amounts remain unresolved rather than receiving guessed quantities.",
+    "allMainDestinations": [
+      {
+        "id": "treats.cereal",
+        "destinations": ["fold"]
+      },
+      {
+        "id": "treats.marshmallows",
+        "destinations": ["melt"]
+      },
+      {
+        "id": "treats.butter",
+        "destinations": ["melt"]
+      },
+      {
+        "id": "treats.salt",
+        "destinations": ["flavor"]
+      },
+      {
+        "id": "treats.vanilla",
+        "destinations": ["flavor"]
+      },
+      {
+        "id": "handling.grease",
+        "destinations": ["prep"]
+      }
+    ],
+    "noSourceQuantityImportedIntoUnrelatedMain": true,
+    "completeBranches": [
+      {
+        "name": "Mini marshmallows",
+        "replace": [
+          {
+            "id": "treats.marshmallows",
+            "name": "miniature marshmallows",
+            "amount": 5.5,
+            "unit": "cup",
+            "destination": "melt"
+          }
+        ],
+        "scope": "Exclusive fullreplacement; source productvolume, no generic ozconversion. Allbutter/cereal/current saltvanillaunchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "treats.cereal",
+            "quantity": {
+              "amount": 6,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fold"]
+          },
+          {
+            "id": "treats.butter",
+            "quantity": {
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["melt"]
+          },
+          {
+            "id": "treats.salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["flavor"]
+          },
+          {
+            "id": "treats.vanilla",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["flavor"]
+          },
+          {
+            "id": "handling.grease",
+            "quantity": null,
+            "allowance": "enough to lightly grease the pan and spatula",
+            "destinations": ["prep"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 1.375,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 2.75,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 5.5,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 8.25,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 11,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 16.5,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "miniature marshmallows",
+                "amount": 5.5,
+                "unit": "cup",
+                "destination": "melt",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Marshmallow crème",
+        "replace": [
+          {
+            "id": "treats.marshmallows",
+            "name": "marshmallow crème",
+            "amount": 7,
+            "unit": "oz",
+            "destination": "melt",
+            "packageCount": 1,
+            "packageSizeOz": 7
+          }
+        ],
+        "scope": "Exclusive fullreplacement. Jarcount scales;7ozjarsize fixed; allotherdoses unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "treats.cereal",
+            "quantity": {
+              "amount": 6,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fold"]
+          },
+          {
+            "id": "treats.butter",
+            "quantity": {
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["melt"]
+          },
+          {
+            "id": "treats.salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["flavor"]
+          },
+          {
+            "id": "treats.vanilla",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["flavor"]
+          },
+          {
+            "id": "handling.grease",
+            "quantity": null,
+            "allowance": "enough to lightly grease the pan and spatula",
+            "destinations": ["prep"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 1.75,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 0.25,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 3.5,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 0.5,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 7,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 1,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 10.5,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 1.5,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 14,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 2,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 21,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 3,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "treats.marshmallows",
+                "name": "marshmallow crème",
+                "amount": 7,
+                "unit": "oz",
+                "destination": "melt",
+                "packageCount": 1,
+                "packageSizeOz": 7,
+                "equivalent": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Microwave",
+        "replace": [],
+        "scope": "Entirefullchosenformula unchanged. Originalreference HIGH3min/stir2minthen smooth; microwavetime/wattage/bowlcapacity/volume not assumed when scaling.",
+        "completeUnchangedEntries": [
+          {
+            "id": "treats.cereal",
+            "quantity": {
+              "amount": 6,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fold"]
+          },
+          {
+            "id": "treats.marshmallows",
+            "quantity": {
+              "amount": 10,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": ["melt"]
+          },
+          {
+            "id": "treats.butter",
+            "quantity": {
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["melt"]
+          },
+          {
+            "id": "treats.salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["flavor"]
+          },
+          {
+            "id": "treats.vanilla",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["flavor"]
+          },
+          {
+            "id": "handling.grease",
+            "quantity": null,
+            "allowance": "enough to lightly grease the pan and spatula",
+            "destinations": ["prep"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "scope": "Actual meal search found no incoming linked meals for these six. Generic pairsWith metadata retained without meal certification. RedVelvet linked frosting is a separate recipe, not whole-reviewed here."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual microwave wattage/bowl capacity and scaled heating remain unspecified. Which marshmallow product/gelatin status and form are selected? Which cutting layout is preferred for twelve portions? Cooling duration remains unmeasured.",
+    "Actual chosen pan depth and cooled layer height remain kitchen questions.",
+    "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

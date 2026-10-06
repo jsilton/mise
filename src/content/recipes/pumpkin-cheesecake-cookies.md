@@ -36,8 +36,8 @@ servings: 12 pieces
 scaling:
   mode: fixed
   reason: >-
-    Written for twelve large filled cookies with matching dough and filling portions. Make separate
-    batches to preserve cookie size and baking time.
+    Written for twelve large filled cookies with matching dough and filling
+    portions. Make separate batches to preserve cookie size and baking time.
 ingredients:
   - '--- Pumpkin cookie dough ---'
   - 1 1/2 cups (195 g) all-purpose flour
@@ -58,7 +58,6 @@ ingredients:
   - 1/3 cup granulated sugar
   - 1/2 tsp ground cinnamon
   - 1/4 tsp ground ginger
-origin: United States
 source: 'Chelsey White, Chelsweets'
 sourceUrl: 'https://chelsweets.com/pumpkin-cheesecake-cookies/'
 pairsWith:
@@ -243,50 +242,153 @@ formula:
       text: "Whisk the dough's {{ingredients}} together."
     - id: cream
       title: Cream the butter and sugars
-      text: "With a stand or hand mixer, beat the dough's {{ingredients}} until lighter, about 1 minute."
+      text: >-
+        With a stand or hand mixer, beat the dough's {{ingredients}} until
+        lighter, about 1 minute.
     - id: pumpkin
       title: Finish the dough
       text: >-
-        Measure the {{ingredients}} before gently blotting or squeezing away excess moisture with a
-        clean paper towel, then mix it into the butter mixture. Mix in the prepared dry ingredients
-        on low speed only until combined, scraping the bowl as needed.
+        Measure the {{ingredients}} before gently blotting or squeezing away
+        excess moisture with a clean paper towel, then mix it into the butter
+        mixture. Mix in the prepared dry ingredients on low speed only until
+        combined, scraping the bowl as needed.
     - id: chill
       title: Chill the dough
       text: >-
-        Divide the dough into 12 equal portions on a parchment-lined tray. Refrigerate for about 1
-        hour, until firm enough to flatten and fill.
+        Divide the dough into 12 equal portions on a parchment-lined tray.
+        Refrigerate for about 1 hour, until firm enough to flatten and fill.
     - id: filling
       title: Firm the filling
       text: >-
-        While the dough chills, beat the filling's {{ingredients}} until smooth. Divide into 12
-        equal dollops on a parchment-lined plate. Freeze for at least 45 minutes, until easy to pick
-        up; they need not become rock-hard.
+        While the dough chills, beat the filling's {{ingredients}} until smooth.
+        Divide into 12 equal dollops on a parchment-lined plate. Freeze for at
+        least 45 minutes, until easy to pick up; they need not become rock-hard.
     - id: coating
       title: Prepare to fill
       text: >-
-        Heat the oven to 350°F while the dough and filling finish chilling. Line two large baking
-        sheets with parchment. Stir the coating's {{ingredients}} together in a small bowl.
+        Heat the oven to 350°F while the dough and filling finish chilling. Line
+        two large baking sheets with parchment. Stir the coating's
+        {{ingredients}} together in a small bowl.
     - id: wrap
       title: Wrap and coat
       text: >-
-        Flatten each chilled dough portion, place one filling portion in the middle, and wrap the
-        dough around it, pinching the seams closed. If the dough sticks to warm hands, flatten it
-        between two pieces of parchment. Rechill the dough or filling if either becomes too soft to
-        handle. Roll the stuffed portions in the cinnamon-ginger sugar, space them 3 inches apart on
-        the sheets, and flatten slightly. Keep any portions waiting to bake refrigerated.
+        Flatten each chilled dough portion, place one filling portion in the
+        middle, and wrap the dough around it, pinching the seams closed. If the
+        dough sticks to warm hands, flatten it between two pieces of parchment.
+        Rechill the dough or filling if either becomes too soft to handle. Roll
+        the stuffed portions in the cinnamon-ginger sugar, space them 3 inches
+        apart on the sheets, and flatten slightly. Keep any portions waiting to
+        bake refrigerated.
     - id: bake
       title: Bake
       text: >-
-        Bake for 16–19 minutes per batch, until the outside and edges have set; do not wait for deep
-        browning. The centers will still feel soft. Allow extra time if your oven requires baking
-        one sheet at a time.
+        Bake for 16–19 minutes per batch, until the outside and edges have set;
+        do not wait for deep browning. The centers will still feel soft. Allow
+        extra time if your oven requires baking one sheet at a time.
     - id: cool
       title: Cool and refrigerate
       text: >-
-        Let the cookies firm on the tray for 10 minutes, then transfer to a rack. After this brief
-        initial cooling, refrigerate the cream-cheese-filled cookies in a single layer to finish
-        cooling; cover once cold. Get them into the refrigerator within 2 hours of baking, or 1 hour
-        if the room is above 90°F. Serve chilled.
+        Let the cookies firm on the tray for 10 minutes, then transfer to a
+        rack. After this brief initial cooling, refrigerate the
+        cream-cheese-filled cookies in a single layer to finish cooling; cover
+        once cold. Get them into the refrigerator within 2 hours of baking, or 1
+        hour if the room is above 90°F. Serve chilled.
+learning:
+  focus: >-
+    Wrapping matched chilled dough and filling portions without losing the
+    cookie-to-filling ratio.
+  outcome: >-
+    Twelve large coated cookies with set exteriors and a soft cheesecake center,
+    cooled and kept refrigerated.
+  techniques:
+    - cold-preparation
+    - temperature
+  before:
+    - >-
+      This is the fixed original twelve-cookie batch. Divide the complete dough
+      and filling each into twelve equal portions so every cookie keeps the same
+      dough-to-filling ratio.
+    - >-
+      Start with softened butter and full-fat block cream cheese. The dough
+      chill of about one hour and filling freeze of at least 45 minutes overlap.
+      Keep waiting filled portions refrigerated.
+    - >-
+      Do not taste raw cookie dough. Wash hands and tools after handling raw
+      flour.
+  checkpoints:
+    - step: 3
+      cue: >-
+        The pumpkin was measured before blotting, then the dough is combined
+        without dry flour.
+      why: >-
+        There is no specified post-blot weight; adding guessed flour or an egg
+        would change the formula.
+    - step: 5
+      cue: 'Filling dollops are chilled and easy to lift, even if not rock-hard.'
+      why: >-
+        The chilling endpoint makes wrapping feasible without promising a
+        permanent seal in the oven.
+    - step: 8
+      cue: The outside and edges are set while the center remains soft.
+      why: These cookies do not need deep browning to reach their surface endpoint.
+    - step: 9
+      cue: >-
+        Cookies move to single-layer refrigerated cooling after their ten-minute
+        tray rest.
+      why: >-
+        The cheese-filled cookie needs prompt cold holding, including pauses
+        after baking.
+  troubleshooting:
+    - problem: Dough sticks or filling collapses during wrapping.
+      cause: Hands and mixtures warmed during assembly.
+      fix: >-
+        Use parchment for flattening and rechill dough or filling until
+        handleable; do not add extra flour or cut the full filling amount.
+    - problem: Cookies become dark and dry.
+      cause: Deep browning was used instead of the set-exterior cue.
+      fix: >-
+        Check the outside within the written 16–19 minute range and remove once
+        set; subsequent cooling does not repair an overbaked cookie.
+  substitutions:
+    - ingredient: Full-fat block cream cheese
+      alternative: Other cheese products are not assumed equivalent
+      effect: >-
+        Softer spreads or lower-fat cheese can change filling water and
+        handling; keep the listed full-fat block amount.
+    - ingredient: Light brown sugar
+      alternative: Same listed amount of dark brown sugar
+      effect: A darker molasses flavor without reducing the full sugar amounts.
+    - ingredient: Unsalted butter and fine dough salt
+      alternative: Salted butter with the separate dough salt omitted
+      effect: >-
+        The publisher offers this exclusive option; butter salt content varies
+        and all coating/filling quantities remain.
+  storage: >-
+    Refrigerate promptly at 40°F / 4°C or below and use within 3–4 days. Keep
+    combined cooling and serving time out of the refrigerator within 2 hours, or
+    1 hour above 90°F / 32°C. Both assembled-unbaked and baked cookies may
+    freeze airtight up to one month; thaw overnight in the refrigerator, then
+    bake the raw route or serve the baked route chilled.
+  timing: >-
+    The approximately two-hour plan includes active mixing/shaping, about one
+    hour of dough chill with the at-least 45-minute filling freeze overlapping,
+    one 16–19 minute oven batch and ten minutes initial tray cooling.
+    Cold-service cooling, rechilling and additional oven batches add time.
+    Preheating starts while the mixtures chill and must finish before loading.
+  sources:
+    - title: Chelsweets — filled-cookie preparation and freezer routes
+      url: 'https://chelsweets.com/pumpkin-cheesecake-cookies/'
+    - title: FDA — raw flour and coating contact
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+    - title: FDA — perishable chilling
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    - title: USDA — existing conservative working storage limit
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
@@ -314,3 +416,11 @@ The filled, baked cookies need refrigeration even though the dough contains no e
 ## Cooking Notes
 
 Chill the dough before wrapping it around the filling. If warm hands make shaping difficult, flatten portions between sheets of parchment. Leave about three inches between cookies and use the surface-texture cue rather than waiting for dark browning.
+
+### Make-ahead routes
+
+The twelve large filled cookies remain one fixed batch. Freeze assembled unbaked cookies airtight for up to one month, thaw overnight in the refrigerator, then bake by the written set-exterior cue. Baked cookies may also be frozen airtight up to one month and thawed in the refrigerator overnight. The two freezer routes are separate; keep all cream-cheese filling and the complete dough and coating in either route.
+
+For cinnamon toast, set aside any clean extra coating before it touches the raw dough. Discard coating that has contacted raw dough; do not put that coating straight on cooked toast.
+
+Longer dough chilling can make flattening and filling harder. Keep the cheese filling chilled and rechill portions if handling warms them; the dough and filling chills do not need to be added together. The full-fat block cream cheese stays in the filling.

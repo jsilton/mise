@@ -1,0 +1,1118 @@
+{
+  "slug": "whole-spelt-pumpkin-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "743c8dcfcb1343a5c7d60c07d44f527ea881634fc7b1f42092d94516e75fa927",
+  "acceptedSourceSha256": "5ac4f1d52d245a39602a317ad56716926998d74277742ba24500651b287338a0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "18–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "23–25 min, plus cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Pure Pumpkin Puree",
+        "1/3 cup Unsalted Butter, melted",
+        "1/2 cup Honey",
+        "2 large Eggs",
+        "1 1/2 cups Whole Spelt Flour",
+        "1 tbsp Pumpkin Pie Spice (The Finishing Touch)",
+        "1 tsp Baking Soda + 1/4 tsp Baking Powder",
+        "1/2 tsp Sea Salt"
+      ],
+      "after": [
+        "--- Muffin batter ---",
+        "1 cup plain pumpkin puree",
+        "1/3 cup unsalted butter, melted and cooled until warm, not hot",
+        "1/2 cup honey",
+        "2 large eggs",
+        "1 1/2 cups whole spelt flour",
+        "1 tbsp pumpkin pie spice",
+        "1 tsp baking soda",
+        "1/4 tsp baking powder",
+        "1/2 tsp sea salt"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 225,
+        "protein": 1.5,
+        "carbs": 23,
+        "fat": 16,
+        "fiber": 0,
+        "sugar": 22,
+        "sodium": 360
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Muffin batter",
+            "ingredients": [
+              {
+                "id": "pumpkin",
+                "key": "pumpkin",
+                "name": "plain pumpkin puree",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted and cooled until warm, not hot"
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "whole spelt flour",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spice",
+                "key": "spice",
+                "name": "pumpkin pie spice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 350°F and line a muffin tin. The original batch plans twelve regular muffins; use enough similar wells for the scaled batter and keep comparable fill rather than overflowing the original tin."
+          },
+          {
+            "id": "dry",
+            "title": "Mix dry ingredients",
+            "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed."
+          },
+          {
+            "id": "wet",
+            "title": "Mix the wet ingredients",
+            "text": "In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm rather than hot before it touches the eggs."
+          },
+          {
+            "id": "combine",
+            "title": "Combine",
+            "text": "Make a well in the dry mixture and fold in the pumpkin mixture until no dry flour pockets remain. Do not keep beating to make a perfectly smooth batter."
+          },
+          {
+            "id": "bake",
+            "title": "Fill and bake",
+            "text": "Divide among the lined cups, about ¾ full, using another well or load if needed. Wait until the oven reaches 350°F, then bake for 18–20 minutes per load, until golden and a center toothpick comes out clean."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let the muffins firm enough to lift from the pan, then finish cooling on a rack before covering. They may be served warm; cooling completely for storage takes additional time."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Distributing two leaveners and combining a pumpkin-rich spelt batter without excess beating.",
+        "outcome": "Golden muffins with no wet batter on a center tester and no dry flour pockets in the crumb.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The original batch plans twelve regular muffins. Scale wells or oven loads, keeping the listed amounts and similar fill; do not multiply the original pan dimensions.",
+          "Melt the full butter amount and let it become warm rather than hot before adding the eggs.",
+          "Do not taste raw batter or dough. Wash hands and tools after handling raw flour or eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Both leaveners and salt are dispersed through the flour.",
+            "why": "A combined ingredient label must not hide the smaller baking-powder dose."
+          },
+          {
+            "step": 4,
+            "cue": "No dry flour remains after folding.",
+            "why": "Further beating is unnecessary; exact seconds cannot account for bowl size and technique."
+          },
+          {
+            "step": 5,
+            "cue": "Golden tops and clean center testers.",
+            "why": "A tall top alone does not show that the pumpkin-rich center has baked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dry flour pockets remain.",
+            "cause": "Folding stopped before reaching the bowl bottom and corners.",
+            "fix": "Scrape and fold until the pockets disappear, then stop; do not compensate with extra pumpkin or liquid."
+          },
+          {
+            "problem": "Scaled batter does not fit twelve wells.",
+            "cause": "The original count was treated as unlimited pan capacity.",
+            "fix": "Use additional wells and oven loads at similar fill; keep the entire full formula."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Whole spelt flour",
+            "alternative": "Same listed volume of whole-wheat flour",
+            "effect": "A supported whole-flour replacement with a different crumb; use the center check. Neither flour is gluten free."
+          }
+        ],
+        "storage": "Cool fully before sealing for room-temperature storage. Freeze cooled plain muffins airtight for longer keeping and thaw the portion needed. Do not seal them while warm; no perishable frosting or filling is included.",
+        "timing": "Five minutes preparation plus 18–20 minutes baking gives a 23–25 minute subtotal for one load. Measuring, melting/cooling butter, extra oven loads and complete storage cooling may take longer than that planning allowance. Begin preheating at setup; any heating still needed before loading extends elapsed time.",
+        "sources": [
+          {
+            "title": "100 Days of Real Food — complete spelt formula and whole-wheat option",
+            "url": "https://www.100daysofrealfood.com/recipe-whole-spelt-pumpkin-muffins-and-other-spelt-recipes/"
+          },
+          {
+            "title": "FDA — raw flour handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe key to spelt muffins that aren't dry is high hydration. Spelt has a more fragile gluten structure than wheat; by using a full cup of pumpkin and 1/2 cup of honey, we create a moisture guard that results in a tender, cake-like texture. Pumpkin pie spice defines the autumnal profile. Do not over-mix once the flour is added, as the muffins will deflate and lose their vertical rise.\n\n## Directions\n\n1.  **Dry Mix:** In a large bowl, whisk together spelt flour, spices, baking soda, baking powder, and salt.\n2.  **The Emulsion:** In a medium bowl, whisk eggs, honey, and melted butter. Stir in the pumpkin puree until perfectly smooth and orange.\n3.  **Combine:** Make a well in the dry ingredients. Pour in the pumpkin mix. Fold with a spatula until **just combined**.\n4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each cup 3/4 full. Bake for 18-20 minutes until a toothpick inserted into the center comes out clean.\n5.  **Cool:** Let cool completely in the pan to allow the spelt structure to set into a Crunch tender crumb.\n",
+    "after": "\n## Chef's Note\n\nLisa Leake’s spelt muffins keep the full pumpkin, honey and melted butter in a simple batter. Whisk the leaveners through the flour before combining wet and dry, and stop folding once no dry pockets remain. A golden top and clean center tester are more useful than an assumed rise or a rigid mixing clock.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F and line a muffin tin. The original batch plans twelve regular muffins; use enough similar wells for the scaled batter and keep comparable fill rather than overflowing the original tin.\n2. **Mix dry ingredients:** Whisk whole spelt flour, pumpkin pie spice, baking soda, baking powder, and sea salt together until the two leaveners and salt are evenly distributed.\n3. **Mix the wet ingredients:** In a separate bowl, whisk plain pumpkin puree, unsalted butter, honey, and large eggs until combined. Cool melted butter until warm rather than hot before it touches the eggs.\n4. **Combine:** Make a well in the dry mixture and fold in the pumpkin mixture until no dry flour pockets remain. Do not keep beating to make a perfectly smooth batter.\n5. **Fill and bake:** Divide among the lined cups, about ¾ full, using another well or load if needed. Wait until the oven reaches 350°F, then bake for 18–20 minutes per load, until golden and a center toothpick comes out clean.\n6. **Cool:** Let the muffins firm enough to lift from the pan, then finish cooling on a rack before covering. They may be served warm; cooling completely for storage takes additional time.\n\n## Cooking Notes\n\n### Flour and make-ahead choices\n\nWhole-wheat flour may replace the whole spelt flour at its full listed volume. Keep the full pumpkin, honey, butter, eggs, spices and both leaveners; the crumb and bake time can differ with flour choice. Spelt is wheat and is not a gluten-free substitute.\n\nCool before covering for room-temperature storage, or freeze the cooled muffins airtight for later. Thaw the portion you need before serving. The plain muffins have no cream-cheese filling or glaze.\n"
+  },
+  "findings": [
+    {
+      "id": "FGB11-S01",
+      "title": "FGB11-S01",
+      "rationale": "Preserve every full current dose, split the exact combined leavener row, start preheat before mixing and remove unsupported guaranteed moisture/vertical-rise claims. Restore the source same-volume whole-wheat option and embedded plain room/freezer note lost atf6128211. Keep current separate-bowl wet preparation as a complete route; source originally mixes eggs/honey/butter in the flour well then folds pumpkin, documented separately without declaring either household-tested. Cooling for storage and remaining preheat are additional to the short source subtotal.",
+      "confidence": "High for full doses/source options; moderate for equipment/timing",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "f6128211ccdbc8926119618119f0e93b7cbd911b",
+        "https://www.100daysofrealfood.com/recipe-whole-spelt-pumpkin-muffins-and-other-spelt-recipes/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Saved/current primary agree on the full butter/honey/pumpkin/flour and both leaveners,350°F and18–20minutes/clean tester. Source whole-wheat replacement and room/freezer choice are explicit. Bowl order, warm-fat precaution, pan scaling and practical cooling plan are editorial process guidance, not tested yield or quantified hydration.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "formula",
+        "content",
+        "learning",
+        "servings",
+        "cookTime",
+        "totalTime"
+      ],
+      "questions": [
+        "Can the actual ingredient measuring and butter cooling fit five active minutes? Actual twelve-well fill and full cooling time are unmeasured. Source unnamed salt differs from current sea-salt specificity; no equal-density conversion asserted."
+      ]
+    },
+    {
+      "id": "FGB11-META",
+      "title": "FGB11-META",
+      "rationale": "Omit unproven country-origin and legacy numerical nutrition while preserving the current cuisine/style, identity, title, source and all rich doses. This is written-source editorial work, not kitchen testing.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact whole-spelt-pumpkin-muffins saved cooking and followed history establish no geographic birthplace or verified nutrient calculation. American style is retained independently; a publisher’s location or course label is not country-origin evidence.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Whole%20Spelt%20Pumpkin%20Muffins.html",
+    "introductionScope": "Actual first retained cooking HTML before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "FGB11-S01",
+      "rationale": "Preserve every full current dose, split the exact combined leavener row, start preheat before mixing and remove unsupported guaranteed moisture/vertical-rise claims. Restore the source same-volume whole-wheat option and embedded plain room/freezer note lost atf6128211. Keep current separate-bowl wet preparation as a complete route; source originally mixes eggs/honey/butter in the flour well then folds pumpkin, documented separately without declaring either household-tested. Cooling for storage and remaining preheat are additional to the short source subtotal.",
+      "applicability": "Saved/current primary agree on the full butter/honey/pumpkin/flour and both leaveners,350°F and18–20minutes/clean tester. Source whole-wheat replacement and room/freezer choice are explicit. Bowl order, warm-fat precaution, pan scaling and practical cooling plan are editorial process guidance, not tested yield or quantified hydration."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 cup Pure Pumpkin Puree",
+        "destinations": 2,
+        "stateAndAllocation": "Pumpkin in wet",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 1,
+        "text": "1/3 cup Unsalted Butter, melted",
+        "destinations": 2,
+        "stateAndAllocation": "Melted butter",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 2,
+        "text": "1/2 cup Honey",
+        "destinations": 2,
+        "stateAndAllocation": "Honey",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 3,
+        "text": "2 large Eggs",
+        "destinations": 2,
+        "stateAndAllocation": "Both eggs",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 4,
+        "text": "1 1/2 cups Whole Spelt Flour",
+        "destinations": 1,
+        "stateAndAllocation": "Spelt flour",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 5,
+        "text": "1 tbsp Pumpkin Pie Spice (The Finishing Touch)",
+        "destinations": 1,
+        "stateAndAllocation": "Spice",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 6,
+        "text": "1 tsp Baking Soda + 1/4 tsp Baking Powder",
+        "destinations": 1,
+        "stateAndAllocation": "Soda1tsp and powder¼tsp separately",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Sea Salt",
+        "destinations": 1,
+        "stateAndAllocation": "Sea salt",
+        "source": "exact frozen current ingredient row"
+      }
+    ],
+    "unlistedBefore": [],
+    "proposed": [
+      {
+        "id": "batter.pumpkin",
+        "name": "plain pumpkin puree",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm rather than hot before it touches the eggs."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "melted and cooled until warm, not hot",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm rather than hot before it touches the eggs."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.honey",
+        "name": "honey",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm rather than hot before it touches the eggs."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm rather than hot before it touches the eggs."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.flour",
+        "name": "whole spelt flour",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.spice",
+        "name": "pumpkin pie spice",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F and line a muffin tin. The original batch plans twelve regular muffins; use enough similar wells for the scaled batter and keep comparable fill rather than overflowing the original tin.",
+      "generatedText": "1. **Prepare:** Preheat the oven to 350°F and line a muffin tin. The original batch plans twelve regular muffins; use enough similar wells for the scaled batter and keep comparable fill rather than overflowing the original tin.",
+      "dependsOn": [],
+      "assigned": []
+    },
+    {
+      "index": 2,
+      "id": "dry",
+      "title": "Mix dry ingredients",
+      "text": "Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed.",
+      "generatedText": "2. **Mix dry ingredients:** Whisk whole spelt flour, pumpkin pie spice, baking soda, baking powder, and sea salt together until the two leaveners and salt are evenly distributed.",
+      "dependsOn": ["prep"],
+      "assigned": ["batter.flour", "batter.spice", "batter.soda", "batter.powder", "batter.salt"]
+    },
+    {
+      "index": 3,
+      "id": "wet",
+      "title": "Mix the wet ingredients",
+      "text": "In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm rather than hot before it touches the eggs.",
+      "generatedText": "3. **Mix the wet ingredients:** In a separate bowl, whisk plain pumpkin puree, unsalted butter, honey, and large eggs until combined. Cool melted butter until warm rather than hot before it touches the eggs.",
+      "dependsOn": ["dry"],
+      "assigned": ["batter.pumpkin", "batter.butter", "batter.honey", "batter.egg"]
+    },
+    {
+      "index": 4,
+      "id": "combine",
+      "title": "Combine",
+      "text": "Make a well in the dry mixture and fold in the pumpkin mixture until no dry flour pockets remain. Do not keep beating to make a perfectly smooth batter.",
+      "generatedText": "4. **Combine:** Make a well in the dry mixture and fold in the pumpkin mixture until no dry flour pockets remain. Do not keep beating to make a perfectly smooth batter.",
+      "dependsOn": ["wet"],
+      "assigned": []
+    },
+    {
+      "index": 5,
+      "id": "bake",
+      "title": "Fill and bake",
+      "text": "Divide among the lined cups, about ¾ full, using another well or load if needed. Wait until the oven reaches 350°F, then bake for 18–20 minutes per load, until golden and a center toothpick comes out clean.",
+      "generatedText": "5. **Fill and bake:** Divide among the lined cups, about ¾ full, using another well or load if needed. Wait until the oven reaches 350°F, then bake for 18–20 minutes per load, until golden and a center toothpick comes out clean.",
+      "dependsOn": ["combine"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Let the muffins firm enough to lift from the pan, then finish cooling on a rack before covering. They may be served warm; cooling completely for storage takes additional time.",
+      "generatedText": "6. **Cool:** Let the muffins firm enough to lift from the pan, then finish cooling on a rack before covering. They may be served warm; cooling completely for storage takes additional time.",
+      "dependsOn": ["bake"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Whole-wheat flour",
+        "scope": "Exclusive entire1½cupflourreplacement(originalbatch), same full otheringredients/350°F/18–20reference andcenterendpoint;noextra liquids."
+      },
+      {
+        "name": "Original one-bowl sequence",
+        "scope": "Samecompleteformula. Whiskdry, makewell,addeggs/honey/meltedwarmbutter,mixthenfoldwholepumpkinuntilcombined. No sourceoil/fat/egg/leavener quantity normalization."
+      }
+    ],
+    "completeCookingOptions": "### Flour and make-ahead choices\n\nWhole-wheat flour may replace the whole spelt flour at its full listed volume. Keep the full pumpkin, honey, butter, eggs, spices and both leaveners; the crumb and bake time can differ with flour choice. Spelt is wheat and is not a gluten-free substitute.\n\nCool before covering for room-temperature storage, or freeze the cooled muffins airtight for later. Thaw the portion you need before serving. The plain muffins have no cream-cheese filling or glaze.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Whole spelt flour",
+        "alternative": "Same listed volume of whole-wheat flour",
+        "effect": "A supported whole-flour replacement with a different crumb; use the center check. Neither flour is gluten free."
+      }
+    ],
+    "allMainDestinations": [
+      {
+        "id": "batter.pumpkin",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.butter",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.honey",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.egg",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.flour",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.spice",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.soda",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.powder",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.salt",
+        "destinations": ["dry"]
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [],
+    "completeBranches": [
+      {
+        "name": "Whole-wheat flour",
+        "replace": [
+          {
+            "id": "batter.flour",
+            "name": "whole-wheat flour",
+            "amount": 1.5,
+            "unit": "cup",
+            "destination": "dry"
+          }
+        ],
+        "scope": "All other full amounts and center endpoint unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.pumpkin",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.butter",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.spice",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 0.375,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 2.25,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 3,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 4.5,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "batter.flour",
+                "name": "whole-wheat flour",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Exact original one-bowl process",
+        "replace": [],
+        "scope": "Dry mix then well; eggs/honey/melted cooled butter mixed in; pumpkin folded last. All full amounts unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.pumpkin",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.butter",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.spice",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "easy-breakfast-yogurt-popsicles"
+    ],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained as metadata only; no composed meal or linked component receives review credit."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Can the actual ingredient measuring and butter cooling fit five active minutes? Actual twelve-well fill and full cooling time are unmeasured. Source unnamed salt differs from current sea-salt specificity; no equal-density conversion asserted."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

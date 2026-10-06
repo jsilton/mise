@@ -1,0 +1,2363 @@
+{
+  "slug": "red-velvet-cupcakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "af27566826c64ad1ea6aea4a4eb2afd341729778a3e092ce9b024236393a638e",
+  "acceptedSourceSha256": "912138b247559a38f49282f00868c1995a22998b5aa5fab7e5d8f9b5737917ca",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–21 min per oven load"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "At least 45–46 min, plus complete cooling, frosting and additional oven loads"
+    },
+    {
+      "field": "servings",
+      "before": "14 cupcakes",
+      "after": "14 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/3 cups All-Purpose Flour",
+        "1/4 cup Cornstarch for texture",
+        "4 tsp Unsweetened Cocoa Powder (Natural)",
+        "1 cup Granulated Sugar",
+        "1/2 cup Canola or Avocado Oil",
+        "1/4 cup Unsalted Butter, softened",
+        "1/2 cup Whole Buttermilk",
+        "1/2 tsp Distilled White Vinegar (The Finishing Touch)",
+        "2 large Eggs, separated",
+        "2 tsp Pure Vanilla Extract",
+        "1/2 tsp Baking Soda",
+        "Red Food Coloring (Gel preferred)",
+        "[Favorite Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting)"
+      ],
+      "after": [
+        "--- Cupcake batter ---",
+        "1 1/3 cups all-purpose flour",
+        "1/4 cup cornstarch",
+        "4 tsp natural unsweetened cocoa powder",
+        "1 cup granulated sugar",
+        "1/2 cup canola or avocado oil",
+        "1/4 cup unsalted butter, softened to room temperature",
+        "1/2 cup whole buttermilk, room temperature",
+        "1/2 tsp distilled white vinegar",
+        "2 large eggs, room temperature; separated",
+        "2 tsp pure vanilla extract",
+        "1/2 tsp baking soda",
+        "1/4 tsp salt",
+        "red food coloring, gel or liquid, enough for the desired color, optional",
+        "--- Frosting ---",
+        "[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting), prepare separately and use enough for the cooled cupcakes"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 520,
+        "protein": 3,
+        "carbs": 33,
+        "fat": 43.5,
+        "fiber": 1,
+        "sugar": 14.5,
+        "sodium": 310
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 14,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Cupcake batter",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "natural unsweetened cocoa powder",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "canola or avocado oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "softened to room temperature"
+              },
+              {
+                "id": "buttermilk",
+                "key": "buttermilk",
+                "name": "whole buttermilk",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ],
+                "preparation": "room temperature"
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "distilled white vinegar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "room temperature; separated"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "color",
+                "key": "color",
+                "name": "red food coloring",
+                "allowance": "gel or liquid, enough for the desired color",
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Frosting",
+            "ingredients": [
+              {
+                "id": "frosting",
+                "key": "frosting",
+                "name": "[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting)",
+                "allowance": "prepare separately and use enough for the cooled cupcakes",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare and separate the eggs",
+            "text": "Preheat the oven to 350°F. Line a 12-cup muffin tin. Separate {{ingredients}}, keeping whites in a clean, grease-free bowl and yolks separate. The original batch plans 14 cupcakes: use a second tin or bake the remaining two in another load. Scale the number of lined wells and oven loads with the batter, not the well size."
+          },
+          {
+            "id": "whip",
+            "title": "Whip the whites",
+            "text": "Beat the separated whites on high until soft peaks form, about 2–3 minutes: the tip bends over when the whisk is lifted. Set aside. Use all the whites from the listed eggs; do not keep a fixed two-white count when scaling."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined."
+          },
+          {
+            "id": "cream",
+            "title": "Cream butter and sugar, then add oil",
+            "text": "Use {{ingredients}} in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth."
+          },
+          {
+            "id": "wet",
+            "title": "Add yolks and flavorings",
+            "text": "Beat in all the reserved yolks, then {{ingredients}}, using the food coloring only if desired. Scrape the sides and bottom of the bowl."
+          },
+          {
+            "id": "combine",
+            "title": "Combine with buttermilk",
+            "text": "With the mixer on low, add the dry mixture in three additions, alternating with {{ingredients}} and beginning and ending with the dry mixture. Mix each addition just until incorporated."
+          },
+          {
+            "id": "fold",
+            "title": "Fold in the whites",
+            "text": "Gently fold in all the soft-peaked whites with a spatula until incorporated. Avoid beating them into the batter."
+          },
+          {
+            "id": "bake",
+            "title": "Fill and bake",
+            "text": "Fill each lined well ½–⅔ full; do not force all the batter into twelve wells or overfill to hit the planning count. Wait for the oven to reach 350°F. Bake 20–21 minutes per load, until the tops spring back gently and a center toothpick comes out clean. Refrigerate unbaked batter between sequential loads and use it promptly."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Cool in the tin for 5 minutes, then transfer to a rack to cool completely. Complete rack cooling has no fixed duration here."
+          },
+          {
+            "id": "finish",
+            "title": "Frost",
+            "text": "Prepare {{ingredients}} following that separate recipe. Frost completely cooled cupcakes close to serving; store any extra frosting according to its own instructions."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Soft-peaked whites, complete dry mixing and enough cupcake wells.",
+        "outcome": "Fully baked cupcakes with a gently springing top, cooled before cream cheese frosting.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use all whites and yolks from the listed eggs, and have clean grease-free tools for whipping. Keep the original two-egg count only as original-batch context.",
+          "For the original batch, fourteen regular cupcakes require more than one twelve-well load or another tin. Fill level controls capacity; use enough wells for the listed scaled batch. Allow the full rack cooling before frosting.",
+          "Do not taste raw batter. Wash hands and tools after handling raw flour or eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Soft peaks bend over when the whisk is lifted.",
+            "why": "This batter uses the source soft-peak fold; stiff peaks are not the required endpoint."
+          },
+          {
+            "step": 3,
+            "cue": "Salt, soda, natural cocoa, flour and cornstarch are evenly combined.",
+            "why": "Salt is part of the complete dry mixture and needs to be distributed evenly."
+          },
+          {
+            "step": 8,
+            "cue": "½–⅔-full wells, springing tops and a clean center tester.",
+            "why": "The planned count does not override well capacity or center doneness."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cupcakes overflow or have joined tops.",
+            "cause": "Too much batter was forced into twelve wells.",
+            "fix": "Use additional lined wells or another load, keeping the source fill level rather than forcing the listed count."
+          },
+          {
+            "problem": "Batter is beaten excessively after adding oil.",
+            "cause": "Small butter pieces were mistaken for a failed mixture.",
+            "fix": "Stop chasing perfect smoothness at the butter-oil stage. Mix each dry addition just until incorporated and fold the soft whites gently."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "All-purpose flour plus cornstarch",
+            "alternative": "1⅔ cups (195 g) cake flour for the original batch, scaled proportionally",
+            "effect": "Replace both full flour entries together; do not add cake flour to them."
+          },
+          {
+            "ingredient": "Whole buttermilk",
+            "alternative": "Soured whole milk with the acid and final-volume method above",
+            "effect": "The full final milk volume replaces buttermilk, while the separate batter vinegar remains."
+          },
+          {
+            "ingredient": "Regular cupcakes",
+            "alternative": "Around 36 minis from the original batch",
+            "effect": "Same full batter, different wells and 12–13-minute per-load checks; count remains approximate."
+          }
+        ],
+        "storage": "Unfrosted cupcakes may be made one day ahead, cooled and stored covered at room temperature. Prepare frosting one day ahead and keep covered in the refrigerator. For longer storage, freeze unfrosted cupcakes up to 2–3 months and thaw overnight in the refrigerator. The source allows leftover cupcakes for 3 days at room temperature or refrigerated; for this cream-cheese-frosted version use refrigeration at 40°F / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C, and use within the source’s 3-day plan.",
+        "timing": "Twenty minutes of preparation plus 20–21 minutes baking and the five-minute tin rest gives 45–46 minutes for the first load before complete rack cooling and frosting. Start preheating with setup; any remaining heating and later loads extend elapsed time. The publisher’s two-hour total is its planning estimate, not a measured household cooling duration.",
+        "sources": [
+          {
+            "title": "Sally’s Baking — full cupcake method, variants and make-ahead notes",
+            "url": "https://sallysbakingaddiction.com/red-velvet-cupcakes/"
+          },
+          {
+            "title": "FDA — raw batter handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "FDA — conservative cream-cheese-frosted storage",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRed velvet originated in the South during the Victorian era when \"velvet cakes\" described fine-crumbed, tender cakes made with buttermilk. Buttermilk, vinegar, and natural cocoa powder react with baking soda to create a tall, airy crumb. Whipping egg whites separately and folding them in at the end provides cloud-like lightness, while adding cornstarch mimics cake flour for a delicate texture rather than a dense, bready one.\n\n## Directions\n\n1.  **Aeration:** In a clean bowl, beat the 2 egg whites until stiff peaks form. Set aside.\n2.  **Dry Mix:** Sift together flour, cornstarch, cocoa, baking soda, and salt.\n3.  **The Emulsion:** In a stand mixer, cream butter and sugar for 2 minutes. Add oil and beat on high until light. Whisk in yolks, vanilla, vinegar, and food coloring until vibrant red.\n4.  **Combine:** Alternately add the dry mix and the buttermilk to the butter mixture, beginning and ending with the dry. **Do not over-mix.**\n5.  **The Fold:** Gently fold the whipped egg whites into the batter with a spatula until just incorporated.\n6.  **Bake:** Divide into a lined 12-cup tin (filling 2/3 full). Bake at 350°F for 20-21 minutes until the tops spring back.\n7.  **Cool:** Let cool **completely** before frosting.\n8.  **Finish:** Top with a massive dollop of [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting).\n",
+    "after": "\n## Chef's Note\n\nUse natural cocoa, the full buttermilk and the listed vinegar; this is a lightly chocolate-flavored cupcake with both butter and oil. Soft-peaked egg whites are folded in last. Small butter pieces in the mixture are acceptable, and the cupcake fill level and center tester matter more than forcing fourteen cakes into one twelve-cup tin.\n\n## Directions\n\n1. **Prepare and separate the eggs:** Preheat the oven to 350°F. Line a 12-cup muffin tin. Separate large eggs, keeping whites in a clean, grease-free bowl and yolks separate. The original batch plans 14 cupcakes: use a second tin or bake the remaining two in another load. Scale the number of lined wells and oven loads with the batter, not the well size.\n2. **Whip the whites:** Beat the separated whites on high until soft peaks form, about 2–3 minutes: the tip bends over when the whisk is lifted. Set aside. Use all the whites from the listed eggs; do not keep a fixed two-white count when scaling.\n3. **Mix the dry ingredients:** Have all-purpose flour, cornstarch, natural unsweetened cocoa powder, baking soda, and salt ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined.\n4. **Cream butter and sugar, then add oil:** Use granulated sugar, canola or avocado oil, and unsalted butter in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth.\n5. **Add yolks and flavorings:** Beat in all the reserved yolks, then distilled white vinegar, pure vanilla extract, and red food coloring (if using), using the food coloring only if desired. Scrape the sides and bottom of the bowl.\n6. **Combine with buttermilk:** With the mixer on low, add the dry mixture in three additions, alternating with whole buttermilk and beginning and ending with the dry mixture. Mix each addition just until incorporated.\n7. **Fold in the whites:** Gently fold in all the soft-peaked whites with a spatula until incorporated. Avoid beating them into the batter.\n8. **Fill and bake:** Fill each lined well ½–⅔ full; do not force all the batter into twelve wells or overfill to hit the planning count. Wait for the oven to reach 350°F. Bake 20–21 minutes per load, until the tops spring back gently and a center toothpick comes out clean. Refrigerate unbaked batter between sequential loads and use it promptly.\n9. **Cool:** Cool in the tin for 5 minutes, then transfer to a rack to cool completely. Complete rack cooling has no fixed duration here.\n10. **Frost:** Prepare [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting) following that separate recipe. Frost completely cooled cupcakes close to serving; store any extra frosting according to its own instructions.\n\n## Cooking Notes\n\n### Flour and milk options\n\nFor the original 14-cupcake batch, 1⅔ cups (195 g) cake flour may replace BOTH the 1⅓ cups all-purpose flour and ¼ cup cornstarch. Scale that replacement with the batch; keep all other ingredients unchanged.\n\nFor a buttermilk substitute in the original batch, put 1 tsp white vinegar OR lemon juice into a measuring cup, then add whole milk to a TOTAL of ½ cup. Stir and stand 5 minutes, then use this in place of the full buttermilk. Scale both the acid and final volume proportionally; the separate listed ½ tsp vinegar in the batter remains. Lower-fat or nondairy milk is a separate source option with less richness, not the whole-milk main.\n\n### Color and size options\n\nColoring is optional. For the original batch, the liquid-color example is 2 tbsp; scale that liquid example proportionally, or tint to preference. Gel has no measured interchangeable dose. The source has no tested natural-color alternative. Apple cider vinegar may replace the listed white vinegar in the same amount.\n\nFor mini cupcakes, use the full same batter in lined mini wells, or wells greased with a suitable baking spray. The original batch plans around 36 minis; maintain ½–⅔ fill and plan additional tins or loads when scaling. Bake at 350°F for 12–13 minutes per load, until a center toothpick comes out clean, then cool before frosting. The source’s layer cake is a different recipe, not a pan conversion for this batter. Its thin-frosting piping-tip advice describes its frosting; it does not establish how this linked frosting pipes.\n"
+  },
+  "findings": [
+    {
+      "id": "CQT07-R01",
+      "title": "CQT07-R01",
+      "rationale": "Restore exact¼tsp salt, soft-peaked whites, preheat, full14-capacity planning, clean center tester and5minpan rest from native/b7/045/current Sally.23b28c81 removed salt and complete variants/notes while substituting stiff whites. No later accepted or explicit removal found. All full current richness, avocado option, gel choice and linked frosting preserved; complete flour/DIYmilk/color/mini/makeahead/freezer variants restored distinctly, with original-batch quantities and proportional scope.",
+      "confidence": "high for dose/source method; moderate for conservative refrigeration between loads and frosted storage",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "23b28c81ec78e13a85ee322d7941da79dfc02a8b",
+        "https://sallysbakingaddiction.com/red-velvet-cupcakes/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Exact saved/current primary recipe establishes quarter-teaspoon salt, soft peaks, pan fill, timing and options. FDA only supports raw handling and conservative perishable frosting refrigeration. Current primary metric equivalents differ from older saved equivalents; no weights averaged/imported into main.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "content",
+        "learning",
+        "cookTime",
+        "totalTime",
+        "servings"
+      ],
+      "questions": [
+        "How many regular cakes does the actual tin produce at½–⅔ fill? Which source metric weight set, if any, should be used? Linked frosting has not received a whole review here; amount/piping/storage depend on that separate recipe. No natural-color or layer-pan formula supplied."
+      ]
+    },
+    {
+      "id": "CQT07-META",
+      "title": "CQT07-META",
+      "rationale": "Omit unsupported bulk country/region-origin and unverified per-serving nutrition, preserving exact cuisine/style, title, rating and source attribution. Recipe-specific learning and authored quantities allocate the complete measured recipe plus supported genuine allowances. Retain current numerical planning yields, now labeled as portions/cupcakes rather than a new measured yield.",
+      "confidence": "high for metadata provenance; planning counts unmeasured",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "Sally’s exact saved recipe and current primary page support the cupcake formula and source variants, not this particular recipe’s country of origin or the repository’s numerical nutrition estimate. Retain American style, source credit and the separate cream-cheese frosting link; do not infer geography from style. No kitchen testing occurred.",
+      "exactBeforeAfterReferences": ["origin", "nutrition", "learning", "formula", "servings"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-SOURCE-DETAILS-AND-COOKING-PROSE",
+      "title": "Preserve source details and clear cooking instructions",
+      "rationale": "The user asks for clear cooking prose rather than audit or shelf-life-test commentary. These replacements keep every existing storage clock, cold temperature, freezing option and refrigerator thaw, while removing commentary about invented/measured keeping life. Private records must retain the conservative category application and unknown frosting/product life; no new shelf duration is proposed.",
+      "confidence": "High source existence and semantic preservation; formula/product outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific useful prose and truthful untested/private evidence; do not add procedural review panels."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "General perishable cold handling supports the conservative frosting choice, not validation of a specific cake/frosting shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Red%20Velvet%20Cupcakes.html",
+    "introductionScope": "Actual first cooking HTML introduction before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "CQT07-R01",
+      "rationale": "Restore exact¼tsp salt, soft-peaked whites, preheat, full14-capacity planning, clean center tester and5minpan rest from native/b7/045/current Sally.23b28c81 removed salt and complete variants/notes while substituting stiff whites. No later accepted or explicit removal found. All full current richness, avocado option, gel choice and linked frosting preserved; complete flour/DIYmilk/color/mini/makeahead/freezer variants restored distinctly, with original-batch quantities and proportional scope.",
+      "applicability": "Exact saved/current primary recipe establishes quarter-teaspoon salt, soft peaks, pan fill, timing and options. FDA only supports raw handling and conservative perishable frosting refrigeration. Current primary metric equivalents differ from older saved equivalents; no weights averaged/imported into main."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 1/3 cups All-Purpose Flour",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "AP flour sifted"
+      },
+      {
+        "index": 1,
+        "text": "1/4 cup Cornstarch for texture",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Starch sifted"
+      },
+      {
+        "index": 2,
+        "text": "4 tsp Unsweetened Cocoa Powder (Natural)",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Cocoa sifted"
+      },
+      {
+        "index": 3,
+        "text": "1 cup Granulated Sugar",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Sugar creamed"
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Canola or Avocado Oil",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Oil beaten"
+      },
+      {
+        "index": 5,
+        "text": "1/4 cup Unsalted Butter, softened",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Butter creamed"
+      },
+      {
+        "index": 6,
+        "text": "1/2 cup Whole Buttermilk",
+        "source": "exact frozen current ingredient row",
+        "destinations": 4,
+        "stateAndAllocation": "Buttermilk alternated"
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Distilled White Vinegar (The Finishing Touch)",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Vinegar wet mixture"
+      },
+      {
+        "index": 8,
+        "text": "2 large Eggs, separated",
+        "source": "exact frozen current ingredient row",
+        "destinations": [1, 3, 5],
+        "stateAndAllocation": "Two fixed whites stiff; yolks wet; whites folded"
+      },
+      {
+        "index": 9,
+        "text": "2 tsp Pure Vanilla Extract",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Vanilla wet mixture"
+      },
+      {
+        "index": 10,
+        "text": "1/2 tsp Baking Soda",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Soda sifted"
+      },
+      {
+        "index": 11,
+        "text": "Red Food Coloring (Gel preferred)",
+        "source": "exact frozen current ingredient row",
+        "destinations": 3,
+        "stateAndAllocation": "Coloring wet mixture"
+      },
+      {
+        "index": 12,
+        "text": "[Favorite Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting)",
+        "source": "exact frozen current ingredient row",
+        "destinations": 8,
+        "stateAndAllocation": "Linked frosting unmeasured"
+      }
+    ],
+    "unlistedBefore": [
+      {
+        "name": "salt",
+        "amount": "unstated despite dry method",
+        "step": 2
+      }
+    ],
+    "proposed": [
+      {
+        "id": "cake.flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1 1/3",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.starch",
+        "name": "cornstarch",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.cocoa",
+        "name": "natural unsweetened cocoa powder",
+        "quantity": {
+          "amount": 4,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Use {{ingredients}} in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.oil",
+        "name": "canola or avocado oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Use {{ingredients}} in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "softened to room temperature",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Use {{ingredients}} in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.buttermilk",
+        "name": "whole buttermilk",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "room temperature",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "combine",
+            "share": 1,
+            "text": "With the mixer on low, add the dry mixture in three additions, alternating with {{ingredients}} and beginning and ending with the dry mixture. Mix each addition just until incorporated."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.vinegar",
+        "name": "distilled white vinegar",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Beat in all the reserved yolks, then {{ingredients}}, using the food coloring only if desired. Scrape the sides and bottom of the bowl."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "room temperature; separated",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1,
+            "text": "Preheat the oven to 350°F. Line a 12-cup muffin tin. Separate {{ingredients}}, keeping whites in a clean, grease-free bowl and yolks separate. The original batch plans 14 cupcakes: use a second tin or bake the remaining two in another load. Scale the number of lined wells and oven loads with the batter, not the well size."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Beat in all the reserved yolks, then {{ingredients}}, using the food coloring only if desired. Scrape the sides and bottom of the bowl."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.color",
+        "name": "red food coloring",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "gel or liquid, enough for the desired color",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Beat in all the reserved yolks, then {{ingredients}}, using the food coloring only if desired. Scrape the sides and bottom of the bowl."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.frosting",
+        "name": "[Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting)",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "prepare separately and use enough for the cooled cupcakes",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1,
+            "text": "Prepare {{ingredients}} following that separate recipe. Frost completely cooled cupcakes close to serving; store any extra frosting according to its own instructions."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare and separate the eggs",
+      "text": "Preheat the oven to 350°F. Line a 12-cup muffin tin. Separate {{ingredients}}, keeping whites in a clean, grease-free bowl and yolks separate. The original batch plans 14 cupcakes: use a second tin or bake the remaining two in another load. Scale the number of lined wells and oven loads with the batter, not the well size.",
+      "generatedText": "1. **Prepare and separate the eggs:** Preheat the oven to 350°F. Line a 12-cup muffin tin. Separate large eggs, keeping whites in a clean, grease-free bowl and yolks separate. The original batch plans 14 cupcakes: use a second tin or bake the remaining two in another load. Scale the number of lined wells and oven loads with the batter, not the well size.",
+      "dependsOn": [],
+      "assigned": ["cake.egg"]
+    },
+    {
+      "index": 2,
+      "id": "whip",
+      "title": "Whip the whites",
+      "text": "Beat the separated whites on high until soft peaks form, about 2–3 minutes: the tip bends over when the whisk is lifted. Set aside. Use all the whites from the listed eggs; do not keep a fixed two-white count when scaling.",
+      "generatedText": "2. **Whip the whites:** Beat the separated whites on high until soft peaks form, about 2–3 minutes: the tip bends over when the whisk is lifted. Set aside. Use all the whites from the listed eggs; do not keep a fixed two-white count when scaling.",
+      "dependsOn": ["prep"],
+      "assigned": []
+    },
+    {
+      "index": 3,
+      "id": "dry",
+      "title": "Mix the dry ingredients",
+      "text": "Have {{ingredients}} ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined.",
+      "generatedText": "3. **Mix the dry ingredients:** Have all-purpose flour, cornstarch, natural unsweetened cocoa powder, baking soda, and salt ready. Sift the flour and cornstarch together, then whisk in the cocoa, baking soda and salt until evenly combined.",
+      "dependsOn": ["whip"],
+      "assigned": ["cake.flour", "cake.starch", "cake.cocoa", "cake.soda", "cake.salt"]
+    },
+    {
+      "index": 4,
+      "id": "cream",
+      "title": "Cream butter and sugar, then add oil",
+      "text": "Use {{ingredients}} in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth.",
+      "generatedText": "4. **Cream butter and sugar, then add oil:** Use granulated sugar, canola or avocado oil, and unsalted butter in this order: with a mixer, beat the butter until creamy, about 1 minute. Add the sugar and beat about 2 minutes, scraping the bowl. Add the oil and beat about 2 minutes. Small butter pieces may remain; do not keep beating solely to make the butter-oil mixture perfectly smooth.",
+      "dependsOn": ["dry"],
+      "assigned": ["cake.sugar", "cake.oil", "cake.butter"]
+    },
+    {
+      "index": 5,
+      "id": "wet",
+      "title": "Add yolks and flavorings",
+      "text": "Beat in all the reserved yolks, then {{ingredients}}, using the food coloring only if desired. Scrape the sides and bottom of the bowl.",
+      "generatedText": "5. **Add yolks and flavorings:** Beat in all the reserved yolks, then distilled white vinegar, pure vanilla extract, and red food coloring (if using), using the food coloring only if desired. Scrape the sides and bottom of the bowl.",
+      "dependsOn": ["cream"],
+      "assigned": ["cake.vinegar", "cake.vanilla", "cake.color"]
+    },
+    {
+      "index": 6,
+      "id": "combine",
+      "title": "Combine with buttermilk",
+      "text": "With the mixer on low, add the dry mixture in three additions, alternating with {{ingredients}} and beginning and ending with the dry mixture. Mix each addition just until incorporated.",
+      "generatedText": "6. **Combine with buttermilk:** With the mixer on low, add the dry mixture in three additions, alternating with whole buttermilk and beginning and ending with the dry mixture. Mix each addition just until incorporated.",
+      "dependsOn": ["wet"],
+      "assigned": ["cake.buttermilk"]
+    },
+    {
+      "index": 7,
+      "id": "fold",
+      "title": "Fold in the whites",
+      "text": "Gently fold in all the soft-peaked whites with a spatula until incorporated. Avoid beating them into the batter.",
+      "generatedText": "7. **Fold in the whites:** Gently fold in all the soft-peaked whites with a spatula until incorporated. Avoid beating them into the batter.",
+      "dependsOn": ["combine"],
+      "assigned": []
+    },
+    {
+      "index": 8,
+      "id": "bake",
+      "title": "Fill and bake",
+      "text": "Fill each lined well ½–⅔ full; do not force all the batter into twelve wells or overfill to hit the planning count. Wait for the oven to reach 350°F. Bake 20–21 minutes per load, until the tops spring back gently and a center toothpick comes out clean. Refrigerate unbaked batter between sequential loads and use it promptly.",
+      "generatedText": "8. **Fill and bake:** Fill each lined well ½–⅔ full; do not force all the batter into twelve wells or overfill to hit the planning count. Wait for the oven to reach 350°F. Bake 20–21 minutes per load, until the tops spring back gently and a center toothpick comes out clean. Refrigerate unbaked batter between sequential loads and use it promptly.",
+      "dependsOn": ["fold"],
+      "assigned": []
+    },
+    {
+      "index": 9,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Cool in the tin for 5 minutes, then transfer to a rack to cool completely. Complete rack cooling has no fixed duration here.",
+      "generatedText": "9. **Cool:** Cool in the tin for 5 minutes, then transfer to a rack to cool completely. Complete rack cooling has no fixed duration here.",
+      "dependsOn": ["bake"],
+      "assigned": []
+    },
+    {
+      "index": 10,
+      "id": "finish",
+      "title": "Frost",
+      "text": "Prepare {{ingredients}} following that separate recipe. Frost completely cooled cupcakes close to serving; store any extra frosting according to its own instructions.",
+      "generatedText": "10. **Frost:** Prepare [Cream Cheese Frosting](/mise/recipes/favorite-cream-cheese-frosting) following that separate recipe. Frost completely cooled cupcakes close to serving; store any extra frosting according to its own instructions.",
+      "dependsOn": ["cool"],
+      "assigned": ["finish.frosting"]
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "All-purpose flour plus cornstarch",
+        "alternative": "1⅔ cups (195 g) cake flour for the original batch, scaled proportionally",
+        "effect": "Replace both full flour entries together; do not add cake flour to them."
+      },
+      {
+        "ingredient": "Whole buttermilk",
+        "alternative": "Soured whole milk with the acid and final-volume method above",
+        "effect": "The full final milk volume replaces buttermilk, while the separate batter vinegar remains."
+      },
+      {
+        "ingredient": "Regular cupcakes",
+        "alternative": "Around 36 minis from the original batch",
+        "effect": "Same full batter, different wells and 12–13-minute per-load checks; count remains approximate."
+      }
+    ],
+    "completeCookingOptions": "### Flour and milk options\n\nFor the original 14-cupcake batch, 1⅔ cups (195 g) cake flour may replace BOTH the 1⅓ cups all-purpose flour and ¼ cup cornstarch. Scale that replacement with the batch; keep all other ingredients unchanged. \n\nFor a buttermilk substitute in the original batch, put 1 tsp white vinegar OR lemon juice into a measuring cup, then add whole milk to a TOTAL of ½ cup. Stir and stand 5 minutes, then use this in place of the full buttermilk. Scale both the acid and final volume proportionally; the separate listed ½ tsp vinegar in the batter remains. Lower-fat or nondairy milk is a separate source option with less richness, not the whole-milk main.\n\n### Color and size options\n\nColoring is optional. For the original batch, the liquid-color example is 2 tbsp; scale that liquid example proportionally, or tint to preference. Gel has no measured interchangeable dose. The source has no tested natural-color alternative. Apple cider vinegar may replace the listed white vinegar in the same amount.\n\nFor mini cupcakes, use the full same batter in lined mini wells, or wells greased with a suitable baking spray. The original batch plans around 36 minis; maintain ½–⅔ fill and plan additional tins or loads when scaling. Bake at 350°F for 12–13 minutes per load, until a center toothpick comes out clean, then cool before frosting. The source’s layer cake is a different recipe, not a pan conversion for this batter. Its thin-frosting piping-tip advice describes its frosting; it does not establish how this linked frosting pipes.",
+    "scaling": "Every main formula quantity/equivalent follows the ingredient control. Explicit original-batch alternate quantities are separate entire replacements and scale proportionally with that batch; time/pan dimensions never multiply. Options with unspecified original amounts remain unresolved rather than receiving guessed quantities.",
+    "allMainDestinations": [
+      {
+        "id": "cake.flour",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.starch",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.cocoa",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.sugar",
+        "destinations": ["cream"]
+      },
+      {
+        "id": "cake.oil",
+        "destinations": ["cream"]
+      },
+      {
+        "id": "cake.butter",
+        "destinations": ["cream"]
+      },
+      {
+        "id": "cake.buttermilk",
+        "destinations": ["combine"]
+      },
+      {
+        "id": "cake.vinegar",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "cake.egg",
+        "destinations": ["prep"]
+      },
+      {
+        "id": "cake.vanilla",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "cake.soda",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.salt",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "cake.color",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "finish.frosting",
+        "destinations": ["finish"]
+      }
+    ],
+    "noSourceQuantityImportedIntoUnrelatedMain": true,
+    "completeBranches": [
+      {
+        "name": "Cake flour",
+        "remove": ["cake.flour", "cake.starch"],
+        "replace": [
+          {
+            "id": "option.flour",
+            "name": "cake flour",
+            "amount": 1.6666666666666667,
+            "unit": "cup",
+            "equivalent": {
+              "amount": 195,
+              "unit": "g"
+            },
+            "destination": "dry"
+          }
+        ],
+        "scope": "Replaces BOTH flour and starch; all full other quantities unchanged. Native/public primary exact source195g retained, not a cup-to-mass invention.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.butter",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.buttermilk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "cake.vinegar",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["prep"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.color",
+            "quantity": null,
+            "allowance": "gel or liquid, enough for the desired color",
+            "destinations": ["wet"]
+          },
+          {
+            "id": "finish.frosting",
+            "quantity": null,
+            "allowance": "prepare separately and use enough for the cooled cupcakes",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 0.4166666666666667,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 48.75,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 0.8333333333333334,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 97.5,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 1.6666666666666667,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 195,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 2.5,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 292.5,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 3.3333333333333335,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 390,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 5,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 585,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.flour",
+                "name": "cake flour",
+                "amount": 1.6666666666666667,
+                "unit": "cup",
+                "equivalent": {
+                  "amount": 195,
+                  "unit": "g"
+                },
+                "destination": "dry",
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "DIY whole buttermilk",
+        "remove": ["cake.buttermilk"],
+        "replace": [
+          {
+            "id": "option.acid",
+            "name": "white vinegar OR lemon juice",
+            "amount": 1,
+            "unit": "tsp",
+            "destination": "sour milk"
+          },
+          {
+            "id": "option.final-volume",
+            "name": "whole milk plus acid TOTAL volume",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "combine"
+          }
+        ],
+        "scope": "Whole milk quantity is fill-to-total, NOT½cupmilk plusacid. Stand5minfixed; separate cake.vinegar½tsp stillwet. Lowerfat/nondairy same-volume option less rich, notmain.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.starch",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.butter",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.vinegar",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["prep"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.color",
+            "quantity": null,
+            "allowance": "gel or liquid, enough for the desired color",
+            "destinations": ["wet"]
+          },
+          {
+            "id": "finish.frosting",
+            "quantity": null,
+            "allowance": "prepare separately and use enough for the cooled cupcakes",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 0.25,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 0.5,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 1,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 1.5,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 2,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 3,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.acid",
+                "name": "white vinegar OR lemon juice",
+                "amount": 1,
+                "unit": "tsp",
+                "destination": "sour milk",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.final-volume",
+                "name": "whole milk plus acid TOTAL volume",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "combine",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Liquid food coloring",
+        "remove": ["cake.color"],
+        "replace": [
+          {
+            "id": "option.color",
+            "name": "liquid red coloring",
+            "amount": 2,
+            "unit": "tbsp",
+            "destination": "wet"
+          }
+        ],
+        "scope": "Original example, proportionally scaled or tint by preference. Gel remains unmeasured; omitcolor option affects no other entry.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.starch",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.butter",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.buttermilk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "cake.vinegar",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["prep"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "finish.frosting",
+            "quantity": null,
+            "allowance": "prepare separately and use enough for the cooled cupcakes",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 0.5,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 4,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 6,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "option.color",
+                "name": "liquid red coloring",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Mini wells",
+        "replace": [],
+        "scope": "Entire main formula unchanged; original around36planningminis,½–⅔fill,350°F12–13minperload+5minpan/fullcool/frost. Extra baking spray unmeasured if not using liners.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.starch",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.butter",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.buttermilk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "cake.vinegar",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["prep"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.color",
+            "quantity": null,
+            "allowance": "gel or liquid, enough for the desired color",
+            "destinations": ["wet"]
+          },
+          {
+            "id": "finish.frosting",
+            "quantity": null,
+            "allowance": "prepare separately and use enough for the cooled cupcakes",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Apple cider vinegar",
+        "replace": [
+          {
+            "id": "cake.vinegar",
+            "name": "apple cider vinegar",
+            "amount": 0.5,
+            "unit": "tsp",
+            "destination": "wet"
+          }
+        ],
+        "scope": "Exclusive exact same listed vinegar amount; no other entry changed.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": "1 1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.starch",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.oil",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.butter",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "cake.buttermilk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["prep"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "cake.color",
+            "quantity": null,
+            "allowance": "gel or liquid, enough for the desired color",
+            "destinations": ["wet"]
+          },
+          {
+            "id": "finish.frosting",
+            "quantity": null,
+            "allowance": "prepare separately and use enough for the cooled cupcakes",
+            "destinations": ["finish"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 0.125,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 0.25,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 0.5,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 0.75,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 1,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 1.5,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.vinegar",
+                "name": "apple cider vinegar",
+                "amount": 0.5,
+                "unit": "tsp",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "grandmommys-pound-cake",
+      "banana-pudding",
+      "grandmommys-pecan-pie",
+      "apple-cider-cream-pie"
+    ],
+    "scope": "Actual meal search found no incoming linked meals for these six. Generic pairsWith metadata retained without meal certification. RedVelvet linked frosting is a separate recipe, not whole-reviewed here."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "How many regular cakes does the actual tin produce at½–⅔ fill? Which source metric weight set, if any, should be used? Linked frosting has not received a whole review here; amount/piping/storage depend on that separate recipe. No natural-color or layer-pan formula supplied.",
+    "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

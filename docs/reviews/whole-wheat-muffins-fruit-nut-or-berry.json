@@ -1,0 +1,2201 @@
+{
+  "slug": "whole-wheat-muffins-fruit-nut-or-berry",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "d0581da74235b544e2ca9c06fa7dc0e9e8a4d00ba43461c26544632a848abfab",
+  "acceptedSourceSha256": "19fe83cc616403b16ab6eadb58b5684675cbda0b6ac72533ca7c0b65c124720f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "10–15 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "20–25 min, plus cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/2 cups white whole-wheat flour",
+        "3/4 cup Apple or Orange Juice (The Acid Balance)",
+        "1/4 cup Coconut Oil, melted",
+        "2 tbsp Honey + 1 tsp Pure Vanilla Extract",
+        "2 large Eggs",
+        "2 tsp Baking Powder",
+        "1/2 tsp Cinnamon + 1/8 tsp Nutmeg",
+        "1 cup Blueberries, Strawberries, or Pears"
+      ],
+      "after": [
+        "--- Muffin batter ---",
+        "1 1/2 cups white whole-wheat flour",
+        "3/4 cup apple or orange juice",
+        "1/4 cup coconut oil, melted and cooled until warm, not hot",
+        "2 tbsp honey",
+        "1 tsp pure vanilla extract",
+        "2 large eggs",
+        "2 tsp baking powder",
+        "1/2 tsp ground cinnamon",
+        "1/8 tsp ground nutmeg",
+        "1/2 tsp salt",
+        "--- Fruit choice ---",
+        "1 cup blueberries, diced strawberries, or peeled diced pears, wash fresh fruit before preparing; choose one fruit or a mix at this total volume",
+        "--- Optional serving ---",
+        "salted butter, a little for serving, if desired, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 190,
+        "protein": 1.5,
+        "carbs": 4.5,
+        "fat": 19,
+        "fiber": 1,
+        "sugar": 3.5,
+        "sodium": 90
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Muffin batter",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "white whole-wheat flour",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "juice",
+                "key": "juice",
+                "name": "apple or orange juice",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "coconut oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted and cooled until warm, not hot"
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "ground nutmeg",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fruit",
+            "name": "Fruit choice",
+            "ingredients": [
+              {
+                "id": "fruit",
+                "key": "fruit",
+                "name": "blueberries, diced strawberries, or peeled diced pears",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ],
+                "preparation": "wash fresh fruit before preparing; choose one fruit or a mix at this total volume"
+              }
+            ]
+          },
+          {
+            "id": "serving",
+            "name": "Optional serving",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "salted butter",
+                "allowance": "a little for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 400°F and line a muffin tin. The original batch plans twelve muffins. Use enough similar wells for a scaled batch, leaving room for the complete fruit amount."
+          },
+          {
+            "id": "dry",
+            "title": "Mix dry ingredients",
+            "text": "Whisk {{ingredients}} together, including the full salt amount."
+          },
+          {
+            "id": "wet",
+            "title": "Mix wet ingredients",
+            "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it."
+          },
+          {
+            "id": "combine",
+            "title": "Combine",
+            "text": "Stir the wet mixture into the dry mixture with a spatula until no dry flour pockets remain, then stop mixing."
+          },
+          {
+            "id": "fruit",
+            "title": "Portion and add fruit",
+            "text": "Divide the batter among the lined wells, starting around ⅔ full and leaving room for {{ingredients}}. Divide the complete listed fruit among the wells and gently mix it into each with a small spoon or fork. If the chosen fruit and batter will overflow, use another well or load instead of discarding part of the fruit. Alternatively, fold the full fruit amount into the batter before portioning; use one route, not both."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Wait until the oven reaches 400°F. Bake 10–15 minutes per load, until a center toothpick comes out clean. Fruit pieces and pan fill may change the time; check another central spot if the first tester passes through wet fruit."
+          },
+          {
+            "id": "serve",
+            "title": "Cool and serve",
+            "text": "Let the muffins firm enough to remove from the tin. Serve warm or finish cooling on a rack, with {{ingredients}} only if desired. Cool fully before wrapping or freezing."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Choosing one complete filling route while stopping muffin mixing when the flour is incorporated.",
+        "outcome": "A clean center tester and fruit distributed through the muffins, with no dry flour pockets or overflowing wells.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The original batch plans twelve muffins. Scale the number of wells and the full listed fruit amount; do not treat the original tin as unlimited capacity.",
+          "Choose the full-batch fruit route or the individual-dose option. Individual 1–2 tsp fillings and ¼–½ tsp zest are per original-size muffin, not extra full-batch additions.",
+          "Do not taste raw batter or dough. Wash hands and tools after handling raw flour or eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "No dry flour remains after stirring.",
+            "why": "Bowl size and technique make a fixed mixing-seconds instruction unreliable."
+          },
+          {
+            "step": 5,
+            "cue": "All chosen full-batch fruit is allocated without overflowing wells.",
+            "why": "The full listed fruit amount is divided across the batch; the individual-filling option uses smaller doses per muffin."
+          },
+          {
+            "step": 6,
+            "cue": "A center toothpick is clean, not coated with raw batter.",
+            "why": "A berry can wet a tester; check batter separately rather than assuming a golden top is done."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Fruit overfills the cups.",
+            "cause": "Batter was portioned without leaving room for the complete fruit.",
+            "fix": "Use additional wells, keep similar fill and bake another load; do not discard fruit or pack it into overflowing wells."
+          },
+          {
+            "problem": "A dried-fruit or nut variation is drier than the berry version.",
+            "cause": "The chosen filling carries less moisture than fresh fruit.",
+            "fix": "Choose the fresh-fruit route next time or review that full variation; do not add an arbitrary amount of liquid to every batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Apple or orange juice",
+            "alternative": "Same listed volume of plain milk",
+            "effect": "Less sweet; preserve the full honey, and bake by the tester rather than assuming identical texture."
+          },
+          {
+            "ingredient": "Fresh berries",
+            "alternative": "Same listed volume of frozen berries",
+            "effect": "Keep frozen until combining; released juice can color the batter and change the bake time."
+          },
+          {
+            "ingredient": "Coconut oil",
+            "alternative": "Same listed volume of another oil",
+            "effect": "Changes flavor and cold-state handling; preserve the full fat amount."
+          }
+        ],
+        "storage": "Cool fully before airtight room-temperature storage or freezing for later. Thaw the portion needed; store optional serving butter separately. Perishable meat/dairy fillings are not part of these listed fruit/nut routes and require a different storage plan.",
+        "timing": "Ten minutes preparation plus 10–15 minutes baking gives a 20–25 minute subtotal for one load. Begin preheating at setup; any heating still needed before loading, later loads and cooling extend elapsed time. The individually customized source route adds about 5–10 minutes of original-batch filling work rather than a multiplied universal clock.",
+        "sources": [
+          {
+            "title": "100 Days of Real Food — exact salt and exclusive filling routes",
+            "url": "https://www.100daysofrealfood.com/blueberry-nut-anything-whole-wheat-muffins/"
+          },
+          {
+            "title": "FDA — egg and fresh produce handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — raw flour handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are whole-wheat breakfast muffins. The key to a muffin that isn't heavy is using apple or orange juice as the primary liquid. This provides natural sweetness and acidity that ensures the whole-wheat flour fully hydrates without becoming dense. Instead of folding the fruit into the batter, sprinkle it over the raw muffins in the pan - this prevents the berries from bleeding and ensures a crispy golden top.\n\n## Directions\n\n1.  **Dry Mix:** In a large bowl, whisk together flour, baking powder, cinnamon, nutmeg, and salt.\n2.  **The Emulsion:** In a separate bowl, whisk eggs, honey, vanilla, oil, and juice until smooth.\n3.  **Combine:** Pour the wet ingredients into the dry. Stir with a spatula for exactly 15-20 seconds until **just combined**. **Do not over-mix.**\n4.  **Portion:** Line a 12-cup muffin tin. Fill each cup 2/3 full.\n5.  **The Crunch:** Sprinkle your choice of fruit (blueberries, diced pears, etc.) onto the top of each raw muffin. Stir gently with a toothpick to submerge.\n6.  **Bake:** Preheat oven to 400°F (high heat for Crunch vertical rise). Bake for 10-15 minutes until a toothpick comes out clean.\n7.  **Serve:** Best served warm with salted butter.\n\n## Cooking Notes\n\nFor a nut-free preparation, omit optional nuts and check the other ingredients for cross-contact. Nutmeg is a spice, not a tree nut.\n",
+    "after": "\n## Chef's Note\n\nLisa Leake’s whole-wheat muffin batter was written to let her children choose their own fillings. Juice supplies liquid and sweetness; it does not guarantee a light crumb. Either fold the full fruit amount into the batch or gently mix it into the individual wells, stopping once the batter is combined.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 400°F and line a muffin tin. The original batch plans twelve muffins. Use enough similar wells for a scaled batch, leaving room for the complete fruit amount.\n2. **Mix dry ingredients:** Whisk white whole-wheat flour, baking powder, ground cinnamon, ground nutmeg, and salt together, including the full salt amount.\n3. **Mix wet ingredients:** Whisk apple or orange juice, coconut oil, honey, pure vanilla extract, and large eggs in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it.\n4. **Combine:** Stir the wet mixture into the dry mixture with a spatula until no dry flour pockets remain, then stop mixing.\n5. **Portion and add fruit:** Divide the batter among the lined wells, starting around ⅔ full and leaving room for blueberries, diced strawberries, or peeled diced pears. Divide the complete listed fruit among the wells and gently mix it into each with a small spoon or fork. If the chosen fruit and batter will overflow, use another well or load instead of discarding part of the fruit. Alternatively, fold the full fruit amount into the batter before portioning; use one route, not both.\n6. **Bake:** Wait until the oven reaches 400°F. Bake 10–15 minutes per load, until a center toothpick comes out clean. Fruit pieces and pan fill may change the time; check another central spot if the first tester passes through wet fruit.\n7. **Cool and serve:** Let the muffins firm enough to remove from the tin. Serve warm or finish cooling on a rack, with salted butter (if using) only if desired. Cool fully before wrapping or freezing.\n\n## Cooking Notes\n\n### Filling choices\n\nThe main route uses the full listed fruit amount, either folded into the bowl or divided across the filled wells. For the original batch, the source also permits one cup total of a different filling: applesauce; diced or mashed banana with chopped walnuts; raisins with chopped pecans and an extra pinch of cinnamon; grated carrot with chopped walnuts; mixed dried fruit; or jelly. Scale the chosen total volume with the batch and use it instead of the entire main fruit entry, not in addition. The split within mixed fruit-and-nut choices is unspecified; nuts and drier fillings can change the crumb and bake time.\n\nFor a separate individually flavored source route, omit the main fruit entry and add 1–2 tsp of a chosen filling to each original-size muffin, stirring gently in its well. Increase the number of wells with the batch, not the dose per muffin. Citrus zest uses the smaller source amount ¼–½ tsp per original-size muffin instead of the general filling amount. These individual-dose choices are separate from the full one-cup batch route.\n\n### Oil, juice and keeping\n\nAnother oil may replace the full listed coconut-oil volume. Frozen berries may replace fresh berries at the same listed volume; keep them frozen until mixing so their thawing juice does not spread through the batter. Plain milk may replace all the juice at the same listed volume, but it is less sweet; the full honey remains. Do not automatically add an unmeasured extra sweetener or liquid to the main.\n\nCool the plain muffins before airtight room-temperature storage, or freeze cooled muffins for later and thaw a portion when needed. Keep any optional serving butter separately according to its label. For a nut-free preparation, choose a filling without nuts and check the other ingredients for cross-contact. Nutmeg is a spice, not a tree nut.\n"
+  },
+  "findings": [
+    {
+      "id": "FGB11-W01",
+      "title": "FGB11-W01",
+      "rationale": "Restore exact½tsp source salt missing from the bulkf612 ingredient rewrite although retained in the method, with no later explicit salt-removal decision. Preserve every current measured dose and whole white-wheat generic description accepted atebafdd4. Split combined honey/vanilla and spices, add genuinely unmeasured current serving butter, start preheat at setup and replace the fixed15–20second limit and guaranteed crisp/bleed-prevention claims with ordinary endpoints. Preserve the full current1cup top-mixed fruit route and complete source bowl-folded or individual smaller-dose routes distinctly; do not quietly reduce main fruit to1–2tsp per well. Restore embedded plain freezer and source nut-free notes.",
+      "confidence": "High for lost salt/source routes; moderate for pan planning",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "f6128211ccdbc8926119618119f0e93b7cbd911b",
+        "ebafdd4df773a806310a2537ed6e11377ec35749",
+        "https://www.100daysofrealfood.com/blueberry-nut-anything-whole-wheat-muffins/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Exact saved/current publisher establishes½tspsalt, complete fruit options and per-well versus batch alternatives. Generic unnamed salt is restored without inventing a crystal-density conversion. Main quantities, optional butter and current top-mixing are preserved; preheat/timing/capacity and avoiding unsupported guarantees are editorial process judgments. FDA supports raw handling/washing only.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "formula",
+        "content",
+        "learning",
+        "servings",
+        "cookTime",
+        "totalTime"
+      ],
+      "questions": [
+        "Actual mix-in capacity and useful twelve-muffin count are unmeasured. Mixed nuts/fruit ratios are unspecified. Source modern¼–½cupmoisture additions for dry variations and meat/dairy fillings are separate unvalidated options, not an alteration to the complete main."
+      ]
+    },
+    {
+      "id": "FGB11-META",
+      "title": "FGB11-META",
+      "rationale": "Omit unproven country-origin and legacy numerical nutrition while preserving the current cuisine/style, identity, title, source and all rich doses. This is written-source editorial work, not kitchen testing.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact whole-wheat-muffins-fruit-nut-or-berry saved cooking and followed history establish no geographic birthplace or verified nutrient calculation. American style is retained independently; a publisher’s location or course label is not country-origin evidence.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-SOURCE-SCOPE",
+      "title": "Clarify applicable source and both egg-containing routes",
+      "rationale": "The separately listed FDA flour guidance supports raw-flour claims. The Safe Food Handling page supports egg/produce handling; keep both URLs and all cooking instructions.",
+      "confidence": "High source attribution; moderate egg-dish application, untested.",
+      "applicableSources": [
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Whole-Wheat%20Muffins%20(Fruit,%20Nut,%20or%20Berry).html",
+    "introductionScope": "Actual first retained cooking HTML before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "FGB11-W01",
+      "rationale": "Restore exact½tsp source salt missing from the bulkf612 ingredient rewrite although retained in the method, with no later explicit salt-removal decision. Preserve every current measured dose and whole white-wheat generic description accepted atebafdd4. Split combined honey/vanilla and spices, add genuinely unmeasured current serving butter, start preheat at setup and replace the fixed15–20second limit and guaranteed crisp/bleed-prevention claims with ordinary endpoints. Preserve the full current1cup top-mixed fruit route and complete source bowl-folded or individual smaller-dose routes distinctly; do not quietly reduce main fruit to1–2tsp per well. Restore embedded plain freezer and source nut-free notes.",
+      "applicability": "Exact saved/current publisher establishes½tspsalt, complete fruit options and per-well versus batch alternatives. Generic unnamed salt is restored without inventing a crystal-density conversion. Main quantities, optional butter and current top-mixing are preserved; preheat/timing/capacity and avoiding unsupported guarantees are editorial process judgments. FDA supports raw handling/washing only."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 1/2 cups white whole-wheat flour",
+        "destinations": 1,
+        "stateAndAllocation": "Flour",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 1,
+        "text": "3/4 cup Apple or Orange Juice (The Acid Balance)",
+        "destinations": 2,
+        "stateAndAllocation": "Juice",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 2,
+        "text": "1/4 cup Coconut Oil, melted",
+        "destinations": 2,
+        "stateAndAllocation": "Coconut oil",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 3,
+        "text": "2 tbsp Honey + 1 tsp Pure Vanilla Extract",
+        "destinations": 2,
+        "stateAndAllocation": "Honey2tbsp+vanilla1tsp independent totals",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 4,
+        "text": "2 large Eggs",
+        "destinations": 2,
+        "stateAndAllocation": "Both eggs",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 5,
+        "text": "2 tsp Baking Powder",
+        "destinations": 1,
+        "stateAndAllocation": "Baking powder",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 6,
+        "text": "1/2 tsp Cinnamon + 1/8 tsp Nutmeg",
+        "destinations": 1,
+        "stateAndAllocation": "Cinnamon½tsp+nutmeg⅛tsp independent totals",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 7,
+        "text": "1 cup Blueberries, Strawberries, or Pears",
+        "destinations": 5,
+        "stateAndAllocation": "Full1cupfruit distributed on wells",
+        "source": "exact frozen current ingredient row"
+      }
+    ],
+    "unlistedBefore": [
+      {
+        "name": "salt",
+        "quantity": "unprovided in frozen ingredients; method step1 calls it",
+        "step": 1
+      },
+      {
+        "name": "salted butter",
+        "quantity": "unmeasured optional serving",
+        "step": 7
+      }
+    ],
+    "proposed": [
+      {
+        "id": "batter.flour",
+        "name": "white whole-wheat flour",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together, including the full salt amount."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.juice",
+        "name": "apple or orange juice",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.oil",
+        "name": "coconut oil",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "melted and cooled until warm, not hot",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.honey",
+        "name": "honey",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together, including the full salt amount."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together, including the full salt amount."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.nutmeg",
+        "name": "ground nutmeg",
+        "quantity": {
+          "amount": "1/8",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together, including the full salt amount."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "batter.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "Whisk {{ingredients}} together, including the full salt amount."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "fruit.fruit",
+        "name": "blueberries, diced strawberries, or peeled diced pears",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "wash fresh fruit before preparing; choose one fruit or a mix at this total volume",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "fruit",
+            "share": 1,
+            "text": "Divide the batter among the lined wells, starting around ⅔ full and leaving room for {{ingredients}}. Divide the complete listed fruit among the wells and gently mix it into each with a small spoon or fork. If the chosen fruit and batter will overflow, use another well or load instead of discarding part of the fruit. Alternatively, fold the full fruit amount into the batter before portioning; use one route, not both."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "serving.butter",
+        "name": "salted butter",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "a little for serving, if desired",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Let the muffins firm enough to remove from the tin. Serve warm or finish cooling on a rack, with {{ingredients}} only if desired. Cool fully before wrapping or freezing."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare",
+      "text": "Preheat the oven to 400°F and line a muffin tin. The original batch plans twelve muffins. Use enough similar wells for a scaled batch, leaving room for the complete fruit amount.",
+      "generatedText": "1. **Prepare:** Preheat the oven to 400°F and line a muffin tin. The original batch plans twelve muffins. Use enough similar wells for a scaled batch, leaving room for the complete fruit amount.",
+      "dependsOn": [],
+      "assigned": []
+    },
+    {
+      "index": 2,
+      "id": "dry",
+      "title": "Mix dry ingredients",
+      "text": "Whisk {{ingredients}} together, including the full salt amount.",
+      "generatedText": "2. **Mix dry ingredients:** Whisk white whole-wheat flour, baking powder, ground cinnamon, ground nutmeg, and salt together, including the full salt amount.",
+      "dependsOn": ["prep"],
+      "assigned": [
+        "batter.flour",
+        "batter.powder",
+        "batter.cinnamon",
+        "batter.nutmeg",
+        "batter.salt"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "wet",
+      "title": "Mix wet ingredients",
+      "text": "Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it.",
+      "generatedText": "3. **Mix wet ingredients:** Whisk apple or orange juice, coconut oil, honey, pure vanilla extract, and large eggs in a separate bowl. Keep the melted coconut oil warm rather than hot when it touches the eggs; other same-volume oils may replace it.",
+      "dependsOn": ["dry"],
+      "assigned": ["batter.juice", "batter.oil", "batter.honey", "batter.vanilla", "batter.egg"]
+    },
+    {
+      "index": 4,
+      "id": "combine",
+      "title": "Combine",
+      "text": "Stir the wet mixture into the dry mixture with a spatula until no dry flour pockets remain, then stop mixing.",
+      "generatedText": "4. **Combine:** Stir the wet mixture into the dry mixture with a spatula until no dry flour pockets remain, then stop mixing.",
+      "dependsOn": ["wet"],
+      "assigned": []
+    },
+    {
+      "index": 5,
+      "id": "fruit",
+      "title": "Portion and add fruit",
+      "text": "Divide the batter among the lined wells, starting around ⅔ full and leaving room for {{ingredients}}. Divide the complete listed fruit among the wells and gently mix it into each with a small spoon or fork. If the chosen fruit and batter will overflow, use another well or load instead of discarding part of the fruit. Alternatively, fold the full fruit amount into the batter before portioning; use one route, not both.",
+      "generatedText": "5. **Portion and add fruit:** Divide the batter among the lined wells, starting around ⅔ full and leaving room for blueberries, diced strawberries, or peeled diced pears. Divide the complete listed fruit among the wells and gently mix it into each with a small spoon or fork. If the chosen fruit and batter will overflow, use another well or load instead of discarding part of the fruit. Alternatively, fold the full fruit amount into the batter before portioning; use one route, not both.",
+      "dependsOn": ["combine"],
+      "assigned": ["fruit.fruit"]
+    },
+    {
+      "index": 6,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Wait until the oven reaches 400°F. Bake 10–15 minutes per load, until a center toothpick comes out clean. Fruit pieces and pan fill may change the time; check another central spot if the first tester passes through wet fruit.",
+      "generatedText": "6. **Bake:** Wait until the oven reaches 400°F. Bake 10–15 minutes per load, until a center toothpick comes out clean. Fruit pieces and pan fill may change the time; check another central spot if the first tester passes through wet fruit.",
+      "dependsOn": ["fruit"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "serve",
+      "title": "Cool and serve",
+      "text": "Let the muffins firm enough to remove from the tin. Serve warm or finish cooling on a rack, with {{ingredients}} only if desired. Cool fully before wrapping or freezing.",
+      "generatedText": "7. **Cool and serve:** Let the muffins firm enough to remove from the tin. Serve warm or finish cooling on a rack, with salted butter (if using) only if desired. Cool fully before wrapping or freezing.",
+      "dependsOn": ["bake"],
+      "assigned": ["serving.butter"]
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Complete bowl-folded fruit",
+        "scope": "Samefullmain allquantities;1cupchosenfruit(originalbatch)foldedbeforeportionratherthanafter. Doone route."
+      },
+      {
+        "name": "Alternate batch filling",
+        "scope": "Removefullfruit entry; replacewith1cuptotal(originalbatch)applesauce/banana+walnuts/raisins+pecans/carrot+walnuts/driedfruit/jelly. Splitsunprovided, extra cinnamonpinch genuinelyunmeasured; otherfullbaseunchanged."
+      },
+      {
+        "name": "Individual filling / zest",
+        "scope": "Removefullfruitentry; eachoriginalsizemuffin1–2tspfillingOR¼–½tspcitruszest instead. Increasewellcount withbatch; perwelldoseunchanged. Allbasequantitiesunchanged; noone-cupfruitdoublecount."
+      },
+      {
+        "name": "Other oil / milk / frozen fruit",
+        "scope": "Exclusive samefullvolume ingredientreplacement, allothermainunchanged; milknotextrajuice, frozenfruitnotextrafruit."
+      }
+    ],
+    "completeCookingOptions": "### Filling choices\n\nThe main route uses the full listed fruit amount, either folded into the bowl or divided across the filled wells. For the original batch, the source also permits one cup total of a different filling: applesauce; diced or mashed banana with chopped walnuts; raisins with chopped pecans and an extra pinch of cinnamon; grated carrot with chopped walnuts; mixed dried fruit; or jelly. Scale the chosen total volume with the batch and use it instead of the entire main fruit entry, not in addition. The split within mixed fruit-and-nut choices is unspecified; nuts and drier fillings can change the crumb and bake time.\n\nFor a separate individually flavored source route, omit the main fruit entry and add 1–2 tsp of a chosen filling to each original-size muffin, stirring gently in its well. Increase the number of wells with the batch, not the dose per muffin. Citrus zest uses the smaller source amount ¼–½ tsp per original-size muffin instead of the general filling amount. These individual-dose choices are separate from the full one-cup batch route.\n\n### Oil, juice and keeping\n\nAnother oil may replace the full listed coconut-oil volume. Frozen berries may replace fresh berries at the same listed volume; keep them frozen until mixing so their thawing juice does not spread through the batter. Plain milk may replace all the juice at the same listed volume, but it is less sweet; the full honey remains. Do not automatically add an unmeasured extra sweetener or liquid to the main.\n\nCool the plain muffins before airtight room-temperature storage, or freeze cooled muffins for later and thaw a portion when needed. Keep any optional serving butter separately according to its label. For a nut-free preparation, choose a filling without nuts and check the other ingredients for cross-contact. Nutmeg is a spice, not a tree nut.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Apple or orange juice",
+        "alternative": "Same listed volume of plain milk",
+        "effect": "Less sweet; preserve the full honey, and bake by the tester rather than assuming identical texture."
+      },
+      {
+        "ingredient": "Fresh berries",
+        "alternative": "Same listed volume of frozen berries",
+        "effect": "Keep frozen until combining; released juice can color the batter and change the bake time."
+      },
+      {
+        "ingredient": "Coconut oil",
+        "alternative": "Same listed volume of another oil",
+        "effect": "Changes flavor and cold-state handling; preserve the full fat amount."
+      }
+    ],
+    "allMainDestinations": [
+      {
+        "id": "batter.flour",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.juice",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.oil",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.honey",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.vanilla",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.egg",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "batter.powder",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.cinnamon",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.nutmeg",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "batter.salt",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "fruit.fruit",
+        "destinations": ["fruit"]
+      },
+      {
+        "id": "serving.butter",
+        "destinations": ["serve"]
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "Newer publisher meat/dairy and added-moisture options lack a matched complete formula/storage plan here; do not import them or guessed extra honey."
+    ],
+    "completeBranches": [
+      {
+        "name": "Alternate batch filling",
+        "replace": [
+          {
+            "id": "fruit.fruit",
+            "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+            "amount": 1,
+            "unit": "cup",
+            "destination": "fruit"
+          }
+        ],
+        "scope": "All other full base unchanged. Mixed ingredient splits unprovided; raisin route optional unmeasured cinnamon pinch.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.juice",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.cinnamon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.nutmeg",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "serving.butter",
+            "quantity": null,
+            "allowance": "a little for serving, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 3,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "chosen applesauce OR banana/nuts OR raisins/pecans OR carrot/nuts OR dried fruit OR jelly TOTAL",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Individual filling",
+        "remove": ["fruit.fruit"],
+        "replace": [],
+        "perOriginalSizePiece": {
+          "name": "chosen filling",
+          "amountRange": [1, 2],
+          "unit": "tsp",
+          "destination": "each well"
+        },
+        "scope": "Full main fruit removed; all other full base unchanged. More wells at scale, not multiplied per-piece dose.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.juice",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.cinnamon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.nutmeg",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "serving.butter",
+            "quantity": null,
+            "allowance": "a little for serving, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Individual zest",
+        "remove": ["fruit.fruit"],
+        "replace": [],
+        "perOriginalSizePiece": {
+          "name": "orange OR lemon zest",
+          "amountRange": [0.25, 0.5],
+          "unit": "tsp",
+          "destination": "each well"
+        },
+        "scope": "Exclusive choice instead of general individual filling; all other full base unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.juice",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.cinnamon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.nutmeg",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "serving.butter",
+            "quantity": null,
+            "allowance": "a little for serving, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Milk",
+        "replace": [
+          {
+            "id": "batter.juice",
+            "name": "plain milk",
+            "amount": 0.75,
+            "unit": "cup",
+            "destination": "wet"
+          }
+        ],
+        "scope": "All other full base including honey unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.cinnamon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.nutmeg",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "fruit.fruit",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fruit"]
+          },
+          {
+            "id": "serving.butter",
+            "quantity": null,
+            "allowance": "a little for serving, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 0.1875,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 0.375,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 1.125,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 2.25,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "batter.juice",
+                "name": "plain milk",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Alternate oil",
+        "replace": [
+          {
+            "id": "batter.oil",
+            "name": "other oil of choice",
+            "amount": 0.25,
+            "unit": "cup",
+            "destination": "wet"
+          }
+        ],
+        "scope": "Same full fat, no additive oil.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.juice",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.cinnamon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.nutmeg",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "fruit.fruit",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fruit"]
+          },
+          {
+            "id": "serving.butter",
+            "quantity": null,
+            "allowance": "a little for serving, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.0625,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.375,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "batter.oil",
+                "name": "other oil of choice",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Frozen fruit",
+        "replace": [
+          {
+            "id": "fruit.fruit",
+            "name": "frozen berries",
+            "amount": 1,
+            "unit": "cup",
+            "destination": "fruit"
+          }
+        ],
+        "scope": "Same full fruit total, kept frozen when mixed; no extra fruit.",
+        "completeUnchangedEntries": [
+          {
+            "id": "batter.flour",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.juice",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.honey",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "batter.powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.cinnamon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.nutmeg",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "batter.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "serving.butter",
+            "quantity": null,
+            "allowance": "a little for serving, if desired",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 3,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "fruit.fruit",
+                "name": "frozen berries",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "fruit",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": [
+      "Newer publisher meat/dairy and added-moisture options lack a matched complete formula/storage plan here; do not import them or guessed extra honey."
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "avocado-kale-caesar-salad",
+      "roasted-fall-harvest-salad"
+    ],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained as metadata only; no composed meal or linked component receives review credit."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual mix-in capacity and useful twelve-muffin count are unmeasured. Mixed nuts/fruit ratios are unspecified. Source modern¼–½cupmoisture additions for dry variations and meat/dairy fillings are separate unvalidated options, not an alteration to the complete main."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

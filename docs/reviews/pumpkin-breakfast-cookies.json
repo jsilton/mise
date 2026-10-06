@@ -1,0 +1,1701 @@
+{
+  "slug": "pumpkin-breakfast-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "6d33975fbf2f4d009a048c716a8850b560ad67cf0a4da6b6cd1d7e110d72b69c",
+  "acceptedSourceSha256": "6b7980ed6e0cedb7844b83fc4d75a088dbb7efa446f9f3535502ebd527fc52f3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "blend"],
+      "after": ["bake"]
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–20 min per oven load"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "25–30 min, plus cooling, additional loads and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12 cookies",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 cup Pure Pumpkin Puree",
+        "1/4 cup Coconut Oil, melted",
+        "1/4 cup Honey",
+        "2 large Eggs, beaten",
+        "1 cup Old-fashioned Rolled Oats",
+        "1 cup quick-cooking Oats",
+        "1/4 cup Ground Flaxseed",
+        "2/3 cup Unsweetened Dried Cranberries",
+        "2/3 cup Pumpkin Seeds (Pepitas)",
+        "1 tsp Pumpkin Pie Spice",
+        "1/2 tsp Sea Salt"
+      ],
+      "after": [
+        "--- Wet mixture ---",
+        "1/2 cup plain pumpkin puree",
+        "1/4 cup coconut oil, melted, warm but not hot when combined with eggs",
+        "1/4 cup honey",
+        "2 large eggs",
+        "--- Oats and mix-ins ---",
+        "1 cup old-fashioned rolled oats",
+        "1 cup quick-cooking oats",
+        "1/4 cup ground flaxseed",
+        "2/3 cup unsweetened dried cranberries",
+        "2/3 cup pumpkin seeds (pepitas)",
+        "1 tsp pumpkin pie spice",
+        "1/2 tsp sea salt"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 420,
+        "protein": 8.5,
+        "carbs": 37,
+        "fat": 30.5,
+        "fiber": 3.5,
+        "sugar": 22,
+        "sodium": 210
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "wet",
+            "name": "Wet mixture",
+            "ingredients": [
+              {
+                "id": "pumpkin",
+                "key": "pumpkin",
+                "name": "plain pumpkin puree",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "coconut oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "oil",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted, warm but not hot when combined with eggs"
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "oil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              }
+            ]
+          },
+          {
+            "id": "dry",
+            "name": "Oats and mix-ins",
+            "ingredients": [
+              {
+                "id": "rolled",
+                "key": "rolled",
+                "name": "old-fashioned rolled oats",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "quick",
+                "key": "quick",
+                "name": "quick-cooking oats",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flax",
+                "key": "flax",
+                "name": "ground flaxseed",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cranberries",
+                "key": "cranberries",
+                "name": "unsweetened dried cranberries",
+                "quantity": {
+                  "amount": "2/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepitas",
+                "key": "pepitas",
+                "name": "pumpkin seeds (pepitas)",
+                "quantity": {
+                  "amount": "2/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spice",
+                "key": "spice",
+                "name": "pumpkin pie spice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 350°F and line a baking sheet with parchment. Use additional sheets or oven loads when needed; scaled dough should not be crowded onto the original sheet."
+          },
+          {
+            "id": "oil",
+            "title": "Combine oil and honey",
+            "text": "Whisk {{ingredients}} in a small bowl. If necessary, warm them gently together in a suitable microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather than hot before they touch the eggs."
+          },
+          {
+            "id": "wet",
+            "title": "Mix the eggs and pumpkin",
+            "text": "Whisk {{ingredients}} in a separate bowl until combined, then stir in the warm oil-honey mixture."
+          },
+          {
+            "id": "dry",
+            "title": "Mix oats and inclusions",
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          },
+          {
+            "id": "combine",
+            "title": "Combine thoroughly",
+            "text": "Add the pumpkin mixture to the oat mixture and stir until all the oats and inclusions are coated and the mixture holds together."
+          },
+          {
+            "id": "shape",
+            "title": "Scoop and flatten",
+            "text": "Scoop about ¼ cup per cookie onto the lined sheet. Flatten each into a roughly ¾-inch-thick disk; these cookies do not spread themselves. The original batch plans twelve cookies; use all the dough and keep similar portion size when scaling."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Wait until the oven reaches 350°F. Bake for 15–20 minutes per load, until the edges are lightly browned and the center feels firm. Check again if the center is still loose; sheet loads and cookie thickness can change the time."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let the cookies cool completely on the baking sheet before lifting them or closing them in an airtight container."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coating a two-oat dough completely and shaping cookies that do not spread.",
+        "outcome": "Flattened cookies with lightly browned edges and firm centers that lift intact after cooling.",
+        "techniques": ["temperature"],
+        "before": [
+          "The original twelve-cookie yield is a planning count for roughly quarter-cup scoops. Scale dough quantity and sheet loads while keeping similar cookie size and spacing.",
+          "Warm oil and honey separately if needed; let them become warm rather than hot before adding raw eggs.",
+          "Do not taste the raw egg mixture. Wash hands and tools after handling raw eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Every oat and inclusion is coated and the mixture holds together.",
+            "why": "A fully mixed oat dough avoids dry pockets; a flour-batter lumps rule does not apply."
+          },
+          {
+            "step": 6,
+            "cue": "Each scoop is already flattened to its intended cookie shape.",
+            "why": "The dough does not spread during baking."
+          },
+          {
+            "step": 8,
+            "cue": "Cookies lift without breaking after complete cooling.",
+            "why": "Moving or wrapping them while warm can break the moist cookies and trap steam."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cookies remain tall and loose in the middle.",
+            "cause": "Scoops were left rounded or thicker than the reference.",
+            "fix": "Flatten before baking and continue until the centers firm; do not rely only on edge color."
+          },
+          {
+            "problem": "Egg-free dough has dry flax or excess loose liquid.",
+            "cause": "Flax was added twice or the existing flax was not gelled with the replacement water.",
+            "fix": "Use the listed flax once in the gel, omit the eggs and keep the other complete quantities; avoid adding guessed extra oats or flax."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Honey",
+            "alternative": "Same listed amount of maple syrup or agave",
+            "effect": "A complete sweetener replacement; vegan suitability also requires the egg-free branch."
+          },
+          {
+            "ingredient": "Eggs",
+            "alternative": "Gelled existing flax with ½ cup water for the original two-egg batch",
+            "effect": "Omit eggs and use the listed flax once; binding, texture and bake time can differ."
+          },
+          {
+            "ingredient": "Pepitas",
+            "alternative": "Same total listed volume of chopped nuts or sunflower seeds and chocolate chips",
+            "effect": "Replace the whole pepita amount rather than adding another full inclusion amount; check allergies and chip ingredients."
+          }
+        ],
+        "storage": "Cool completely before airtight storage. The plain-cookie source plan is 3–4 days at room temperature or about one week refrigerated; freeze longer-held portions and aim to use within four months for quality. No cream-cheese filling or glaze is present.",
+        "timing": "Ten minutes preparation plus 15–20 minutes baking gives a 25–30-minute subtotal for one oven load. Complete cooling, additional loads and any oven heating still needed after preparation add elapsed time. The egg-free gel needs additional preparation until gelled; no fixed gel time is supplied.",
+        "sources": [
+          {
+            "title": "Leelalicious — shaping, full egg-free route and source keeping plan",
+            "url": "https://leelalicious.com/pumpkin-breakfast-cookies/"
+          },
+          {
+            "title": "FDA — raw egg handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese breakfast cookies are ideal for busy mornings when you need portable nutrition. The secret to their incredible texture is using both rolled and quick-cooking oats, creating a cookie that's dense and chewy without crumbling. Coconut oil and honey serve as the primary binders and natural sweeteners. These cookies are intentionally designed not to spread; you must flatten them by hand before baking to achieve the desired shape.\n\n## Directions\n\n1.  **The Emulsion:** In a small bowl, whisk the melted coconut oil and honey until smooth. In a separate large bowl, whisk the eggs and pumpkin puree. Combine the two mixtures.\n2.  **The Dry Mix:** In a massive bowl, toss together both types of oats, flaxseed, cranberries, pumpkin seeds, and spices.\n3.  **Combine:** Pour the pumpkin emulsion over the dry ingredients. Stir vigorously until a thick, sticky dough forms.\n4.  **Shape:** Preheat oven to 350°F. Line a baking sheet with parchment. Scoop 1/4-cup portions of dough and **press down firmly** with your palm to create a 3/4-inch thick disk.\n5.  **Bake:** Bake for 15-20 minutes until the edges are golden brown and the center feels firm.\n6.  **The Finish:** Let cool completely on the pan. This is mandatory for the flax and coconut oil to set the \"Bounce.\"\n\n## Cooking Notes\n\nFor a vegan version, replace honey with maple syrup and use an appropriate egg replacement. Flax or chia eggs may change the cookie texture.\n",
+    "after": "\n## Chef's Note\n\nRegina’s pumpkin breakfast cookies combine rolled and quick oats with cranberries and pepitas. The mixed oat texture gives a substantial cookie, and the eggs help hold the mixture together. Flatten the scoops before baking: this dough keeps the shape you give it.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F and line a baking sheet with parchment. Use additional sheets or oven loads when needed; scaled dough should not be crowded onto the original sheet.\n2. **Combine oil and honey:** Whisk coconut oil and honey in a small bowl. If necessary, warm them gently together in a suitable microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather than hot before they touch the eggs.\n3. **Mix the eggs and pumpkin:** Whisk plain pumpkin puree and large eggs in a separate bowl until combined, then stir in the warm oil-honey mixture.\n4. **Mix oats and inclusions:** In a large bowl, stir old-fashioned rolled oats, quick-cooking oats, ground flaxseed, unsweetened dried cranberries, pumpkin seeds (pepitas), pumpkin pie spice, and sea salt together until evenly distributed, including all the salt.\n5. **Combine thoroughly:** Add the pumpkin mixture to the oat mixture and stir until all the oats and inclusions are coated and the mixture holds together.\n6. **Scoop and flatten:** Scoop about ¼ cup per cookie onto the lined sheet. Flatten each into a roughly ¾-inch-thick disk; these cookies do not spread themselves. The original batch plans twelve cookies; use all the dough and keep similar portion size when scaling.\n7. **Bake:** Wait until the oven reaches 350°F. Bake for 15–20 minutes per load, until the edges are lightly browned and the center feels firm. Check again if the center is still loose; sheet loads and cookie thickness can change the time.\n8. **Cool:** Let the cookies cool completely on the baking sheet before lifting them or closing them in an airtight container.\n\n## Cooking Notes\n\n### Egg-free and sweetener choices\n\nMaple syrup or agave may replace the full listed honey amount. To make the publisher’s egg-free route, omit both eggs from the original batch and soak the already listed ¼ cup ground flaxseed in ½ cup water until gelled. Keep this flax out of the dry bowl, then add the gel to the pumpkin with the other wet ingredients; do not add a second dose of flaxseed. Scale both the existing flax and added water with the batch. For a vegan route, also replace the honey with maple syrup or agave. Keep all oats, oil, pumpkin, cranberries and pepitas. Gelled-flax cookies can bind and bake differently; check their centers.\n\nUse certified gluten-free oats for a gluten-free preparation and check the other ingredients. A mix of chopped nuts or sunflower seeds and chocolate chips may replace the pepitas at their total listed volume; this changes texture, sweetness and allergen suitability. The main uses the full pepitas.\n\n### Keeping the cookies\n\nCool fully before closing the container. The publisher’s plain-cookie plan is 3–4 days airtight at room temperature or about a week refrigerated. For longer keeping, freeze cooled cookies in sealed bags and aim to use within four months for quality. Thaw a portion before serving; do not pack warm cookies into a closed container.\n"
+  },
+  "findings": [
+    {
+      "id": "FGB11-B01",
+      "title": "FGB11-B01",
+      "rationale": "Preserve all eleven current doses and both oat types; explicitly allocate the previously unmentioned salt, start preheating before mixing and keep warm fat away from eggs until warm rather than hot. Restore the complete native/maple/agave option and current publisher existing-flax+½cupwater egg-free route, rather than guessing a new flax dose or chia preparation. Keep current quarter-cup scoops and approximate¾inchflattened disks, but source twelve is planning and extra loads/cooling are additional. Restore current-primary plain-cookie storage/freezer guidance distinctly, without applying a generic perishable-glaze plan.",
+      "confidence": "High for allocation/source options; moderate for handling, timing and source-storage application",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "23b28c81ec78e13a85ee322d7941da79dfc02a8b",
+        "https://leelalicious.com/pumpkin-breakfast-cookies/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Native/b7/045 and current primary agree on all core doses and lightly browned-edge shaping method. Current primary supplies the exact existing-flax/water replacement and source storage plan. That is publisher guidance for plain cookies, not a measured household shelf-life result. Warm-fat sequencing and capacity planning are editorial inference; FDA supports raw handling, not cookie binding or yield.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "formula",
+        "content",
+        "learning",
+        "servings",
+        "cookTime",
+        "totalTime",
+        "cookingMethods"
+      ],
+      "questions": [
+        "Actual quarter-cup count and full cooling duration remain unmeasured. Source chia-egg preparation is unspecified. Do nut/seed/chip combinations need a different center check?"
+      ]
+    },
+    {
+      "id": "FGB11-META",
+      "title": "FGB11-META",
+      "rationale": "Omit unproven country-origin and legacy numerical nutrition while preserving the current cuisine/style, identity, title, source and all rich doses. This is written-source editorial work, not kitchen testing.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact pumpkin-breakfast-cookies saved cooking and followed history establish no geographic birthplace or verified nutrient calculation. American style is retained independently; a publisher’s location or course label is not country-origin evidence.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Pumpkin%20Breakfast%20Cookies.html",
+    "introductionScope": "Actual first retained cooking HTML before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "FGB11-B01",
+      "rationale": "Preserve all eleven current doses and both oat types; explicitly allocate the previously unmentioned salt, start preheating before mixing and keep warm fat away from eggs until warm rather than hot. Restore the complete native/maple/agave option and current publisher existing-flax+½cupwater egg-free route, rather than guessing a new flax dose or chia preparation. Keep current quarter-cup scoops and approximate¾inchflattened disks, but source twelve is planning and extra loads/cooling are additional. Restore current-primary plain-cookie storage/freezer guidance distinctly, without applying a generic perishable-glaze plan.",
+      "applicability": "Native/b7/045 and current primary agree on all core doses and lightly browned-edge shaping method. Current primary supplies the exact existing-flax/water replacement and source storage plan. That is publisher guidance for plain cookies, not a measured household shelf-life result. Warm-fat sequencing and capacity planning are editorial inference; FDA supports raw handling, not cookie binding or yield."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1/2 cup Pure Pumpkin Puree",
+        "destinations": 1,
+        "stateAndAllocation": "Pumpkin whisked with eggs",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 1,
+        "text": "1/4 cup Coconut Oil, melted",
+        "destinations": 1,
+        "stateAndAllocation": "Full melted oil",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 2,
+        "text": "1/4 cup Honey",
+        "destinations": 1,
+        "stateAndAllocation": "Honey",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 3,
+        "text": "2 large Eggs, beaten",
+        "destinations": 1,
+        "stateAndAllocation": "Both eggs",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 4,
+        "text": "1 cup Old-fashioned Rolled Oats",
+        "destinations": 2,
+        "stateAndAllocation": "Rolled oats",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 5,
+        "text": "1 cup quick-cooking Oats",
+        "destinations": 2,
+        "stateAndAllocation": "Quick oats",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 6,
+        "text": "1/4 cup Ground Flaxseed",
+        "destinations": 2,
+        "stateAndAllocation": "Ground flax",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 7,
+        "text": "2/3 cup Unsweetened Dried Cranberries",
+        "destinations": 2,
+        "stateAndAllocation": "Cranberries",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 8,
+        "text": "2/3 cup Pumpkin Seeds (Pepitas)",
+        "destinations": 2,
+        "stateAndAllocation": "Pepitas",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 9,
+        "text": "1 tsp Pumpkin Pie Spice",
+        "destinations": 2,
+        "stateAndAllocation": "Spice",
+        "source": "exact frozen current ingredient row"
+      },
+      {
+        "index": 10,
+        "text": "1/2 tsp Sea Salt",
+        "destinations": null,
+        "stateAndAllocation": "Listed salt not explicitly named in current method; source dry mix uses full½tsp",
+        "source": "exact frozen current ingredient row"
+      }
+    ],
+    "unlistedBefore": [],
+    "proposed": [
+      {
+        "id": "wet.pumpkin",
+        "name": "plain pumpkin puree",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl until combined, then stir in the warm oil-honey mixture."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "wet.oil",
+        "name": "coconut oil",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "melted, warm but not hot when combined with eggs",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "oil",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a small bowl. If necessary, warm them gently together in a suitable microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather than hot before they touch the eggs."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "wet.honey",
+        "name": "honey",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "oil",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a small bowl. If necessary, warm them gently together in a suitable microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather than hot before they touch the eggs."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "wet.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wet",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a separate bowl until combined, then stir in the warm oil-honey mixture."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.rolled",
+        "name": "old-fashioned rolled oats",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.quick",
+        "name": "quick-cooking oats",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.flax",
+        "name": "ground flaxseed",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.cranberries",
+        "name": "unsweetened dried cranberries",
+        "quantity": {
+          "amount": "2/3",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.pepitas",
+        "name": "pumpkin seeds (pepitas)",
+        "quantity": {
+          "amount": "2/3",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.spice",
+        "name": "pumpkin pie spice",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dry.salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dry",
+            "share": 1,
+            "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F and line a baking sheet with parchment. Use additional sheets or oven loads when needed; scaled dough should not be crowded onto the original sheet.",
+      "generatedText": "1. **Prepare:** Preheat the oven to 350°F and line a baking sheet with parchment. Use additional sheets or oven loads when needed; scaled dough should not be crowded onto the original sheet.",
+      "dependsOn": [],
+      "assigned": []
+    },
+    {
+      "index": 2,
+      "id": "oil",
+      "title": "Combine oil and honey",
+      "text": "Whisk {{ingredients}} in a small bowl. If necessary, warm them gently together in a suitable microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather than hot before they touch the eggs.",
+      "generatedText": "2. **Combine oil and honey:** Whisk coconut oil and honey in a small bowl. If necessary, warm them gently together in a suitable microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather than hot before they touch the eggs.",
+      "dependsOn": ["prep"],
+      "assigned": ["wet.oil", "wet.honey"]
+    },
+    {
+      "index": 3,
+      "id": "wet",
+      "title": "Mix the eggs and pumpkin",
+      "text": "Whisk {{ingredients}} in a separate bowl until combined, then stir in the warm oil-honey mixture.",
+      "generatedText": "3. **Mix the eggs and pumpkin:** Whisk plain pumpkin puree and large eggs in a separate bowl until combined, then stir in the warm oil-honey mixture.",
+      "dependsOn": ["oil"],
+      "assigned": ["wet.pumpkin", "wet.egg"]
+    },
+    {
+      "index": 4,
+      "id": "dry",
+      "title": "Mix oats and inclusions",
+      "text": "In a large bowl, stir {{ingredients}} together until evenly distributed, including all the salt.",
+      "generatedText": "4. **Mix oats and inclusions:** In a large bowl, stir old-fashioned rolled oats, quick-cooking oats, ground flaxseed, unsweetened dried cranberries, pumpkin seeds (pepitas), pumpkin pie spice, and sea salt together until evenly distributed, including all the salt.",
+      "dependsOn": ["wet"],
+      "assigned": [
+        "dry.rolled",
+        "dry.quick",
+        "dry.flax",
+        "dry.cranberries",
+        "dry.pepitas",
+        "dry.spice",
+        "dry.salt"
+      ]
+    },
+    {
+      "index": 5,
+      "id": "combine",
+      "title": "Combine thoroughly",
+      "text": "Add the pumpkin mixture to the oat mixture and stir until all the oats and inclusions are coated and the mixture holds together.",
+      "generatedText": "5. **Combine thoroughly:** Add the pumpkin mixture to the oat mixture and stir until all the oats and inclusions are coated and the mixture holds together.",
+      "dependsOn": ["dry"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "shape",
+      "title": "Scoop and flatten",
+      "text": "Scoop about ¼ cup per cookie onto the lined sheet. Flatten each into a roughly ¾-inch-thick disk; these cookies do not spread themselves. The original batch plans twelve cookies; use all the dough and keep similar portion size when scaling.",
+      "generatedText": "6. **Scoop and flatten:** Scoop about ¼ cup per cookie onto the lined sheet. Flatten each into a roughly ¾-inch-thick disk; these cookies do not spread themselves. The original batch plans twelve cookies; use all the dough and keep similar portion size when scaling.",
+      "dependsOn": ["combine"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Wait until the oven reaches 350°F. Bake for 15–20 minutes per load, until the edges are lightly browned and the center feels firm. Check again if the center is still loose; sheet loads and cookie thickness can change the time.",
+      "generatedText": "7. **Bake:** Wait until the oven reaches 350°F. Bake for 15–20 minutes per load, until the edges are lightly browned and the center feels firm. Check again if the center is still loose; sheet loads and cookie thickness can change the time.",
+      "dependsOn": ["shape"],
+      "assigned": []
+    },
+    {
+      "index": 8,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Let the cookies cool completely on the baking sheet before lifting them or closing them in an airtight container.",
+      "generatedText": "8. **Cool:** Let the cookies cool completely on the baking sheet before lifting them or closing them in an airtight container.",
+      "dependsOn": ["bake"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Maple or agave",
+        "scope": "Replace all¼cuphoney(originalbatch) withsamevolume chosen syrup; allmainotheringredients/steps unchanged."
+      },
+      {
+        "name": "Complete egg-free / vegan source",
+        "scope": "Remove2eggs; existing¼cupflax goesonlygelwithadded½cupwater, notdry; preservesallpumpkin/oil/oats/cranberries/pepitas/spice/salt. Vegan also replaceswhole¼cuphoneywithmapleORagave. Proportional original totals; endpoint untilgelled, no invented gel clock."
+      },
+      {
+        "name": "Pepita replacement",
+        "scope": "Same⅔cuptotal(originalbatch) chosen choppednutsORsunflowerseeds andchips insteadofpepitas; combinationratio unspecified, no duplicateddose. Allmainotheringredientsunchanged."
+      }
+    ],
+    "completeCookingOptions": "### Egg-free and sweetener choices\n\nMaple syrup or agave may replace the full listed honey amount. To make the publisher’s egg-free route, omit both eggs from the original batch and soak the already listed ¼ cup ground flaxseed in ½ cup water until gelled. Keep this flax out of the dry bowl, then add the gel to the pumpkin with the other wet ingredients; do not add a second dose of flaxseed. Scale both the existing flax and added water with the batch. For a vegan route, also replace the honey with maple syrup or agave. Keep all oats, oil, pumpkin, cranberries and pepitas. Gelled-flax cookies can bind and bake differently; check their centers.\n\nUse certified gluten-free oats for a gluten-free preparation and check the other ingredients. A mix of chopped nuts or sunflower seeds and chocolate chips may replace the pepitas at their total listed volume; this changes texture, sweetness and allergen suitability. The main uses the full pepitas.\n\n### Keeping the cookies\n\nCool fully before closing the container. The publisher’s plain-cookie plan is 3–4 days airtight at room temperature or about a week refrigerated. For longer keeping, freeze cooled cookies in sealed bags and aim to use within four months for quality. Thaw a portion before serving; do not pack warm cookies into a closed container.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Honey",
+        "alternative": "Same listed amount of maple syrup or agave",
+        "effect": "A complete sweetener replacement; vegan suitability also requires the egg-free branch."
+      },
+      {
+        "ingredient": "Eggs",
+        "alternative": "Gelled existing flax with ½ cup water for the original two-egg batch",
+        "effect": "Omit eggs and use the listed flax once; binding, texture and bake time can differ."
+      },
+      {
+        "ingredient": "Pepitas",
+        "alternative": "Same total listed volume of chopped nuts or sunflower seeds and chocolate chips",
+        "effect": "Replace the whole pepita amount rather than adding another full inclusion amount; check allergies and chip ingredients."
+      }
+    ],
+    "allMainDestinations": [
+      {
+        "id": "wet.pumpkin",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "wet.oil",
+        "destinations": ["oil"]
+      },
+      {
+        "id": "wet.honey",
+        "destinations": ["oil"]
+      },
+      {
+        "id": "wet.egg",
+        "destinations": ["wet"]
+      },
+      {
+        "id": "dry.rolled",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "dry.quick",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "dry.flax",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "dry.cranberries",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "dry.pepitas",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "dry.spice",
+        "destinations": ["dry"]
+      },
+      {
+        "id": "dry.salt",
+        "destinations": ["dry"]
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "Named earlier chia-egg route lacks exact preparation/amounts; no formula is supplied or invented."
+    ],
+    "completeBranches": [
+      {
+        "name": "Maple OR agave replaces honey",
+        "replace": [
+          {
+            "id": "wet.honey",
+            "name": "maple syrup OR agave",
+            "amount": 0.25,
+            "unit": "cup",
+            "destination": "oil"
+          }
+        ],
+        "scope": "All other main entries unchanged.",
+        "completeUnchangedEntries": [
+          {
+            "id": "wet.pumpkin",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "wet.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["oil"]
+          },
+          {
+            "id": "wet.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "dry.rolled",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.quick",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.flax",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.cranberries",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.pepitas",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.spice",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.0625,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.375,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "wet.honey",
+                "name": "maple syrup OR agave",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "oil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Egg-free existing flax",
+        "remove": ["wet.egg"],
+        "replace": [
+          {
+            "id": "dry.flax",
+            "name": "listed ground flaxseed",
+            "amount": 0.25,
+            "unit": "cup",
+            "destination": "gel then wet"
+          },
+          {
+            "id": "option.water",
+            "name": "water",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "gel then wet"
+          }
+        ],
+        "scope": "Flax used once, moved out of dry bowl; all other complete entries unchanged. Vegan also replaces entire honey dose with maple/agave.",
+        "completeUnchangedEntries": [
+          {
+            "id": "wet.pumpkin",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "wet.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["oil"]
+          },
+          {
+            "id": "wet.honey",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["oil"]
+          },
+          {
+            "id": "dry.rolled",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.quick",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.cranberries",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.pepitas",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.spice",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.0625,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.375,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "dry.flax",
+                "name": "listed ground flaxseed",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "option.water",
+                "name": "water",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "gel then wet",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Pepita inclusion replacement",
+        "replace": [
+          {
+            "id": "dry.pepitas",
+            "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "destination": "dry"
+          }
+        ],
+        "scope": "Unspecified combination split; one total replacement, all other entries unchanged. Chia egg held: no exact preparation.",
+        "completeUnchangedEntries": [
+          {
+            "id": "wet.pumpkin",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "wet.oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["oil"]
+          },
+          {
+            "id": "wet.honey",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["oil"]
+          },
+          {
+            "id": "wet.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["wet"]
+          },
+          {
+            "id": "dry.rolled",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.quick",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.flax",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.cranberries",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.spice",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          },
+          {
+            "id": "dry.salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["dry"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 0.16666666666666666,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 0.3333333333333333,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 0.6666666666666666,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 1.3333333333333333,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "dry.pepitas",
+                "name": "chosen chopped nuts OR sunflower seeds and chocolate chips TOTAL",
+                "amount": 0.6666666666666666,
+                "unit": "cup",
+                "destination": "dry",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": [
+      "Named earlier chia-egg route lacks exact preparation/amounts; no formula is supplied or invented."
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "easy-breakfast-yogurt-popsicles"
+    ],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained as metadata only; no composed meal or linked component receives review credit."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual quarter-cup count and full cooling duration remain unmeasured. Source chia-egg preparation is unspecified. Do nut/seed/chip combinations need a different center check?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

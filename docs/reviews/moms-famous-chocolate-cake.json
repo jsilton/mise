@@ -1,0 +1,1669 @@
+{
+  "slug": "moms-famous-chocolate-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
+  "inputSha256": "b945d92d65742cf0ba0bd34fca7be2c52382790cb7c48d6ced314c56ef799a85",
+  "acceptedSourceSha256": "24a062e37a21111f8cefc36a954ee2fedbc56c5b40eb2d4398825a72232c7a63",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "25–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "35–40 min, plus batter cooling, complete cake cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 sticks (1 cup) Unsalted Butter (Replaces Margarine)",
+        "4 tbsp High-Quality Unsweetened Cocoa Powder",
+        "1 cup Boiling Water",
+        "2 cups Granulated Sugar",
+        "1/2 cup Buttermilk",
+        "2 large Eggs, room temperature",
+        "2 cups All-Purpose Flour",
+        "1 tsp Baking Soda",
+        "1/4 tsp Kosher Salt",
+        "1 tsp Vanilla Extract",
+        "1 stick (1/2 cup) Unsalted Butter",
+        "4 tbsp Cocoa Powder",
+        "6 tbsp Whole Milk",
+        "1 box (1 lb) Confectioners’ Sugar"
+      ],
+      "after": [
+        "--- Cake batter ---",
+        "1 cup (2 sticks) unsalted butter",
+        "4 tbsp unsweetened cocoa powder",
+        "1 cup water, boiling",
+        "2 cups granulated sugar",
+        "1/2 cup buttermilk",
+        "2 large eggs, room temperature",
+        "2 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/4 tsp kosher salt",
+        "1 tsp vanilla extract",
+        "--- Warm chocolate frosting ---",
+        "1/2 cup (1 stick) unsalted butter",
+        "4 tbsp cocoa powder",
+        "6 tbsp whole milk",
+        "1 lb confectioners’ sugar",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the selected pan or pans"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 590,
+        "protein": 8,
+        "carbs": 57.5,
+        "fat": 39,
+        "fiber": 2,
+        "sugar": 40,
+        "sodium": 470
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Cake batter",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 2,
+                    "unit": "stick"
+                  }
+                ]
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "unsweetened cocoa powder",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ],
+                "preparation": "boiling",
+                "role": "cooking-water"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cool",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "buttermilk",
+                "key": "buttermilk",
+                "name": "buttermilk",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cool",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "room temperature"
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "flour",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "flour",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frosting",
+            "name": "Warm chocolate frosting",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 1,
+                    "unit": "stick"
+                  }
+                ]
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "cocoa powder",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "whole milk",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "confectioners’ sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "frost",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "handling",
+            "name": "Pan preparation",
+            "ingredients": [
+              {
+                "id": "grease",
+                "key": "grease",
+                "name": "butter or baking spray",
+                "allowance": "enough to grease the selected pan or pans",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare the pans",
+            "text": "Preheat the oven to 350°F. Use {{ingredients}} to grease a 9×13-inch rectangular pan or two 8-inch square pans for the original batch. These are alternative pan layouts; divide the full batter and frosting between both squares if selected. When scaling, keep a similar batter depth with proportional pan area and additional pans as needed."
+          },
+          {
+            "id": "boil",
+            "title": "Heat the cocoa mixture",
+            "text": "In a large saucepan over medium heat, bring {{ingredients}} to a gentle boil. Remove the pan from the heat."
+          },
+          {
+            "id": "cool",
+            "title": "Begin mixing and cool",
+            "text": "Whisk {{ingredients}} into the cocoa mixture off the heat. Let it cool until lukewarm and no longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed duration."
+          },
+          {
+            "id": "egg",
+            "title": "Add the eggs",
+            "text": "Whisk in {{ingredients}} until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands."
+          },
+          {
+            "id": "flour",
+            "title": "Finish the batter",
+            "text": "Fold in {{ingredients}} until no dry flour pockets remain. The batter can be mixed in the saucepan with a portable egg beater if the tool’s instructions permit its use in that pan."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Pour into the prepared pan or divide evenly between the two squares. Wait for the oven to reach 350°F. Bake for 25–30 minutes, until a tester inserted in the center comes out clean. Check each pan separately; different depths and oven loads can change the time."
+          },
+          {
+            "id": "frost",
+            "title": "Make the full frosting",
+            "text": "While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa."
+          },
+          {
+            "id": "finish",
+            "title": "Frost warm and cool",
+            "text": "Pour the warm frosting over the hot cake after removing it from the oven. For two cakes, divide the entire frosting between them. Let cool completely before slicing or wrapping. Refrigerate promptly according to the storage guidance, even if cooling is not yet complete."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separating the saucepan batter from the full warm frosting.",
+        "outcome": "A fully baked family chocolate cake with its entire warm chocolate frosting.",
+        "techniques": ["temperature", "leavening"],
+        "before": [
+          "The batter and frosting have separate butter and cocoa amounts. The listed confectioners’ sugar is a measured pound for this version; use that weight rather than assuming every box is the same size.",
+          "The original-batch pan choices are one 9×13-inch rectangle or two 8-inch squares. Divide both full batter and full frosting between the two cakes, and allow complete cooling before slicing or freezing.",
+          "Do not taste raw batter. Wash hands and tools after handling raw flour or eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The cocoa mixture is lukewarm and no longer steaming before adding the eggs.",
+            "why": "A just-boiled mixture can cook eggs into strands. This cooling pause lets them blend into the batter; it has no measured clock."
+          },
+          {
+            "step": 7,
+            "cue": "All frosting sugar is mixed into the separate butter, cocoa and milk mixture off heat.",
+            "why": "The cake’s sugar and fat do not supply the frosting amounts."
+          },
+          {
+            "step": 8,
+            "cue": "Warm frosting is spread over the hot baked cake, then the cake cools completely.",
+            "why": "Warm application preserves the family method, while cooling is needed before wrapping and cutting."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Egg strands appear in the batter.",
+            "cause": "Eggs were added while the cocoa mixture was still too hot.",
+            "fix": "Cool the cocoa mixture before adding eggs on the next batch; do not treat cooked egg strands as an intended batter texture."
+          },
+          {
+            "problem": "Frosting quantities seem short.",
+            "cause": "A cake and frosting butter/cocoa amount was combined or the sugar box weight differs.",
+            "fix": "Measure each component separately and use the listed full pound of frosting sugar for this version. Divide the complete frosting across both square cakes."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Butter in batter and frosting",
+            "alternative": "Same full corresponding stick amounts of margarine",
+            "effect": "Choose the full corresponding margarine amounts instead of butter in both components; keep the listed confectioners’ sugar weight for this version."
+          }
+        ],
+        "storage": "Cool before wrapping. Freeze one completely cooled frosted square cake for later if desired. Refrigerate the frosted cake at 40°F / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C. Thaw a frozen frosted cake in the refrigerator.",
+        "timing": "Ten minutes of preparation plus 25–30 minutes of baking gives a 35–40-minute subtotal, with frosting made during baking. The required batter-cooling pause, any remaining preheating, additional oven loads and complete cake cooling extend elapsed time. None has a measured duration here.",
+        "sources": [
+          {
+            "title": "FDA — raw flour and egg handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "FDA — conservative perishable milk-frosting handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis family chocolate cake uses butter and boiling water to bring the cocoa into a smooth batter. The entire batter mixes in the saucepan used to melt the butter, minimizing cleanup. Always frost while cake is still warm to create that signature fudgy seal.\n\n## Directions\n\n1.  **Melt & Bloom:** In a large saucepan over medium heat, bring the butter, cocoa powder, and water to a gentle boil. Remove from heat immediately.\n2.  **The Batter:** Into the hot saucepan, whisk in the sugar, buttermilk, baking soda, salt, and eggs until smooth. Gradually fold in the flour and vanilla.\n3.  **Bake:** Pour the batter into a greased 9x13 rectangular pan (or two 8-inch squares). Bake at 350°F for 25-30 minutes until a tester comes out clean.\n4.  **The Frosting:** While the cake bakes, melt the 1 stick of butter in a clean saucepan. Whisk in the cocoa and milk. Remove from heat and stir in the powdered sugar until silky.\n5.  **Seal:** Pour the warm frosting over the hot cake immediately after removing it from the oven. Let cool completely (if you can wait!) before slicing.\n\n## Cooking Notes\n\nThe family note describes making the batter in one saucepan with a portable egg beater for easy cleanup. When dividing into two square pans, one frosted cake can be wrapped and frozen for later.\n",
+    "after": "\n## Chef's Note\n\nMaryls McConnell’s family cake is mixed in a saucepan and frosted while warm. Keep the full batter and frosting quantities separate. Let the heated cocoa mixture cool before the eggs go in so they blend into batter rather than cook into strands; the cake still receives its warm frosting straight after baking.\n\n## Directions\n\n1. **Prepare the pans:** Preheat the oven to 350°F. Use butter or baking spray to grease a 9×13-inch rectangular pan or two 8-inch square pans for the original batch. These are alternative pan layouts; divide the full batter and frosting between both squares if selected. When scaling, keep a similar batter depth with proportional pan area and additional pans as needed.\n2. **Heat the cocoa mixture:** In a large saucepan over medium heat, bring unsalted butter, unsweetened cocoa powder, and water to a gentle boil. Remove the pan from the heat.\n3. **Begin mixing and cool:** Whisk granulated sugar and buttermilk into the cocoa mixture off the heat. Let it cool until lukewarm and no longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed duration.\n4. **Add the eggs:** Whisk in large eggs, baking soda, and kosher salt until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands.\n5. **Finish the batter:** Fold in all-purpose flour and vanilla extract until no dry flour pockets remain. The batter can be mixed in the saucepan with a portable egg beater if the tool’s instructions permit its use in that pan.\n6. **Bake:** Pour into the prepared pan or divide evenly between the two squares. Wait for the oven to reach 350°F. Bake for 25–30 minutes, until a tester inserted in the center comes out clean. Check each pan separately; different depths and oven loads can change the time.\n7. **Make the full frosting:** While the cake bakes, use unsalted butter, cocoa powder, whole milk, and confectioners’ sugar for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa.\n8. **Frost warm and cool:** Pour the warm frosting over the hot cake after removing it from the oven. For two cakes, divide the entire frosting between them. Let cool completely before slicing or wrapping. Refrigerate promptly according to the storage guidance, even if cooling is not yet complete.\n\n## Cooking Notes\n\n### Margarine option\n\nThe butter version is written above. For the original batch, two sticks of margarine in the batter and one stick in the frosting may replace the corresponding butter amounts. Scale both full fat amounts with the batch, and use the full listed confectioners’ sugar weight; boxes can differ in size.\n\n### Family make-ahead note\n\nThe family note describes one saucepan and a portable egg beater for easy cleanup. With two square cakes, one can be frozen frosted and ready for later: let it cool before wrapping, then freeze. No freezer duration is supplied. Thaw the frosted cake in the refrigerator; bring only the portion being served out when needed.\n"
+  },
+  "findings": [
+    {
+      "id": "CQT07-F01",
+      "title": "CQT07-F01",
+      "rationale": "Preserve every current full cake/frosting dose and warm frosting/family freezer note; separate ingredient allocations and add the already required unmeasured pan grease. Cooling the just-boiled mixture before raw eggs is a conservative editorial sequence. Remove fixed frosting-stick wording that failed scaling. Native/b7/045 had margarine, unspecified sugar box, unspecified rectangle/two squares and no yield. All current weight/dimensions/12count were introduced at6d6ff0f1, without later family confirmation; retained measured adaptation is not certified as original. The exact original frosting box-size branch remains held.",
+      "confidence": "high for current dose preservation and family note; moderate for cooling sequence; unresolved for original box/pan/yield",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "6d6ff0f119c442ceb0c2f79f03ea85ae622ce7bc",
+        "9faedba59b21bb230dcddd530489dc6e86d51bde",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Exact family/Git source supports full original ingredients and warm frosting/freezer note. Current explicit quantities are preserved rather than reconstructed as family measurements. Cooling is culinary inference to avoid coagulation; FDA supports raw handling and conservative dairy storage, not cake ratios, pan dimensions, yield or frosting shelf life.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "content",
+        "learning",
+        "totalTime",
+        "cookTime",
+        "servings"
+      ],
+      "questions": [
+        "Confirm original confectioners’ sugar box weight, rectangular/square pan dimensions and intended yield before presenting current precision as family measurements. Is butter rather than margarine an intended preference? Which fat is intended in the original frosting? The full original frosting variant is held pending box weight."
+      ]
+    },
+    {
+      "id": "CQT07-META",
+      "title": "CQT07-META",
+      "rationale": "Omit unsupported bulk country/region-origin and unverified per-serving nutrition, preserving exact cuisine/style, title, rating and source attribution. Recipe-specific learning and authored quantities allocate the complete measured recipe plus supported genuine allowances. Retain current numerical planning yields, now labeled as portions/cupcakes rather than a new measured yield.",
+      "confidence": "high for metadata provenance; planning counts unmeasured",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "The exact retained Maryls McConnell family recipe and followed history do not establish a country or calculated nutrition. The measured pound of frosting sugar, specified pans and planned yield belong to the current adaptation, not verified original family measurements. Retain family authorship and all richness; do not infer geography from American style. No kitchen testing occurred.",
+      "exactBeforeAfterReferences": ["origin", "nutrition", "learning", "formula", "servings"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-SOURCE-DETAILS-AND-COOKING-PROSE",
+      "title": "Preserve source details and clear cooking instructions",
+      "rationale": "The user asks for clear cooking prose rather than audit or shelf-life-test commentary. These replacements keep every existing storage clock, cold temperature, freezing option and refrigerator thaw, while removing commentary about invented/measured keeping life. Private records must retain the conservative category application and unknown frosting/product life; no new shelf duration is proposed.",
+      "confidence": "High source existence and semantic preservation; formula/product outcomes untested.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific useful prose and truthful untested/private evidence; do not add procedural review panels."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "General perishable cold handling supports the conservative frosting choice, not validation of a specific cake/frosting shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Mom's%20Famous%20Chocolate%20Cake.html",
+    "introductionScope": "Actual first cooking HTML introduction before canonical Markdown migration.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "CQT07-F01",
+      "rationale": "Preserve every current full cake/frosting dose and warm frosting/family freezer note; separate ingredient allocations and add the already required unmeasured pan grease. Cooling the just-boiled mixture before raw eggs is a conservative editorial sequence. Remove fixed frosting-stick wording that failed scaling. Native/b7/045 had margarine, unspecified sugar box, unspecified rectangle/two squares and no yield. All current weight/dimensions/12count were introduced at6d6ff0f1, without later family confirmation; retained measured adaptation is not certified as original. The exact original frosting box-size branch remains held.",
+      "applicability": "Exact family/Git source supports full original ingredients and warm frosting/freezer note. Current explicit quantities are preserved rather than reconstructed as family measurements. Cooling is culinary inference to avoid coagulation; FDA supports raw handling and conservative dairy storage, not cake ratios, pan dimensions, yield or frosting shelf life."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 sticks (1 cup) Unsalted Butter (Replaces Margarine)",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Batter butter"
+      },
+      {
+        "index": 1,
+        "text": "4 tbsp High-Quality Unsweetened Cocoa Powder",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Batter cocoa"
+      },
+      {
+        "index": 2,
+        "text": "1 cup Boiling Water",
+        "source": "exact frozen current ingredient row",
+        "destinations": 1,
+        "stateAndAllocation": "Water boiled"
+      },
+      {
+        "index": 3,
+        "text": "2 cups Granulated Sugar",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Sugar into hot pan"
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Buttermilk",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Buttermilk into hot pan"
+      },
+      {
+        "index": 5,
+        "text": "2 large Eggs, room temperature",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Raw eggs into hot pan"
+      },
+      {
+        "index": 6,
+        "text": "2 cups All-Purpose Flour",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Flour folded"
+      },
+      {
+        "index": 7,
+        "text": "1 tsp Baking Soda",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Soda into hot pan"
+      },
+      {
+        "index": 8,
+        "text": "1/4 tsp Kosher Salt",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Salt into hot pan"
+      },
+      {
+        "index": 9,
+        "text": "1 tsp Vanilla Extract",
+        "source": "exact frozen current ingredient row",
+        "destinations": 2,
+        "stateAndAllocation": "Vanilla folded"
+      },
+      {
+        "index": 10,
+        "text": "1 stick (1/2 cup) Unsalted Butter",
+        "source": "exact frozen current ingredient row",
+        "destinations": 4,
+        "stateAndAllocation": "Frosting butter"
+      },
+      {
+        "index": 11,
+        "text": "4 tbsp Cocoa Powder",
+        "source": "exact frozen current ingredient row",
+        "destinations": 4,
+        "stateAndAllocation": "Frosting cocoa"
+      },
+      {
+        "index": 12,
+        "text": "6 tbsp Whole Milk",
+        "source": "exact frozen current ingredient row",
+        "destinations": 4,
+        "stateAndAllocation": "Frosting milk"
+      },
+      {
+        "index": 13,
+        "text": "1 box (1 lb) Confectioners’ Sugar",
+        "source": "exact frozen current ingredient row",
+        "destinations": 4,
+        "stateAndAllocation": "Frosting sugar"
+      }
+    ],
+    "unlistedBefore": [
+      {
+        "name": "pan grease",
+        "amount": "unmeasured",
+        "step": 3
+      }
+    ],
+    "proposed": [
+      {
+        "id": "cake.butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [
+          {
+            "amount": 2,
+            "unit": "stick"
+          }
+        ],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "boil",
+            "share": 1,
+            "text": "In a large saucepan over medium heat, bring {{ingredients}} to a gentle boil. Remove the pan from the heat."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.cocoa",
+        "name": "unsweetened cocoa powder",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "boil",
+            "share": 1,
+            "text": "In a large saucepan over medium heat, bring {{ingredients}} to a gentle boil. Remove the pan from the heat."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.water",
+        "name": "water",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "boiling",
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "boil",
+            "share": 1,
+            "text": "In a large saucepan over medium heat, bring {{ingredients}} to a gentle boil. Remove the pan from the heat."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cool",
+            "share": 1,
+            "text": "Whisk {{ingredients}} into the cocoa mixture off the heat. Let it cool until lukewarm and no longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed duration."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.buttermilk",
+        "name": "buttermilk",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cool",
+            "share": 1,
+            "text": "Whisk {{ingredients}} into the cocoa mixture off the heat. Let it cool until lukewarm and no longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed duration."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "room temperature",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "egg",
+            "share": 1,
+            "text": "Whisk in {{ingredients}} until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "flour",
+            "share": 1,
+            "text": "Fold in {{ingredients}} until no dry flour pockets remain. The batter can be mixed in the saucepan with a portable egg beater if the tool’s instructions permit its use in that pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "egg",
+            "share": 1,
+            "text": "Whisk in {{ingredients}} until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "egg",
+            "share": 1,
+            "text": "Whisk in {{ingredients}} until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cake.vanilla",
+        "name": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "flour",
+            "share": 1,
+            "text": "Fold in {{ingredients}} until no dry flour pockets remain. The batter can be mixed in the saucepan with a portable egg beater if the tool’s instructions permit its use in that pan."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "frosting.butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [
+          {
+            "amount": 1,
+            "unit": "stick"
+          }
+        ],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "frost",
+            "share": 1,
+            "text": "While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "frosting.cocoa",
+        "name": "cocoa powder",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "frost",
+            "share": 1,
+            "text": "While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "frosting.milk",
+        "name": "whole milk",
+        "quantity": {
+          "amount": 6,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "frost",
+            "share": 1,
+            "text": "While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "frosting.sugar",
+        "name": "confectioners’ sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "frost",
+            "share": 1,
+            "text": "While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "handling.grease",
+        "name": "butter or baking spray",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "enough to grease the selected pan or pans",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1,
+            "text": "Preheat the oven to 350°F. Use {{ingredients}} to grease a 9×13-inch rectangular pan or two 8-inch square pans for the original batch. These are alternative pan layouts; divide the full batter and frosting between both squares if selected. When scaling, keep a similar batter depth with proportional pan area and additional pans as needed."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare the pans",
+      "text": "Preheat the oven to 350°F. Use {{ingredients}} to grease a 9×13-inch rectangular pan or two 8-inch square pans for the original batch. These are alternative pan layouts; divide the full batter and frosting between both squares if selected. When scaling, keep a similar batter depth with proportional pan area and additional pans as needed.",
+      "generatedText": "1. **Prepare the pans:** Preheat the oven to 350°F. Use butter or baking spray to grease a 9×13-inch rectangular pan or two 8-inch square pans for the original batch. These are alternative pan layouts; divide the full batter and frosting between both squares if selected. When scaling, keep a similar batter depth with proportional pan area and additional pans as needed.",
+      "dependsOn": [],
+      "assigned": ["handling.grease"]
+    },
+    {
+      "index": 2,
+      "id": "boil",
+      "title": "Heat the cocoa mixture",
+      "text": "In a large saucepan over medium heat, bring {{ingredients}} to a gentle boil. Remove the pan from the heat.",
+      "generatedText": "2. **Heat the cocoa mixture:** In a large saucepan over medium heat, bring unsalted butter, unsweetened cocoa powder, and water to a gentle boil. Remove the pan from the heat.",
+      "dependsOn": ["prep"],
+      "assigned": ["cake.butter", "cake.cocoa", "cake.water"]
+    },
+    {
+      "index": 3,
+      "id": "cool",
+      "title": "Begin mixing and cool",
+      "text": "Whisk {{ingredients}} into the cocoa mixture off the heat. Let it cool until lukewarm and no longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed duration.",
+      "generatedText": "3. **Begin mixing and cool:** Whisk granulated sugar and buttermilk into the cocoa mixture off the heat. Let it cool until lukewarm and no longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed duration.",
+      "dependsOn": ["boil"],
+      "assigned": ["cake.sugar", "cake.buttermilk"]
+    },
+    {
+      "index": 4,
+      "id": "egg",
+      "title": "Add the eggs",
+      "text": "Whisk in {{ingredients}} until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands.",
+      "generatedText": "4. **Add the eggs:** Whisk in large eggs, baking soda, and kosher salt until combined. Keep the pan off the stove; the egg mixture should blend in rather than form cooked strands.",
+      "dependsOn": ["cool"],
+      "assigned": ["cake.egg", "cake.soda", "cake.salt"]
+    },
+    {
+      "index": 5,
+      "id": "flour",
+      "title": "Finish the batter",
+      "text": "Fold in {{ingredients}} until no dry flour pockets remain. The batter can be mixed in the saucepan with a portable egg beater if the tool’s instructions permit its use in that pan.",
+      "generatedText": "5. **Finish the batter:** Fold in all-purpose flour and vanilla extract until no dry flour pockets remain. The batter can be mixed in the saucepan with a portable egg beater if the tool’s instructions permit its use in that pan.",
+      "dependsOn": ["egg"],
+      "assigned": ["cake.flour", "cake.vanilla"]
+    },
+    {
+      "index": 6,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Pour into the prepared pan or divide evenly between the two squares. Wait for the oven to reach 350°F. Bake for 25–30 minutes, until a tester inserted in the center comes out clean. Check each pan separately; different depths and oven loads can change the time.",
+      "generatedText": "6. **Bake:** Pour into the prepared pan or divide evenly between the two squares. Wait for the oven to reach 350°F. Bake for 25–30 minutes, until a tester inserted in the center comes out clean. Check each pan separately; different depths and oven loads can change the time.",
+      "dependsOn": ["flour"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "frost",
+      "title": "Make the full frosting",
+      "text": "While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa.",
+      "generatedText": "7. **Make the full frosting:** While the cake bakes, use unsalted butter, cocoa powder, whole milk, and confectioners’ sugar for the frosting. Melt its butter in a clean saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and stir in the full confectioners’ sugar until smooth. These are the frosting quantities, separate from the batter butter and cocoa.",
+      "dependsOn": ["bake"],
+      "assigned": ["frosting.butter", "frosting.cocoa", "frosting.milk", "frosting.sugar"]
+    },
+    {
+      "index": 8,
+      "id": "finish",
+      "title": "Frost warm and cool",
+      "text": "Pour the warm frosting over the hot cake after removing it from the oven. For two cakes, divide the entire frosting between them. Let cool completely before slicing or wrapping. Refrigerate promptly according to the storage guidance, even if cooling is not yet complete.",
+      "generatedText": "8. **Frost warm and cool:** Pour the warm frosting over the hot cake after removing it from the oven. For two cakes, divide the entire frosting between them. Let cool completely before slicing or wrapping. Refrigerate promptly according to the storage guidance, even if cooling is not yet complete.",
+      "dependsOn": ["frost"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Butter in batter and frosting",
+        "alternative": "Same full corresponding stick amounts of margarine",
+        "effect": "Choose the full corresponding margarine amounts instead of butter in both components; keep the listed confectioners’ sugar weight for this version."
+      }
+    ],
+    "completeCookingOptions": "### Margarine option\n\nThe butter version is written above. For the original batch, two sticks of margarine in the batter and one stick in the frosting may replace the corresponding butter amounts. Scale both full fat amounts with the batch, and use the full listed confectioners’ sugar weight; boxes can differ in size.\n\n### Family make-ahead note\n\nThe family note describes one saucepan and a portable egg beater for easy cleanup. With two square cakes, one can be frozen frosted and ready for later: let it cool before wrapping, then freeze. No freezer duration is supplied. Thaw the frosted cake in the refrigerator; bring only the portion being served out when needed.",
+    "scaling": "Every main formula quantity/equivalent follows the ingredient control. Explicit original-batch alternate quantities are separate entire replacements and scale proportionally with that batch; time/pan dimensions never multiply. Options with unspecified original amounts remain unresolved rather than receiving guessed quantities.",
+    "allMainDestinations": [
+      {
+        "id": "cake.butter",
+        "destinations": ["boil"]
+      },
+      {
+        "id": "cake.cocoa",
+        "destinations": ["boil"]
+      },
+      {
+        "id": "cake.water",
+        "destinations": ["boil"]
+      },
+      {
+        "id": "cake.sugar",
+        "destinations": ["cool"]
+      },
+      {
+        "id": "cake.buttermilk",
+        "destinations": ["cool"]
+      },
+      {
+        "id": "cake.egg",
+        "destinations": ["egg"]
+      },
+      {
+        "id": "cake.flour",
+        "destinations": ["flour"]
+      },
+      {
+        "id": "cake.soda",
+        "destinations": ["egg"]
+      },
+      {
+        "id": "cake.salt",
+        "destinations": ["egg"]
+      },
+      {
+        "id": "cake.vanilla",
+        "destinations": ["flour"]
+      },
+      {
+        "id": "frosting.butter",
+        "destinations": ["frost"]
+      },
+      {
+        "id": "frosting.cocoa",
+        "destinations": ["frost"]
+      },
+      {
+        "id": "frosting.milk",
+        "destinations": ["frost"]
+      },
+      {
+        "id": "frosting.sugar",
+        "destinations": ["frost"]
+      },
+      {
+        "id": "handling.grease",
+        "destinations": ["prep"]
+      }
+    ],
+    "noSourceQuantityImportedIntoUnrelatedMain": true,
+    "completeBranches": [
+      {
+        "name": "Margarine adaptation",
+        "replace": [
+          {
+            "id": "cake.butter",
+            "name": "margarine",
+            "amount": 2,
+            "unit": "stick",
+            "destination": "boil"
+          },
+          {
+            "id": "frosting.butter",
+            "name": "margarine",
+            "amount": 1,
+            "unit": "stick",
+            "destination": "frost"
+          }
+        ],
+        "scope": "All other full current entries unchanged, including1lbcurrent sugar. Exact original route held:1boxfrosting sugar has no weight; native method butter/margarine contradiction and original pan/yield unresolved.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["boil"]
+          },
+          {
+            "id": "cake.water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["boil"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cool"]
+          },
+          {
+            "id": "cake.buttermilk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cool"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["egg"]
+          },
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["flour"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["egg"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["egg"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["flour"]
+          },
+          {
+            "id": "frosting.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "frosting.milk",
+            "quantity": {
+              "amount": 6,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "frosting.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "lb"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "handling.grease",
+            "quantity": null,
+            "allowance": "enough to grease the selected pan or pans",
+            "destinations": ["prep"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 0.5,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 0.25,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 1,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 0.5,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 2,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 1,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 3,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 1.5,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 4,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 2,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 6,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 3,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [
+              {
+                "id": "cake.butter",
+                "name": "margarine",
+                "amount": 2,
+                "unit": "stick",
+                "destination": "boil",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              },
+              {
+                "id": "frosting.butter",
+                "name": "margarine",
+                "amount": 1,
+                "unit": "stick",
+                "destination": "frost",
+                "equivalent": null,
+                "packageCount": null,
+                "packageSizeOz": null
+              }
+            ],
+            "exclusiveOther": null
+          }
+        ]
+      },
+      {
+        "name": "Two squares / freeze one",
+        "replace": [],
+        "scope": "Full batter divided between both squares and full frosting divided likewise; one cooled frosted cake may freeze. No freezer clock supplied.",
+        "completeUnchangedEntries": [
+          {
+            "id": "cake.butter",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["boil"]
+          },
+          {
+            "id": "cake.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["boil"]
+          },
+          {
+            "id": "cake.water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["boil"]
+          },
+          {
+            "id": "cake.sugar",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cool"]
+          },
+          {
+            "id": "cake.buttermilk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cool"]
+          },
+          {
+            "id": "cake.egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["egg"]
+          },
+          {
+            "id": "cake.flour",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["flour"]
+          },
+          {
+            "id": "cake.soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["egg"]
+          },
+          {
+            "id": "cake.salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["egg"]
+          },
+          {
+            "id": "cake.vanilla",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["flour"]
+          },
+          {
+            "id": "frosting.butter",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "frosting.cocoa",
+            "quantity": {
+              "amount": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "frosting.milk",
+            "quantity": {
+              "amount": 6,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "frosting.sugar",
+            "quantity": {
+              "amount": 1,
+              "unit": "lb"
+            },
+            "allowance": null,
+            "destinations": ["frost"]
+          },
+          {
+            "id": "handling.grease",
+            "quantity": null,
+            "allowance": "enough to grease the selected pan or pans",
+            "destinations": ["prep"]
+          }
+        ],
+        "scaledReplacements": [
+          {
+            "factor": 0.25,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 0.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1.5,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 2,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 3,
+            "replace": [],
+            "exclusiveOther": null
+          },
+          {
+            "factor": 1,
+            "replace": [],
+            "exclusiveOther": null
+          }
+        ]
+      }
+    ],
+    "sourceOnlyUnresolved": [
+      "Full exact family margarine frosting cannot be quantified because original sugar box has no weight. Original eggsize/pan/yield also unspecified; current measured adaptation not certified."
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "scope": "Actual meal search found no incoming linked meals for these six. Generic pairsWith metadata retained without meal certification. RedVelvet linked frosting is a separate recipe, not whole-reviewed here."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm original confectioners’ sugar box weight, rectangular/square pan dimensions and intended yield before presenting current precision as family measurements. Is butter rather than margarine an intended preference? Which fat is intended in the original frosting? The full original frosting variant is held pending box weight.",
+    "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 117,
+    "targetedLint": "All 12 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12372,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 92,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

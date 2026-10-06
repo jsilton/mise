@@ -5765,10 +5765,12 @@
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/",
       "group": "fruit_grain_bakes_11",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/healthy-carrot-cake-muffins-with-cream-cheese-glaze.json"
+        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/healthy-carrot-cake-muffins-with-cream-cheese-glaze.json",
+        "docs/reviews/healthy-carrot-cake-muffins-with-cream-cheese-glaze.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5785,7 +5787,9 @@
         "sourceSha256": "fbfb317690e46990d3767e35cb196c9e7678c4ccd871f7d2e3dac990f517b766",
         "recordPath": ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/healthy-carrot-cake-muffins-with-cream-cheese-glaze.json",
         "recordSha256": "0c1fc794f810ceae80502cca212b25d7f6ed28075535140862c39fcf035720ca"
-      }
+      },
+      "acceptedSourceSha256": "336b9526b72ac586c80e73702bca9c832ce4d55fc89447d04a6844e90e5e5b2f",
+      "productionVerification": "pending"
     },
     {
       "slug": "heirloom-tomato-pesto-and-ricotta-galette",
@@ -6655,14 +6659,17 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake",
       "group": "cakes_quick_treats_07",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/made-in-the-pan-chocolate-cake.json"
+        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/made-in-the-pan-chocolate-cake.json",
+        "docs/reviews/made-in-the-pan-chocolate-cake.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Does the household prefer the current sea salt/avocado/mandatory-chip adaptation? No explicit decision found. What is the measured cooling time and preferred cut count? Source kosher salt brand/density is unresolved."
+        "Does the household prefer the current sea salt/avocado/mandatory-chip adaptation? No explicit decision found. What is the measured cooling time and preferred cut count? Source kosher salt brand/density is unresolved.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "inputSha256": "67e71b819d251013e0cff525b501a096e00563d4cfcf1b6cdbd592376033d39a",
       "plannedBatch": "baked-sweets-04",
@@ -6675,7 +6682,9 @@
         "sourceSha256": "b18b184846ae6db1ef4afd1127ce0f03ab408bcbe7ab019a02b330aa51783b20",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/made-in-the-pan-chocolate-cake.json",
         "recordSha256": "eb9a7f5f7307f7654a3da20e12ad35faf21d0c10389ef78130bcf29904bb1a82"
-      }
+      },
+      "acceptedSourceSha256": "219e5ae78da737dee0cdba95c7d3049ec51a826680e8fc0ea83e33098813586b",
+      "productionVerification": "pending"
     },
     {
       "slug": "mandarinpineapple-organge-salad",
@@ -7116,14 +7125,17 @@
       "source": "Adapted from Maryls McConnell",
       "sourceUrl": null,
       "group": "cakes_quick_treats_07",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/moms-famous-chocolate-cake.json"
+        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/moms-famous-chocolate-cake.json",
+        "docs/reviews/moms-famous-chocolate-cake.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Confirm original confectioners’ sugar box weight, rectangular/square pan dimensions and intended yield before presenting current precision as family measurements. Is butter rather than margarine an intended preference? Which fat is intended in the original frosting? The full original frosting variant is held pending box weight."
+        "Confirm original confectioners’ sugar box weight, rectangular/square pan dimensions and intended yield before presenting current precision as family measurements. Is butter rather than margarine an intended preference? Which fat is intended in the original frosting? The full original frosting variant is held pending box weight.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "inputSha256": "b945d92d65742cf0ba0bd34fca7be2c52382790cb7c48d6ced314c56ef799a85",
       "plannedBatch": "baked-sweets-05",
@@ -7136,7 +7148,9 @@
         "sourceSha256": "ec28da0bb88c0c9007352ac2d5e17de16203bfebaf48701cd72ec8e041aeb8f2",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/moms-famous-chocolate-cake.json",
         "recordSha256": "5a975ca4f07fa4a6919a78394c9590f0419dae549a9eebba6d8fdba1eeae6e9b"
-      }
+      },
+      "acceptedSourceSha256": "24a062e37a21111f8cefc36a954ee2fedbc56c5b40eb2d4398825a72232c7a63",
+      "productionVerification": "pending"
     },
     {
       "slug": "mongolian-chicken",
@@ -8033,10 +8047,12 @@
       "source": "Adapted from Leelalicious.com",
       "sourceUrl": "http://leelalicious.com/pumpkin-breakfast-cookies/",
       "group": "fruit_grain_bakes_11",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/pumpkin-breakfast-cookies.json"
+        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/pumpkin-breakfast-cookies.json",
+        "docs/reviews/pumpkin-breakfast-cookies.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8053,7 +8069,9 @@
         "sourceSha256": "369264564ba22d3726366283984b0d05d5cbea48013e97fbe31d925584867d82",
         "recordPath": ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/pumpkin-breakfast-cookies.json",
         "recordSha256": "f889893d4edef06ea1f01f1960d5e1d7b949e6bbf35b295d1b08318c2abf9975"
-      }
+      },
+      "acceptedSourceSha256": "6b7980ed6e0cedb7844b83fc4d75a088dbb7efa446f9f3535502ebd527fc52f3",
+      "productionVerification": "pending"
     },
     {
       "slug": "pumpkin-cheesecake-cookies",
@@ -8062,11 +8080,12 @@
       "source": "Chelsey White, Chelsweets",
       "sourceUrl": "https://chelsweets.com/pumpkin-cheesecake-cookies/",
       "group": "fruit_grain_bakes_11",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/pumpkin-cheesecake-cookies.md",
         ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/pumpkin-cheesecake-cookies.json"
+        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/pumpkin-cheesecake-cookies.json",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8083,7 +8102,9 @@
         "sourceSha256": "3187d4f677a9dabe1c6de00205ff3c6f0a162215b075d889311347ed82566aaf",
         "recordPath": ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/pumpkin-cheesecake-cookies.json",
         "recordSha256": "699763fb4398884219c40f96b37266ec4d0c9b4d636283ba6903714d5461f1b5"
-      }
+      },
+      "acceptedSourceSha256": "755e62e520a46eaea3d623c075a8d4dd6d919f8e63a6522a029d5e46786ce4e5",
+      "productionVerification": "pending"
     },
     {
       "slug": "quadruple-chocolate-brownies",
@@ -8332,14 +8353,17 @@
       "source": "Adapted from sallysbakingaddiction.com",
       "sourceUrl": "https://sallysbakingaddiction.com/red-velvet-cupcakes/",
       "group": "cakes_quick_treats_07",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/red-velvet-cupcakes.json"
+        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/red-velvet-cupcakes.json",
+        "docs/reviews/red-velvet-cupcakes.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "How many regular cakes does the actual tin produce at½–⅔ fill? Which source metric weight set, if any, should be used? Linked frosting has not received a whole review here; amount/piping/storage depend on that separate recipe. No natural-color or layer-pan formula supplied."
+        "How many regular cakes does the actual tin produce at½–⅔ fill? Which source metric weight set, if any, should be used? Linked frosting has not received a whole review here; amount/piping/storage depend on that separate recipe. No natural-color or layer-pan formula supplied.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "inputSha256": "af27566826c64ad1ea6aea4a4eb2afd341729778a3e092ce9b024236393a638e",
       "plannedBatch": "baked-sweets-06",
@@ -8352,7 +8376,9 @@
         "sourceSha256": "f803961f677b2e00c0a8316b0d9448ce9856cad1483e46a87104a3113bcaf388",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/red-velvet-cupcakes.json",
         "recordSha256": "a5ed22ba63d1b3d4b1d2ef7fce33d95d97cfbc6189fefb20535ceb1b349de61c"
-      }
+      },
+      "acceptedSourceSha256": "912138b247559a38f49282f00868c1995a22998b5aa5fab7e5d8f9b5737917ca",
+      "productionVerification": "pending"
     },
     {
       "slug": "red-zone-margarita",
@@ -10379,14 +10405,17 @@
       "source": "Adapted from Myfussyeater.com",
       "sourceUrl": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/",
       "group": "fruit_grain_bakes_11",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/strawberry-quinoa-breakfast-bars.json"
+        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/strawberry-quinoa-breakfast-bars.json",
+        "docs/reviews/strawberry-quinoa-breakfast-bars.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Actual banana mass, finished layer depth, nine-square portion size and cooling time are unmeasured. Current publisher could not be read. Does the actual bar center reach160°F within the20–25reference? No kitchen test has been performed."
+        "Actual banana mass, finished layer depth, nine-square portion size and cooling time are unmeasured. Current publisher could not be read. Does the actual bar center reach160°F within the20–25reference? No kitchen test has been performed.",
+        "Does the actual bar center reach the endpoint within the source reference timer?"
       ],
       "inputSha256": "4b4f1c8c1e36ca3a24ff554d7b30d9c3c14f96079a549631cb496aa96a274e67",
       "plannedBatch": "baked-savory-and-breads-11",
@@ -10399,7 +10428,9 @@
         "sourceSha256": "853cdb2d5709e90e3df8da2ef28ca1774749be4e2280896ade9a7e72a22a8b38",
         "recordPath": ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/strawberry-quinoa-breakfast-bars.json",
         "recordSha256": "3d8a1056115284a3d44ba1e7e020e1936a18052239635da90a7e78214eca8363"
-      }
+      },
+      "acceptedSourceSha256": "1aee6219e0acff01a09ff0bfcc754b65e7dad1ce5a76c50a443f9f8a0d112e29",
+      "productionVerification": "pending"
     },
     {
       "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
@@ -10542,10 +10573,12 @@
       "source": "Adapted from bonappetit.com",
       "sourceUrl": "https://www.bonappetit.com/recipe/super-lemony-olive-oil-cake?intcid=inline_amp",
       "group": "cakes_quick_treats_07",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/super-lemony-olive-oil-cake.json"
+        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/super-lemony-olive-oil-cake.json",
+        "docs/reviews/super-lemony-olive-oil-cake.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10562,7 +10595,9 @@
         "sourceSha256": "3cad01fe57a2d0f5eb8befa654595afa76b2b77baf717ca38fa35563aec37204",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/super-lemony-olive-oil-cake.json",
         "recordSha256": "999b556e218e90368fdd65e6d63640d6bb9e2239c497ce790d70640de6d9be60"
-      }
+      },
+      "acceptedSourceSha256": "fb3e56bf0c0696a0fb8727f083ff5cdcdfbe028c1f2ffdcc2dc81ba298843cef",
+      "productionVerification": "pending"
     },
     {
       "slug": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce",
@@ -10926,10 +10961,12 @@
       "source": "Adapted from Tablefortwoblog.com",
       "sourceUrl": "https://www.tablefortwoblog.com/the-moistest-chocolate-mug-cake/",
       "group": "cakes_quick_treats_07",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/the-moistest-chocolate-mug-cake.json"
+        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/the-moistest-chocolate-mug-cake.json",
+        "docs/reviews/the-moistest-chocolate-mug-cake.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10946,7 +10983,9 @@
         "sourceSha256": "9b6fb6e133f56bb6ef455fdea56f305266165a4c7939da042f1718f95efbb22b",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/the-moistest-chocolate-mug-cake.json",
         "recordSha256": "a083119fc984d6ee9e0c8a57e13df9a0389f311626d7ba91d673ad70d61ee649"
-      }
+      },
+      "acceptedSourceSha256": "6278c35ec3b4cf009d50e7833b25a548d3b1b24888156374588efcf5da1e4238",
+      "productionVerification": "pending"
     },
     {
       "slug": "the-new-england-express",
@@ -10973,14 +11012,18 @@
       "source": "Adapted from ricekrispies.com",
       "sourceUrl": "https://www.ricekrispies.com/en_US/recipes/the-original-treats-recipe.html",
       "group": "cakes_quick_treats_07",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/the-original-rice-krispies-treatstm.json"
+        ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/the-original-rice-krispies-treatstm.json",
+        "docs/reviews/the-original-rice-krispies-treatstm.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Actual microwave wattage/bowl capacity and scaled heating remain unspecified. Which marshmallow product/gelatin status and form are selected? Which cutting layout is preferred for twelve portions? Cooling duration remains unmeasured."
+        "Actual microwave wattage/bowl capacity and scaled heating remain unspecified. Which marshmallow product/gelatin status and form are selected? Which cutting layout is preferred for twelve portions? Cooling duration remains unmeasured.",
+        "Actual chosen pan depth and cooled layer height remain kitchen questions.",
+        "Frosting formulation-specific keeping quality remains untested; no new duration supplied."
       ],
       "inputSha256": "b16b69cffb30d7ae84bf6ba548ac5749359893e9eeec22919aec1ba8c917d7c7",
       "plannedBatch": "cold-preparations-05",
@@ -10993,7 +11036,9 @@
         "sourceSha256": "569e7dafbb7123f4ae5f1d4a526d405168070037577d669ae77c79fce31c67a4",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cakes_quick_treats_07/records/the-original-rice-krispies-treatstm.json",
         "recordSha256": "e6304894abb2c8b917da87de2e7ed8a1d54959b221fee728b822441b577aca32"
-      }
+      },
+      "acceptedSourceSha256": "0d62a2f7cb0c5e3a997bbd40a4a368ae1b5d20785387cca9a7bd7ad895cec5f1",
+      "productionVerification": "pending"
     },
     {
       "slug": "tomato-and-goat-cheese-tart",
@@ -11284,10 +11329,12 @@
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "http://www.100daysofrealfood.com/recipe-whole-spelt-pumpkin-muffins-and-other-spelt-recipes/#more-3102",
       "group": "fruit_grain_bakes_11",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/whole-spelt-pumpkin-muffins.json"
+        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/whole-spelt-pumpkin-muffins.json",
+        "docs/reviews/whole-spelt-pumpkin-muffins.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -11304,7 +11351,9 @@
         "sourceSha256": "fab545c45a508235fb8913b37a5e0df1be0ae525d44d1b74ead74bdf4e8983d5",
         "recordPath": ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/whole-spelt-pumpkin-muffins.json",
         "recordSha256": "2cc9191eeafaff3938e82ee0099325128e8bc0dda6b4c8d170fadfdb218e911a"
-      }
+      },
+      "acceptedSourceSha256": "5ac4f1d52d245a39602a317ad56716926998d74277742ba24500651b287338a0",
+      "productionVerification": "pending"
     },
     {
       "slug": "whole-wheat-muffins-fruit-nut-or-berry",
@@ -11313,10 +11362,12 @@
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/recipe-fruit-nut-or-berry-or-whatever-you-want-them-to-be-whole-wheat-muffins/",
       "group": "fruit_grain_bakes_11",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/whole-wheat-muffins-fruit-nut-or-berry.json"
+        ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/whole-wheat-muffins-fruit-nut-or-berry.json",
+        "docs/reviews/whole-wheat-muffins-fruit-nut-or-berry.md",
+        "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -11333,7 +11384,9 @@
         "sourceSha256": "7edaf14b64b2fa97dbdfbf666d492975e9d2e2d20c7d71b5906d993885b702db",
         "recordPath": ".mise/editorial-campaign/2026-10-05/fruit_grain_bakes_11/records/whole-wheat-muffins-fruit-nut-or-berry.json",
         "recordSha256": "ff67dad2f87c6043805ae88bb3c5f7acc7fb290148b64fa10a34c7c8ba25c32c"
-      }
+      },
+      "acceptedSourceSha256": "19fe83cc616403b16ab6eadb58b5684675cbda0b6ac72533ca7c0b65c124720f",
+      "productionVerification": "pending"
     },
     {
       "slug": "yaki-udon",
@@ -12211,8 +12264,9 @@
   "statusCounts": {
     "production-verified": 245,
     "held": 25,
-    "proposed": 106,
+    "proposed": 94,
     "assigned": 31,
-    "held-awaiting-evidence": 2
+    "held-awaiting-evidence": 2,
+    "accepted": 12
   }
 }
