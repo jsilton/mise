@@ -39,7 +39,9 @@ const cases = [
     [
       'under 12 months',
       'food-grade dried ripe elderberries',
-      '**Freeze for storage:**',
+      '**Freeze in small portions:**',
+      'Cool promptly in small, clean freezer-safe containers',
+      'Thaw only a portion needed in the refrigerator',
       'no established standard medicinal dose',
     ],
   ],
@@ -51,7 +53,7 @@ const cases = [
   [
     'thai-basil-ginger-spritzer',
     ['non-alcoholic drink'],
-    ['sparkling-wine drink', '3 cups Prosecco'],
+    ['cold sparkling wine', '3 cups Prosecco'],
   ],
   [
     'garlic-paste-toum-the-washington-post',
@@ -101,7 +103,9 @@ const cases = [
     'sheet-pan-italian-sausage-dinner',
     ['Lighter option, same method'],
     [
-      '160°F internal',
+      'Raw pork or beef sausage links need a measured 160°F / 71°C center',
+      'raw chicken or turkey sausage needs 165°F / 74°C',
+      'check representative raw-contact potatoes for 165°F',
       'raw chicken sausage',
       '165°F center endpoint',
       'package reheating instructions',
@@ -149,7 +153,7 @@ const cases = [
       'the contributor’s grandfather’s recipe',
     ],
   ],
-  ['play-dough', ['Wintergreen', 'wintergreen'], ['1 tbsp Vegetable Oil']],
+  ['play-dough', ['Wintergreen', 'wintergreen'], ['1 tbsp vegetable oil']],
   [
     'tonkotsu-style-ramen',
     ['it protects the broth underneath', 'Reheat gently before serving'],
@@ -185,7 +189,9 @@ const cases = [
       '2 large pasteurized whole eggs',
       '2 large pasteurized egg yolks',
       'appearance alone does not verify',
-      'working quickly off-heat',
+      'Keep the pork skillet off the heat',
+      'then add all the warm egg-and-cheese mixture. Toss immediately',
+      'Do not put the egg sauce back over high direct heat to hold it',
     ],
   ],
   [
@@ -209,10 +215,16 @@ for (const [slug, forbidden, required] of cases) {
 test('carbonara retains its two whole eggs plus two yolks and existing richness', () => {
   const { data } = matter(read('real-spaghetti-carbonara'));
   assert.deepEqual(
-    data.ingredients.filter((ingredient) => /egg/i.test(ingredient)),
+    data.ingredients.filter(
+      (ingredient) => !/^---.*---$/.test(ingredient) && /egg/i.test(ingredient)
+    ),
     ['2 large pasteurized whole eggs', '2 large pasteurized egg yolks']
   );
-  assert.ok(data.ingredients.includes('4 oz Guanciale or Pancetta (thickly diced)'));
+  assert.ok(
+    data.ingredients.includes(
+      '4 oz guanciale or pancetta, thickly diced; check the product cooking instructions'
+    )
+  );
   assert.ok(data.ingredients.includes('1 cup Pecorino Romano or Parmesan, freshly grated'));
 });
 
@@ -241,7 +253,10 @@ test('pressure release correction does not silently reduce grandfather soup rich
 test('filled wonton endpoint remains distinct from sweet custard and plain pork sausage', () => {
   assert.match(read('shrimp-wonton-soup'), /filling and continue until they reach 165°F/);
   assert.match(read('key-lime-pie'), /center reaches 160°F/);
-  assert.match(read('sheet-pan-italian-sausage-dinner'), /\(160°F internal\)/);
+  assert.match(
+    read('sheet-pan-italian-sausage-dinner'),
+    /Raw pork or beef sausage links need a measured 160°F \/ 71°C center/
+  );
   assert.ok(!read('key-lime-pie').includes('165°F'));
 });
 

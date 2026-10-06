@@ -1,0 +1,757 @@
+{
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "changed": 86,
+  "unchanged": 557,
+  "protectedIdentities": 643,
+  "exactPairedFieldsAndBody": true,
+  "registerPromotions": 86,
+  "unrelatedReviewCreditPreserved": true,
+  "changedExportSchemas": 86,
+  "unchangedAcceptedExportSchemas": [],
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "braised-french-lentils",
+      "acceptedSourceSha256": "e498867c759d4563dd2aa5a269b6d9b80ad2ffc15c00c87880b93abd41e5d52b",
+      "remainingQuestions": [
+        "Record actual cooked yield, lentil age and evaporation with the household pot.",
+        "Record kosher-salt crystal type without guessed gram conversion.",
+        "Is there a specific family/publisher account establishing where this particular formula was developed? None is retained in the reviewed evidence."
+      ]
+    },
+    {
+      "slug": "jeris-lentil-soup",
+      "acceptedSourceSha256": "98f8c055e4b57d2af49c10209ebce29fcfc72edd08aa13179d58dae0cf283df6",
+      "remainingQuestions": [
+        "Measure actual finished soup volume and original double-batch packet count; saved arithmetic is inconsistent.",
+        "Confirm preferred fresh versus dried parsley, wine measure and original pepper/herb/acid options.",
+        "Confirm actual slow-cooker capacity and hot-liquid-compatible immersion blender model.",
+        "Did Pat/Jeri measure the six ounces of wine by volume or weight?",
+        "Is there a specific family/publisher account establishing where this particular formula was developed? None is retained in the reviewed evidence."
+      ]
+    },
+    {
+      "slug": "pizza-beans",
+      "acceptedSourceSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90",
+      "remainingQuestions": [
+        "Confirm kale bunch size, skillet capacity and measured finished portions.",
+        "Confirm preferred optional pepper flakes and bread; no new measured dose."
+      ]
+    },
+    {
+      "slug": "sausage-and-white-bean-skillet",
+      "acceptedSourceSha256": "7a33e075c07f56dc4caaa216a327b44a82bb423a7c07241524e927f5a45c2fed",
+      "remainingQuestions": [
+        "Confirm sausage product species/state and practical thicker-piece temperature readings.",
+        "Record pan area and actual active/elapsed time.",
+        "Record kosher-salt crystal type without guessing weight."
+      ]
+    },
+    {
+      "slug": "smoky-spanish-rice-and-chickpeas",
+      "acceptedSourceSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19",
+      "remainingQuestions": [
+        "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
+        "Confirm intended shrimp/spinach amounts and practical pan capacity; no yield precision for optional branches.",
+        "Confirm saved freeze-dried oregano versus current ordinary dried preference.",
+        "Which seasoning route should be the normal household version?",
+        "Keep one chickpea can unless household directs otherwise; original card is malformed and publisher prose says two."
+      ]
+    },
+    {
+      "slug": "breakfast-burrito",
+      "acceptedSourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
+      "remainingQuestions": [
+        "Actual tortilla brand and filling volume, cooked-meat product state, time to reach the egg endpoint, and frozen reheat duration need observation. The earlier one-month freezer claim is a quality plan, not a validated endpoint or guaranteed shelf life."
+      ]
+    },
+    {
+      "slug": "breakfast-quesadilla",
+      "acceptedSourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
+      "remainingQuestions": [
+        "Actual pan footprint, cheese melt and center-probe placement need kitchen observation. No undercooked-egg carryover guarantee is made."
+      ]
+    },
+    {
+      "slug": "egg-in-a-hole",
+      "acceptedSourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
+      "remainingQuestions": [
+        "Bread dimensions, actual hole fit, butter distribution and firm-yolk cooking time need kitchen observation. No specific external source was attributed in the earliest Git recipe."
+      ]
+    },
+    {
+      "slug": "savory-oatmeal-with-egg",
+      "acceptedSourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
+      "remainingQuestions": [
+        "Actual oats package, saucepan size, egg firmness time and bowl thickness need observation. No external publisher was identified in the earliest Git source."
+      ]
+    },
+    {
+      "slug": "starbucks-egg-bites",
+      "acceptedSourceSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5",
+      "remainingQuestions": [
+        "Actual well capacity/finished count, cooked-bacon state and time to165°F need observation. The current optional water-tray claim has no supported tray/fill/appliance configuration and remains a held variation, not required for the complete native/publisher oven route."
+      ]
+    },
+    {
+      "slug": "tamagoyaki-japanese-rolled-omelet",
+      "acceptedSourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
+      "remainingQuestions": [
+        "Actual pan footprint, number of layers per roll, measured center and finished slice count need observation. The saved eight-egg formula has no attributed publisher; the separately consulted Japanese publisher supports rolling mechanics and mirin identification, not equivalence to its different three-egg formula."
+      ]
+    },
+    {
+      "slug": "beef-tenderloin-dogs-with-corn-relish",
+      "acceptedSourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
+      "remainingQuestions": [
+        "Actual strip dimensions, grill/pan loads and roasting-corn preparation time? Four is inherited serving planning, not a measured yield.",
+        "Which relish/bread-oil version is wanted for service? No choice or measured chill time is presumed."
+      ]
+    },
+    {
+      "slug": "bibimbap",
+      "acceptedSourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
+      "remainingQuestions": [
+        "Desired prepared meat/banchan amounts and actual crisp-rice pan loads? Twenty minutes covers prepared-component assembly, not linked from-scratch cooking.",
+        "Actual egg pasteurization label and component remaining refrigerator ages? Linked recipes are referenced, not all recertified.",
+        "The larger6565 ground-lamb/beef option lacks a defined sprout-bag size and clearly owned per-vegetable seasoning quantities; does it need a separate developed recipe?"
+      ]
+    },
+    {
+      "slug": "enchilada-skillet",
+      "acceptedSourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
+      "remainingQuestions": [
+        "Actual enchilada sauce label ounces (no mass-volume conversion supplied), tortilla product, skillet load and serving size?"
+      ]
+    },
+    {
+      "slug": "enchiladas-suizas",
+      "acceptedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
+      "remainingQuestions": [
+        "Actual baking dish, tortilla size and intended qualitative cheese split? Numeric migration remains deferred until a supported share is selected.",
+        "Actual blender permitted temperatures/load/lid instructions and elapsed cooling, frying and casserole center time? No model-specific hot-blend permission is certified.",
+        "Is there a separately retained actual publisher for this particular Suizas formula? None established."
+      ]
+    },
+    {
+      "slug": "mediterranean-chicken-bowls",
+      "acceptedSourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
+      "remainingQuestions": [
+        "Actual grain/hummus state, marination option, pan loads, bowl capacity and serving quantities? No cooker water dose is supplied.",
+        "Which seasoning/marination option is intended? Earlier unmeasured feta has no quantitative equivalence; current½cup is kept."
+      ]
+    },
+    {
+      "slug": "sheet-pan-italian-sausage-dinner",
+      "acceptedSourceSha256": "1d4d38ffc2a6d436bac4d817d3d85afe64525a7a7b662dec710a59240e422da1",
+      "remainingQuestions": [
+        "Actual raw link species/package, pan dimensions, potato size and broccoli amount/appliance?",
+        "Can representative raw-contact potatoes be measured reliably? Actual alternate potato time and sausage label remain product-dependent.",
+        "Sausage Sheet Pan Night includes crispy-smashed-potatoes as a second component despite potatoes already in main and a35minute cooking/40minute finish schedule; which potato route and actual amounts are intended?"
+      ]
+    },
+    {
+      "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
+      "acceptedSourceSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc",
+      "remainingQuestions": [
+        "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
+        "Compare the two sage orders and sauce texture in the kitchen; neither route has been tested here."
+      ]
+    },
+    {
+      "slug": "spaghetti-and-tofu-meatballs",
+      "acceptedSourceSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630",
+      "remainingQuestions": [
+        "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+        "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
+      ]
+    },
+    {
+      "slug": "stovetop-macaroni-and-cheese",
+      "acceptedSourceSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7",
+      "remainingQuestions": [
+        "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+        "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
+      ]
+    },
+    {
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "acceptedSourceSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02",
+      "remainingQuestions": [
+        "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+        "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
+      ]
+    },
+    {
+      "slug": "the-easiest-spinach-lasagna",
+      "acceptedSourceSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de",
+      "remainingQuestions": [
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+      ]
+    },
+    {
+      "slug": "harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "acceptedSourceSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b",
+      "remainingQuestions": [
+        "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+        "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
+      ]
+    },
+    {
+      "slug": "sausage-breakfast-casserole",
+      "acceptedSourceSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b",
+      "remainingQuestions": [
+        "What actual sausage species,label and salt strength are used? Source measured salt has unspecified crystal size.",
+        "Which dish depth and cold-to-hot instructions apply? What elapsed bake/center/slicingtexture results with30oz thawedpotatoes and fullcream?"
+      ]
+    },
+    {
+      "slug": "shakshuka",
+      "acceptedSourceSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c",
+      "remainingQuestions": [
+        "Which current main or separatehummus route is wanted for serving? Are pasteurizedshell eggs available forsoftyolks?",
+        "Howmanycoveredskillets fitallscaledeggswithoutcrowding? Shakshuka Brunch still instructsrunnyunpasteurizedeggs and additionalcomponents needseparatemealreview."
+      ]
+    },
+    {
+      "slug": "sheet-pan-pancakes",
+      "acceptedSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
+      "remainingQuestions": [
+        "Whatactualrimmedpan depth and bakewindowproduce fullycookedfruitpockets?",
+        "Howmanyoriginalsizepansfitovenatlargerloads? Sixportions areinheritedplanningnotmeasured."
+      ]
+    },
+    {
+      "slug": "slow-cooker-cheesy-mushroom-quinoa",
+      "acceptedSourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f",
+      "remainingQuestions": [
+        "What cooker model,insertcapacity,min/maxload and original2cupdry/4cupbroth behavior apply?",
+        "Which latecurrent versus earlysourcecreamcheese/greenonionroute is preferred, and howgenerous arefourmainportions? Actualmodernpublisherunavailable.",
+        "Which cheese/saltidentity makes sourceapproximate2tsp salt example appropriate? No broth or finishyieldinvented."
+      ]
+    },
+    {
+      "slug": "tomato-cobbler-with-cornmeal-cheddar-biscuits",
+      "acceptedSourceSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450",
+      "remainingQuestions": [
+        "Which high-sided vesselactualdepth fits4lbtomatoes/alldoughwithheadroom? Howmany walnutmounds areproduced fromthefullcurrentdough?",
+        "Is the current1cupmilk/walnut route orcomplete7–8larger/¾–1cupsource route preferred? Saltcrystaltype unspecified.",
+        "Howlongdotheonionsactuallybrownandbiscuitsfullycook? No texture/capacitytestclaimed."
+      ]
+    },
+    {
+      "slug": "my-favorite-challah",
+      "acceptedSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
+      "remainingQuestions": [
+        "NYT current page unavailable; exact original cooking evidence is retained. Source salt state and household mixer/pan/proof/cooling behavior remain questions, not invented grams or testing.",
+        "Confirm the intended kosher salt brand versus saved unspecified salt; equal spoon volumes are not density conversions. Confirm preferred straight or ring shape and actual cool-down time. Source five-hour thaw/proof is original-size guidance, not a measured household or universal ambient interval."
+      ]
+    },
+    {
+      "slug": "no-cook-playdough",
+      "acceptedSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
+      "remainingQuestions": [
+        "Confirm intended water route and actual craft storage conditions. Neither route is certified edible or suitable raw-flour play for children.",
+        "No tested cooling time or keeping life. Coloring must follow the actual craft-product label. Root may choose a clearer site-wide craft presentation later; no shared discovery/export rule changed."
+      ]
+    },
+    {
+      "slug": "play-dough",
+      "acceptedSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
+      "remainingQuestions": [
+        "Gracy Ann name/formula preserved without invented publisher. Actual nonfood storage and handling conditions remain unresolved.",
+        "No measured saucepan capacity, cool-down or craft keeping life; texture cue is not a validated microbial endpoint."
+      ]
+    },
+    {
+      "slug": "pork-and-greens-dumplings",
+      "acceptedSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
+      "remainingQuestions": [
+        "No household test of full batch time/capacity/count. Source16portions is planning. Named unprovided dipping recipes are not invented links/formulas.",
+        "What are actual wrapper package contents and preferred filling portions? Actual cooked count/preparedgreenmass/loading and total batch clock remain unmeasured. Chinese chive/frozen shepherd’s purse prepared-weight conversion not established."
+      ]
+    },
+    {
+      "slug": "real-spaghetti-carbonara",
+      "acceptedSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
+      "remainingQuestions": [
+        "Git-only culinary original; no direct attributed publisher. Carbonara Night is a separate unresolved combined meal, no meal-certified claim.",
+        "Confirm actual cured-pork package cooking instructions and pasteurized egg product suitable for this method. Larger/fractional loads and actual total clock are untested. Incoming Carbonara Night omits pasteurization/gentle warm and remains unapproved."
+      ]
+    },
+    {
+      "slug": "royal-icing",
+      "acceptedSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
+      "remainingQuestions": [
+        "No testedfinishedicingyield,shelflifeorwateractivity.2weekpublisherwetstorageoption held separately; original36servingsnotfixedcookies.",
+        "Actual pasteurized white product whipping suitability and cookie/design coverage remain unresolved. Current publisher coveredfridgeupto2weeks is preserved privately as a separate storage option/question: exact sugar/water/color/product and handling limits have not been validated here."
+      ]
+    },
+    {
+      "slug": "crispy-oven-zucchini-fries",
+      "acceptedSourceSha256": "3a3f50dfaf92c7624fdfea404bf009977feb68da1af25f1b6ab019acac0c2c4b",
+      "remainingQuestions": [
+        "Actual sheet capacity and egg-coating probe access need kitchen observation.",
+        "No external original publisher was established; the Git introduction itself contains the double salt instruction."
+      ]
+    },
+    {
+      "slug": "kale-caesar-with-crispy-chickpeas",
+      "acceptedSourceSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d",
+      "remainingQuestions": [
+        "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
+        "No external original publisher was established. Room-temperature chickpea storage is not adopted from the undefined two-day instruction."
+      ]
+    },
+    {
+      "slug": "roasted-green-bean-fries",
+      "acceptedSourceSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4",
+      "remainingQuestions": [
+        "Actual bean thickness and oven load need kitchen checks.",
+        "No independent native source or external publisher was established. Existing unusual pairings remain metadata, not reviewed meal endorsements."
+      ]
+    },
+    {
+      "slug": "roasted-sweet-potatoes",
+      "acceptedSourceSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2",
+      "remainingQuestions": [
+        "Actual sheet temperature rating and load/cook time remain kitchen questions.",
+        "No external publisher or independent original 450 was established; preserve the distinct cumin-chili formula rather than merge with Sweet Potato Fries."
+      ]
+    },
+    {
+      "slug": "sweet-potato-fries",
+      "acceptedSourceSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3",
+      "remainingQuestions": [
+        "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
+        "Which salt crystal type was intended by the original unspecified salt? No equal-density assertion is made."
+      ]
+    },
+    {
+      "slug": "sweet-potato-latkes",
+      "acceptedSourceSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a",
+      "remainingQuestions": [
+        "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
+        "The source salt is unspecified; current sea salt remains primary without claiming density equivalence."
+      ]
+    },
+    {
+      "slug": "tuscan-spaghetti-squash",
+      "acceptedSourceSha256": "6db493d598b221fa240f60a0a538fc32220b1663e645910d5fefe1ade3dc22af",
+      "remainingQuestions": [
+        "Delish direct fetch unavailable; exact native/earlier Git support formula and complete source method.",
+        "Actual squash yield and skillet capacity unknown; no weight or guaranteed serving equivalence invented."
+      ]
+    },
+    {
+      "slug": "zucchini-herb-fritters-with-garlic-yogurt",
+      "acceptedSourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020",
+      "remainingQuestions": [
+        "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",
+        "The bulk reduction does not establish an accepted household rejection of the full yogurt oil/honey/second garlic. Both complete sauce versions remain separate proposals."
+      ]
+    },
+    {
+      "slug": "parishs-blueberry-crisp",
+      "acceptedSourceSha256": "1b090fda430b0f40a79181d96d5d8ea6e9258afca60918b6fb1a8eccffd56f3a",
+      "remainingQuestions": [
+        "How long does this kitchen take to solidify the strained butter? What dish depth and amount of crumble does the household prefer?",
+        "What machine/capacity and finished volume apply to the separate ice cream? Is the exact stabilizer product intended?",
+        "Original optional stabilizer:4g Cremodan30 in the separate ice cream when sugar is added. Exact product-specific amount is preserved privately; product availability/composition/handling instructions not established. No generic4g stabilizer substitution, no invented linked recipe or claim that existing linked vanilla recipe matches this source."
+      ]
+    },
+    {
+      "slug": "parmigiano-reggiano-cheesecake",
+      "acceptedSourceSha256": "e61fc92daa9192a759506b7d8344a2166b16ea7ac21790b83f0b2b54ffa5e985",
+      "remainingQuestions": [
+        "Which graham-cracker sheet size and springform depth were used? Does the household intend a different crust sweetness?",
+        "What texture and bake time result at the measured center endpoint with the actual pan? How long until fully chilled?",
+        "Confirm actualcheese label; no substitutecheeseformula evaluated.",
+        "No complete current Food52 page was retrievable (403). Exact bound native/HTML/canonical source provides the formula; publisher URL doesnot certify current card, geography or pan volume. Alternate vegetarian cheese route has no supported defining replacement."
+      ]
+    },
+    {
+      "slug": "peach-pie-biscuit-bombs",
+      "acceptedSourceSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5",
+      "remainingQuestions": [
+        "Which actualbiscuits and interiorbake time work with this fullcheese/peachfilling? Which fullhoneyroute is preferred?",
+        "Publisher says she has not frozen these herself; no tested freezer quality or exact freeze/rebake plan is imported. Different biscuit sizes require actual package/capacity checks."
+      ]
+    },
+    {
+      "slug": "peach-pie-pancakes",
+      "acceptedSourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764",
+      "remainingQuestions": [
+        "Howmanytwo-tablespoon pancakesfitactualpan andwhatfinishedcountresults? Whichflourblend andyogurtstate are intended?",
+        "Original gluten-free* flour note absent from native notes; current actual primary provides the complete blend. Other unspecified gluten-free mixes are not certified direct replacements. No measured griddlecapacity, final count or freezerduration."
+      ]
+    },
+    {
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "acceptedSourceSha256": "66a0cbdd07fa01da364fbb75c5b9d1f43e8d80e31dd57a8bbf4643a254e2f865",
+      "remainingQuestions": [
+        "Can the actualoven roastfruit andbakeshortcakes simultaneously without crowding? Howlongdoesfruitcool? Whichsourcecream dough/rhubarbstalkchoice is intended?",
+        "Exact source topping matches dairy temperatures atroomtemperature, but actualwarmingduration is unspecified; promptpreparation/coldhandling supplied instead of inventing a wait. Fruit/substitute stalkweights andactualovenparallelcapacity unmeasured."
+      ]
+    },
+    {
+      "slug": "strawberry-rhubarb-yogurt-pops",
+      "acceptedSourceSha256": "4da41a4c4326940990acda8446c1e95ce73cb5922699981b041dde17416056a3",
+      "remainingQuestions": [
+        "What are actualmoldvolume, frozen count andcenters-freezing time? Is currentseaororiginalkosher intended?",
+        "Mold volume, rhubarb weights and finished-volume measurement absent; planning count remains explicit. No exact frozen shelf-life or icy-texture guarantee."
+      ]
+    },
+    {
+      "slug": "old-fashioned-strawberry-ice-cream",
+      "acceptedSourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d",
+      "remainingQuestions": [
+        "Whichmakerbowl andfilllimit applies? Whatfinishedyield/texture withcurrent¾ versus source½sugar? Howlongdoesactualhardening take?",
+        "No exact maker model, bowlcapacity, finishedoverrun or householdyield. Source comment alternative addingbothsugarsto fruit doesnot provide acomplete unambiguousallocation for yolks; no invented branch."
+      ]
+    },
+    {
+      "slug": "boulevardier",
+      "acceptedSourceSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94",
+      "remainingQuestions": [
+        "Compare up versus rocks service and intended bitter-aperitif/whiskey bottles.",
+        "Confirm actual glass and mixing capacity for two drinks."
+      ]
+    },
+    {
+      "slug": "classic-manhattan",
+      "acceptedSourceSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00",
+      "remainingQuestions": [
+        "Compare intended whiskey and sweet-vermouth bottles without changing the saved 2:1 ratio.",
+        "Check repeatability of two dashes and actual chilled glass capacity."
+      ]
+    },
+    {
+      "slug": "classic-martini",
+      "acceptedSourceSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e",
+      "remainingQuestions": [
+        "Record actual serving-glass usable capacity, final strained volume and sidecar amount without altering the saved ratio.",
+        "Check perceived balance with intended gin/vermouth bottle strengths and the retained cracked-ice method."
+      ]
+    },
+    {
+      "slug": "old-fashioned",
+      "acceptedSourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+      "remainingQuestions": [
+        "Record actual sugar-cube size and syrup concentration for preference comparison; do not assume equal sugar content.",
+        "Check glass and cube fit and useful chilled taste with the intended spirit and bitters."
+      ]
+    },
+    {
+      "slug": "sazerac",
+      "acceptedSourceSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8",
+      "remainingQuestions": [
+        "Compare rye/Cognac and optional bitters using the intended bottles, recording dash style and syrup strength.",
+        "Measure actual rinse supply and retained aroma without treating all poured rinse spirit as consumed."
+      ]
+    },
+    {
+      "slug": "vieux-carre",
+      "acceptedSourceSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82",
+      "remainingQuestions": [
+        "Compare currentstirredroute and savedshakenrocksroute without changing the measuredingredients.",
+        "Record bottle strengths, bitterspouringmotion, actual1/2tsp measure and glass/ice fit."
+      ]
+    },
+    {
+      "slug": "grapefruit-basil-gin-fizz",
+      "acceptedSourceSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0",
+      "remainingQuestions": [
+        "Check actual glass volume and ice load with all 10 fluid ounces liquid.",
+        "Compare tonic and seltzer options and chopped basil texture without changing quantities."
+      ]
+    },
+    {
+      "slug": "melon-daiquiri",
+      "acceptedSourceSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671",
+      "remainingQuestions": [
+        "Measure final blended volume and actual four-portion glass/refill size with chosen melon.",
+        "Test fresh versus 30-minute chilled fruit and optional ice; record texture without claiming frozen solidity.",
+        "Check actual blender capacity and sugar cane skewer handling."
+      ]
+    },
+    {
+      "slug": "prohibition-style-gin-lemon-fizz",
+      "acceptedSourceSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11",
+      "remainingQuestions": [
+        "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
+        "Compare current London dry gin to named saved gin without normalizing brands.",
+        "Compare the saved optional agave omission to the current primary amount without changing other measures."
+      ]
+    },
+    {
+      "slug": "spindrift-gin-fizz",
+      "acceptedSourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
+      "remainingQuestions": [
+        "Check three-glass volume/ice fit with actual topping product.",
+        "Compare current generic product descriptions to preferred household bottles/cans."
+      ]
+    },
+    {
+      "slug": "whiskey-sour",
+      "acceptedSourceSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7",
+      "remainingQuestions": [
+        "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
+        "Check chosen pasteurized product foam and actual glass capacity, including white/rocks/up branches.",
+        "Compare restored optional½oz wine float and retained bourbon/rye options."
+      ]
+    },
+    {
+      "slug": "crock-pot-hot-chocolate",
+      "acceptedSourceSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd",
+      "remainingQuestions": [
+        "Actual slow-cooker model working fill and LOW/WARM temperatures at each batch size.",
+        "Eight portions are planning, not measured finished volume; optional liqueur belongs only to an adult batch.",
+        "Source marshmallow size is unspecified; texture/sweetness needs kitchen checking."
+      ]
+    },
+    {
+      "slug": "green-smoothie-for-kids-with-2-hidden-veggies",
+      "acceptedSourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc",
+      "remainingQuestions": [
+        "Actual blender model maximum fill and loading instructions; frozen product preparation label.",
+        "Banana/avocado size and additional milk determine unmeasured finished volume.",
+        "The current publisher is403; exact stable-bound original/HTML/Git establish saved recipe, not a currently fetched full publisher page."
+      ]
+    },
+    {
+      "slug": "hot-mulled-apple-cider",
+      "acceptedSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
+      "remainingQuestions": [
+        "Actual evaporation/straining loss means starting2qt does not certify exactly8 finished cups.",
+        "Original3-inch stick dimension stays fixed while stick count scales.",
+        "Salt crystal type is unresolved; no fine-salt or kosher equivalence is invented."
+      ]
+    },
+    {
+      "slug": "in-the-park",
+      "acceptedSourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e",
+      "remainingQuestions": [
+        "Actual half-lemon juice yield, ice dilution and glass/shaker working capacity.",
+        "Four cut pieces describe the original half-lemon portion, not a measured scaled juice equivalence.",
+        "No independently attributed publisher exists; exact native and Git are the recipe evidence."
+      ]
+    },
+    {
+      "slug": "mango-rita-green-smoothie",
+      "acceptedSourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e",
+      "remainingQuestions": [
+        "Lime and orange size, blender load and actual frozen-fruit label determine readiness/texture.",
+        "Two glasses are planning rather than measured volume; current full fruit and coconut-water quantities stay intact."
+      ]
+    },
+    {
+      "slug": "shruffs-end",
+      "acceptedSourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934",
+      "remainingQuestions": [
+        "Exact glass capacity, ice geometry and preferred dilution at the original stirred proportions.",
+        "No independently attributed creator/publisher established; no native archive is certified."
+      ]
+    },
+    {
+      "slug": "stevens-margs",
+      "acceptedSourceSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945",
+      "remainingQuestions": [
+        "Which ratio Steven prefers remains a household question, not approval of a bulk reduction or source reset.",
+        "Source part size and resulting serving count are unspecified.",
+        "Agave squirt and smoked-salt pinch are genuinely unmeasured and need actual product/taste checking."
+      ]
+    },
+    {
+      "slug": "thai-basil-ginger-spritzer",
+      "acceptedSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
+      "remainingQuestions": [
+        "Actual strained syrup yield is not certified by1cup water plus half-cup sugar.",
+        "Current MyRecipes fetch fails; saved native/HTML/Git are exact source evidence.",
+        "Actual chilling time, freezer-safe glass permission and syrup make-ahead life need evidence; no invented month storage or guaranteed freeze-ahead quality."
+      ]
+    },
+    {
+      "slug": "the-new-england-express",
+      "acceptedSourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de",
+      "remainingQuestions": [
+        "Actual strained syrup/finished punch volume and serving glass capacity.",
+        "Source one-month refrigerated herbal syrup plan lacks specifically applicable preservation evidence; held separately while fresh/4-hour pitcher route is reviewable.",
+        "Current BonAppetit page displays article/header but not full formula; exact native/HTML/Git establish cooking source."
+      ]
+    },
+    {
+      "slug": "charred-guacamole-with-pomegranate",
+      "acceptedSourceSha256": "8ef50347e92350566ddb7544d2137558251fa4c7c89bd5e5b14174ecfdbcb936",
+      "remainingQuestions": [
+        "Actual broiler rack and pan permissions, vegetable sizes and time to cool need kitchen checking.",
+        "The two-lime companion estimate is not an exact juice conversion.",
+        "Confirm preferred rough mash, heat and finishing oil; no measured cooked yield or nutrition certified."
+      ]
+    },
+    {
+      "slug": "korean-mung-bean-sprouts-salad",
+      "acceptedSourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413",
+      "remainingQuestions": [
+        "Check temperature sampling through the actual sprout mass and texture after thorough cooking/cooling.",
+        "Actual pot recovery and draining dilution affect the untested elapsed plan and seasoning.",
+        "Four small sides remain planning, with no measured drained yield."
+      ]
+    },
+    {
+      "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
+      "acceptedSourceSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5",
+      "remainingQuestions": [
+        "Actual frozen-spinach package cooking/cooling time and tortilla dimensions govern the untested plan/count.",
+        "Current two-clove versus source2Tb garlic strength is a household choice, not a conversion.",
+        "For a vegetarian or vegan need, confirm the actual cheese rennet and product labels; no dose removal from the main."
+      ]
+    },
+    {
+      "slug": "onigiri-japanese-rice-balls",
+      "acceptedSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
+      "remainingQuestions": [
+        "Confirm intended number/size of nori strips versus the large written whole-sheet supply; no dose reduced.",
+        "Measure actual tuna mixture yield and household filling preference; original source may intentionally prepare surplus.",
+        "Fractional plum and rice-ball counts at small scales require practical division; no exact mass equivalence or tested frozen texture."
+      ]
+    },
+    {
+      "slug": "rice-bowl-station-buddha-bowls",
+      "acceptedSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
+      "remainingQuestions": [
+        "Actual bowl size, chosen components and leftover prepared amounts determine portions; no route-specific nutrition certified.",
+        "Prepared sauces and optional black beans/olives/feta/radishes/pumpkin seeds have no measured batch formula here.",
+        "Actual products and earlier component dates may require a shorter holding limit."
+      ]
+    },
+    {
+      "slug": "roasted-fall-harvest-salad",
+      "acceptedSourceSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57",
+      "remainingQuestions": [
+        "Which full seasoning/can route is preferred remains open; actual chickpea can draining output is unmeasured.",
+        "Actual squash cube/pan loading, quinoa brand and tenderness determine the clock.",
+        "The source older whole-apple dressing is a separate modern-publisher note, not a saved main replacement; no automatic adoption."
+      ]
+    },
+    {
+      "slug": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+      "acceptedSourceSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7",
+      "remainingQuestions": [
+        "Which seasoning route is preferred in the household remains open; neither is kitchen-tested.",
+        "Kosher salt crystal brand and actual potato/onion size are unspecified; no density conversion or pan-volume claim.",
+        "Test uncrowded tray load, dressing amount used and storage texture."
+      ]
+    },
+    {
+      "slug": "cantonese-shrimp-and-pork-wontons",
+      "acceptedSourceSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7",
+      "remainingQuestions": [
+        "Confirm actual wrapper count, steamer/pot loads and household portions.",
+        "Record celery versus apple texture and chosen kosher-salt crystal brand; no weight conversion invented."
+      ]
+    },
+    {
+      "slug": "classic-wonton-soup",
+      "acceptedSourceSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60",
+      "remainingQuestions": [
+        "Taste the restored¼tsp filling salt with the household light soy and chosen broth.",
+        "Confirm40-small-wrapper count and actual assembly time."
+      ]
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "acceptedSourceSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336",
+      "remainingQuestions": [
+        "Taste restored filling salt/coriander without adding the original per-bowl salt on top of already seasoned broth.",
+        "Confirm package size/count, cold handling workflow and actual assembly time."
+      ]
+    },
+    {
+      "slug": "cantonese-shumai-siu-mai",
+      "acceptedSourceSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783",
+      "remainingQuestions": [
+        "Independent editor must challenge exact source-rich restoration versus fully retained current variant; no inferred household approval.",
+        "Clarify goji product/preparation for the existing alternate garnish before selecting it.",
+        "Confirm measured hydrated-mushroom volume, wrapper count, rack loads and final filling texture.",
+        "Record kosher-salt crystal brand; retain teaspoon without guessed weight."
+      ]
+    },
+    {
+      "slug": "corn-shrimp-dumplings",
+      "acceptedSourceSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361",
+      "remainingQuestions": [
+        "Confirm actual count with available wrappers and ear size.",
+        "Confirm frozen cooking texture; no tested from-frozen time supplied."
+      ]
+    },
+    {
+      "slug": "crispy-shallots",
+      "acceptedSourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02",
+      "remainingQuestions": [
+        "What actual shallot sizes and pan let the full1cup oil surround the rings, and what dry finished cup yield results?",
+        "Is the pale-gold/drain/blot endpoint consistently crisp without bitter small rings? Oil4daycoldplan isguidance, notmeasuredwateractivity."
+      ]
+    },
+    {
+      "slug": "elderberry-syrup",
+      "acceptedSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
+      "remainingQuestions": [
+        "What exact edible dried-ripe black berry product and heating instructions apply? No unidentified/wildplantpermission.",
+        "What strained finished volume actually results, and does the savedcoveredrouteachievehalf reduction? Pressure9minnotvalidated/adopted; no medicinal dose or preservationpromise."
+      ]
+    },
+    {
+      "slug": "patatas-bravas",
+      "acceptedSourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4",
+      "remainingQuestions": [
+        "What actual frying pot gives safeheadroom withoriginalapproximate4cup bath anddrychunks? Howmany5–7minloads?",
+        "Howmuchfullsauce/⅓mayo goesonfourplannedportions anddoes main½cayenne/hot-or-sweetpimentónfitintendedheat? No flavor/absorptiontestclaimed."
+      ]
+    },
+    {
+      "slug": "spiced-butternut-squash-puree",
+      "acceptedSourceSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999",
+      "remainingQuestions": [
+        "Which roasted versus originalboiled familyroute ispreferred? What whole/trimmedsquash weights and actualfinishedvolume?",
+        "Whichpan area/hotprocessor model actually applies? No genericprocessorpermission, addedwater or shortenedclock."
+      ]
+    },
+    {
+      "slug": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce",
+      "acceptedSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
+      "remainingQuestions": [
+        "Which ketchup-freecurrent versus½cupketchup/sourcefinish-salt route iswanted? No householdintentinvented.",
+        "What actualrackcount/dimensions and sauceyield permitbakingportion/cleanreservedglaze across8lb? Exact¾peroriginal3racks iscontext, notnewweightconversion.",
+        "What originaloven/grillloads andtendernessclock result? Sourcehigh~4TOTAL differsprotectedcurrentmediumlow3–4perSIDE."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

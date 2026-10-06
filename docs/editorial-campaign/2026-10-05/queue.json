@@ -1159,11 +1159,13 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish",
       "group": "protein_assembled_mains_18",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/beef-tenderloin-dogs-with-corn-relish.json"
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/beef-tenderloin-dogs-with-corn-relish.json",
+        "docs/reviews/beef-tenderloin-dogs-with-corn-relish.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1176,7 +1178,8 @@
       "proposedSourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab"
     },
     {
       "slug": "beef-with-snow-peas",
@@ -1261,10 +1264,12 @@
       "source": "Adapted from MyKoreanKitchen.com",
       "sourceUrl": "https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/",
       "group": "protein_assembled_mains_18",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/bibimbap.json"
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/bibimbap.json",
+        "docs/reviews/bibimbap.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1278,7 +1283,8 @@
       "proposedSourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20"
     },
     {
       "slug": "blackout-chocolate-cake",
@@ -1496,17 +1502,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/boulevardier.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare up versus rocks service and intended bitter-aperitif/whiskey bottles.",
+        "Confirm actual glass and mixing capacity for two drinks."
       ],
       "inputSha256": "d119c62155ebd04bc308dbbab38091a8dd8108b9ac212843484b2fa51a2364fd",
       "plannedBatch": "cold-preparations-01",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "d119c62155ebd04bc308dbbab38091a8dd8108b9ac212843484b2fa51a2364fd"
+      "assignmentInputSha256": "d119c62155ebd04bc308dbbab38091a8dd8108b9ac212843484b2fa51a2364fd",
+      "acceptedSourceSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94",
+      "productionVerification": "pending"
     },
     {
       "slug": "braised-french-lentils",
@@ -1515,19 +1526,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "beans_lentils_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/braised-french-lentils.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual cooked yield, lentil age and evaporation with the household pot.",
+        "Record kosher-salt crystal type without guessed gram conversion.",
+        "Is there a specific family/publisher account establishing where this particular formula was developed? None is retained in the reviewed evidence."
       ],
       "inputSha256": "46c87d98ad9c236631dc9fa87200a3cdd304c5126519bfd4fc127c4533d27018",
       "plannedBatch": "braises-and-slow-cooking-01",
       "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
       "assignmentInputSha256": "46c87d98ad9c236631dc9fa87200a3cdd304c5126519bfd4fc127c4533d27018",
       "proposedSourceSha256": "80616840edd3d6927b5db13d8f18ad808cac88a0b6d323174caf7bc2bfc671b0",
-      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending",
+      "acceptedSourceSha256": "e498867c759d4563dd2aa5a269b6d9b80ad2ffc15c00c87880b93abd41e5d52b",
+      "productionVerification": "pending"
     },
     {
       "slug": "breakfast-burrito",
@@ -1536,10 +1553,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "egg_breakfast_13",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/breakfast-burrito.json"
+        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/breakfast-burrito.json",
+        "docs/reviews/breakfast-burrito.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1556,7 +1575,9 @@
         "sourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
         "recordPath": ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/breakfast-burrito.json",
         "recordSha256": "b062d27fcc2d2d9ec175ee777f0b3c98b5c88b1bd7645f0aed0caceedbd44e76"
-      }
+      },
+      "acceptedSourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
+      "productionVerification": "pending"
     },
     {
       "slug": "breakfast-carrot-cake",
@@ -1646,10 +1667,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "egg_breakfast_13",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-record-amendment/breakfast-quesadilla.json"
+        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-record-amendment/breakfast-quesadilla.json",
+        "docs/reviews/breakfast-quesadilla.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1666,7 +1689,9 @@
         "sourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
         "recordPath": ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-record-amendment/breakfast-quesadilla.json",
         "recordSha256": "ad5a698888872cb4ca21fdf997f151b3e730401aaa8c54d22bbb51cbb8d4c371"
-      }
+      },
+      "acceptedSourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
+      "productionVerification": "pending"
     },
     {
       "slug": "broccoli-all-agro",
@@ -1955,18 +1980,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "dumplings_wonton_mains_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/cantonese-shrimp-and-pork-wontons.md",
         "docs/repairs/2026-09-15/changed-files.json",
-        "private author assignment; independent/root gate pending"
+        "private author assignment; independent/root gate pending",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
+        "Confirm actual wrapper count, steamer/pot loads and household portions.",
+        "Record celery versus apple texture and chosen kosher-salt crystal brand; no weight conversion invented."
       ],
       "inputSha256": "3e5e4efe0dc011d11757e737e8768fdee3496d22ae0c6af64b00b1d78e8bbd0c",
-      "plannedBatch": "stir-fry-and-pan-cooking-01"
+      "plannedBatch": "stir-fry-and-pan-cooking-01",
+      "acceptedSourceSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7",
+      "productionVerification": "pending"
     },
     {
       "slug": "cantonese-shumai-siu-mai",
@@ -1975,14 +2004,23 @@
       "source": "Adapted from healthynibblesandbits.com",
       "sourceUrl": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
       "group": "dumplings_wonton_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["private author assignment; independent/root gate pending"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "private author assignment; independent/root gate pending",
+        "docs/reviews/cantonese-shumai-siu-mai.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
+        "Independent editor must challenge exact source-rich restoration versus fully retained current variant; no inferred household approval.",
+        "Clarify goji product/preparation for the existing alternate garnish before selecting it.",
+        "Confirm measured hydrated-mushroom volume, wrapper count, rack loads and final filling texture.",
+        "Record kosher-salt crystal brand; retain teaspoon without guessed weight."
       ],
       "inputSha256": "48d3cf84fe4bb051a9820dc386ad78c8d724c9f22a172064b7c2f1ac6cbed728",
-      "plannedBatch": "simmer-boil-and-steam-01"
+      "plannedBatch": "simmer-boil-and-steam-01",
+      "acceptedSourceSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783",
+      "productionVerification": "pending"
     },
     {
       "slug": "cantonese-wonton-broth",
@@ -2207,19 +2245,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/charred-guacamole-with-pomegranate.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual broiler rack and pan permissions, vegetable sizes and time to cool need kitchen checking.",
+        "The two-lime companion estimate is not an exact juice conversion.",
+        "Confirm preferred rough mash, heat and finishing oil; no measured cooked yield or nutrition certified."
       ],
       "inputSha256": "faad42706883def171f3632740258171fd3fb735184659066bea06453c0634b9",
       "plannedBatch": "roast-grill-and-sear-01",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "8e8a1aa5fed9993f5c00fda40491687a158b983503be1e5c87876fb14faf0b87"
+      "authorSourceSha256": "8e8a1aa5fed9993f5c00fda40491687a158b983503be1e5c87876fb14faf0b87",
+      "acceptedSourceSha256": "8ef50347e92350566ddb7544d2137558251fa4c7c89bd5e5b14174ecfdbcb936",
+      "productionVerification": "pending"
     },
     {
       "slug": "cheese-fondue",
@@ -3126,17 +3170,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/classic-manhattan.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare intended whiskey and sweet-vermouth bottles without changing the saved 2:1 ratio.",
+        "Check repeatability of two dashes and actual chilled glass capacity."
       ],
       "inputSha256": "e98c22329d3af263ff7c9bd8d09ed847a0917e9b18048a2b3f55ba4c7e79dc77",
       "plannedBatch": "cold-preparations-01",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "e98c22329d3af263ff7c9bd8d09ed847a0917e9b18048a2b3f55ba4c7e79dc77"
+      "assignmentInputSha256": "e98c22329d3af263ff7c9bd8d09ed847a0917e9b18048a2b3f55ba4c7e79dc77",
+      "acceptedSourceSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00",
+      "productionVerification": "pending"
     },
     {
       "slug": "classic-martini",
@@ -3145,17 +3194,22 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/classic-martini-2",
       "group": "stirred_drinks_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/classic-martini.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual serving-glass usable capacity, final strained volume and sidecar amount without altering the saved ratio.",
+        "Check perceived balance with intended gin/vermouth bottle strengths and the retained cracked-ice method."
       ],
       "inputSha256": "46827674ea26afe37bab032eef7cbc1c7b2c6c4346ee8ec675e1053e60511c6f",
       "plannedBatch": "cold-preparations-01",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "46827674ea26afe37bab032eef7cbc1c7b2c6c4346ee8ec675e1053e60511c6f"
+      "assignmentInputSha256": "46827674ea26afe37bab032eef7cbc1c7b2c6c4346ee8ec675e1053e60511c6f",
+      "acceptedSourceSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e",
+      "productionVerification": "pending"
     },
     {
       "slug": "classic-peach-ice-cream",
@@ -3201,14 +3255,21 @@
       "source": "Adapted from redhousespice.com",
       "sourceUrl": "https://redhousespice.com/pork-wonton-soup/",
       "group": "dumplings_wonton_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["private author assignment; independent/root gate pending"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "private author assignment; independent/root gate pending",
+        "docs/reviews/classic-wonton-soup.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
+        "Taste the restored¼tsp filling salt with the household light soy and chosen broth.",
+        "Confirm40-small-wrapper count and actual assembly time."
       ],
       "inputSha256": "125718be0ab2d30493c160d80fb33411a90c7b688b9c93957cbd34d52cf53d5a",
-      "plannedBatch": "simmer-boil-and-steam-02"
+      "plannedBatch": "simmer-boil-and-steam-02",
+      "acceptedSourceSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60",
+      "productionVerification": "pending"
     },
     {
       "slug": "corn-casserole",
@@ -3245,14 +3306,21 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/corn-shrimp-dumplings",
       "group": "dumplings_wonton_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["private author assignment; independent/root gate pending"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "private author assignment; independent/root gate pending",
+        "docs/reviews/corn-shrimp-dumplings.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
+        "Confirm actual count with available wrappers and ear size.",
+        "Confirm frozen cooking texture; no tested from-frozen time supplied."
       ],
       "inputSha256": "b601d0362bad4b754dcabbf439ac99d3dfeb986ea4247dd95c600025ab1ce05a",
-      "plannedBatch": "simmer-boil-and-steam-03"
+      "plannedBatch": "simmer-boil-and-steam-03",
+      "acceptedSourceSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361",
+      "productionVerification": "pending"
     },
     {
       "slug": "cottage-cheese-banana-oatmeal-protein-pancakes",
@@ -3504,15 +3572,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/crispy-oven-zucchini-fries.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/crispy-oven-zucchini-fries.json",
+        "docs/reviews/crispy-oven-zucchini-fries.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual sheet capacity and egg-coating probe access need kitchen observation.",
+        "No external original publisher was established; the Git introduction itself contains the double salt instruction."
       ],
       "inputSha256": "214563cff4ffe817401d7f8539bc38feeba0098e89803fc2364d57d5af3c8a26",
       "plannedBatch": "baked-savory-and-breads-04",
@@ -3520,7 +3590,8 @@
       "proposedSourceSha256": "e4174a50cd9d273ff13cfe8328d4af2efc012e036b23a9fe4885ad31b821683f",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "3a3f50dfaf92c7624fdfea404bf009977feb68da1af25f1b6ab019acac0c2c4b"
     },
     {
       "slug": "crispy-shallots",
@@ -3529,19 +3600,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/crispy-shallots.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual shallot sizes and pan let the full1cup oil surround the rings, and what dry finished cup yield results?",
+        "Is the pale-gold/drain/blot endpoint consistently crisp without bitter small rings? Oil4daycoldplan isguidance, notmeasuredwateractivity."
       ],
       "inputSha256": "44243d503dcfbb00fba4aefcac9ddc2421a2add61d0dc2b9c25fdf25b4930e1e",
       "plannedBatch": "stir-fry-and-pan-cooking-02",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
-      "authorSourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02"
+      "authorSourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02",
+      "acceptedSourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02",
+      "productionVerification": "pending"
     },
     {
       "slug": "crispy-sheet-pan-gnocchi-and-veggies",
@@ -3612,19 +3688,25 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/",
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/crock-pot-hot-chocolate.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual slow-cooker model working fill and LOW/WARM temperatures at each batch size.",
+        "Eight portions are planning, not measured finished volume; optional liqueur belongs only to an adult batch.",
+        "Source marshmallow size is unspecified; texture/sweetness needs kitchen checking."
       ],
       "inputSha256": "9a57d8ff9d1fb0096264605de6eb608e1da345983eaffa843f401410ef0ffeef",
       "plannedBatch": "braises-and-slow-cooking-01",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "167d311972f0a51c6726bacf557d45436c8d8295fa40b8b91f644080b9484fbe"
+      "authorSourceSha256": "167d311972f0a51c6726bacf557d45436c8d8295fa40b8b91f644080b9484fbe",
+      "acceptedSourceSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd",
+      "productionVerification": "pending"
     },
     {
       "slug": "crockpot-mac-and-cheese",
@@ -4247,11 +4329,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "egg_breakfast_13",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/egg-in-a-hole.json"
+        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/egg-in-a-hole.json",
+        "docs/reviews/egg-in-a-hole.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4268,7 +4352,9 @@
         "sourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
         "recordPath": ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/egg-in-a-hole.json",
         "recordSha256": "07d7625d74a7571c18c1b50366013c8660096fa6364fbedea017b614f6583b77"
-      }
+      },
+      "acceptedSourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
+      "productionVerification": "pending"
     },
     {
       "slug": "eggless-spinach-and-ricotta-stuffed-shells",
@@ -4341,19 +4427,24 @@
       "source": "Adapted from Wellnessmama.com",
       "sourceUrl": "https://wellnessmama.com/1888/elderberry-syrup/",
       "group": "sides_pressure_preservation_24",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/elderberry-syrup.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What exact edible dried-ripe black berry product and heating instructions apply? No unidentified/wildplantpermission.",
+        "What strained finished volume actually results, and does the savedcoveredrouteachievehalf reduction? Pressure9minnotvalidated/adopted; no medicinal dose or preservationpromise."
       ],
       "inputSha256": "8184652b1085f842ff6b7ae722f85c1c8a1f810d7bcaca59997efc585deddbf1",
       "plannedBatch": "simmer-boil-and-steam-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
-      "authorSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d"
+      "authorSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
+      "acceptedSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
+      "productionVerification": "pending"
     },
     {
       "slug": "elote-style-corn-on-the-cob",
@@ -4389,11 +4480,12 @@
       "source": "Cleanfoodcrush.com",
       "sourceUrl": "https://cleanfoodcrush.com/chopped-enchilada-skillet/",
       "group": "protein_assembled_mains_18",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/enchilada-skillet.md",
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/enchilada-skillet.json"
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/enchilada-skillet.json",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -4405,7 +4497,8 @@
       "proposedSourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65"
     },
     {
       "slug": "enchiladas-suizas",
@@ -4414,10 +4507,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "protein_assembled_mains_18",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/enchiladas-suizas.json"
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/enchiladas-suizas.json",
+        "docs/reviews/enchiladas-suizas.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4431,7 +4526,8 @@
       "proposedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1"
     },
     {
       "slug": "extraordinary-chocolate-chip-cookie",
@@ -5422,15 +5518,20 @@
       "source": "Adapted from rachaelraymag.com",
       "sourceUrl": "https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz",
       "group": "shaken_drinks_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/grapefruit-basil-gin-fizz.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Check actual glass volume and ice load with all 10 fluid ounces liquid.",
         "Compare tonic and seltzer options and chopped basil texture without changing quantities."
       ],
       "inputSha256": "9b183015b56197b0a868980ae4cbbf7f35081523a61f69a141032b4fb37b6dd5",
-      "plannedBatch": "cold-preparations-02"
+      "plannedBatch": "cold-preparations-02",
+      "acceptedSourceSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0",
+      "productionVerification": "pending"
     },
     {
       "slug": "greek-yogurt-bowl",
@@ -5468,19 +5569,25 @@
       "source": "Adapted from theconsciousplantkitchen.com",
       "sourceUrl": "https://www.theconsciousplantkitchen.com/green-smoothie-for-kids/",
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/green-smoothie-for-kids-with-2-hidden-veggies.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual blender model maximum fill and loading instructions; frozen product preparation label.",
+        "Banana/avocado size and additional milk determine unmeasured finished volume.",
+        "The current publisher is403; exact stable-bound original/HTML/Git establish saved recipe, not a currently fetched full publisher page."
       ],
       "inputSha256": "1881e40640298afdde29f6c1c791542ed5c022a2849b66c8dd0850f765bf8d2a",
       "plannedBatch": "context-screening-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc"
+      "authorSourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc",
+      "acceptedSourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc",
+      "productionVerification": "pending"
     },
     {
       "slug": "grilled-chicken-with-herbed-corn-salsa",
@@ -5757,14 +5864,16 @@
       "source": "Adapted from jenneatsgoood.com",
       "sourceUrl": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/",
       "group": "vegetarian_pasta_16",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json"
+        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
+        "docs/reviews/harvest-sheet-pan-gnocchi-with-crispy-kale.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+        "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
       ],
       "inputSha256": "92dabe14c9ef1949efeaeb7c25c68ecc83b2055e0c3d8abb505ef171f32df331",
       "plannedBatch": "baked-savory-and-breads-06",
@@ -5773,7 +5882,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
         "sha256": "1cca3cc0b4ec473b5b1a272dce846e22d8fe0f7e727a7a72c3c43e7650508328"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b",
+      "productionVerification": "pending"
     },
     {
       "slug": "healthy-apple-muffins",
@@ -6198,19 +6309,25 @@
       "source": "Adapted from Food.com",
       "sourceUrl": "http://www.food.com/recipe/hot-mulled-apple-cider-3713",
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/hot-mulled-apple-cider.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual evaporation/straining loss means starting2qt does not certify exactly8 finished cups.",
+        "Original3-inch stick dimension stays fixed while stick count scales.",
+        "Salt crystal type is unresolved; no fine-salt or kosher equivalence is invented."
       ],
       "inputSha256": "d355b36335f7d34836913cc8bfa0cd455863bfb1a0300f95ecac5c8d8806ecc9",
       "plannedBatch": "braises-and-slow-cooking-02",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4"
+      "authorSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
+      "acceptedSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
+      "productionVerification": "pending"
     },
     {
       "slug": "how-to-make-frittatas-stovetop-or-baked",
@@ -6246,19 +6363,25 @@
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/in-the-park.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/in-the-park.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual half-lemon juice yield, ice dilution and glass/shaker working capacity.",
+        "Four cut pieces describe the original half-lemon portion, not a measured scaled juice equivalence.",
+        "No independently attributed publisher exists; exact native and Git are the recipe evidence."
       ],
       "inputSha256": "1d05474099e170017cd19583d4f9b4fa7e2723a8b8f70fe086f448b01428dd2a",
       "plannedBatch": "cold-preparations-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e"
+      "authorSourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e",
+      "acceptedSourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e",
+      "productionVerification": "pending"
     },
     {
       "slug": "instant-pot-butternut-squash-soup",
@@ -6373,19 +6496,27 @@
       "source": "Adapted from Pat Miller",
       "sourceUrl": null,
       "group": "beans_lentils_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/jeris-lentil-soup.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual finished soup volume and original double-batch packet count; saved arithmetic is inconsistent.",
+        "Confirm preferred fresh versus dried parsley, wine measure and original pepper/herb/acid options.",
+        "Confirm actual slow-cooker capacity and hot-liquid-compatible immersion blender model.",
+        "Did Pat/Jeri measure the six ounces of wine by volume or weight?",
+        "Is there a specific family/publisher account establishing where this particular formula was developed? None is retained in the reviewed evidence."
       ],
       "inputSha256": "d03f8844983f18e223036c0a9d7274a5c3ed73d63cd7bcebcfbcb3491a51ea48",
       "plannedBatch": "braises-and-slow-cooking-02",
       "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
       "assignmentInputSha256": "d03f8844983f18e223036c0a9d7274a5c3ed73d63cd7bcebcfbcb3491a51ea48",
       "proposedSourceSha256": "692138ee874ca97f809936d463e90e0fa8dabde7c37ce9e657541cc744b1aea9",
-      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending",
+      "acceptedSourceSha256": "98f8c055e4b57d2af49c10209ebce29fcfc72edd08aa13179d58dae0cf283df6",
+      "productionVerification": "pending"
     },
     {
       "slug": "kalbi-grilled-korean-style-short-ribs",
@@ -6423,15 +6554,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/kale-caesar-with-crispy-chickpeas.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/kale-caesar-with-crispy-chickpeas.json",
+        "docs/reviews/kale-caesar-with-crispy-chickpeas.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
+        "No external original publisher was established. Room-temperature chickpea storage is not adopted from the undefined two-day instruction."
       ],
       "inputSha256": "b83a89e3b4b1317cc3738c1b760f0282de0012f4c9941342168cd4a938e8e99f",
       "plannedBatch": "baked-savory-and-breads-07",
@@ -6439,7 +6572,8 @@
       "proposedSourceSha256": "415aa42b128d9723faa66e4be30a922240368b6e79bfc343507352ca0e1d2b3a",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d"
     },
     {
       "slug": "katharine-hepburns-brownies",
@@ -6624,19 +6758,25 @@
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim/",
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/korean-mung-bean-sprouts-salad.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/korean-mung-bean-sprouts-salad.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check temperature sampling through the actual sprout mass and texture after thorough cooking/cooling.",
+        "Actual pot recovery and draining dilution affect the untested elapsed plan and seasoning.",
+        "Four small sides remain planning, with no measured drained yield."
       ],
       "inputSha256": "71a99883e026a03944d6fe857d1cfe847760165489016bcfe557dec867e2e124",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413"
+      "authorSourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413",
+      "acceptedSourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413",
+      "productionVerification": "pending"
     },
     {
       "slug": "korean-style-tacos-with-kogi-bbq-sauce",
@@ -6869,19 +7009,24 @@
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2017/mango-pineapple-green-smoothie/",
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/mango-rita-green-smoothie.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Lime and orange size, blender load and actual frozen-fruit label determine readiness/texture.",
+        "Two glasses are planning rather than measured volume; current full fruit and coconut-water quantities stay intact."
       ],
       "inputSha256": "f8f2a869043c43c21bc52c0a98203a75b5a9bc0cb3a429fce0cabda796f496cb",
       "plannedBatch": "context-screening-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e"
+      "authorSourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e",
+      "acceptedSourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e",
+      "productionVerification": "pending"
     },
     {
       "slug": "maple-roasted-sweet-potato-wedges",
@@ -7005,11 +7150,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "protein_assembled_mains_18",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/israeli-style-hummus.md",
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/mediterranean-chicken-bowls.json"
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/mediterranean-chicken-bowls.json",
+        "docs/reviews/mediterranean-chicken-bowls.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7022,7 +7169,8 @@
       "proposedSourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733"
     },
     {
       "slug": "mediterranean-grain-salad",
@@ -7057,19 +7205,25 @@
       "source": "Adapted from domesticsuperhero.com",
       "sourceUrl": "https://domesticsuperhero.com/mediterranean-pinwheels-vegetarian-appetizer/",
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual frozen-spinach package cooking/cooling time and tortilla dimensions govern the untested plan/count.",
+        "Current two-clove versus source2Tb garlic strength is a household choice, not a conversion.",
+        "For a vegetarian or vegan need, confirm the actual cheese rennet and product labels; no dose removal from the main."
       ],
       "inputSha256": "74edc4d1fc228860d0e0418e0089bfbc437472a1b7238cd8ce0dc827f191ca48",
       "plannedBatch": "context-screening-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "9de87f33a87b848ca4375a4d0400bbce521f993a24f305b3093f0cd60299b914"
+      "authorSourceSha256": "9de87f33a87b848ca4375a4d0400bbce521f993a24f305b3093f0cd60299b914",
+      "acceptedSourceSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5",
+      "productionVerification": "pending"
     },
     {
       "slug": "melon-daiquiri",
@@ -7078,8 +7232,11 @@
       "source": "Adapted from The Ritz-Carlton, Cancun",
       "sourceUrl": null,
       "group": "shaken_drinks_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/melon-daiquiri.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Measure final blended volume and actual four-portion glass/refill size with chosen melon.",
@@ -7087,7 +7244,9 @@
         "Check actual blender capacity and sugar cane skewer handling."
       ],
       "inputSha256": "043a5ae2a3a9186b2c0187c75cb16019f0b1991682caa10e53da1e2c03fa497a",
-      "plannedBatch": "context-screening-03"
+      "plannedBatch": "context-screening-03",
+      "acceptedSourceSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671",
+      "productionVerification": "pending"
     },
     {
       "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
@@ -7335,19 +7494,24 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/7199-my-favorite-challah",
       "group": "breads_crafts_dumplings_23",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/my-favorite-challah.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "NYT current page unavailable; exact original cooking evidence is retained. Source salt state and household mixer/pan/proof/cooling behavior remain questions, not invented grams or testing.",
+        "Confirm the intended kosher salt brand versus saved unspecified salt; equal spoon volumes are not density conversions. Confirm preferred straight or ring shape and actual cool-down time. Source five-hour thaw/proof is original-size guidance, not a measured household or universal ambient interval."
       ],
       "inputSha256": "4edd459bf8b258fb943d07d0ddc9ecce5472facce7d96b7b2938fc58f62e9dfc",
       "plannedBatch": "baked-savory-and-breads-07",
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c"
+      "authorSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
+      "acceptedSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
+      "productionVerification": "pending"
     },
     {
       "slug": "nana-ruths-applesauce",
@@ -7405,12 +7569,15 @@
       "source": "Adapted from tinkerlab.com",
       "sourceUrl": "https://tinkerlab.com/no-cook-play-dough/",
       "group": "breads_crafts_dumplings_23",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/no-cook-playdough.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification", "non-food-content"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm intended water route and actual craft storage conditions. Neither route is certified edible or suitable raw-flour play for children.",
+        "No tested cooling time or keeping life. Coloring must follow the actual craft-product label. Root may choose a clearer site-wide craft presentation later; no shared discovery/export rule changed."
       ],
       "inputSha256": "342258d03dad918835f4f8efec9013503b6a018998953750f158f7b7e2bb64ea",
       "scope": "existing craft; non-food editorial disposition required",
@@ -7418,7 +7585,9 @@
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c"
+      "authorSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
+      "acceptedSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
+      "productionVerification": "pending"
     },
     {
       "slug": "noodle-pudding",
@@ -7503,15 +7672,17 @@
       "source": "Adapted from selfproclaimedfoodie.com",
       "sourceUrl": "https://selfproclaimedfoodie.com/old-fashioned-strawberry-ice-cream/",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/old-fashioned-strawberry-ice-cream.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/old-fashioned-strawberry-ice-cream.json",
+        "docs/reviews/old-fashioned-strawberry-ice-cream.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whichmakerbowl andfilllimit applies? Whatfinishedyield/texture withcurrent¾ versus source½sugar? Howlongdoesactualhardening take?",
+        "No exact maker model, bowlcapacity, finishedoverrun or householdyield. Source comment alternative addingbothsugarsto fruit doesnot provide acomplete unambiguousallocation for yolks; no invented branch."
       ],
       "inputSha256": "d03d40aef4bd54e8c7056cf51519fb6e381503bd606547d925744b7a44352709",
       "plannedBatch": "simmer-boil-and-steam-07",
@@ -7519,7 +7690,8 @@
       "proposedSourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d"
     },
     {
       "slug": "old-fashioned-vanilla-ice-cream",
@@ -7556,17 +7728,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/old-fashioned.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual sugar-cube size and syrup concentration for preference comparison; do not assume equal sugar content.",
+        "Check glass and cube fit and useful chilled taste with the intended spirit and bitters."
       ],
       "inputSha256": "86188a84a30512eb979b6ab62d49bcf21447b7c517eaa6207f686389a159b2ca",
       "plannedBatch": "cold-preparations-03",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "86188a84a30512eb979b6ab62d49bcf21447b7c517eaa6207f686389a159b2ca"
+      "assignmentInputSha256": "86188a84a30512eb979b6ab62d49bcf21447b7c517eaa6207f686389a159b2ca",
+      "acceptedSourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+      "productionVerification": "pending"
     },
     {
       "slug": "one-pan-lemon-herb-chicken-thighs",
@@ -7672,19 +7849,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/onigiri-japanese-rice-balls.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm intended number/size of nori strips versus the large written whole-sheet supply; no dose reduced.",
+        "Measure actual tuna mixture yield and household filling preference; original source may intentionally prepare surplus.",
+        "Fractional plum and rice-ball counts at small scales require practical division; no exact mass equivalence or tested frozen texture."
       ],
       "inputSha256": "c6cb3338ddb099c0c05c3c97c33d032d97f4406c5e28352cf365d4ab2cf6bb05",
       "plannedBatch": "context-screening-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6"
+      "authorSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
+      "acceptedSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
+      "productionVerification": "pending"
     },
     {
       "slug": "orange-and-paprika-pulled-pork",
@@ -7848,15 +8031,18 @@
       "source": "Adapted from Parish",
       "sourceUrl": "https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/parishs-blueberry-crisp.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/parishs-blueberry-crisp.json",
+        "docs/reviews/parishs-blueberry-crisp.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "How long does this kitchen take to solidify the strained butter? What dish depth and amount of crumble does the household prefer?",
+        "What machine/capacity and finished volume apply to the separate ice cream? Is the exact stabilizer product intended?",
+        "Original optional stabilizer:4g Cremodan30 in the separate ice cream when sugar is added. Exact product-specific amount is preserved privately; product availability/composition/handling instructions not established. No generic4g stabilizer substitution, no invented linked recipe or claim that existing linked vanilla recipe matches this source."
       ],
       "inputSha256": "d845ac4a5f0b1c7d89e2541cd13bb309a5a278a8c49f0b46a51c769047244853",
       "plannedBatch": "baked-sweets-05",
@@ -7864,7 +8050,8 @@
       "proposedSourceSha256": "3f59358e610965e7161c684d9918425afdf260584e2397486db9eb90dffc6652",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "1b090fda430b0f40a79181d96d5d8ea6e9258afca60918b6fb1a8eccffd56f3a"
     },
     {
       "slug": "parmigiano-reggiano-cheesecake",
@@ -7873,15 +8060,19 @@
       "source": "Adapted from food52.com",
       "sourceUrl": "https://food52.com/recipes/85524-parmigiano-reggiano-cheesecake/amp",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/parmigiano-reggiano-cheesecake.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/parmigiano-reggiano-cheesecake.json",
+        "docs/reviews/parmigiano-reggiano-cheesecake.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which graham-cracker sheet size and springform depth were used? Does the household intend a different crust sweetness?",
+        "What texture and bake time result at the measured center endpoint with the actual pan? How long until fully chilled?",
+        "Confirm actualcheese label; no substitutecheeseformula evaluated.",
+        "No complete current Food52 page was retrievable (403). Exact bound native/HTML/canonical source provides the formula; publisher URL doesnot certify current card, geography or pan volume. Alternate vegetarian cheese route has no supported defining replacement."
       ],
       "inputSha256": "90683698020b32f467c66fbb62f2a0f9757ddd8216ed54a2eb6b8a45f5a5bbb4",
       "plannedBatch": "baked-sweets-05",
@@ -7889,7 +8080,8 @@
       "proposedSourceSha256": "41785a5f7ba4fe5c26465f781613c6cd3b55addc68b12a75a09dd040be955554",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "e61fc92daa9192a759506b7d8344a2166b16ea7ac21790b83f0b2b54ffa5e985"
     },
     {
       "slug": "pasta-with-abruzzi-style-lamb-sauce",
@@ -7930,19 +8122,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/patatas-bravas.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual frying pot gives safeheadroom withoriginalapproximate4cup bath anddrychunks? Howmany5–7minloads?",
+        "Howmuchfullsauce/⅓mayo goesonfourplannedportions anddoes main½cayenne/hot-or-sweetpimentónfitintendedheat? No flavor/absorptiontestclaimed."
       ],
       "inputSha256": "4eee8e05625aea853037aa5f5771b3a63ac649fd11e46da1567daa2f24a5f3e1",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
-      "authorSourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4"
+      "authorSourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4",
+      "acceptedSourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4",
+      "productionVerification": "pending"
     },
     {
       "slug": "patate-al-forno",
@@ -7986,15 +8184,17 @@
       "source": "Adapted from sugardishme.com",
       "sourceUrl": "https://www.sugardishme.com/peach-pie-biscuit-bombs/",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/peach-pie-biscuit-bombs.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/peach-pie-biscuit-bombs.json",
+        "docs/reviews/peach-pie-biscuit-bombs.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which actualbiscuits and interiorbake time work with this fullcheese/peachfilling? Which fullhoneyroute is preferred?",
+        "Publisher says she has not frozen these herself; no tested freezer quality or exact freeze/rebake plan is imported. Different biscuit sizes require actual package/capacity checks."
       ],
       "inputSha256": "6ae8a7ceaa6a83c7d6816d51ad5ed38ec9b5ee599620826fd6bfbc5a83d85f13",
       "plannedBatch": "baked-sweets-05",
@@ -8002,7 +8202,8 @@
       "proposedSourceSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5"
     },
     {
       "slug": "peach-pie-pancakes",
@@ -8011,15 +8212,17 @@
       "source": "Adapted from amyshealthybaking.com",
       "sourceUrl": "https://amyshealthybaking.com/blog/2016/06/05/peach-pie-pancakes/",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/peach-pie-pancakes.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/peach-pie-pancakes.json",
+        "docs/reviews/peach-pie-pancakes.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Howmanytwo-tablespoon pancakesfitactualpan andwhatfinishedcountresults? Whichflourblend andyogurtstate are intended?",
+        "Original gluten-free* flour note absent from native notes; current actual primary provides the complete blend. Other unspecified gluten-free mixes are not certified direct replacements. No measured griddlecapacity, final count or freezerduration."
       ],
       "inputSha256": "6665d2ab45b46da59e727059888d8421e6bca8b4d7aa898af0acb30ff597cc68",
       "plannedBatch": "cold-preparations-03",
@@ -8027,7 +8230,8 @@
       "proposedSourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764"
     },
     {
       "slug": "peanut-noodles",
@@ -8132,19 +8336,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "beans_lentils_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/pizza-beans.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm kale bunch size, skillet capacity and measured finished portions.",
+        "Confirm preferred optional pepper flakes and bread; no new measured dose."
       ],
       "inputSha256": "a9305c8430133a37f9be3138a73485a9bf6fc88399bfd052055801a5eba33594",
       "plannedBatch": "baked-savory-and-breads-08",
       "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
       "assignmentInputSha256": "a9305c8430133a37f9be3138a73485a9bf6fc88399bfd052055801a5eba33594",
       "proposedSourceSha256": "be22f31937626d41eb615176f84afa48775759c97f9a7f73422a5435762a729b",
-      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending",
+      "acceptedSourceSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90",
+      "productionVerification": "pending"
     },
     {
       "slug": "play-dough",
@@ -8153,12 +8362,15 @@
       "source": "Adapted from Gracy Ann",
       "sourceUrl": null,
       "group": "breads_crafts_dumplings_23",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/play-dough.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification", "non-food-content"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Gracy Ann name/formula preserved without invented publisher. Actual nonfood storage and handling conditions remain unresolved.",
+        "No measured saucepan capacity, cool-down or craft keeping life; texture cue is not a validated microbial endpoint."
       ],
       "inputSha256": "8d6157beba45cc2df6ede83eea7a0a384c9fb787a833f7802c5b52a75a57a252",
       "scope": "existing craft; non-food editorial disposition required",
@@ -8166,7 +8378,9 @@
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f"
+      "authorSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
+      "acceptedSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
+      "productionVerification": "pending"
     },
     {
       "slug": "pork-and-greens-dumplings",
@@ -8175,19 +8389,24 @@
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/dumpling-recipe-youll-ever-need/",
       "group": "breads_crafts_dumplings_23",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/pork-and-greens-dumplings.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/pork-and-greens-dumplings.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No household test of full batch time/capacity/count. Source16portions is planning. Named unprovided dipping recipes are not invented links/formulas.",
+        "What are actual wrapper package contents and preferred filling portions? Actual cooked count/preparedgreenmass/loading and total batch clock remain unmeasured. Chinese chive/frozen shepherd’s purse prepared-weight conversion not established."
       ],
       "inputSha256": "e40114e26ecb2dd5035e81550a197466cd2f8cdfc9d9dad23ad4e7fca880a366",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77"
+      "authorSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
+      "acceptedSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
+      "productionVerification": "pending"
     },
     {
       "slug": "pressure-cooker-bolognase",
@@ -8214,8 +8433,11 @@
       "source": null,
       "sourceUrl": null,
       "group": "shaken_drinks_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/prohibition-style-gin-lemon-fizz.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
@@ -8223,7 +8445,9 @@
         "Compare the saved optional agave omission to the current primary amount without changing other measures."
       ],
       "inputSha256": "934245bc694cb769f9f45116d2165e17ad57d2599d6b7791996b759e72d8eee6",
-      "plannedBatch": "cold-preparations-03"
+      "plannedBatch": "cold-preparations-03",
+      "acceptedSourceSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11",
+      "productionVerification": "pending"
     },
     {
       "slug": "puffy-muffin-chicken-salad",
@@ -8556,19 +8780,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "breads_crafts_dumplings_23",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/source-restorations-2026-10-05.md",
+        "docs/reviews/real-spaghetti-carbonara.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Git-only culinary original; no direct attributed publisher. Carbonara Night is a separate unresolved combined meal, no meal-certified claim.",
+        "Confirm actual cured-pork package cooking instructions and pasteurized egg product suitable for this method. Larger/fractional loads and actual total clock are untested. Incoming Carbonara Night omits pasteurization/gentle warm and remains unapproved."
       ],
       "inputSha256": "9cf67061e710024e753b38c8393c455f37e063f03a77c3c73a85cd866374fb20",
       "plannedBatch": "simmer-boil-and-steam-08",
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027"
+      "authorSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
+      "acceptedSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
+      "productionVerification": "pending"
     },
     {
       "slug": "red-velvet-cupcakes",
@@ -8658,19 +8888,26 @@
       "source": null,
       "sourceUrl": null,
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/poke-batch-decision.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/poke-batch-decision.md",
+        "docs/reviews/rice-bowl-station-buddha-bowls.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual bowl size, chosen components and leftover prepared amounts determine portions; no route-specific nutrition certified.",
+        "Prepared sauces and optional black beans/olives/feta/radishes/pumpkin seeds have no measured batch formula here.",
+        "Actual products and earlier component dates may require a shorter holding limit."
       ],
       "inputSha256": "794659d7379173e00962af26220398ae4367fe49fe5b9902d03270343cb2cb5e",
       "plannedBatch": "cold-preparations-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2"
+      "authorSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
+      "acceptedSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
+      "productionVerification": "pending"
     },
     {
       "slug": "ricotta-toast-with-honey",
@@ -8885,19 +9122,25 @@
       "source": "Adapted from munchingwithmariyah.com",
       "sourceUrl": "https://munchingwithmariyah.com/roasted-fall-harvest-salad/",
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/roasted-fall-harvest-salad.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which full seasoning/can route is preferred remains open; actual chickpea can draining output is unmeasured.",
+        "Actual squash cube/pan loading, quinoa brand and tenderness determine the clock.",
+        "The source older whole-apple dressing is a separate modern-publisher note, not a saved main replacement; no automatic adoption."
       ],
       "inputSha256": "0771574a2dcfa8bb3e724d096c1c1524a0e210eaf360889618c681694bc6938a",
       "plannedBatch": "baked-savory-and-breads-09",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "38f5566635e2a1cd80a01eae63f430b7e0963f627ff995a50377595a44bde6da"
+      "authorSourceSha256": "38f5566635e2a1cd80a01eae63f430b7e0963f627ff995a50377595a44bde6da",
+      "acceptedSourceSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-green-bean-fries",
@@ -8906,15 +9149,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/roasted-green-bean-fries.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/roasted-green-bean-fries.json",
+        "docs/reviews/roasted-green-bean-fries.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual bean thickness and oven load need kitchen checks.",
+        "No independent native source or external publisher was established. Existing unusual pairings remain metadata, not reviewed meal endorsements."
       ],
       "inputSha256": "1d574a481d16d5dbfbf5719ae2655ad93d74c4c1298a3b7879f1d07a3096f86c",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
@@ -8922,7 +9167,8 @@
       "proposedSourceSha256": "fb31acd616024b653ef8f3a6184d120acf5b65acf460927daf8de38d14211055",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4"
     },
     {
       "slug": "roasted-red-pepper-and-sweet-potato-soup",
@@ -9029,15 +9275,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/roasted-sweet-potatoes.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/roasted-sweet-potatoes.json",
+        "docs/reviews/roasted-sweet-potatoes.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual sheet temperature rating and load/cook time remain kitchen questions.",
+        "No external publisher or independent original 450 was established; preserve the distinct cumin-chili formula rather than merge with Sweet Potato Fries."
       ],
       "inputSha256": "ecd2406726ebe63ab479ddd0570354d3d05e8a1190561a833cb3ceca8f23466f",
       "plannedBatch": "roast-grill-and-sear-04",
@@ -9045,7 +9293,8 @@
       "proposedSourceSha256": "ced1835deb5dd8c0114d84904cd3d0d4f90ce91e166b3e8645cb601493c92a80",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2"
     },
     {
       "slug": "rosemary-pork-tenderloin",
@@ -9090,19 +9339,24 @@
       "source": "Adapted from preppykitchen.com",
       "sourceUrl": "https://preppykitchen.com/royal-icing/",
       "group": "breads_crafts_dumplings_23",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/royal-icing.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No testedfinishedicingyield,shelflifeorwateractivity.2weekpublisherwetstorageoption held separately; original36servingsnotfixedcookies.",
+        "Actual pasteurized white product whipping suitability and cookie/design coverage remain unresolved. Current publisher coveredfridgeupto2weeks is preserved privately as a separate storage option/question: exact sugar/water/color/product and handling limits have not been validated here."
       ],
       "inputSha256": "a8e1f76db3399ab137ee7fa6bb2dcb371e527679fd8ee806e4f3c6e8ee618e78",
       "plannedBatch": "cold-preparations-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703"
+      "authorSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
+      "acceptedSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
+      "productionVerification": "pending"
     },
     {
       "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
@@ -9111,14 +9365,16 @@
       "source": "Adapted from Aberdeenskitchen.com",
       "sourceUrl": "http://www.aberdeenskitchen.com/2016/11/sage-brown-butter-sauce-butternut-squash-ravioli/",
       "group": "vegetarian_pasta_16",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json"
+        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
+        "docs/reviews/sage-brown-butter-sauce-butternut-squash-ravioli.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
+        "Compare the two sage orders and sauce texture in the kitchen; neither route has been tested here."
       ],
       "inputSha256": "6fe5b36e6e0873aa5f930bbaf97ba46b10093734991e2264046a4197038002e0",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
@@ -9127,7 +9383,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
         "sha256": "1cca3cc0b4ec473b5b1a272dce846e22d8fe0f7e727a7a72c3c43e7650508328"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc",
+      "productionVerification": "pending"
     },
     {
       "slug": "salsa-verde-chicken-casserole",
@@ -9196,19 +9454,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "beans_lentils_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sausage-and-white-bean-skillet.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm sausage product species/state and practical thicker-piece temperature readings.",
+        "Record pan area and actual active/elapsed time.",
+        "Record kosher-salt crystal type without guessing weight."
       ],
       "inputSha256": "5836e532e8d6dd3435ede37835b2da9cb888e55f35e10d764d6f388cdccbbe45",
       "plannedBatch": "simmer-boil-and-steam-08",
       "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
       "assignmentInputSha256": "5836e532e8d6dd3435ede37835b2da9cb888e55f35e10d764d6f388cdccbbe45",
       "proposedSourceSha256": "399d93ee14db902cc578d8b26da90672ed3ff83e1af9bc4bbbddb1087e643b79",
-      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending",
+      "acceptedSourceSha256": "7a33e075c07f56dc4caaa216a327b44a82bb423a7c07241524e927f5a45c2fed",
+      "productionVerification": "pending"
     },
     {
       "slug": "sausage-breakfast-casserole",
@@ -9217,19 +9481,24 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a37215621/sausage-breakfast-casserole-recipe/",
       "group": "savory_breakfast_bakes_21",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sausage-breakfast-casserole.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual sausage species,label and salt strength are used? Source measured salt has unspecified crystal size.",
+        "Which dish depth and cold-to-hot instructions apply? What elapsed bake/center/slicingtexture results with30oz thawedpotatoes and fullcream?"
       ],
       "inputSha256": "8803dd7bb5b9a64b20dddc99f7f6c347391c677534b5272367b9d7e4943f865b",
       "plannedBatch": "baked-savory-and-breads-09",
       "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
-      "authorSourceSha256": "846ac614ec040b358ada89ddf289103228e65b7faa8af7249f068f4248bb87d4"
+      "authorSourceSha256": "846ac614ec040b358ada89ddf289103228e65b7faa8af7249f068f4248bb87d4",
+      "acceptedSourceSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b",
+      "productionVerification": "pending"
     },
     {
       "slug": "sausage-shrimp-and-quinoa-skillet",
@@ -9290,11 +9559,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "egg_breakfast_13",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/savory-oatmeal-with-egg.json"
+        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/savory-oatmeal-with-egg.json",
+        "docs/reviews/savory-oatmeal-with-egg.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9311,7 +9582,9 @@
         "sourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
         "recordPath": ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/savory-oatmeal-with-egg.json",
         "recordSha256": "136469e508f51316732351b553a235a3710723d9ac57a745f360f6a9a7dac49c"
-      }
+      },
+      "acceptedSourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
+      "productionVerification": "pending"
     },
     {
       "slug": "savory-thai-turkey-lettuce-wraps",
@@ -9349,17 +9622,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sazerac.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare rye/Cognac and optional bitters using the intended bottles, recording dash style and syrup strength.",
+        "Measure actual rinse supply and retained aroma without treating all poured rinse spirit as consumed."
       ],
       "inputSha256": "8cd51b53b2948295224a00cff47fee5872dd0c4c8c744026a50e548d0fecf4d5",
       "plannedBatch": "cold-preparations-04",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "8cd51b53b2948295224a00cff47fee5872dd0c4c8c744026a50e548d0fecf4d5"
+      "assignmentInputSha256": "8cd51b53b2948295224a00cff47fee5872dd0c4c8c744026a50e548d0fecf4d5",
+      "acceptedSourceSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8",
+      "productionVerification": "pending"
     },
     {
       "slug": "seafood-chorizo-tacos",
@@ -9455,19 +9733,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "savory_breakfast_bakes_21",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shakshuka.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which current main or separatehummus route is wanted for serving? Are pasteurizedshell eggs available forsoftyolks?",
+        "Howmanycoveredskillets fitallscaledeggswithoutcrowding? Shakshuka Brunch still instructsrunnyunpasteurizedeggs and additionalcomponents needseparatemealreview."
       ],
       "inputSha256": "941a2ca997a31e15cfe08f289f10c3d28bbb6668512d3216a1ae8e19ea9cd14f",
       "plannedBatch": "simmer-boil-and-steam-09",
       "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
-      "authorSourceSha256": "69a13e3655929fe4652eada6c9a91275e74426ef83ccf8ab9d850e53f2c034ef"
+      "authorSourceSha256": "69a13e3655929fe4652eada6c9a91275e74426ef83ccf8ab9d850e53f2c034ef",
+      "acceptedSourceSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c",
+      "productionVerification": "pending"
     },
     {
       "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
@@ -9511,11 +9794,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "protein_assembled_mains_18",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/sheet-pan-italian-sausage-dinner.json"
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/sheet-pan-italian-sausage-dinner.json",
+        "docs/reviews/sheet-pan-italian-sausage-dinner.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9529,7 +9814,8 @@
       "proposedSourceSha256": "8b32f1fee27cd782f842fa513fbdda4ae4b10dd8fc9b43b2fca5b097fa5e611a",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "1d4d38ffc2a6d436bac4d817d3d85afe64525a7a7b662dec710a59240e422da1"
     },
     {
       "slug": "sheet-pan-pancakes",
@@ -9538,19 +9824,24 @@
       "source": "bellyfull.net",
       "sourceUrl": "https://bellyfull.net/sheet-pan-pancakes/",
       "group": "savory_breakfast_bakes_21",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/sheet-pan-pancakes.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sheet-pan-pancakes.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whatactualrimmedpan depth and bakewindowproduce fullycookedfruitpockets?",
+        "Howmanyoriginalsizepansfitovenatlargerloads? Sixportions areinheritedplanningnotmeasured."
       ],
       "inputSha256": "893da67a0b8fd7a3872654c52d962d286892f65fc9c3d7f0fe04ddd34c11b313",
       "plannedBatch": "baked-savory-and-breads-10",
       "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
-      "authorSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027"
+      "authorSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
+      "acceptedSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
+      "productionVerification": "pending"
     },
     {
       "slug": "sheet-pan-pesto-chicken-meal-prep-bowls",
@@ -9819,17 +10110,22 @@
       "source": "Adapted from Chinasichuanfood.com",
       "sourceUrl": "http://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/",
       "group": "dumplings_wonton_mains_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
-        "private author assignment; independent/root gate pending"
+        "private author assignment; independent/root gate pending",
+        "docs/reviews/shrimp-wonton-soup.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
+        "Taste restored filling salt/coriander without adding the original per-bowl salt on top of already seasoned broth.",
+        "Confirm package size/count, cold handling workflow and actual assembly time."
       ],
       "inputSha256": "78e68d27d77ffa23764e341e3c85a3addd9aff2717021b964c37f520c2d5a815",
-      "plannedBatch": "simmer-boil-and-steam-09"
+      "plannedBatch": "simmer-boil-and-steam-09",
+      "acceptedSourceSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336",
+      "productionVerification": "pending"
     },
     {
       "slug": "shruffs-end",
@@ -9838,19 +10134,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shruffs-end.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Exact glass capacity, ice geometry and preferred dilution at the original stirred proportions.",
+        "No independently attributed creator/publisher established; no native archive is certified."
       ],
       "inputSha256": "81456a440207ca765a4f1da97b40042266dc0d57d1c6f93013e3bb986ee275a4",
       "plannedBatch": "cold-preparations-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934"
+      "authorSourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934",
+      "acceptedSourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934",
+      "productionVerification": "pending"
     },
     {
       "slug": "simply-seasoned-korean-spinach-salad",
@@ -9958,19 +10259,25 @@
       "source": "Adapted from Lecremedelacrumb.com",
       "sourceUrl": "https://www.lecremedelacrumb.com/slow-cooker-cheesy-mushroom-quinoa/",
       "group": "savory_breakfast_bakes_21",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/slow-cooker-cheesy-mushroom-quinoa.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What cooker model,insertcapacity,min/maxload and original2cupdry/4cupbroth behavior apply?",
+        "Which latecurrent versus earlysourcecreamcheese/greenonionroute is preferred, and howgenerous arefourmainportions? Actualmodernpublisherunavailable.",
+        "Which cheese/saltidentity makes sourceapproximate2tsp salt example appropriate? No broth or finishyieldinvented."
       ],
       "inputSha256": "17a7a118b1bd3aedc5af1a7b440371c7a7120dd4fd84b71df12736b5e20e9795",
       "plannedBatch": "braises-and-slow-cooking-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
-      "authorSourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f"
+      "authorSourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f",
+      "acceptedSourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f",
+      "productionVerification": "pending"
     },
     {
       "slug": "slow-cooker-korean-beef",
@@ -10113,19 +10420,27 @@
       "source": "Adapted from Thekitchenmagpie.com",
       "sourceUrl": "https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/",
       "group": "beans_lentils_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/smoky-spanish-rice-and-chickpeas.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
+        "Confirm intended shrimp/spinach amounts and practical pan capacity; no yield precision for optional branches.",
+        "Confirm saved freeze-dried oregano versus current ordinary dried preference.",
+        "Which seasoning route should be the normal household version?",
+        "Keep one chickpea can unless household directs otherwise; original card is malformed and publisher prose says two."
       ],
       "inputSha256": "35f9873e27ed28b85451c50f9ab2107a1c3fa5cbe33b360f00ff75ec7099855d",
       "plannedBatch": "stir-fry-and-pan-cooking-06",
       "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
       "assignmentInputSha256": "35f9873e27ed28b85451c50f9ab2107a1c3fa5cbe33b360f00ff75ec7099855d",
       "proposedSourceSha256": "eea7d2a9cd2c588f53c0add201cd1915a5755364f296c7e2e9ed19247b1307b0",
-      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending",
+      "acceptedSourceSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19",
+      "productionVerification": "pending"
     },
     {
       "slug": "snickerdoodles",
@@ -10277,15 +10592,17 @@
       "source": "Adapted from Food.com",
       "sourceUrl": "http://www.food.com/recipe/spaghetti-tofu-meatballs-130975",
       "group": "vegetarian_pasta_16",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
-        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json"
+        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
+        "docs/reviews/spaghetti-and-tofu-meatballs.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+        "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
       ],
       "inputSha256": "d4f50ce503d3246bfa655a7e47f7c852e0191d4a61cee9f90734f344d9ad2b40",
       "plannedBatch": "baked-savory-and-breads-10",
@@ -10294,7 +10611,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
         "sha256": "1cca3cc0b4ec473b5b1a272dce846e22d8fe0f7e727a7a72c3c43e7650508328"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630",
+      "productionVerification": "pending"
     },
     {
       "slug": "spaghetti-with-clams-and-braised-greens",
@@ -10429,19 +10748,24 @@
       "source": "Adapted from Silton Family",
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/spiced-butternut-squash-puree.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which roasted versus originalboiled familyroute ispreferred? What whole/trimmedsquash weights and actualfinishedvolume?",
+        "Whichpan area/hotprocessor model actually applies? No genericprocessorpermission, addedwater or shortenedclock."
       ],
       "inputSha256": "25a593639c733af3c69aaab5fea922f4ab211c21579bbfd2cf5b8b9d0f35af3a",
       "plannedBatch": "baked-savory-and-breads-10",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
-      "authorSourceSha256": "2e28f2262fcbbcbf44c606e0964336901ad71ee6400ed32acbe66d98df807ecd"
+      "authorSourceSha256": "2e28f2262fcbbcbf44c606e0964336901ad71ee6400ed32acbe66d98df807ecd",
+      "acceptedSourceSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999",
+      "productionVerification": "pending"
     },
     {
       "slug": "spinach-and-mushroom-quiche",
@@ -10472,15 +10796,20 @@
       "source": null,
       "sourceUrl": null,
       "group": "shaken_drinks_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/spindrift-gin-fizz.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Check three-glass volume/ice fit with actual topping product.",
         "Compare current generic product descriptions to preferred household bottles/cans."
       ],
       "inputSha256": "40470e1d1410cc1ee1282b0f7edc0c404558e7b1013000eaa5e6f8dbef1766c3",
-      "plannedBatch": "cold-preparations-05"
+      "plannedBatch": "cold-preparations-05",
+      "acceptedSourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
+      "productionVerification": "pending"
     },
     {
       "slug": "starbucks-egg-bites",
@@ -10489,11 +10818,13 @@
       "source": "Adapted from eatingonadime.com",
       "sourceUrl": "https://www.eatingonadime.com/starbucks-egg-bites-recipe/",
       "group": "egg_breakfast_13",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/starbucks-egg-bites.json"
+        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/starbucks-egg-bites.json",
+        "docs/reviews/starbucks-egg-bites.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10510,7 +10841,9 @@
         "sourceSha256": "431a8a54f95172ac18591c2dee269e12fe2103bacbb6522c364070e9494eed46",
         "recordPath": ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/starbucks-egg-bites.json",
         "recordSha256": "60419d8ff3bf75b9113515a309e3b30e9ed426e7e469fd98456c1754af508ae0"
-      }
+      },
+      "acceptedSourceSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5",
+      "productionVerification": "pending"
     },
     {
       "slug": "steamed-mussels-chorizo",
@@ -10580,19 +10913,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/stevens-margs.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which ratio Steven prefers remains a household question, not approval of a bulk reduction or source reset.",
+        "Source part size and resulting serving count are unspecified.",
+        "Agave squirt and smoked-salt pinch are genuinely unmeasured and need actual product/taste checking."
       ],
       "inputSha256": "0d60ad59e43c82c39c0f6cd22de0acb9b1daf46ff35963d8d91acdd7068b5668",
       "plannedBatch": "context-screening-04",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "5e9e4462602d54431b6cadddbc5a64f501b747974413bcb3f8e9d3624e6ecf8a"
+      "authorSourceSha256": "5e9e4462602d54431b6cadddbc5a64f501b747974413bcb3f8e9d3624e6ecf8a",
+      "acceptedSourceSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945",
+      "productionVerification": "pending"
     },
     {
       "slug": "sticky-peking-meatball-rice-bowls",
@@ -10627,14 +10966,16 @@
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588",
       "group": "vegetarian_pasta_16",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json"
+        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
+        "docs/reviews/stovetop-macaroni-and-cheese.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+        "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
       ],
       "inputSha256": "fe80dcc864a9fc0503fed25d025ac9d033a9eb718bb5d5ec26b900681dfe92bd",
       "plannedBatch": "roast-grill-and-sear-04",
@@ -10643,7 +10984,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
         "sha256": "1cca3cc0b4ec473b5b1a272dce846e22d8fe0f7e727a7a72c3c43e7650508328"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7",
+      "productionVerification": "pending"
     },
     {
       "slug": "strawberry-cheesecake-overnight-oatmeal",
@@ -10739,16 +11082,18 @@
       "source": "Adapted from Bakingthegoods.com",
       "sourceUrl": "http://bakingthegoods.com/2016/04/06/strawberry-rhubarb-shortcake-with-whipped-mascarpone/",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/strawberry-rhubarb-shortcake-with-whipped-mascarpone.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/strawberry-rhubarb-shortcake-with-whipped-mascarpone.json",
+        "docs/reviews/strawberry-rhubarb-shortcake-with-whipped-mascarpone.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Can the actualoven roastfruit andbakeshortcakes simultaneously without crowding? Howlongdoesfruitcool? Whichsourcecream dough/rhubarbstalkchoice is intended?",
+        "Exact source topping matches dairy temperatures atroomtemperature, but actualwarmingduration is unspecified; promptpreparation/coldhandling supplied instead of inventing a wait. Fruit/substitute stalkweights andactualovenparallelcapacity unmeasured."
       ],
       "inputSha256": "d0556e14a376193b6f6353dd24548d9490f1fe2322ac248e0febf30f1f91d6a1",
       "plannedBatch": "baked-sweets-06",
@@ -10756,7 +11101,8 @@
       "proposedSourceSha256": "508e78e109cde48431a0669e905562181039ab1279df9e4258bfdbea80c4ddad",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "66a0cbdd07fa01da364fbb75c5b9d1f43e8d80e31dd57a8bbf4643a254e2f865"
     },
     {
       "slug": "strawberry-rhubarb-yogurt-pops",
@@ -10765,15 +11111,17 @@
       "source": "Adapted from Saveur.com",
       "sourceUrl": "http://www.saveur.com/article/recipes/strawberry-rhubarb-yogurt-pops",
       "group": "sweet_fruit_desserts_17",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/strawberry-rhubarb-yogurt-pops.json"
+        ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/records/strawberry-rhubarb-yogurt-pops.json",
+        "docs/reviews/strawberry-rhubarb-yogurt-pops.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What are actualmoldvolume, frozen count andcenters-freezing time? Is currentseaororiginalkosher intended?",
+        "Mold volume, rhubarb weights and finished-volume measurement absent; planning count remains explicit. No exact frozen shelf-life or icy-texture guarantee."
       ],
       "inputSha256": "347b64f00817b5f05c0fdb501adbe01b84b71fd13724c469744d6b8cc3f96637",
       "plannedBatch": "simmer-boil-and-steam-10",
@@ -10781,7 +11129,8 @@
       "proposedSourceSha256": "40e908954dd0dc75fe195b345496eb30ff21e67c145f8de786be5ec385d74956",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sweet_fruit_desserts_17/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "4da41a4c4326940990acda8446c1e95ce73cb5922699981b041dde17416056a3"
     },
     {
       "slug": "strawberry-summer-cake",
@@ -10818,14 +11167,16 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon",
       "group": "vegetarian_pasta_16",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json"
+        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
+        "docs/reviews/strozzapreti-with-spinach-and-preserved-lemon.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+        "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
       ],
       "inputSha256": "154e6c94caa7abb62f454f716a42fefd2b1f0d0afa456d02a906ce5373bd3908",
       "plannedBatch": "stir-fry-and-pan-cooking-06",
@@ -10834,7 +11185,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
         "sha256": "1cca3cc0b4ec473b5b1a272dce846e22d8fe0f7e727a7a72c3c43e7650508328"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02",
+      "productionVerification": "pending"
     },
     {
       "slug": "sugar-cookie",
@@ -10908,19 +11261,25 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce",
       "group": "sides_pressure_preservation_24",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which ketchup-freecurrent versus½cupketchup/sourcefinish-salt route iswanted? No householdintentinvented.",
+        "What actualrackcount/dimensions and sauceyield permitbakingportion/cleanreservedglaze across8lb? Exact¾peroriginal3racks iscontext, notnewweightconversion.",
+        "What originaloven/grillloads andtendernessclock result? Sourcehigh~4TOTAL differsprotectedcurrentmediumlow3–4perSIDE."
       ],
       "inputSha256": "e5e504cdca1548b3b24b2980dde02c388f56d2cf648938270462fd835ac58f30",
       "plannedBatch": "braises-and-slow-cooking-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
-      "authorSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db"
+      "authorSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
+      "acceptedSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
+      "productionVerification": "pending"
     },
     {
       "slug": "sweet-and-white-potato-gratin",
@@ -10986,15 +11345,17 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1014647-sweet-potato-fries",
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/sweet-potato-fries.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/sweet-potato-fries.json",
+        "docs/reviews/sweet-potato-fries.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
+        "Which salt crystal type was intended by the original unspecified salt? No equal-density assertion is made."
       ],
       "inputSha256": "a983e0ef037871aca8c9f2cf57c256fc0a28b5ead9299614dc36407993fa9f0c",
       "plannedBatch": "stir-fry-and-pan-cooking-07",
@@ -11002,7 +11363,8 @@
       "proposedSourceSha256": "aaebf32e7803b0cfaace150c0390bb903df96ff032baa89a0e2f0ea7d0718882",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3"
     },
     {
       "slug": "sweet-potato-latkes",
@@ -11011,15 +11373,17 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919",
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/sweet-potato-latkes.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/sweet-potato-latkes.json",
+        "docs/reviews/sweet-potato-latkes.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
+        "The source salt is unspecified; current sea salt remains primary without claiming density equivalence."
       ],
       "inputSha256": "0ecd961cd071d97481daf8c7e94272fbd69721d6b87628f96d1c5391bffc1a9e",
       "plannedBatch": "stir-fry-and-pan-cooking-07",
@@ -11027,7 +11391,8 @@
       "proposedSourceSha256": "db59200ced27c1ef95b963574116b55b419cab615273c4078004c83c6c943a26",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a"
     },
     {
       "slug": "sweet-potato-sausage-breakfast-casserole",
@@ -11089,10 +11454,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "egg_breakfast_13",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/final-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/tamagoyaki-japanese-rolled-omelet.json"
+        ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/tamagoyaki-japanese-rolled-omelet.json",
+        "docs/reviews/tamagoyaki-japanese-rolled-omelet.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -11109,7 +11476,9 @@
         "sourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
         "recordPath": ".mise/editorial-campaign/2026-10-05/egg_breakfast_13/records/tamagoyaki-japanese-rolled-omelet.json",
         "recordSha256": "8d0a50ff69f69d1c51319a368d1bad25bc5c4df9b14b374171c392d99ed32392"
-      }
+      },
+      "acceptedSourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
+      "productionVerification": "pending"
     },
     {
       "slug": "tarragon-potatoes",
@@ -11138,19 +11507,25 @@
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/thai-basil-ginger-spritzer",
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/thai-basil-ginger-spritzer.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual strained syrup yield is not certified by1cup water plus half-cup sugar.",
+        "Current MyRecipes fetch fails; saved native/HTML/Git are exact source evidence.",
+        "Actual chilling time, freezer-safe glass permission and syrup make-ahead life need evidence; no invented month storage or guaranteed freeze-ahead quality."
       ],
       "inputSha256": "b8b9bc9990150df39c09dd17f00888a9537fe0d0cd5a3502530ed0f25e3dcdb0",
       "plannedBatch": "simmer-boil-and-steam-10",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0"
+      "authorSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
+      "acceptedSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
+      "productionVerification": "pending"
     },
     {
       "slug": "thai-basil-noodles",
@@ -11250,14 +11625,16 @@
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/easiest-spinach-lasagna/",
       "group": "vegetarian_pasta_16",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json"
+        ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
+        "docs/reviews/the-easiest-spinach-lasagna.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
       ],
       "inputSha256": "a783f4b9c02fc3effacb6bab7689840ad575192ef29969ba59ca3bf0f4da2f97",
       "plannedBatch": "baked-savory-and-breads-11",
@@ -11266,7 +11643,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/vegetarian_pasta_16/final-manifest.json",
         "sha256": "1cca3cc0b4ec473b5b1a272dce846e22d8fe0f7e727a7a72c3c43e7650508328"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de",
+      "productionVerification": "pending"
     },
     {
       "slug": "the-moistest-chocolate-mug-cake",
@@ -11310,19 +11689,25 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/the-new-england-express",
       "group": "beverages_mixes_22",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/the-new-england-express.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual strained syrup/finished punch volume and serving glass capacity.",
+        "Source one-month refrigerated herbal syrup plan lacks specifically applicable preservation evidence; held separately while fresh/4-hour pitcher route is reviewable.",
+        "Current BonAppetit page displays article/header but not full formula; exact native/HTML/Git establish cooking source."
       ],
       "inputSha256": "57b5f244a5db9e794c6824a38aa1421d1f19bc0f6ea2195315b5f97254b12a8a",
       "plannedBatch": "simmer-boil-and-steam-11",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de"
+      "authorSourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de",
+      "acceptedSourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de",
+      "productionVerification": "pending"
     },
     {
       "slug": "the-original-rice-krispies-treatstm",
@@ -11395,19 +11780,25 @@
       "source": "Adapted from thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-tomato-cobbler-with-cornmeal-cheddar-biscuits-206816",
       "group": "savory_breakfast_bakes_21",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/tomato-cobbler-with-cornmeal-cheddar-biscuits.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which high-sided vesselactualdepth fits4lbtomatoes/alldoughwithheadroom? Howmany walnutmounds areproduced fromthefullcurrentdough?",
+        "Is the current1cupmilk/walnut route orcomplete7–8larger/¾–1cupsource route preferred? Saltcrystaltype unspecified.",
+        "Howlongdotheonionsactuallybrownandbiscuitsfullycook? No texture/capacitytestclaimed."
       ],
       "inputSha256": "3c52a891ca585e41b05b25d892a643b450e09eba49fca666f23b89f29b1e0f2b",
       "plannedBatch": "baked-savory-and-breads-12",
       "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
-      "authorSourceSha256": "944402f99b8e7bb31657dd86c2be36c4abb383bc1a12aa8a61f1f42943c4d5f2"
+      "authorSourceSha256": "944402f99b8e7bb31657dd86c2be36c4abb383bc1a12aa8a61f1f42943c4d5f2",
+      "acceptedSourceSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450",
+      "productionVerification": "pending"
     },
     {
       "slug": "tuscan-spaghetti-squash",
@@ -11416,15 +11807,17 @@
       "source": "Adapted from Delish.com",
       "sourceUrl": "http://www.delish.com/cooking/recipe-ideas/recipes/a50703/cheesy-tuscan-spaghetti-squash-recipe/",
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/tuscan-spaghetti-squash.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/tuscan-spaghetti-squash.json",
+        "docs/reviews/tuscan-spaghetti-squash.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Delish direct fetch unavailable; exact native/earlier Git support formula and complete source method.",
+        "Actual squash yield and skillet capacity unknown; no weight or guaranteed serving equivalence invented."
       ],
       "inputSha256": "838384f9f83e4364a5335c151c3bdc2c117bbd494d036e0573df7a4106ad2fce",
       "plannedBatch": "stir-fry-and-pan-cooking-07",
@@ -11432,7 +11825,8 @@
       "proposedSourceSha256": "296d666c140d846334d6f2278e60c1593f9e8409ac76304182ce989fd9dc42b7",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "6db493d598b221fa240f60a0a538fc32220b1663e645910d5fefe1ade3dc22af"
     },
     {
       "slug": "vanilla-earl-grey-overnight-oats",
@@ -11541,17 +11935,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/vieux-carre.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Compare currentstirredroute and savedshakenrocksroute without changing the measuredingredients.",
+        "Record bottle strengths, bitterspouringmotion, actual1/2tsp measure and glass/ice fit."
       ],
       "inputSha256": "c98dbd4bd50461c008d631f39aa3891309fe7ec33c9603300e050c27e3345c44",
       "plannedBatch": "cold-preparations-05",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "c98dbd4bd50461c008d631f39aa3891309fe7ec33c9603300e050c27e3345c44"
+      "assignmentInputSha256": "c98dbd4bd50461c008d631f39aa3891309fe7ec33c9603300e050c27e3345c44",
+      "acceptedSourceSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82",
+      "productionVerification": "pending"
     },
     {
       "slug": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
@@ -11560,19 +11959,25 @@
       "source": "Adapted from Nicole Modic, Kalejunkie",
       "sourceUrl": "https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/",
       "group": "assembled_salads_rice_20",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which seasoning route is preferred in the household remains open; neither is kitchen-tested.",
+        "Kosher salt crystal brand and actual potato/onion size are unspecified; no density conversion or pan-volume claim.",
+        "Test uncrowded tray load, dressing amount used and storage texture."
       ],
       "inputSha256": "0b6d8aaa123124a51d7c00371260d7dc756a5a88699ee8d514090eafc65e9005",
       "plannedBatch": "baked-savory-and-breads-12",
       "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
       "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
-      "authorSourceSha256": "435d10cbf9f0b307e2efc1f4c378fbbc90e169ded17387555d739f353e565f52"
+      "authorSourceSha256": "435d10cbf9f0b307e2efc1f4c378fbbc90e169ded17387555d739f353e565f52",
+      "acceptedSourceSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7",
+      "productionVerification": "pending"
     },
     {
       "slug": "warm-spiced-butternut-squash-soup",
@@ -11642,8 +12047,11 @@
       "source": null,
       "sourceUrl": null,
       "group": "shaken_drinks_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/whiskey-sour.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
@@ -11651,7 +12059,9 @@
         "Compare restored optional½oz wine float and retained bourbon/rye options."
       ],
       "inputSha256": "1e6d9964cc3a4b2846bb8c8274ccda8c415808709ecd74f58152a80e7b611f28",
-      "plannedBatch": "cold-preparations-05"
+      "plannedBatch": "cold-preparations-05",
+      "acceptedSourceSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7",
+      "productionVerification": "pending"
     },
     {
       "slug": "whole-spelt-pumpkin-muffins",
@@ -11817,15 +12227,17 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp",
       "group": "vegetable_pan_sides_19",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
-        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/zucchini-herb-fritters-with-garlic-yogurt-final-ledger.json"
+        ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/records/zucchini-herb-fritters-with-garlic-yogurt-final-ledger.json",
+        "docs/reviews/zucchini-herb-fritters-with-garlic-yogurt.md",
+        "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",
+        "The bulk reduction does not establish an accepted household rejection of the full yogurt oil/honey/second garlic. Both complete sauce versions remain separate proposals."
       ],
       "inputSha256": "b3ff7d8c58ee7abebb6da633c10be34b2b45a79893ed68fda9df498df93b07df",
       "plannedBatch": "stir-fry-and-pan-cooking-07",
@@ -11833,7 +12245,8 @@
       "proposedSourceSha256": "06003e3438fed5552d309207c03fc986f575df1c16a6d534f77d6487691c119a",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/vegetable_pan_sides_19/ready-manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "acceptedSourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020"
     },
     {
       "slug": "zucchini-noodles-with-avocado-pesto-and-shrimp",
@@ -12615,7 +13028,7 @@
   "statusCounts": {
     "production-verified": 290,
     "held": 31,
-    "proposed": 86,
+    "accepted": 86,
     "held-awaiting-evidence": 2
   }
 }

@@ -68,8 +68,10 @@ test('mushroom soup uses observable browning and model-specific hot-blender limi
 });
 test('Jeri lentils count the final half hour and retain the documented LOW route and adaptation', () => {
   const { data, content } = read('jeris-lentil-soup');
-  assert.equal(data.cookTime, '5 hr 40 min');
-  assert.equal(data.totalTime, '5 hr 55 min');
+  assert.equal(data.cookTime, 'About 5 hr 40 min, longer until tender');
+  assert.equal(data.totalTime, 'About 6 hr, longer until tender');
+  assert.match(content, /5 hours on LOW/);
+  assert.match(content, /Continue on LOW for another 30 minutes/);
   assert.match(content, /final 30-minute cook/);
   assert.doesNotMatch(content, /on high for 3 hours/);
   assert.match(content, /centers are still hard/);

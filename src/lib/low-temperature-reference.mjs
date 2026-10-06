@@ -11,6 +11,19 @@ export function hasLowTemperatureReference(content, words) {
     /\b(?:cool|chill)\s+(?:the\s+)?(?:brine concentrate|brine|saucepan|stock|broth)\s+in\s+an?\s+ice[- ]water bath\b/g,
     ''
   );
+  // A named commercially pasteurized egg product is not a home process.
+  // Keep the use/eggs instruction and all other process or temperature tokens.
+  const homeEggTreatment =
+    /\b(?:at home|home[- ](?:pasteuriz\w*|treat\w*)|(?:warm\w*|heat\w*|pasteuriz\w*|treat\w*|make)\s+(?:the\s+)?(?:raw\s+)?(?:eggs|them))\b/.test(
+      text
+    );
+  if (!homeEggTreatment) {
+    // Unknown treatment qualifiers or follow-on instructions stay flagged.
+    text = text.replace(
+      /\b(use\s+)pasteurized-in-shell(\s+eggs\b)(?=\s*(?:[.!?](?:\s|$)|$|;\s*people at higher risk should choose thoroughly cooked eggs\b))/g,
+      '$1in-shell$2'
+    );
+  }
   const hasFinishedEndpoint = /\b165°f\b|\b74°c\b/.test(text);
   if (hasFinishedEndpoint) {
     // Recognize only this explicit shallow-vessel stock/broth cooling context.

@@ -261,3 +261,52 @@ test('poultry liquids alone do not trigger meat rules, but separate meat remains
     true
   );
 });
+
+test('commercial pasteurized-in-shell egg use is not home pasteurization', () => {
+  const actual = fs
+    .readFileSync(
+      new URL('../../src/content/recipes/rice-bowl-station-buddha-bowls.md', import.meta.url),
+      'utf8'
+    )
+    .split(/^---\s*$/m)
+    .slice(2)
+    .join('---');
+  assert.match(actual, /use pasteurized-in-shell eggs/);
+  assert.match(actual, /No raw protein belongs in this assembly step/);
+  assert.equal(hasLowTemperatureReference(actual, words), false);
+  assert.equal(hasLowTemperatureReference('Use pasteurized-in-shell eggs.', words), false);
+  // Only the product qualifier is excluded: the instruction remains visible.
+  assert.equal(hasLowTemperatureReference('Use pasteurized-in-shell eggs.', ['use', 'eggs']), true);
+});
+
+test('commercial egg product wording preserves low-temperature and process flags', () => {
+  const product = 'Use pasteurized-in-shell eggs.';
+  for (const unsafe of [
+    'Cook chicken at 145°F.',
+    'Cook turkey at 150°F.',
+    'Use a sous-vide bath for chicken.',
+    'Use an immersion circulator.',
+    'Pasteurize eggs at home.',
+    'Check the pasteurization time for eggs.',
+    'Cook poultry in a water bath.',
+  ]) {
+    assert.equal(hasLowTemperatureReference(product + ' ' + unsafe, words), true, unsafe);
+    assert.equal(hasLowTemperatureReference(unsafe + ' ' + product, words), true, unsafe);
+  }
+  for (const ambiguous of [
+    'Use pasteurized eggs.',
+    'Use pasteurized in-shell eggs.',
+    'Use pasteurized-in-shell egg.',
+    'Pasteurized-in-shell eggs can be made at home.',
+    'Pasteurize in-shell eggs before using them.',
+    'Use eggs pasteurized in shell.',
+    'Use pasteurized-in-shell eggshells.',
+    'Use pasteurized-in-shell eggs made at home.',
+    'Use pasteurized-in-shell eggs; make them at home first.',
+    'Use pasteurized-in-shell eggs by warming raw eggs in a pot.',
+    'Use pasteurized-in-shell eggs. Make them at home first.',
+    'Use pasteurized-in-shell eggs; warm them in a pot first.',
+    'Make eggs at home, then use pasteurized-in-shell eggs.',
+  ])
+    assert.equal(hasLowTemperatureReference(ambiguous, words), true, ambiguous);
+});

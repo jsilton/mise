@@ -27,9 +27,12 @@ test('oats use their listed sweetener and shortcakes define six-square geometry'
   assert.match(oats.content, /^1\. \*\*Whisk:\*\*.*maple syrup.*until the cheese is dispersed/m);
   assert.doesNotMatch(oats.content, /yogurt, honey/);
   const shortcake = read('strawberry-rhubarb-shortcake-with-whipped-mascarpone');
-  assert.equal(shortcake.data.totalTime, '90 min');
+  assert.equal(
+    shortcake.data.totalTime,
+    'About 90 min, plus any remaining preheating or fruit cooling'
+  );
   assert.match(shortcake.content, /6-by-9-inch rectangle/);
-  assert.match(shortcake.content, /25-30 minutes/);
+  assert.match(shortcake.content, /25–30 minutes/);
 });
 test('muffins prepare the oven before mixing and retain the stated alternatives', () => {
   const { data, content } = read('vegetable-muffin');
@@ -65,7 +68,9 @@ test('salad lists toppings and soup keeps its safer release instructions', () =>
   const salad = read('roasted-fall-harvest-salad');
   assert.ok(salad.data.ingredients.includes('1/4 cup Toasted Pepitas'));
   assert.ok(salad.data.ingredients.some((x) => x.startsWith('200 g Honeynut')));
-  assert.match(salad.content, /four as a side/);
+  assert.equal(salad.data.servings, '4');
+  assert.match(salad.content, /The original batch plans four side portions/);
+  assert.match(salad.content, /follow the listed portion count when scaling/);
   const soup = read('instant-pot-potato-leek-soup');
   assert.ok(soup.data.ingredients.some((x) => x.includes('white and pale green')));
   assert.match(soup.content, /release fully naturally/);

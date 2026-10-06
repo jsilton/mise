@@ -481,6 +481,74 @@ for (const row of confirmed) {
             2 * factor
           );
         }
+      } else if (row.slug === 'vieux-carre' && row.caseId === 67) {
+        // Preserve the original barspoon parser input and all numeric oracles below.
+        // The separately reviewed live formula specifies the teaspoon measure.
+        assert.equal(data.formula?.version, 1);
+        const liqueur = data.formula.components
+          .find((c) => c.id === 'drink')
+          .ingredients.find((i) => i.id === 'liqueur');
+        assert.equal(liqueur.name, 'French honeyed herbal liqueur (40% ABV)');
+        assert.deepEqual(liqueur.quantity, { amount: '1/2', unit: 'tsp' });
+        assert.deepEqual(liqueur.uses, [{ step: 'mix', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(liqueur)));
+        assert.match(
+          data.formula.steps.find((step) => step.id === 'mix').text,
+          /Use the measured teaspoon amount for the herbal liqueur rather than assuming every barspoon has the same capacity/
+        );
+        for (const factor of factors) {
+          assert.deepEqual(
+            [...formatFormulaIngredient(liqueur, factor).matchAll(number)].map((m) =>
+              numeric(m[0])
+            ),
+            [0.5 * factor, 40],
+            'liqueur teaspoons scale; ABV remains fixed'
+          );
+        }
+        assert.equal(formatFormulaIngredient(liqueur, 1), formatFormulaIngredient(liqueur));
+      } else if (
+        (row.slug === 'crispy-oven-zucchini-fries' && row.caseId === 22) ||
+        (row.slug === 'roasted-sweet-potatoes' && row.caseId === 57)
+      ) {
+        // Keep both historical parser inputs and their numeric oracles below.
+        // The live prose scopes medium-vegetable counts to the original batch.
+        const zucchini = row.caseId === 22;
+        const live = zucchini
+          ? '2 lbs Fresh Zucchini (original batch about 4 medium)'
+          : '2 lbs Sweet Potatoes, peeled and cut into 3/4-inch wedges (original batch about 3 medium)';
+        assert.ok(data.ingredients.includes(live), 'current measured weight and context remain');
+        for (const factor of factors) {
+          const scaled = scaleIngredient(live, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            zucchini ? [2 * factor, 4] : [2 * factor, 0.75, 3],
+            'weight scales; original-batch count and wedge size stay fixed'
+          );
+          assert.match(scaled, /original batch about/);
+          if (factor === 1) assert.equal(scaled, live, 'reset restores the exact live ingredient');
+        }
+      } else if (row.slug === 'sausage-and-white-bean-skillet' && row.caseId === 58) {
+        // Keep the historical juice-leading parser input and numeric oracle below.
+        // Its live formula now counts the lemon and explicitly uses only its juice.
+        assert.equal(data.formula?.version, 1);
+        const lemon = data.formula.components
+          .find((c) => c.id === 'dish')
+          .ingredients.find((i) => i.id === 'lemon');
+        assert.equal(lemon.name, 'Lemon');
+        assert.deepEqual(lemon.quantity, { amount: 0.5, unit: 'count' });
+        assert.equal(lemon.preparation, 'juice only');
+        assert.deepEqual(lemon.uses, [{ step: 'finish', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(lemon)));
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(lemon, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [0.5 * factor],
+            'lemon count scales without a juice-volume conversion'
+          );
+          assert.match(scaled, /juice only/);
+        }
+        assert.equal(formatFormulaIngredient(lemon, 1), formatFormulaIngredient(lemon));
       } else {
         assert.ok(
           data.ingredients.includes(component.input),
