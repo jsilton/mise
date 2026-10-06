@@ -1,0 +1,451 @@
+{
+  "slug": "salsa-verde-chicken-casserole",
+  "title": "Salsa Verde Chicken Casserole",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
+  "inputSha256": "99c10adea41bf8352cf2fc48c6207a88896adfeab8dc3fb95a4d4866bfa16f22",
+  "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+  "rootFinalAcceptance": "Complete current and final recipes, exact full diffs, all ingredient/variant allocations, source disagreements and independently challenged corrections inspected. Whole acceptance applies to the complete published routes; no kitchen test claimed.",
+  "exactChangedFields": [
+    {
+      "field": "cuisines",
+      "before": ["Mexican"],
+      "after": ["Mexican", "American"]
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "25–30 min, or until 165°F"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 40–50 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Shredded Rotisserie Chicken",
+        "1 cup Sour Cream (for richness)",
+        "1 1/2 cups Salsa Verde (Jarred or Fresh)",
+        "8 Corn Tortillas (6-inch), halved",
+        "2 cups Monterrey Jack Cheese, shredded",
+        "2 cups Roma Tomatoes, chopped",
+        "1/4 cup Fresh Cilantro, minced",
+        "1 Avocado, sliced (The Finishing Touch)"
+      ],
+      "after": [
+        "2 cups Shredded Rotisserie Chicken",
+        "1 cup Sour Cream",
+        "1 1/2 cups Salsa Verde (Jarred or Fresh)",
+        "8 Corn Tortillas (6-inch); halve for the primary route, leave whole for the baked-tomato route",
+        "2 cups Monterey Jack Cheese, shredded",
+        "2 cups Roma Tomatoes, chopped",
+        "1/4 cup Fresh Cilantro, minced",
+        "1 Avocado, sliced",
+        "Oil or cooking spray, enough to lightly grease the dish",
+        "Thinly sliced green onions or extra cilantro leaves, optional toppings"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 540,
+        "protein": 41,
+        "carbs": 18.5,
+        "fat": 35,
+        "fiber": 3,
+        "sugar": 2.5,
+        "sodium": 1010
+      },
+      "after": null
+    },
+    {
+      "field": "source",
+      "before": "Adapted from Myfussyeater.com",
+      "after": "Adapted from Janet McCormick, Taste of Home"
+    },
+    {
+      "field": "sourceUrl",
+      "before": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/",
+      "after": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/"
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["8-inch-square-baking-dish", "food-thermometer"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Build complete tortilla layers and check the casserole center before serving.",
+        "outcome": "Creamy chicken and softened tortillas under melted cheese, with a 165°F center and fresh tomato and avocado contrast.",
+        "techniques": ["temperature", "starch"],
+        "before": [
+          "The original six-serving batch uses an oven-safe 8-inch-square dish with room above the layered filling; dish depths differ. For a changed batch, choose suitable dishes and distribute the full load with headroom rather than compressing it or discarding ingredients. Pan dimensions and baking time do not multiply.",
+          "Keep cooked chicken cold at 40°F / 4°C or below until assembly, within its original safe storage window. Halve all the listed tortillas for the primary route; the original eight tortillas make sixteen halves. Leave them whole for the baked-tomato route.",
+          "Choose one complete method. The primary keeps the existing salsa allocation and fresh tomato topping; the source route below bakes the tomatoes and reserves salsa for service."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All tortilla halves, chicken filling and cheese are divided between two layers in each dish, with half the dish’s cheese in each layer and no unassigned supplies.",
+            "why": "Tracking the complete supply avoids a missing tortilla layer or unexplained filling reserve."
+          },
+          {
+            "step": 4,
+            "cue": "Probe the center and other thick areas to confirm at least 165°F / 74°C; bubbling edges alone are insufficient.",
+            "why": "Surface cheese heats before the dense center of a cooked-chicken casserole."
+          },
+          {
+            "step": 5,
+            "cue": "Tomatoes and avocado are added after baking in the primary route.",
+            "why": "They retain fresh contrast against the creamy filling."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cheese browns while the center is still below 165°F.",
+            "cause": "Surface heat gets ahead of the cold, dense filling.",
+            "fix": "Tent with foil and keep baking until the center reaches 165°F; use the thermometer rather than extending by a guaranteed number of minutes."
+          },
+          {
+            "problem": "Filling approaches the dish rim.",
+            "cause": "The dish is shallower than needed for this full load.",
+            "fix": "Before baking, move the complete layers to a suitable oven-safe dish with headroom; changed geometry can alter baking time."
+          },
+          {
+            "problem": "Soft casserole slices.",
+            "cause": "Moist tortillas and creamy filling naturally give a tender casserole.",
+            "fix": "Spoon portions cleanly; do not promise a crisp, rigid slice. Keep fresh tomatoes as the primary finishing topping."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Salsa verde",
+            "alternative": "Jarred or freshly made salsa verde, same stated amount.",
+            "effect": "Thickness, heat and salt vary; a thin salsa gives a looser casserole. Keep the chosen route’s full allocation."
+          },
+          {
+            "ingredient": "Rotisserie chicken",
+            "alternative": "The same listed amount of fully cooked shredded chicken.",
+            "effect": "Dark and white meat differ in moisture; either must be kept cold and heated with the casserole to 165°F."
+          }
+        ],
+        "storage": "Keep chicken and assembled perishable ingredients at 40°F / 4°C or below. Divide cooked leftovers into shallow containers and refrigerate within two hours, or one hour above 90°F / 32°C. Use within the chicken’s remaining three-to-four-day refrigerated window rather than restarting its clock. Store fresh toppings separately; reheat the casserole to 165°F / 74°C before adding them.",
+        "timing": "About 40–50 minutes is an editorial plan: 10–15 minutes assembly with oven preheating in parallel, then begin checking around 25–30 minutes for the primary 375°F route. The distinct source 400°F route begins checking at 20–25 minutes. A cold filling, deeper dish or different geometry can take longer; neither schedule guarantees 165°F. No measured fit, yield or cooking time is claimed.",
+        "sources": [
+          {
+            "title": "Taste of Home — Janet McCormick’s Salsa Verde Chicken Casserole",
+            "url": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/"
+          },
+          {
+            "title": "FoodSafety.gov — casserole and leftovers endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — safe food handling and shallow cooling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — cooked poultry storage",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Tex-Mex casserole is a quick weeknight meal that layers chicken, tortillas, and cheese like lasagna. Whisking salsa verde into sour cream creates a tangy, creamy sauce that keeps the chicken moist during baking. Halving the corn tortillas allows for neat, sturdy layers that slice cleanly. Fresh avocado and tomatoes add brightness.\n\n## Directions\n\n1.  **The Bind:** In a medium bowl, whisk together the sour cream and 1 cup of the salsa verde.\n2.  **Combine:** Fold the shredded chicken and cilantro into the sauce.\n3.  **Layer:** Grease an 8x8 baking dish. Spread a thin layer of the remaining salsa on the bottom. Top with 4 halved tortillas.\n4.  **Stack:** Spread half the chicken mixture over the tortillas and top with 1 cup of cheese. Repeat with remaining tortillas, chicken, and cheese.\n5.  **Bake:** Preheat oven to 375°F. Bake for 25-30 minutes until the cheese is bubbling and the edges are golden brown.\n6.  **Finish:** Remove from heat. Top with the chopped tomatoes and sliced avocado for the final **High Note**.\n7.  **Serve:** Serve hot with a side of [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice).\n",
+    "after": "\n## Chef's Note\n\nJanet McCormick’s Taste of Home recipe layers cooked chicken, tortillas and Monterey Jack in a creamy tomatillo sauce. This version keeps the tomatoes and full avocado fresh for contrast; a complete baked-tomato route follows. Even layers help the casserole heat evenly, and the center temperature determines when it is ready.\n\n## Directions\n\n1. **Prepare:** Preheat to 375°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom above the full layers. For other amounts, choose suitable dishes and distribute the full supplies with room above the layers; if a load would reach a rim, move it to suitable dishes before baking. Halve all the listed tortillas; the original eight make sixteen halves. Pan dimensions and baking time do not multiply.\n2. **Mix the filling:** Combine all the sour cream with two-thirds of the listed salsa verde, then fold in all chicken and minced cilantro. Keep the remaining one-third salsa separate for the dish bottoms.\n3. **Make two layers:** Divide the reserved bottom salsa among the dishes. In each dish, arrange half its tortilla halves over the salsa, overlapping as needed, then add half its chicken mixture and half its cheese. Repeat with its remaining tortillas, chicken mixture and cheese. Distribute the full listed supplies across the dishes without leaving an extra reserve.\n4. **Bake:** Bake uncovered, beginning checks around 25–30 minutes. Continue until a thermometer in the center and other thick areas reads at least 165°F / 74°C. If the cheese browns first, tent with foil and continue; bubbling cheese alone is insufficient.\n5. **Finish and serve:** Top with all the listed chopped tomatoes and sliced avocado. Add optional sliced green onions or extra cilantro leaves. Serve hot with [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice).\n\n### Baked-tomato route\n\nUse this complete method in place of the directions above, with the same full chicken, sour cream, salsa, tortilla, tomato, minced-cilantro and cheese quantities. Leave the tortillas whole for this route. Preheat to 400°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom; for other amounts use suitable dishes and distribute the full load with room above the layers. Mix all chicken and sour cream with half the listed salsa; set aside one-sixth of the salsa for the dish bottoms and reserve the remaining one-third for serving. Divide the bottom salsa among the dishes. In each dish, make a first layer with half its whole tortillas, half its chicken mixture, half its tomatoes, all its share of minced cilantro and half its cheese. Repeat with the remaining tortillas, chicken mixture, tomatoes and cheese. Use all supplies across the dishes. Bake uncovered, beginning checks around 20–25 minutes for the original batch and continuing until each center and other thick areas reach 165°F / 74°C; changed geometry can alter the time. Serve all the reserved salsa with all the listed sliced avocado. For the avocado-free garnish option, omit avocado and use optional sliced green onions or extra cilantro leaves. Pan dimensions and baking time do not multiply.\n"
+  },
+  "ledger": [
+    {
+      "quantity": "2 cups chicken",
+      "primary": "all filling; half each layer",
+      "sourceRoute": "all filling; half each layer"
+    },
+    {
+      "quantity": "1 cup sour cream",
+      "primary": "all filling",
+      "sourceRoute": "all filling"
+    },
+    {
+      "quantity": "1 1/2 cups salsa verde",
+      "primary": "1 cup filling + 1/2 cup bottom; none reserved",
+      "sourceRoute": "3/4 cup filling + 1/4 cup bottom + 1/2 cup service"
+    },
+    {
+      "quantity": "8 six-inch corn tortillas",
+      "primary": "16 halves; eight each layer",
+      "sourceRoute": "whole: four each layer"
+    },
+    {
+      "quantity": "2 cups Monterey Jack",
+      "primary": "one cup each layer",
+      "sourceRoute": "one cup each layer"
+    },
+    {
+      "quantity": "2 cups Roma tomatoes",
+      "primary": "all fresh topping",
+      "sourceRoute": "one cup each baked layer"
+    },
+    {
+      "quantity": "1/4 cup minced cilantro",
+      "primary": "all filling",
+      "sourceRoute": "all first tomato layer"
+    },
+    {
+      "quantity": "1 avocado",
+      "primary": "entire fresh topping",
+      "sourceRoute": "entire fresh topping in current avocado-preserving adaptation; exact saved source permits optional avocado with no quantified amount"
+    },
+    {
+      "quantity": "oil/cooking spray",
+      "primary": "lightly grease dish, as needed",
+      "sourceRoute": "lightly grease dish, as needed"
+    },
+    {
+      "quantity": "optional green onions/extra cilantro",
+      "primary": "garnish, to taste",
+      "sourceRoute": "garnish, to taste"
+    }
+  ],
+  "variantLedger": [],
+  "sources": [
+    {
+      "url": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/",
+      "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+    }
+  ],
+  "sourceDisagreements": [
+    {
+      "field": "salsa allocation",
+      "current": "1 cup filling + 1/2 cup dish bottom",
+      "publisher": "3/4 cup filling + 1/4 cup bottom + 1/2 cup service",
+      "decision": "Preserve both explicitly exclusive full-allocation routes."
+    },
+    {
+      "field": "tomatoes/cilantro",
+      "current": "all tomatoes fresh after baking; cilantro in chicken",
+      "publisher": "tomatoes in both baked layers; all minced cilantro in first layer",
+      "decision": "Preserve fresh primary and complete baked alternative."
+    },
+    {
+      "field": "temperature/clock",
+      "current": "375°F25–30min",
+      "publisher": "400°F20–25min",
+      "decision": "Distinct routes, no equivalence or guaranteed finish; use165°F center."
+    },
+    {
+      "field": "avocado",
+      "current": "one whole avocado",
+      "publisher": "optional slices unquantified",
+      "decision": "Full whole avocado remains primary and available intact in alternative; recover source omit/other garnish option explicitly."
+    },
+    {
+      "field": "tortillas",
+      "current": "halved; ambiguous4halved wording",
+      "publisher": "eight six-inch, half supply eachlayer",
+      "decision": "Specify sixteen halves total/eight perlayer primary; four whole perlayer source route."
+    },
+    {
+      "field": "attribution",
+      "current": "MyFussyEater quinoa-breakfast-bars URL",
+      "publisher": "Janet McCormick, Taste of Home",
+      "decision": "Replace unrelated attribution with directly read, formula-matched primary."
+    }
+  ],
+  "ratiosYieldAndCapacity": {
+    "publisherDish": "8-inch square, depth unrecorded",
+    "primaryDish": "8-inch square with headroom; transfer full load before baking if rim-full",
+    "servings": "6 retained; matches saved and publisher",
+    "primaryTemperature": "375°F preserved",
+    "sourceTemperature": "400°F separate exclusive route",
+    "primaryClock": "25–30 min as first check, continue to165°F",
+    "sourceClock": "20–25 min as first check, continue to165°F",
+    "sourceGreasing": "Saved/public method requires greased dish; as-needed supply now listed without invented dose",
+    "scaledGeometry": "Pan dimensions and clocks do not multiply. Scale each route’s complete allocations manually; divide larger loads among suitable dishes and check each center."
+  },
+  "findings": [
+    {
+      "id": "final-source-resolution",
+      "title": "Resolve the recorded whole-recipe hold",
+      "rationale": "Capacity dimensions are supplied by the matching primary. Variable depth is handled as an explicit before-cooking fit condition, not an invented measurement. Existing rich primary quantities and technique remain; recovered source is a complete alternative. Safety endpoints come from applicable primary guidance. Whole proposal adds individual teaching, timing, storage and attribution without claiming physical testing.",
+      "applicableSources": [
+        {
+          "url": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/",
+          "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+          "applicability": "Applicable primary source; scope is recorded in the ingredient and method findings."
+        }
+      ],
+      "confidence": "High primary formula/author/yield/dimensions evidence; moderate editorial operating choices; physical fit/timing/quality not measured.",
+      "exactBeforeAfterReferences": [
+        "cuisines",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "source",
+        "sourceUrl",
+        "equipment",
+        "learning",
+        "content"
+      ]
+    },
+    {
+      "id": "independent-correction-1",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The source alternative requires whole tortillas. Route-specific preparation must be selected before cutting; six-inch size and full tortilla count remain unchanged.",
+      "exactBefore": "8 Corn Tortillas (6-inch), halved",
+      "exactAfter": "8 Corn Tortillas (6-inch); halve for the primary route, leave whole for the baked-tomato route",
+      "field": "ingredients[3]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-2",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Bind the recovered pan to its source batch and preserve a conditional full-load headroom requirement for other amounts; no fit or exact depth is claimed.",
+      "exactBefore": "Use an oven-safe 8-inch-square dish with room above the layered filling; dish depths differ. If the filling would reach the rim, use another suitable dish rather than compressing it or discarding ingredients.",
+      "exactAfter": "The original six-serving batch uses an oven-safe 8-inch-square dish with room above the layered filling; dish depths differ. For a changed batch, choose suitable dishes and distribute the full load with headroom rather than compressing it or discarding ingredients. Pan dimensions and baking time do not multiply.",
+      "field": "learning.before[0]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-3",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Original tortilla count becomes context while actual listed supplies govern both complete routes.",
+      "exactBefore": "Keep cooked chicken cold at 40°F / 4°C or below until assembly, within its original safe storage window. Prepare all eight tortillas as sixteen halves for the primary route.",
+      "exactAfter": "Keep cooked chicken cold at 40°F / 4°C or below until assembly, within its original safe storage window. Halve all the listed tortillas for the primary route; the original eight tortillas make sixteen halves. Leave them whole for the baked-tomato route.",
+      "field": "learning.before[1]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-4",
+      "title": "Independent complete-recipe correction",
+      "rationale": "A scaled batch must use all cheese and tortillas rather than a fixed sixteen halves/two one-cup allocations.",
+      "exactBefore": "All sixteen tortilla halves and all chicken filling are divided between two layers; each layer receives one cup cheese.",
+      "exactAfter": "All tortilla halves, chicken filling and cheese are divided between two layers in each dish, with half the dish’s cheese in each layer and no unassigned supplies.",
+      "field": "learning.checkpoints[0].cue",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-5",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The two-cup source amount is only the original batch; the complete selected batch’s displayed supply must be replaced.",
+      "exactBefore": "The same two cups of fully cooked shredded chicken.",
+      "exactAfter": "The same listed amount of fully cooked shredded chicken.",
+      "field": "learning.substitutions[1].alternative",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-6",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Preserve the current375°F route and source pan as original-batch context, with practical scaled capacity and complete tortilla preparation.",
+      "exactBefore": "Prepare:** Preheat to 375°F. Lightly grease an oven-safe 8-inch-square dish. Use a dish with headroom above the full layers; if the load would reach its rim, transfer all ingredients to a suitable dish before baking. Halve all eight tortillas to make sixteen pieces.",
+      "exactAfter": "Prepare:** Preheat to 375°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom above the full layers. For other amounts, choose suitable dishes and distribute the full supplies with room above the layers; if a load would reach a rim, move it to suitable dishes before baking. Halve all the listed tortillas; the original eight make sixteen halves. Pan dimensions and baking time do not multiply.",
+      "field": "body.Directions.step1",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-7",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Original1cup/1½cups =2/3 filling and½cup/1½cups =1/3 bottom; this preserves the current full salsa formula under scaling.",
+      "exactBefore": "Mix the filling:** Combine all the sour cream with 1 cup salsa verde, then fold in all chicken and minced cilantro. Keep the remaining 1/2 cup salsa separate.",
+      "exactAfter": "Mix the filling:** Combine all the sour cream with two-thirds of the listed salsa verde, then fold in all chicken and minced cilantro. Keep the remaining one-third salsa separate for the dish bottoms.",
+      "field": "body.Directions.step2",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-8",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Two equal tortilla/chicken/cheese layers allocate the actual full supply for the chosen batch without fixed cups or pieces.",
+      "exactBefore": "Make two layers:** Spread that remaining 1/2 cup salsa in the dish. Arrange eight tortilla halves over it, overlapping as needed. Add half the chicken mixture and 1 cup cheese. Repeat with the other eight halves, all remaining chicken mixture and the second cup cheese.",
+      "exactAfter": "Make two layers:** Divide the reserved bottom salsa among the dishes. In each dish, arrange half its tortilla halves over the salsa, overlapping as needed, then add half its chicken mixture and half its cheese. Repeat with its remaining tortillas, chicken mixture and cheese. Distribute the full listed supplies across the dishes without leaving an extra reserve.",
+      "field": "body.Directions.step3",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-9",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The full scaled tomato and avocado supply remains the primary fresh finish.",
+      "exactBefore": "Finish and serve:** Top with all 2 cups chopped tomatoes and the full sliced avocado. Add optional sliced green onions or extra cilantro leaves. Serve hot with [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice).",
+      "exactAfter": "Finish and serve:** Top with all the listed chopped tomatoes and sliced avocado. Add optional sliced green onions or extra cilantro leaves. Serve hot with [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice).",
+      "field": "body.Directions.step5",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-10",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Source¾cup/1½cups =1/2 filling,¼cup/1½cups =1/6 bottom and½cup/1½cups =1/3 service. Half each complete tortilla/chicken/tomato/cheese supply goes into each layer, with all minced cilantro in the first. Source400°F20–25 remains distinct from current375°F25–30, with no claimed equivalence.",
+      "exactBefore": "Use this complete method in place of the directions above, with the same full chicken, sour cream, salsa, tortilla, tomato, minced-cilantro and cheese quantities. Preheat to 400°F and lightly grease an 8-inch-square dish with headroom. Mix chicken and sour cream with 3/4 cup salsa; spread 1/4 cup salsa in the dish and reserve the final 1/2 cup for serving. Arrange four whole six-inch tortillas, half the chicken mixture, 1 cup tomatoes, all minced cilantro and 1 cup cheese in the first layer. Repeat with the remaining four tortillas, chicken mixture, tomatoes and cheese. Bake uncovered, checking from 20–25 minutes and continuing to 165°F / 74°C at the center. Serve the reserved salsa with the full sliced avocado. For the avocado-free garnish option, omit avocado and use optional sliced green onions or extra cilantro leaves.",
+      "exactAfter": "Use this complete method in place of the directions above, with the same full chicken, sour cream, salsa, tortilla, tomato, minced-cilantro and cheese quantities. Leave the tortillas whole for this route. Preheat to 400°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom; for other amounts use suitable dishes and distribute the full load with room above the layers. Mix all chicken and sour cream with half the listed salsa; set aside one-sixth of the salsa for the dish bottoms and reserve the remaining one-third for serving. Divide the bottom salsa among the dishes. In each dish, make a first layer with half its whole tortillas, half its chicken mixture, half its tomatoes, all its share of minced cilantro and half its cheese. Repeat with the remaining tortillas, chicken mixture, tomatoes and cheese. Use all supplies across the dishes. Bake uncovered, beginning checks around 20–25 minutes for the original batch and continuing until each center and other thick areas reach 165°F / 74°C; changed geometry can alter the time. Serve all the reserved salsa with all the listed sliced avocado. For the avocado-free garnish option, omit avocado and use optional sliced green onions or extra cilantro leaves. Pan dimensions and baking time do not multiply.",
+      "field": "body.Baked-tomato route",
+      "confidence": "High for literal application and source quantity preservation"
+    }
+  ],
+  "remainingQuestions": [
+    "Actual dish depth, full filled volume/headroom, time to 165°F and portions remain kitchen observations; no test result is claimed."
+  ],
+  "kitchenQuestions": [
+    "Actual dish depth, full filled volume/headroom, time to 165°F and portions remain kitchen observations; no test result is claimed."
+  ],
+  "preservation": {
+    "fullCurrentRichness": true,
+    "wholeAvocado": true,
+    "allEightTortillas": true,
+    "savedOptionalGarnishes": true,
+    "currentFreshTomatoRoute": true,
+    "completeSourceBakedTomatoRoute": true,
+    "internalLinks": true,
+    "existingPriorSafetyRepairs": true
+  },
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/final-evidence-four-independent.json",
+  "independentCandidateSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+  "independentReportSha256": "2632ba5ab8fdb9c9abf8f0a1a6ac913aff55278be3ba28c58c5f5d3c731148bf",
+  "independentSelfAcceptance": false,
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "implementationCommit": null,
+  "productionVerification": "pending"
+}

@@ -1,12 +1,6 @@
-# Whole-recipe holds — October 6, 2026
+# Remaining whole-recipe holds — October 6, 2026
 
-33 distinct recipes remain held over unresolved formula, source or equipment evidence. Every current source is unchanged. These holds do not endorse questionable existing claims and receive no complete-review acceptance or new production credit. Held optional branches of other recipes are separate. No kitchen testing or native-app sync has occurred.
-
-## Almond Zucchini Bread
-
-Current source: `src/content/recipes/almond-zucchini-bread.md`.
-
-- Saved/current loaf pan geometry is missing; complete editorial acceptance held without invented dimensions.
+29 distinct recipes remain held over unresolved formula, source or equipment evidence. Every current source is unchanged. These holds do not endorse questionable existing claims and receive no complete-review acceptance or new production credit. Held optional branches of other recipes are separate. No kitchen testing or native-app sync has occurred.
 
 ## Baked Chicken and Broccoli
 
@@ -126,15 +120,6 @@ Current source: `src/content/recipes/japanese-beef-rice-bowl-gyudon.md`.
 
 - The exactGit-created mirin alternative says brown sugar+water without proportions. The original/current onion sauté uses unlistedpinchsalt and no specifiedfat or cookingliquid. Adding oil or spending an invented fraction of the measuredstock would silently create a new formula; a complete alternative/cooking clarification is needed.
 
-## Japanese-Style Trout with Dashi
-
-Current source: `src/content/recipes/japanese-style-trout-with-dashi.md`.
-
-- Whole recipe held over prepared-stock strength/volume and second-turn/glaze source-method acceptance.
-- Measured prepared-stock strength/volume
-- Household instant versus homemade choice
-- Second-turn/glaze method acceptance
-
 ## Japchae (Korean Glass Noodle Stir-Fry)
 
 Current source: `src/content/recipes/japchae-korean-glass-noodle-stir-fry.md`.
@@ -189,14 +174,6 @@ Current source: `src/content/recipes/pressure-cooker-bolognase.md`.
 - Reconcile the saved stovetop-pressure-cooker recipe with the actual electric model, operating pressure, minimum liquid, fill and burn constraints before any formula or method decision.
 - No water amount is established; do not invent one. A hold does not endorse the current questionable pressure or safety claims.
 
-## Red Zone Margarita
-
-Current source: `src/content/recipes/red-zone-margarita.md`.
-
-- Confirm the intended pour size and reserve: ten four-fluid-ounce pours from approximately 45 fl oz may intentionally leave a reserve; this arithmetic does not establish an error or a new yield.
-- Confirm whether 0.6 cup is a rounded companion to five fluid ounces rather than a distinct ratio decision. Do not select house intent without evidence.
-- Measure the strained syrup yield after the saved simmer/steep and establish applicable storage; clarify complete optional flavor/mocktail allocations without changing the primary ratios.
-
 ## Corn Chowder with Lime Shrimp
 
 Current source: `src/content/recipes/roasted-corn-chowder-with-lime-cured-shrimp.md`.
@@ -204,13 +181,6 @@ Current source: `src/content/recipes/roasted-corn-chowder-with-lime-cured-shrimp
 - How should the original ¼cup oil be divided between corn roasting and pot/bacon? It is one total, not two quarter-cup doses.
 - Should current bacon-fat/smoked-paprika/one-cup cream main remain primary alongside the complete richer source route? Its four slices are not a half-cup bacon conversion.
 - Confirm actual current corn yield from four ears versus separate three-cup frozen option; original two-cup kernels/about-four-ears is different, not a fixed universal equivalence.
-
-## Salsa Verde Chicken Casserole
-
-Current source: `src/content/recipes/salsa-verde-chicken-casserole.md`.
-
-- Whole recipe held pending actual source and layered capacity/timing evidence.
-- Verify layered fit and time after actual source is recovered.
 
 ## Spinach & Mushroom Quiche
 
@@ -252,3 +222,7 @@ Current source: `src/content/recipes/weeknight-paella.md`.
 - The linked meal also permits generic short-grain rice and gives45minutes versus source50; hold linked meal acceptance rather than certifying it from this recipe review.
 
 Exact unchanged source hashes and six before/after question updates: [machine evidence](whole-recipe-holds.json). Original source and independent evidence remain privately retained. No pressure-cooker water amount or kimchi rinse is invented.
+
+## Resolved source holds
+
+Almond Zucchini Bread, Japanese-Style Trout with Dashi, Red Zone Margarita and Salsa Verde Chicken Casserole passed independent challenge and complete root inspection. Their accepted versions await publication verification; source disagreements and physical-test questions are retained in individual records. Minestrone remains held. [Final evidence release](final-evidence-four.md). Earlier hold decisions remain in Git history.

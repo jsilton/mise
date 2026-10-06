@@ -84,7 +84,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Squeeze: Grate the zucchini. Place in a clean towel and squeeze out excess water, then measure 1 cup of the damp shreds. They should no longer drip, but do not try to dry them out completely."
+          "text": "The Squeeze: Grate the zucchini. Place in a clean towel and squeeze out excess water, then measure the listed amount of damp shreds. They should no longer drip, but do not try to dry them out completely."
         },
         {
           "@type": "HowToStep",
@@ -108,9 +108,7 @@
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT40M",
-      "totalTime": "PT105M",
-      "recipeYield": "10",
+      "recipeYield": "10 slices (approximate)",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, kid-friendly, weekend-project, comfort-food, bake",
@@ -18088,60 +18086,66 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Japanese-Style Trout with Dashi",
-      "description": "Reducing soy-mirin-vinegar until it becomes heavy syrup, then brushing it onto trout in multiple layers under the broiler creates a mahogany-colored, crispy glaze that contrasts delicate, flaky meat. Poaching julienned vegetables in dashi for exactly 1 minute keeps them crisp while infusing them with clean, oceanic flavor that balances the rich glaze.",
+      "description": "Grace Parisi adapted the sweet soy glaze of unagi kabayaki to rainbow trout when eel was difficult to find. Broil and glaze both sides while watching the surface; the thin julienned vegetables bring a crisp-tender contrast.",
       "url": "https://jordansilton.com/mise/recipes/japanese-style-trout-with-dashi/",
       "recipeIngredient": [
-        "4 Rainbow Trout Fillets (6 oz each)",
-        "[Dashi (Japanese Sea Stock)](/mise/recipes/dashi-japanese-sea-stock)",
-        "1 cup Soy Sauce",
-        "1 cup Mirin",
-        "1/2 cup Granulated Sugar",
-        "1/2 cup Rice Vinegar",
-        "2 Carrots, finely julienned",
-        "2 Leeks, julienned (white parts only)",
-        "Steamed Sushi Rice",
-        "Crumbled Nori"
+        "4 rainbow trout fillets (6 oz each), bones removed, skin on",
+        "1 tsp instant dashi powder",
+        "1½ cups water, for the vegetable broth",
+        "1 cup soy sauce",
+        "1 cup mirin",
+        "½ cup granulated sugar",
+        "½ cup unseasoned rice vinegar",
+        "2 carrots, finely julienned",
+        "2 leeks, white parts only, washed and finely julienned",
+        "Steamed sushi rice, for serving",
+        "Crumbled nori, for serving"
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToStep",
-          "text": "The Glaze: In a small saucepan, bring soy sauce, mirin, sugar, and vinegar to a boil. Simmer for 10 minutes until reduced by half and thick enough to coat a spoon."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Bath: In a separate pot, bring Dashi to a boil. Add carrots and leeks. Simmer for exactly 1 minute. Remove vegetables with a slotted spoon and set aside. Keep dashi warm."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Thermal Prep: Preheat the broiler. Arrange trout fillets, skin-side up, on a sturdy baking sheet."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Lacquer: Broil for 2 minutes until the skin sizzles. Carefully peel off and discard the skin. Brush the meat with the glaze."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Stage 2: Broil for 3 minutes, brushing twice more with the lacquer, until the trout is cooked through and the surface is mirror-glossy."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Assemble: Mound rice in shallow bowls. Top with the glazed trout, nori, and the poached vegetables."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Carefully pour the hot dashi around the perimeter of the bowl. Serve immediately."
+          "@type": "HowToSection",
+          "name": "Directions",
+          "description": "Have steamed rice ready. The 45-minute plan uses instant dashi or already-prepared homemade stock; making the linked Dashi and rice from scratch adds their own preparation time. Use a broiler-rated sheet with the fish in one layer and the oven's permitted rack position; position the rack 6–8 inches from the heat only if the oven instructions permit. Cook in more batches if needed, allowing longer elapsed time.",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Make the glaze: Put all the soy sauce, mirin, sugar and vinegar in a saucepan. Bring to a boil, then simmer over moderate heat until thick enough to coat a spoon, starting checks around 10 minutes. For the original four-fillet batch, the source target is about 1½ cups reduced glaze; scale that volume in proportion to the full listed glaze ingredients for a different batch, keeping the same spoon-coating cue. Pan size and reduction time do not multiply. Keep this supply clean. Pour a working portion into a separate dish for brushing fish, replenishing it with a clean spoon as needed. Never dip the fish brush into the clean supply; keep clean glaze for the rice and table."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Prepare the vegetable broth: In a separate medium saucepan with room for the vegetables, combine all the instant dashi powder with its measured water and bring to a boil. Add the carrots and leeks and simmer just until crisp-tender, starting checks around 1 minute. Remove the pan from the heat and let the vegetables stand in the broth while the fish broils. The water amount is the starting liquid; do not reduce the broth to an assumed finished yield."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Set up the fish: Preheat the broiler. Arrange the fillets skin-side up on the sturdy sheet, leaving them in one layer. Check for remaining bones and keep fish-handling utensils separate from serving utensils."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Remove the skin and glaze: Broil until the skin begins to sizzle, starting checks around 2 minutes. Carefully peel off and discard the skin. The fish is still partly cooked: brush the exposed surface with glaze from the working dish, keeping the brush out of the clean serving supply."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Broil both sides: Broil the glazed surface for about 3 minutes, brushing once or twice more as it lightly caramelizes. Carefully turn each fillet over so the other side faces the broiler. Brush that side with more working glaze and broil about 3 minutes longer, brushing once or twice and watching for scorching. Check the thickest center of each fillet for 145°F/63°C with a suitable thermometer; continue as needed. The broiler clocks are first checks. Discard any unused raw-contact brushing glaze."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Assemble: Mound the prepared sushi rice in shallow bowls and drizzle lightly with clean glaze. Lift the crisp-tender carrots and leeks from their saucepan with a slotted spoon, then add the trout and nori."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Serve: Spoon the vegetable dashi into the bowls and serve immediately, with all remaining clean glaze alongside. If the broth needs reheating while the fish cooks, bring it back to a boil before serving."
+            }
+          ]
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT30M",
-      "totalTime": "PT45M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Japanese"],
-      "keywords": "Japanese, sweet, savory, acidic, umami, rich, entertaining, weekend-project, simmer, boil, steam, poach, no-cook",
+      "keywords": "Japanese, sweet, savory, acidic, umami, rich, entertaining, weekend-project, simmer, broil",
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from Foodandwine.com",
+        "name": "Adapted from Grace Parisi at Food & Wine",
         "url": "http://www.foodandwine.com/recipes/japanese-style-trout-dashi"
       }
     },
@@ -26179,84 +26183,57 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Red Zone Margarita",
-      "description": "This game-day margarita balances reposado tequila's oak and vanilla against the bitter complexity of the red Italian aperitif, bridged by a spiced cranberry syrup that adds tannic structure like a light red wine. The combination creates a deep crimson color and serious flavor - far from a sugary party drink.",
+      "description": "Reposado tequila, red Italian bitter aperitif and spiced cranberry syrup make a tart, bitter-sweet game-day margarita. Measure the chilled batch first, then shake each pour with fresh ice for dilution.",
       "url": "https://jordansilton.com/mise/recipes/red-zone-margarita/",
       "recipeIngredient": [
-        "For the Spiced Cranberry Syrup:",
-        "1 cup Unsweetened 100% Cranberry Juice",
-        "1 cup White Sugar",
-        "2 Cinnamon Sticks, cracked in half",
-        "4-5 sprigs Fresh Thyme",
-        "3 whole Cloves (optional, adds depth)",
-        "For the Game Day Ice:",
-        "Fresh Cranberries",
-        "Fresh Blueberries",
-        "Water",
-        "For the Batch (10 servings):",
-        "2.5 cups (20 oz) Reposado Tequila",
-        "1.25 cups (10 oz) Fresh Lime Juice (8-10 limes)",
-        "0.75 cups (6 oz) Spiced Cranberry Syrup",
-        "0.6 cups (5 oz) dry orange liqueur (40% ABV)",
-        "0.5 cups (4 oz) red Italian bitter aperitif",
-        "1 tsp Fine Sea Salt",
-        "For Serving:",
-        "Fresh Orange Peel strips"
+        "1 cup unsweetened 100% cranberry juice",
+        "1 cup white sugar",
+        "2 cinnamon sticks, cracked in half",
+        "4–5 sprigs fresh thyme",
+        "3 whole cloves, optional",
+        "Fresh cranberries, 3 per large cube",
+        "Fresh blueberries, 3 per large cube",
+        "Water, enough to fill the molds",
+        "20 fl oz reposado tequila (2 1/2 cups)",
+        "10 fl oz fresh lime juice (1 1/4 cups; lime yield varies)",
+        "6 fl oz cooled spiced cranberry syrup (3/4 cup)",
+        "5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)",
+        "4 fl oz red Italian bitter aperitif (1/2 cup)",
+        "1 tsp fine sea salt",
+        "Fresh orange peel strips, one per drink",
+        "Ice for shaking, as needed",
+        "1 fl oz more spiced cranberry syrup, if the batch tastes too bitter",
+        "1 fl oz more fresh lime juice, if the batch tastes too sweet",
+        "1/2 tsp more fine sea salt, if desired for a sharpness correction"
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToSection",
-          "name": "Phase 1: The Prep (Night Before)",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "The Syrup: Combine cranberry juice, sugar, cinnamon sticks, thyme, and cloves in a saucepan. Bring to a boil, stirring to dissolve sugar. Reduce heat and simmer for 10 minutes. Remove from heat and steep for 30 minutes. Strain through a fine mesh sieve and refrigerate. (Keeps 2 weeks.)"
-            },
-            {
-              "@type": "HowToStep",
-              "text": "The Ice: Place 3 cranberries and 3 blueberries into each large ice cube mold. Fill with water and freeze overnight. These look spectacular and eliminate the need for garnishes."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Make the syrup the day before: Combine cranberry juice, sugar, cinnamon, thyme and optional cloves. Heat to a boil, stirring until the sugar dissolves; reduce heat and simmer 10 minutes. Remove from heat and steep 30 minutes. Strain into a clean container, discarding the spent spices and herbs. Cool promptly in a shallow container under refrigeration; keep at 40°F / 4°C or below for the planned service. Measure the finished syrup before allocating it: the batch needs the listed finished-syrup amount (6 fl oz for the original ten pours), and optional corrections or mocktails need separate syrup. Keep any reserve chilled. If the strained supply is insufficient, make another batch with the same full syrup formula; do not dilute the first to reach a guessed yield."
         },
         {
-          "@type": "HowToSection",
-          "name": "Phase 2: The Batch (Before Kickoff)",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "The Mix: In a large pitcher, combine tequila, lime juice, cranberry syrup, dry orange liqueur, and red Italian bitter aperitif. Add salt and stir vigorously until completely dissolved - this is critical for balance."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "The Taste: Taste the batch - it should be intense and slightly too strong (it will dilute when shaken). Adjust: too bitter, add 1 oz more syrup; too sweet, add 1 oz more lime; too sharp, add 1/2 tsp more salt. Trust your palate."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "The Hold: Keep pitcher refrigerated until serving. Do not add ice to the pitcher - dilution happens during the shake."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Freeze the fruit ice: Make one large cube for each planned pour, with three cranberries and three blueberries in each mold cavity. The original batch plans ten pours. Fill with water and freeze overnight until solid. Make additional cubes separately for mocktails or other drinks."
         },
         {
-          "@type": "HowToSection",
-          "name": "Phase 3: The Serve (Game Time)",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "The Shake: Pour 4 oz of batch into a shaker tin. Fill with ice and shake hard for 10-12 seconds until tin is frosted and painful to hold."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "The Build: Place one Game Day Ice cube in a rocks glass. Strain cocktail over the cube."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "The Finish: Hold an orange peel over the glass, shiny-side down. Squeeze to express oils (you'll see the mist). Rub the peel around the rim, then drop it in."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Mix the batch: In a clean pitcher combine the full listed amounts of tequila, lime juice, finished syrup, orange liqueur and bitter aperitif. Add the full listed fine-salt amount and stir until dissolved. Cover and refrigerate until service; keep ice separate from the pitcher."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Optional taste corrections: Taste a small chilled sample. Use the listed optional syrup correction for bitterness, lime correction for sweetness, or fine-salt correction for sharpness for the chosen batch. Make a selected correction, stir and taste again. Count added syrup separately from the measured primary supply. Salt cannot be removed once dissolved; add it cautiously. These additions change the batch volume and balance rather than its stated primary ratios."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Shake each pour: Measure 4 fl oz batch into a shaker with ice and shake hard for 10–12 seconds, until well chilled. Leave enough working room for the ice and liquid; shake one pour at a time. The original ten-serving batch supports ten such pours with reserve; tasting and optional additions affect the remainder. Keep each pour at 4 fl oz when the batch size changes. Do not increase the pour simply to empty the pitcher."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Serve: Put one frozen fruit cube in a rocks glass with room for the strained drink. Strain over it. Express one orange-peel strip over the glass, rub it around the rim and add it. Keep the remaining batch covered and chilled during service."
         }
       ],
       "prepTime": "PT20M",
       "cookTime": "PT10M",
-      "totalTime": "PT30M",
       "recipeYield": "10",
       "recipeCategory": "Beverage",
       "recipeCuisine": ["Mexican", "American"],
@@ -27514,59 +27491,50 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Salsa Verde Chicken Casserole",
-      "description": "This Tex-Mex casserole is a quick weeknight meal that layers chicken, tortillas, and cheese like lasagna. Whisking salsa verde into sour cream creates a tangy, creamy sauce that keeps the chicken moist during baking.",
+      "description": "Janet McCormick’s Taste of Home recipe layers cooked chicken, tortillas and Monterey Jack in a creamy tomatillo sauce. This version keeps the tomatoes and full avocado fresh for contrast; a complete baked-tomato route follows.",
       "url": "https://jordansilton.com/mise/recipes/salsa-verde-chicken-casserole/",
       "recipeIngredient": [
         "2 cups Shredded Rotisserie Chicken",
-        "1 cup Sour Cream (for richness)",
+        "1 cup Sour Cream",
         "1 1/2 cups Salsa Verde (Jarred or Fresh)",
-        "8 Corn Tortillas (6-inch), halved",
-        "2 cups Monterrey Jack Cheese, shredded",
+        "8 Corn Tortillas (6-inch); halve for the primary route, leave whole for the baked-tomato route",
+        "2 cups Monterey Jack Cheese, shredded",
         "2 cups Roma Tomatoes, chopped",
         "1/4 cup Fresh Cilantro, minced",
-        "1 Avocado, sliced (The Finishing Touch)"
+        "1 Avocado, sliced",
+        "Oil or cooking spray, enough to lightly grease the dish",
+        "Thinly sliced green onions or extra cilantro leaves, optional toppings"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Bind: In a medium bowl, whisk together the sour cream and 1 cup of the salsa verde."
+          "text": "Prepare: Preheat to 375°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom above the full layers. For other amounts, choose suitable dishes and distribute the full supplies with room above the layers; if a load would reach a rim, move it to suitable dishes before baking. Halve all the listed tortillas; the original eight make sixteen halves. Pan dimensions and baking time do not multiply."
         },
         {
           "@type": "HowToStep",
-          "text": "Combine: Fold the shredded chicken and cilantro into the sauce."
+          "text": "Mix the filling: Combine all the sour cream with two-thirds of the listed salsa verde, then fold in all chicken and minced cilantro. Keep the remaining one-third salsa separate for the dish bottoms."
         },
         {
           "@type": "HowToStep",
-          "text": "Layer: Grease an 8x8 baking dish. Spread a thin layer of the remaining salsa on the bottom. Top with 4 halved tortillas."
+          "text": "Make two layers: Divide the reserved bottom salsa among the dishes. In each dish, arrange half its tortilla halves over the salsa, overlapping as needed, then add half its chicken mixture and half its cheese. Repeat with its remaining tortillas, chicken mixture and cheese. Distribute the full listed supplies across the dishes without leaving an extra reserve."
         },
         {
           "@type": "HowToStep",
-          "text": "Stack: Spread half the chicken mixture over the tortillas and top with 1 cup of cheese. Repeat with remaining tortillas, chicken, and cheese."
+          "text": "Bake: Bake uncovered, beginning checks around 25–30 minutes. Continue until a thermometer in the center and other thick areas reads at least 165°F / 74°C. If the cheese browns first, tent with foil and continue; bubbling cheese alone is insufficient."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Preheat oven to 375°F. Bake for 25-30 minutes until the cheese is bubbling and the edges are golden brown."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Remove from heat. Top with the chopped tomatoes and sliced avocado for the final High Note."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Serve hot with a side of Cilantro Lime Rice."
+          "text": "Finish and serve: Top with all the listed chopped tomatoes and sliced avocado. Add optional sliced green onions or extra cilantro leaves. Serve hot with Cilantro Lime Rice."
         }
       ],
-      "prepTime": "PT10M",
-      "cookTime": "PT30M",
-      "totalTime": "PT40M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
-      "recipeCuisine": ["Mexican"],
-      "keywords": "Mexican, acidic, rich, comfort-food, meal-prep, bake",
+      "recipeCuisine": ["Mexican", "American"],
+      "keywords": "Mexican, American, acidic, rich, comfort-food, meal-prep, bake",
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from Myfussyeater.com",
-        "url": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/"
+        "name": "Adapted from Janet McCormick, Taste of Home",
+        "url": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/"
       }
     },
     {

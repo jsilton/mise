@@ -28,7 +28,13 @@ test('almond loaf restores excess-water handling and complete cooling without in
   assert.match(data.source, /Gina Matsoukas/);
   assert.match(content, /damp shreds/);
   assert.match(content, /Cool fully on the rack before slicing/);
-  assert.match(content, /do not state the loaf-pan dimensions/);
+  assert.match(
+    data.learning.before.join(' '),
+    /loaf pan with room for the full batter to rise; do not fill it to the brim/
+  );
+  assert.match(content, /Batter depth affects how quickly the center of a loaf bakes/);
+  assert.match(content, /Treat 35–40 minutes as the first checking window/);
+  assert.match(content, /the center is set, and a tester has no wet batter/);
   assert.doesNotMatch(content, /bone-dry|absolutely dry|9x5|8x4/);
   assert.ok(data.ingredients.includes('1 1/2 tsp Baking Soda'));
 });

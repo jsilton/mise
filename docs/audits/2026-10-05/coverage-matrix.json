@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 610,
-    "completeEditorialPending": 33,
+    "recordedCompleteEditorial": 614,
+    "completeEditorialPending": 29,
     "originalBaseline": 612,
-    "originalReviewed": 570,
+    "originalReviewed": 574,
     "consideredConsolidations": 10,
-    "originalPending": 32,
+    "originalPending": 28,
     "additionalSources": 41,
     "additionalReviewed": 40,
     "additionalPending": 1,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 610,
+      "editoriallyReviewed": 614,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 71
+      "reviewItems": 63
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,8 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "376 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 610 recorded complete / 33 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 86 accepted source versions match exact remote commit [ea110e5b](https://github.com/jsilton/mise/commit/ea110e5b118002fc9aea578a2ae6b3dc2babaff8), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37471533695) and all 86 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "376 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 610 recorded complete / 33 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 86 accepted source versions match exact remote commit [ea110e5b](https://github.com/jsilton/mise/commit/ea110e5b118002fc9aea578a2ae6b3dc2babaff8), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37471533695) and all 86 live pages. Zero kitchen tests; no native-app sync.",
+    "latestAcceptanceInputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3"
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -101,18 +102,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Gina Matsoukas, Running to the Kitchen",
       "sourceUrl": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -123,12 +113,16 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/almond-zucchini-bread.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation and production pending",
+        "sourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+        "evidence": "docs/reviews/almond-zucchini-bread.json"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -137,12 +131,17 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending for accepted full version",
+        "previous": {
+          "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
+          "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        }
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan interior dimensions, material and batter depth.",
+        "Actual endpoint clock, full cooling time and slice yield.",
+        "Actual freezer quality and preferred slice thickness.",
+        "Current kosher salt density versus publisher generic salt is not numerically converted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14604,20 +14603,9 @@
       "title": "Japanese-Style Trout with Dashi",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Foodandwine.com",
+      "source": "Adapted from Grace Parisi at Food & Wine",
       "sourceUrl": "http://www.foodandwine.com/recipes/japanese-style-trout-dashi",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -14625,21 +14613,28 @@
         "evidence": ["docs/reviews/poke-batch-decision.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/japanese-style-trout-with-dashi.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation and production pending",
+        "sourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27",
+        "evidence": "docs/reviews/japanese-style-trout-with-dashi.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending for accepted full version",
+        "previous": {
+          "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        }
       },
       "remainingQuestions": [
-        "Whole recipe held over prepared-stock strength/volume and second-turn/glaze source-method acceptance.",
-        "Measured prepared-stock strength/volume",
-        "Household instant versus homemade choice",
-        "Second-turn/glaze method acceptance"
+        "Record actual fillet thickness, starting temperature, broiler model/rated sheet/food-to-element distance and batch fit.",
+        "Record145°F in the thickest center of each fillet and actual both-side glazing time/scorch behavior.",
+        "Compare instant versus measured prepared-stock variation flavor/seasoning; no equal-strength claim.",
+        "Measure final glaze and vegetable-broth yield after cooking, rice/nori serving quantities and active/elapsed time."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20916,20 +20911,7 @@
       "title": "Red Zone Margarita",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20937,19 +20919,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/red-zone-margarita.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation and production pending",
+        "sourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+        "evidence": "docs/reviews/red-zone-margarita.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending for accepted full version",
+        "previous": {
+          "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        }
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure strained yield, remaining batch volume after tasting and dilution, and actual glass/shaker capacity.",
+        "Longer syrup storage remains unverified; the accepted recipe permits night-before preparation for planned service.",
+        "Author clarification of the conflicting original measures (0.6 cup versus 5 fl oz) remains unavailable; the accepted main recipe retains the explicit 5 fl oz dose."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22065,20 +22055,9 @@
       "title": "Salsa Verde Chicken Casserole",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Myfussyeater.com",
-      "sourceUrl": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Janet McCormick, Taste of Home",
+      "sourceUrl": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -22086,19 +22065,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/salsa-verde-chicken-casserole.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation and production pending",
+        "sourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+        "evidence": "docs/reviews/salsa-verde-chicken-casserole.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending for accepted full version",
+        "previous": {
+          "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        }
       },
       "remainingQuestions": [
-        "Whole recipe held pending actual source and layered capacity/timing evidence.",
-        "Verify layered fit and time after actual source is recovered."
+        "Actual dish depth, full filled volume/headroom, time to 165°F and portions remain kitchen observations; no test result is claimed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

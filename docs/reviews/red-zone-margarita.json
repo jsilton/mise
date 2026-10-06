@@ -1,0 +1,466 @@
+{
+  "slug": "red-zone-margarita",
+  "title": "Red Zone Margarita",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
+  "inputSha256": "7deaea28faf0984fde200fc2484413105b846376dd554e77d2e57f41f911672e",
+  "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+  "rootFinalAcceptance": "Complete current and final recipes, exact full diffs, all ingredient/variant allocations, source disagreements and independently challenged corrections inspected. Whole acceptance applies to the complete published routes; no kitchen test claimed.",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "Prepare the day before, plus serving"
+    },
+    {
+      "field": "equipment",
+      "before": ["cocktail-shaker", "saucepan"],
+      "after": [
+        "cocktail-shaker",
+        "saucepan",
+        "fine-mesh-strainer",
+        "large-ice-cube-mold",
+        "pitcher",
+        "rocks-glasses"
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "For the Spiced Cranberry Syrup:",
+        "1 cup Unsweetened 100% Cranberry Juice",
+        "1 cup White Sugar",
+        "2 Cinnamon Sticks, cracked in half",
+        "4-5 sprigs Fresh Thyme",
+        "3 whole Cloves (optional, adds depth)",
+        "For the Game Day Ice:",
+        "Fresh Cranberries",
+        "Fresh Blueberries",
+        "Water",
+        "For the Batch (10 servings):",
+        "2.5 cups (20 oz) Reposado Tequila",
+        "1.25 cups (10 oz) Fresh Lime Juice (8-10 limes)",
+        "0.75 cups (6 oz) Spiced Cranberry Syrup",
+        "0.6 cups (5 oz) dry orange liqueur (40% ABV)",
+        "0.5 cups (4 oz) red Italian bitter aperitif",
+        "1 tsp Fine Sea Salt",
+        "For Serving:",
+        "Fresh Orange Peel strips"
+      ],
+      "after": [
+        "--- Spiced Cranberry Syrup ---",
+        "1 cup unsweetened 100% cranberry juice",
+        "1 cup white sugar",
+        "2 cinnamon sticks, cracked in half",
+        "4–5 sprigs fresh thyme",
+        "3 whole cloves, optional",
+        "--- Game Day Ice ---",
+        "Fresh cranberries, 3 per large cube",
+        "Fresh blueberries, 3 per large cube",
+        "Water, enough to fill the molds",
+        "--- Cocktail batch, with reserve ---",
+        "20 fl oz reposado tequila (2 1/2 cups)",
+        "10 fl oz fresh lime juice (1 1/4 cups; lime yield varies)",
+        "6 fl oz cooled spiced cranberry syrup (3/4 cup)",
+        "5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)",
+        "4 fl oz red Italian bitter aperitif (1/2 cup)",
+        "1 tsp fine sea salt",
+        "--- Serving ---",
+        "Fresh orange peel strips, one per drink",
+        "Ice for shaking, as needed",
+        "--- Optional batch taste adjustments ---",
+        "1 fl oz more spiced cranberry syrup, if the batch tastes too bitter",
+        "1 fl oz more fresh lime juice, if the batch tastes too sweet",
+        "1/2 tsp more fine sea salt, if desired for a sharpness correction"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 95,
+        "protein": 0,
+        "carbs": 25,
+        "fat": 0,
+        "fiber": 1,
+        "sugar": 23.5,
+        "sodium": 230
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate a chilled cocktail batch before shaking individual measured pours.",
+        "outcome": "Cold four-fluid-ounce pours with controlled dilution, a dissolved salt supply and separately accounted syrup for optional drinks.",
+        "techniques": ["cold-preparation", "seasoning"],
+        "before": [
+          "Prepare syrup and fruit cubes the day before; include the 10-minute simmer,30-minute steep, cooling and overnight freezing.",
+          "Measure the listed finished-syrup amount for the chosen primary batch (6 fl oz for the original ten pours), with additional syrup accounted for separately. No exact strained yield is assumed.",
+          "Use a shaker and rocks glass with room for one pour plus their respective ice; choose smaller single-load work rather than overfilling."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Sugar is dissolved and the strained syrup has been measured after cooling.",
+            "why": "A saucepan input volume does not establish the strained supply available for drinks."
+          },
+          {
+            "step": 3,
+            "cue": "The full listed fine-salt amount is dissolved; no ice is in the pitcher.",
+            "why": "Undissolved salt creates uneven seasoning; pitcher ice would add uncontrolled dilution."
+          },
+          {
+            "step": 5,
+            "cue": "Each shake starts with 4 fl oz chilled batch.",
+            "why": "Measured individual pours preserve the four-fluid-ounce service size; the original batch plans ten drinks with reserve rather than a forced pitcher-emptying yield."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Too salty after adjustment.",
+            "cause": "The listed optional salt correction is a substantial irreversible addition to the batch.",
+            "fix": "Stop adding salt; use a smaller selected correction cautiously. Do not promise that another ingredient can remove dissolved salt."
+          },
+          {
+            "problem": "Insufficient syrup for cocktails and mocktails.",
+            "cause": "The strained yield varies and optional drinks require a separate allocation.",
+            "fix": "Measure another full syrup batch made with the same recipe; preserve the listed syrup dose for the chosen cocktail batch (6 fl oz for the original ten pours)."
+          },
+          {
+            "problem": "Frozen cube is not solid.",
+            "cause": "The mold size, freezer or freezing duration is insufficient.",
+            "fix": "Give it more freezing time; do not assume a universal overnight duration guarantees a solid large cube."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Optional whole cloves",
+            "alternative": "Omit the listed optional cloves.",
+            "effect": "Less clove aroma; the other syrup quantities stay intact."
+          },
+          {
+            "ingredient": "Mocktail topping",
+            "alternative": "Sparkling water or ginger beer, to taste.",
+            "effect": "Ginger beer is sweeter and spicier; this choice is confined to the complete mocktail method."
+          }
+        ],
+        "storage": "Make syrup the day before for the planned service; cool promptly in a shallow container and keep covered at 40°F/4°C or below. Keep prepared batch chilled and fruit ice frozen until serving. Do not infer a two-week syrup shelf life from this formula. Keep perishable preparations cold and refrigerate promptly within two hours, or one hour above 90°F/32°C; no shelf-life extension from alcohol is claimed.",
+        "timing": "The stated 20 min prep and 10 min simmer omit 30 min steep, cooling and overnight ice. Prepare the day before; heating, steeping, cooling and freezing are elapsed stages, and each pour requires a separate 10–12-second shake plus straining/garnishing. These are written planning instructions, not measured kitchen timing.",
+        "sources": [
+          {
+            "title": "FDA — safe food handling, refrigeration and shallow cooling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis game-day margarita balances reposado tequila's oak and vanilla against the bitter complexity of the red Italian aperitif, bridged by a spiced cranberry syrup that adds tannic structure like a light red wine. The combination creates a deep crimson color and serious flavor - far from a sugary party drink. Use reposado specifically; blanco lacks the oak notes to stand up to red Italian bitter aperitif, and añejo would be too heavy. Dissolving salt directly into the batch suppresses bitterness chemically while adding savory depth. Each serving must be shaken hard since there's no salt rim to excite the palate.\n\n## Directions\n\n### Phase 1: The Prep (Night Before)\n\n1. **The Syrup:** Combine cranberry juice, sugar, cinnamon sticks, thyme, and cloves in a saucepan. Bring to a boil, stirring to dissolve sugar. Reduce heat and simmer for **10 minutes**. Remove from heat and steep for **30 minutes**. Strain through a fine mesh sieve and refrigerate. (Keeps 2 weeks.)\n\n2. **The Ice:** Place 3 cranberries and 3 blueberries into each large ice cube mold. Fill with water and freeze overnight. These look spectacular and eliminate the need for garnishes.\n\n### Phase 2: The Batch (Before Kickoff)\n\n3. **The Mix:** In a large pitcher, combine tequila, lime juice, cranberry syrup, dry orange liqueur, and red Italian bitter aperitif. Add salt and stir vigorously until completely dissolved - this is critical for balance.\n\n4. **The Taste:** Taste the batch - it should be intense and slightly too strong (it will dilute when shaken). Adjust: too bitter, add 1 oz more syrup; too sweet, add 1 oz more lime; too sharp, add 1/2 tsp more salt. Trust your palate.\n\n5. **The Hold:** Keep pitcher refrigerated until serving. Do not add ice to the pitcher - dilution happens during the shake.\n\n### Phase 3: The Serve (Game Time)\n\n6. **The Shake:** Pour 4 oz of batch into a shaker tin. Fill with ice and shake **hard** for 10-12 seconds until tin is frosted and painful to hold.\n\n7. **The Build:** Place one Game Day Ice cube in a rocks glass. Strain cocktail over the cube.\n\n8. **The Finish:** Hold an orange peel over the glass, shiny-side down. Squeeze to express oils (you'll see the mist). Rub the peel around the rim, then drop it in.\n\n---\n\n## Mocktail Version (The Two-Minute Drill)\n\nFor designated drivers, parents, or anyone not drinking:\n\n- 2 oz Spiced Cranberry Syrup\n- 1 oz Fresh Lime Juice\n- Pinch of salt\n- Top with sparkling water or ginger beer\n- Game Day Ice cube\n- Orange peel\n\nThis is genuinely delicious - not a sad afterthought.\n",
+    "after": "\n## Chef's Note\n\nReposado tequila, red Italian bitter aperitif and spiced cranberry syrup make a tart, bitter-sweet game-day margarita. Measure the chilled batch first, then shake each pour with fresh ice for dilution. Frozen fruit cubes and expressed orange peel finish the drink.\n\n## Directions\n\n1. **Make the syrup the day before:** Combine cranberry juice, sugar, cinnamon, thyme and optional cloves. Heat to a boil, stirring until the sugar dissolves; reduce heat and simmer 10 minutes. Remove from heat and steep 30 minutes. Strain into a clean container, discarding the spent spices and herbs. Cool promptly in a shallow container under refrigeration; keep at 40°F / 4°C or below for the planned service. Measure the finished syrup before allocating it: the batch needs the listed finished-syrup amount (6 fl oz for the original ten pours), and optional corrections or mocktails need separate syrup. Keep any reserve chilled. If the strained supply is insufficient, make another batch with the same full syrup formula; do not dilute the first to reach a guessed yield.\n2. **Freeze the fruit ice:** Make one large cube for each planned pour, with three cranberries and three blueberries in each mold cavity. The original batch plans ten pours. Fill with water and freeze overnight until solid. Make additional cubes separately for mocktails or other drinks.\n3. **Mix the batch:** In a clean pitcher combine the full listed amounts of tequila, lime juice, finished syrup, orange liqueur and bitter aperitif. Add the full listed fine-salt amount and stir until dissolved. Cover and refrigerate until service; keep ice separate from the pitcher.\n4. **Optional taste corrections:** Taste a small chilled sample. Use the listed optional syrup correction for bitterness, lime correction for sweetness, or fine-salt correction for sharpness for the chosen batch. Make a selected correction, stir and taste again. Count added syrup separately from the measured primary supply. Salt cannot be removed once dissolved; add it cautiously. These additions change the batch volume and balance rather than its stated primary ratios.\n5. **Shake each pour:** Measure 4 fl oz batch into a shaker with ice and shake hard for 10–12 seconds, until well chilled. Leave enough working room for the ice and liquid; shake one pour at a time. The original ten-serving batch supports ten such pours with reserve; tasting and optional additions affect the remainder. Keep each pour at 4 fl oz when the batch size changes. Do not increase the pour simply to empty the pitcher.\n6. **Serve:** Put one frozen fruit cube in a rocks glass with room for the strained drink. Strain over it. Express one orange-peel strip over the glass, rub it around the rim and add it. Keep the remaining batch covered and chilled during service.\n\n### Mocktail version\n\nFor each drink, use a separate 2 fl oz cooled spiced cranberry syrup, 1 fl oz fresh lime juice and a pinch of salt. Stir together, pour over one fruit-ice cube and top with sparkling water or ginger beer to taste in a glass with headroom. Add one expressed orange-peel strip. Prepare extra syrup or fruit cubes with the same formulas when needed; the cocktail batch’s listed syrup supply is already allocated. Ginger beer gives a sweeter, spicier finish than sparkling water. Keep syrup and any prepared mixture cold for the planned service.\n"
+  },
+  "ledger": [
+    {
+      "quantity": "--- Spiced Cranberry Syrup ---",
+      "destination": "section divider"
+    },
+    {
+      "quantity": "1 cup unsweetened 100% cranberry juice",
+      "destination": "syrup preparation:6 fl oz measured primary allocation; other measured syrup reserved separately"
+    },
+    {
+      "quantity": "1 cup white sugar",
+      "destination": "syrup preparation:6 fl oz measured primary allocation; other measured syrup reserved separately"
+    },
+    {
+      "quantity": "2 cinnamon sticks, cracked in half",
+      "destination": "syrup preparation:6 fl oz measured primary allocation; other measured syrup reserved separately"
+    },
+    {
+      "quantity": "4–5 sprigs fresh thyme",
+      "destination": "syrup preparation:6 fl oz measured primary allocation; other measured syrup reserved separately"
+    },
+    {
+      "quantity": "3 whole cloves, optional",
+      "destination": "syrup preparation:6 fl oz measured primary allocation; other measured syrup reserved separately"
+    },
+    {
+      "quantity": "--- Game Day Ice ---",
+      "destination": "section divider"
+    },
+    {
+      "quantity": "Fresh cranberries, 3 per large cube",
+      "destination": "fruit ice:3 cranberries+3 blueberries per cube, water to fill"
+    },
+    {
+      "quantity": "Fresh blueberries, 3 per large cube",
+      "destination": "fruit ice:3 cranberries+3 blueberries per cube, water to fill"
+    },
+    {
+      "quantity": "Water, enough to fill the molds",
+      "destination": "fruit ice:3 cranberries+3 blueberries per cube, water to fill"
+    },
+    {
+      "quantity": "--- Batch: 10 four-fluid-ounce pours, with reserve ---",
+      "destination": "section divider"
+    },
+    {
+      "quantity": "20 fl oz reposado tequila (2 1/2 cups)",
+      "destination": "all primary batch, except 6 fl oz syrup allocated from prepared supply"
+    },
+    {
+      "quantity": "10 fl oz fresh lime juice (1 1/4 cups; lime yield varies)",
+      "destination": "all primary batch, except 6 fl oz syrup allocated from prepared supply"
+    },
+    {
+      "quantity": "6 fl oz cooled spiced cranberry syrup (3/4 cup)",
+      "destination": "all primary batch, except 6 fl oz syrup allocated from prepared supply"
+    },
+    {
+      "quantity": "5 fl oz dry orange liqueur, 40% ABV (approximately 0.6 cup)",
+      "destination": "all primary batch, except 6 fl oz syrup allocated from prepared supply"
+    },
+    {
+      "quantity": "4 fl oz red Italian bitter aperitif (1/2 cup)",
+      "destination": "all primary batch, except 6 fl oz syrup allocated from prepared supply"
+    },
+    {
+      "quantity": "1 tsp fine sea salt",
+      "destination": "all primary batch, except 6 fl oz syrup allocated from prepared supply"
+    },
+    {
+      "quantity": "--- Serving ---",
+      "destination": "section divider"
+    },
+    {
+      "quantity": "Fresh orange peel strips, one per drink",
+      "destination": "service:orange peel perdrink and ice per shake"
+    },
+    {
+      "quantity": "Ice for shaking, as needed",
+      "destination": "service:orange peel perdrink and ice per shake"
+    },
+    {
+      "quantity": "--- Optional batch taste adjustments ---",
+      "destination": "section divider"
+    },
+    {
+      "quantity": "1 fl oz more spiced cranberry syrup, if the batch tastes too bitter",
+      "destination": "independent optional batch taste correction; not included in primary dose"
+    },
+    {
+      "quantity": "1 fl oz more fresh lime juice, if the batch tastes too sweet",
+      "destination": "independent optional batch taste correction; not included in primary dose"
+    },
+    {
+      "quantity": "1/2 tsp more fine sea salt, if desired for a sharpness correction",
+      "destination": "independent optional batch taste correction; not included in primary dose"
+    }
+  ],
+  "variantLedger": [
+    {
+      "route": "primary",
+      "allLiquidAllocations": "20tequila +10lime +6syrup +5orange liqueur +4bitter aperitif fl oz; all1tsp salt; ten4fl ozpours plus whatever reserve remains",
+      "unitDecision": "5fl oz is an existing explicitly written dose;0.6cup becomes explicitly approximate. This interpretation is challenged independently rather than represented as author testimony."
+    },
+    {
+      "route": "optionaltaste",
+      "allocations": "Saved1fl oz syrup OR1fl oz lime OR½tsp fine salt correction, separately accounted; no repeated guaranteed balancing claim."
+    },
+    {
+      "route": "mocktail",
+      "allocations": "Per drink2fl oz separate syrup+1fl ozlime+pinchsalt+sparklingwater ORgingerbeer to taste+onefruitcube+oneorangepeel."
+    },
+    {
+      "route": "cloves",
+      "allocations": "Three whole cloves ORomit; other syrup quantities intact."
+    }
+  ],
+  "sources": [],
+  "sourceDisagreements": [],
+  "ratiosYieldAndCapacity": "Full original formula retained with source-supported routes, proportional allocations, observable endpoints and explicit equipment/headroom constraints. Actual yield, geometry and timing remain kitchen questions.",
+  "findings": [
+    {
+      "id": "final-source-resolution",
+      "title": "Resolve the recorded whole-recipe hold",
+      "rationale": "Previous whole hold conflated unknown exact strained yield/reserve with a usable written main. Measuring actual syrup supply and retaining the stated pour plan resolves main operations. Unit approximation preserves an already written dose; no new ratio or exact yield is invented.",
+      "applicableSources": [],
+      "confidence": "High source preservation/arithmetical rounding and service plan; moderate editor choice of ounce precedence; syrup yield/shelf life physically unmeasured.",
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "equipment",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ]
+    },
+    {
+      "id": "independent-correction-1",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Independent editor found existing equivalent-amount scaler recognizes about; rounded source cup companion now follows the unchanged5fl oz leading dose at selected batch scale.",
+      "exactBefore": "5 fl oz dry orange liqueur, 40% ABV (approximately 0.6 cup)",
+      "exactAfter": "5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)",
+      "field": "ingredients[14]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-2",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The serving selector supplies the chosen batch count; the divider must not promise ten at every scale.",
+      "exactBefore": "--- Batch: 10 four-fluid-ounce pours, with reserve ---",
+      "exactAfter": "--- Cocktail batch, with reserve ---",
+      "field": "ingredients batch divider",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-3",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Retain the fixed service unit without fixing the batch count.",
+      "exactBefore": "Ten cold four-fluid-ounce pours with controlled dilution, a dissolved salt supply and separately accounted syrup for optional drinks.",
+      "exactAfter": "Cold four-fluid-ounce pours with controlled dilution, a dissolved salt supply and separately accounted syrup for optional drinks.",
+      "field": "learning.outcome",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-4",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Use the displayed scaled destination, retaining original-dose provenance and variable strained yield.",
+      "exactBefore": "Measure at least 6 fl oz finished syrup for the primary batch, with additional syrup accounted for separately. No exact strained yield is assumed.",
+      "exactAfter": "Measure the listed finished-syrup amount for the chosen primary batch (6 fl oz for the original ten pours), with additional syrup accounted for separately. No exact strained yield is assumed.",
+      "field": "learning.before[1]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-5",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Salt must follow the full selected batch amount.",
+      "exactBefore": "The full teaspoon of fine salt is dissolved; no ice is in the pitcher.",
+      "exactAfter": "The full listed fine-salt amount is dissolved; no ice is in the pitcher.",
+      "field": "learning.checkpoints[1].cue",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-6",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Separate fixed per-drink service from the original batch count.",
+      "exactBefore": "Measured individual pours preserve the recorded ten-drink plan while leaving reserve rather than forcing a different yield.",
+      "exactAfter": "Measured individual pours preserve the four-fluid-ounce service size; the original batch plans ten drinks with reserve rather than a forced pitcher-emptying yield.",
+      "field": "learning.checkpoints[2].why",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-7",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The correction amount must follow the selected batch.",
+      "exactBefore": "An extra half teaspoon is a substantial irreversible addition to the batch.",
+      "exactAfter": "The listed optional salt correction is a substantial irreversible addition to the batch.",
+      "field": "learning.troubleshooting[0].cause",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-8",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Keep the syrup recipe and chosen cocktail ratio, without promising its finished yield.",
+      "exactBefore": "Measure another full syrup batch made with the same recipe; preserve the original batch’s 6 fl oz syrup dose.",
+      "exactAfter": "Measure another full syrup batch made with the same recipe; preserve the listed syrup dose for the chosen cocktail batch (6 fl oz for the original ten pours).",
+      "field": "learning.troubleshooting[1].fix",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-9",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Clove supply scales with syrup ingredients; its optional status is unchanged.",
+      "exactBefore": "Omit the three cloves.",
+      "exactAfter": "Omit the listed optional cloves.",
+      "field": "learning.substitutions[0].alternative",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-10",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The syrup destination follows the selected cocktail batch.",
+      "exactBefore": "the batch needs 6 fl oz, and optional corrections or mocktails need separate syrup.",
+      "exactAfter": "the batch needs the listed finished-syrup amount (6 fl oz for the original ten pours), and optional corrections or mocktails need separate syrup.",
+      "field": "body.Directions.step1",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-11",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Cube count follows planned service while each source cube retains three berries of each fruit.",
+      "exactBefore": "Make ten large cubes for the ten planned pours, with three cranberries and three blueberries in each mold cavity.",
+      "exactAfter": "Make one large cube for each planned pour, with three cranberries and three blueberries in each mold cavity. The original batch plans ten pours.",
+      "field": "body.Directions.step2",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-12",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Use all displayed scaled cocktail quantities; do not change source ratios.",
+      "exactBefore": "combine all the measured tequila, lime juice, 6 fl oz syrup, orange liqueur and bitter aperitif. Add the 1 tsp fine salt",
+      "exactAfter": "combine the full listed amounts of tequila, lime juice, finished syrup, orange liqueur and bitter aperitif. Add the full listed fine-salt amount",
+      "field": "body.Directions.step3",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-13",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Optional correction ingredient amounts scale; the selection/tasting branch remains optional.",
+      "exactBefore": "The optional corrections are 1 fl oz more syrup for bitterness, 1 fl oz more lime for sweetness, or 1/2 tsp more fine salt for sharpness.",
+      "exactAfter": "Use the listed optional syrup correction for bitterness, lime correction for sweetness, or fine-salt correction for sharpness for the chosen batch.",
+      "field": "body.Directions.step4",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-14",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The original ten-by-four plan is documented; service remains four fluid ounces at another batch scale.",
+      "exactBefore": "The stated batch supports ten such pours with reserve; tasting and optional additions affect the remainder.",
+      "exactAfter": "The original ten-serving batch supports ten such pours with reserve; tasting and optional additions affect the remainder. Keep each pour at 4 fl oz when the batch size changes.",
+      "field": "body.Directions.step5",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-15",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The per-mocktail two-ounce dose remains fixed and separately sourced; the cocktail batch allocation scales.",
+      "exactBefore": "the cocktail batch’s 6 fl oz syrup is already allocated.",
+      "exactAfter": "the cocktail batch’s listed syrup supply is already allocated.",
+      "field": "body.Mocktail version",
+      "confidence": "High for literal application and source quantity preservation"
+    }
+  ],
+  "remainingQuestions": [
+    "Measure strained yield, remaining batch volume after tasting and dilution, and actual glass/shaker capacity.",
+    "Longer syrup storage remains unverified; the accepted recipe permits night-before preparation for planned service.",
+    "Author clarification of the conflicting original measures (0.6 cup versus 5 fl oz) remains unavailable; the accepted main recipe retains the explicit 5 fl oz dose."
+  ],
+  "kitchenQuestions": [
+    "Measure strained yield, remaining batch volume after tasting and dilution, and actual glass/shaker capacity."
+  ],
+  "preservation": {
+    "existingIdentityRetained": true,
+    "allDefiningRichnessRetained": true,
+    "priorSafetyRepairsRetained": true
+  },
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/final-evidence-four-independent.json",
+  "independentCandidateSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+  "independentReportSha256": "058ed834c45b7b874be7257d7c1a345e72bfcd97a973445b0f45689c36ea6cdb",
+  "independentSelfAcceptance": false,
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "implementationCommit": null,
+  "productionVerification": "pending"
+}

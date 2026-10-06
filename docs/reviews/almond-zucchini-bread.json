@@ -1,0 +1,323 @@
+{
+  "slug": "almond-zucchini-bread",
+  "title": "Almond Zucchini Bread",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
+  "inputSha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374",
+  "acceptedSourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+  "rootFinalAcceptance": "Complete current and final recipes, exact full diffs, all ingredient/variant allocations, source disagreements and independently challenged corrections inspected. Whole acceptance applies to the complete published routes; no kitchen test claimed.",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "35–40 min, or longer if needed"
+    },
+    {
+      "field": "totalTime",
+      "before": "1 hr 45 min",
+      "after": "1 hr 50 min–2 hr, plus extra cooling if needed"
+    },
+    {
+      "field": "servings",
+      "before": "10",
+      "after": "10 slices (approximate)"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 65,
+        "protein": 2,
+        "carbs": 8.5,
+        "fat": 3,
+        "fiber": 0.5,
+        "sugar": 6,
+        "sodium": 440
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["loaf-pan", "mixing-bowl", "wire-rack"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control zucchini moisture and judge the center of an almond-flour loaf.",
+        "outcome": "A browned loaf with a set center and no wet batter on a tester, cooled enough to slice without tearing.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Choose a loaf pan with room for the full batter to rise; do not fill it to the brim. Preheat to 350°F and line the pan with parchment before mixing; have a cooling rack ready.",
+          "Squeeze the zucchini before measuring the listed amount. The shreds should stop dripping without becoming completely dry.",
+          "Keep the full listed amounts of almond flour and eggs. Pan depth changes baking and cooling time; increasing the batch does not make a larger load fit one pan or multiply the oven temperature."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The squeezed shreds no longer drip before the listed amount is measured.",
+            "why": "Measuring before squeezing would leave a different quantity and moisture level in the batter."
+          },
+          {
+            "step": 6,
+            "cue": "The top is browned, the center is set and a center tester has no wet batter.",
+            "why": "Surface color or the first baking check alone does not establish that a deeper center has finished."
+          },
+          {
+            "step": 7,
+            "cue": "The loaf has cooled fully before the first slice.",
+            "why": "A warm, tender center can tear even after the batter has baked through."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The top is browning while the center is wet.",
+            "cause": "The batter layer is deep or the center needs more time to bake.",
+            "fix": "Keep baking and check the center again; tent loosely with foil if the top is getting too dark. Do not serve a wet center because the starting time has elapsed."
+          },
+          {
+            "problem": "Slices tear as they are cut.",
+            "cause": "The loaf is still warm and its crumb is tender.",
+            "fix": "Let it cool fully before trying to cut more slices. Cooling cannot finish a center that was still wet when the loaf left the oven."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "The full listed egg amount",
+            "alternative": "No direct egg-free replacement is established for this loaf.",
+            "effect": "Keep the full listed egg amount; omitting eggs requires a separately developed formula."
+          }
+        ],
+        "timing": "Plan about 1 hour 50 minutes to 2 hours: about 10 minutes preparation, a 35–40-minute starting bake, 5–10 minutes cooling in the pan and approximately an hour on the rack. Start heating during preparation and load only when the oven reaches 350°F. A wet center needs more baking, and a warm loaf needs more cooling; deeper batter or additional oven batches extend elapsed time. The original batch’s ten-slice yield is an estimate, not a measured loaf size.",
+        "storage": "Cool fully before sealing. For cautious storage of this moist loaf, refrigerate at 40°F / 4°C or below within 2 hours of baking, or 1 hour above 90°F / 32°C; if it is still warm near that limit, finish cooling in the refrigerator before wrapping tightly. Freeze cooled slices airtight for longer storage, with parchment between portions if useful. Thaw only the portions needed in the refrigerator and serve at room temperature or gently warmed. No exact freezer-quality duration is established for this loaf.",
+        "sources": [
+          {
+            "title": "Gina Matsoukas — Paleo Almond Zucchini Bread, Running to the Kitchen",
+            "url": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/"
+          },
+          {
+            "title": "Annabelle Shippee — How can I freeze my bread?, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGina Matsoukas's almond-flour loaf uses banana and zucchini for a moist crumb. Squeeze excess water from the zucchini before measuring, then let the baked loaf cool completely before slicing; a warm, tender center can tear even when the loaf is baked through.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Line a loaf pan with parchment paper.\n2.  **The Squeeze:** Grate the zucchini. Place in a clean towel and squeeze out excess water, then measure 1 cup of the damp shreds. They should no longer drip, but do not try to dry them out completely.\n3.  **Dry:** In a large bowl, whisk the almond flour, baking soda, salt, and cinnamon.\n4.  **Wet:** In a separate bowl, whisk the eggs, maple syrup, mashed banana, and coconut oil.\n5.  **Mix:** Fold the wet ingredients into the dry. Stir in the zucchini shreds.\n6.  **Bake:** Pour into the pan. Bake for 35-40 minutes until the top is browned, the center is set, and a tester has no wet batter. If the center is still wet, continue baking and check again; tent loosely with foil if the top is getting too dark.\n7.  **Rest:** Let cool in the pan on a rack for 5-10 minutes, then lift out carefully using the parchment. Cool fully on the rack before slicing; allow about an hour, longer if still warm.\n\n## Cooking Notes\n\nThe saved original and publisher do not state the loaf-pan dimensions. The 35-40-minute bake is therefore a starting check, not a guaranteed finish for every pan; a deeper batter will take longer. Do not infer pan size from the ten-slice serving estimate. The total time includes an estimated cooling allowance and may run longer if the center needs more baking. Keep the three eggs and almond flour: egg-free or wheat-flour substitutions need a separately tested formula.\n",
+    "after": "\n## Chef's Note\n\nGina Matsoukas's almond-flour loaf uses banana and zucchini for a moist crumb. Squeeze excess water from the zucchini before measuring, then let the baked loaf cool completely before slicing; a warm, tender center can tear even when the loaf is baked through.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Line a loaf pan with parchment paper.\n2.  **The Squeeze:** Grate the zucchini. Place in a clean towel and squeeze out excess water, then measure the listed amount of damp shreds. They should no longer drip, but do not try to dry them out completely.\n3.  **Dry:** In a large bowl, whisk the almond flour, baking soda, salt, and cinnamon.\n4.  **Wet:** In a separate bowl, whisk the eggs, maple syrup, mashed banana, and coconut oil.\n5.  **Mix:** Fold the wet ingredients into the dry. Stir in the zucchini shreds.\n6.  **Bake:** Pour into the pan. Bake for 35-40 minutes until the top is browned, the center is set, and a tester has no wet batter. If the center is still wet, continue baking and check again; tent loosely with foil if the top is getting too dark.\n7.  **Rest:** Let cool in the pan on a rack for 5-10 minutes, then lift out carefully using the parchment. Cool fully on the rack before slicing; allow about an hour, longer if still warm.\n\n## Cooking Notes\n\nBatter depth affects how quickly the center of a loaf bakes. Treat 35–40 minutes as the first checking window, then follow the set-center and no-wet-batter cues; a deeper layer can need longer even after the top has browned. Allow the loaf to cool fully before slicing. The original batch makes about ten slices, depending on how thickly they are cut. Keep the full listed egg and almond-flour amounts: egg-free or wheat-flour baking needs a separately developed formula.\n"
+  },
+  "ledger": [
+    {
+      "ingredient": "1 1/2 cups almond flour",
+      "destination": "Dry mix step 3; folded into wet mixture step 5."
+    },
+    {
+      "ingredient": "1 cup zucchini measured after squeezing",
+      "destination": "Squeeze then measure step 2; fold step 5."
+    },
+    {
+      "ingredient": "1 large banana, about 1/2 cup mashed",
+      "destination": "Wet mix step 4."
+    },
+    {
+      "ingredient": "3 large eggs",
+      "destination": "Wet mix step 4."
+    },
+    {
+      "ingredient": "3 tbsp maple syrup",
+      "destination": "Wet mix step 4."
+    },
+    {
+      "ingredient": "1 tbsp melted coconut oil",
+      "destination": "Wet mix step 4."
+    },
+    {
+      "ingredient": "1 tsp cinnamon",
+      "destination": "Dry mix step 3."
+    },
+    {
+      "ingredient": "1 1/2 tsp baking soda",
+      "destination": "Dry mix step 3."
+    },
+    {
+      "ingredient": "1/2 tsp kosher salt",
+      "destination": "Dry mix step 3."
+    }
+  ],
+  "variantLedger": [],
+  "sources": [
+    {
+      "url": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/",
+      "applicability": "Same formula, squeezed-before-measuring state, starting bake/set center and full cooling. Publisher still omits dimensions; no invented pan, exact capacity or tested claim."
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread",
+      "applicability": "General baked-bread complete cooling, airtight freezing and separately packed slices; no exact quality duration borrowed for this almond loaf."
+    },
+    {
+      "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "applicability": "Conservative refrigerated handling for a moist cooked egg/produce loaf; safe refrigerator temperature and 2-hour/1-hour rule. This is an editorial storage operating choice, not an experimentally established shelf life."
+    }
+  ],
+  "sourceDisagreements": [],
+  "ratiosYieldAndCapacity": "The exact source backs the preserved almond/egg/banana/zucchini recipe. The current center test and extend-bake/tent steps remain unchanged. Pan depth and actual yield remain kitchen questions; no geometric or fill-fraction assumption, new flour mass or source serving substitution is introduced.",
+  "findings": [
+    {
+      "id": "final-source-resolution",
+      "title": "Resolve the recorded whole-recipe hold",
+      "rationale": "Primary formula and existing conditional cooking cues resolve the previous blanket hold.",
+      "applicableSources": [
+        {
+          "url": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/",
+          "applicability": "Same formula, squeezed-before-measuring state, starting bake/set center and full cooling. Publisher still omits dimensions; no invented pan, exact capacity or tested claim."
+        },
+        {
+          "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread",
+          "applicability": "General baked-bread complete cooling, airtight freezing and separately packed slices; no exact quality duration borrowed for this almond loaf."
+        },
+        {
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+          "applicability": "Conservative refrigerated handling for a moist cooked egg/produce loaf; safe refrigerator temperature and 2-hour/1-hour rule. This is an editorial storage operating choice, not an experimentally established shelf life."
+        }
+      ],
+      "confidence": "Source-backed formula; actual cooking remains untested",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ]
+    },
+    {
+      "id": "independent-correction-1",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Makes capacity an operating condition without inventing dimensions or a fill fraction. Optional strengthening; missing dimensions are not restored as an automatic hold.",
+      "exactBefore": "Preheat to 350°F and line a loaf pan with parchment before mixing; have a cooling rack ready.",
+      "exactAfter": "Choose a loaf pan with room for the full batter to rise; do not fill it to the brim. Preheat to 350°F and line the pan with parchment before mixing; have a cooling rack ready.",
+      "field": "learning.before[0]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-2",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Labels the conservative recipe operating choice without suggesting FDA classifies every fully baked egg/produce loaf as perishable. Existing warm-loaf refrigerator finish and airtight freezing remain.",
+      "exactBefore": "Cool fully before sealing. Refrigerate this moist loaf at 40°F / 4°C or below within 2 hours of baking, or 1 hour above 90°F / 32°C; if it is still warm near that limit, finish cooling in the refrigerator before wrapping tightly. Freeze cooled slices airtight for longer storage, with parchment between portions if useful. Thaw only the portions needed in the refrigerator and serve at room temperature or gently warmed. No exact freezer-quality duration is established for this loaf.",
+      "exactAfter": "Cool fully before sealing. For cautious storage of this moist loaf, refrigerate at 40°F / 4°C or below within 2 hours of baking, or 1 hour above 90°F / 32°C; if it is still warm near that limit, finish cooling in the refrigerator before wrapping tightly. Freeze cooled slices airtight for longer storage, with parchment between portions if useful. Thaw only the portions needed in the refrigerator and serve at room temperature or gently warmed. No exact freezer-quality duration is established for this loaf.",
+      "field": "learning.storage",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-3",
+      "title": "Independent complete-recipe correction",
+      "rationale": "The squeeze-before-measure process must use the displayed amount for the chosen batch.",
+      "exactBefore": "then measure 1 cup of the damp shreds.",
+      "exactAfter": "then measure the listed amount of damp shreds.",
+      "field": "body.Directions.step2",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-4",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Avoid a fixed cup destination when the ingredient amount changes.",
+      "exactBefore": "Squeeze the zucchini before measuring the listed cup.",
+      "exactAfter": "Squeeze the zucchini before measuring the listed amount.",
+      "field": "learning.before[1]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-5",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Preserve the source egg ratio at the chosen batch scale.",
+      "exactBefore": "Keep the listed almond flour and all three eggs.",
+      "exactAfter": "Keep the full listed amounts of almond flour and eggs.",
+      "field": "learning.before[2]",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-6",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Match the checkpoint to the squeeze-before-measure amount.",
+      "exactBefore": "The squeezed shreds no longer drip before the cup is measured.",
+      "exactAfter": "The squeezed shreds no longer drip before the listed amount is measured.",
+      "field": "learning.checkpoints[0].cue",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-7",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Name the component at the chosen scale.",
+      "exactBefore": "Three eggs",
+      "exactAfter": "The full listed egg amount",
+      "field": "learning.substitutions[0].ingredient",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-8",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Preserve the warning against an undeveloped egg-free formula.",
+      "exactBefore": "Keep all three eggs; omitting them requires a separately developed formula.",
+      "exactAfter": "Keep the full listed egg amount; omitting eggs requires a separately developed formula.",
+      "field": "learning.substitutions[0].effect",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-9",
+      "title": "Independent complete-recipe correction",
+      "rationale": "Qualify the estimated original slicing plan and preserve scaled ingredient ratios.",
+      "exactBefore": "It makes about ten slices, depending on how thickly they are cut. Keep the three eggs and almond flour:",
+      "exactAfter": "The original batch makes about ten slices, depending on how thickly they are cut. Keep the full listed egg and almond-flour amounts:",
+      "field": "body.Cooking Notes",
+      "confidence": "High for literal application and source quantity preservation"
+    },
+    {
+      "id": "independent-correction-10",
+      "title": "Independent complete-recipe correction",
+      "rationale": "An estimated original slicing plan is not a measured yield at every scale.",
+      "exactBefore": "The ten-slice yield is an estimate, not a measured loaf size.",
+      "exactAfter": "The original batch’s ten-slice yield is an estimate, not a measured loaf size.",
+      "field": "learning.timing",
+      "confidence": "High for literal application and source quantity preservation"
+    }
+  ],
+  "remainingQuestions": [
+    "Actual pan interior dimensions, material and batter depth.",
+    "Actual endpoint clock, full cooling time and slice yield.",
+    "Actual freezer quality and preferred slice thickness.",
+    "Current kosher salt density versus publisher generic salt is not numerically converted."
+  ],
+  "kitchenQuestions": [
+    "Actual pan interior dimensions, material and batter depth.",
+    "Actual endpoint clock, full cooling time and slice yield.",
+    "Actual freezer quality and preferred slice thickness.",
+    "Current kosher salt density versus publisher generic salt is not numerically converted."
+  ],
+  "preservation": {
+    "titleUnchanged": true,
+    "allIngredientsUnchanged": true,
+    "allDirectionsUnchanged": true,
+    "sourceCreditUnchanged": true,
+    "sourceUrlUnchanged": true,
+    "pairingsUnchanged": true,
+    "existingPrivateIdentityFieldsUnchanged": true
+  },
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/final-evidence-four-independent.json",
+  "independentCandidateSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+  "independentReportSha256": "058ed834c45b7b874be7257d7c1a345e72bfcd97a973445b0f45689c36ea6cdb",
+  "independentSelfAcceptance": false,
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "implementationCommit": null,
+  "productionVerification": "pending"
+}

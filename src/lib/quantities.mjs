@@ -162,7 +162,7 @@ export function formatQuantity(value) {
 // Legacy prose has both recipe amounts and fixed descriptions. Only these
 // grammatical quantity positions are scalable; arbitrary embedded numbers are not.
 const measuredUnit =
-  '(?:oz|ounces?|lbs?|pounds?|g|grams?|kg|kilograms?|cups?|tablespoons?|teaspoons?|tbsp|tsp|ml|l|liters?|litres?|quarts?|pints?|barspoons?)';
+  '(?:fl\\s+oz|oz|ounces?|lbs?|pounds?|g|grams?|kg|kilograms?|cups?|tablespoons?|teaspoons?|tbsp|tsp|ml|l|liters?|litres?|quarts?|pints?|barspoons?)';
 const countUnit =
   '(?:(?:small|medium|large|whole|regular|full)\\s+)*(?:egg\\s+(?:whites?|yolks?)|eggs?|cloves?|cans?|bottles?|sticks?|packs?|packages?|jars?|bags?|heads?|pieces?|breast\\s+halves|thighs?|drumsticks?|wings?|celery\\s+stalks?|star\\s+anise(?:\\s+pods?)?|bay\\s+leaves?|bay\\s+leaf|Earl\\s+Grey\\s+Tea\\s+Bags?|lemons?|limes?|carrots?|onions?|scallions?|cucumbers?)';
 const supportedAmount = new RegExp(

@@ -98,7 +98,7 @@ test('all seven known method mismatches have their actual authored step counts',
     'homemade-pizza-night': 9,
     'instant-pot-butternut-squash-soup': 7,
     'instant-pot-potato-leek-soup': 8,
-    'red-zone-margarita': 8,
+    'red-zone-margarita': 6,
     'spatchcocked-roast-chicken': 9,
     'tonkotsu-style-ramen': 16,
   }))

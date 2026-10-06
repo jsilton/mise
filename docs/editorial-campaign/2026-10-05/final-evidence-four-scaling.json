@@ -1,0 +1,37 @@
+{
+  "scope": "Fluid-ounce measured equivalents and source-bound test compatibility",
+  "before": "  '(?:oz|ounces?|lbs?|pounds?|g|grams?|kg|kilograms?|cups?|tablespoons?|teaspoons?|tbsp|tsp|ml|l|liters?|litres?|quarts?|pints?|barspoons?)';",
+  "after": "  '(?:fl\\\\s+oz|oz|ounces?|lbs?|pounds?|g|grams?|kg|kilograms?|cups?|tablespoons?|teaspoons?|tbsp|tsp|ml|l|liters?|litres?|quarts?|pints?|barspoons?)';",
+  "rationale": "Recognize fluid ounces as measured amounts so cup equivalents follow batch scaling; keep ABV, package sizes, per-item sizes and original-batch notes fixed.",
+  "confidence": "High; independently challenged and all supported factors checked in parser tests and the in-app browser.",
+  "testEdits": [
+    {
+      "file": "scripts/tests/breakfast-breads-repairs.test.mjs",
+      "before": "  assert.match(content, /do not state the loaf-pan dimensions/);",
+      "after": "  assert.match(\n    data.learning.before.join(' '),\n    /loaf pan with room for the full batter to rise; do not fill it to the brim/\n  );\n  assert.match(content, /Batter depth affects how quickly the center of a loaf bakes/);\n  assert.match(content, /Treat 35–40 minutes as the first checking window/);\n  assert.match(content, /the center is set, and a tester has no wet batter/);",
+      "rationale": "Replace a removed archival-comment assertion with operational pan capacity, depth, first checking window and center-doneness invariants. The existing full rack-cooling assertion and all formula/source checks remain byte-for-byte unchanged."
+    },
+    {
+      "file": "scripts/tests/recipe-content.test.mjs",
+      "before": "    'red-zone-margarita': 8,",
+      "after": "    'red-zone-margarita': 6,",
+      "rationale": "The integrated complete main Directions contains six numbered steps. Change only this one step-count oracle; the other six recipes remain unchanged."
+    },
+    {
+      "file": "scripts/tests/scaling-regressions.test.mjs",
+      "before": "      } else {\n        assert.ok(\n          data.ingredients.includes(component.input),\n          'fixture must exercise the current authored ingredient'\n        );\n      }",
+      "after": "      } else if (row.slug === 'red-zone-margarita' && row.caseId === 54) {\n        // Preserve the historical lime input and every numeric oracle below.\n        // Bind the reviewed live fluid-ounce amounts and their batch equivalents separately.\n        assert.ok(!data.ingredients.includes(component.input));\n        const liveRows = [\n          {\n            input: '10 fl oz fresh lime juice (1 1/4 cups; lime yield varies)',\n            amounts: [10, 1.25],\n            scales: [true, true],\n            qualifier: /lime yield varies/,\n          },\n          {\n            input: '5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)',\n            amounts: [5, 40, 0.6],\n            scales: [true, false, true],\n            qualifier: /40% ABV \\(about /,\n          },\n        ];\n        for (const live of liveRows) {\n          assert.ok(\n            data.ingredients.includes(live.input),\n            'current authored batch measure remains'\n          );\n          for (const factor of factors) {\n            const output = scaleIngredient(live.input, factor);\n            const actual = [...output.matchAll(number)].map((m) => numeric(m[0]));\n            const expected = live.amounts.map(\n              (amount, index) => amount * (live.scales[index] ? factor : 1)\n            );\n            assert.equal(actual.length, expected.length);\n            expected.forEach((value, index) => {\n              assert.ok(\n                Math.abs(actual[index] - value) <= 0.005001,\n                factor +\n                  'x live quantity ' +\n                  index +\n                  ': expected ' +\n                  value +\n                  ', got ' +\n                  actual[index] +\n                  ': ' +\n                  output\n              );\n            });\n            assert.match(output, live.qualifier);\n            if (factor === 1)\n              assert.equal(output, live.input, 'reset restores exact live ingredient');\n          }\n        }\n      } else {\n        assert.ok(\n          data.ingredients.includes(component.input),\n          'fixture must exercise the current authored ingredient'\n        );\n      }",
+      "rationale": "Case 54 historical cup/ounce/lime-count parser input and every original numeric oracle remain in the unchanged loop below. This separate live binding checks current lime fluid ounces/cups and liqueur fluid ounces/approximate cups at all six supported factors, fixed 40% ABV, preserved uncertainty labels and exact reset. It requires correct runtime recognition of fl oz."
+    }
+  ],
+  "preservedFixtureCases": 73,
+  "preservedFixtureRecipes": 60,
+  "originalFixturesUnchanged": true,
+  "independentEvidence": {
+    "reportSha256": "9bdfcc42bd82cc806fd1d89663b71820982aca30c9e9b55758e23827867f1d66",
+    "verdict": "PASS: exact applied runtime and test bytes independently challenged; original fixtures unchanged"
+  },
+  "unresolvedQuestions": [],
+  "kitchenTested": false,
+  "finalFormatting": "Proposed test replacements were formatted using the existing repository Prettier configuration; every final test byte matches formatting the independently reviewed proposal over its exact baseline."
+}

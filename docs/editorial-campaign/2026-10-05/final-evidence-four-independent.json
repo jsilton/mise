@@ -1,0 +1,313 @@
+{
+  "scope": "Four final complete recipe versions; source, formula, scaling and safety challenged by a different editor before root integration",
+  "recipes": [
+    {
+      "slug": "almond-zucchini-bread",
+      "inputSha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374",
+      "acceptedSourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+      "status": "PASS",
+      "nonSelfReview": true,
+      "independentReportSha256": "058ed834c45b7b874be7257d7c1a345e72bfcd97a973445b0f45689c36ea6cdb",
+      "scope": "Final full source and exact agreed corrections independently checked",
+      "confidence": "high documentary/editorial; no physical kitchen measurement",
+      "appliedExactCorrections": [
+        {
+          "field": "learning.before[0]",
+          "before": "Preheat to 350°F and line a loaf pan with parchment before mixing; have a cooling rack ready.",
+          "after": "Choose a loaf pan with room for the full batter to rise; do not fill it to the brim. Preheat to 350°F and line the pan with parchment before mixing; have a cooling rack ready.",
+          "reason": "Makes capacity an operating condition without inventing dimensions or a fill fraction. Optional strengthening; missing dimensions are not restored as an automatic hold.",
+          "slug": "almond-zucchini-bread"
+        },
+        {
+          "field": "learning.storage",
+          "before": "Cool fully before sealing. Refrigerate this moist loaf at 40°F / 4°C or below within 2 hours of baking, or 1 hour above 90°F / 32°C; if it is still warm near that limit, finish cooling in the refrigerator before wrapping tightly. Freeze cooled slices airtight for longer storage, with parchment between portions if useful. Thaw only the portions needed in the refrigerator and serve at room temperature or gently warmed. No exact freezer-quality duration is established for this loaf.",
+          "after": "Cool fully before sealing. For cautious storage of this moist loaf, refrigerate at 40°F / 4°C or below within 2 hours of baking, or 1 hour above 90°F / 32°C; if it is still warm near that limit, finish cooling in the refrigerator before wrapping tightly. Freeze cooled slices airtight for longer storage, with parchment between portions if useful. Thaw only the portions needed in the refrigerator and serve at room temperature or gently warmed. No exact freezer-quality duration is established for this loaf.",
+          "reason": "Labels the conservative recipe operating choice without suggesting FDA classifies every fully baked egg/produce loaf as perishable. Existing warm-loaf refrigerator finish and airtight freezing remain.",
+          "slug": "almond-zucchini-bread"
+        },
+        {
+          "field": "body.Directions.step2",
+          "before": "then measure 1 cup of the damp shreds.",
+          "after": "then measure the listed amount of damp shreds.",
+          "reason": "The squeeze-before-measure process must use the displayed amount for the chosen batch."
+        },
+        {
+          "field": "learning.before[1]",
+          "before": "Squeeze the zucchini before measuring the listed cup.",
+          "after": "Squeeze the zucchini before measuring the listed amount.",
+          "reason": "Avoid a fixed cup destination when the ingredient amount changes."
+        },
+        {
+          "field": "learning.before[2]",
+          "before": "Keep the listed almond flour and all three eggs.",
+          "after": "Keep the full listed amounts of almond flour and eggs.",
+          "reason": "Preserve the source egg ratio at the chosen batch scale."
+        },
+        {
+          "field": "learning.checkpoints[0].cue",
+          "before": "The squeezed shreds no longer drip before the cup is measured.",
+          "after": "The squeezed shreds no longer drip before the listed amount is measured.",
+          "reason": "Match the checkpoint to the squeeze-before-measure amount."
+        },
+        {
+          "field": "learning.substitutions[0].ingredient",
+          "before": "Three eggs",
+          "after": "The full listed egg amount",
+          "reason": "Name the component at the chosen scale."
+        },
+        {
+          "field": "learning.substitutions[0].effect",
+          "before": "Keep all three eggs; omitting them requires a separately developed formula.",
+          "after": "Keep the full listed egg amount; omitting eggs requires a separately developed formula.",
+          "reason": "Preserve the warning against an undeveloped egg-free formula."
+        },
+        {
+          "field": "body.Cooking Notes",
+          "before": "It makes about ten slices, depending on how thickly they are cut. Keep the three eggs and almond flour:",
+          "after": "The original batch makes about ten slices, depending on how thickly they are cut. Keep the full listed egg and almond-flour amounts:",
+          "reason": "Qualify the estimated original slicing plan and preserve scaled ingredient ratios."
+        },
+        {
+          "field": "learning.timing",
+          "before": "The ten-slice yield is an estimate, not a measured loaf size.",
+          "after": "The original batch’s ten-slice yield is an estimate, not a measured loaf size.",
+          "reason": "An estimated original slicing plan is not a measured yield at every scale."
+        }
+      ],
+      "kitchenTests": 0
+    },
+    {
+      "slug": "japanese-style-trout-with-dashi",
+      "inputSha256": "ae7c30606bbfbabcdbf06d998104b54f47d9cd7d924fcbf8f88cee0155edd659",
+      "acceptedSourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27",
+      "status": "PASS",
+      "nonSelfReview": true,
+      "independentReportSha256": "2632ba5ab8fdb9c9abf8f0a1a6ac913aff55278be3ba28c58c5f5d3c731148bf",
+      "scope": "Accept this exact source for root integration. Source both-side broiler route, individual145°F endpoint, full clean glaze service, proportional glaze target and explicit authored same-water-volume prepared-stock alternative are coherent. No pan/time multiplication or equal-strength/finished-yield guarantee is introduced.",
+      "confidence": "High for source/endpoint/allocation/correction verification; moderate for explicitly authored stock-flavor variation, which remains a kitchen question.",
+      "appliedExactCorrections": [
+        {
+          "field": "body.Directions.step1",
+          "before": "Put all the soy sauce, mirin, sugar and vinegar in a saucepan. Bring to a boil, then simmer over moderate heat until reduced to about 1½ cups and thick enough to coat a spoon, starting checks around 10 minutes. Keep this supply clean. Pour a working portion into a separate dish for brushing fish, replenishing it with a clean spoon as needed. Never dip the fish brush into the clean supply; keep clean glaze for the rice and table.",
+          "after": "Put all the soy sauce, mirin, sugar and vinegar in a saucepan. Bring to a boil, then simmer over moderate heat until thick enough to coat a spoon, starting checks around 10 minutes. For the original four-fillet batch, the source target is about 1½ cups reduced glaze; scale that volume in proportion to the full listed glaze ingredients for a different batch, keeping the same spoon-coating cue. Pan size and reduction time do not multiply. Keep this supply clean. Pour a working portion into a separate dish for brushing fish, replenishing it with a clean spoon as needed. Never dip the fish brush into the clean supply; keep clean glaze for the rice and table.",
+          "rationale": "A fixed 1½-cup endpoint can exceed a scaled batch’s starting glaze. Preserve the source endpoint explicitly for four fillets and apply only the formula’s proportional arithmetic target, with a concentration/observable cue rather than a linear-time claim.",
+          "slug": "japanese-style-trout-with-dashi"
+        },
+        {
+          "field": "learning.checkpoints[0].cue",
+          "before": "Glaze has reduced to about 1½ cups and coats a spoon.",
+          "after": "Glaze coats a spoon and has reduced to about 1½ cups for the original four-fillet batch, or its proportional target for the full scaled glaze.",
+          "rationale": "Keep the checkpoint consistent with the batch-qualified source endpoint.",
+          "slug": "japanese-style-trout-with-dashi"
+        },
+        {
+          "field": "body.Homemade-Stock Variation",
+          "before": "For a homemade-stock variation, use 1½ cups [Dashi](/mise/recipes/dashi-japanese-sea-stock), measured after straining, in place of both the instant powder and its 1½ cups water. Then follow step 2 with that prepared stock. This uses the same starting liquid volume for the vegetables; the stock's flavor and seasoning differ from instant dashi. Prepare the linked stock first and measure the portion actually needed here; do not assume its six cups of starting water equal six cups of finished stock or add unlisted top-up water.",
+          "after": "For a homemade-stock variation, use strained [Dashi](/mise/recipes/dashi-japanese-sea-stock) in the same volume as the water listed for the chosen batch (1½ cups for the original four fillets), in place of BOTH the instant powder and its water. Then follow step 2 with that prepared stock. This uses the same starting liquid volume for the vegetables; the stock’s flavor and seasoning differ from instant dashi. Prepare the linked stock first and measure the portion actually needed here. Its original batch starts with six cups of water; do not assume that equals six cups of finished stock or add unlisted top-up water.",
+          "rationale": "The authored alternative must replace the whole powder/water pair at the main route’s actual water volume, including when servings change. This remains a volume choice rather than a concentration or native-dose equivalence.",
+          "slug": "japanese-style-trout-with-dashi"
+        },
+        {
+          "field": "learning.substitutions[0].ingredient",
+          "before": "1 tsp instant dashi plus 1½ cups water",
+          "after": "Instant dashi powder and its listed water",
+          "rationale": "Avoid a fixed original-batch pair when the main quantities are scaled.",
+          "slug": "japanese-style-trout-with-dashi"
+        },
+        {
+          "field": "learning.substitutions[0].alternative",
+          "before": "1½ cups already-strained Dashi, measured after straining, in place of BOTH powder and water",
+          "after": "Already-strained Dashi, using the same volume as the water listed for the chosen batch, in place of BOTH powder and water",
+          "rationale": "Same complete replacement as the body variation.",
+          "slug": "japanese-style-trout-with-dashi"
+        },
+        {
+          "field": "learning.before[1]",
+          "before": "For the homemade variation, prepare and strain the linked Dashi first, then measure the amount used here. Its six cups of starting water do not promise six cups of finished stock.",
+          "after": "For the homemade variation, prepare and strain the linked Dashi first, then measure the amount used here. Its original batch starts with six cups of water, which does not promise six cups of finished stock.",
+          "rationale": "Qualify the linked stock’s starting-water number to its original batch rather than any chosen scale.",
+          "slug": "japanese-style-trout-with-dashi"
+        }
+      ],
+      "kitchenTests": 0
+    },
+    {
+      "slug": "red-zone-margarita",
+      "inputSha256": "7deaea28faf0984fde200fc2484413105b846376dd554e77d2e57f41f911672e",
+      "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+      "status": "PASS",
+      "nonSelfReview": true,
+      "independentReportSha256": "058ed834c45b7b874be7257d7c1a345e72bfcd97a973445b0f45689c36ea6cdb",
+      "scope": "Final full source and exact agreed corrections independently checked",
+      "confidence": "high documentary/editorial; no physical kitchen measurement",
+      "appliedExactCorrections": [
+        {
+          "field": "ingredients[14]",
+          "before": "5 fl oz dry orange liqueur, 40% ABV (approximately 0.6 cup)",
+          "after": "5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)",
+          "rationale": "Independent editor found existing equivalent-amount scaler recognizes about; rounded source cup companion now follows the unchanged5fl oz leading dose at selected batch scale."
+        },
+        {
+          "field": "ingredients batch divider",
+          "before": "--- Batch: 10 four-fluid-ounce pours, with reserve ---",
+          "after": "--- Cocktail batch, with reserve ---",
+          "reason": "The serving selector supplies the chosen batch count; the divider must not promise ten at every scale."
+        },
+        {
+          "field": "learning.outcome",
+          "before": "Ten cold four-fluid-ounce pours with controlled dilution, a dissolved salt supply and separately accounted syrup for optional drinks.",
+          "after": "Cold four-fluid-ounce pours with controlled dilution, a dissolved salt supply and separately accounted syrup for optional drinks.",
+          "reason": "Retain the fixed service unit without fixing the batch count."
+        },
+        {
+          "field": "learning.before[1]",
+          "before": "Measure at least 6 fl oz finished syrup for the primary batch, with additional syrup accounted for separately. No exact strained yield is assumed.",
+          "after": "Measure the listed finished-syrup amount for the chosen primary batch (6 fl oz for the original ten pours), with additional syrup accounted for separately. No exact strained yield is assumed.",
+          "reason": "Use the displayed scaled destination, retaining original-dose provenance and variable strained yield."
+        },
+        {
+          "field": "learning.checkpoints[1].cue",
+          "before": "The full teaspoon of fine salt is dissolved; no ice is in the pitcher.",
+          "after": "The full listed fine-salt amount is dissolved; no ice is in the pitcher.",
+          "reason": "Salt must follow the full selected batch amount."
+        },
+        {
+          "field": "learning.checkpoints[2].why",
+          "before": "Measured individual pours preserve the recorded ten-drink plan while leaving reserve rather than forcing a different yield.",
+          "after": "Measured individual pours preserve the four-fluid-ounce service size; the original batch plans ten drinks with reserve rather than a forced pitcher-emptying yield.",
+          "reason": "Separate fixed per-drink service from the original batch count."
+        },
+        {
+          "field": "learning.troubleshooting[0].cause",
+          "before": "An extra half teaspoon is a substantial irreversible addition to the batch.",
+          "after": "The listed optional salt correction is a substantial irreversible addition to the batch.",
+          "reason": "The correction amount must follow the selected batch."
+        },
+        {
+          "field": "learning.troubleshooting[1].fix",
+          "before": "Measure another full syrup batch made with the same recipe; preserve the original batch’s 6 fl oz syrup dose.",
+          "after": "Measure another full syrup batch made with the same recipe; preserve the listed syrup dose for the chosen cocktail batch (6 fl oz for the original ten pours).",
+          "reason": "Keep the syrup recipe and chosen cocktail ratio, without promising its finished yield."
+        },
+        {
+          "field": "learning.substitutions[0].alternative",
+          "before": "Omit the three cloves.",
+          "after": "Omit the listed optional cloves.",
+          "reason": "Clove supply scales with syrup ingredients; its optional status is unchanged."
+        },
+        {
+          "field": "body.Directions.step1",
+          "before": "the batch needs 6 fl oz, and optional corrections or mocktails need separate syrup.",
+          "after": "the batch needs the listed finished-syrup amount (6 fl oz for the original ten pours), and optional corrections or mocktails need separate syrup.",
+          "reason": "The syrup destination follows the selected cocktail batch."
+        },
+        {
+          "field": "body.Directions.step2",
+          "before": "Make ten large cubes for the ten planned pours, with three cranberries and three blueberries in each mold cavity.",
+          "after": "Make one large cube for each planned pour, with three cranberries and three blueberries in each mold cavity. The original batch plans ten pours.",
+          "reason": "Cube count follows planned service while each source cube retains three berries of each fruit."
+        },
+        {
+          "field": "body.Directions.step3",
+          "before": "combine all the measured tequila, lime juice, 6 fl oz syrup, orange liqueur and bitter aperitif. Add the 1 tsp fine salt",
+          "after": "combine the full listed amounts of tequila, lime juice, finished syrup, orange liqueur and bitter aperitif. Add the full listed fine-salt amount",
+          "reason": "Use all displayed scaled cocktail quantities; do not change source ratios."
+        },
+        {
+          "field": "body.Directions.step4",
+          "before": "The optional corrections are 1 fl oz more syrup for bitterness, 1 fl oz more lime for sweetness, or 1/2 tsp more fine salt for sharpness.",
+          "after": "Use the listed optional syrup correction for bitterness, lime correction for sweetness, or fine-salt correction for sharpness for the chosen batch.",
+          "reason": "Optional correction ingredient amounts scale; the selection/tasting branch remains optional."
+        },
+        {
+          "field": "body.Directions.step5",
+          "before": "The stated batch supports ten such pours with reserve; tasting and optional additions affect the remainder.",
+          "after": "The original ten-serving batch supports ten such pours with reserve; tasting and optional additions affect the remainder. Keep each pour at 4 fl oz when the batch size changes.",
+          "reason": "The original ten-by-four plan is documented; service remains four fluid ounces at another batch scale."
+        },
+        {
+          "field": "body.Mocktail version",
+          "before": "the cocktail batch’s 6 fl oz syrup is already allocated.",
+          "after": "the cocktail batch’s listed syrup supply is already allocated.",
+          "reason": "The per-mocktail two-ounce dose remains fixed and separately sourced; the cocktail batch allocation scales."
+        }
+      ],
+      "kitchenTests": 0
+    },
+    {
+      "slug": "salsa-verde-chicken-casserole",
+      "inputSha256": "99c10adea41bf8352cf2fc48c6207a88896adfeab8dc3fb95a4d4866bfa16f22",
+      "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+      "status": "PASS",
+      "nonSelfReview": true,
+      "independentReportSha256": "2632ba5ab8fdb9c9abf8f0a1a6ac913aff55278be3ba28c58c5f5d3c731148bf",
+      "scope": "Accept this exact source for root integration. The full rich primary and complete source alternative use all selected batch supplies. Primary375°F and source400°F routes remain distinct; original eight-inch-square context and full-load headroom condition do not claim tested fit. Both routes require165°F centers; preparation states and all current fresh toppings are preserved.",
+      "confidence": "High for exact corrections, identity, source arithmetic, complete destinations and distinct route verification. Moderate for openly untested pan/time/texture operating choices.",
+      "appliedExactCorrections": [
+        {
+          "field": "ingredients[3]",
+          "before": "8 Corn Tortillas (6-inch), halved",
+          "after": "8 Corn Tortillas (6-inch); halve for the primary route, leave whole for the baked-tomato route",
+          "rationale": "The source alternative requires whole tortillas. Route-specific preparation must be selected before cutting; six-inch size and full tortilla count remain unchanged."
+        },
+        {
+          "field": "learning.before[0]",
+          "before": "Use an oven-safe 8-inch-square dish with room above the layered filling; dish depths differ. If the filling would reach the rim, use another suitable dish rather than compressing it or discarding ingredients.",
+          "after": "The original six-serving batch uses an oven-safe 8-inch-square dish with room above the layered filling; dish depths differ. For a changed batch, choose suitable dishes and distribute the full load with headroom rather than compressing it or discarding ingredients. Pan dimensions and baking time do not multiply.",
+          "rationale": "Bind the recovered pan to its source batch and preserve a conditional full-load headroom requirement for other amounts; no fit or exact depth is claimed."
+        },
+        {
+          "field": "learning.before[1]",
+          "before": "Keep cooked chicken cold at 40°F / 4°C or below until assembly, within its original safe storage window. Prepare all eight tortillas as sixteen halves for the primary route.",
+          "after": "Keep cooked chicken cold at 40°F / 4°C or below until assembly, within its original safe storage window. Halve all the listed tortillas for the primary route; the original eight tortillas make sixteen halves. Leave them whole for the baked-tomato route.",
+          "rationale": "Original tortilla count becomes context while actual listed supplies govern both complete routes."
+        },
+        {
+          "field": "learning.checkpoints[0].cue",
+          "before": "All sixteen tortilla halves and all chicken filling are divided between two layers; each layer receives one cup cheese.",
+          "after": "All tortilla halves, chicken filling and cheese are divided between two layers in each dish, with half the dish’s cheese in each layer and no unassigned supplies.",
+          "rationale": "A scaled batch must use all cheese and tortillas rather than a fixed sixteen halves/two one-cup allocations."
+        },
+        {
+          "field": "learning.substitutions[1].alternative",
+          "before": "The same two cups of fully cooked shredded chicken.",
+          "after": "The same listed amount of fully cooked shredded chicken.",
+          "rationale": "The two-cup source amount is only the original batch; the complete selected batch’s displayed supply must be replaced."
+        },
+        {
+          "field": "body.Directions.step1",
+          "before": "Prepare:** Preheat to 375°F. Lightly grease an oven-safe 8-inch-square dish. Use a dish with headroom above the full layers; if the load would reach its rim, transfer all ingredients to a suitable dish before baking. Halve all eight tortillas to make sixteen pieces.",
+          "after": "Prepare:** Preheat to 375°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom above the full layers. For other amounts, choose suitable dishes and distribute the full supplies with room above the layers; if a load would reach a rim, move it to suitable dishes before baking. Halve all the listed tortillas; the original eight make sixteen halves. Pan dimensions and baking time do not multiply.",
+          "rationale": "Preserve the current375°F route and source pan as original-batch context, with practical scaled capacity and complete tortilla preparation."
+        },
+        {
+          "field": "body.Directions.step2",
+          "before": "Mix the filling:** Combine all the sour cream with 1 cup salsa verde, then fold in all chicken and minced cilantro. Keep the remaining 1/2 cup salsa separate.",
+          "after": "Mix the filling:** Combine all the sour cream with two-thirds of the listed salsa verde, then fold in all chicken and minced cilantro. Keep the remaining one-third salsa separate for the dish bottoms.",
+          "rationale": "Original1cup/1½cups =2/3 filling and½cup/1½cups =1/3 bottom; this preserves the current full salsa formula under scaling."
+        },
+        {
+          "field": "body.Directions.step3",
+          "before": "Make two layers:** Spread that remaining 1/2 cup salsa in the dish. Arrange eight tortilla halves over it, overlapping as needed. Add half the chicken mixture and 1 cup cheese. Repeat with the other eight halves, all remaining chicken mixture and the second cup cheese.",
+          "after": "Make two layers:** Divide the reserved bottom salsa among the dishes. In each dish, arrange half its tortilla halves over the salsa, overlapping as needed, then add half its chicken mixture and half its cheese. Repeat with its remaining tortillas, chicken mixture and cheese. Distribute the full listed supplies across the dishes without leaving an extra reserve.",
+          "rationale": "Two equal tortilla/chicken/cheese layers allocate the actual full supply for the chosen batch without fixed cups or pieces."
+        },
+        {
+          "field": "body.Directions.step5",
+          "before": "Finish and serve:** Top with all 2 cups chopped tomatoes and the full sliced avocado. Add optional sliced green onions or extra cilantro leaves. Serve hot with [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice).",
+          "after": "Finish and serve:** Top with all the listed chopped tomatoes and sliced avocado. Add optional sliced green onions or extra cilantro leaves. Serve hot with [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice).",
+          "rationale": "The full scaled tomato and avocado supply remains the primary fresh finish."
+        },
+        {
+          "field": "body.Baked-tomato route",
+          "before": "Use this complete method in place of the directions above, with the same full chicken, sour cream, salsa, tortilla, tomato, minced-cilantro and cheese quantities. Preheat to 400°F and lightly grease an 8-inch-square dish with headroom. Mix chicken and sour cream with 3/4 cup salsa; spread 1/4 cup salsa in the dish and reserve the final 1/2 cup for serving. Arrange four whole six-inch tortillas, half the chicken mixture, 1 cup tomatoes, all minced cilantro and 1 cup cheese in the first layer. Repeat with the remaining four tortillas, chicken mixture, tomatoes and cheese. Bake uncovered, checking from 20–25 minutes and continuing to 165°F / 74°C at the center. Serve the reserved salsa with the full sliced avocado. For the avocado-free garnish option, omit avocado and use optional sliced green onions or extra cilantro leaves.",
+          "after": "Use this complete method in place of the directions above, with the same full chicken, sour cream, salsa, tortilla, tomato, minced-cilantro and cheese quantities. Leave the tortillas whole for this route. Preheat to 400°F. For the original six-serving batch, lightly grease an oven-safe 8-inch-square dish with headroom; for other amounts use suitable dishes and distribute the full load with room above the layers. Mix all chicken and sour cream with half the listed salsa; set aside one-sixth of the salsa for the dish bottoms and reserve the remaining one-third for serving. Divide the bottom salsa among the dishes. In each dish, make a first layer with half its whole tortillas, half its chicken mixture, half its tomatoes, all its share of minced cilantro and half its cheese. Repeat with the remaining tortillas, chicken mixture, tomatoes and cheese. Use all supplies across the dishes. Bake uncovered, beginning checks around 20–25 minutes for the original batch and continuing until each center and other thick areas reach 165°F / 74°C; changed geometry can alter the time. Serve all the reserved salsa with all the listed sliced avocado. For the avocado-free garnish option, omit avocado and use optional sliced green onions or extra cilantro leaves. Pan dimensions and baking time do not multiply.",
+          "rationale": "Source¾cup/1½cups =1/2 filling,¼cup/1½cups =1/6 bottom and½cup/1½cups =1/3 service. Half each complete tortilla/chicken/tomato/cheese supply goes into each layer, with all minced cilantro in the first. Source400°F20–25 remains distinct from current375°F25–30, with no claimed equivalence."
+        }
+      ],
+      "kitchenTests": 0
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

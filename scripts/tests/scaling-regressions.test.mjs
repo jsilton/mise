@@ -549,6 +549,55 @@ for (const row of confirmed) {
           assert.match(scaled, /juice only/);
         }
         assert.equal(formatFormulaIngredient(lemon, 1), formatFormulaIngredient(lemon));
+      } else if (row.slug === 'red-zone-margarita' && row.caseId === 54) {
+        // Preserve the historical lime input and every numeric oracle below.
+        // Bind the reviewed live fluid-ounce amounts and their batch equivalents separately.
+        assert.ok(!data.ingredients.includes(component.input));
+        const liveRows = [
+          {
+            input: '10 fl oz fresh lime juice (1 1/4 cups; lime yield varies)',
+            amounts: [10, 1.25],
+            scales: [true, true],
+            qualifier: /lime yield varies/,
+          },
+          {
+            input: '5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)',
+            amounts: [5, 40, 0.6],
+            scales: [true, false, true],
+            qualifier: /40% ABV \(about /,
+          },
+        ];
+        for (const live of liveRows) {
+          assert.ok(
+            data.ingredients.includes(live.input),
+            'current authored batch measure remains'
+          );
+          for (const factor of factors) {
+            const output = scaleIngredient(live.input, factor);
+            const actual = [...output.matchAll(number)].map((m) => numeric(m[0]));
+            const expected = live.amounts.map(
+              (amount, index) => amount * (live.scales[index] ? factor : 1)
+            );
+            assert.equal(actual.length, expected.length);
+            expected.forEach((value, index) => {
+              assert.ok(
+                Math.abs(actual[index] - value) <= 0.005001,
+                factor +
+                  'x live quantity ' +
+                  index +
+                  ': expected ' +
+                  value +
+                  ', got ' +
+                  actual[index] +
+                  ': ' +
+                  output
+              );
+            });
+            assert.match(output, live.qualifier);
+            if (factor === 1)
+              assert.equal(output, live.input, 'reset restores exact live ingredient');
+          }
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

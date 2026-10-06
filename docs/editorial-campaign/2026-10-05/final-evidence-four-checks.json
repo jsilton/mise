@@ -1,0 +1,89 @@
+{
+  "status": "Combined release checks passed; publication and exact live verification pending",
+  "inputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
+  "recipes": [
+    {
+      "slug": "almond-zucchini-bread",
+      "acceptedSourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e"
+    },
+    {
+      "slug": "japanese-style-trout-with-dashi",
+      "acceptedSourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27"
+    },
+    {
+      "slug": "red-zone-margarita",
+      "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce"
+    },
+    {
+      "slug": "salsa-verde-chicken-casserole",
+      "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f"
+    }
+  ],
+  "tests": 256,
+  "qaChecks": 30,
+  "formulaRecipes": 180,
+  "validatedRecipes": 643,
+  "targetedRecipeLint": {
+    "recipes": 4,
+    "errors": 0,
+    "warnings": 0
+  },
+  "exportParityRecipes": 643,
+  "builtPages": 758,
+  "checkedInternalAnchors": 12675,
+  "missingDestinations": 0,
+  "automatedGates": {
+    "tests": {
+      "status": "passed",
+      "logSha256": "413287b52f864eff68d2242ce7d65b1c448c8012a4e1b31daf29795f9eafb86a"
+    },
+    "qa": {
+      "status": "passed",
+      "logSha256": "7159338aff913eb16e6f17720db71f595644e4d98b9785353af353d1ff7ac29e"
+    },
+    "scaling": {
+      "status": "passed",
+      "logSha256": "27d3b832762f3076a4fcff7de4bae35a47b44bff747ca68fa0642c12b6813daf"
+    },
+    "exportParity": {
+      "status": "passed",
+      "logSha256": "2f0c933bbcf39f582829fde05fdd9c3cc53498cd4d007d3b3e97e351fc3e58e6"
+    },
+    "privacy": {
+      "status": "passed",
+      "logSha256": "3331c8a0c7286d02590ef60c923ceaf058e3098aef9c738b959952b06ec7b7a5"
+    },
+    "builtLinks": {
+      "status": "passed",
+      "logSha256": "d7c436ed0126a341dcb29c6b0f825352830cb524fe59604cb8560847cf8f3028"
+    },
+    "recipeValidation": {
+      "status": "passed",
+      "logSha256": "88c9cb0252c1abcdaaac290a25a656811d52fc8cf9f73a781bc1d05057d82efd"
+    },
+    "formula": {
+      "status": "passed",
+      "logSha256": "b6f8a84ac8d208b67b116a8062ac84a8d30e20a769f56a0460f740b3858f5df3"
+    }
+  },
+  "inAppBrowser": {
+    "completeRenderedPages": 4,
+    "mobileWidth": 375,
+    "scaledIngredientsAndYield": [0.5, 2, 1],
+    "cookingProgressReloadResetExit": 4,
+    "printControlAndStyles": true,
+    "actualPrintPaginationVerified": false
+  },
+  "preservation": {
+    "recipes": 643,
+    "identitiesPreserved": 643,
+    "unaffectedSourcesByteExact": 639,
+    "heldSourcesByteExact": 29,
+    "changedSources": 4,
+    "oldParserFixturesByteExact": true,
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

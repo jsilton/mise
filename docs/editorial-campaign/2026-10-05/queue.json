@@ -593,16 +593,21 @@
       "source": "Adapted from Gina Matsoukas, Running to the Kitchen",
       "sourceUrl": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/",
       "group": "quick_breads_02",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-locally",
+      "reviewEvidence": ["docs/reviews/almond-zucchini-bread.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Saved/current loaf pan geometry is missing; complete editorial acceptance held without invented dimensions."
+        "Actual pan interior dimensions, material and batter depth.",
+        "Actual endpoint clock, full cooling time and slice yield.",
+        "Actual freezer quality and preferred slice thickness.",
+        "Current kosher salt density versus publisher generic salt is not numerically converted."
       ],
       "inputSha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374",
       "plannedBatch": "baked-savory-and-breads-01",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374"
+      "assignmentInputSha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374",
+      "acceptedSourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+      "reviewPhase": "Complete editorial review accepted; implementation and production pending"
     },
     {
       "slug": "anadama-bread",
@@ -6490,29 +6495,31 @@
       "slug": "japanese-style-trout-with-dashi",
       "path": "src/content/recipes/japanese-style-trout-with-dashi.md",
       "title": "Japanese-Style Trout with Dashi",
-      "source": "Adapted from Foodandwine.com",
+      "source": "Adapted from Grace Parisi at Food & Wine",
       "sourceUrl": "http://www.foodandwine.com/recipes/japanese-style-trout-dashi",
       "group": "stock_linked_mains_01",
-      "status": "held",
+      "status": "accepted-locally",
       "reviewEvidence": [
         "docs/reviews/poke-batch-decision.md",
         {
           "path": ".mise/editorial-campaign/2026-10-05/stock_linked_mains_01/records/japanese-style-trout-with-dashi.json",
           "sha256": "bc2eb0d8a9e5eae6f3662f67209d3058c1c49afa984b0a9e2627d57478dfa69f"
-        }
+        },
+        "docs/reviews/japanese-style-trout-with-dashi.json"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole recipe held over prepared-stock strength/volume and second-turn/glaze source-method acceptance.",
-        "Measured prepared-stock strength/volume",
-        "Household instant versus homemade choice",
-        "Second-turn/glaze method acceptance"
+        "Record actual fillet thickness, starting temperature, broiler model/rated sheet/food-to-element distance and batch fit.",
+        "Record145°F in the thickest center of each fillet and actual both-side glazing time/scorch behavior.",
+        "Compare instant versus measured prepared-stock variation flavor/seasoning; no equal-strength claim.",
+        "Measure final glaze and vegetable-broth yield after cooking, rice/nori serving quantities and active/elapsed time."
       ],
       "inputSha256": "ae7c30606bbfbabcdbf06d998104b54f47d9cd7d924fcbf8f88cee0155edd659",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "ae7c30606bbfbabcdbf06d998104b54f47d9cd7d924fcbf8f88cee0155edd659",
-      "reviewPhase": "Whole recipe held; unchanged and unendorsed"
+      "reviewPhase": "Complete editorial review accepted; implementation and production pending",
+      "acceptedSourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27"
     },
     {
       "slug": "japchae-korean-glass-noodle-stir-fry",
@@ -8914,20 +8921,19 @@
       "slug": "red-zone-margarita",
       "path": "src/content/recipes/red-zone-margarita.md",
       "title": "Red Zone Margarita",
-      "source": null,
-      "sourceUrl": null,
       "group": "shaken_drinks_02",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-locally",
+      "reviewEvidence": ["docs/reviews/red-zone-margarita.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Confirm whether5fl oz is canonical or0.6cup precise.",
-        "Confirm ten4ozpours intentionally reserveabout5oz or intended portion differs.",
-        "Measure strained syrup yield after10min simmer/30min steep and identify accepted storage process.",
-        "Clarify optional flavor adjustments: listed extras change ratios and need separate allowances; keep mocktail complete."
+        "Measure strained yield, remaining batch volume after tasting and dilution, and actual glass/shaker capacity.",
+        "Longer syrup storage remains unverified; the accepted recipe permits night-before preparation for planned service.",
+        "Author clarification of the conflicting original measures (0.6 cup versus 5 fl oz) remains unavailable; the accepted main recipe retains the explicit 5 fl oz dose."
       ],
       "inputSha256": "7deaea28faf0984fde200fc2484413105b846376dd554e77d2e57f41f911672e",
-      "plannedBatch": "simmer-boil-and-steam-08"
+      "plannedBatch": "simmer-boil-and-steam-08",
+      "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+      "reviewPhase": "Complete editorial review accepted; implementation and production pending"
     },
     {
       "slug": "restaurant-style-chicken-lo-mein",
@@ -9474,24 +9480,25 @@
       "slug": "salsa-verde-chicken-casserole",
       "path": "src/content/recipes/salsa-verde-chicken-casserole.md",
       "title": "Salsa Verde Chicken Casserole",
-      "source": "Adapted from Myfussyeater.com",
-      "sourceUrl": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/",
+      "source": "Adapted from Janet McCormick, Taste of Home",
+      "sourceUrl": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/",
       "group": "poultry_assembled_mains_02",
-      "status": "held",
+      "status": "accepted-locally",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_02/records/salsa-verde-chicken-casserole.json",
           "sha256": "1155a5f2c062591a578efb4d811f1423407d5dd7010be364e14c89e11dd731c4"
-        }
+        },
+        "docs/reviews/salsa-verde-chicken-casserole.json"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole recipe held pending actual source and layered capacity/timing evidence.",
-        "Verify layered fit and time after actual source is recovered."
+        "Actual dish depth, full filled volume/headroom, time to 165°F and portions remain kitchen observations; no test result is claimed."
       ],
       "inputSha256": "99c10adea41bf8352cf2fc48c6207a88896adfeab8dc3fb95a4d4866bfa16f22",
       "plannedBatch": "baked-savory-and-breads-09",
-      "reviewPhase": "Whole recipe held; unchanged and unendorsed"
+      "reviewPhase": "Complete editorial review accepted; implementation and production pending",
+      "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f"
     },
     {
       "slug": "san-marzano-tomato-sauce",
@@ -13162,7 +13169,8 @@
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
     "production-verified": 376,
-    "held": 31,
+    "accepted-locally": 4,
+    "held": 27,
     "held-awaiting-evidence": 2
   }
 }
