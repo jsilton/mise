@@ -1,0 +1,934 @@
+{
+  "slug": "classic-chocolate-chip-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "07ebad4e54b22cf56e20be2ee9725b6e993edc47259d7357c696fc230da0ddef",
+  "acceptedSourceSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "10–12 min per oven load"
+    },
+    {
+      "field": "totalTime",
+      "before": "24 hr",
+      "after": "Overnight, plus preparation, baking and cooling"
+    },
+    {
+      "field": "servings",
+      "before": "24",
+      "after": "24 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup (2 sticks) Unsalted Butter",
+        "1 cup Light Brown Sugar, packed",
+        "1/2 cup Granulated White Sugar",
+        "2 large Eggs, room temperature",
+        "2 tsp Vanilla Extract",
+        "2 1/4 cups All-Purpose Flour",
+        "1 tsp Baking Soda",
+        "1/2 tsp Kosher Salt",
+        "2 cups Semisweet Chocolate Chips (60% cacao)",
+        "1 cup Toasted Sunflower Seeds (Nut-Free option)"
+      ],
+      "after": [
+        "--- Brown-butter cookie dough ---",
+        "1 cup (2 sticks) unsalted butter, starting amount before browning",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated white sugar",
+        "2 large eggs, room temperature",
+        "2 tsp vanilla extract",
+        "2 1/4 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp hot water",
+        "1/2 tsp kosher salt",
+        "2 cups semisweet chocolate chips, 60% cacao",
+        "1 cup sunflower seeds, already toasted",
+        "--- Finish ---",
+        "flaky sea salt, a tiny pinch over the warm cookies"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 235,
+        "protein": 4,
+        "carbs": 37.5,
+        "fat": 8,
+        "fiber": 3,
+        "sugar": 27,
+        "sodium": 170
+      },
+      "after": null
+    },
+    {
+      "field": "source",
+      "before": null,
+      "after": "Brown-butter adaptation of Best Chocolate Chip Cookies, allrecipes.com"
+    },
+    {
+      "field": "sourceUrl",
+      "before": null,
+      "after": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 24,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Brown-butter cookie dough",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "brown",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 2,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "starting amount before browning"
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated white sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "room temperature"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "soda",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "hot water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "soda",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "soda",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chips",
+                "key": "chips",
+                "name": "semisweet chocolate chips",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ],
+                "preparation": "60% cacao"
+              },
+              {
+                "id": "seeds",
+                "key": "seeds",
+                "name": "sunflower seeds",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already toasted"
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "flaky sea salt",
+                "allowance": "a tiny pinch over the warm cookies",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "brown",
+            "title": "Brown and cool the butter",
+            "text": "Choose a saucepan with room for the butter to foam; use complete smaller butter loads and combine all their contents if needed for a larger batch. Melt {{ingredients}} over medium heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but still soft enough to beat. Use the entire browned amount and its solids."
+          },
+          {
+            "id": "cream",
+            "title": "Cream",
+            "text": "Beat the cooled brown butter with {{ingredients}} until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed."
+          },
+          {
+            "id": "egg",
+            "title": "Add eggs and vanilla",
+            "text": "Beat in {{ingredients}}, adding the eggs one at a time and mixing until combined."
+          },
+          {
+            "id": "soda",
+            "title": "Add soda and salt",
+            "text": "Use {{ingredients}}: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture."
+          },
+          {
+            "id": "fold",
+            "title": "Finish the dough",
+            "text": "Stir in {{ingredients}} until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted."
+          },
+          {
+            "id": "chill",
+            "title": "Chill",
+            "text": "Cover the dough and refrigerate promptly at 40°F / 4°C or below overnight. Plan to portion and bake within 24 hours of mixing; keep waiting dough refrigerated between oven loads."
+          },
+          {
+            "id": "prep",
+            "title": "Prepare to bake",
+            "text": "After the chill, preheat the oven to 350°F. Line baking sheets with parchment. Portion the dough into evenly sized scoops, allowing about 2 inches between them. The listed count is an approximate cookie count; scoop size determines how many you get. Use additional sheets and oven loads for a larger batch, keeping scoop size and spacing consistent. Wait for the oven to reach temperature before loading."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake for 10–12 minutes per oven load, until the edges are golden and the centers have set but remain soft. Keep unbaked dough refrigerated between loads."
+          },
+          {
+            "id": "finish",
+            "title": "Finish and cool",
+            "text": "Sprinkle {{ingredients}} over the cookies immediately after baking. Leave them on the sheet until firm enough to lift without breaking, then transfer to a rack to cool completely before packing."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Browning butter, then returning it to the right state for creaming.",
+        "outcome": "Toasted butter flavor in cookies with golden edges and soft, set centers.",
+        "techniques": ["browning", "temperature", "cold-preparation"],
+        "before": [
+          "Measure the butter before browning and retain the browned milk solids. The listed hot water belongs to the soda mixture; it is not a replacement for water lost during browning.",
+          "Plan an overnight refrigerated rest and bake within 24 hours of mixing, allowing additional time for butter cooling and cookie cooling. The listed yield counts cookies, not people.",
+          "Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.",
+          "If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie dimensions and baking temperature fixed."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Deep golden solids, then a soft solid butter mixture after cooling.",
+            "why": "The solids carry the toasted flavor; liquid warm butter cannot be creamed in the same way as a soft solid."
+          },
+          {
+            "step": 5,
+            "cue": "No flour pockets and an even distribution of chips and already toasted seeds.",
+            "why": "A thorough final fold distributes the inclusions without a second toasting step."
+          },
+          {
+            "step": 8,
+            "cue": "Golden edges and centers that have set while remaining soft.",
+            "why": "A wet raw center is different from a soft baked center; the clock is a starting check for evenly sized scoops."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter solids are dark or smell burnt.",
+            "cause": "The browning continued after the toasted stage.",
+            "fix": "Stop heating when the solids turn deep golden and pour promptly into the bowl; do not use burnt butter."
+          },
+          {
+            "problem": "Cookies break when moved.",
+            "cause": "Their centers are still fragile immediately after baking.",
+            "fix": "Let them firm on the sheet before lifting to the rack; allow complete cooling before packing."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Brown-butter sunflower dough",
+            "alternative": "Separate plain-butter walnut formula in Cooking Options",
+            "effect": "Its larger flour and white-sugar amounts, extra hot water, nuts and immediate baking are a different complete dough; the nut-free designation applies to the sunflower main."
+          }
+        ],
+        "storage": "Keep raw dough covered at 40°F / 4°C or below during the overnight rest and between oven loads; plan to bake within 24 hours of mixing. Store fully cooled baked cookies airtight; no measured shelf life is established for this brown-butter adaptation. The plain-butter option has its own freezing instructions in Cooking Options.",
+        "timing": "The 20-minute preparation figure is a planning allowance, not a measured browning or cooling time. Plan an overnight dough rest and baking within 24 hours of mixing. Allow 10–12 minutes for each oven load, butter cooling until soft-solid, time for the oven to reach 350°F and final rack cooling; larger batches and cooling extend elapsed time.",
+        "sources": [
+          {
+            "title": "Allrecipes — original plain-butter dough and its separate make-ahead option",
+            "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"
+          },
+          {
+            "title": "FDA — raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe chocolate chip cookie was invented by accident in 1938 when Ruth Wakefield, owner of the Toll House Inn in Massachusetts, ran out of baker's chocolate and chopped up a Nestlé chocolate bar instead, expecting it to melt into the dough. It didn't, and the chocolate chip cookie was born - becoming America's most beloved cookie. Nestlé bought the rights to her recipe and printed it on their chocolate chip bags, spreading it across the country. Browning the butter adds a nutty, toffee-like depth that elevates these from good to exceptional.\n\n## Directions\n\n1.  **Brown the Butter:** In a small saucepan, melt the butter over medium heat. Continue cooking, swirling the pan, until the foam subsides and the solids turn a deep golden brown and smell like hazelnuts. Pour into a bowl and let cool until solid but soft.\n2.  **Cream:** Beat the cooled brown butter with the brown and white sugars until pale and fluffy (3-5 minutes). Beat in the eggs and vanilla.\n3.  **Mix:** Dissolve the baking soda in 1 tsp hot water and add to the batter with the salt. Gently fold in the flour, chocolate chips, and seeds.\n4.  **The Rest (Critical):** Wrap the dough and refrigerate for at least **24 hours**. This is the secret to the best cookies.\n5.  **Bake:** Scoop onto a parchment-lined sheet. Bake at 350°F for 10-12 minutes until the edges are golden but the centers are still soft.\n6.  **Finish:** Sprinkle with a tiny pinch of flaky sea salt immediately.\n",
+    "after": "\n## Chef's Note\n\nBrown the starting butter, including its milk solids, then let it return to a soft solid before creaming. Fold in the already toasted sunflower seeds and semisweet chocolate after the flour, and let the soft centers firm on the sheet before moving the cookies to a rack.\n\n## Directions\n\n1. **Brown and cool the butter:** Choose a saucepan with room for the butter to foam; use complete smaller butter loads and combine all their contents if needed for a larger batch. Melt unsalted butter over medium heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but still soft enough to beat. Use the entire browned amount and its solids.\n2. **Cream:** Beat the cooled brown butter with light brown sugar and granulated white sugar until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed.\n3. **Add eggs and vanilla:** Beat in large eggs and vanilla extract, adding the eggs one at a time and mixing until combined.\n4. **Add soda and salt:** Use baking soda, hot water, and kosher salt: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture.\n5. **Finish the dough:** Stir in all-purpose flour, semisweet chocolate chips, and sunflower seeds until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted.\n6. **Chill:** Cover the dough and refrigerate promptly at 40°F / 4°C or below overnight. Plan to portion and bake within 24 hours of mixing; keep waiting dough refrigerated between oven loads.\n7. **Prepare to bake:** After the chill, preheat the oven to 350°F. Line baking sheets with parchment. Portion the dough into evenly sized scoops, allowing about 2 inches between them. The listed count is an approximate cookie count; scoop size determines how many you get. Use additional sheets and oven loads for a larger batch, keeping scoop size and spacing consistent. Wait for the oven to reach temperature before loading.\n8. **Bake:** Bake for 10–12 minutes per oven load, until the edges are golden and the centers have set but remain soft. Keep unbaked dough refrigerated between loads.\n9. **Finish and cool:** Sprinkle flaky sea salt over the cookies immediately after baking. Leave them on the sheet until firm enough to lift without breaking, then transfer to a rack to cool completely before packing.\n\n## Cooking Options\n\n### Plain-butter walnut option\n\nFor the original 24-cookie planning batch, replace the entire dough formula with 1 cup softened butter, 1 cup white sugar, 1 cup packed brown sugar, 2 eggs, 2 tsp vanilla, 1 tsp baking soda dissolved in 2 tsp hot water, ½ tsp salt, 3 cups all-purpose flour, 2 cups semisweet chocolate chips and 1 cup chopped walnuts. Scale this complete formula proportionally as a separate batch; do not combine its flour or water with the brown-butter dough. This option contains nuts.\n\nPreheat to 350°F before mixing. Cream the butter and sugars, beat in the eggs one at a time and the vanilla, mix in the dissolved soda and salt, then stir in the flour, chips and walnuts. Drop large spoonfuls onto ungreased sheets and bake about 10 minutes, until the edges are lightly browned and centers are set. Let the cookies firm on the sheet, then cool on a rack. This route does not require the brown-butter route’s overnight rest. Its count depends on spoon size.\n\nFor this plain-butter option, fully cooled cookies or portioned dough can be frozen for up to two months as a quality plan: first freeze them separately on a covered tray until firm, then package airtight. Thaw frozen dough in the refrigerator before baking. The different dough does not establish an identical storage life or baking result for the brown-butter version.\n"
+  },
+  "findings": [
+    {
+      "id": "CKF03-CC01",
+      "title": "CKF03-CC01",
+      "rationale": "The frozen method already consumes 1 tsp hot water and a tiny pinch of flaky salt, although neither is in shopping ingredients. Expose those exact existing supplies; preserve every current dough quantity and the starting cup of butter. Clarify butter state, preheat, spacing, set centers and full cooling rather than promising a best-cookie result.",
+      "confidence": "high for supplies/state omission; moderate for current bake geometry/endpoints",
+      "applicableSources": [
+        "frozen-current",
+        "first-Git",
+        "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"
+      ],
+      "sourceApplicability": "Frozen method establishes the main-route supplies and 24-hour chill. Publisher corroborates general sheet spacing/cooling for its different plain-butter dough; applying those handling cues to current dough is an untested editorial application.",
+      "exactBeforeAfterReferences": ["ingredients", "formula", "content"],
+      "questions": [
+        "What scoop size actually gives about 24 current brown-butter cookies? How long does the butter take to return to soft-solid in the household kitchen?"
+      ]
+    },
+    {
+      "id": "CKF03-CC02",
+      "title": "CKF03-CC02",
+      "rationale": "Earlier committed HTML explicitly attributes the original to Allrecipes. Its complete plain-butter/3-cup flour/1-cup white sugar/2-tsp water/walnut dough was replaced at 6d6ff0f1. No later explicit source-option rejection is established. Preserve that complete route separately without undoing the richer current brown-butter sunflower adaptation, and carry forward publisher make-ahead directions only within that option.",
+      "confidence": "high for provenance/formula separation; moderate for publisher make-ahead applicability",
+      "applicableSources": [
+        "earlier-HTML",
+        "first-Git",
+        "6d6ff0f119c442ceb0c2f79f03ea85ae622ce7bc",
+        "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"
+      ],
+      "sourceApplicability": "Exact earlier HTML establishes source URL and original complete formula. Modern publisher corroborates doses but gives 48 cookies, not saved24/current24. Its storage figures are publisher quality guidance for that source route, not a tested shelf life of this adaptation.",
+      "exactBeforeAfterReferences": ["source", "sourceUrl", "content", "learning"],
+      "questions": [
+        "Should the current nut-free main remain the household default? The record establishes persistence of the bulk adaptation, not an explicit household decision rejecting walnuts or the original formula."
+      ]
+    },
+    {
+      "id": "CKF03-classic-chocolate-chip-cookies-META",
+      "title": "CKF03-classic-chocolate-chip-cookies-META",
+      "rationale": "Remove the unsupported United States country-origin field added by bulk2a7f3853, preserving American cuisine/style and source authorship. Remove unverified per-serving nutrition added at902e7e8e rather than carry numerical claims across unmeasured cookie counts/restored supplies. Keep the exact current numeric planning count as pieces and explicitly explain actual count, pan loads and cooling. Authored formula and three generated views share one full-quantity source; learning is recipe-specific editorial review, not kitchen testing.",
+      "confidence": "high for unsupported metadata removal and quantity preservation; moderate for unmeasured planning",
+      "applicableSources": [
+        "frozen-current",
+        "earlier-HTML",
+        "actual-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Exact history distinguishes countrymetadata/nutrition additions from named source/family recipe. Arithmetic and current/source cooking cues support planning caveats. FDA only supports raw-dough handling.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "nutrition",
+        "servings",
+        "formula",
+        "learning",
+        "cookTime",
+        "totalTime"
+      ],
+      "questions": [
+        "What scoop size actually gives about 24 current brown-butter cookies? How long does the butter take to return to soft-solid in the household kitchen?",
+        "Should the current nut-free main remain the household default? The record establishes persistence of the bulk adaptation, not an explicit household decision rejecting walnuts or the original formula."
+      ]
+    },
+    {
+      "id": "ROOT-CLASSIC-BOUNDED-REST",
+      "title": "Plan an overnight dough rest and bake within 24 hours",
+      "rationale": "An at-least-24-hour minimum leaves the maximum unspecified. Apply general USDA raw-egg-mixture guidance conservatively to this dough while preserving the refrigerated rest, full formula and distinct source option.",
+      "confidence": "Moderate editorial precaution; no cookie-specific agency maximum or microbial validation.",
+      "applicableSources": [
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+          "scope": "USDA general dishes containing raw eggs: immediate cooking or refrigerated cooking within 24 hours. Applies broadly to egg mixtures; cookie-specific applicability was not verified. This recommendation explicitly applies that general precaution rather than claiming a cookie-specific validated limit."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo234150/pdf/GOVPUB-A110-PURL-gpo234150.pdf",
+          "scope": "USDA Kitchen Companion likewise refers to raw eggs combined with other ingredients; indexed primary text independently corroborates the general rule."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "scope": "Raw flour/eggs must not be tasted; cold storage and cooking matter. No homemade-cookie refrigerated maximum supplied. Does not validate a 24-hour rest or a cookie internal-temperature target."
+        },
+        {
+          "url": "https://blogs.extension.iastate.edu/answerline/2023/11/21/ingredients-affect-how-the-cookie-crumbles/",
+          "scope": "Iowa State Extension discusses a 24-hour cookie chill for flavor, spreading and shape. Culinary quality support, not microbial shelf-life validation. An overnight rest may produce a different result from a full 24 hours; kitchen comparison remains open."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "scope": "Actual publisher formula is the separate plain-butter walnut immediate-bake dough, not this brown-butter sunflower formula. Its two-month freezing advice remains confined to the distinct source option."
+        },
+        {
+          "url": "https://ask.fsis.usda.gov/article/What-is-the-shelf-life-of-cookie-dough",
+          "scope": "Title-only/empty or failed body through current retrieval; answer not verified. Not evidence for any homemade-cookie duration."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula", "learning", "totalTime", "content"],
+      "questions": [
+        "Obtain the actual USDA cookie-specific answer or another applicable primary assessment before authorizing longer refrigerated raw-dough storage.",
+        "Compare overnight versus full-24-hour flavor/spread at actual refrigerator temperature; no physical kitchen testing has occurred.",
+        "A future brown-butter freezing route would be an explicitly disclosed editorial adaptation; do not invent its shelf life or bake-from-frozen clock."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Best%20Chocolate%20Chip%20Cookies.html",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "finding": "CKF03-CC01",
+      "text": "The frozen method already consumes 1 tsp hot water and a tiny pinch of flaky salt, although neither is in shopping ingredients. Expose those exact existing supplies; preserve every current dough quantity and the starting cup of butter. Clarify butter state, preheat, spacing, set centers and full cooling rather than promising a best-cookie result.",
+      "limits": "Frozen method establishes the main-route supplies and 24-hour chill. Publisher corroborates general sheet spacing/cooling for its different plain-butter dough; applying those handling cues to current dough is an untested editorial application."
+    },
+    {
+      "finding": "CKF03-CC02",
+      "text": "Earlier committed HTML explicitly attributes the original to Allrecipes. Its complete plain-butter/3-cup flour/1-cup white sugar/2-tsp water/walnut dough was replaced at 6d6ff0f1. No later explicit source-option rejection is established. Preserve that complete route separately without undoing the richer current brown-butter sunflower adaptation, and carry forward publisher make-ahead directions only within that option.",
+      "limits": "Exact earlier HTML establishes source URL and original complete formula. Modern publisher corroborates doses but gives 48 cookies, not saved24/current24. Its storage figures are publisher quality guidance for that source route, not a tested shelf life of this adaptation."
+    },
+    {
+      "finding": "ROOT-CLASSIC-BOUNDED-REST",
+      "text": "The inherited brown-butter adaptation required at least 24 hours; the separate saved plain-butter route bakes immediately. The current route now plans an overnight rest and baking within 24 hours, conservatively applying general USDA raw-egg-mixture guidance.",
+      "limits": "Iowa State describes full-24-hour chilling as a quality option, not storage-safety validation. Cookie-specific USDA guidance could not be retrieved; overnight versus a full 24-hour rest has not been kitchen compared. All brown-butter doses and the complete plain-butter variant are preserved."
+    }
+  ],
+  "ledger": [
+    {
+      "id": "dough.butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [
+        {
+          "amount": 2,
+          "unit": "stick"
+        }
+      ],
+      "state": "starting amount before browning",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "brown",
+          "share": 1,
+          "text": "Choose a saucepan with room for the butter to foam; use complete smaller butter loads and combine all their contents if needed for a larger batch. Melt {{ingredients}} over medium heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but still soft enough to beat. Use the entire browned amount and its solids."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.brown-sugar",
+      "name": "light brown sugar",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "packed",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat the cooled brown butter with {{ingredients}} until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.sugar",
+      "name": "granulated white sugar",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat the cooled brown butter with {{ingredients}} until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.egg",
+      "name": "large egg",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "room temperature",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}}, adding the eggs one at a time and mixing until combined."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.vanilla",
+      "name": "vanilla extract",
+      "quantity": {
+        "amount": 2,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}}, adding the eggs one at a time and mixing until combined."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": "2 1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "fold",
+          "share": 1,
+          "text": "Stir in {{ingredients}} until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.soda",
+      "name": "baking soda",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "soda",
+          "share": 1,
+          "text": "Use {{ingredients}}: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.water",
+      "name": "hot water",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "cooking-water",
+      "destinations": [
+        {
+          "step": "soda",
+          "share": 1,
+          "text": "Use {{ingredients}}: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.salt",
+      "name": "kosher salt",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "soda",
+          "share": 1,
+          "text": "Use {{ingredients}}: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.chips",
+      "name": "semisweet chocolate chips",
+      "quantity": {
+        "amount": 2,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "60% cacao",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "fold",
+          "share": 1,
+          "text": "Stir in {{ingredients}} until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.seeds",
+      "name": "sunflower seeds",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "already toasted",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "fold",
+          "share": 1,
+          "text": "Stir in {{ingredients}} until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "finish.salt",
+      "name": "flaky sea salt",
+      "quantity": null,
+      "allowance": "a tiny pinch over the warm cookies",
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "garnish",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1,
+          "text": "Sprinkle {{ingredients}} over the cookies immediately after baking. Leave them on the sheet until firm enough to lift without breaking, then transfer to a rack to cool completely before packing."
+        }
+      ],
+      "allocationTotal": 1
+    }
+  ],
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "brown",
+      "title": "Brown and cool the butter",
+      "text": "Choose a saucepan with room for the butter to foam; use complete smaller butter loads and combine all their contents if needed for a larger batch. Melt {{ingredients}} over medium heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but still soft enough to beat. Use the entire browned amount and its solids.",
+      "generatedText": "1. **Brown and cool the butter:** Choose a saucepan with room for the butter to foam; use complete smaller butter loads and combine all their contents if needed for a larger batch. Melt unsalted butter over medium heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but still soft enough to beat. Use the entire browned amount and its solids.",
+      "dependsOn": [],
+      "assigned": ["dough.butter"]
+    },
+    {
+      "index": 2,
+      "id": "cream",
+      "title": "Cream",
+      "text": "Beat the cooled brown butter with {{ingredients}} until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed.",
+      "generatedText": "2. **Cream:** Beat the cooled brown butter with light brown sugar and granulated white sugar until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed.",
+      "dependsOn": ["brown"],
+      "assigned": ["dough.brown-sugar", "dough.sugar"]
+    },
+    {
+      "index": 3,
+      "id": "egg",
+      "title": "Add eggs and vanilla",
+      "text": "Beat in {{ingredients}}, adding the eggs one at a time and mixing until combined.",
+      "generatedText": "3. **Add eggs and vanilla:** Beat in large eggs and vanilla extract, adding the eggs one at a time and mixing until combined.",
+      "dependsOn": ["cream"],
+      "assigned": ["dough.egg", "dough.vanilla"]
+    },
+    {
+      "index": 4,
+      "id": "soda",
+      "title": "Add soda and salt",
+      "text": "Use {{ingredients}}: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture.",
+      "generatedText": "4. **Add soda and salt:** Use baking soda, hot water, and kosher salt: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture.",
+      "dependsOn": ["egg"],
+      "assigned": ["dough.soda", "dough.water", "dough.salt"]
+    },
+    {
+      "index": 5,
+      "id": "fold",
+      "title": "Finish the dough",
+      "text": "Stir in {{ingredients}} until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted.",
+      "generatedText": "5. **Finish the dough:** Stir in all-purpose flour, semisweet chocolate chips, and sunflower seeds until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted.",
+      "dependsOn": ["soda"],
+      "assigned": ["dough.flour", "dough.chips", "dough.seeds"]
+    },
+    {
+      "index": 6,
+      "id": "chill",
+      "title": "Chill",
+      "text": "Cover the dough and refrigerate promptly at 40°F / 4°C or below overnight. Plan to portion and bake within 24 hours of mixing; keep waiting dough refrigerated between oven loads.",
+      "generatedText": "6. **Chill:** Cover the dough and refrigerate promptly at 40°F / 4°C or below overnight. Plan to portion and bake within 24 hours of mixing; keep waiting dough refrigerated between oven loads.",
+      "dependsOn": ["fold"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "prep",
+      "title": "Prepare to bake",
+      "text": "After the chill, preheat the oven to 350°F. Line baking sheets with parchment. Portion the dough into evenly sized scoops, allowing about 2 inches between them. The listed count is an approximate cookie count; scoop size determines how many you get. Use additional sheets and oven loads for a larger batch, keeping scoop size and spacing consistent. Wait for the oven to reach temperature before loading.",
+      "generatedText": "7. **Prepare to bake:** After the chill, preheat the oven to 350°F. Line baking sheets with parchment. Portion the dough into evenly sized scoops, allowing about 2 inches between them. The listed count is an approximate cookie count; scoop size determines how many you get. Use additional sheets and oven loads for a larger batch, keeping scoop size and spacing consistent. Wait for the oven to reach temperature before loading.",
+      "dependsOn": ["chill"],
+      "assigned": []
+    },
+    {
+      "index": 8,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Bake for 10–12 minutes per oven load, until the edges are golden and the centers have set but remain soft. Keep unbaked dough refrigerated between loads.",
+      "generatedText": "8. **Bake:** Bake for 10–12 minutes per oven load, until the edges are golden and the centers have set but remain soft. Keep unbaked dough refrigerated between loads.",
+      "dependsOn": ["prep"],
+      "assigned": []
+    },
+    {
+      "index": 9,
+      "id": "finish",
+      "title": "Finish and cool",
+      "text": "Sprinkle {{ingredients}} over the cookies immediately after baking. Leave them on the sheet until firm enough to lift without breaking, then transfer to a rack to cool completely before packing.",
+      "generatedText": "9. **Finish and cool:** Sprinkle flaky sea salt over the cookies immediately after baking. Leave them on the sheet until firm enough to lift without breaking, then transfer to a rack to cool completely before packing.",
+      "dependsOn": ["bake"],
+      "assigned": ["finish.salt"]
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Brown-butter sunflower dough",
+      "alternative": "Separate plain-butter walnut formula in Cooking Options",
+      "effect": "Its larger flour and white-sugar amounts, extra hot water, nuts and immediate baking are a different complete dough; the nut-free designation applies to the sunflower main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "formula": "Current flour2¼cups : starting butter1cup : sugars1½cups : eggs2 : chips2cups : seeds1cup. Original option flour3cups : butter1cup : sugars2cups : eggs2 : chips2cups : walnuts1cup; hot water2tsp versus main1tsp. No gram conversion, lost-butter-water compensation or averaged formula.",
+    "geometry": "No weighed portions or exact sheet capacity established. The full dough is used, portion geometry stays fixed, additional sheets/oven loads are required when scaling.",
+    "planningCount": {
+      "amount": 24,
+      "unit": "piece"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What scoop size actually gives about 24 current brown-butter cookies? How long does the butter take to return to soft-solid in the household kitchen?",
+    "Should the current nut-free main remain the household default? The record establishes persistence of the bulk adaptation, not an explicit household decision rejecting walnuts or the original formula.",
+    "Obtain the actual USDA cookie-specific answer or another applicable primary assessment before authorizing longer refrigerated raw-dough storage.",
+    "Compare overnight versus full-24-hour flavor/spread at actual refrigerator temperature; no physical kitchen testing has occurred.",
+    "A future brown-butter freezing route would be an explicitly disclosed editorial adaptation; do not invent its shelf life or bake-from-frozen clock."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 447,
-    "completeEditorialPending": 196,
+    "recordedCompleteEditorial": 458,
+    "completeEditorialPending": 185,
     "originalBaseline": 612,
-    "originalReviewed": 418,
+    "originalReviewed": 428,
     "consideredConsolidations": 10,
-    "originalPending": 184,
+    "originalPending": 174,
     "additionalSources": 41,
-    "additionalReviewed": 29,
-    "additionalPending": 12,
+    "additionalReviewed": 30,
+    "additionalPending": 11,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 447,
+      "editoriallyReviewed": 458,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 374
+      "reviewItems": 353
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "213 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 447 recorded complete / 196 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [0099ae5b](https://github.com/jsilton/mise/commit/0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37436130449) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "213 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -6517,18 +6517,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6536,19 +6525,28 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/classic-chocolate-chip-cookies.md",
+        "acceptedSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/classic-chocolate-chip-cookies.json",
+        "sourceSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What scoop size actually gives about 24 current brown-butter cookies? How long does the butter take to return to soft-solid in the household kitchen?",
+        "Should the current nut-free main remain the household default? The record establishes persistence of the bulk adaptation, not an explicit household decision rejecting walnuts or the original formula.",
+        "Obtain the actual USDA cookie-specific answer or another applicable primary assessment before authorizing longer refrigerated raw-dough storage.",
+        "Compare overnight versus full-24-hour flavor/spread at actual refrigerator temperature; no physical kitchen testing has occurred.",
+        "A future brown-butter freezing route would be an explicitly disclosed editorial adaptation; do not invent its shelf life or bake-from-frozen clock."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9401,18 +9399,7 @@
       "baseline": "original canonical",
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9420,19 +9407,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/easy-spinach-gnocchi.md",
+        "acceptedSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/easy-spinach-gnocchi.json",
+        "sourceSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual frozen-spinach package cooking requirement and ricotta moisture must be checked.",
+        "Four portions are source planning, not counted or weighed finished yield.",
+        "Measure resulting firmness and center temperature for same-sized pieces; package preprocessing adds active/cooling time.",
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9573,13 +9568,7 @@
       "baseline": "addition",
       "source": "loveandlemons.com",
       "sourceUrl": "https://www.loveandlemons.com/stuffed-shells-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9587,19 +9576,28 @@
         "evidence": ["docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.json",
+        "sourceSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual jumbo-shell brand/count breakage and dish depth influence fitting all filling; no added pasta count invented.",
+        "Source20min fresh versus30min chilled clocks remain first-check plans; actual165 centers govern.",
+        "Published60min includes more preparation than current50; plan50–70min or longer without kitchen certification.",
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions.",
+        "Actual oven preheat, dish load, shell preparation and cold-center elapsed time remain unmeasured."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10382,18 +10380,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10401,19 +10388,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/freezer-date-cookies.md",
+        "acceptedSha256": "66bf0dba1a99441b395710d8dbf400fa06d8524252f58b12e372cd74fdf733d4",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/freezer-date-cookies.json",
+        "sourceSha256": "66bf0dba1a99441b395710d8dbf400fa06d8524252f58b12e372cd74fdf733d4"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What was the original family or publisher source, if known? How firm are these cookies when frozen, and which date variety works best? What keeping quality is acceptable for the household freezer? Does the later tablespoon-size guide give24cookies or a higher count from the full dough?",
+        "Root: retain current main/nutritious browsing, or adopt proposed dessert/comfort as an explicit editorial change while preserving breakfast/snack links?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10622,18 +10615,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10641,19 +10623,29 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/fresh-pasta-dough.md",
+        "acceptedSha256": "ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/fresh-pasta-dough.json",
+        "sourceSha256": "ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which actual mixer model/capacity is used, especially for scaled batches?",
+        "Current00 choice is not specified by protein or pasta suitability; absorption differs and no source-supported adjustment dose is invented.",
+        "Kosher salt brand remains unspecified in saved formula; modern brand-specific alternatives are disclosed privately, not normalized.",
+        "One-pound yield is approximate source planning; rolled shape, filling, cooking time and freeze-quality duration remain dish-specific.",
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions.",
+        "Any future raw-dough freezing route and freezer-quality interval require applicable evidence for the chosen shape."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11871,18 +11863,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Eatingwell.com",
       "sourceUrl": "http://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11890,19 +11871,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.md",
+        "acceptedSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.json",
+        "sourceSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual gnocchi package state and instructions govern; floating alone is insufficient for every product.",
+        "Salt type was unspecified in the saved recipe; optional½tsp is that original source volume without conversion.",
+        "Actual skillet size governs batching; source4portions/20min remains planning, not capacity certification.",
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12960,18 +12949,7 @@
       "baseline": "original canonical",
       "source": "Adapted from ToriAvey.com",
       "sourceUrl": "https://toriavey.com/toris-kitchen/buttery-hamantaschen/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12979,19 +12957,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/hamantaschen.md",
+        "acceptedSha256": "ade290d52e7a0e7ca71e7e9778265a914b648111e0df8575e5bb272ec35d675c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/hamantaschen.json",
+        "sourceSha256": "ade290d52e7a0e7ca71e7e9778265a914b648111e0df8575e5bb272ec35d675c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which specific filling and quantity is used, and does its label or recipe require refrigeration? What rolling thickness and count does the household actually prefer?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13007,18 +12990,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/har-gow/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13026,19 +12998,30 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/har-gow-dim-sum-shrimp-dumplings.md",
+        "acceptedSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/har-gow-dim-sum-shrimp-dumplings.json",
+        "sourceSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "How do the actual starch brands and humidity affect the documented optional1–2tsp adjustment?",
+        "Does the actual steamer fit the listed count with1½inch spacing, and how many batches are needed?",
+        "The165 stuffed-seafood filling application is editorial use of FDA2022 retail-model guidance, not a publisher test or automatic home regulation. Measure actual centers and texture in kitchen.",
+        "Current140min plan is conservative and retains30minchill; modernpublisher80min includes20min steaming versus native malformed80mincook label. No exact personal active clock is certified.",
+        "DimSumFeast’s day-before dough/freezing and8–10min batch plan differ from this source’s fresh best-quality wrappers; linked meal receives no approval.",
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions.",
+        "Dim Sum Feast day-before/freezing and8–10-minute service plan remains separately unreviewed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17250,18 +17233,7 @@
       "baseline": "original canonical",
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17269,19 +17241,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/mm-cookies.md",
+        "acceptedSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/mm-cookies.json",
+        "sourceSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does the household prefer the current2/3+1/3 split or Robbi’s original half/half? Can teaspoon portions of this actual dough reasonably produce72cookies?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17928,18 +17905,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Verybestbaking.com",
       "sourceUrl": "https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17947,19 +17913,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/old-fashioned-soft-pumpkin-cookies.md",
+        "acceptedSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/old-fashioned-soft-pumpkin-cookies.json",
+        "sourceSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Was removing the glaze vanilla intentional? No later accepted or explicit instruction was found. Which glaze butter state and storage texture does the household prefer?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24751,18 +24722,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Mimi (Pat Hamilton)",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -24770,19 +24730,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/snickerdoodles.md",
+        "acceptedSha256": "7f3bad3911ce975f756c116773b121e3dc27f4e6be5ca85026fc22824059ac1b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/snickerdoodles.json",
+        "sourceSha256": "7f3bad3911ce975f756c116773b121e3dc27f4e6be5ca85026fc22824059ac1b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What ball size makes the current36cookies versus Mimi’s70-or-more? Which margarine was used, and does it spread differently?",
+        "Which flour preparation and margarine product did Mimi actually use? What portion size produces the family’s preferred count and texture?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

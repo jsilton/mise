@@ -1,0 +1,1022 @@
+{
+  "slug": "old-fashioned-soft-pumpkin-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "c68c255bb702815650e02dfef7fab89f611958a604509734a9b13f2c0ecbbb3d",
+  "acceptedSourceSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–18 min per oven load"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "27–30 min, plus remaining preheating, extra oven loads, cooling and glazing"
+    },
+    {
+      "field": "servings",
+      "before": "36",
+      "after": "36 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Pure Pumpkin Puree",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
+        "1 1/2 cups Granulated Sugar",
+        "1 large Egg",
+        "1 tsp Pure Vanilla Extract",
+        "2 1/2 cups All-Purpose Flour",
+        "1 tsp Baking Soda",
+        "1 tsp Baking Powder",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Ground Nutmeg",
+        "1/2 tsp Sea Salt",
+        "2 cups Confectioners’ Sugar",
+        "3 tbsp Milk",
+        "1 tbsp Unsalted Butter, melted"
+      ],
+      "after": [
+        "--- Pumpkin cookie dough ---",
+        "1 cup pure pumpkin puree",
+        "1/2 cup (1 stick) unsalted butter, softened",
+        "1 1/2 cups granulated sugar",
+        "1 large egg",
+        "1 tsp pure vanilla extract",
+        "2 1/2 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp baking powder",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground nutmeg",
+        "1/2 tsp sea salt",
+        "--- Vanilla glaze ---",
+        "2 cups confectioners’ sugar, sifted",
+        "3 tbsp milk",
+        "1 tbsp unsalted butter, melted",
+        "1 tsp pure vanilla extract",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to lightly grease baking sheets"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 110,
+        "protein": 1,
+        "carbs": 26.5,
+        "fat": 0.5,
+        "fiber": 0,
+        "sugar": 19.5,
+        "sodium": 120
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 36,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Pumpkin cookie dough",
+            "ingredients": [
+              {
+                "id": "pumpkin",
+                "key": "pumpkin",
+                "name": "pure pumpkin puree",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 1,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "softened"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "ground nutmeg",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "glaze",
+            "name": "Vanilla glaze",
+            "ingredients": [
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "confectioners’ sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sifted"
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "milk",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Pan preparation",
+            "ingredients": [
+              {
+                "id": "grease",
+                "key": "grease",
+                "name": "butter or baking spray",
+                "allowance": "enough to lightly grease baking sheets",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 350°F. Use {{ingredients}} to lightly grease baking sheets, and have a cooling rack ready."
+          },
+          {
+            "id": "dry",
+            "title": "Mix dry ingredients",
+            "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+          },
+          {
+            "id": "cream",
+            "title": "Cream",
+            "text": "Beat {{ingredients}} in a large bowl until fluffy, scraping the bowl."
+          },
+          {
+            "id": "egg",
+            "title": "Add pumpkin",
+            "text": "Beat in {{ingredients}} until evenly mixed."
+          },
+          {
+            "id": "combine",
+            "title": "Combine",
+            "text": "Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable."
+          },
+          {
+            "id": "shape",
+            "title": "Shape",
+            "text": "Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all the dough; the listed count is a planning value. Keep scoop size consistent and use extra sheets or loads as the batch grows."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or below between loads."
+          },
+          {
+            "id": "cool",
+            "title": "Cool before glazing",
+            "text": "Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding the glaze."
+          },
+          {
+            "id": "glaze",
+            "title": "Glaze",
+            "text": "Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keeping dough and glaze quantities separate, then cooling before glazing.",
+        "outcome": "Soft pumpkin cookies with a smooth vanilla glaze on their cooled surfaces.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use pure pumpkin puree, not pumpkin pie filling. The dough vanilla and glaze vanilla are separate full amounts; the component list gives their destinations.",
+          "Preheat to 350°F while mixing and prepare enough sheet space for rounded tablespoon portions. Cooling completely before glazing is required and has no fixed duration here.",
+          "Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.",
+          "If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie dimensions and baking temperature fixed."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The salt, both leaveners and spices are evenly whisked into the flour.",
+            "why": "Salt must have a destination alongside the flour; “spices” alone does not account for it."
+          },
+          {
+            "step": 7,
+            "cue": "Firm edges on cookies that are still soft.",
+            "why": "This pumpkin dough is a soft-cookie recipe, not a crisp-cookie or snap endpoint."
+          },
+          {
+            "step": 9,
+            "cue": "A smooth glaze on cookies that are completely cool.",
+            "why": "Warm cookies can thin and absorb the drizzle instead of retaining a surface glaze."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Glaze runs off or soaks in.",
+            "cause": "Cookies are still warm when glazed.",
+            "fix": "Wait until they have cooled completely on the rack, then distribute the full glaze over the batch."
+          },
+          {
+            "problem": "Glaze is lumpy.",
+            "cause": "Confectioners’ sugar was clumped or the alternate softened butter was not blended smoothly.",
+            "fix": "Sift the listed sugar and whisk thoroughly. Keep the stated milk and butter quantities rather than guessing extra liquid."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Melted butter in the glaze",
+            "alternative": "The same listed amount of softened butter",
+            "effect": "The modern publisher uses softened glaze butter; this is a separate state choice, retaining all glaze ingredients and the softened butter in the dough."
+          }
+        ],
+        "storage": "Cool the cookies completely and let the glaze settle before packing. Because this glaze contains milk and its room-temperature keeping quality is unmeasured, refrigerate glazed cookies at 40°F / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C. This is a conservative storage plan, with no validated shelf life or crisp-shell guarantee.",
+        "timing": "Plan 10 minutes for mixing, 15–18 minutes per oven load and the two-minute sheet rest: 27–30 minutes is a first-load subtotal. Preheating begins with mixing; any remaining oven heating, later loads, complete rack cooling and glazing extend the total. The cookies must be cool before glaze is added.",
+        "sources": [
+          {
+            "title": "LIBBY’S — full dough/glaze vanilla allocations and cooling sequence",
+            "url": "https://www.verybestbaking.com/libbys/recipes/old-fashioned-soft-pumpkin-cookies/"
+          },
+          {
+            "title": "FDA — raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "FDA — conservative handling of perishable dairy glaze",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese autumn cookies achieve incredible softness by whisking pumpkin puree directly into creamed butter and sugar, ensuring moisture is fully emulsified before flour is added. The butter-sugar glaze adds sweetness that balances earthy spices. Don't over-bake - these cookies should be remarkably soft.\n\n## Directions\n\n1.  **Dry Mix:** Whisk together flour, baking soda, baking powder, and spices.\n2.  **Cream:** In a large bowl, beat softened butter and sugar until fluffy. Add the pumpkin, egg, and vanilla; beat until smooth.\n3.  **Combine:** Gradually add the dry mix until **just combined**. The batter will be very soft and scoopable.\n4.  **Shape:** Drop by rounded tablespoons onto greased sheets.\n5.  **Bake:** Bake at 350°F for 15-18 minutes until the edges are firm and the tops are slightly golden.\n6.  **Glaze:** Whisk glaze ingredients until smooth. Drizzle over warm cookies.\n7.  **Serve:** Let cool for 10 minutes to allow the glaze to set into a \"Snap.\"\n",
+    "after": "\n## Chef's Note\n\nUse pure pumpkin puree rather than sweetened pumpkin pie filling. The pumpkin dough and the vanilla glaze each have their own vanilla amount. Cool the cookies completely before drizzling so the glaze stays on the surface rather than running off warm cookies.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Use butter or baking spray to lightly grease baking sheets, and have a cooling rack ready.\n2. **Mix dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground nutmeg, and sea salt in a medium bowl so the spices, salt and leaveners are distributed.\n3. **Cream:** Beat unsalted butter and granulated sugar in a large bowl until fluffy, scraping the bowl.\n4. **Add pumpkin:** Beat in pure pumpkin puree, large egg, and pure vanilla extract until evenly mixed.\n5. **Combine:** Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable.\n6. **Shape:** Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all the dough; the listed count is a planning value. Keep scoop size consistent and use extra sheets or loads as the batch grows.\n7. **Bake:** Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or below between loads.\n8. **Cool before glazing:** Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding the glaze.\n9. **Glaze:** Whisk confectioners’ sugar, milk, unsalted butter, and pure vanilla extract until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies.\n\n## Cooking Options\n\n### Glaze butter option\n\nThe melted-butter glaze is written above. The current LIBBY’S publisher version instead uses the same listed amount of softened butter in the glaze. Choose one butter state for that glaze, whisking it smooth; keep all the milk, confectioners’ sugar and vanilla amounts. The dough’s softened butter is a separate allocation.\n"
+  },
+  "findings": [
+    {
+      "id": "CKF03-PU01",
+      "title": "CKF03-PU01",
+      "rationale": "Restore the separate glaze1tsp vanilla lost at23b28c81; native method/earlier Git explicitly2cups sugar+3tbsp milk+1tbsp meltedbutter+1tsp vanilla and publisher2tspvanilladivided corroborate. Preserve current1tsp dough vanilla and all full richness; salt now has its explicit dry destination. Restore source2minpan/fullrackcool before glaze rather than unsupported warm-glaze Snap.",
+      "confidence": "high for vanilla/salt/cooling restoration; moderate for conservative dairy-glaze storage application",
+      "applicableSources": [
+        "frozen-current",
+        "native-original",
+        "earlier-HTML",
+        "23b28c81ec78e13a85ee322d7941da79dfc02a8b",
+        "https://www.verybestbaking.com/libbys/recipes/old-fashioned-soft-pumpkin-cookies/"
+      ],
+      "sourceApplicability": "Exact saved source and current publisher establish the missing glaze amount and complete-cooling sequence. Current publisher uses softened glaze butter whereas native/current use melted; retain current melted main and disclose a separate softened-state option. General FDA perishable guidance is a conservative application to unmeasured dairy glaze, not validation of cookie shelf life.",
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content", "learning"],
+      "questions": [
+        "Was removing the glaze vanilla intentional? No later accepted or explicit instruction was found. Which glaze butter state and storage texture does the household prefer?"
+      ]
+    },
+    {
+      "id": "CKF03-old-fashioned-soft-pumpkin-cookies-META",
+      "title": "CKF03-old-fashioned-soft-pumpkin-cookies-META",
+      "rationale": "Remove the unsupported United States country-origin field added by bulk2a7f3853, preserving American cuisine/style and source authorship. Remove unverified per-serving nutrition added at902e7e8e rather than carry numerical claims across unmeasured cookie counts/restored supplies. Keep the exact current numeric planning count as pieces and explicitly explain actual count, pan loads and cooling. Authored formula and three generated views share one full-quantity source; learning is recipe-specific editorial review, not kitchen testing.",
+      "confidence": "high for unsupported metadata removal and quantity preservation; moderate for unmeasured planning",
+      "applicableSources": [
+        "frozen-current",
+        "earlier-HTML",
+        "actual-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Exact history distinguishes countrymetadata/nutrition additions from named source/family recipe. Arithmetic and current/source cooking cues support planning caveats. FDA only supports raw-dough handling.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "nutrition",
+        "servings",
+        "formula",
+        "learning",
+        "cookTime",
+        "totalTime"
+      ],
+      "questions": [
+        "Was removing the glaze vanilla intentional? No later accepted or explicit instruction was found. Which glaze butter state and storage texture does the household prefer?"
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Old-Fashioned%20Soft%20Pumpkin%20Cookies.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "finding": "CKF03-PU01",
+      "text": "Restore the separate glaze1tsp vanilla lost at23b28c81; native method/earlier Git explicitly2cups sugar+3tbsp milk+1tbsp meltedbutter+1tsp vanilla and publisher2tspvanilladivided corroborate. Preserve current1tsp dough vanilla and all full richness; salt now has its explicit dry destination. Restore source2minpan/fullrackcool before glaze rather than unsupported warm-glaze Snap.",
+      "limits": "Exact saved source and current publisher establish the missing glaze amount and complete-cooling sequence. Current publisher uses softened glaze butter whereas native/current use melted; retain current melted main and disclose a separate softened-state option. General FDA perishable guidance is a conservative application to unmeasured dairy glaze, not validation of cookie shelf life."
+    }
+  ],
+  "ledger": [
+    {
+      "id": "dough.pumpkin",
+      "name": "pure pumpkin puree",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}} until evenly mixed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [
+        {
+          "amount": 1,
+          "unit": "stick"
+        }
+      ],
+      "state": "softened",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat {{ingredients}} in a large bowl until fluffy, scraping the bowl."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.sugar",
+      "name": "granulated sugar",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat {{ingredients}} in a large bowl until fluffy, scraping the bowl."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.egg",
+      "name": "large egg",
+      "quantity": {
+        "amount": 1,
+        "unit": "count"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}} until evenly mixed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.vanilla",
+      "name": "pure vanilla extract",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}} until evenly mixed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": "2 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.soda",
+      "name": "baking soda",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.powder",
+      "name": "baking powder",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.cinnamon",
+      "name": "ground cinnamon",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.nutmeg",
+      "name": "ground nutmeg",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.salt",
+      "name": "sea salt",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "glaze.sugar",
+      "name": "confectioners’ sugar",
+      "quantity": {
+        "amount": 2,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "sifted",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1,
+          "text": "Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "glaze.milk",
+      "name": "milk",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1,
+          "text": "Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "glaze.butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "melted",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1,
+          "text": "Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "glaze.vanilla",
+      "name": "pure vanilla extract",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1,
+          "text": "Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "pan.grease",
+      "name": "butter or baking spray",
+      "quantity": null,
+      "allowance": "enough to lightly grease baking sheets",
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "prep",
+          "share": 1,
+          "text": "Preheat the oven to 350°F. Use {{ingredients}} to lightly grease baking sheets, and have a cooling rack ready."
+        }
+      ],
+      "allocationTotal": 1
+    }
+  ],
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F. Use {{ingredients}} to lightly grease baking sheets, and have a cooling rack ready.",
+      "generatedText": "1. **Prepare:** Preheat the oven to 350°F. Use butter or baking spray to lightly grease baking sheets, and have a cooling rack ready.",
+      "dependsOn": [],
+      "assigned": ["pan.grease"]
+    },
+    {
+      "index": 2,
+      "id": "dry",
+      "title": "Mix dry ingredients",
+      "text": "Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed.",
+      "generatedText": "2. **Mix dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground nutmeg, and sea salt in a medium bowl so the spices, salt and leaveners are distributed.",
+      "dependsOn": ["prep"],
+      "assigned": [
+        "dough.flour",
+        "dough.soda",
+        "dough.powder",
+        "dough.cinnamon",
+        "dough.nutmeg",
+        "dough.salt"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "cream",
+      "title": "Cream",
+      "text": "Beat {{ingredients}} in a large bowl until fluffy, scraping the bowl.",
+      "generatedText": "3. **Cream:** Beat unsalted butter and granulated sugar in a large bowl until fluffy, scraping the bowl.",
+      "dependsOn": ["dry"],
+      "assigned": ["dough.butter", "dough.sugar"]
+    },
+    {
+      "index": 4,
+      "id": "egg",
+      "title": "Add pumpkin",
+      "text": "Beat in {{ingredients}} until evenly mixed.",
+      "generatedText": "4. **Add pumpkin:** Beat in pure pumpkin puree, large egg, and pure vanilla extract until evenly mixed.",
+      "dependsOn": ["cream"],
+      "assigned": ["dough.pumpkin", "dough.egg", "dough.vanilla"]
+    },
+    {
+      "index": 5,
+      "id": "combine",
+      "title": "Combine",
+      "text": "Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable.",
+      "generatedText": "5. **Combine:** Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable.",
+      "dependsOn": ["egg"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "shape",
+      "title": "Shape",
+      "text": "Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all the dough; the listed count is a planning value. Keep scoop size consistent and use extra sheets or loads as the batch grows.",
+      "generatedText": "6. **Shape:** Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all the dough; the listed count is a planning value. Keep scoop size consistent and use extra sheets or loads as the batch grows.",
+      "dependsOn": ["combine"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or below between loads.",
+      "generatedText": "7. **Bake:** Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or below between loads.",
+      "dependsOn": ["shape"],
+      "assigned": []
+    },
+    {
+      "index": 8,
+      "id": "cool",
+      "title": "Cool before glazing",
+      "text": "Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding the glaze.",
+      "generatedText": "8. **Cool before glazing:** Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding the glaze.",
+      "dependsOn": ["bake"],
+      "assigned": []
+    },
+    {
+      "index": 9,
+      "id": "glaze",
+      "title": "Glaze",
+      "text": "Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies.",
+      "generatedText": "9. **Glaze:** Whisk confectioners’ sugar, milk, unsalted butter, and pure vanilla extract until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies.",
+      "dependsOn": ["cool"],
+      "assigned": ["glaze.sugar", "glaze.milk", "glaze.butter", "glaze.vanilla"]
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Melted butter in the glaze",
+      "alternative": "The same listed amount of softened butter",
+      "effect": "The modern publisher uses softened glaze butter; this is a separate state choice, retaining all glaze ingredients and the softened butter in the dough."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "formula": "Dough flour2½cups : butter½cup : sugar1½cups : pumpkin1cup : egg1. Dough soda1tsp/powder1tsp both retained. Glaze sugar2cups : milk3tbsp : meltedbutter1tbsp : restoredvanilla1tsp; doughvanilla1tsp remains, combinedshopping2tsp.",
+    "geometry": "No weighed portions or exact sheet capacity established. The full dough is used, portion geometry stays fixed, additional sheets/oven loads are required when scaling.",
+    "planningCount": {
+      "amount": 36,
+      "unit": "piece"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Was removing the glaze vanilla intentional? No later accepted or explicit instruction was found. Which glaze butter state and storage texture does the household prefer?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

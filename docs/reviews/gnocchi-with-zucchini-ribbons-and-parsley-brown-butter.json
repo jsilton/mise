@@ -1,0 +1,510 @@
+{
+  "slug": "gnocchi-with-zucchini-ribbons-and-parsley-brown-butter",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "eac9f4bad5fd3d4f46edb96a650dc288e889698061b5e1beafc5330bdd9427d1",
+  "acceptedSourceSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Fresh or Frozen Potato Gnocchi",
+        "1 lb Zucchini (about 3 small), shaved into ribbons",
+        "1 pint Cherry Tomatoes, halved",
+        "2 tbsp Unsalted Butter",
+        "2 medium Shallots, minced",
+        "1/2 cup Fresh Parsley, chopped",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "1 lb Fresh or Frozen Potato Gnocchi",
+        "1 lb Zucchini (about 3 small), shaved into ribbons",
+        "1 pint Cherry Tomatoes, halved",
+        "2 tbsp Unsalted Butter",
+        "2 medium Shallots, minced",
+        "1/2 cup Fresh Parsley, chopped",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1/2 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 90,
+        "protein": 1.5,
+        "carbs": 8.5,
+        "fat": 6,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium": 50
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Catch the butter before its solids burn",
+        "outcome": "Tender ribbons and intact gnocchi coated with nutty butter and the full cheese.",
+        "techniques": ["starch"],
+        "before": [
+          "Prepare all the ribbons, shallots and tomatoes before browning the butter. Use enough skillet loads for the vegetables to move freely, dividing the full butter and seasonings among them; boil gnocchi separately according to its package and keep heat and piece size unchanged when scaling.",
+          "Wash zucchini, tomatoes and parsley before preparation. Use enough skillet batches for the whole listed vegetables."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Golden flecks and a nutty smell, without black solids.",
+            "why": "Butter can continue browning quickly while vegetables are being prepared."
+          },
+          {
+            "step": 5,
+            "cue": "The pieces are coated and still intact.",
+            "why": "Gentle tossing protects soft cooked gnocchi."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter solids turn black or smell acrid",
+            "cause": "Heat is too high or vegetables are not ready when the butter turns golden.",
+            "fix": "Have the vegetables ready before melting the butter. Watch the solids and lower the heat if they darken rapidly; blackened, acrid butter cannot be turned back into nutty brown butter by adding tomatoes."
+          }
+        ],
+        "timing": "About 20 minutes is the source original-batch plan when boiling water and skillet work overlap. Allow more for ribbon preparation, frozen-product instructions or additional skillet loads.",
+        "substitutions": [
+          {
+            "ingredient": "Salt to taste",
+            "alternative": "Use the listed optional measured salt instead of the taste-based salt allowance in step 4.",
+            "effect": "The original batch used ½ teaspoon unspecified salt. The measured row scales; do not combine both salt routes or infer a kosher-salt density conversion."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat to 165°F / 74°C throughout. Make only what you plan to serve when delicate texture matters; handling guidance does not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "zucchini — recipe-specific method",
+            "url": "https://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBrown butter (beurre noisette in French, literally \"hazelnut butter\") is a classic Italian and French technique where you cook butter until milk solids turn golden and release nutty aroma. Use a vegetable peeler to shave zucchini into paper-thin ribbons so they wilt quickly. Cherry tomatoes release just enough moisture to help brown butter coat the gnocchi. Nutmeg is traditional in Italian cooking with butter and herbs.\n\n## Directions\n\n1.  **Boil:** Bring a large pot of salted water to a boil. Cook gnocchi until they float (3-5 mins). Drain.\n2.  **Brown:** Meanwhile, in a large skillet, melt butter over medium-high heat. Cook for 2 minutes until it stops foaming and turns golden brown with a nutty aroma.\n3.  **Aromatics:** Add shallots and zucchini ribbons. Sauté for 2 minutes, tossing constantly until just wilted.\n4.  **Emulsify:** Add halved tomatoes, salt, nutmeg, and pepper. Cook for 2 minutes until the tomatoes just begin to release their juices and form a light sauce.\n5.  **Toss:** Add the drained gnocchi, Parmesan, and parsley to the skillet.\n6.  **Bind:** Toss vigorously for 30 seconds until the cheese is melted and the gnocchi is glossy and coated. Serve immediately.\n\n## Cooking Notes\n\nCut ribbon-thin zucchini lengthwise with a vegetable peeler or mandoline. Use a guard with the mandoline.\n",
+    "after": "\n## Chef's Note\n\nWatch the butter’s milk solids rather than waiting for all foaming to stop: they should begin turning golden and smell nutty before the shallots and thin zucchini ribbons go in. Toss the gnocchi gently so the full Parmesan and parsley coat it without crushing the pieces.\n\n## Directions\n\n1. **Cook gnocchi:** Bring a large pot of salted water to a boil. Cook the fresh or frozen gnocchi according to its package, generally 3–5 minutes as a starting point, until floating and cooked through. Drain; do not automatically thaw a product whose package says to cook from frozen.\n2. **Brown butter:** Meanwhile, melt all the butter in a large skillet over medium-high heat. Cook until the milk solids begin turning golden and smell nutty, around 2 minutes as a guide. Lower the heat if they darken rapidly; do not wait for a fixed clock or complete cessation of foam.\n3. **Cook vegetables:** Add all the minced shallots and washed, ribbon-thin zucchini. Cook, stirring often, about 2–3 minutes until softened. Use enough skillet batches for the full scaled vegetables, dividing the full butter and seasonings among them.\n4. **Add tomatoes:** Add all the washed halved tomatoes, the salt from your chosen seasoning route, all the nutmeg and pepper to taste. Cook about 1–2 minutes until the tomatoes begin to release juices and break down.\n5. **Combine:** Add all the drained gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. Combine all cooked batches for serving if a bowl gives more room than the skillet.\n6. **Serve:** Serve promptly, keeping the gnocchi intact rather than tossing vigorously against a crowded pan.\n\n## Cooking Notes\n\nCut ribbon-thin zucchini lengthwise with a vegetable peeler or mandoline. Use a guard with the mandoline.\n"
+  },
+  "findings": [
+    {
+      "id": "PDF05-6",
+      "title": "PDF05-6",
+      "rationale": "Preserve current full2tbsp butter/½cupParm/½parsley and taste-based route. Exact native/045/publisher½tsp unspecified salt is separately restored as exclusive source option, not a guessed density match to kosher/sea. Package route and golden-solids endpoint restored; vigorous toss softened to protect pieces. No recipe-specific Italian origin established by this contemporary publisher, and bulk nutrition is unsupported.",
+      "confidence": "High exact source measures/history; moderate editorial safety category/batching/planning",
+      "applicableSources": [
+        {
+          "url": "https://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/",
+          "scope": "Actual EatingWell full recipe, native and045 agree all rich measures and½tsp generic salt, original flexible3–5min/package cooking,beginning-to-brown butter/2–3min zucchini/1–2tomato stages. 0d970 bulk rewrite replaced salt with taste and made clocks harder; no later explicit salt-choice decision established. Current taste route retained; source½tsp alternative exclusive, no density assumption."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce/separate raw contact/cold40F/prompt2h1h/egg160/leftover/casserole165 only; no formula/pan/yield validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "scope": "Do not eat raw flour/egg dough; package instructions and clean handling, no invented cook duration"
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "origin", "nutrition", "learning", "content"],
+      "questions": [
+        "Actual gnocchi package state and instructions govern; floating alone is insufficient for every product.",
+        "Salt type was unspecified in the saved recipe; optional½tsp is that original source volume without conversion.",
+        "Actual skillet size governs batching; source4portions/20min remains planning, not capacity certification."
+      ]
+    },
+    {
+      "id": "PDF05-I05",
+      "title": "PDF05-I05",
+      "rationale": "All five proposals repeat the same pot/processor/skillet preparation and generic texture-versus-clock troubleshooting. It gives no actual failure or correction and includes irrelevant equipment. Replace only these four fields with decisions and corrections grounded in this recipe’s existing final method; no dose, route, rest duration, temperature or capacity number is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Requires individual before-cooking equipment decisions and problem/cause/actionable-fix teaching; forbids bulk filler."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing complete method supplies the actual equipment, piece geometry and correction cues."
+        },
+        {
+          "url": "https://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/",
+          "scope": "Recipe-specific handling and cooking cues; exact wording of this proposed teaching is editorial, not publisher verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions."
+      ]
+    },
+    {
+      "id": "PDF05-I08",
+      "title": "PDF05-I08",
+      "rationale": "Preserve every option, full sauce allowance and full butter allocation while removing public archive/editor commentary. The separate larger-piece and seasoning instructions remain complete; the useful named marinara choice remains an option; no extra cooking oil is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public cooking prose excludes archive/editing commentary."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Supports larger-piece shaping/finish option."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Preserves exact named optional marinara note privately and its full sauce destination."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing division of all listed butter and seasonings remains verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Gnocchi%20with%20Zucchini%20Ribbons%20&%20Parsley%20Brown%20Butter.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual EatingWell full recipe, native and045 agree all rich measures and½tsp generic salt, original flexible3–5min/package cooking,beginning-to-brown butter/2–3min zucchini/1–2tomato stages. 0d970 bulk rewrite replaced salt with taste and made clocks harder; no later explicit salt-choice decision established. Current taste route retained; source½tsp alternative exclusive, no density assumption.",
+      "questions": [
+        "Actual gnocchi package state and instructions govern; floating alone is insufficient for every product.",
+        "Salt type was unspecified in the saved recipe; optional½tsp is that original source volume without conversion.",
+        "Actual skillet size governs batching; source4portions/20min remains planning, not capacity certification."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Fresh or Frozen Potato Gnocchi",
+        "actualMethodDestination": "step1cook/5toss"
+      },
+      {
+        "text": "1 lb Zucchini (about 3 small), shaved into ribbons",
+        "actualMethodDestination": "step3cook"
+      },
+      {
+        "text": "1 pint Cherry Tomatoes, halved",
+        "actualMethodDestination": "step4cook"
+      },
+      {
+        "text": "2 tbsp Unsalted Butter",
+        "actualMethodDestination": "step2brown"
+      },
+      {
+        "text": "2 medium Shallots, minced",
+        "actualMethodDestination": "step3cook"
+      },
+      {
+        "text": "1/2 cup Fresh Parsley, chopped",
+        "actualMethodDestination": "step5toss"
+      },
+      {
+        "text": "1/2 cup Freshly Grated Parmesan",
+        "actualMethodDestination": "step5toss"
+      },
+      {
+        "text": "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "actualMethodDestination": "step4cook"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "actualMethodDestination": "step1saltwater/4saltpepper"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 lb Fresh or Frozen Potato Gnocchi",
+        "actualMethodDestination": "step1cook/5combine"
+      },
+      {
+        "text": "1 lb Zucchini (about 3 small), shaved into ribbons",
+        "actualMethodDestination": "step3cook"
+      },
+      {
+        "text": "1 pint Cherry Tomatoes, halved",
+        "actualMethodDestination": "step4cook"
+      },
+      {
+        "text": "2 tbsp Unsalted Butter",
+        "actualMethodDestination": "step2brown"
+      },
+      {
+        "text": "2 medium Shallots, minced",
+        "actualMethodDestination": "step3cook"
+      },
+      {
+        "text": "1/2 cup Fresh Parsley, chopped",
+        "actualMethodDestination": "step5combine"
+      },
+      {
+        "text": "1/2 cup Freshly Grated Parmesan",
+        "actualMethodDestination": "step5combine"
+      },
+      {
+        "text": "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "actualMethodDestination": "step4cook"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "actualMethodDestination": "step1saltwater/4taste route pepper"
+      },
+      {
+        "text": "1/2 tsp salt, optional alternative to salt to taste; choose one salt route",
+        "actualMethodDestination": "step4exclusive source salt"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "1 pound fresh or frozen gnocchi\n2 tablespoons butter\n2 medium shallots, chopped\n1 pound zucchini, (about 3 small), very thinly sliced lengthwise (see Tip)\n1 pint cherry tomatoes, halved\n½ teaspoon salt\n¼ teaspoon grated nutmeg\nFreshly ground pepper, to taste\n½ cup grated Parmesan cheese\n½ cup chopped fresh parsley",
+      "directions": "Bring a large saucepan of water to a boil. Cook gnocchi until they float, 3 to 5 minutes or according to package directions. Drain. Meanwhile, melt butter in a large skillet over medium-high heat. Cook until the butter is beginning to brown, about 2 minutes. Add shallots and zucchini and cook, stirring often, until softened, 2 to 3 minutes. Add tomatoes, salt, nutmeg and pepper and continue cooking, stirring often, until the tomatoes are just starting to break down, 1 to 2 minutes. Stir in Parmesan and parsley. Add the gnocchi and toss to coat. Serve immediately.",
+      "notes": "Tip: To make “ribbon-thin” zucchini, slice lengthwise with a vegetable peeler or a mandoline slicer.",
+      "scope": "Exact durable original450 binding; distinct from frozen current ledger"
+    },
+    "frozenMethodOnly": ["step1cooking water unmeasured"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Cook gnocchi: Bring a large pot of salted water to a boil. Cook the fresh or frozen gnocchi according to its package, generally 3–5 minutes as a starting point, until floating and cooked through. Drain; do not automatically thaw a product whose package says to cook from frozen."
+    },
+    {
+      "step": 2,
+      "text": "Brown butter: Meanwhile, melt all the butter in a large skillet over medium-high heat. Cook until the milk solids begin turning golden and smell nutty, around 2 minutes as a guide. Lower the heat if they darken rapidly; do not wait for a fixed clock or complete cessation of foam."
+    },
+    {
+      "step": 3,
+      "text": "Cook vegetables: Add all the minced shallots and washed, ribbon-thin zucchini. Cook, stirring often, about 2–3 minutes until softened. Use enough skillet batches for the full scaled vegetables, dividing the full butter and seasonings among them."
+    },
+    {
+      "step": 4,
+      "text": "Add tomatoes: Add all the washed halved tomatoes, the salt from your chosen seasoning route, all the nutmeg and pepper to taste. Cook about 1–2 minutes until the tomatoes begin to release juices and break down."
+    },
+    {
+      "step": 5,
+      "text": "Combine: Add all the drained gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. Combine all cooked batches for serving if a bowl gives more room than the skillet."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve promptly, keeping the gnocchi intact rather than tossing vigorously against a crowded pan."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Salt to taste",
+      "alternative": "Use the listed optional measured salt instead of the taste-based salt allowance in step 4.",
+      "effect": "The original batch used ½ teaspoon unspecified salt. The measured row scales; do not combine both salt routes or infer a kosher-salt density conversion."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["everyday-arugula-salad", "vietnamese-grilled-chicken"],
+    "incomingMeals": [],
+    "scope": "Full FreshEggPasta linked recipe read: different290g/2eggs3yolks formula, rolling technique only. DimSumFeast read whole: day-before dough/freezing/8–10minbatch differs freshbestqualityHar; not accepted here. Other metadata pairings no measured amounts or substitutions."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "yieldScope": "Retained original-batch source/current planning, not measured kitchen yield",
+    "capacity": "Prepare all the ribbons, shallots and tomatoes before browning the butter. Use enough skillet loads for the vegetables to move freely, dividing the full butter and seasonings among them; boil gnocchi separately according to its package and keep heat and piece size unchanged when scaling.",
+    "timing": "About 20 minutes is the source original-batch plan when boiling water and skillet work overlap. Allow more for ribbon preparation, frozen-product instructions or additional skillet loads.",
+    "formulaScope": "Legacy main measured core unchanged; only separately supported genuine allowances/exclusive seasoning option appended. No full formula rewrite."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Fresh or Frozen Potato Gnocchi",
+        "1/4 lb Zucchini (about 3/4 small), shaved into ribbons",
+        "1/4 pint Cherry Tomatoes, halved",
+        "1/2 tbsp Unsalted Butter",
+        "1/2 medium Shallot, minced",
+        "1/8 cup Fresh Parsley, chopped",
+        "1/8 cup Freshly Grated Parmesan",
+        "0.0625 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1/8 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Fresh or Frozen Potato Gnocchi",
+        "1/2 lb Zucchini (about 1 1/2 small), shaved into ribbons",
+        "1/2 pint Cherry Tomatoes, halved",
+        "1 tbsp Unsalted Butter",
+        "1 medium Shallot, minced",
+        "1/4 cup Fresh Parsley, chopped",
+        "1/4 cup Freshly Grated Parmesan",
+        "1/8 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1/4 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Fresh or Frozen Potato Gnocchi",
+        "1 lb Zucchini (about 3 small), shaved into ribbons",
+        "1 pint Cherry Tomatoes, halved",
+        "2 tbsp Unsalted Butter",
+        "2 medium Shallots, minced",
+        "1/2 cup Fresh Parsley, chopped",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1/2 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Fresh or Frozen Potato Gnocchi",
+        "1 1/2 lb Zucchini (about 4 1/2 small), shaved into ribbons",
+        "1 1/2 pints Cherry Tomatoes, halved",
+        "3 tbsp Unsalted Butter",
+        "3 medium Shallots, minced",
+        "3/4 cup Fresh Parsley, chopped",
+        "3/4 cup Freshly Grated Parmesan",
+        "3/8 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "3/4 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Fresh or Frozen Potato Gnocchi",
+        "2 lb Zucchini (about 6 small), shaved into ribbons",
+        "2 pints Cherry Tomatoes, halved",
+        "4 tbsp Unsalted Butter",
+        "4 medium Shallots, minced",
+        "1 cup Fresh Parsley, chopped",
+        "1 cup Freshly Grated Parmesan",
+        "1/2 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Fresh or Frozen Potato Gnocchi",
+        "3 lb Zucchini (about 9 small), shaved into ribbons",
+        "3 pints Cherry Tomatoes, halved",
+        "6 tbsp Unsalted Butter",
+        "6 medium Shallots, minced",
+        "1 1/2 cups Fresh Parsley, chopped",
+        "1 1/2 cups Freshly Grated Parmesan",
+        "3/4 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1 1/2 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Fresh or Frozen Potato Gnocchi",
+        "1 lb Zucchini (about 3 small), shaved into ribbons",
+        "1 pint Cherry Tomatoes, halved",
+        "2 tbsp Unsalted Butter",
+        "2 medium Shallots, minced",
+        "1/2 cup Fresh Parsley, chopped",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "Salt and Black Pepper",
+        "1/2 tsp salt, optional alternative to salt to taste; choose one salt route"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Current full measured main, richness, source URL/title/rating/identity/enabled controls and current useful options remain. Source whole history is evidence, not blanket endorsement.",
+  "remainingQuestions": [
+    "Actual gnocchi package state and instructions govern; floating alone is insufficient for every product.",
+    "Salt type was unspecified in the saved recipe; optional½tsp is that original source volume without conversion.",
+    "Actual skillet size governs batching; source4portions/20min remains planning, not capacity certification.",
+    "Actual appliance capacity and resulting cooking texture remain kitchen questions."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

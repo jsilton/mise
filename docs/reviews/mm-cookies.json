@@ -1,0 +1,745 @@
+{
+  "slug": "mm-cookies",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "78add62ccc493589c7c5aea19037555985eee5fba8dfd6127b6ee437963e7a6d",
+  "acceptedSourceSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "9–11 min per oven load"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "29–31 min, plus remaining preheating, extra oven loads and cooling"
+    },
+    {
+      "field": "servings",
+      "before": "72 small cookies",
+      "after": "72 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Shortening (or Unsalted Butter)",
+        "1 cup Light Brown Sugar, packed",
+        "1/2 cup Granulated Sugar",
+        "2 large Eggs",
+        "1 1/2 tsp Pure Vanilla Extract",
+        "2 1/2 cups All-Purpose Flour",
+        "1 tsp Baking Soda + 1 tsp Sea Salt",
+        "1 1/2 cups candy-coated milk chocolate candies"
+      ],
+      "after": [
+        "--- Candy cookie dough ---",
+        "1 cup shortening or unsalted butter, choose one; butter softened if used",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "2 large eggs",
+        "1 1/2 tsp pure vanilla extract",
+        "2 1/2 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp sea salt",
+        "1 1/2 cups candy-coated milk chocolate candies"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 40,
+        "protein": 0.5,
+        "carbs": 9,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 6,
+        "sodium": 20
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 72,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Candy cookie dough",
+            "ingredients": [
+              {
+                "id": "fat",
+                "key": "fat",
+                "name": "shortening or unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "choose one; butter softened if used"
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "candies",
+                "key": "candies",
+                "name": "candy-coated milk chocolate candies",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": "2/3"
+                  },
+                  {
+                    "step": "press",
+                    "share": "1/3"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 350°F and have ungreased baking sheets and a cooling rack ready."
+          },
+          {
+            "id": "cream",
+            "title": "Cream",
+            "text": "Beat {{ingredients}} until light and fluffy, about 2 minutes, scraping the bowl."
+          },
+          {
+            "id": "egg",
+            "title": "Add eggs",
+            "text": "Beat in {{ingredients}} until evenly combined."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "Whisk {{ingredients}} in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains."
+          },
+          {
+            "id": "fold",
+            "title": "Fold in candies",
+            "text": "Fold {{ingredients}} into the dough, reserving the rest cleanly for the tops. This is 1 cup folded and ½ cup reserved in the original 72-cookie planning batch; both allocations follow the listed batch proportionally."
+          },
+          {
+            "id": "shape",
+            "title": "Shape",
+            "text": "Drop teaspoonfuls onto the ungreased sheets, leaving space for spreading. Keep the portions consistent; the listed yield is a planning count for these small cookies. A larger batch needs more sheets and oven loads, not larger dough balls."
+          },
+          {
+            "id": "press",
+            "title": "Decorate",
+            "text": "Distribute {{ingredients}} across the dough portions, pressing them in slightly. Use all of this reserved amount; the number of candies on each cookie depends on candy size and the actual cookie count."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Wait for the oven to reach 350°F, then bake for 9–11 minutes per load, until the edges are lightly golden and the centers are set but soft. Keep remaining dough refrigerated at 40°F / 4°C or below between loads."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Leave the cookies on their sheets for 5 minutes, then transfer to a rack to cool completely before packing."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reserving a complete topping allocation before mixing the dough.",
+        "outcome": "Small cookies with chocolate candies through the dough and visible on the tops.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Choose the full listed shortening or unsalted butter amount. The main candy allocation is two-thirds folded and one-third reserved; the original half-and-half option replaces that split.",
+          "The small-cookie count depends on teaspoon portions, so reserve candies by volume rather than requiring a fixed candy count on every top.",
+          "Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.",
+          "If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie dimensions and baking temperature fixed."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Two-thirds of the candies folded in and the remaining third still separate.",
+            "why": "The topping cannot be recovered cleanly after all the candies have been mixed into the dough."
+          },
+          {
+            "step": 7,
+            "cue": "The reserved candies distributed over all the dough portions.",
+            "why": "A fixed 3–4 candies per cookie can exhaust the measured remainder before all the cookies are decorated."
+          },
+          {
+            "step": 8,
+            "cue": "Light golden edges and set, soft centers.",
+            "why": "The small portions bake quickly and continue to firm during their five-minute sheet rest."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Not enough candy to decorate every cookie.",
+            "cause": "Fixed candy counts ignore candy size and the actual number of portions.",
+            "fix": "Distribute the reserved third across the batch; use the half-and-half allocation instead only as the separate complete option."
+          },
+          {
+            "problem": "Some cookies brown before the rest.",
+            "cause": "Dough portions differ in size or the sheet is crowded.",
+            "fix": "Keep teaspoon portions consistent, leave room for spreading and check each oven load by its edges and centers."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Shortening",
+            "alternative": "The same listed volume of softened unsalted butter",
+            "effect": "Choose one fat for the entire dough; the butter version can spread and brown differently."
+          },
+          {
+            "ingredient": "Two-thirds folded / one-third topped candies",
+            "alternative": "Half folded / half topped candies",
+            "effect": "This uses the same full candy total and gives more candy to the surfaces, following Robbi’s original allocation."
+          }
+        ],
+        "storage": "Cool completely on a rack before storing airtight. Keep unbaked dough covered at 40°F / 4°C or below while waiting for an oven load. No exact baked-cookie shelf life is established here.",
+        "timing": "Plan 15 minutes of preparation, 9–11 minutes per oven load and the five-minute sheet rest: 29–31 minutes is a first-load subtotal. Preheating starts with preparation, but any remaining oven heating, later loads and complete rack cooling extend elapsed time.",
+        "sources": [
+          {
+            "title": "Allrecipes — Robbi’s complete dough and original half-and-half allocation",
+            "url": "https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/"
+          },
+          {
+            "title": "FDA — raw flour and dough handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFolding only 3/4 of the candies into the dough, then pressing the remaining candies into the tops of the dough balls after scooping ensures vibrant colors stay visible on the finished cookies instead of bleeding into the batter during baking. Using a high ratio of brown sugar to white sugar creates chewy cookies that contrast the crisp candy shell.\n\n## Directions\n\n1.  **Cream:** In a large bowl, beat the shortening (or butter) with both sugars until light and fluffy (2 mins). Add eggs and vanilla; beat until emulsified.\n2.  **Dry Mix:** Whisk together flour, baking soda, and salt. Gradually add to the wet mix until **just combined**.\n3.  **Inclusions:** Fold in 1 cup of the candies.\n4.  **Shape:** Preheat oven to 350°F. Drop teaspoon-sized balls of dough onto ungreased sheets.\n5.  **Press:** Press 3-4 of the remaining candies into the top of each ball.\n6.  **Bake:** Bake for 9-11 minutes until the edges are just golden. Do not over-bake; they will set on the pan.\n7.  **Cool:** Let rest on the pan for 5 minutes to ensure proper texture.\n",
+    "after": "\n## Chef's Note\n\nSome candies are folded through the dough and the remaining portion is pressed onto the tops. Keep that reserved portion separate before scooping; distributing it by the actual number of cookies avoids running short while decorating.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F and have ungreased baking sheets and a cooling rack ready.\n2. **Cream:** Beat shortening or unsalted butter, light brown sugar, and granulated sugar until light and fluffy, about 2 minutes, scraping the bowl.\n3. **Add eggs:** Beat in large eggs and pure vanilla extract until evenly combined.\n4. **Mix the dry ingredients:** Whisk all-purpose flour, baking soda, and sea salt in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains.\n5. **Fold in candies:** Fold 2/3 of the candy-coated milk chocolate candies into the dough, reserving the rest cleanly for the tops. This is 1 cup folded and ½ cup reserved in the original 72-cookie planning batch; both allocations follow the listed batch proportionally.\n6. **Shape:** Drop teaspoonfuls onto the ungreased sheets, leaving space for spreading. Keep the portions consistent; the listed yield is a planning count for these small cookies. A larger batch needs more sheets and oven loads, not larger dough balls.\n7. **Decorate:** Distribute 1/3 of the candy-coated milk chocolate candies across the dough portions, pressing them in slightly. Use all of this reserved amount; the number of candies on each cookie depends on candy size and the actual cookie count.\n8. **Bake:** Wait for the oven to reach 350°F, then bake for 9–11 minutes per load, until the edges are lightly golden and the centers are set but soft. Keep remaining dough refrigerated at 40°F / 4°C or below between loads.\n9. **Cool:** Leave the cookies on their sheets for 5 minutes, then transfer to a rack to cool completely before packing.\n\n## Cooking Options\n\n### Original candy allocation\n\nFor Robbi’s shortening route, fold half of the listed total candies into the dough and reserve half for decoration: ¾ cup for each destination in the original 72-cookie planning batch. Keep every other listed ingredient amount and the 350°F, 9–11-minute bake. This replaces the main two-thirds/one-third allocation; do not add another candy portion. Use a few of the reserved candies on each cookie and distribute the whole remainder across the actual batch.\n\nThe listed same-volume unsalted-butter option is a separate fat choice. Use softened butter in place of all the shortening, not both; its spread and texture can differ.\n"
+  },
+  "findings": [
+    {
+      "id": "CKF03-MM01",
+      "title": "CKF03-MM01",
+      "rationale": "Split the merged soda/salt row into its two exact measured ingredients and allocate the full candy total2/3+1/3, preserving current1cup+½cup. Remove the contradictory¾-of-candies claim and mandatory3–4pieces that can exceed the remainder. Preserve source¾cup+¾cup as an exclusive complete alternative and retain the current same-volume butter choice.",
+      "confidence": "high",
+      "applicableSources": [
+        "frozen-current",
+        "native-original",
+        "earlier-HTML",
+        "eab6f8bb8e8bbccadfb5ddabb6fc8912750c5eba",
+        "https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/"
+      ],
+      "sourceApplicability": "Current method establishes the main1cup fold; exact native/Git and publisher establish the half/half source branch. Arithmetic gives the respective shares; no evidence establishes a deliberate household rejection of the source allocation. Publisher supports bake cues, not the butter option’s exact spread.",
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content", "learning"],
+      "questions": [
+        "Does the household prefer the current2/3+1/3 split or Robbi’s original half/half? Can teaspoon portions of this actual dough reasonably produce72cookies?"
+      ]
+    },
+    {
+      "id": "CKF03-mm-cookies-META",
+      "title": "CKF03-mm-cookies-META",
+      "rationale": "Remove the unsupported United States country-origin field added by bulk2a7f3853, preserving American cuisine/style and source authorship. Remove unverified per-serving nutrition added at902e7e8e rather than carry numerical claims across unmeasured cookie counts/restored supplies. Keep the exact current numeric planning count as pieces and explicitly explain actual count, pan loads and cooling. Authored formula and three generated views share one full-quantity source; learning is recipe-specific editorial review, not kitchen testing.",
+      "confidence": "high for unsupported metadata removal and quantity preservation; moderate for unmeasured planning",
+      "applicableSources": [
+        "frozen-current",
+        "earlier-HTML",
+        "actual-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Exact history distinguishes countrymetadata/nutrition additions from named source/family recipe. Arithmetic and current/source cooking cues support planning caveats. FDA only supports raw-dough handling.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "nutrition",
+        "servings",
+        "formula",
+        "learning",
+        "cookTime",
+        "totalTime"
+      ],
+      "questions": [
+        "Does the household prefer the current2/3+1/3 split or Robbi’s original half/half? Can teaspoon portions of this actual dough reasonably produce72cookies?"
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Robbi's%20M&Ms%C2%AE%20Cookies.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "finding": "CKF03-MM01",
+      "text": "Split the merged soda/salt row into its two exact measured ingredients and allocate the full candy total2/3+1/3, preserving current1cup+½cup. Remove the contradictory¾-of-candies claim and mandatory3–4pieces that can exceed the remainder. Preserve source¾cup+¾cup as an exclusive complete alternative and retain the current same-volume butter choice.",
+      "limits": "Current method establishes the main1cup fold; exact native/Git and publisher establish the half/half source branch. Arithmetic gives the respective shares; no evidence establishes a deliberate household rejection of the source allocation. Publisher supports bake cues, not the butter option’s exact spread."
+    }
+  ],
+  "ledger": [
+    {
+      "id": "dough.fat",
+      "name": "shortening or unsalted butter",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "choose one; butter softened if used",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat {{ingredients}} until light and fluffy, about 2 minutes, scraping the bowl."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.brown-sugar",
+      "name": "light brown sugar",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "packed",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat {{ingredients}} until light and fluffy, about 2 minutes, scraping the bowl."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.sugar",
+      "name": "granulated sugar",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "cream",
+          "share": 1,
+          "text": "Beat {{ingredients}} until light and fluffy, about 2 minutes, scraping the bowl."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.egg",
+      "name": "large egg",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}} until evenly combined."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.vanilla",
+      "name": "pure vanilla extract",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "egg",
+          "share": 1,
+          "text": "Beat in {{ingredients}} until evenly combined."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": "2 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.soda",
+      "name": "baking soda",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.salt",
+      "name": "sea salt",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "dry",
+          "share": 1,
+          "text": "Whisk {{ingredients}} in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains."
+        }
+      ],
+      "allocationTotal": 1
+    },
+    {
+      "id": "dough.candies",
+      "name": "candy-coated milk chocolate candies",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "equivalents": [],
+      "state": "",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "fold",
+          "share": "2/3",
+          "text": "Fold {{ingredients}} into the dough, reserving the rest cleanly for the tops. This is 1 cup folded and ½ cup reserved in the original 72-cookie planning batch; both allocations follow the listed batch proportionally."
+        },
+        {
+          "step": "press",
+          "share": "1/3",
+          "text": "Distribute {{ingredients}} across the dough portions, pressing them in slightly. Use all of this reserved amount; the number of candies on each cookie depends on candy size and the actual cookie count."
+        }
+      ],
+      "allocationTotal": 1
+    }
+  ],
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "prep",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F and have ungreased baking sheets and a cooling rack ready.",
+      "generatedText": "1. **Prepare:** Preheat the oven to 350°F and have ungreased baking sheets and a cooling rack ready.",
+      "dependsOn": [],
+      "assigned": []
+    },
+    {
+      "index": 2,
+      "id": "cream",
+      "title": "Cream",
+      "text": "Beat {{ingredients}} until light and fluffy, about 2 minutes, scraping the bowl.",
+      "generatedText": "2. **Cream:** Beat shortening or unsalted butter, light brown sugar, and granulated sugar until light and fluffy, about 2 minutes, scraping the bowl.",
+      "dependsOn": ["prep"],
+      "assigned": ["dough.fat", "dough.brown-sugar", "dough.sugar"]
+    },
+    {
+      "index": 3,
+      "id": "egg",
+      "title": "Add eggs",
+      "text": "Beat in {{ingredients}} until evenly combined.",
+      "generatedText": "3. **Add eggs:** Beat in large eggs and pure vanilla extract until evenly combined.",
+      "dependsOn": ["cream"],
+      "assigned": ["dough.egg", "dough.vanilla"]
+    },
+    {
+      "index": 4,
+      "id": "dry",
+      "title": "Mix the dry ingredients",
+      "text": "Whisk {{ingredients}} in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains.",
+      "generatedText": "4. **Mix the dry ingredients:** Whisk all-purpose flour, baking soda, and sea salt in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains.",
+      "dependsOn": ["egg"],
+      "assigned": ["dough.flour", "dough.soda", "dough.salt"]
+    },
+    {
+      "index": 5,
+      "id": "fold",
+      "title": "Fold in candies",
+      "text": "Fold {{ingredients}} into the dough, reserving the rest cleanly for the tops. This is 1 cup folded and ½ cup reserved in the original 72-cookie planning batch; both allocations follow the listed batch proportionally.",
+      "generatedText": "5. **Fold in candies:** Fold 2/3 of the candy-coated milk chocolate candies into the dough, reserving the rest cleanly for the tops. This is 1 cup folded and ½ cup reserved in the original 72-cookie planning batch; both allocations follow the listed batch proportionally.",
+      "dependsOn": ["dry"],
+      "assigned": ["dough.candies"]
+    },
+    {
+      "index": 6,
+      "id": "shape",
+      "title": "Shape",
+      "text": "Drop teaspoonfuls onto the ungreased sheets, leaving space for spreading. Keep the portions consistent; the listed yield is a planning count for these small cookies. A larger batch needs more sheets and oven loads, not larger dough balls.",
+      "generatedText": "6. **Shape:** Drop teaspoonfuls onto the ungreased sheets, leaving space for spreading. Keep the portions consistent; the listed yield is a planning count for these small cookies. A larger batch needs more sheets and oven loads, not larger dough balls.",
+      "dependsOn": ["fold"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "press",
+      "title": "Decorate",
+      "text": "Distribute {{ingredients}} across the dough portions, pressing them in slightly. Use all of this reserved amount; the number of candies on each cookie depends on candy size and the actual cookie count.",
+      "generatedText": "7. **Decorate:** Distribute 1/3 of the candy-coated milk chocolate candies across the dough portions, pressing them in slightly. Use all of this reserved amount; the number of candies on each cookie depends on candy size and the actual cookie count.",
+      "dependsOn": ["shape"],
+      "assigned": ["dough.candies"]
+    },
+    {
+      "index": 8,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Wait for the oven to reach 350°F, then bake for 9–11 minutes per load, until the edges are lightly golden and the centers are set but soft. Keep remaining dough refrigerated at 40°F / 4°C or below between loads.",
+      "generatedText": "8. **Bake:** Wait for the oven to reach 350°F, then bake for 9–11 minutes per load, until the edges are lightly golden and the centers are set but soft. Keep remaining dough refrigerated at 40°F / 4°C or below between loads.",
+      "dependsOn": ["press"],
+      "assigned": []
+    },
+    {
+      "index": 9,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Leave the cookies on their sheets for 5 minutes, then transfer to a rack to cool completely before packing.",
+      "generatedText": "9. **Cool:** Leave the cookies on their sheets for 5 minutes, then transfer to a rack to cool completely before packing.",
+      "dependsOn": ["bake"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Shortening",
+      "alternative": "The same listed volume of softened unsalted butter",
+      "effect": "Choose one fat for the entire dough; the butter version can spread and brown differently."
+    },
+    {
+      "ingredient": "Two-thirds folded / one-third topped candies",
+      "alternative": "Half folded / half topped candies",
+      "effect": "This uses the same full candy total and gives more candy to the surfaces, following Robbi’s original allocation."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "formula": "Flour2½cups : fat1cup : sugars1½cups : eggs2. Candy total1½cups; main2/3fold=1cup,1/3top=½cup; source½fold=¾cup,½top=¾cup. No change to whole formula or salt1tsp.",
+    "geometry": "No weighed portions or exact sheet capacity established. The full dough is used, portion geometry stays fixed, additional sheets/oven loads are required when scaling.",
+    "planningCount": {
+      "amount": 72,
+      "unit": "piece"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Does the household prefer the current2/3+1/3 split or Robbi’s original half/half? Can teaspoon portions of this actual dough reasonably produce72cookies?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

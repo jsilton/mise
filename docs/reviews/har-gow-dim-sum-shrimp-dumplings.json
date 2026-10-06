@@ -1,0 +1,646 @@
+{
+  "slug": "har-gow-dim-sum-shrimp-dumplings",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "269194d11942f9b165fbb42b7868798ff0bfdb03b3706607a7e9f62430c0d0f8",
+  "acceptedSourceSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "leftovers",
+      "before": "excellent",
+      "after": "poor"
+    },
+    {
+      "field": "advancePrep",
+      "before": ["make-ahead", "freeze-ahead"],
+      "after": ["make-ahead"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "1/4 cup Bamboo Shoots, finely minced",
+        "1 tsp Oyster Sauce",
+        "1 tbsp Vegetable Oil",
+        "1/4 tsp White Pepper",
+        "1 tsp Toasted Sesame Oil",
+        "1/4 tsp Sea Salt",
+        "1 tsp Granulated Sugar",
+        "1/2 tsp Fresh Ginger, minced",
+        "1 cup Wheat Starch (Tin Mein Fun)",
+        "1/2 cup Cornstarch or Tapioca Starch",
+        "1 1/4 cups Boiling Water",
+        "3 tsp Lard or Neutral Oil"
+      ],
+      "after": [
+        "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "1/4 cup Bamboo Shoots, finely minced",
+        "1 tsp Oyster Sauce",
+        "1 tbsp Vegetable Oil",
+        "1/4 tsp White Pepper",
+        "1 tsp Toasted Sesame Oil",
+        "1/4 tsp Sea Salt",
+        "1 tsp Granulated Sugar",
+        "1/2 tsp Fresh Ginger, minced",
+        "1 cup Wheat Starch (Tin Mein Fun)",
+        "1/2 cup Cornstarch or Tapioca Starch",
+        "1 1/4 cups Boiling Water",
+        "3 tsp Lard or Neutral Oil",
+        "1 to 2 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 220,
+        "protein": 6,
+        "carbs": 7.5,
+        "fat": 19,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 260
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the starch dough covered and leave steamer space",
+        "outcome": "Translucent wrappers with a closed seam and thoroughly cooked shrimp filling.",
+        "techniques": ["starch"],
+        "before": [
+          "Scale the full filling and dough together while keeping the wrappers about 3 inches across. Arrange steamer loads with about 1½ inches around each dumpling for expansion; use more loads rather than crowding them or multiplying the steaming clock.",
+          "Have the steamer ready before wrapping. Keep shrimp and filling refrigerated; wash hands and raw-contact tools before service."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A test piece rolls without cracked edges or sticking.",
+            "why": "The source’s boiling water hydrates the starch; exposed pieces dry quickly."
+          },
+          {
+            "step": 6,
+            "cue": "Expanded dumplings remain separated and representative filling centers reach 165°F.",
+            "why": "Batch load, size and steam recovery affect heating; six minutes alone is not an endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wrapper edges crack when rolled or folded",
+            "cause": "The starch dough is too dry or its uncovered surface has dried.",
+            "fix": "Keep unused pieces under a damp towel. If a test piece still cracks, cautiously work in only the listed optional boiling-water allowance for dry conditions, let it cool enough to handle and test again before filling."
+          }
+        ],
+        "timing": "Allow about 60–90 minutes active preparation, the 30-minute refrigerated filling rest with some dough-work overlap, and separate steaming batches starting around 6 minutes each. The 140-minute total is a planning allowance; extra batches or a first attempt may take longer.",
+        "substitutions": [
+          {
+            "ingredient": "Shrimp preparation",
+            "alternative": "For small shrimp, leave whole or halve as the publisher describes; large shrimp can be mashed lightly and coarsely chopped.",
+            "effect": "Use the same full shrimp quantity and divide filling evenly without a guessed tablespoon yield."
+          },
+          {
+            "ingredient": "Serving time",
+            "alternative": "Serve freshly steamed rather than preparing for reheated texture.",
+            "effect": "The publisher says leftovers reheat poorly. Refrigerate any leftovers promptly regardless; do not treat poor texture as a reason to leave them out."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat to 165°F / 74°C throughout. Make only what you plan to serve when delicate texture matters; handling guidance does not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "har — recipe-specific method",
+            "url": "https://thewoksoflife.com/har-gow/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "FDA 2022 Food Code — stuffed foods and fish-containing filling",
+            "url": "https://www.fda.gov/files/food/published/FDA-FoodCode2022-FullDocument-01182023_0.pdf"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nHar gow are Cantonese shrimp dumplings with translucent, pleated wrappers - a dim sum classic and a test of a chef's skill. The dough uses wheat starch (not wheat flour) mixed with boiling water, which gelatinizes the starch instantly and creates a flexible dough that steams into a glass-like wrapper. For the filling, whip the shrimp mixture vigorously in one direction until sticky - this develops the protein structure for that characteristic bouncy texture.\n\n## Directions\n\n1.  **The Filling:** Finely chop the shrimp. In a large bowl, combine shrimp and all shrimp paste ingredients. Whip **vigorously in one direction** for 3 minutes until the mixture is very sticky. Fold in bamboo shoots. Chill for 30 minutes.\n2.  **The Dough:** In a heatproof bowl, whisk wheat starch and cornstarch. Pour in the **boiling water** while stirring rapidly with chopsticks. Add lard/oil.\n3.  **Knead:** Once cool enough to touch, knead for 2 minutes until smooth. Roll into a cylinder and divide into 18 pieces. Keep covered with a damp towel.\n4.  **Shape:** Use a flat blade (lightly oiled) to flatten each dough ball into a thin 3-inch circle.\n5.  **Assemble:** Place 1 tbsp filling in the center. Fold and pleat carefully (aim for 7-10 pleats) to create the signature \"bonnet\" shape.\n6.  **Steam:** Place in a bamboo steamer on parchment. Steam over boiling water for exactly 6 minutes on high heat.\n7.  **Serve:** Serve immediately with chili oil and soy sauce for the mandatory **High Note**.\n",
+    "after": "\n## Chef's Note\n\nHar gow are Cantonese dim sum shrimp dumplings with translucent wrappers. They use a boiling-water starch dough, distinct from egg-and-flour wonton wrappers. Keep the dough covered as you work. Stir the shrimp filling in one direction until sticky, then fold in the bamboo shoots; fill lightly enough that the wrappers close without tearing.\n\n## Directions\n\n1. **Mix filling:** Thaw frozen shrimp in the refrigerator if needed and pat dry. Mash and coarsely chop large shrimp; for small shrimp, the source also permits leaving them whole or halving them. Combine with all the oyster sauce, measured vegetable oil, white pepper, sesame oil, sea salt, sugar and minced ginger. Stir vigorously in one direction for about 3 minutes until sticky, then fold in all the minced bamboo shoots. Cover and refrigerate for a 30-minute chill while preparing the dough; keep the filling cold between assembly batches.\n2. **Mix dough:** Whisk all the wheat starch and your chosen cornstarch or tapioca starch in a heatproof bowl. Slowly pour in the full measured boiling water while stirring rapidly, then add all the measured lard or neutral oil. Wheat starch is not interchangeable with wheat flour.\n3. **Knead and divide:** When cool enough to handle without burning, knead about 2 minutes until smooth. If a test piece cracks when gently rolled, the source permits the listed optional extra boiling-water allowance in dry conditions; work it in cautiously, let it cool enough to handle and check again rather than automatically adding it. Divide into roughly the listed dumpling count, keeping each piece the original size, and cover with a damp towel. More or fewer same-sized pieces are needed at other scales.\n4. **Roll:** Roll each piece into a thin circle about 3 inches across, keeping the remaining pieces covered. If using the flat-blade shaping option, lightly oil the blade with the separate tooling allowance; the measured dough and filling fats remain in their own mixtures.\n5. **Fill:** Divide all the filling among the wrappers, starting with a modest spoonful rather than a fixed tablespoon in every piece. Fold and pleat to close, keeping the rim clean. Do not taste raw filling, and wash raw-contact hands and utensils before handling cooked dumplings.\n6. **Steam:** Line a steamer with perforated parchment and bring its water to a boil. Leave about 1½ inches around dumplings for expansion and work in batches, replenishing the steamer according to its instructions. Cover and steam on high heat; begin checking around the source’s 6-minute mark rather than stopping at an exact clock. Check representative fillings, including a larger dumpling in each batch, for 165°F /74°C, continuing when needed. Use a thin probe without touching the steamer and check the center. Serve on a clean plate.\n7. **Serve:** Serve hot with the optional chili oil and soy sauce. These are separate serving allowances, not required additions to the filling.\n"
+  },
+  "findings": [
+    {
+      "id": "PDF05-3",
+      "title": "PDF05-3",
+      "rationale": "All13 current base supplies retained with explicit filling/dough destinations. Source extra water allowance and expansion spacing lost in38b29 restored; fixed tablespoon filling unsupported versus native spoonful and full18-piece formula, so divide full filling without invented weight. Current flat-blade/30minchill/soy option preserved beside source rolled circles/size preparation; added separate tool oil avoids spending full dough fat twice. FDA2022 retail model165 stuffed pasta/stuffing containing fish supports moderate editorial filling category application, distinct from FDAhome ordinaryshrimp opaque cue. No165 finfish substitution, timing certainty or risk0 claim.",
+      "confidence": "High exact source measures/history; moderate editorial safety category/batching/planning",
+      "applicableSources": [
+        {
+          "url": "https://thewoksoflife.com/har-gow/",
+          "scope": "Actual Judy/Woks full recipe and bound native agree all13 measures,18pieces/3-inch wrappers, dry-climate extra1–2tsp water and1½-inch spacing. Modern source clarifies shrimp-size preparation, cracking test, and poor reheated quality. Native cookTime80min is incorrectly imported elapsed label; current140min retained conservative planning until kitchen data. Six-minute source clock not a universal endpoint."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce/separate raw contact/cold40F/prompt2h1h/egg160/leftover/casserole165 only; no formula/pan/yield validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "scope": "Do not eat raw flour/egg dough; package instructions and clean handling, no invented cook duration"
+        },
+        {
+          "url": "https://www.fda.gov/files/food/published/FDA-FoodCode2022-FullDocument-01182023_0.pdf",
+          "scope": "2022 retail-model stuffed-pasta and fish-containing stuffing165 category, moderate editorial home dumpling application; ordinary home shrimp pearly/opaque guidance is distinct"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "leftovers",
+        "advancePrep",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "How do the actual starch brands and humidity affect the documented optional1–2tsp adjustment?",
+        "Does the actual steamer fit the listed count with1½inch spacing, and how many batches are needed?",
+        "The165 stuffed-seafood filling application is editorial use of FDA2022 retail-model guidance, not a publisher test or automatic home regulation. Measure actual centers and texture in kitchen.",
+        "Current140min plan is conservative and retains30minchill; modernpublisher80min includes20min steaming versus native malformed80mincook label. No exact personal active clock is certified.",
+        "DimSumFeast’s day-before dough/freezing and8–10min batch plan differ from this source’s fresh best-quality wrappers; linked meal receives no approval."
+      ]
+    },
+    {
+      "id": "PDF05-I02",
+      "title": "PDF05-I02",
+      "rationale": "All five proposals repeat the same pot/processor/skillet preparation and generic texture-versus-clock troubleshooting. It gives no actual failure or correction and includes irrelevant equipment. Replace only these four fields with decisions and corrections grounded in this recipe’s existing final method; no dose, route, rest duration, temperature or capacity number is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Requires individual before-cooking equipment decisions and problem/cause/actionable-fix teaching; forbids bulk filler."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing complete method supplies the actual equipment, piece geometry and correction cues."
+        },
+        {
+          "url": "https://thewoksoflife.com/har-gow/",
+          "scope": "Recipe-specific handling and cooking cues; exact wording of this proposed teaching is editorial, not publisher verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions."
+      ]
+    },
+    {
+      "id": "PDF05-I07",
+      "title": "PDF05-I07",
+      "rationale": "The final method/variant correctly recommends fresh steaming and acknowledges poor reheated texture, while metadata still promises excellent leftovers and freeze-ahead. Both labels entered bulk c0b494473ba0c667f6ad513582a07cfa89555265; retained native/whole history contains no complete freezing route or household-tested exception. Preserve the within-preparation refrigerated filling plan and all existing handling/reheating instructions; do not infer that freezing is impossible or certify a future freezer duration.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact bulk-tag introduction; no later explicit accepted quality/freezing decision established."
+        },
+        {
+          "url": "https://thewoksoflife.com/har-gow/",
+          "scope": "Publisher fresh-serving preference and poor reheated quality; no complete freeze-ahead recipe instruction."
+        }
+      ],
+      "exactBeforeAfterReferences": ["leftovers", "advancePrep"],
+      "questions": [
+        "Dim Sum Feast day-before/freezing and8–10-minute service plan remains separately unreviewed."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Har%20Gow%20(Dim%20Sum%20Shrimp%20Dumplings).html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://thewoksoflife.com/har-gow/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual Judy/Woks full recipe and bound native agree all13 measures,18pieces/3-inch wrappers, dry-climate extra1–2tsp water and1½-inch spacing. Modern source clarifies shrimp-size preparation, cracking test, and poor reheated quality. Native cookTime80min is incorrectly imported elapsed label; current140min retained conservative planning until kitchen data. Six-minute source clock not a universal endpoint.",
+      "questions": [
+        "How do the actual starch brands and humidity affect the documented optional1–2tsp adjustment?",
+        "Does the actual steamer fit the listed count with1½inch spacing, and how many batches are needed?",
+        "The165 stuffed-seafood filling application is editorial use of FDA2022 retail-model guidance, not a publisher test or automatic home regulation. Measure actual centers and texture in kitchen.",
+        "Current140min plan is conservative and retains30minchill; modernpublisher80min includes20min steaming versus native malformed80mincook label. No exact personal active clock is certified.",
+        "DimSumFeast’s day-before dough/freezing and8–10min batch plan differ from this source’s fresh best-quality wrappers; linked meal receives no approval."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1/4 cup Bamboo Shoots, finely minced",
+        "actualMethodDestination": "step1fold"
+      },
+      {
+        "text": "1 tsp Oyster Sauce",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1 tbsp Vegetable Oil",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1/4 tsp White Pepper",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1 tsp Toasted Sesame Oil",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1 tsp Granulated Sugar",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1/2 tsp Fresh Ginger, minced",
+        "actualMethodDestination": "step1shrimp-paste grouping implied"
+      },
+      {
+        "text": "1 cup Wheat Starch (Tin Mein Fun)",
+        "actualMethodDestination": "step2dough"
+      },
+      {
+        "text": "1/2 cup Cornstarch or Tapioca Starch",
+        "actualMethodDestination": "step2dough; alternative tapioca not explicitly named"
+      },
+      {
+        "text": "1 1/4 cups Boiling Water",
+        "actualMethodDestination": "step2dough"
+      },
+      {
+        "text": "3 tsp Lard or Neutral Oil",
+        "actualMethodDestination": "step2dough"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1/4 cup Bamboo Shoots, finely minced",
+        "actualMethodDestination": "step1fold"
+      },
+      {
+        "text": "1 tsp Oyster Sauce",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1 tbsp Vegetable Oil",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1/4 tsp White Pepper",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1 tsp Toasted Sesame Oil",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1 tsp Granulated Sugar",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1/2 tsp Fresh Ginger, minced",
+        "actualMethodDestination": "step1filling"
+      },
+      {
+        "text": "1 cup Wheat Starch (Tin Mein Fun)",
+        "actualMethodDestination": "step2dough"
+      },
+      {
+        "text": "1/2 cup Cornstarch or Tapioca Starch",
+        "actualMethodDestination": "step2dough alternative"
+      },
+      {
+        "text": "1 1/4 cups Boiling Water",
+        "actualMethodDestination": "step2dough"
+      },
+      {
+        "text": "3 tsp Lard or Neutral Oil",
+        "actualMethodDestination": "step2dough"
+      },
+      {
+        "text": "1 to 2 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "actualMethodDestination": "step3conditional adjustment"
+      },
+      {
+        "text": "Neutral oil, as needed for the flat-blade shaping option",
+        "actualMethodDestination": "step4tool only"
+      },
+      {
+        "text": "Chili oil and soy sauce, as desired for serving",
+        "actualMethodDestination": "step7service"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "FOR THE FILLING:\n1/2 pound raw shrimp (225g, peeled, de-veined and patted dry)\n1 teaspoon oyster sauce\n1 tablespoon vegetable oil\n1/4 teaspoon white pepper\n1 teaspoon sesame oil\n1/4 teaspoon salt\n1 teaspoon sugar\n1/2 teaspoon ginger (minced)\n1/4 cup bamboo shoots (finely chopped)\nFOR THE DOUGH:\n1 cup wheat starch\n1/2 cup cornstarch (or tapioca starch)\n1 1/4 cups boiling water (add an additional 1 to 2 teaspoons in dryer climates)\n3 teaspoons lard (or oil)",
+      "directions": "FOR THE FILLING:\n\nMix everything (except the bamboo) together; whip in one direction for a few minutes until the mixture starts to look sticky. Now add the chopped bamboo shoots, and mix everything together. Cover and refrigerate while preparing the dough.\n\nFOR THE DOUGH:\n\nMix the wheat starch and cornstarch in a mixing bowl. Slowly add in the boiling water, while stirring rapidly. Now add in the lard (or oil) and continue to stir. Knead the dough for a couple of minutes, until it turns into a smooth dough ball. Roll the dough into a long cylinder, and divide it into 18 equal pieces. Cover the dough pieces with a damp paper towel.\n\nTO ASSEMBLE AND COOK THE DUMPLINGS:\n\nTurn on the stove to pre-boil the water in the steamer. Take one piece of dough and roll it into a 3” diameter circle. Add a spoonful of filling and fold the dumpling as shown in our video. Continue assembling until all the dumplings are made.\n\nOnce the water in the steamer is boiled, steam the shrimp dumplings for 6 minutes using high heat and serve hot. Make sure that they each have an inch and a half to expand during the cooking process.",
+      "notes": "",
+      "scope": "Exact durable original450 binding; distinct from frozen current ledger"
+    },
+    "frozenMethodOnly": [
+      "step4lightlyoiledblade supply unlisted",
+      "step7chili oil and soy sauce unlisted"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix filling: Thaw frozen shrimp in the refrigerator if needed and pat dry. Mash and coarsely chop large shrimp; for small shrimp, the source also permits leaving them whole or halving them. Combine with all the oyster sauce, measured vegetable oil, white pepper, sesame oil, sea salt, sugar and minced ginger. Stir vigorously in one direction for about 3 minutes until sticky, then fold in all the minced bamboo shoots. Cover and refrigerate for a 30-minute chill while preparing the dough; keep the filling cold between assembly batches."
+    },
+    {
+      "step": 2,
+      "text": "Mix dough: Whisk all the wheat starch and your chosen cornstarch or tapioca starch in a heatproof bowl. Slowly pour in the full measured boiling water while stirring rapidly, then add all the measured lard or neutral oil. Wheat starch is not interchangeable with wheat flour."
+    },
+    {
+      "step": 3,
+      "text": "Knead and divide: When cool enough to handle without burning, knead about 2 minutes until smooth. If a test piece cracks when gently rolled, the source permits the listed optional extra boiling-water allowance in dry conditions; work it in cautiously, let it cool enough to handle and check again rather than automatically adding it. Divide into roughly the listed dumpling count, keeping each piece the original size, and cover with a damp towel. More or fewer same-sized pieces are needed at other scales."
+    },
+    {
+      "step": 4,
+      "text": "Roll: Roll each piece into a thin circle about 3 inches across, keeping the remaining pieces covered. If using the flat-blade shaping option, lightly oil the blade with the separate tooling allowance; the measured dough and filling fats remain in their own mixtures."
+    },
+    {
+      "step": 5,
+      "text": "Fill: Divide all the filling among the wrappers, starting with a modest spoonful rather than a fixed tablespoon in every piece. Fold and pleat to close, keeping the rim clean. Do not taste raw filling, and wash raw-contact hands and utensils before handling cooked dumplings."
+    },
+    {
+      "step": 6,
+      "text": "Steam: Line a steamer with perforated parchment and bring its water to a boil. Leave about 1½ inches around dumplings for expansion and work in batches, replenishing the steamer according to its instructions. Cover and steam on high heat; begin checking around the source’s 6-minute mark rather than stopping at an exact clock. Check representative fillings, including a larger dumpling in each batch, for 165°F /74°C, continuing when needed. Use a thin probe without touching the steamer and check the center. Serve on a clean plate."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Serve hot with the optional chili oil and soy sauce. These are separate serving allowances, not required additions to the filling."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Shrimp preparation",
+      "alternative": "For small shrimp, leave whole or halve as the publisher describes; large shrimp can be mashed lightly and coarsely chopped.",
+      "effect": "Use the same full shrimp quantity and divide filling evenly without a guessed tablespoon yield."
+    },
+    {
+      "ingredient": "Serving time",
+      "alternative": "Serve freshly steamed rather than preparing for reheated texture.",
+      "effect": "The publisher says leftovers reheat poorly. Refrigerate any leftovers promptly regardless; do not treat poor texture as a reason to leave them out."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["smashed-cucumber-salad", "cantonese-shumai-siu-mai"],
+    "incomingMeals": ["dim-sum-feast"],
+    "scope": "Full FreshEggPasta linked recipe read: different290g/2eggs3yolks formula, rolling technique only. DimSumFeast read whole: day-before dough/freezing/8–10minbatch differs freshbestqualityHar; not accepted here. Other metadata pairings no measured amounts or substitutions."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "18 dumplings",
+    "yieldScope": "Retained original-batch source/current planning, not measured kitchen yield",
+    "capacity": "Scale the full filling and dough together while keeping the wrappers about 3 inches across. Arrange steamer loads with about 1½ inches around each dumpling for expansion; use more loads rather than crowding them or multiplying the steaming clock.",
+    "timing": "Allow about 60–90 minutes active preparation, the 30-minute refrigerated filling rest with some dough-work overlap, and separate steaming batches starting around 6 minutes each. The 140-minute total is a planning allowance; extra batches or a first attempt may take longer.",
+    "formulaScope": "Legacy main measured core unchanged; only separately supported genuine allowances/exclusive seasoning option appended. No full formula rewrite."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/8 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "0.0625 cup Bamboo Shoots, finely minced",
+        "1/4 tsp Oyster Sauce",
+        "1/4 tbsp Vegetable Oil",
+        "0.0625 tsp White Pepper",
+        "1/4 tsp Toasted Sesame Oil",
+        "0.0625 tsp Sea Salt",
+        "1/4 tsp Granulated Sugar",
+        "1/8 tsp Fresh Ginger, minced",
+        "1/4 cup Wheat Starch (Tin Mein Fun)",
+        "1/8 cup Cornstarch or Tapioca Starch",
+        "0.31 cup Boiling Water",
+        "3/4 tsp Lard or Neutral Oil",
+        "1/4–1/2 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "4 1/2 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "1/8 cup Bamboo Shoots, finely minced",
+        "1/2 tsp Oyster Sauce",
+        "1/2 tbsp Vegetable Oil",
+        "1/8 tsp White Pepper",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/8 tsp Sea Salt",
+        "1/2 tsp Granulated Sugar",
+        "1/4 tsp Fresh Ginger, minced",
+        "1/2 cup Wheat Starch (Tin Mein Fun)",
+        "1/4 cup Cornstarch or Tapioca Starch",
+        "5/8 cup Boiling Water",
+        "1 1/2 tsp Lard or Neutral Oil",
+        "1/2–1 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "9 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "1/4 cup Bamboo Shoots, finely minced",
+        "1 tsp Oyster Sauce",
+        "1 tbsp Vegetable Oil",
+        "1/4 tsp White Pepper",
+        "1 tsp Toasted Sesame Oil",
+        "1/4 tsp Sea Salt",
+        "1 tsp Granulated Sugar",
+        "1/2 tsp Fresh Ginger, minced",
+        "1 cup Wheat Starch (Tin Mein Fun)",
+        "1/2 cup Cornstarch or Tapioca Starch",
+        "1 1/4 cups Boiling Water",
+        "3 tsp Lard or Neutral Oil",
+        "1 to 2 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "18 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "3/8 cup Bamboo Shoots, finely minced",
+        "1 1/2 tsp Oyster Sauce",
+        "1 1/2 tbsp Vegetable Oil",
+        "3/8 tsp White Pepper",
+        "1 1/2 tsp Toasted Sesame Oil",
+        "3/8 tsp Sea Salt",
+        "1 1/2 tsp Granulated Sugar",
+        "3/4 tsp Fresh Ginger, minced",
+        "1 1/2 cups Wheat Starch (Tin Mein Fun)",
+        "3/4 cup Cornstarch or Tapioca Starch",
+        "1 7/8 cups Boiling Water",
+        "4 1/2 tsp Lard or Neutral Oil",
+        "1 1/2–3 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "27 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "1/2 cup Bamboo Shoots, finely minced",
+        "2 tsp Oyster Sauce",
+        "2 tbsp Vegetable Oil",
+        "1/2 tsp White Pepper",
+        "2 tsp Toasted Sesame Oil",
+        "1/2 tsp Sea Salt",
+        "2 tsp Granulated Sugar",
+        "1 tsp Fresh Ginger, minced",
+        "2 cups Wheat Starch (Tin Mein Fun)",
+        "1 cup Cornstarch or Tapioca Starch",
+        "2 1/2 cups Boiling Water",
+        "6 tsp Lard or Neutral Oil",
+        "2–4 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "36 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "3/4 cup Bamboo Shoots, finely minced",
+        "3 tsp Oyster Sauce",
+        "3 tbsp Vegetable Oil",
+        "3/4 tsp White Pepper",
+        "3 tsp Toasted Sesame Oil",
+        "3/4 tsp Sea Salt",
+        "3 tsp Granulated Sugar",
+        "1 1/2 tsp Fresh Ginger, minced",
+        "3 cups Wheat Starch (Tin Mein Fun)",
+        "1 1/2 cups Cornstarch or Tapioca Starch",
+        "3 3/4 cups Boiling Water",
+        "9 tsp Lard or Neutral Oil",
+        "3–6 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "54 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
+        "1/4 cup Bamboo Shoots, finely minced",
+        "1 tsp Oyster Sauce",
+        "1 tbsp Vegetable Oil",
+        "1/4 tsp White Pepper",
+        "1 tsp Toasted Sesame Oil",
+        "1/4 tsp Sea Salt",
+        "1 tsp Granulated Sugar",
+        "1/2 tsp Fresh Ginger, minced",
+        "1 cup Wheat Starch (Tin Mein Fun)",
+        "1/2 cup Cornstarch or Tapioca Starch",
+        "1 1/4 cups Boiling Water",
+        "3 tsp Lard or Neutral Oil",
+        "1 to 2 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
+      ],
+      "yield": "18 dumplings",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Current full measured main, richness, source URL/title/rating/identity/enabled controls and current useful options remain. Source whole history is evidence, not blanket endorsement.",
+  "remainingQuestions": [
+    "How do the actual starch brands and humidity affect the documented optional1–2tsp adjustment?",
+    "Does the actual steamer fit the listed count with1½inch spacing, and how many batches are needed?",
+    "The165 stuffed-seafood filling application is editorial use of FDA2022 retail-model guidance, not a publisher test or automatic home regulation. Measure actual centers and texture in kitchen.",
+    "Current140min plan is conservative and retains30minchill; modernpublisher80min includes20min steaming versus native malformed80mincook label. No exact personal active clock is certified.",
+    "DimSumFeast’s day-before dough/freezing and8–10min batch plan differ from this source’s fresh best-quality wrappers; linked meal receives no approval.",
+    "Actual appliance capacity and resulting cooking texture remain kitchen questions.",
+    "Dim Sum Feast day-before/freezing and8–10-minute service plan remains separately unreviewed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

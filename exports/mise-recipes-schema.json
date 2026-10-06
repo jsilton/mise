@@ -8183,54 +8183,71 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Classic Chocolate Chip Cookies",
-      "description": "The chocolate chip cookie was invented by accident in 1938 when Ruth Wakefield, owner of the Toll House Inn in Massachusetts, ran out of baker's chocolate and chopped up a Nestlé chocolate bar instead, expecting it to melt into the dough. It didn't, and the chocolate chip cookie was born - becoming America's most beloved cookie.",
+      "description": "Brown the starting butter, including its milk solids, then let it return to a soft solid before creaming. Fold in the already toasted sunflower seeds and semisweet chocolate after the flour, and let the soft centers firm on the sheet before moving the cookies to a rack.",
       "url": "https://jordansilton.com/mise/recipes/classic-chocolate-chip-cookies/",
       "recipeIngredient": [
-        "1 cup (2 sticks) Unsalted Butter",
-        "1 cup Light Brown Sugar, packed",
-        "1/2 cup Granulated White Sugar",
-        "2 large Eggs, room temperature",
-        "2 tsp Vanilla Extract",
-        "2 1/4 cups All-Purpose Flour",
-        "1 tsp Baking Soda",
-        "1/2 tsp Kosher Salt",
-        "2 cups Semisweet Chocolate Chips (60% cacao)",
-        "1 cup Toasted Sunflower Seeds (Nut-Free option)"
+        "1 cup (2 sticks) unsalted butter, starting amount before browning",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated white sugar",
+        "2 large eggs, room temperature",
+        "2 tsp vanilla extract",
+        "2 1/4 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp hot water",
+        "1/2 tsp kosher salt",
+        "2 cups semisweet chocolate chips, 60% cacao",
+        "1 cup sunflower seeds, already toasted",
+        "flaky sea salt, a tiny pinch over the warm cookies"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Brown the Butter: In a small saucepan, melt the butter over medium heat. Continue cooking, swirling the pan, until the foam subsides and the solids turn a deep golden brown and smell like hazelnuts. Pour into a bowl and let cool until solid but soft."
+          "text": "Brown and cool the butter: Choose a saucepan with room for the butter to foam; use complete smaller butter loads and combine all their contents if needed for a larger batch. Melt unsalted butter over medium heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but still soft enough to beat. Use the entire browned amount and its solids."
         },
         {
           "@type": "HowToStep",
-          "text": "Cream: Beat the cooled brown butter with the brown and white sugars until pale and fluffy (3-5 minutes). Beat in the eggs and vanilla."
+          "text": "Cream: Beat the cooled brown butter with light brown sugar and granulated white sugar until pale and fluffy, about 3–5 minutes. Scrape the bowl so the browned solids are distributed."
         },
         {
           "@type": "HowToStep",
-          "text": "Mix: Dissolve the baking soda in 1 tsp hot water and add to the batter with the salt. Gently fold in the flour, chocolate chips, and seeds."
+          "text": "Add eggs and vanilla: Beat in large eggs and vanilla extract, adding the eggs one at a time and mixing until combined."
         },
         {
           "@type": "HowToStep",
-          "text": "The Rest (Critical): Wrap the dough and refrigerate for at least 24 hours. This is the secret to the best cookies."
+          "text": "Add soda and salt: Use baking soda, hot water, and kosher salt: stir the baking soda with the listed hot water, then mix it and the salt into the butter mixture."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Scoop onto a parchment-lined sheet. Bake at 350°F for 10-12 minutes until the edges are golden but the centers are still soft."
+          "text": "Finish the dough: Stir in all-purpose flour, semisweet chocolate chips, and sunflower seeds until no dry flour remains and the chips and seeds are evenly distributed. The seeds are already toasted."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Sprinkle with a tiny pinch of flaky sea salt immediately."
+          "text": "Chill: Cover the dough and refrigerate promptly at 40°F / 4°C or below overnight. Plan to portion and bake within 24 hours of mixing; keep waiting dough refrigerated between oven loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Prepare to bake: After the chill, preheat the oven to 350°F. Line baking sheets with parchment. Portion the dough into evenly sized scoops, allowing about 2 inches between them. The listed count is an approximate cookie count; scoop size determines how many you get. Use additional sheets and oven loads for a larger batch, keeping scoop size and spacing consistent. Wait for the oven to reach temperature before loading."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake: Bake for 10–12 minutes per oven load, until the edges are golden and the centers have set but remain soft. Keep unbaked dough refrigerated between loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish and cool: Sprinkle flaky sea salt over the cookies immediately after baking. Leave them on the sheet until firm enough to lift without breaking, then transfer to a rack to cool completely before packing."
         }
       ],
       "prepTime": "PT20M",
-      "cookTime": "PT10M",
-      "totalTime": "PT1440M",
-      "recipeYield": "24",
+      "recipeYield": "24 pieces",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, comfort-food, kid-friendly, weekend-project, holiday, bake",
-      "suitableForDiet": ["https://schema.org/VegetarianDiet"]
+      "suitableForDiet": ["https://schema.org/VegetarianDiet"],
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Brown-butter adaptation of Best Chocolate Chip Cookies, allrecipes.com",
+        "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -11682,7 +11699,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Spinach Gnocchi",
-      "description": "These are properly called \"gnudi\" - Italian for \"naked\" - because they're essentially the filling of ravioli without the pasta wrapper. They originated in Tuscany, where ricotta and spinach were abundant.",
+      "description": "Squeeze the thawed spinach firmly before mixing it with the full ricotta, Parmesan, egg and whole-wheat flour. Add only the dusting flour needed to handle the dough.",
       "url": "https://jordansilton.com/mise/recipes/easy-spinach-gnocchi/",
       "recipeIngredient": [
         "10 oz Frozen Spinach, defrosted",
@@ -11691,32 +11708,33 @@
         "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
         "1 large Egg",
         "Salt and Black Pepper",
-        "Pinch of Nutmeg (The \"High Note\")"
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Squeeze: Defrost spinach and squeeze in a kitchen towel until no liquid remains."
+          "text": "Prepare spinach: Thaw the spinach in the refrigerator. If its package requires cooking before use, follow that instruction, cool enough to handle and squeeze it firmly in a clean towel. Do not assume every frozen product is ready to eat."
         },
         {
           "@type": "HowToStep",
-          "text": "The Mix: In a food processor, pulse the dry spinach, ricotta, Parmesan, flour, egg, nutmeg, and salt until a sticky dough forms. Do not over-process."
+          "text": "Mix: Pulse all the dry spinach, ricotta, Parmesan, measured flour, egg, nutmeg and salt to taste in a food processor until combined into sticky dough. Use processor batches if needed, then combine all the dough. Do not taste the raw mixture."
         },
         {
           "@type": "HowToStep",
-          "text": "The Shape: Transfer dough to a floured board. Sprinkle with more flour until it no longer sticks to your hands. Divide into 4 logs (1-inch thick)."
+          "text": "Shape: Transfer to a floured board and dust just enough to prevent sticking. For the original batch, divide into about four logs; at other scales make more or fewer logs of the same roughly 1-inch diameter."
         },
         {
           "@type": "HowToStep",
-          "text": "Cut: Slice logs into 1-inch chunks. Toss lightly with flour."
+          "text": "Cut: Cut into roughly 1-inch pieces for the current route and toss lightly with dusting flour."
         },
         {
           "@type": "HowToStep",
-          "text": "Boil: Bring a large pot of salted water to a boil. Drop gnocchi in. They are done when they float to the surface (3-5 mins)."
+          "text": "Boil: Bring a large pot of salted water to a boil. Cook in uncrowded batches. Start checking around 3–5 minutes: the pieces should float, and a cut-open representative center should be cooked through without a raw floury core. Check representative egg-containing centers for 160°F; allow longer when needed."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Drain gently. Serve immediately with a high-quality tomato sauce or brown butter and sage."
+          "text": "Finish: Drain gently and season with the listed black pepper. Serve with your chosen tomato sauce or separately prepared brown butter and sage."
         }
       ],
       "prepTime": "PT15M",
@@ -11886,7 +11904,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Eggless Spinach and Ricotta Stuffed Shells",
-      "description": "Ricotta and pecorino bind this filling without eggs or mozzarella. Squeeze the steamed spinach dry and drain the ricotta if liquid pools around it so the shells do not sit in a watery sauce.",
+      "description": "Ricotta and pecorino bind this filling without eggs or mozzarella. Squeeze the steamed spinach dry and drain the ricotta if liquid pools around it so the shells do not sit in watery sauce.",
       "url": "https://jordansilton.com/mise/recipes/eggless-spinach-and-ricotta-stuffed-shells/",
       "recipeIngredient": [
         "18 to 20 jumbo pasta shells",
@@ -11906,28 +11924,29 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prepare: Preheat the oven to 425°F."
+          "text": "Prepare: Preheat the oven to 425°F. For the original batch, have a 9×13-inch oven-safe dish ready. At other scales use enough dishes for similar shell spacing and sauce depth; divide all the marinara and filling among them before assembly."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Place the spinach in a steamer basket and set over a pot with 1-inch of water. Bring the water to a simmer, cover, and let steam for 1 minute, until the spinach is wilted. Transfer to a strainer and squeeze out the excess water and chop the spinach."
+          "text": "Steam spinach: Wash and drain the fresh spinach. Set a steamer over a pot with 1 inch of water and bring to a simmer. Cover and steam the spinach about 1 minute, until wilted. Transfer to a strainer, let cool enough to handle, squeeze dry and chop."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: In a large pot of salted boiling water, cook the pasta shells for 10 minutes, until al dente. Drain and drizzle with a little olive oil to keep them from sticking together."
+          "text": "Cook shells: In a large pot of salted boiling water, cook the listed shell count about 10 minutes or according to its package, until al dente. Drain and drizzle with the listed olive-oil allowance to prevent sticking."
         },
         {
           "@type": "HowToStep",
-          "text": "Mix: In a medium bowl, combine the spinach with the ricotta, pecorino, garlic, oregano, lemon zest, red pepper flakes, salt, and several grinds of pepper."
+          "text": "Mix filling: Combine all the spinach, ricotta, measured pecorino, garlic, oregano, lemon zest, red pepper flakes, measured salt and black pepper in a bowl. Wash the lemon before zesting."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Spread the marinara in the bottom of a 9x13 baking dish. Stuff each shell with the filling and place in the dish. Cover with foil and bake for 20 minutes. Bake until the filling centers reach 165°F / 74°C, allowing extra time for chilled shells. Serve with more marinara on the side."
+          "text": "Fill and bake: Spread all the measured marinara among the prepared dishes. Divide all the filling among the cooked shells and arrange over the sauce. Cover with foil and bake about 20 minutes as a first check. Continue until the filling centers reach 165°F /74°C, checking each dish and allowing extra time for chilled shells."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Serve: Sprinkle with the additional pecorino and chopped parsley as desired. Serve with the additional marinara on the side."
         }
       ],
-      "prepTime": "PT25M",
-      "cookTime": "PT20M",
-      "totalTime": "PT50M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Italian"],
@@ -12842,56 +12861,60 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Freezer Date Cookies",
-      "description": "These are nutritious cookies designed for long-term freezer storage. The key to their texture is processing the Medjool dates directly with the melted butter in a food processor to create a smooth, caramel-like paste that acts as the primary sweetener.",
+      "description": "The dates supply the sweetness, with the full butter, egg and Greek yogurt forming the wet mixture. Blend that mixture evenly, then stir it into the two flours and quick oats.",
       "url": "https://jordansilton.com/mise/recipes/freezer-date-cookies/",
       "recipeIngredient": [
-        "1 cup Medjool Dates, pitted",
-        "1/2 cup Unsalted Butter, melted",
-        "1 large Egg",
-        "1/4 cup Plain Greek Yogurt",
-        "1 tsp Vanilla Extract",
-        "1/3 cup Buckwheat Flour",
-        "2/3 cup White Whole Wheat Flour",
-        "1 cup quick Oats",
-        "1/2 tsp Baking Soda",
-        "1/2 tsp Ground Cinnamon",
-        "Pinch of Sea Salt"
+        "1 cup Medjool dates, pitted",
+        "1/2 cup unsalted butter, melted, then cooled until only mildly warm",
+        "1 large egg",
+        "1/4 cup plain Greek yogurt",
+        "1 tsp vanilla extract",
+        "1/3 cup buckwheat flour",
+        "2/3 cup white whole wheat flour",
+        "1 cup quick oats",
+        "1/2 tsp baking soda",
+        "1/2 tsp ground cinnamon",
+        "sea salt, a pinch",
+        "butter or baking spray, enough to lightly grease cookie sheets",
+        "hot water, enough to soak other types of dates if that option is chosen, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Date Paste: Place the pitted Medjool dates and melted butter in a food processor. Pulse on high until a completely smooth, thick paste forms."
+          "text": "Prepare: Preheat the oven to 350°F. Have butter or baking spray and hot water (if using) ready: lightly grease cookie sheets with the fat or spray. The optional hot water is only for the other-date option; pit and measure the full listed date volume first, soak those dates until soft, then drain before making the paste. Follow the food processor’s actual loading and temperature instructions, and let the melted butter become only mildly warm before it will meet the egg."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: Add the egg, yogurt, and vanilla to the processor. Pulse for 10 seconds until perfectly integrated."
+          "text": "Make date paste: Process Medjool dates and unsalted butter until a smooth, thick paste forms, stopping and scraping as needed. Work within the processor’s capacity; split a larger batch proportionally into complete dough batches rather than overfilling it."
         },
         {
           "@type": "HowToStep",
-          "text": "Dry Mix: In a separate bowl, whisk together buckwheat flour, whole wheat flour, oats, baking soda, and cinnamon."
+          "text": "Mix wet ingredients: Add large egg, plain Greek yogurt, and vanilla extract and process until evenly mixed, stopping to scrape as needed. Stop when the mixture is uniform, without unmixed egg or yogurt."
         },
         {
           "@type": "HowToStep",
-          "text": "Combine: Pour the date mixture into the dry ingredients. Mix with a spatula until a thick, sticky dough forms."
+          "text": "Mix dry ingredients: Whisk buckwheat flour, white whole wheat flour, quick oats, baking soda, ground cinnamon, and sea salt together in a mixing bowl, including the pinch of salt."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Preheat oven to 350°F. Roll the dough into small balls (about 1 tbsp each). Place on a greased cookie sheet and press down firmly with your palm to create a 1/2-inch thick disk."
+          "text": "Combine: Stir the date mixture into the dry ingredients until a thick, sticky dough forms and no dry flour remains."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 12-15 minutes until the edges are lightly browned."
+          "text": "Shape: Use all the dough in small balls, about 1 tbsp each, and press them into ½-inch-thick disks on the prepared sheets, leaving room between them. The listed cookie count is a planning value; tablespoon portions may give a different number. Keep portion size and thickness consistent and use more sheets and oven loads when scaling."
         },
         {
           "@type": "HowToStep",
-          "text": "The Freeze: Let cool completely. Transfer to a freezer bag. These are at their Kitchen Standard when eaten straight from the freezer."
+          "text": "Bake: Wait for the oven to reach 350°F, then bake for 12–15 minutes per load until the edges are lightly browned and the centers are set, not wet dough. Keep remaining raw dough refrigerated at 40°F / 4°C or below between loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool and freeze: Cool the baked cookies completely on a rack, then pack airtight in a freezer bag or container and label the date. Freeze at 0°F / −18°C or below; avoid trapping steam in the package. If staging cooled cookies before freezing, keep them refrigerated at 40°F / 4°C or below rather than leaving them out. They can be eaten cold from the freezer if comfortably chewable, or thawed covered in the refrigerator; cold texture varies with the dates and bake."
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT12M",
-      "totalTime": "PT30M",
-      "recipeYield": "24 cookies",
-      "recipeCategory": "Main course",
+      "recipeYield": "24 pieces",
+      "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, meal-prep, snack, quick-lunch, kid-friendly, bake, blend",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"]
@@ -13124,39 +13147,40 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Pasta Dough",
-      "description": "Traditional pasta dough from Northern Italy uses just flour and eggs - the simplicity lets you taste the quality of each ingredient. The 30-60 minute rest period is essential: it allows the gluten to relax fully so the dough rolls smoothly without springing back.",
+      "description": "This three-egg dough includes the full olive oil and kosher salt. Knead until smooth and elastic, then keep it covered during the rest and rolling.",
       "url": "https://jordansilton.com/mise/recipes/fresh-pasta-dough/",
       "recipeIngredient": [
         "2 cups All-Purpose or \"00\" Flour",
         "3 large Eggs, lightly beaten",
         "1 tbsp Extra-Virgin Olive Oil",
-        "1 tsp Kosher Salt"
+        "1 tsp Kosher Salt",
+        "Flour or semolina, as needed for dusting the work surface and roller"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Mix: Place flour and salt in the bowl of a stand mixer. Create a well in the center. Add the eggs and olive oil."
+          "text": "Mix: Place all the measured dough flour and salt in the stand-mixer bowl. Make a well and add all the beaten eggs and olive oil. Mix by hand until a shaggy dough forms; keep hands clear before starting the mixer."
         },
         {
           "@type": "HowToStep",
-          "text": "The Hook: Use the dough hook on speed 2. Run until a shaggy dough forms and starts to climb the hook (about 3-4 mins)."
+          "text": "Knead: Fit the dough hook and use the actual mixer’s recommended speed and dough capacity. Knead about 10 minutes, checking for a smooth, elastic dough. If kneading by hand, work until the same texture develops rather than treating the clock as a guarantee."
         },
         {
           "@type": "HowToStep",
-          "text": "The Knead: Continue on speed 2 for 8-10 minutes. The dough should transform from lumpy to completely smooth, elastic, and slightly tacky."
+          "text": "Rest: Wrap tightly and rest at least 30 minutes at ordinary room temperature. For advance preparation, wrap and refrigerate for up to 1 day; refrigerate sooner in a hot kitchen or if rolling is delayed. Do not taste raw dough."
         },
         {
           "@type": "HowToStep",
-          "text": "The Rest: Remove from the bowl. Wrap tightly in plastic wrap. Let rest for at least 30 minutes (up to 24 hours in the fridge) before rolling."
+          "text": "Roll: Divide into manageable pieces and keep the others wrapped. Start at the roller’s widest setting, fold and pass through to form an even sheet, then narrow gradually, dusting only as needed. Machine numbers differ; stop at the thickness required for the chosen shape. See Fresh Egg Pasta for rolling technique, using this recipe’s full formula rather than its different yolk-enriched formula."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Cut, roll, and shape as desired. See Fresh Egg Pasta for rolling settings."
+          "text": "Shape and cook: Cut or fill for the chosen pasta dish. Follow that dish’s cooking method and check for a cooked center without raw floury dough; filled pasta also needs its filling’s endpoint. This recipe’s zero cook time describes making the dough, not serving it raw."
         }
       ],
       "prepTime": "PT15M",
       "totalTime": "PT60M",
-      "recipeYield": "1 lb dough",
+      "recipeYield": "1 lb dough (approximate)",
       "recipeCategory": "Base",
       "recipeCuisine": ["Italian"],
       "keywords": "Italian, herbaceous, weekend-project, no-cook",
@@ -14643,7 +14667,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Gnocchi with Zucchini Ribbons & Brown Butter",
-      "description": "Brown butter (beurre noisette in French, literally \"hazelnut butter\") is a classic Italian and French technique where you cook butter until milk solids turn golden and release nutty aroma. Use a vegetable peeler to shave zucchini into paper-thin ribbons so they wilt quickly.",
+      "description": "Watch the butter’s milk solids rather than waiting for all foaming to stop: they should begin turning golden and smell nutty before the shallots and thin zucchini ribbons go in. Toss the gnocchi gently so the full Parmesan and parsley coat it without crushing the pieces.",
       "url": "https://jordansilton.com/mise/recipes/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter/",
       "recipeIngredient": [
         "1 lb Fresh or Frozen Potato Gnocchi",
@@ -14654,32 +14678,33 @@
         "1/2 cup Fresh Parsley, chopped",
         "1/2 cup Freshly Grated Parmesan",
         "1/4 tsp Ground Nutmeg (The \"High Note\")",
-        "Salt and Black Pepper"
+        "Salt and Black Pepper",
+        "1/2 tsp salt, optional alternative to salt to taste; choose one salt route"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Boil: Bring a large pot of salted water to a boil. Cook gnocchi until they float (3-5 mins). Drain."
+          "text": "Cook gnocchi: Bring a large pot of salted water to a boil. Cook the fresh or frozen gnocchi according to its package, generally 3–5 minutes as a starting point, until floating and cooked through. Drain; do not automatically thaw a product whose package says to cook from frozen."
         },
         {
           "@type": "HowToStep",
-          "text": "Brown: Meanwhile, in a large skillet, melt butter over medium-high heat. Cook for 2 minutes until it stops foaming and turns golden brown with a nutty aroma."
+          "text": "Brown butter: Meanwhile, melt all the butter in a large skillet over medium-high heat. Cook until the milk solids begin turning golden and smell nutty, around 2 minutes as a guide. Lower the heat if they darken rapidly; do not wait for a fixed clock or complete cessation of foam."
         },
         {
           "@type": "HowToStep",
-          "text": "Aromatics: Add shallots and zucchini ribbons. Sauté for 2 minutes, tossing constantly until just wilted."
+          "text": "Cook vegetables: Add all the minced shallots and washed, ribbon-thin zucchini. Cook, stirring often, about 2–3 minutes until softened. Use enough skillet batches for the full scaled vegetables, dividing the full butter and seasonings among them."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Add halved tomatoes, salt, nutmeg, and pepper. Cook for 2 minutes until the tomatoes just begin to release their juices and form a light sauce."
+          "text": "Add tomatoes: Add all the washed halved tomatoes, the salt from your chosen seasoning route, all the nutmeg and pepper to taste. Cook about 1–2 minutes until the tomatoes begin to release juices and break down."
         },
         {
           "@type": "HowToStep",
-          "text": "Toss: Add the drained gnocchi, Parmesan, and parsley to the skillet."
+          "text": "Combine: Add all the drained gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. Combine all cooked batches for serving if a bowl gives more room than the skillet."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Toss vigorously for 30 seconds until the cheese is melted and the gnocchi is glossy and coated. Serve immediately."
+          "text": "Serve: Serve promptly, keeping the gnocchi intact rather than tossing vigorously against a crowded pan."
         }
       ],
       "prepTime": "PT10M",
@@ -16000,60 +16025,66 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Hamantaschen",
-      "description": "These triangular Jewish cookies for Purim require careful technique to prevent blowouts during baking. When folding the three sides, tuck one corner under the next flap to create a self-locking triangle.",
+      "description": "Hamantaschen are triangular Jewish cookies for Purim. Keep the butter dough cool enough to handle, and give each flap one over-and-one-under corner.",
       "url": "https://jordansilton.com/mise/recipes/hamantaschen/",
       "recipeIngredient": [
-        "3/4 cup Unsalted Butter, room temp",
-        "2/3 cup Granulated Sugar",
-        "1 large Egg, room temp",
-        "2 1/4 cups All-Purpose Flour",
-        "1 tsp Pure Vanilla Extract",
-        "1 tsp Orange Zest, grated",
-        "1/4 tsp Sea Salt",
-        "Apricot Jam, Poppy Seed Paste, or chocolate-hazelnut spread"
+        "3/4 cup unsalted butter, room temperature",
+        "2/3 cup granulated sugar",
+        "1 large egg, room temperature",
+        "1 tsp pure vanilla extract",
+        "1 tsp orange zest, grated",
+        "2 1/4 cups all-purpose flour",
+        "1/4 tsp sea salt",
+        "1–5 tsp water, cold; only as needed, optional",
+        "all-purpose flour, a little only if the dough is too sticky, optional",
+        "all-purpose flour, enough to dust the surface and rolling pin lightly",
+        "butter or baking spray, enough to lightly grease baking sheets",
+        "apricot jam, poppy seed paste, or chocolate-hazelnut spread, enough for up to 1 tsp per 3-inch cookie; choose one filling"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: In a stand mixer, cream butter and sugar until light and fluffy (3 mins). Add the egg, vanilla, and orange zest; beat until perfectly combined."
+          "text": "Cream: Beat unsalted butter and granulated sugar until light and fluffy, about 3 minutes."
         },
         {
           "@type": "HowToStep",
-          "text": "The Mix: Sift in the flour and salt. Mix on low speed until a crumbly dough forms. Stop immediately."
+          "text": "Add egg and flavorings: Beat in large egg, pure vanilla extract, and orange zest until evenly combined, scraping the bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "The Knead: Use your hands to gently knead the crumbles into a smooth, tacky ball. If too dry, add cold water 1 tsp at a time."
+          "text": "Mix the dough: Sift in all-purpose flour and sea salt and mix on low until a crumbly dough forms."
         },
         {
           "@type": "HowToStep",
-          "text": "The Chill: Wrap in plastic and refrigerate for at least 3 hours (overnight is best)."
+          "text": "Bring the dough together: Have water (if using) and all-purpose flour (if using) available only if needed. Knead the crumbles gently into a smooth, slightly tacky ball. Add the listed water slowly, a little at a time, only if the dough is too dry to join; in the original batch use 1–5 tsp total as needed, adding about 1 tsp at a time. Scale that total range with the dough, but continue adding small increments by feel. If it becomes sticky, knead in a little of the optional flour. Stop once the dough holds together and can be rolled; avoid overworking it."
         },
         {
           "@type": "HowToStep",
-          "text": "Roll: On a floured surface, roll dough to a uniform 1/8-inch thickness."
+          "text": "Chill: Flatten into a disk, wrap and refrigerate at 40°F / 4°C or below for at least 3 hours or overnight."
         },
         {
           "@type": "HowToStep",
-          "text": "Cut: Use a 3-inch round cutter to cut circles. Re-roll scraps once."
+          "text": "Prepare to assemble: Choose and prepare the filling before rolling; follow its own recipe or product instructions. Preheat the oven to 350°F. Use all-purpose flour and butter or baking spray for handling: lightly flour the work surface and rolling pin, then lightly grease the sheets with the butter or spray."
         },
         {
           "@type": "HowToStep",
-          "text": "Fill & Fold: Place 1 tsp filling in the center. Fold the three sides up to form a triangle. The Pinwheel: Tuck the left corner of each flap under the adjacent side to lock it. Pinch the corners firmly."
+          "text": "Roll and cut: Roll to the main ⅛-inch thickness. If needed, begin around ¼ inch, lift the dough with a pastry scraper, lightly re-flour and flip it, then finish rolling. Repair cracks with your fingers. Cut 3-inch circles and gather and re-roll scraps gently until all usable dough is portioned; avoid adding unnecessary flour. Keep unused circles covered with a lightly damp towel while filling. The listed cookie count is a planning value; thickness changes yield. Larger batches need more sheets and oven loads, with the same circle size and thickness."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Preheat oven to 350°F. Bake for 20-25 minutes until the edges are just barely golden."
+          "text": "Fill and fold: Use apricot jam, poppy seed paste, or chocolate-hazelnut spread, placing no more than 1 tsp in each 3-inch circle. Fold the left side toward the center; fold the right side so its upper part overlaps the left flap. Fold the bottom up with its left corner under the left flap and its right corner over the right flap. Each flap then has one corner over and one under, leaving a small center of filling visible. Pinch the corners gently but firmly and repair cracks; Keep the filling away from the seams and make each fold secure."
         },
         {
           "@type": "HowToStep",
-          "text": "Store: Let cool completely. Store in an airtight container to maintain the \"Snap.\""
+          "text": "Bake: Space the cookies on the prepared sheets and wait for the oven to reach 350°F. The main route is 20–25 minutes per oven load, until cooked through and lightly golden. Begin checking at 10 minutes when cookies are thin: thickness and filling can make them finish sooner. Keep unbaked dough refrigerated between loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool and store: Cool completely on a wire rack before storing airtight. Follow the selected filling’s storage requirements; refrigerate cookies with perishable filling at 40°F / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C."
         }
       ],
       "prepTime": "PT20M",
-      "cookTime": "PT20M",
-      "totalTime": "PT220M",
-      "recipeYield": "35",
+      "recipeYield": "35 pieces",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["Jewish"],
       "keywords": "Jewish, sweet, rich, holiday, bake",
@@ -16068,7 +16099,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Har Gow (Shrimp Dumplings)",
-      "description": "Har gow are Cantonese shrimp dumplings with translucent, pleated wrappers - a dim sum classic and a test of a chef's skill. The dough uses wheat starch (not wheat flour) mixed with boiling water, which gelatinizes the starch instantly and creates a flexible dough that steams into a glass-like wrapper.",
+      "description": "Har gow are Cantonese dim sum shrimp dumplings with translucent wrappers. They use a boiling-water starch dough, distinct from egg-and-flour wonton wrappers.",
       "url": "https://jordansilton.com/mise/recipes/har-gow-dim-sum-shrimp-dumplings/",
       "recipeIngredient": [
         "1/2 lb Raw Shrimp, peeled, deveined, and patted dry",
@@ -16083,36 +16114,39 @@
         "1 cup Wheat Starch (Tin Mein Fun)",
         "1/2 cup Cornstarch or Tapioca Starch",
         "1 1/4 cups Boiling Water",
-        "3 tsp Lard or Neutral Oil"
+        "3 tsp Lard or Neutral Oil",
+        "1 to 2 tsp boiling water, optional only if the dough cracks in dry conditions",
+        "Neutral oil, as needed for the flat-blade shaping option",
+        "Chili oil and soy sauce, as desired for serving"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Filling: Finely chop the shrimp. In a large bowl, combine shrimp and all shrimp paste ingredients. Whip vigorously in one direction for 3 minutes until the mixture is very sticky. Fold in bamboo shoots. Chill for 30 minutes."
+          "text": "Mix filling: Thaw frozen shrimp in the refrigerator if needed and pat dry. Mash and coarsely chop large shrimp; for small shrimp, the source also permits leaving them whole or halving them. Combine with all the oyster sauce, measured vegetable oil, white pepper, sesame oil, sea salt, sugar and minced ginger. Stir vigorously in one direction for about 3 minutes until sticky, then fold in all the minced bamboo shoots. Cover and refrigerate for a 30-minute chill while preparing the dough; keep the filling cold between assembly batches."
         },
         {
           "@type": "HowToStep",
-          "text": "The Dough: In a heatproof bowl, whisk wheat starch and cornstarch. Pour in the boiling water while stirring rapidly with chopsticks. Add lard/oil."
+          "text": "Mix dough: Whisk all the wheat starch and your chosen cornstarch or tapioca starch in a heatproof bowl. Slowly pour in the full measured boiling water while stirring rapidly, then add all the measured lard or neutral oil. Wheat starch is not interchangeable with wheat flour."
         },
         {
           "@type": "HowToStep",
-          "text": "Knead: Once cool enough to touch, knead for 2 minutes until smooth. Roll into a cylinder and divide into 18 pieces. Keep covered with a damp towel."
+          "text": "Knead and divide: When cool enough to handle without burning, knead about 2 minutes until smooth. If a test piece cracks when gently rolled, the source permits the listed optional extra boiling-water allowance in dry conditions; work it in cautiously, let it cool enough to handle and check again rather than automatically adding it. Divide into roughly the listed dumpling count, keeping each piece the original size, and cover with a damp towel. More or fewer same-sized pieces are needed at other scales."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Use a flat blade (lightly oiled) to flatten each dough ball into a thin 3-inch circle."
+          "text": "Roll: Roll each piece into a thin circle about 3 inches across, keeping the remaining pieces covered. If using the flat-blade shaping option, lightly oil the blade with the separate tooling allowance; the measured dough and filling fats remain in their own mixtures."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Place 1 tbsp filling in the center. Fold and pleat carefully (aim for 7-10 pleats) to create the signature \"bonnet\" shape."
+          "text": "Fill: Divide all the filling among the wrappers, starting with a modest spoonful rather than a fixed tablespoon in every piece. Fold and pleat to close, keeping the rim clean. Do not taste raw filling, and wash raw-contact hands and utensils before handling cooked dumplings."
         },
         {
           "@type": "HowToStep",
-          "text": "Steam: Place in a bamboo steamer on parchment. Steam over boiling water for exactly 6 minutes on high heat."
+          "text": "Steam: Line a steamer with perforated parchment and bring its water to a boil. Leave about 1½ inches around dumplings for expansion and work in batches, replenishing the steamer according to its instructions. Cover and steam on high heat; begin checking around the source’s 6-minute mark rather than stopping at an exact clock. Check representative fillings, including a larger dumpling in each batch, for 165°F /74°C, continuing when needed. Use a thin probe without touching the steamer and check the center. Serve on a clean plate."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Serve immediately with chili oil and soy sauce for the mandatory High Note."
+          "text": "Serve: Serve hot with the optional chili oil and soy sauce. These are separate serving allowances, not required additions to the filling."
         }
       ],
       "prepTime": "PT60M",
@@ -21537,52 +21571,59 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Candy-Coated Chocolate Cookies",
-      "description": "Folding only 3/4 of the candies into the dough, then pressing the remaining candies into the tops of the dough balls after scooping ensures vibrant colors stay visible on the finished cookies instead of bleeding into the batter during baking. Using a high ratio of brown sugar to white sugar creates chewy cookies that contrast the crisp candy shell.",
+      "description": "Some candies are folded through the dough and the remaining portion is pressed onto the tops. Keep that reserved portion separate before scooping; distributing it by the actual number of cookies avoids running short while decorating.",
       "url": "https://jordansilton.com/mise/recipes/mm-cookies/",
       "recipeIngredient": [
-        "1 cup Shortening (or Unsalted Butter)",
-        "1 cup Light Brown Sugar, packed",
-        "1/2 cup Granulated Sugar",
-        "2 large Eggs",
-        "1 1/2 tsp Pure Vanilla Extract",
-        "2 1/2 cups All-Purpose Flour",
-        "1 tsp Baking Soda + 1 tsp Sea Salt",
+        "1 cup shortening or unsalted butter, choose one; butter softened if used",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "2 large eggs",
+        "1 1/2 tsp pure vanilla extract",
+        "2 1/2 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp sea salt",
         "1 1/2 cups candy-coated milk chocolate candies"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Cream: In a large bowl, beat the shortening (or butter) with both sugars until light and fluffy (2 mins). Add eggs and vanilla; beat until emulsified."
+          "text": "Prepare: Preheat the oven to 350°F and have ungreased baking sheets and a cooling rack ready."
         },
         {
           "@type": "HowToStep",
-          "text": "Dry Mix: Whisk together flour, baking soda, and salt. Gradually add to the wet mix until just combined."
+          "text": "Cream: Beat shortening or unsalted butter, light brown sugar, and granulated sugar until light and fluffy, about 2 minutes, scraping the bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Inclusions: Fold in 1 cup of the candies."
+          "text": "Add eggs: Beat in large eggs and pure vanilla extract until evenly combined."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Preheat oven to 350°F. Drop teaspoon-sized balls of dough onto ungreased sheets."
+          "text": "Mix the dry ingredients: Whisk all-purpose flour, baking soda, and sea salt in a separate bowl, then gradually stir into the wet mixture just until no dry flour remains."
         },
         {
           "@type": "HowToStep",
-          "text": "Press: Press 3-4 of the remaining candies into the top of each ball."
+          "text": "Fold in candies: Fold 2/3 of the candy-coated milk chocolate candies into the dough, reserving the rest cleanly for the tops. This is 1 cup folded and ½ cup reserved in the original 72-cookie planning batch; both allocations follow the listed batch proportionally."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 9-11 minutes until the edges are just golden. Do not over-bake; they will set on the pan."
+          "text": "Shape: Drop teaspoonfuls onto the ungreased sheets, leaving space for spreading. Keep the portions consistent; the listed yield is a planning count for these small cookies. A larger batch needs more sheets and oven loads, not larger dough balls."
         },
         {
           "@type": "HowToStep",
-          "text": "Cool: Let rest on the pan for 5 minutes to ensure proper texture."
+          "text": "Decorate: Distribute 1/3 of the candy-coated milk chocolate candies across the dough portions, pressing them in slightly. Use all of this reserved amount; the number of candies on each cookie depends on candy size and the actual cookie count."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake: Wait for the oven to reach 350°F, then bake for 9–11 minutes per load, until the edges are lightly golden and the centers are set but soft. Keep remaining dough refrigerated at 40°F / 4°C or below between loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool: Leave the cookies on their sheets for 5 minutes, then transfer to a rack to cool completely before packing."
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT10M",
-      "totalTime": "PT25M",
-      "recipeYield": "72 small cookies",
+      "recipeYield": "72 pieces",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, comfort-food, kid-friendly, bake",
@@ -22422,58 +22463,66 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Soft Pumpkin Cookies",
-      "description": "These autumn cookies achieve incredible softness by whisking pumpkin puree directly into creamed butter and sugar, ensuring moisture is fully emulsified before flour is added. The butter-sugar glaze adds sweetness that balances earthy spices.",
+      "description": "Use pure pumpkin puree rather than sweetened pumpkin pie filling. The pumpkin dough and the vanilla glaze each have their own vanilla amount.",
       "url": "https://jordansilton.com/mise/recipes/old-fashioned-soft-pumpkin-cookies/",
       "recipeIngredient": [
-        "1 cup Pure Pumpkin Puree",
-        "1/2 cup (1 stick) Unsalted Butter, softened",
-        "1 1/2 cups Granulated Sugar",
-        "1 large Egg",
-        "1 tsp Pure Vanilla Extract",
-        "2 1/2 cups All-Purpose Flour",
-        "1 tsp Baking Soda",
-        "1 tsp Baking Powder",
-        "1 tsp Ground Cinnamon",
-        "1/2 tsp Ground Nutmeg",
-        "1/2 tsp Sea Salt",
-        "2 cups Confectioners’ Sugar",
-        "3 tbsp Milk",
-        "1 tbsp Unsalted Butter, melted"
+        "1 cup pure pumpkin puree",
+        "1/2 cup (1 stick) unsalted butter, softened",
+        "1 1/2 cups granulated sugar",
+        "1 large egg",
+        "1 tsp pure vanilla extract",
+        "2 1/2 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp baking powder",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground nutmeg",
+        "1/2 tsp sea salt",
+        "2 cups confectioners’ sugar, sifted",
+        "3 tbsp milk",
+        "1 tbsp unsalted butter, melted",
+        "1 tsp pure vanilla extract",
+        "butter or baking spray, enough to lightly grease baking sheets"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Dry Mix: Whisk together flour, baking soda, baking powder, and spices."
+          "text": "Prepare: Preheat the oven to 350°F. Use butter or baking spray to lightly grease baking sheets, and have a cooling rack ready."
         },
         {
           "@type": "HowToStep",
-          "text": "Cream: In a large bowl, beat softened butter and sugar until fluffy. Add the pumpkin, egg, and vanilla; beat until smooth."
+          "text": "Mix dry ingredients: Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground nutmeg, and sea salt in a medium bowl so the spices, salt and leaveners are distributed."
         },
         {
           "@type": "HowToStep",
-          "text": "Combine: Gradually add the dry mix until just combined. The batter will be very soft and scoopable."
+          "text": "Cream: Beat unsalted butter and granulated sugar in a large bowl until fluffy, scraping the bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Drop by rounded tablespoons onto greased sheets."
+          "text": "Add pumpkin: Beat in pure pumpkin puree, large egg, and pure vanilla extract until evenly mixed."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake at 350°F for 15-18 minutes until the edges are firm and the tops are slightly golden."
+          "text": "Combine: Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable."
         },
         {
           "@type": "HowToStep",
-          "text": "Glaze: Whisk glaze ingredients until smooth. Drizzle over warm cookies."
+          "text": "Shape: Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all the dough; the listed count is a planning value. Keep scoop size consistent and use extra sheets or loads as the batch grows."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Let cool for 10 minutes to allow the glaze to set into a \"Snap.\""
+          "text": "Bake: Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or below between loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool before glazing: Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding the glaze."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Glaze: Whisk confectioners’ sugar, milk, unsalted butter, and pure vanilla extract until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT15M",
-      "totalTime": "PT25M",
-      "recipeYield": "36",
+      "recipeYield": "36 pieces",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, comfort-food, bake",
@@ -31004,49 +31053,51 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Snickerdoodles",
-      "description": "What separates a Snickerdoodle from a standard sugar cookie is Chemistry. The Cream of Tartar provides the signature tangy flavor and reacts with the baking soda to create a uniquely chewy, pillowy texture that prevents the cookie from becoming too crisp.",
+      "description": "Mimi (Pat Hamilton)’s cinnamon-sugar cookies use cream of tartar alongside baking soda. The coating has its own sugar allocation: mix it separately, then roll the chilled dough in it before baking.",
       "url": "https://jordansilton.com/mise/recipes/snickerdoodles/",
       "recipeIngredient": [
-        "1 cup (2 sticks) Unsalted Butter, softened",
-        "1 1/2 cups Granulated Sugar",
-        "2 large Eggs",
-        "2 3/4 cups All-Purpose Flour",
-        "2 tsp Cream of Tartar (The essential ingredient)",
-        "1 tsp Baking Soda",
-        "1/2 tsp Kosher Salt",
-        "3 tbsp Sugar",
-        "3 tsp Ground Cinnamon"
+        "1 cup (2 sticks) unsalted butter, softened",
+        "1 1/2 cups granulated sugar",
+        "2 large eggs",
+        "2 3/4 cups all-purpose flour",
+        "2 tsp cream of tartar",
+        "1 tsp baking soda",
+        "1/2 tsp kosher salt",
+        "3 tbsp granulated sugar",
+        "3 tsp ground cinnamon"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Cream: Beat the butter, 1 1/2 cups sugar, and eggs until very light and fluffy."
+          "text": "Cream: Beat unsalted butter, granulated sugar, and large eggs until very light and fluffy, scraping the bowl to combine them evenly."
         },
         {
           "@type": "HowToStep",
-          "text": "Sift: In a separate bowl, whisk together the flour, cream of tartar, baking soda, and salt."
+          "text": "Mix dry ingredients: Whisk all-purpose flour, cream of tartar, baking soda, and kosher salt in a separate bowl. Stir into the butter mixture just until no dry flour remains."
         },
         {
           "@type": "HowToStep",
-          "text": "Mix: Gradually add the dry ingredients to the butter mixture until just combined."
+          "text": "Chill: Cover and refrigerate the dough at 40°F / 4°C or below for 30 minutes, until firm enough to roll. If still too soft to handle, allow more chilling rather than adding flour."
         },
         {
           "@type": "HowToStep",
-          "text": "Chill: Refrigerate the dough for 30 minutes. This makes it easier to roll and prevents excessive spreading."
+          "text": "Prepare the coating and oven: Preheat the oven to 400°F while the dough finishes chilling. Mix granulated sugar and ground cinnamon in a shallow bowl; have baking sheets and a cooling rack ready."
         },
         {
           "@type": "HowToStep",
-          "text": "Roll: Shape dough into walnut-sized balls. Roll each ball in the cinnamon-sugar mixture until fully coated."
+          "text": "Roll and coat: Shape the chilled dough into evenly sized walnut-sized balls and roll each in the cinnamon-sugar coating. Place them 2 inches apart on baking sheets. Use all the dough; the listed count is approximate and depends on ball size. Scale the coating with the dough and use more sheets or oven loads when needed, keeping ball size and spacing consistent."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Place on a baking sheet 2 inches apart. Bake at 400°F for 8-10 minutes. The cookies should be set at the edges but still appear soft in the center."
+          "text": "Bake: Wait for the oven to reach 400°F. Bake for 8–10 minutes per load until the edges are set and the centers are soft but no longer wet. Keep remaining dough refrigerated between loads."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool: Leave cookies on the sheets until firm enough to lift, then transfer to a rack and cool completely before packing."
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT8M",
-      "totalTime": "PT45M",
-      "recipeYield": "36",
+      "recipeYield": "36 pieces",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, rich, comfort-food, bake",

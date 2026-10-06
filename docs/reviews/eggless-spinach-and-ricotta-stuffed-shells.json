@@ -1,0 +1,573 @@
+{
+  "slug": "eggless-spinach-and-ricotta-stuffed-shells",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "00ab2f763a4b574923425649f262a79b878b45a3dee4324ae55c623e842bd036",
+  "acceptedSourceSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "25 min",
+      "after": "30–40 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–30 min or longer"
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "50–70 min or longer"
+    },
+    {
+      "field": "origin",
+      "before": "loveandlemons.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Drain the greens and divide the full filling",
+        "outcome": "Filled shells with a hot center and sauce that stays around the pasta.",
+        "techniques": ["starch"],
+        "before": [
+          "Scale shells, filling and marinara together. Prepare enough oven-safe dishes for the original shell spacing and sauce depth, and divide the full filling and sauce before assembly; check filling centers in every dish rather than multiplying oven temperature or baking time.",
+          "The 9×13-inch dish is an original-batch reference. Keep the full ricotta and pecorino, and reserve the separate garnish allowances for serving."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Spinach is wilted, cool enough to squeeze and well drained.",
+            "why": "Free water dilutes the filling and sauce."
+          },
+          {
+            "step": 5,
+            "cue": "Each dish has filling centers at 165°F, with hot sauce around the shells.",
+            "why": "Bubbling edges alone do not measure the coldest center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The filling releases water into the sauce",
+            "cause": "Excess liquid remains in the spinach or pools around the ricotta.",
+            "fix": "Cool and squeeze the steamed spinach thoroughly, and drain pooled ricotta liquid before mixing. Keep the full listed cheese amounts; extra cheese or flour is not needed to compensate for wet greens."
+          }
+        ],
+        "timing": "Plan about 30–40 minutes preparation followed by 20–30 minutes or longer baking: roughly 50–70 minutes before any extra heating or batches. Start preheating before preparation and add any remaining oven heating time; refrigerator thawing or advance chilling is separate elapsed time.",
+        "substitutions": [
+          {
+            "ingredient": "Assembled shells",
+            "alternative": "For the publisher’s refrigerated make-ahead route, cover the filled unbaked dish and refrigerate for up to 4 hours, then bake with the same 165°F center check and actual dish thermal instructions.",
+            "effect": "A separate short refrigerated plan; it does not replace the complete frozen/thawed route."
+          },
+          {
+            "ingredient": "Marinara",
+            "alternative": "For store-bought marinara, you can use Rao’s.",
+            "effect": "Use the same full listed sauce amount, with additional serving sauce separate."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat to 165°F / 74°C throughout. Make only what you plan to serve when delicate texture matters; handling guidance does not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "shells — recipe-specific method",
+            "url": "https://www.loveandlemons.com/stuffed-shells-recipe/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRicotta and pecorino bind this filling without eggs or mozzarella. Squeeze the steamed spinach dry and drain the ricotta if liquid pools around it so the shells do not sit in a watery sauce.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 425°F.\n\n2. **Continue:** Place the spinach in a steamer basket and set over a pot with 1-inch of water. Bring the water to a simmer, cover, and let steam for 1 minute, until the spinach is wilted. Transfer to a strainer and squeeze out the excess water and chop the spinach.\n\n3. **Continue:** In a large pot of salted boiling water, cook the pasta shells for 10 minutes, until al dente. Drain and drizzle with a little olive oil to keep them from sticking together.\n\n4. **Mix:** In a medium bowl, combine the spinach with the ricotta, pecorino, garlic, oregano, lemon zest, red pepper flakes, salt, and several grinds of pepper.\n\n5. **Continue:** Spread the marinara in the bottom of a 9x13 baking dish. Stuff each shell with the filling and place in the dish. Cover with foil and bake for 20 minutes. Bake until the filling centers reach 165°F / 74°C, allowing extra time for chilled shells. Serve with more marinara on the side.\n\n## Cooking Notes\n\nAssembled shells can be covered and frozen. Thaw completely in the refrigerator before baking, allow extra oven time for a chilled dish and check that the filling centers reach 165°F / 74°C. Follow the baking dish manufacturer's instructions for temperature changes.\n",
+    "after": "\n## Chef's Note\n\nRicotta and pecorino bind this filling without eggs or mozzarella. Squeeze the steamed spinach dry and drain the ricotta if liquid pools around it so the shells do not sit in watery sauce.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 425°F. For the original batch, have a 9×13-inch oven-safe dish ready. At other scales use enough dishes for similar shell spacing and sauce depth; divide all the marinara and filling among them before assembly.\n2. **Steam spinach:** Wash and drain the fresh spinach. Set a steamer over a pot with 1 inch of water and bring to a simmer. Cover and steam the spinach about 1 minute, until wilted. Transfer to a strainer, let cool enough to handle, squeeze dry and chop.\n3. **Cook shells:** In a large pot of salted boiling water, cook the listed shell count about 10 minutes or according to its package, until al dente. Drain and drizzle with the listed olive-oil allowance to prevent sticking.\n4. **Mix filling:** Combine all the spinach, ricotta, measured pecorino, garlic, oregano, lemon zest, red pepper flakes, measured salt and black pepper in a bowl. Wash the lemon before zesting.\n5. **Fill and bake:** Spread all the measured marinara among the prepared dishes. Divide all the filling among the cooked shells and arrange over the sauce. Cover with foil and bake about 20 minutes as a first check. Continue until the filling centers reach 165°F /74°C, checking each dish and allowing extra time for chilled shells.\n6. **Serve:** Sprinkle with the additional pecorino and chopped parsley as desired. Serve with the additional marinara on the side.\n\n## Cooking Notes\n\nAssembled shells can be covered and frozen. Thaw completely in the refrigerator before baking, allow extra oven time for a chilled dish and check that the filling centers reach 165°F /74°C. Follow the baking dish manufacturer's instructions for temperature changes. The source’s roughly 10-hour thaw and 30-minute chilled bake are planning references, not guaranteed thawing or doneness clocks.\n"
+  },
+  "findings": [
+    {
+      "id": "PDF05-5",
+      "title": "PDF05-5",
+      "rationale": "All13 native/current measures/allowances preserved and all optional garnishes now reach service. Protect current165 center/full refrigerator thaw/manufacturer thermal instruction; partition entire batch before scaled dish assembly. Wash/cool produce safely without adding doses. Actual publisher4hour fridge make-ahead and nativeRao sauce note retained as distinct useful source options.",
+      "confidence": "High exact source measures/history; moderate editorial safety category/batching/planning",
+      "applicableSources": [
+        {
+          "url": "https://www.loveandlemons.com/stuffed-shells-recipe/",
+          "scope": "Actual publisher and bound native agree complete13 supplies,425/9×13/20min fresh bake, optional more pecorino/parsley/sauce and nativeRao note. Current e300 source-import casserole165 and complete fridge-thaw/dish thermal guidance preserved; modern4h assembled refrigerated plan distinct from native frozen instructions. Native10h thaw/30min bake are planning, not universal endpoints."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce/separate raw contact/cold40F/prompt2h1h/egg160/leftover/casserole165 only; no formula/pan/yield validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "scope": "Do not eat raw flour/egg dough; package instructions and clean handling, no invented cook duration"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual jumbo-shell brand/count breakage and dish depth influence fitting all filling; no added pasta count invented.",
+        "Source20min fresh versus30min chilled clocks remain first-check plans; actual165 centers govern.",
+        "Published60min includes more preparation than current50; plan50–70min or longer without kitchen certification."
+      ]
+    },
+    {
+      "id": "PDF05-I04",
+      "title": "PDF05-I04",
+      "rationale": "All five proposals repeat the same pot/processor/skillet preparation and generic texture-versus-clock troubleshooting. It gives no actual failure or correction and includes irrelevant equipment. Replace only these four fields with decisions and corrections grounded in this recipe’s existing final method; no dose, route, rest duration, temperature or capacity number is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Requires individual before-cooking equipment decisions and problem/cause/actionable-fix teaching; forbids bulk filler."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing complete method supplies the actual equipment, piece geometry and correction cues."
+        },
+        {
+          "url": "https://www.loveandlemons.com/stuffed-shells-recipe/",
+          "scope": "Recipe-specific handling and cooking cues; exact wording of this proposed teaching is editorial, not publisher verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions."
+      ]
+    },
+    {
+      "id": "PDF05-I08",
+      "title": "PDF05-I08",
+      "rationale": "Preserve every option, full sauce allowance and full butter allocation while removing public archive/editor commentary. The separate larger-piece and seasoning instructions remain complete; the useful named marinara choice remains an option; no extra cooking oil is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public cooking prose excludes archive/editing commentary."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Supports larger-piece shaping/finish option."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Preserves exact named optional marinara note privately and its full sauce destination."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing division of all listed butter and seasonings remains verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "PDF05-I09",
+      "title": "PDF05-I09",
+      "rationale": "The proposal lists30–40min prep plus20–30min baking but calls the total55–70 without explaining the extra minimum5min; overlap cannot produce a larger subtotal. Use the same proposed stage ranges and arithmetic, call it planning, and include extra preheat/batches without inventing oven heating duration. Current publisher’s60min and native10h thaw/30min chilled-bake notes remain distinct source planning, not measured household clocks.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Exact proposed prep/cook ranges and existing early425°F preheat cue; arithmetic and overlap statement are editorial."
+        },
+        {
+          "url": "https://www.loveandlemons.com/stuffed-shells-recipe/",
+          "scope": "Publisher fresh plan and separately frozen/thawed plan; does not establish these household ranges."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime", "learning"],
+      "questions": [
+        "Actual oven preheat, dish load, shell preparation and cold-center elapsed time remain unmeasured."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/eggless-spinach-and-ricotta-stuffed-shells.md",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.loveandlemons.com/stuffed-shells-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual publisher and bound native agree complete13 supplies,425/9×13/20min fresh bake, optional more pecorino/parsley/sauce and nativeRao note. Current e300 source-import casserole165 and complete fridge-thaw/dish thermal guidance preserved; modern4h assembled refrigerated plan distinct from native frozen instructions. Native10h thaw/30min bake are planning, not universal endpoints.",
+      "questions": [
+        "Actual jumbo-shell brand/count breakage and dish depth influence fitting all filling; no added pasta count invented.",
+        "Source20min fresh versus30min chilled clocks remain first-check plans; actual165 centers govern.",
+        "Published60min includes more preparation than current50; plan50–70min or longer without kitchen certification."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "18 to 20 jumbo pasta shells",
+        "actualMethodDestination": "step3cook/5fill"
+      },
+      {
+        "text": "Extra-virgin olive oil, for drizzling",
+        "actualMethodDestination": "step3drizzle"
+      },
+      {
+        "text": "5 ounces fresh spinach",
+        "actualMethodDestination": "step2steam/4mix"
+      },
+      {
+        "text": "2 cups ricotta cheese, 16 ounces",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "¼ cup grated pecorino cheese, plus more for sprinkling",
+        "actualMethodDestination": "step4mix; extra sprinkle has no destination"
+      },
+      {
+        "text": "2 garlic cloves, grated",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "1 teaspoon dried oregano",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "1 teaspoon lemon zest",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "¼ teaspoon red pepper flakes",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "¾ teaspoon sea salt, plus more for the pasta water",
+        "actualMethodDestination": "step4mix plusstep3water"
+      },
+      {
+        "text": "Freshly ground black pepper",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "2 cups Marinara Sauce*, plus more for serving",
+        "actualMethodDestination": "step5bottom plusservice"
+      },
+      {
+        "text": "Chopped fresh parsley, for serving",
+        "actualMethodDestination": "no explicit parsley destination"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "18 to 20 jumbo pasta shells",
+        "actualMethodDestination": "step3cook/5fill"
+      },
+      {
+        "text": "Extra-virgin olive oil, for drizzling",
+        "actualMethodDestination": "step3drizzle"
+      },
+      {
+        "text": "5 ounces fresh spinach",
+        "actualMethodDestination": "step2steam/4mix"
+      },
+      {
+        "text": "2 cups ricotta cheese, 16 ounces",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "¼ cup grated pecorino cheese, plus more for sprinkling",
+        "actualMethodDestination": "step4mix plus6sprinkle"
+      },
+      {
+        "text": "2 garlic cloves, grated",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "1 teaspoon dried oregano",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "1 teaspoon lemon zest",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "¼ teaspoon red pepper flakes",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "¾ teaspoon sea salt, plus more for the pasta water",
+        "actualMethodDestination": "step4mix plusstep3water"
+      },
+      {
+        "text": "Freshly ground black pepper",
+        "actualMethodDestination": "step4mix"
+      },
+      {
+        "text": "2 cups Marinara Sauce*, plus more for serving",
+        "actualMethodDestination": "step5bottom plus6service"
+      },
+      {
+        "text": "Chopped fresh parsley, for serving",
+        "actualMethodDestination": "step6service"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "18 to 20 jumbo pasta shells\nExtra-virgin olive oil, for drizzling\n5 ounces fresh spinach\n2 cups ricotta cheese, 16 ounces\n¼ cup grated pecorino cheese, plus more for sprinkling\n2 garlic cloves, grated\n1 teaspoon dried oregano\n1 teaspoon lemon zest\n¼ teaspoon red pepper flakes\n¾ teaspoon sea salt, plus more for the pasta water\nFreshly ground black pepper\n2 cups Marinara Sauce*, plus more for serving\nChopped fresh parsley, for serving",
+      "directions": "Preheat the oven to 425°F.\n\nPlace the spinach in a steamer basket and set over a pot with 1-inch of water. Bring the water to a simmer, cover, and let steam for 1 minute, until the spinach is wilted. Transfer to a strainer and squeeze out the excess water and chop the spinach.\n\nIn a large pot of salted boiling water, cook the pasta shells for 10 minutes, until al dente. Drain and drizzle with a little olive oil to keep them from sticking together.\n\nIn a medium bowl, combine the spinach with the ricotta, pecorino, garlic, oregano, lemon zest, red pepper flakes, salt, and several grinds of pepper.\n\nSpread the marinara in the bottom of a 9x13 baking dish. Stuff each shell with the filling and place in the dish. Cover with foil and bake for 20 minutes. Serve with more marinara on the side.",
+      "notes": "*Our favorite store-bought marinara sauce is Rao's Marinara.\n\nThis recipe freezes well! After you've assembled the shells in the baking dish, cover with foil and freeze. To thaw, transfer the dish to the fridge about 10 hours before you plan to serve (i.e. the morning that you plan to serve them for dinner). Remove from the fridge and let sit at room temp while the oven preheats. Bake, covered, for 30 minutes, or until thawed and warmed through.",
+      "scope": "Exact durable original450 binding; distinct from frozen current ledger"
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the oven to 425°F. For the original batch, have a 9×13-inch oven-safe dish ready. At other scales use enough dishes for similar shell spacing and sauce depth; divide all the marinara and filling among them before assembly."
+    },
+    {
+      "step": 2,
+      "text": "Steam spinach: Wash and drain the fresh spinach. Set a steamer over a pot with 1 inch of water and bring to a simmer. Cover and steam the spinach about 1 minute, until wilted. Transfer to a strainer, let cool enough to handle, squeeze dry and chop."
+    },
+    {
+      "step": 3,
+      "text": "Cook shells: In a large pot of salted boiling water, cook the listed shell count about 10 minutes or according to its package, until al dente. Drain and drizzle with the listed olive-oil allowance to prevent sticking."
+    },
+    {
+      "step": 4,
+      "text": "Mix filling: Combine all the spinach, ricotta, measured pecorino, garlic, oregano, lemon zest, red pepper flakes, measured salt and black pepper in a bowl. Wash the lemon before zesting."
+    },
+    {
+      "step": 5,
+      "text": "Fill and bake: Spread all the measured marinara among the prepared dishes. Divide all the filling among the cooked shells and arrange over the sauce. Cover with foil and bake about 20 minutes as a first check. Continue until the filling centers reach 165°F /74°C, checking each dish and allowing extra time for chilled shells."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Sprinkle with the additional pecorino and chopped parsley as desired. Serve with the additional marinara on the side."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Assembled shells",
+      "alternative": "For the publisher’s refrigerated make-ahead route, cover the filled unbaked dish and refrigerate for up to 4 hours, then bake with the same 165°F center check and actual dish thermal instructions.",
+      "effect": "A separate short refrigerated plan; it does not replace the complete frozen/thawed route."
+    },
+    {
+      "ingredient": "Marinara",
+      "alternative": "For store-bought marinara, you can use Rao’s.",
+      "effect": "Use the same full listed sauce amount, with additional serving sauce separate."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "Full FreshEggPasta linked recipe read: different290g/2eggs3yolks formula, rolling technique only. DimSumFeast read whole: day-before dough/freezing/8–10minbatch differs freshbestqualityHar; not accepted here. Other metadata pairings no measured amounts or substitutions."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "yieldScope": "Retained original-batch source/current planning, not measured kitchen yield",
+    "capacity": "Scale shells, filling and marinara together. Prepare enough oven-safe dishes for the original shell spacing and sauce depth, and divide the full filling and sauce before assembly; check filling centers in every dish rather than multiplying oven temperature or baking time.",
+    "timing": "Plan about 30–40 minutes preparation followed by 20–30 minutes or longer baking: roughly 50–70 minutes before any extra heating or batches. Start preheating before preparation and add any remaining oven heating time; refrigerator thawing or advance chilling is separate elapsed time.",
+    "formulaScope": "Legacy main measured core unchanged; only separately supported genuine allowances/exclusive seasoning option appended. No full formula rewrite."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2–5 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "1 1/4 ounces fresh spinach",
+        "1/2 cup ricotta cheese, 16 ounces",
+        "0.0625 cup grated pecorino cheese, plus more for sprinkling",
+        "1/2 garlic clove, grated",
+        "1/4 teaspoon dried oregano",
+        "1/4 teaspoon lemon zest",
+        "0.0625 teaspoon red pepper flakes",
+        "0.19 teaspoon sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "1/2 cup Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "9–10 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "2 1/2 ounces fresh spinach",
+        "1 cup ricotta cheese, 16 ounces",
+        "1/8 cup grated pecorino cheese, plus more for sprinkling",
+        "1 garlic clove, grated",
+        "1/2 teaspoon dried oregano",
+        "1/2 teaspoon lemon zest",
+        "1/8 teaspoon red pepper flakes",
+        "3/8 teaspoon sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "1 cup Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "18 to 20 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "5 ounces fresh spinach",
+        "2 cups ricotta cheese, 16 ounces",
+        "¼ cup grated pecorino cheese, plus more for sprinkling",
+        "2 garlic cloves, grated",
+        "1 teaspoon dried oregano",
+        "1 teaspoon lemon zest",
+        "¼ teaspoon red pepper flakes",
+        "¾ teaspoon sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "2 cups Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "27–30 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "7 1/2 ounces fresh spinach",
+        "3 cups ricotta cheese, 16 ounces",
+        "3/8 cup grated pecorino cheese, plus more for sprinkling",
+        "3 garlic cloves, grated",
+        "1 1/2 teaspoons dried oregano",
+        "1 1/2 teaspoons lemon zest",
+        "3/8 teaspoon red pepper flakes",
+        "1 1/8 teaspoons sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "3 cups Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "36–40 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "10 ounces fresh spinach",
+        "4 cups ricotta cheese, 16 ounces",
+        "1/2 cup grated pecorino cheese, plus more for sprinkling",
+        "4 garlic cloves, grated",
+        "2 teaspoons dried oregano",
+        "2 teaspoons lemon zest",
+        "1/2 teaspoon red pepper flakes",
+        "1 1/2 teaspoons sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "4 cups Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "54–60 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "15 ounces fresh spinach",
+        "6 cups ricotta cheese, 16 ounces",
+        "3/4 cup grated pecorino cheese, plus more for sprinkling",
+        "6 garlic cloves, grated",
+        "3 teaspoons dried oregano",
+        "3 teaspoons lemon zest",
+        "3/4 teaspoon red pepper flakes",
+        "2 1/4 teaspoons sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "6 cups Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "18 to 20 jumbo pasta shells",
+        "Extra-virgin olive oil, for drizzling",
+        "5 ounces fresh spinach",
+        "2 cups ricotta cheese, 16 ounces",
+        "¼ cup grated pecorino cheese, plus more for sprinkling",
+        "2 garlic cloves, grated",
+        "1 teaspoon dried oregano",
+        "1 teaspoon lemon zest",
+        "¼ teaspoon red pepper flakes",
+        "¾ teaspoon sea salt, plus more for the pasta water",
+        "Freshly ground black pepper",
+        "2 cups Marinara Sauce*, plus more for serving",
+        "Chopped fresh parsley, for serving"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "9fa/e300 casserole165, complete refrigerator thaw and dish thermal-transition restrictions retained; targeted status is not whole acceptance.",
+  "remainingQuestions": [
+    "Actual jumbo-shell brand/count breakage and dish depth influence fitting all filling; no added pasta count invented.",
+    "Source20min fresh versus30min chilled clocks remain first-check plans; actual165 centers govern.",
+    "Published60min includes more preparation than current50; plan50–70min or longer without kitchen certification.",
+    "Actual appliance capacity and resulting cooking texture remain kitchen questions.",
+    "Actual oven preheat, dish load, shell preparation and cold-center elapsed time remain unmeasured."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

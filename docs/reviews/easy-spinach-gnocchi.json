@@ -1,0 +1,476 @@
+{
+  "slug": "easy-spinach-gnocchi",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
+  "inputSha256": "fdc8159b83695ddc823b5e1d95d1e50c3706657d2763336b36b1a400588fd585",
+  "acceptedSourceSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "10 oz Frozen Spinach, defrosted",
+        "1 1/2 cups Whole-Milk Ricotta",
+        "3/4 cup Parmesan, freshly grated",
+        "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "1 large Egg",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")"
+      ],
+      "after": [
+        "10 oz Frozen Spinach, defrosted",
+        "1 1/2 cups Whole-Milk Ricotta",
+        "3/4 cup Parmesan, freshly grated",
+        "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "1 large Egg",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 35,
+        "protein": 4,
+        "carbs": 3,
+        "fat": 1.5,
+        "fiber": 2,
+        "sugar": 0.5,
+        "sodium": 80
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Remove free spinach liquid before adding flour",
+        "outcome": "Tender ricotta-spinach pieces cooked through at the center.",
+        "techniques": ["starch"],
+        "before": [
+          "Scale the full spinach, ricotta, Parmesan, flour and egg together. Use processor loads within its capacity and combine all the dough; retain the chosen log diameter and piece size, then boil in uncrowded pot batches without multiplying the cooking clock.",
+          "Use the full measured flour in the dough; the additional flour is only a handling supply."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A firm squeeze no longer releases streams of water.",
+            "why": "Free liquid makes the mixture sticky and encourages excess flour."
+          },
+          {
+            "step": 5,
+            "cue": "Floating pieces have a cooked, nonfloury center and the egg-center check is met.",
+            "why": "Floating alone does not establish interior cooking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pieces float but still have a floury center",
+            "cause": "Floating can occur before a thick piece is cooked through.",
+            "fix": "Keep each batch similar in size. Cut open a representative piece and continue boiling until the center has no raw floury core, retaining the 160°F egg-center check rather than relying on floating alone."
+          }
+        ],
+        "timing": "The 20-minute source plan starts with defrosted spinach. Allow roughly 20–35 minutes when processing and boiling several batches; add package-directed spinach cooking/cooling and refrigerator thawing separately.",
+        "substitutions": [
+          {
+            "ingredient": "Cut size and seasoning",
+            "alternative": "For the larger-piece shaping option, cut the same 1-inch-diameter logs into 1–1½-inch pieces. Boil until floating and cooked through, retaining the 160°F egg-center check, then drain and toss with salt and pepper to taste. Salt can be held out of the raw dough for this finish.",
+            "effect": "A complete source shaping/seasoning option; larger pieces can take longer, and the current nutmeg remains unless omitted by preference."
+          }
+        ],
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat to 165°F / 74°C throughout. Make only what you plan to serve when delicate texture matters; handling guidance does not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "spinach — recipe-specific method",
+            "url": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are properly called \"gnudi\" - Italian for \"naked\" - because they're essentially the filling of ravioli without the pasta wrapper. They originated in Tuscany, where ricotta and spinach were abundant. The critical step is squeezing the defrosted spinach in a kitchen towel until it's bone-dry - any excess moisture means you'll need more flour, which makes the gnudi heavy and dense instead of light and pillowy. Whole-milk ricotta gives the best texture, and a pinch of nutmeg is traditional to bridge the earthy spinach and rich cheese flavors.\n\n## Directions\n\n1.  **The Squeeze:** Defrost spinach and squeeze in a kitchen towel until no liquid remains.\n2.  **The Mix:** In a food processor, pulse the dry spinach, ricotta, Parmesan, flour, egg, nutmeg, and salt until a sticky dough forms. Do not over-process.\n3.  **The Shape:** Transfer dough to a floured board. Sprinkle with more flour until it no longer sticks to your hands. Divide into 4 logs (1-inch thick).\n4.  **Cut:** Slice logs into 1-inch chunks. Toss lightly with flour.\n5.  **Boil:** Bring a large pot of salted water to a boil. Drop gnocchi in. They are done when they float to the surface (3-5 mins).\n6.  **Serve:** Drain gently. Serve immediately with a high-quality tomato sauce or brown butter and sage.\n",
+    "after": "\n## Chef's Note\n\nSqueeze the thawed spinach firmly before mixing it with the full ricotta, Parmesan, egg and whole-wheat flour. Add only the dusting flour needed to handle the dough. Floating is a useful first cue; cut a representative piece open and check that its center is cooked through.\n\n## Directions\n\n1. **Prepare spinach:** Thaw the spinach in the refrigerator. If its package requires cooking before use, follow that instruction, cool enough to handle and squeeze it firmly in a clean towel. Do not assume every frozen product is ready to eat.\n2. **Mix:** Pulse all the dry spinach, ricotta, Parmesan, measured flour, egg, nutmeg and salt to taste in a food processor until combined into sticky dough. Use processor batches if needed, then combine all the dough. Do not taste the raw mixture.\n3. **Shape:** Transfer to a floured board and dust just enough to prevent sticking. For the original batch, divide into about four logs; at other scales make more or fewer logs of the same roughly 1-inch diameter.\n4. **Cut:** Cut into roughly 1-inch pieces for the current route and toss lightly with dusting flour.\n5. **Boil:** Bring a large pot of salted water to a boil. Cook in uncrowded batches. Start checking around 3–5 minutes: the pieces should float, and a cut-open representative center should be cooked through without a raw floury core. Check representative egg-containing centers for 160°F; allow longer when needed.\n6. **Finish:** Drain gently and season with the listed black pepper. Serve with your chosen tomato sauce or separately prepared brown butter and sage.\n"
+  },
+  "findings": [
+    {
+      "id": "PDF05-4",
+      "title": "PDF05-4",
+      "rationale": "Preserves every current measured rich ingredient and added nutmeg, restores saved cooked-through and pepper destinations, contextualizes log counts across scaling and follows actual frozen-spinach product instructions. FDA160 egg-dish application to this egg-containing dough is a moderate editorial check in addition to publisher cut-open cue; FDA flour guidance does not prescribe this boiling clock.",
+      "confidence": "High exact source measures/history; moderate editorial safety category/batching/planning",
+      "applicableSources": [
+        {
+          "url": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/",
+          "scope": "Actual publisher and bound native full formula agree10oz spinach/1½cups whole ricotta/¾Parm/1¼wholewheat/egg and cut-open cooked-through check. Current added nutmeg and brown-butter/sage alternative preserved; original salt/pepper finish restored as alternative without claiming later intentional rejection."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce/separate raw contact/cold40F/prompt2h1h/egg160/leftover/casserole165 only; no formula/pan/yield validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "scope": "Do not eat raw flour/egg dough; package instructions and clean handling, no invented cook duration"
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "ingredients", "nutrition", "learning", "content"],
+      "questions": [
+        "Actual frozen-spinach package cooking requirement and ricotta moisture must be checked.",
+        "Four portions are source planning, not counted or weighed finished yield.",
+        "Measure resulting firmness and center temperature for same-sized pieces; package preprocessing adds active/cooling time."
+      ]
+    },
+    {
+      "id": "PDF05-I03",
+      "title": "PDF05-I03",
+      "rationale": "All five proposals repeat the same pot/processor/skillet preparation and generic texture-versus-clock troubleshooting. It gives no actual failure or correction and includes irrelevant equipment. Replace only these four fields with decisions and corrections grounded in this recipe’s existing final method; no dose, route, rest duration, temperature or capacity number is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Requires individual before-cooking equipment decisions and problem/cause/actionable-fix teaching; forbids bulk filler."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing complete method supplies the actual equipment, piece geometry and correction cues."
+        },
+        {
+          "url": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/",
+          "scope": "Recipe-specific handling and cooking cues; exact wording of this proposed teaching is editorial, not publisher verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual appliance capacity and resulting cooking texture remain kitchen questions."
+      ]
+    },
+    {
+      "id": "PDF05-I08",
+      "title": "PDF05-I08",
+      "rationale": "Preserve every option, full sauce allowance and full butter allocation while removing public archive/editor commentary. The separate larger-piece and seasoning instructions remain complete; the useful named marinara choice remains an option; no extra cooking oil is added.",
+      "confidence": "High exact text/source comparison; moderate editorial cooking application",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Public cooking prose excludes archive/editing commentary."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Supports larger-piece shaping/finish option."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Preserves exact named optional marinara note privately and its full sauce destination."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Existing division of all listed butter and seasonings remains verbatim."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20Spinach%20Gnocchi.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual publisher and bound native full formula agree10oz spinach/1½cups whole ricotta/¾Parm/1¼wholewheat/egg and cut-open cooked-through check. Current added nutmeg and brown-butter/sage alternative preserved; original salt/pepper finish restored as alternative without claiming later intentional rejection.",
+      "questions": [
+        "Actual frozen-spinach package cooking requirement and ricotta moisture must be checked.",
+        "Four portions are source planning, not counted or weighed finished yield.",
+        "Measure resulting firmness and center temperature for same-sized pieces; package preprocessing adds active/cooling time."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "10 oz Frozen Spinach, defrosted",
+        "actualMethodDestination": "steps1/2squeeze/mix"
+      },
+      {
+        "text": "1 1/2 cups Whole-Milk Ricotta",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "3/4 cup Parmesan, freshly grated",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "actualMethodDestination": "step2mix plus3/4dust"
+      },
+      {
+        "text": "1 large Egg",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "actualMethodDestination": "step2salt/step5saltwater; pepper has no stated destination"
+      },
+      {
+        "text": "Pinch of Nutmeg (The \"High Note\")",
+        "actualMethodDestination": "step2mix"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "10 oz Frozen Spinach, defrosted",
+        "actualMethodDestination": "steps1/2squeeze/mix"
+      },
+      {
+        "text": "1 1/2 cups Whole-Milk Ricotta",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "3/4 cup Parmesan, freshly grated",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "actualMethodDestination": "step2mix plus3/4dust"
+      },
+      {
+        "text": "1 large Egg",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "actualMethodDestination": "step2salt/step5saltwater/step6pepper; sourcefinishsalt alternative"
+      },
+      {
+        "text": "Pinch of Nutmeg (The \"High Note\")",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "Tomato sauce or brown butter and sage, as desired for serving; choose one route",
+        "actualMethodDestination": "step6chosenservice"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "1 10-pz package frozen spinach\n1 ½ cups ricotta cheese whole-milk\n¾ cup parmesan cheese grated\n1 1/4 cup whole-wheat flour + more for dusting\n1 egg\nsalt to taste\npepper to taste",
+      "directions": "Defrost the frozen spinach and squeeze out ALL excess liquid. Put the spinach, ricotta, parmesan, flour and egg in the food processor and pulse until well combined.\n\nPlop the dough in one pile on a floured cutting board. Sprinkle more flour on top until the dough no longer sticks to your hands. Divide into 3 or 4 pieces and roll each one into a thin log about 1-inch in diameter. Cut the logs into 1 to 1 ½” sized chunks and toss with a little more flour.\n\nBring a large pot of water to a boil and slide in the pieces of dough. Cook until all are floating and done all the way through when cut in half, about 3 to 5 minutes. Drain and toss with salt and pepper, to taste. Serve with either a high quality store bought tomato sauce or a homemade one.",
+      "notes": "",
+      "scope": "Exact durable original450 binding; distinct from frozen current ledger"
+    },
+    "frozenMethodOnly": ["step6tomato sauce/brown butter and sage service unlisted"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare spinach: Thaw the spinach in the refrigerator. If its package requires cooking before use, follow that instruction, cool enough to handle and squeeze it firmly in a clean towel. Do not assume every frozen product is ready to eat."
+    },
+    {
+      "step": 2,
+      "text": "Mix: Pulse all the dry spinach, ricotta, Parmesan, measured flour, egg, nutmeg and salt to taste in a food processor until combined into sticky dough. Use processor batches if needed, then combine all the dough. Do not taste the raw mixture."
+    },
+    {
+      "step": 3,
+      "text": "Shape: Transfer to a floured board and dust just enough to prevent sticking. For the original batch, divide into about four logs; at other scales make more or fewer logs of the same roughly 1-inch diameter."
+    },
+    {
+      "step": 4,
+      "text": "Cut: Cut into roughly 1-inch pieces for the current route and toss lightly with dusting flour."
+    },
+    {
+      "step": 5,
+      "text": "Boil: Bring a large pot of salted water to a boil. Cook in uncrowded batches. Start checking around 3–5 minutes: the pieces should float, and a cut-open representative center should be cooked through without a raw floury core. Check representative egg-containing centers for 160°F; allow longer when needed."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Drain gently and season with the listed black pepper. Serve with your chosen tomato sauce or separately prepared brown butter and sage."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cut size and seasoning",
+      "alternative": "For the larger-piece shaping option, cut the same 1-inch-diameter logs into 1–1½-inch pieces. Boil until floating and cooked through, retaining the 160°F egg-center check, then drain and toss with salt and pepper to taste. Salt can be held out of the raw dough for this finish.",
+      "effect": "A complete source shaping/seasoning option; larger pieces can take longer, and the current nutmeg remains unless omitted by preference."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["garlic-bread", "avocado-kale-caesar-salad"],
+    "incomingMeals": [],
+    "scope": "Full FreshEggPasta linked recipe read: different290g/2eggs3yolks formula, rolling technique only. DimSumFeast read whole: day-before dough/freezing/8–10minbatch differs freshbestqualityHar; not accepted here. Other metadata pairings no measured amounts or substitutions."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "yieldScope": "Retained original-batch source/current planning, not measured kitchen yield",
+    "capacity": "Scale the full spinach, ricotta, Parmesan, flour and egg together. Use processor loads within its capacity and combine all the dough; retain the chosen log diameter and piece size, then boil in uncrowded pot batches without multiplying the cooking clock.",
+    "timing": "The 20-minute source plan starts with defrosted spinach. Allow roughly 20–35 minutes when processing and boiling several batches; add package-directed spinach cooking/cooling and refrigerator thawing separately.",
+    "formulaScope": "Legacy main measured core unchanged; only separately supported genuine allowances/exclusive seasoning option appended. No full formula rewrite."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 1/2 oz Frozen Spinach, defrosted",
+        "3/8 cup Whole-Milk Ricotta",
+        "0.19 cup Parmesan, freshly grated",
+        "0.31 cup Whole-Wheat Flour (plus extra for dusting)",
+        "1/4 large Egg",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "5 oz Frozen Spinach, defrosted",
+        "3/4 cup Whole-Milk Ricotta",
+        "3/8 cup Parmesan, freshly grated",
+        "5/8 cup Whole-Wheat Flour (plus extra for dusting)",
+        "1/2 large Egg",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "10 oz Frozen Spinach, defrosted",
+        "1 1/2 cups Whole-Milk Ricotta",
+        "3/4 cup Parmesan, freshly grated",
+        "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "1 large Egg",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "15 oz Frozen Spinach, defrosted",
+        "2 1/4 cups Whole-Milk Ricotta",
+        "1 1/8 cups Parmesan, freshly grated",
+        "1 7/8 cups Whole-Wheat Flour (plus extra for dusting)",
+        "1 1/2 large Eggs",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "20 oz Frozen Spinach, defrosted",
+        "3 cups Whole-Milk Ricotta",
+        "1 1/2 cups Parmesan, freshly grated",
+        "2 1/2 cups Whole-Wheat Flour (plus extra for dusting)",
+        "2 large Eggs",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "30 oz Frozen Spinach, defrosted",
+        "4 1/2 cups Whole-Milk Ricotta",
+        "2 1/4 cups Parmesan, freshly grated",
+        "3 3/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "3 large Eggs",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "10 oz Frozen Spinach, defrosted",
+        "1 1/2 cups Whole-Milk Ricotta",
+        "3/4 cup Parmesan, freshly grated",
+        "1 1/4 cups Whole-Wheat Flour (plus extra for dusting)",
+        "1 large Egg",
+        "Salt and Black Pepper",
+        "Pinch of Nutmeg (The \"High Note\")",
+        "Tomato sauce or brown butter and sage, as desired for serving; choose one route"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Current full measured main, richness, source URL/title/rating/identity/enabled controls and current useful options remain. Source whole history is evidence, not blanket endorsement.",
+  "remainingQuestions": [
+    "Actual frozen-spinach package cooking requirement and ricotta moisture must be checked.",
+    "Four portions are source planning, not counted or weighed finished yield.",
+    "Measure resulting firmness and center temperature for same-sized pieces; package preprocessing adds active/cooling time.",
+    "Actual appliance capacity and resulting cooking texture remain kitchen questions."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
+  "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 104,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12299,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 82,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All11 print controls enabled and shared print source/styles unchanged. Stuffed Shells print-control click attempted but input dispatch timed out; actual OS preview is unverified while native apps are locked. No physical printing.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
