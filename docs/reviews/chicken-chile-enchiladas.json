@@ -1,6 +1,6 @@
 {
   "slug": "chicken-chile-enchiladas",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
   "inputSha256": "2d9204f64e95e51a26b8552465e283ab06c1e6ae562e86ba5b327ad0bc421ec8",
   "acceptedSourceSha256": "648eaf82a87e85ba31677e0a7333f2727fb44a9be3af0ee793cc8e8eb849b886",
@@ -1163,7 +1163,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
   "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/mains-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1187,5 +1187,7 @@
     "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
+  "releaseCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
 }
