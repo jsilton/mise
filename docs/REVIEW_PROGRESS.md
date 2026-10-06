@@ -1,6 +1,6 @@
 # Current campaign state — October 5, 2026
 
-288 implemented recorded complete / 355 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-eight new complete editorial versions from the original 409-source campaign are verified live. Six additional grain and vegetable versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Six grain and vegetable implementation](editorial-campaign/2026-10-05/boiled-six.md).
+288 implemented recorded complete / 355 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. The latest six grain and vegetable versions are implemented at 92a85aba and verified at exact remote release 0f61abae, successful Pages run 37391061846 and all affected live pages. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Six grain and vegetable production evidence](editorial-campaign/2026-10-05/boiled-six-production.json).
 
 # Historical campaign checkpoint — October 5, 2026
 

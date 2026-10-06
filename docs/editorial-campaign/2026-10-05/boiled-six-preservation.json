@@ -7,7 +7,7 @@
   "exactPairedFieldBody": true,
   "registerPromotions": 6,
   "otherRegisterAndMatrixReviewCreditPreserved": true,
-  "status": "implemented and locally validated; production verification pending",
+  "status": "implemented and verified live; physical kitchen testing remains pending",
   "recipes": [
     {
       "slug": "buttered-egg-noodles",
@@ -95,7 +95,17 @@
     "originalScalingFixturesPreserved": true,
     "rootDisposition": "Accepted bounded test correction; later whole review requires separate root acceptance, exact source hash, independent evidence and no kitchen-test claim."
   },
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+    "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+    "deploymentRun": 37391061846,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "kitchenTested": false,
   "nativeAppSynced": false,
   "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",

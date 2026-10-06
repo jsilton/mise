@@ -1,0 +1,215 @@
+{
+  "status": "verified live",
+  "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+  "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+  "deploymentRun": 37391061846,
+  "ci": {
+    "conclusion": "success",
+    "databaseId": 37391061846,
+    "headSha": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+    "jobs": [
+      {
+        "completedAt": "2026-10-05T23:55:00Z",
+        "conclusion": "success",
+        "databaseId": 112035982694,
+        "name": "build",
+        "startedAt": "2026-10-05T23:53:48Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-05T23:53:50Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-05T23:53:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:53:53Z",
+            "conclusion": "success",
+            "name": "Checkout your repository using git",
+            "number": 2,
+            "startedAt": "2026-10-05T23:53:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:54:51Z",
+            "conclusion": "success",
+            "name": "Install, build, and upload your site",
+            "number": 3,
+            "startedAt": "2026-10-05T23:53:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:54:56Z",
+            "conclusion": "success",
+            "name": "Check private recipe metadata is absent",
+            "number": 4,
+            "startedAt": "2026-10-05T23:54:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:54:58Z",
+            "conclusion": "success",
+            "name": "Post Install, build, and upload your site",
+            "number": 7,
+            "startedAt": "2026-10-05T23:54:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:54:58Z",
+            "conclusion": "success",
+            "name": "Post Checkout your repository using git",
+            "number": 8,
+            "startedAt": "2026-10-05T23:54:58Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:54:58Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 9,
+            "startedAt": "2026-10-05T23:54:58Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37391061846/job/112035982694"
+      },
+      {
+        "completedAt": "2026-10-05T23:55:12Z",
+        "conclusion": "success",
+        "databaseId": 112036347100,
+        "name": "deploy",
+        "startedAt": "2026-10-05T23:55:04Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-05T23:55:05Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-05T23:55:04Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:55:11Z",
+            "conclusion": "success",
+            "name": "Deploy to GitHub Pages",
+            "number": 2,
+            "startedAt": "2026-10-05T23:55:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:55:11Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-05T23:55:11Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37391061846/job/112036347100"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/jsilton/mise/actions/runs/37391061846"
+  },
+  "rendered": [
+    {
+      "slug": "buttered-egg-noodles",
+      "url": "https://jordansilton.com/mise/recipes/buttered-egg-noodles/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleTextMatches": true,
+      "allVisibleMethodStepsMatch": true,
+      "visibleMethodSteps": 4
+    },
+    {
+      "slug": "steel-cut-oatmeal",
+      "url": "https://jordansilton.com/mise/recipes/steel-cut-oatmeal/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleTextMatches": true,
+      "allVisibleMethodStepsMatch": true,
+      "visibleMethodSteps": 5
+    },
+    {
+      "slug": "blueberry-date-oatmeal",
+      "url": "https://jordansilton.com/mise/recipes/blueberry-date-oatmeal/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleTextMatches": true,
+      "allVisibleMethodStepsMatch": true,
+      "visibleMethodSteps": 6
+    },
+    {
+      "slug": "seasoned-bean-sprouts",
+      "url": "https://jordansilton.com/mise/recipes/seasoned-bean-sprouts/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleTextMatches": true,
+      "allVisibleMethodStepsMatch": true,
+      "visibleMethodSteps": 5
+    },
+    {
+      "slug": "simply-seasoned-korean-spinach-salad",
+      "url": "https://jordansilton.com/mise/recipes/simply-seasoned-korean-spinach-salad/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleTextMatches": true,
+      "allVisibleMethodStepsMatch": true,
+      "visibleMethodSteps": 6
+    },
+    {
+      "slug": "broccoli-all-agro",
+      "url": "https://jordansilton.com/mise/recipes/broccoli-all-agro/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleTextMatches": true,
+      "allVisibleMethodStepsMatch": true,
+      "visibleMethodSteps": 4
+    }
+  ],
+  "verifiedDate": "2026-10-05",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "remote": {
+    "exactRemoteCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+    "ref": "refs/heads/main",
+    "verifiedUTC": "2026-10-06T00:18:33.754Z"
+  },
+  "acceptedRecipeSources": [
+    {
+      "slug": "buttered-egg-noodles",
+      "acceptedSourceSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601"
+    },
+    {
+      "slug": "steel-cut-oatmeal",
+      "acceptedSourceSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5"
+    },
+    {
+      "slug": "blueberry-date-oatmeal",
+      "acceptedSourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e"
+    },
+    {
+      "slug": "seasoned-bean-sprouts",
+      "acceptedSourceSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548"
+    },
+    {
+      "slug": "simply-seasoned-korean-spinach-salad",
+      "acceptedSourceSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7"
+    },
+    {
+      "slug": "broccoli-all-agro",
+      "acceptedSourceSha256": "8029507d2449804e4cf3d209cfbf222782e6d6fec02712635d31c30017eadd10"
+    }
+  ],
+  "consoleEntries": 0,
+  "limitations": "Local mobile/scaling/cooking checks passed on all six. Print preview remains unverified; no kitchen testing or native-app sync."
+}

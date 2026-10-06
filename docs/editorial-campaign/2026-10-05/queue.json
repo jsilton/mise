@@ -786,7 +786,7 @@
       "source": "Adapted from Kids Eat in Color",
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
         "docs/reviews/blueberry-date-oatmeal.md",
@@ -801,7 +801,17 @@
       "plannedBatch": "simmer-boil-and-steam-01",
       "acceptedSourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
       "reviewPhase": "Complete whole independent challenge, root acceptance and source implementation; exact production pending.",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+        "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+        "deploymentRun": 37391061846,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d"
     },
     {
@@ -996,7 +1006,7 @@
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/broccoli-all-agro.md",
         "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
@@ -1011,7 +1021,17 @@
       "plannedBatch": "simmer-boil-and-steam-01",
       "acceptedSourceSha256": "8029507d2449804e4cf3d209cfbf222782e6d6fec02712635d31c30017eadd10",
       "reviewPhase": "Complete whole independent challenge, root acceptance and source implementation; exact production pending.",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+        "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+        "deploymentRun": 37391061846,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d"
     },
     {
@@ -1116,7 +1136,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
         "docs/reviews/buttered-egg-noodles.md",
@@ -1131,7 +1151,17 @@
       "plannedBatch": "simmer-boil-and-steam-01",
       "acceptedSourceSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
       "reviewPhase": "Complete whole independent challenge, root acceptance and source implementation; exact production pending.",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+        "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+        "deploymentRun": 37391061846,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d"
     },
     {
@@ -6361,7 +6391,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/seasoned-bean-sprouts.md",
         "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
@@ -6376,7 +6406,17 @@
       "plannedBatch": "simmer-boil-and-steam-09",
       "acceptedSourceSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
       "reviewPhase": "Complete whole independent challenge, root acceptance and source implementation; exact production pending.",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+        "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+        "deploymentRun": 37391061846,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d"
     },
     {
@@ -6678,7 +6718,7 @@
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
       "group": "boiled_grains_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/simply-seasoned-korean-spinach-salad.md",
         "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
@@ -6693,7 +6733,17 @@
       "plannedBatch": "simmer-boil-and-steam-09",
       "acceptedSourceSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
       "reviewPhase": "Complete whole independent challenge, root acceptance and source implementation; exact production pending.",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+        "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+        "deploymentRun": 37391061846,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d"
     },
     {
@@ -7185,7 +7235,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448",
       "group": "boiled_grains_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
         "docs/reviews/steel-cut-oatmeal.md",
@@ -7200,7 +7250,17 @@
       "plannedBatch": "stir-fry-and-pan-cooking-06",
       "acceptedSourceSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
       "reviewPhase": "Complete whole independent challenge, root acceptance and source implementation; exact production pending.",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+        "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+        "deploymentRun": 37391061846,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d"
     },
     {
@@ -8812,8 +8872,7 @@
     "assigned": 17,
     "held": 9,
     "held-awaiting-evidence": 2,
-    "implemented": 6,
-    "production-verified": 48,
+    "production-verified": 54,
     "proposed": 60,
     "queued": 267
   }

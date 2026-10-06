@@ -28,3 +28,7 @@ All252 tests,32 authored formula checks,643-recipe validation and30 aggregate QA
 ## Implemented checkpoint
 
 Source commit `92a85abaedde454db49445581b4fbf8a670cf15d` preserves all six accepted source hashes after commit hooks. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-eight new complete editorial versions from the original 409-source campaign are verified live. Six additional grain and vegetable versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred. [Preservation and local validation](boiled-six-preservation.json).
+
+## Verified production release
+
+The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. The latest six grain and vegetable versions are implemented at 92a85aba and verified at exact remote release 0f61abae, successful Pages run 37391061846 and all affected live pages. No physical kitchen testing or native-app sync occurred. [Exact production evidence](boiled-six-production.json). Earlier pending statements above describe historical checkpoints. Print preview remains unverified.

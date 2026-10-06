@@ -1,7 +1,7 @@
 {
   "slug": "blueberry-date-oatmeal",
   "title": "Blueberry Date Oatmeal",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "date": "2026-10-05",
   "notKitchenTested": true,
   "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
@@ -1004,7 +1004,17 @@
     "scope": "Bounded root metadata/evidence corrections and routine timing copy editing; original author and peer checkpoints retained. Whole root acceptance still pending."
   },
   "acceptedSourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "0f61abae0c8b021ff978d6c85784e419c11591aa",
+    "implementationCommit": "92a85abaedde454db49445581b4fbf8a670cf15d",
+    "deploymentRun": 37391061846,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 30 method steps match production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "kitchenTested": false,
   "nativeAppSynced": false,
   "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
