@@ -1,0 +1,1011 @@
+{
+  "slug": "noodle-pudding",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "cbc2cd181bc15dc90eeb723aa7747500a2687d605bb2b451c278ad1f7f1b0ab7",
+  "acceptedSourceSha256": "3dc9b28f5c52c3448431c1e77b4988106147d8f1a6612c492559b2b4e3ea6bac",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "120 min",
+      "after": "110–125 min or longer, including noodle cooking and 15-minute rest"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "16 oz Egg Noodles (medium-width)",
+        "16 oz Sour Cream",
+        "16 oz Large Curd Cottage Cheese",
+        "8 oz Cream Cheese, softened",
+        "8 oz Unsalted Butter, melted and divided (divided: 6 oz for custard; 2 oz for topping), plus a little for greasing",
+        "8 large Eggs, beaten",
+        "3/4 cup Granulated Sugar",
+        "1 1/2 tsp Ground Cinnamon (for the custard)",
+        "2 cups coarsely crushed Corn Flakes (measure after crushing; for topping)",
+        "1/2 cup packed Light Brown Sugar (for topping)",
+        "1/4 cup Golden Raisins (optional; for half the pudding)"
+      ],
+      "after": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "16 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "16 oz sour cream",
+        "16 oz large-curd cottage cheese",
+        "8 oz block-style cream cheese, softened",
+        "8 oz unsalted butter, melted and cooled until lukewarm",
+        "8 large eggs, beaten",
+        "3/4 cup granulated sugar",
+        "1 1/2 tsp ground cinnamon",
+        "2 cups corn flakes, coarsely crushed; measure after crushing",
+        "1/2 cup light brown sugar, packed",
+        "1/4 cup golden raisins, for half the pudding only, optional"
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Mix a rich custard and let the center set before slicing",
+        "outcome": "A moist set noodle interior with a crisp coarse-flake topping and distinct raisin/plain halves.",
+        "techniques": ["temperature"],
+        "before": [
+          "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+          "Take off the refrigerator chill from the cream cheese only until softened, and keep eggs/dairy cold while waiting. The full butter splits three-quarters into custard and one-quarter into topping; pan greasing is separate."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Cream cheese is smooth and melted butter is lukewarm before eggs combine.",
+            "why": "Cold cheese leaves lumps; hot butter can set egg prematurely."
+          },
+          {
+            "step": 6,
+            "cue": "Set edges, slight center wobble without liquid custard, and 165°F at the center.",
+            "why": "A golden topping can hide an unset deep center."
+          },
+          {
+            "step": 7,
+            "cue": "The fifteen-minute rest lets slices hold together.",
+            "why": "Hot custard is more fragile than rested custard."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The topping browns while the center remains liquid",
+            "cause": "A deep or overfilled dish heats slowly at its center.",
+            "fix": "Tent loosely with foil and continue until the center is set and 165°F. Bake excess separately and check it earlier rather than crowding the main dish."
+          }
+        ],
+        "timing": "Plan about 30 minutes preparation/noodle cooking, 65–80 minutes or longer baking and 15 minutes resting: about 110–125 minutes for the original dish, plus any oven-heating delay. Overflow pans may finish sooner; full cooling and refrigeration for later service are additional.",
+        "substitutions": [
+          {
+            "ingredient": "Golden raisins",
+            "alternative": "Use all the optional listed raisins in one half only, or omit them for an entirely plain pudding.",
+            "effect": "Keeps the other half plain without increasing sugar or fruit."
+          }
+        ],
+        "storage": "Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout, checking the center; cover if needed to keep the topping from over-browning.",
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pan",
+            "name": "Pan and noodle cooking",
+            "ingredients": [
+              {
+                "id": "grease",
+                "key": "grease",
+                "name": "unsalted butter",
+                "allowance": "as needed for greasing dishes",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "noodles",
+                "key": "noodles",
+                "name": "medium-width egg noodles",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "preparation": "dry"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "allowance": "enough to boil the noodles",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "as desired for the noodle water",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "custard",
+            "name": "Custard and topping",
+            "ingredients": [
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "sour cream",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cottage",
+                "key": "cottage",
+                "name": "large-curd cottage cheese",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cream-cheese",
+                "key": "cream-cheese",
+                "name": "block-style cream cheese",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ],
+                "preparation": "softened"
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": "3/4"
+                  },
+                  {
+                    "step": "topping",
+                    "share": "1/4"
+                  }
+                ],
+                "preparation": "melted and cooled until lukewarm"
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "beaten"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "corn flakes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "topping",
+                    "share": 1
+                  }
+                ],
+                "preparation": "coarsely crushed; measure after crushing"
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "topping",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "raisins",
+                "key": "raisins",
+                "name": "golden raisins",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "for half the pudding only"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare dishes",
+            "text": "Heat the oven to 325°F with a rack in the center. For the original batch, use {{ingredients}} to grease a room-temperature 9×13-inch glass dish, preferably the existing deep 4-quart plan, and have a smaller greased oven-safe overflow dish ready. Follow the actual dish’s temperature and thermal-shock instructions."
+          },
+          {
+            "id": "noodles",
+            "title": "Cook noodles",
+            "text": "Set out {{ingredients}}. Bring the salted water to a boil, then add the full dry noodle amount and cook just to al dente, following its package as a guide. Drain well and let the noodles cool until warm, not steaming hot, before adding to the custard."
+          },
+          {
+            "id": "custard",
+            "title": "Mix custard",
+            "text": "Set out {{ingredients}}. Beat the softened cream cheese with a little sour cream until smooth, then mix in the remaining sour cream and all the cottage cheese, eggs, granulated sugar, cinnamon and allocated butter, keeping the cottage-cheese curds if desired. The butter allocation here is three-quarters of the full butter amount; reserve the other quarter for the topping. Use lukewarm butter and warm noodles so they do not cook the eggs on contact."
+          },
+          {
+            "id": "assemble",
+            "title": "Combine and divide",
+            "text": "Fold all the warm noodles into all the custard. Set out {{ingredients}}. For a half-raisin pudding, divide the noodle mixture in half and add all the optional raisins to only one half. Spoon the two mixtures into opposite sides of the greased dish; omit raisins for an entirely plain pudding. Leave at least 1/2 inch below the rim for topping and slight puffing. Put excess mixture in the overflow dish rather than filling to the brim."
+          },
+          {
+            "id": "topping",
+            "title": "Coat topping",
+            "text": "Toss {{ingredients}} until all the coarse corn flakes are coated with the remaining one-quarter butter and packed brown sugar. Scatter across the full noodle mixture without pressing down. With an overflow dish, divide topping in proportion to surface area."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and check the center",
+            "text": "Bake at 325°F, beginning checks around 60 minutes for the original deep dish; 65–80 minutes is the existing planning range. The edges should be set, the center should have only a slight wobble with no liquid custard, and its center must reach 165°F /74°C. Check every dish; smaller overflow portions may finish earlier. Loosely tent if the topping colors before the center is ready."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and serve",
+            "text": "Set hot glass on a dry trivet following the vessel’s instructions. Rest 15 minutes before dividing into the listed portions. Keep the raisin and plain halves distinct when serving."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nAdapted from Mary Later's recipe. Cinnamon warms the rich custard beneath a crisp corn-flake and brown-sugar topping. Coarsely crush the flakes rather than grinding them into powder to keep some crunch. Glass retains heat, so a gentle bake and a 15-minute rest help the custard set without drying out the edges. For a half-raisin, half-plain pudding, ¼ cup golden raisins gives the raisin half a light scattering of sweetness.\n\n## Directions\n\n1.  **Prepare the dish:** Preheat the oven to **325°F** with a rack in the center. Grease a room-temperature **9×13-inch glass baking dish**, preferably a deep 4-quart model. This is a generous batch; if using a shallower 3-quart dish, have a small greased oven-safe dish ready for any excess.\n2.  **Cook the noodles:** Bring a large pot of salted water to a boil. Cook the egg noodles just until **al dente**, using the package timing as a guide. Drain well and let cool briefly until warm, not steaming hot.\n3.  **Mix the custard:** In a very large bowl, beat the softened cream cheese with a little of the sour cream until smooth. Stir in the remaining sour cream and cottage cheese; the cottage cheese curds can remain. Whisk in the beaten eggs, granulated sugar, **1½ teaspoons cinnamon**, and **6 oz (12 tablespoons) melted butter**, cooled until lukewarm.\n4.  **Assemble:** Fold the warm noodles into the custard. For a half-raisin, half-plain pudding, transfer half the mixture to a second bowl and fold **¼ cup golden raisins** into that half only. Spoon the two mixtures into opposite halves of the prepared glass dish, keeping them side by side, and gently level the top. For an entirely plain pudding, omit the raisins. Leave at least **½ inch of space below the rim** for the topping and slight puffing. Bake any excess separately in the smaller dish, checking it earlier.\n5.  **Add the topping:** Mix **2 cups coarsely crushed corn flakes** with **½ cup packed light brown sugar**. Drizzle in the remaining **2 oz (4 tablespoons) melted butter** and toss until evenly coated. Scatter evenly over the noodles without pressing down. If using an overflow dish, divide the topping between the dishes in proportion to their surface area.\n6.  **Bake:** Bake at **325°F for approximately 65–80 minutes**, checking at 60 minutes. The edges should be set, the center should have only a slight wobble without liquid custard, and the topping should be golden and crisp. Loosely tent with foil if the topping browns before the center sets. Use the doneness cues rather than the clock; dish depth affects timing.\n7.  **Rest and serve:** Set the hot glass dish on a dry trivet and let rest for **15 minutes** before slicing into 12 portions. The total time includes this rest and an estimated 75-minute bake.\n",
+    "after": "\n## Chef's Note\n\nAdapted from Mary Later’s recipe. Coarsely crushed corn flakes hold more texture than powder on the rich noodle custard. Warm noodles and lukewarm melted butter mix into the eggs without setting them early; check the center before the fifteen-minute rest.\n\n## Directions\n\n1. **Prepare dishes:** Heat the oven to 325°F with a rack in the center. For the original batch, use unsalted butter to grease a room-temperature 9×13-inch glass dish, preferably the existing deep 4-quart plan, and have a smaller greased oven-safe overflow dish ready. Follow the actual dish’s temperature and thermal-shock instructions.\n2. **Cook noodles:** Set out medium-width egg noodles, water, and salt. Bring the salted water to a boil, then add the full dry noodle amount and cook just to al dente, following its package as a guide. Drain well and let the noodles cool until warm, not steaming hot, before adding to the custard.\n3. **Mix custard:** Set out sour cream, large-curd cottage cheese, block-style cream cheese, 3/4 of the unsalted butter, large eggs, granulated sugar, and ground cinnamon. Beat the softened cream cheese with a little sour cream until smooth, then mix in the remaining sour cream and all the cottage cheese, eggs, granulated sugar, cinnamon and allocated butter, keeping the cottage-cheese curds if desired. The butter allocation here is three-quarters of the full butter amount; reserve the other quarter for the topping. Use lukewarm butter and warm noodles so they do not cook the eggs on contact.\n4. **Combine and divide:** Fold all the warm noodles into all the custard. Set out golden raisins (if using). For a half-raisin pudding, divide the noodle mixture in half and add all the optional raisins to only one half. Spoon the two mixtures into opposite sides of the greased dish; omit raisins for an entirely plain pudding. Leave at least 1/2 inch below the rim for topping and slight puffing. Put excess mixture in the overflow dish rather than filling to the brim.\n5. **Coat topping:** Toss 1/4 of the unsalted butter, corn flakes, and light brown sugar until all the coarse corn flakes are coated with the remaining one-quarter butter and packed brown sugar. Scatter across the full noodle mixture without pressing down. With an overflow dish, divide topping in proportion to surface area.\n6. **Bake and check the center:** Bake at 325°F, beginning checks around 60 minutes for the original deep dish; 65–80 minutes is the existing planning range. The edges should be set, the center should have only a slight wobble with no liquid custard, and its center must reach 165°F /74°C. Check every dish; smaller overflow portions may finish earlier. Loosely tent if the topping colors before the center is ready.\n7. **Rest and serve:** Set hot glass on a dry trivet following the vessel’s instructions. Rest 15 minutes before dividing into the listed portions. Keep the raisin and plain halves distinct when serving.\n"
+  },
+  "findings": [
+    {
+      "id": "SBS07-2",
+      "rationale": "Preserve explicit11142671 recipe-specific refinement:8ozTOTALbutter split6custard/2topping,1.5tspcinnamon,measured crushed flakes/packed sugar,¼cupraisins onlyhalf,325°F deep9×13+overflow and15rest. Original Mary12oz/half+half/350°F/unmeasured toppings is retained exactly as prior family source, not treated as bulk omission or substituted over current deliberate adaptation. a2c9 allocation scaling behavior preserved by authored3/4+1/4 shares; pantry grease separate from full8oz. All dairy/eggs/sugar/noodles remain. Add measured casserole165 center alongside existing wobble/foil cues, original-pan scaling guidance; retain actual glass limits/no capacity guarantee. Water/salt are genuine current method-only cooking allowances; no dose invented.",
+      "confidence": "High exact source/current quantities and history; moderate editorial pan, planning clock and primary safety category application",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual primary read: wash produce, refrigerated perishables and prompt cooling, egg-dish160°F and leftover165°F. Does not establish formula, pan capacity or recipe clocks."
+        },
+        {
+          "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Actual current chart specifies meat AND meatless casseroles165°F, ground meat/sausage160°F and poultry165°F. Corn/noodle/ham and egg-sausage pan applications editorial; small quinoa-egg bites use FDA egg-dish160°F, square-pan casserole option165°F. No risk-elimination promise."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Current direct main-page fetch403; official indexed guidance previously verified for shallow promptly chilled3–4days/165°F. Handling only, not tasted or recipe-specific shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "servings",
+        "ingredients",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual deep glass dish dimensions/capacity and overflow count need kitchen observation; no measured batter yield.",
+        "Existing12portions is planning, not a new weighed output.",
+        "Original12oz/350°F route differs deliberately from11142671; no automatic restoration or unsupported2–3day raw-custard hold."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Noodle%20Pudding.html",
+    "introductionScope": "Earlier actual HTML cooking introduction; exact native/source ingredients and complete method read",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "scope": "Formula, method, metadata and source history",
+      "discussion": "Preserve explicit11142671 recipe-specific refinement:8ozTOTALbutter split6custard/2topping,1.5tspcinnamon,measured crushed flakes/packed sugar,¼cupraisins onlyhalf,325°F deep9×13+overflow and15rest. Original Mary12oz/half+half/350°F/unmeasured toppings is retained exactly as prior family source, not treated as bulk omission or substituted over current deliberate adaptation. a2c9 allocation scaling behavior preserved by authored3/4+1/4 shares; pantry grease separate from full8oz. All dairy/eggs/sugar/noodles remain. Add measured casserole165 center alongside existing wobble/foil cues, original-pan scaling guidance; retain actual glass limits/no capacity guarantee. Water/salt are genuine current method-only cooking allowances; no dose invented.",
+      "remainingQuestions": [
+        "Actual deep glass dish dimensions/capacity and overflow count need kitchen observation; no measured batter yield.",
+        "Existing12portions is planning, not a new weighed output.",
+        "Original12oz/350°F route differs deliberately from11142671; no automatic restoration or unsupported2–3day raw-custard hold."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "16 oz Egg Noodles (medium-width)",
+        "actualMethodDestination": "step2 cooked al dente/drained/warm; step4 full custard assembly"
+      },
+      {
+        "text": "16 oz Sour Cream",
+        "actualMethodDestination": "step3 sour cream cream-cheese smoothing/full remaining custard"
+      },
+      {
+        "text": "16 oz Large Curd Cottage Cheese",
+        "actualMethodDestination": "step3 full cottage cheese custard"
+      },
+      {
+        "text": "8 oz Cream Cheese, softened",
+        "actualMethodDestination": "step3 softened cream cheese first smoothed"
+      },
+      {
+        "text": "8 oz Unsalted Butter, melted and divided (divided: 6 oz for custard; 2 oz for topping), plus a little for greasing",
+        "actualMethodDestination": "step3 six oz custard and step5 two oz topping; extra grease step1"
+      },
+      {
+        "text": "8 large Eggs, beaten",
+        "actualMethodDestination": "step3 full beaten eggs custard"
+      },
+      {
+        "text": "3/4 cup Granulated Sugar",
+        "actualMethodDestination": "step3 full granulated sugar custard"
+      },
+      {
+        "text": "1 1/2 tsp Ground Cinnamon (for the custard)",
+        "actualMethodDestination": "step3 full cinnamon custard"
+      },
+      {
+        "text": "2 cups coarsely crushed Corn Flakes (measure after crushing; for topping)",
+        "actualMethodDestination": "step5 full coarsely crushed two cups flakes topping"
+      },
+      {
+        "text": "1/2 cup packed Light Brown Sugar (for topping)",
+        "actualMethodDestination": "step5 full packed brown sugar topping"
+      },
+      {
+        "text": "1/4 cup Golden Raisins (optional; for half the pudding)",
+        "actualMethodDestination": "step4 optional full quarter-cup raisins only half pudding"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "unsalted butter, as needed for greasing dishes",
+        "id": "pan.grease",
+        "quantity": null,
+        "allowance": "as needed for greasing dishes",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "prep share 1"
+      },
+      {
+        "text": "16 oz medium-width egg noodles, dry",
+        "id": "pan.noodles",
+        "quantity": {
+          "amount": 16,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "preparation": "dry",
+        "actualMethodDestination": "noodles share 1"
+      },
+      {
+        "text": "water, enough to boil the noodles",
+        "id": "pan.water",
+        "quantity": null,
+        "allowance": "enough to boil the noodles",
+        "uses": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "noodles share 1"
+      },
+      {
+        "text": "salt, as desired for the noodle water",
+        "id": "pan.salt",
+        "quantity": null,
+        "allowance": "as desired for the noodle water",
+        "uses": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "noodles share 1"
+      },
+      {
+        "text": "16 oz sour cream",
+        "id": "custard.sour-cream",
+        "quantity": {
+          "amount": 16,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "custard share 1"
+      },
+      {
+        "text": "16 oz large-curd cottage cheese",
+        "id": "custard.cottage",
+        "quantity": {
+          "amount": 16,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "custard share 1"
+      },
+      {
+        "text": "8 oz block-style cream cheese, softened",
+        "id": "custard.cream-cheese",
+        "quantity": {
+          "amount": 8,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "preparation": "softened",
+        "actualMethodDestination": "custard share 1"
+      },
+      {
+        "text": "8 oz unsalted butter, melted and cooled until lukewarm",
+        "id": "custard.butter",
+        "quantity": {
+          "amount": 8,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": "3/4"
+          },
+          {
+            "step": "topping",
+            "share": "1/4"
+          }
+        ],
+        "preparation": "melted and cooled until lukewarm",
+        "actualMethodDestination": "custard share 3/4; topping share 1/4"
+      },
+      {
+        "text": "8 large eggs, beaten",
+        "id": "custard.eggs",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "preparation": "beaten",
+        "actualMethodDestination": "custard share 1"
+      },
+      {
+        "text": "3/4 cup granulated sugar",
+        "id": "custard.sugar",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "custard share 1"
+      },
+      {
+        "text": "1 1/2 tsp ground cinnamon",
+        "id": "custard.cinnamon",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "custard share 1"
+      },
+      {
+        "text": "2 cups corn flakes, coarsely crushed; measure after crushing",
+        "id": "custard.flakes",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "topping",
+            "share": 1
+          }
+        ],
+        "preparation": "coarsely crushed; measure after crushing",
+        "actualMethodDestination": "topping share 1"
+      },
+      {
+        "text": "1/2 cup light brown sugar, packed",
+        "id": "custard.brown-sugar",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "topping",
+            "share": 1
+          }
+        ],
+        "preparation": "packed",
+        "actualMethodDestination": "topping share 1"
+      },
+      {
+        "text": "1/4 cup golden raisins, for half the pudding only, optional",
+        "id": "custard.raisins",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "preparation": "for half the pudding only",
+        "actualMethodDestination": "assemble share 1"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "16 oz noodles (Goodmans or Muellers medium-width)",
+        "16 oz sour cream",
+        "16 oz large curd cottage cheese",
+        "12 oz butter",
+        "8 oz cream cheese (block style)",
+        "8 large eggs",
+        "3/4 cup sugar",
+        "cinnamon",
+        "corn flakes",
+        "brown sugar",
+        "golden raisins"
+      ],
+      "directions": "Bring large pot of water to boil for noodles.\n\nLet cream cheese sit on counter and warm to room temperature.\n\nCrack eggs and place in separate small bowl and stir lightly.\n\nCook noodles for 10 minutes.\n\nHeat and melt butter in small pan.\n\nDrain noodles and put in large bowl. Add sour cream, cream cheese, cottage cheese, eggs, sugar, cinnamon and half of melted butter. Mix very well.\n\nButter bottom and sides of a 9x12 pan with melted butter.\n\nCrush corn flakes and mix with brown sugar in a separate bowl.\n\nAdd noodle mixture to greased pan.\n\nCover with corn flake mixure and top with remaining butter (can be prepared 2-3 days in advance and refrigerated).\n\nBake at 350 for 1 hour.",
+      "reference": "privately retained evidence",
+      "scope": "Exact private existing registry binding to durable original450. Source rows are not the frozen current ledger."
+    },
+    "frozenMethodOnly": ["Salted cooking water step2, absent from frozen ingredient list"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare dishes: Heat the oven to 325°F with a rack in the center. For the original batch, use unsalted butter to grease a room-temperature 9×13-inch glass dish, preferably the existing deep 4-quart plan, and have a smaller greased oven-safe overflow dish ready. Follow the actual dish’s temperature and thermal-shock instructions."
+    },
+    {
+      "step": 2,
+      "text": "Cook noodles: Set out medium-width egg noodles, water, and salt. Bring the salted water to a boil, then add the full dry noodle amount and cook just to al dente, following its package as a guide. Drain well and let the noodles cool until warm, not steaming hot, before adding to the custard."
+    },
+    {
+      "step": 3,
+      "text": "Mix custard: Set out sour cream, large-curd cottage cheese, block-style cream cheese, 3/4 of the unsalted butter, large eggs, granulated sugar, and ground cinnamon. Beat the softened cream cheese with a little sour cream until smooth, then mix in the remaining sour cream and all the cottage cheese, eggs, granulated sugar, cinnamon and allocated butter, keeping the cottage-cheese curds if desired. The butter allocation here is three-quarters of the full butter amount; reserve the other quarter for the topping. Use lukewarm butter and warm noodles so they do not cook the eggs on contact."
+    },
+    {
+      "step": 4,
+      "text": "Combine and divide: Fold all the warm noodles into all the custard. Set out golden raisins (if using). For a half-raisin pudding, divide the noodle mixture in half and add all the optional raisins to only one half. Spoon the two mixtures into opposite sides of the greased dish; omit raisins for an entirely plain pudding. Leave at least 1/2 inch below the rim for topping and slight puffing. Put excess mixture in the overflow dish rather than filling to the brim."
+    },
+    {
+      "step": 5,
+      "text": "Coat topping: Toss 1/4 of the unsalted butter, corn flakes, and light brown sugar until all the coarse corn flakes are coated with the remaining one-quarter butter and packed brown sugar. Scatter across the full noodle mixture without pressing down. With an overflow dish, divide topping in proportion to surface area."
+    },
+    {
+      "step": 6,
+      "text": "Bake and check the center: Bake at 325°F, beginning checks around 60 minutes for the original deep dish; 65–80 minutes is the existing planning range. The edges should be set, the center should have only a slight wobble with no liquid custard, and its center must reach 165°F /74°C. Check every dish; smaller overflow portions may finish earlier. Loosely tent if the topping colors before the center is ready."
+    },
+    {
+      "step": 7,
+      "text": "Rest and serve: Set hot glass on a dry trivet following the vessel’s instructions. Rest 15 minutes before dividing into the listed portions. Keep the raisin and plain halves distinct when serving."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Golden raisins",
+      "alternative": "Use all the optional listed raisins in one half only, or omit them for an entirely plain pudding.",
+      "effect": "Keeps the other half plain without increasing sugar or fruit.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["hamantaschen", "apple-cider-cream-pie", "apple-pie", "babys-first-smash-cake"],
+    "incomingMeals": [],
+    "scope": "Current metadata pairings contain no measured component amount or incoming meal dependency. They do not add ingredients or confer linked-source complete-review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Preserve explicit11142671 recipe-specific refinement:8ozTOTALbutter split6custard/2topping,1.5tspcinnamon,measured crushed flakes/packed sugar,¼cupraisins onlyhalf,325°F deep9×13+overflow and15rest. Original Mary12oz/half+half/350°F/unmeasured toppings is retained exactly as prior family source, not treated as bulk omission or substituted over current deliberate adaptation. a2c9 allocation scaling behavior preserved by authored3/4+1/4 shares; pantry grease separate from full8oz. All dairy/eggs/sugar/noodles remain. Add measured casserole165 center alongside existing wobble/foil cues, original-pan scaling guidance; retain actual glass limits/no capacity guarantee. Water/salt are genuine current method-only cooking allowances; no dose invented.",
+    "yield": "12 portions",
+    "yieldScope": "Current original-batch planning count remains; no measured finished weight/yield or tested capacity.",
+    "capacity": "Existing original9×13 deep4quart plan plus overflow retained; actual vessel thermal limits apply, no new batter-volume claim.",
+    "timing": "Plan about 30 minutes preparation/noodle cooking, 65–80 minutes or longer baking and 15 minutes resting: about 110–125 minutes for the original dish, plus any oven-heating delay. Overflow pans may finish sooner; full cooling and refrigeration for later service are additional."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "4 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "4 oz sour cream",
+        "4 oz large-curd cottage cheese",
+        "2 oz block-style cream cheese, softened",
+        "2 oz unsalted butter, melted and cooled until lukewarm",
+        "2 large eggs, beaten",
+        "0.19 cup granulated sugar",
+        "3/8 tsp ground cinnamon",
+        "1/2 cup corn flakes, coarsely crushed; measure after crushing",
+        "1/8 cup light brown sugar, packed",
+        "0.0625 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "3 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "8 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "8 oz sour cream",
+        "8 oz large-curd cottage cheese",
+        "4 oz block-style cream cheese, softened",
+        "4 oz unsalted butter, melted and cooled until lukewarm",
+        "4 large eggs, beaten",
+        "3/8 cup granulated sugar",
+        "3/4 tsp ground cinnamon",
+        "1 cup corn flakes, coarsely crushed; measure after crushing",
+        "1/4 cup light brown sugar, packed",
+        "1/8 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "16 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "16 oz sour cream",
+        "16 oz large-curd cottage cheese",
+        "8 oz block-style cream cheese, softened",
+        "8 oz unsalted butter, melted and cooled until lukewarm",
+        "8 large eggs, beaten",
+        "3/4 cup granulated sugar",
+        "1 1/2 tsp ground cinnamon",
+        "2 cups corn flakes, coarsely crushed; measure after crushing",
+        "1/2 cup light brown sugar, packed",
+        "1/4 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "24 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "24 oz sour cream",
+        "24 oz large-curd cottage cheese",
+        "12 oz block-style cream cheese, softened",
+        "12 oz unsalted butter, melted and cooled until lukewarm",
+        "12 large eggs, beaten",
+        "1 1/8 cups granulated sugar",
+        "2 1/4 tsp ground cinnamon",
+        "3 cups corn flakes, coarsely crushed; measure after crushing",
+        "3/4 cup light brown sugar, packed",
+        "3/8 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "18 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "32 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "32 oz sour cream",
+        "32 oz large-curd cottage cheese",
+        "16 oz block-style cream cheese, softened",
+        "16 oz unsalted butter, melted and cooled until lukewarm",
+        "16 large eggs, beaten",
+        "1 1/2 cups granulated sugar",
+        "3 tsp ground cinnamon",
+        "4 cups corn flakes, coarsely crushed; measure after crushing",
+        "1 cup light brown sugar, packed",
+        "1/2 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "24 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "48 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "48 oz sour cream",
+        "48 oz large-curd cottage cheese",
+        "24 oz block-style cream cheese, softened",
+        "24 oz unsalted butter, melted and cooled until lukewarm",
+        "24 large eggs, beaten",
+        "2 1/4 cups granulated sugar",
+        "4 1/2 tsp ground cinnamon",
+        "6 cups corn flakes, coarsely crushed; measure after crushing",
+        "1 1/2 cups light brown sugar, packed",
+        "3/4 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "36 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Pan and noodle cooking ---",
+        "unsalted butter, as needed for greasing dishes",
+        "16 oz medium-width egg noodles, dry",
+        "water, enough to boil the noodles",
+        "salt, as desired for the noodle water",
+        "--- Custard and topping ---",
+        "16 oz sour cream",
+        "16 oz large-curd cottage cheese",
+        "8 oz block-style cream cheese, softened",
+        "8 oz unsalted butter, melted and cooled until lukewarm",
+        "8 large eggs, beaten",
+        "3/4 cup granulated sugar",
+        "1 1/2 tsp ground cinnamon",
+        "2 cups corn flakes, coarsely crushed; measure after crushing",
+        "1/2 cup light brown sugar, packed",
+        "1/4 cup golden raisins, for half the pudding only, optional"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "11142671 named deliberate8oz/6+2 butter/325/deepglass/rest/toppings and a2c9 allocation scaling preserved.",
+  "remainingQuestions": [
+    "Actual deep glass dish dimensions/capacity and overflow count need kitchen observation; no measured batter yield.",
+    "Existing12portions is planning, not a new weighed output.",
+    "Original12oz/350°F route differs deliberately from11142671; no automatic restoration or unsupported2–3day raw-custard hold."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

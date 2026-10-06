@@ -48,7 +48,9 @@ test('soup and gratin restore source amounts and allocate the listed ingredients
   for (const line of ['1 tsp Fresh Rosemary, chopped', '2 tsp Salt', '1 tsp Black Pepper'])
     assert.ok(gratin.data.ingredients.includes(line));
   assert.doesNotMatch(gratin.content, /heat 1 tbsp butter|Lightly butter/);
-  assert.match(gratin.content, /one-sixth of the seasoned cream/);
+  assert.match(gratin.content, /one-sixth of each dish’s allocated cream/);
+  assert.match(gratin.content, /Divide all measured ingredients among the dishes/);
+  assert.match(gratin.content, /Use all the cream; do not leave a fixed-volume remainder behind/);
   assert.equal(gratin.data.totalTime, '95 min');
 });
 test('salad lists toppings and soup keeps its safer release instructions', () => {

@@ -1,0 +1,618 @@
+{
+  "slug": "sweet-potato-sausage-breakfast-casserole",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "b17bf44004d032dcee20ceb67aae38dbe1f1070090d18921e1eec3a57ab1a929",
+  "acceptedSourceSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/2 tablespoon avocado oil",
+        "12 large eggs",
+        "1/2 cup unsweetened almond milk",
+        "1/4 cup thinly sliced green onion, plus more for topping",
+        "1 tablespoon hot sauce",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "3/4 cup shredded sharp white cheddar cheese",
+        "1 pound ground breakfast sausage or ground pork",
+        "1 small to medium yellow onion, diced",
+        "1 small to medium red bell pepper, diced",
+        "1 small to medium green bell pepper, diced",
+        "3 cloves garlic, finely minced",
+        "5 oz baby spinach, chopped"
+      ],
+      "after": [
+        "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/2 tablespoon avocado oil",
+        "12 large eggs",
+        "1/2 cup unsweetened almond milk",
+        "1/4 cup thinly sliced green onion",
+        "1 tablespoon hot sauce",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "3/4 cup shredded sharp white cheddar cheese",
+        "1 pound ground breakfast sausage or ground pork",
+        "1 small to medium yellow onion, diced",
+        "1 small to medium red bell pepper, diced",
+        "1 small to medium green bell pepper, diced",
+        "3 cloves garlic, finely minced",
+        "5 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "allthehealthythings.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook the potatoes and meat before the egg bake",
+        "outcome": "Tender potato cubes and a cooked sausage-vegetable filling held by set eggs.",
+        "techniques": ["temperature"],
+        "before": [
+          "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+          "Use raw ground breakfast sausage or ground pork and read its package. The listed avocado oil is for potatoes; greasing spray and optional extra green onion are separate supplies."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A potato cube yields to a knife before the eggs are added.",
+            "why": "The eggs can set before undercooked potatoes soften."
+          },
+          {
+            "step": 4,
+            "cue": "Ground pork reaches 160°F, or ground poultry 165°F.",
+            "why": "Browning alone does not establish the actual meat endpoint."
+          },
+          {
+            "step": 8,
+            "cue": "The center in every casserole dish is set and reaches 165°F.",
+            "why": "A golden edge can precede the center, especially with deep filling."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The eggs are set but the potatoes are hard",
+            "cause": "The potato cubes were large or insufficiently roasted before assembly.",
+            "fix": "Keep checking the casserole center and cover if the top darkens; next time test a potato cube before adding the eggs, rather than shortening the roast by its clock alone."
+          }
+        ],
+        "timing": "The current original-batch plan is about 20 minutes preparation, 15–20 minutes potato roasting and 35–40 minutes egg baking, with skillet work overlapping the roast and a standing interval before slicing: about 1½ hours. Extra loads add elapsed time; no fixed rest or universal bake time is tested.",
+        "substitutions": [
+          {
+            "ingredient": "Ground meat",
+            "alternative": "Use the same listed meat amount as raw ground pork or raw poultry breakfast sausage. Read actual product instructions; check pork at 160°F or poultry at 165°F before assembly, and keep the casserole center check at 165°F.",
+            "effect": "Preserves the source-specific meat alternatives without equating cured or precooked sausage with raw ground meat."
+          },
+          {
+            "ingredient": "Milk",
+            "alternative": "The current publisher also offers the same listed milk volume as whole milk, half-and-half or full-fat coconut milk instead of almond milk; choose one milk route and keep the rest of the complete formula.",
+            "effect": "These modern publisher alternatives change richness and flavor; the saved almond-milk main remains."
+          }
+        ],
+        "storage": "Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout, checking the center; cover if needed to keep the topping from over-browning.",
+        "sources": [
+          {
+            "title": "All the Healthy Things — Sausage Breakfast Casserole",
+            "url": "https://allthehealthythings.com/sausage-breakfast-casserole/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSmall sweet-potato cubes roast before the egg mixture goes into the dish. That gives them time to soften without overbaking the eggs. Cook the sausage and wilt the spinach before assembling.\n\n## Directions\n\n1. **Prepare:** Preheat oven to 400 degrees.\n\n2. **Continue:** Place the sweet potatoes in a 9×13 inch casserole dish and then drizzle with avocado oil. Toss until well coated. Bake the sweet potatoes for 15-20 minutes until tender and then remove from the oven.\n\n3. **Continue:** While the sweet potatoes are baking add the eggs, almond milk, green onion, hot sauce, salt, and pepper to a large mixing bowl. Whisk together until well combined and then fold in shredded cheese.\n\n4. **Continue:** Next, heat a large skillet over medium-high heat. Once hot, add the sausage and brown, breaking it up as it cooks.\n\n5. **Continue:** Once the sausage is brown add the onion, bell peppers, and garlic. Sauté for another 3-5 minutes or until onion and bell pepper start to become tender.\n\n6. **Continue:** Add the baby spinach to the skillet, sauté for 30 seconds to 1 minute until the spinach is wilted, and then remove from the heat.\n\n7. **Continue:** Give your casserole dish a light spray of olive or avocado oil to prevent sticking and then add the sausage mixture. Toss with the sweet potatoes until well combined.\n\n8. **Continue:** Pour the egg mixture evenly over the sausage and veggies. Bake the casserole at 400 degrees for 35-40 (check after 30 minutes) until the egg is completely set. Let cool and then slice into 12 pieces. Use the listed avocado oil for the potatoes. Cook ground pork sausage to 160°F / 71°C, or poultry sausage to 165°F / 74°C. Bake the assembled casserole until its center reaches 165°F / 74°C.\n",
+    "after": "\n## Chef's Note\n\nRoast the small sweet-potato cubes until tender before the eggs go in. Cook the sausage and wilt the spinach first, retaining their full mixture for the casserole. Spread the filling evenly, then bake until the center is set and reaches 165°F; a browned edge does not measure the middle.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 400°F. Wash the fresh vegetables before preparing them. Lightly grease an oven-safe 9×13-inch casserole dish for the original batch with the separate oil spray. Check its actual depth: when the full filling will not leave headroom, divide every ingredient among additional dishes before roasting or assembling, keeping similar depth.\n2. **Roast potatoes:** Toss all the peeled 1/4-inch sweet-potato cubes with the full listed avocado oil in the prepared dish or dishes. Bake for about 15–20 minutes, until a cube in the center is tender when pierced; remove from the oven.\n3. **Mix eggs:** While the potatoes roast, whisk all the eggs, almond milk, measured green onion, hot sauce, salt and pepper together. Fold in all the cheddar.\n4. **Cook sausage:** Heat a large skillet over medium-high heat. Add all the raw ground breakfast sausage or ground pork, breaking it up as it cooks. Cook ground pork to 160°F /71°C, or poultry sausage to 165°F /74°C; use raw ground sausage and follow its package instructions. Use additional skillet rounds if necessary rather than crowding it.\n5. **Cook vegetables:** Add all the yellow onion, red and green bell peppers and garlic to the cooked sausage. Sauté for about 3–5 minutes, until the vegetables begin to soften. Reduce the heat if the garlic darkens before the vegetables soften.\n6. **Wilt spinach:** Add all the spinach and stir for about 30 seconds to 1 minute, until wilted. Remove the skillet from the heat. Retain the full cooked sausage, vegetables and pan juices for assembly.\n7. **Assemble:** Divide the full cooked skillet mixture among the roasted-potato dishes and toss together. Pour the egg mixture evenly over them, dividing all the eggs and filling among the dishes in the same proportions.\n8. **Bake and serve:** Bake at 400°F for about 35–40 minutes, beginning checks at 30 minutes, until the egg center is set and reaches 165°F /74°C in each dish. A deeper load can take longer. Let stand until safe to handle and firm enough to slice, then cut into the listed planning count of slices. Add the separate optional extra green onion if desired.\n"
+  },
+  "findings": [
+    {
+      "id": "SBS07-6",
+      "rationale": "Full exact stable-bound native formula agrees with modern primary All the Healthy Things; protect all12eggs/half cup almond milk/three-quarter cup cheddar/one pound meat/full half-tablespoon oil/hot sauce/salt/peppers/spinach. Preserve accepted e300 source-import pork160/poultry165/casserole165 endpoints and existing90min standing plan. Move actual raw-meat endpoint to its cooking stage and retain all cooked pan mixture. The listed oil goes only to potatoes; the native/current additional spray and green onion are genuine separate allowances, no duplicate oil allocation or invented extra measured dose. Grease before initial roasting rather than spraying an unspecified hot vessel; editorial sequence not manufacturer certification. Explicit original9×13 loading, full ingredient divisions and set-center checks keep scaling honest. Omit source domain masquerading as geographic origin. Excluded similarly titled b7 Pioneer Woman10egg/hashbrown/heavycream recipe is not lineage; actual first source of this twelve-egg formula is9fa. No nutrition imported.",
+      "confidence": "High exact source/current quantities and history; moderate editorial pan, planning clock and primary safety category application",
+      "applicableSources": [
+        {
+          "title": "All the Healthy Things — Sausage Breakfast Casserole",
+          "url": "https://allthehealthythings.com/sausage-breakfast-casserole/",
+          "scope": "Actual full primary agrees with exact saved twelve-egg/sweet-potato/almond-milk formula,3/4cup cheese, vegetable/fat and stages. Prior published source-import160/165 endpoints retained. Milk/meat alternatives source-specific;4–5day/brief microwave claims not copied over primary handling guidance."
+        },
+        {
+          "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Actual current chart specifies meat AND meatless casseroles165°F, ground meat/sausage160°F and poultry165°F. Corn/noodle/ham and egg-sausage pan applications editorial; small quinoa-egg bites use FDA egg-dish160°F, square-pan casserole option165°F. No risk-elimination promise."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual primary read: wash produce, refrigerated perishables and prompt cooling, egg-dish160°F and leftover165°F. Does not establish formula, pan capacity or recipe clocks."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Current direct main-page fetch403; official indexed guidance previously verified for shallow promptly chilled3–4days/165°F. Handling only, not tasted or recipe-specific shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "origin", "learning", "content"],
+      "questions": [
+        "Actual casserole dish depth, potato cube size and meat moisture determine capacity and elapsed bake time.",
+        "Actual raw sausage product must be known; ground pork and poultry have different minimum endpoints, while cured products are not automatic substitutions.",
+        "The current90-minute plan includes an unspecified standing interval; slice when the cooked mixture holds, without claiming a tested exact rest.",
+        "Publisher milk alternatives affect flavor and moisture; no blend or equal-thickness guarantee is asserted."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/sweet-potato-sausage-breakfast-casserole.md",
+    "introductionScope": "Actual first established canonical introduction of this All the Healthy Things formula; similarly titled b7 HTML is a different Pioneer Woman recipe and is not lineage evidence",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://allthehealthythings.com/sausage-breakfast-casserole/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "scope": "Formula, method, metadata and source history",
+      "discussion": "Full exact stable-bound native formula agrees with modern primary All the Healthy Things; protect all12eggs/half cup almond milk/three-quarter cup cheddar/one pound meat/full half-tablespoon oil/hot sauce/salt/peppers/spinach. Preserve accepted e300 source-import pork160/poultry165/casserole165 endpoints and existing90min standing plan. Move actual raw-meat endpoint to its cooking stage and retain all cooked pan mixture. The listed oil goes only to potatoes; the native/current additional spray and green onion are genuine separate allowances, no duplicate oil allocation or invented extra measured dose. Grease before initial roasting rather than spraying an unspecified hot vessel; editorial sequence not manufacturer certification. Explicit original9×13 loading, full ingredient divisions and set-center checks keep scaling honest. Omit source domain masquerading as geographic origin. Excluded similarly titled b7 Pioneer Woman10egg/hashbrown/heavycream recipe is not lineage; actual first source of this twelve-egg formula is9fa. No nutrition imported.",
+      "remainingQuestions": [
+        "Actual casserole dish depth, potato cube size and meat moisture determine capacity and elapsed bake time.",
+        "Actual raw sausage product must be known; ground pork and poultry have different minimum endpoints, while cured products are not automatic substitutions.",
+        "The current90-minute plan includes an unspecified standing interval; slice when the cooked mixture holds, without claiming a tested exact rest.",
+        "Publisher milk alternatives affect flavor and moisture; no blend or equal-thickness guarantee is asserted."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "actualMethodDestination": "step2 all quarter-inch sweet potato cubes roast; step7 assembly"
+      },
+      {
+        "text": "1/2 tablespoon avocado oil",
+        "actualMethodDestination": "step2 full half-tablespoon potato roasting oil reiterated step8"
+      },
+      {
+        "text": "12 large eggs",
+        "actualMethodDestination": "step3 full eggs; step8 bake"
+      },
+      {
+        "text": "1/2 cup unsweetened almond milk",
+        "actualMethodDestination": "step3 full almond milk egg mixture"
+      },
+      {
+        "text": "1/4 cup thinly sliced green onion, plus more for topping",
+        "actualMethodDestination": "step3 measured quarter-cup green onion; extra topping not given an explicit method destination"
+      },
+      {
+        "text": "1 tablespoon hot sauce",
+        "actualMethodDestination": "step3 full hot sauce egg mixture"
+      },
+      {
+        "text": "1 teaspoon salt",
+        "actualMethodDestination": "step3 full salt egg mixture"
+      },
+      {
+        "text": "1/4 teaspoon black pepper",
+        "actualMethodDestination": "step3 full black pepper egg mixture"
+      },
+      {
+        "text": "3/4 cup shredded sharp white cheddar cheese",
+        "actualMethodDestination": "step3 full cheddar egg mixture"
+      },
+      {
+        "text": "1 pound ground breakfast sausage or ground pork",
+        "actualMethodDestination": "step4 raw ground sausage/pork browned; step5–7 full mixture; step8 appended160/165 endpoints"
+      },
+      {
+        "text": "1 small to medium yellow onion, diced",
+        "actualMethodDestination": "step5 all yellow onion meat skillet"
+      },
+      {
+        "text": "1 small to medium red bell pepper, diced",
+        "actualMethodDestination": "step5 all red bell pepper meat skillet"
+      },
+      {
+        "text": "1 small to medium green bell pepper, diced",
+        "actualMethodDestination": "step5 all green bell pepper meat skillet"
+      },
+      {
+        "text": "3 cloves garlic, finely minced",
+        "actualMethodDestination": "step5 all garlic meat skillet"
+      },
+      {
+        "text": "5 oz baby spinach, chopped",
+        "actualMethodDestination": "step6 all spinach wilt; step7 assembly"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "actualMethodDestination": "step2 roast/step7 assemble all potatoes"
+      },
+      {
+        "text": "1/2 tablespoon avocado oil",
+        "actualMethodDestination": "step2 full potato oil only"
+      },
+      {
+        "text": "12 large eggs",
+        "actualMethodDestination": "step3 full egg mixture/step8 center"
+      },
+      {
+        "text": "1/2 cup unsweetened almond milk",
+        "actualMethodDestination": "step3 full almond milk"
+      },
+      {
+        "text": "1/4 cup thinly sliced green onion",
+        "actualMethodDestination": "step3 measured green onion only"
+      },
+      {
+        "text": "1 tablespoon hot sauce",
+        "actualMethodDestination": "step3 full hot sauce"
+      },
+      {
+        "text": "1 teaspoon salt",
+        "actualMethodDestination": "step3 full salt"
+      },
+      {
+        "text": "1/4 teaspoon black pepper",
+        "actualMethodDestination": "step3 full pepper"
+      },
+      {
+        "text": "3/4 cup shredded sharp white cheddar cheese",
+        "actualMethodDestination": "step3 full cheddar"
+      },
+      {
+        "text": "1 pound ground breakfast sausage or ground pork",
+        "actualMethodDestination": "step4 raw meat endpoint160pork/165poultry/step7 all meatpanmixture"
+      },
+      {
+        "text": "1 small to medium yellow onion, diced",
+        "actualMethodDestination": "step5 full onion"
+      },
+      {
+        "text": "1 small to medium red bell pepper, diced",
+        "actualMethodDestination": "step5 full red pepper"
+      },
+      {
+        "text": "1 small to medium green bell pepper, diced",
+        "actualMethodDestination": "step5 full green pepper"
+      },
+      {
+        "text": "3 cloves garlic, finely minced",
+        "actualMethodDestination": "step5 full garlic"
+      },
+      {
+        "text": "5 oz baby spinach, chopped",
+        "actualMethodDestination": "step6 full spinach/step7 assembly"
+      },
+      {
+        "text": "Olive or avocado oil spray, as needed for the baking dish",
+        "actualMethodDestination": "step1 separate spray before roasting"
+      },
+      {
+        "text": "Additional green onion, as needed for optional topping",
+        "actualMethodDestination": "step8 separate optional extra green onion"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/2 tablespoon avocado oil",
+        "12 large eggs",
+        "1/2 cup unsweetened almond milk",
+        "1/4 cup thinly sliced green onion, plus more for topping",
+        "1 tablespoon hot sauce",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "3/4 cup shredded sharp white cheddar cheese",
+        "1 pound ground breakfast sausage or ground pork",
+        "1 small to medium yellow onion, diced",
+        "1 small to medium red bell pepper, diced",
+        "1 small to medium green bell pepper, diced",
+        "3 cloves garlic, finely minced",
+        "5 oz baby spinach, chopped"
+      ],
+      "directions": "Preheat oven to 400 degrees.\n\nPlace the sweet potatoes in a 9×13 inch casserole dish and then drizzle with olive oil. Toss until well coated. Bake the sweet potatoes for 15-20 minutes until tender and then remove from the oven.\n\nWhile the sweet potatoes are baking add the eggs, almond milk, green onion, hot sauce, salt, and pepper to a large mixing bowl. Whisk together until well combined and then fold in shredded cheese.\n\nNext, heat a large skillet over medium-high heat. Once hot, add the sausage and brown, breaking it up as it cooks.\n\nOnce the sausage is brown add the onion, bell peppers, and garlic. Sauté for another 3-5 minutes or until onion and bell pepper start to become tender.\n\nAdd the baby spinach to the skillet, sauté for 30 seconds to 1 minute until the spinach is wilted, and then remove from the heat.\n\nGive your casserole dish a light spray of olive or avocado oil to prevent sticking and then add the sausage mixture. Toss with the sweet potatoes until well combined.\n\nPour the egg mixture evenly over the sausage and veggies. Bake the casserole at 400 degrees for 35-40 (check after 30 minutes) until the egg is completely set. Let cool and then slice into 12 pieces.",
+      "reference": "privately retained evidence",
+      "scope": "Exact private existing registry binding to durable original450. Source rows are not the frozen current ledger."
+    },
+    "frozenMethodOnly": ["Olive/avocado oil spray step7, absent from frozen ingredient list"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the oven to 400°F. Wash the fresh vegetables before preparing them. Lightly grease an oven-safe 9×13-inch casserole dish for the original batch with the separate oil spray. Check its actual depth: when the full filling will not leave headroom, divide every ingredient among additional dishes before roasting or assembling, keeping similar depth."
+    },
+    {
+      "step": 2,
+      "text": "Roast potatoes: Toss all the peeled 1/4-inch sweet-potato cubes with the full listed avocado oil in the prepared dish or dishes. Bake for about 15–20 minutes, until a cube in the center is tender when pierced; remove from the oven."
+    },
+    {
+      "step": 3,
+      "text": "Mix eggs: While the potatoes roast, whisk all the eggs, almond milk, measured green onion, hot sauce, salt and pepper together. Fold in all the cheddar."
+    },
+    {
+      "step": 4,
+      "text": "Cook sausage: Heat a large skillet over medium-high heat. Add all the raw ground breakfast sausage or ground pork, breaking it up as it cooks. Cook ground pork to 160°F /71°C, or poultry sausage to 165°F /74°C; use raw ground sausage and follow its package instructions. Use additional skillet rounds if necessary rather than crowding it."
+    },
+    {
+      "step": 5,
+      "text": "Cook vegetables: Add all the yellow onion, red and green bell peppers and garlic to the cooked sausage. Sauté for about 3–5 minutes, until the vegetables begin to soften. Reduce the heat if the garlic darkens before the vegetables soften."
+    },
+    {
+      "step": 6,
+      "text": "Wilt spinach: Add all the spinach and stir for about 30 seconds to 1 minute, until wilted. Remove the skillet from the heat. Retain the full cooked sausage, vegetables and pan juices for assembly."
+    },
+    {
+      "step": 7,
+      "text": "Assemble: Divide the full cooked skillet mixture among the roasted-potato dishes and toss together. Pour the egg mixture evenly over them, dividing all the eggs and filling among the dishes in the same proportions."
+    },
+    {
+      "step": 8,
+      "text": "Bake and serve: Bake at 400°F for about 35–40 minutes, beginning checks at 30 minutes, until the egg center is set and reaches 165°F /74°C in each dish. A deeper load can take longer. Let stand until safe to handle and firm enough to slice, then cut into the listed planning count of slices. Add the separate optional extra green onion if desired."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Ground meat",
+      "alternative": "Use the same listed meat amount as raw ground pork or raw poultry breakfast sausage. Read actual product instructions; check pork at 160°F or poultry at 165°F before assembly, and keep the casserole center check at 165°F.",
+      "effect": "Preserves the source-specific meat alternatives without equating cured or precooked sausage with raw ground meat.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    },
+    {
+      "ingredient": "Milk",
+      "alternative": "The current publisher also offers the same listed milk volume as whole milk, half-and-half or full-fat coconut milk instead of almond milk; choose one milk route and keep the rest of the complete formula.",
+      "effect": "These modern publisher alternatives change richness and flavor; the saved almond-milk main remains.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "Current metadata pairings contain no measured component amount or incoming meal dependency. They do not add ingredients or confer linked-source complete-review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Full exact stable-bound native formula agrees with modern primary All the Healthy Things; protect all12eggs/half cup almond milk/three-quarter cup cheddar/one pound meat/full half-tablespoon oil/hot sauce/salt/peppers/spinach. Preserve accepted e300 source-import pork160/poultry165/casserole165 endpoints and existing90min standing plan. Move actual raw-meat endpoint to its cooking stage and retain all cooked pan mixture. The listed oil goes only to potatoes; the native/current additional spray and green onion are genuine separate allowances, no duplicate oil allocation or invented extra measured dose. Grease before initial roasting rather than spraying an unspecified hot vessel; editorial sequence not manufacturer certification. Explicit original9×13 loading, full ingredient divisions and set-center checks keep scaling honest. Omit source domain masquerading as geographic origin. Excluded similarly titled b7 Pioneer Woman10egg/hashbrown/heavycream recipe is not lineage; actual first source of this twelve-egg formula is9fa. No nutrition imported.",
+    "yield": "12 slices",
+    "yieldScope": "Current original-batch planning count remains; no measured finished weight/yield or tested capacity.",
+    "capacity": "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+    "timing": "The current original-batch plan is about 20 minutes preparation, 15–20 minutes potato roasting and 35–40 minutes egg baking, with skillet work overlapping the roast and a standing interval before slicing: about 1½ hours. Extra loads add elapsed time; no fixed rest or universal bake time is tested."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/8 tablespoon avocado oil",
+        "3 large eggs",
+        "1/8 cup unsweetened almond milk",
+        "0.0625 cup thinly sliced green onion",
+        "1/4 tablespoon hot sauce",
+        "1/4 teaspoon salt",
+        "0.0625 teaspoon black pepper",
+        "0.19 cup shredded sharp white cheddar cheese",
+        "1/4 pound ground breakfast sausage or ground pork",
+        "1/4 small to medium yellow onion, diced",
+        "1/4 small to medium red bell pepper, diced",
+        "1/4 small to medium green bell pepper, diced",
+        "3/4 clove garlic, finely minced",
+        "1 1/4 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "3 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/4 tablespoon avocado oil",
+        "6 large eggs",
+        "1/4 cup unsweetened almond milk",
+        "1/8 cup thinly sliced green onion",
+        "1/2 tablespoon hot sauce",
+        "1/2 teaspoon salt",
+        "1/8 teaspoon black pepper",
+        "3/8 cup shredded sharp white cheddar cheese",
+        "1/2 pound ground breakfast sausage or ground pork",
+        "1/2 small to medium yellow onion, diced",
+        "1/2 small to medium red bell pepper, diced",
+        "1/2 small to medium green bell pepper, diced",
+        "1 1/2 cloves garlic, finely minced",
+        "2 1/2 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "6 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/2 tablespoon avocado oil",
+        "12 large eggs",
+        "1/2 cup unsweetened almond milk",
+        "1/4 cup thinly sliced green onion",
+        "1 tablespoon hot sauce",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "3/4 cup shredded sharp white cheddar cheese",
+        "1 pound ground breakfast sausage or ground pork",
+        "1 small to medium yellow onion, diced",
+        "1 small to medium red bell pepper, diced",
+        "1 small to medium green bell pepper, diced",
+        "3 cloves garlic, finely minced",
+        "5 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "12 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 pounds sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "3/4 tablespoon avocado oil",
+        "18 large eggs",
+        "3/4 cup unsweetened almond milk",
+        "3/8 cup thinly sliced green onion",
+        "1 1/2 tablespoons hot sauce",
+        "1 1/2 teaspoons salt",
+        "3/8 teaspoon black pepper",
+        "1 1/8 cups shredded sharp white cheddar cheese",
+        "1 1/2 pounds ground breakfast sausage or ground pork",
+        "1 1/2 small to medium yellow onion, diced",
+        "1 1/2 small to medium red bell pepper, diced",
+        "1 1/2 small to medium green bell pepper, diced",
+        "4 1/2 cloves garlic, finely minced",
+        "7 1/2 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "18 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 pounds sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1 tablespoon avocado oil",
+        "24 large eggs",
+        "1 cup unsweetened almond milk",
+        "1/2 cup thinly sliced green onion",
+        "2 tablespoons hot sauce",
+        "2 teaspoons salt",
+        "1/2 teaspoon black pepper",
+        "1 1/2 cups shredded sharp white cheddar cheese",
+        "2 pounds ground breakfast sausage or ground pork",
+        "2 small to medium yellow onion, diced",
+        "2 small to medium red bell pepper, diced",
+        "2 small to medium green bell pepper, diced",
+        "6 cloves garlic, finely minced",
+        "10 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "24 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 pounds sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1 1/2 tablespoons avocado oil",
+        "36 large eggs",
+        "1 1/2 cups unsweetened almond milk",
+        "3/4 cup thinly sliced green onion",
+        "3 tablespoons hot sauce",
+        "3 teaspoons salt",
+        "3/4 teaspoon black pepper",
+        "2 1/4 cups shredded sharp white cheddar cheese",
+        "3 pounds ground breakfast sausage or ground pork",
+        "3 small to medium yellow onion, diced",
+        "3 small to medium red bell pepper, diced",
+        "3 small to medium green bell pepper, diced",
+        "9 cloves garlic, finely minced",
+        "15 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "36 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 pound sweet potatoes, peeled and diced into 1/4 inch chunks",
+        "1/2 tablespoon avocado oil",
+        "12 large eggs",
+        "1/2 cup unsweetened almond milk",
+        "1/4 cup thinly sliced green onion",
+        "1 tablespoon hot sauce",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "3/4 cup shredded sharp white cheddar cheese",
+        "1 pound ground breakfast sausage or ground pork",
+        "1 small to medium yellow onion, diced",
+        "1 small to medium red bell pepper, diced",
+        "1 small to medium green bell pepper, diced",
+        "3 cloves garlic, finely minced",
+        "5 oz baby spinach, chopped",
+        "Olive or avocado oil spray, as needed for the baking dish",
+        "Additional green onion, as needed for optional topping"
+      ],
+      "yield": "12 slices",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "e300 thaw/product source import pork160/poultry165/casserole165 retained, now in relevant cooking stages.",
+  "remainingQuestions": [
+    "Actual casserole dish depth, potato cube size and meat moisture determine capacity and elapsed bake time.",
+    "Actual raw sausage product must be known; ground pork and poultry have different minimum endpoints, while cured products are not automatic substitutions.",
+    "The current90-minute plan includes an unspecified standing interval; slice when the cooked mixture holds, without claiming a tested exact rest.",
+    "Publisher milk alternatives affect flavor and moisture; no blend or equal-thickness guarantee is asserted."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "slug": "corn-casserole",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "b930409c5dd6e84ab6b91cb30f5ff20c247b538d405ad516c68badc24864de8c",
+  "acceptedSourceSha256": "15123e7f537dc5cd6a81b028d8e86e95ec3c0dae9118ea4238f80cf88bbd5278",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "About 50–60 min or longer, including 5 min rest"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1 can (14.75 oz) Cream-Style Corn",
+        "1 can (15.25 oz) Whole Kernel Corn, drained",
+        "8 oz Sour Cream",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "2 large Eggs, well beaten",
+        "1/2 cup Sharp Cheddar, shredded",
+        "1 can (4 oz) Diced Green Chiles"
+      ],
+      "after": [
+        "8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1 can (14.75 oz) Cream-Style Corn",
+        "1 can (15.25 oz) Whole Kernel Corn, drained",
+        "8 oz Sour Cream",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "2 large Eggs, well beaten",
+        "1/2 cup Sharp Cheddar, shredded (optional)",
+        "1 can (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 155,
+        "protein": 9,
+        "carbs": 1,
+        "fat": 13.5,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 210
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Fold gently and check the center",
+        "outcome": "A set corn casserole with golden edges that holds after a short rest.",
+        "techniques": ["temperature"],
+        "before": [
+          "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+          "Use the listed current full-size cans; drain only the whole-kernel corn. Cool the melted butter to lukewarm before adding the eggs. The extra greasing butter is separate from the full batter amount."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "No dry muffin-mix pockets remain, without beating the batter smooth.",
+            "why": "Folding combines the ingredients without unnecessary mixing."
+          },
+          {
+            "step": 6,
+            "cue": "Each center is set and reaches 165°F, with golden edges.",
+            "why": "The surface can brown before a deep center heats through."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The edges brown while the middle is loose",
+            "cause": "A deep load heats slowly, or the oven heats the surface faster than the center.",
+            "fix": "Tent the top and continue checking the center. Divide the full batter before baking when the actual dish does not leave headroom; do not solve capacity by discarding batter."
+          }
+        ],
+        "timing": "The original current batch takes about 10 minutes to mix, about 35–45 minutes or longer to bake, and 5 minutes to rest: about 50–60 minutes or longer. Dish depth and additional loads determine elapsed time.",
+        "substitutions": [
+          {
+            "ingredient": "Cheddar and chiles",
+            "alternative": "Use either, both or neither of the listed optional additions. All green chiles used go into the corn mixture; all cheddar used goes over the batter before baking. Do not take either from an unlisted extra supply.",
+            "effect": "Keeps the current additions optional while accounting for their full quantities."
+          }
+        ],
+        "storage": "Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout, checking the center; cover if needed to keep the topping from over-browning.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Southern potluck favorite combines creamed corn for moisture with whole kernels for texture. Whisking melted butter into sour cream and eggs before adding the dry mix creates a rich, pudding-like consistency that stays moist. Optional green chiles add a subtle kick.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Lightly grease a 9x13 or 2-quart baking dish.\n2.  **Wet Mix:** In a large bowl, whisk together the melted butter, eggs, and sour cream until smooth.\n3.  **The Corn:** Stir in the cream-style corn and the drained whole kernel corn. If you want a \"High Note\" kick, fold in the diced green chiles now.\n4.  **Fold:** Sprinkle the corn bread mix over the wet ingredients. Fold gently until **just combined** - do not over-mix.\n5.  **Bake:** Pour the batter into the prepared dish. If using cheese, sprinkle it over the top now.\n6.  **Finish:** Bake for 35-45 minutes until the center is set and the edges are golden brown. Let sit for 5 minutes before serving to allow the internal structure to firm up.\n",
+    "after": "\n## Chef's Note\n\nGlenna Johnson’s corn casserole combines cream-style corn, drained whole kernels and the full butter and sour cream. Let the melted butter cool until lukewarm before whisking it into the eggs. Fold the muffin mix in just until combined, then check the center as well as the golden edges. Cheddar and green chiles are optional additions.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Grease a 9×13-inch oven-safe dish for the original full-can batch with the separate butter allowance. Check its actual depth and leave headroom. A 2-quart dish is another current option only when its actual load leaves adequate headroom; divide excess batter among additional greased dishes rather than assuming it all fits. Scaling uses separate dishes or an appropriate smaller dish, with similar batter depth.\n2. **Wet mixture:** Whisk all the lukewarm melted butter, beaten eggs and sour cream together until smooth.\n3. **Add corn:** Stir in all the cream-style corn and drained whole-kernel corn. Fold in all the listed optional green chiles if using them.\n4. **Fold:** Sprinkle all the muffin mix over the wet mixture and fold just until combined.\n5. **Fill:** Divide all the batter among the prepared dishes. If using the optional cheddar, divide its full listed amount over their tops.\n6. **Bake and rest:** Bake for about 35–45 minutes, beginning checks at 35 minutes, until the center is set, the edges are golden and the casserole center reaches 165°F in each dish. A deeper load can need longer; tent a browning top if its center is not ready. Rest for 5 minutes before serving the listed planning portions.\n"
+  },
+  "findings": [
+    {
+      "id": "SBS07-1",
+      "rationale": "Preserve the complete current full-can14.75ozcream-style/15.25ozwhole-kernel-drained formula,8.5ozmix/full8ozsourcream/half cupbutter/twoeggs and optional half-cupcheddar/four-ozchiles. Exact Glenna native/b7/045 uses8ozofeachcorn and unspecified box/pan; d65 bulk enlarged cans and supplied currentpan/yield. No later explicit family decision establishes intent for that increase. Root authorizes proposing the internally coherent current route while holding the exact smaller source branch over unknown drained-weight convention/pan; manufacturer8.25/8.75oz375°F formula is a comparison, not validation. Never call the bulk change family preference or silently normalize to manufacturer. Current9×13/2quart cannot be assumed equal capacities; divide full batter before overfilling and check each center. Method-only grease becomes separate allowance, optional additions retain full listed amounts. Source-specific folded batter and lukewarm butter, FoodSafety.gov165 casserole center,35–45firstchecks+five-minute rest; no exact tested load/yield. Omit unsupported geographic origin and unsupported nutrition; retain Southern style/Glenna credit.",
+      "confidence": "High exact source/current quantities and history; moderate editorial pan, planning clock and primary safety category application",
+      "applicableSources": [
+        {
+          "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Actual current chart specifies meat AND meatless casseroles165°F, ground meat/sausage160°F and poultry165°F. Corn/noodle/ham and egg-sausage pan applications editorial; small quinoa-egg bites use FDA egg-dish160°F, square-pan casserole option165°F. No risk-elimination promise."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual primary read: wash produce, refrigerated perishables and prompt cooling, egg-dish160°F and leftover165°F. Does not establish formula, pan capacity or recipe clocks."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Current direct main-page fetch403; official indexed guidance previously verified for shallow promptly chilled3–4days/165°F. Handling only, not tasted or recipe-specific shelf life."
+        },
+        {
+          "title": "JIFFY — Spoon Bread Casserole",
+          "url": "https://www.jiffymix.com/recipe/spoon-bread-casserole/",
+          "scope": "Actual manufacturer comparison only: its8.25/8.75oz cans,375°F and2quart are different from current larger14.75/15.25oz corn/350°F and saved8/8oz. Does not settle Glenna formula or certify current capacity; no external recipe substitution."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Which complete family formula is intended: exact smaller8/8oz source versus current larger full cans? Neither automatic source prestige nor bulk change decides it.",
+        "For the held smaller native branch, does8ozwholecorn mean can contents before draining or actual drained weight, and which dish/depth was used?",
+        "Actual current dish capacity and filling depth need a kitchen check; a2quart vessel may require an additional dish.",
+        "Eight listed portions are planning, not measured finished yield or exact nutrition."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Corn%20Casserole.html",
+    "introductionScope": "Earlier actual HTML cooking introduction; exact native/source ingredients and complete method read",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "scope": "Formula, method, metadata and source history",
+      "discussion": "Preserve the complete current full-can14.75ozcream-style/15.25ozwhole-kernel-drained formula,8.5ozmix/full8ozsourcream/half cupbutter/twoeggs and optional half-cupcheddar/four-ozchiles. Exact Glenna native/b7/045 uses8ozofeachcorn and unspecified box/pan; d65 bulk enlarged cans and supplied currentpan/yield. No later explicit family decision establishes intent for that increase. Root authorizes proposing the internally coherent current route while holding the exact smaller source branch over unknown drained-weight convention/pan; manufacturer8.25/8.75oz375°F formula is a comparison, not validation. Never call the bulk change family preference or silently normalize to manufacturer. Current9×13/2quart cannot be assumed equal capacities; divide full batter before overfilling and check each center. Method-only grease becomes separate allowance, optional additions retain full listed amounts. Source-specific folded batter and lukewarm butter, FoodSafety.gov165 casserole center,35–45firstchecks+five-minute rest; no exact tested load/yield. Omit unsupported geographic origin and unsupported nutrition; retain Southern style/Glenna credit.",
+      "remainingQuestions": [
+        "Which complete family formula is intended: exact smaller8/8oz source versus current larger full cans? Neither automatic source prestige nor bulk change decides it.",
+        "For the held smaller native branch, does8ozwholecorn mean can contents before draining or actual drained weight, and which dish/depth was used?",
+        "Actual current dish capacity and filling depth need a kitchen check; a2quart vessel may require an additional dish.",
+        "Eight listed portions are planning, not measured finished yield or exact nutrition."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "actualMethodDestination": "step4 folded muffin mix"
+      },
+      {
+        "text": "1 can (14.75 oz) Cream-Style Corn",
+        "actualMethodDestination": "step3 full cream-style corn"
+      },
+      {
+        "text": "1 can (15.25 oz) Whole Kernel Corn, drained",
+        "actualMethodDestination": "step3 drained whole-kernel corn"
+      },
+      {
+        "text": "8 oz Sour Cream",
+        "actualMethodDestination": "step2 sour cream wet mixture"
+      },
+      {
+        "text": "1/2 cup (1 stick) Unsalted Butter, melted",
+        "actualMethodDestination": "step2 full melted butter; separate unspecified grease step1"
+      },
+      {
+        "text": "2 large Eggs, well beaten",
+        "actualMethodDestination": "step2 beaten eggs"
+      },
+      {
+        "text": "1/2 cup Sharp Cheddar, shredded",
+        "actualMethodDestination": "step5 optional full cheese top"
+      },
+      {
+        "text": "1 can (4 oz) Diced Green Chiles",
+        "actualMethodDestination": "step3 optional full chiles"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "actualMethodDestination": "step4 folded muffin mix"
+      },
+      {
+        "text": "1 can (14.75 oz) Cream-Style Corn",
+        "actualMethodDestination": "step3 full cream-style corn"
+      },
+      {
+        "text": "1 can (15.25 oz) Whole Kernel Corn, drained",
+        "actualMethodDestination": "step3 drained whole-kernel corn"
+      },
+      {
+        "text": "8 oz Sour Cream",
+        "actualMethodDestination": "step2 sour cream wet mixture"
+      },
+      {
+        "text": "1/2 cup (1 stick) Unsalted Butter, melted",
+        "actualMethodDestination": "step2 full melted butter; separate unspecified grease step1"
+      },
+      {
+        "text": "2 large Eggs, well beaten",
+        "actualMethodDestination": "step2 beaten eggs"
+      },
+      {
+        "text": "1/2 cup Sharp Cheddar, shredded (optional)",
+        "actualMethodDestination": "step5 optional full cheese top"
+      },
+      {
+        "text": "1 can (4 oz) Diced Green Chiles (optional)",
+        "actualMethodDestination": "step3 optional full chiles"
+      },
+      {
+        "text": "Butter, as needed for greasing the dish",
+        "actualMethodDestination": "step1 separate pan-greasing allowance; no batter-butter loss"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "1/4 lb butter, melted (1 stick)",
+        "2 eggs, well beaten",
+        "8 oz sour cream",
+        "8 oz cream corn",
+        "8 oz whole corn, drained",
+        "1 box Jiffy Corn Bread Mix"
+      ],
+      "directions": "Mix all ingredients together.\n\nPut in casserole dish.\n\nBake at 350 degrees for 30-45 minutes.",
+      "reference": "privately retained evidence",
+      "scope": "Exact private existing registry binding to durable original450. Source rows are not the frozen current ledger."
+    },
+    "frozenMethodOnly": ["Pan grease step1, absent from frozen ingredient list"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the oven to 350°F. Grease a 9×13-inch oven-safe dish for the original full-can batch with the separate butter allowance. Check its actual depth and leave headroom. A 2-quart dish is another current option only when its actual load leaves adequate headroom; divide excess batter among additional greased dishes rather than assuming it all fits. Scaling uses separate dishes or an appropriate smaller dish, with similar batter depth."
+    },
+    {
+      "step": 2,
+      "text": "Wet mixture: Whisk all the lukewarm melted butter, beaten eggs and sour cream together until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add corn: Stir in all the cream-style corn and drained whole-kernel corn. Fold in all the listed optional green chiles if using them."
+    },
+    {
+      "step": 4,
+      "text": "Fold: Sprinkle all the muffin mix over the wet mixture and fold just until combined."
+    },
+    {
+      "step": 5,
+      "text": "Fill: Divide all the batter among the prepared dishes. If using the optional cheddar, divide its full listed amount over their tops."
+    },
+    {
+      "step": 6,
+      "text": "Bake and rest: Bake for about 35–45 minutes, beginning checks at 35 minutes, until the center is set, the edges are golden and the casserole center reaches 165°F in each dish. A deeper load can need longer; tent a browning top if its center is not ready. Rest for 5 minutes before serving the listed planning portions."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cheddar and chiles",
+      "alternative": "Use either, both or neither of the listed optional additions. All green chiles used go into the corn mixture; all cheddar used goes over the batter before baking. Do not take either from an unlisted extra supply.",
+      "effect": "Keeps the current additions optional while accounting for their full quantities.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    },
+    {
+      "ingredient": "Exact smaller Glenna source formula",
+      "status": "held",
+      "ingredients": "1/4 lb butter, melted (1 stick)\n2 eggs, well beaten\n8 oz sour cream\n8 oz cream corn\n8 oz whole corn, drained\n1 box Jiffy Corn Bread Mix",
+      "directions": "Mix all ingredients together.\n\nPut in casserole dish.\n\nBake at 350 degrees for 30-45 minutes.",
+      "reference": "privately retained evidence",
+      "unresolved": "Eight-ounce whole-corn drained-weight convention and original pan/depth are not established. Not a proposed substitute for current full cans; root choice pending."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "quick-and-easy-drop-biscuits",
+      "tomato-cobbler-with-cornmeal-cheddar-biscuits",
+      "pulled-pork"
+    ],
+    "incomingMeals": [],
+    "scope": "Current metadata pairings contain no measured component amount or incoming meal dependency. They do not add ingredients or confer linked-source complete-review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Preserve the complete current full-can14.75ozcream-style/15.25ozwhole-kernel-drained formula,8.5ozmix/full8ozsourcream/half cupbutter/twoeggs and optional half-cupcheddar/four-ozchiles. Exact Glenna native/b7/045 uses8ozofeachcorn and unspecified box/pan; d65 bulk enlarged cans and supplied currentpan/yield. No later explicit family decision establishes intent for that increase. Root authorizes proposing the internally coherent current route while holding the exact smaller source branch over unknown drained-weight convention/pan; manufacturer8.25/8.75oz375°F formula is a comparison, not validation. Never call the bulk change family preference or silently normalize to manufacturer. Current9×13/2quart cannot be assumed equal capacities; divide full batter before overfilling and check each center. Method-only grease becomes separate allowance, optional additions retain full listed amounts. Source-specific folded batter and lukewarm butter, FoodSafety.gov165 casserole center,35–45firstchecks+five-minute rest; no exact tested load/yield. Omit unsupported geographic origin and unsupported nutrition; retain Southern style/Glenna credit.",
+    "yield": "8",
+    "yieldScope": "Current original-batch planning count remains; no measured finished weight/yield or tested capacity.",
+    "capacity": "Current original9×13;2quart option conditional on actual headroom, split excess before baking. No equivalence certified.",
+    "timing": "The original current batch takes about 10 minutes to mix, about 35–45 minutes or longer to bake, and 5 minutes to rest: about 50–60 minutes or longer. Dish depth and additional loads determine elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 1/8 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1/4 can (14.75 oz) Cream-Style Corn",
+        "1/4 can (15.25 oz) Whole Kernel Corn, drained",
+        "2 oz Sour Cream",
+        "1/8 cup (1/4 stick) Unsalted Butter, melted",
+        "1/2 large Egg, well beaten",
+        "1/8 cup Sharp Cheddar, shredded (optional)",
+        "1/4 can (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/4 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1/2 can (14.75 oz) Cream-Style Corn",
+        "1/2 can (15.25 oz) Whole Kernel Corn, drained",
+        "4 oz Sour Cream",
+        "1/4 cup (1/2 stick) Unsalted Butter, melted",
+        "1 large Egg, well beaten",
+        "1/4 cup Sharp Cheddar, shredded (optional)",
+        "1/2 can (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1 can (14.75 oz) Cream-Style Corn",
+        "1 can (15.25 oz) Whole Kernel Corn, drained",
+        "8 oz Sour Cream",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "2 large Eggs, well beaten",
+        "1/2 cup Sharp Cheddar, shredded (optional)",
+        "1 can (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 3/4 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1 1/2 cans (14.75 oz) Cream-Style Corn",
+        "1 1/2 cans (15.25 oz) Whole Kernel Corn, drained",
+        "12 oz Sour Cream",
+        "3/4 cup (1 1/2 sticks) Unsalted Butter, melted",
+        "3 large Eggs, well beaten",
+        "3/4 cup Sharp Cheddar, shredded (optional)",
+        "1 1/2 cans (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "17 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "2 cans (14.75 oz) Cream-Style Corn",
+        "2 cans (15.25 oz) Whole Kernel Corn, drained",
+        "16 oz Sour Cream",
+        "1 cup (2 sticks) Unsalted Butter, melted",
+        "4 large Eggs, well beaten",
+        "1 cup Sharp Cheddar, shredded (optional)",
+        "2 cans (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "25 1/2 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "3 cans (14.75 oz) Cream-Style Corn",
+        "3 cans (15.25 oz) Whole Kernel Corn, drained",
+        "24 oz Sour Cream",
+        "1 1/2 cups (3 sticks) Unsalted Butter, melted",
+        "6 large Eggs, well beaten",
+        "1 1/2 cups Sharp Cheddar, shredded (optional)",
+        "3 cans (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening",
+        "1 can (14.75 oz) Cream-Style Corn",
+        "1 can (15.25 oz) Whole Kernel Corn, drained",
+        "8 oz Sour Cream",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "2 large Eggs, well beaten",
+        "1/2 cup Sharp Cheddar, shredded (optional)",
+        "1 can (4 oz) Diced Green Chiles (optional)",
+        "Butter, as needed for greasing the dish"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Whole followed source and current formula retained; targeted prior work is not whole-review credit.",
+  "remainingQuestions": [
+    "Which complete family formula is intended: exact smaller8/8oz source versus current larger full cans? Neither automatic source prestige nor bulk change decides it.",
+    "For the held smaller native branch, does8ozwholecorn mean can contents before draining or actual drained weight, and which dish/depth was used?",
+    "Actual current dish capacity and filling depth need a kitchen check; a2quart vessel may require an additional dish.",
+    "Eight listed portions are planning, not measured finished yield or exact nutrition."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

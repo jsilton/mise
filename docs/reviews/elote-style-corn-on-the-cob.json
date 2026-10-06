@@ -1,0 +1,882 @@
+{
+  "slug": "elote-style-corn-on-the-cob",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "4e8ce35fa8d29946f218cc0e831f8f469068466ed2c48f17926920a0eedc6940",
+  "acceptedSourceSha256": "bba824fe56a1beb3cd03dd5c4386c5b528d13834efdd3db97827671dddc6d80a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 20–30 min, plus any extra grill or broiler batches"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 ears Fresh Corn on the cob",
+        "3 tbsp Mexican Crema (or sour cream thinned with 1 tbsp milk)",
+        "1/2 cup Queso Fresco, crumbled",
+        "2 tbsp Fresh Cilantro, chopped",
+        "1 Lime, cut into wedges",
+        "1/2 tsp Chili Powder (or chile-lime seasoning)",
+        "Kosher Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Corn ---",
+        "4 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "3 tbsp Mexican crema or sour cream",
+        "1 tbsp milk, only for the sour-cream alternative, optional",
+        "1/4 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1/2 cup queso fresco, crumbled",
+        "2 tbsp fresh cilantro, washed, dried and chopped",
+        "1/2 tsp chili powder or chile-lime seasoning",
+        "1 lime, washed and cut into wedges"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 90,
+        "protein": 3.5,
+        "carbs": 20.5,
+        "fat": 1,
+        "fiber": 3,
+        "sugar": 4,
+        "sodium": 30
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coat warm, tender corn and keep sauce choices separate",
+        "outcome": "Tender char-marked corn carrying the full creamy cheese-and-cilantro topping.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use enough pans or batches to keep the stated single layer. Divide the full listed ingredients among vessels; temperatures and piece thickness stay the same when scaling, while extra loads add time.",
+          "Use either crema alone or the listed sour cream plus its optional milk. Keep the dairy coating cold while cooking.",
+          "Wash and dry cilantro and lime before chopping or cutting. Keep toppings away from raw-meat utensils if grilling a linked meal."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Kernels are tender with lightly browned spots.",
+            "why": "Char alone does not establish tenderness; actual grill or broiler heat varies."
+          },
+          {
+            "step": 3,
+            "cue": "All ears receive coating, cheese, cilantro and the full measured chile supply.",
+            "why": "Divide the whole topping batch rather than using one pinch and losing the remainder."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Corn browns before the kernels are tender",
+            "cause": "The heat source colors the surface before the kernels cook through.",
+            "fix": "Turn the ears and move them away from the strongest heat, or lower the heat. Continue until a kernel is tender, checking frequently."
+          }
+        ],
+        "timing": "About 10 minutes preparation and 8–15 minutes or longer cooking after appliance heating: allow 20–30 minutes for the original four ears, plus extra batches. Toppings mix during cooking.",
+        "substitutions": [
+          {
+            "ingredient": "Crema",
+            "alternative": "Use the same listed amount of sour cream plus all the separate optional milk; omit that milk when using crema.",
+            "effect": "Retains the exact current sour-cream branch without adding milk to both choices."
+          },
+          {
+            "ingredient": "Chile",
+            "alternative": "Use the listed chile-lime seasoning instead of chili powder, not both.",
+            "effect": "Flavor and salt vary by brand; the main sauce’s measured kosher salt remains distinct."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat portions to 165°F / 74°C. Texture softens during storage.",
+        "sources": [
+          {
+            "title": "Weber — Grilling vegetables and Mexican-style corn",
+            "url": "https://www.weber.com/US/en/blog/tips-techniques/top-tips-for-grilling-vegetables/weber-48939.html"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "corn",
+            "name": "Corn",
+            "ingredients": [
+              {
+                "id": "corn",
+                "key": "corn",
+                "name": "ear of fresh corn",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ],
+                "plural": "ears of fresh corn",
+                "preparation": "husked and silk removed"
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Cream coating",
+            "ingredients": [
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "Mexican crema or sour cream",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "milk",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "only for the sour-cream alternative"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "a pinch, to taste",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Topping and wedges",
+            "ingredients": [
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "queso fresco",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ],
+                "preparation": "crumbled"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed, dried and chopped"
+              },
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "chili powder or chile-lime seasoning",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "lime",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "plural": "limes",
+                "preparation": "washed and cut into wedges"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "cook",
+            "title": "Cook the corn",
+            "text": "Pat {{ingredients}} dry after husking. Preheat the actual grill or broiler according to its instructions. For the broiler route, arrange ears in one layer on a foil-lined broiler-safe sheet, about 4–6 inches from the heat if the appliance permits, then broil, turning every 2–3 minutes. For the grill route, put ears directly on clean hot grates and turn every 2–3 minutes. Start checking around 8–10 minutes: kernels should be tender with browned spots. Continue or move away from intense heat if color develops before tenderness; more ears need uncrowded batches."
+          },
+          {
+            "id": "sauce",
+            "title": "Mix the coating",
+            "text": "Mix {{ingredients}} in a clean bowl: use either the listed crema alone, or the same listed sour-cream amount with all the optional milk. Add all the measured salt and the pepper allowance. Refrigerate this coating while the corn cooks."
+          },
+          {
+            "id": "top",
+            "title": "Coat and top",
+            "text": "Let the cooked ears cool just enough to handle with tongs or corn holders. Brush all the coating across the ears over a shallow dish to catch drips. Distribute the full listed amounts of {{ingredients}} over the cooked ears, turning to coat the sides. The cheese and coating remain separate from raw-food-contact utensils."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve warm with {{ingredients}} wedges for diners to squeeze as desired. Keep any unused coating and topped leftovers refrigerated promptly."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nElote (Mexican street corn) is simplicity perfected: charred corn, creamy sauce, crumbly cheese, and bright cilantro. The magic happens when you char the corn first to caramelize the kernels - this takes just 8-10 minutes under the broiler or on a hot grill. Don't skip the crema base; it acts as a glue so the cheese and cilantro stick instead of sliding off. Queso fresco is essential - substituting Parmesan changes the entire dish.\n\n## Directions\n\n1. **Prep Corn:** Remove husks and silk. Pat corn dry with a paper towel.\n2. **Char:** Option A (Broiler - easier for families): Place corn on a foil-lined baking sheet. Broil 4-6 inches from the heat for 8-10 minutes, turning every 2-3 minutes, until the kernels are lightly charred in spots. Option B (Grill): Place directly on a hot grill grates and turn every 2-3 minutes for 8-10 minutes.\n3. **Make Sauce:** Whisk together crema, 1/4 tsp salt, and a pinch of black pepper in a small bowl.\n4. **Assemble:** Carefully remove corn from heat. Hold corn vertical over a shallow bowl or plate. Use a brush or spoon to coat the entire corn with a thin layer of crema.\n5. **Top:** Roll in (or sprinkle with) crumbled queso fresco, coating all sides. Sprinkle with fresh cilantro and a pinch of chili powder or chile-lime seasoning.\n6. **Finish:** Serve with lime wedges to squeeze over. Eat immediately while warm.\n",
+    "after": "\n## Chef's Note\n\nThis elote-style version uses crema, queso fresco, cilantro and chile seasoning. Coat the cooked ears while warm so the cheese adheres. Check for tender kernels as well as charred spots; the heat source and ear size determine the actual time.\n\n## Directions\n\n1. **Cook the corn:** Pat ears of fresh corn dry after husking. Preheat the actual grill or broiler according to its instructions. For the broiler route, arrange ears in one layer on a foil-lined broiler-safe sheet, about 4–6 inches from the heat if the appliance permits, then broil, turning every 2–3 minutes. For the grill route, put ears directly on clean hot grates and turn every 2–3 minutes. Start checking around 8–10 minutes: kernels should be tender with browned spots. Continue or move away from intense heat if color develops before tenderness; more ears need uncrowded batches.\n2. **Mix the coating:** Mix Mexican crema or sour cream, milk (if using), kosher salt, and black pepper in a clean bowl: use either the listed crema alone, or the same listed sour-cream amount with all the optional milk. Add all the measured salt and the pepper allowance. Refrigerate this coating while the corn cooks.\n3. **Coat and top:** Let the cooked ears cool just enough to handle with tongs or corn holders. Brush all the coating across the ears over a shallow dish to catch drips. Distribute the full listed amounts of queso fresco, fresh cilantro, and chili powder or chile-lime seasoning over the cooked ears, turning to coat the sides. The cheese and coating remain separate from raw-food-contact utensils.\n4. **Serve:** Serve warm with lime wedges for diners to squeeze as desired. Keep any unused coating and topped leftovers refrigerated promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "GCV06-3",
+      "rationale": "Exact earliest 2 a 7 Git-only source supplies full 4 ears/3 tbsp crema/½ cup queso/2 tbsp cilantro/lime/½ tsp chile; no independent native recipe established. Current sour-cream option’s 1 tbsp milk is made a separate genuine optional measured component, not hidden in a non-scaling parenthetical. Existing method¼ tsp kosher salt becomes measured and scales; pinches of pepper are allowance, all measured chile allocated across corn rather than an unexplained leftover. Both grill/broiler routes preserved with appliance/pan constraints and tender-kernel cue. Cultural elote-style context kept without declaring one cheese universally essential. No formula imported from Weber’s different mayo/cotija recipe; no nutrition precision.",
+      "confidence": "High exact source quantities/allocations and protected current routes; moderate untested clocks/pan and handling applications",
+      "applicableSources": [
+        {
+          "title": "Weber — Grilling vegetables and Mexican-style corn",
+          "url": "https://www.weber.com/US/en/blog/tips-techniques/top-tips-for-grilling-vegetables/weber-48939.html",
+          "scope": "Manufacturer supports direct-medium grilled corn until tender/brown spots with10–15min as variable guide. Different mayo/cotija formula does not validate or replace current3tbsp crema/queso fresco; no actual appliance model identified."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce under running water,keep perishables40°F,2h/1h above90°F prompt cooling and leftover165. Not first-cook plant tenderness/yield or source formula evidence."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Shallow-container prompt refrigeration,3–4day cooked leftovers and reheat165 only. Actual direct fetch unavailable; official indexed page and official FSIS Q&A reproduced claims. No preserved-food claim."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Does actual broiler permit the 4–6-inch placement and foil-lined sheet? Follow that appliance’s safe distances/material limits.",
+        "Ear sizes and direct grill/broiler output determine cooking time and batch count.",
+        "Source/title recipe is Git-only; no historic authenticity or publisher formula endorsement claimed.",
+        "Chile-lime seasoning brands differ in salt; current¼ tsp main remains, avoid automatic additional salt."
+      ]
+    },
+    {
+      "id": "GCV06-I01",
+      "rationale": "The Glazed country was added in bulk2a7 metadata; Honey/Elote/Plantains carry origin labels from their Git-created sources. Exact native/HTML carrots and the retained publishers do not establish these geographic birthplaces. Caribbean is a region, not the single-country field. Author confirmed no retained contrary origin evidence. Omit the fields rather than invent replacements; keep American, Mexican and Caribbean cuisines, titles, elote/Maduros context, attribution and every cooking choice.",
+      "confidence": "High evidence limitation; no alternate birthplace inferred",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "2a7 addition of United States; exact earlier native/b7/045 lacks origin."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "fd4 Git-created country declaration without publisher/history evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "2a7 Git-created adaptation; Weber supports a Mexican-style cooking mechanism, not its geographic introduction."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "1fae region label; SeriousEats is a different formula with Colombian/Puerto Rican context, not independent evidence of this formula’s birthplace."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I04",
+      "rationale": "Compiled prose currently says “all of queso fresco”, “all of lime”, “all of ripe tomato” and joins mint,cilantro. Correct their authored templates/name, preserving all chile/cheese/herb/lime/tomato amounts and consuming steps; regenerate the three compatible views together. These are readable instructions, not a change to allocations.",
+      "confidence": "High",
+      "applicableSources": [
+        {
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Authored formula/name is the source; generated views may not be independently edited."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Full topping and lime destinations remain unchanged."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "All prepared tomatoes still enter sauce before roasted vegetables."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I05",
+      "rationale": "Remove the public test/shelf-life disclaimer and correct joined Celsius spacing. Keep the practical texture note, shallow prompt refrigeration,2h/1h/40F/3–4days/165F quantities verbatim in meaning. Corn Salad keeps its warm OR cold choice and qualifies165F only for warm leftover service. Private records retain general-guidance scope, source availability and zero kitchen testing.",
+      "confidence": "High exact wording/safety scope;3–4days is reused general guidance, not recipe-specific measured shelf life",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Directly read: produce rinsing, separation from raw animal foods, prompt refrigeration within2h/1h above90F,40F refrigeration, shallow containers and165F leftover endpoint. Does not certify first-cook vegetable tenderness, formulas, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Reuse established official3–4day cooked-leftover and165F guidance. Direct fetch in this challenge returned403; author discloses official indexed/Q&A evidence. No new claim of complete page acquisition."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-CORN-KERNEL-CLARITY",
+      "title": "Check tender kernels before the corn surface burns",
+      "rationale": "Name the edible corn kernels and existing heat/readiness cues; the cob center is not the cooking target.",
+      "confidence": "High for existing method and manufacturer cue; no kitchen test.",
+      "applicableSources": [
+        {
+          "url": "https://www.weber.com/US/en/blog/tips-techniques/top-tips-for-grilling-vegetables/weber-48939.html",
+          "scope": "Corn kernels tender; general heat management only, no formula/appliance certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/elote-style-corn-on-the-cob.md",
+    "introductionScope": "Actual first available source introduction; no original450 match and no earlier matching cooking source established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact earliest 2 a 7 Git-only source supplies full 4 ears/3 tbsp crema/½ cup queso/2 tbsp cilantro/lime/½ tsp chile; no independent native recipe established. Current sour-cream option’s 1 tbsp milk is made a separate genuine optional measured component, not hidden in a non-scaling parenthetical. Existing method¼ tsp kosher salt becomes measured and scales; pinches of pepper are allowance, all measured chile allocated across corn rather than an unexplained leftover. Both grill/broiler routes preserved with appliance/pan constraints and tender-kernel cue. Cultural elote-style context kept without declaring one cheese universally essential. No formula imported from Weber’s different mayo/cotija recipe; no nutrition precision.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "4 ears Fresh Corn on the cob",
+        "actualMethodDestination": "Husk1/heat2/coat4/top5"
+      },
+      {
+        "text": "3 tbsp Mexican Crema (or sour cream thinned with 1 tbsp milk)",
+        "actualMethodDestination": "All coating3–4; parenthetical sour-cream milk has no separate listed supply"
+      },
+      {
+        "text": "1/2 cup Queso Fresco, crumbled",
+        "actualMethodDestination": "All top5"
+      },
+      {
+        "text": "2 tbsp Fresh Cilantro, chopped",
+        "actualMethodDestination": "All top5"
+      },
+      {
+        "text": "1 Lime, cut into wedges",
+        "actualMethodDestination": "Wedges6"
+      },
+      {
+        "text": "1/2 tsp Chili Powder (or chile-lime seasoning)",
+        "actualMethodDestination": "Only a pinch top5 despite listed half teaspoon"
+      },
+      {
+        "text": "Kosher Salt and Black Pepper",
+        "actualMethodDestination": "Method3 specifies quarter-tsp salt and pepper pinch, quantities unlisted"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "4 ears of fresh corn, husked and silk removed",
+        "id": "corn.corn",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "cook",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "cook share 1",
+        "preparation": "husked and silk removed"
+      },
+      {
+        "text": "3 tbsp Mexican crema or sour cream",
+        "id": "sauce.cream",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "sauce share 1",
+        "preparation": null
+      },
+      {
+        "text": "1 tbsp milk, only for the sour-cream alternative, optional",
+        "id": "sauce.milk",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "sauce share 1",
+        "preparation": "only for the sour-cream alternative"
+      },
+      {
+        "text": "1/4 tsp kosher salt",
+        "id": "sauce.salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "sauce share 1",
+        "preparation": null
+      },
+      {
+        "text": "black pepper, a pinch, to taste",
+        "id": "sauce.pepper",
+        "quantity": null,
+        "allowance": "a pinch, to taste",
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "sauce share 1",
+        "preparation": null
+      },
+      {
+        "text": "1/2 cup queso fresco, crumbled",
+        "id": "topping.cheese",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "top",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "top share 1",
+        "preparation": "crumbled"
+      },
+      {
+        "text": "2 tbsp fresh cilantro, washed, dried and chopped",
+        "id": "topping.cilantro",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "top",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "top share 1",
+        "preparation": "washed, dried and chopped"
+      },
+      {
+        "text": "1/2 tsp chili powder or chile-lime seasoning",
+        "id": "topping.chili",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "top",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "top share 1",
+        "preparation": null
+      },
+      {
+        "text": "1 lime, washed and cut into wedges",
+        "id": "topping.lime",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "serve share 1",
+        "preparation": "washed and cut into wedges"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "4 ears Fresh Corn on the cob",
+        "3 tbsp Mexican Crema (or sour cream thinned with 1 tbsp milk)",
+        "1/2 cup Queso Fresco, crumbled",
+        "2 tbsp Fresh Cilantro, chopped",
+        "1 Lime, cut into wedges",
+        "1/2 tsp Chili Powder (or Tajín seasoning)",
+        "Kosher Salt and Black Pepper"
+      ],
+      "directions": "\n## Chef's Note\n\nElote (Mexican street corn) is simplicity perfected: charred corn, creamy sauce, crumbly cheese, and bright cilantro. The magic happens when you char the corn first to caramelize the kernels—this takes just 8-10 minutes under the broiler or on a hot grill. Don't skip the crema base; it acts as a glue so the cheese and cilantro stick instead of sliding off. Queso fresco is essential—substituting Parmesan changes the entire dish.\n\n## Directions\n\n1. **Prep Corn:** Remove husks and silk. Pat corn dry with a paper towel.\n2. **Char:** Option A (Broiler - easier for families): Place corn on a foil-lined baking sheet. Broil 4-6 inches from the heat for 8-10 minutes, turning every 2-3 minutes, until the kernels are lightly charred in spots. Option B (Grill): Place directly on a hot grill grates and turn every 2-3 minutes for 8-10 minutes.\n3. **Make Sauce:** Whisk together crema, 1/4 tsp salt, and a pinch of black pepper in a small bowl.\n4. **Assemble:** Carefully remove corn from heat. Hold corn vertical over a shallow bowl or plate. Use a brush or spoon to coat the entire corn with a thin layer of crema.\n5. **Top:** Roll in (or sprinkle with) crumbled queso fresco, coating all sides. Sprinkle with fresh cilantro and a pinch of chili powder or Tajín.\n6. **Finish:** Serve with lime wedges to squeeze over. Eat immediately while warm.\n",
+      "reference": "privately retained evidence",
+      "scope": "Exact first verified Git source only; no independent native match or publisher formula lineage established."
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Cook the corn: Pat ears of fresh corn dry after husking. Preheat the actual grill or broiler according to its instructions. For the broiler route, arrange ears in one layer on a foil-lined broiler-safe sheet, about 4–6 inches from the heat if the appliance permits, then broil, turning every 2–3 minutes. For the grill route, put ears directly on clean hot grates and turn every 2–3 minutes. Start checking around 8–10 minutes: kernels should be tender with browned spots. Continue or move away from intense heat if color develops before tenderness; more ears need uncrowded batches."
+    },
+    {
+      "step": 2,
+      "text": "Mix the coating: Mix Mexican crema or sour cream, milk (if using), kosher salt, and black pepper in a clean bowl: use either the listed crema alone, or the same listed sour-cream amount with all the optional milk. Add all the measured salt and the pepper allowance. Refrigerate this coating while the corn cooks."
+    },
+    {
+      "step": 3,
+      "text": "Coat and top: Let the cooked ears cool just enough to handle with tongs or corn holders. Brush all the coating across the ears over a shallow dish to catch drips. Distribute the full listed amounts of queso fresco, fresh cilantro, and chili powder or chile-lime seasoning over the cooked ears, turning to coat the sides. The cheese and coating remain separate from raw-food-contact utensils."
+    },
+    {
+      "step": 4,
+      "text": "Serve: Serve warm with lime wedges for diners to squeeze as desired. Keep any unused coating and topped leftovers refrigerated promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Crema",
+      "alternative": "Use the same listed amount of sour cream plus all the separate optional milk; omit that milk when using crema.",
+      "effect": "Retains the exact current sour-cream branch without adding milk to both choices.",
+      "scope": "Complete separate option; primary amounts apply unless this text expressly substitutes/omits them.",
+      "reference": "exactChanges.learning.after.substitutions"
+    },
+    {
+      "ingredient": "Chile",
+      "alternative": "Use the listed chile-lime seasoning instead of chili powder, not both.",
+      "effect": "Flavor and salt vary by brand; the main sauce’s measured kosher salt remains distinct.",
+      "scope": "Complete separate option; primary amounts apply unless this text expressly substitutes/omits them.",
+      "reference": "exactChanges.learning.after.substitutions"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["chicken-tinga", "black-bean-tacos-with-lime-crema", "build-your-own-taco-bar"],
+    "incomingMeals": ["bbq-pulled-pork-spread"],
+    "scope": "Spread plans six diners while component lists four ears; select and scale explicitly, no automatic serving equivalence. Its400°F cornbread bake cannot run concurrently with the same oven broiler. Grill separately or broil after baking. Whole pork component is separately cooked/thawed/reheated165, not a raw-food-contact utensil source for corn coating. Child mild-serving choice remains a separate household service choice, not lower primary chile quantity. Taco metadata links use independent fillings/crema; no component substitution.",
+    "linkedReadScope": "Whole ingredient/method and meal schedules inspected for actual component versus optional pairing; no linked source whole-review status granted."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Exact earliest 2 a 7 Git-only source supplies full 4 ears/3 tbsp crema/½ cup queso/2 tbsp cilantro/lime/½ tsp chile; no independent native recipe established. Current sour-cream option’s 1 tbsp milk is made a separate genuine optional measured component, not hidden in a non-scaling parenthetical. Existing method¼ tsp kosher salt becomes measured and scales; pinches of pepper are allowance, all measured chile allocated across corn rather than an unexplained leftover. Both grill/broiler routes preserved with appliance/pan constraints and tender-kernel cue. Cultural elote-style context kept without declaring one cheese universally essential. No formula imported from Weber’s different mayo/cotija recipe; no nutrition precision.",
+    "yield": "4 portions",
+    "scope": "Existing portion plan preserved; no measured finished yield or new mass equivalence. Corn-size counts remain exclusive choices and do not sum.",
+    "capacity": "Use enough pans or batches to keep the stated single layer. Divide the full listed ingredients among vessels; temperatures and piece thickness stay the same when scaling, while extra loads add time.",
+    "timing": "About 10 minutes preparation and 8–15 minutes or longer cooking after appliance heating: allow 20–30 minutes for the original four ears, plus extra batches. Toppings mix during cooking."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Corn ---",
+        "1 ear of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "3/4 tbsp Mexican crema or sour cream",
+        "1/4 tbsp milk, only for the sour-cream alternative, optional",
+        "0.0625 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1/8 cup queso fresco, crumbled",
+        "1/2 tbsp fresh cilantro, washed, dried and chopped",
+        "1/8 tsp chili powder or chile-lime seasoning",
+        "1/4 lime, washed and cut into wedges"
+      ],
+      "yield": "1 portion",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Corn ---",
+        "2 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "1 1/2 tbsp Mexican crema or sour cream",
+        "1/2 tbsp milk, only for the sour-cream alternative, optional",
+        "1/8 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1/4 cup queso fresco, crumbled",
+        "1 tbsp fresh cilantro, washed, dried and chopped",
+        "1/4 tsp chili powder or chile-lime seasoning",
+        "1/2 lime, washed and cut into wedges"
+      ],
+      "yield": "2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Corn ---",
+        "4 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "3 tbsp Mexican crema or sour cream",
+        "1 tbsp milk, only for the sour-cream alternative, optional",
+        "1/4 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1/2 cup queso fresco, crumbled",
+        "2 tbsp fresh cilantro, washed, dried and chopped",
+        "1/2 tsp chili powder or chile-lime seasoning",
+        "1 lime, washed and cut into wedges"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Corn ---",
+        "6 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "4 1/2 tbsp Mexican crema or sour cream",
+        "1 1/2 tbsp milk, only for the sour-cream alternative, optional",
+        "3/8 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "3/4 cup queso fresco, crumbled",
+        "3 tbsp fresh cilantro, washed, dried and chopped",
+        "3/4 tsp chili powder or chile-lime seasoning",
+        "1 1/2 limes, washed and cut into wedges"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Corn ---",
+        "8 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "6 tbsp Mexican crema or sour cream",
+        "2 tbsp milk, only for the sour-cream alternative, optional",
+        "1/2 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1 cup queso fresco, crumbled",
+        "4 tbsp fresh cilantro, washed, dried and chopped",
+        "1 tsp chili powder or chile-lime seasoning",
+        "2 limes, washed and cut into wedges"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Corn ---",
+        "12 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "9 tbsp Mexican crema or sour cream",
+        "3 tbsp milk, only for the sour-cream alternative, optional",
+        "3/4 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1 1/2 cups queso fresco, crumbled",
+        "6 tbsp fresh cilantro, washed, dried and chopped",
+        "1 1/2 tsp chili powder or chile-lime seasoning",
+        "3 limes, washed and cut into wedges"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Corn ---",
+        "4 ears of fresh corn, husked and silk removed",
+        "--- Cream coating ---",
+        "3 tbsp Mexican crema or sour cream",
+        "1 tbsp milk, only for the sour-cream alternative, optional",
+        "1/4 tsp kosher salt",
+        "black pepper, a pinch, to taste",
+        "--- Topping and wedges ---",
+        "1/2 cup queso fresco, crumbled",
+        "2 tbsp fresh cilantro, washed, dried and chopped",
+        "1/2 tsp chili powder or chile-lime seasoning",
+        "1 lime, washed and cut into wedges"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Whole followed histories reviewed; identities/title/rating/source/sourceURL/cuisines/pairings and existing scaling controls protected. No complete credit inherited from targeted records. All measured butter/sugar/honey/oil/cheese remain; restored source components and current separate routes are proposals, not accepted household choices.",
+  "remainingQuestions": [
+    "Does actual broiler permit the 4–6-inch placement and foil-lined sheet? Follow that appliance’s safe distances/material limits.",
+    "Ear sizes and direct grill/broiler output determine cooking time and batch count.",
+    "Source/title recipe is Git-only; no historic authenticity or publisher formula endorsement claimed.",
+    "Chile-lime seasoning brands differ in salt; current¼ tsp main remains, avoid automatic additional salt."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

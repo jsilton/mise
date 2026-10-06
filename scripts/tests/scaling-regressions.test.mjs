@@ -343,6 +343,55 @@ for (const row of confirmed) {
           if (factor === 1) assert.equal(scaled, formatFormulaIngredient(goat));
         }
         assert.ok(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'elote-style-corn-on-the-cob' && row.caseId === 29) {
+        // Retain the original compound parser input and every numeric oracle below.
+        // The live formula separates the full crema/sour-cream measure from
+        // the optional milk used only for the sour-cream route.
+        assert.equal(data.formula?.version, 1);
+        const sauce = data.formula.components.find((c) => c.id === 'sauce');
+        for (const [id, amount] of [
+          ['cream', 3],
+          ['milk', 1],
+        ]) {
+          const ingredient = sauce.ingredients.find((i) => i.id === id);
+          assert.deepEqual(ingredient.quantity, { amount, unit: 'tbsp' });
+          assert.deepEqual(ingredient.uses, [{ step: 'sauce', share: 1 }]);
+          if (id === 'milk') {
+            assert.equal(ingredient.optional, true);
+            assert.equal(ingredient.preparation, 'only for the sour-cream alternative');
+          } else assert.equal(ingredient.name, 'Mexican crema or sour cream');
+          assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
+          for (const factor of factors) {
+            const output = formatFormulaIngredient(ingredient, factor);
+            assert.equal(numeric(output.match(number)[0]), amount * factor);
+            if (factor === 1) assert.equal(output, formatFormulaIngredient(ingredient));
+          }
+        }
+        assert.ok(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'noodle-pudding' && row.caseId === 42) {
+        // Keep the original total/allocation parser input and numeric oracles below.
+        // The published eight-ounce butter total remains six in custard,
+        // two in the topping, now represented by explicit authored shares.
+        assert.equal(data.formula?.version, 1);
+        const butter = data.formula.components
+          .find((c) => c.id === 'custard')
+          .ingredients.find((i) => i.id === 'butter');
+        assert.deepEqual(butter.quantity, { amount: 8, unit: 'oz' });
+        assert.deepEqual(butter.uses, [
+          { step: 'custard', share: '3/4' },
+          { step: 'topping', share: '1/4' },
+        ]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(butter)));
+        for (const factor of factors) {
+          const output = formatFormulaIngredient(butter, factor);
+          assert.equal(numeric(output.match(number)[0]), 8 * factor);
+          assert.deepEqual(
+            butter.uses.map(({ share }) => numeric(share) * 8 * factor),
+            [6 * factor, 2 * factor]
+          );
+          if (factor === 1) assert.equal(output, formatFormulaIngredient(butter));
+        }
+        assert.ok(!data.ingredients.includes(component.input));
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

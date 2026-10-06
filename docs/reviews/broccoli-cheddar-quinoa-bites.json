@@ -1,0 +1,528 @@
+{
+  "slug": "broccoli-cheddar-quinoa-bites",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "e82009e59ee26e9f4e5315f39f646b097725a14e940250e7e40a5285b62b4ab3",
+  "acceptedSourceSha256": "287566efaa65a7e2938c192e48e8abe45c4090b625bdfd4e5fc10c6f91e283b5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["muffin-tin"],
+      "after": ["baking-sheet", "small-cookie-scoop-or-tablespoon"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Cooked Quinoa",
+        "1 cup Fresh Broccoli, finely chopped (packed)",
+        "1 cup Sharp Cheddar, freshly grated",
+        "2 Green Onions, thinly sliced",
+        "2 large Eggs, lightly beaten",
+        "2 tbsp Parmesan Cheese, grated",
+        "1/2 tsp Garlic Powder",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper"
+      ],
+      "after": [
+        "2 cups Cooked Quinoa",
+        "1 cup Fresh Broccoli, finely chopped (packed)",
+        "1 cup Sharp Cheddar, freshly grated",
+        "2 Green Onions, thinly sliced",
+        "2 large Eggs, lightly beaten",
+        "2 tbsp Parmesan Cheese, grated",
+        "1/2 tsp Garlic Powder",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 60,
+        "protein": 3.5,
+        "carbs": 4,
+        "fat": 3.5,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium": 150
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Compact small scoops and let them settle",
+        "outcome": "Golden quinoa bites with a cooked egg center that lift without crumbling.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep the bites approximately the same scoop size when scaling. Use more or fewer scoops and additional lined sheets or batches; do not enlarge the pieces or assume the same elapsed time.",
+          "Start with cooked quinoa, cooled enough not to cook the eggs on contact. Wash and drain the broccoli and green onions before chopping; excess water can loosen the mixture."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "A pressed scoop holds together before it reaches the sheet.",
+            "why": "Egg and cheese bind small compact bites more reliably than loose heaps."
+          },
+          {
+            "step": 5,
+            "cue": "Golden edges, a firming center and 160°F in representative egg centers.",
+            "why": "A brown surface does not measure the interior."
+          },
+          {
+            "step": 6,
+            "cue": "The bites lift after five minutes without breaking apart.",
+            "why": "The hot cheese needs time to firm."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The bites fall apart",
+            "cause": "Loose packing, wet quinoa or lifting while the cheese is still very hot.",
+            "fix": "Press each scoop firmly, bake through, and wait the full five-minute rest before lifting. Keep the listed egg and cheese amounts."
+          }
+        ],
+        "timing": "The original sheet batch takes about 15 minutes to mix and shape, 20–25 minutes to bake and 5 minutes to rest: about 40–45 minutes starting with cooked quinoa. Include separate quinoa cooking and cooling time if needed; extra sheet loads add elapsed time.",
+        "substitutions": [
+          {
+            "ingredient": "Baking shape",
+            "alternative": "For the publisher’s square-pan option, grease a 9-inch square oven-safe pan, spread the same full mixture evenly, and bake until set with a 165°F casserole center. Cool enough to hold before cutting. Check the actual pan depth and divide excess among additional pans; no identical bake clock is promised.",
+            "effect": "Uses the same full formula in a distinct casserole shape; the source gives no pan depth or reliable universal time."
+          }
+        ],
+        "storage": "Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout, checking the center; cover if needed to keep the topping from over-browning.",
+        "sources": [
+          {
+            "title": "Everyday Dishes — Broccoli Cheddar Quinoa Bites",
+            "url": "https://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPress the mixture firmly when scooping to ensure eggs and cheese properly bind the quinoa and broccoli - loose scoops crumble apart. Fresh broccoli chopped finely maintains better texture than frozen, staying slightly crisp even after baking. Let bites rest 5 minutes on the pan after baking so cheese can set.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 375°F. Line a baking sheet with parchment paper and lightly grease with oil spray.\n2.  **Mix:** In a large bowl, toss the cooked quinoa, chopped broccoli, cheddar, and green onions.\n3.  **Bind:** Stir in the beaten eggs, Parmesan, garlic powder, salt, and pepper. Mix until every grain of quinoa is coated in the egg mixture.\n4.  **Compress:** Using a small cookie scoop or tablespoon, scoop the mixture and **press it firmly** against the side of the bowl to compact it. Place on the baking sheet.\n5.  **Bake:** Bake for 20-25 minutes until the edges are golden brown and the bites feel firm to the touch.\n6.  **The Rest:** Let the bites rest on the pan for 5 minutes before moving - this allows the cheese to \"set,\" ensuring they hold their shape.\n",
+    "after": "\n## Chef's Note\n\nUse cooked quinoa that is cool enough not to scramble the eggs, and chop the washed broccoli finely. Compress each scoop so the egg and cheese bind the grains together. Give the baked bites five minutes on the sheet before lifting them; loose scoops or early handling can make them crumble.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 375°F. Line a baking sheet with parchment and lightly grease it with the oil spray.\n2. **Mix:** Toss all the cooked quinoa, finely chopped broccoli, cheddar and green onions in a large bowl.\n3. **Bind:** Stir in all the beaten eggs, Parmesan, garlic powder, salt and pepper until the mixture is evenly combined. Start with already cooked quinoa.\n4. **Shape:** Use a small cookie scoop or tablespoon and press each scoop firmly against the bowl before placing it on the sheet. Make similarly sized bites, aiming for roughly the listed count; use additional sheets or batches when needed rather than enlarging every scoop or crowding the sheet.\n5. **Bake:** Bake for about 20–25 minutes, checking for golden edges and a center that holds together. Check representative bites, including a larger one, for 160°F in the egg mixture; color alone does not show the center temperature. Additional sheet loads may take longer.\n6. **Rest:** Rest on the sheet for 5 minutes before lifting with a spatula. Serve the rested bites; the listed count is approximate.\n"
+  },
+  "findings": [
+    {
+      "id": "SBS07-4",
+      "rationale": "Full exact native/first-Git/actual Everyday Dishes nine measured ingredients remain unchanged. The original and publisher use a baking sheet, not the frozen metadata muffin tin. Source plans 30–40 bites; current 30 is a planning count, not a measured yield certification. Keep current same-sized scoop method and all cheese/salt, add the existing method-only spray as a genuine pan allowance. Wash fresh broccoli/green onions and use already cooked quinoa; no dry-grain water invented. Replace firm-to-touch-only endpoint with FDA160 egg-dish center plus texture cues; modern publisher square-pan alternative uses FoodSafety.gov165 casserole center. Optional pan variant is modern publisher, not a saved native muffin route. Omit unsupported country origin and nutrition; no nutritional calculation or test evidence.",
+      "confidence": "High exact source/current quantities and history; moderate editorial pan, planning clock and primary safety category application",
+      "applicableSources": [
+        {
+          "title": "Everyday Dishes — Broccoli Cheddar Quinoa Bites",
+          "url": "https://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/",
+          "scope": "Actual primary read fully; same nine measures, sheet/scoop20–25min+5minrest, source30–40planning count and modern9-inch square-pan option. No dry-quinoa water dose inferred and no nutrition imported."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual primary read: wash produce, refrigerated perishables and prompt cooling, egg-dish160°F and leftover165°F. Does not establish formula, pan capacity or recipe clocks."
+        },
+        {
+          "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Actual current chart specifies meat AND meatless casseroles165°F, ground meat/sausage160°F and poultry165°F. Corn/noodle/ham and egg-sausage pan applications editorial; small quinoa-egg bites use FDA egg-dish160°F, square-pan casserole option165°F. No risk-elimination promise."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Current direct main-page fetch403; official indexed guidance previously verified for shallow promptly chilled3–4days/165°F. Handling only, not tasted or recipe-specific shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual scoop size and cooked-quinoa moisture affect the count, firmness and clock; the listed 30 bites is planning only.",
+        "How firmly do the bites hold after five minutes, especially with a wetter quinoa batch?",
+        "The actual modern publisher nine-inch square pan has no specified depth; use adequate headroom and check center rather than assuming identical timing.",
+        "The metadata pairings are serving suggestions, not measured ingredients or endorsement of linked muffin formulas."
+      ]
+    },
+    {
+      "id": "SBS07-I03",
+      "rationale": "The Ham effect exposes archive history and an unresolved original arithmetic error in a public cooking option; the reconciled current total is already protected. Quinoa’s instruction about an invented amount addresses an editor rather than a cook. These replacements explain the preserved cooking choices without changing either formula, the early-cheese variant or the full binder amounts.",
+      "confidence": "High exact public-prose scope; no new culinary route",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Natural culinary prose without archive history or editorial self-commentary; substitution effect should explain cooking"
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5a3a241920a574fc2d650c5ffb4110917d75cd77ca6edaf6c376222e3e1a9f38"
+        },
+        {
+          "url": "https://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/",
+          "scope": "Actual primary recipe uses compact scoops, full egg/cheese binder and five-minute rest"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Broccoli%20Cheddar%20Quinoa%20Bites.html",
+    "introductionScope": "Earlier actual HTML cooking introduction; exact native/source ingredients and complete method read",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "scope": "Formula, method, metadata and source history",
+      "discussion": "Full exact native/first-Git/actual Everyday Dishes nine measured ingredients remain unchanged. The original and publisher use a baking sheet, not the frozen metadata muffin tin. Source plans 30–40 bites; current 30 is a planning count, not a measured yield certification. Keep current same-sized scoop method and all cheese/salt, add the existing method-only spray as a genuine pan allowance. Wash fresh broccoli/green onions and use already cooked quinoa; no dry-grain water invented. Replace firm-to-touch-only endpoint with FDA160 egg-dish center plus texture cues; modern publisher square-pan alternative uses FoodSafety.gov165 casserole center. Optional pan variant is modern publisher, not a saved native muffin route. Omit unsupported country origin and nutrition; no nutritional calculation or test evidence.",
+      "remainingQuestions": [
+        "Actual scoop size and cooked-quinoa moisture affect the count, firmness and clock; the listed 30 bites is planning only.",
+        "How firmly do the bites hold after five minutes, especially with a wetter quinoa batch?",
+        "The actual modern publisher nine-inch square pan has no specified depth; use adequate headroom and check center rather than assuming identical timing.",
+        "The metadata pairings are serving suggestions, not measured ingredients or endorsement of linked muffin formulas."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 cups Cooked Quinoa",
+        "actualMethodDestination": "step2 full already cooked quinoa mixture"
+      },
+      {
+        "text": "1 cup Fresh Broccoli, finely chopped (packed)",
+        "actualMethodDestination": "step2 full chopped packed fresh broccoli"
+      },
+      {
+        "text": "1 cup Sharp Cheddar, freshly grated",
+        "actualMethodDestination": "step2 full sharp cheddar"
+      },
+      {
+        "text": "2 Green Onions, thinly sliced",
+        "actualMethodDestination": "step2 full green onions"
+      },
+      {
+        "text": "2 large Eggs, lightly beaten",
+        "actualMethodDestination": "step3 full beaten eggs binder"
+      },
+      {
+        "text": "2 tbsp Parmesan Cheese, grated",
+        "actualMethodDestination": "step3 full Parmesan"
+      },
+      {
+        "text": "1/2 tsp Garlic Powder",
+        "actualMethodDestination": "step3 full garlic powder"
+      },
+      {
+        "text": "1/2 tsp Sea Salt",
+        "actualMethodDestination": "step3 full sea salt"
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "actualMethodDestination": "step3 full black pepper"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 cups Cooked Quinoa",
+        "actualMethodDestination": "step2 full already cooked quinoa mixture"
+      },
+      {
+        "text": "1 cup Fresh Broccoli, finely chopped (packed)",
+        "actualMethodDestination": "step2 full chopped packed fresh broccoli"
+      },
+      {
+        "text": "1 cup Sharp Cheddar, freshly grated",
+        "actualMethodDestination": "step2 full sharp cheddar"
+      },
+      {
+        "text": "2 Green Onions, thinly sliced",
+        "actualMethodDestination": "step2 full green onions"
+      },
+      {
+        "text": "2 large Eggs, lightly beaten",
+        "actualMethodDestination": "step3 full beaten eggs binder"
+      },
+      {
+        "text": "2 tbsp Parmesan Cheese, grated",
+        "actualMethodDestination": "step3 full Parmesan"
+      },
+      {
+        "text": "1/2 tsp Garlic Powder",
+        "actualMethodDestination": "step3 full garlic powder"
+      },
+      {
+        "text": "1/2 tsp Sea Salt",
+        "actualMethodDestination": "step3 full sea salt"
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "actualMethodDestination": "step3 full black pepper"
+      },
+      {
+        "text": "Oil spray, as needed for the lined baking sheet",
+        "actualMethodDestination": "step1 oil spray sheet-greasing allowance"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "2 cups cooked quinoa",
+        "1 cup broccoli, finely chopped, firmly packed",
+        "1 cup sharp cheddar cheese, grated",
+        "2 green onions, sliced",
+        "2 large eggs, lightly beaten",
+        "1/2 tsp garlic powder",
+        "2 Tbsp Parmesan cheese",
+        "1/2 tsp salt",
+        "1/4 tsp pepper"
+      ],
+      "directions": "Preheat oven to 375 degrees then line a baking sheet with parchment paper and coat lightly with cooking spray.\n\nAdd cooked quinoa, chopped broccoli, cheddar cheese and green onion to a large mixing bowl then toss until combined.\n\nMix in eggs, garlic powder, Parmesan cheese, salt and pepper until completely combined.\n\nScoop onto prepared baking sheet using a small scoop or tablespoon. Compress mixture into the spoon (or scoop) as much as possible, but keep in mind it’s not necessary for the mixture to cook in a spherical shape. The egg and cheese will bind the bites together after they are baked.\n\nBake 20–25 minutes or until lightly browned on the outside. Remove from oven, let rest for 5 minutes before serving.",
+      "reference": "privately retained evidence",
+      "scope": "Exact private existing registry binding to durable original450. Source rows are not the frozen current ledger."
+    },
+    "frozenMethodOnly": ["Oil spray step1, absent from frozen ingredient list"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the oven to 375°F. Line a baking sheet with parchment and lightly grease it with the oil spray."
+    },
+    {
+      "step": 2,
+      "text": "Mix: Toss all the cooked quinoa, finely chopped broccoli, cheddar and green onions in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Bind: Stir in all the beaten eggs, Parmesan, garlic powder, salt and pepper until the mixture is evenly combined. Start with already cooked quinoa."
+    },
+    {
+      "step": 4,
+      "text": "Shape: Use a small cookie scoop or tablespoon and press each scoop firmly against the bowl before placing it on the sheet. Make similarly sized bites, aiming for roughly the listed count; use additional sheets or batches when needed rather than enlarging every scoop or crowding the sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Bake for about 20–25 minutes, checking for golden edges and a center that holds together. Check representative bites, including a larger one, for 160°F in the egg mixture; color alone does not show the center temperature. Additional sheet loads may take longer."
+    },
+    {
+      "step": 6,
+      "text": "Rest: Rest on the sheet for 5 minutes before lifting with a spatula. Serve the rested bites; the listed count is approximate."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Baking shape",
+      "alternative": "For the publisher’s square-pan option, grease a 9-inch square oven-safe pan, spread the same full mixture evenly, and bake until set with a 165°F casserole center. Cool enough to hold before cutting. Check the actual pan depth and divide excess among additional pans; no identical bake clock is promised.",
+      "effect": "Uses the same full formula in a distinct casserole shape; the source gives no pan depth or reliable universal time.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "chocolate-chip-beet-muffins",
+      "chocolate-chip-muffins-with-zucchini",
+      "favorite-pumpkin-oatmeal-muffins"
+    ],
+    "incomingMeals": [],
+    "scope": "Current metadata pairings contain no measured component amount or incoming meal dependency. They do not add ingredients or confer linked-source complete-review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Full exact native/first-Git/actual Everyday Dishes nine measured ingredients remain unchanged. The original and publisher use a baking sheet, not the frozen metadata muffin tin. Source plans 30–40 bites; current 30 is a planning count, not a measured yield certification. Keep current same-sized scoop method and all cheese/salt, add the existing method-only spray as a genuine pan allowance. Wash fresh broccoli/green onions and use already cooked quinoa; no dry-grain water invented. Replace firm-to-touch-only endpoint with FDA160 egg-dish center plus texture cues; modern publisher square-pan alternative uses FoodSafety.gov165 casserole center. Optional pan variant is modern publisher, not a saved native muffin route. Omit unsupported country origin and nutrition; no nutritional calculation or test evidence.",
+    "yield": "30 bites",
+    "yieldScope": "Current original-batch planning count remains; no measured finished weight/yield or tested capacity.",
+    "capacity": "Same-size pressed scoops on enough sheets; optional publisher9-inch square pan depth unknown.",
+    "timing": "The original sheet batch takes about 15 minutes to mix and shape, 20–25 minutes to bake and 5 minutes to rest: about 40–45 minutes starting with cooked quinoa. Include separate quinoa cooking and cooling time if needed; extra sheet loads add elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup Cooked Quinoa",
+        "1/4 cup Fresh Broccoli, finely chopped (packed)",
+        "1/4 cup Sharp Cheddar, freshly grated",
+        "1/2 Green Onion, thinly sliced",
+        "1/2 large Egg, lightly beaten",
+        "1/2 tbsp Parmesan Cheese, grated",
+        "1/8 tsp Garlic Powder",
+        "1/8 tsp Sea Salt",
+        "0.0625 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "7 1/2 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup Cooked Quinoa",
+        "1/2 cup Fresh Broccoli, finely chopped (packed)",
+        "1/2 cup Sharp Cheddar, freshly grated",
+        "1 Green Onion, thinly sliced",
+        "1 large Egg, lightly beaten",
+        "1 tbsp Parmesan Cheese, grated",
+        "1/4 tsp Garlic Powder",
+        "1/4 tsp Sea Salt",
+        "1/8 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "15 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 cups Cooked Quinoa",
+        "1 cup Fresh Broccoli, finely chopped (packed)",
+        "1 cup Sharp Cheddar, freshly grated",
+        "2 Green Onions, thinly sliced",
+        "2 large Eggs, lightly beaten",
+        "2 tbsp Parmesan Cheese, grated",
+        "1/2 tsp Garlic Powder",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "30 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 cups Cooked Quinoa",
+        "1 1/2 cups Fresh Broccoli, finely chopped (packed)",
+        "1 1/2 cups Sharp Cheddar, freshly grated",
+        "3 Green Onions, thinly sliced",
+        "3 large Eggs, lightly beaten",
+        "3 tbsp Parmesan Cheese, grated",
+        "3/4 tsp Garlic Powder",
+        "3/4 tsp Sea Salt",
+        "3/8 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "45 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 cups Cooked Quinoa",
+        "2 cups Fresh Broccoli, finely chopped (packed)",
+        "2 cups Sharp Cheddar, freshly grated",
+        "4 Green Onions, thinly sliced",
+        "4 large Eggs, lightly beaten",
+        "4 tbsp Parmesan Cheese, grated",
+        "1 tsp Garlic Powder",
+        "1 tsp Sea Salt",
+        "1/2 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "60 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 cups Cooked Quinoa",
+        "3 cups Fresh Broccoli, finely chopped (packed)",
+        "3 cups Sharp Cheddar, freshly grated",
+        "6 Green Onions, thinly sliced",
+        "6 large Eggs, lightly beaten",
+        "6 tbsp Parmesan Cheese, grated",
+        "1 1/2 tsp Garlic Powder",
+        "1 1/2 tsp Sea Salt",
+        "3/4 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "90 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 cups Cooked Quinoa",
+        "1 cup Fresh Broccoli, finely chopped (packed)",
+        "1 cup Sharp Cheddar, freshly grated",
+        "2 Green Onions, thinly sliced",
+        "2 large Eggs, lightly beaten",
+        "2 tbsp Parmesan Cheese, grated",
+        "1/2 tsp Garlic Powder",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper",
+        "Oil spray, as needed for the lined baking sheet"
+      ],
+      "yield": "30 bites",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Whole followed source and current formula retained; targeted prior work is not whole-review credit.",
+  "remainingQuestions": [
+    "Actual scoop size and cooked-quinoa moisture affect the count, firmness and clock; the listed 30 bites is planning only.",
+    "How firmly do the bites hold after five minutes, especially with a wetter quinoa batch?",
+    "The actual modern publisher nine-inch square pan has no specified depth; use adequate headroom and check center rather than assuming identical timing.",
+    "The metadata pairings are serving suggestions, not measured ingredients or endorsement of linked muffin formulas."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

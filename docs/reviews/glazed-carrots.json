@@ -1,0 +1,504 @@
+{
+  "slug": "glazed-carrots",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "c7a061c263ddb9ac4242a31688fa332c8f1a8061d43aa5ae8a695f49aef05ead",
+  "acceptedSourceSha256": "46aecaeb4cdef0aaa0f8c0104a6588f746ef08f701dacd44a8c3c5dad56b9588",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 25–35 min, including bringing water to the boil"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Carrots, peeled and cut into matchsticks",
+        "1/4 cup Unsalted Butter",
+        "1/4 cup Light Brown Sugar, packed",
+        "1/4 tsp Sea Salt",
+        "1/8 tsp White Pepper (The Finishing Touch)",
+        "1 tsp Fresh Thyme, chopped"
+      ],
+      "after": [
+        "2 lbs carrots, peeled and cut into matchsticks",
+        "1/4 cup unsalted butter",
+        "1/4 cup light brown sugar, packed",
+        "1/4 tsp sea salt, for glaze",
+        "1/8 tsp ground white pepper",
+        "1 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 310,
+        "protein": 0.5,
+        "carbs": 29.5,
+        "fat": 23,
+        "fiber": 0.5,
+        "sugar": 28,
+        "sodium": 480
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Drain tender carrots before glazing",
+        "outcome": "Tender intact carrot sticks coated with the full brown-sugar butter glaze.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use a saucepan that holds the carrots with the stated water depth and room for a covered simmer. Scale the listed ingredients, keep similar cut thickness and allow extra heat-up time; use batches if the pot is crowded.",
+          "The measured salt belongs to the glaze. Boiling-water salt is an independent optional allowance, discarded with the water."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A fork enters a center easily while the sticks still hold their shape.",
+            "why": "Thin matchsticks and thicker source sticks cook at different speeds."
+          },
+          {
+            "step": 4,
+            "cue": "The warm glaze clings without a burnt sugar crust.",
+            "why": "The finishing clock is a check point rather than a requirement to overcook tender carrots."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The glaze pools in the pan",
+            "cause": "Water remains on the carrots or the coating has not warmed through.",
+            "fix": "Drain the carrots well before glazing, then toss gently until the coating clings. Stop before the sugar scorches; do not add extra butter or sugar automatically."
+          }
+        ],
+        "timing": "About 10 minutes cutting, bringing water to the boil, 8–10 minutes or less simmering and 2–5 minutes glazing: plan 25–35 minutes overall. More carrots or a slower burner add heat-up time.",
+        "substitutions": [
+          {
+            "ingredient": "Thyme",
+            "alternative": "Omit the optional listed thyme for a glaze without herbs.",
+            "effect": "Keeps the full butter, sugar, salt and white pepper unchanged."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat portions to 165°F / 74°C. Texture softens during storage.",
+        "sources": [
+          {
+            "title": "Allrecipes — Glazed Carrots",
+            "url": "https://www.allrecipes.com/recipe/229669/glazed-carrots/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPar-boil carrots in minimal water, then drain and return to the hot pan. Melt butter and sugar directly in the warm pan to create a thick emulsion that clings to carrots - the French call this \"monter au beurre\" (mounting with butter). White pepper adds complexity without overwhelming sweetness.\n\n## Directions\n\n1.  **Par-Boil:** Place carrot sticks in a large saucepan. Add 1 inch of salted water. Bring to a boil, then reduce heat to low and cover. Simmer for 8-10 minutes cook until fully cooked through fully cooked through fully cooked through fully cooked through but still having a slight \"Snap.\"\n2.  **Drain:** Drain the carrots and transfer to a bowl. **Do not rinse.**\n3.  **The Emulsion:** In the same warm saucepan, melt the butter over low heat. Whisk in the brown sugar, salt, and white pepper until the sugar is completely dissolved and the mixture is bubbling.\n4.  **Glaze:** Return the carrots to the pan. Toss vigorously over medium heat for 2-3 minutes until the carrots are perfectly coated in a glossy, thick glaze.\n5.  **Finish:** Stir in fresh thyme if using. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nSimmer the carrot sticks until tender, drain well and return them to the full butter-and-brown-sugar glaze. Keep the glaze salt separate from any optional salt in the boiling water. Stir gently so tender sticks stay intact.\n\n## Directions\n\n1. Wash and peel the carrots, then cut even matchsticks. Put them in a large saucepan and add water to a 1-inch depth. Use plain water, or add the separate optional boiling-salt allowance if you prefer salted water. The measured glaze salt stays reserved.\n2. Bring to a boil, reduce heat to low and cover. Start checking around 8–10 minutes, sooner for very thin sticks. A fork should enter a center readily without raw hardness; stop before the sticks fall apart. Boiling and actual cut thickness determine the clock.\n3. Drain and transfer the carrots to a bowl without rinsing. Melt all the butter in the same saucepan over low heat, then stir in all the brown sugar, glaze salt and white pepper until dissolved and glossy.\n4. Return all the drained carrots and toss gently over medium-low heat until hot and coated. Start checking at 2–3 minutes; the carrots may need up to about 5 minutes to heat through and take on the glaze. Follow the clinging glaze rather than driving the sugar to a burnt crust.\n5. Stir in all the optional listed thyme if using and serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "GCV06-1",
+      "rationale": "Repair 2 a 7 corrupted repeated doneness words and confusing simultaneous fully-cooked/snap claim. Full¼ cup butter/sugar,¼ tsp sea salt and⅛ white pepper preserved. Source plain boiling water and current unmeasured salted-water route made distinct, measured glaze salt not spent twice. Existing thyme originally optional in 0 d 970 retained optional and all allocated. No unsupported monter-au-beurre attribution or forceful tossing guarantee. Automatic nutrition unsupported by actual per-serving calculation removed; no ingredient reduction.",
+      "confidence": "High exact source quantities/allocations and protected current routes; moderate untested clocks/pan and handling applications",
+      "applicableSources": [
+        {
+          "title": "Allrecipes — Glazed Carrots",
+          "url": "https://www.allrecipes.com/recipe/229669/glazed-carrots/",
+          "scope": "Actual publisher and exact bound original agree with full¼cup butter/¼cup brown sugar,1-inch plain-water simmer/drain/glaze. Native5min finish versus current2–3/modern1–3 is a readiness difference, not richness reduction. Current thyme and sea salt remain distinct adaptations."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce under running water,keep perishables40°F,2h/1h above90°F prompt cooling and leftover165. Not first-cook plant tenderness/yield or source formula evidence."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Shallow-container prompt refrigeration,3–4day cooked leftovers and reheat165 only. Actual direct fetch unavailable; official indexed page and official FSIS Q&A reproduced claims. No preserved-food claim."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual matchstick thickness/saucepan depth may finish before 8 minutes; record the pan and cut after cooking.",
+        "Current sea-salt volume retained; no density equivalence with saved generic salt.",
+        "Preference for plain or salted boiling water remains open without inventing its optional salt amount."
+      ]
+    },
+    {
+      "id": "GCV06-I01",
+      "rationale": "The Glazed country was added in bulk2a7 metadata; Honey/Elote/Plantains carry origin labels from their Git-created sources. Exact native/HTML carrots and the retained publishers do not establish these geographic birthplaces. Caribbean is a region, not the single-country field. Author confirmed no retained contrary origin evidence. Omit the fields rather than invent replacements; keep American, Mexican and Caribbean cuisines, titles, elote/Maduros context, attribution and every cooking choice.",
+      "confidence": "High evidence limitation; no alternate birthplace inferred",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "2a7 addition of United States; exact earlier native/b7/045 lacks origin."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "fd4 Git-created country declaration without publisher/history evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "2a7 Git-created adaptation; Weber supports a Mexican-style cooking mechanism, not its geographic introduction."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "1fae region label; SeriousEats is a different formula with Colombian/Puerto Rican context, not independent evidence of this formula’s birthplace."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I03",
+      "rationale": "These labels and sentences describe saved/current editing states rather than useful food choices. The guarded replacements preserve plain OR salted boiling water, the existing2–5minute readiness range and no-thyme glaze; they name Ratatouille’s lemon/medium-squash branch without changing its complete exclusive allocation. Exact source/current disagreement and household preference questions stay in private records.",
+      "confidence": "High",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Plain water/about5minute finish; current method2–3minute check and optional thyme are retained in records."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Current complete lemon/medium-vegetable and exclusive salt alternatives already established in learning.substitutions[0]; no new variant interpretation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I05",
+      "rationale": "Remove the public test/shelf-life disclaimer and correct joined Celsius spacing. Keep the practical texture note, shallow prompt refrigeration,2h/1h/40F/3–4days/165F quantities verbatim in meaning. Corn Salad keeps its warm OR cold choice and qualifies165F only for warm leftover service. Private records retain general-guidance scope, source availability and zero kitchen testing.",
+      "confidence": "High exact wording/safety scope;3–4days is reused general guidance, not recipe-specific measured shelf life",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Directly read: produce rinsing, separation from raw animal foods, prompt refrigeration within2h/1h above90F,40F refrigeration, shallow containers and165F leftover endpoint. Does not certify first-cook vegetable tenderness, formulas, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Reuse established official3–4day cooked-leftover and165F guidance. Direct fetch in this challenge returned403; author discloses official indexed/Q&A evidence. No new claim of complete page acquisition."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Glazed%20Carrots.html",
+    "introductionScope": "Actual earlier HTML cooking introduction independently read from durable Git",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.allrecipes.com/recipe/229669/glazed-carrots/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Repair 2 a 7 corrupted repeated doneness words and confusing simultaneous fully-cooked/snap claim. Full¼ cup butter/sugar,¼ tsp sea salt and⅛ white pepper preserved. Source plain boiling water and current unmeasured salted-water route made distinct, measured glaze salt not spent twice. Existing thyme originally optional in 0 d 970 retained optional and all allocated. No unsupported monter-au-beurre attribution or forceful tossing guarantee. Automatic nutrition unsupported by actual per-serving calculation removed; no ingredient reduction.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 lbs Carrots, peeled and cut into matchsticks",
+        "actualMethodDestination": "Simmer step1 then drain2/glaze4"
+      },
+      {
+        "text": "1/4 cup Unsalted Butter",
+        "actualMethodDestination": "All glaze3"
+      },
+      {
+        "text": "1/4 cup Light Brown Sugar, packed",
+        "actualMethodDestination": "All glaze3"
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "actualMethodDestination": "All glaze3; step1 also calls unlisted boiling salt"
+      },
+      {
+        "text": "1/8 tsp White Pepper (The Finishing Touch)",
+        "actualMethodDestination": "All glaze3"
+      },
+      {
+        "text": "1 tsp Fresh Thyme, chopped",
+        "actualMethodDestination": "Optional finish5 despite unqualified ingredient"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 lbs carrots, peeled and cut into matchsticks",
+        "actualMethodDestination": "All simmer steps1–2 then drain3/glaze4"
+      },
+      {
+        "text": "1/4 cup unsalted butter",
+        "actualMethodDestination": "All glaze3"
+      },
+      {
+        "text": "1/4 cup light brown sugar, packed",
+        "actualMethodDestination": "All glaze3"
+      },
+      {
+        "text": "1/4 tsp sea salt, for glaze",
+        "actualMethodDestination": "All glaze3; separate from optional boiling salt"
+      },
+      {
+        "text": "1/8 tsp ground white pepper",
+        "actualMethodDestination": "All glaze3"
+      },
+      {
+        "text": "1 tsp fresh thyme, chopped, optional",
+        "actualMethodDestination": "All finish5 ifusing; original addition optional"
+      },
+      {
+        "text": "Water, for a 1-inch depth in the saucepan",
+        "actualMethodDestination": "Simmer1–2 then discarded draining3; source actual depth not invented volume"
+      },
+      {
+        "text": "Salt as needed, optional for the boiling water",
+        "actualMethodDestination": "Boiling1 only ifcurrent optional salted route"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "2 pounds carrots, peeled and cut into sticks",
+        "1/4 cup butter",
+        "1/4 cup packed brown sugar",
+        "1/4 teaspoon salt",
+        "1/8 teaspoon ground white pepper"
+      ],
+      "directions": "Place carrots into a large saucepan, pour in enough water to reach depth of 1 inch, and bring to a boil. Reduce heat to low, cover, and simmer carrots until tender, 8 to 10 minutes. Drain and transfer to a bowl.\n\nMelt butter in the same saucepan; stir brown sugar, salt, and white pepper into butter until brown sugar and salt have dissolved. Transfer carrots into brown sugar sauce; cook and stir until carrots are glazed with sauce, about 5 more minutes.",
+      "reference": "privately retained evidence",
+      "scope": "Exact existing private stable binding to original450; source fields are not frozen current ingredients."
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Wash and peel the carrots, then cut even matchsticks. Put them in a large saucepan and add water to a 1-inch depth. Use plain water, or add the separate optional boiling-salt allowance if you prefer salted water. The measured glaze salt stays reserved."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a boil, reduce heat to low and cover. Start checking around 8–10 minutes, sooner for very thin sticks. A fork should enter a center readily without raw hardness; stop before the sticks fall apart. Boiling and actual cut thickness determine the clock."
+    },
+    {
+      "step": 3,
+      "text": "Drain and transfer the carrots to a bowl without rinsing. Melt all the butter in the same saucepan over low heat, then stir in all the brown sugar, glaze salt and white pepper until dissolved and glossy."
+    },
+    {
+      "step": 4,
+      "text": "Return all the drained carrots and toss gently over medium-low heat until hot and coated. Start checking at 2–3 minutes; the carrots may need up to about 5 minutes to heat through and take on the glaze. Follow the clinging glaze rather than driving the sugar to a burnt crust."
+    },
+    {
+      "step": 5,
+      "text": "Stir in all the optional listed thyme if using and serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Thyme",
+      "alternative": "Omit the optional listed thyme for a glaze without herbs.",
+      "effect": "Keeps the full butter, sugar, salt and white pepper unchanged.",
+      "scope": "Complete separate option; primary amounts apply unless this text expressly substitutes/omits them.",
+      "reference": "exactChanges.learning.after.substitutions"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "herb-marinated-pork-tenderloins",
+      "one-pan-citrus-beets-roasted-chicken",
+      "banana-egg-oat-pancakes"
+    ],
+    "incomingMeals": ["brisket-dinner"],
+    "scope": "Whole Brisket Dinner says roast carrots although this actual component simmers/glazes; its held Kriger main differs325°F3–4hr from current350°F1.5–2hr and portions8 versus12. These incoming meal contradictions are recorded, not repaired or accepted. Mashed-potato component is a separate pot. Optional pork/chicken/pancake pairings require independent schedules; no shared allocations.",
+    "linkedReadScope": "Whole ingredient/method and meal schedules inspected for actual component versus optional pairing; no linked source whole-review status granted."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Repair 2 a 7 corrupted repeated doneness words and confusing simultaneous fully-cooked/snap claim. Full¼ cup butter/sugar,¼ tsp sea salt and⅛ white pepper preserved. Source plain boiling water and current unmeasured salted-water route made distinct, measured glaze salt not spent twice. Existing thyme originally optional in 0 d 970 retained optional and all allocated. No unsupported monter-au-beurre attribution or forceful tossing guarantee. Automatic nutrition unsupported by actual per-serving calculation removed; no ingredient reduction.",
+    "yield": "8",
+    "scope": "Existing portion plan preserved; no measured finished yield or new mass equivalence. Corn-size counts remain exclusive choices and do not sum.",
+    "capacity": "Saucepan with1-inch water depth, actual carrots/cut and boil determine readiness; no invented volume.",
+    "timing": "About 10 minutes cutting, bringing water to the boil, 8–10 minutes or less simmering and 2–5 minutes glazing: plan 25–35 minutes overall. More carrots or a slower burner add heat-up time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lbs carrots, peeled and cut into matchsticks",
+        "0.0625 cup unsalted butter",
+        "0.0625 cup light brown sugar, packed",
+        "0.0625 tsp sea salt, for glaze",
+        "0.0313 tsp ground white pepper",
+        "1/4 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 lbs carrots, peeled and cut into matchsticks",
+        "1/8 cup unsalted butter",
+        "1/8 cup light brown sugar, packed",
+        "1/8 tsp sea salt, for glaze",
+        "0.0625 tsp ground white pepper",
+        "1/2 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 lbs carrots, peeled and cut into matchsticks",
+        "1/4 cup unsalted butter",
+        "1/4 cup light brown sugar, packed",
+        "1/4 tsp sea salt, for glaze",
+        "1/8 tsp ground white pepper",
+        "1 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 lbs carrots, peeled and cut into matchsticks",
+        "3/8 cup unsalted butter",
+        "3/8 cup light brown sugar, packed",
+        "3/8 tsp sea salt, for glaze",
+        "0.19 tsp ground white pepper",
+        "1 1/2 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 lbs carrots, peeled and cut into matchsticks",
+        "1/2 cup unsalted butter",
+        "1/2 cup light brown sugar, packed",
+        "1/2 tsp sea salt, for glaze",
+        "1/4 tsp ground white pepper",
+        "2 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 lbs carrots, peeled and cut into matchsticks",
+        "3/4 cup unsalted butter",
+        "3/4 cup light brown sugar, packed",
+        "3/4 tsp sea salt, for glaze",
+        "3/8 tsp ground white pepper",
+        "3 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 lbs carrots, peeled and cut into matchsticks",
+        "1/4 cup unsalted butter",
+        "1/4 cup light brown sugar, packed",
+        "1/4 tsp sea salt, for glaze",
+        "1/8 tsp ground white pepper",
+        "1 tsp fresh thyme, chopped, optional",
+        "Water, for a 1-inch depth in the saucepan",
+        "Salt as needed, optional for the boiling water"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Whole followed histories reviewed; identities/title/rating/source/sourceURL/cuisines/pairings and existing scaling controls protected. No complete credit inherited from targeted records. All measured butter/sugar/honey/oil/cheese remain; restored source components and current separate routes are proposals, not accepted household choices.",
+  "remainingQuestions": [
+    "Actual matchstick thickness/saucepan depth may finish before 8 minutes; record the pan and cut after cooking.",
+    "Current sea-salt volume retained; no density equivalence with saved generic salt.",
+    "Preference for plain or salted boiling water remains open without inventing its optional salt amount."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "slug": "grilled-corn-salad-with-feta",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "a03cab9edddd02fd31bdbc0edd260d6ef9d73bb38cd851fad6a4a3d1b7f4e34d",
+  "acceptedSourceSha256": "cdf119af7117fed9f2a54ec62769e600b7e42fceb985e028e566ebc38ffc3dfa",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 large or 7 medium ears of corn",
+        "1/4 cup chopped red onion",
+        "2 tablespoons extra virgin olive oil",
+        "1/2 cup Feta, crumbled",
+        "chopped fresh mint, cilantro or parsley",
+        "1/4 teaspoon kosher salt",
+        "black pepper, to taste"
+      ],
+      "after": [
+        "--- Choose one corn-size option ---",
+        "6 large ears of corn, optional",
+        "7 medium ears of corn, optional",
+        "--- Salad ---",
+        "1/4 cup red onion, chopped",
+        "2 tbsp extra-virgin olive oil",
+        "1/2 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "1/4 tsp kosher salt",
+        "black pepper, to taste"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Skinnytaste.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Choose one corn count and cool before cutting",
+        "outcome": "Whole sweet kernels with feta, onion, herbs and the full olive-oil dressing.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use enough pans or batches to keep the stated single layer. Divide the full listed ingredients among vessels; temperatures and piece thickness stay the same when scaling, while extra loads add time.",
+          "Choose only one corn-size option in the ingredient list and shopping list. Source counts describe alternate ear sizes, not weights to combine.",
+          "Wash and dry the fresh herbs before chopping; keep the feta refrigerated until tossing."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The kernels are tender with charred spots, and the ears are cool enough to grip safely.",
+            "why": "Char and handling temperature are separate checks."
+          },
+          {
+            "step": 2,
+            "cue": "All kernels, onion, feta and oil are evenly lifted through the bowl.",
+            "why": "A cramped bowl can leave the oil and cheese concentrated at the bottom."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Corn browns before the kernels are tender",
+            "cause": "The heat source colors the surface before the kernels cook through.",
+            "fix": "Turn the ears and move them away from the strongest heat, or lower the heat. Continue until a kernel is tender, checking frequently."
+          }
+        ],
+        "timing": "The current 35-minute plan includes roughly 15 minutes preparation, 10–12 minutes or longer grilling and brief cooling before cutting. Grill preheating, hot ears and additional batches can add time. The one-day grilled-corn option adds refrigerator storage, not counter holding.",
+        "substitutions": [
+          {
+            "ingredient": "Corn size",
+            "alternative": "Use the listed large-ear count OR the listed medium-ear count, not both; both choices scale in the ingredient list.",
+            "effect": "The corn-size choices use different ear counts; actual kernel yield varies."
+          }
+        ],
+        "storage": "Serve warm or cold. Refrigerate the corn and feta mixture promptly within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. For warm leftover service, reheat the portion to 165°F / 74°C; cold service does not require warming.",
+        "sources": [
+          {
+            "title": "Skinnytaste — Grilled Corn Salad with Feta",
+            "url": "https://www.skinnytaste.com/grilled-corn-salad-with-feta/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "corn",
+            "name": "Choose one corn-size option",
+            "ingredients": [
+              {
+                "id": "large-corn",
+                "key": "large-corn",
+                "name": "large ear of corn",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "grill",
+                    "share": 1
+                  }
+                ],
+                "plural": "large ears of corn",
+                "optional": true
+              },
+              {
+                "id": "medium-corn",
+                "key": "medium-corn",
+                "name": "medium ear of corn",
+                "quantity": {
+                  "amount": 7,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "grill",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium ears of corn",
+                "optional": true
+              }
+            ]
+          },
+          {
+            "id": "salad",
+            "name": "Salad",
+            "ingredients": [
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "red onion",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "feta",
+                "key": "feta",
+                "name": "feta",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ],
+                "preparation": "crumbled"
+              },
+              {
+                "id": "herbs",
+                "key": "herbs",
+                "name": "fresh mint, cilantro or parsley",
+                "allowance": "as desired",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed, dried and chopped"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "grill",
+            "title": "Choose and grill corn",
+            "text": "Choose ONE of {{ingredients}}: the large-ear count OR the medium-ear count, not both. Husk and remove silk. Heat the grill to medium-high following its instructions. Grill the chosen ears in one layer, turning often, starting checks around 10–12 minutes until tender with charred spots. Use batches if needed. Transfer to a clean board and cool until safe to handle."
+          },
+          {
+            "id": "toss",
+            "title": "Cut and toss",
+            "text": "With the cooled ears held securely on a board or in a wide bowl, cut off all the kernels. Toss all the kernels with {{ingredients}} in a bowl large enough to lift and turn the full mixture."
+          },
+          {
+            "id": "season",
+            "title": "Season and serve",
+            "text": "Toss {{ingredients}} through all the corn mixture. Serve warm or cold; keep refrigerated if waiting for a cold service. For the source make-ahead route, grill corn one day before assembly, cool promptly in shallow portions and refrigerate covered; cut kernels and assemble on serving day."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGrill the corn until lightly charred, then let it cool enough to handle before cutting off the kernels. Feta, onion and fresh herbs season the sweet corn without a heavy dressing.\n\n## Directions\n\n1. **Continue:** Set the grill to medium-high. Husk the corn. Grill 10 to 12 minutes, turning often, until charred in spots. Transfer to a cutting board and set aside to cool.\n\n2. **Prepare:** Cut the kernels off the cobb.\n\n3. **Continue:** Put the corn, red onion and cheese in a medium salad bowl. Drizzle with the olive oil and toss.\n\n4. **Continue:** Add the fresh herbs and toss again. Taste and add salt and pepper. Serve.\n\n5. **Continue:** Corn can be grilled 1 day ahead before assembling the salad. Can be eaten warm or cold.\n",
+    "after": "\n## Chef's Note\n\nGrill until the kernels are tender and charred in spots, then cool enough to handle before cutting them off. Choose either the large-ear or medium-ear count. Toss in all the olive oil, onion and feta before the herbs and seasoning.\n\n## Directions\n\n1. **Choose and grill corn:** Choose ONE of large ears of corn (if using) and medium ears of corn (if using): the large-ear count OR the medium-ear count, not both. Husk and remove silk. Heat the grill to medium-high following its instructions. Grill the chosen ears in one layer, turning often, starting checks around 10–12 minutes until tender with charred spots. Use batches if needed. Transfer to a clean board and cool until safe to handle.\n2. **Cut and toss:** With the cooled ears held securely on a board or in a wide bowl, cut off all the kernels. Toss all the kernels with red onion, extra-virgin olive oil, and feta in a bowl large enough to lift and turn the full mixture.\n3. **Season and serve:** Toss fresh mint, cilantro or parsley, kosher salt, and black pepper through all the corn mixture. Serve warm or cold; keep refrigerated if waiting for a cold service. For the source make-ahead route, grill corn one day before assembly, cool promptly in shallow portions and refrigerate covered; cut kernels and assemble on serving day.\n"
+  },
+  "findings": [
+    {
+      "id": "GCV06-4",
+      "rationale": "Full native/b 7/045 and current publisher agree with every amount. Source six-large OR seven-medium count is made two clearly exclusive optional authored rows so both count choices scale, not only the first number in a legacy string; shopping lists show both alternatives and cook must choose one, not sum them. Full 6 portion existing plan retained without importing modern⅔cup-per-serving precision. Preserve e 30035 min including cooling; meaningful clean-board/handling/coldmake-ahead route, fullsalt/oil/herb destinations. Remove publisher-name origin field (not an origin) while preserving exact cuisine/source/link and all native source notes.",
+      "confidence": "High exact source quantities/allocations and protected current routes; moderate untested clocks/pan and handling applications",
+      "applicableSources": [
+        {
+          "title": "Skinnytaste — Grilled Corn Salad with Feta",
+          "url": "https://www.skinnytaste.com/grilled-corn-salad-with-feta/",
+          "scope": "Actual publisher/exact original agree with six large OR seven medium ears,¼cup onion,2tbsp oil,½cup feta,¼tsp kosher salt,herb allowance and one-day advance grilling. Corn-size alternatives are source planning counts, not verified mass equivalence."
+        },
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce under running water,keep perishables40°F,2h/1h above90°F prompt cooling and leftover165. Not first-cook plant tenderness/yield or source formula evidence."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Shallow-container prompt refrigeration,3–4day cooked leftovers and reheat165 only. Actual direct fetch unavailable; official indexed page and official FSIS Q&A reproduced claims. No preserved-food claim."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual corn-size yield differs; the two source count choices are not a measured mass equivalence.",
+        "Authored shopping display shows both optional corn options; choose one for purchase and cooking, never both. No native/source variant amount is merged.",
+        "Actual cooling and grill load may exceed 35 minutes; no tested bowl capacity."
+      ]
+    },
+    {
+      "id": "GCV06-I03",
+      "rationale": "These labels and sentences describe saved/current editing states rather than useful food choices. The guarded replacements preserve plain OR salted boiling water, the existing2–5minute readiness range and no-thyme glaze; they name Ratatouille’s lemon/medium-squash branch without changing its complete exclusive allocation. Exact source/current disagreement and household preference questions stay in private records.",
+      "confidence": "High",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Plain water/about5minute finish; current method2–3minute check and optional thyme are retained in records."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Current complete lemon/medium-vegetable and exclusive salt alternatives already established in learning.substitutions[0]; no new variant interpretation."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I04",
+      "rationale": "Compiled prose currently says “all of queso fresco”, “all of lime”, “all of ripe tomato” and joins mint,cilantro. Correct their authored templates/name, preserving all chile/cheese/herb/lime/tomato amounts and consuming steps; regenerate the three compatible views together. These are readable instructions, not a change to allocations.",
+      "confidence": "High",
+      "applicableSources": [
+        {
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Authored formula/name is the source; generated views may not be independently edited."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Full topping and lime destinations remain unchanged."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "All prepared tomatoes still enter sauce before roasted vegetables."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I05",
+      "rationale": "Remove the public test/shelf-life disclaimer and correct joined Celsius spacing. Keep the practical texture note, shallow prompt refrigeration,2h/1h/40F/3–4days/165F quantities verbatim in meaning. Corn Salad keeps its warm OR cold choice and qualifies165F only for warm leftover service. Private records retain general-guidance scope, source availability and zero kitchen testing.",
+      "confidence": "High exact wording/safety scope;3–4days is reused general guidance, not recipe-specific measured shelf life",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Directly read: produce rinsing, separation from raw animal foods, prompt refrigeration within2h/1h above90F,40F refrigeration, shallow containers and165F leftover endpoint. Does not certify first-cook vegetable tenderness, formulas, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Reuse established official3–4day cooked-leftover and165F guidance. Direct fetch in this challenge returned403; author discloses official indexed/Q&A evidence. No new claim of complete page acquisition."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "ROOT-CORN-KERNEL-CLARITY",
+      "title": "Check tender kernels before the corn surface burns",
+      "rationale": "Name the edible corn kernels and existing heat/readiness cues; the cob center is not the cooking target.",
+      "confidence": "High for existing method and manufacturer cue; no kitchen test.",
+      "applicableSources": [
+        {
+          "url": "https://www.weber.com/US/en/blog/tips-techniques/top-tips-for-grilling-vegetables/weber-48939.html",
+          "scope": "Corn kernels tender; general heat management only, no formula/appliance certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Grilled%20Corn%20Salad%20with%20Feta.html",
+    "introductionScope": "Actual earlier HTML cooking introduction independently read from durable Git",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.skinnytaste.com/grilled-corn-salad-with-feta/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Full native/b 7/045 and current publisher agree with every amount. Source six-large OR seven-medium count is made two clearly exclusive optional authored rows so both count choices scale, not only the first number in a legacy string; shopping lists show both alternatives and cook must choose one, not sum them. Full 6 portion existing plan retained without importing modern⅔cup-per-serving precision. Preserve e 30035 min including cooling; meaningful clean-board/handling/coldmake-ahead route, fullsalt/oil/herb destinations. Remove publisher-name origin field (not an origin) while preserving exact cuisine/source/link and all native source notes.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "6 large or 7 medium ears of corn",
+        "actualMethodDestination": "Exclusive6large OR7medium,grill1 then kernel2/toss3"
+      },
+      {
+        "text": "1/4 cup chopped red onion",
+        "actualMethodDestination": "All toss3"
+      },
+      {
+        "text": "2 tablespoons extra virgin olive oil",
+        "actualMethodDestination": "All toss3"
+      },
+      {
+        "text": "1/2 cup Feta, crumbled",
+        "actualMethodDestination": "All toss3"
+      },
+      {
+        "text": "chopped fresh mint, cilantro or parsley",
+        "actualMethodDestination": "All herbs4"
+      },
+      {
+        "text": "1/4 teaspoon kosher salt",
+        "actualMethodDestination": "Taste/add4"
+      },
+      {
+        "text": "black pepper, to taste",
+        "actualMethodDestination": "Taste/add4"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "6 large ears of corn, optional",
+        "id": "corn.large-corn",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "grill",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "grill share 1",
+        "preparation": null
+      },
+      {
+        "text": "7 medium ears of corn, optional",
+        "id": "corn.medium-corn",
+        "quantity": {
+          "amount": 7,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "grill",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "grill share 1",
+        "preparation": null
+      },
+      {
+        "text": "1/4 cup red onion, chopped",
+        "id": "salad.onion",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "toss share 1",
+        "preparation": "chopped"
+      },
+      {
+        "text": "2 tbsp extra-virgin olive oil",
+        "id": "salad.oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "toss share 1",
+        "preparation": null
+      },
+      {
+        "text": "1/2 cup feta, crumbled",
+        "id": "salad.feta",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "toss share 1",
+        "preparation": "crumbled"
+      },
+      {
+        "text": "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "id": "salad.herbs",
+        "quantity": null,
+        "allowance": "as desired",
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "season share 1",
+        "preparation": "washed, dried and chopped"
+      },
+      {
+        "text": "1/4 tsp kosher salt",
+        "id": "salad.salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "season share 1",
+        "preparation": null
+      },
+      {
+        "text": "black pepper, to taste",
+        "id": "salad.pepper",
+        "quantity": null,
+        "allowance": "to taste",
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "actualMethodDestination": "season share 1",
+        "preparation": null
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "6 large or 7 medium ears of corn",
+        "1/4 cup chopped red onion",
+        "2 tablespoons extra virgin olive oil",
+        "1/2 cup Feta, crumbled",
+        "chopped fresh mint, cilantro or parsley",
+        "1/4 teaspoon kosher salt",
+        "black pepper, to taste"
+      ],
+      "directions": "Set the grill to medium-high. Husk the corn. Grill 10 to 12 minutes, turning often, until charred in spots. Transfer to a cutting board and set aside to cool.\n\nCut the kernels off the cobb.\n\nPut the corn, red onion and cheese in a medium salad bowl. Drizzle with the olive oil and toss.\n\nAdd the fresh herbs and toss again. Taste and add salt and pepper. Serve.\n\nCorn can be grilled 1 day ahead before assembling the salad. Can be eaten warm or cold.",
+      "reference": "privately retained evidence",
+      "scope": "Exact existing private stable binding to original450; source fields are not frozen current ingredients."
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Choose and grill corn: Choose ONE of large ears of corn (if using) and medium ears of corn (if using): the large-ear count OR the medium-ear count, not both. Husk and remove silk. Heat the grill to medium-high following its instructions. Grill the chosen ears in one layer, turning often, starting checks around 10–12 minutes until tender with charred spots. Use batches if needed. Transfer to a clean board and cool until safe to handle."
+    },
+    {
+      "step": 2,
+      "text": "Cut and toss: With the cooled ears held securely on a board or in a wide bowl, cut off all the kernels. Toss all the kernels with red onion, extra-virgin olive oil, and feta in a bowl large enough to lift and turn the full mixture."
+    },
+    {
+      "step": 3,
+      "text": "Season and serve: Toss fresh mint, cilantro or parsley, kosher salt, and black pepper through all the corn mixture. Serve warm or cold; keep refrigerated if waiting for a cold service. For the source make-ahead route, grill corn one day before assembly, cool promptly in shallow portions and refrigerate covered; cut kernels and assemble on serving day."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Corn size",
+      "alternative": "Use the listed large-ear count OR the listed medium-ear count, not both; both choices scale in the ingredient list.",
+      "effect": "The corn-size choices use different ear counts; actual kernel yield varies.",
+      "scope": "Complete separate option; primary amounts apply unless this text expressly substitutes/omits them.",
+      "reference": "exactChanges.learning.after.substitutions"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "Six side portions are source planning, not weighed yield. No metadata or incoming meal recipe links exist; warm/cold and one-day grilled-corn preparation are the complete source service options.",
+    "linkedReadScope": "Whole ingredient/method and meal schedules inspected for actual component versus optional pairing; no linked source whole-review status granted."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Full native/b 7/045 and current publisher agree with every amount. Source six-large OR seven-medium count is made two clearly exclusive optional authored rows so both count choices scale, not only the first number in a legacy string; shopping lists show both alternatives and cook must choose one, not sum them. Full 6 portion existing plan retained without importing modern⅔cup-per-serving precision. Preserve e 30035 min including cooling; meaningful clean-board/handling/coldmake-ahead route, fullsalt/oil/herb destinations. Remove publisher-name origin field (not an origin) while preserving exact cuisine/source/link and all native source notes.",
+    "yield": "6 portions",
+    "scope": "Existing portion plan preserved; no measured finished yield or new mass equivalence. Corn-size counts remain exclusive choices and do not sum.",
+    "capacity": "Choose only six large OR seven medium ears at original batch. Both optional authored shopping rows are displayed/scaled separately; cook one choice only. No automatic equivalent-weight conversion or summed14-ear plan.",
+    "timing": "The current 35-minute plan includes roughly 15 minutes preparation, 10–12 minutes or longer grilling and brief cooling before cutting. Grill preheating, hot ears and additional batches can add time. The one-day grilled-corn option adds refrigerator storage, not counter holding."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "1 1/2 large ears of corn, optional",
+        "1 3/4 medium ears of corn, optional",
+        "--- Salad ---",
+        "0.0625 cup red onion, chopped",
+        "1/2 tbsp extra-virgin olive oil",
+        "1/8 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "0.0625 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "1 1/2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "3 large ears of corn, optional",
+        "3 1/2 medium ears of corn, optional",
+        "--- Salad ---",
+        "1/8 cup red onion, chopped",
+        "1 tbsp extra-virgin olive oil",
+        "1/4 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "1/8 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "3 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "6 large ears of corn, optional",
+        "7 medium ears of corn, optional",
+        "--- Salad ---",
+        "1/4 cup red onion, chopped",
+        "2 tbsp extra-virgin olive oil",
+        "1/2 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "1/4 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "9 large ears of corn, optional",
+        "10 1/2 medium ears of corn, optional",
+        "--- Salad ---",
+        "3/8 cup red onion, chopped",
+        "3 tbsp extra-virgin olive oil",
+        "3/4 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "3/8 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "9 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "12 large ears of corn, optional",
+        "14 medium ears of corn, optional",
+        "--- Salad ---",
+        "1/2 cup red onion, chopped",
+        "4 tbsp extra-virgin olive oil",
+        "1 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "1/2 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "18 large ears of corn, optional",
+        "21 medium ears of corn, optional",
+        "--- Salad ---",
+        "3/4 cup red onion, chopped",
+        "6 tbsp extra-virgin olive oil",
+        "1 1/2 cups feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "3/4 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "18 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Choose one corn-size option ---",
+        "6 large ears of corn, optional",
+        "7 medium ears of corn, optional",
+        "--- Salad ---",
+        "1/4 cup red onion, chopped",
+        "2 tbsp extra-virgin olive oil",
+        "1/2 cup feta, crumbled",
+        "fresh mint, cilantro or parsley, as desired, washed, dried and chopped",
+        "1/4 tsp kosher salt",
+        "black pepper, to taste"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Whole followed histories reviewed; identities/title/rating/source/sourceURL/cuisines/pairings and existing scaling controls protected. No complete credit inherited from targeted records. All measured butter/sugar/honey/oil/cheese remain; restored source components and current separate routes are proposals, not accepted household choices.",
+  "remainingQuestions": [
+    "Actual corn-size yield differs; the two source count choices are not a measured mass equivalence.",
+    "Authored shopping display shows both optional corn options; choose one for purchase and cooking, never both. No native/source variant amount is merged.",
+    "Actual cooling and grill load may exceed 35 minutes; no tested bowl capacity."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

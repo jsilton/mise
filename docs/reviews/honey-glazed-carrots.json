@@ -1,0 +1,532 @@
+{
+  "slug": "honey-glazed-carrots",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "2e8e0d4e8aa6e7de1c4e77c35397d983af0082831736d5073bdf9eec4e0f7583",
+  "acceptedSourceSha256": "9e13280600246dd66bb17305d96400d1462dfc50ca08923df6e64e469705b2e7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 40–50 min, plus additional oven loads"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Carrots, peeled and cut into 3-inch batons (or use whole baby carrots)",
+        "2 tbsp Unsalted Butter, melted",
+        "2 tbsp Honey",
+        "1 tbsp Olive Oil",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "1 tsp Fresh Thyme Leaves (or 1/2 tsp dried)",
+        "Flaky Sea Salt for finishing"
+      ],
+      "after": [
+        "2 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "2 tbsp unsalted butter, melted",
+        "2 tbsp honey",
+        "1 tbsp olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "1 tsp fresh thyme leaves, or 1/2 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 125,
+        "protein": 0.5,
+        "carbs": 12,
+        "fat": 9,
+        "fiber": 1,
+        "sugar": 9.5,
+        "sodium": 1230
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Glaze near-tender carrots without scorching honey",
+        "outcome": "Tender carrots with a warm honey-butter-thyme coating.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use enough pans or batches to keep the stated single layer. Divide the full listed ingredients among vessels; temperatures and piece thickness stay the same when scaling, while extra loads add time.",
+          "Fresh and dried thyme are alternatives; the extra fresh finishing leaves are a separate optional supply."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A thick carrot center is almost tender before the glaze goes on.",
+            "why": "The honey stage can brown faster than a hard carrot cooks."
+          },
+          {
+            "step": 4,
+            "cue": "The glaze bubbles and edges are golden rather than black.",
+            "why": "A fixed final timer can scorch a sugar coating."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The outside darkens before the center is tender",
+            "cause": "The pieces are thick or heat is too high for their size.",
+            "fix": "Lower heat or move away from the strongest heat and continue until a center sample is tender. Check the next batch earlier."
+          }
+        ],
+        "timing": "Roughly 10–15 minutes preparation, 20 minutes or longer first roast and up to 8–10 minutes glaze finishing support about 40–50 minutes; oven preheating or extra loads add time.",
+        "substitutions": [
+          {
+            "ingredient": "Thyme",
+            "alternative": "Use dried thyme at half the listed fresh amount; keep optional fresh garnish separate.",
+            "effect": "Retains the current fresh/dried option at every scale."
+          },
+          {
+            "ingredient": "Carrots",
+            "alternative": "Use the listed whole baby carrots for the same full carrot weight.",
+            "effect": "Thickness and product shape change cooking time; check a center before glazing."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat portions to 165°F / 74°C. Texture softens during storage.",
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe challenge with glazed carrots is getting the glaze to stick rather than pool at the bottom of the pan. The solution is a two-stage approach: roast the carrots first at high heat to drive off surface moisture and concentrate their natural sugars, then toss with the honey-butter glaze for a final blast. This creates a lacquered coating that caramelizes onto the surface rather than sliding off. Cut carrots into uniform batons so they cook at the same rate.\n\n## Directions\n\n1.  **Preheat:** Set oven to 425°F. Line a baking sheet with parchment paper.\n2.  **First Roast:** Toss carrots with olive oil, salt, and pepper. Spread in a single layer on the sheet -- crowding causes steaming. Roast for 20 minutes until the carrots are tender and starting to caramelize at the edges.\n3.  **Make the Glaze:** While carrots roast, stir together the melted butter, honey, and thyme in a small bowl.\n4.  **Glaze:** Remove the pan from the oven. Drizzle the honey-butter mixture over the carrots and toss with tongs to coat evenly.\n5.  **Final Roast:** Return to the oven for 8-10 minutes until the glaze is bubbling and the carrots have a deep golden, lacquered finish.\n6.  **Finish:** Sprinkle with flaky sea salt and extra thyme leaves. Serve warm.\n",
+    "after": "\n## Chef's Note\n\nRoast the carrots with oil first, then coat them with all the honey-butter-thyme glaze. The glaze can darken quickly at 425°F: check it before the end of the timer, and take the pan out once the carrots are tender and the coating bubbles without burning.\n\n## Directions\n\n1. Heat the oven to 425°F. Wash and peel the carrots and cut uniform 3-inch batons, splitting especially thick pieces lengthwise for similar thickness, or use the listed whole baby-carrot option. Line enough rimmed sheets with parchment rated for 425°F or use bare oven-safe sheets.\n2. Toss all the carrots with all the olive oil, kosher salt and black pepper. Divide among pans in a single layer, leaving room to turn. Roast about 20 minutes, then check a thick center for near-tenderness and turn as needed; thicker pieces may need longer before glazing.\n3. Meanwhile stir all the melted butter, honey and measured fresh or dried thyme together. If using dried thyme, use half the listed fresh-thyme amount.\n4. Remove the sheets and divide all the glaze among the carrots, tossing gently. Return to the oven, checking before 8–10 minutes and sooner if the honey darkens quickly. Finish when centers are tender and the glaze bubbles with golden edges; reduce heat or remove a finished pan rather than waiting for blackened honey.\n5. Serve warm with the separate flaky-salt allowance and optional extra fresh thyme. The measured thyme has already gone into the glaze.\n"
+  },
+  "findings": [
+    {
+      "id": "GCV06-2",
+      "rationale": "Current Git fd 4 origin is the only established recipe source, not an independent publisher. Preserve full 2 lb/2 tbsp butter/2 tbsp honey/1 tbsp oil and current fresh/dried herb alternative. Explicitly allocate additional current method-only thyme garnish without consuming measured glaze thyme twice. Similar thickness and fork cue precede glazing; sugar-burn checkpoint does not mandate a generic browning rule or reduce honey. Batch/capacity clocks honest, automatic nutrition removed; no invented exact tray volume.",
+      "confidence": "High exact source quantities/allocations and protected current routes; moderate untested clocks/pan and handling applications",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce under running water,keep perishables40°F,2h/1h above90°F prompt cooling and leftover165. Not first-cook plant tenderness/yield or source formula evidence."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Shallow-container prompt refrigeration,3–4day cooked leftovers and reheat165 only. Actual direct fetch unavailable; official indexed page and official FSIS Q&A reproduced claims. No preserved-food claim."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual baton thickness, baby-carrot product and available trays determine tenderness/loads.",
+        "The 8–10 minute honey finish may be shorter in the actual oven; no kitchen timer claim.",
+        "No independent original publisher was supplied; Git-introduced household formula retained rather than silently replacing it."
+      ]
+    },
+    {
+      "id": "GCV06-I01",
+      "rationale": "The Glazed country was added in bulk2a7 metadata; Honey/Elote/Plantains carry origin labels from their Git-created sources. Exact native/HTML carrots and the retained publishers do not establish these geographic birthplaces. Caribbean is a region, not the single-country field. Author confirmed no retained contrary origin evidence. Omit the fields rather than invent replacements; keep American, Mexican and Caribbean cuisines, titles, elote/Maduros context, attribution and every cooking choice.",
+      "confidence": "High evidence limitation; no alternate birthplace inferred",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "2a7 addition of United States; exact earlier native/b7/045 lacks origin."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "fd4 Git-created country declaration without publisher/history evidence."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "2a7 Git-created adaptation; Weber supports a Mexican-style cooking mechanism, not its geographic introduction."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "1fae region label; SeriousEats is a different formula with Colombian/Puerto Rican context, not independent evidence of this formula’s birthplace."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I02",
+      "rationale": "Actual Honey scaler changes both amounts correctly, but appends “at the original batch” to the newly scaled dried amount. Removing that suffix preserves both actual alternatives. Ratatouille’s “separate quarters of the original¾ tsp total” is ambiguous: each original¼tsp is one third of¾tsp, and scales. Describe equal shares and their destinations; keep all three measured rows unchanged.",
+      "confidence": "High",
+      "applicableSources": [
+        {
+          "path": "src/lib/quantities.mjs",
+          "scope": "Actual .25/.5/1/1.5/2/3/reset Honey outputs scale both thyme alternatives."
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Three distinct¼tsp salt uses and¾tsp total at original batch."
+        },
+        {
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Amounts scale; original geometry/clock prose remains fixed and needs truthful context."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "GCV06-I05",
+      "rationale": "Remove the public test/shelf-life disclaimer and correct joined Celsius spacing. Keep the practical texture note, shallow prompt refrigeration,2h/1h/40F/3–4days/165F quantities verbatim in meaning. Corn Salad keeps its warm OR cold choice and qualifies165F only for warm leftover service. Private records retain general-guidance scope, source availability and zero kitchen testing.",
+      "confidence": "High exact wording/safety scope;3–4days is reused general guidance, not recipe-specific measured shelf life",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "No invented origins; preserve attribution and cultural styles; public recipe explains cooking without archive history or kitchen-test/editorial disclaimers."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Directly read: produce rinsing, separation from raw animal foods, prompt refrigeration within2h/1h above90F,40F refrigeration, shallow containers and165F leftover endpoint. Does not certify first-cook vegetable tenderness, formulas, pan capacity or shelf life."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Reuse established official3–4day cooked-leftover and165F guidance. Direct fetch in this challenge returned403; author discloses official indexed/Q&A evidence. No new claim of complete page acquisition."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/honey-glazed-carrots.md",
+    "introductionScope": "Actual first available source introduction; no original450 match and no earlier matching cooking source established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Current Git fd 4 origin is the only established recipe source, not an independent publisher. Preserve full 2 lb/2 tbsp butter/2 tbsp honey/1 tbsp oil and current fresh/dried herb alternative. Explicitly allocate additional current method-only thyme garnish without consuming measured glaze thyme twice. Similar thickness and fork cue precede glazing; sugar-burn checkpoint does not mandate a generic browning rule or reduce honey. Batch/capacity clocks honest, automatic nutrition removed; no invented exact tray volume.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 lbs Carrots, peeled and cut into 3-inch batons (or use whole baby carrots)",
+        "actualMethodDestination": "All roast2/glaze4/final5"
+      },
+      {
+        "text": "2 tbsp Unsalted Butter, melted",
+        "actualMethodDestination": "All glaze3–4"
+      },
+      {
+        "text": "2 tbsp Honey",
+        "actualMethodDestination": "All glaze3–4"
+      },
+      {
+        "text": "1 tbsp Olive Oil",
+        "actualMethodDestination": "All initial roast2"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "actualMethodDestination": "All initial roast2"
+      },
+      {
+        "text": "1/4 tsp Black Pepper",
+        "actualMethodDestination": "All initial roast2"
+      },
+      {
+        "text": "1 tsp Fresh Thyme Leaves (or 1/2 tsp dried)",
+        "actualMethodDestination": "All measured thyme glaze3; extra unlisted thyme finish6"
+      },
+      {
+        "text": "Flaky Sea Salt for finishing",
+        "actualMethodDestination": "Finish6 allowance"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "actualMethodDestination": "All firstroast2 then glaze4; fullbabycarrotoptionnotguaranteedsameclock"
+      },
+      {
+        "text": "2 tbsp unsalted butter, melted",
+        "actualMethodDestination": "All glaze3–4"
+      },
+      {
+        "text": "2 tbsp honey",
+        "actualMethodDestination": "All glaze3–4"
+      },
+      {
+        "text": "1 tbsp olive oil",
+        "actualMethodDestination": "All firstroast2"
+      },
+      {
+        "text": "1/2 tsp kosher salt",
+        "actualMethodDestination": "All firstroast2"
+      },
+      {
+        "text": "1/4 tsp black pepper",
+        "actualMethodDestination": "All firstroast2"
+      },
+      {
+        "text": "1 tsp fresh thyme leaves, or 1/2 tsp dried thyme",
+        "actualMethodDestination": "Choosefreshordried allglaze3, driedhalf freshlistedamount"
+      },
+      {
+        "text": "Flaky sea salt, as desired for finishing",
+        "actualMethodDestination": "Finish5 only; genuineallowance"
+      },
+      {
+        "text": "Extra fresh thyme leaves, optional for finishing",
+        "actualMethodDestination": "Finish5 optional; genuineallowance separate measuredthyme"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "2 lbs Carrots, peeled and cut into 3-inch batons (or use whole baby carrots)",
+        "2 tbsp Unsalted Butter, melted",
+        "2 tbsp Honey",
+        "1 tbsp Olive Oil",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "1 tsp Fresh Thyme Leaves (or 1/2 tsp dried)",
+        "Flaky Sea Salt for finishing"
+      ],
+      "directions": "\n## Chef's Note\n\nThe challenge with glazed carrots is getting the glaze to stick rather than pool at the bottom of the pan. The solution is a two-stage approach: roast the carrots first at high heat to drive off surface moisture and concentrate their natural sugars, then toss with the honey-butter glaze for a final blast. This creates a lacquered coating that caramelizes onto the surface rather than sliding off. Cut carrots into uniform batons so they cook at the same rate.\n\n## Directions\n\n1.  **Preheat:** Set oven to 425°F. Line a baking sheet with parchment paper.\n2.  **First Roast:** Toss carrots with olive oil, salt, and pepper. Spread in a single layer on the sheet -- crowding causes steaming. Roast for 20 minutes until the carrots are tender and starting to caramelize at the edges.\n3.  **Make the Glaze:** While carrots roast, stir together the melted butter, honey, and thyme in a small bowl.\n4.  **Glaze:** Remove the pan from the oven. Drizzle the honey-butter mixture over the carrots and toss with tongs to coat evenly.\n5.  **Final Roast:** Return to the oven for 8-10 minutes until the glaze is bubbling and the carrots have a deep golden, lacquered finish.\n6.  **Finish:** Sprinkle with flaky sea salt and extra thyme leaves. Serve warm.\n",
+      "reference": "privately retained evidence",
+      "scope": "Exact first verified Git source only; no independent native match or publisher formula lineage established."
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Wash and peel the carrots and cut uniform 3-inch batons, splitting especially thick pieces lengthwise for similar thickness, or use the listed whole baby-carrot option. Line enough rimmed sheets with parchment rated for 425°F or use bare oven-safe sheets."
+    },
+    {
+      "step": 2,
+      "text": "Toss all the carrots with all the olive oil, kosher salt and black pepper. Divide among pans in a single layer, leaving room to turn. Roast about 20 minutes, then check a thick center for near-tenderness and turn as needed; thicker pieces may need longer before glazing."
+    },
+    {
+      "step": 3,
+      "text": "Meanwhile stir all the melted butter, honey and measured fresh or dried thyme together. If using dried thyme, use half the listed fresh-thyme amount."
+    },
+    {
+      "step": 4,
+      "text": "Remove the sheets and divide all the glaze among the carrots, tossing gently. Return to the oven, checking before 8–10 minutes and sooner if the honey darkens quickly. Finish when centers are tender and the glaze bubbles with golden edges; reduce heat or remove a finished pan rather than waiting for blackened honey."
+    },
+    {
+      "step": 5,
+      "text": "Serve warm with the separate flaky-salt allowance and optional extra fresh thyme. The measured thyme has already gone into the glaze."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Thyme",
+      "alternative": "Use dried thyme at half the listed fresh amount; keep optional fresh garnish separate.",
+      "effect": "Retains the current fresh/dried option at every scale.",
+      "scope": "Complete separate option; primary amounts apply unless this text expressly substitutes/omits them.",
+      "reference": "exactChanges.learning.after.substitutions"
+    },
+    {
+      "ingredient": "Carrots",
+      "alternative": "Use the listed whole baby carrots for the same full carrot weight.",
+      "effect": "Thickness and product shape change cooking time; check a center before glazing.",
+      "scope": "Complete separate option; primary amounts apply unless this text expressly substitutes/omits them.",
+      "reference": "exactChanges.learning.after.substitutions"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "baked-chicken-parmesan",
+      "buttermilk-baked-chicken",
+      "brisket-with-carrots-and-onions"
+    ],
+    "incomingMeals": [],
+    "scope": "Four planned side portions; optional chicken/brisket pairs have separate pans and their own readiness clocks. Honey carrots425°F cannot automatically share every400°F or350°F paired bake without explicit scheduling. No paired recipe receives review credit.",
+    "linkedReadScope": "Whole ingredient/method and meal schedules inspected for actual component versus optional pairing; no linked source whole-review status granted."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Current Git fd 4 origin is the only established recipe source, not an independent publisher. Preserve full 2 lb/2 tbsp butter/2 tbsp honey/1 tbsp oil and current fresh/dried herb alternative. Explicitly allocate additional current method-only thyme garnish without consuming measured glaze thyme twice. Similar thickness and fork cue precede glazing; sugar-burn checkpoint does not mandate a generic browning rule or reduce honey. Batch/capacity clocks honest, automatic nutrition removed; no invented exact tray volume.",
+    "yield": "4",
+    "scope": "Existing portion plan preserved; no measured finished yield or new mass equivalence. Corn-size counts remain exclusive choices and do not sum.",
+    "capacity": "Use enough pans or batches to keep the stated single layer. Divide the full listed ingredients among vessels; temperatures and piece thickness stay the same when scaling, while extra loads add time.",
+    "timing": "Roughly 10–15 minutes preparation, 20 minutes or longer first roast and up to 8–10 minutes glaze finishing support about 40–50 minutes; oven preheating or extra loads add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "1/2 tbsp unsalted butter, melted",
+        "1/2 tbsp honey",
+        "1/4 tbsp olive oil",
+        "1/8 tsp kosher salt",
+        "0.0625 tsp black pepper",
+        "1/4 tsp fresh thyme leaves, or 1/8 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "1 tbsp unsalted butter, melted",
+        "1 tbsp honey",
+        "1/2 tbsp olive oil",
+        "1/4 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1/2 tsp fresh thyme leaves, or 1/4 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "2 tbsp unsalted butter, melted",
+        "2 tbsp honey",
+        "1 tbsp olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "1 tsp fresh thyme leaves, or 1/2 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "3 tbsp unsalted butter, melted",
+        "3 tbsp honey",
+        "1 1/2 tbsp olive oil",
+        "3/4 tsp kosher salt",
+        "3/8 tsp black pepper",
+        "1 1/2 tsp fresh thyme leaves, or 3/4 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "4 tbsp unsalted butter, melted",
+        "4 tbsp honey",
+        "2 tbsp olive oil",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "2 tsp fresh thyme leaves, or 1 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "6 tbsp unsalted butter, melted",
+        "6 tbsp honey",
+        "3 tbsp olive oil",
+        "1 1/2 tsp kosher salt",
+        "3/4 tsp black pepper",
+        "3 tsp fresh thyme leaves, or 1 1/2 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 lbs carrots, peeled and cut into uniform 3-inch batons, or whole baby carrots",
+        "2 tbsp unsalted butter, melted",
+        "2 tbsp honey",
+        "1 tbsp olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "1 tsp fresh thyme leaves, or 1/2 tsp dried thyme",
+        "Flaky sea salt, as desired for finishing",
+        "Extra fresh thyme leaves, optional for finishing"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Whole followed histories reviewed; identities/title/rating/source/sourceURL/cuisines/pairings and existing scaling controls protected. No complete credit inherited from targeted records. All measured butter/sugar/honey/oil/cheese remain; restored source components and current separate routes are proposals, not accepted household choices.",
+  "remainingQuestions": [
+    "Actual baton thickness, baby-carrot product and available trays determine tenderness/loads.",
+    "The 8–10 minute honey finish may be shorter in the actual oven; no kitchen timer claim.",
+    "No independent original publisher was supplied; Git-introduced household formula retained rather than silently replacing it."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

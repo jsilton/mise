@@ -18,7 +18,8 @@ leftovers: excellent
 advancePrep:
   - make-ahead
 equipment:
-  - muffin-tin
+  - baking-sheet
+  - small-cookie-scoop-or-tablespoon
 flavorProfile:
   - umami
   - herbaceous
@@ -44,28 +45,86 @@ ingredients:
   - 1/2 tsp Garlic Powder
   - 1/2 tsp Sea Salt
   - 1/4 tsp Black Pepper
-origin: United States
-nutrition:
-  calories: 60
-  protein: 3.5
-  carbs: 4
-  fat: 3.5
-  fiber: 0.5
-  sugar: 0.5
-  sodium: 150
+  - 'Oil spray, as needed for the lined baking sheet'
 source: Adapted from everydaydishes.com
 sourceUrl: 'http://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/'
+learning:
+  focus: Compact small scoops and let them settle
+  outcome: Golden quinoa bites with a cooked egg center that lift without crumbling.
+  techniques:
+    - temperature
+  before:
+    - >-
+      Keep the bites approximately the same scoop size when scaling. Use more or
+      fewer scoops and additional lined sheets or batches; do not enlarge the
+      pieces or assume the same elapsed time.
+    - >-
+      Start with cooked quinoa, cooled enough not to cook the eggs on contact.
+      Wash and drain the broccoli and green onions before chopping; excess water
+      can loosen the mixture.
+  checkpoints:
+    - step: 4
+      cue: A pressed scoop holds together before it reaches the sheet.
+      why: Egg and cheese bind small compact bites more reliably than loose heaps.
+    - step: 5
+      cue: 'Golden edges, a firming center and 160°F in representative egg centers.'
+      why: A brown surface does not measure the interior.
+    - step: 6
+      cue: The bites lift after five minutes without breaking apart.
+      why: The hot cheese needs time to firm.
+  troubleshooting:
+    - problem: The bites fall apart
+      cause: 'Loose packing, wet quinoa or lifting while the cheese is still very hot.'
+      fix: >-
+        Press each scoop firmly, bake through, and wait the full five-minute rest before
+        lifting. Keep the listed egg and cheese amounts.
+  timing: >-
+    The original sheet batch takes about 15 minutes to mix and shape, 20–25
+    minutes to bake and 5 minutes to rest: about 40–45 minutes starting with
+    cooked quinoa. Include separate quinoa cooking and cooling time if needed;
+    extra sheet loads add elapsed time.
+  substitutions:
+    - ingredient: Baking shape
+      alternative: >-
+        For the publisher’s square-pan option, grease a 9-inch square oven-safe
+        pan, spread the same full mixture evenly, and bake until set with a
+        165°F casserole center. Cool enough to hold before cutting. Check the
+        actual pan depth and divide excess among additional pans; no identical
+        bake clock is promised.
+      effect: >-
+        Uses the same full formula in a distinct casserole shape; the source
+        gives no pan depth or reliable universal time.
+  storage: >-
+    Refrigerate cooked portions promptly in shallow containers within 2 hours,
+    or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days.
+    Reheat portions to 165°F /74°C throughout, checking the center; cover if
+    needed to keep the topping from over-browning.
+  sources:
+    - title: Everyday Dishes — Broccoli Cheddar Quinoa Bites
+      url: >-
+        https://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/
+    - title: FDA — Safe Food Handling
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    - title: FoodSafety.gov — Safe Minimum Internal Temperatures
+      url: >-
+        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    - title: USDA FSIS — Leftovers and Food Safety
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-Press the mixture firmly when scooping to ensure eggs and cheese properly bind the quinoa and broccoli - loose scoops crumble apart. Fresh broccoli chopped finely maintains better texture than frozen, staying slightly crisp even after baking. Let bites rest 5 minutes on the pan after baking so cheese can set.
+Use cooked quinoa that is cool enough not to scramble the eggs, and chop the washed broccoli finely. Compress each scoop so the egg and cheese bind the grains together. Give the baked bites five minutes on the sheet before lifting them; loose scoops or early handling can make them crumble.
 
 ## Directions
 
-1.  **Prep:** Preheat oven to 375°F. Line a baking sheet with parchment paper and lightly grease with oil spray.
-2.  **Mix:** In a large bowl, toss the cooked quinoa, chopped broccoli, cheddar, and green onions.
-3.  **Bind:** Stir in the beaten eggs, Parmesan, garlic powder, salt, and pepper. Mix until every grain of quinoa is coated in the egg mixture.
-4.  **Compress:** Using a small cookie scoop or tablespoon, scoop the mixture and **press it firmly** against the side of the bowl to compact it. Place on the baking sheet.
-5.  **Bake:** Bake for 20-25 minutes until the edges are golden brown and the bites feel firm to the touch.
-6.  **The Rest:** Let the bites rest on the pan for 5 minutes before moving - this allows the cheese to "set," ensuring they hold their shape.
+1. **Prepare:** Preheat the oven to 375°F. Line a baking sheet with parchment and lightly grease it with the oil spray.
+2. **Mix:** Toss all the cooked quinoa, finely chopped broccoli, cheddar and green onions in a large bowl.
+3. **Bind:** Stir in all the beaten eggs, Parmesan, garlic powder, salt and pepper until the mixture is evenly combined. Start with already cooked quinoa.
+4. **Shape:** Use a small cookie scoop or tablespoon and press each scoop firmly against the bowl before placing it on the sheet. Make similarly sized bites, aiming for roughly the listed count; use additional sheets or batches when needed rather than enlarging every scoop or crowding the sheet.
+5. **Bake:** Bake for about 20–25 minutes, checking for golden edges and a center that holds together. Check representative bites, including a larger one, for 160°F in the egg mixture; color alone does not show the center temperature. Additional sheet loads may take longer.
+6. **Rest:** Rest on the sheet for 5 minutes before lifting with a spatula. Serve the rested bites; the listed count is approximate.

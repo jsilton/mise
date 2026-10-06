@@ -1,0 +1,585 @@
+{
+  "slug": "sweet-and-white-potato-gratin",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "672eae7c9311e0f764b6a500d85eb6f7e6538584d0a947e5f46f88b7ab42c0d7",
+  "acceptedSourceSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "simmer", "boil"],
+      "after": ["bake"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Sweet Potatoes, peeled",
+        "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "3 cups Heavy Cream",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Thyme",
+        "1 tbsp Fresh Sage",
+        "1 tsp Fresh Rosemary, chopped",
+        "2 tsp Salt",
+        "1 tsp Black Pepper",
+        "1/4 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "2.5 cups Gruyère Cheese, shredded",
+        "2 cups Parmesan Reggiano, finely grated"
+      ],
+      "after": [
+        "2 lbs Sweet Potatoes, peeled",
+        "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "3 cups Heavy Cream",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Thyme",
+        "1 tbsp Fresh Sage",
+        "1 tsp Fresh Rosemary, chopped",
+        "2 tsp Salt",
+        "1 tsp Black Pepper",
+        "1/4 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "2.5 cups Gruyère Cheese, shredded",
+        "2 cups Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "France",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Divide the cream through even potato layers",
+        "outcome": "Tender alternating potato layers beneath a golden top, with all cream and cheese accounted for.",
+        "techniques": ["temperature"],
+        "before": [
+          "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+          "Wash the potatoes before peeling. Keep their slices evenly about 1/8 inch thick; use the mandoline hand guard if using that tool. There is no added butter to heat or grease with."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "All cream is divided through the layers; cheese is sprinkled between layers with some reserved for the top.",
+            "why": "Fixed cup amounts can leave some of the listed cream unused, especially at different scales."
+          },
+          {
+            "step": 7,
+            "cue": "A knife slips through the center layers in each dish.",
+            "why": "Golden cheese can precede tender potatoes."
+          },
+          {
+            "step": 8,
+            "cue": "Layers hold together more easily after the ten-minute rest.",
+            "why": "The bubbling cream and cheese settle before serving."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The top is brown but the center potatoes are firm",
+            "cause": "Slices or layers are thick enough that the surface browned before the center softened.",
+            "fix": "Tent loosely with foil and continue baking until the center layers yield to a knife; do not remove it solely because the cheese is golden."
+          }
+        ],
+        "timing": "At the original pan size, plan 25 minutes preparation, about 60 minutes baking and 10 minutes rest: 95 minutes total. Treat the uncovered 45 minutes as a check point; deeper loads and thicker slices take longer.",
+        "substitutions": [
+          {
+            "ingredient": "Thyme garnish",
+            "alternative": "If desired, use additional fresh thyme, as needed, over the finished gratin. Keep the full listed thyme amount in the seasoned cream; garnish is a separate optional supply.",
+            "effect": "Retains the family source garnish without spending the cream’s measured thyme twice."
+          }
+        ],
+        "storage": "Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout, checking the center; cover if needed to keep the topping from over-browning.",
+        "sources": [
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGratin dauphinois meets Thanksgiving sweet potatoes - alternating layers of sweet and white potatoes create a dish with more complexity than either alone. Even 1/8-inch slices cook consistently and meld into the cream. Use a sharp knife or a mandoline with its hand guard; thicker slices need more time. Whisking the garlic, herbs and seasonings into the cream distributes them through the layers. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.\n\n## Directions\n\n1.  **Mix:** Preheat the oven to 425°F. Whisk the cream, garlic, thyme, sage, rosemary, nutmeg, cayenne, salt, and pepper together in a bowl.\n2.  **Slice:** Use a sharp knife or a mandoline with its hand guard to slice all potatoes into 1/8-inch thick rounds. Keep the colors separate for layering.\n3.  **Cheese Mix:** Combine the shredded Gruyère and Parmesan in a bowl.\n4.  **Layer:** Pour one-sixth of the seasoned cream into a 9x13 baking dish.\n    - Layer 1: Sweet potatoes (slightly overlapping). Drizzle with cream, sprinkle with cheese.\n    - Layer 2: White potatoes. Drizzle with cream, sprinkle with cheese.\n    - Repeat, dividing the cream and cheese among the layers and reserving cheese for the top. Use all of the cream.\n5.  **The Crown:** For the top layer, alternate colors for a beautiful visual pattern. Cover with the remaining cheese.\n6.  **Bake:** Cover with foil. Bake at 425°F for 15 minutes.\n7.  **Crisp:** Remove foil. Reduce heat to 400°F. Bake for about another 45 minutes, until the potatoes are tender throughout when pierced with a knife. If the top browns before the potatoes soften, cover loosely with foil and continue baking.\n8.  **Rest:** Let rest for 10 minutes before serving so the layers set.\n\n## Timing\n\nThe 95-minute estimate includes 25 minutes of preparation, about 60 minutes of baking and the 10-minute rest. Thicker slices or a deeper dish can take longer; test the center before taking the gratin out.\n",
+    "after": "\n## Chef's Note\n\nKaitlin Gwock’s gratin alternates sweet potatoes and Yukon Golds beneath the full cream and cheese. Keep the slices evenly about 1/8 inch thick. Whisk the seasonings into the cream so every layer gets them; cook until a knife slips through the center layers, and tent the top if it browns first.\n\n## Directions\n\n1. **Mix:** Preheat the oven to 425°F. Whisk all the cream, garlic, thyme, sage, rosemary, nutmeg, cayenne, salt and pepper together.\n2. **Slice:** Use a sharp knife or a mandoline with its hand guard to cut the peeled potatoes into even 1/8-inch rounds. Keep the colors separate for layering.\n3. **Combine cheese:** Mix all the Gruyère and Parmesan together.\n4. **Layer:** For the original batch, use a 9×13-inch oven-safe dish with enough depth for the full potatoes, cream and cheese. If necessary, divide the entire batch among additional dishes before layering, keeping similar depth and headroom. Divide all measured ingredients among the dishes. Pour one-sixth of each dish’s allocated cream over its bottom. Alternate overlapping sweet-potato and white-potato layers, dividing the rest of its cream and cheese through the layers and reserving cheese for its top. Use all the cream; do not leave a fixed-volume remainder behind.\n5. **Top:** Arrange the last layer in alternating colors if desired and cover with the reserved cheese.\n6. **Start covered:** Cover with foil and bake at 425°F for 15 minutes.\n7. **Finish:** Remove the foil and reduce the oven to 400°F. Bake about another 45 minutes, until a knife passes easily through the potato layers in the center of each dish. If the top browns before the potatoes soften, cover loosely with foil and continue checking; thicker slices or deeper layers need longer.\n8. **Rest:** Rest for 10 minutes before serving so the layers hold together. Add the optional additional thyme garnish if using it.\n\n## Timing\n\nThe original 95-minute estimate includes 25 minutes of preparation, about 60 minutes of baking and the 10-minute rest. Extra loads, thicker slices or deeper dishes can take longer; the center’s tenderness governs.\n"
+  },
+  "findings": [
+    {
+      "id": "SBS07-5",
+      "rationale": "Preserve the complete accepted ee9c7078 repairs: rosemary1tsp/salt2tsp/pepper1tsp, full three cups seasoned cold cream, all2.5cups Gruyere/two cups Parmesan, protected mandoline,425/400 covered/uncovered route, tender-first/foil and95min including rest. Do not restore the bulk-added unlisted butter bloom, saucepan heating or incomplete native fixed cream allocations. Native and actual first HTML are exact family Kaitlin formula evidence, not proof of geographic origin or pan capacity. Current full-cream method is correct; clarify dividing all ingredients before multiple dishes so scaling does not create extra cream or discard cheese. Add optional native extra thyme garnish as a genuine separate allowance only if used, preserving all measured thyme in cream. No new yield/dose/temperature or fabricated nutrition.",
+      "confidence": "High exact source/current quantities and history; moderate editorial pan, planning clock and primary safety category application",
+      "applicableSources": [
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Current direct main-page fetch403; official indexed guidance previously verified for shallow promptly chilled3–4days/165°F. Handling only, not tasted or recipe-specific shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "ingredients",
+        "origin",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual dish depth and potato thickness determine whether the full original load fits and its tender-first clock.",
+        "How does the family prefer the optional separate thyme garnish? All measured thyme remains in the cream.",
+        "The source fixed half-cup plus three three-quarter-cup cream allocations do not spend the full three cups; the accepted proportional method remains."
+      ]
+    },
+    {
+      "id": "SBS07-I01",
+      "rationale": "The inline step 4 checkpoint can be read as holding all cheese back, contradicting the complete preserved method. Native directions, the accepted ee9 repair and proposed steps 4–5 distribute cheese inside and reserve only the remaining portion for the top. Correct the cue; do not invent an exact cheese fraction or alter cream allocation.",
+      "confidence": "High exact allocation conflict; no physical texture claim",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "50ffabb61c885514d242443caf4f14d6a7914dab401fd90cf4996ed1a80295bb"
+        },
+        {
+          "path": "privately retained evidence",
+          "commit": "ee9c7078",
+          "scope": "Accepted full-cream/layering/tenderness repair; actual followed diff independently reproduced"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Steps4–5 and ledger agree; checkpoint alone conflicts"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "SBS07-I02",
+      "rationale": "The complete proposed method mixes the cream cold and bakes covered, then uncovered. It performs no simmering or boiling, and has no distinct roasting stage. These inherited tags describe older unsupported cream-heating prose which ee9 corrected. Accurate cooking-method tags matter because Mise links methods to lessons. Preserve French style and family attribution; do not reintroduce heating or butter to justify tags.",
+      "confidence": "High absence of simmer/boil; high method classified as baking rather than a separate roast",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Explicit recipe links and exact cooking-method matches"
+        },
+        {
+          "path": "privately retained evidence",
+          "commit": "ee9c7078",
+          "scope": "Cold seasoned cream replaces unsupported bloom/heat operation"
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "50ffabb61c885514d242443caf4f14d6a7914dab401fd90cf4996ed1a80295bb"
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sweet%20&%20White%20Potato%20Gratin.html",
+    "introductionScope": "Earlier actual HTML cooking introduction; exact native/source ingredients and complete method read",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "scope": "Formula, method, metadata and source history",
+      "discussion": "Preserve the complete accepted ee9c7078 repairs: rosemary1tsp/salt2tsp/pepper1tsp, full three cups seasoned cold cream, all2.5cups Gruyere/two cups Parmesan, protected mandoline,425/400 covered/uncovered route, tender-first/foil and95min including rest. Do not restore the bulk-added unlisted butter bloom, saucepan heating or incomplete native fixed cream allocations. Native and actual first HTML are exact family Kaitlin formula evidence, not proof of geographic origin or pan capacity. Current full-cream method is correct; clarify dividing all ingredients before multiple dishes so scaling does not create extra cream or discard cheese. Add optional native extra thyme garnish as a genuine separate allowance only if used, preserving all measured thyme in cream. No new yield/dose/temperature or fabricated nutrition.",
+      "remainingQuestions": [
+        "Actual dish depth and potato thickness determine whether the full original load fits and its tender-first clock.",
+        "How does the family prefer the optional separate thyme garnish? All measured thyme remains in the cream.",
+        "The source fixed half-cup plus three three-quarter-cup cream allocations do not spend the full three cups; the accepted proportional method remains."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 lbs Sweet Potatoes, peeled",
+        "actualMethodDestination": "step2 sliced sweet potatoes; steps4–5 layers"
+      },
+      {
+        "text": "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "actualMethodDestination": "step2 sliced white potatoes; steps4–5 layers"
+      },
+      {
+        "text": "3 cups Heavy Cream",
+        "actualMethodDestination": "step1 full seasoned cream; step4 one-sixth bottom/remainder across layers, all used"
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": "step1 full garlic cream"
+      },
+      {
+        "text": "1 tbsp Fresh Thyme",
+        "actualMethodDestination": "step1 full thyme cream"
+      },
+      {
+        "text": "1 tbsp Fresh Sage",
+        "actualMethodDestination": "step1 full sage cream"
+      },
+      {
+        "text": "1 tsp Fresh Rosemary, chopped",
+        "actualMethodDestination": "step1 full restored rosemary cream"
+      },
+      {
+        "text": "2 tsp Salt",
+        "actualMethodDestination": "step1 full restored salt cream"
+      },
+      {
+        "text": "1 tsp Black Pepper",
+        "actualMethodDestination": "step1 full restored black pepper cream"
+      },
+      {
+        "text": "1/4 tsp Nutmeg",
+        "actualMethodDestination": "step1 full nutmeg cream"
+      },
+      {
+        "text": "Dash of Cayenne Pepper",
+        "actualMethodDestination": "step1 full dash cayenne cream"
+      },
+      {
+        "text": "2.5 cups Gruyère Cheese, shredded",
+        "actualMethodDestination": "step3 combine cheeses; steps4–5 inside/reservedtop with no exact fixed split"
+      },
+      {
+        "text": "2 cups Parmesan Reggiano, finely grated",
+        "actualMethodDestination": "step3 combine cheeses; steps4–5 inside/reservedtop with no exact fixed split"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 lbs Sweet Potatoes, peeled",
+        "actualMethodDestination": "step2 sliced sweet potatoes; steps4–5 layers"
+      },
+      {
+        "text": "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "actualMethodDestination": "step2 sliced white potatoes; steps4–5 layers"
+      },
+      {
+        "text": "3 cups Heavy Cream",
+        "actualMethodDestination": "step1 full seasoned cream; step4 one-sixth bottom/remainder across layers, all used"
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": "step1 full garlic cream"
+      },
+      {
+        "text": "1 tbsp Fresh Thyme",
+        "actualMethodDestination": "step1 full thyme cream"
+      },
+      {
+        "text": "1 tbsp Fresh Sage",
+        "actualMethodDestination": "step1 full sage cream"
+      },
+      {
+        "text": "1 tsp Fresh Rosemary, chopped",
+        "actualMethodDestination": "step1 full restored rosemary cream"
+      },
+      {
+        "text": "2 tsp Salt",
+        "actualMethodDestination": "step1 full restored salt cream"
+      },
+      {
+        "text": "1 tsp Black Pepper",
+        "actualMethodDestination": "step1 full restored black pepper cream"
+      },
+      {
+        "text": "1/4 tsp Nutmeg",
+        "actualMethodDestination": "step1 full nutmeg cream"
+      },
+      {
+        "text": "Dash of Cayenne Pepper",
+        "actualMethodDestination": "step1 full dash cayenne cream"
+      },
+      {
+        "text": "2.5 cups Gruyère Cheese, shredded",
+        "actualMethodDestination": "step3 combine cheeses; steps4–5 inside/reservedtop with no exact fixed split"
+      },
+      {
+        "text": "2 cups Parmesan Reggiano, finely grated",
+        "actualMethodDestination": "step3 combine cheeses; steps4–5 inside/reservedtop with no exact fixed split"
+      },
+      {
+        "text": "Additional fresh thyme, as needed for optional garnish",
+        "actualMethodDestination": "step8 optional extra thyme; full measured tablespoon stays in cream"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "2 lbs of sweet potatoes",
+        "1 1/2 lbs of white potatoes",
+        "2 1/2 cup shredded gruyere cheese",
+        "2 cup finely grated parmesan reggiano cheese",
+        "3 cup heavy cream",
+        "2 tsp salt",
+        "1 tsp pepper",
+        "3 cloves minced garlic",
+        "1 tbsp fresh chopped thyme",
+        "1 tbsp fresh chopped sage",
+        "1 tsp fresh chopped rosemary",
+        "1/4 tsp nutmeg",
+        "Dash of cayenne pepper",
+        "",
+        ""
+      ],
+      "directions": "Whisk 3 c heavy cream, 2 tsp salt, 1 tsp pepper, 3 cloves minced garlic, 1 tbsp fresh chopped thyme, 1 tbsp fresh chopped sage, 1 tsp fresh chopped rosemary, 1/4 tsp nutmeg & a dash of cayenne pepper in a large bowl\n\nIn a separate bowl mix 2 1/2 c shredded gruyere cheese & 2 c finely grated parmesan reggiano cheese.\n\nPeel 2 lbs of sweet potatoes & 1 1/2 lbs of white potatoes.\n\nCarefully use a handheld mandolin slicer and slice peeled potatoes into thin rounds.\n\nPour 1/2 c of the cream into the bottom of a casserole dish then neatly layer one layer of the sweet potatoes having them overlap slightly.\n\nDrizzle 3/4 c of cream mixture on top & sprinkle 1 c of cheese on top of that.\n\nNext layer the white potatoes and repeat the steps, then a sweet potato layer repeating the steps.\n\nFor the top layer of potatoes layer with both colors & sprinkle all remaining cheese on top and garnish with chopped thyme.\n\nCover with foil & bake on 425 for 15 minutes until cheese is bubbly.\n\nRemove foil & reduce heat to 400 degrees & bake for 45 minutes until top is golden & bubbly.\n\nLet cool & serve as a Thanksgiving side dish, then EAT!",
+      "reference": "privately retained evidence",
+      "scope": "Exact private existing registry binding to durable original450. Source rows are not the frozen current ledger."
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix: Preheat the oven to 425°F. Whisk all the cream, garlic, thyme, sage, rosemary, nutmeg, cayenne, salt and pepper together."
+    },
+    {
+      "step": 2,
+      "text": "Slice: Use a sharp knife or a mandoline with its hand guard to cut the peeled potatoes into even 1/8-inch rounds. Keep the colors separate for layering."
+    },
+    {
+      "step": 3,
+      "text": "Combine cheese: Mix all the Gruyère and Parmesan together."
+    },
+    {
+      "step": 4,
+      "text": "Layer: For the original batch, use a 9×13-inch oven-safe dish with enough depth for the full potatoes, cream and cheese. If necessary, divide the entire batch among additional dishes before layering, keeping similar depth and headroom. Divide all measured ingredients among the dishes. Pour one-sixth of each dish’s allocated cream over its bottom. Alternate overlapping sweet-potato and white-potato layers, dividing the rest of its cream and cheese through the layers and reserving cheese for its top. Use all the cream; do not leave a fixed-volume remainder behind."
+    },
+    {
+      "step": 5,
+      "text": "Top: Arrange the last layer in alternating colors if desired and cover with the reserved cheese."
+    },
+    {
+      "step": 6,
+      "text": "Start covered: Cover with foil and bake at 425°F for 15 minutes."
+    },
+    {
+      "step": 7,
+      "text": "Finish: Remove the foil and reduce the oven to 400°F. Bake about another 45 minutes, until a knife passes easily through the potato layers in the center of each dish. If the top browns before the potatoes soften, cover loosely with foil and continue checking; thicker slices or deeper layers need longer."
+    },
+    {
+      "step": 8,
+      "text": "Rest: Rest for 10 minutes before serving so the layers hold together. Add the optional additional thyme garnish if using it."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Thyme garnish",
+      "alternative": "If desired, use additional fresh thyme, as needed, over the finished gratin. Keep the full listed thyme amount in the seasoned cream; garnish is a separate optional supply.",
+      "effect": "Retains the family source garnish without spending the cream’s measured thyme twice.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["chicken-coq-au-vin", "ham-and-cheese-quiche", "tomato-and-goat-cheese-tart"],
+    "incomingMeals": [],
+    "scope": "Current metadata pairings contain no measured component amount or incoming meal dependency. They do not add ingredients or confer linked-source complete-review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "Preserve the complete accepted ee9c7078 repairs: rosemary1tsp/salt2tsp/pepper1tsp, full three cups seasoned cold cream, all2.5cups Gruyere/two cups Parmesan, protected mandoline,425/400 covered/uncovered route, tender-first/foil and95min including rest. Do not restore the bulk-added unlisted butter bloom, saucepan heating or incomplete native fixed cream allocations. Native and actual first HTML are exact family Kaitlin formula evidence, not proof of geographic origin or pan capacity. Current full-cream method is correct; clarify dividing all ingredients before multiple dishes so scaling does not create extra cream or discard cheese. Add optional native extra thyme garnish as a genuine separate allowance only if used, preserving all measured thyme in cream. No new yield/dose/temperature or fabricated nutrition.",
+    "yield": "8",
+    "yieldScope": "Current original-batch planning count remains; no measured finished weight/yield or tested capacity.",
+    "capacity": "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+    "timing": "At the original pan size, plan 25 minutes preparation, about 60 minutes baking and 10 minutes rest: 95 minutes total. Treat the uncovered 45 minutes as a check point; deeper loads and thicker slices take longer."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lbs Sweet Potatoes, peeled",
+        "3/8 lbs White Potatoes (Yukon Gold), peeled",
+        "3/4 cup Heavy Cream",
+        "3/4 clove Garlic, minced",
+        "1/4 tbsp Fresh Thyme",
+        "1/4 tbsp Fresh Sage",
+        "1/4 tsp Fresh Rosemary, chopped",
+        "1/2 tsp Salt",
+        "1/4 tsp Black Pepper",
+        "0.0625 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "5/8 cup Gruyère Cheese, shredded",
+        "1/2 cup Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 lbs Sweet Potatoes, peeled",
+        "3/4 lbs White Potatoes (Yukon Gold), peeled",
+        "1 1/2 cups Heavy Cream",
+        "1 1/2 cloves Garlic, minced",
+        "1/2 tbsp Fresh Thyme",
+        "1/2 tbsp Fresh Sage",
+        "1/2 tsp Fresh Rosemary, chopped",
+        "1 tsp Salt",
+        "1/2 tsp Black Pepper",
+        "1/8 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "1 1/4 cups Gruyère Cheese, shredded",
+        "1 cup Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 lbs Sweet Potatoes, peeled",
+        "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "3 cups Heavy Cream",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Thyme",
+        "1 tbsp Fresh Sage",
+        "1 tsp Fresh Rosemary, chopped",
+        "2 tsp Salt",
+        "1 tsp Black Pepper",
+        "1/4 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "2.5 cups Gruyère Cheese, shredded",
+        "2 cups Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 lbs Sweet Potatoes, peeled",
+        "2 1/4 lbs White Potatoes (Yukon Gold), peeled",
+        "4 1/2 cups Heavy Cream",
+        "4 1/2 cloves Garlic, minced",
+        "1 1/2 tbsp Fresh Thyme",
+        "1 1/2 tbsp Fresh Sage",
+        "1 1/2 tsp Fresh Rosemary, chopped",
+        "3 tsp Salt",
+        "1 1/2 tsp Black Pepper",
+        "3/8 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "3 3/4 cups Gruyère Cheese, shredded",
+        "3 cups Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 lbs Sweet Potatoes, peeled",
+        "3 lbs White Potatoes (Yukon Gold), peeled",
+        "6 cups Heavy Cream",
+        "6 cloves Garlic, minced",
+        "2 tbsp Fresh Thyme",
+        "2 tbsp Fresh Sage",
+        "2 tsp Fresh Rosemary, chopped",
+        "4 tsp Salt",
+        "2 tsp Black Pepper",
+        "1/2 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "5 cups Gruyère Cheese, shredded",
+        "4 cups Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 lbs Sweet Potatoes, peeled",
+        "4 1/2 lbs White Potatoes (Yukon Gold), peeled",
+        "9 cups Heavy Cream",
+        "9 cloves Garlic, minced",
+        "3 tbsp Fresh Thyme",
+        "3 tbsp Fresh Sage",
+        "3 tsp Fresh Rosemary, chopped",
+        "6 tsp Salt",
+        "3 tsp Black Pepper",
+        "3/4 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "7 1/2 cups Gruyère Cheese, shredded",
+        "6 cups Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 lbs Sweet Potatoes, peeled",
+        "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "3 cups Heavy Cream",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Thyme",
+        "1 tbsp Fresh Sage",
+        "1 tsp Fresh Rosemary, chopped",
+        "2 tsp Salt",
+        "1 tsp Black Pepper",
+        "1/4 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "2.5 cups Gruyère Cheese, shredded",
+        "2 cups Parmesan Reggiano, finely grated",
+        "Additional fresh thyme, as needed for optional garnish"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "ee9 full rosemary/salt/pepper/coldseasonedcream/allcream/425400/tenderfoil/95min; no bulk butter bloom restored.",
+  "remainingQuestions": [
+    "Actual dish depth and potato thickness determine whether the full original load fits and its tender-first clock.",
+    "How does the family prefer the optional separate thyme garnish? All measured thyme remains in the cream.",
+    "The source fixed half-cup plus three three-quarter-cup cream allocations do not spend the full three cups; the accepted proportional method remains."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

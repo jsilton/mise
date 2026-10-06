@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 435,
-    "completeEditorialPending": 208,
+    "recordedCompleteEditorial": 447,
+    "completeEditorialPending": 196,
     "originalBaseline": 612,
-    "originalReviewed": 408,
+    "originalReviewed": 418,
     "consideredConsolidations": 10,
-    "originalPending": 194,
+    "originalPending": 184,
     "additionalSources": 41,
-    "additionalReviewed": 27,
-    "additionalPending": 14,
+    "additionalReviewed": 29,
+    "additionalPending": 12,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 435,
+      "editoriallyReviewed": 447,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 394
+      "reviewItems": 374
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "201 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 435 recorded complete / 208 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [a4625686](https://github.com/jsilton/mise/commit/a462568681053177e82f27af229f54e18c447861), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37432492666) and all 10 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "201 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2798,18 +2798,7 @@
       "baseline": "original canonical",
       "source": "Adapted from everydaydishes.com",
       "sourceUrl": "http://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2817,19 +2806,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/broccoli-cheddar-quinoa-bites.md",
+        "acceptedSha256": "287566efaa65a7e2938c192e48e8abe45c4090b625bdfd4e5fc10c6f91e283b5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/broccoli-cheddar-quinoa-bites.json",
+        "sourceSha256": "287566efaa65a7e2938c192e48e8abe45c4090b625bdfd4e5fc10c6f91e283b5"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual scoop size and cooked-quinoa moisture affect the count, firmness and clock; the listed 30 bites is planning only.",
+        "How firmly do the bites hold after five minutes, especially with a wetter quinoa batch?",
+        "The actual modern publisher nine-inch square pan has no specified depth; use adequate headroom and check center rather than assuming identical timing.",
+        "The metadata pairings are serving suggestions, not measured ingredients or endorsement of linked muffin formulas."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -7180,18 +7177,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Glenna Johnson",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -7199,19 +7185,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/corn-casserole.md",
+        "acceptedSha256": "15123e7f537dc5cd6a81b028d8e86e95ec3c0dae9118ea4238f80cf88bbd5278",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/corn-casserole.json",
+        "sourceSha256": "15123e7f537dc5cd6a81b028d8e86e95ec3c0dae9118ea4238f80cf88bbd5278"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which complete family formula is intended: exact smaller8/8oz source versus current larger full cans? Neither automatic source prestige nor bulk change decides it.",
+        "For the held smaller native branch, does8ozwholecorn mean can contents before draining or actual drained weight, and which dish/depth was used?",
+        "Actual current dish capacity and filling depth need a kitchen check; a2quart vessel may require an additional dish.",
+        "Eight listed portions are planning, not measured finished yield or exact nutrition."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9750,18 +9744,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9769,19 +9752,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/elote-style-corn-on-the-cob.md",
+        "acceptedSha256": "bba824fe56a1beb3cd03dd5c4386c5b528d13834efdd3db97827671dddc6d80a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/elote-style-corn-on-the-cob.json",
+        "sourceSha256": "bba824fe56a1beb3cd03dd5c4386c5b528d13834efdd3db97827671dddc6d80a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does actual broiler permit the 4–6-inch placement and foil-lined sheet? Follow that appliance’s safe distances/material limits.",
+        "Ear sizes and direct grill/broiler output determine cooking time and batch count.",
+        "Source/title recipe is Git-only; no historic authenticity or publisher formula endorsement claimed.",
+        "Chile-lime seasoning brands differ in salt; current¼ tsp main remains, avoid automatic additional salt."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10749,18 +10740,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10768,19 +10748,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/fried-plantains.md",
+        "acceptedSha256": "d5f70172a045d1141f3dcd6f489d76a142b237462d503a2d7947251f43f10295",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/fried-plantains.json",
+        "sourceSha256": "d5f70172a045d1141f3dcd6f489d76a142b237462d503a2d7947251f43f10295"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does the actual skillet hold all slices in one round? Three fruit may need several rounds; record actual finish time.",
+        "Does the listed full 3 tbsp oil maintain a usable film through all rounds in the actual pan? No new dose invented; use heat/uncrowdedload and record sticking.",
+        "Ripeness and fruit size vary; mostly-black skins are a cue, not a guaranteed date or mold exemption."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11718,18 +11705,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/229669/glazed-carrots/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11737,19 +11713,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/glazed-carrots.md",
+        "acceptedSha256": "46aecaeb4cdef0aaa0f8c0104a6588f746ef08f701dacd44a8c3c5dad56b9588",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/glazed-carrots.json",
+        "sourceSha256": "46aecaeb4cdef0aaa0f8c0104a6588f746ef08f701dacd44a8c3c5dad56b9588"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual matchstick thickness/saucepan depth may finish before 8 minutes; record the pan and cut after cooking.",
+        "Current sea-salt volume retained; no density equivalence with saved generic salt.",
+        "Preference for plain or salted boiling water remains open without inventing its optional salt amount."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12586,13 +12569,7 @@
       "baseline": "addition",
       "source": "Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/grilled-corn-salad-with-feta/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12600,19 +12577,26 @@
         "evidence": ["docs/reviews/grilled-corn-salad-with-feta.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/grilled-corn-salad-with-feta.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "cdf119af7117fed9f2a54ec62769e600b7e42fceb985e028e566ebc38ffc3dfa",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/grilled-corn-salad-with-feta.json",
+        "sourceSha256": "cdf119af7117fed9f2a54ec62769e600b7e42fceb985e028e566ebc38ffc3dfa"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual corn-size yield differs; the two source count choices are not a measured mass equivalence.",
+        "Authored shopping display shows both optional corn options; choose one for purchase and cooking, never both. No native/source variant amount is merged.",
+        "Actual cooling and grill load may exceed 35 minutes; no tested bowl capacity."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12850,18 +12834,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12869,12 +12842,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/ham-and-cheese-green-bean-casserole.md",
+        "acceptedSha256": "9f3da7c4c369bdfb86532abd9043cdc481b9b26bdd5e3318b2c8add6411ae37c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/ham-and-cheese-green-bean-casserole.json",
+        "sourceSha256": "9f3da7c4c369bdfb86532abd9043cdc481b9b26bdd5e3318b2c8add6411ae37c"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -12883,11 +12862,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual dish depth and load determine bake time; source10×12 alternative and current9×13 are not capacity-equivalent claims.",
+        "Which cheese-top timing is preferred? Source bakes reserved cheddar from the outset, currentadds it with onions near finish.",
+        "Sourcefriedonion¾+½ contradiction cannot establish a1.25cup formula; no later acceptance for increasing listed1cup found.",
+        "Actual ham must be fully cooked/ready-to-eat; raw ham requires its own complete cooking process."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13760,18 +13741,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13779,19 +13749,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/honey-glazed-carrots.md",
+        "acceptedSha256": "9e13280600246dd66bb17305d96400d1462dfc50ca08923df6e64e469705b2e7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/honey-glazed-carrots.json",
+        "sourceSha256": "9e13280600246dd66bb17305d96400d1462dfc50ca08923df6e64e469705b2e7"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual baton thickness, baby-carrot product and available trays determine tenderness/loads.",
+        "The 8–10 minute honey finish may be shorter in the actual oven; no kitchen timer claim.",
+        "No independent original publisher was supplied; Git-introduced household formula retained rather than silently replacing it."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17810,13 +17787,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Mary Later",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17824,12 +17795,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/noodle-pudding.md",
+        "acceptedSha256": "3dc9b28f5c52c3448431c1e77b4988106147d8f1a6612c492559b2b4e3ea6bac",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/noodle-pudding.json",
+        "sourceSha256": "3dc9b28f5c52c3448431c1e77b4988106147d8f1a6612c492559b2b4e3ea6bac"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -17838,11 +17815,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual deep glass dish dimensions/capacity and overflow count need kitchen observation; no measured batter yield.",
+        "Existing12portions is planning, not a new weighed output.",
+        "Original12oz/350°F route differs deliberately from11142671; no automatic restoration or unsupported2–3day raw-custard hold."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20605,18 +20583,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/best-ratatouille-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20624,19 +20591,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/ratatouille.md",
+        "acceptedSha256": "c88a83f12276c2901723f175610e2627078a5d7d47609a97d7c19b15a308fc25",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/ratatouille.json",
+        "sourceSha256": "c88a83f12276c2901723f175610e2627078a5d7d47609a97d7c19b15a308fc25"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Source vegetable sizes are approximate; current medium-size option remains distinct rather than silently normalized to 8 oz.",
+        "Does household prefer source oregano/finishing-oil route or current lemon/unmeasured-salt route? Neither source link nor bulk rewrite settles approval.",
+        "Actual tray sizes, oven loads and vegetable ripeness change roasting/reduction time; no new capacity precision.",
+        "Ratatouille Dinner has four diners versus component six modest portions and vague layer/roast-or-simmer wording; meal not automatically reviewed/approved by component change."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -26822,13 +26797,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Kaitlin Gwock",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -26839,12 +26808,18 @@
         "evidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/sweet-and-white-potato-gratin.md",
+        "acceptedSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sweet-and-white-potato-gratin.json",
+        "sourceSha256": "3f6c9af286c87a622b6fe61c1e3d78b582197a9540f84a3e3c43e5e3d4855841"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -26853,12 +26828,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual dish depth and potato thickness determine whether the full original load fits and its tender-first clock.",
+        "How does the family prefer the optional separate thyme garnish? All measured thyme remains in the cream.",
+        "The source fixed half-cup plus three three-quarter-cup cream allocations do not spend the full three cups; the accepted proportional method remains."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27019,13 +26994,7 @@
       "baseline": "addition",
       "source": "allthehealthythings.com",
       "sourceUrl": "https://allthehealthythings.com/sausage-breakfast-casserole/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27033,19 +27002,27 @@
         "evidence": ["docs/reviews/sweet-potato-sausage-breakfast-casserole.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/sweet-potato-sausage-breakfast-casserole.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sweet-potato-sausage-breakfast-casserole.json",
+        "sourceSha256": "3515a92e00947d689ea31f94b54e179b01a2388b31f767070ddcdb3a85aa161d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual casserole dish depth, potato cube size and meat moisture determine capacity and elapsed bake time.",
+        "Actual raw sausage product must be known; ground pork and poultry have different minimum endpoints, while cured products are not automatic substitutions.",
+        "The current90-minute plan includes an unspecified standing interval; slice when the cooked mixture holds, without claiming a tested exact rest.",
+        "Publisher milk alternatives affect flavor and moisture; no blend or equal-thickness guarantee is asserted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

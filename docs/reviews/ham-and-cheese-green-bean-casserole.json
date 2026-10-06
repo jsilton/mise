@@ -1,0 +1,996 @@
+{
+  "slug": "ham-and-cheese-green-bean-casserole",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9fead70ef68165931859a85e4265194ee3ee3e3b",
+  "inputSha256": "d4c40924b0149cbb38244158d1309c2107ac3cdb56723f4b6c1e930027f3581e",
+  "acceptedSourceSha256": "9f3da7c4c369bdfb86532abd9043cdc481b9b26bdd5e3318b2c8add6411ae37c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "55 min",
+      "after": "65–75 min or longer, including blanching and 5-minute rest"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Fresh Green Beans, trimmed",
+        "1/2 lb Cooked Ham, diced",
+        "2 cans (10.75 oz) Condensed Cream of Mushroom Soup",
+        "3/4 cup Half-and-Half",
+        "1/2 cup Yellow Onion, diced",
+        "1 tsp Garlic Powder",
+        "1/2 tsp Kosher Salt",
+        "2 1/2 cups Sharp Cheddar, freshly grated",
+        "1 cup Canned French Fried Onions (divided)",
+        "Unsalted Butter (for the dish)"
+      ],
+      "after": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "4 cups low-sodium chicken broth or water",
+        "1 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "2 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "3/4 cup half-and-half",
+        "1 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1/2 lb cooked ham, diced; ready-to-eat product",
+        "1/2 cup yellow onion, diced",
+        "2 1/2 cups sharp cheddar cheese, freshly grated",
+        "1 cup canned French fried onions"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 315,
+        "protein": 18,
+        "carbs": 5.5,
+        "fat": 25,
+        "fiber": 1,
+        "sugar": 2.5,
+        "sodium": 740
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Drain beans and reserve topping amounts",
+        "outcome": "Tender beans and cooked ham in a hot creamy center beneath golden reserved cheese and onions.",
+        "techniques": ["temperature"],
+        "before": [
+          "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+          "Use already cooked, ready-to-eat ham and condensed soup without adding a soup-can dilution dose. The blanching liquid does not go into the filling."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A thick bean segment yields with slight resistance before draining.",
+            "why": "The bake continues cooking; an exact blanch clock cannot guarantee texture."
+          },
+          {
+            "step": 5,
+            "cue": "The center reaches 165°F and the onion topping is golden.",
+            "why": "Bubbling edges and crisp topping are not the center’s temperature."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The beans are hard while the topping is dark",
+            "cause": "Thick beans were under-blanched or the deep center is heating slowly.",
+            "fix": "Tent the topping and continue checking the center and beans. For the next batch, test a thick bean during blanching and keep similar dish depth."
+          }
+        ],
+        "timing": "Allow about 20–30 minutes preparation/blanching, around 40 minutes or longer baking and 5 minutes rest: about 65–75 minutes for the original pan, more with extra loads.",
+        "substitutions": [
+          {
+            "ingredient": "Cheddar topping stage",
+            "alternative": "To put the reserved cheddar on before baking, assemble with the same four-fifths cheddar inside and sprinkle the remaining one-fifth over the filling at the start. Keep half the fried onions inside and add their remaining half for the last stage. Retain the same 165°F center check and five-minute rest.",
+            "effect": "Putting the top cheese on earlier gives it more time to melt and brown; add the reserved fried onions near the end."
+          },
+          {
+            "ingredient": "Baking dish",
+            "alternative": "The saved recipe uses a 10×12-inch oven-safe dish. Use it only if its actual depth gives enough room for the full filling; divide excess among separate dishes instead of assuming the same capacity or clock.",
+            "effect": "Preserves source geometry as an option while requiring actual headroom."
+          }
+        ],
+        "storage": "Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout, checking the center; cover if needed to keep the topping from over-browning.",
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "beans",
+            "name": "Beans and pan",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "allowance": "as needed for greasing the dish",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "liquid",
+                "key": "liquid",
+                "name": "low-sodium chicken broth or water",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "beans",
+                    "share": 1
+                  }
+                ],
+                "role": "discarded"
+              },
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "fresh green beans",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "beans",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed, trimmed and cut into 2-inch lengths"
+              }
+            ]
+          },
+          {
+            "id": "filling",
+            "name": "Full casserole filling",
+            "ingredients": [
+              {
+                "id": "soup",
+                "key": "soup",
+                "name": "condensed cream of mushroom soup",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": "10 3/4",
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "half-and-half",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ham",
+                "key": "ham",
+                "name": "cooked ham",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "diced; ready-to-eat product"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "yellow onion",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "diced"
+              },
+              {
+                "id": "cheddar",
+                "key": "cheddar",
+                "name": "sharp cheddar cheese",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": "4/5"
+                  },
+                  {
+                    "step": "finish",
+                    "share": "1/5"
+                  }
+                ],
+                "preparation": "freshly grated"
+              },
+              {
+                "id": "fried-onions",
+                "key": "fried-onions",
+                "name": "canned French fried onions",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "finish",
+                    "share": "1/2"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare dish",
+            "text": "Heat oven to 350°F. For the original batch, use {{ingredients}} to butter a 9×13-inch oven-safe baking dish. Use enough dishes for similar filling depth with room below the rim when scaling."
+          },
+          {
+            "id": "beans",
+            "title": "Parboil beans",
+            "text": "Set out {{ingredients}}. Bring the blanching liquid to a boil in a saucepan, then add the beans. Begin checking around 5–6 minutes after adding beans: they should yield with slight resistance rather than remain hard or fall apart. Drain immediately without rinsing. Keep blanching liquid separate from casserole filling; discard it, or cool promptly and refrigerate separately if saving for another use."
+          },
+          {
+            "id": "mix",
+            "title": "Combine filling",
+            "text": "Set out {{ingredients}}. Whisk all the soup, half-and-half, garlic powder, salt and pepper together. Fold in all the drained beans, cooked ham, diced onion and the allocated cheese/fried onions. Four-fifths of the full cheddar and half the fried onions go inside; reserve the rest for the finishing stage. Do not dilute the condensed soup with the blanching broth."
+          },
+          {
+            "id": "bake",
+            "title": "Heat the full casserole",
+            "text": "Transfer all filling to the buttered dishes. Bake at 350°F, starting checks around 30 minutes for the original pan, until bubbling toward the center. This begins the final check rather than certifying the center by color alone."
+          },
+          {
+            "id": "finish",
+            "title": "Add reserved topping",
+            "text": "Scatter {{ingredients}} over the full filling, dividing the topping among dishes. Continue baking, starting checks around 10 minutes later, until the center reaches 165°F /74°C and the onions are golden. Check every dish; tent lightly if toppings brown before its center is ready."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and serve",
+            "text": "Rest 5 minutes before dividing the full casserole into the listed portions. The short rest thickens the hot sauce; keep leftovers chilled promptly."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis modern update transforms the classic holiday side into a main dish by adding savory ham. Par-boiling the beans in chicken broth for exactly 5 minutes before baking ensures they turn tender-crisp rather than squeaky and rubbery. Reserving half the cheddar and fried onions for the final 10 minutes creates a properly browned, crispy crust.\n\n## Directions\n\n1.  **Par-Boil:** In a medium pot, bring 4 cups chicken broth or water to a boil. Add green beans and cook for 5-6 minutes. Drain immediately. **Do not rinse.**\n2.  **Prep:** Preheat oven to 350°F. Butter a 9x13 baking dish.\n3.  **The Bind:** In a large bowl, whisk together the soup, half-and-half, garlic powder, salt, and pepper.\n4.  **Mix:** Fold in the par-boiled beans, diced ham, onion, 2 cups of the cheese, and 1/2 cup of the fried onions.\n5.  **Assemble:** Pour the mixture into the baking dish.\n6.  **Bake:** Bake for 30 minutes until bubbling.\n7.  **The Crunch Finish:** Remove the pan. Sprinkle the remaining 1/2 cup of cheese and the remaining 1/2 cup of fried onions over the top. Bake for an additional 10 minutes until the crust is deep golden and shatteringly crisp.\n8.  **Rest:** Let sit for 5 minutes before serving to allow the sauce to set.\n",
+    "after": "\n## Chef's Note\n\nAdapted from the Gwock Family recipe. Parboil the beans until they begin yielding, then drain before mixing so the condensed soup stays concentrated. Most of the cheddar and half the fried onions go inside; the reserved amounts finish on top near the end of baking.\n\n## Directions\n\n1. **Prepare dish:** Heat oven to 350°F. For the original batch, use unsalted butter to butter a 9×13-inch oven-safe baking dish. Use enough dishes for similar filling depth with room below the rim when scaling.\n2. **Parboil beans:** Set out low-sodium chicken broth or water and fresh green beans. Bring the blanching liquid to a boil in a saucepan, then add the beans. Begin checking around 5–6 minutes after adding beans: they should yield with slight resistance rather than remain hard or fall apart. Drain immediately without rinsing. Keep blanching liquid separate from casserole filling; discard it, or cool promptly and refrigerate separately if saving for another use.\n3. **Combine filling:** Set out condensed cream of mushroom soup, half-and-half, garlic powder, kosher salt, black pepper, cooked ham, yellow onion, 4/5 of the sharp cheddar cheese, and 1/2 of the canned French fried onions. Whisk all the soup, half-and-half, garlic powder, salt and pepper together. Fold in all the drained beans, cooked ham, diced onion and the allocated cheese/fried onions. Four-fifths of the full cheddar and half the fried onions go inside; reserve the rest for the finishing stage. Do not dilute the condensed soup with the blanching broth.\n4. **Heat the full casserole:** Transfer all filling to the buttered dishes. Bake at 350°F, starting checks around 30 minutes for the original pan, until bubbling toward the center. This begins the final check rather than certifying the center by color alone.\n5. **Add reserved topping:** Scatter 1/5 of the sharp cheddar cheese and 1/2 of the canned French fried onions over the full filling, dividing the topping among dishes. Continue baking, starting checks around 10 minutes later, until the center reaches 165°F /74°C and the onions are golden. Check every dish; tent lightly if toppings brown before its center is ready.\n6. **Rest and serve:** Rest 5 minutes before dividing the full casserole into the listed portions. The short rest thickens the hot sauce; keep leftovers chilled promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "SBS07-3",
+      "rationale": "38b29 bulk removed exact½tsppepper and4cupbroth/water from ingredients while retaining method destinations; restore those exact native/b7/045 amounts. Keep current full½lbCOOKEDham,2cans10.75ozcondensedsoup,¾cuphalf-and-half,2.5cupcheddar split2inside/½top and1cupfriedonions split½+½. Saved source onion directions¾inside+½top exceed its1cupTOTAL; do not restore that contradiction or invent¼extra. Current split remains reconciled; source pre-bake½cheddar top versus currentlate-top route is a separate complete option. Restore exact saved2-inch bean preparation;5–6min is firstcheck,notuniversaltexture.165center wholecasserole endpoint plus gentlefive-minute rest; all grease separate allowance.493885 unusedacid deletion preserved; no lemon revived. Omit unsupported country metadata added2a7,keepcuisine/family source.",
+      "confidence": "High exact source/current quantities and history; moderate editorial pan, planning clock and primary safety category application",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe Food Handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual primary read: wash produce, refrigerated perishables and prompt cooling, egg-dish160°F and leftover165°F. Does not establish formula, pan capacity or recipe clocks."
+        },
+        {
+          "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Actual current chart specifies meat AND meatless casseroles165°F, ground meat/sausage160°F and poultry165°F. Corn/noodle/ham and egg-sausage pan applications editorial; small quinoa-egg bites use FDA egg-dish160°F, square-pan casserole option165°F. No risk-elimination promise."
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Current direct main-page fetch403; official indexed guidance previously verified for shallow promptly chilled3–4days/165°F. Handling only, not tasted or recipe-specific shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual dish depth and load determine bake time; source10×12 alternative and current9×13 are not capacity-equivalent claims.",
+        "Which cheese-top timing is preferred? Source bakes reserved cheddar from the outset, currentadds it with onions near finish.",
+        "Sourcefriedonion¾+½ contradiction cannot establish a1.25cup formula; no later acceptance for increasing listed1cup found.",
+        "Actual ham must be fully cooked/ready-to-eat; raw ham requires its own complete cooking process."
+      ]
+    },
+    {
+      "id": "SBS07-I03",
+      "rationale": "The Ham effect exposes archive history and an unresolved original arithmetic error in a public cooking option; the reconciled current total is already protected. Quinoa’s instruction about an invented amount addresses an editor rather than a cook. These replacements explain the preserved cooking choices without changing either formula, the early-cheese variant or the full binder amounts.",
+      "confidence": "High exact public-prose scope; no new culinary route",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Natural culinary prose without archive history or editorial self-commentary; substitution effect should explain cooking"
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "5a3a241920a574fc2d650c5ffb4110917d75cd77ca6edaf6c376222e3e1a9f38"
+        },
+        {
+          "url": "https://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/",
+          "scope": "Actual primary recipe uses compact scoops, full egg/cheese binder and five-minute rest"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Ham%20and%20Cheese%20Green%20Bean%20Casserole.html",
+    "introductionScope": "Earlier actual HTML cooking introduction; exact native/source ingredients and complete method read",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "scope": "Formula, method, metadata and source history",
+      "discussion": "38b29 bulk removed exact½tsppepper and4cupbroth/water from ingredients while retaining method destinations; restore those exact native/b7/045 amounts. Keep current full½lbCOOKEDham,2cans10.75ozcondensedsoup,¾cuphalf-and-half,2.5cupcheddar split2inside/½top and1cupfriedonions split½+½. Saved source onion directions¾inside+½top exceed its1cupTOTAL; do not restore that contradiction or invent¼extra. Current split remains reconciled; source pre-bake½cheddar top versus currentlate-top route is a separate complete option. Restore exact saved2-inch bean preparation;5–6min is firstcheck,notuniversaltexture.165center wholecasserole endpoint plus gentlefive-minute rest; all grease separate allowance.493885 unusedacid deletion preserved; no lemon revived. Omit unsupported country metadata added2a7,keepcuisine/family source.",
+      "remainingQuestions": [
+        "Actual dish depth and load determine bake time; source10×12 alternative and current9×13 are not capacity-equivalent claims.",
+        "Which cheese-top timing is preferred? Source bakes reserved cheddar from the outset, currentadds it with onions near finish.",
+        "Sourcefriedonion¾+½ contradiction cannot establish a1.25cup formula; no later acceptance for increasing listed1cup found.",
+        "Actual ham must be fully cooked/ready-to-eat; raw ham requires its own complete cooking process."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Fresh Green Beans, trimmed",
+        "actualMethodDestination": "step1 blanch5–6/drain/no rinse; step4 full beans filling"
+      },
+      {
+        "text": "1/2 lb Cooked Ham, diced",
+        "actualMethodDestination": "step4 full cooked diced ham filling"
+      },
+      {
+        "text": "2 cans (10.75 oz) Condensed Cream of Mushroom Soup",
+        "actualMethodDestination": "step3 full condensed soup filling"
+      },
+      {
+        "text": "3/4 cup Half-and-Half",
+        "actualMethodDestination": "step3 full half-and-half filling"
+      },
+      {
+        "text": "1/2 cup Yellow Onion, diced",
+        "actualMethodDestination": "step4 full yellow onion filling"
+      },
+      {
+        "text": "1 tsp Garlic Powder",
+        "actualMethodDestination": "step3 full garlic powder filling"
+      },
+      {
+        "text": "1/2 tsp Kosher Salt",
+        "actualMethodDestination": "step3 full kosher salt filling"
+      },
+      {
+        "text": "2 1/2 cups Sharp Cheddar, freshly grated",
+        "actualMethodDestination": "step4 two cups inside; step7 half cup top =full2.5cups"
+      },
+      {
+        "text": "1 cup Canned French Fried Onions (divided)",
+        "actualMethodDestination": "step4 half cup inside; step7 half cup top =fullonecup"
+      },
+      {
+        "text": "Unsalted Butter (for the dish)",
+        "actualMethodDestination": "step2 butter dish; no measured grease dose"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "unsalted butter, as needed for greasing the dish",
+        "id": "beans.butter",
+        "quantity": null,
+        "allowance": "as needed for greasing the dish",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "prep share 1"
+      },
+      {
+        "text": "4 cups low-sodium chicken broth or water",
+        "id": "beans.liquid",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "beans",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "beans share 1"
+      },
+      {
+        "text": "1 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "id": "beans.beans",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "beans",
+            "share": 1
+          }
+        ],
+        "preparation": "washed, trimmed and cut into 2-inch lengths",
+        "actualMethodDestination": "beans share 1"
+      },
+      {
+        "text": "2 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "id": "filling.soup",
+        "quantity": {
+          "amount": 2,
+          "unit": "can"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "3/4 cup half-and-half",
+        "id": "filling.cream",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "1 tsp garlic powder",
+        "id": "filling.garlic",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "1/2 tsp kosher salt",
+        "id": "filling.salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "1/2 tsp black pepper",
+        "id": "filling.pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "1/2 lb cooked ham, diced; ready-to-eat product",
+        "id": "filling.ham",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": "diced; ready-to-eat product",
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "1/2 cup yellow onion, diced",
+        "id": "filling.onion",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": "diced",
+        "actualMethodDestination": "mix share 1"
+      },
+      {
+        "text": "2 1/2 cups sharp cheddar cheese, freshly grated",
+        "id": "filling.cheddar",
+        "quantity": {
+          "amount": "2 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": "4/5"
+          },
+          {
+            "step": "finish",
+            "share": "1/5"
+          }
+        ],
+        "preparation": "freshly grated",
+        "actualMethodDestination": "mix share 4/5; finish share 1/5"
+      },
+      {
+        "text": "1 cup canned French fried onions",
+        "id": "filling.fried-onions",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "mix",
+            "share": "1/2"
+          },
+          {
+            "step": "finish",
+            "share": "1/2"
+          }
+        ],
+        "preparation": null,
+        "actualMethodDestination": "mix share 1/2; finish share 1/2"
+      }
+    ],
+    "savedOriginal": {
+      "ingredients": [
+        "Butter, for greasing the baking dish",
+        "4 cups low-sodium chicken broth or water",
+        "1 lb green beans, tripped and cut into 2-inch lengths",
+        "2 (10.75-oz) cans condensed cream of mushroom soup",
+        "3/4 cup half-and-half",
+        "1 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1/2 tsp freshly ground black pepper",
+        "1/2 lb ham, diced",
+        "1/2 cup diced onion",
+        "2 1/2 cups shredded cheddar cheese",
+        "1 cup canned French fried onions"
+      ],
+      "directions": "Preheat oven to 350 degrees. Butter a 10x12 inch baking dish.\n\nIn a medium saucepan, bring the chicken broth to a boil. Add the green beans and cook until tender-crisp, 5 to 6 minutes. Drain and save the chicken broth for another use.\n\nIn a large bowl, whisk together the soup, half-and-half, garlic powder, salt, and pepper. Stir in the green beans, ham, onion, 2 cups of the cheddar, and 3/4 cup of the fried onions.\n\nPour the casserole mixture into the baking dish. Sprinkle with the remaining 1/2 cup cheddar and bake until bubbling and crusty, about 40 minutes, adding the remaining 1/2 cup onions during the last 10 minutes of baking.\n\nRemove from the oven, let sit for 5 minutes, and server.",
+      "reference": "privately retained evidence",
+      "scope": "Exact private existing registry binding to durable original450. Source rows are not the frozen current ledger."
+    },
+    "frozenMethodOnly": [
+      "4 cups broth or water step1, absent from frozen ingredient list",
+      "Pepper step3, absent from frozen ingredient list"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare dish: Heat oven to 350°F. For the original batch, use unsalted butter to butter a 9×13-inch oven-safe baking dish. Use enough dishes for similar filling depth with room below the rim when scaling."
+    },
+    {
+      "step": 2,
+      "text": "Parboil beans: Set out low-sodium chicken broth or water and fresh green beans. Bring the blanching liquid to a boil in a saucepan, then add the beans. Begin checking around 5–6 minutes after adding beans: they should yield with slight resistance rather than remain hard or fall apart. Drain immediately without rinsing. Keep blanching liquid separate from casserole filling; discard it, or cool promptly and refrigerate separately if saving for another use."
+    },
+    {
+      "step": 3,
+      "text": "Combine filling: Set out condensed cream of mushroom soup, half-and-half, garlic powder, kosher salt, black pepper, cooked ham, yellow onion, 4/5 of the sharp cheddar cheese, and 1/2 of the canned French fried onions. Whisk all the soup, half-and-half, garlic powder, salt and pepper together. Fold in all the drained beans, cooked ham, diced onion and the allocated cheese/fried onions. Four-fifths of the full cheddar and half the fried onions go inside; reserve the rest for the finishing stage. Do not dilute the condensed soup with the blanching broth."
+    },
+    {
+      "step": 4,
+      "text": "Heat the full casserole: Transfer all filling to the buttered dishes. Bake at 350°F, starting checks around 30 minutes for the original pan, until bubbling toward the center. This begins the final check rather than certifying the center by color alone."
+    },
+    {
+      "step": 5,
+      "text": "Add reserved topping: Scatter 1/5 of the sharp cheddar cheese and 1/2 of the canned French fried onions over the full filling, dividing the topping among dishes. Continue baking, starting checks around 10 minutes later, until the center reaches 165°F /74°C and the onions are golden. Check every dish; tent lightly if toppings brown before its center is ready."
+    },
+    {
+      "step": 6,
+      "text": "Rest and serve: Rest 5 minutes before dividing the full casserole into the listed portions. The short rest thickens the hot sauce; keep leftovers chilled promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cheddar topping stage",
+      "alternative": "To put the reserved cheddar on before baking, assemble with the same four-fifths cheddar inside and sprinkle the remaining one-fifth over the filling at the start. Keep half the fried onions inside and add their remaining half for the last stage. Retain the same 165°F center check and five-minute rest.",
+      "effect": "Putting the top cheese on earlier gives it more time to melt and brown; add the reserved fried onions near the end.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    },
+    {
+      "ingredient": "Baking dish",
+      "alternative": "The saved recipe uses a 10×12-inch oven-safe dish. Use it only if its actual depth gives enough room for the full filling; divide excess among separate dishes instead of assuming the same capacity or clock.",
+      "effect": "Preserves source geometry as an option while requiring actual headroom.",
+      "reference": "exactChanges.learning.after.substitutions",
+      "scope": "Complete distinct option; full main supplies remain unless expressly replaced."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "honey-glazed-carrots",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "avocado-kale-caesar-salad"
+    ],
+    "incomingMeals": [],
+    "scope": "Current metadata pairings contain no measured component amount or incoming meal dependency. They do not add ingredients or confer linked-source complete-review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "38b29 bulk removed exact½tsppepper and4cupbroth/water from ingredients while retaining method destinations; restore those exact native/b7/045 amounts. Keep current full½lbCOOKEDham,2cans10.75ozcondensedsoup,¾cuphalf-and-half,2.5cupcheddar split2inside/½top and1cupfriedonions split½+½. Saved source onion directions¾inside+½top exceed its1cupTOTAL; do not restore that contradiction or invent¼extra. Current split remains reconciled; source pre-bake½cheddar top versus currentlate-top route is a separate complete option. Restore exact saved2-inch bean preparation;5–6min is firstcheck,notuniversaltexture.165center wholecasserole endpoint plus gentlefive-minute rest; all grease separate allowance.493885 unusedacid deletion preserved; no lemon revived. Omit unsupported country metadata added2a7,keepcuisine/family source.",
+    "yield": "8 portions",
+    "yieldScope": "Current original-batch planning count remains; no measured finished weight/yield or tested capacity.",
+    "capacity": "The stated pan is for the original batch. Multiples need separate original-size pans or enough vessels for similar filling depth and headroom; smaller batches need an appropriately smaller dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures and cut sizes stay fixed; extra loads add time.",
+    "timing": "Allow about 20–30 minutes preparation/blanching, around 40 minutes or longer baking and 5 minutes rest: about 65–75 minutes for the original pan, more with extra loads."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "1 cup low-sodium chicken broth or water",
+        "1/4 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "1/2 can (10 3/4 oz) condensed cream of mushroom soup",
+        "0.19 cup half-and-half",
+        "1/4 tsp garlic powder",
+        "1/8 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1/8 lb cooked ham, diced; ready-to-eat product",
+        "1/8 cup yellow onion, diced",
+        "5/8 cup sharp cheddar cheese, freshly grated",
+        "1/4 cup canned French fried onions"
+      ],
+      "yield": "2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "2 cups low-sodium chicken broth or water",
+        "1/2 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "1 can (10 3/4 oz) condensed cream of mushroom soup",
+        "3/8 cup half-and-half",
+        "1/2 tsp garlic powder",
+        "1/4 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "1/4 lb cooked ham, diced; ready-to-eat product",
+        "1/4 cup yellow onion, diced",
+        "1 1/4 cups sharp cheddar cheese, freshly grated",
+        "1/2 cup canned French fried onions"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "4 cups low-sodium chicken broth or water",
+        "1 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "2 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "3/4 cup half-and-half",
+        "1 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1/2 lb cooked ham, diced; ready-to-eat product",
+        "1/2 cup yellow onion, diced",
+        "2 1/2 cups sharp cheddar cheese, freshly grated",
+        "1 cup canned French fried onions"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "6 cups low-sodium chicken broth or water",
+        "1 1/2 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "3 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "1 1/8 cups half-and-half",
+        "1 1/2 tsp garlic powder",
+        "3/4 tsp kosher salt",
+        "3/4 tsp black pepper",
+        "3/4 lb cooked ham, diced; ready-to-eat product",
+        "3/4 cup yellow onion, diced",
+        "3 3/4 cups sharp cheddar cheese, freshly grated",
+        "1 1/2 cups canned French fried onions"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "8 cups low-sodium chicken broth or water",
+        "2 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "4 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "1 1/2 cups half-and-half",
+        "2 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1 tsp black pepper",
+        "1 lb cooked ham, diced; ready-to-eat product",
+        "1 cup yellow onion, diced",
+        "5 cups sharp cheddar cheese, freshly grated",
+        "2 cups canned French fried onions"
+      ],
+      "yield": "16 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "12 cups low-sodium chicken broth or water",
+        "3 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "6 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "2 1/4 cups half-and-half",
+        "3 tsp garlic powder",
+        "1 1/2 tsp kosher salt",
+        "1 1/2 tsp black pepper",
+        "1 1/2 lb cooked ham, diced; ready-to-eat product",
+        "1 1/2 cups yellow onion, diced",
+        "7 1/2 cups sharp cheddar cheese, freshly grated",
+        "3 cups canned French fried onions"
+      ],
+      "yield": "24 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Beans and pan ---",
+        "unsalted butter, as needed for greasing the dish",
+        "4 cups low-sodium chicken broth or water",
+        "1 lb fresh green beans, washed, trimmed and cut into 2-inch lengths",
+        "--- Full casserole filling ---",
+        "2 cans (10 3/4 oz) condensed cream of mushroom soup",
+        "3/4 cup half-and-half",
+        "1 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "1/2 lb cooked ham, diced; ready-to-eat product",
+        "1/2 cup yellow onion, diced",
+        "2 1/2 cups sharp cheddar cheese, freshly grated",
+        "1 cup canned French fried onions"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "493885 unused lemon removal preserved; no lemon addition.",
+  "remainingQuestions": [
+    "Actual dish depth and load determine bake time; source10×12 alternative and current9×13 are not capacity-equivalent claims.",
+    "Which cheese-top timing is preferred? Source bakes reserved cheddar from the outset, currentadds it with onions near finish.",
+    "Sourcefriedonion¾+½ contradiction cannot establish a1.25cup formula; no later acceptance for increasing listed1cup found.",
+    "Actual ham must be fully cooked/ready-to-eat; raw ham requires its own complete cooking process."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
+  "rootDisposition": "Accept these twelve written versions, preserving full richness, family authorship, prior repairs and complete distinct source/current variants. Smaller source corn formula, conflicting original noodle-pudding route and linked meals remain unresolved. Planning clocks and yields are untested. No kitchen tests or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 98,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12269,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 72,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print button enabled on all twelve pages; shared print stylesheet and semantics preserved. Actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
