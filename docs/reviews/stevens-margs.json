@@ -1,0 +1,300 @@
+{
+  "slug": "stevens-margs",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "0d60ad59e43c82c39c0f6cd22de0acb9b1daf46ff35963d8d91acdd7068b5668",
+  "acceptedSourceSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["smoke"],
+      "after": ["mix"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 oz reposado tequila",
+        "1 oz dry orange liqueur (40% ABV) (The \"Silk\" Base)",
+        "1 oz Fresh Lime Juice (The Acid Balance)",
+        "1 squirt Agave Syrup",
+        "Pinch of Smoked Sea Salt (The complex flavor)",
+        "Lime wedge for garnish"
+      ],
+      "after": [
+        "2 oz reposado tequila",
+        "1 oz dry orange liqueur (40% ABV) (The \"Silk\" Base)",
+        "1 oz Fresh Lime Juice (The Acid Balance)",
+        "1 squirt Agave Syrup",
+        "Pinch of Smoked Sea Salt (The complex flavor)",
+        "Lime wedge for garnish",
+        "Ice, for shaking and serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 20,
+        "protein": 0.5,
+        "carbs": 7,
+        "fat": 0,
+        "fiber": 2,
+        "sugar": 1,
+        "sodium": 2330
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the measured 2:1:1 main separate from the equal-part version.",
+        "outcome": "A cold margarita with all the listed tequila, liqueur, lime, agave and smoked salt.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Measure the full listed main quantities; the original batch's four fluid ounces precede ice dilution and the unmeasured agave/garnish.",
+          "Mix proportional shaker batches when scaling rather than overfilling one shaker."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "All the measured liquids, agave and smoked-salt pinch are in the shaker.",
+            "why": "The smoked salt seasons the drink itself; it is not the glass-rim supply."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Salt stays in a clump.",
+            "cause": "The pinch was not dispersed with the liquids.",
+            "fix": "Shake with the full liquid mixture and ice, then strain; do not add another full pinch merely because a few crystals remain."
+          }
+        ],
+        "timing": "About 5 minutes per original drink; 15–20 seconds is the first chilling check, with more shaking rounds for larger loads.",
+        "storage": "Shake for immediate service. Keep fresh juice and cut fruit refrigerated while preparing a batch.",
+        "sources": [
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Steven's equal-part ratio",
+            "alternative": "Replace the main 2:1:1 ratio with equal measured volumes of reposado tequila, orange liqueur and fresh lime juice. Choose one common part volume and measure each of the three equally. Keep the agave squirt and smoked-salt pinch to taste, then use the same complete shake, strain, fresh-ice and lime-garnish method. Divide the resulting amount into appropriately sized glasses; the original part size and serving count are unspecified.",
+            "effect": "This preserves Steven's original equal-part formula separately from the full listed two-ounce-tequila main. It does not claim one source part equals one ounce or that both versions make the same serving volume."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis modern margarita uses a 1:1:1 ratio of reposado tequila, dry orange liqueur, and fresh lime juice for balanced sweet-tart-boozy proportions. Instead of rimming the glass, a pinch of smoked sea salt added directly to the shaker amplifies the wood-aged notes of the reposado while providing consistent seasoning throughout the drink.\n\n## Directions\n\n1.  **Thermal Prep:** Fill a rocks glass with fresh ice and let it chill while you mix the drink.\n2.  **The Base:** In a cocktail shaker filled with large ice cubes, combine the tequila, dry orange liqueur, lime juice, and agave.\n3.  **The Pulse:** Add the pinch of smoked sea salt.\n4.  **Aeration:** Shake vigorously for 15-20 seconds until the shaker is ice-cold and frosted.\n5.  **Strain:** Double strain into the prepared rocks glass over fresh ice.\n6.  **Garnish:** Express a lime wedge over the surface and drop it in for the final aromatic **High Note**.\n",
+    "after": "\n## Chef's Note\n\nThe listed main uses two parts tequila to one part orange liqueur and one part lime juice. Add the smoked sea salt inside the shaker rather than using it as a rim. Steven's separate equal-part version keeps all three measured volumes equal instead.\n\n## Directions\n\n1. Wash the lime before juicing or cutting the garnish. Chill a rocks glass and fill it with fresh serving ice.\n\n2. Combine all the listed tequila, orange liqueur, lime juice and agave in a shaker with shaking ice. Add the listed smoked-sea-salt pinch. Leave working space and use proportional shaker batches when scaling.\n\n3. Shake vigorously, beginning to check around 15–20 seconds, until cold. Double-strain over the fresh serving ice in a glass large enough for the full drink.\n\n4. Squeeze the garnish lime wedge lightly over the surface if wanted, add it and serve immediately.\n"
+  },
+  "findings": [
+    {
+      "id": "BM22-stevens-margs",
+      "rationale": "Exact native/045 has1 part each tequila/orange liqueur/lime without a measured part volume. 2f2553cdfdbb0ab775b3018274db9820ab42606a introduces current2oz/1oz/1oz and shake method; later note falsely calls it1:1:1. Preserve full current2:1:1 measured main plus separate exact equal-volume source ratio; no later explicit rejection established and no source part volume/serving equivalence invented.",
+      "confidence": "High source-dose/destination preservation; moderate untested culinary capacity/clock and guidance applications.",
+      "applicableSources": [
+        {
+          "title": "FDA — Produce preparation",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "exactChanges[0]",
+        "exactChanges[1]",
+        "exactChanges[2]",
+        "exactChanges[3]",
+        "exactChanges[4]",
+        "exactChanges[5]"
+      ],
+      "questions": [
+        "Which ratio Steven prefers remains a household question, not approval of a bulk reduction or source reset.",
+        "Source part size and resulting serving count are unspecified.",
+        "Agave squirt and smoked-salt pinch are genuinely unmeasured and need actual product/taste checking."
+      ]
+    },
+    {
+      "id": "BM22-I02-learning.before[0]",
+      "title": "Bounded independent correction",
+      "rationale": "The main 2:1:1 formula contains four fluid ounces only at 1×, before dilution and genuine allowances. Its measured inputs total two at 0.5× and eight at 2×. Qualifying the original batch preserves that useful fact without contradicting enabled scaling or assigning a volume to the separately retained native equal-part recipe.",
+      "confidence": "High for exact source/field/scaling or bookkeeping evidence; no physical validation.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "894676f10fc16e13dddb3c1235376fb695c4f5fdd646d7af082f5313ccf7e9b5"
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Unscaled cooking/learning prose must identify original-batch numeric context."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "The native common part volume and resulting serving count remain unspecified; the equal-part alternative is not normalized to one-ounce parts."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Steven%E2%80%99s%20Margs.html",
+    "introductionScope": "Actual earlier HTML cooking introduction; exact stable-bound original450, not a title-only native join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Exact native/045 has1 part each tequila/orange liqueur/lime without a measured part volume. 2f2553cdfdbb0ab775b3018274db9820ab42606a introduces current2oz/1oz/1oz and shake method; later note falsely calls it1:1:1. Preserve full current2:1:1 measured main plus separate exact equal-volume source ratio; no later explicit rejection established and no source part volume/serving equivalence invented.",
+      "sourceEvidence": "privately retained evidence",
+      "applicability": "Exact stable-bound original450 cooking source; actual followed history retained. Current publisher fetch scope separately recorded."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 oz reposado tequila",
+        "destination": "tequila2"
+      },
+      {
+        "ingredient": "1 oz dry orange liqueur (40% ABV) (The \"Silk\" Base)",
+        "destination": "orangeliqueur2"
+      },
+      {
+        "ingredient": "1 oz Fresh Lime Juice (The Acid Balance)",
+        "destination": "limejuice2"
+      },
+      {
+        "ingredient": "1 squirt Agave Syrup",
+        "destination": "agave2"
+      },
+      {
+        "ingredient": "Pinch of Smoked Sea Salt (The complex flavor)",
+        "destination": "smokedsalt3"
+      },
+      {
+        "ingredient": "Lime wedge for garnish",
+        "destination": "limewedge6"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 oz reposado tequila",
+        "destination": "tequila2fullmain"
+      },
+      {
+        "ingredient": "1 oz dry orange liqueur (40% ABV) (The \"Silk\" Base)",
+        "destination": "orangeliqueur2fullmain"
+      },
+      {
+        "ingredient": "1 oz Fresh Lime Juice (The Acid Balance)",
+        "destination": "limejuice1prep→2fullmain"
+      },
+      {
+        "ingredient": "1 squirt Agave Syrup",
+        "destination": "agave2"
+      },
+      {
+        "ingredient": "Pinch of Smoked Sea Salt (The complex flavor)",
+        "destination": "smokedsalt2"
+      },
+      {
+        "ingredient": "Lime wedge for garnish",
+        "destination": "limewedge1prep→4garnish"
+      },
+      {
+        "ingredient": "Ice, for shaking and serving",
+        "destination": "ice1serving/2shaking→3strain"
+      }
+    ],
+    "frozenMethodOnly": ["shaking/servingice"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Wash the lime before juicing or cutting the garnish. Chill a rocks glass and fill it with fresh serving ice."
+    },
+    {
+      "step": 2,
+      "text": "Combine all the listed tequila, orange liqueur, lime juice and agave in a shaker with shaking ice. Add the listed smoked-sea-salt pinch. Leave working space and use proportional shaker batches when scaling."
+    },
+    {
+      "step": 3,
+      "text": "Shake vigorously, beginning to check around 15–20 seconds, until cold. Double-strain over the fresh serving ice in a glass large enough for the full drink."
+    },
+    {
+      "step": 4,
+      "text": "Squeeze the garnish lime wedge lightly over the surface if wanted, add it and serve immediately."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "learning.substitutions[0]",
+      "ingredient": "Steven's equal-part ratio",
+      "alternative": "Replace the main 2:1:1 ratio with equal measured volumes of reposado tequila, orange liqueur and fresh lime juice. Choose one common part volume and measure each of the three equally. Keep the agave squirt and smoked-salt pinch to taste, then use the same complete shake, strain, fresh-ice and lime-garnish method. Divide the resulting amount into appropriately sized glasses; the original part size and serving count are unspecified.",
+      "effect": "This preserves Steven's original equal-part formula separately from the full listed two-ounce-tequila main. It does not claim one source part equals one ounce or that both versions make the same serving volume.",
+      "scope": "Exclusive complete option; source quantities are original-batch context and manually proportional unless authored in the main formula."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "carnitas-bowl",
+      "chili",
+      "chipotle-pork-and-sweet-corn-tamale-bowls",
+      "crispy-black-bean-tacos"
+    ],
+    "scope": "Existing metadata pairings retained; they do not change the ingredient formula or certify linked recipes."
+  },
+  "ratiosYieldAndCapacity": {
+    "wholeDosePreservation": "All frozen measured main flavor supplies retained; additional source components and genuine allowances are separately declared. No health reductions or measured finished-volume claim.",
+    "yield": "1",
+    "capacity": "Actual vessel/appliance working space and proportional batches; no new certified dimensions or capacity.",
+    "timing": "About 5 minutes per original drink; 15–20 seconds is the first chilling check, with more shaking rounds for larger loads."
+  },
+  "preservedPriorRepairs": "Current spirit/product identity, full-rich quantities and existing source/household routes preserved or explicitly held.",
+  "remainingQuestions": [
+    "Which ratio Steven prefers remains a household question, not approval of a bulk reduction or source reset.",
+    "Source part size and resulting serving count are unspecified.",
+    "Agave squirt and smoked-salt pinch are genuinely unmeasured and need actual product/taste checking."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

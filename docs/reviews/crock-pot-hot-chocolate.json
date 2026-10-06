@@ -1,0 +1,333 @@
+{
+  "slug": "crock-pot-hot-chocolate",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "9a57d8ff9d1fb0096264605de6eb608e1da345983eaffa843f401410ef0ffeef",
+  "acceptedSourceSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 485,
+        "protein": 9.5,
+        "carbs": 42,
+        "fat": 33.5,
+        "fiber": 3.5,
+        "sugar": 36,
+        "sodium": 400
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Melt the full chocolate supply gently and separate adult-only service.",
+        "outcome": "Hot, smooth chocolate with the full whole-milk and heavy-cream base.",
+        "techniques": ["temperature"],
+        "before": [
+          "The six-quart cooker is the original-batch source vessel, not a capacity promise for every scale. Follow the actual appliance fill and operating instructions; use separate proportional batches when needed.",
+          "The full optional eight-ounce Irish-cream supply belongs to the original adult-only batch. Keep an all-ages batch alcohol-free rather than adding the entire amount to a smaller reserved portion."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The chopped chocolate has melted and the drink is hot and smooth throughout.",
+            "why": "Elapsed time or a LOW setting alone does not establish melt, temperature or holding conditions."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cocoa clumps remain after heating.",
+            "cause": "The dry powders were not dispersed as the milk was added.",
+            "fix": "Whisk the dry powders together first, then whisk in milk gradually; whisk gently during heating without scraping any scorched material into the drink."
+          }
+        ],
+        "timing": "Plan about 10 minutes preparation plus roughly 2 hours LOW heating, checked by hot, melted, smooth texture. Larger loads and different cookers change the actual time; the source marshmallow finish adds about 2 minutes.",
+        "storage": "Hold for service at 140°F or above, measured in the drink. Cool leftovers promptly in shallow containers and refrigerate at 40°F or below for up to three days; reheat stored leftovers to 165°F, stirring gently. Count earlier prepared dairy and product limits where shorter.",
+        "sources": [
+          {
+            "title": "Pioneer Woman — Crock-Pot hot chocolate",
+            "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/"
+          },
+          {
+            "title": "USDA — Leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Semisweet and melted-marshmallow version",
+            "alternative": "Replace the listed bittersweet chocolate with the same listed chocolate weight of chopped semisweet chocolate, and omit the main fine-sea-salt addition. Keep all the whole milk, heavy cream, sugar, cocoa, vanilla and espresso amounts. Heat with the same LOW method until hot, melted and smooth; then stir in 15 marshmallows for the original batch and cook until they begin melting, about 2 minutes. Scale that marshmallow count proportionally. The full optional Irish cream remains an adult-only batch choice; use the same hot holding and separate optional marshmallow/shaved-chocolate garnishes.",
+            "effect": "This is the complete Pioneer Woman semisweet/melted-marshmallow version, separate from the full bittersweet-and-salt main. Marshmallow size and actual sweetness need checking."
+          },
+          {
+            "ingredient": "Stovetop heating",
+            "alternative": "Use the full chosen formula in a roomy heavy saucepan over low heat. Whisk the powders together, gradually whisk in the milk, then add all cream, chocolate, vanilla and espresso plus salt if using the main. Stir often until hot, melted and smooth without scorching. Finish the chosen marshmallow or adult-only liqueur option, if using, and serve with the same full garnishes and hot-holding checks.",
+            "effect": "The publisher also provides low stovetop heating. No model-specific clock or reduction in dairy or chocolate is implied."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWhile serious chocolatiers prefer the stovetop, the slow cooker is an excellent tool for **gentle tempering**. The low, consistent heat prevents the chocolate from seizing and allows the espresso and vanilla to infuse deeply into the dairy. By using real bittersweet chocolate bars instead of just powder, we transform this from \"cocoa\" into a rich \"drinking chocolate\" with a luxurious mouthfeel. A pinch of salt is non-negotiable - it cuts the sweetness and makes the cacao sing.\n\n## Directions\n\n1.  **Whisk:** In a 6-quart slow cooker, whisk together the sugar, cocoa powder, espresso powder, and salt.\n2.  **Incorporate:** Gradually pour in the milk and heavy cream, whisking constantly until the powder is mostly dissolved.\n3.  **Melt:** Stir in the chopped bittersweet chocolate and vanilla extract.\n4.  **Slow Cook:** Cover and cook on **LOW** for 2 hours. Whisk vigorously every 30-45 minutes to ensure the chocolate emulsifies with the dairy.\n5.  **Finish:** Just before serving, stir in the liqueur (if using).\n6.  **Serve:** Ladle into mugs. Top with fresh marshmallows and shaved chocolate.\n",
+    "after": "\n## Chef's Note\n\nWhisk the dry powders together and add the milk gradually to disperse the cocoa. LOW heating melts the chocolate into the full cream-and-milk base; whisk periodically and judge hot, smooth texture before serving. The separate semisweet version also melts marshmallows into the drink.\n\n## Directions\n\n1. Choose a cooker with safe working room for the full batch; the original recipe uses a six-quart slow cooker. Use separate proportional batches if the actual appliance cannot accommodate the scaled load.\n\n2. Whisk together all the listed sugar, cocoa, espresso and fine sea salt. Gradually whisk in all the milk, then all the heavy cream.\n\n3. Add all the chopped bittersweet chocolate and vanilla. Cover and heat on LOW, following the actual cooker instructions.\n\n4. Whisk periodically, beginning around 30–45 minutes, and continue until the chocolate has melted and the drink is hot and smooth throughout, roughly 2 hours for the original source batch. Do not use WARM to heat the cold starting mixture.\n\n5. If making an adult-only batch, stir in the full optional listed Irish cream. Keep an all-ages batch alcohol-free. For continued hot service check that the drink stays at 140°F or above; a WARM switch label alone does not establish that temperature.\n\n6. Divide among the listed planning portions and add the optional marshmallow and shaved-chocolate garnishes. Serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "BM22-crock-pot-hot-chocolate",
+      "rationale": "d607033fbfb5c77f407a8984f0ae073f782f3296 changes semisweet to bittersweet60%, adds fine sea salt and removes15 marshmallows melted into base. Later whole followed history has prose/metadata edits, not an explicit decision rejecting the source route. Native/045/current PioneerWoman agree on source semisweet/melted marshmallows. Preserve current main, restore exclusive complete source option.",
+      "confidence": "High source-dose/destination preservation; moderate untested culinary capacity/clock and guidance applications.",
+      "applicableSources": [
+        {
+          "title": "Pioneer Woman — Crock-Pot hot chocolate",
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/"
+        },
+        {
+          "title": "USDA — Leftover handling",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "exactChanges[0]",
+        "exactChanges[1]",
+        "exactChanges[2]",
+        "exactChanges[3]"
+      ],
+      "questions": [
+        "Actual slow-cooker model working fill and LOW/WARM temperatures at each batch size.",
+        "Eight portions are planning, not measured finished volume; optional liqueur belongs only to an adult batch.",
+        "Source marshmallow size is unspecified; texture/sweetness needs kitchen checking."
+      ]
+    },
+    {
+      "id": "BM22-I01-learning.substitutions[0].alternative",
+      "title": "Bounded independent correction",
+      "rationale": "The main chocolate weight actually scales from 8 oz to 4 oz at 0.5× and 16 oz at 2×. The exclusive semisweet alternative's fixed eight-ounce instruction would alter the ratio at those scales. Preserve the exact original eight ounces through the listed proportion, all dairy/sugar/cocoa/vanilla/espresso, source marshmallows and the current bittersweet/salt main.",
+      "confidence": "High for exact source/field/scaling or bookkeeping evidence; no physical validation.",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "31f4e207b5f38cdbc12be69c80f74d09942c56da4620f52d54562fb5a37c1200"
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "scope": "Serving controls leave public method/learning prose unchanged."
+        },
+        {
+          "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/",
+          "scope": "Actual current complete recipe read independently: eight ounces semisweet in its original batch; full dairy and optional Irish cream preserved. Publisher does not validate scaled cooker loads."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual marshmallow size/sweetness and cooker working capacity remain kitchen questions; no fixed model or finished-yield claim added."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Crock-Pot%20Hot%20Chocolate.html",
+    "introductionScope": "Actual earlier HTML cooking introduction; exact stable-bound original450, not a title-only native join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "d607033fbfb5c77f407a8984f0ae073f782f3296 changes semisweet to bittersweet60%, adds fine sea salt and removes15 marshmallows melted into base. Later whole followed history has prose/metadata edits, not an explicit decision rejecting the source route. Native/045/current PioneerWoman agree on source semisweet/melted marshmallows. Preserve current main, restore exclusive complete source option.",
+      "sourceEvidence": "privately retained evidence",
+      "applicability": "Exact stable-bound original450 cooking source; actual followed history retained. Current publisher fetch scope separately recorded."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "6 cups Whole Milk",
+        "destination": "milk2 whisk"
+      },
+      {
+        "ingredient": "2 cups Heavy Cream",
+        "destination": "cream2 whisk"
+      },
+      {
+        "ingredient": "1/2 cup Granulated Sugar",
+        "destination": "sugar1 drymix"
+      },
+      {
+        "ingredient": "1/3 cup High-Quality Unsweetened Cocoa Powder",
+        "destination": "cocoa1 drymix"
+      },
+      {
+        "ingredient": "8 oz Bittersweet Chocolate (60% cacao), finely chopped",
+        "destination": "chocolate3 melt"
+      },
+      {
+        "ingredient": "2 teaspoons Vanilla Extract",
+        "destination": "vanilla3"
+      },
+      {
+        "ingredient": "1 teaspoon Instant Espresso Powder (Brings out the chocolate depth)",
+        "destination": "espresso1"
+      },
+      {
+        "ingredient": "1/4 teaspoon Fine Sea Salt",
+        "destination": "salt1"
+      },
+      {
+        "ingredient": "Marshmallows and Shaved Chocolate for garnish",
+        "destination": "garnishes6"
+      },
+      {
+        "ingredient": "8 oz Irish Cream Liqueur (Optional, for adults)",
+        "destination": "optionalIrishcream5 wholepot"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "6 cups Whole Milk",
+        "destination": "milk2 graduallywhisk"
+      },
+      {
+        "ingredient": "2 cups Heavy Cream",
+        "destination": "cream2"
+      },
+      {
+        "ingredient": "1/2 cup Granulated Sugar",
+        "destination": "sugar2"
+      },
+      {
+        "ingredient": "1/3 cup High-Quality Unsweetened Cocoa Powder",
+        "destination": "cocoa2"
+      },
+      {
+        "ingredient": "8 oz Bittersweet Chocolate (60% cacao), finely chopped",
+        "destination": "chocolate3→4melt"
+      },
+      {
+        "ingredient": "2 teaspoons Vanilla Extract",
+        "destination": "vanilla3"
+      },
+      {
+        "ingredient": "1 teaspoon Instant Espresso Powder (Brings out the chocolate depth)",
+        "destination": "espresso2"
+      },
+      {
+        "ingredient": "1/4 teaspoon Fine Sea Salt",
+        "destination": "salt2 mainonly"
+      },
+      {
+        "ingredient": "Marshmallows and Shaved Chocolate for garnish",
+        "destination": "garnish6optional"
+      },
+      {
+        "ingredient": "8 oz Irish Cream Liqueur (Optional, for adults)",
+        "destination": "Irishcream5 optionaladult-onlywholebatch"
+      }
+    ],
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Choose a cooker with safe working room for the full batch; the original recipe uses a six-quart slow cooker. Use separate proportional batches if the actual appliance cannot accommodate the scaled load."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together all the listed sugar, cocoa, espresso and fine sea salt. Gradually whisk in all the milk, then all the heavy cream."
+    },
+    {
+      "step": 3,
+      "text": "Add all the chopped bittersweet chocolate and vanilla. Cover and heat on LOW, following the actual cooker instructions."
+    },
+    {
+      "step": 4,
+      "text": "Whisk periodically, beginning around 30–45 minutes, and continue until the chocolate has melted and the drink is hot and smooth throughout, roughly 2 hours for the original source batch. Do not use WARM to heat the cold starting mixture."
+    },
+    {
+      "step": 5,
+      "text": "If making an adult-only batch, stir in the full optional listed Irish cream. Keep an all-ages batch alcohol-free. For continued hot service check that the drink stays at 140°F or above; a WARM switch label alone does not establish that temperature."
+    },
+    {
+      "step": 6,
+      "text": "Divide among the listed planning portions and add the optional marshmallow and shaved-chocolate garnishes. Serve promptly."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "learning.substitutions[0]",
+      "ingredient": "Semisweet and melted-marshmallow version",
+      "alternative": "Replace the listed bittersweet chocolate with the same listed chocolate weight of chopped semisweet chocolate, and omit the main fine-sea-salt addition. Keep all the whole milk, heavy cream, sugar, cocoa, vanilla and espresso amounts. Heat with the same LOW method until hot, melted and smooth; then stir in 15 marshmallows for the original batch and cook until they begin melting, about 2 minutes. Scale that marshmallow count proportionally. The full optional Irish cream remains an adult-only batch choice; use the same hot holding and separate optional marshmallow/shaved-chocolate garnishes.",
+      "effect": "This is the complete Pioneer Woman semisweet/melted-marshmallow version, separate from the full bittersweet-and-salt main. Marshmallow size and actual sweetness need checking.",
+      "scope": "Exclusive complete option; source quantities are original-batch context and manually proportional unless authored in the main formula."
+    },
+    {
+      "reference": "learning.substitutions[1]",
+      "ingredient": "Stovetop heating",
+      "alternative": "Use the full chosen formula in a roomy heavy saucepan over low heat. Whisk the powders together, gradually whisk in the milk, then add all cream, chocolate, vanilla and espresso plus salt if using the main. Stir often until hot, melted and smooth without scorching. Finish the chosen marshmallow or adult-only liqueur option, if using, and serve with the same full garnishes and hot-holding checks.",
+      "effect": "The publisher also provides low stovetop heating. No model-specific clock or reduction in dairy or chocolate is implied.",
+      "scope": "Exclusive complete option; source quantities are original-batch context and manually proportional unless authored in the main formula."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "almond-zucchini-bread",
+      "avocado-kale-caesar-salad",
+      "bakery-style-chocolate-chip-muffins",
+      "banana-egg-oat-pancakes"
+    ],
+    "scope": "Existing metadata pairings retained; they do not change the ingredient formula or certify linked recipes."
+  },
+  "ratiosYieldAndCapacity": {
+    "wholeDosePreservation": "All frozen measured main flavor supplies retained; additional source components and genuine allowances are separately declared. No health reductions or measured finished-volume claim.",
+    "yield": "8",
+    "capacity": "Actual vessel/appliance working space and proportional batches; no new certified dimensions or capacity.",
+    "timing": "Plan about 10 minutes preparation plus roughly 2 hours LOW heating, checked by hot, melted, smooth texture. Larger loads and different cookers change the actual time; the source marshmallow finish adds about 2 minutes."
+  },
+  "preservedPriorRepairs": "Current spirit/product identity, full-rich quantities and existing source/household routes preserved or explicitly held.",
+  "remainingQuestions": [
+    "Actual slow-cooker model working fill and LOW/WARM temperatures at each batch size.",
+    "Eight portions are planning, not measured finished volume; optional liqueur belongs only to an adult batch.",
+    "Source marshmallow size is unspecified; texture/sweetness needs kitchen checking."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "slug": "hot-mulled-apple-cider",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "d355b36335f7d34836913cc8bfa0cd455863bfb1a0300f95ecac5c8d8806ecc9",
+  "acceptedSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["simmer", "boil", "slow-cook"],
+      "after": ["boil", "simmer"]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 0.5,
+        "carbs": 35,
+        "fat": 0,
+        "fiber": 1.5,
+        "sugar": 33.5,
+        "sodium": 300
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate the cooking spices from the garnish cloves.",
+        "outcome": "Hot strained cider after its covered spiced simmer.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Choose pasteurized cider; unfiltered describes clarity and does not mean untreated.",
+          "Keep the original three-inch stick size as the number of sticks scales; use more pot capacity for a larger load."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The covered cider is gently simmering after the initial boil.",
+            "why": "The original formula explicitly boils before simmering; extended hard boiling also changes evaporation."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Hard spice pieces reach the mug.",
+            "cause": "The cooking liquid was not strained or a garnish clove stayed in the drink.",
+            "fix": "Strain out the cooking spices, and remove whole garnish cloves before drinking."
+          }
+        ],
+        "timing": "The original 25-minute plan includes a 20-minute simmer; heating a larger or colder load may take longer.",
+        "storage": "For hot service keep the drink at 140°F or above. Cool leftovers promptly in shallow containers and refrigerate at 40°F or below; use within 3–4 days and reheat stored leftovers to 165°F. This is general leftover handling, not a preservation process.",
+        "sources": [
+          {
+            "title": "Tonkcats — Hot mulled apple cider",
+            "url": "https://www.food.com/recipe/hot-mulled-apple-cider-3713"
+          },
+          {
+            "title": "FDA — Juice safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety"
+          },
+          {
+            "title": "USDA — Leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nNever let mulled cider reach a rolling boil once spices are added - high heat turns cinnamon bitter. A tiny pinch of sea salt amplifies the natural sweetness of apples. Studding fresh orange wedges with cloves releases essential oils directly into the mug when served, adding aromatic complexity.\n\n## Directions\n\n1.  **Combine:** In a large heavy-bottomed saucepan, combine the apple cider, brown sugar, allspice, 1 tsp cloves, salt, nutmeg, and cinnamon sticks.\n2.  **Heat:** Bring the mixture just to a boil over medium-high heat, stirring until the sugar dissolves.\n3.  **Infuse:** Immediately reduce heat to low. Cover and simmer for 20 minutes. **Do not let it reach a rolling boil.**\n4.  **Strain:** Pour the cider through a fine-mesh sieve into a clean pot or slow cooker to remove the whole spices.\n5.  **Garnish:** Stud each orange wedge with a whole clove.\n6.  **Serve:** Ladle into mugs and float a clove-studded orange wedge in each.\n",
+    "after": "\n## Chef's Note\n\nBring the cider and spices just to a boil, then lower the heat for the covered simmer. Strain out the whole spices before serving. The two-quart input and eight-portion plan do not establish the exact strained volume after evaporation.\n\n## Directions\n\n1. Use pasteurized apple cider. Combine all the listed brown sugar, cinnamon sticks, allspice, cooking cloves, nutmeg, sea salt and cider in a pot with room for the full load. Keep the separate garnish cloves out of the pot.\n\n2. Bring just to a boil, then reduce heat, cover and simmer gently for 20 minutes. Keep the original three-inch cinnamon-stick size as their count scales; add pot capacity rather than multiplying cooking time.\n\n3. Strain into a clean heat-safe pot. For extended hot service keep the cider at 140°F or above, measured in the drink; a slow cooker's WARM label alone does not establish that temperature.\n\n4. Wash the orange before cutting. Divide its listed portion into wedges for the planned servings and stud the wedges with the separate garnish cloves. Divide the hot cider among the listed portions and add the garnish; remove the hard whole garnish cloves before drinking.\n"
+  },
+  "findings": [
+    {
+      "id": "BM22-hot-mulled-apple-cider",
+      "rationale": "Native/045/Food.com explicitly bring cider and spices to boil then simmer20min covered. Current Chef's Note's absolute no-boil instruction contradicts that method. Current whole orange/eight garnish cloves and sea-salt choice are preserved, distinct from source unmeasured orange wedge/one clove and unnamed salt.",
+      "confidence": "High source-dose/destination preservation; moderate untested culinary capacity/clock and guidance applications.",
+      "applicableSources": [
+        {
+          "title": "Tonkcats — Hot mulled apple cider",
+          "url": "https://www.food.com/recipe/hot-mulled-apple-cider-3713"
+        },
+        {
+          "title": "FDA — Juice safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety"
+        },
+        {
+          "title": "USDA — Leftover handling",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "exactChanges[0]",
+        "exactChanges[1]",
+        "exactChanges[2]",
+        "exactChanges[3]",
+        "exactChanges[4]"
+      ],
+      "questions": [
+        "Actual evaporation/straining loss means starting2qt does not certify exactly8 finished cups.",
+        "Original3-inch stick dimension stays fixed while stick count scales.",
+        "Salt crystal type is unresolved; no fine-salt or kosher equivalence is invented."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Hot%20Mulled%20Apple%20Cider.html",
+    "introductionScope": "Actual earlier HTML cooking introduction; exact stable-bound original450, not a title-only native join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "Native/045/Food.com explicitly bring cider and spices to boil then simmer20min covered. Current Chef's Note's absolute no-boil instruction contradicts that method. Current whole orange/eight garnish cloves and sea-salt choice are preserved, distinct from source unmeasured orange wedge/one clove and unnamed salt.",
+      "sourceEvidence": "privately retained evidence",
+      "applicability": "Exact stable-bound original450 cooking source; actual followed history retained. Current publisher fetch scope separately recorded."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 quarts Apple Cider (Unfiltered preferred)",
+        "destination": "cider combined1→2boil→3simmer→4strain→6serve"
+      },
+      {
+        "ingredient": "1/2 cup Light Brown Sugar, packed",
+        "destination": "brown sugar1"
+      },
+      {
+        "ingredient": "3 Cinnamon Sticks (3-inch)",
+        "destination": "cinnamon1→4strain"
+      },
+      {
+        "ingredient": "1 tsp Whole Allspice",
+        "destination": "allspice1→4strain"
+      },
+      {
+        "ingredient": "1 tsp Whole Cloves",
+        "destination": "cookingcloves1→4strain"
+      },
+      {
+        "ingredient": "1 dash Nutmeg",
+        "destination": "nutmeg1→4strain"
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt (The complex flavor)",
+        "destination": "salt1"
+      },
+      {
+        "ingredient": "1 Orange, sliced into wedges",
+        "destination": "orange5stud→6garnish"
+      },
+      {
+        "ingredient": "8 Whole Cloves (for studding)",
+        "destination": "8garnishcloves5stud→6serve, separate from cooking cloves"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 quarts Apple Cider (Unfiltered preferred)",
+        "destination": "cider1→2simmer→3strain"
+      },
+      {
+        "ingredient": "1/2 cup Light Brown Sugar, packed",
+        "destination": "sugar1"
+      },
+      {
+        "ingredient": "3 Cinnamon Sticks (3-inch)",
+        "destination": "cinnamon1→3discard"
+      },
+      {
+        "ingredient": "1 tsp Whole Allspice",
+        "destination": "allspice1→3discard"
+      },
+      {
+        "ingredient": "1 tsp Whole Cloves",
+        "destination": "cookingcloves1→3discard"
+      },
+      {
+        "ingredient": "1 dash Nutmeg",
+        "destination": "nutmeg1"
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt (The complex flavor)",
+        "destination": "salt1"
+      },
+      {
+        "ingredient": "1 Orange, sliced into wedges",
+        "destination": "orange4wash/cutgarnish"
+      },
+      {
+        "ingredient": "8 Whole Cloves (for studding)",
+        "destination": "garnishcloves4removebeforedrinking"
+      }
+    ],
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Use pasteurized apple cider. Combine all the listed brown sugar, cinnamon sticks, allspice, cooking cloves, nutmeg, sea salt and cider in a pot with room for the full load. Keep the separate garnish cloves out of the pot."
+    },
+    {
+      "step": 2,
+      "text": "Bring just to a boil, then reduce heat, cover and simmer gently for 20 minutes. Keep the original three-inch cinnamon-stick size as their count scales; add pot capacity rather than multiplying cooking time."
+    },
+    {
+      "step": 3,
+      "text": "Strain into a clean heat-safe pot. For extended hot service keep the cider at 140°F or above, measured in the drink; a slow cooker's WARM label alone does not establish that temperature."
+    },
+    {
+      "step": 4,
+      "text": "Wash the orange before cutting. Divide its listed portion into wedges for the planned servings and stud the wedges with the separate garnish cloves. Divide the hot cider among the listed portions and add the garnish; remove the hard whole garnish cloves before drinking."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "beef-tenderloin-dogs-with-corn-relish",
+      "brownie-baked-oatmeal",
+      "chicken-apple-and-butternut-stew"
+    ],
+    "scope": "Existing metadata pairings retained; they do not change the ingredient formula or certify linked recipes."
+  },
+  "ratiosYieldAndCapacity": {
+    "wholeDosePreservation": "All frozen measured main flavor supplies retained; additional source components and genuine allowances are separately declared. No health reductions or measured finished-volume claim.",
+    "yield": "8",
+    "capacity": "Actual vessel/appliance working space and proportional batches; no new certified dimensions or capacity.",
+    "timing": "The original 25-minute plan includes a 20-minute simmer; heating a larger or colder load may take longer."
+  },
+  "preservedPriorRepairs": "Current spirit/product identity, full-rich quantities and existing source/household routes preserved or explicitly held.",
+  "remainingQuestions": [
+    "Actual evaporation/straining loss means starting2qt does not certify exactly8 finished cups.",
+    "Original3-inch stick dimension stays fixed while stick count scales.",
+    "Salt crystal type is unresolved; no fine-salt or kosher equivalence is invented."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

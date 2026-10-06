@@ -1,0 +1,317 @@
+{
+  "slug": "thai-basil-ginger-spritzer",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "b8b9bc9990150df39c09dd17f00888a9537fe0d0cd5a3502530ed0f25e3dcdb0",
+  "acceptedSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 20 min plus chilling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Filtered Water",
+        "1/2 cup Granulated Sugar",
+        "3 tbsp Fresh Ginger, sliced",
+        "2 Thai Basil sprigs",
+        "2 Kaffir Lime Leaves (The Finishing Touch)",
+        "3 cups Prosecco or Sparkling Wine (chilled)",
+        "6 Fresh Thai Basil leaves (for bruising)",
+        "6 Lime wedges"
+      ],
+      "after": [
+        "1 cup Filtered Water",
+        "1/2 cup Granulated Sugar",
+        "3 tbsp fresh ginger, peeled and sliced",
+        "2 Thai Basil sprigs",
+        "2 Kaffir Lime Leaves (The Finishing Touch)",
+        "3 cups Prosecco or Sparkling Wine (chilled)",
+        "6 Fresh Thai Basil leaves (for bruising)",
+        "6 Lime wedges"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Thailand",
+      "after": null
+    },
+    {
+      "field": "advancePrep",
+      "before": ["freeze-ahead"],
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 160,
+        "protein": 1,
+        "carbs": 44,
+        "fat": 0.5,
+        "fiber": 3,
+        "sugar": 35,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Chill the syrup and measure its share into each drink.",
+        "outcome": "Cold sparkling wine with ginger-basil syrup and separate surplus syrup.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Strip the syrup basil leaves before steeping the stems, reserving the leaves cold for the separate source service or another use.",
+          "At the original six-drink scale only 12 tablespoons of syrup are needed for service. The input water and sugar do not certify the final strained syrup volume."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "The syrup is cold and each original-size drink has 2 tablespoons syrup and half a cup wine.",
+            "why": "Pouring the entire syrup batch into six drinks would silently change the source serving formula."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The wine loses its bubbles quickly.",
+            "cause": "Warm syrup or vigorous mixing was used.",
+            "fix": "Chill both components before combining and stir gently once after portioning."
+          }
+        ],
+        "timing": "Allow about 20 minutes for preparation, heating and the 10-minute infusion, plus enough time to chill the strained syrup fully.",
+        "storage": "Prepare the syrup close to service and keep it covered and refrigerated at 40°F or below; serve mixed drinks immediately.",
+        "sources": [
+          {
+            "title": "Laura Zapalowski — Thai basil-ginger spritzer",
+            "url": "http://www.myrecipes.com/recipe/thai-basil-ginger-spritzer"
+          },
+          {
+            "title": "FDA — Cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Reserved-leaf and crushed-ice service",
+            "alternative": "Instead of the separate bruising-leaf supply and no-ice service, divide the leaves reserved from the syrup basil sprigs among the drinks. Put half a cup crushed ice into each original-size glass, add its reserved basil leaves and gently bruise them. Add the same 2 tablespoons chilled syrup, half a cup sparkling wine and one lime wedge per original-size drink. Scale the number of drinks, crushed-ice supply and full formula together; leave enough glass space for both ice and drink. Keep surplus syrup separate.",
+            "effect": "This is the complete original reserved-leaf and crushed-ice route, exclusive of the main additional-leaf/no-ice service. The original six drinks use three cups crushed ice in total; that is an ice supply, not measured dilution or finished yield."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThai basil (horapha) has a stronger anise note than Italian basil - floral and slightly spicy rather than sweet. Fresh ginger and lime juice make this a refreshing sparkling-wine drink that cuts through heat and richness. Muddle the basil gently so the leaves release their flavor without breaking apart and turning the drink bitter.\n\n## Directions\n\n1.  **The Syrup:** In a small saucepan, boil water and sugar for 1 minute until dissolved. Remove from heat.\n2.  **Infuse:** Add the sliced ginger, basil stems, and kaffir lime leaves. Cover and **let stand for 10 minutes**. Strain into a jar and chill.\n3.  **thermal Prep:** Chill 6 glasses in the freezer.\n4.  **The Bruise:** Place 1 fresh basil leaf in each chilled glass. Use a spoon to gently press (bruise) the leaf against the glass.\n5.  **Assemble:** To each glass, add 2 tbsp of the chilled syrup, 1/2 cup Prosecco, and a lime wedge.\n6.  **Finish:** Stir once very gently to maintain the Texture of the bubbles. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nSteep the ginger, basil stems and lime leaves off heat, then chill the strained syrup before adding cold sparkling wine. Use only the syrup needed for the drinks and keep the remainder separate. Stir gently after the wine goes in.\n\n## Directions\n\n1. Wash the ginger, basil and lime leaves, peel the ginger and measure the full listed sliced amount. Strip the leaves from the listed basil sprigs, reserving those leaves separately. Keep the listed additional bruising leaves separate from the syrup stems.\n\n2. Combine all the listed water and sugar in a saucepan with room for boiling. Bring to a boil and cook for 1 minute, stirring until the sugar is dissolved. Remove from heat.\n\n3. Add all the listed ginger, stripped basil stems and lime leaves. Cover and let stand for 10 minutes. Strain into a clean heat-safe container and discard the steeped solids. Cool promptly, then cover and refrigerate until cold; do not count this chilling as part of the infusion clock. Keep the reserved basil leaves cold for the alternative service or another use.\n\n4. For the main service, use chilled glasses with room for the full wine portion, syrup and wedge. Divide all the separately listed bruising basil leaves among the listed servings and gently press them with a spoon.\n\n5. For each original-size drink add 2 tablespoons cold syrup and half a cup cold sparkling wine, then its share of the listed lime wedges. The ingredient amounts and listed serving count scale together; keep those per-drink volumes when making more drinks. Measure the needed syrup rather than assuming a finished batch yield; reserve any surplus separately.\n\n6. Stir gently and serve immediately.\n"
+  },
+  "findings": [
+    {
+      "id": "BM22-thai-basil-ginger-spritzer",
+      "rationale": "f6128211ccdbc8926119618119f0e93b7cbd911b drops native reserved-leaf/crushed-ice route and adds6 separate bruising leaves; a2c9e280 correctly repairs alcoholic sparkling-wine description and stays protected. Preserve current separate6-leaf/no-ice service and restore exclusive source stems/reserved-leaves/half-cup crushed ice per original drink. Full syrup input remains; only2Tb per drink is used, surplus is explicit.",
+      "confidence": "High source-dose/destination preservation; moderate untested culinary capacity/clock and guidance applications.",
+      "applicableSources": [
+        {
+          "title": "Laura Zapalowski — Thai basil-ginger spritzer",
+          "url": "http://www.myrecipes.com/recipe/thai-basil-ginger-spritzer"
+        },
+        {
+          "title": "FDA — Cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "exactChanges[0]",
+        "exactChanges[1]",
+        "exactChanges[2]",
+        "exactChanges[3]",
+        "exactChanges[4]",
+        "exactChanges[5]",
+        "exactChanges[6]"
+      ],
+      "questions": [
+        "Actual strained syrup yield is not certified by1cup water plus half-cup sugar.",
+        "Current MyRecipes fetch fails; saved native/HTML/Git are exact source evidence.",
+        "Actual chilling time, freezer-safe glass permission and syrup make-ahead life need evidence; no invented month storage or guaranteed freeze-ahead quality."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Thai%20Basil-Ginger%20Spritzer.html",
+    "introductionScope": "Actual earlier HTML cooking introduction; exact stable-bound original450, not a title-only native join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "description": "f6128211ccdbc8926119618119f0e93b7cbd911b drops native reserved-leaf/crushed-ice route and adds6 separate bruising leaves; a2c9e280 correctly repairs alcoholic sparkling-wine description and stays protected. Preserve current separate6-leaf/no-ice service and restore exclusive source stems/reserved-leaves/half-cup crushed ice per original drink. Full syrup input remains; only2Tb per drink is used, surplus is explicit.",
+      "sourceEvidence": "privately retained evidence",
+      "applicability": "Exact stable-bound original450 cooking source; actual followed history retained. Current publisher fetch scope separately recorded."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 cup Filtered Water",
+        "destination": "water1"
+      },
+      {
+        "ingredient": "1/2 cup Granulated Sugar",
+        "destination": "sugar1"
+      },
+      {
+        "ingredient": "3 tbsp Fresh Ginger, sliced",
+        "destination": "ginger2"
+      },
+      {
+        "ingredient": "2 Thai Basil sprigs",
+        "destination": "basilstems2;ingredientwhole sprigs leaves notexplicitlyreserved"
+      },
+      {
+        "ingredient": "2 Kaffir Lime Leaves (The Finishing Touch)",
+        "destination": "limeleaves2"
+      },
+      {
+        "ingredient": "3 cups Prosecco or Sparkling Wine (chilled)",
+        "destination": "prosecco5halfcuppereach"
+      },
+      {
+        "ingredient": "6 Fresh Thai Basil leaves (for bruising)",
+        "destination": "sixbasil leaves4"
+      },
+      {
+        "ingredient": "6 Lime wedges",
+        "destination": "sixlimewedges5"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 cup Filtered Water",
+        "destination": "water2"
+      },
+      {
+        "ingredient": "1/2 cup Granulated Sugar",
+        "destination": "sugar2"
+      },
+      {
+        "ingredient": "3 tbsp fresh ginger, peeled and sliced",
+        "destination": "ginger1peeled/sliced→3steep/strain"
+      },
+      {
+        "ingredient": "2 Thai Basil sprigs",
+        "destination": "basil1strip→3stemssteep/strain;reservedleavescoldalternativeoranotheruse"
+      },
+      {
+        "ingredient": "2 Kaffir Lime Leaves (The Finishing Touch)",
+        "destination": "limeleaves3steep/strain"
+      },
+      {
+        "ingredient": "3 cups Prosecco or Sparkling Wine (chilled)",
+        "destination": "wine5fullhalfcuppereachlistedportion"
+      },
+      {
+        "ingredient": "6 Fresh Thai Basil leaves (for bruising)",
+        "destination": "additionalbasil4dividefullsupply"
+      },
+      {
+        "ingredient": "6 Lime wedges",
+        "destination": "limewedges5dividefullsupply"
+      }
+    ],
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Wash the ginger, basil and lime leaves, peel the ginger and measure the full listed sliced amount. Strip the leaves from the listed basil sprigs, reserving those leaves separately. Keep the listed additional bruising leaves separate from the syrup stems."
+    },
+    {
+      "step": 2,
+      "text": "Combine all the listed water and sugar in a saucepan with room for boiling. Bring to a boil and cook for 1 minute, stirring until the sugar is dissolved. Remove from heat."
+    },
+    {
+      "step": 3,
+      "text": "Add all the listed ginger, stripped basil stems and lime leaves. Cover and let stand for 10 minutes. Strain into a clean heat-safe container and discard the steeped solids. Cool promptly, then cover and refrigerate until cold; do not count this chilling as part of the infusion clock. Keep the reserved basil leaves cold for the alternative service or another use."
+    },
+    {
+      "step": 4,
+      "text": "For the main service, use chilled glasses with room for the full wine portion, syrup and wedge. Divide all the separately listed bruising basil leaves among the listed servings and gently press them with a spoon."
+    },
+    {
+      "step": 5,
+      "text": "For each original-size drink add 2 tablespoons cold syrup and half a cup cold sparkling wine, then its share of the listed lime wedges. The ingredient amounts and listed serving count scale together; keep those per-drink volumes when making more drinks. Measure the needed syrup rather than assuming a finished batch yield; reserve any surplus separately."
+    },
+    {
+      "step": 6,
+      "text": "Stir gently and serve immediately."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "learning.substitutions[0]",
+      "ingredient": "Reserved-leaf and crushed-ice service",
+      "alternative": "Instead of the separate bruising-leaf supply and no-ice service, divide the leaves reserved from the syrup basil sprigs among the drinks. Put half a cup crushed ice into each original-size glass, add its reserved basil leaves and gently bruise them. Add the same 2 tablespoons chilled syrup, half a cup sparkling wine and one lime wedge per original-size drink. Scale the number of drinks, crushed-ice supply and full formula together; leave enough glass space for both ice and drink. Keep surplus syrup separate.",
+      "effect": "This is the complete original reserved-leaf and crushed-ice route, exclusive of the main additional-leaf/no-ice service. The original six drinks use three cups crushed ice in total; that is an ice supply, not measured dilution or finished yield.",
+      "scope": "Exclusive complete option; source quantities are original-batch context and manually proportional unless authored in the main formula."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "chicken-galbi-noodle-salad",
+      "shrimp-and-avocado-summer-rolls",
+      "spicy-thai-red-curry-beef",
+      "thai-basil-noodles"
+    ],
+    "scope": "Existing metadata pairings retained; they do not change the ingredient formula or certify linked recipes."
+  },
+  "ratiosYieldAndCapacity": {
+    "wholeDosePreservation": "All frozen measured main flavor supplies retained; additional source components and genuine allowances are separately declared. No health reductions or measured finished-volume claim.",
+    "yield": "6",
+    "capacity": "Actual vessel/appliance working space and proportional batches; no new certified dimensions or capacity.",
+    "timing": "Allow about 20 minutes for preparation, heating and the 10-minute infusion, plus enough time to chill the strained syrup fully."
+  },
+  "preservedPriorRepairs": "a2c9e280 identifies actual sparkling-wine drink, not non-alcoholic.",
+  "remainingQuestions": [
+    "Actual strained syrup yield is not certified by1cup water plus half-cup sugar.",
+    "Current MyRecipes fetch fails; saved native/HTML/Git are exact source evidence.",
+    "Actual chilling time, freezer-safe glass permission and syrup make-ahead life need evidence; no invented month storage or guaranteed freeze-ahead quality."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

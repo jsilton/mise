@@ -1,28 +1,10 @@
-# In the Park: Paprika source import
-
-Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
-
-Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Recorded attribution: not specified. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
-
-## Individual decisions
-
-Gently muddle basil and lemon to release aroma without grinding the leaves. Double-strain the shaken cocktail to remove small pieces of leaf and citrus.
-
-Saved method retained, with ordered steps and scraped promotional footnotes removed where present.
-
-Planning times explicitly include batch cooking or chilling where relevant; missing yields remain labeled as unrecorded rather than invented. Ingredient-only web controls were removed. No nutritional estimate imported.
-
-Safety endpoints, where added, follow [FoodSafety.gov](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). They do not validate yield, flavor, timing or the complete formula. This source import does not assign an editorial or kitchen-tested label.
-
----
-
-# In the Park — complete editorial review
+# Mango-Rita Green Smoothie — complete editorial review
 
 Accepted after complete author review, independent challenge and root inspection of the complete diff. Implementation and production verification pending; no kitchen tests or native-app import.
 
-[Exact before/after fields, ingredient and variant ledgers, evidence, confidence and remaining questions](in-the-park.json). [Combined review and source applicability](../editorial-campaign/2026-10-05/remaining-eighty-six-review.md).
+[Exact before/after fields, ingredient and variant ledgers, evidence, confidence and remaining questions](mango-rita-green-smoothie.json). [Combined review and source applicability](../editorial-campaign/2026-10-05/remaining-eighty-six-review.md).
 
-Accepted source SHA-256: e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e.
+Accepted source SHA-256: 5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e.
 
 ## Local integrated validation
 
