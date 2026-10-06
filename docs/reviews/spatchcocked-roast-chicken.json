@@ -1,0 +1,849 @@
+{
+  "slug": "spatchcocked-roast-chicken",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "ac3e280e1ea1c311a15ec9cd265f05598277e97d5c74f6128e22e240f874b739",
+  "acceptedSourceSha256": "e5b843c9302ac5e36d95dd1e10c49acc2a1d479c8360d1d72e463cf1453d6691",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy / France",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "20–30 min active"
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "35–55 min roasting, first check 35–45 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "65 min (including rest)",
+      "after": "70–100 min including heating and 10-minute rest; optional refrigerated seasoning ahead extra"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "--- The Chicken ---",
+        "1 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "2 tbsp Kosher Salt",
+        "1 tbsp Black Pepper (fresh-cracked)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic (minced or smashed)",
+        "2 tbsp Fresh Rosemary or Thyme (or 1 tbsp dried)",
+        "1 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1 tbsp Olive Oil (for greasing the pan)",
+        "1/2 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)"
+      ],
+      "after": [
+        "--- The Chicken ---",
+        "1 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "2 tbsp Kosher Salt",
+        "1 tbsp Black Pepper (fresh-cracked)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic (minced or smashed)",
+        "2 tbsp Fresh Rosemary or Thyme (or 1 tbsp dried)",
+        "1 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1 tbsp Olive Oil (for greasing the pan)",
+        "1/2 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 205,
+        "protein": 14,
+        "carbs": 2.5,
+        "fat": 16,
+        "fiber": 1.5,
+        "sugar": 0,
+        "sodium": 4230
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Flatten correctly and check all poultry temperature sites",
+        "outcome": "A flattened skin-up roast with every required temperature site checked before carving.",
+        "techniques": ["gentle-proteins"],
+        "before": [
+          "Keep raw poultry cold until preparation; thaw frozen poultry in the refrigerator before this method. Keep raw-contact boards, dishes and utensils separate from ready-to-eat sauces and finished food.",
+          "The rub and pan oil are separate: all the listed rub oil coats the bird and all the listed pan oil greases the pan. At the original batch these are 2 tbsp and 1 tbsp, respectively. Keep all the listed kosher salt (2 tbsp at the original batch); crystal sizes vary by brand.",
+          "Check that pans and any parchment, stone or steel are rated for 475°F; rimmed sheet pans and glass dishes are not automatically suitable for burners.",
+          "Scaling ingredient controls changes amounts, while the method describes original-size whole birds. Use additional birds and pans for multiples; a partial bird needs its own geometry and thermometer checks. Timing does not scale linearly."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Backbone faces up before cutting; skin faces up after flattening.",
+            "why": "These are different orientations, so the shears reach the backbone."
+          },
+          {
+            "step": 7,
+            "cue": "Both breasts and innermost thighs and wings each reach 165°F.",
+            "why": "Flattening does not make these parts the same thickness."
+          },
+          {
+            "step": 8,
+            "cue": "Only a burner-rated roasting pan goes on the stovetop.",
+            "why": "Transfer drippings to a saucepan when the roasting vessel cannot take burner heat."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Skin browns before every center is cooked",
+            "cause": "A hot oven can color the skin before thicker sites reach the endpoint.",
+            "fix": "Shield browned areas loosely with foil and keep checking cooler sites until each reaches 165°F; no color cue replaces those checks."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh rosemary or thyme",
+            "alternative": "Original-batch 1 tbsp dried herbs instead of 2 tbsp fresh, scaled proportionally",
+            "effect": "Use the chosen fresh or dried amount; do not add both."
+          },
+          {
+            "ingredient": "Water in pan",
+            "alternative": "Same listed amount of chicken stock",
+            "effect": "Use stock in place of the listed water quantity."
+          }
+        ],
+        "timing": "20–30 min active; 35–55 min roasting, first check 35–45 min; 70–100 min including heating and 10-minute rest; optional refrigerated seasoning ahead extra. Planning ranges assume thawed poultry and do not include cooking separate side dishes.",
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. For reheated optional pan sauce, USDA also recommends bringing sauces and gravies to a rolling boil. Stir for even heating and avoid prolonged boiling that over-reduces the jus. These handling limits do not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "J. Kenji López-Alt — Butterflied roast chicken, anatomy and pan comparison",
+            "url": "https://www.seriouseats.com/butterflied-roasted-chicken-with-quick-jus-recipe"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRemoving the backbone and flattening the chicken exposes more skin and can shorten roasting time. Breast and leg meat still differ in thickness, so check each required temperature site rather than assuming they finish together. Use a thermometer and remove the bird once all required sites reach 165°F / 74°C.\n\n## Directions\n\n### Prep (Can do this up to 8 hours ahead)\n\n1. **Remove the Backbone:** Place the whole chicken on a cutting board, breast-side up. Using sharp kitchen shears or a knife, cut along both sides of the backbone (the side closest to you and the far side). Remove the backbone completely. (Don't throw it away - save for stock.) You now have a butterfly chicken.\n\n2. **Flatten:** Flip the chicken skin-side up. Press down firmly on the breastbone with the heel of your hand. You'll hear a crack - this is the breastbone breaking and flattening the bird. The chicken should now lie completely flat.\n\n3. **Pat Dry:** Use paper towels to pat the chicken completely dry, especially the skin. Moisture is the enemy of browning.\n\n4. **Season Generously:** In a small bowl, combine salt, pepper, minced garlic, fresh herbs, smoked paprika, and 2 tbsp olive oil to form a paste. Rub this all over the chicken - under the skin (gently separate the skin from the breast meat with your fingers and tuck seasoning underneath), on the legs, and everywhere on top. You want bold seasoning.\n\n5. **Rest (Optional but helpful):** If you have time, let the seasoned chicken sit uncovered on the counter for 30-60 minutes (or up to 8 hours refrigerated, uncovered, so the skin dries further). This allows the seasoning to penetrate and the skin to dry, which leads to better browning.\n\n### Roasting\n\n6. **Preheat:** Heat your oven to 475°F. Make sure the oven rack is positioned in the lower-middle portion (not the top - you want heat from below, not above). If using a baking stone or steel, place it on the middle oven rack now.\n\n7. **Prepare the Pan:** Oil a large rimmed baking sheet (or a roasting pan) with 1 tbsp olive oil. Pour 1/2 cup water or stock into the bottom of the pan (this prevents the drippings from smoking and helps create a pan sauce later).\n\n8. **Place the Chicken:** Put the spatchcocked chicken, skin-side up, directly on the oiled baking sheet. Make sure it's centered and that there's space around the edges for air to circulate.\n\n9. **Roast:** Put the baking sheet in the preheated oven. Roast for 35-45 minutes, depending on the size of the bird. A 4-lb chicken is done in about 35-40 minutes; a 5-lb bird needs closer to 45 minutes.\n\n10. **Check doneness:** Measure the thickest part of each breast and the innermost thighs and wings without touching bone. Every checked site must reach at least 165°F / 74°C before removal. Recheck any cooler area after further roasting; the timer and skin color do not establish doneness.\n\n11. **The Visual Cue:** The skin should be deep golden brown, almost mahogany in color. If the skin is pale but the temperature is 165°F, you've cooked it correctly (don't cook it longer for color - the chicken will dry out).\n\n### Rest and Finish\n\n12. **Rest:** Remove the chicken from the oven and transfer to a cutting board (with a lip to catch juices). Let it rest, uncovered, for 10 minutes minimum. This allows the juices to redistribute throughout the meat. If you cut immediately, all the juice runs out onto the board. Resting ensures every bite stays moist.\n\n13. **Pan Sauce (Optional but worthwhile):** While the chicken rests, place the roasting pan on the stovetop over medium-high heat. Scrape up all the browned bits from the bottom (the fond is pure flavor). Let simmer for 2-3 minutes until slightly reduced. Taste and season with salt and pepper. Strain through a fine-mesh sieve if you prefer a smooth sauce, or serve as-is.\n\n14. **Carve:** Cut the chicken into four pieces: two legs (thigh + drumstick together) and two breasts. Or carve further into individual thighs, drumsticks, and breast halves if preferred.\n\n15. **Serve:** Arrange on a platter, pour any pan sauce over the top, and serve with fresh lemon wedges and a finishing pinch of fleur de sel. The crispy skin, juicy meat, and bright lemon are all you need.\n\n### Pro Tips for Perfect Results\n\n- **Thermometer is essential:** Don't rely on leg wiggling or juice color. Use an instant-read thermometer - it removes all guesswork.\n- **Do not rely on carryover:** Check both breasts and the innermost thighs and wings for at least 165°F / 74°C before removal. Leg meat and breast meat do not share a single universal drying temperature.\n- **Use the backbone:** Save it for stock. A good chicken stock requires the backbone, so don't waste it.\n- **Skin texture:** If your oven has a convection setting, you can use it for 10-15 minutes at the end (separate from regular roast) to really crisp the skin. Watch carefully so it doesn't burn.\n- **Timing confidence:** 475°F, spatchcocked, 35-45 minutes (depending on size), thermometer-verified at 165°F, then 10-minute rest = perfect chicken, every time.\n\n### For Make-Ahead Meal Prep\n\n- Roast chicken ahead and refrigerate up to 4 days\n- Use shredded meat for grain bowls, salads, tacos, and soups\n- Make stock from the carcass and bones\n- One roasted chicken easily feeds a family of 4 for one meal, or can be stretched across multiple meals throughout the week\n\n### The Science\n\nSpatchcocking works because:\n\n- **Even thickness:** A flattened chicken has uniform thickness, so everything cooks at the same rate\n- **Surface area:** The flat shape exposes more skin to direct heat, enabling better browning\n- **Thigh and breast checks:** Flattening can help the parts cook more evenly, but each breast and the innermost thighs and wings still need separate checks for at least 165°F / 74°C.\n- **High temperature + short time:** 475°F for 35-45 minutes creates a Maillard reaction on the skin (browning) before the meat overcooks.\n",
+    "after": "\n## Chef's Note\n\nRemoving the backbone and flattening the chicken exposes more skin and can shorten roasting time. Breast and leg meat still differ in thickness, so check each required temperature site rather than assuming they finish together. Use a thermometer and remove the bird once all required sites reach 165°F /74°C. The listed rub is intentionally substantial; kosher salt crystal sizes vary, so retain the chosen brand rather than replacing its volume with the same volume of fine salt.\n\n## Directions\n\n1. **Remove the backbone:** Keep the fully thawed chicken cold until preparation. Place it breast-side down, with the backbone facing up. Cut along both sides of the backbone with sturdy kitchen shears or a suitable knife, and remove it. If saving it for stock, promptly refrigerate in a covered raw-poultry container for use within 1–2 days, or freeze it; stock can also be made without a backbone.\n\n2. **Flatten:** Turn the chicken skin-side up and press firmly on the breastbone to flatten it. Use a board large enough to contain the bird and keep raw juices away from ready-to-eat food. Pat the skin dry with paper towels and discard the towels.\n\n3. **Apply the whole rub:** Mix all the kosher salt, black pepper, garlic, herbs and optional paprika with all the listed rub olive oil. Rub all of this paste over the bird, including under gently loosened breast skin, the legs and the skin surface. The original batch uses 2 tbsp fresh rosemary or thyme, or its distinct 1 tbsp dried option; scale the chosen option proportionally. Keep the full rub quantity.\n\n4. **Optional refrigerated seasoning:** Roast directly after preparation, or refrigerate the seasoned bird on a rimmed tray for 30–60 minutes or up to 8 hours. Leave it uncovered for drying only where it is protected from contamination and cannot drip onto other food. Do not use a counter warm-up as a substitute for refrigerator thawing.\n\n5. **Preheat and prepare the pan:** Preheat the oven to 475°F with the rack in the lower-middle position. Use a rimmed metal pan or roasting pan rated for 475°F. If using an optional baking stone or steel, heat and position it according to its manufacturer’s instructions. Grease the roasting pan with all the 1 tbsp olive oil listed for the pan, and add all the ½ cup water or stock. These are original-batch amounts, scaled with the ingredients; pan geometry is a separate choice.\n\n6. **Roast skin-side up:** Place the flattened bird skin-side up with room around it. Roast at 475°F and start checking after 35–45 minutes; actual birds and ovens can take longer. For larger batches, roast additional original-size 4–5 lb birds in enough rated pans with airflow, checking each separately. Ingredient scaling does not turn a fractional bird or larger bird into the same geometry or multiply the roasting clock.\n\n7. **Check all sites:** Measure the thickest part of each breast and the innermost thighs and wings without touching bone. Every checked site must reach at least 165°F / 74°C before removal. Recheck cooler areas after further roasting; the timer and skin color do not establish doneness. If using the optional convection finish for skin color, follow the oven instructions and watch closely while the bird is still cooking; stop once all required sites reach 165°F rather than adding a mandatory 10–15 minutes after it is done.\n\n8. **Rest and make optional sauce:** Transfer the cooked bird to a clean board with a lip and rest 10 minutes before carving. For the optional pan sauce, put the roasting pan on a burner only if its manufacturer permits stovetop use; otherwise carefully transfer the hot drippings and scraped browned bits into a saucepan. Heat the poultry-contact liquid to 165°F, then simmer, starting with 2–3 minutes, until slightly reduced. Taste with a clean spoon and use the separate optional sauce salt and pepper allowances if needed. Strain if desired.\n\n9. **Carve and serve:** Carve into two leg quarters and two breast portions, or into smaller pieces as preferred. Serve with all the lemon wedges and the optional finishing salt, and spoon over the optional cooked pan sauce. Four portions are a planning yield for the original 4–5 lb bird, with sides; bird size and appetite vary. Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. For reheated optional pan sauce, USDA also recommends bringing sauces and gravies to a rolling boil. Stir for even heating and avoid prolonged boiling that over-reduces the jus. These handling limits do not promise unchanged texture.\n"
+  },
+  "findings": [
+    {
+      "rationale": "Exact2a7f3853 Git introduction establishes repository-authored formula, not a bound native import or tested Kenji formula. Preservetitle/full2tbspkosher salt/1tbsppepper/2ruboil/1panoil/herbs/½cupliquid/475. a2c9 bothbreasts/innermostthighs+wings165/no carryover and sourceauthority cleanup retained. Correctbreastupbackbone anatomiccontradiction and counter30–60 optional ahead to protectedfridge, preserve optional8h. Manufacturer-rated panroute avoids putting anysheet/glass vessel onburner. Remove uniformthickness/perfecteverytime/guaranteemoist/alljuiceclaims, not richness. Separate optionalpan-sauce seasonings genuineallowances. FDA specifically requires refrigerated marinating; cumulative2h/1h exposure limits are not endorsement of an intentional seasoning rest. Originalcounter30–60min branch retainedprivately for peer applicability discussion; current safe8hfridge branch preserved. Native lineage notcertified. Nutritionremoved: one4–5lbwholebird cannot support fixededibleweights/4230sodiumperservingwithoutretainedvalidcalculation.",
+      "confidence": "high for exact Git measures/diffs; moderate for untested method and household acceptance",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Document the actual kosher salt brand/crystal density and household preference without changing the current2tbsp.",
+        "Time each temperature site and browning at475°F using the household oven and rated pan.",
+        "Test optional stock/water pan sauce and its reduction."
+      ]
+    },
+    {
+      "rationale": "Correct backbone orientation, protect optional refrigerated seasoning, require manufacturer-rated burner pan or transfer drippings, preserveall2tbspkosher salt and every prior165site check.",
+      "confidence": "high for endpoint/applicable mechanism; moderate for untested ranges",
+      "applicableSources": [
+        {
+          "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "J. Kenji López-Alt — Butterflied roast chicken, anatomy and pan comparison",
+          "url": "https://www.seriouseats.com/butterflied-roasted-chicken-with-quick-jus-recipe"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Document the actual kosher salt brand/crystal density and household preference without changing the current2tbsp.",
+        "Time each temperature site and browning at475°F using the household oven and rated pan.",
+        "Test optional stock/water pan sauce and its reduction."
+      ]
+    },
+    {
+      "rationale": "Remove unsupported inherited precision after formula/allocation/state review; no breast weight, consumed reserve, nutrition or tested yield is manufactured.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "rationale": "Exact approved corrections to scaling/prose, frozen evidence/provenance and relationship warnings. No ingredient or yield change. Independent challenge preceded application; no self-acceptance.",
+      "confidence": "High for exact comparison/reverse checks; no kitchen testing.",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Root final acceptance of revised whole candidates and records remains pending."
+      ]
+    },
+    {
+      "rationale": [
+        "Complete available saved Git/current/final recipes and source evidence do not establish this particular recipe’s asserted country/region origin. Retain every cuisine/style tag, source URL, credit, title, original and variant. The repository-authored Spatchcocked original contains an unsupported assertion; being present at first introduction is not independent evidence.",
+        "Restore accidental quantity/unit/cooking-word separation only; amounts and formulas unchanged.",
+        "Restore accidental quantity/unit/cooking-word separation only; amounts and formulas unchanged."
+      ],
+      "confidence": "High for exact allocations and mechanical prose; moderate for untested culinary mechanism.",
+      "applicableSources": [
+        {
+          "type": "exact first available Git",
+          "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+          "path": "src/content/recipes/spatchcocked-roast-chicken.md"
+        },
+        {
+          "type": "complete source packet",
+          "path": "privately retained evidence"
+        },
+        {
+          "type": "metadata standard",
+          "path": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Additional explicit recipe-specific origin evidence could justify this field; no replacement origin is invented."
+      ]
+    },
+    {
+      "rationale": [
+        "The existing uniformly heated 165°F endpoint is supported and is not declared inaccurate. This adds the separate USDA liquid-sauce recommendation, with a brief-versus-prolonged texture/concentration caution. It does not change the first cooking sequence, introduce a duration, add liquid, reduce fat or extend boiling advice to the cold Herby dressing, clean pesto reserve or all casserole leftovers.",
+        "If root elects the storage advisory, keep the legacy final storage prose consistent. Initial sauce165°F then simmer and all raw-poultry controls remain unchanged.",
+        "The public recipe has the enumerated spacing correction, but the repeated variant ledger retains the joined units. Synchronize the ledger; preserve the exact exclusive original-batch fresh/dried amounts.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications."
+      ],
+      "confidence": "High for exact synchronization and official recommendation; moderate for untested sauce texture.",
+      "applicableSources": [
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Reheat Leftovers Safely gives a measured 165°F leftover endpoint and additionally recommends a rolling boil for reheated sauces, soups and gravies. Direct fetch returned403; official USDA indexed passage was retrieved and corroborated by FDA/FoodSafety.gov."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "applicability": "Bring sauces/soups/gravy to a boil when reheating; leftovers/casseroles165°F and even reheating. Not a first-cook yogurt boiling prescription."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Any-type leftovers165°F; whole/ground poultry and casseroles165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Reheat Leftovers Safely gives a measured 165°F leftover endpoint and additionally recommends a rolling boil for reheated sauces, soups and gravies. Direct fetch returned403; official USDA indexed passage was retrieved and corroborated by FDA/FoodSafety.gov."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "applicability": "Bring sauces/soups/gravy to a boil when reheating; leftovers/casseroles165°F and even reheating. Not a first-cook yogurt boiling prescription."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Individual exact before/after evidence and truthful review state; public cooking prose and preservation."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "PUBLIC-SPACING learning.substitutions[0].alternative; no quantity change."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 0.25, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 0.5, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 1, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 1.5, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 2, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 3, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 1, action reset."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual sauce reheating and texture; avoid treating either measured temperature or boiling as a zero-risk or texture guarantee.",
+        "Actual portion yield/geometry remains unmeasured; fractional whole-bird amounts are not certified equivalents of the original bird."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/spatchcocked-roast-chicken.md",
+    "originalSha256": "85799888bd163d18dd1ca478629c0c1c6b12ce24bbbbd6ef7cf5bb81c73299ea",
+    "nativeLineage": "Not independently established; exact Git originals are the source proof. No title-only native certification.",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact2a7f3853 Git introduction establishes repository-authored formula, not a bound native import or tested Kenji formula. Preservetitle/full2tbspkosher salt/1tbsppepper/2ruboil/1panoil/herbs/½cupliquid/475. a2c9 bothbreasts/innermostthighs+wings165/no carryover and sourceauthority cleanup retained. Correctbreastupbackbone anatomiccontradiction and counter30–60 optional ahead to protectedfridge, preserve optional8h. Manufacturer-rated panroute avoids putting anysheet/glass vessel onburner. Remove uniformthickness/perfecteverytime/guaranteemoist/alljuiceclaims, not richness. Separate optionalpan-sauce seasonings genuineallowances. FDA specifically requires refrigerated marinating; cumulative2h/1h exposure limits are not endorsement of an intentional seasoning rest. Originalcounter30–60min branch retainedprivately for peer applicability discussion; current safe8hfridge branch preserved. Native lineage notcertified. Nutritionremoved: one4–5lbwholebird cannot support fixededibleweights/4230sodiumperservingwithoutretainedvalidcalculation."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "--- The Chicken ---",
+        "destinationOrQuestion": "divider"
+      },
+      {
+        "ingredient": "1 Whole Chicken (4-5 lbs, not jumbo)",
+        "destinationOrQuestion": "Raw backbone removal1/flatten2/dry3/season4; optional counter or refrigerator hold5; pan placement8; roast9/check10–11; rest12/carve14/serve15."
+      },
+      {
+        "ingredient": "--- The Rub ---",
+        "destinationOrQuestion": "divider"
+      },
+      {
+        "ingredient": "2 tbsp Kosher Salt",
+        "destinationOrQuestion": "all rub4; herb fresh/dried and paprika options remain as listed"
+      },
+      {
+        "ingredient": "1 tbsp Black Pepper (fresh-cracked)",
+        "destinationOrQuestion": "all rub4; herb fresh/dried and paprika options remain as listed"
+      },
+      {
+        "ingredient": "2 tbsp Extra-Virgin Olive Oil",
+        "destinationOrQuestion": "all rub4; herb fresh/dried and paprika options remain as listed"
+      },
+      {
+        "ingredient": "4 cloves Garlic (minced or smashed)",
+        "destinationOrQuestion": "all rub4; herb fresh/dried and paprika options remain as listed"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Rosemary or Thyme (or 1 tbsp dried)",
+        "destinationOrQuestion": "all rub4; herb fresh/dried and paprika options remain as listed"
+      },
+      {
+        "ingredient": "1 tsp Smoked Paprika (optional, for color)",
+        "destinationOrQuestion": "all rub4; herb fresh/dried and paprika options remain as listed"
+      },
+      {
+        "ingredient": "--- For the Pan ---",
+        "destinationOrQuestion": "divider"
+      },
+      {
+        "ingredient": "1 tbsp Olive Oil (for greasing the pan)",
+        "destinationOrQuestion": "all pan7"
+      },
+      {
+        "ingredient": "1/2 cup Water or Chicken Stock (for the pan)",
+        "destinationOrQuestion": "all pan7; optional sauce13"
+      },
+      {
+        "ingredient": "--- The Finish ---",
+        "destinationOrQuestion": "divider"
+      },
+      {
+        "ingredient": "Fresh Lemon (for serving, cut into wedges)",
+        "destinationOrQuestion": "serve15"
+      },
+      {
+        "ingredient": "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "destinationOrQuestion": "optional serve15"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "--- The Chicken ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "1 Whole Chicken (4-5 lbs, not jumbo)",
+        "destination": "whole bird1–7"
+      },
+      {
+        "ingredient": "--- The Rub ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "2 tbsp Kosher Salt",
+        "destination": "all rub3"
+      },
+      {
+        "ingredient": "1 tbsp Black Pepper (fresh-cracked)",
+        "destination": "all rub3"
+      },
+      {
+        "ingredient": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "all rub3"
+      },
+      {
+        "ingredient": "4 cloves Garlic (minced or smashed)",
+        "destination": "all rub3"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Rosemary or Thyme (or 1 tbsp dried)",
+        "destination": "all rub3 choose fresh/dried branch"
+      },
+      {
+        "ingredient": "1 tsp Smoked Paprika (optional, for color)",
+        "destination": "optional all rub3"
+      },
+      {
+        "ingredient": "--- For the Pan ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "1 tbsp Olive Oil (for greasing the pan)",
+        "destination": "all pan5"
+      },
+      {
+        "ingredient": "1/2 cup Water or Chicken Stock (for the pan)",
+        "destination": "all pan5"
+      },
+      {
+        "ingredient": "--- The Finish ---",
+        "destination": "divider"
+      },
+      {
+        "ingredient": "Fresh Lemon (for serving, cut into wedges)",
+        "destination": "all serve9"
+      },
+      {
+        "ingredient": "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "destination": "optional serve9"
+      },
+      {
+        "ingredient": "Salt and black pepper, to taste for the optional pan sauce",
+        "destination": "Optional sauce seasoning after liquid reaches165°F, step8"
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "Salt and black pepper",
+        "allowance": "to taste in the optional cooked pan sauce",
+        "destination": "step8 after poultry-contact liquid165°F",
+        "source": "exact saved optional sauce method originally instructed tasting/seasoning; distinct from the fully allocated rub"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "backbone",
+      "text": "Remove the backbone: Keep the fully thawed chicken cold until preparation. Place it breast-side down, with the backbone facing up. Cut along both sides of the backbone with sturdy kitchen shears or a suitable knife, and remove it. If saving it for stock, promptly refrigerate in a covered raw-poultry container for use within 1–2 days, or freeze it; stock can also be made without a backbone."
+    },
+    {
+      "step": 2,
+      "id": "flatten",
+      "text": "Flatten: Turn the chicken skin-side up and press firmly on the breastbone to flatten it. Use a board large enough to contain the bird and keep raw juices away from ready-to-eat food. Pat the skin dry with paper towels and discard the towels."
+    },
+    {
+      "step": 3,
+      "id": "rub",
+      "text": "Apply the whole rub: Mix all the kosher salt, black pepper, garlic, herbs and optional paprika with all the listed rub olive oil. Rub all of this paste over the bird, including under gently loosened breast skin, the legs and the skin surface. The original batch uses 2 tbsp fresh rosemary or thyme, or its distinct 1 tbsp dried option; scale the chosen option proportionally. Keep the full rub quantity."
+    },
+    {
+      "step": 4,
+      "id": "ahead",
+      "text": "Optional refrigerated seasoning: Roast directly after preparation, or refrigerate the seasoned bird on a rimmed tray for 30–60 minutes or up to 8 hours. Leave it uncovered for drying only where it is protected from contamination and cannot drip onto other food. Do not use a counter warm-up as a substitute for refrigerator thawing."
+    },
+    {
+      "step": 5,
+      "id": "oven",
+      "text": "Preheat and prepare the pan: Preheat the oven to 475°F with the rack in the lower-middle position. Use a rimmed metal pan or roasting pan rated for 475°F. If using an optional baking stone or steel, heat and position it according to its manufacturer’s instructions. Grease the roasting pan with all the 1 tbsp olive oil listed for the pan, and add all the ½ cup water or stock. These are original-batch amounts, scaled with the ingredients; pan geometry is a separate choice."
+    },
+    {
+      "step": 6,
+      "id": "roast",
+      "text": "Roast skin-side up: Place the flattened bird skin-side up with room around it. Roast at 475°F and start checking after 35–45 minutes; actual birds and ovens can take longer. For larger batches, roast additional original-size 4–5 lb birds in enough rated pans with airflow, checking each separately. Ingredient scaling does not turn a fractional bird or larger bird into the same geometry or multiply the roasting clock."
+    },
+    {
+      "step": 7,
+      "id": "endpoint",
+      "text": "Check all sites: Measure the thickest part of each breast and the innermost thighs and wings without touching bone. Every checked site must reach at least 165°F / 74°C before removal. Recheck cooler areas after further roasting; the timer and skin color do not establish doneness. If using the optional convection finish for skin color, follow the oven instructions and watch closely while the bird is still cooking; stop once all required sites reach 165°F rather than adding a mandatory 10–15 minutes after it is done."
+    },
+    {
+      "step": 8,
+      "id": "rest",
+      "text": "Rest and make optional sauce: Transfer the cooked bird to a clean board with a lip and rest 10 minutes before carving. For the optional pan sauce, put the roasting pan on a burner only if its manufacturer permits stovetop use; otherwise carefully transfer the hot drippings and scraped browned bits into a saucepan. Heat the poultry-contact liquid to 165°F, then simmer, starting with 2–3 minutes, until slightly reduced. Taste with a clean spoon and use the separate optional sauce salt and pepper allowances if needed. Strain if desired."
+    },
+    {
+      "step": 9,
+      "id": "serve",
+      "text": "Carve and serve: Carve into two leg quarters and two breast portions, or into smaller pieces as preferred. Serve with all the lemon wedges and the optional finishing salt, and spoon over the optional cooked pan sauce. Four portions are a planning yield for the original 4–5 lb bird, with sides; bird size and appetite vary. Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. For reheated optional pan sauce, USDA also recommends bringing sauces and gravies to a rolling boil. Stir for even heating and avoid prolonged boiling that over-reduces the jus. These handling limits do not promise unchanged texture."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Fresh rosemary or thyme",
+      "alternative": "Original-batch 1 tbsp dried herbs instead of 2 tbsp fresh, scaled proportionally",
+      "effect": "Use the chosen fresh or dried amount; do not add both."
+    },
+    {
+      "ingredient": "Water in pan",
+      "alternative": "Same listed amount of chicken stock",
+      "effect": "Use stock in place of the listed water quantity."
+    }
+  ],
+  "heldOptionalVariants": [
+    "Exact saved optional30–60minute counter seasoning rest remains privately evidenced. FDA refrigerated marinating applies to intentional seasoned holding; generic cumulative2h/1h limits do not certify this branch. No claim that every brief preparation exposure is forbidden. Peer/root applicability decision pending."
+  ],
+  "relationships": {
+    "pairsWith": [
+      "roasted-root-vegetables",
+      "crispy-smashed-potatoes",
+      "everyday-arugula-salad",
+      "lemon-herb-quinoa"
+    ],
+    "incomingMeals": ["sunday-roast-chicken-feast.md"],
+    "bodyRecipeLinks": [],
+    "scope": "Separate side dishes and linked meals have separate preparation clocks and review status.",
+    "unreconciledMealContext": {
+      "slug": "spatchcocked-roast-chicken",
+      "path": "src/content/meals/sunday-roast-chicken-feast.md",
+      "hash": "0e5c0dbcb040fa59145bfb30e3d0f00d0122ef3cba1a6e1070182a071a701f6e",
+      "before": {
+        "temperature": "425°F",
+        "clock": "about30–35 min chicken",
+        "endpoint": "thighs165°F",
+        "servings": "6"
+      },
+      "after": {
+        "temperature": "Recipe candidate475°F.",
+        "clock": "Candidate35–55 roast, firstcheck35–45,10-minute rest; other oven loads not certified.",
+        "endpoint": "Both breasts and innermost thighs/wings165°F before removal.",
+        "servings": "Candidate4planning portions per original4–5lbwhole bird."
+      },
+      "rationale": "Existing meal is unreconciled with actual recipe geometry, temperature, endpoints, yield and shared oven demands. Preserve link; meal review remains pending.",
+      "confidence": "high for exact documents; unresolved whole-meal service"
+    }
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "capacity": "Original-size geometry retained; multiple pans or batches preserve working space. No invented pan dimensions or breast weights.",
+    "scaling": "Existing ingredient controls preserved; no fixed scaling override. Original-context count/volume statements explicitly scale where appropriate; time and pan geometry do not multiply.",
+    "richness": "All published measured defining ingredients preserved, source-supported restorations exact and separately documented."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- The Chicken ---",
+        "1/4 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "1/2 tbsp Kosher Salt",
+        "1/4 tbsp Black Pepper (fresh-cracked)",
+        "1/2 tbsp Extra-Virgin Olive Oil",
+        "1 clove Garlic (minced or smashed)",
+        "1/2 tbsp Fresh Rosemary or Thyme (or 1/4 tbsp dried)",
+        "1/4 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1/4 tbsp Olive Oil (for greasing the pan)",
+        "1/8 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- The Chicken ---",
+        "1/2 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "1 tbsp Kosher Salt",
+        "1/2 tbsp Black Pepper (fresh-cracked)",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "2 cloves Garlic (minced or smashed)",
+        "1 tbsp Fresh Rosemary or Thyme (or 1/2 tbsp dried)",
+        "1/2 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1/2 tbsp Olive Oil (for greasing the pan)",
+        "1/4 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- The Chicken ---",
+        "1 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "2 tbsp Kosher Salt",
+        "1 tbsp Black Pepper (fresh-cracked)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic (minced or smashed)",
+        "2 tbsp Fresh Rosemary or Thyme (or 1 tbsp dried)",
+        "1 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1 tbsp Olive Oil (for greasing the pan)",
+        "1/2 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- The Chicken ---",
+        "1 1/2 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "3 tbsp Kosher Salt",
+        "1 1/2 tbsp Black Pepper (fresh-cracked)",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "6 cloves Garlic (minced or smashed)",
+        "3 tbsp Fresh Rosemary or Thyme (or 1 1/2 tbsp dried)",
+        "1 1/2 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1 1/2 tbsp Olive Oil (for greasing the pan)",
+        "3/4 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- The Chicken ---",
+        "2 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "4 tbsp Kosher Salt",
+        "2 tbsp Black Pepper (fresh-cracked)",
+        "4 tbsp Extra-Virgin Olive Oil",
+        "8 cloves Garlic (minced or smashed)",
+        "4 tbsp Fresh Rosemary or Thyme (or 2 tbsp dried)",
+        "2 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "2 tbsp Olive Oil (for greasing the pan)",
+        "1 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 8",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- The Chicken ---",
+        "3 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "6 tbsp Kosher Salt",
+        "3 tbsp Black Pepper (fresh-cracked)",
+        "6 tbsp Extra-Virgin Olive Oil",
+        "12 cloves Garlic (minced or smashed)",
+        "6 tbsp Fresh Rosemary or Thyme (or 3 tbsp dried)",
+        "3 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "3 tbsp Olive Oil (for greasing the pan)",
+        "1 1/2 cups Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- The Chicken ---",
+        "1 Whole Chicken (4-5 lbs, not jumbo)",
+        "--- The Rub ---",
+        "2 tbsp Kosher Salt",
+        "1 tbsp Black Pepper (fresh-cracked)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic (minced or smashed)",
+        "2 tbsp Fresh Rosemary or Thyme (or 1 tbsp dried)",
+        "1 tsp Smoked Paprika (optional, for color)",
+        "--- For the Pan ---",
+        "1 tbsp Olive Oil (for greasing the pan)",
+        "1/2 cup Water or Chicken Stock (for the pan)",
+        "--- The Finish ---",
+        "Fresh Lemon (for serving, cut into wedges)",
+        "Fleur de Sel or Finishing Salt (optional, for the table)",
+        "Salt and black pepper, to taste for the optional pan sauce"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    }
+  ],
+  "preservedPriorRepairs": ["a2c9 both breasts+innermost thighs/wings165/nocarryover"],
+  "remainingQuestions": [
+    "Document the actual kosher salt brand/crystal density and household preference without changing the current2tbsp.",
+    "Time each temperature site and browning at475°F using the household oven and rated pan.",
+    "Test optional stock/water pan sauce and its reduction.",
+    "Reconcile every component, actual diner amounts, shared oven and elapsed clock in a separate whole-meal review."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

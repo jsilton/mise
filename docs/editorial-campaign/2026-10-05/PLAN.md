@@ -16,6 +16,42 @@ A rotating independent peer editor challenges every consequential change and che
 
 ## States and release gates
 
+### Throughput correction — October 5, 2026
+
+Jordan redirected the active campaign toward more recipe review and less Git and
+packaging work. Preserve all existing work and ownership. Editors finish their
+disjoint five-to-ten-recipe groups, including responses to independent findings,
+and deliver one compact handoff pointing to final sources, review records and
+existing evidence. Reuse verified originals, histories and shared research. Do
+not create additional packet versions or repeat reports unless changed evidence
+or actual candidate changes require them. Routine private preparation within an
+assigned group does not require a separate lead decision for every wording fix;
+consequential source, formula and safety disagreements remain explicit gates.
+
+Independent whole-recipe review remains required. After an already challenged
+candidate changes, the peer checks the final changes and protected remainder;
+unchanged work does not receive another whole review. The lead inspects complete
+diffs and resolves consequential exceptions without reproducing sufficient
+author and peer research. Keep ingredient accounting and authored/generated
+formula consistency checks close to editing, so defects are caught while the
+reasoning is fresh.
+
+Combine ready groups into releases of about ten to twelve accepted recipes. Run
+Git integration, the complete test/QA/build suite, export parity, privacy, built
+links and applicable rendered/browser checks once at the end of each combined
+release. Repeat only checks affected by a subsequent change, failure or unresolved
+concern. Verify the exact remote commit, deployment and every affected live page
+before counting publication. Evidence holds exclude individual recipes while
+independent recipes advance. Do not postpone all verification until the entire
+409-source campaign is drafted.
+
+The immediate owners are baking_editor for seven breakfast bakes,
+poultry_editor for five assembled meat mains and coverage_check for five rice
+mains plus the quarantined Oatmeal Risotto disagreement. Their final revisions
+receive independent checks from the other editors. Finish these existing groups
+before expanding the draft backlog. This changes execution, not editorial credit:
+59 campaign recipes remain verified live and 350 remain pending at this checkpoint.
+
 Queue states distinguish queued, assigned, proposed, challenged, accepted, implemented, production-verified and held. Complete editorial status is separate from kitchen-tested and from a targeted repair. A worker report never grants accepted/implemented/published status. Every consequential unresolved safety/formula/source ambiguity stops that recipe while other disjoint work continues.
 
 The pressure-cooker and fresh-kimchi holds carry forward. Two existing craft sources are included in the 409 source queue but need a non-food editorial disposition; they must not be certified as edible or removed from exports by this campaign.

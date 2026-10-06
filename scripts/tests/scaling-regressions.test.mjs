@@ -130,6 +130,27 @@ for (const row of confirmed) {
             assert.match(scaled, /12 oz total in the original two-bunch batch/);
           }
         }
+      } else if (
+        (row.slug === 'chicken-quesadillas-with-quick-pico' && row.caseId === 12) ||
+        (row.slug === 'herby-chicken-meatball-bowl' && row.caseId === 37)
+      ) {
+        // The live formula replaces the juice/zest wording; keep every parser
+        // fixture input and its independent numeric oracle below unchanged.
+        assert.equal(data.formula?.version, 1);
+        const quesadilla = row.caseId === 12;
+        const replacement = data.formula.components
+          .find((c) => c.id === (quesadilla ? 'pico' : 'meat'))
+          .ingredients.find((i) => i.id === (quesadilla ? 'lime' : 'zest'));
+        assert.deepEqual(replacement.quantity, { amount: 1, unit: 'count' });
+        assert.equal(replacement.name, quesadilla ? 'lime' : 'lemon');
+        assert.match(replacement.preparation, quesadilla ? /juice only/ : /zest only/);
+        assert.deepEqual(replacement.uses, [{ step: quesadilla ? 'pico' : 'mix', share: 1 }]);
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(replacement, factor);
+          assert.equal(numeric(scaled.match(number)[0]), factor);
+          assert.match(scaled, quesadilla ? /juice only/ : /zest only/);
+        }
+        assert.equal(formatFormulaIngredient(replacement, 1), formatFormulaIngredient(replacement));
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

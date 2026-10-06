@@ -1,0 +1,1381 @@
+{
+  "slug": "bbq-chicken-sliders",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "39225be90e6213bdec1b8e27c1e087d68822502cf1e2c10bd27aa90c6c96ec47",
+  "acceptedSourceSha256": "359ac9547f9d41ce27a01782b9808636714016aee3d5c93b6b36f6a394384951",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 20 min active"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20 min per chicken load"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 1 hr 15 min with the 30-minute marinade"
+    },
+    {
+      "field": "servings",
+      "before": "12 sliders",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Boneless Skinless Chicken Thighs",
+        "1 cup BBQ Sauce (divided)",
+        "1 tbsp Olive Oil",
+        "1 tsp Smoked Paprika",
+        "1 tsp Garlic Powder",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "6 slices Sharp Cheddar Cheese (halved to fit sliders)",
+        "12 Hawaiian Rolls",
+        "Dill Pickle Chips",
+        "1/2 cup Crispy Fried Onions (like French's)",
+        "2 tbsp Butter (melted)"
+      ],
+      "after": [
+        "--- Chicken and glaze ---",
+        "2 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "1 cup BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "1 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "6 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "12 Hawaiian rolls, split",
+        "2 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1/2 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 210,
+        "protein": 18.5,
+        "carbs": 1.5,
+        "fat": 14.5,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 350
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Broiled BBQ chicken thighs with sharp cheddar, buttery Hawaiian rolls, pickles and crispy fried onions."
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate the clean BBQ glaze with broiler browning and crisp rolls",
+        "outcome": "Cooked thighs with a glossy glaze and melted cheddar, divided among all the rolls, with golden buttered cut faces and crunchy toppings.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "Use fresh or fully thawed raw thighs; thaw frozen chicken in the refrigerator before this recipe. Thawing is additional advance time. The original batch makes twelve sliders from twelve rolls; the number or size of individual thighs can vary. Use all the measured chicken and cheese across those rolls.",
+          "Reserve two-thirds of the measured sauce before it touches raw chicken. Use a separate clean portion for any extra serving sauce.",
+          "Use the broiler and sheet pan according to their instructions. Keep chicken in a single layer; additional loads need additional cooking time."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Each thigh reaches 165°F / 74°C in its thickest part; the sauce coating is browned without broad burnt patches.",
+            "why": "Thigh size and broiler strength vary, so the surface and the center need separate checks."
+          },
+          {
+            "step": 4,
+            "cue": "The buttered cut faces are golden and the outside of the rolls is not scorched.",
+            "why": "The broiler heats the upward-facing surface, and enriched rolls brown quickly."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The sauce darkens while a thigh is still below 165°F",
+            "cause": "The coating receives more direct broiler heat than the center.",
+            "fix": "Use a less intense broiler setting or a lower rack position permitted by the oven, turn as needed and continue cooking to the measured endpoint. Do not treat a dark surface as proof of doneness."
+          }
+        ],
+        "storage": "Store cooked chicken separately from rolls, pickles and fried onions. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Reheat chicken to 165°F / 74°C throughout before rebuilding sliders. Toast the rolls separately; fried onions lose their crunch against wet sauce.",
+        "timing": "For the original batch in one chicken load, plan roughly 20 minutes of hands-on preparation and assembly, 30 minutes refrigerated marinating and about 20 minutes of broiling and resting, with some overlap. Allow about 1 hour 15 minutes overall. A longer marinade or extra chicken/roll loads extend elapsed time; the 5-minute chicken rest can overlap roll toasting.",
+        "sources": [
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken and glaze",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "boneless skinless chicken thighs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw; fresh or fully thawed"
+              },
+              {
+                "id": "bbq-sauce",
+                "key": "bbq-sauce",
+                "name": "BBQ sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "glaze",
+                    "share": "2/3"
+                  }
+                ],
+                "preparation": "divided; keep the glazing share separate from raw chicken"
+              },
+              {
+                "id": "olive-oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "smoked paprika",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic-powder",
+                "key": "garlic-powder",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "kosher-salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cheddar",
+                "key": "cheddar",
+                "name": "sharp cheddar slice",
+                "plural": "sharp cheddar slices",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ],
+                "preparation": "halved to fit sliders"
+              }
+            ]
+          },
+          {
+            "id": "rolls",
+            "name": "Rolls and toppings",
+            "ingredients": [
+              {
+                "id": "roll",
+                "key": "roll",
+                "name": "Hawaiian roll",
+                "plural": "Hawaiian rolls",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ],
+                "preparation": "split"
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "butter",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted"
+              },
+              {
+                "id": "pickles",
+                "key": "pickles",
+                "name": "dill pickle chips",
+                "allowance": "as wanted for the sliders",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "fried-onions",
+                "key": "fried-onions",
+                "name": "crispy fried onions",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-sauce",
+                "key": "extra-sauce",
+                "name": "additional BBQ sauce",
+                "allowance": "as wanted for serving, separate from the measured marinade and glaze",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "marinate",
+            "title": "Marinate in the refrigerator",
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          },
+          {
+            "id": "broil",
+            "title": "Broil the thighs",
+            "text": "Set up a broiler-safe metal sheet pan and use the rack position permitted by the oven, about 6 inches below the broiler where the oven instructions permit. Lift the thighs from the marinade, shake off excess and discard the used marinade. Arrange in a single layer without overlap; cook in additional loads if necessary. Start checking at 6–7 minutes per side, turning as the surface browns. Check the thickest part of each thigh with a thermometer and continue until each reaches 165°F / 74°C. Watch sugary spots closely rather than waiting for heavy blackening. Move cooked chicken with clean utensils."
+          },
+          {
+            "id": "glaze",
+            "title": "Glaze and melt the cheese",
+            "text": "Use {{ingredients}} for the glaze and topping: brush the cooked thighs with the clean reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the cheese melts; remove before the sauce burns."
+          },
+          {
+            "id": "toast",
+            "title": "Rest the chicken and toast the rolls",
+            "text": "Let the chicken rest for 5 minutes. Meanwhile, use {{ingredients}} for the rolls: brush their cut faces with all the melted butter. Put the rolls cut-side up on a clean broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are golden."
+          },
+          {
+            "id": "assemble",
+            "title": "Slice and assemble",
+            "text": "Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add {{ingredients}} to the sliders and serve while the rolls and onions are crisp."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe difference between good and great sliders is building flavor at every step. Marinating the thighs in BBQ sauce with smoked paprika for even 30 minutes infuses flavor deep into the meat - don't skip this. Broiling chars the edges and caramelizes the sugars in the sauce. Sharp cheddar melted on top adds richness, pickles cut through with acid, and crispy fried onions bring texture. Brush the Hawaiian rolls with melted butter and toast them cut-side down in the oven while the chicken rests - this takes 2 minutes and makes a huge difference.\n\n## Directions\n\n1. **Marinate:** Toss chicken thighs with 1/3 cup BBQ sauce, olive oil, smoked paprika, garlic powder, salt, and pepper. Let sit 30 minutes at room temperature (or up to 4 hours refrigerated).\n\n2. **Broil:** Position rack 6 inches from broiler. Remove chicken from marinade, shake off excess. Broil on a sheet pan for 6-7 minutes per side until charred and cooked through (165°F).\n\n3. **Glaze & Cheese:** Brush hot chicken generously with remaining BBQ sauce. Top each thigh with cheddar. Broil 1-2 more minutes until cheese is melted and bubbly.\n\n4. **Toast Rolls:** While chicken rests, brush cut sides of Hawaiian rolls with melted butter. Place cut-side down on a sheet pan and toast under broiler for 1-2 minutes until golden.\n\n5. **Slice:** Let chicken rest 5 minutes. Slice into slider-sized pieces.\n\n6. **Assemble:** Add chicken with melted cheese to toasted rolls. Top with pickles and crispy fried onions. Serve with extra BBQ sauce.\n",
+    "after": "\n## Chef's Note\n\nBBQ sauce, smoked paprika and garlic coat the thighs before broiling; reserve a clean share of sauce for the glaze. The cheese and buttered rolls keep these sliders rich, while pickles and fried onions add tang and crunch. Watch the sauce and bread closely under the broiler: their sugars can darken before the chicken is ready.\n\n## Directions\n\n1. **Marinate in the refrigerator:** Toss boneless skinless chicken thighs, 1/3 of the BBQ sauce, olive oil, smoked paprika, garlic powder, kosher salt, and black pepper together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken.\n2. **Broil the thighs:** Set up a broiler-safe metal sheet pan and use the rack position permitted by the oven, about 6 inches below the broiler where the oven instructions permit. Lift the thighs from the marinade, shake off excess and discard the used marinade. Arrange in a single layer without overlap; cook in additional loads if necessary. Start checking at 6–7 minutes per side, turning as the surface browns. Check the thickest part of each thigh with a thermometer and continue until each reaches 165°F / 74°C. Watch sugary spots closely rather than waiting for heavy blackening. Move cooked chicken with clean utensils.\n3. **Glaze and melt the cheese:** Use 2/3 of the BBQ sauce and sharp cheddar slices for the glaze and topping: brush the cooked thighs with the clean reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the cheese melts; remove before the sauce burns.\n4. **Rest the chicken and toast the rolls:** Let the chicken rest for 5 minutes. Meanwhile, use Hawaiian rolls and butter for the rolls: brush their cut faces with all the melted butter. Put the rolls cut-side up on a clean broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are golden.\n5. **Slice and assemble:** Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add dill pickle chips, crispy fried onions, and additional BBQ sauce to the sliders and serve while the rolls and onions are crisp.\n"
+  },
+  "findings": [
+    {
+      "id": "MA03-B01",
+      "title": "Refrigerated marinating and clean sauce",
+      "field": "Directions 1–3",
+      "rationale": "FDA requires refrigerator marinating; the full original 1 cup remains one-third raw coating/two-thirds clean glaze, with used marinade discarded.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+        "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+        "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
+      ]
+    },
+    {
+      "id": "MA03-B02",
+      "title": "Whole-batch cheese, bread face and extra sauce destinations",
+      "field": "Directions 3–6",
+      "rationale": "Distribute all six halved cheese slices across all cooked meat rather than imply a thigh count; toast the buttered face toward the heat; identify the already-called-for extra serving sauce as a genuine unmeasured allowance. The face-up change is editorial heat-direction reasoning, not a tested broiler claim.",
+      "confidence": "high for allocation; medium for equipment/texture",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+        "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+        "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
+      ]
+    },
+    {
+      "id": "MA03-B03",
+      "title": "Complete elapsed clock",
+      "field": "totalTime",
+      "rationale": "The required 30-minute marinade alone equals the old total. The new approximately75-minute plan includes it, rest and assembly; actual pan loads remain a kitchen question.",
+      "confidence": "high arithmetic; medium planning estimate",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+        "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+        "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
+      ]
+    },
+    {
+      "id": "MA03-B04",
+      "title": "Narrow flavor claims and nutrition",
+      "field": "Chef's Note / nutrition",
+      "rationale": "Describe the actual sauce coating and texture rather than guarantee deep infusion. Remove automatically estimated nutrition rather than assert exact nutrition with optional sauce, unspecified rolls and toppings.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+        "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+        "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/e07f66f8082ccf28f9b7904d10fa3e4098584a7b/src/content/recipes/bbq-chicken-sliders.md",
+    "introductionScope": "New-file introduction in whole followed Git history. Preceding tree searched for earlier same recipe; no earlier cooking file located. Commit subject alone does not establish household acceptance or outside authorship.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Git formula is stable through later metadata edits; clean sauce and side-facing toast are editorial mechanism/handling corrections, not a recovered external recipe."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "index": 0,
+        "ingredient": "2 lbs Boneless Skinless Chicken Thighs",
+        "state": "exact frozen ingredient string",
+        "destination": "Marinate then broil; raw thighs explicitly 165°F.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 cup BBQ Sauce (divided)",
+        "state": "exact frozen ingredient string",
+        "destination": "One-third cup raw marinade; remaining sauce glaze, plus unquantified extra sauce at serving without a separate ledger entry.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 tbsp Olive Oil",
+        "state": "exact frozen ingredient string",
+        "destination": "Raw marinade.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 tsp Smoked Paprika",
+        "state": "exact frozen ingredient string",
+        "destination": "Raw marinade.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 tsp Garlic Powder",
+        "state": "exact frozen ingredient string",
+        "destination": "Raw marinade.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 tsp Kosher Salt",
+        "state": "exact frozen ingredient string",
+        "destination": "Raw marinade.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 6,
+        "ingredient": "1/2 tsp Black Pepper",
+        "state": "exact frozen ingredient string",
+        "destination": "Raw marinade.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 7,
+        "ingredient": "6 slices Sharp Cheddar Cheese (halved to fit sliders)",
+        "state": "exact frozen ingredient string",
+        "destination": "Glaze: top each thigh with cheddar; slice count versus unknown thigh count is unresolved.",
+        "resolutionStatus": "unresolved in frozen method"
+      },
+      {
+        "index": 8,
+        "ingredient": "12 Hawaiian Rolls",
+        "state": "exact frozen ingredient string",
+        "destination": "Butter cut faces, then toast cut-side down under broiler.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 9,
+        "ingredient": "Dill Pickle Chips",
+        "state": "exact frozen ingredient string",
+        "destination": "Assemble; genuine unmeasured pickle garnish.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 10,
+        "ingredient": "1/2 cup Crispy Fried Onions (like French's)",
+        "state": "exact frozen ingredient string",
+        "destination": "Assemble all fried onions.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 11,
+        "ingredient": "2 tbsp Butter (melted)",
+        "state": "exact frozen ingredient string",
+        "destination": "Brush roll cut faces before broiling.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "chicken.chicken",
+        "name": "boneless skinless chicken thighs",
+        "key": "chicken",
+        "quantity": {
+          "amount": 2,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "raw; fresh or fully thawed",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1,
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.bbq-sauce",
+        "name": "BBQ sauce",
+        "key": "bbq-sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "divided; keep the glazing share separate from raw chicken",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": "1/3",
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          },
+          {
+            "step": "glaze",
+            "share": "2/3",
+            "text": "Use {{ingredients}} for the glaze and topping: brush the cooked thighs with the clean reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the cheese melts; remove before the sauce burns."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.olive-oil",
+        "name": "olive oil",
+        "key": "olive-oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1,
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.paprika",
+        "name": "smoked paprika",
+        "key": "paprika",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1,
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.garlic-powder",
+        "name": "garlic powder",
+        "key": "garlic-powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1,
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.kosher-salt",
+        "name": "kosher salt",
+        "key": "kosher-salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1,
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.pepper",
+        "name": "black pepper",
+        "key": "pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1,
+            "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "chicken.cheddar",
+        "name": "sharp cheddar slice",
+        "key": "cheddar",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "halved to fit sliders",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "glaze",
+            "share": 1,
+            "text": "Use {{ingredients}} for the glaze and topping: brush the cooked thighs with the clean reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the cheese melts; remove before the sauce burns."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "rolls.roll",
+        "name": "Hawaiian roll",
+        "key": "roll",
+        "quantity": {
+          "amount": 12,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "split",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "toast",
+            "share": 1,
+            "text": "Let the chicken rest for 5 minutes. Meanwhile, use {{ingredients}} for the rolls: brush their cut faces with all the melted butter. Put the rolls cut-side up on a clean broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are golden."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "rolls.butter",
+        "name": "butter",
+        "key": "butter",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "melted",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "toast",
+            "share": 1,
+            "text": "Let the chicken rest for 5 minutes. Meanwhile, use {{ingredients}} for the rolls: brush their cut faces with all the melted butter. Put the rolls cut-side up on a clean broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are golden."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "rolls.pickles",
+        "name": "dill pickle chips",
+        "key": "pickles",
+        "quantity": null,
+        "allowance": "as wanted for the sliders",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add {{ingredients}} to the sliders and serve while the rolls and onions are crisp."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "rolls.fried-onions",
+        "name": "crispy fried onions",
+        "key": "fried-onions",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add {{ingredients}} to the sliders and serve while the rolls and onions are crisp."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "rolls.extra-sauce",
+        "name": "additional BBQ sauce",
+        "key": "extra-sauce",
+        "quantity": null,
+        "allowance": "as wanted for serving, separate from the measured marinade and glaze",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add {{ingredients}} to the sliders and serve while the rolls and onions are crisp."
+          }
+        ],
+        "allocationSum": 1
+      }
+    ],
+    "measuredPreservation": [
+      {
+        "frozenIngredientIndex": 0,
+        "frozenIngredient": "2 lbs Boneless Skinless Chicken Thighs",
+        "proposedId": "chicken.chicken",
+        "quantity": {
+          "amount": 2,
+          "unit": "lb"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 1,
+        "frozenIngredient": "1 cup BBQ Sauce (divided)",
+        "proposedId": "chicken.bbq-sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 2,
+        "frozenIngredient": "1 tbsp Olive Oil",
+        "proposedId": "chicken.olive-oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 3,
+        "frozenIngredient": "1 tsp Smoked Paprika",
+        "proposedId": "chicken.paprika",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 4,
+        "frozenIngredient": "1 tsp Garlic Powder",
+        "proposedId": "chicken.garlic-powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 5,
+        "frozenIngredient": "1 tsp Kosher Salt",
+        "proposedId": "chicken.kosher-salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 6,
+        "frozenIngredient": "1/2 tsp Black Pepper",
+        "proposedId": "chicken.pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 7,
+        "frozenIngredient": "6 slices Sharp Cheddar Cheese (halved to fit sliders)",
+        "proposedId": "chicken.cheddar",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 8,
+        "frozenIngredient": "12 Hawaiian Rolls",
+        "proposedId": "rolls.roll",
+        "quantity": {
+          "amount": 12,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 10,
+        "frozenIngredient": "1/2 cup Crispy Fried Onions (like French's)",
+        "proposedId": "rolls.fried-onions",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 11,
+        "frozenIngredient": "2 tbsp Butter (melted)",
+        "proposedId": "rolls.butter",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "unchangedAmount": true
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "marinate",
+      "title": "Marinate in the refrigerator",
+      "text": "Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken."
+    },
+    {
+      "step": 2,
+      "id": "broil",
+      "title": "Broil the thighs",
+      "text": "Set up a broiler-safe metal sheet pan and use the rack position permitted by the oven, about 6 inches below the broiler where the oven instructions permit. Lift the thighs from the marinade, shake off excess and discard the used marinade. Arrange in a single layer without overlap; cook in additional loads if necessary. Start checking at 6–7 minutes per side, turning as the surface browns. Check the thickest part of each thigh with a thermometer and continue until each reaches 165°F / 74°C. Watch sugary spots closely rather than waiting for heavy blackening. Move cooked chicken with clean utensils."
+    },
+    {
+      "step": 3,
+      "id": "glaze",
+      "title": "Glaze and melt the cheese",
+      "text": "Use {{ingredients}} for the glaze and topping: brush the cooked thighs with the clean reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the cheese melts; remove before the sauce burns."
+    },
+    {
+      "step": 4,
+      "id": "toast",
+      "title": "Rest the chicken and toast the rolls",
+      "text": "Let the chicken rest for 5 minutes. Meanwhile, use {{ingredients}} for the rolls: brush their cut faces with all the melted butter. Put the rolls cut-side up on a clean broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are golden."
+    },
+    {
+      "step": 5,
+      "id": "assemble",
+      "title": "Slice and assemble",
+      "text": "Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add {{ingredients}} to the sliders and serve while the rolls and onions are crisp."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Longer refrigerated marinade",
+      "state": "retained",
+      "ingredients": "The same full formula; 30 minutes to 4 hours refrigerated, never a second sauce dose.",
+      "method": "Same broiler route after marinating."
+    },
+    {
+      "name": "Extra serving BBQ sauce",
+      "state": "genuine unmeasured serving allowance",
+      "ingredients": "Additional sauce separate from the measured 1 cup.",
+      "method": "Assemble/serve; no reuse of raw-contact marinade."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "dependencies": [
+      {
+        "slug": "crockpot-mac-and-cheese",
+        "path": "src/content/recipes/crockpot-mac-and-cheese.md",
+        "sha256": "6b3c432d55317d7d66bdd6fe9cb5ea372f85ac6a6bb41ba37650f228442fb68e",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "classic-guacamole",
+        "path": "src/content/recipes/classic-guacamole.md",
+        "sha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "sweet-chili-chicken-sliders",
+        "path": "src/content/recipes/sweet-chili-chicken-sliders.md",
+        "sha256": "935541d002da362fe9b9bb81132c88ae7ce23b89899fee21086309629e9b4d08",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      }
+    ],
+    "meals": [
+      {
+        "path": "src/content/meals/playoff-football-party.md",
+        "sha256": "64853970bfad07bfd59faa0edd812e7e96363b54dc3359e6f785952404a5a1ef",
+        "issue": "Meal schedules two complete slider batches through one broiler in25min without verified loads; marinade is30min, not the old30min recipe total. Meal plain-kids variant omits defining sauce but is not approved by recipe review."
+      }
+    ],
+    "approval": false
+  },
+  "ratiosYieldAndCapacity": {
+    "frozen": "12 sliders",
+    "proposed": "12 pieces",
+    "scope": "Inherited original planning yield; no measured finished weight or verified portions. Rolls/tortillas are counted ingredients; meat portions follow measured count at each scale.",
+    "panCapacity": [
+      "Use fresh or fully thawed raw thighs; thaw frozen chicken in the refrigerator before this recipe. Thawing is additional advance time. The original batch makes twelve sliders from twelve rolls; the number or size of individual thighs can vary. Use all the measured chicken and cheese across those rolls.",
+      "Use the broiler and sheet pan according to their instructions. Keep chicken in a single layer; additional loads need additional cooking time."
+    ],
+    "clock": "For the original batch in one chicken load, plan roughly 20 minutes of hands-on preparation and assembly, 30 minutes refrigerated marinating and about 20 minutes of broiling and resting, with some overlap. Allow about 1 hour 15 minutes overall. A longer marinade or extra chicken/roll loads extend elapsed time; the 5-minute chicken rest can overlap roll toasting."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "1/2 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "1/4 cup BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "1/4 tbsp olive oil",
+        "1/4 tsp smoked paprika",
+        "1/4 tsp garlic powder",
+        "1/4 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1 1/2 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "3 Hawaiian rolls, split",
+        "1/2 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1/8 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "3 pieces",
+      "shopping": [
+        "1/2 lb boneless skinless chicken thighs",
+        "1/4 cup BBQ sauce",
+        "1/4 tbsp olive oil",
+        "1/4 tsp smoked paprika",
+        "1/4 tsp garlic powder",
+        "1/4 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1 1/2 sharp cheddar slices",
+        "3 Hawaiian rolls",
+        "1/2 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "1/8 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "1 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "1/2 cup BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "1/2 tbsp olive oil",
+        "1/2 tsp smoked paprika",
+        "1/2 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "3 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "6 Hawaiian rolls, split",
+        "1 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1/4 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "6 pieces",
+      "shopping": [
+        "1 lb boneless skinless chicken thighs",
+        "1/2 cup BBQ sauce",
+        "1/2 tbsp olive oil",
+        "1/2 tsp smoked paprika",
+        "1/2 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "3 sharp cheddar slices",
+        "6 Hawaiian rolls",
+        "1 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "1/4 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "2 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "1 cup BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "1 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "6 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "12 Hawaiian rolls, split",
+        "2 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1/2 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "12 pieces",
+      "shopping": [
+        "2 lb boneless skinless chicken thighs",
+        "1 cup BBQ sauce",
+        "1 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "6 sharp cheddar slices",
+        "12 Hawaiian rolls",
+        "2 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "1/2 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "3 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "1 1/2 cups BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "1 1/2 tbsp olive oil",
+        "1 1/2 tsp smoked paprika",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp kosher salt",
+        "3/4 tsp black pepper",
+        "9 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "18 Hawaiian rolls, split",
+        "3 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "3/4 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "18 pieces",
+      "shopping": [
+        "3 lb boneless skinless chicken thighs",
+        "1 1/2 cups BBQ sauce",
+        "1 1/2 tbsp olive oil",
+        "1 1/2 tsp smoked paprika",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp kosher salt",
+        "3/4 tsp black pepper",
+        "9 sharp cheddar slices",
+        "18 Hawaiian rolls",
+        "3 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "3/4 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "4 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "2 cups BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "2 tbsp olive oil",
+        "2 tsp smoked paprika",
+        "2 tsp garlic powder",
+        "2 tsp kosher salt",
+        "1 tsp black pepper",
+        "12 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "24 Hawaiian rolls, split",
+        "4 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "24 pieces",
+      "shopping": [
+        "4 lb boneless skinless chicken thighs",
+        "2 cups BBQ sauce",
+        "2 tbsp olive oil",
+        "2 tsp smoked paprika",
+        "2 tsp garlic powder",
+        "2 tsp kosher salt",
+        "1 tsp black pepper",
+        "12 sharp cheddar slices",
+        "24 Hawaiian rolls",
+        "4 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "1 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "6 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "3 cups BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "3 tbsp olive oil",
+        "3 tsp smoked paprika",
+        "3 tsp garlic powder",
+        "3 tsp kosher salt",
+        "1 1/2 tsp black pepper",
+        "18 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "36 Hawaiian rolls, split",
+        "6 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1 1/2 cups crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "36 pieces",
+      "shopping": [
+        "6 lb boneless skinless chicken thighs",
+        "3 cups BBQ sauce",
+        "3 tbsp olive oil",
+        "3 tsp smoked paprika",
+        "3 tsp garlic powder",
+        "3 tsp kosher salt",
+        "1 1/2 tsp black pepper",
+        "18 sharp cheddar slices",
+        "36 Hawaiian rolls",
+        "6 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "1 1/2 cups crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Chicken and glaze ---",
+        "2 lb boneless skinless chicken thighs, raw; fresh or fully thawed",
+        "1 cup BBQ sauce, divided; keep the glazing share separate from raw chicken",
+        "1 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "6 sharp cheddar slices, halved to fit sliders",
+        "--- Rolls and toppings ---",
+        "12 Hawaiian rolls, split",
+        "2 tbsp butter, melted",
+        "dill pickle chips, as wanted for the sliders",
+        "1/2 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ],
+      "yield": "12 pieces",
+      "shopping": [
+        "2 lb boneless skinless chicken thighs",
+        "1 cup BBQ sauce",
+        "1 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "6 sharp cheddar slices",
+        "12 Hawaiian rolls",
+        "2 tbsp butter",
+        "dill pickle chips, as wanted for the sliders",
+        "1/2 cup crispy fried onions",
+        "additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+    "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+    "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

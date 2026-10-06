@@ -1,0 +1,2092 @@
+{
+  "slug": "carnitas-bowl",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "7366395204b34c0fe76205cb1cd50bb1259673989d2f3d8d1718f1398f249f11",
+  "acceptedSourceSha256": "b61d613234fbbf61ed2cb0a6b4163f9a2f9f08e20249b04b4f846baff1f7ba7c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "About 40 min active with bowl components ready"
+    },
+    {
+      "field": "cookTime",
+      "before": "3.5 hr",
+      "after": "About 3 hr 15 min–4 hr"
+    },
+    {
+      "field": "totalTime",
+      "before": "4 hr",
+      "after": "About 4–5 hr with the 30-minute seasoning rest"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 lbs Pork Shoulder, cut into 2-inch chunks",
+        "1 tbsp Kosher Salt",
+        "1 Orange, quartered",
+        "1 Yellow Onion, quartered",
+        "4 cloves Garlic, smashed",
+        "2 Bay Leaves",
+        "1 Cinnamon Stick",
+        "2 tbsp Vegetable Oil",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+        "2 ears Corn, charred and cut off cob",
+        "1/4 cup Mayo",
+        "1/4 cup Sour Cream",
+        "1/2 cup Cotija Cheese, crumbled",
+        "1 tsp Ancho Chile Powder",
+        "2 cups Green Cabbage, shredded",
+        "2 Avocados, sliced",
+        "1/4 cup Pepitas, toasted",
+        "Fresh Cilantro",
+        "2 Limes, cut into wedges"
+      ],
+      "after": [
+        "--- Carnitas ---",
+        "3 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "1 tbsp kosher salt",
+        "1 orange, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "1 yellow onion, quartered; discard after braising",
+        "4 garlic cloves, smashed; discard after braising",
+        "2 bay leaves",
+        "1 cinnamon stick",
+        "2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "2 ears of corn, already charred; kernels cut off the cob",
+        "1/4 cup mayonnaise",
+        "1/4 cup sour cream",
+        "1/2 cup cotija cheese, crumbled; divided",
+        "1 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "2 cups green cabbage, shredded",
+        "2 avocados, sliced",
+        "1/4 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "2 limes, cut into wedges"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1085,
+        "protein": 57.5,
+        "carbs": 27,
+        "fat": 84.5,
+        "fiber": 5.5,
+        "sugar": 7.5,
+        "sodium": 2590
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Covered oven-braised pork shoulder returned to its rendered fat and crisped under the broiler, with rice, beans, charred corn and the full elote dressing."
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the braise close-fitting, then crisp selected surfaces without discarding the pork fat",
+        "outcome": "Pull-apart pork with crisp edges and a moist interior, served with the full rich corn dressing and fresh bowl toppings.",
+        "techniques": ["braising", "browning", "temperature"],
+        "before": [
+          "Use fresh or fully thawed raw pork; refrigerator thawing is additional advance time. The original planning yield is six bowls, not a measured pork yield or a prescribed amount of rice/beans/onions. Prepare portions of those linked components as wanted for the bowls.",
+          "The corn is already charred, kernels removed, and the pepitas already toasted. Their separate preparation is outside the bowl clock below unless done during the braise.",
+          "Keep 2-inch pork chunks and a snug covered arrangement at every batch size. A 9×13-inch dish may leave too much empty space for the original 3 lb shoulder; choose its fit after cutting the meat. Use additional snug vessels for larger batches, and keep broiler meat in one layer."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A fork readily separates the shoulder pieces; the minimum 145°F / 63°C and 3-minute whole-pork rest are met.",
+            "why": "Safe whole-pork minimum and the much softer texture wanted for shredding are different checks."
+          },
+          {
+            "step": 3,
+            "cue": "All separated rendered fat is back with the pork; the aqueous cooking juices are reserved separately.",
+            "why": "Returning the fat is part of this formula's richness and broiler finish, not a fat-reduction step."
+          },
+          {
+            "step": 5,
+            "cue": "Some edges are crisp after stirring between passes while larger pieces remain moist.",
+            "why": "Two passes expose different surfaces; elapsed six-minute periods do not guarantee the same result in every broiler."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The shoulder is still firm at the first braise check",
+            "cause": "Cut size, pan loading, heat or the shoulder's connective tissue needs more time.",
+            "fix": "Keep the cover tight and continue until the chunks separate readily with a fork. Wait for that texture before shredding; the minimum temperature alone does not show that the shoulder is tender."
+          }
+        ],
+        "storage": "Store carnitas, reserved cooking juices, prepared rice/beans and the cold corn dressing/toppings separately. Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or colder. Use cooked pork and cooking juices within 3–4 days; follow each linked component's storage guidance. Reheat pork and any cooked rice/beans to 165°F / 74°C throughout before assembly; re-crisp the reheated pork briefly if wanted. When reheating reserved aqueous cooking juices as sauce, USDA additionally recommends a rolling boil; stir and keep it brief rather than concentrating them with prolonged boiling. This is not an instruction to boil separated fat. Keep mayo/sour-cream dressing and fresh toppings cold.",
+        "timing": "With the rice, beans, pickled onions, charred corn and toasted pepitas already prepared, plan about 40 minutes of hands-on seasoning, straining, shredding, dressing and assembly, 30 minutes refrigerated seasoning, 3–3½ hours covered braising, at least 3 minutes rest and roughly 12 minutes of broiling plus heating time: allow about 4–5 hours overall. Some dressing/preparation can overlap the braise. Overnight seasoning is additional advance time, and extra vessels or broiler loads extend the clock. Making the linked preparations or charring corn from scratch is not included in that ready-components estimate.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "Secretaría de Turismo de Michoacán — Carnitas michoacanas",
+            "url": "https://sectur.michoacan.gob.mx/carnitas-michoacanas-nominadas-a-mejor-platillo-tipico-mexicano/"
+          },
+          {
+            "title": "J. Kenji López-Alt — No-Waste Tacos de Carnitas, Serious Eats",
+            "url": "https://www.seriouseats.com/no-waste-tacos-de-carnitas-with-salsa-verde-recipe"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pork",
+            "name": "Carnitas",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "pork shoulder",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw; fresh or fully thawed, cut into 2-inch chunks"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "orange",
+                "key": "orange",
+                "name": "orange",
+                "plural": "oranges",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ],
+                "preparation": "quartered; squeeze juice over pork, then add quarters and discard them after braising"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "yellow onion",
+                "plural": "yellow onions",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ],
+                "preparation": "quartered; discard after braising",
+                "role": "discarded"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ],
+                "preparation": "smashed; discard after braising",
+                "role": "discarded"
+              },
+              {
+                "id": "bay",
+                "key": "bay",
+                "name": "bay leaf",
+                "plural": "bay leaves",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ],
+                "role": "discarded"
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "cinnamon stick",
+                "plural": "cinnamon sticks",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ],
+                "role": "discarded"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "braise",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finishing-salt",
+                "key": "finishing-salt",
+                "name": "salt",
+                "allowance": "to taste after shredding, separate from the measured initial seasoning",
+                "uses": [
+                  {
+                    "step": "shred",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "corn",
+            "name": "Corn and elote dressing",
+            "ingredients": [
+              {
+                "id": "corn",
+                "key": "corn",
+                "name": "ear of corn",
+                "plural": "ears of corn",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "dress",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already charred; kernels cut off the cob"
+              },
+              {
+                "id": "mayo",
+                "key": "mayo",
+                "name": "mayonnaise",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dress",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "sour cream",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dress",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cotija",
+                "key": "cotija",
+                "name": "cotija cheese",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dress",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "assemble",
+                    "share": "1/2"
+                  }
+                ],
+                "preparation": "crumbled; divided"
+              },
+              {
+                "id": "chile",
+                "key": "chile",
+                "name": "ancho chile powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dress",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bowls",
+            "name": "Bowl components and toppings",
+            "ingredients": [
+              {
+                "id": "rice",
+                "key": "rice",
+                "name": "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)",
+                "allowance": "prepared; portions as wanted for the bowls",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)",
+                "allowance": "prepared; portions as wanted for the bowls",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pickled-onions",
+                "key": "pickled-onions",
+                "name": "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+                "allowance": "prepared; portions as wanted for the bowls",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cabbage",
+                "key": "cabbage",
+                "name": "green cabbage",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded"
+              },
+              {
+                "id": "avocado",
+                "key": "avocado",
+                "name": "avocado",
+                "plural": "avocados",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "pepitas",
+                "key": "pepitas",
+                "name": "pepitas",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already toasted"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "allowance": "as wanted for the bowls",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "lime",
+                "plural": "limes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cut into wedges"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "season",
+            "title": "Season and refrigerate",
+            "text": "Use {{ingredients}}: coat the pork chunks with all the measured initial kosher salt. Cover and refrigerate for 30 minutes, or overnight. Do not leave the raw pork seasoning on the counter."
+          },
+          {
+            "id": "braise",
+            "title": "Arrange and braise",
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          },
+          {
+            "id": "strain",
+            "title": "Strain and return the fat",
+            "text": "Remove and discard the orange quarters, onion, garlic, bay leaves and cinnamon. Strain the pork, reserving all the cooking liquid. Separate the rendered fat from that liquid and return ALL the separated fat to the meat. Keep the remaining cooking juices separately for another preparation. Cool and refrigerate reserved juices promptly in a shallow container if not using them immediately."
+          },
+          {
+            "id": "shred",
+            "title": "Shred and season",
+            "text": "Pull the pork into large pieces with two forks. Taste the cooked meat, then add {{ingredients}} only as needed; the full measured initial salt has already been used."
+          },
+          {
+            "id": "crisp",
+            "title": "Crisp in two passes",
+            "text": "Spread the meat and all its returned fat in a single layer on a broiler-safe rimmed metal sheet pan, using additional pans or loads if needed. Broil, starting to check at 6 minutes, until exposed edges crisp; stir so other surfaces face the heat, then broil again, starting to check within another 6 minutes. Watch the meat throughout and stop when the edges are crisp without drying every piece. Broiler strength and load change the timing."
+          },
+          {
+            "id": "dress",
+            "title": "Dress the prepared corn",
+            "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+          },
+          {
+            "id": "assemble",
+            "title": "Build the bowls",
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTrue carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat - no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [Chipotle Pork Bowls](/mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls).\n\n## Directions\n\n1.  **Season:** Salt the pork chunks generously. Let sit 30 minutes (or overnight in fridge).\n2.  **Arrange:** Preheat oven to 275°F. Pack pork tightly in a 9x13 baking dish. Squeeze orange quarters over meat and nestle them in. Add onion, garlic, bay leaves, and cinnamon. Drizzle oil over top.\n3.  **Braise:** Cover tightly with foil. Bake 3-3.5 hours until fork-tender.\n4.  **Strain:** Remove aromatics and discard. Drain pork, reserving liquid. Skim fat from liquid and add it back to the meat.\n5.  **Shred:** Pull pork into large chunks with two forks. Season with salt.\n6.  **Crisp:** Spread on a sheet pan. Broil 6 minutes until edges crisp. Stir. Broil 6 more minutes.\n7.  **Elote Sauce:** Mix mayo, sour cream, half the cotija, and chile powder.\n8.  **Assemble:** Rice in bowls. Top with carnitas, black beans, charred corn dressed with elote sauce, pickled onions, cabbage, avocado, pepitas, remaining cotija, cilantro, and lime.\n",
+    "after": "\n## Chef's Note\n\nCarnitas have a strong association with Michoacán. This oven version keeps the pork close together under a tight cover, then returns its rendered fat to the meat before broiling for crisp edges. Stir once between the two broiler passes so new surfaces face the heat. The rice, beans, pickled onions, charred corn and creamy cotija dressing make this a full bowl; the faster ground-pork [Chipotle Pork Bowls](/mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls) use a different method.\n\n## Directions\n\n1. **Season and refrigerate:** Use pork shoulder and kosher salt: coat the pork chunks with all the measured initial kosher salt. Cover and refrigerate for 30 minutes, or overnight. Do not leave the raw pork seasoning on the counter.\n2. **Arrange and braise:** Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add orange, yellow onion, garlic cloves, bay leaves, cinnamon stick, and vegetable oil: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder.\n3. **Strain and return the fat:** Remove and discard the orange quarters, onion, garlic, bay leaves and cinnamon. Strain the pork, reserving all the cooking liquid. Separate the rendered fat from that liquid and return ALL the separated fat to the meat. Keep the remaining cooking juices separately for another preparation. Cool and refrigerate reserved juices promptly in a shallow container if not using them immediately.\n4. **Shred and season:** Pull the pork into large pieces with two forks. Taste the cooked meat, then add salt only as needed; the full measured initial salt has already been used.\n5. **Crisp in two passes:** Spread the meat and all its returned fat in a single layer on a broiler-safe rimmed metal sheet pan, using additional pans or loads if needed. Broil, starting to check at 6 minutes, until exposed edges crisp; stir so other surfaces face the heat, then broil again, starting to check within another 6 minutes. Watch the meat throughout and stop when the edges are crisp without drying every piece. Broiler strength and load change the timing.\n6. **Dress the prepared corn:** Use ears of corn, mayonnaise, sour cream, 1/2 of the cotija cheese, and ancho chile powder: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead.\n7. **Build the bowls:** Divide all the carnitas and dressed corn among the planned portions. Add 1/2 of the cotija cheese, [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), [Pickled Red Onions](/mise/recipes/pickled-red-onions), green cabbage, avocados, pepitas, fresh cilantro, and limes: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed.\n"
+  },
+  "findings": [
+    {
+      "id": "MA03-C01",
+      "title": "Refrigerated seasoning and whole-pork endpoint",
+      "field": "Directions1&3",
+      "rationale": "Clarify refrigerator for both options; whole-cutpork145°Fminimumplus3minrest is distinct from ground160/poultry165 and from shoulder pull-apart texture. Preserve275°Fsourcebraise and all aromatics/oil; no cooker liquid invented.",
+      "confidence": "high applicablecategory; medium tendernessclock",
+      "applicableSources": [
+        {
+          "title": "FoodSafety.gov — Safe minimum internal temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
+      ]
+    },
+    {
+      "id": "MA03-C02",
+      "title": "Source pan fit without invented capacity",
+      "field": "Directions2",
+      "rationale": "The stated dish dimension does not establish close packing for actual3lbchunks. Keep the snug mechanism and explicit conditionaloriginaldimension, use fitted vessels/one-layerbroilerloads rather than certify arbitrary capacity or add liquid. Root/peer must hold if exactpan intent is unresolved.",
+      "confidence": "medium editorial geometry",
+      "applicableSources": [
+        {
+          "title": "J. Kenji López-Alt — No-Waste Tacos de Carnitas, Serious Eats",
+          "url": "https://www.seriouseats.com/no-waste-tacos-de-carnitas-with-salsa-verde-recipe"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
+      ]
+    },
+    {
+      "id": "MA03-C03",
+      "title": "Full fat, reserved juice, cotija and finishing-salt ledger",
+      "field": "Directions4–8",
+      "rationale": "ReturnALLseparatedfat as originallywritten;aqueousjuicesreservedwithsafe storage,notaddedarbitrarilyor substitutedfor fat. Cotijahalves scale,allmayo/SCretained; existing finishsaltto-taste becomes separate genuineallowance. No new healthreduction.",
+      "confidence": "high amounts/destinations",
+      "applicableSources": [
+        {
+          "title": "USDA FSIS — Leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "J. Kenji López-Alt — No-Waste Tacos de Carnitas, Serious Eats",
+          "url": "https://www.seriouseats.com/no-waste-tacos-de-carnitas-with-salsa-verde-recipe"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
+      ]
+    },
+    {
+      "id": "MA03-C04",
+      "title": "Whole assembly states and elapsed time, linked meal conflict",
+      "field": "Ingredients/totalTime/linkedmeal",
+      "rationale": "Disclose preparedunmeasuredbowlcomponents,exclude their fromscratchpreparation fromclock and include refrigerated30minseason/rest/straining/broil. Keep6inheritplanningportions,not measuredyield. Meal4–6hrslowcook/broil3–4mindiffers; no cooker method,liquid or mealacceptance is inferred.",
+      "confidence": "high statedsourceconflict; medium4–5hrplan",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
+      ]
+    },
+    {
+      "id": "MA03-C05",
+      "title": "Cultural mechanism scope and nutrition",
+      "field": "Chef note /nutrition",
+      "rationale": "Retain supportedMichoacánassociationandthisoven/returnedfatmethod, avoid claiming this bowl is the only authentic formula. Remove automated nutrition with unmeasured linked components, renderedfat/outputunknown; no replacementpreciseestimate.",
+      "confidence": "high context/limit",
+      "applicableSources": [
+        {
+          "title": "Secretaría de Turismo de Michoacán — Carnitas michoacanas",
+          "url": "https://sectur.michoacan.gob.mx/carnitas-michoacanas-nominadas-a-mejor-platillo-tipico-mexicano/"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/ee6efd5690f9199bc18d3af11aa776d592166ebc/src/content/recipes/carnitas-bowl.md",
+    "introductionScope": "New-file introduction in whole followed Git history. Preceding tree searched for earlier same recipe; no earlier cooking file located. Commit subject alone does not establish household acceptance or outside authorship.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "The actual Git introduction has this complete oven/bowl formula and no bound match in the original 450 native archive. The later verified 653 native record is a Mise-sync copy, not an independently recovered original. No external formula author or household acceptance is inferred from a bulk edit.",
+    "Kenji's Serious Eats carnitas method supports close-fitting covered275°Fbraising, returning separated fat and6+6broiler passes. Its¼cupoil versus this source2tbsp, two onion quarters in the braise versus this wholeonion, and full tomatillo-salsa/taco assembly differ. Those publisher quantities/outputs are not restored into this complete current bowl formula; source citation is mechanism-specific.",
+    "Carnitas Bowl Night describes a4–6hrslowcookerand3–4mincrisp route, unlike this275°Fcoveredoven3–3½hrbraise/two6-minutechecks. No cooker liquid, capacity, full linked-component batch or meal approval is invented."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "index": 0,
+        "ingredient": "3 lbs Pork Shoulder, cut into 2-inch chunks",
+        "state": "exact frozen ingredient string",
+        "destination": "Saltedrawpork;275°F3–3½hrcoveredforktender, thenfatreturned/shred/broil; measuredwholecutminimum/restmissing.",
+        "resolutionStatus": "unresolved in frozen method"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 tbsp Kosher Salt",
+        "state": "exact frozen ingredient string",
+        "destination": "Initialseasoningall; laterunlistedfinishing salt.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 Orange, quartered",
+        "state": "exact frozen ingredient string",
+        "destination": "Squeezedovermeat,quartersbraiseanddiscard.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 Yellow Onion, quartered",
+        "state": "exact frozen ingredient string",
+        "destination": "Braiseanddiscard as aromatic.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 4,
+        "ingredient": "4 cloves Garlic, smashed",
+        "state": "exact frozen ingredient string",
+        "destination": "Braiseanddiscard as aromatic.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 5,
+        "ingredient": "2 Bay Leaves",
+        "state": "exact frozen ingredient string",
+        "destination": "Braiseanddiscard.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 Cinnamon Stick",
+        "state": "exact frozen ingredient string",
+        "destination": "Braiseanddiscard.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 7,
+        "ingredient": "2 tbsp Vegetable Oil",
+        "state": "exact frozen ingredient string",
+        "destination": "All2tbspoverrawbraiseingredients.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 8,
+        "ingredient": "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)",
+        "state": "exact frozen ingredient string",
+        "destination": "Requiredlinkedricebase, no dose or preparationstate beyondlink.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 9,
+        "ingredient": "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)",
+        "state": "exact frozen ingredient string",
+        "destination": "Requiredlinkedbeansserve, no dose or preparationstate beyondlink.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 10,
+        "ingredient": "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+        "state": "exact frozen ingredient string",
+        "destination": "Requiredlinkedpickledonionsserve, no dose or preparationstate beyondlink.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 11,
+        "ingredient": "2 ears Corn, charred and cut off cob",
+        "state": "exact frozen ingredient string",
+        "destination": "Alreadycharredkernelsdressedatserve;charpreparationexcludedfromdirections.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 12,
+        "ingredient": "1/4 cup Mayo",
+        "state": "exact frozen ingredient string",
+        "destination": "Allelotedressing.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 13,
+        "ingredient": "1/4 cup Sour Cream",
+        "state": "exact frozen ingredient string",
+        "destination": "Allelotedressing.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 14,
+        "ingredient": "1/2 cup Cotija Cheese, crumbled",
+        "state": "exact frozen ingredient string",
+        "destination": "Halfcotijaelotedressing,otherhalfserve.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 15,
+        "ingredient": "1 tsp Ancho Chile Powder",
+        "state": "exact frozen ingredient string",
+        "destination": "Allelotedressing.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 16,
+        "ingredient": "2 cups Green Cabbage, shredded",
+        "state": "exact frozen ingredient string",
+        "destination": "Allserve.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 17,
+        "ingredient": "2 Avocados, sliced",
+        "state": "exact frozen ingredient string",
+        "destination": "Allserve.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 18,
+        "ingredient": "1/4 cup Pepitas, toasted",
+        "state": "exact frozen ingredient string",
+        "destination": "Alreadytoastedallserve;toastprepnotinmethod.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 19,
+        "ingredient": "Fresh Cilantro",
+        "state": "exact frozen ingredient string",
+        "destination": "Unmeasuredserve.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 20,
+        "ingredient": "2 Limes, cut into wedges",
+        "state": "exact frozen ingredient string",
+        "destination": "Allwedgegarnishesatserve.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "pork.pork",
+        "name": "pork shoulder",
+        "key": "pork",
+        "quantity": {
+          "amount": 3,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "raw; fresh or fully thawed, cut into 2-inch chunks",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1,
+            "text": "Use {{ingredients}}: coat the pork chunks with all the measured initial kosher salt. Cover and refrigerate for 30 minutes, or overnight. Do not leave the raw pork seasoning on the counter."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.salt",
+        "name": "kosher salt",
+        "key": "salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1,
+            "text": "Use {{ingredients}}: coat the pork chunks with all the measured initial kosher salt. Cover and refrigerate for 30 minutes, or overnight. Do not leave the raw pork seasoning on the counter."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.orange",
+        "name": "orange",
+        "key": "orange",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "braise",
+            "share": 1,
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.onion",
+        "name": "yellow onion",
+        "key": "onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "quartered; discard after braising",
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "braise",
+            "share": 1,
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.garlic",
+        "name": "garlic clove",
+        "key": "garlic",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "smashed; discard after braising",
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "braise",
+            "share": 1,
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.bay",
+        "name": "bay leaf",
+        "key": "bay",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "braise",
+            "share": 1,
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.cinnamon",
+        "name": "cinnamon stick",
+        "key": "cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "braise",
+            "share": 1,
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.oil",
+        "name": "vegetable oil",
+        "key": "oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "braise",
+            "share": 1,
+            "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pork.finishing-salt",
+        "name": "salt",
+        "key": "finishing-salt",
+        "quantity": null,
+        "allowance": "to taste after shredding, separate from the measured initial seasoning",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "shred",
+            "share": 1,
+            "text": "Pull the pork into large pieces with two forks. Taste the cooked meat, then add {{ingredients}} only as needed; the full measured initial salt has already been used."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "corn.corn",
+        "name": "ear of corn",
+        "key": "corn",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "already charred; kernels cut off the cob",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dress",
+            "share": 1,
+            "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "corn.mayo",
+        "name": "mayonnaise",
+        "key": "mayo",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dress",
+            "share": 1,
+            "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "corn.sour-cream",
+        "name": "sour cream",
+        "key": "sour-cream",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dress",
+            "share": 1,
+            "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "corn.cotija",
+        "name": "cotija cheese",
+        "key": "cotija",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "crumbled; divided",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dress",
+            "share": "1/2",
+            "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+          },
+          {
+            "step": "assemble",
+            "share": "1/2",
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "corn.chile",
+        "name": "ancho chile powder",
+        "key": "chile",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "dress",
+            "share": 1,
+            "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.rice",
+        "name": "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)",
+        "key": "rice",
+        "quantity": null,
+        "allowance": "prepared; portions as wanted for the bowls",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.beans",
+        "name": "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)",
+        "key": "beans",
+        "quantity": null,
+        "allowance": "prepared; portions as wanted for the bowls",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.pickled-onions",
+        "name": "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+        "key": "pickled-onions",
+        "quantity": null,
+        "allowance": "prepared; portions as wanted for the bowls",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.cabbage",
+        "name": "green cabbage",
+        "key": "cabbage",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "shredded",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.avocado",
+        "name": "avocado",
+        "key": "avocado",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "sliced",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.pepitas",
+        "name": "pepitas",
+        "key": "pepitas",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "already toasted",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.cilantro",
+        "name": "fresh cilantro",
+        "key": "cilantro",
+        "quantity": null,
+        "allowance": "as wanted for the bowls",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "bowls.lime",
+        "name": "lime",
+        "key": "lime",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "cut into wedges",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+          }
+        ],
+        "allocationSum": 1
+      }
+    ],
+    "measuredPreservation": [
+      {
+        "frozenIngredientIndex": 0,
+        "frozenIngredient": "3 lbs Pork Shoulder, cut into 2-inch chunks",
+        "proposedId": "pork.pork",
+        "quantity": {
+          "amount": 3,
+          "unit": "lb"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 1,
+        "frozenIngredient": "1 tbsp Kosher Salt",
+        "proposedId": "pork.salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 2,
+        "frozenIngredient": "1 Orange, quartered",
+        "proposedId": "pork.orange",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 3,
+        "frozenIngredient": "1 Yellow Onion, quartered",
+        "proposedId": "pork.onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 4,
+        "frozenIngredient": "4 cloves Garlic, smashed",
+        "proposedId": "pork.garlic",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 5,
+        "frozenIngredient": "2 Bay Leaves",
+        "proposedId": "pork.bay",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 6,
+        "frozenIngredient": "1 Cinnamon Stick",
+        "proposedId": "pork.cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 7,
+        "frozenIngredient": "2 tbsp Vegetable Oil",
+        "proposedId": "pork.oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 11,
+        "frozenIngredient": "2 ears Corn, charred and cut off cob",
+        "proposedId": "corn.corn",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 12,
+        "frozenIngredient": "1/4 cup Mayo",
+        "proposedId": "corn.mayo",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 13,
+        "frozenIngredient": "1/4 cup Sour Cream",
+        "proposedId": "corn.sour-cream",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 14,
+        "frozenIngredient": "1/2 cup Cotija Cheese, crumbled",
+        "proposedId": "corn.cotija",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 15,
+        "frozenIngredient": "1 tsp Ancho Chile Powder",
+        "proposedId": "corn.chile",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 16,
+        "frozenIngredient": "2 cups Green Cabbage, shredded",
+        "proposedId": "bowls.cabbage",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 17,
+        "frozenIngredient": "2 Avocados, sliced",
+        "proposedId": "bowls.avocado",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 18,
+        "frozenIngredient": "1/4 cup Pepitas, toasted",
+        "proposedId": "bowls.pepitas",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 20,
+        "frozenIngredient": "2 Limes, cut into wedges",
+        "proposedId": "bowls.lime",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "season",
+      "title": "Season and refrigerate",
+      "text": "Use {{ingredients}}: coat the pork chunks with all the measured initial kosher salt. Cover and refrigerate for 30 minutes, or overnight. Do not leave the raw pork seasoning on the counter."
+    },
+    {
+      "step": 2,
+      "id": "braise",
+      "title": "Arrange and braise",
+      "text": "Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller batches or additional snug vessels for larger batches rather than spreading the same meat over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in more than one area of each vessel reach at least 145°F / 63°C before removing from heat; allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone does not promise pull-apart shoulder."
+    },
+    {
+      "step": 3,
+      "id": "strain",
+      "title": "Strain and return the fat",
+      "text": "Remove and discard the orange quarters, onion, garlic, bay leaves and cinnamon. Strain the pork, reserving all the cooking liquid. Separate the rendered fat from that liquid and return ALL the separated fat to the meat. Keep the remaining cooking juices separately for another preparation. Cool and refrigerate reserved juices promptly in a shallow container if not using them immediately."
+    },
+    {
+      "step": 4,
+      "id": "shred",
+      "title": "Shred and season",
+      "text": "Pull the pork into large pieces with two forks. Taste the cooked meat, then add {{ingredients}} only as needed; the full measured initial salt has already been used."
+    },
+    {
+      "step": 5,
+      "id": "crisp",
+      "title": "Crisp in two passes",
+      "text": "Spread the meat and all its returned fat in a single layer on a broiler-safe rimmed metal sheet pan, using additional pans or loads if needed. Broil, starting to check at 6 minutes, until exposed edges crisp; stir so other surfaces face the heat, then broil again, starting to check within another 6 minutes. Watch the meat throughout and stop when the edges are crisp without drying every piece. Broiler strength and load change the timing."
+    },
+    {
+      "step": 6,
+      "id": "dress",
+      "title": "Dress the prepared corn",
+      "text": "Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the measured cotija, reserving the other half for the bowls. Toss this dressing with all the already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making it ahead."
+    },
+    {
+      "step": 7,
+      "id": "assemble",
+      "title": "Build the bowls",
+      "text": "Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}: use the prepared rice as the base, add the prepared beans and pickled onions in amounts wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and lime wedges across the bowls with the cilantro. The linked recipes have their own batch yields; this bowl does not specify that a full batch of each is needed."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "30-minute versus overnight refrigerated seasoning",
+      "state": "retained options clarified location",
+      "ingredients": "Samefull3lbshoulder/1tbspinitialsaltandallbraisearomatics/oil.",
+      "method": "Coveredoven275°Fbraise,notanunestablishedslowcooker."
+    },
+    {
+      "name": "Complete rich corn/bowl assembly",
+      "state": "retained defining full formula",
+      "ingredients": "All¼cupmayo+¼cupsourcream+½cupcotijahalfdressinghalfserve+fullcorn/chile/cabbage/avocado/pepitas/limes. Linkedricebeansonionsandcilantro genuinely unmeasured. No automatic full linked batch.",
+      "method": "Allrenderedfatbackto meat,aqueousjuicesreserved;allcornfullydressed;allmeasuredtoppingsdistributed."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "dependencies": [
+      {
+        "slug": "cilantro-lime-rice",
+        "path": "src/content/recipes/cilantro-lime-rice.md",
+        "sha256": "7649d6a612583b1263aaa76738c3c3b7d3a50dd58c76c408d5d77a6c0f2f93be",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "pickled-red-onions",
+        "path": "src/content/recipes/pickled-red-onions.md",
+        "sha256": "93b00fba3f13ce4f24c770ca0d8e8a272682b6c21afad781b061a114e96ea271",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "quick-seasoned-black-beans",
+        "path": "src/content/recipes/quick-seasoned-black-beans.md",
+        "sha256": "13d32b0ce301de00464da50d6741b9fcd397e57667f703c0b7e288c85203c28b",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
+        "path": "src/content/recipes/chipotle-pork-and-sweet-corn-tamale-bowls.md",
+        "sha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "chimichurri",
+        "path": "src/content/recipes/chimichurri.md",
+        "sha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      }
+    ],
+    "meals": [
+      {
+        "path": "src/content/meals/carnitas-bowl-night.md",
+        "sha256": "5a920bd30777a70f99faeb8bb511eae19cbba59e46a09a0e12228f6b2325e4ce",
+        "issue": "Meal prescribes slow cook4–6hr/broil3–4min vs this source oven275°F3–3½hr/6+6min, duplicates rice/beans already required and does not allocate elote/toppings. No cooker model/liquid route authorized here."
+      }
+    ],
+    "approval": false
+  },
+  "ratiosYieldAndCapacity": {
+    "frozen": "6",
+    "proposed": "6 portions",
+    "scope": "Inherited original planning yield; no measured finished weight or verified portions. Rolls/tortillas are counted ingredients; meat portions follow measured count at each scale.",
+    "panCapacity": [
+      "Keep 2-inch pork chunks and a snug covered arrangement at every batch size. A 9×13-inch dish may leave too much empty space for the original 3 lb shoulder; choose its fit after cutting the meat. Use additional snug vessels for larger batches, and keep broiler meat in one layer."
+    ],
+    "clock": "With the rice, beans, pickled onions, charred corn and toasted pepitas already prepared, plan about 40 minutes of hands-on seasoning, straining, shredding, dressing and assembly, 30 minutes refrigerated seasoning, 3–3½ hours covered braising, at least 3 minutes rest and roughly 12 minutes of broiling plus heating time: allow about 4–5 hours overall. Some dressing/preparation can overlap the braise. Overnight seasoning is additional advance time, and extra vessels or broiler loads extend the clock. Making the linked preparations or charring corn from scratch is not included in that ready-components estimate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Carnitas ---",
+        "3/4 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "1/4 tbsp kosher salt",
+        "1/4 orange, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "1/4 yellow onion, quartered; discard after braising",
+        "1 garlic clove, smashed; discard after braising",
+        "1/2 bay leaf",
+        "1/4 cinnamon stick",
+        "1/2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "1/2 ear of corn, already charred; kernels cut off the cob",
+        "0.0625 cup mayonnaise",
+        "0.0625 cup sour cream",
+        "1/8 cup cotija cheese, crumbled; divided",
+        "1/4 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "1/2 cup green cabbage, shredded",
+        "1/2 avocado, sliced",
+        "0.0625 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "1/2 lime, cut into wedges"
+      ],
+      "yield": "1 1/2 portions",
+      "shopping": [
+        "3/4 lb pork shoulder",
+        "1/4 tbsp kosher salt",
+        "1/4 orange",
+        "1/4 yellow onion",
+        "1 garlic clove",
+        "1/2 bay leaf",
+        "1/4 cinnamon stick",
+        "1/2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "1/2 ear of corn",
+        "0.0625 cup mayonnaise",
+        "0.0625 cup sour cream",
+        "1/8 cup cotija cheese",
+        "1/4 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "1/2 cup green cabbage",
+        "1/2 avocado",
+        "0.0625 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "1/2 lime"
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Carnitas ---",
+        "1 1/2 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "1/2 tbsp kosher salt",
+        "1/2 orange, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "1/2 yellow onion, quartered; discard after braising",
+        "2 garlic cloves, smashed; discard after braising",
+        "1 bay leaf",
+        "1/2 cinnamon stick",
+        "1 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "1 ear of corn, already charred; kernels cut off the cob",
+        "1/8 cup mayonnaise",
+        "1/8 cup sour cream",
+        "1/4 cup cotija cheese, crumbled; divided",
+        "1/2 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "1 cup green cabbage, shredded",
+        "1 avocado, sliced",
+        "1/8 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "1 lime, cut into wedges"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "1 1/2 lb pork shoulder",
+        "1/2 tbsp kosher salt",
+        "1/2 orange",
+        "1/2 yellow onion",
+        "2 garlic cloves",
+        "1 bay leaf",
+        "1/2 cinnamon stick",
+        "1 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "1 ear of corn",
+        "1/8 cup mayonnaise",
+        "1/8 cup sour cream",
+        "1/4 cup cotija cheese",
+        "1/2 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "1 cup green cabbage",
+        "1 avocado",
+        "1/8 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "1 lime"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Carnitas ---",
+        "3 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "1 tbsp kosher salt",
+        "1 orange, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "1 yellow onion, quartered; discard after braising",
+        "4 garlic cloves, smashed; discard after braising",
+        "2 bay leaves",
+        "1 cinnamon stick",
+        "2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "2 ears of corn, already charred; kernels cut off the cob",
+        "1/4 cup mayonnaise",
+        "1/4 cup sour cream",
+        "1/2 cup cotija cheese, crumbled; divided",
+        "1 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "2 cups green cabbage, shredded",
+        "2 avocados, sliced",
+        "1/4 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "2 limes, cut into wedges"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "3 lb pork shoulder",
+        "1 tbsp kosher salt",
+        "1 orange",
+        "1 yellow onion",
+        "4 garlic cloves",
+        "2 bay leaves",
+        "1 cinnamon stick",
+        "2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "2 ears of corn",
+        "1/4 cup mayonnaise",
+        "1/4 cup sour cream",
+        "1/2 cup cotija cheese",
+        "1 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "2 cups green cabbage",
+        "2 avocados",
+        "1/4 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "2 limes"
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Carnitas ---",
+        "4 1/2 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "1 1/2 tbsp kosher salt",
+        "1 1/2 oranges, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "1 1/2 yellow onions, quartered; discard after braising",
+        "6 garlic cloves, smashed; discard after braising",
+        "3 bay leaves",
+        "1 1/2 cinnamon sticks",
+        "3 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "3 ears of corn, already charred; kernels cut off the cob",
+        "3/8 cup mayonnaise",
+        "3/8 cup sour cream",
+        "3/4 cup cotija cheese, crumbled; divided",
+        "1 1/2 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "3 cups green cabbage, shredded",
+        "3 avocados, sliced",
+        "3/8 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "3 limes, cut into wedges"
+      ],
+      "yield": "9 portions",
+      "shopping": [
+        "4 1/2 lb pork shoulder",
+        "1 1/2 tbsp kosher salt",
+        "1 1/2 oranges",
+        "1 1/2 yellow onions",
+        "6 garlic cloves",
+        "3 bay leaves",
+        "1 1/2 cinnamon sticks",
+        "3 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "3 ears of corn",
+        "3/8 cup mayonnaise",
+        "3/8 cup sour cream",
+        "3/4 cup cotija cheese",
+        "1 1/2 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "3 cups green cabbage",
+        "3 avocados",
+        "3/8 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "3 limes"
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Carnitas ---",
+        "6 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "2 tbsp kosher salt",
+        "2 oranges, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "2 yellow onions, quartered; discard after braising",
+        "8 garlic cloves, smashed; discard after braising",
+        "4 bay leaves",
+        "2 cinnamon sticks",
+        "4 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "4 ears of corn, already charred; kernels cut off the cob",
+        "1/2 cup mayonnaise",
+        "1/2 cup sour cream",
+        "1 cup cotija cheese, crumbled; divided",
+        "2 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "4 cups green cabbage, shredded",
+        "4 avocados, sliced",
+        "1/2 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "4 limes, cut into wedges"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "6 lb pork shoulder",
+        "2 tbsp kosher salt",
+        "2 oranges",
+        "2 yellow onions",
+        "8 garlic cloves",
+        "4 bay leaves",
+        "2 cinnamon sticks",
+        "4 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "4 ears of corn",
+        "1/2 cup mayonnaise",
+        "1/2 cup sour cream",
+        "1 cup cotija cheese",
+        "2 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "4 cups green cabbage",
+        "4 avocados",
+        "1/2 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "4 limes"
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Carnitas ---",
+        "9 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "3 tbsp kosher salt",
+        "3 oranges, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "3 yellow onions, quartered; discard after braising",
+        "12 garlic cloves, smashed; discard after braising",
+        "6 bay leaves",
+        "3 cinnamon sticks",
+        "6 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "6 ears of corn, already charred; kernels cut off the cob",
+        "3/4 cup mayonnaise",
+        "3/4 cup sour cream",
+        "1 1/2 cups cotija cheese, crumbled; divided",
+        "3 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "6 cups green cabbage, shredded",
+        "6 avocados, sliced",
+        "3/4 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "6 limes, cut into wedges"
+      ],
+      "yield": "18 portions",
+      "shopping": [
+        "9 lb pork shoulder",
+        "3 tbsp kosher salt",
+        "3 oranges",
+        "3 yellow onions",
+        "12 garlic cloves",
+        "6 bay leaves",
+        "3 cinnamon sticks",
+        "6 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "6 ears of corn",
+        "3/4 cup mayonnaise",
+        "3/4 cup sour cream",
+        "1 1/2 cups cotija cheese",
+        "3 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "6 cups green cabbage",
+        "6 avocados",
+        "3/4 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "6 limes"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Carnitas ---",
+        "3 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks",
+        "1 tbsp kosher salt",
+        "1 orange, quartered; squeeze juice over pork, then add quarters and discard them after braising",
+        "1 yellow onion, quartered; discard after braising",
+        "4 garlic cloves, smashed; discard after braising",
+        "2 bay leaves",
+        "1 cinnamon stick",
+        "2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "--- Corn and elote dressing ---",
+        "2 ears of corn, already charred; kernels cut off the cob",
+        "1/4 cup mayonnaise",
+        "1/4 cup sour cream",
+        "1/2 cup cotija cheese, crumbled; divided",
+        "1 tsp ancho chile powder",
+        "--- Bowl components and toppings ---",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "2 cups green cabbage, shredded",
+        "2 avocados, sliced",
+        "1/4 cup pepitas, already toasted",
+        "fresh cilantro, as wanted for the bowls",
+        "2 limes, cut into wedges"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "3 lb pork shoulder",
+        "1 tbsp kosher salt",
+        "1 orange",
+        "1 yellow onion",
+        "4 garlic cloves",
+        "2 bay leaves",
+        "1 cinnamon stick",
+        "2 tbsp vegetable oil",
+        "salt, to taste after shredding, separate from the measured initial seasoning",
+        "2 ears of corn",
+        "1/4 cup mayonnaise",
+        "1/4 cup sour cream",
+        "1/2 cup cotija cheese",
+        "1 tsp ancho chile powder",
+        "[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the bowls",
+        "[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted for the bowls",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the bowls",
+        "2 cups green cabbage",
+        "2 avocados",
+        "1/4 cup pepitas",
+        "fresh cilantro, as wanted for the bowls",
+        "2 limes"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+    "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+    "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+    "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+    "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

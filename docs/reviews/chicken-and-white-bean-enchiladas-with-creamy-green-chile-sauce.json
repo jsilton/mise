@@ -1,0 +1,1101 @@
+{
+  "slug": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "c67877995d7f26759359b442283f6cb48f8470ac0db634d45b9d1a771def25ad",
+  "acceptedSourceSha256": "71b292e5d4963109c2669bf2f0b0cf785d17639485a9abfe98f5258fa956e080",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "About 20–25 min active preparation with already-cooked chicken"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "Start checking after 20–25 min baking; allow about 25–40 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "About 50–70 min, including oven heating and brief serving rest"
+    },
+    {
+      "field": "servings",
+      "before": "8 enchiladas (1 per serving, with sides)",
+      "after": "8 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb cooked Shredded Chicken (Poached or Rotisserie)",
+        "15 oz can Navy or Cannellini Beans, rinsed",
+        "8 (8-inch) Flour Tortillas",
+        "1 tsp Ground Cumin",
+        "12 oz Tomatillo Salsa or Enchilada Sauce",
+        "1/2 cup Light Sour Cream or Greek Yogurt",
+        "1 can (4 oz) Diced Green Chiles",
+        "1/2 cup Fresh Cilantro, plus extra for optional garnish",
+        "1 cup Mexican Cheese Blend, shredded",
+        "Pickled Red Onions for garnish"
+      ],
+      "after": [
+        "--- Creamy green sauce ---",
+        "12 oz tomatillo salsa or enchilada sauce",
+        "1/2 cup light sour cream or Greek yogurt",
+        "1 can (4 oz) diced green chiles",
+        "1/2 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "1 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "1 can (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "1 tsp ground cumin",
+        "8 flour tortillas (8-inch)",
+        "1 cup Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 265,
+        "protein": 23.5,
+        "carbs": 12,
+        "fat": 14.5,
+        "fiber": 1.5,
+        "sugar": 1,
+        "sodium": 490
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "sauce",
+            "name": "Creamy green sauce",
+            "ingredients": [
+              {
+                "id": "salsa",
+                "key": "salsa",
+                "name": "tomatillo salsa or enchilada sauce",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "light sour cream or Greek yogurt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chiles",
+                "key": "chiles",
+                "name": "diced green chiles",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 4,
+                  "unit": "oz"
+                },
+                "plural": "cans of diced green chiles"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed"
+              }
+            ]
+          },
+          {
+            "id": "rolls",
+            "name": "Filled rolls",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "cooked shredded chicken",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "fill",
+                    "share": 1
+                  }
+                ],
+                "preparation": "poached or rotisserie; cooled and stored safely if prepared ahead"
+              },
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "navy or cannellini beans",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "fill",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                },
+                "plural": "cans of navy or cannellini beans",
+                "preparation": "fully cooked canned beans, rinsed and drained"
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "fill",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tortillas",
+                "key": "tortillas",
+                "name": "flour tortilla (8-inch)",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "plural": "flour tortillas (8-inch)"
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "Mexican cheese blend",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "top",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded"
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Optional garnish",
+            "ingredients": [
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "additional fresh cilantro",
+                "allowance": "washed and chopped, as wanted for garnish",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "onions",
+                "key": "onions",
+                "name": "pickled red onions",
+                "allowance": "as wanted for garnish",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Blend sauce",
+            "text": "Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate."
+          },
+          {
+            "id": "fill",
+            "title": "Mix filling",
+            "text": "Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose."
+          },
+          {
+            "id": "assemble",
+            "title": "Roll",
+            "text": "Use {{ingredients}}. At the original batch, spread 1/2 cup of the blended sauce on the bottom of a 9×13-inch baking dish, scaling that sauce portion proportionally. Divide all the filling evenly among all tortillas, roll and place seam-side down. Use additional or suitably smaller dishes for altered batches; preserve roll size and room for sauce rather than multiplying pan dimensions."
+          },
+          {
+            "id": "top",
+            "title": "Top",
+            "text": "Pour all remaining blended sauce over the rolls, then cover with {{ingredients}}. The filling, bottom layer and topping together use the whole sauce once."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake at 375°F, starting to check after 20–25 minutes, until the center of the filling reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns before the center is hot; chilled filling may take longer."
+          },
+          {
+            "id": "serve",
+            "title": "Finish",
+            "text": "Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reserve sauce and fill every tortilla before the casserole bake",
+        "outcome": "Filled rolls with creamy green sauce and a hot center, using the whole chicken-and-bean filling.",
+        "techniques": ["gentle-proteins"],
+        "before": [
+          "Start with already-cooked poultry and fully cooked canned beans. Raw chicken poaching/rotisserie preparation is additional work, not part of the stated clock.",
+          "The original sauce reservations are 1/4 cup in filling and 1/2 cup under rolls; scale these from the finished blended sauce, then use all remainder on top.",
+          "Use the original 9×13-inch roll geometry as a reference; more rolls need suitable additional dishes and oven space."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "All sauce is accounted for in filling, base and topping.",
+            "why": "At the original eight-roll batch, the 12 oz salsa is only one ingredient in the larger blended sauce."
+          },
+          {
+            "step": 5,
+            "cue": "Center filling 165°F and bubbling sauce are both checked.",
+            "why": "A browned cheese surface can precede a hot chilled filling center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cheese browns before the center heats",
+            "cause": "Filling started cold or the dish is crowded.",
+            "fix": "Cover loosely with foil and continue until the filling reaches 165°F; do not serve by surface color alone."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Light sour cream",
+            "alternative": "The listed Greek yogurt at the same listed dairy volume",
+            "effect": "Acidity and texture differ; preserve the full dairy measure."
+          },
+          {
+            "ingredient": "Navy beans",
+            "alternative": "The listed cannellini beans at the same listed canned quantity; each full can is 15 oz",
+            "effect": "Drain and rinse either; dried beans are not a direct substitute."
+          }
+        ],
+        "timing": "About 20–25 min active preparation with already-cooked chicken; Start checking after 20–25 min baking; allow about 25–40 min; About 50–70 min, including oven heating and brief serving rest. Planning ranges assume thawed poultry and do not include cooking separate side dishes.",
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. These handling limits do not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "Adapted from Skinnytaste.com",
+            "url": "https://www.skinnytaste.com/chicken-and-white-bean-enchiladas-with/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nEnchiladas Suizas (Swiss-style enchiladas) originated in Mexico City in the 1950s at Sanborns restaurant, named for their creamy, dairy-rich green tomatillo sauce. This version adds white beans to the chicken filling for extra protein and fiber. Blending green chiles and cilantro directly into sour cream creates a lighter, tangy version of the traditional cream-based sauce.\n\n## Directions\n\n1.  **The Sauce:** Preheat the oven to 375°F. In a blender, combine the enchilada sauce, diced green chiles, cilantro, and sour cream. Pulse until smooth and creamy.\n2.  **The Filling:** In a bowl, toss the cooked shredded chicken, drained beans, cumin, and 1/4 cup of the blended sauce.\n3.  **Assemble:** Spread 1/2 cup of sauce on the bottom of a 9x13 dish. Divide the chicken/bean mixture evenly among the tortillas, roll, and place seam-side down.\n4.  **Bake:** Pour the remaining sauce over the top. Cover with cheese.\n5.  **Crisp:** Bake at 375°F, starting to check after 20-25 minutes, until the center of the filling reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns before the center is hot; chilled filling may take longer.\n6.  **Finish:** Top with optional extra cilantro and [quick Pickled Red Onions](/mise/recipes/pickled-red-onions).\n",
+    "after": "\n## Chef's Note\n\nThe creamy green sauce uses prepared salsa, green chiles and all the listed sour cream or yogurt. Reserve sauce for the filling and dish before topping the rolls, and divide the full chicken-and-bean filling among all tortillas. Bubbling edges and brown cheese are useful cues, but check the center filling temperature as well.\n\n## Directions\n\n1. **Blend sauce:** Preheat the oven to 375°F. Blend tomatillo salsa or enchilada sauce, light sour cream or Greek yogurt, diced green chiles, and fresh cilantro smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate.\n2. **Mix filling:** Toss cooked shredded chicken, navy or cannellini beans, and ground cumin with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose.\n3. **Roll:** Use flour tortillas (8-inch). At the original batch, spread 1/2 cup of the blended sauce on the bottom of a 9×13-inch baking dish, scaling that sauce portion proportionally. Divide all the filling evenly among all tortillas, roll and place seam-side down. Use additional or suitably smaller dishes for altered batches; preserve roll size and room for sauce rather than multiplying pan dimensions.\n4. **Top:** Pour all remaining blended sauce over the rolls, then cover with Mexican cheese blend. The filling, bottom layer and topping together use the whole sauce once.\n5. **Bake:** Bake at 375°F, starting to check after 20–25 minutes, until the center of the filling reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns before the center is hot; chilled filling may take longer.\n6. **Finish:** Let stand briefly until manageable to portion, then garnish with additional fresh cilantro (if using) and pickled red onions (if using) if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides.\n"
+  },
+  "findings": [
+    {
+      "rationale": "045e5ba2 and actualSkinnytaste publish a different from-scratch roux/chile formula with8oz chicken and¾cupcheese.0b96c006 replaced it with12oz jarred sauce/1lbchicken/1cupcheese; no claim of equivalence or deliberatefamilychoice inferred. User/root current scope explicitly preserves the published fuller poultry/cheese and current simplified sauce; ee9c repaired cookedstate/cumin/tortilla size/order/allfill/165. Preserve all those exact changes. Do not combine the historical roux with current salsa formula, normalize to currentpublisher, or promote old historicalbranch without bouillon/strength/allocation reconciliation. Source historySuizas1950Sanborns claim not established by recipe itself; remove date claim, keep green creamy enchilada context.",
+      "confidence": "high for exact Git measures/diffs; moderate for untested method and household acceptance",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure actual blended sauce volume and tortilla/dish fit without discarding filling.",
+        "Time cold vs fresh filling to165°F.",
+        "Separate historical from-scratch formula would need its own complete source/bouillon reconciliation before restoration."
+      ]
+    },
+    {
+      "rationale": "Full component ledger, adequate pan capacity and measured poultry/casserole165°F determine the finish; original literal counts distinguished from scaling.",
+      "confidence": "high for endpoint/applicable mechanism; moderate for untested ranges",
+      "applicableSources": [
+        {
+          "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure actual blended sauce volume and tortilla/dish fit without discarding filling.",
+        "Time cold vs fresh filling to165°F.",
+        "Separate historical from-scratch formula would need its own complete source/bouillon reconciliation before restoration."
+      ]
+    },
+    {
+      "rationale": "Remove unsupported inherited precision after formula/allocation/state review; no breast weight, consumed reserve, nutrition or tested yield is manufactured.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "rationale": "Exact approved corrections to scaling/prose, frozen evidence/provenance and relationship warnings. No ingredient or yield change. Independent challenge preceded application; no self-acceptance.",
+      "confidence": "High for exact comparison/reverse checks; no kitchen testing.",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Root final acceptance of revised whole candidates and records remains pending."
+      ]
+    },
+    {
+      "rationale": [
+        "Complete available saved Git/current/final recipes and source evidence do not establish this particular recipe’s asserted country/region origin. Retain every cuisine/style tag, source URL, credit, title, original and variant. The repository-authored Spatchcocked original contains an unsupported assertion; being present at first introduction is not independent evidence."
+      ],
+      "confidence": "High for exact allocations and mechanical prose; moderate for untested culinary mechanism.",
+      "applicableSources": [
+        {
+          "type": "exact first available Git",
+          "commit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+          "path": "src/content/recipes/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md"
+        },
+        {
+          "type": "complete source packet",
+          "path": "privately retained evidence"
+        },
+        {
+          "type": "metadata standard",
+          "path": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Additional explicit recipe-specific origin evidence could justify this field; no replacement origin is invented."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md",
+    "originalSha256": "43d31b77a13fa3f934c885ff9be535c8dfe936a8473058e0a7312ec4fdff9a4f",
+    "nativeLineage": "Not independently established; exact Git originals are the source proof. No title-only native certification.",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2 and actualSkinnytaste publish a different from-scratch roux/chile formula with8oz chicken and¾cupcheese.0b96c006 replaced it with12oz jarred sauce/1lbchicken/1cupcheese; no claim of equivalence or deliberatefamilychoice inferred. User/root current scope explicitly preserves the published fuller poultry/cheese and current simplified sauce; ee9c repaired cookedstate/cumin/tortilla size/order/allfill/165. Preserve all those exact changes. Do not combine the historical roux with current salsa formula, normalize to currentpublisher, or promote old historicalbranch without bouillon/strength/allocation reconciliation. Source historySuizas1950Sanborns claim not established by recipe itself; remove date claim, keep green creamy enchilada context."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "1 lb cooked Shredded Chicken (Poached or Rotisserie)",
+        "destinationOrQuestion": "fill2; already cooked"
+      },
+      {
+        "ingredient": "15 oz can Navy or Cannellini Beans, rinsed",
+        "destinationOrQuestion": "drain/rinse, fill2"
+      },
+      {
+        "ingredient": "8 (8-inch) Flour Tortillas",
+        "destinationOrQuestion": "warm/roll3; all tortillas"
+      },
+      {
+        "ingredient": "1 tsp Ground Cumin",
+        "destinationOrQuestion": "fill2"
+      },
+      {
+        "ingredient": "12 oz Tomatillo Salsa or Enchilada Sauce",
+        "destinationOrQuestion": "blend all1; sauce reserved for2/3, remainder4"
+      },
+      {
+        "ingredient": "1/2 cup Light Sour Cream or Greek Yogurt",
+        "destinationOrQuestion": "blend1; full halfcup"
+      },
+      {
+        "ingredient": "1 can (4 oz) Diced Green Chiles",
+        "destinationOrQuestion": "blend1"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Cilantro, plus extra for optional garnish",
+        "destinationOrQuestion": "Measured cilantro blended in frozen step1; optional extra garnish in frozen step6."
+      },
+      {
+        "ingredient": "1 cup Mexican Cheese Blend, shredded",
+        "destinationOrQuestion": "all top4"
+      },
+      {
+        "ingredient": "Pickled Red Onions for garnish",
+        "destinationOrQuestion": "optional serve6"
+      }
+    ],
+    "current": [
+      {
+        "id": "sauce.salsa",
+        "name": "tomatillo salsa or enchilada sauce",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate."
+          }
+        ]
+      },
+      {
+        "id": "sauce.cream",
+        "name": "light sour cream or Greek yogurt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate."
+          }
+        ]
+      },
+      {
+        "id": "sauce.chiles",
+        "name": "diced green chiles",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate."
+          }
+        ]
+      },
+      {
+        "id": "sauce.cilantro",
+        "name": "fresh cilantro",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate."
+          }
+        ]
+      },
+      {
+        "id": "rolls.chicken",
+        "name": "cooked shredded chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "fill",
+            "share": 1,
+            "text": "Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose."
+          }
+        ]
+      },
+      {
+        "id": "rolls.beans",
+        "name": "navy or cannellini beans",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "fill",
+            "share": 1,
+            "text": "Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose."
+          }
+        ]
+      },
+      {
+        "id": "rolls.cumin",
+        "name": "ground cumin",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "fill",
+            "share": 1,
+            "text": "Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose."
+          }
+        ]
+      },
+      {
+        "id": "rolls.tortillas",
+        "name": "flour tortilla (8-inch)",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Use {{ingredients}}. At the original batch, spread 1/2 cup of the blended sauce on the bottom of a 9×13-inch baking dish, scaling that sauce portion proportionally. Divide all the filling evenly among all tortillas, roll and place seam-side down. Use additional or suitably smaller dishes for altered batches; preserve roll size and room for sauce rather than multiplying pan dimensions."
+          }
+        ]
+      },
+      {
+        "id": "rolls.cheese",
+        "name": "Mexican cheese blend",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "top",
+            "share": 1,
+            "text": "Pour all remaining blended sauce over the rolls, then cover with {{ingredients}}. The filling, bottom layer and topping together use the whole sauce once."
+          }
+        ]
+      },
+      {
+        "id": "finish.cilantro",
+        "name": "additional fresh cilantro",
+        "quantity": null,
+        "allowance": "washed and chopped, as wanted for garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides."
+          }
+        ]
+      },
+      {
+        "id": "finish.onions",
+        "name": "pickled red onions",
+        "quantity": null,
+        "allowance": "as wanted for garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides."
+          }
+        ]
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "additional fresh cilantro",
+        "allowance": "washed and chopped, as wanted for garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides."
+          }
+        ]
+      },
+      {
+        "ingredient": "pickled red onions",
+        "allowance": "as wanted for garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides."
+          }
+        ]
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "sauce",
+      "text": "Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate."
+    },
+    {
+      "step": 2,
+      "id": "fill",
+      "text": "Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose."
+    },
+    {
+      "step": 3,
+      "id": "assemble",
+      "text": "Use {{ingredients}}. At the original batch, spread 1/2 cup of the blended sauce on the bottom of a 9×13-inch baking dish, scaling that sauce portion proportionally. Divide all the filling evenly among all tortillas, roll and place seam-side down. Use additional or suitably smaller dishes for altered batches; preserve roll size and room for sauce rather than multiplying pan dimensions."
+    },
+    {
+      "step": 4,
+      "id": "top",
+      "text": "Pour all remaining blended sauce over the rolls, then cover with {{ingredients}}. The filling, bottom layer and topping together use the whole sauce once."
+    },
+    {
+      "step": 5,
+      "id": "bake",
+      "text": "Bake at 375°F, starting to check after 20–25 minutes, until the center of the filling reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns before the center is hot; chilled filling may take longer."
+    },
+    {
+      "step": 6,
+      "id": "serve",
+      "text": "Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Light sour cream",
+      "alternative": "The listed Greek yogurt at the same listed dairy volume",
+      "effect": "Acidity and texture differ; preserve the full dairy measure."
+    },
+    {
+      "ingredient": "Navy beans",
+      "alternative": "The listed cannellini beans at the same listed canned quantity; each full can is 15 oz",
+      "effect": "Drain and rinse either; dried beans are not a direct substitute."
+    }
+  ],
+  "heldOptionalVariants": [
+    "Historical from-scratch roux/chile branch remains exact privately; not an automatically accepted variation."
+  ],
+  "relationships": {
+    "pairsWith": ["cilantro-lime-rice", "queso-fundido-with-chorizo", "roasted-sweet-potatoes"],
+    "incomingMeals": [],
+    "bodyRecipeLinks": ["pickled-red-onions"],
+    "scope": "Separate side dishes and linked meals have separate preparation clocks and review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8 pieces",
+    "capacity": "Original-size geometry retained; multiple pans or batches preserve working space. No invented pan dimensions or breast weights.",
+    "scaling": "Existing ingredient controls preserved; no fixed scaling override. Original-context count/volume statements explicitly scale where appropriate; time and pan geometry do not multiply.",
+    "richness": "All published measured defining ingredients preserved, source-supported restorations exact and separately documented."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "3 oz tomatillo salsa or enchilada sauce",
+        "1/8 cup light sour cream or Greek yogurt",
+        "1/4 can (4 oz) diced green chiles",
+        "1/8 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "1/4 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "1/4 can (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "1/4 tsp ground cumin",
+        "2 flour tortillas (8-inch)",
+        "1/4 cup Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "2 pieces",
+      "shopping": [
+        "3 oz tomatillo salsa or enchilada sauce",
+        "1/8 cup light sour cream or Greek yogurt",
+        "1/4 can (4 oz) diced green chiles",
+        "1/8 cup fresh cilantro",
+        "1/4 lb cooked shredded chicken",
+        "1/4 can (15 oz) navy or cannellini beans",
+        "1/4 tsp ground cumin",
+        "2 flour tortillas (8-inch)",
+        "1/4 cup Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "6 oz tomatillo salsa or enchilada sauce",
+        "1/4 cup light sour cream or Greek yogurt",
+        "1/2 can (4 oz) diced green chiles",
+        "1/4 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "1/2 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "1/2 can (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "1/2 tsp ground cumin",
+        "4 flour tortillas (8-inch)",
+        "1/2 cup Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "4 pieces",
+      "shopping": [
+        "6 oz tomatillo salsa or enchilada sauce",
+        "1/4 cup light sour cream or Greek yogurt",
+        "1/2 can (4 oz) diced green chiles",
+        "1/4 cup fresh cilantro",
+        "1/2 lb cooked shredded chicken",
+        "1/2 can (15 oz) navy or cannellini beans",
+        "1/2 tsp ground cumin",
+        "4 flour tortillas (8-inch)",
+        "1/2 cup Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "12 oz tomatillo salsa or enchilada sauce",
+        "1/2 cup light sour cream or Greek yogurt",
+        "1 can (4 oz) diced green chiles",
+        "1/2 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "1 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "1 can (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "1 tsp ground cumin",
+        "8 flour tortillas (8-inch)",
+        "1 cup Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "8 pieces",
+      "shopping": [
+        "12 oz tomatillo salsa or enchilada sauce",
+        "1/2 cup light sour cream or Greek yogurt",
+        "1 can (4 oz) diced green chiles",
+        "1/2 cup fresh cilantro",
+        "1 lb cooked shredded chicken",
+        "1 can (15 oz) navy or cannellini beans",
+        "1 tsp ground cumin",
+        "8 flour tortillas (8-inch)",
+        "1 cup Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "18 oz tomatillo salsa or enchilada sauce",
+        "3/4 cup light sour cream or Greek yogurt",
+        "1 1/2 cans (4 oz) diced green chiles",
+        "3/4 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "1 1/2 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "1 1/2 cans (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "1 1/2 tsp ground cumin",
+        "12 flour tortillas (8-inch)",
+        "1 1/2 cups Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "12 pieces",
+      "shopping": [
+        "18 oz tomatillo salsa or enchilada sauce",
+        "3/4 cup light sour cream or Greek yogurt",
+        "1 1/2 cans (4 oz) diced green chiles",
+        "3/4 cup fresh cilantro",
+        "1 1/2 lb cooked shredded chicken",
+        "1 1/2 cans (15 oz) navy or cannellini beans",
+        "1 1/2 tsp ground cumin",
+        "12 flour tortillas (8-inch)",
+        "1 1/2 cups Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "24 oz tomatillo salsa or enchilada sauce",
+        "1 cup light sour cream or Greek yogurt",
+        "2 cans (4 oz) diced green chiles",
+        "1 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "2 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "2 cans (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "2 tsp ground cumin",
+        "16 flour tortillas (8-inch)",
+        "2 cups Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "16 pieces",
+      "shopping": [
+        "24 oz tomatillo salsa or enchilada sauce",
+        "1 cup light sour cream or Greek yogurt",
+        "2 cans (4 oz) diced green chiles",
+        "1 cup fresh cilantro",
+        "2 lb cooked shredded chicken",
+        "2 cans (15 oz) navy or cannellini beans",
+        "2 tsp ground cumin",
+        "16 flour tortillas (8-inch)",
+        "2 cups Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "36 oz tomatillo salsa or enchilada sauce",
+        "1 1/2 cups light sour cream or Greek yogurt",
+        "3 cans (4 oz) diced green chiles",
+        "1 1/2 cups fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "3 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "3 cans (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "3 tsp ground cumin",
+        "24 flour tortillas (8-inch)",
+        "3 cups Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "24 pieces",
+      "shopping": [
+        "36 oz tomatillo salsa or enchilada sauce",
+        "1 1/2 cups light sour cream or Greek yogurt",
+        "3 cans (4 oz) diced green chiles",
+        "1 1/2 cups fresh cilantro",
+        "3 lb cooked shredded chicken",
+        "3 cans (15 oz) navy or cannellini beans",
+        "3 tsp ground cumin",
+        "24 flour tortillas (8-inch)",
+        "3 cups Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Creamy green sauce ---",
+        "12 oz tomatillo salsa or enchilada sauce",
+        "1/2 cup light sour cream or Greek yogurt",
+        "1 can (4 oz) diced green chiles",
+        "1/2 cup fresh cilantro, washed",
+        "--- Filled rolls ---",
+        "1 lb cooked shredded chicken, poached or rotisserie; cooled and stored safely if prepared ahead",
+        "1 can (15 oz) navy or cannellini beans, fully cooked canned beans, rinsed and drained",
+        "1 tsp ground cumin",
+        "8 flour tortillas (8-inch)",
+        "1 cup Mexican cheese blend, shredded",
+        "--- Optional garnish ---",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "yield": "8 pieces",
+      "shopping": [
+        "12 oz tomatillo salsa or enchilada sauce",
+        "1/2 cup light sour cream or Greek yogurt",
+        "1 can (4 oz) diced green chiles",
+        "1/2 cup fresh cilantro",
+        "1 lb cooked shredded chicken",
+        "1 can (15 oz) navy or cannellini beans",
+        "1 tsp ground cumin",
+        "8 flour tortillas (8-inch)",
+        "1 cup Mexican cheese blend",
+        "additional fresh cilantro, washed and chopped, as wanted for garnish, optional",
+        "pickled red onions, as wanted for garnish, optional"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    }
+  ],
+  "preservedPriorRepairs": ["ee9c cooked poultry/cumin/tortilla size/allfill/165casserole"],
+  "remainingQuestions": [
+    "Measure actual blended sauce volume and tortilla/dish fit without discarding filling.",
+    "Time cold vs fresh filling to165°F.",
+    "Separate historical from-scratch formula would need its own complete source/bouillon reconciliation before restoration."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

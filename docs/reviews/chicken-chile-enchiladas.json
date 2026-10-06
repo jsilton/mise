@@ -1,0 +1,1191 @@
+{
+  "slug": "chicken-chile-enchiladas",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "2d9204f64e95e51a26b8552465e283ab06c1e6ae562e86ba5b327ad0bc421ec8",
+  "acceptedSourceSha256": "648eaf82a87e85ba31677e0a7333f2727fb44a9be3af0ee793cc8e8eb849b886",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "fry", "blend"],
+      "after": ["bake", "fry"]
+    },
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "About 20 min active"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 20 min, longer if needed"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 40 min, longer from cold or frozen"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Shredded Chicken (Rotisserie or Pressure Cooked)",
+        "1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)",
+        "8 Corn Tortillas",
+        "1 Red Bell Pepper, finely diced",
+        "1 can (4 oz) Diced Green Chiles",
+        "12 oz Mexican Blend Cheese, shredded",
+        "Sour Cream, Fresh Cilantro, and Sliced Jalapeños"
+      ],
+      "after": [
+        "--- Enchiladas ---",
+        "1 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "1 can (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "8 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "1 red bell pepper, finely diced",
+        "1 can (4 oz) diced green chiles",
+        "12 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 610,
+        "protein": 48.5,
+        "carbs": 24,
+        "fat": 37.5,
+        "fiber": 3.5,
+        "sugar": 2,
+        "sodium": 1160
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Corn-tortilla enchiladas with cooked chicken, red chile sauce, bell pepper, green chiles and the full shredded-cheese topping."
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Soften tortillas without crisping them and distribute one total of sauce and cheese",
+        "outcome": "Rolled tortillas holding the full chicken-and-chile filling, with melted cheese and a uniformly hot center.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Use already cooked chicken and prepared red enchilada sauce. The original four-portion plan uses eight tortillas; distribute the measured filling among all tortillas at the chosen scale.",
+          "Choose dishes that fit the rolls in one layer. The 9×13-inch or two 8×8-inch pan suggestions below apply to eight taco-size soft tortillas. Corn-tortilla diameter varies; check the actual rolls fit.",
+          "All the measured cheese is divided by eye between centers and topping, and all the measured sauce is used for dipping and covering. Use a splash of oil to soften the corn tortillas."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A tortilla bends around the filling without cracking and is not fried crisp.",
+            "why": "Pliability, rather than exactly five seconds, shows whether this tortilla can be rolled."
+          },
+          {
+            "step": 4,
+            "cue": "The middle filling measures 165°F / 74°C as well as showing melted cheese and bubbling sauce.",
+            "why": "A browned top or bubbling edge does not show that refrigerated chicken has reheated through the center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The tortillas crack as they roll",
+            "cause": "They were still stiff, or the brief oil stage made them too crisp.",
+            "fix": "Warm the next tortilla only until flexible and distribute the filling rather than overfilling one roll. Use the soft-tortilla option if that is the intended tortilla."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Corn tortillas",
+            "alternative": "The same counted number of taco-size soft tortillas, omitting the flash-frying oil",
+            "effect": "Use the separate sauce-on-bottom/filling/topping route below; the texture and pan fit differ. This does not combine both tortilla quantities."
+          },
+          {
+            "ingredient": "Mexican blend cheese",
+            "alternative": "The same full measured 12 oz total of Monterey Jack, cheddar or their mixture in the original batch, scaled with the list",
+            "effect": "These are the publisher's full-amount cheese alternatives, with a different flavor and melt; they do not reduce the cheese total."
+          }
+        ],
+        "storage": "Promptly refrigerate baked portions or assembled enchiladas, in shallow containers, within 2 hours or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Freeze well wrapped for up to 3 months for quality. Reheat cooked portions or bake the assembled casserole to 165°F / 74°C throughout, and follow the dish's instructions for freezer/refrigerator/oven transitions. Keep sour cream, cilantro and jalapeño garnishes separate until serving.",
+        "timing": "For the original corn-tortilla batch with cooked chicken and prepared sauce ready, allow about 20 minutes preparation/rolling plus at least 15–20 minutes baking: roughly 40 minutes if the center reaches 165°F on that first check. Cold filling, extra dishes and frozen routes take longer. The soft-tortilla option omits flash-frying; the original published frozen routes are first-check schedules, not the 40-minute fresh-batch clock.",
+        "sources": [
+          {
+            "title": "Casey Barber — Chicken Chile Enchiladas, The Kitchn",
+            "url": "https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "enchiladas",
+            "name": "Enchiladas",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "cooked shredded chicken",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "filling",
+                    "share": 1
+                  }
+                ],
+                "preparation": "rotisserie or already pressure-cooked"
+              },
+              {
+                "id": "sauce",
+                "key": "sauce",
+                "name": "red enchilada sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "roll",
+                    "share": 1
+                  }
+                ],
+                "plural": "cans of red enchilada sauce",
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                },
+                "preparation": "prepared; canned or the same measured amount of homemade sauce"
+              },
+              {
+                "id": "tortilla",
+                "key": "tortilla",
+                "name": "corn tortilla",
+                "plural": "corn tortillas",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "soften",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa"
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "red bell pepper",
+                "plural": "red bell peppers",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "filling",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely diced"
+              },
+              {
+                "id": "chiles",
+                "key": "chiles",
+                "name": "diced green chiles",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "filling",
+                    "share": 1
+                  }
+                ],
+                "plural": "cans of diced green chiles",
+                "packageSize": {
+                  "amount": 4,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "Mexican blend cheese",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "roll",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded; some inside each roll, all the remainder on top"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "cooking oil",
+                "allowance": "a splash for briefly softening the corn tortillas",
+                "uses": [
+                  {
+                    "step": "soften",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "garnishes",
+            "name": "Garnishes",
+            "ingredients": [
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "sour cream",
+                "allowance": "as wanted for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "allowance": "as wanted for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "jalapeno",
+                "key": "jalapeno",
+                "name": "sliced jalapeños",
+                "allowance": "as wanted for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "filling",
+            "title": "Prepare the filling and dish",
+            "text": "Preheat the oven to 375°F. Choose an oven-safe baking dish that fits all the rolled tortillas in a single layer without stacking, or additional dishes for a larger batch. Keep cooked chicken refrigerated until working with it. Toss {{ingredients}} together in a bowl. Cooking raw chicken or making homemade sauce is a separate preparation, outside this assembly clock."
+          },
+          {
+            "id": "soften",
+            "title": "Soften the corn tortillas",
+            "text": "Use {{ingredients}}: heat the splash of oil in a small skillet and briefly warm each tortilla in it, starting at about 5 seconds per side and continuing only until it bends readily. Work one at a time; do not crisp the tortilla so it breaks when rolled. Transfer each warm tortilla for filling."
+          },
+          {
+            "id": "roll",
+            "title": "Dip, fill, roll and cover",
+            "text": "Use {{ingredients}} for dipping, filling and topping. Dip each warm tortilla into the sauce, divide all the prepared chicken filling among the measured tortillas, add a little of the cheese inside each and roll seam-side down in the dish. Pour all the remaining sauce over the rolls and distribute all the remaining cheese on top. Use up the full measured cheese and sauce between the centers and topping."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and check the center",
+            "text": "Bake at 375°F, starting to check after 15–20 minutes. The cheese should be melted and the sauce bubbling, but also check the filling in the center of the dish with a thermometer: it must reach 165°F / 74°C. If it is still cool inside, continue baking; cover if the surface is browning too much. Cold chicken, dish depth and extra dishes can extend the time."
+          },
+          {
+            "id": "serve",
+            "title": "Serve with the garnishes",
+            "text": "Serve with {{ingredients}}. Keep the garnishes cold until serving."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTraditional Mexican enchiladas briefly fry corn tortillas before dipping them in sauce to prevent them from becoming soggy during baking. Searing each tortilla in a little oil for just 5 seconds makes them pliable enough to roll without cracking while creating a protective layer that holds their structure. Red chile enchilada sauce delivers the classic earthy, deeply spiced profile.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 375°F. In a bowl, toss shredded chicken with the green chiles and diced red pepper.\n2.  **Coat:** Heat a splash of oil in a small skillet. Flash-fry each tortilla for 5 seconds per side just until pliable.\n3.  **Dip & Roll:** Dip a warm tortilla into the red sauce. Place a large scoop of chicken in the center, sprinkle with a little cheese, and roll tightly. Place seam-side down in a baking dish.\n4.  **Bake:** Pour the remaining sauce over the top and cover generously with cheese.\n5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.\n6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.\n\n## Cooking Notes\n\nFor freezing and reheating, use a baking dish whose manufacturer permits the intended temperature changes. Follow its instructions for moving between freezer, refrigerator and oven.\n",
+    "after": "\n## Chef's Note\n\nThese red-sauce enchiladas use corn tortillas warmed briefly in oil before dipping and rolling. Look for a tortilla that bends easily, then divide the filling among all the rolls and keep the full cheese amount for their centers and topping. The soft-tortilla option below uses the same chicken, pepper, chiles and cheese with a different assembly method.\n\n## Directions\n\n1. **Prepare the filling and dish:** Preheat the oven to 375°F. Choose an oven-safe baking dish that fits all the rolled tortillas in a single layer without stacking, or additional dishes for a larger batch. Keep cooked chicken refrigerated until working with it. Toss cooked shredded chicken, red bell pepper, and diced green chiles together in a bowl. Cooking raw chicken or making homemade sauce is a separate preparation, outside this assembly clock.\n2. **Soften the corn tortillas:** Use corn tortillas and cooking oil: heat the splash of oil in a small skillet and briefly warm each tortilla in it, starting at about 5 seconds per side and continuing only until it bends readily. Work one at a time; do not crisp the tortilla so it breaks when rolled. Transfer each warm tortilla for filling.\n3. **Dip, fill, roll and cover:** Use red enchilada sauce and Mexican blend cheese for dipping, filling and topping. Dip each warm tortilla into the sauce, divide all the prepared chicken filling among the measured tortillas, add a little of the cheese inside each and roll seam-side down in the dish. Pour all the remaining sauce over the rolls and distribute all the remaining cheese on top. Use up the full measured cheese and sauce between the centers and topping.\n4. **Bake and check the center:** Bake at 375°F, starting to check after 15–20 minutes. The cheese should be melted and the sauce bubbling, but also check the filling in the center of the dish with a thermometer: it must reach 165°F / 74°C. If it is still cool inside, continue baking; cover if the surface is browning too much. Cold chicken, dish depth and extra dishes can extend the time.\n5. **Serve with the garnishes:** Serve with sour cream, fresh cilantro, and sliced jalapeños. Keep the garnishes cold until serving.\n\n## Soft-tortilla option\n\nUse the same number of taco-size soft tortillas instead of corn tortillas and omit the flash-frying oil. Spread a thin layer from the measured sauce over the bottom of the dish, then divide all the measured chicken, pepper and green chiles among the tortillas. Put about 2 tbsp cheese and 2 tbsp sauce inside each taco-size tortilla, using only the measured totals, then roll seam-side down and put all remaining cheese and sauce on top. For the original eight taco-size soft tortillas, use one 9×13-inch or two 8×8-inch dishes only if the rolls actually fit. Use suitably fitted dishes for a different batch size, with the same single-layer arrangement. Bake at 375°F, starting at 15–20 minutes, and verify the filling reaches 165°F / 74°C. Mexican blend, Monterey Jack, cheddar or a mixture can supply all the measured cheese; the original batch uses 12 oz.\n\n## Cooking Notes\n\nFor freezing and reheating, use a baking dish whose manufacturer permits the intended temperature changes. Follow its instructions for moving between freezer, refrigerator and oven.\n\nYou can freeze assembled, unbaked enchiladas or freeze them after baking and promptly chilling. Wrap well and freeze for up to 3 months for quality. For frozen unbaked enchiladas, the soft-tortilla recipe starts with 375°F, covered for 30 minutes then uncovered for 15 minutes; for previously baked frozen enchiladas, it starts with 350°F, covered for 10 minutes then uncovered for 10–20 minutes. Treat these as first checks, not guarantees for a different dish, batch size or tortilla: continue until the center is 165°F / 74°C. Cover again if the top is getting too dark. Individual cooked portions may be reheated in a microwave-safe dish following the appliance instructions; cover and rotate for even heating, allow the appliance's specified standing time, then check more than one location for 165°F / 74°C rather than relying on an unspecified microwave's fixed time.\n"
+  },
+  "findings": [
+    {
+      "id": "MA03-E01",
+      "title": "Explicit states and complete garnish/oil destinations",
+      "field": "Ingredients / Directions2&6",
+      "rationale": "List the existing oil splash without a guessed measure; clarify alreadycookedmeat/preparedsauce and direct all three original garnishes, including previously orphaned jalapeños, to serving. Remove blend method because neither current assembly nor prepared-sauce option performs blending.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+        "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+        "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+        "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
+      ]
+    },
+    {
+      "id": "MA03-E02",
+      "title": "Full totals, pan fit and center endpoint",
+      "field": "Directions3–5",
+      "rationale": "All measured filling divides among all tortillas; sauce/cheese each consumed once over dipping/filling/topping by eye, without an invented numeric split. Fit one layer in actual dishes and verify165°Fcenter for reheated cooked-chicken casserole.",
+      "confidence": "high endpoint/allocation; medium actual fit",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "USDA FSIS — Leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+        "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+        "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+        "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
+      ]
+    },
+    {
+      "id": "MA03-E03",
+      "title": "Preserve distinct soft and corn routes, full cheese and source freezing options",
+      "field": "045 /0b96 source disagreement",
+      "rationale": "Recover the exact retained source as a separate variation, preserve current corn/oil/fullrichness, and qualify freezer/microwave clocks with165°Fcenter and actualmanufacturer permissions. Full source archive retained, not silently blended or rolled back.",
+      "confidence": "high lineage/amounts; medium pan/time",
+      "applicableSources": [
+        {
+          "title": "Casey Barber — Chicken Chile Enchiladas, The Kitchn",
+          "url": "https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930"
+        },
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "USDA FSIS — Leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+        "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+        "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+        "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
+      ]
+    },
+    {
+      "id": "MA03-E04",
+      "title": "Earlier dish repair, narrow texture and nutrition",
+      "field": "Cooking Notes / Chef note / nutrition",
+      "rationale": "Preserve exactSept15 manufacturer temperature-transition wording; do not restore withdrawn generic5-minutechickenrest. Describe tortilla flexibility without guaranteedfatbarrier/nocracking. Delete current automated nutrition rather than estimate oil/garnishes/newbranch.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+        "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+        "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+        "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chicken%20Chile%20Enchiladas.html",
+    "introductionScope": "Actual pre-Astro introduction, original cooking text retained. Original native identity proof comes from exact original450 archive, not photo directories or title matching.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "title": "Casey Barber — Chicken Chile Enchiladas, The Kitchn",
+      "url": "https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930"
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "045 canonical recipe and exact original 450 native binding retain the Kitchn soft-tortilla recipe, full12ozcheese, original cheese choices and freezing routes. Actual pre-Astro source entered atb7ae012 HTML; sanitized retained cooking source and exact rawblob hash are documented separately. Current 0b96 adaptation has8corn,brief oilfry,andnewcilantro/jalapeño toppings; currentprimary stays intact and source route is separate.",
+    "The publisher says about½cupchickenpertortilla despite listing1lbcookedchicken. This is not a measured finished-volume claim: divide all actual measured chicken over the listed tortillas rather than invent extra chicken. No new sauce dose or arbitrary filling/top cheese split is added.",
+    "CurrentsourceURLrestoredat9faedb keepsadaptedcredit; sourcefreezerdishwarningrepairedSept15 remainsverbatim. Retired generic cooked-chicken5minutejuiceredistribution rest was removed at856911 and is not resurrected."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "index": 0,
+        "ingredient": "1 lb Shredded Chicken (Rotisserie or Pressure Cooked)",
+        "state": "exact frozen ingredient string",
+        "destination": "Implicitly alreadyrotisserie/pressurecookedchickenmixedwithchilesandpepper; no165°Fmiddlecue.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)",
+        "state": "exact frozen ingredient string",
+        "destination": "Tortilladipandallremainingsaucetop; no measured split.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 2,
+        "ingredient": "8 Corn Tortillas",
+        "state": "exact frozen ingredient string",
+        "destination": "Flashfry5secsidewithunlistedoil,thenroll; size unspecified.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 Red Bell Pepper, finely diced",
+        "state": "exact frozen ingredient string",
+        "destination": "Mixedwithchickenandchiles.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 can (4 oz) Diced Green Chiles",
+        "state": "exact frozen ingredient string",
+        "destination": "Mixedwithchickenandpepper.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 5,
+        "ingredient": "12 oz Mexican Blend Cheese, shredded",
+        "state": "exact frozen ingredient string",
+        "destination": "Smallamountinside;allremainingtop, total12oz; no separate split documented.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 6,
+        "ingredient": "Sour Cream, Fresh Cilantro, and Sliced Jalapeños",
+        "state": "exact frozen ingredient string",
+        "destination": "Sourcreamandcilantroserve; listed slicedjalapeño destination missing.",
+        "resolutionStatus": "unresolved in frozen method"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "enchiladas.chicken",
+        "name": "cooked shredded chicken",
+        "key": "chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "rotisserie or already pressure-cooked",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "filling",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Choose an oven-safe baking dish that fits all the rolled tortillas in a single layer without stacking, or additional dishes for a larger batch. Keep cooked chicken refrigerated until working with it. Toss {{ingredients}} together in a bowl. Cooking raw chicken or making homemade sauce is a separate preparation, outside this assembly clock."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "enchiladas.sauce",
+        "name": "red enchilada sauce",
+        "key": "sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "allowance": null,
+        "packageSize": {
+          "amount": 15,
+          "unit": "oz"
+        },
+        "preparation": "prepared; canned or the same measured amount of homemade sauce",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "roll",
+            "share": 1,
+            "text": "Use {{ingredients}} for dipping, filling and topping. Dip each warm tortilla into the sauce, divide all the prepared chicken filling among the measured tortillas, add a little of the cheese inside each and roll seam-side down in the dish. Pour all the remaining sauce over the rolls and distribute all the remaining cheese on top. Use up the full measured cheese and sauce between the centers and topping."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "enchiladas.tortilla",
+        "name": "corn tortilla",
+        "key": "tortilla",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "soften",
+            "share": 1,
+            "text": "Use {{ingredients}}: heat the splash of oil in a small skillet and briefly warm each tortilla in it, starting at about 5 seconds per side and continuing only until it bends readily. Work one at a time; do not crisp the tortilla so it breaks when rolled. Transfer each warm tortilla for filling."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "enchiladas.pepper",
+        "name": "red bell pepper",
+        "key": "pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "finely diced",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "filling",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Choose an oven-safe baking dish that fits all the rolled tortillas in a single layer without stacking, or additional dishes for a larger batch. Keep cooked chicken refrigerated until working with it. Toss {{ingredients}} together in a bowl. Cooking raw chicken or making homemade sauce is a separate preparation, outside this assembly clock."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "enchiladas.chiles",
+        "name": "diced green chiles",
+        "key": "chiles",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "allowance": null,
+        "packageSize": {
+          "amount": 4,
+          "unit": "oz"
+        },
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "filling",
+            "share": 1,
+            "text": "Preheat the oven to 375°F. Choose an oven-safe baking dish that fits all the rolled tortillas in a single layer without stacking, or additional dishes for a larger batch. Keep cooked chicken refrigerated until working with it. Toss {{ingredients}} together in a bowl. Cooking raw chicken or making homemade sauce is a separate preparation, outside this assembly clock."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "enchiladas.cheese",
+        "name": "Mexican blend cheese",
+        "key": "cheese",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "shredded; some inside each roll, all the remainder on top",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "roll",
+            "share": 1,
+            "text": "Use {{ingredients}} for dipping, filling and topping. Dip each warm tortilla into the sauce, divide all the prepared chicken filling among the measured tortillas, add a little of the cheese inside each and roll seam-side down in the dish. Pour all the remaining sauce over the rolls and distribute all the remaining cheese on top. Use up the full measured cheese and sauce between the centers and topping."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "enchiladas.oil",
+        "name": "cooking oil",
+        "key": "oil",
+        "quantity": null,
+        "allowance": "a splash for briefly softening the corn tortillas",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "soften",
+            "share": 1,
+            "text": "Use {{ingredients}}: heat the splash of oil in a small skillet and briefly warm each tortilla in it, starting at about 5 seconds per side and continuing only until it bends readily. Work one at a time; do not crisp the tortilla so it breaks when rolled. Transfer each warm tortilla for filling."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "garnishes.sour-cream",
+        "name": "sour cream",
+        "key": "sour-cream",
+        "quantity": null,
+        "allowance": "as wanted for serving",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Serve with {{ingredients}}. Keep the garnishes cold until serving."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "garnishes.cilantro",
+        "name": "fresh cilantro",
+        "key": "cilantro",
+        "quantity": null,
+        "allowance": "as wanted for serving",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Serve with {{ingredients}}. Keep the garnishes cold until serving."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "garnishes.jalapeno",
+        "name": "sliced jalapeños",
+        "key": "jalapeno",
+        "quantity": null,
+        "allowance": "as wanted for serving",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Serve with {{ingredients}}. Keep the garnishes cold until serving."
+          }
+        ],
+        "allocationSum": 1
+      }
+    ],
+    "measuredPreservation": [
+      {
+        "frozenIngredientIndex": 0,
+        "frozenIngredient": "1 lb Shredded Chicken (Rotisserie or Pressure Cooked)",
+        "proposedId": "enchiladas.chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 1,
+        "frozenIngredient": "1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)",
+        "proposedId": "enchiladas.sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 2,
+        "frozenIngredient": "8 Corn Tortillas",
+        "proposedId": "enchiladas.tortilla",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 3,
+        "frozenIngredient": "1 Red Bell Pepper, finely diced",
+        "proposedId": "enchiladas.pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 4,
+        "frozenIngredient": "1 can (4 oz) Diced Green Chiles",
+        "proposedId": "enchiladas.chiles",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 5,
+        "frozenIngredient": "12 oz Mexican Blend Cheese, shredded",
+        "proposedId": "enchiladas.cheese",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "unchangedAmount": true
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "filling",
+      "title": "Prepare the filling and dish",
+      "text": "Preheat the oven to 375°F. Choose an oven-safe baking dish that fits all the rolled tortillas in a single layer without stacking, or additional dishes for a larger batch. Keep cooked chicken refrigerated until working with it. Toss {{ingredients}} together in a bowl. Cooking raw chicken or making homemade sauce is a separate preparation, outside this assembly clock."
+    },
+    {
+      "step": 2,
+      "id": "soften",
+      "title": "Soften the corn tortillas",
+      "text": "Use {{ingredients}}: heat the splash of oil in a small skillet and briefly warm each tortilla in it, starting at about 5 seconds per side and continuing only until it bends readily. Work one at a time; do not crisp the tortilla so it breaks when rolled. Transfer each warm tortilla for filling."
+    },
+    {
+      "step": 3,
+      "id": "roll",
+      "title": "Dip, fill, roll and cover",
+      "text": "Use {{ingredients}} for dipping, filling and topping. Dip each warm tortilla into the sauce, divide all the prepared chicken filling among the measured tortillas, add a little of the cheese inside each and roll seam-side down in the dish. Pour all the remaining sauce over the rolls and distribute all the remaining cheese on top. Use up the full measured cheese and sauce between the centers and topping."
+    },
+    {
+      "step": 4,
+      "id": "bake",
+      "title": "Bake and check the center",
+      "text": "Bake at 375°F, starting to check after 15–20 minutes. The cheese should be melted and the sauce bubbling, but also check the filling in the center of the dish with a thermometer: it must reach 165°F / 74°C. If it is still cool inside, continue baking; cover if the surface is browning too much. Cold chicken, dish depth and extra dishes can extend the time."
+    },
+    {
+      "step": 5,
+      "id": "serve",
+      "title": "Serve with the garnishes",
+      "text": "Serve with {{ingredients}}. Keep the garnishes cold until serving."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Current corn-tortilla adaptation",
+      "state": "primary retained",
+      "ingredients": "Full1lbchicken,8corn,15ozpreparedsauce,1pepper,4ozchiles,12ozcheese; currentgenuineoil splash and three unmeasured toppings.",
+      "method": "Briefly softeninoil/dip/dividefilling/allremaining sauce-cheese top/bake375°F165°Ffilling. No automatic rollback to045."
+    },
+    {
+      "name": "Saved native/Git and publisher soft-tortilla option",
+      "state": "separate fully retained source route with safe center check",
+      "ingredients": "8taco-sizesofttortillasinsteadcorn, nooilflashfry; samefullmeat/sauce/pepper/chiles/12ozcheese; sourceexclusiveMontereyJack/cheddar choices. Sourcreamoriginaloptional; currentcilantro/jalapeñogarnishes remain available.",
+      "method": "Thinlayerofsamesaucebottom,allmeasuredfillingdivided,about2tbspcheese/saucepertaco-sizepiece,allremainingtop,375°F firstcheck15–20 to165°F. Originalpan suggestions limited originalgeometry. Sourcehalf-cupchickenpertortilla not a guaranteed volume yield of1lb; actual whole total used once."
+    },
+    {
+      "name": "Freeze unbaked versus freeze already baked",
+      "state": "exclusive source options restored",
+      "ingredients": "Samecompleteassembledformula; separatecoldgarnishes.",
+      "method": "Originalsoft-source375covered30+uncovered15 vs350covered10+uncovered10–20 are qualified firstchecks; core165°F/dishmanufacturer governs. Sourcecool-completely-on-counter and universalmicrowave3–5minute clocks not restored as guarantees."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "dependencies": [
+      {
+        "slug": "queso-fundido-with-chorizo",
+        "path": "src/content/recipes/queso-fundido-with-chorizo.md",
+        "sha256": "d198a7f4d33925ede23cd63abc35856fdcbb025ca9f67edffb7485a7af970e9d",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "mexican-street-corn-salad",
+        "path": "src/content/recipes/mexican-street-corn-salad.md",
+        "sha256": "82882888bd93d17bf9c0eeeefb998059d3b8458f34630bacd4ccbb7023678cf2",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "roasted-sweet-potatoes",
+        "path": "src/content/recipes/roasted-sweet-potatoes.md",
+        "sha256": "ecd2406726ebe63ab479ddd0570354d3d05e8a1190561a833cb3ceca8f23466f",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      }
+    ],
+    "meals": [
+      {
+        "path": "src/content/meals/enchilada-night.md",
+        "sha256": "5116ec77345f8d54c7c48b0239007c3eee6ce1c246c436902e2bc1fe042df8f1",
+        "issue": "Meal omits corn-tortilla flash-frying/softening and assumes rice/bean timings; whole menu, component quantities and elapsed coordination remain unreviewed."
+      }
+    ],
+    "approval": false
+  },
+  "ratiosYieldAndCapacity": {
+    "frozen": "4",
+    "proposed": "4 portions",
+    "scope": "Inherited original planning yield; no measured finished weight or verified portions. Rolls/tortillas are counted ingredients; meat portions follow measured count at each scale.",
+    "panCapacity": [
+      "Choose dishes that fit the rolls in one layer. The 9×13-inch or two 8×8-inch pan suggestions below apply to eight taco-size soft tortillas. Corn-tortilla diameter varies; check the actual rolls fit."
+    ],
+    "clock": "For the original corn-tortilla batch with cooked chicken and prepared sauce ready, allow about 20 minutes preparation/rolling plus at least 15–20 minutes baking: roughly 40 minutes if the center reaches 165°F on that first check. Cold filling, extra dishes and frozen routes take longer. The soft-tortilla option omits flash-frying; the original published frozen routes are first-check schedules, not the 40-minute fresh-batch clock."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "1/4 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "1/4 can (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "2 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "1/4 red bell pepper, finely diced",
+        "1/4 can (4 oz) diced green chiles",
+        "3 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/4 lb cooked shredded chicken",
+        "1/4 can (15 oz) red enchilada sauce",
+        "2 corn tortillas",
+        "1/4 red bell pepper",
+        "1/4 can (4 oz) diced green chiles",
+        "3 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "1/2 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "1/2 can (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "4 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "1/2 red bell pepper, finely diced",
+        "1/2 can (4 oz) diced green chiles",
+        "6 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1/2 lb cooked shredded chicken",
+        "1/2 can (15 oz) red enchilada sauce",
+        "4 corn tortillas",
+        "1/2 red bell pepper",
+        "1/2 can (4 oz) diced green chiles",
+        "6 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "1 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "1 can (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "8 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "1 red bell pepper, finely diced",
+        "1 can (4 oz) diced green chiles",
+        "12 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 lb cooked shredded chicken",
+        "1 can (15 oz) red enchilada sauce",
+        "8 corn tortillas",
+        "1 red bell pepper",
+        "1 can (4 oz) diced green chiles",
+        "12 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "1 1/2 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "1 1/2 cans (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "12 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "1 1/2 red bell peppers, finely diced",
+        "1 1/2 cans (4 oz) diced green chiles",
+        "18 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 lb cooked shredded chicken",
+        "1 1/2 cans (15 oz) red enchilada sauce",
+        "12 corn tortillas",
+        "1 1/2 red bell peppers",
+        "1 1/2 cans (4 oz) diced green chiles",
+        "18 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "2 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "2 cans (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "16 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "2 red bell peppers, finely diced",
+        "2 cans (4 oz) diced green chiles",
+        "24 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "2 lb cooked shredded chicken",
+        "2 cans (15 oz) red enchilada sauce",
+        "16 corn tortillas",
+        "2 red bell peppers",
+        "2 cans (4 oz) diced green chiles",
+        "24 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "3 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "3 cans (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "24 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "3 red bell peppers, finely diced",
+        "3 cans (4 oz) diced green chiles",
+        "36 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 lb cooked shredded chicken",
+        "3 cans (15 oz) red enchilada sauce",
+        "24 corn tortillas",
+        "3 red bell peppers",
+        "3 cans (4 oz) diced green chiles",
+        "36 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Enchiladas ---",
+        "1 lb cooked shredded chicken, rotisserie or already pressure-cooked",
+        "1 can (15 oz) red enchilada sauce, prepared; canned or the same measured amount of homemade sauce",
+        "8 corn tortillas, already cooked tortillas; the brief oil stage is for flexibility, not cooking raw masa",
+        "1 red bell pepper, finely diced",
+        "1 can (4 oz) diced green chiles",
+        "12 oz Mexican blend cheese, shredded; some inside each roll, all the remainder on top",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "--- Garnishes ---",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 lb cooked shredded chicken",
+        "1 can (15 oz) red enchilada sauce",
+        "8 corn tortillas",
+        "1 red bell pepper",
+        "1 can (4 oz) diced green chiles",
+        "12 oz Mexican blend cheese",
+        "cooking oil, a splash for briefly softening the corn tortillas",
+        "sour cream, as wanted for serving",
+        "fresh cilantro, as wanted for serving",
+        "sliced jalapeños, as wanted for serving"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    {
+      "commit": "9faedba59b21bb230dcddd530489dc6e86d51bde",
+      "evidence": "docs/repairs/2026-09-15/changed-files.json",
+      "field": "Cooking Notes",
+      "protectedText": "For freezing and reheating, use a baking dish whose manufacturer permits the intended temperature changes. Follow its instructions for moving between freezer, refrigerator and oven.",
+      "preservation": "Verbatim in candidate Cooking Notes and modelscope reinforced, source/sourceUrl unchanged."
+    },
+    {
+      "commit": "85691102b6cdb5006e6bc682321175e6c4db1440",
+      "field": "deleted generic Rest paragraph",
+      "preservation": "Removed unsupported5minute cookedshredded-chickenjuiceredistribution instruction remains absent."
+    }
+  ],
+  "remainingQuestions": [
+    "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+    "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+    "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+    "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,1262 @@
+{
+  "slug": "chicken-tinga",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "460887e9df01d049b55d042396cb2780cd88c6052acfb277fb87f0932de2eea8",
+  "acceptedSourceSha256": "10e62543e9a1722a1e2b8f3eaf913f50dad4aa976bef395d18a1a20bad8eabb7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15 min active"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35–45 min, plus cooling the charred vegetables"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 lbs Shredded Chicken (Poached or Rotisserie)",
+        "2 large Tomatoes, halved",
+        "3 cloves Garlic, unpeeled",
+        "1-2 Chipotles in Adobo (plus 1 tsp sauce)",
+        "1 small Onion, sliced into half-moons",
+        "1/2 tsp Dried Oregano",
+        "1/2 cup Chicken Broth",
+        "1 tsp Salt"
+      ],
+      "after": [
+        "--- Chicken and sauce ---",
+        "1 1/2 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "2 large tomatoes, halved",
+        "3 garlic cloves, unpeeled for charring; peel before blending",
+        "1–2 chipotles in adobo",
+        "1 tsp adobo sauce",
+        "1 small onion, sliced into half-moons",
+        "1/2 tsp dried oregano",
+        "1/2 cup chicken broth",
+        "1 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 25,
+        "protein": 2,
+        "carbs": 4,
+        "fat": 0.5,
+        "fiber": 1,
+        "sugar": 2,
+        "sodium": 550
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Cooked shredded chicken in smoky chipotle-tomato sauce with charred garlic, sautéed onion, oregano and the existing lime finish."
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Build the charred sauce before reheating already cooked chicken",
+        "outcome": "Tender shredded chicken evenly coated in a smoky tomato-chipotle sauce, with softened onion and fragrant oregano.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Start with already cooked, shredded chicken. The listed clock excludes poaching raw chicken or buying/cooling a rotisserie bird.",
+          "The adobo sauce is a separate measured teaspoon in the original batch, in addition to the chosen number of chipotles. Use a splash of oil for the onion and a squeeze of lime at the finish; these are added by eye.",
+          "Cool charred vegetables to room temperature before countertop blending. Follow the blender's working-capacity instructions and process larger batches in loads. Use enough skillet area for charring; scale the ingredients, not the charring time or fixed pan size."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Tomatoes have dark patches and softened flesh; peeled garlic is soft rather than burnt.",
+            "why": "Garlic and tomatoes can finish at different times even in the same dry pan."
+          },
+          {
+            "step": 5,
+            "cue": "The oregano is fragrant after its brief toast, without black specks or a burnt smell.",
+            "why": "It meets oil before the sauce, preserving the short aromatic stage."
+          },
+          {
+            "step": 7,
+            "cue": "Chicken and sauce measure 165°F / 74°C in several places and coat the shreds without cold clumps.",
+            "why": "A five-minute simmer is a first check, not proof that refrigerated chicken has reheated uniformly."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Garlic is burning while the tomatoes are still firm",
+            "cause": "The cloves finish more quickly than the tomato halves.",
+            "fix": "Remove the finished cloves to the cooling plate and continue cooking only the tomatoes. Discard bitterly burnt cloves rather than blending their burnt skin into the sauce."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Already poached chicken",
+            "alternative": "The same measured weight of cooked shredded rotisserie chicken",
+            "effect": "Retains the existing shortcut; salt and seasoning on the bird can change the sauce's final taste. Do not replace it with raw chicken on the same five-minute clock."
+          }
+        ],
+        "storage": "Refrigerate the tinga promptly in shallow portions within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Reheat, stirring, to 165°F / 74°C throughout. For the tomato sauce, USDA also recommends a rolling boil when reheating sauces; stir and keep that boil brief rather than prolonged, since prolonged boiling concentrates the sauce and can dry the chicken. This reheating guidance does not change the first-cook simmer or add liquid.",
+        "timing": "With cooked chicken ready, plan about 15 minutes of hands-on preparation and 20–30 minutes for charring, onion sautéing and the two simmer stages: about 35–45 minutes plus the charred vegetables' cooling time. Cooling, charring loads, blender loads and reheating cold chicken vary; cooking raw chicken is not included.",
+        "sources": [
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "Secretaría de Cultura — Puebla gastronomy",
+            "url": "https://sic.cultura.gob.mx/ficha.php?table=gastronomia&table_id=34"
+          },
+          {
+            "title": "El Colegio de México — Tatemar",
+            "url": "https://dem.colmex.mx/ver/tatemar"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "tinga",
+            "name": "Chicken and sauce",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "cooked shredded chicken",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "chicken",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already poached or rotisserie; cooking raw chicken is a separate preparation"
+              },
+              {
+                "id": "tomato",
+                "key": "tomato",
+                "name": "large tomato",
+                "plural": "large tomatoes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "char",
+                    "share": 1
+                  }
+                ],
+                "preparation": "halved"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "char",
+                    "share": 1
+                  }
+                ],
+                "preparation": "unpeeled for charring; peel before blending"
+              },
+              {
+                "id": "chipotle",
+                "key": "chipotle",
+                "name": "chipotle in adobo",
+                "plural": "chipotles in adobo",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "adobo",
+                "key": "adobo",
+                "name": "adobo sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "small onion",
+                "plural": "small onions",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "onion",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced into half-moons"
+              },
+              {
+                "id": "oregano",
+                "key": "oregano",
+                "name": "dried oregano",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "oregano",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "chicken broth",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "cooking oil",
+                "allowance": "a splash for sautéing the onion",
+                "uses": [
+                  {
+                    "step": "onion",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "fresh lime juice",
+                "allowance": "a squeeze to finish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "char",
+            "title": "Char the tomatoes and garlic",
+            "text": "Heat a heavy dry skillet over medium-high heat. Add {{ingredients}}, tomatoes cut-side down. Start checking at 5–7 minutes, turning as needed, until the tomatoes soften with charred patches and the garlic softens inside its skin. Remove individual garlic cloves if ready before the tomatoes; avoid burning them while waiting for the tomatoes."
+          },
+          {
+            "id": "cool",
+            "title": "Cool and peel",
+            "text": "Transfer the charred vegetables to a clean plate and let them cool to room temperature before using a countertop blender. Peel the garlic and discard the skins. Blend as soon as the vegetables have cooled; refrigerate them promptly if preparing ahead. Cooling takes additional elapsed time."
+          },
+          {
+            "id": "blend",
+            "title": "Blend the sauce",
+            "text": "Blend {{ingredients}} with all the cooled charred tomatoes and peeled garlic until smooth. Use the lower end of the listed chipotle range for a milder sauce; the adobo sauce remains its separately measured amount. Keep below the blender's marked working capacity and blend in batches if necessary."
+          },
+          {
+            "id": "onion",
+            "title": "Soften the onion",
+            "text": "Wipe out the skillet. Add {{ingredients}} and sauté until the onion is translucent and softened."
+          },
+          {
+            "id": "oregano",
+            "title": "Bloom the oregano",
+            "text": "Stir in {{ingredients}} and toast for 30 seconds, just until fragrant, before it burns."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer the sauce",
+            "text": "Pour the blended sauce into the onion pan. Stir in {{ingredients}} and simmer for about 5 minutes until slightly thickened, stirring to keep the base from catching."
+          },
+          {
+            "id": "chicken",
+            "title": "Heat the cooked chicken",
+            "text": "Fold {{ingredients}} through all the sauce. Start checking after about 5 minutes and continue, stirring, until the chicken and sauce reach 165°F / 74°C throughout. Check more than one part of the pan, especially thick clusters of chicken."
+          },
+          {
+            "id": "finish",
+            "title": "Finish and serve",
+            "text": "Stir in {{ingredients}} and serve the saucy chicken among the planned portions."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTinga is a Pueblan dish of shredded meat in smoky chipotle-tomato sauce. The key technique is tatemar - charring tomatoes and garlic directly on a hot skillet or comal to deepen their flavor before blending into a smooth sauce. This creates the characteristic smoky, earthy base. A squeeze of lime at the end brightens the rich, savory flavors.\n\n## Directions\n\n1.  **Char:** Heat a heavy skillet over medium-high. Place halved tomatoes (cut-side down) and unpeeled garlic cloves in the pan. Cook until charred and softened (5-7 mins).\n2.  **Blend:** Peel the garlic. Place tomatoes, garlic, chipotles, and adobo sauce in a blender. Puree until smooth.\n3.  **Sauté:** Wipe out the pan. Add a splash of oil and sauté the onion half-moons until translucent. Stir in the oregano and toast for 30 seconds to bloom the flavor.\n4.  **Simmer:** Pour the blended sauce into the pan. Stir in broth and salt. Bring to a simmer for 5 minutes to thicken.\n5.  **Toss:** Add the shredded chicken to the sauce. Cook for 5 minutes until the chicken has absorbed the smoky flavors.\n6.  **Finish:** Add a squeeze of lime at the end for the **Acid Balance**.\n",
+    "after": "\n## Chef's Note\n\nTinga is associated with Puebla; this version uses cooked shredded chicken in a chipotle-tomato sauce. Char the tomatoes and garlic on the dry skillet (tatemar) for a smoky edge, soften the onion, then bloom the oregano briefly before adding liquid. The chicken warms in the finished sauce, and the small lime squeeze at serving complements its smoky richness.\n\n## Directions\n\n1. **Char the tomatoes and garlic:** Heat a heavy dry skillet over medium-high heat. Add large tomatoes and garlic cloves, tomatoes cut-side down. Start checking at 5–7 minutes, turning as needed, until the tomatoes soften with charred patches and the garlic softens inside its skin. Remove individual garlic cloves if ready before the tomatoes; avoid burning them while waiting for the tomatoes.\n2. **Cool and peel:** Transfer the charred vegetables to a clean plate and let them cool to room temperature before using a countertop blender. Peel the garlic and discard the skins. Blend as soon as the vegetables have cooled; refrigerate them promptly if preparing ahead. Cooling takes additional elapsed time.\n3. **Blend the sauce:** Blend chipotles in adobo and adobo sauce with all the cooled charred tomatoes and peeled garlic until smooth. Use the lower end of the listed chipotle range for a milder sauce; the adobo sauce remains its separately measured amount. Keep below the blender's marked working capacity and blend in batches if necessary.\n4. **Soften the onion:** Wipe out the skillet. Add small onion and cooking oil and sauté until the onion is translucent and softened.\n5. **Bloom the oregano:** Stir in dried oregano and toast for 30 seconds, just until fragrant, before it burns.\n6. **Simmer the sauce:** Pour the blended sauce into the onion pan. Stir in chicken broth and salt and simmer for about 5 minutes until slightly thickened, stirring to keep the base from catching.\n7. **Heat the cooked chicken:** Fold cooked shredded chicken through all the sauce. Start checking after about 5 minutes and continue, stirring, until the chicken and sauce reach 165°F / 74°C throughout. Check more than one part of the pan, especially thick clusters of chicken.\n8. **Finish and serve:** Stir in fresh lime juice and serve the saucy chicken among the planned portions.\n"
+  },
+  "findings": [
+    {
+      "id": "MA03-T01",
+      "title": "Genuine oil/lime allowances and cooked state",
+      "field": "Ingredients / Directions3&6",
+      "rationale": "Ledger now includes the existing unmeasured splashoil and squeezelime, with explicit destinations and no invented dose. Poached/rotisserie meat is explicitly already cooked.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+        "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+        "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+        "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
+      ]
+    },
+    {
+      "id": "MA03-T02",
+      "title": "Countertop blending scope and separate char endpoints",
+      "field": "Directions1–2",
+      "rationale": "An unspecified model cannot establish hot-blending permission. Use a complete cool-to-room-temperature branch, retain all tomatoes and peeled garlic, discard skins and respect marked capacity; additional elapsed cooling is disclosed. Different garlic/tomato rates are an editorial cue, not a model/time certification.",
+      "confidence": "high scope; medium cooking geometry",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+        "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+        "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+        "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
+      ]
+    },
+    {
+      "id": "MA03-T03",
+      "title": "Reheat endpoint and protected oregano stage",
+      "field": "Directions3–5",
+      "rationale": "Already cooked chicken needs165°Funiformly during reheating. Preserve exact prior30secondoregano bloom; no extra acid/browning stage. USDA sauce rolling-boil recommendation is limited to leftover reheating, with a brief-versus-prolonged texture caution.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "USDA FSIS — Leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+        "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+        "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+        "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
+      ]
+    },
+    {
+      "id": "MA03-T04",
+      "title": "Clock, cultural context and nutrition",
+      "field": "totalTime / Chef note / nutrition",
+      "rationale": "Preserve Puebla association supported by Mexican primary cultural listing; no certification of this Git formula as authentic. Include unmeasuredcooling/actualloads in elapsed planning and remove implausible automated nutrient estimates without replacement.",
+      "confidence": "high culture association; medium clock",
+      "applicableSources": [
+        {
+          "title": "Secretaría de Cultura — Puebla gastronomy",
+          "url": "https://sic.cultura.gob.mx/ficha.php?table=gastronomia&table_id=34"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+        "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+        "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+        "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/chicken-tinga.md",
+    "introductionScope": "New-file introduction in whole followed Git history. Preceding tree searched for earlier same recipe; no earlier cooking file located. Commit subject alone does not establish household acceptance or outside authorship.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Git-created charred-tomato route retained, including later accepted oregano30-second bloom. No original 450 native match or outside formula author established; Puebla evidence supports cultural association only."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "index": 0,
+        "ingredient": "1.5 lbs Shredded Chicken (Poached or Rotisserie)",
+        "state": "exact frozen ingredient string",
+        "destination": "Poached/rotisserie shredded chicken tossed in sauce5min; explicit uniform reheating endpoint missing.",
+        "resolutionStatus": "unresolved in frozen method"
+      },
+      {
+        "index": 1,
+        "ingredient": "2 large Tomatoes, halved",
+        "state": "exact frozen ingredient string",
+        "destination": "Dry char then hot transfer to unspecified blender.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 2,
+        "ingredient": "3 cloves Garlic, unpeeled",
+        "state": "exact frozen ingredient string",
+        "destination": "Unpeeled dry char, then peel for blender; skins discarded by implication.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 3,
+        "ingredient": "1-2 Chipotles in Adobo (plus 1 tsp sauce)",
+        "state": "exact frozen ingredient string",
+        "destination": "Chipotle count range plus1tspadobo to blender; generated split not yet authored.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 small Onion, sliced into half-moons",
+        "state": "exact frozen ingredient string",
+        "destination": "Sauté with missing-from-list splashoil.",
+        "resolutionStatus": "unresolved in frozen method"
+      },
+      {
+        "index": 5,
+        "ingredient": "1/2 tsp Dried Oregano",
+        "state": "exact frozen ingredient string",
+        "destination": "Accepted30secondoilbloom before liquid.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 6,
+        "ingredient": "1/2 cup Chicken Broth",
+        "state": "exact frozen ingredient string",
+        "destination": "Simmer sauce5min.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tsp Salt",
+        "state": "exact frozen ingredient string",
+        "destination": "Simmer sauce measured salt; no finishing measurement supplied.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "tinga.chicken",
+        "name": "cooked shredded chicken",
+        "key": "chicken",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "chicken",
+            "share": 1,
+            "text": "Fold {{ingredients}} through all the sauce. Start checking after about 5 minutes and continue, stirring, until the chicken and sauce reach 165°F / 74°C throughout. Check more than one part of the pan, especially thick clusters of chicken."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.tomato",
+        "name": "large tomato",
+        "key": "tomato",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "halved",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "char",
+            "share": 1,
+            "text": "Heat a heavy dry skillet over medium-high heat. Add {{ingredients}}, tomatoes cut-side down. Start checking at 5–7 minutes, turning as needed, until the tomatoes soften with charred patches and the garlic softens inside its skin. Remove individual garlic cloves if ready before the tomatoes; avoid burning them while waiting for the tomatoes."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.garlic",
+        "name": "garlic clove",
+        "key": "garlic",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "unpeeled for charring; peel before blending",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "char",
+            "share": 1,
+            "text": "Heat a heavy dry skillet over medium-high heat. Add {{ingredients}}, tomatoes cut-side down. Start checking at 5–7 minutes, turning as needed, until the tomatoes soften with charred patches and the garlic softens inside its skin. Remove individual garlic cloves if ready before the tomatoes; avoid burning them while waiting for the tomatoes."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.chipotle",
+        "name": "chipotle in adobo",
+        "key": "chipotle",
+        "quantity": {
+          "amount": 1,
+          "max": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Blend {{ingredients}} with all the cooled charred tomatoes and peeled garlic until smooth. Use the lower end of the listed chipotle range for a milder sauce; the adobo sauce remains its separately measured amount. Keep below the blender's marked working capacity and blend in batches if necessary."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.adobo",
+        "name": "adobo sauce",
+        "key": "adobo",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Blend {{ingredients}} with all the cooled charred tomatoes and peeled garlic until smooth. Use the lower end of the listed chipotle range for a milder sauce; the adobo sauce remains its separately measured amount. Keep below the blender's marked working capacity and blend in batches if necessary."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.onion",
+        "name": "small onion",
+        "key": "onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "sliced into half-moons",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "onion",
+            "share": 1,
+            "text": "Wipe out the skillet. Add {{ingredients}} and sauté until the onion is translucent and softened."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.oregano",
+        "name": "dried oregano",
+        "key": "oregano",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "oregano",
+            "share": 1,
+            "text": "Stir in {{ingredients}} and toast for 30 seconds, just until fragrant, before it burns."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.broth",
+        "name": "chicken broth",
+        "key": "broth",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1,
+            "text": "Pour the blended sauce into the onion pan. Stir in {{ingredients}} and simmer for about 5 minutes until slightly thickened, stirring to keep the base from catching."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.salt",
+        "name": "salt",
+        "key": "salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1,
+            "text": "Pour the blended sauce into the onion pan. Stir in {{ingredients}} and simmer for about 5 minutes until slightly thickened, stirring to keep the base from catching."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.oil",
+        "name": "cooking oil",
+        "key": "oil",
+        "quantity": null,
+        "allowance": "a splash for sautéing the onion",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "onion",
+            "share": 1,
+            "text": "Wipe out the skillet. Add {{ingredients}} and sauté until the onion is translucent and softened."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "tinga.lime",
+        "name": "fresh lime juice",
+        "key": "lime",
+        "quantity": null,
+        "allowance": "a squeeze to finish",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1,
+            "text": "Stir in {{ingredients}} and serve the saucy chicken among the planned portions."
+          }
+        ],
+        "allocationSum": 1
+      }
+    ],
+    "measuredPreservation": [
+      {
+        "frozenIngredientIndex": 0,
+        "frozenIngredient": "1.5 lbs Shredded Chicken (Poached or Rotisserie)",
+        "proposedId": "tinga.chicken",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "lb"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 1,
+        "frozenIngredient": "2 large Tomatoes, halved",
+        "proposedId": "tinga.tomato",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 2,
+        "frozenIngredient": "3 cloves Garlic, unpeeled",
+        "proposedId": "tinga.garlic",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 3,
+        "frozenIngredient": "1-2 Chipotles in Adobo (plus 1 tsp sauce)",
+        "proposedId": "tinga.chipotle",
+        "quantity": {
+          "amount": 1,
+          "max": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 3,
+        "frozenIngredient": "1-2 Chipotles in Adobo (plus 1 tsp sauce)",
+        "proposedId": "tinga.adobo",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 4,
+        "frozenIngredient": "1 small Onion, sliced into half-moons",
+        "proposedId": "tinga.onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 5,
+        "frozenIngredient": "1/2 tsp Dried Oregano",
+        "proposedId": "tinga.oregano",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 6,
+        "frozenIngredient": "1/2 cup Chicken Broth",
+        "proposedId": "tinga.broth",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 7,
+        "frozenIngredient": "1 tsp Salt",
+        "proposedId": "tinga.salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "char",
+      "title": "Char the tomatoes and garlic",
+      "text": "Heat a heavy dry skillet over medium-high heat. Add {{ingredients}}, tomatoes cut-side down. Start checking at 5–7 minutes, turning as needed, until the tomatoes soften with charred patches and the garlic softens inside its skin. Remove individual garlic cloves if ready before the tomatoes; avoid burning them while waiting for the tomatoes."
+    },
+    {
+      "step": 2,
+      "id": "cool",
+      "title": "Cool and peel",
+      "text": "Transfer the charred vegetables to a clean plate and let them cool to room temperature before using a countertop blender. Peel the garlic and discard the skins. Blend as soon as the vegetables have cooled; refrigerate them promptly if preparing ahead. Cooling takes additional elapsed time."
+    },
+    {
+      "step": 3,
+      "id": "blend",
+      "title": "Blend the sauce",
+      "text": "Blend {{ingredients}} with all the cooled charred tomatoes and peeled garlic until smooth. Use the lower end of the listed chipotle range for a milder sauce; the adobo sauce remains its separately measured amount. Keep below the blender's marked working capacity and blend in batches if necessary."
+    },
+    {
+      "step": 4,
+      "id": "onion",
+      "title": "Soften the onion",
+      "text": "Wipe out the skillet. Add {{ingredients}} and sauté until the onion is translucent and softened."
+    },
+    {
+      "step": 5,
+      "id": "oregano",
+      "title": "Bloom the oregano",
+      "text": "Stir in {{ingredients}} and toast for 30 seconds, just until fragrant, before it burns."
+    },
+    {
+      "step": 6,
+      "id": "simmer",
+      "title": "Simmer the sauce",
+      "text": "Pour the blended sauce into the onion pan. Stir in {{ingredients}} and simmer for about 5 minutes until slightly thickened, stirring to keep the base from catching."
+    },
+    {
+      "step": 7,
+      "id": "chicken",
+      "title": "Heat the cooked chicken",
+      "text": "Fold {{ingredients}} through all the sauce. Start checking after about 5 minutes and continue, stirring, until the chicken and sauce reach 165°F / 74°C throughout. Check more than one part of the pan, especially thick clusters of chicken."
+    },
+    {
+      "step": 8,
+      "id": "finish",
+      "title": "Finish and serve",
+      "text": "Stir in {{ingredients}} and serve the saucy chicken among the planned portions."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Poached versus rotisserie chicken",
+      "state": "retained exclusive cooked-protein options",
+      "ingredients": "Same1.5lbalreadycookedshreddedchicken, full sauce/oil/lime. No raw chicken substitution on the stated clock.",
+      "method": "Reheat165°Funiformly in sauce."
+    },
+    {
+      "name": "One to two chipotles",
+      "state": "retained measured range",
+      "ingredients": "1–2chipotlesplusseparate1tspadobo in original batch; scales range/teaspoon together.",
+      "method": "Blend selected count once; does not add both range endpoints."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "dependencies": [
+      {
+        "slug": "classic-guacamole",
+        "path": "src/content/recipes/classic-guacamole.md",
+        "sha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "cilantro-lime-rice",
+        "path": "src/content/recipes/cilantro-lime-rice.md",
+        "sha256": "7649d6a612583b1263aaa76738c3c3b7d3a50dd58c76c408d5d77a6c0f2f93be",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "mexican-street-corn-salad",
+        "path": "src/content/recipes/mexican-street-corn-salad.md",
+        "sha256": "82882888bd93d17bf9c0eeeefb998059d3b8458f34630bacd4ccbb7023678cf2",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      }
+    ],
+    "meals": [],
+    "approval": false
+  },
+  "ratiosYieldAndCapacity": {
+    "frozen": "6",
+    "proposed": "6 portions",
+    "scope": "Inherited original planning yield; no measured finished weight or verified portions. Rolls/tortillas are counted ingredients; meat portions follow measured count at each scale.",
+    "panCapacity": [
+      "The adobo sauce is a separate measured teaspoon in the original batch, in addition to the chosen number of chipotles. Use a splash of oil for the onion and a squeeze of lime at the finish; these are added by eye.",
+      "Cool charred vegetables to room temperature before countertop blending. Follow the blender's working-capacity instructions and process larger batches in loads. Use enough skillet area for charring; scale the ingredients, not the charring time or fixed pan size."
+    ],
+    "clock": "With cooked chicken ready, plan about 15 minutes of hands-on preparation and 20–30 minutes for charring, onion sautéing and the two simmer stages: about 35–45 minutes plus the charred vegetables' cooling time. Cooling, charring loads, blender loads and reheating cold chicken vary; cooking raw chicken is not included."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "3/8 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "1/2 large tomato, halved",
+        "3/4 garlic clove, unpeeled for charring; peel before blending",
+        "1/4–1/2 chipotle in adobo",
+        "1/4 tsp adobo sauce",
+        "1/4 small onion, sliced into half-moons",
+        "1/8 tsp dried oregano",
+        "1/8 cup chicken broth",
+        "1/4 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "1 1/2 portions",
+      "shopping": [
+        "3/8 lb cooked shredded chicken",
+        "1/2 large tomato",
+        "3/4 garlic clove",
+        "1/4–1/2 chipotle in adobo",
+        "1/4 tsp adobo sauce",
+        "1/4 small onion",
+        "1/8 tsp dried oregano",
+        "1/8 cup chicken broth",
+        "1/4 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "3/4 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "1 large tomato, halved",
+        "1 1/2 garlic cloves, unpeeled for charring; peel before blending",
+        "1/2–1 chipotle in adobo",
+        "1/2 tsp adobo sauce",
+        "1/2 small onion, sliced into half-moons",
+        "1/4 tsp dried oregano",
+        "1/4 cup chicken broth",
+        "1/2 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "3/4 lb cooked shredded chicken",
+        "1 large tomato",
+        "1 1/2 garlic cloves",
+        "1/2–1 chipotle in adobo",
+        "1/2 tsp adobo sauce",
+        "1/2 small onion",
+        "1/4 tsp dried oregano",
+        "1/4 cup chicken broth",
+        "1/2 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "1 1/2 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "2 large tomatoes, halved",
+        "3 garlic cloves, unpeeled for charring; peel before blending",
+        "1–2 chipotles in adobo",
+        "1 tsp adobo sauce",
+        "1 small onion, sliced into half-moons",
+        "1/2 tsp dried oregano",
+        "1/2 cup chicken broth",
+        "1 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 lb cooked shredded chicken",
+        "2 large tomatoes",
+        "3 garlic cloves",
+        "1–2 chipotles in adobo",
+        "1 tsp adobo sauce",
+        "1 small onion",
+        "1/2 tsp dried oregano",
+        "1/2 cup chicken broth",
+        "1 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "2 1/4 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "3 large tomatoes, halved",
+        "4 1/2 garlic cloves, unpeeled for charring; peel before blending",
+        "1 1/2–3 chipotles in adobo",
+        "1 1/2 tsp adobo sauce",
+        "1 1/2 small onions, sliced into half-moons",
+        "3/4 tsp dried oregano",
+        "3/4 cup chicken broth",
+        "1 1/2 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "9 portions",
+      "shopping": [
+        "2 1/4 lb cooked shredded chicken",
+        "3 large tomatoes",
+        "4 1/2 garlic cloves",
+        "1 1/2–3 chipotles in adobo",
+        "1 1/2 tsp adobo sauce",
+        "1 1/2 small onions",
+        "3/4 tsp dried oregano",
+        "3/4 cup chicken broth",
+        "1 1/2 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "3 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "4 large tomatoes, halved",
+        "6 garlic cloves, unpeeled for charring; peel before blending",
+        "2–4 chipotles in adobo",
+        "2 tsp adobo sauce",
+        "2 small onions, sliced into half-moons",
+        "1 tsp dried oregano",
+        "1 cup chicken broth",
+        "2 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 lb cooked shredded chicken",
+        "4 large tomatoes",
+        "6 garlic cloves",
+        "2–4 chipotles in adobo",
+        "2 tsp adobo sauce",
+        "2 small onions",
+        "1 tsp dried oregano",
+        "1 cup chicken broth",
+        "2 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "4 1/2 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "6 large tomatoes, halved",
+        "9 garlic cloves, unpeeled for charring; peel before blending",
+        "3–6 chipotles in adobo",
+        "3 tsp adobo sauce",
+        "3 small onions, sliced into half-moons",
+        "1 1/2 tsp dried oregano",
+        "1 1/2 cups chicken broth",
+        "3 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "18 portions",
+      "shopping": [
+        "4 1/2 lb cooked shredded chicken",
+        "6 large tomatoes",
+        "9 garlic cloves",
+        "3–6 chipotles in adobo",
+        "3 tsp adobo sauce",
+        "3 small onions",
+        "1 1/2 tsp dried oregano",
+        "1 1/2 cups chicken broth",
+        "3 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Chicken and sauce ---",
+        "1 1/2 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a separate preparation",
+        "2 large tomatoes, halved",
+        "3 garlic cloves, unpeeled for charring; peel before blending",
+        "1–2 chipotles in adobo",
+        "1 tsp adobo sauce",
+        "1 small onion, sliced into half-moons",
+        "1/2 tsp dried oregano",
+        "1/2 cup chicken broth",
+        "1 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 lb cooked shredded chicken",
+        "2 large tomatoes",
+        "3 garlic cloves",
+        "1–2 chipotles in adobo",
+        "1 tsp adobo sauce",
+        "1 small onion",
+        "1/2 tsp dried oregano",
+        "1/2 cup chicken broth",
+        "1 tsp salt",
+        "cooking oil, a splash for sautéing the onion",
+        "fresh lime juice, a squeeze to finish"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    {
+      "commit": "2b01ffbb6b122bbc8a40597eeff2f2cdb80fdc7d",
+      "field": "Directions3–4",
+      "protectedText": "Stir in the oregano and toast for 30 seconds to bloom the flavor.",
+      "preservation": "Same half-teaspoon and 30-secondbloom in oil before broth/sauce; moved to authored dedicated step5 for explicit allocation."
+    }
+  ],
+  "remainingQuestions": [
+    "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+    "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+    "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+    "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

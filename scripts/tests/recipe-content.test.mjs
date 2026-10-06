@@ -99,7 +99,7 @@ test('all seven known method mismatches have their actual authored step counts',
     'instant-pot-butternut-squash-soup': 7,
     'instant-pot-potato-leek-soup': 8,
     'red-zone-margarita': 8,
-    'spatchcocked-roast-chicken': 15,
+    'spatchcocked-roast-chicken': 9,
     'tonkotsu-style-ramen': 16,
   }))
     assert.equal(recipes.get(slug).parsed.steps.length, count, slug);

@@ -55,9 +55,17 @@ test('salad lists toppings and soup keeps its safer release instructions', () =>
 });
 test('enchiladas make the sauce before allocation and heat filling through', () => {
   const { data, content } = read('chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce');
-  assert.ok(data.ingredients.includes('1 tsp Ground Cumin'));
-  assert.ok(data.ingredients.includes('8 (8-inch) Flour Tortillas'));
-  assert.ok(content.indexOf('**The Sauce:') < content.indexOf('**The Filling:'));
+  assert.ok(data.ingredients.includes('1 tsp ground cumin'));
+  assert.ok(data.ingredients.includes('8 flour tortillas (8-inch)'));
+  assert.ok(
+    data.formula.steps.findIndex((step) => step.id === 'sauce') <
+      data.formula.steps.findIndex((step) => step.id === 'fill')
+  );
+  assert.deepEqual(
+    data.formula.components.find((c) => c.id === 'rolls').ingredients.find((i) => i.id === 'cumin')
+      .uses,
+    [{ step: 'fill', share: 1 }]
+  );
   assert.match(content, /165°F \/ 74°C/);
 });
 test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil', () => {

@@ -1,0 +1,2267 @@
+{
+  "slug": "herby-chicken-meatball-bowl",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "b121e0be398b5cf0a88e077eeada673ec74f65479ce1821a013f25fa99a012d5",
+  "acceptedSourceSha256": "52496c8445e10ddd1bf4f3510dfaa438b0f905a68f54520002a63583a32253e5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 25–35 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "About 25–40 min roasting and sequential meatball loads, partly overlapping"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 50–70 min with oven heating and pan batches"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Ground Chicken",
+        "1 cup Whole-Milk Ricotta for richness",
+        "1 large Egg",
+        "1/2 cup Panko Breadcrumbs",
+        "1 Shallot, finely chopped",
+        "1/2 cup fresh cilantro, chopped",
+        "1/4 cup fresh dill, chopped",
+        "Zest of 1 Lemon",
+        "1 15 oz can Chickpeas, patted bone-dry",
+        "1 large Sweet Potato, diced",
+        "4 cups Fresh Kale",
+        "1 cup Greek Yogurt",
+        "1 cup Fresh Basil",
+        "1 Jalapeño, seeded",
+        "1 tbsp Honey",
+        "1 tbsp Fresh Lemon Juice",
+        "4 tbsp Olive Oil, divided",
+        "1/2 tsp Salt, for the chickpeas",
+        "1/2 tsp Garlic Powder, for the chickpeas",
+        "1/2 tsp Italian Seasoning, for the chickpeas",
+        "1/2 tsp Ground Cinnamon, for the sweet potato",
+        "1/4 tsp Ground Cumin, for the sweet potato"
+      ],
+      "after": [
+        "--- Parmesan chickpeas ---",
+        "1 can (15 oz) chickpeas, fully cooked, drained and well dried",
+        "1 tbsp olive oil",
+        "1/2 tsp salt",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp Italian seasoning",
+        "2 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "1 large sweet potato, washed and cut into bite-sized cubes",
+        "1 tbsp olive oil",
+        "1/2 tsp salt",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground cumin",
+        "--- Chicken logs ---",
+        "1 lb ground chicken",
+        "1 cup whole-milk ricotta",
+        "1 large egg",
+        "1/2 cup panko breadcrumbs",
+        "1 shallot, finely chopped",
+        "2 green onions, washed and finely chopped",
+        "1/2 cup fresh cilantro, washed and finely chopped",
+        "1/4 cup fresh dill, washed and finely chopped",
+        "1 lemon, washed; zest only for the meat mixture",
+        "1/2 tsp salt",
+        "1/2 tsp black pepper",
+        "2 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "1 cup Greek yogurt",
+        "1 cup fresh basil, washed",
+        "1/2 cup fresh dill, washed",
+        "1 jalapeño, washed, seeds removed",
+        "1 tbsp honey",
+        "1 tbsp fresh lemon juice",
+        "1 tbsp olive oil",
+        "2 garlic cloves, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "4 cups fresh kale, washed, tough stems removed and chopped"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 425,
+        "protein": 40,
+        "carbs": 43,
+        "fat": 13.5,
+        "fiber": 8.5,
+        "sugar": 11,
+        "sodium": 450
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chickpeas",
+            "name": "Parmesan chickpeas",
+            "ingredients": [
+              {
+                "id": "beans",
+                "key": "beans",
+                "name": "chickpeas",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                },
+                "plural": "cans of chickpeas",
+                "preparation": "fully cooked, drained and well dried"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "onion powder",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "herbs",
+                "key": "herbs",
+                "name": "Italian seasoning",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parm",
+                "key": "parm",
+                "name": "Parmesan",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "chickpeas",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              }
+            ]
+          },
+          {
+            "id": "potato",
+            "name": "Roasted sweet potato",
+            "ingredients": [
+              {
+                "id": "potato",
+                "key": "potato",
+                "name": "large sweet potato",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "potato",
+                    "share": 1
+                  }
+                ],
+                "plural": "large sweet potatoes",
+                "preparation": "washed and cut into bite-sized cubes"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "potato",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "potato",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "potato",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "potato",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "meat",
+            "name": "Chicken logs",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "ground chicken",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ricotta",
+                "key": "ricotta",
+                "name": "whole-milk ricotta",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "panko",
+                "key": "panko",
+                "name": "panko breadcrumbs",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "shallot",
+                "key": "shallot",
+                "name": "shallot",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "shallots",
+                "preparation": "finely chopped"
+              },
+              {
+                "id": "scallion",
+                "key": "scallion",
+                "name": "green onion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "green onions",
+                "preparation": "washed and finely chopped"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and finely chopped"
+              },
+              {
+                "id": "dill",
+                "key": "dill",
+                "name": "fresh dill",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and finely chopped"
+              },
+              {
+                "id": "zest",
+                "key": "zest",
+                "name": "lemon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "lemons",
+                "preparation": "washed; zest only for the meat mixture"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "dressing",
+            "name": "Yogurt dressing",
+            "ingredients": [
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "Greek yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "fresh basil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed"
+              },
+              {
+                "id": "dill",
+                "key": "dill",
+                "name": "fresh dill",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed"
+              },
+              {
+                "id": "jalapeno",
+                "key": "jalapeno",
+                "name": "jalapeño",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ],
+                "plural": "jalapeños",
+                "preparation": "washed, seeds removed"
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "peeled"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste in dressing",
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste in dressing",
+                "uses": [
+                  {
+                    "step": "dressing",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bowl",
+            "name": "Kale",
+            "ingredients": [
+              {
+                "id": "kale",
+                "key": "kale",
+                "name": "fresh kale",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed, tough stems removed and chopped"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "chickpeas",
+            "title": "Roast chickpeas",
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          },
+          {
+            "id": "potato",
+            "title": "Roast sweet potato",
+            "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+          },
+          {
+            "id": "dressing",
+            "title": "Blend dressing",
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          },
+          {
+            "id": "mix",
+            "title": "Mix and shape",
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          },
+          {
+            "id": "cook",
+            "title": "Cook chicken logs",
+            "text": "Heat {{ingredients}} in a large skillet over medium-high heat. Cook logs in batches without crowding, starting with 3–4 minutes per side. Divide this oil allowance across all loads. Continue as needed until golden brown and the centers reach 165°F /74°C on a food thermometer; surface browning alone is not the endpoint. Transfer cooked pieces using clean tools."
+          },
+          {
+            "id": "serve",
+            "title": "Assemble",
+            "text": "Divide {{ingredients}} among the listed planning number of bowls, four at the original batch. Add all roasted chickpeas, sweet potato and cooked chicken, then distribute the dressing. The original four tablespoons pan oil belong 1 to chickpeas, 1 to potato and 2 to chicken; the separate dressing tablespoon brings total oil to 5 tbsp at original batch."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the roast, meat and dressing components distinct",
+        "outcome": "Cooked chicken logs, separately roasted chickpeas and sweet potato, fresh kale and a cold herb dressing.",
+        "techniques": ["gentle-proteins"],
+        "before": [
+          "Keep raw poultry cold until preparation; thaw frozen poultry in the refrigerator before this method. Keep raw-contact boards, dishes and utensils separate from ready-to-eat sauces and finished food.",
+          "Prepare the cold dressing and washed kale away from raw chicken; use separate utensils for the cooked logs.",
+          "Have two roasting pans and a skillet available. All measured oil is allocated across the complete recipe; additional loads do not get a fresh full allowance."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Sweet potato is tender inside; chickpeas have their separate crispness check.",
+            "why": "Different component cuts and oven loads change timing."
+          },
+          {
+            "step": 5,
+            "cue": "The thickest log centers reach 165°F.",
+            "why": "Ricotta-rich pieces can brown before their centers cook."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Soft logs break while turning",
+            "cause": "The ricotta mixture was overworked, pieces are too large or they were disturbed too soon.",
+            "fix": "Mix gently, shape comparable small pieces and let the surface set before turning; finish every center to 165°F rather than adding arbitrary breadcrumbs."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Italian seasoning",
+            "alternative": "Same listed half-teaspoon amount of herbes de Provence at original batch, scaled proportionally",
+            "effect": "Herb blends change the flavor of the chickpeas."
+          },
+          {
+            "ingredient": "Listed lemon juice in dressing",
+            "alternative": "For original four bowls, juice of one lemon instead; scale this distinct count-based option proportionally",
+            "effect": "Use this instead of the listed tablespoon-based juice quantity. Actual juice yield varies."
+          },
+          {
+            "ingredient": "Cylindrical logs",
+            "alternative": "Rounded meatballs of similar portion size",
+            "effect": "Shape changes browning and timing; same mixture and center 165°F."
+          }
+        ],
+        "timing": "About 25–35 min active preparation; About 25–40 min roasting and sequential meatball loads, partly overlapping; About 50–70 min with oven heating and pan batches. Planning ranges assume thawed poultry and do not include cooking separate side dishes.",
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. These handling limits do not promise unchanged texture.",
+        "sources": [
+          {
+            "title": "Adapted from thepalatablelife.com",
+            "url": "https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFolding whole-milk ricotta into ground chicken creates a fat-moisture barrier that keeps meatballs succulent even after searing - a technique borrowed from Italian polpette. Shaping the meat into small logs rather than balls provides more surface area for browning, developing deeper savory flavor that contrasts beautifully with the bright, herbal yogurt dressing.\n\n## Directions\n\n1.  **Stage 1 (Roast):** Preheat oven to 400°F. On one sheet pan, toss drained, well-dried chickpeas with 1 tbsp olive oil, the salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with 1 tbsp olive oil, cinnamon, and cumin. Start checking the chickpeas at 15 minutes for a crisp exterior. Roast the sweet potato for about 15-25 minutes, until tender inside and browned at the edges; remove each pan when ready.\n2.  **The Meatballs:** In a large bowl, combine chicken, ricotta, egg, panko, shallot, cilantro, dill, and lemon zest. Keep the kale for the serving bowls. Mix **gently** until just combined.\n3.  **Shape:** Portion all the mixture into small cylindrical logs, using about 2 tbsp per log; the total count will vary with scoop size.\n4.  **Sear:** Heat the remaining 2 tbsp oil in a large skillet over medium-high. Cook the logs in batches without crowding, starting with 3-4 minutes per side. Continue as needed until golden brown and the centers reach 165°F / 74°C on a food thermometer.\n5.  **The Emulsion:** In a food processor, blend the yogurt, basil, jalapeño, honey, and lemon juice until vibrant green and smooth.\n6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.\n7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Balance**.\n\n## Sources\n\n- [Source comparison for ingredient and method corrections](https://www.thepalatablelife.com/herby-chicken-meatball-bowl/). This version retains other existing adaptations; it has not been kitchen-tested.\n- [FoodSafety.gov minimum cooking guidance](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures).\n",
+    "after": "\n## Chef's Note\n\nWhole-milk ricotta makes the chicken mixture soft, so mix gently and portion all of it into small logs or balls. Roast chickpeas and sweet potato on separate pans because they have different texture endpoints. Keep the kale and yogurt dressing away from raw chicken, then assemble the bowls after the meatball centers reach 165°F.\n\n## Directions\n\n1. **Roast chickpeas:** Preheat the oven to 400°F. Toss chickpeas, olive oil, salt, garlic powder, onion powder, Italian seasoning, and Parmesan on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan.\n2. **Roast sweet potato:** On another pan, toss large sweet potato, olive oil, salt, ground cinnamon, and ground cumin. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock.\n3. **Blend dressing:** Blend Greek yogurt, fresh basil, fresh dill, jalapeño, honey, fresh lemon juice, olive oil, garlic cloves, salt, and black pepper smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking.\n4. **Mix and shape:** Gently combine ground chicken, whole-milk ricotta, large egg, panko breadcrumbs, shallot, green onions, fresh cilantro, fresh dill, lemon, salt, and black pepper, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers.\n5. **Cook chicken logs:** Heat olive oil in a large skillet over medium-high heat. Cook logs in batches without crowding, starting with 3–4 minutes per side. Divide this oil allowance across all loads. Continue as needed until golden brown and the centers reach 165°F /74°C on a food thermometer; surface browning alone is not the endpoint. Transfer cooked pieces using clean tools.\n6. **Assemble:** Divide fresh kale among the listed planning number of bowls, four at the original batch. Add all roasted chickpeas, sweet potato and cooked chicken, then distribute the dressing. The original four tablespoons pan oil belong 1 to chickpeas, 1 to potato and 2 to chicken; the separate dressing tablespoon brings total oil to 5 tbsp at original batch.\n"
+  },
+  "findings": [
+    {
+      "rationale": "Exact045e5ba2/actualPalatableLife agree on omitted chickpeaonionpowder½tsp/Parm2tbsp, potato½salt, meat2scallions½salt½pepper, dressing½cupdill/1tbspoil/2garlic/saltpepper.6980bulk removed these; all laterhistory read, no individuallyaccepted removal or familydecision established. ee9c narrowrepair deliberatelyretainedotheradaptations withoutcompletecertification; preserve its1/1/2pan oil, separate freshdressing1tbsp restoredtotal5, kaleoutside/meatallportions/165 and distinctroastendpoints. Rootauthorized source-bound restoration proposal; independent challenge required. Current1tbspjuice staysmain; sourcewholelemonbranch distinct, no manufactured volume. No fat-moisture barrier or guaranteeofsucculence. No sourceoriginal4equalbowls measurement.",
+      "confidence": "high for exact Git measures/diffs; moderate for untested method and household acceptance",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Test restored dressing/chickpea/meat seasonings and full5tbspoil without changing richness.",
+        "Measure actual whole-mixture log count and batch timing.",
+        "Compare current tablespoon juice with saved whole-lemon option, recording actual juice yield."
+      ]
+    },
+    {
+      "rationale": "Full component ledger, adequate pan capacity and measured poultry/casserole165°F determine the finish; original literal counts distinguished from scaling.",
+      "confidence": "high for endpoint/applicable mechanism; moderate for untested ranges",
+      "applicableSources": [
+        {
+          "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Test restored dressing/chickpea/meat seasonings and full5tbspoil without changing richness.",
+        "Measure actual whole-mixture log count and batch timing.",
+        "Compare current tablespoon juice with saved whole-lemon option, recording actual juice yield."
+      ]
+    },
+    {
+      "rationale": "Remove unsupported inherited precision after formula/allocation/state review; no breast weight, consumed reserve, nutrition or tested yield is manufactured.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "rationale": "Exact approved corrections to scaling/prose, frozen evidence/provenance and relationship warnings. No ingredient or yield change. Independent challenge preceded application; no self-acceptance.",
+      "confidence": "High for exact comparison/reverse checks; no kitchen testing.",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Root final acceptance of revised whole candidates and records remains pending."
+      ]
+    },
+    {
+      "rationale": [
+        "Complete available saved Git/current/final recipes and source evidence do not establish this particular recipe’s asserted country/region origin. Retain every cuisine/style tag, source URL, credit, title, original and variant. The repository-authored Spatchcocked original contains an unsupported assertion; being present at first introduction is not independent evidence."
+      ],
+      "confidence": "High for exact allocations and mechanical prose; moderate for untested culinary mechanism.",
+      "applicableSources": [
+        {
+          "type": "exact first available Git",
+          "commit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+          "path": "src/content/recipes/herby-chicken-meatball-bowl.md"
+        },
+        {
+          "type": "complete source packet",
+          "path": "privately retained evidence"
+        },
+        {
+          "type": "metadata standard",
+          "path": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Additional explicit recipe-specific origin evidence could justify this field; no replacement origin is invented."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/herby-chicken-meatball-bowl.md",
+    "originalSha256": "ff73e124fbeaf0743e342eea1d9a9251f4cb914185d90ac61afde7d2f95b6061",
+    "nativeLineage": "Not independently established; exact Git originals are the source proof. No title-only native certification.",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact045e5ba2/actualPalatableLife agree on omitted chickpeaonionpowder½tsp/Parm2tbsp, potato½salt, meat2scallions½salt½pepper, dressing½cupdill/1tbspoil/2garlic/saltpepper.6980bulk removed these; all laterhistory read, no individuallyaccepted removal or familydecision established. ee9c narrowrepair deliberatelyretainedotheradaptations withoutcompletecertification; preserve its1/1/2pan oil, separate freshdressing1tbsp restoredtotal5, kaleoutside/meatallportions/165 and distinctroastendpoints. Rootauthorized source-bound restoration proposal; independent challenge required. Current1tbspjuice staysmain; sourcewholelemonbranch distinct, no manufactured volume. No fat-moisture barrier or guaranteeofsucculence. No sourceoriginal4equalbowls measurement."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "1 lb Ground Chicken",
+        "destinationOrQuestion": "mix2; shape3; cook4; assemble6"
+      },
+      {
+        "ingredient": "1 cup Whole-Milk Ricotta for richness",
+        "destinationOrQuestion": "mix2; full ricotta quantity"
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destinationOrQuestion": "mix2"
+      },
+      {
+        "ingredient": "1/2 cup Panko Breadcrumbs",
+        "destinationOrQuestion": "mix2"
+      },
+      {
+        "ingredient": "1 Shallot, finely chopped",
+        "destinationOrQuestion": "mix2"
+      },
+      {
+        "ingredient": "1/2 cup fresh cilantro, chopped",
+        "destinationOrQuestion": "all measured cilantro mix2"
+      },
+      {
+        "ingredient": "1/4 cup fresh dill, chopped",
+        "destinationOrQuestion": "all measured dill mix2"
+      },
+      {
+        "ingredient": "Zest of 1 Lemon",
+        "destinationOrQuestion": "zest only mix2"
+      },
+      {
+        "ingredient": "1 15 oz can Chickpeas, patted bone-dry",
+        "destinationOrQuestion": "roast1; assemble6"
+      },
+      {
+        "ingredient": "1 large Sweet Potato, diced",
+        "destinationOrQuestion": "roast1; assemble6"
+      },
+      {
+        "ingredient": "4 cups Fresh Kale",
+        "destinationOrQuestion": "keep out of meat in2; fresh assembly6"
+      },
+      {
+        "ingredient": "1 cup Greek Yogurt",
+        "destinationOrQuestion": "blend dressing5; finish7"
+      },
+      {
+        "ingredient": "1 cup Fresh Basil",
+        "destinationOrQuestion": "blend dressing5; finish7"
+      },
+      {
+        "ingredient": "1 Jalapeño, seeded",
+        "destinationOrQuestion": "blend dressing5; finish7"
+      },
+      {
+        "ingredient": "1 tbsp Honey",
+        "destinationOrQuestion": "blend dressing5; finish7"
+      },
+      {
+        "ingredient": "1 tbsp Fresh Lemon Juice",
+        "destinationOrQuestion": "blend dressing5; current tablespoon-based juice; finish7"
+      },
+      {
+        "ingredient": "4 tbsp Olive Oil, divided",
+        "destinationOrQuestion": "Frozen4tbsp total:1 chickpeas1,1 potato1,2 meat4. Frozen dressing5 has no listed oil; proposed restored dressing oil is a separate change."
+      },
+      {
+        "ingredient": "1/2 tsp Salt, for the chickpeas",
+        "destinationOrQuestion": "chickpeas roast1"
+      },
+      {
+        "ingredient": "1/2 tsp Garlic Powder, for the chickpeas",
+        "destinationOrQuestion": "chickpeas roast1"
+      },
+      {
+        "ingredient": "1/2 tsp Italian Seasoning, for the chickpeas",
+        "destinationOrQuestion": "chickpeas roast1"
+      },
+      {
+        "ingredient": "1/2 tsp Ground Cinnamon, for the sweet potato",
+        "destinationOrQuestion": "potato roast1"
+      },
+      {
+        "ingredient": "1/4 tsp Ground Cumin, for the sweet potato",
+        "destinationOrQuestion": "potato roast1"
+      }
+    ],
+    "current": [
+      {
+        "id": "chickpeas.beans",
+        "name": "chickpeas",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "chickpeas.oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "chickpeas.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "chickpeas.garlic",
+        "name": "garlic powder",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "chickpeas.onion",
+        "name": "onion powder",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "chickpeas.herbs",
+        "name": "Italian seasoning",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "chickpeas.parm",
+        "name": "Parmesan",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "chickpeas",
+            "share": 1,
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+          }
+        ]
+      },
+      {
+        "id": "potato.potato",
+        "name": "large sweet potato",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "potato",
+            "share": 1,
+            "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+          }
+        ]
+      },
+      {
+        "id": "potato.oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "potato",
+            "share": 1,
+            "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+          }
+        ]
+      },
+      {
+        "id": "potato.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "potato",
+            "share": 1,
+            "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+          }
+        ]
+      },
+      {
+        "id": "potato.cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "potato",
+            "share": 1,
+            "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+          }
+        ]
+      },
+      {
+        "id": "potato.cumin",
+        "name": "ground cumin",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "potato",
+            "share": 1,
+            "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+          }
+        ]
+      },
+      {
+        "id": "meat.chicken",
+        "name": "ground chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.ricotta",
+        "name": "whole-milk ricotta",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.panko",
+        "name": "panko breadcrumbs",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.shallot",
+        "name": "shallot",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.scallion",
+        "name": "green onion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.cilantro",
+        "name": "fresh cilantro",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.dill",
+        "name": "fresh dill",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.zest",
+        "name": "lemon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.pepper",
+        "name": "black pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1,
+            "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+          }
+        ]
+      },
+      {
+        "id": "meat.oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "cook",
+            "share": 1,
+            "text": "Heat {{ingredients}} in a large skillet over medium-high heat. Cook logs in batches without crowding, starting with 3–4 minutes per side. Divide this oil allowance across all loads. Continue as needed until golden brown and the centers reach 165°F /74°C on a food thermometer; surface browning alone is not the endpoint. Transfer cooked pieces using clean tools."
+          }
+        ]
+      },
+      {
+        "id": "dressing.yogurt",
+        "name": "Greek yogurt",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.basil",
+        "name": "fresh basil",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.dill",
+        "name": "fresh dill",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.jalapeno",
+        "name": "jalapeño",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.honey",
+        "name": "honey",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.lemon",
+        "name": "fresh lemon juice",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.salt",
+        "name": "salt",
+        "quantity": null,
+        "allowance": "to taste in dressing",
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "dressing.pepper",
+        "name": "black pepper",
+        "quantity": null,
+        "allowance": "to taste in dressing",
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "id": "bowl.kale",
+        "name": "fresh kale",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Divide {{ingredients}} among the listed planning number of bowls, four at the original batch. Add all roasted chickpeas, sweet potato and cooked chicken, then distribute the dressing. The original four tablespoons pan oil belong 1 to chickpeas, 1 to potato and 2 to chicken; the separate dressing tablespoon brings total oil to 5 tbsp at original batch."
+          }
+        ]
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "salt",
+        "allowance": "to taste in dressing",
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      },
+      {
+        "ingredient": "black pepper",
+        "allowance": "to taste in dressing",
+        "destinations": [
+          {
+            "step": "dressing",
+            "share": 1,
+            "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+          }
+        ]
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "chickpeas",
+      "text": "Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan."
+    },
+    {
+      "step": 2,
+      "id": "potato",
+      "text": "On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock."
+    },
+    {
+      "step": 3,
+      "id": "dressing",
+      "text": "Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking."
+    },
+    {
+      "step": 4,
+      "id": "mix",
+      "text": "Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers."
+    },
+    {
+      "step": 5,
+      "id": "cook",
+      "text": "Heat {{ingredients}} in a large skillet over medium-high heat. Cook logs in batches without crowding, starting with 3–4 minutes per side. Divide this oil allowance across all loads. Continue as needed until golden brown and the centers reach 165°F /74°C on a food thermometer; surface browning alone is not the endpoint. Transfer cooked pieces using clean tools."
+    },
+    {
+      "step": 6,
+      "id": "serve",
+      "text": "Divide {{ingredients}} among the listed planning number of bowls, four at the original batch. Add all roasted chickpeas, sweet potato and cooked chicken, then distribute the dressing. The original four tablespoons pan oil belong 1 to chickpeas, 1 to potato and 2 to chicken; the separate dressing tablespoon brings total oil to 5 tbsp at original batch."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Italian seasoning",
+      "alternative": "Same listed half-teaspoon amount of herbes de Provence at original batch, scaled proportionally",
+      "effect": "Herb blends change the flavor of the chickpeas."
+    },
+    {
+      "ingredient": "Listed lemon juice in dressing",
+      "alternative": "For original four bowls, juice of one lemon instead; scale this distinct count-based option proportionally",
+      "effect": "Use this instead of the listed tablespoon-based juice quantity. Actual juice yield varies."
+    },
+    {
+      "ingredient": "Cylindrical logs",
+      "alternative": "Rounded meatballs of similar portion size",
+      "effect": "Shape changes browning and timing; same mixture and center 165°F."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["lemon-herb-couscous", "garlic-butter-couscous"],
+    "incomingMeals": [],
+    "bodyRecipeLinks": [],
+    "scope": "Separate side dishes and linked meals have separate preparation clocks and review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "capacity": "Original-size geometry retained; multiple pans or batches preserve working space. No invented pan dimensions or breast weights.",
+    "scaling": "Existing ingredient controls preserved; no fixed scaling override. Original-context count/volume statements explicitly scale where appropriate; time and pan geometry do not multiply.",
+    "richness": "All published measured defining ingredients preserved, source-supported restorations exact and separately documented."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "1/4 can (15 oz) chickpeas, fully cooked, drained and well dried",
+        "1/4 tbsp olive oil",
+        "1/8 tsp salt",
+        "1/8 tsp garlic powder",
+        "1/8 tsp onion powder",
+        "1/8 tsp Italian seasoning",
+        "1/2 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "1/4 large sweet potato, washed and cut into bite-sized cubes",
+        "1/4 tbsp olive oil",
+        "1/8 tsp salt",
+        "1/8 tsp ground cinnamon",
+        "0.0625 tsp ground cumin",
+        "--- Chicken logs ---",
+        "1/4 lb ground chicken",
+        "1/4 cup whole-milk ricotta",
+        "1/4 large egg",
+        "1/8 cup panko breadcrumbs",
+        "1/4 shallot, finely chopped",
+        "1/2 green onion, washed and finely chopped",
+        "1/8 cup fresh cilantro, washed and finely chopped",
+        "0.0625 cup fresh dill, washed and finely chopped",
+        "1/4 lemon, washed; zest only for the meat mixture",
+        "1/8 tsp salt",
+        "1/8 tsp black pepper",
+        "1/2 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "1/4 cup Greek yogurt",
+        "1/4 cup fresh basil, washed",
+        "1/8 cup fresh dill, washed",
+        "1/4 jalapeño, washed, seeds removed",
+        "1/4 tbsp honey",
+        "1/4 tbsp fresh lemon juice",
+        "1/4 tbsp olive oil",
+        "1/2 garlic clove, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "1 cup fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/4 can (15 oz) chickpeas",
+        "1 1/4 tbsp olive oil",
+        "3/8 tsp salt",
+        "1/8 tsp garlic powder",
+        "1/8 tsp onion powder",
+        "1/8 tsp Italian seasoning",
+        "1/2 tbsp Parmesan",
+        "1/4 large sweet potato",
+        "1/8 tsp ground cinnamon",
+        "0.0625 tsp ground cumin",
+        "1/4 lb ground chicken",
+        "1/4 cup whole-milk ricotta",
+        "1/4 large egg",
+        "1/8 cup panko breadcrumbs",
+        "1/4 shallot",
+        "1/2 green onion",
+        "1/8 cup fresh cilantro",
+        "0.19 cup fresh dill",
+        "1/4 lemon",
+        "1/8 tsp black pepper",
+        "1/4 cup Greek yogurt",
+        "1/4 cup fresh basil",
+        "1/4 jalapeño",
+        "1/4 tbsp honey",
+        "1/4 tbsp fresh lemon juice",
+        "1/2 garlic clove",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "1 cup fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "1/2 can (15 oz) chickpeas, fully cooked, drained and well dried",
+        "1/2 tbsp olive oil",
+        "1/4 tsp salt",
+        "1/4 tsp garlic powder",
+        "1/4 tsp onion powder",
+        "1/4 tsp Italian seasoning",
+        "1 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "1/2 large sweet potato, washed and cut into bite-sized cubes",
+        "1/2 tbsp olive oil",
+        "1/4 tsp salt",
+        "1/4 tsp ground cinnamon",
+        "1/8 tsp ground cumin",
+        "--- Chicken logs ---",
+        "1/2 lb ground chicken",
+        "1/2 cup whole-milk ricotta",
+        "1/2 large egg",
+        "1/4 cup panko breadcrumbs",
+        "1/2 shallot, finely chopped",
+        "1 green onion, washed and finely chopped",
+        "1/4 cup fresh cilantro, washed and finely chopped",
+        "1/8 cup fresh dill, washed and finely chopped",
+        "1/2 lemon, washed; zest only for the meat mixture",
+        "1/4 tsp salt",
+        "1/4 tsp black pepper",
+        "1 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "1/2 cup Greek yogurt",
+        "1/2 cup fresh basil, washed",
+        "1/4 cup fresh dill, washed",
+        "1/2 jalapeño, washed, seeds removed",
+        "1/2 tbsp honey",
+        "1/2 tbsp fresh lemon juice",
+        "1/2 tbsp olive oil",
+        "1 garlic clove, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "2 cups fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1/2 can (15 oz) chickpeas",
+        "2 1/2 tbsp olive oil",
+        "3/4 tsp salt",
+        "1/4 tsp garlic powder",
+        "1/4 tsp onion powder",
+        "1/4 tsp Italian seasoning",
+        "1 tbsp Parmesan",
+        "1/2 large sweet potato",
+        "1/4 tsp ground cinnamon",
+        "1/8 tsp ground cumin",
+        "1/2 lb ground chicken",
+        "1/2 cup whole-milk ricotta",
+        "1/2 large egg",
+        "1/4 cup panko breadcrumbs",
+        "1/2 shallot",
+        "1 green onion",
+        "1/4 cup fresh cilantro",
+        "3/8 cup fresh dill",
+        "1/2 lemon",
+        "1/4 tsp black pepper",
+        "1/2 cup Greek yogurt",
+        "1/2 cup fresh basil",
+        "1/2 jalapeño",
+        "1/2 tbsp honey",
+        "1/2 tbsp fresh lemon juice",
+        "1 garlic clove",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "2 cups fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "1 can (15 oz) chickpeas, fully cooked, drained and well dried",
+        "1 tbsp olive oil",
+        "1/2 tsp salt",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp Italian seasoning",
+        "2 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "1 large sweet potato, washed and cut into bite-sized cubes",
+        "1 tbsp olive oil",
+        "1/2 tsp salt",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground cumin",
+        "--- Chicken logs ---",
+        "1 lb ground chicken",
+        "1 cup whole-milk ricotta",
+        "1 large egg",
+        "1/2 cup panko breadcrumbs",
+        "1 shallot, finely chopped",
+        "2 green onions, washed and finely chopped",
+        "1/2 cup fresh cilantro, washed and finely chopped",
+        "1/4 cup fresh dill, washed and finely chopped",
+        "1 lemon, washed; zest only for the meat mixture",
+        "1/2 tsp salt",
+        "1/2 tsp black pepper",
+        "2 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "1 cup Greek yogurt",
+        "1 cup fresh basil, washed",
+        "1/2 cup fresh dill, washed",
+        "1 jalapeño, washed, seeds removed",
+        "1 tbsp honey",
+        "1 tbsp fresh lemon juice",
+        "1 tbsp olive oil",
+        "2 garlic cloves, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "4 cups fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 can (15 oz) chickpeas",
+        "5 tbsp olive oil",
+        "1 1/2 tsp salt",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp Italian seasoning",
+        "2 tbsp Parmesan",
+        "1 large sweet potato",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground cumin",
+        "1 lb ground chicken",
+        "1 cup whole-milk ricotta",
+        "1 large egg",
+        "1/2 cup panko breadcrumbs",
+        "1 shallot",
+        "2 green onions",
+        "1/2 cup fresh cilantro",
+        "3/4 cup fresh dill",
+        "1 lemon",
+        "1/2 tsp black pepper",
+        "1 cup Greek yogurt",
+        "1 cup fresh basil",
+        "1 jalapeño",
+        "1 tbsp honey",
+        "1 tbsp fresh lemon juice",
+        "2 garlic cloves",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "4 cups fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "1 1/2 cans (15 oz) chickpeas, fully cooked, drained and well dried",
+        "1 1/2 tbsp olive oil",
+        "3/4 tsp salt",
+        "3/4 tsp garlic powder",
+        "3/4 tsp onion powder",
+        "3/4 tsp Italian seasoning",
+        "3 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "1 1/2 large sweet potatoes, washed and cut into bite-sized cubes",
+        "1 1/2 tbsp olive oil",
+        "3/4 tsp salt",
+        "3/4 tsp ground cinnamon",
+        "3/8 tsp ground cumin",
+        "--- Chicken logs ---",
+        "1 1/2 lb ground chicken",
+        "1 1/2 cups whole-milk ricotta",
+        "1 1/2 large eggs",
+        "3/4 cup panko breadcrumbs",
+        "1 1/2 shallots, finely chopped",
+        "3 green onions, washed and finely chopped",
+        "3/4 cup fresh cilantro, washed and finely chopped",
+        "3/8 cup fresh dill, washed and finely chopped",
+        "1 1/2 lemons, washed; zest only for the meat mixture",
+        "3/4 tsp salt",
+        "3/4 tsp black pepper",
+        "3 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "1 1/2 cups Greek yogurt",
+        "1 1/2 cups fresh basil, washed",
+        "3/4 cup fresh dill, washed",
+        "1 1/2 jalapeños, washed, seeds removed",
+        "1 1/2 tbsp honey",
+        "1 1/2 tbsp fresh lemon juice",
+        "1 1/2 tbsp olive oil",
+        "3 garlic cloves, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "6 cups fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 cans (15 oz) chickpeas",
+        "7 1/2 tbsp olive oil",
+        "2 1/4 tsp salt",
+        "3/4 tsp garlic powder",
+        "3/4 tsp onion powder",
+        "3/4 tsp Italian seasoning",
+        "3 tbsp Parmesan",
+        "1 1/2 large sweet potatoes",
+        "3/4 tsp ground cinnamon",
+        "3/8 tsp ground cumin",
+        "1 1/2 lb ground chicken",
+        "1 1/2 cups whole-milk ricotta",
+        "1 1/2 large eggs",
+        "3/4 cup panko breadcrumbs",
+        "1 1/2 shallots",
+        "3 green onions",
+        "3/4 cup fresh cilantro",
+        "1 1/8 cups fresh dill",
+        "1 1/2 lemons",
+        "3/4 tsp black pepper",
+        "1 1/2 cups Greek yogurt",
+        "1 1/2 cups fresh basil",
+        "1 1/2 jalapeños",
+        "1 1/2 tbsp honey",
+        "1 1/2 tbsp fresh lemon juice",
+        "3 garlic cloves",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "6 cups fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "2 cans (15 oz) chickpeas, fully cooked, drained and well dried",
+        "2 tbsp olive oil",
+        "1 tsp salt",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 tsp Italian seasoning",
+        "4 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "2 large sweet potatoes, washed and cut into bite-sized cubes",
+        "2 tbsp olive oil",
+        "1 tsp salt",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground cumin",
+        "--- Chicken logs ---",
+        "2 lb ground chicken",
+        "2 cups whole-milk ricotta",
+        "2 large eggs",
+        "1 cup panko breadcrumbs",
+        "2 shallots, finely chopped",
+        "4 green onions, washed and finely chopped",
+        "1 cup fresh cilantro, washed and finely chopped",
+        "1/2 cup fresh dill, washed and finely chopped",
+        "2 lemons, washed; zest only for the meat mixture",
+        "1 tsp salt",
+        "1 tsp black pepper",
+        "4 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "2 cups Greek yogurt",
+        "2 cups fresh basil, washed",
+        "1 cup fresh dill, washed",
+        "2 jalapeños, washed, seeds removed",
+        "2 tbsp honey",
+        "2 tbsp fresh lemon juice",
+        "2 tbsp olive oil",
+        "4 garlic cloves, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "8 cups fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "2 cans (15 oz) chickpeas",
+        "10 tbsp olive oil",
+        "3 tsp salt",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 tsp Italian seasoning",
+        "4 tbsp Parmesan",
+        "2 large sweet potatoes",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground cumin",
+        "2 lb ground chicken",
+        "2 cups whole-milk ricotta",
+        "2 large eggs",
+        "1 cup panko breadcrumbs",
+        "2 shallots",
+        "4 green onions",
+        "1 cup fresh cilantro",
+        "1 1/2 cups fresh dill",
+        "2 lemons",
+        "1 tsp black pepper",
+        "2 cups Greek yogurt",
+        "2 cups fresh basil",
+        "2 jalapeños",
+        "2 tbsp honey",
+        "2 tbsp fresh lemon juice",
+        "4 garlic cloves",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "8 cups fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "3 cans (15 oz) chickpeas, fully cooked, drained and well dried",
+        "3 tbsp olive oil",
+        "1 1/2 tsp salt",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp onion powder",
+        "1 1/2 tsp Italian seasoning",
+        "6 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "3 large sweet potatoes, washed and cut into bite-sized cubes",
+        "3 tbsp olive oil",
+        "1 1/2 tsp salt",
+        "1 1/2 tsp ground cinnamon",
+        "3/4 tsp ground cumin",
+        "--- Chicken logs ---",
+        "3 lb ground chicken",
+        "3 cups whole-milk ricotta",
+        "3 large eggs",
+        "1 1/2 cups panko breadcrumbs",
+        "3 shallots, finely chopped",
+        "6 green onions, washed and finely chopped",
+        "1 1/2 cups fresh cilantro, washed and finely chopped",
+        "3/4 cup fresh dill, washed and finely chopped",
+        "3 lemons, washed; zest only for the meat mixture",
+        "1 1/2 tsp salt",
+        "1 1/2 tsp black pepper",
+        "6 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "3 cups Greek yogurt",
+        "3 cups fresh basil, washed",
+        "1 1/2 cups fresh dill, washed",
+        "3 jalapeños, washed, seeds removed",
+        "3 tbsp honey",
+        "3 tbsp fresh lemon juice",
+        "3 tbsp olive oil",
+        "6 garlic cloves, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "12 cups fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 cans (15 oz) chickpeas",
+        "15 tbsp olive oil",
+        "4 1/2 tsp salt",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp onion powder",
+        "1 1/2 tsp Italian seasoning",
+        "6 tbsp Parmesan",
+        "3 large sweet potatoes",
+        "1 1/2 tsp ground cinnamon",
+        "3/4 tsp ground cumin",
+        "3 lb ground chicken",
+        "3 cups whole-milk ricotta",
+        "3 large eggs",
+        "1 1/2 cups panko breadcrumbs",
+        "3 shallots",
+        "6 green onions",
+        "1 1/2 cups fresh cilantro",
+        "2 1/4 cups fresh dill",
+        "3 lemons",
+        "1 1/2 tsp black pepper",
+        "3 cups Greek yogurt",
+        "3 cups fresh basil",
+        "3 jalapeños",
+        "3 tbsp honey",
+        "3 tbsp fresh lemon juice",
+        "6 garlic cloves",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "12 cups fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Parmesan chickpeas ---",
+        "1 can (15 oz) chickpeas, fully cooked, drained and well dried",
+        "1 tbsp olive oil",
+        "1/2 tsp salt",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp Italian seasoning",
+        "2 tbsp Parmesan, grated",
+        "--- Roasted sweet potato ---",
+        "1 large sweet potato, washed and cut into bite-sized cubes",
+        "1 tbsp olive oil",
+        "1/2 tsp salt",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground cumin",
+        "--- Chicken logs ---",
+        "1 lb ground chicken",
+        "1 cup whole-milk ricotta",
+        "1 large egg",
+        "1/2 cup panko breadcrumbs",
+        "1 shallot, finely chopped",
+        "2 green onions, washed and finely chopped",
+        "1/2 cup fresh cilantro, washed and finely chopped",
+        "1/4 cup fresh dill, washed and finely chopped",
+        "1 lemon, washed; zest only for the meat mixture",
+        "1/2 tsp salt",
+        "1/2 tsp black pepper",
+        "2 tbsp olive oil",
+        "--- Yogurt dressing ---",
+        "1 cup Greek yogurt",
+        "1 cup fresh basil, washed",
+        "1/2 cup fresh dill, washed",
+        "1 jalapeño, washed, seeds removed",
+        "1 tbsp honey",
+        "1 tbsp fresh lemon juice",
+        "1 tbsp olive oil",
+        "2 garlic cloves, peeled",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "--- Kale ---",
+        "4 cups fresh kale, washed, tough stems removed and chopped"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 can (15 oz) chickpeas",
+        "5 tbsp olive oil",
+        "1 1/2 tsp salt",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp Italian seasoning",
+        "2 tbsp Parmesan",
+        "1 large sweet potato",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp ground cumin",
+        "1 lb ground chicken",
+        "1 cup whole-milk ricotta",
+        "1 large egg",
+        "1/2 cup panko breadcrumbs",
+        "1 shallot",
+        "2 green onions",
+        "1/2 cup fresh cilantro",
+        "3/4 cup fresh dill",
+        "1 lemon",
+        "1/2 tsp black pepper",
+        "1 cup Greek yogurt",
+        "1 cup fresh basil",
+        "1 jalapeño",
+        "1 tbsp honey",
+        "1 tbsp fresh lemon juice",
+        "2 garlic cloves",
+        "salt, to taste in dressing",
+        "black pepper, to taste in dressing",
+        "4 cups fresh kale"
+      ],
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    }
+  ],
+  "preservedPriorRepairs": ["ee9c1/1/2pan oils/kale outside meat/allmixture/165"],
+  "remainingQuestions": [
+    "Test restored dressing/chickpea/meat seasonings and full5tbspoil without changing richness.",
+    "Measure actual whole-mixture log count and batch timing.",
+    "Compare current tablespoon juice with saved whole-lemon option, recording actual juice yield."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

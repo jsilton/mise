@@ -1,0 +1,625 @@
+{
+  "slug": "sheet-pan-pesto-chicken-meal-prep-bowls",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "56044eaa03d15a8afcf479e86710e0023ad4bb7dc799fa36f0ea0eea18905a42",
+  "acceptedSourceSha256": "7eeecbe58f1a3ef5a0f9c9732b19631fa34b8c1f60cb826d36d67fb37c339bf0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "20–30 min active"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–35 min roasting, start checking at 20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "45–65 min including oven heating"
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 160,
+        "protein": 10,
+        "carbs": 8.5,
+        "fat": 11,
+        "fiber": 3,
+        "sugar": 2,
+        "sodium": 40
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate the clean pesto mixture before raw poultry contact",
+        "outcome": "Cooked chicken and tender vegetables, with a separate clean pesto reserve for another meal.",
+        "techniques": ["gentle-proteins"],
+        "before": [
+          "Keep raw poultry cold until preparation; thaw frozen poultry in the refrigerator before this method. Keep raw-contact boards, dishes and utensils separate from ready-to-eat sauces and finished food.",
+          "Ingredient scaling preserves the original 3 tbsp oil split:2/3 into the clean pesto mixture and 1/3 onto chicken and mushrooms. Scale the two original 2 tbsp finished-mixture additions proportionally; the remainder stays a clean separate reserve. No finished-mixture yield is claimed.",
+          "Keep the chicken cubes near the listed 1-inch size. Increase pan space rather than crowding more food into the same pan; roasting time does not double with ingredient amounts.",
+          "Use prepared basil pesto. Mix it with all the listed Parmesan, garlic and sauce oil before measuring the two roasting additions; keep the clean remainder separate and refrigerated."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Two measured additions are separated before raw chicken handling.",
+            "why": "The remaining mixture can be used later without raw poultry contact."
+          },
+          {
+            "step": 5,
+            "cue": "Chicken and every raw-contact component reach 165°F; vegetables have the desired bite.",
+            "why": "Separate pan checks resolve differing chicken and vegetable finish times."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Vegetables steam in pooled liquid",
+            "cause": "The combined chicken, mushrooms and vegetables are too crowded or very wet.",
+            "fix": "Spread the load over additional rimmed pans and continue temperature and tenderness checks; do not assume the original 20 minute roast is enough."
+          }
+        ],
+        "substitutions": [],
+        "timing": "20–30 min active; 20–35 min roasting, start checking at 20 min; 45–65 min including oven heating. Planning ranges assume thawed poultry and do not include cooking separate side dishes.",
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. These handling limits do not promise unchanged texture. Keep the clean pesto reserve separate and follow the shorter pesto product storage limit.",
+        "sources": [
+          {
+            "title": "Adapted from thegirlonbloor.com",
+            "url": "https://thegirlonbloor.com/sheet-pan-pesto-chicken-meal-prep-bowls/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSheet pan meal prep bowls became hugely popular in the 2010s for their simplicity and make-ahead convenience. The trick is staged roasting: cook the chicken and mushrooms first to develop color, then add the quicker-cooking vegetables like broccoli and zucchini for the final 10 minutes. Tossing the chicken in pesto before roasting creates a flavorful coating that keeps the lean breast meat moist. Refrigerate promptly in shallow containers at 40°F or below and use within 3–4 days; freeze portions intended for later in the week.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 400°F. Line a massive sheet pan with parchment.\n2.  **The Pesto:** In a small bowl, whisk pesto, Parmesan, garlic, salt, and pepper.\n3.  **Stage 1:** Toss the diced chicken and mushrooms with 1 tbsp oil and 2 tbsp of the pesto mixture. Spread on the pan. Bake for 10 minutes.\n4.  **Stage 2:** Remove pan. Add the broccoli, zucchini, and cherry tomatoes. Toss with another 2 tbsp of pesto.\n5.  **Bake:** Roast for 10 more minutes until the chicken is cooked through (165°F) and the broccoli is tender-crisp.\n6.  **Store:** Divide among 4 bowls. Serve over pasta or rice. Use refrigerated portions within 3–4 days and reheat to 165°F. Freeze later portions; the vegetables may soften after reheating.\n",
+    "after": "\n## Chef's Note\n\nMake the pesto mixture before handling raw chicken, and keep its bowl and spoon clean. Only measured portions go onto the roasting food; the rest is a separate clean reserve for another meal. Use enough pan space for the full chicken and vegetable load, and follow the chicken temperature and vegetable tenderness rather than a fixed two-stage clock. Refrigerate promptly in shallow containers at 40°F or below and use within 3–4 days; freeze portions intended for later in the week.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 400°F. Keep raw chicken cold until preparation and thaw frozen chicken in the refrigerator. Prepare all the vegetables as listed. Use rimmed pans and parchment rated for 400°F, with enough space to spread the complete load without piling it up; use additional pans for larger batches.\n\n2. **Make and reserve the clean mixture:** Before handling raw chicken, mix all the listed prepared basil pesto, Parmesan, garlic and 2/3 of the olive oil, with salt and pepper to taste. At the original batch this is 2 tbsp of the 3 tbsp oil. With a clean spoon, measure out the two roasting additions into separate small dishes:2 tbsp of the finished mixture for the first stage and another 2 tbsp for the second stage at the original batch, scaled proportionally. Cover and refrigerate all the remaining clean mixture for another meal. Do not dip a raw-contact spoon back into this reserve.\n\n3. **First roasting stage:** Toss all the diced chicken and mushrooms with the remaining 1/3 of the olive oil and the first measured pesto-mixture addition. At the original batch this is 1 tbsp oil and 2 tbsp finished mixture. Spread over the pans and roast for about 10 minutes; the chicken is not yet assumed cooked.\n\n4. **Add the vegetables:** Add all the broccoli, zucchini and cherry tomatoes, and toss with the second measured finished-mixture addition. At the original batch this is 2 tbsp; it comes from the separate clean dish, not a raw-contact reserve. Spread the complete load out again, using another pan if needed.\n\n5. **Finish roasting:** Start checking after another 10 minutes. Continue until each chicken piece reaches 165°F in its thickest part and the vegetables are tender to your liking. Check several pieces in each pan; wet vegetables and crowding can lengthen cooking. If chicken finishes first, move it with clean utensils to a clean plate and continue the vegetables; any vegetable or liquid that contacted raw chicken must also reach 165°F before serving.\n\n6. **Serve or store:** Divide all the roasted chicken and vegetables among the listed bowls. Pasta or rice is a separate accompaniment. Use refrigerated portions within 3–4 days and reheat to 165°F. Freeze later portions; vegetables may soften after reheating. Refrigerate both the meal and the separate clean pesto reserve within 2 hours, or 1 hour above 90°F, at 40°F or below. Use the reserve within the shorter of its pesto product instructions and 3–4 days, or freeze it; it is not included in the served bowl allocation.\n"
+  },
+  "findings": [
+    {
+      "rationale": "045e5ba2 original explicitly oil2tbspinto homemade pesto+1tbspraw chicken; first2tbspfinished-pesto addition and second1–2tbsp addition, remaining pesto saved separately. eab6 changed the second addition to a fixed2tbsp, retained in the current candidate; this is not an exact restoration of two fixed saved additions. eab6 bulk switched to prepared½cup basilpesto retainingParm/garlic/3oil but dropped2oil destination and reserve instruction. No individuallyaccepted deliberate removal found. Restore component allocation with currentpreparedpesto main, no missingbasil/homemadeweights invented; whole finishedmixture volume unmeasured. CurrentGirlonBloor differs: simplifiedpreparedpestoallfood,42518min,redpepper nottomato. Preservepublishedmain400/stages/fullrichness; explain disagreement privately. a2c9 cold40/3–4/freezelater/165reheat andchicken165 retained. No rawcontact dressing serveduncooked. Nutritionremoved because breastweights/reservemixture consumedunmeasured, no precisereplacement.",
+      "confidence": "high for exact Git measures/diffs; moderate for untested method and household acceptance",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure the clean finished-mixture volume and reserve after the original two additions.",
+        "Confirm additional pan load and time at400°F for three actual breasts and all vegetables.",
+        "Check the prepared pesto product storage instructions."
+      ]
+    },
+    {
+      "rationale": "Original clean reserve restored with current prepared pesto main; all3tbspoil allocated2/3clean mixture,1/3roast. Only separately measured clean mixture touches raw food.",
+      "confidence": "high for endpoint/applicable mechanism; moderate for untested ranges",
+      "applicableSources": [
+        {
+          "title": "FoodSafety.gov — Safe minimum cooking temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure the clean finished-mixture volume and reserve after the original two additions.",
+        "Confirm additional pan load and time at400°F for three actual breasts and all vegetables.",
+        "Check the prepared pesto product storage instructions."
+      ]
+    },
+    {
+      "rationale": "Remove unsupported inherited precision after formula/allocation/state review; no breast weight, consumed reserve, nutrition or tested yield is manufactured.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "rationale": "Exact approved corrections to scaling/prose, frozen evidence/provenance and relationship warnings. No ingredient or yield change. Independent challenge preceded application; no self-acceptance.",
+      "confidence": "High for exact comparison/reverse checks; no kitchen testing.",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Root final acceptance of revised whole candidates and records remains pending."
+      ]
+    },
+    {
+      "rationale": [
+        "Complete available saved Git/current/final recipes and source evidence do not establish this particular recipe’s asserted country/region origin. Retain every cuisine/style tag, source URL, credit, title, original and variant. The repository-authored Spatchcocked original contains an unsupported assertion; being present at first introduction is not independent evidence.",
+        "Restore accidental quantity/unit/cooking-word separation only; amounts and formulas unchanged.",
+        "Restore accidental quantity/unit/cooking-word separation only; amounts and formulas unchanged."
+      ],
+      "confidence": "High for exact allocations and mechanical prose; moderate for untested culinary mechanism.",
+      "applicableSources": [
+        {
+          "type": "exact first available Git",
+          "commit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+          "path": "src/content/recipes/sheet-pan-pesto-chicken-meal-prep-bowls.md"
+        },
+        {
+          "type": "complete source packet",
+          "path": "privately retained evidence"
+        },
+        {
+          "type": "metadata standard",
+          "path": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Additional explicit recipe-specific origin evidence could justify this field; no replacement origin is invented."
+      ]
+    },
+    {
+      "rationale": [
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications.",
+        "The final legacy recipe preserves enabled serving controls. The shared formatter produces this display at the recorded factor/reset; a constant original yield at every factor is not executed scale evidence. This is arithmetic planning display, not a measured finished yield. Keep the original servings field and geometry/timing qualifications."
+      ],
+      "confidence": "High for actual shared scaler and exact mechanical method synchronization.",
+      "applicableSources": [
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 0.25, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 0.5, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 1, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 1.5, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 2, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 3, action scale."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        },
+        {
+          "path": "src/lib/quantities.mjs#formatYield",
+          "applicability": "Actual current formatter at factor 1, action reset."
+        },
+        {
+          "path": "src/components/RecipeScaler.astro",
+          "applicability": "Existing serving controls use shared quantity/yield formatting; no new fixed override authorized."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual cooked portion weights and sauce reserve volume remain unmeasured."]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/sheet-pan-pesto-chicken-meal-prep-bowls.md",
+    "originalSha256": "a3d0b0b6082cbb53f235a8536e6cffc70e2820656d69171b405a0657c24f3304",
+    "nativeLineage": "Not independently established; exact Git originals are the source proof. No title-only native certification.",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2 original explicitly oil2tbspinto homemade pesto+1tbspraw chicken; first2tbspfinished-pesto addition and second1–2tbsp addition, remaining pesto saved separately. eab6 changed the second addition to a fixed2tbsp, retained in the current candidate; this is not an exact restoration of two fixed saved additions. eab6 bulk switched to prepared½cup basilpesto retainingParm/garlic/3oil but dropped2oil destination and reserve instruction. No individuallyaccepted deliberate removal found. Restore component allocation with currentpreparedpesto main, no missingbasil/homemadeweights invented; whole finishedmixture volume unmeasured. CurrentGirlonBloor differs: simplifiedpreparedpestoallfood,42518min,redpepper nottomato. Preservepublishedmain400/stages/fullrichness; explain disagreement privately. a2c9 cold40/3–4/freezelater/165reheat andchicken165 retained. No rawcontact dressing serveduncooked. Nutritionremoved because breastweights/reservemixture consumedunmeasured, no precisereplacement."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "3 Chicken Breasts, diced into 1-inch cubes",
+        "destinationOrQuestion": "raw stage3/end5"
+      },
+      {
+        "ingredient": "1 lb Fresh Broccoli, cut into florets",
+        "destinationOrQuestion": "all stage4"
+      },
+      {
+        "ingredient": "1 small Zucchini, thickly sliced",
+        "destinationOrQuestion": "all stage4"
+      },
+      {
+        "ingredient": "8 oz Mushrooms, halved",
+        "destinationOrQuestion": "all stage3"
+      },
+      {
+        "ingredient": "1 pint Cherry Tomatoes",
+        "destinationOrQuestion": "all stage4"
+      },
+      {
+        "ingredient": "1/2 cup Basil Pesto",
+        "destinationOrQuestion": "Mix all prepared pesto with Parmesan/garlic/salt/pepper in frozen2;2tbsp finished mixture3 and2tbsp4 at original batch. Frozen method provides no explicit clean-reserve destination for the remaining mixture."
+      },
+      {
+        "ingredient": "1/2 cup Parmesan, freshly grated",
+        "destinationOrQuestion": "Mix all Parmesan in frozen2; two finished-mixture additions3/4; remaining-mixture destination unprovided."
+      },
+      {
+        "ingredient": "3 tbsp Extra-Virgin Olive Oil",
+        "destinationOrQuestion": "Frozen3 allocates1tbsp oil to chicken/mushrooms; remaining2tbsp of listed3tbsp has no explicit destination. Proposed correction restores source sauce allocation separately."
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destinationOrQuestion": "Mix all garlic in frozen2; two finished-mixture additions3/4; remaining-mixture destination unprovided."
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destinationOrQuestion": "clean mixture2 to taste"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "3 Chicken Breasts, diced into 1-inch cubes",
+        "destination": "raw stage3/end5"
+      },
+      {
+        "ingredient": "1 lb Fresh Broccoli, cut into florets",
+        "destination": "all stage4"
+      },
+      {
+        "ingredient": "1 small Zucchini, thickly sliced",
+        "destination": "all stage4"
+      },
+      {
+        "ingredient": "8 oz Mushrooms, halved",
+        "destination": "all stage3"
+      },
+      {
+        "ingredient": "1 pint Cherry Tomatoes",
+        "destination": "all stage4"
+      },
+      {
+        "ingredient": "1/2 cup Basil Pesto",
+        "destination": "all clean mixture2; two scaled2tbspadditions3/4, remainder clean reserve"
+      },
+      {
+        "ingredient": "1/2 cup Parmesan, freshly grated",
+        "destination": "all clean mixture2; shares of prepared mixture unmeasured"
+      },
+      {
+        "ingredient": "3 tbsp Extra-Virgin Olive Oil",
+        "destination": "2/3 clean mixture2 and1/3 chicken+mushrooms3"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "all clean mixture2"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": "clean mixture2 to taste"
+      }
+    ],
+    "additionalAllowances": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "prep",
+      "text": "Prepare: Preheat the oven to 400°F. Keep raw chicken cold until preparation and thaw frozen chicken in the refrigerator. Prepare all the vegetables as listed. Use rimmed pans and parchment rated for 400°F, with enough space to spread the complete load without piling it up; use additional pans for larger batches."
+    },
+    {
+      "step": 2,
+      "id": "pesto",
+      "text": "Make and reserve the clean mixture: Before handling raw chicken, mix all the listed prepared basil pesto, Parmesan, garlic and 2/3 of the olive oil, with salt and pepper to taste. At the original batch this is 2 tbsp of the 3 tbsp oil. With a clean spoon, measure out the two roasting additions into separate small dishes:2 tbsp of the finished mixture for the first stage and another 2 tbsp for the second stage at the original batch, scaled proportionally. Cover and refrigerate all the remaining clean mixture for another meal. Do not dip a raw-contact spoon back into this reserve."
+    },
+    {
+      "step": 3,
+      "id": "first",
+      "text": "First roasting stage: Toss all the diced chicken and mushrooms with the remaining 1/3 of the olive oil and the first measured pesto-mixture addition. At the original batch this is 1 tbsp oil and 2 tbsp finished mixture. Spread over the pans and roast for about 10 minutes; the chicken is not yet assumed cooked."
+    },
+    {
+      "step": 4,
+      "id": "second",
+      "text": "Add the vegetables: Add all the broccoli, zucchini and cherry tomatoes, and toss with the second measured finished-mixture addition. At the original batch this is 2 tbsp; it comes from the separate clean dish, not a raw-contact reserve. Spread the complete load out again, using another pan if needed."
+    },
+    {
+      "step": 5,
+      "id": "finish",
+      "text": "Finish roasting: Start checking after another 10 minutes. Continue until each chicken piece reaches 165°F in its thickest part and the vegetables are tender to your liking. Check several pieces in each pan; wet vegetables and crowding can lengthen cooking. If chicken finishes first, move it with clean utensils to a clean plate and continue the vegetables; any vegetable or liquid that contacted raw chicken must also reach 165°F before serving."
+    },
+    {
+      "step": 6,
+      "id": "serve",
+      "text": "Serve or store: Divide all the roasted chicken and vegetables among the listed bowls. Pasta or rice is a separate accompaniment. Use refrigerated portions within 3–4 days and reheat to 165°F. Freeze later portions; vegetables may soften after reheating. Refrigerate both the meal and the separate clean pesto reserve within 2 hours, or 1 hour above 90°F, at 40°F or below. Use the reserve within the shorter of its pesto product instructions and 3–4 days, or freeze it; it is not included in the served bowl allocation."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [
+    "Saved homemade-pesto branch lacks a measured basil ingredient; preserve exact original privately, do not manufacture basil or finished-pesto yield."
+  ],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "everyday-arugula-salad"],
+    "incomingMeals": ["sheet-pan-pesto-chicken.md"],
+    "bodyRecipeLinks": [],
+    "scope": "Separate side dishes and linked meals have separate preparation clocks and review status.",
+    "unreconciledMealContext": {
+      "slug": "sheet-pan-pesto-chicken-meal-prep-bowls",
+      "path": "src/content/meals/sheet-pan-pesto-chicken.md",
+      "hash": "5f04e2d51a36beba52802f0f4787055bd5599f2c2e80e0a74e988d84cc9f0f9e",
+      "before": {
+        "temperature": "425°F",
+        "poultry": "thighs",
+        "clock": "20–25 min roast;10 min meal prep"
+      },
+      "after": {
+        "temperature": "Recipe candidate uses400°F.",
+        "poultry": "Recipe candidate uses3breasts diced1-inch.",
+        "clock": "Candidate20–30 active,20–35 roast; full vegetables and separate clean mixture reserve."
+      },
+      "rationale": "Existing meal is unreconciled with this complete component and its other oven loads. Preserve link; do not mark meal reviewed/certified.",
+      "confidence": "high for exact documents; unresolved whole-meal service"
+    }
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "capacity": "Original-size geometry retained; multiple pans or batches preserve working space. No invented pan dimensions or breast weights.",
+    "scaling": "Existing ingredient controls preserved; no fixed scaling override. Original-context count/volume statements explicitly scale where appropriate; time and pan geometry do not multiply.",
+    "richness": "All published measured defining ingredients preserved, source-supported restorations exact and separately documented."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/4 Chicken Breasts, diced into 1-inch cubes",
+        "1/4 lb Fresh Broccoli, cut into florets",
+        "1/4 small Zucchini, thickly sliced",
+        "2 oz Mushrooms, halved",
+        "1/4 pint Cherry Tomatoes",
+        "1/8 cup Basil Pesto",
+        "1/8 cup Parmesan, freshly grated",
+        "3/4 tbsp Extra-Virgin Olive Oil",
+        "1/2 clove Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 Chicken Breasts, diced into 1-inch cubes",
+        "1/2 lb Fresh Broccoli, cut into florets",
+        "1/2 small Zucchini, thickly sliced",
+        "4 oz Mushrooms, halved",
+        "1/2 pint Cherry Tomatoes",
+        "1/4 cup Basil Pesto",
+        "1/4 cup Parmesan, freshly grated",
+        "1 1/2 tbsp Extra-Virgin Olive Oil",
+        "1 clove Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "3 Chicken Breasts, diced into 1-inch cubes",
+        "1 lb Fresh Broccoli, cut into florets",
+        "1 small Zucchini, thickly sliced",
+        "8 oz Mushrooms, halved",
+        "1 pint Cherry Tomatoes",
+        "1/2 cup Basil Pesto",
+        "1/2 cup Parmesan, freshly grated",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 cloves Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 Chicken Breasts, diced into 1-inch cubes",
+        "1 1/2 lb Fresh Broccoli, cut into florets",
+        "1 1/2 small Zucchini, thickly sliced",
+        "12 oz Mushrooms, halved",
+        "1 1/2 pints Cherry Tomatoes",
+        "3/4 cup Basil Pesto",
+        "3/4 cup Parmesan, freshly grated",
+        "4 1/2 tbsp Extra-Virgin Olive Oil",
+        "3 cloves Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "6 Chicken Breasts, diced into 1-inch cubes",
+        "2 lb Fresh Broccoli, cut into florets",
+        "2 small Zucchini, thickly sliced",
+        "16 oz Mushrooms, halved",
+        "2 pints Cherry Tomatoes",
+        "1 cup Basil Pesto",
+        "1 cup Parmesan, freshly grated",
+        "6 tbsp Extra-Virgin Olive Oil",
+        "4 cloves Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 8",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "9 Chicken Breasts, diced into 1-inch cubes",
+        "3 lb Fresh Broccoli, cut into florets",
+        "3 small Zucchini, thickly sliced",
+        "24 oz Mushrooms, halved",
+        "3 pints Cherry Tomatoes",
+        "1 1/2 cups Basil Pesto",
+        "1 1/2 cups Parmesan, freshly grated",
+        "9 tbsp Extra-Virgin Olive Oil",
+        "6 cloves Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "3 Chicken Breasts, diced into 1-inch cubes",
+        "1 lb Fresh Broccoli, cut into florets",
+        "1 small Zucchini, thickly sliced",
+        "8 oz Mushrooms, halved",
+        "1 pint Cherry Tomatoes",
+        "1/2 cup Basil Pesto",
+        "1/2 cup Parmesan, freshly grated",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 cloves Garlic, minced",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "scope": "Listed arithmetic only; geometry/heat/endpoints fixed, batches extend time."
+    }
+  ],
+  "preservedPriorRepairs": ["a2c9 chicken165/cold40/3–4days/freezelater/reheat165"],
+  "remainingQuestions": [
+    "Measure the clean finished-mixture volume and reserve after the original two additions.",
+    "Confirm additional pan load and time at400°F for three actual breasts and all vegetables.",
+    "Check the prepared pesto product storage instructions.",
+    "Reconcile every component, actual diner amounts, shared oven and elapsed clock in a separate whole-meal review."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

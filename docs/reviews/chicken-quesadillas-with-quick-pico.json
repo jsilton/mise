@@ -1,0 +1,1507 @@
+{
+  "slug": "chicken-quesadillas-with-quick-pico",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+  "inputSha256": "8f3214eebfc446a223ee1e2d6dbb489b02e97b9ebbd277db6f83697fdae0d105",
+  "acceptedSourceSha256": "3882d2e7fa1bc387ae542de531811296f6e18c7bac46093a0d35e5078d92706f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "dietary",
+      "before": ["vegetarian-option"],
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 15–20 min active"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 15–25 min in skillet loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 35–45 min with a skillet"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Rotisserie Chicken (or cooked chicken), shredded",
+        "8 Flour Tortillas (8-inch)",
+        "2 cups Shredded Oaxaca or Mozzarella Cheese (not pre-shredded, if possible)",
+        "1 Jalapeño, minced (seeds removed for kids)",
+        "1/2 cup Diced Onion",
+        "--- Pico de Gallo ---",
+        "2 Ripe Tomatoes, diced",
+        "1/4 Onion, finely minced",
+        "1 Jalapeño, minced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Juice of 1 Lime",
+        "1/2 tsp Kosher Salt",
+        "--- For Cooking ---",
+        "2 tbsp Vegetable Oil",
+        "Mexican Crema or Sour Cream for serving",
+        "Lime wedges"
+      ],
+      "after": [
+        "--- Quesadillas ---",
+        "1 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "8 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "2 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "1 jalapeño, minced; seeds removed for a milder filling",
+        "1/2 cup diced onion",
+        "--- Pico de gallo ---",
+        "2 ripe tomatoes, diced",
+        "1/4 onion, finely minced",
+        "1 jalapeño, minced",
+        "1/4 cup fresh cilantro, chopped",
+        "1 lime, juice only",
+        "1/2 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 730,
+        "protein": 58,
+        "carbs": 34.5,
+        "fat": 41,
+        "fiber": 5.5,
+        "sugar": 5.5,
+        "sodium": 1940
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Folded chicken-and-cheese quesadillas with jalapeño, onion and a cold tomato pico; skillet and griddle routes use the same oil."
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match tortilla count to the assembly shape and heat the cooked-chicken filling through",
+        "outcome": "Golden folded tortillas with melted cheese and a hot chicken center, served with cold, juicy pico.",
+        "techniques": ["temperature", "cold-preparation"],
+        "before": [
+          "Use already cooked chicken; poaching or roasting raw chicken belongs to a separate preparation. Shred it before assembling.",
+          "The folded route makes one quesadilla per tortilla. At the original quantities that is eight folded quesadillas for four planned portions; the stacked alternative makes four with the same eight tortillas.",
+          "Choose either skillet or griddle, divide the full measured oil over all loads, and keep each piece flat without overlap. A larger batch requires more loads or more cooking area, not a thicker pile of filling."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Each tortilla bends without splitting along the fold.",
+            "why": "Warmth makes the tortilla easier to handle; a brittle tortilla will crack when the filling is enclosed."
+          },
+          {
+            "step": 4,
+            "cue": "Both faces are golden, the cheese is melted and the filling center measures 165°F / 74°C.",
+            "why": "A hot pan can brown the outside before refrigerated cooked chicken is uniformly reheated."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The tortilla browns while the filling is cool",
+            "cause": "The surface heat is too strong for the amount or starting temperature of filling.",
+            "fix": "Lower the heat, cover briefly if needed and continue until the center reaches 165°F / 74°C. Distribute filling more evenly in the next load."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Oaxaca cheese",
+            "alternative": "The same measured volume of mozzarella, choosing it instead of Oaxaca",
+            "effect": "Keeps a mild, stretchy filling with a different cheese flavor. Freshly shredded cheese is preferred, but packaged shredded cheese is usable."
+          }
+        ],
+        "storage": "Keep pico and crema refrigerated separately from the cooked quesadillas. Chill leftovers promptly in shallow portions within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or colder. Use cooked quesadillas within 3–4 days and reheat the filling to 165°F / 74°C throughout; use the skillet or oven to recover some surface crispness. Pico softens as it sits; do not warm it with the quesadillas.",
+        "timing": "The original folded batch needs about 15–20 minutes of hands-on preparation/assembly and roughly 15–25 minutes of skillet cooking when only a couple fit per load, with some overlap: allow about 35–45 minutes. A sufficiently large griddle can reduce the loads, but its capacity is not established here. Stacked rounds, cold filling and extra loads change the clock.",
+        "sources": [
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "filling",
+            "name": "Quesadillas",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "cooked shredded rotisserie chicken or other cooked chicken",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tortilla",
+                "key": "tortilla",
+                "name": "8-inch flour tortilla",
+                "plural": "8-inch flour tortillas",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "warm",
+                    "share": 1
+                  }
+                ],
+                "preparation": "ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe"
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "shredded Oaxaca or mozzarella cheese",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "choose one; freshly shredded if possible"
+              },
+              {
+                "id": "jalapeno",
+                "key": "jalapeno",
+                "name": "jalapeño",
+                "plural": "jalapeños",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced; seeds removed for a milder filling"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "diced onion",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pico",
+            "name": "Pico de gallo",
+            "ingredients": [
+              {
+                "id": "tomato",
+                "key": "tomato",
+                "name": "ripe tomato",
+                "plural": "ripe tomatoes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "pico",
+                    "share": 1
+                  }
+                ],
+                "preparation": "diced"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "onion",
+                "plural": "onions",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "pico",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely minced"
+              },
+              {
+                "id": "jalapeno",
+                "key": "jalapeno",
+                "name": "jalapeño",
+                "plural": "jalapeños",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "pico",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "pico",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "lime",
+                "plural": "limes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "pico",
+                    "share": 1
+                  }
+                ],
+                "preparation": "juice only"
+              },
+              {
+                "id": "kosher-salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "pico",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cooking",
+            "name": "Cooking and serving",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "crema",
+                "key": "crema",
+                "name": "Mexican crema or sour cream",
+                "allowance": "as wanted; choose one for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "lime-wedges",
+                "key": "lime-wedges",
+                "name": "lime wedges",
+                "allowance": "as wanted for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "pico",
+            "title": "Make and chill the pico",
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          },
+          {
+            "id": "warm",
+            "title": "Warm the tortillas",
+            "text": "Heat a dry skillet over medium-low heat. Warm {{ingredients}} individually until pliable, then keep them wrapped in a clean kitchen towel while assembling. Start with the original 3–4-minute warming range; use pliability as the cue, and allow longer for more tortillas."
+          },
+          {
+            "id": "assemble",
+            "title": "Fill and fold",
+            "text": "Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate."
+          },
+          {
+            "id": "cook",
+            "title": "Choose the skillet or griddle",
+            "text": "Choose one of these methods and use the full measured {{ingredients}} across its cooking loads. For a skillet, heat over medium-high, spread a share of the oil in it and add only as many folded quesadillas as fit flat without overlap. Start with 2–3 minutes on the first side and 1–2 minutes on the second. For a griddle, spread the same total oil over its cooking area and start checking at 2–3 minutes per side, cooking in loads if they do not all fit. Use the remaining measured oil between loads. In either method, cook until both faces are golden and the chicken filling reaches 165°F / 74°C throughout; check the center of the filling with a thermometer. If the surface browns first, lower the heat and continue, covering briefly if needed to heat the filling."
+          },
+          {
+            "id": "serve",
+            "title": "Serve with the cold pico",
+            "text": "Cut the quesadillas into triangles and divide among the planned portions. Serve promptly with the refrigerated pico and {{ingredients}} on the side."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nQuesadillas are Mexico's answer to the weeknight question: how do you feed hungry people in 20 minutes? They're assembled, not cooked - just cheese, protein, and heat between two tortillas. The key is using proper melting cheese, not pre-shredded (which has anti-caking agents that prevent proper melting). Pico de gallo takes 5 minutes and transforms this from a quick dinner into something fresh and bright.\n\n## Directions\n\n1. **Make the pico:** Combine the pico tomatoes, minced onion, jalapeño, cilantro, lime juice and salt. Taste and adjust, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C.\n\n2. **Warm Tortillas:** Heat a skillet over medium-low heat for 1 minute. Wrap tortillas in a clean kitchen towel to keep them warm as you work. This takes 3-4 minutes to get them pliable.\n\n3. **Assemble:** Lay one tortilla flat on a plate. Sprinkle half with shredded chicken, diced jalapeño, diced onion, and cheese. Fold the tortilla in half. Repeat with remaining tortillas - you should have 4 quesadillas.\n\n4. **Cook (Method 1: Skillet):** Heat 1 tbsp oil in a skillet over medium-high heat. Add 2 quesadillas and cook for 2-3 minutes on the first side until golden and crispy. Flip and cook another 1-2 minutes until the cheese is melted and the second side is golden. Transfer to a plate. Repeat with remaining quesadillas.\n\n5. **Cook (Method 2: Griddle - Faster):** If you have a flat griddle, heat it over medium-high heat with 2 tbsp oil. Cook all 4 quesadillas at once - 2-3 minutes per side.\n\n6. **Serve:** Cut quesadillas into triangles. Serve immediately with pico de gallo, crema, and lime wedges on the side.\n\n**For Kids:** Make some quesadillas with just cheese and chicken, no jalapeños, and serve pico on the side for adults. No judgment - it still tastes great.\n",
+    "after": "\n## Chef's Note\n\nWarm tortillas fold more easily around the chicken, onion, jalapeño and melting cheese. The folded version uses one tortilla per quesadilla; a two-tortilla stacked version is another option. Both use the full chicken and cheese amounts. Keep the pico cold and add it at serving so its fresh crunch contrasts with the warm filling.\n\n## Directions\n\n1. **Make and chill the pico:** Combine ripe tomatoes, onion, jalapeño, fresh cilantro, lime, and kosher salt using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C.\n2. **Warm the tortillas:** Heat a dry skillet over medium-low heat. Warm 8-inch flour tortillas individually until pliable, then keep them wrapped in a clean kitchen towel while assembling. Start with the original 3–4-minute warming range; use pliability as the cue, and allow longer for more tortillas.\n3. **Fill and fold:** Divide cooked shredded rotisserie chicken or other cooked chicken, shredded Oaxaca or mozzarella cheese, jalapeño, and diced onion evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate.\n4. **Choose the skillet or griddle:** Choose one of these methods and use the full measured vegetable oil across its cooking loads. For a skillet, heat over medium-high, spread a share of the oil in it and add only as many folded quesadillas as fit flat without overlap. Start with 2–3 minutes on the first side and 1–2 minutes on the second. For a griddle, spread the same total oil over its cooking area and start checking at 2–3 minutes per side, cooking in loads if they do not all fit. Use the remaining measured oil between loads. In either method, cook until both faces are golden and the chicken filling reaches 165°F / 74°C throughout; check the center of the filling with a thermometer. If the surface browns first, lower the heat and continue, covering briefly if needed to heat the filling.\n5. **Serve with the cold pico:** Cut the quesadillas into triangles and divide among the planned portions. Serve promptly with the refrigerated pico and Mexican crema or sour cream and lime wedges on the side.\n\n## Stacked quesadillas\n\nFor the two-tortilla version, use the same full chicken, cheese, onion and jalapeño quantities and the same total cooking oil. Pair the measured tortillas, dividing all the filling among the bottom tortillas and covering each with its partner. The original eight tortillas make four stacked quesadillas. Use the skillet or griddle route above with enough room for the whole 8-inch rounds; turn carefully and check the filling reaches 165°F / 74°C. A stacked round may need longer than a folded one. Serve with the same full pico and garnishes.\n"
+  },
+  "findings": [
+    {
+      "id": "MA03-Q01",
+      "title": "Folded versus stacked whole-batch count",
+      "field": "Directions3 / Chef note",
+      "rationale": "Eight listed tortillas used one per fold produce8foldedquesadillas; four is retained as planning portions and as the separate two-tortilla shape from the original Chef note. Both routes use every listed amount. No intent is inferred from the inconsistent first/new-file recipe.",
+      "confidence": "high arithmetic; medium shape preference",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "dietary",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+        "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+        "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+        "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
+      ]
+    },
+    {
+      "id": "MA03-Q02",
+      "title": "Exclusive oil route and actual pan loads",
+      "field": "Directions4–5",
+      "rationale": "Use the full2tbspacross chosen-method loads and avoid guaranteed griddle capacity or a second full oil dose. Revised timing is an untested range derived from required loads.",
+      "confidence": "high allocation; medium actual capacity/clock",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "dietary",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+        "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+        "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+        "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
+      ]
+    },
+    {
+      "id": "MA03-Q03",
+      "title": "Cooked-chicken reheating and retained pico repair",
+      "field": "Directions4 / Directions1",
+      "rationale": "FDA/USDA165°F applies to reheating cooked chicken and leftovers; melted cheese alone is insufficient. Existing cold-pico2hour/1hourabove90°F text retained exactly from accepted a2c9 repair.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "USDA FSIS — Leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "dietary",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+        "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+        "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+        "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
+      ]
+    },
+    {
+      "id": "MA03-Q04",
+      "title": "Dietary and cheese prose scope",
+      "field": "dietary / Chef note",
+      "rationale": "No supplied vegetarian formula exists. Remove unsupported automatic option label without inventing a replacement dose. Preserve full2cupsandexclusiveOaxaca/mozzarella; narrow the melting claim and keep Mexican style context.",
+      "confidence": "high label evidence; medium texture",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": [
+        "dietary",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+        "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+        "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+        "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/chicken-quesadillas-with-quick-pico.md",
+    "introductionScope": "New-file introduction in whole followed Git history. Preceding tree searched for earlier same recipe; no earlier cooking file located. Commit subject alone does not establish household acceptance or outside authorship.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Original/new-file source already contradicts stacked/two-tortilla Chef note and folded method/outputcount. Both shapes are preserved separately with all8tortillas; arithmetic is established, household geometry/intent remains untested."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "index": 0,
+        "ingredient": "1 lb Rotisserie Chicken (or cooked chicken), shredded",
+        "state": "exact frozen ingredient string",
+        "destination": "Already cooked chicken goes into folded filling.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 1,
+        "ingredient": "8 Flour Tortillas (8-inch)",
+        "state": "exact frozen ingredient string",
+        "destination": "One tortilla folded per piece, but frozen method claims4from8; Chef note describes2-tortilla stacks.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 cups Shredded Oaxaca or Mozzarella Cheese (not pre-shredded, if possible)",
+        "state": "exact frozen ingredient string",
+        "destination": "Filling cheese; full2cups retained.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 Jalapeño, minced (seeds removed for kids)",
+        "state": "exact frozen ingredient string",
+        "destination": "Filling jalapeño; milder/kids omission mentioned.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/2 cup Diced Onion",
+        "state": "exact frozen ingredient string",
+        "destination": "Filling onion.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 5,
+        "ingredient": "--- Pico de Gallo ---",
+        "state": "section divider",
+        "destination": "Pico section divider; not an ingredient.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 6,
+        "ingredient": "2 Ripe Tomatoes, diced",
+        "state": "exact frozen ingredient string",
+        "destination": "Cold pico.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/4 Onion, finely minced",
+        "state": "exact frozen ingredient string",
+        "destination": "Cold pico.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 Jalapeño, minced",
+        "state": "exact frozen ingredient string",
+        "destination": "Cold pico.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 9,
+        "ingredient": "1/4 cup Fresh Cilantro, chopped",
+        "state": "exact frozen ingredient string",
+        "destination": "Cold pico.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 10,
+        "ingredient": "Juice of 1 Lime",
+        "state": "exact frozen ingredient string",
+        "destination": "Cold pico lime juice.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 11,
+        "ingredient": "1/2 tsp Kosher Salt",
+        "state": "exact frozen ingredient string",
+        "destination": "Cold pico measured salt; taste-adjust allowance unspecified.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 12,
+        "ingredient": "--- For Cooking ---",
+        "state": "section divider",
+        "destination": "Cooking section divider; not an ingredient.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 13,
+        "ingredient": "2 tbsp Vegetable Oil",
+        "state": "exact frozen ingredient string",
+        "destination": "Method1 explicitly1tbspinitial+repeat unspecified remainingoil; Method2 full2tbsp; exclusive-choice scope unresolved.",
+        "resolutionStatus": "unresolved in frozen method"
+      },
+      {
+        "index": 14,
+        "ingredient": "Mexican Crema or Sour Cream for serving",
+        "state": "exact frozen ingredient string",
+        "destination": "Serving, unmeasured exclusive crema/sourcream.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      },
+      {
+        "index": 15,
+        "ingredient": "Lime wedges",
+        "state": "exact frozen ingredient string",
+        "destination": "Serving unmeasured lime wedges.",
+        "resolutionStatus": "as written; no repaired-before allocation"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "filling.chicken",
+        "name": "cooked shredded rotisserie chicken or other cooked chicken",
+        "key": "chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "filling.tortilla",
+        "name": "8-inch flour tortilla",
+        "key": "tortilla",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "warm",
+            "share": 1,
+            "text": "Heat a dry skillet over medium-low heat. Warm {{ingredients}} individually until pliable, then keep them wrapped in a clean kitchen towel while assembling. Start with the original 3–4-minute warming range; use pliability as the cue, and allow longer for more tortillas."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "filling.cheese",
+        "name": "shredded Oaxaca or mozzarella cheese",
+        "key": "cheese",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "choose one; freshly shredded if possible",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "filling.jalapeno",
+        "name": "jalapeño",
+        "key": "jalapeno",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "minced; seeds removed for a milder filling",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "filling.onion",
+        "name": "diced onion",
+        "key": "onion",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "assemble",
+            "share": 1,
+            "text": "Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pico.tomato",
+        "name": "ripe tomato",
+        "key": "tomato",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "diced",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pico",
+            "share": 1,
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pico.onion",
+        "name": "onion",
+        "key": "onion",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "finely minced",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pico",
+            "share": 1,
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pico.jalapeno",
+        "name": "jalapeño",
+        "key": "jalapeno",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "minced",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pico",
+            "share": 1,
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pico.cilantro",
+        "name": "fresh cilantro",
+        "key": "cilantro",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "chopped",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pico",
+            "share": 1,
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pico.lime",
+        "name": "lime",
+        "key": "lime",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": "juice only",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pico",
+            "share": 1,
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "pico.kosher-salt",
+        "name": "kosher salt",
+        "key": "kosher-salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pico",
+            "share": 1,
+            "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "cooking.oil",
+        "name": "vegetable oil",
+        "key": "oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cook",
+            "share": 1,
+            "text": "Choose one of these methods and use the full measured {{ingredients}} across its cooking loads. For a skillet, heat over medium-high, spread a share of the oil in it and add only as many folded quesadillas as fit flat without overlap. Start with 2–3 minutes on the first side and 1–2 minutes on the second. For a griddle, spread the same total oil over its cooking area and start checking at 2–3 minutes per side, cooking in loads if they do not all fit. Use the remaining measured oil between loads. In either method, cook until both faces are golden and the chicken filling reaches 165°F / 74°C throughout; check the center of the filling with a thermometer. If the surface browns first, lower the heat and continue, covering briefly if needed to heat the filling."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "cooking.crema",
+        "name": "Mexican crema or sour cream",
+        "key": "crema",
+        "quantity": null,
+        "allowance": "as wanted; choose one for serving",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Cut the quesadillas into triangles and divide among the planned portions. Serve promptly with the refrigerated pico and {{ingredients}} on the side."
+          }
+        ],
+        "allocationSum": 1
+      },
+      {
+        "id": "cooking.lime-wedges",
+        "name": "lime wedges",
+        "key": "lime-wedges",
+        "quantity": null,
+        "allowance": "as wanted for serving",
+        "packageSize": null,
+        "preparation": null,
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Cut the quesadillas into triangles and divide among the planned portions. Serve promptly with the refrigerated pico and {{ingredients}} on the side."
+          }
+        ],
+        "allocationSum": 1
+      }
+    ],
+    "measuredPreservation": [
+      {
+        "frozenIngredientIndex": 0,
+        "frozenIngredient": "1 lb Rotisserie Chicken (or cooked chicken), shredded",
+        "proposedId": "filling.chicken",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 1,
+        "frozenIngredient": "8 Flour Tortillas (8-inch)",
+        "proposedId": "filling.tortilla",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 2,
+        "frozenIngredient": "2 cups Shredded Oaxaca or Mozzarella Cheese (not pre-shredded, if possible)",
+        "proposedId": "filling.cheese",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 3,
+        "frozenIngredient": "1 Jalapeño, minced (seeds removed for kids)",
+        "proposedId": "filling.jalapeno",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 4,
+        "frozenIngredient": "1/2 cup Diced Onion",
+        "proposedId": "filling.onion",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 6,
+        "frozenIngredient": "2 Ripe Tomatoes, diced",
+        "proposedId": "pico.tomato",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 7,
+        "frozenIngredient": "1/4 Onion, finely minced",
+        "proposedId": "pico.onion",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 8,
+        "frozenIngredient": "1 Jalapeño, minced",
+        "proposedId": "pico.jalapeno",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 9,
+        "frozenIngredient": "1/4 cup Fresh Cilantro, chopped",
+        "proposedId": "pico.cilantro",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 10,
+        "frozenIngredient": "Juice of 1 Lime",
+        "proposedId": "pico.lime",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 11,
+        "frozenIngredient": "1/2 tsp Kosher Salt",
+        "proposedId": "pico.kosher-salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "unchangedAmount": true
+      },
+      {
+        "frozenIngredientIndex": 13,
+        "frozenIngredient": "2 tbsp Vegetable Oil",
+        "proposedId": "cooking.oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "unchangedAmount": true
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "pico",
+      "title": "Make and chill the pico",
+      "text": "Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C."
+    },
+    {
+      "step": 2,
+      "id": "warm",
+      "title": "Warm the tortillas",
+      "text": "Heat a dry skillet over medium-low heat. Warm {{ingredients}} individually until pliable, then keep them wrapped in a clean kitchen towel while assembling. Start with the original 3–4-minute warming range; use pliability as the cue, and allow longer for more tortillas."
+    },
+    {
+      "step": 3,
+      "id": "assemble",
+      "title": "Fill and fold",
+      "text": "Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate."
+    },
+    {
+      "step": 4,
+      "id": "cook",
+      "title": "Choose the skillet or griddle",
+      "text": "Choose one of these methods and use the full measured {{ingredients}} across its cooking loads. For a skillet, heat over medium-high, spread a share of the oil in it and add only as many folded quesadillas as fit flat without overlap. Start with 2–3 minutes on the first side and 1–2 minutes on the second. For a griddle, spread the same total oil over its cooking area and start checking at 2–3 minutes per side, cooking in loads if they do not all fit. Use the remaining measured oil between loads. In either method, cook until both faces are golden and the chicken filling reaches 165°F / 74°C throughout; check the center of the filling with a thermometer. If the surface browns first, lower the heat and continue, covering briefly if needed to heat the filling."
+    },
+    {
+      "step": 5,
+      "id": "serve",
+      "title": "Serve with the cold pico",
+      "text": "Cut the quesadillas into triangles and divide among the planned portions. Serve promptly with the refrigerated pico and {{ingredients}} on the side."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Eight folded quesadillas / four original planning portions",
+      "state": "primary retained method corrected count",
+      "ingredients": "All8tortillas/full1lbchicken/full2cupscheese/fillingonion/jalapeño; all2tbspoil once across chosen loads; complete pico and serving allowances.",
+      "method": "One tortilla folded, one finished quesadilla per listed tortilla, filling165°F."
+    },
+    {
+      "name": "Four stacked quesadillas in original batch",
+      "state": "retained Chef note shape, explicit editorial instructions",
+      "ingredients": "Same complete formula, eight tortillas paired, all filling divided across four original bases. No doubling chicken/cheese/oil.",
+      "method": "Flat complete rounds turned in sufficient pan area; filling165°F, longer as needed."
+    },
+    {
+      "name": "Skillet versus griddle",
+      "state": "exclusive routes retained",
+      "ingredients": "Same total2tbspoil divided over loads, not2tbspfor each method.",
+      "method": "Cook only what fits without overlap, same endpoint."
+    },
+    {
+      "name": "Milder chicken-and-cheese pieces",
+      "state": "retained kids route",
+      "ingredients": "Some get chicken/cheese only; full measured filling onion/chile allocated among other pieces, pico separate.",
+      "method": "Same cooked-chicken endpoint."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "dependencies": [
+      {
+        "slug": "black-bean-tacos-with-lime-crema",
+        "path": "src/content/recipes/black-bean-tacos-with-lime-crema.md",
+        "sha256": "e03fcd133cad2fb6e49bb1d4ac1c147ba88ead5e3e23a8d9c554ddaba12cf5d9",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "cilantro-lime-rice",
+        "path": "src/content/recipes/cilantro-lime-rice.md",
+        "sha256": "7649d6a612583b1263aaa76738c3c3b7d3a50dd58c76c408d5d77a6c0f2f93be",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      },
+      {
+        "slug": "everyday-arugula-salad",
+        "path": "src/content/recipes/everyday-arugula-salad.md",
+        "sha256": "4f0beefaf3576b768e72bd5ed97d549283449e2344782177bd0ba99982a31810",
+        "scope": "Link/state coordination inspected where consumed; no whole dependent-recipe or meal acceptance."
+      }
+    ],
+    "meals": [],
+    "approval": false
+  },
+  "ratiosYieldAndCapacity": {
+    "frozen": "4",
+    "proposed": "4 portions",
+    "scope": "Inherited original planning yield; no measured finished weight or verified portions. Rolls/tortillas are counted ingredients; meat portions follow measured count at each scale.",
+    "panCapacity": [
+      "Choose either skillet or griddle, divide the full measured oil over all loads, and keep each piece flat without overlap. A larger batch requires more loads or more cooking area, not a thicker pile of filling."
+    ],
+    "clock": "The original folded batch needs about 15–20 minutes of hands-on preparation/assembly and roughly 15–25 minutes of skillet cooking when only a couple fit per load, with some overlap: allow about 35–45 minutes. A sufficiently large griddle can reduce the loads, but its capacity is not established here. Stacked rounds, cold filling and extra loads change the clock."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "1/4 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "2 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "1/2 cup shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "1/4 jalapeño, minced; seeds removed for a milder filling",
+        "1/8 cup diced onion",
+        "--- Pico de gallo ---",
+        "1/2 ripe tomato, diced",
+        "0.0625 onion, finely minced",
+        "1/4 jalapeño, minced",
+        "0.0625 cup fresh cilantro, chopped",
+        "1/4 lime, juice only",
+        "1/8 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "1/2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/4 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "2 8-inch flour tortillas",
+        "1/2 cup shredded Oaxaca or mozzarella cheese",
+        "1/2 jalapeño",
+        "1/8 cup diced onion",
+        "1/2 ripe tomato",
+        "0.0625 onion",
+        "0.0625 cup fresh cilantro",
+        "1/4 lime",
+        "1/8 tsp kosher salt",
+        "1/2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "1/2 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "4 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "1 cup shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "1/2 jalapeño, minced; seeds removed for a milder filling",
+        "1/4 cup diced onion",
+        "--- Pico de gallo ---",
+        "1 ripe tomato, diced",
+        "1/8 onion, finely minced",
+        "1/2 jalapeño, minced",
+        "1/8 cup fresh cilantro, chopped",
+        "1/2 lime, juice only",
+        "1/4 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "1 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1/2 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "4 8-inch flour tortillas",
+        "1 cup shredded Oaxaca or mozzarella cheese",
+        "1 jalapeño",
+        "1/4 cup diced onion",
+        "1 ripe tomato",
+        "1/8 onion",
+        "1/8 cup fresh cilantro",
+        "1/2 lime",
+        "1/4 tsp kosher salt",
+        "1 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "1 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "8 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "2 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "1 jalapeño, minced; seeds removed for a milder filling",
+        "1/2 cup diced onion",
+        "--- Pico de gallo ---",
+        "2 ripe tomatoes, diced",
+        "1/4 onion, finely minced",
+        "1 jalapeño, minced",
+        "1/4 cup fresh cilantro, chopped",
+        "1 lime, juice only",
+        "1/2 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "8 8-inch flour tortillas",
+        "2 cups shredded Oaxaca or mozzarella cheese",
+        "2 jalapeños",
+        "1/2 cup diced onion",
+        "2 ripe tomatoes",
+        "1/4 onion",
+        "1/4 cup fresh cilantro",
+        "1 lime",
+        "1/2 tsp kosher salt",
+        "2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "1 1/2 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "12 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "3 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "1 1/2 jalapeños, minced; seeds removed for a milder filling",
+        "3/4 cup diced onion",
+        "--- Pico de gallo ---",
+        "3 ripe tomatoes, diced",
+        "3/8 onion, finely minced",
+        "1 1/2 jalapeños, minced",
+        "3/8 cup fresh cilantro, chopped",
+        "1 1/2 limes, juice only",
+        "3/4 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "3 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "12 8-inch flour tortillas",
+        "3 cups shredded Oaxaca or mozzarella cheese",
+        "3 jalapeños",
+        "3/4 cup diced onion",
+        "3 ripe tomatoes",
+        "3/8 onion",
+        "3/8 cup fresh cilantro",
+        "1 1/2 limes",
+        "3/4 tsp kosher salt",
+        "3 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "2 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "16 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "4 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "2 jalapeños, minced; seeds removed for a milder filling",
+        "1 cup diced onion",
+        "--- Pico de gallo ---",
+        "4 ripe tomatoes, diced",
+        "1/2 onion, finely minced",
+        "2 jalapeños, minced",
+        "1/2 cup fresh cilantro, chopped",
+        "2 limes, juice only",
+        "1 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "4 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "2 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "16 8-inch flour tortillas",
+        "4 cups shredded Oaxaca or mozzarella cheese",
+        "4 jalapeños",
+        "1 cup diced onion",
+        "4 ripe tomatoes",
+        "1/2 onion",
+        "1/2 cup fresh cilantro",
+        "2 limes",
+        "1 tsp kosher salt",
+        "4 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "3 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "24 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "6 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "3 jalapeños, minced; seeds removed for a milder filling",
+        "1 1/2 cups diced onion",
+        "--- Pico de gallo ---",
+        "6 ripe tomatoes, diced",
+        "3/4 onion, finely minced",
+        "3 jalapeños, minced",
+        "3/4 cup fresh cilantro, chopped",
+        "3 limes, juice only",
+        "1 1/2 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "6 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "24 8-inch flour tortillas",
+        "6 cups shredded Oaxaca or mozzarella cheese",
+        "6 jalapeños",
+        "1 1/2 cups diced onion",
+        "6 ripe tomatoes",
+        "3/4 onion",
+        "3/4 cup fresh cilantro",
+        "3 limes",
+        "1 1/2 tsp kosher salt",
+        "6 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Quesadillas ---",
+        "1 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "8 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to their package before this recipe",
+        "2 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible",
+        "1 jalapeño, minced; seeds removed for a milder filling",
+        "1/2 cup diced onion",
+        "--- Pico de gallo ---",
+        "2 ripe tomatoes, diced",
+        "1/4 onion, finely minced",
+        "1 jalapeño, minced",
+        "1/4 cup fresh cilantro, chopped",
+        "1 lime, juice only",
+        "1/2 tsp kosher salt",
+        "--- Cooking and serving ---",
+        "2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 lb cooked shredded rotisserie chicken or other cooked chicken",
+        "8 8-inch flour tortillas",
+        "2 cups shredded Oaxaca or mozzarella cheese",
+        "2 jalapeños",
+        "1/2 cup diced onion",
+        "2 ripe tomatoes",
+        "1/4 onion",
+        "1/4 cup fresh cilantro",
+        "1 lime",
+        "1/2 tsp kosher salt",
+        "2 tbsp vegetable oil",
+        "Mexican crema or sour cream, as wanted; choose one for serving",
+        "lime wedges, as wanted for serving"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    {
+      "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
+      "field": "Directions1",
+      "protectedText": "Taste and adjust, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C.",
+      "preservation": "Cold refrigeration and full cumulative2hr/1hrabove90°F sentence remain; taste wording narrowed without deleting endpoint."
+    }
+  ],
+  "remainingQuestions": [
+    "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+    "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+    "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+    "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
+  "rootDisposition": "Accepted complete editorial versions retain current defining quantities, richness, every stable identity, source/credit/link, distinct original variants and prior safety/allocation repairs. Complete current/final cooking instructions and complete deltas inspected; sufficient whole author and independent source research reused. Poultry originals are exact retained Git versions without native certification. Only Chicken Chile Enchiladas has an independently verified original450 native binding; four later Mise-sync copies are not independent originals. Planning clocks, pan loading, yogurt tempering and finished yields remain untested editorial choices, with kitchen questions preserved. Linked meals receive no complete-review credit.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 45,
+    "targetedLint": "All ten pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11932,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only ten public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 63,
+    "mobileScaling": "Three representative recipes,375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "Four tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

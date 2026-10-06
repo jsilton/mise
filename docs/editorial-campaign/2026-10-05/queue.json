@@ -609,16 +609,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "meat_assembled_mains_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/bbq-chicken-sliders.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+        "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+        "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
       ],
       "inputSha256": "39225be90e6213bdec1b8e27c1e087d68822502cf1e2c10bd27aa90c6c96ec47",
       "plannedBatch": "meat_assembled_mains_03",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "359ac9547f9d41ce27a01782b9808636714016aee3d5c93b6b36f6a394384951",
+      "productionVerification": "pending"
     },
     {
       "slug": "beef-pad-see-ew",
@@ -1328,16 +1334,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "meat_assembled_mains_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/carnitas-bowl.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
       ],
       "inputSha256": "7366395204b34c0fe76205cb1cd50bb1259673989d2f3d8d1718f1398f249f11",
       "plannedBatch": "meat_assembled_mains_03",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "b61d613234fbbf61ed2cb0a6b4163f9a2f9f08e20249b04b4f846baff1f7ba7c",
+      "productionVerification": "pending"
     },
     {
       "slug": "cast-iron-buttermilk-biscuits",
@@ -1573,15 +1587,21 @@
       "source": "Adapted from Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/chicken-and-white-bean-enchiladas-with/",
       "group": "poultry_assembled_mains_02",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual blended sauce volume and tortilla/dish fit without discarding filling.",
+        "Time cold vs fresh filling to165°F.",
+        "Separate historical from-scratch formula would need its own complete source/bouillon reconciliation before restoration."
       ],
       "inputSha256": "c67877995d7f26759359b442283f6cb48f8470ac0db634d45b9d1a771def25ad",
-      "plannedBatch": "baked-savory-and-breads-03"
+      "plannedBatch": "baked-savory-and-breads-03",
+      "acceptedSourceSha256": "71b292e5d4963109c2669bf2f0b0cf785d17639485a9abfe98f5258fa956e080",
+      "productionVerification": "pending"
     },
     {
       "slug": "chicken-chile-enchiladas",
@@ -1590,16 +1610,24 @@
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930",
       "group": "meat_assembled_mains_03",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/chicken-chile-enchiladas.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+        "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+        "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+        "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
       ],
       "inputSha256": "2d9204f64e95e51a26b8552465e283ab06c1e6ae562e86ba5b327ad0bc421ec8",
       "plannedBatch": "meat_assembled_mains_03",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "648eaf82a87e85ba31677e0a7333f2727fb44a9be3af0ee793cc8e8eb849b886",
+      "productionVerification": "pending"
     },
     {
       "slug": "chicken-fingers",
@@ -1636,16 +1664,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "meat_assembled_mains_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chicken-quesadillas-with-quick-pico.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+        "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+        "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+        "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
       ],
       "inputSha256": "8f3214eebfc446a223ee1e2d6dbb489b02e97b9ebbd277db6f83697fdae0d105",
       "plannedBatch": "meat_assembled_mains_03",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "3882d2e7fa1bc387ae542de531811296f6e18c7bac46093a0d35e5078d92706f",
+      "productionVerification": "pending"
     },
     {
       "slug": "chicken-tinga",
@@ -1654,16 +1689,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "meat_assembled_mains_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chicken-tinga.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+        "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+        "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+        "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
       ],
       "inputSha256": "460887e9df01d049b55d042396cb2780cd88c6052acfb277fb87f0932de2eea8",
       "plannedBatch": "meat_assembled_mains_03",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "10e62543e9a1722a1e2b8f3eaf913f50dad4aa976bef395d18a1a20bad8eabb7",
+      "productionVerification": "pending"
     },
     {
       "slug": "chicken-tortilla-soup-iii",
@@ -1671,8 +1713,8 @@
       "title": "Chicken Tortilla Soup III",
       "source": "Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/",
-      "group": null,
-      "status": "queued",
+      "group": "soups_purees_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/chicken-tortilla-soup-iii.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -1680,7 +1722,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "087c1f00fe60cc2e9827608d9f6ef5449d45a143fed815c9076b9a7aa1c775a2",
-      "plannedBatch": "simmer-boil-and-steam-02"
+      "plannedBatch": "simmer-boil-and-steam-02",
+      "owner": "coverage_check",
+      "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+      "reviewPhase": "Whole recipe author review; no acceptance credit"
     },
     {
       "slug": "chimichurri",
@@ -2346,15 +2391,22 @@
       "source": "Adapted from Buzzfeed.com",
       "sourceUrl": "https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din?utm_term=.xiNZnEPV4#.eaoYwzRK5",
       "group": "poultry_assembled_mains_02",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/creamy-spinach-lemon-chicken-dinnner.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Time actual eight-cutlet pan batches and compare whole-breast variant.",
+        "Check tempered full-fat yogurt sauce texture with the retained half-lemon juice and zest.",
+        "Confirm the household skillet and oven rating."
       ],
       "inputSha256": "2314ba9b5bee00dfda6f8d7366c6e3a054ff15773b2bba157de6f875749475a4",
-      "plannedBatch": "baked-savory-and-breads-04"
+      "plannedBatch": "baked-savory-and-breads-04",
+      "acceptedSourceSha256": "57603b71d821260d20eebb85274302c96ee9126eea3251b2d685d60c05013ac1",
+      "productionVerification": "pending"
     },
     {
       "slug": "creamy-whole-wheat-mac-and-cheese",
@@ -3133,8 +3185,8 @@
       "title": "Fennel and Carrot Soup",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/fennel-and-carrot-soup",
-      "group": null,
-      "status": "queued",
+      "group": "soups_purees_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3142,7 +3194,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "56a989d35f3a3b76e155678ef10b1649f9a917a38e25823ae49de717ead82742",
-      "plannedBatch": "simmer-boil-and-steam-04"
+      "plannedBatch": "simmer-boil-and-steam-04",
+      "owner": "coverage_check",
+      "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+      "reviewPhase": "Whole recipe author review; no acceptance credit"
     },
     {
       "slug": "flourless-chocolate-cake",
@@ -4081,15 +4136,22 @@
       "source": "Adapted from thepalatablelife.com",
       "sourceUrl": "https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe",
       "group": "poultry_assembled_mains_02",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/herby-chicken-meatball-bowl.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Test restored dressing/chickpea/meat seasonings and full5tbspoil without changing richness.",
+        "Measure actual whole-mixture log count and batch timing.",
+        "Compare current tablespoon juice with saved whole-lemon option, recording actual juice yield."
       ],
       "inputSha256": "b121e0be398b5cf0a88e077eeada673ec74f65479ce1821a013f25fa99a012d5",
-      "plannedBatch": "baked-savory-and-breads-07"
+      "plannedBatch": "baked-savory-and-breads-07",
+      "acceptedSourceSha256": "52496c8445e10ddd1bf4f3510dfaa438b0f905a68f54520002a63583a32253e5",
+      "productionVerification": "pending"
     },
     {
       "slug": "homemade-chicken-stock",
@@ -4341,8 +4403,8 @@
       "title": "Japchae (Korean Glass Noodle Stir-Fry)",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "noodle_pan_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4963,8 +5025,8 @@
       "title": "Miso Soup",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/miso-soup-103391",
-      "group": null,
-      "status": "queued",
+      "group": "soups_purees_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4972,7 +5034,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c61230df119dee06bd2865b6e375d54673c5f02affcdf352c712bf666fc28876",
-      "plannedBatch": "simmer-boil-and-steam-07"
+      "plannedBatch": "simmer-boil-and-steam-07",
+      "owner": "coverage_check",
+      "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+      "reviewPhase": "Whole recipe author review; no acceptance credit"
     },
     {
       "slug": "mm-cookies",
@@ -5014,8 +5079,8 @@
       "title": "Mongolian Chicken",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/mongolian-chicken/",
-      "group": null,
-      "status": "queued",
+      "group": "noodle_pan_mains_04",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/mongolian-chicken.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5336,8 +5401,8 @@
       "title": "Pad Thai",
       "source": "Adapted from Thaitable.com",
       "sourceUrl": "http://www.thaitable.com/thai/recipe/pad-thai",
-      "group": null,
-      "status": "queued",
+      "group": "noodle_pan_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5370,8 +5435,8 @@
       "title": "Pan Fried Noodles with Shrimp",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/seafood-pan-fried-noodles/",
-      "group": null,
-      "status": "queued",
+      "group": "noodle_pan_mains_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5909,8 +5974,8 @@
       "title": "Restaurant-Style Chicken Lo Mein",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/chicken-lo-mein/",
-      "group": null,
-      "status": "queued",
+      "group": "noodle_pan_mains_04",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/restaurant-style-chicken-lo-mein.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6134,8 +6199,8 @@
       "title": "Roasted Red Pepper and Sweet Potato Soup",
       "source": "Paleopot.com",
       "sourceUrl": "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/",
-      "group": null,
-      "status": "queued",
+      "group": "soups_purees_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/roasted-red-pepper-and-sweet-potato-soup.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6143,7 +6208,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6fcbeb0df6e95d7de5adf70695ae5938e7d08f62acf6f9c37e30cf08dccff8cd",
-      "plannedBatch": "braises-and-slow-cooking-03"
+      "plannedBatch": "braises-and-slow-cooking-03",
+      "owner": "coverage_check",
+      "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+      "reviewPhase": "Whole recipe author review; no acceptance credit"
     },
     {
       "slug": "roasted-root-vegetables",
@@ -6624,15 +6692,23 @@
       "source": "Adapted from thegirlonbloor.com",
       "sourceUrl": "https://thegirlonbloor.com/sheet-pan-pesto-chicken-meal-prep-bowls/",
       "group": "poultry_assembled_mains_02",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/sheet-pan-pesto-chicken-meal-prep-bowls.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure the clean finished-mixture volume and reserve after the original two additions.",
+        "Confirm additional pan load and time at400°F for three actual breasts and all vegetables.",
+        "Check the prepared pesto product storage instructions.",
+        "Reconcile every component, actual diner amounts, shared oven and elapsed clock in a separate whole-meal review."
       ],
       "inputSha256": "56044eaa03d15a8afcf479e86710e0023ad4bb7dc799fa36f0ea0eea18905a42",
-      "plannedBatch": "baked-savory-and-breads-10"
+      "plannedBatch": "baked-savory-and-breads-10",
+      "acceptedSourceSha256": "7eeecbe58f1a3ef5a0f9c9732b19631fa34b8c1f60cb826d36d67fb37c339bf0",
+      "productionVerification": "pending"
     },
     {
       "slug": "sheet-pan-pineapple-shrimp-tacos",
@@ -7247,15 +7323,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "poultry_assembled_mains_02",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/spatchcocked-roast-chicken.md",
+        "docs/editorial-campaign/2026-10-05/mains-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Document the actual kosher salt brand/crystal density and household preference without changing the current2tbsp.",
+        "Time each temperature site and browning at475°F using the household oven and rated pan.",
+        "Test optional stock/water pan sauce and its reduction.",
+        "Reconcile every component, actual diner amounts, shared oven and elapsed clock in a separate whole-meal review."
       ],
       "inputSha256": "ac3e280e1ea1c311a15ec9cd265f05598277e97d5c74f6128e22e240f874b739",
-      "plannedBatch": "roast-grill-and-sear-04"
+      "plannedBatch": "roast-grill-and-sear-04",
+      "acceptedSourceSha256": "e5b843c9302ac5e36d95dd1e10c49acc2a1d479c8360d1d72e463cf1453d6691",
+      "productionVerification": "pending"
     },
     {
       "slug": "spiced-butternut-squash-puree",
@@ -8053,8 +8136,8 @@
       "title": "Spiced Butternut Squash Soup",
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup",
-      "group": null,
-      "status": "queued",
+      "group": "soups_purees_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8062,7 +8145,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "95c4ec51bec781f8f25063ca46c84bb6c8ed2655356c4f20954481679360490a",
-      "plannedBatch": "baked-savory-and-breads-12"
+      "plannedBatch": "baked-savory-and-breads-12",
+      "owner": "coverage_check",
+      "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
+      "reviewPhase": "Whole recipe author review; no acceptance credit"
     },
     {
       "slug": "weeknight-paella",
@@ -8984,11 +9070,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 33,
-    "held": 9,
-    "held-awaiting-evidence": 2,
     "production-verified": 59,
+    "held": 9,
+    "queued": 241,
     "proposed": 55,
-    "queued": 251
+    "assigned": 33,
+    "accepted": 10,
+    "held-awaiting-evidence": 2
   }
 }

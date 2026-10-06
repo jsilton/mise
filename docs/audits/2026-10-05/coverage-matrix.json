@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 293,
-    "completeEditorialPending": 350,
+    "recordedCompleteEditorial": 303,
+    "completeEditorialPending": 340,
     "originalBaseline": 612,
-    "originalReviewed": 278,
+    "originalReviewed": 288,
     "consideredConsolidations": 10,
-    "originalPending": 324,
+    "originalPending": 314,
     "additionalSources": 41,
     "additionalReviewed": 15,
     "additionalPending": 26,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 293,
+      "editoriallyReviewed": 303,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 653
+      "reviewItems": 633
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-nine new complete editorial versions from the original 409-source campaign are verified live. The latest five pork versions are implemented at 6d9f9169 and verified at exact remote release c215c0f3, successful Pages run 37398240844 and all affected live pages. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "59 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1473,18 +1473,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1492,19 +1481,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/bbq-chicken-sliders.md",
+        "acceptedSha256": "359ac9547f9d41ce27a01782b9808636714016aee3d5c93b6b36f6a394384951",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/bbq-chicken-sliders.json",
+        "sourceSha256": "359ac9547f9d41ce27a01782b9808636714016aee3d5c93b6b36f6a394384951"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which broiler setting/rack and pan actually fit the original 2 lb of thighs without overlap?",
+        "What thigh size, actual number of loads and elapsed time give the preferred glaze without burning?",
+        "Does the original salt volume use a particular kosher-salt crystal size? No equal-volume fine-salt conversion is proposed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3567,18 +3563,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3586,19 +3571,28 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/carnitas-bowl.md",
+        "acceptedSha256": "b61d613234fbbf61ed2cb0a6b4163f9a2f9f08e20249b04b4f846baff1f7ba7c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/carnitas-bowl.json",
+        "sourceSha256": "b61d613234fbbf61ed2cb0a6b4163f9a2f9f08e20249b04b4f846baff1f7ba7c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual dish, interior dimensions, shoulder fat level and meat loading produce the intended snug original3lbbraise? The source9×13suggestion is not certified capacity.",
+        "Is the source9×13dish or the close-packed arrangement the intended priority? Proposed method preserves the mechanism without invented dimensions/liquid; independent/root should hold if exacthousepan intent is crucial.",
+        "How much prepared rice, beans and pickled onions is actually wanted per bowl, and are corn/pepitas prepared ahead? No dose is invented.",
+        "Does the household intend an independently supplied slow-cooker variant matching Carnitas Bowl Night? Its4–6hourroute/liquid/capacity is unresolved and not imported here.",
+        "Which kosher-salt product density is intended, and how long do the actual broiler passes take?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4263,18 +4257,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/chicken-and-white-bean-enchiladas-with/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -4285,12 +4268,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md",
+        "acceptedSha256": "71b292e5d4963109c2669bf2f0b0cf785d17639485a9abfe98f5258fa956e080",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.json",
+        "sourceSha256": "71b292e5d4963109c2669bf2f0b0cf785d17639485a9abfe98f5258fa956e080"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -4299,12 +4288,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual blended sauce volume and tortilla/dish fit without discarding filling.",
+        "Time cold vs fresh filling to165°F.",
+        "Separate historical from-scratch formula would need its own complete source/bouillon reconciliation before restoration."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4437,18 +4426,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4456,19 +4434,27 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chicken-chile-enchiladas.md",
+        "acceptedSha256": "648eaf82a87e85ba31677e0a7333f2727fb44a9be3af0ee793cc8e8eb849b886",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chicken-chile-enchiladas.json",
+        "sourceSha256": "648eaf82a87e85ba31677e0a7333f2727fb44a9be3af0ee793cc8e8eb849b886"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What corn-tortilla diameter and actual dish arrangement fit the original eight rolls with the measured sauce?",
+        "How much cheese is actually used inside versus on top? Current by-eye division is preserved within one consuming stage, not an invented half allocation.",
+        "How long does the cold/frozen filling take to reach165°F in the actual approved dish/oven?",
+        "Which current corn versus soft-tortilla and full-amount cheese options are preferred? They remain distinct, not a blended formula."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4882,18 +4868,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4901,12 +4876,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chicken-quesadillas-with-quick-pico.md",
+        "acceptedSha256": "3882d2e7fa1bc387ae542de531811296f6e18c7bac46093a0d35e5078d92706f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chicken-quesadillas-with-quick-pico.json",
+        "sourceSha256": "3882d2e7fa1bc387ae542de531811296f6e18c7bac46093a0d35e5078d92706f"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -4915,11 +4896,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Are the preferred pieces folded or stacked? Both source descriptions are preserved without claiming either was tested.",
+        "How many 8-inch folded or stacked pieces actually fit the skillet/griddle, and what is the resulting original-batch elapsed time?",
+        "Is there a separately supplied vegetarian filling recipe? The automatic vegetarian-option label had no complete supported branch; no chicken omission or replacement amount is invented.",
+        "Which kosher-salt crystal size is used? The original half-teaspoon remains unchanged."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -5154,18 +5137,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5173,19 +5145,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chicken-tinga.md",
+        "acceptedSha256": "10e62543e9a1722a1e2b8f3eaf913f50dad4aa976bef395d18a1a20bad8eabb7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chicken-tinga.json",
+        "sourceSha256": "10e62543e9a1722a1e2b8f3eaf913f50dad4aa976bef395d18a1a20bad8eabb7"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which blender model and working capacity are used? No hot-food permission is assumed; cooling time remains unmeasured.",
+        "How long do the tomatoes/garlic and onion take in the actual skillet, and how much cooled sauce fits each blender load?",
+        "Is the listed teaspoon of salt fine salt or another salt? Its volume is preserved without an invented density conversion.",
+        "Is there an earlier user-supplied Tinga formula outside the retained repository? The production-refinement commit alone is not original external authorship."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -7627,18 +7607,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Buzzfeed.com",
       "sourceUrl": "https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din?utm_term=.xiNZnEPV4#.eaoYwzRK5",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -7646,19 +7615,26 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/creamy-spinach-lemon-chicken-dinnner.md",
+        "acceptedSha256": "57603b71d821260d20eebb85274302c96ee9126eea3251b2d685d60c05013ac1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/creamy-spinach-lemon-chicken-dinnner.json",
+        "sourceSha256": "57603b71d821260d20eebb85274302c96ee9126eea3251b2d685d60c05013ac1"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Time actual eight-cutlet pan batches and compare whole-breast variant.",
+        "Check tempered full-fat yogurt sauce texture with the retained half-lemon juice and zest.",
+        "Confirm the household skillet and oven rating."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13300,18 +13276,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thepalatablelife.com",
       "sourceUrl": "https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -13322,12 +13287,18 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/herby-chicken-meatball-bowl.md",
+        "acceptedSha256": "52496c8445e10ddd1bf4f3510dfaa438b0f905a68f54520002a63583a32253e5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/herby-chicken-meatball-bowl.json",
+        "sourceSha256": "52496c8445e10ddd1bf4f3510dfaa438b0f905a68f54520002a63583a32253e5"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -13336,12 +13307,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Test restored dressing/chickpea/meat seasonings and full5tbspoil without changing richness.",
+        "Measure actual whole-mixture log count and batch timing.",
+        "Compare current tablespoon juice with saved whole-lemon option, recording actual juice yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22981,18 +22952,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thegirlonbloor.com",
       "sourceUrl": "https://thegirlonbloor.com/sheet-pan-pesto-chicken-meal-prep-bowls/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23000,12 +22960,18 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/sheet-pan-pesto-chicken-meal-prep-bowls.md",
+        "acceptedSha256": "7eeecbe58f1a3ef5a0f9c9732b19631fa34b8c1f60cb826d36d67fb37c339bf0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sheet-pan-pesto-chicken-meal-prep-bowls.json",
+        "sourceSha256": "7eeecbe58f1a3ef5a0f9c9732b19631fa34b8c1f60cb826d36d67fb37c339bf0"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -23014,11 +22980,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure the clean finished-mixture volume and reserve after the original two additions.",
+        "Confirm additional pan load and time at400°F for three actual breasts and all vegetables.",
+        "Check the prepared pesto product storage instructions.",
+        "Reconcile every component, actual diner amounts, shared oven and elapsed clock in a separate whole-meal review."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25145,18 +25113,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25164,12 +25121,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/spatchcocked-roast-chicken.md",
+        "acceptedSha256": "e5b843c9302ac5e36d95dd1e10c49acc2a1d479c8360d1d72e463cf1453d6691",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/spatchcocked-roast-chicken.json",
+        "sourceSha256": "e5b843c9302ac5e36d95dd1e10c49acc2a1d479c8360d1d72e463cf1453d6691"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -25178,11 +25141,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Document the actual kosher salt brand/crystal density and household preference without changing the current2tbsp.",
+        "Time each temperature site and browning at475°F using the household oven and rated pan.",
+        "Test optional stock/water pan sauce and its reduction.",
+        "Reconcile every component, actual diner amounts, shared oven and elapsed clock in a separate whole-meal review."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

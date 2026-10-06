@@ -25,7 +25,25 @@ test('shrimp sauce lists its aromatics and slurry and finishes pork and egg safe
 
 test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all filling', () => {
   const { data, content } = read('herby-chicken-meatball-bowl');
-  assert.ok(data.ingredients.includes('4 tbsp Olive Oil, divided'));
+  for (const ingredient of data.formula.components
+    .flatMap((c) => c.ingredients)
+    .filter((i) => i.name === 'olive oil'))
+    assert.equal(ingredient.quantity.unit, 'tbsp');
+  const oil = data.formula.components.flatMap((c) =>
+    c.ingredients
+      .filter((i) => i.name === 'olive oil')
+      .map((i) => [c.id, i.quantity.amount, i.uses])
+  );
+  assert.deepEqual(oil, [
+    ['chickpeas', 1, [{ step: 'chickpeas', share: 1 }]],
+    ['potato', 1, [{ step: 'potato', share: 1 }]],
+    ['meat', 2, [{ step: 'cook', share: 1 }]],
+    ['dressing', 1, [{ step: 'dressing', share: 1 }]],
+  ]);
+  assert.equal(
+    oil.reduce((total, [, amount]) => total + amount, 0),
+    5
+  );
   for (const name of [
     'Salt',
     'Garlic Powder',
@@ -34,14 +52,26 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
     'Ground Cumin',
   ]) {
     assert.ok(
-      data.ingredients.some((line) => line.includes(name)),
+      data.ingredients.some((line) => line.toLowerCase().includes(name.toLowerCase())),
       name
     );
   }
-  assert.match(content, /Keep the kale for the serving bowls/);
-  assert.match(content, /Portion all the mixture/);
+  assert.match(content, /Kale stays for the serving bowls/);
+  assert.match(content, /Portion all mixture/);
   assert.doesNotMatch(content, /Form into 12/);
-  assert.match(content, /165°F \/ 74°C on a food thermometer/);
+  assert.equal(
+    data.formula.components
+      .find((c) => c.id === 'meat')
+      .ingredients.some((i) => /kale/i.test(i.name)),
+    false
+  );
+  assert.deepEqual(
+    data.formula.components.find((c) => c.id === 'bowl').ingredients.find((i) => i.id === 'kale')
+      .uses,
+    [{ step: 'serve', share: 1 }]
+  );
+  assert.match(content, /Make and taste this ready-to-eat dressing before handling raw chicken/);
+  assert.match(content, /165°F \/\s*74°C on a food thermometer/);
   assert.match(content, /until tender inside/);
   assert.equal(
     data.sourceUrl,
