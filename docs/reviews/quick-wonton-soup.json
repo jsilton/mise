@@ -1,0 +1,1109 @@
+{
+  "slug": "quick-wonton-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "394279748055f0f5972a0f80a9f5bcc49ef04571753ecf0b6ece601c87f1a470",
+  "acceptedSourceSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 15 min, depending on wonton package"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 25 min, plus any longer package cooking"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "20 mini frozen wontons",
+        "6 cups Low-sodium Chicken Broth",
+        "1 (1-inch) piece Fresh Ginger, smashed",
+        "1 clove Garlic, smashed",
+        "4 Baby Bok Choy, halved",
+        "1 1/2 cups Shiitake Mushrooms, sliced",
+        "1 tbsp Soy Sauce",
+        "1 tsp Toasted Sesame Oil",
+        "Scallions, sliced green parts only",
+        "White Pepper"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "20 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "6 cups prepared low-sodium chicken broth",
+        "1 1-inch piece of fresh ginger, smashed",
+        "1 garlic clove, smashed",
+        "4 baby bok choy, washed and halved lengthwise",
+        "1 1/2 cups shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 75,
+        "protein": 4.5,
+        "carbs": 5,
+        "fat": 4.5,
+        "fiber": 1.5,
+        "sugar": 1,
+        "sodium": 1640
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "wontons",
+                "key": "mini-frozen-wontons",
+                "name": "mini frozen wonton",
+                "quantity": {
+                  "amount": 20,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wontons",
+                    "share": 1
+                  }
+                ],
+                "plural": "mini frozen wontons",
+                "preparation": "check actual package cooking directions and whether filling is raw or fully cooked"
+              },
+              {
+                "id": "broth",
+                "key": "low-sodium-chicken-broth",
+                "name": "prepared low-sodium chicken broth",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "1-inch piece of fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "plural": "1-inch pieces of fresh ginger",
+                "preparation": "smashed"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "smashed"
+              },
+              {
+                "id": "bok",
+                "key": "baby-bok-choy",
+                "name": "baby bok choy",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "baby bok choy",
+                "preparation": "washed and halved lengthwise"
+              },
+              {
+                "id": "mushrooms",
+                "key": "shiitake",
+                "name": "shiitake mushrooms",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cleaned and sliced; tough stems removed"
+              },
+              {
+                "id": "soy",
+                "key": "soy-sauce",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "toasted-sesame-oil",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "scallions",
+                "key": "scallion-greens",
+                "name": "scallion greens",
+                "allowance": "sliced, as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "pepper",
+                "key": "white-pepper",
+                "name": "white pepper",
+                "allowance": "a pinch or to taste",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "package-water",
+                "key": "water",
+                "name": "water",
+                "allowance": "as required only if the wonton package calls for a separate cooking-water pot",
+                "uses": [
+                  {
+                    "step": "wontons",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "infuse",
+            "title": "Infuse",
+            "text": "Bring {{ingredients}} to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed."
+          },
+          {
+            "id": "vegetables",
+            "title": "Vegetables",
+            "text": "Add {{ingredients}}. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish."
+          },
+          {
+            "id": "wontons",
+            "title": "Cook wontons",
+            "text": "Use {{ingredients}} for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably."
+          },
+          {
+            "id": "finish",
+            "title": "Finish",
+            "text": "Return any reserved vegetables and add {{ingredients}}, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with {{ingredients}}. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Choose the frozen dumpling cook before timing the vegetables",
+        "outcome": "Cooked wonton filling and tender bok-choy stalks in ginger-garlic broth.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use prepared, ready-to-use broth. Read the frozen mini-wonton label before heating the pot; its filling state and water-cooking instructions determine the method.",
+          "Wash and cut the vegetables before handling any raw-filled product. Choose enough pot capacity for the full measured broth and solids, splitting every supply proportionally for extra pots.",
+          "Four portions and five mini wontons per bowl describe the original 20-wonton batch. Product size and appetite change portion size; homemade wontons need their own filling and cooking method."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Mushrooms soften and a knife enters the bok-choy stalks readily.",
+            "why": "Halved stalks may need longer than the mushroom clock; reserve tender vegetables if the dumplings need a long cook."
+          },
+          {
+            "step": 3,
+            "cue": "The actual label’s cook and applicable filling endpoint are completed.",
+            "why": "Skin flotation and a hot broth surface do not measure the filling center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Vegetables become soft before the dumplings finish",
+            "cause": "The chosen frozen product needs longer cooking than the original mini-wonton estimate.",
+            "fix": "Lift tender vegetables out with a clean utensil and return them at the finish; complete the dumpling cook without shortening it."
+          }
+        ],
+        "timing": "The original prepared-broth/mini-wonton plan is about 25 minutes, including about 10 minutes preparation. Heating a large broth batch, longer package directions or separate water cooking adds time. The sliced-ginger/quartered-bok variation starts its vegetables earlier and may take longer.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Reheat while stirring to 165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time. The wonton skins and bok choy soften with storage and reheating; cook only the needed number of frozen wontons when practical.",
+        "sources": [
+          {
+            "title": "Gina Homolka — Wonton Soup",
+            "url": "https://www.skinnytaste.com/wonton-soup/"
+          },
+          {
+            "title": "FDA handling and meat categories",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nQuick wonton soup using store-bought frozen wontons makes a comforting 25-minute meal. The trick to elevating store-bought broth: smash ginger and garlic with the side of a knife (instead of mincing) and simmer them in the broth. This releases their essential oils without adding gritty texture. Add the wontons and bok choy together at the end so the greens stay vibrant and the wonton skins don't get mushy.\n\n## Directions\n\n1.  **Infuse:** In a large pot, bring the chicken broth to a boil. Add the smashed ginger and garlic. Reduce heat and simmer for 5 minutes.\n2.  **Add Veg:** Add the halved bok choy and sliced mushrooms. Simmer for 3 minutes until the mushrooms begin to soften.\n3.  **Wontons:** Add the frozen wontons. Simmer for 2-3 minutes until they float and are heated through.\n4.  **Finish:** Stir in the soy sauce and toasted sesame oil. Add a pinch of white pepper for the mandatory **High Note**.\n5.  **Serve:** Divide into bowls, ensuring everyone gets 5 wontons. Garnish with fresh scallions.\n",
+    "after": "\n## Chef's Note\n\nGina Homolka’s shortcut soup starts with frozen mini wontons and prepared broth. Smashed ginger and garlic flavor the broth while the vegetables cook. Choose the actual wonton package method first, then coordinate the vegetables so their stalks are tender without making them wait through a longer dumpling cook.\n\n## Directions\n\n1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.\n\n## Aromatic and vegetable variation\n\nFor the sliced-ginger version, thinly slice and then smash all the listed ginger, mince all the garlic, and quarter the bok choy instead of halving it. Cover the broth with the ginger and garlic for about 5 minutes; add the bok choy and cook about 5 minutes before adding the mushrooms and frozen wontons. Follow the actual wonton package as in step 3, then finish with the full measured soy sauce and sesame oil and the scallion greens; omit the main white-pepper allowance for this version. All other quantities stay the same. Its original 2–3-minute wonton finish is a product-dependent first check, not permission to undercook a raw filling.\n"
+  },
+  "findings": [
+    {
+      "id": "MS15-W01",
+      "title": "MS15-W01",
+      "rationale": "Retain all main doses, smashed aromatics and white pepper; frozen product label and applicable raw filling endpoint replace float/universal2–3minute cooking. Reserve tender vegetables if package needs longer and divide actual scaled wontons among portions. Additional separate cooking water is product-governed, not an invented shared-broth dose.",
+      "confidence": "high categorical and package boundary; moderate product-dependent duration",
+      "applicableSources": [
+        "https://www.skinnytaste.com/wonton-soup/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "actual799copy/567antecedent/currentpathhistory"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Which mini wonton label, filling state, cooking water method and thermometer access applies?"
+      ]
+    },
+    {
+      "id": "MS15-W02",
+      "title": "MS15-W02",
+      "rationale": "Keep complete earlier sliced-smashed ginger/minced garlic/quartered bok/covered5+5 sequence as exclusive variation omitting later main white pepper; do not replace current main or add back explicitly removed black vinegar. No held homemade wrapper or fresh component is certified.",
+      "confidence": "high exactoriginal preservation",
+      "applicableSources": [
+        "exactbound450/045 Easy Wonton",
+        "https://www.skinnytaste.com/wonton-soup/",
+        "493885bb acceptedremoval"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Linked fresh wontons would need their own complete filling/wrapper/cooking decision; this review supplies none."
+      ]
+    },
+    {
+      "id": "MS15-W03",
+      "title": "MS15-W03",
+      "rationale": "Retain Chinese style, Skinnytaste URL/credit and scallion garnish; remove unsupported birth-country and automatic nutrition; direct cooking prose replaces mandatory High Note and simultaneousvegetableChefNote contradiction.",
+      "confidence": "high",
+      "applicableSources": [
+        "actualec691metadata addition",
+        "fullfollowedcurrent+antecedenthistory",
+        "docs/RECIPE_STANDARD.md"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20Wonton%20Soup.html",
+    "introductionScope": "Actual b7 HTML / exact450 cooking, antecedent045 and full before-copy history, proven799 copy and complete current-path history. Original one-commit --follow-p extraction was incomplete; explicit chains govern.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Earlier sliced aromatic/quartered bok",
+      "supplies": "Same measured20/6/1piece/1clove/4bok/1½/1T/1tsp with sliced-smashedginger,mincedgarlic,quarterbok; no whitepepper",
+      "destination": "Coveredaromatics5,bok5,thenmushroom+packagewonton,fullsoy/sesame,scallion; no current extra pepper",
+      "status": "separate complete originalroute"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "20 mini frozen wontons",
+        "preparation": "mini frozen; filling state unknown",
+        "destination": "2–3minfloat/hot3→fixed5count5",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "6 cups Low-sodium Chicken Broth",
+        "preparation": "broth, ready state implicit",
+        "destination": "infuse1→serve5",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 (1-inch) piece Fresh Ginger, smashed",
+        "preparation": "smashed one1inchpiece",
+        "destination": "infuse1; discard not specified",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 clove Garlic, smashed",
+        "preparation": "smashed",
+        "destination": "infuse1; discard not specified",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "4 Baby Bok Choy, halved",
+        "preparation": "halved",
+        "destination": "simmer3min2 thenwontons3",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 1/2 cups Shiitake Mushrooms, sliced",
+        "preparation": "sliced",
+        "destination": "simmer2 thenwontons3",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 tbsp Soy Sauce",
+        "preparation": "soy",
+        "destination": "allfinish4",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tsp Toasted Sesame Oil",
+        "preparation": "toastedoil",
+        "destination": "allfinish4",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "Scallions, sliced green parts only",
+        "preparation": "slicedgreens",
+        "destination": "garnish5",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "White Pepper",
+        "preparation": "unmeasuredwhitepepper",
+        "destination": "pinchfinish4",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.wontons",
+        "key": "mini-frozen-wontons",
+        "name": "mini frozen wonton",
+        "quantity": {
+          "amount": 20,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "wontons",
+            "share": 1
+          }
+        ],
+        "plural": "mini frozen wontons",
+        "preparation": "check actual package cooking directions and whether filling is raw or fully cooked",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.broth",
+        "key": "low-sodium-chicken-broth",
+        "name": "prepared low-sodium chicken broth",
+        "quantity": {
+          "amount": 6,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.ginger",
+        "key": "ginger",
+        "name": "1-inch piece of fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "plural": "1-inch pieces of fresh ginger",
+        "preparation": "smashed",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "plural": "garlic cloves",
+        "preparation": "smashed",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.bok",
+        "key": "baby-bok-choy",
+        "name": "baby bok choy",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "plural": "baby bok choy",
+        "preparation": "washed and halved lengthwise",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.mushrooms",
+        "key": "shiitake",
+        "name": "shiitake mushrooms",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "preparation": "cleaned and sliced; tough stems removed",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.soy",
+        "key": "soy-sauce",
+        "name": "soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sesame",
+        "key": "toasted-sesame-oil",
+        "name": "toasted sesame oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.scallions",
+        "key": "scallion-greens",
+        "name": "scallion greens",
+        "allowance": "sliced, as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pepper",
+        "key": "white-pepper",
+        "name": "white pepper",
+        "allowance": "a pinch or to taste",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.package-water",
+        "key": "water",
+        "name": "water",
+        "allowance": "as required only if the wonton package calls for a separate cooking-water pot",
+        "uses": [
+          {
+            "step": "wontons",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": "cooking-water",
+        "component": "Main recipe"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "ingredient": "6 cups chicken broth low sodium",
+        "destination": "preparedbrothinfuse→serve",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 1,
+        "ingredient": "1- inch piece fresh ginger, sliced thin",
+        "destination": "thinlyslicedsmashedginger coveredinfuse",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 clove minced garlic",
+        "destination": "mincedgarlic coveredinfuse",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 3,
+        "ingredient": "20 mini frozen wontons, I love the Chicken Cilantro one’s from Trader Joe’s",
+        "destination": "frozenmini2–3minfinish product-specific",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 1/2 cups sliced shiitake mushrooms",
+        "destination": "slicemushroomwithwontonafterbok",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 5,
+        "ingredient": "4 baby bok choy, halved lengthwise and halved",
+        "destination": "quarterbok5minbeforewonton",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 tablespoon soy sauce",
+        "destination": "fullsoyfinish",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 teaspoon sesame oil",
+        "destination": "fullsesamefinish",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 8,
+        "ingredient": "scallions, sliced green parts only for garnish",
+        "destination": "scalliongreensgarnish",
+        "methodEvidence": "privately retained evidence#directions"
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "e7b45d1740ed2ca2da59a8f07fc5d1cdd1548557d9a48a05978abcf1441c8cc2"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "7d0f8549ff980f00b19fcf2e53a863656d5dac5460693848a002377e4516fd78"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "a4a230e5e682a4349737b2ffcc1997821f9aeeb13be14fa24c04e3a45b31ea9c"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "0259123da617e774c008009db5a6c1e3fc357ed65b9581c67d1a92d4730cc0ee"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "204652bbbd1b6d9830deb05ce2b3be3168c316ef07f47aa52c25cbf62c0e56a4"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "infuse",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.broth", "main.ginger", "main.garlic"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "vegetables",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.bok", "main.mushrooms"],
+        "cue": ["Mushrooms soften and a knife enters the bok-choy stalks readily."]
+      },
+      {
+        "step": 3,
+        "id": "wontons",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["main.wontons", "main.package-water"],
+        "cue": ["The actual label’s cook and applicable filling endpoint are completed."]
+      },
+      {
+        "step": 4,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.soy", "main.sesame", "main.pepper"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["main.scallions"],
+        "cue": []
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "field": "directions",
+      "wholeTextRetained": true
+    }
+  },
+  "variantLedgers": [
+    {
+      "name": "Current main",
+      "supplies": "20mini frozen/6cup broth/one1-inch ginger/1garlic/4halvedbok/1½cupshiitake/1Tsoy/1tspsesame/scalliongreens/whitepepper",
+      "destination": "Fullbroth/aromaticsinfuse, vegtender, packagecookedwonton, fullsoy/sesame+pepperfinish, scallionserve",
+      "status": "retained"
+    },
+    {
+      "name": "Earlier sliced aromatic/quartered bok",
+      "supplies": "Same measured20/6/1piece/1clove/4bok/1½/1T/1tsp with sliced-smashedginger,mincedgarlic,quarterbok; no whitepepper",
+      "destination": "Coveredaromatics5,bok5,thenmushroom+packagewonton,fullsoy/sesame,scallion; no current extra pepper",
+      "status": "separate complete originalroute"
+    },
+    {
+      "name": "Different product",
+      "supplies": "Sameactual measuredcountmini frozen; packagewater allowanceonlyifrequired",
+      "destination": "Package-specific separatewater/drainorbrothmethod; not heldfreshwrappers substitution",
+      "status": "productmethod boundary"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "input": "20minifrozenwontons/6cups broth/4babybok/1½cupshiitake; full1Tsoy/1tspsesame",
+    "yield": "4planningportions, original5mini count perbowl not fixedatotherscale",
+    "capacity": "Actualmini product, fillingstate andpackagewater method; boilingheadroom withallveg"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "5 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "1 1/2 cups prepared low-sodium chicken broth",
+        "1/4 1-inch piece of fresh ginger, smashed",
+        "1/4 garlic clove, smashed",
+        "1 baby bok choy, washed and halved lengthwise",
+        "3/8 cup shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "1/4 tbsp soy sauce",
+        "1/4 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "5 mini frozen wontons",
+        "1 1/2 cups prepared low-sodium chicken broth",
+        "1/4 1-inch piece of fresh ginger",
+        "1/4 garlic clove",
+        "1 baby bok choy",
+        "3/8 cup shiitake mushrooms",
+        "1/4 tbsp soy sauce",
+        "1/4 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "10 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "3 cups prepared low-sodium chicken broth",
+        "1/2 1-inch piece of fresh ginger, smashed",
+        "1/2 garlic clove, smashed",
+        "2 baby bok choy, washed and halved lengthwise",
+        "3/4 cup shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "1/2 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "10 mini frozen wontons",
+        "3 cups prepared low-sodium chicken broth",
+        "1/2 1-inch piece of fresh ginger",
+        "1/2 garlic clove",
+        "2 baby bok choy",
+        "3/4 cup shiitake mushrooms",
+        "1/2 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "20 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "6 cups prepared low-sodium chicken broth",
+        "1 1-inch piece of fresh ginger, smashed",
+        "1 garlic clove, smashed",
+        "4 baby bok choy, washed and halved lengthwise",
+        "1 1/2 cups shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "20 mini frozen wontons",
+        "6 cups prepared low-sodium chicken broth",
+        "1 1-inch piece of fresh ginger",
+        "1 garlic clove",
+        "4 baby bok choy",
+        "1 1/2 cups shiitake mushrooms",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "30 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "9 cups prepared low-sodium chicken broth",
+        "1 1/2 1-inch pieces of fresh ginger, smashed",
+        "1 1/2 garlic cloves, smashed",
+        "6 baby bok choy, washed and halved lengthwise",
+        "2 1/4 cups shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "1 1/2 tbsp soy sauce",
+        "1 1/2 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "30 mini frozen wontons",
+        "9 cups prepared low-sodium chicken broth",
+        "1 1/2 1-inch pieces of fresh ginger",
+        "1 1/2 garlic cloves",
+        "6 baby bok choy",
+        "2 1/4 cups shiitake mushrooms",
+        "1 1/2 tbsp soy sauce",
+        "1 1/2 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "40 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "12 cups prepared low-sodium chicken broth",
+        "2 1-inch pieces of fresh ginger, smashed",
+        "2 garlic cloves, smashed",
+        "8 baby bok choy, washed and halved lengthwise",
+        "3 cups shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "2 tbsp soy sauce",
+        "2 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "40 mini frozen wontons",
+        "12 cups prepared low-sodium chicken broth",
+        "2 1-inch pieces of fresh ginger",
+        "2 garlic cloves",
+        "8 baby bok choy",
+        "3 cups shiitake mushrooms",
+        "2 tbsp soy sauce",
+        "2 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "60 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "18 cups prepared low-sodium chicken broth",
+        "3 1-inch pieces of fresh ginger, smashed",
+        "3 garlic cloves, smashed",
+        "12 baby bok choy, washed and halved lengthwise",
+        "4 1/2 cups shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "3 tbsp soy sauce",
+        "3 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "60 mini frozen wontons",
+        "18 cups prepared low-sodium chicken broth",
+        "3 1-inch pieces of fresh ginger",
+        "3 garlic cloves",
+        "12 baby bok choy",
+        "4 1/2 cups shiitake mushrooms",
+        "3 tbsp soy sauce",
+        "3 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "20 mini frozen wontons, check actual package cooking directions and whether filling is raw or fully cooked",
+        "6 cups prepared low-sodium chicken broth",
+        "1 1-inch piece of fresh ginger, smashed",
+        "1 garlic clove, smashed",
+        "4 baby bok choy, washed and halved lengthwise",
+        "1 1/2 cups shiitake mushrooms, cleaned and sliced; tough stems removed",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste",
+        "water, as required only if the wonton package calls for a separate cooking-water pot, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Infuse:** Bring prepared low-sodium chicken broth, 1-inch piece of fresh ginger, and garlic clove to a boil in a pot with room for the frozen wontons and vegetables plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies proportionally among additional pots or complete batches if needed.\n2. **Vegetables:** Add baby bok choy and shiitake mushrooms. Simmer about 3 minutes, until the mushrooms begin to soften, then continue as needed until the bok-choy stalks are tender. If the wonton package requires a longer cook, lift the tender vegetables into a clean bowl so they can be returned at the finish.\n3. **Cook wontons:** Use mini frozen wontons and water (if using) for this stage. Cook the mini wontons from frozen according to their actual package water-cooking directions, including the specified boil/simmer, time and endpoint. If that method permits cooking in broth, use this pot; if it requires a separate water pot, follow that instruction and drain the cooked wontons before adding them to the soup. The original 2–3-minute simmer applies only to a suitable mini product, not every raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target for mixed filling, and do not assume it is verified when the filling cannot be measured reliably.\n4. **Finish:** Return any reserved vegetables and add soy sauce, toasted sesame oil, and white pepper, retaining all the measured soy sauce and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.\n5. **Serve:** Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth among the portions, then garnish with scallion greens. The original 20-wonton, four-portion batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing five in every scaled batch.",
+      "shopping": [
+        "20 mini frozen wontons",
+        "6 cups prepared low-sodium chicken broth",
+        "1 1-inch piece of fresh ginger",
+        "1 garlic clove",
+        "4 baby bok choy",
+        "1 1/2 cups shiitake mushrooms",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "scallion greens, sliced, as desired for serving",
+        "white pepper, a pinch or to taste"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    }
+  ],
+  "preservedPriorRepairs": "493885bb removal of unsupported unusedblackvinegar preserved; no generic acid added. a2 onefixed1-inchpiece count retained; genericproductname ebaf retained; complete799 copylineage explicit.",
+  "remainingQuestions": [
+    "Which mini wonton label, filling state, cooking water method and thermometer access applies?",
+    "Linked fresh wontons would need their own complete filling/wrapper/cooking decision; this review supplies none."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

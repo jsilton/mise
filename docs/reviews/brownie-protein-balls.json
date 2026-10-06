@@ -1,0 +1,3605 @@
+{
+  "slug": "brownie-protein-balls",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "903ea3e59e6538086d2b110c071a8d3c5cab49161078522c6c75debde3ffaca9",
+  "acceptedSourceSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "about 30 min, including at least 20 min chilling"
+    },
+    {
+      "field": "servings",
+      "before": "12 balls",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 cup Creamy Almond Butter",
+        "1/2 cup Chocolate Protein Powder",
+        "1/4 cup Almond Flour",
+        "2 tbsp Unsweetened Cocoa Powder",
+        "3-4 tbsp Maple Syrup",
+        "2 tbsp Ground Flaxseed or Chia Seeds",
+        "1/4 cup Mini Chocolate Chips",
+        "1-2 tbsp Water or Almond Milk (if needed)",
+        "Pinch of Sea Salt"
+      ],
+      "after": [
+        "--- No-bake dough ---",
+        "1/2 cup creamy almond butter",
+        "1/2 cup chocolate protein powder, use a product suitable for consumption without further cooking",
+        "1/4 cup almond flour, use a product suitable for consumption without further cooking",
+        "2 tbsp unsweetened cocoa powder",
+        "3–4 tbsp maple syrup",
+        "2 tbsp ground flaxseed or chia seeds",
+        "1/4 cup mini chocolate chips",
+        "sea salt, a pinch",
+        "--- Conditional liquid ---",
+        "1–2 tbsp water or almond milk, only as needed; add gradually within the listed range, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 255,
+        "protein": 5.5,
+        "carbs": 11.5,
+        "fat": 22,
+        "fiber": 2,
+        "sugar": 10,
+        "sodium": 360
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "No-bake dough",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "creamy almond butter",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "protein",
+                "key": "protein",
+                "name": "chocolate protein powder",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "preparation": "use a product suitable for consumption without further cooking"
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "almond flour",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "preparation": "use a product suitable for consumption without further cooking"
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "unsweetened cocoa powder",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "maple",
+                "key": "maple",
+                "name": "maple syrup",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flax",
+                "key": "flax",
+                "name": "ground flaxseed or chia seeds",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "texture",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chips",
+                "key": "chips",
+                "name": "mini chocolate chips",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "texture",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hydration",
+            "name": "Conditional liquid",
+            "ingredients": [
+              {
+                "id": "liquid",
+                "key": "liquid",
+                "name": "water or almond milk",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "hydrate",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "only as needed; add gradually within the listed range"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "base",
+            "title": "Mix",
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          },
+          {
+            "id": "hydrate",
+            "title": "Adjust hydration",
+            "text": "If the dough will not hold together, add {{ingredients}} a little at a time, mixing and checking after each addition. Use only as much of the listed range as needed; different powders and nut butters absorb liquid differently."
+          },
+          {
+            "id": "texture",
+            "title": "Add inclusions",
+            "text": "Fold in {{ingredients}} until evenly distributed. If this makes the dough crumbly, use any remaining part of the same optional liquid range; do not count a second extra allowance."
+          },
+          {
+            "id": "roll",
+            "title": "Portion",
+            "text": "Divide the entire dough into roughly equal balls. About twelve balls is the original-batch planning count; their size depends on the actual mixture. For a scaled batch, increase the count proportionally rather than keeping twelve larger balls or assuming a fixed tablespoon scoop."
+          },
+          {
+            "id": "chill",
+            "title": "Set",
+            "text": "Arrange on a clean plate or tray, cover and refrigerate at 40°F / 4°C or below for at least 20 minutes, until firm enough to handle."
+          },
+          {
+            "id": "store",
+            "title": "Store",
+            "text": "Keep covered and refrigerated. Use within the shortest after-opening instruction for the ingredients used, especially if almond milk was added. Keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Hydrating a no-cook nut-and-powder dough within its full optional liquid allowance, then portioning all of it.",
+        "outcome": "Firm chilled balls with evenly distributed flax or chia and chocolate chips, without a forced scoop yield.",
+        "techniques": ["cold-preparation"],
+        "before": [
+          "Choose ingredients suitable for eating without further cooking; mixing or a cold rest does not cook them. Check the actual almond-flour and powder manufacturer guidance.",
+          "The original-batch twelve-ball count is planning. Divide the complete dough and scale the count proportionally; no exact ball weight or tablespoon yield has been measured."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Dough holds when pressed, with no dry loose powder.",
+            "why": "Absorption varies; gradual liquid additions prevent overshooting before the inclusions are mixed."
+          },
+          {
+            "step": 3,
+            "cue": "All chips and the chosen flax or chia are distributed.",
+            "why": "Any later adjustment must come from the same optional liquid allowance, not a second full dose."
+          },
+          {
+            "step": 5,
+            "cue": "Balls are firm enough to handle after chilling.",
+            "why": "The set depends on the actual nut butter and powder; time alone does not establish shape or shelf life."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dough crumbles after inclusions are folded in.",
+            "cause": "Powder or seeds absorbed more liquid.",
+            "fix": "Use any remainder of the listed optional liquid gradually, then chill and check again."
+          },
+          {
+            "problem": "Dough is too soft to roll.",
+            "cause": "Too much optional liquid was added or the nut butter is warm.",
+            "fix": "Chill before portioning and stop adding liquid; do not invent extra flour or protein powder."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Same full listed range of honey",
+            "effect": "Exclusive sweetener choice; no vegan claim for honey."
+          },
+          {
+            "ingredient": "Ground flaxseed",
+            "alternative": "Same full amount of chia seeds",
+            "effect": "Different texture; keep the full amount and check firmness."
+          }
+        ],
+        "storage": "Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Follow the shortest after-opening instruction for the actual ingredients, especially any added almond milk. Make a small batch for prompt use.",
+        "timing": "About ten minutes mixing and rolling plus at least twenty minutes chilling gives an approximately thirty-minute plan for the original batch. Larger batches and difficult-to-roll dough need more active time; the 15–20-minute alternative is a setting reference. No measured ball weight, exact scoop count or nutrient yield is implied.",
+        "sources": [
+          {
+            "title": "FDA — no raw-flour substitution or home heat treatment",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "Almond Board — almond processing",
+            "url": "https://www.almonds.org/almond-industry/processors-and-suppliers/processing-safe-product"
+          },
+          {
+            "title": "FDA — refrigerated handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese no-bake bites prep in bulk for lunchboxes, pre-workout snacks, or yogurt toppings. Different protein powders absorb liquid at varying rates, so add milk one teaspoon at a time until dough reaches fresh brownie consistency. Chilling sets the almond butter's healthy fats so balls hold their shape.\n\n## Directions\n\n1.  **The Base:** In a medium bowl, combine almond butter, protein powder, almond flour, cocoa powder, maple syrup, and sea salt.\n2.  **Hydrate:** Mix with a spatula until a thick dough forms. If it is too crumbly to hold a shape, add 1 tbsp of water or milk. If it's still too dry, add another tbsp.\n3.  **Texture:** Fold in the flaxseed (or chia) and the mini chocolate chips.\n4.  **Roll:** Scoop out 1-tbsp portions and roll between your palms into balls.\n5.  **Set:** Place on a plate and chill in the refrigerator for at least 20 minutes before eating.\n6.  **Store:** Keep in an airtight container in the fridge for up to a week.\n",
+    "after": "\n## Chef's Note\n\nPowder absorption and almond-butter consistency determine whether the dough needs any added liquid. Mix first, then add the optional water or almond milk gradually within the full listed range. Chill before judging firmness. The portion count is a plan for dividing all the dough, not a measured tablespoon yield.\n\n## Directions\n\n1. **Mix:** Combine creamy almond butter, chocolate protein powder, almond flour, unsweetened cocoa powder, maple syrup, and sea salt with a spatula until a thick dough begins to form.\n2. **Adjust hydration:** If the dough will not hold together, add water or almond milk (if using) a little at a time, mixing and checking after each addition. Use only as much of the listed range as needed; different powders and nut butters absorb liquid differently.\n3. **Add inclusions:** Fold in ground flaxseed or chia seeds and mini chocolate chips until evenly distributed. If this makes the dough crumbly, use any remaining part of the same optional liquid range; do not count a second extra allowance.\n4. **Portion:** Divide the entire dough into roughly equal balls. About twelve balls is the original-batch planning count; their size depends on the actual mixture. For a scaled batch, increase the count proportionally rather than keeping twelve larger balls or assuming a fixed tablespoon scoop.\n5. **Set:** Arrange on a clean plate or tray, cover and refrigerate at 40°F / 4°C or below for at least 20 minutes, until firm enough to handle.\n6. **Store:** Keep covered and refrigerated. Use within the shortest after-opening instruction for the ingredients used, especially if almond milk was added. Keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.\n\n## Cooking Notes\n\nHoney may replace the full listed maple range; use only one sweetener and scale the range with the batch. Ground flaxseed and chia seeds are exclusive choices for the full listed inclusion amount. Water and almond milk are exclusive choices for the conditional liquid.\n\nUse packaged almond flour, protein powder and other ingredients suitable for a no-cook preparation; check the actual labels or manufacturer guidance. Do not replace almond flour with raw wheat flour or try to make raw flour safe through a home heat-treatment method. For a shorter rest, check firmness after 15–20 minutes; the main plan allows at least 20 minutes. Keep the mixture refrigerated.\n"
+  },
+  "findings": [
+    {
+      "id": "GS14-P01",
+      "title": "GS14-P01",
+      "rationale": "Preserve fullrichdoses/ranges and sourcehoney/15–20minchill choices; reconcile contradictory fixedtablespoonscoop/twelveyield by dividingall dough intoabout12plannedballs withproportionalcount. Graduallyallocate optional1–2Tbsp once, include20minchillintotal and replace bulk-addedweek storage guarantee with actualingredientlimits.",
+      "confidence": "High for preservation/provenance; moderate for portion and storageplan",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "fa8909c1b705b6fb326e79eb1b07cc764b5c4ed2",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Exactnativehasnoportioncount/shelf-life andallowsgradualsameconditional liquid beforefullinclusions. Bulkfa890 introduced12/fixedscoop/week; persistence doesnotestablish tested yield. FDA supports40/2h/1hhot, not week-long no-cook shelf life orproteinclaims.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "totalTime",
+        "content",
+        "learning"
+      ],
+      "questions": [
+        "What actual ball size/count does the full dough make? Is one-week quality/storage household-established? Powdercomposition/liquidneed untested."
+      ]
+    },
+    {
+      "id": "GS14-P02",
+      "title": "GS14-P02",
+      "rationale": "Require actual no-cook suitability of packaged almondflour/powder rather than certifying all almondflour or imposing a fabricated homeheattreatment. Retain the full almondflour, not replace it withgrainflour or reduce protein.",
+      "confidence": "Moderate",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+        "https://www.almonds.org/almond-industry/processors-and-suppliers/processing-safe-product",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "FDA raw-grain flour warning and prohibition on homeheat treatment supports no rawwheat substitution; it is not a categorical claim that every almondflour is unsafe. AlmondBoarddescribesprocessorprograms, not the actual product. Label/manufacturer confirmation is conservative editorial applicability tothis no-cook preparation.",
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content", "learning"],
+      "questions": [
+        "Does the actual almondflour andproteinpowder manufacturer permit no-cook consumption? No model/product certification or homelethality test performed."
+      ]
+    },
+    {
+      "id": "GS14-META",
+      "title": "GS14-META",
+      "rationale": "Omit unsupported geographic origin and unverified numerical nutrition, preserving the current cuisine/style, exact source and all rich quantities.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact brownie-protein-balls native cooking and actual followed history establish no recipe birthplace or verified nutrient calculation. American style or publisher location does not establish a country of origin. ",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "GS14-I03",
+      "title": "Independent wording correction",
+      "rationale": "This recipe mixes with a spatula; a blender is not part of its source or proposed flow. Keep the no-cook-product prerequisite and its safety limits while naming the operation actually used.",
+      "confidence": "high for method wording; moderate for actual-product applicability",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "location": "directions: spatula mixing"
+        },
+        {
+          "path": "privately retained evidence",
+          "location": "formula.steps[base]"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+          "location": "raw-grain flour and no home heat-treatment scope"
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Does the selected flour/powder manufacturer permit consumption without further cooking?"
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Brownie%20Protein%20Balls.html",
+    "introductionScope": "Actual retained pre-Markdown cooking introduction matching the exact native-bound recipe; canonical-path continuity must be distinguished where it was later recreated.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "GS14-P01",
+      "rationale": "Preserve fullrichdoses/ranges and sourcehoney/15–20minchill choices; reconcile contradictory fixedtablespoonscoop/twelveyield by dividingall dough intoabout12plannedballs withproportionalcount. Graduallyallocate optional1–2Tbsp once, include20minchillintotal and replace bulk-addedweek storage guarantee with actualingredientlimits.",
+      "applicability": "Exactnativehasnoportioncount/shelf-life andallowsgradualsameconditional liquid beforefullinclusions. Bulkfa890 introduced12/fixedscoop/week; persistence doesnotestablish tested yield. FDA supports40/2h/1hhot, not week-long no-cook shelf life orproteinclaims."
+    },
+    {
+      "id": "GS14-P02",
+      "rationale": "Require actual no-cook suitability of packaged almondflour/powder rather than certifying all almondflour or imposing a fabricated homeheattreatment. Retain the full almondflour, not replace it withgrainflour or reduce protein.",
+      "applicability": "FDA raw-grain flour warning and prohibition on homeheat treatment supports no rawwheat substitution; it is not a categorical claim that every almondflour is unsafe. AlmondBoarddescribesprocessorprograms, not the actual product. Label/manufacturer confirmation is conservative editorial applicability tothis no-cook preparation."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1/2 cup Creamy Almond Butter",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup Chocolate Protein Powder",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 2,
+        "text": "1/4 cup Almond Flour",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 3,
+        "text": "2 tbsp Unsweetened Cocoa Powder",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 4,
+        "text": "3-4 tbsp Maple Syrup",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 5,
+        "text": "2 tbsp Ground Flaxseed or Chia Seeds",
+        "destinations": 3,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 6,
+        "text": "1/4 cup Mini Chocolate Chips",
+        "destinations": 3,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 7,
+        "text": "1-2 tbsp Water or Almond Milk (if needed)",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 8,
+        "text": "Pinch of Sea Salt",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      }
+    ],
+    "unlistedBefore": [],
+    "proposed": [
+      {
+        "id": "dough.butter",
+        "name": "creamy almond butter",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1,
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.protein",
+        "name": "chocolate protein powder",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "use a product suitable for consumption without further cooking",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1,
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.flour",
+        "name": "almond flour",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "use a product suitable for consumption without further cooking",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1,
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.cocoa",
+        "name": "unsweetened cocoa powder",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1,
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.maple",
+        "name": "maple syrup",
+        "quantity": {
+          "amount": 3,
+          "max": 4,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1,
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.flax",
+        "name": "ground flaxseed or chia seeds",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "texture",
+            "share": 1,
+            "text": "Fold in {{ingredients}} until evenly distributed. If this makes the dough crumbly, use any remaining part of the same optional liquid range; do not count a second extra allowance."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.chips",
+        "name": "mini chocolate chips",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "texture",
+            "share": 1,
+            "text": "Fold in {{ingredients}} until evenly distributed. If this makes the dough crumbly, use any remaining part of the same optional liquid range; do not count a second extra allowance."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.salt",
+        "name": "sea salt",
+        "quantity": null,
+        "allowance": "a pinch",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "base",
+            "share": 1,
+            "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "hydration.liquid",
+        "name": "water or almond milk",
+        "quantity": {
+          "amount": 1,
+          "max": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "only as needed; add gradually within the listed range",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "hydrate",
+            "share": 1,
+            "text": "If the dough will not hold together, add {{ingredients}} a little at a time, mixing and checking after each addition. Use only as much of the listed range as needed; different powders and nut butters absorb liquid differently."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "base",
+      "title": "Mix",
+      "text": "Combine {{ingredients}} with a spatula until a thick dough begins to form.",
+      "generatedText": "1. **Mix:** Combine creamy almond butter, chocolate protein powder, almond flour, unsweetened cocoa powder, maple syrup, and sea salt with a spatula until a thick dough begins to form.",
+      "dependsOn": [],
+      "assigned": [
+        "dough.butter",
+        "dough.protein",
+        "dough.flour",
+        "dough.cocoa",
+        "dough.maple",
+        "dough.salt"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "hydrate",
+      "title": "Adjust hydration",
+      "text": "If the dough will not hold together, add {{ingredients}} a little at a time, mixing and checking after each addition. Use only as much of the listed range as needed; different powders and nut butters absorb liquid differently.",
+      "generatedText": "2. **Adjust hydration:** If the dough will not hold together, add water or almond milk (if using) a little at a time, mixing and checking after each addition. Use only as much of the listed range as needed; different powders and nut butters absorb liquid differently.",
+      "dependsOn": ["base"],
+      "assigned": ["hydration.liquid"]
+    },
+    {
+      "index": 3,
+      "id": "texture",
+      "title": "Add inclusions",
+      "text": "Fold in {{ingredients}} until evenly distributed. If this makes the dough crumbly, use any remaining part of the same optional liquid range; do not count a second extra allowance.",
+      "generatedText": "3. **Add inclusions:** Fold in ground flaxseed or chia seeds and mini chocolate chips until evenly distributed. If this makes the dough crumbly, use any remaining part of the same optional liquid range; do not count a second extra allowance.",
+      "dependsOn": ["hydrate"],
+      "assigned": ["dough.flax", "dough.chips"]
+    },
+    {
+      "index": 4,
+      "id": "roll",
+      "title": "Portion",
+      "text": "Divide the entire dough into roughly equal balls. About twelve balls is the original-batch planning count; their size depends on the actual mixture. For a scaled batch, increase the count proportionally rather than keeping twelve larger balls or assuming a fixed tablespoon scoop.",
+      "generatedText": "4. **Portion:** Divide the entire dough into roughly equal balls. About twelve balls is the original-batch planning count; their size depends on the actual mixture. For a scaled batch, increase the count proportionally rather than keeping twelve larger balls or assuming a fixed tablespoon scoop.",
+      "dependsOn": ["texture"],
+      "assigned": []
+    },
+    {
+      "index": 5,
+      "id": "chill",
+      "title": "Set",
+      "text": "Arrange on a clean plate or tray, cover and refrigerate at 40°F / 4°C or below for at least 20 minutes, until firm enough to handle.",
+      "generatedText": "5. **Set:** Arrange on a clean plate or tray, cover and refrigerate at 40°F / 4°C or below for at least 20 minutes, until firm enough to handle.",
+      "dependsOn": ["roll"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "store",
+      "title": "Store",
+      "text": "Keep covered and refrigerated. Use within the shortest after-opening instruction for the ingredients used, especially if almond milk was added. Keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.",
+      "generatedText": "6. **Store:** Keep covered and refrigerated. Use within the shortest after-opening instruction for the ingredients used, especially if almond milk was added. Keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.",
+      "dependsOn": ["chill"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Honey",
+        "changes": [
+          {
+            "replace": "dough.maple",
+            "name": "honey",
+            "amount": 3,
+            "max": 4,
+            "unit": "tbsp",
+            "destination": "base"
+          }
+        ],
+        "scope": "Exclusivefullrange; remainingmain unchanged."
+      },
+      {
+        "name": "Flax OR chia",
+        "changes": [
+          {
+            "replace": "dough.flax",
+            "name": "groundflax OR chia",
+            "amount": 2,
+            "unit": "tbsp",
+            "destination": "texture"
+          }
+        ],
+        "scope": "Exclusivefullinclusion."
+      },
+      {
+        "name": "Water OR almondmilk",
+        "changes": [
+          {
+            "replace": "hydration.liquid",
+            "name": "water OR almondmilk",
+            "amount": 1,
+            "max": 2,
+            "unit": "tbsp",
+            "optional": true,
+            "destination": "hydrate"
+          }
+        ],
+        "scope": "Oneconditionalrange total, notrepeatedafterinclusions."
+      },
+      {
+        "name": "Source15–20minsetting",
+        "changes": [],
+        "scope": "Completecurrentdoses unchanged;15–20minreferencewithactualfirmness; noyieldorshelflife assertion."
+      }
+    ],
+    "completeCookingOptions": "Honey may replace the full listed maple range; use only one sweetener and scale the range with the batch. Ground flaxseed and chia seeds are exclusive choices for the full listed inclusion amount. Water and almond milk are exclusive choices for the conditional liquid.\n\nUse packaged almond flour, protein powder and other ingredients suitable for a no-cook preparation; check the actual labels or manufacturer guidance. Do not replace almond flour with raw wheat flour or try to make raw flour safe through a home heat-treatment method. For a shorter rest, check firmness after 15–20 minutes; the main plan allows at least 20 minutes. Keep the mixture refrigerated.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "Same full listed range of honey",
+        "effect": "Exclusive sweetener choice; no vegan claim for honey."
+      },
+      {
+        "ingredient": "Ground flaxseed",
+        "alternative": "Same full amount of chia seeds",
+        "effect": "Different texture; keep the full amount and check firmness."
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "Actual product no-cook suitability must be verified from labels/manufacturer; no fabricated brand or treatment. Native yield and finished shelf life absent; current12 retained only as a planning count."
+    ],
+    "completeBranches": [
+      {
+        "name": "Honey",
+        "changes": [
+          {
+            "replace": "dough.maple",
+            "name": "honey",
+            "amount": 3,
+            "max": 4,
+            "unit": "tbsp",
+            "destination": "base"
+          }
+        ],
+        "scope": "Exclusivefullrange; remainingmain unchanged.",
+        "completeUnchangedMain": [
+          {
+            "id": "dough.butter",
+            "name": "creamy almond butter",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.protein",
+            "name": "chocolate protein powder",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flour",
+            "name": "almond flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.cocoa",
+            "name": "unsweetened cocoa powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flax",
+            "name": "ground flaxseed or chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.chips",
+            "name": "mini chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["base"]
+          },
+          {
+            "id": "hydration.liquid",
+            "name": "water or almond milk",
+            "quantity": {
+              "amount": 1,
+              "max": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["hydrate"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 0.75,
+                "max": 1,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": 0.5,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 1.5,
+                "max": 2,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": 1,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 3,
+                "max": 4,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 4.5,
+                "max": 6,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": 3,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 6,
+                "max": 8,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 2,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 9,
+                "max": 12,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 3,
+                  "max": 6,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.maple",
+                "name": "honey",
+                "amount": 3,
+                "max": 4,
+                "unit": "tbsp",
+                "destination": "base"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flax OR chia",
+        "changes": [
+          {
+            "replace": "dough.flax",
+            "name": "groundflax OR chia",
+            "amount": 2,
+            "unit": "tbsp",
+            "destination": "texture"
+          }
+        ],
+        "scope": "Exclusivefullinclusion.",
+        "completeUnchangedMain": [
+          {
+            "id": "dough.butter",
+            "name": "creamy almond butter",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.protein",
+            "name": "chocolate protein powder",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flour",
+            "name": "almond flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.cocoa",
+            "name": "unsweetened cocoa powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": 3,
+              "max": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.chips",
+            "name": "mini chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["base"]
+          },
+          {
+            "id": "hydration.liquid",
+            "name": "water or almond milk",
+            "quantity": {
+              "amount": 1,
+              "max": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["hydrate"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 0.5,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": 1,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": 0.5,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": 1,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 4.5,
+                  "max": 6,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": 3,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 4,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 6,
+                  "max": 8,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 2,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 6,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 9,
+                  "max": 12,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 3,
+                  "max": 6,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "dough.flax",
+                "name": "groundflax OR chia",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "texture",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Water OR almondmilk",
+        "changes": [
+          {
+            "replace": "hydration.liquid",
+            "name": "water OR almondmilk",
+            "amount": 1,
+            "max": 2,
+            "unit": "tbsp",
+            "optional": true,
+            "destination": "hydrate"
+          }
+        ],
+        "scope": "Oneconditionalrange total, notrepeatedafterinclusions.",
+        "completeUnchangedMain": [
+          {
+            "id": "dough.butter",
+            "name": "creamy almond butter",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.protein",
+            "name": "chocolate protein powder",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flour",
+            "name": "almond flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.cocoa",
+            "name": "unsweetened cocoa powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": 3,
+              "max": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flax",
+            "name": "ground flaxseed or chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.chips",
+            "name": "mini chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["base"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 0.25,
+                "max": 0.5,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": 1,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 0.5,
+                "max": 1,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 1,
+                "max": 2,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 1.5,
+                "max": 3,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 4.5,
+                  "max": 6,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 2,
+                "max": 4,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 6,
+                  "max": 8,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 3,
+                "max": 6,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 9,
+                  "max": 12,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "hydration.liquid",
+                "name": "water OR almondmilk",
+                "amount": 1,
+                "max": 2,
+                "unit": "tbsp",
+                "optional": true,
+                "destination": "hydrate"
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Source15–20minsetting",
+        "changes": [],
+        "scope": "Completecurrentdoses unchanged;15–20minreferencewithactualfirmness; noyieldorshelflife assertion.",
+        "completeUnchangedMain": [
+          {
+            "id": "dough.butter",
+            "name": "creamy almond butter",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.protein",
+            "name": "chocolate protein powder",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flour",
+            "name": "almond flour",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.cocoa",
+            "name": "unsweetened cocoa powder",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": 3,
+              "max": 4,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["base"]
+          },
+          {
+            "id": "dough.flax",
+            "name": "ground flaxseed or chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.chips",
+            "name": "mini chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["texture"]
+          },
+          {
+            "id": "dough.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["base"]
+          },
+          {
+            "id": "hydration.liquid",
+            "name": "water or almond milk",
+            "quantity": {
+              "amount": 1,
+              "max": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["hydrate"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": 1,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": 0.5,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": 1,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 4.5,
+                  "max": 6,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": 3,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 6,
+                  "max": 8,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 2,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 9,
+                  "max": 12,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 3,
+                  "max": 6,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "dough.butter",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.protein",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flour",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.cocoa",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": 4,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.flax",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.chips",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "dough.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "hydration.liquid",
+                "quantity": {
+                  "amount": 1,
+                  "max": 2,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "blueberry-banana-pancake-muffins",
+      "blueberry-oat-breakfast-bars",
+      "easy-chia-pudding"
+    ],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained only as metadata; no composed-meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Full½cup almondbutter/½cup protein/¼cup almondflour/2tbsp cocoa/3–4tbspmaple/2tbspflaxORchia/¼cupchips/optional1–2tbspwaterORalmondmilk/pinchsalt retained. Native noyield; bulkfa890 adds12balls and1tbspfixedscoop. About12plannedwhole-dough divisions avoids asserting bothunmeasuredcountandscoop. Main20minchill preserved, original15–20variant named.",
+    "planningYield": {
+      "amount": 12,
+      "unit": "piece"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What actual ball size/count does the full dough make? Is one-week quality/storage household-established? Powdercomposition/liquidneed untested.",
+    "Does the actual almondflour andproteinpowder manufacturer permit no-cook consumption? No model/product certification or homelethality test performed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

@@ -1,0 +1,1847 @@
+{
+  "slug": "pho-bo-beef-pho",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "e0cf9a07240a3474608120be20a48846edc39e44097d4c739826cf675ba50150",
+  "acceptedSourceSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Vietnam",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "4 hr",
+      "after": "About 4 hr 30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "4.5 hr",
+      "after": "About 5 hr, plus any additional brisket chilling"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 lbs Beef Marrow Bones, cut into 3-inch pieces",
+        "2 lbs Beef Brisket, whole piece",
+        "2 large Yellow Onions, unpeeled and halved",
+        "1 (4-inch) piece Fresh Ginger, halved lengthwise",
+        "4 Star Anise, whole",
+        "1 Cinnamon Stick (3-inch, Vietnamese preferred)",
+        "6 whole Cloves",
+        "1 tbsp Coriander Seeds",
+        "1 Cardamom Pod",
+        "6 quarts Cold Water",
+        "3 tbsp Fish Sauce, plus more to taste",
+        "1 tbsp Sugar",
+        "1 tbsp Kosher Salt",
+        "1 lb Dried Rice Noodles (banh pho, medium width)",
+        "1/2 lb Eye of Round, sliced paper-thin against the grain",
+        "Bean Sprouts, for serving",
+        "Fresh Thai Basil, for serving",
+        "Fresh Cilantro, for serving",
+        "Lime Wedges, for serving",
+        "Thinly Sliced Jalapenos, for serving",
+        "Hoisin Sauce and Sriracha, for serving"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "3 lb beef marrow bones, cut into 3-inch pieces",
+        "2 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "2 large yellow onions, unpeeled, washed and halved",
+        "1 4-inch piece of fresh ginger, washed and halved lengthwise",
+        "4 whole star anise",
+        "1 3-inch cinnamon stick, Vietnamese cinnamon preferred",
+        "6 whole cloves",
+        "1 tbsp coriander seeds",
+        "1 cardamom pod",
+        "6 quarts cold water",
+        "3 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 tbsp sugar",
+        "1 tbsp kosher salt",
+        "1 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1/2 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 950,
+        "protein": 84.5,
+        "carbs": 66.5,
+        "fat": 37.5,
+        "fiber": 2.5,
+        "sugar": 4.5,
+        "sodium": 2380
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "bones",
+                "key": "beef-marrow-bones",
+                "name": "beef marrow bones",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "parboil",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cut into 3-inch pieces"
+              },
+              {
+                "id": "brisket",
+                "key": "beef-brisket",
+                "name": "whole beef brisket",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "parboil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parboil-water",
+                "key": "water",
+                "name": "cold water",
+                "allowance": "enough to cover the bones and brisket for the initial discarded parboil",
+                "uses": [
+                  {
+                    "step": "parboil",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "onions",
+                "key": "yellow-onion",
+                "name": "large yellow onion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "char",
+                    "share": 1
+                  }
+                ],
+                "plural": "large yellow onions",
+                "preparation": "unpeeled, washed and halved"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "4-inch piece of fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "char",
+                    "share": 1
+                  }
+                ],
+                "plural": "4-inch pieces of fresh ginger",
+                "preparation": "washed and halved lengthwise"
+              },
+              {
+                "id": "star-anise",
+                "key": "star-anise",
+                "name": "whole star anise",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ],
+                "plural": "whole star anise"
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon-stick",
+                "name": "3-inch cinnamon stick",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ],
+                "plural": "3-inch cinnamon sticks",
+                "preparation": "Vietnamese cinnamon preferred"
+              },
+              {
+                "id": "cloves",
+                "key": "cloves",
+                "name": "whole clove",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ],
+                "plural": "whole cloves"
+              },
+              {
+                "id": "coriander",
+                "key": "coriander-seeds",
+                "name": "coriander seeds",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cardamom",
+                "key": "cardamom-pod",
+                "name": "cardamom pod",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ],
+                "plural": "cardamom pods"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "cold water",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "quart"
+                },
+                "uses": [
+                  {
+                    "step": "broth",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "fish-sauce",
+                "key": "fish-sauce",
+                "name": "fish sauce",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-fish-sauce",
+                "key": "fish-sauce",
+                "name": "additional fish sauce",
+                "allowance": "to taste after the broth is cooked",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "noodles",
+                "key": "banh-pho",
+                "name": "dried medium-width rice noodles (banh pho)",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "noodle-water",
+                "key": "water",
+                "name": "water",
+                "allowance": "as required by the rice-noodle package for soaking and cooking; drain before serving",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "eye",
+                "key": "beef-eye-round",
+                "name": "eye of round",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "meats",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced paper-thin against the grain"
+              },
+              {
+                "id": "sprouts",
+                "key": "bean-sprouts",
+                "name": "bean sprouts",
+                "allowance": "as desired for serving; thoroughly cooked for the main route",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "basil",
+                "key": "thai-basil",
+                "name": "fresh Thai basil",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "lime wedges",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "jalapeno",
+                "key": "jalapeno",
+                "name": "thinly sliced jalapeños",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "hoisin",
+                "key": "hoisin",
+                "name": "hoisin sauce",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "sriracha",
+                "key": "sriracha",
+                "name": "Sriracha",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "parboil",
+            "title": "Parboil",
+            "text": "Place {{ingredients}} in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step."
+          },
+          {
+            "id": "char",
+            "title": "Char aromatics",
+            "text": "While the bones parboil, arrange {{ingredients}} on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling."
+          },
+          {
+            "id": "toast",
+            "title": "Toast spices",
+            "text": "Toast {{ingredients}} in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle."
+          },
+          {
+            "id": "broth",
+            "title": "Build broth",
+            "text": "Return the cleaned bones and brisket to the clean pot. Add {{ingredients}}, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary."
+          },
+          {
+            "id": "brisket",
+            "title": "Cook and chill brisket",
+            "text": "Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours."
+          },
+          {
+            "id": "season",
+            "title": "Strain and season",
+            "text": "Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in {{ingredients}}, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked."
+          },
+          {
+            "id": "noodles",
+            "title": "Prepare noodles",
+            "text": "Use {{ingredients}}. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock."
+          },
+          {
+            "id": "meats",
+            "title": "Prepare meats",
+            "text": "Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For {{ingredients}}, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats."
+          },
+          {
+            "id": "serve",
+            "title": "Assemble",
+            "text": "Prepare {{ingredients}} for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate broth extraction with two distinct meat preparations",
+        "outcome": "A fragrant strained broth, tender sliced brisket and eye of round cooked before bowl assembly.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen supplies. Prepare serving herbs and vegetables with clean tools before handling raw meat; keep cooked food and its utensils separate.",
+          "Wash the serving herbs and vegetables; keep their platter away from the raw beef. Use enough stockpot and broiler capacity, dividing the entire formula proportionally when extra loads are needed.",
+          "The six portions are the original serving plan. Six quarts is starting broth water, separate from discarded parboil/noodle water; finished volume, portion size and chilling time have not been measured."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "A skewer enters the brisket with little resistance; its center has reached the whole-cut endpoint before cooling.",
+            "why": "Tenderness and temperature answer different questions. A fixed simmer or ten-minute ice bath does not establish safe cooking and cold-through slicing."
+          },
+          {
+            "step": 8,
+            "cue": "Brisket reheats to 165°F throughout; representative eye-of-round slices reach 145°F followed by their 3-minute rest.",
+            "why": "The two meats start in different states. Keep the established checks even when the slices change color quickly."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Brisket is too warm or soft to slice thinly",
+            "cause": "Whole-piece size and chilling conditions vary.",
+            "fix": "Keep it refrigerated until cold through and firm; allow additional elapsed time. Slice across the grain, then reheat the slices as directed."
+          }
+        ],
+        "timing": "Plan about 5 hours for the original batch, with roughly 30 minutes preparation and about 4 hours broth simmering plus parboiling, heating and finishing. Char and toast while parboiling; chill the fully cooked brisket while the bones continue. Additional chilling, noodle-package cooking or extra pot/broiler loads extends the schedule. The clock is a planning estimate, not an observed cook.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Store broth, meats and drained noodles separately when practical so the noodles do not keep absorbing broth. Reheat while stirring to 165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time. Reheat the stored meat to 165°F throughout; further cooking can firm the thin beef and soften noodles.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov whole-cut and leftover endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA leftovers and cooling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA produce and raw sprouts",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe soul of great pho bo lives in the charred aromatics and the long, patient simmer. Blackening the onions and ginger under the broiler builds a smoky sweetness that no shortcut can replicate. The most common mistake is boiling the broth too hard, which turns it cloudy and greasy. Keep it at a bare simmer -- you want lazy bubbles, not a rolling boil. Parboiling the bones first and rinsing them clean is the single most important step for a clear, golden broth.\n\n## Directions\n\n1.  **Parboil the Bones:** Place the marrow bones and brisket in a large stockpot. Cover with cold water and bring to a vigorous boil for 10 minutes. Drain, rinse the bones and meat under cold water, and scrub the pot clean. This removes impurities and is essential for a clear broth.\n\n2.  **Char the Aromatics:** While the bones parboil, place the halved onions and ginger cut-side down on a sheet pan. Broil on high for 12-15 minutes until deeply blackened and softened. The char is critical for flavor.\n\n3.  **Toast the Spices:** In a dry skillet over medium heat, toast the star anise, cinnamon stick, cloves, coriander seeds, and cardamom pod for 2-3 minutes until fragrant. Place them in a spice sachet or cheesecloth bundle.\n\n4.  **Build the Broth:** Return the cleaned bones and brisket to the scrubbed pot. Add 6 quarts cold water, charred aromatics, and spice bundle. Bring to a boil, then immediately reduce to the gentlest possible simmer. Skim any foam that rises during the first 30 minutes.\n\n5.  **Remove the Brisket:** After 1.5-2 hours, check the brisket with a chopstick. When it slides through with little resistance, transfer the brisket to an ice bath for 10 minutes (this firms the meat for slicing), then refrigerate. Continue simmering the bones for 2 more hours.\n\n6.  **Season the Broth:** After a total of 4 hours, strain the broth through a fine-mesh strainer lined with cheesecloth. Discard solids. Stir in the fish sauce, sugar, and salt. Taste and adjust -- the broth should be deeply savory with a hint of sweetness.\n\n7.  **Prepare the Noodles:** Soak the rice noodles in warm water for 20-25 minutes until pliable. Just before serving, cook in rapidly boiling water for 30-60 seconds until tender. Drain immediately.\n\n8.  **Prepare the Meats:** Slice the chilled brisket across the grain into thin pieces and reheat it in simmering broth to 165°F / 74°C throughout. For the fully cooked eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified.\n\n9.  **Assemble:** Divide noodles among deep bowls. Top with the reheated brisket and cooked, rested eye of round. Ladle hot broth over the meat and noodles. Serve immediately with a platter of bean sprouts, Thai basil, cilantro, lime wedges, jalapenos, hoisin, and sriracha.\n",
+    "after": "\n## Chef's Note\n\nCharred onion and ginger, toasted spices and a gentle bone simmer give this beef pho its aromatic broth. Keep the brisket tenderness, its cooling for slicing, and the eye-of-round cooking as separate decisions. Both meats are cooked before bowl assembly; a ladle of hot broth is not a reliable substitute for checking thin beef.\n\n## Directions\n\n1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.\n\n## Serving option\n\nThe raw bean-sprout garnish remains an option with a food-safety limitation: raw or lightly cooked sprouts can contain harmful bacteria, and FDA advises children, pregnant people, older adults and people with weakened immune systems to avoid them. Washing or briefly warming them in a bowl does not establish safety; use thoroughly cooked sprouts for those diners.\n"
+  },
+  "findings": [
+    {
+      "id": "MS15-P01",
+      "title": "MS15-P01",
+      "rationale": "Preserve all21 current supplies and full6quart broth input, add only genuine discarded parboil/noodle water; separate all meat/spice/garnish destinations and make6quarts a scaled listed supply. Expose cut faces to the broiler and qualify actual vessel/rack guidance instead of claiming fixed cut-down geometry guarantees char.",
+      "confidence": "high ingredient conservation; moderate broiler geometry",
+      "applicableSources": [
+        "actualfd4f07a8/fullfollowedhistory",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual stockpot and broiler loads, source of this Git-only formula, noodle package and finished broth output?"
+      ]
+    },
+    {
+      "id": "MS15-P02",
+      "title": "MS15-P02",
+      "rationale": "Keep a2 cooked-eye145/3-minute and brisket165 repairs. Add first whole-brisket endpoint/rest and prompt cold-through cooling rather than treating10minutes ice bath as completion; reconcile1½–2hour removal with4-hour total simmer rather than rigidtwoadditionalhours. No partial parboil/chilled meat holding route is introduced.",
+      "confidence": "high categorical targets/cooling; moderate actual thin-piece measurement and elapsed planning",
+      "applicableSources": [
+        "a2c9e280 exactdiff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Can representative eye-of-round slices be reliably measured with the actual probe? How long does the actual brisket chill cold through?"
+      ]
+    },
+    {
+      "id": "MS15-P03",
+      "title": "MS15-P03",
+      "rationale": "Keep the sprouts as a serving ingredient and explicitly retain the original raw option with FDA scope; thoroughly cooked sprouts are main, without an invented numeric kill clock. Noodle package method replaces a universal soak/30-second guarantee.",
+      "confidence": "high FDA rawsprout risk; moderate actual product cooking",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "fd4f07a8 originalnoodle/rawgarnish context"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Which noodle product and sprout preparation does the household use? Raw option is not endorsed for vulnerable diners."
+      ]
+    },
+    {
+      "id": "MS15-P04",
+      "title": "MS15-P04",
+      "rationale": "Retain Vietnamese cuisine and pho aromatics/context, omit unsupported specific birth-country and automatic nutrition claims; do not invent an external recipe author for Git-only introduction.",
+      "confidence": "high provenance limitation",
+      "applicableSources": ["fd4f07a8 introduction", "docs/RECIPE_STANDARD.md"],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Is there a durable original author/publisher for this formula?"]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/pho-bo-beef-pho.md",
+    "introductionScope": "Git-only earliest available followed cooking source; no exact original450 match established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Serving options",
+      "supplies": "Genuineunmeasuredsprouts/basil/cilantro/lime/jalapeno/hoisin/Sriracha and extra fishsauce",
+      "destination": "Mainthoroughlycookedsprouts; originalrawgarnishoptionexplicitFDA limitation; sauces/garnishes separatelyserve, fishsaucetasteaftercook",
+      "status": "main proposed; rawoption not endorsedforvulnerablepeople"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "3 lbs Beef Marrow Bones, cut into 3-inch pieces",
+        "preparation": "3-inch marrow bones",
+        "destination": "parboil1 rinse→broth4–5→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "2 lbs Beef Brisket, whole piece",
+        "preparation": "whole brisket",
+        "destination": "parboil1→simmer4–5→ice10min/refrigerate5→slice/reheat165step8",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 large Yellow Onions, unpeeled and halved",
+        "preparation": "unpeeled halved",
+        "destination": "broil2 cutdown conflict→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 (4-inch) piece Fresh Ginger, halved lengthwise",
+        "preparation": "one4inchpiecehalved",
+        "destination": "broil2→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "4 Star Anise, whole",
+        "preparation": "whole",
+        "destination": "toast3 bundle→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 Cinnamon Stick (3-inch, Vietnamese preferred)",
+        "preparation": "3-inch stick",
+        "destination": "toast3 bundle→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "6 whole Cloves",
+        "preparation": "whole",
+        "destination": "toast3 bundle→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tbsp Coriander Seeds",
+        "preparation": "seeds",
+        "destination": "toast3 bundle→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 Cardamom Pod",
+        "preparation": "pod",
+        "destination": "toast3 bundle→broth4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "6 quarts Cold Water",
+        "preparation": "cold6quarts",
+        "destination": "broth4 literal fixed6quart→strain6; NOT finished yield",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 10,
+        "ingredient": "3 tbsp Fish Sauce, plus more to taste",
+        "preparation": "3Tplusmore",
+        "destination": "season6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 11,
+        "ingredient": "1 tbsp Sugar",
+        "preparation": "sugar",
+        "destination": "season6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 12,
+        "ingredient": "1 tbsp Kosher Salt",
+        "preparation": "kosher salt unspecified density",
+        "destination": "season6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 13,
+        "ingredient": "1 lb Dried Rice Noodles (banh pho, medium width)",
+        "preparation": "dry medium-width",
+        "destination": "soak20–25/boil30–60step7",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 14,
+        "ingredient": "1/2 lb Eye of Round, sliced paper-thin against the grain",
+        "preparation": "paperthin wholemuscle",
+        "destination": "simmer145/3minrest8→serve9",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 15,
+        "ingredient": "Bean Sprouts, for serving",
+        "preparation": "state not explicit, raw serving inferred",
+        "destination": "platter9; no cook step",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 16,
+        "ingredient": "Fresh Thai Basil, for serving",
+        "preparation": "fresh",
+        "destination": "platter9",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 17,
+        "ingredient": "Fresh Cilantro, for serving",
+        "preparation": "fresh",
+        "destination": "platter9",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 18,
+        "ingredient": "Lime Wedges, for serving",
+        "preparation": "wedges",
+        "destination": "platter9",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 19,
+        "ingredient": "Thinly Sliced Jalapenos, for serving",
+        "preparation": "thin slices",
+        "destination": "platter9",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 20,
+        "ingredient": "Hoisin Sauce and Sriracha, for serving",
+        "preparation": "two sauces",
+        "destination": "platter9",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.bones",
+        "key": "beef-marrow-bones",
+        "name": "beef marrow bones",
+        "quantity": {
+          "amount": 3,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "parboil",
+            "share": 1
+          }
+        ],
+        "preparation": "cut into 3-inch pieces",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.brisket",
+        "key": "beef-brisket",
+        "name": "whole beef brisket",
+        "quantity": {
+          "amount": 2,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "parboil",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.parboil-water",
+        "key": "water",
+        "name": "cold water",
+        "allowance": "enough to cover the bones and brisket for the initial discarded parboil",
+        "uses": [
+          {
+            "step": "parboil",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onions",
+        "key": "yellow-onion",
+        "name": "large yellow onion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "char",
+            "share": 1
+          }
+        ],
+        "plural": "large yellow onions",
+        "preparation": "unpeeled, washed and halved",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.ginger",
+        "key": "ginger",
+        "name": "4-inch piece of fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "char",
+            "share": 1
+          }
+        ],
+        "plural": "4-inch pieces of fresh ginger",
+        "preparation": "washed and halved lengthwise",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.star-anise",
+        "key": "star-anise",
+        "name": "whole star anise",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "toast",
+            "share": 1
+          }
+        ],
+        "plural": "whole star anise",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cinnamon",
+        "key": "cinnamon-stick",
+        "name": "3-inch cinnamon stick",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "toast",
+            "share": 1
+          }
+        ],
+        "plural": "3-inch cinnamon sticks",
+        "preparation": "Vietnamese cinnamon preferred",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cloves",
+        "key": "cloves",
+        "name": "whole clove",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "toast",
+            "share": 1
+          }
+        ],
+        "plural": "whole cloves",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.coriander",
+        "key": "coriander-seeds",
+        "name": "coriander seeds",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "toast",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cardamom",
+        "key": "cardamom-pod",
+        "name": "cardamom pod",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "toast",
+            "share": 1
+          }
+        ],
+        "plural": "cardamom pods",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.water",
+        "key": "water",
+        "name": "cold water",
+        "quantity": {
+          "amount": 6,
+          "unit": "quart"
+        },
+        "uses": [
+          {
+            "step": "broth",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.fish-sauce",
+        "key": "fish-sauce",
+        "name": "fish sauce",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.extra-fish-sauce",
+        "key": "fish-sauce",
+        "name": "additional fish sauce",
+        "allowance": "to taste after the broth is cooked",
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sugar",
+        "key": "sugar",
+        "name": "sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.salt",
+        "key": "kosher-salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.noodles",
+        "key": "banh-pho",
+        "name": "dried medium-width rice noodles (banh pho)",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.noodle-water",
+        "key": "water",
+        "name": "water",
+        "allowance": "as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "uses": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.eye",
+        "key": "beef-eye-round",
+        "name": "eye of round",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "meats",
+            "share": 1
+          }
+        ],
+        "preparation": "sliced paper-thin against the grain",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sprouts",
+        "key": "bean-sprouts",
+        "name": "bean sprouts",
+        "allowance": "as desired for serving; thoroughly cooked for the main route",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.basil",
+        "key": "thai-basil",
+        "name": "fresh Thai basil",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cilantro",
+        "key": "cilantro",
+        "name": "fresh cilantro",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.lime",
+        "key": "lime",
+        "name": "lime wedges",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.jalapeno",
+        "key": "jalapeno",
+        "name": "thinly sliced jalapeños",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.hoisin",
+        "key": "hoisin",
+        "name": "hoisin sauce",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sriracha",
+        "key": "sriracha",
+        "name": "Sriracha",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      }
+    ],
+    "native": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "9bb9733bfc2b058f10eb720fb962d389aa8bebf4f7dedffda45fcce307c98c8f"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "2d09be9da52e200eaa16ec52805ea3f3ee95128d06cc2a3a13fa53207a5026cf"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "a8fb1c438264ffcd183afd5b0e9ad2d8549fd87ea6f61b2e745e9cb8b4929a32"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "7fed26b0e812a1fa5cd016ffa626ae7a3d1834255cc1b68141a2c41c882d3783"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "410a6c0440e15e3491413b835de7d7f4ca6e7f02332225949c5d220e55238d66"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "3710b411942dcce3e3296bfe41bb833f15878a1342b5f06c7ecdb41ad4366fe7"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "1ce531eae82f940ea9d23901b19dab363fa6f68798d09ba1e5e81007bdc16d3b"
+      },
+      {
+        "step": 8,
+        "textReference": "privately retained evidence#directions-8",
+        "sha256": "3fe1ce3098066feb9d04d53961a5ce9117e25a5f5278731849ec5b7252f4aa51"
+      },
+      {
+        "step": 9,
+        "textReference": "privately retained evidence#directions-9",
+        "sha256": "cbc94bd1300e3cbe91c3daac56efedde4a9087fea3460035bc325cffa7b6c144"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "parboil",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.bones", "main.brisket", "main.parboil-water"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "char",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.onions", "main.ginger"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "toast",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [
+          "main.star-anise",
+          "main.cinnamon",
+          "main.cloves",
+          "main.coriander",
+          "main.cardamom"
+        ],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "broth",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.water"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "brisket",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": [],
+        "cue": [
+          "A skewer enters the brisket with little resistance; its center has reached the whole-cut endpoint before cooling."
+        ]
+      },
+      {
+        "step": 6,
+        "id": "season",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["main.fish-sauce", "main.extra-fish-sauce", "main.sugar", "main.salt"],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "noodles",
+        "textReference": "privately retained evidence#formula.steps[6].text",
+        "ingredients": ["main.noodles", "main.noodle-water"],
+        "cue": []
+      },
+      {
+        "step": 8,
+        "id": "meats",
+        "textReference": "privately retained evidence#formula.steps[7].text",
+        "ingredients": ["main.eye"],
+        "cue": [
+          "Brisket reheats to 165°F throughout; representative eye-of-round slices reach 145°F followed by their 3-minute rest."
+        ]
+      },
+      {
+        "step": 9,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[8].text",
+        "ingredients": [
+          "main.sprouts",
+          "main.basil",
+          "main.cilantro",
+          "main.lime",
+          "main.jalapeno",
+          "main.hoisin",
+          "main.sriracha"
+        ],
+        "cue": []
+      }
+    ],
+    "native": null
+  },
+  "variantLedgers": [
+    {
+      "name": "Broth and meat main",
+      "supplies": "3lbbones2lbbrisket½lbeye1lbdrynoodles6qtwater/full3Tfishsauce1Tsugar1Tkosher; all aromatics and spices",
+      "destination": "Parboilwaterdiscard→all brothwater retaineduntilstrain; brisket fullycook/rest/chill/reheat165; eye145rest3 beforeassembly; bones/bundle/chararomaticsdiscard",
+      "status": "preserved with safety/cooling clarity"
+    },
+    {
+      "name": "Serving options",
+      "supplies": "Genuineunmeasuredsprouts/basil/cilantro/lime/jalapeno/hoisin/Sriracha and extra fishsauce",
+      "destination": "Mainthoroughlycookedsprouts; originalrawgarnishoptionexplicitFDA limitation; sauces/garnishes separatelyserve, fishsaucetasteaftercook",
+      "status": "main proposed; rawoption not endorsedforvulnerablepeople"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "input": "3lbbones+2lbwholebrisket/6qtstartingwater;½lbeyeslices and1lbdrynoodles; full3Tfish/1Tsugar/1Tkosher retained",
+    "yield": "Sixplanningportions; broth volume and bowlcapacity unmeasured, unused broth promptlycool; no fixed finished6quartyield",
+    "capacity": "All measuredwaterand solids needactual stockpot headroom; extra pots divide full supplies; broiler geometryactualmanual"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3/4 lb beef marrow bones, cut into 3-inch pieces",
+        "1/2 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "1/2 large yellow onion, unpeeled, washed and halved",
+        "1/4 4-inch piece of fresh ginger, washed and halved lengthwise",
+        "1 whole star anise",
+        "1/4 3-inch cinnamon stick, Vietnamese cinnamon preferred",
+        "1 1/2 whole cloves",
+        "1/4 tbsp coriander seeds",
+        "1/4 cardamom pod",
+        "1 1/2 quarts cold water",
+        "3/4 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1/4 tbsp sugar",
+        "1/4 tbsp kosher salt",
+        "1/4 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1/8 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "3/4 lb beef marrow bones",
+        "1/2 lb whole beef brisket",
+        "1/2 large yellow onion",
+        "1/4 4-inch piece of fresh ginger",
+        "1 whole star anise",
+        "1/4 3-inch cinnamon stick",
+        "1 1/2 whole cloves",
+        "1/4 tbsp coriander seeds",
+        "1/4 cardamom pod",
+        "3/4 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1/4 tbsp sugar",
+        "1/4 tbsp kosher salt",
+        "1/4 lb dried medium-width rice noodles (banh pho)",
+        "1/8 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb beef marrow bones, cut into 3-inch pieces",
+        "1 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "1 large yellow onion, unpeeled, washed and halved",
+        "1/2 4-inch piece of fresh ginger, washed and halved lengthwise",
+        "2 whole star anise",
+        "1/2 3-inch cinnamon stick, Vietnamese cinnamon preferred",
+        "3 whole cloves",
+        "1/2 tbsp coriander seeds",
+        "1/2 cardamom pod",
+        "3 quarts cold water",
+        "1 1/2 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1/2 tbsp sugar",
+        "1/2 tbsp kosher salt",
+        "1/2 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1/4 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "1 1/2 lb beef marrow bones",
+        "1 lb whole beef brisket",
+        "1 large yellow onion",
+        "1/2 4-inch piece of fresh ginger",
+        "2 whole star anise",
+        "1/2 3-inch cinnamon stick",
+        "3 whole cloves",
+        "1/2 tbsp coriander seeds",
+        "1/2 cardamom pod",
+        "1 1/2 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1/2 tbsp sugar",
+        "1/2 tbsp kosher salt",
+        "1/2 lb dried medium-width rice noodles (banh pho)",
+        "1/4 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb beef marrow bones, cut into 3-inch pieces",
+        "2 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "2 large yellow onions, unpeeled, washed and halved",
+        "1 4-inch piece of fresh ginger, washed and halved lengthwise",
+        "4 whole star anise",
+        "1 3-inch cinnamon stick, Vietnamese cinnamon preferred",
+        "6 whole cloves",
+        "1 tbsp coriander seeds",
+        "1 cardamom pod",
+        "6 quarts cold water",
+        "3 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 tbsp sugar",
+        "1 tbsp kosher salt",
+        "1 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1/2 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "3 lb beef marrow bones",
+        "2 lb whole beef brisket",
+        "2 large yellow onions",
+        "1 4-inch piece of fresh ginger",
+        "4 whole star anise",
+        "1 3-inch cinnamon stick",
+        "6 whole cloves",
+        "1 tbsp coriander seeds",
+        "1 cardamom pod",
+        "3 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 tbsp sugar",
+        "1 tbsp kosher salt",
+        "1 lb dried medium-width rice noodles (banh pho)",
+        "1/2 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 1/2 lb beef marrow bones, cut into 3-inch pieces",
+        "3 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "3 large yellow onions, unpeeled, washed and halved",
+        "1 1/2 4-inch pieces of fresh ginger, washed and halved lengthwise",
+        "6 whole star anise",
+        "1 1/2 3-inch cinnamon sticks, Vietnamese cinnamon preferred",
+        "9 whole cloves",
+        "1 1/2 tbsp coriander seeds",
+        "1 1/2 cardamom pods",
+        "9 quarts cold water",
+        "4 1/2 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 1/2 tbsp sugar",
+        "1 1/2 tbsp kosher salt",
+        "1 1/2 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "3/4 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "9 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "4 1/2 lb beef marrow bones",
+        "3 lb whole beef brisket",
+        "3 large yellow onions",
+        "1 1/2 4-inch pieces of fresh ginger",
+        "6 whole star anise",
+        "1 1/2 3-inch cinnamon sticks",
+        "9 whole cloves",
+        "1 1/2 tbsp coriander seeds",
+        "1 1/2 cardamom pods",
+        "4 1/2 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 1/2 tbsp sugar",
+        "1 1/2 tbsp kosher salt",
+        "1 1/2 lb dried medium-width rice noodles (banh pho)",
+        "3/4 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "6 lb beef marrow bones, cut into 3-inch pieces",
+        "4 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "4 large yellow onions, unpeeled, washed and halved",
+        "2 4-inch pieces of fresh ginger, washed and halved lengthwise",
+        "8 whole star anise",
+        "2 3-inch cinnamon sticks, Vietnamese cinnamon preferred",
+        "12 whole cloves",
+        "2 tbsp coriander seeds",
+        "2 cardamom pods",
+        "12 quarts cold water",
+        "6 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "2 tbsp sugar",
+        "2 tbsp kosher salt",
+        "2 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "6 lb beef marrow bones",
+        "4 lb whole beef brisket",
+        "4 large yellow onions",
+        "2 4-inch pieces of fresh ginger",
+        "8 whole star anise",
+        "2 3-inch cinnamon sticks",
+        "12 whole cloves",
+        "2 tbsp coriander seeds",
+        "2 cardamom pods",
+        "6 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "2 tbsp sugar",
+        "2 tbsp kosher salt",
+        "2 lb dried medium-width rice noodles (banh pho)",
+        "1 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "9 lb beef marrow bones, cut into 3-inch pieces",
+        "6 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "6 large yellow onions, unpeeled, washed and halved",
+        "3 4-inch pieces of fresh ginger, washed and halved lengthwise",
+        "12 whole star anise",
+        "3 3-inch cinnamon sticks, Vietnamese cinnamon preferred",
+        "18 whole cloves",
+        "3 tbsp coriander seeds",
+        "3 cardamom pods",
+        "18 quarts cold water",
+        "9 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "3 tbsp sugar",
+        "3 tbsp kosher salt",
+        "3 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1 1/2 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "18 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "9 lb beef marrow bones",
+        "6 lb whole beef brisket",
+        "6 large yellow onions",
+        "3 4-inch pieces of fresh ginger",
+        "12 whole star anise",
+        "3 3-inch cinnamon sticks",
+        "18 whole cloves",
+        "3 tbsp coriander seeds",
+        "3 cardamom pods",
+        "9 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "3 tbsp sugar",
+        "3 tbsp kosher salt",
+        "3 lb dried medium-width rice noodles (banh pho)",
+        "1 1/2 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb beef marrow bones, cut into 3-inch pieces",
+        "2 lb whole beef brisket",
+        "cold water, enough to cover the bones and brisket for the initial discarded parboil",
+        "2 large yellow onions, unpeeled, washed and halved",
+        "1 4-inch piece of fresh ginger, washed and halved lengthwise",
+        "4 whole star anise",
+        "1 3-inch cinnamon stick, Vietnamese cinnamon preferred",
+        "6 whole cloves",
+        "1 tbsp coriander seeds",
+        "1 cardamom pod",
+        "6 quarts cold water",
+        "3 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 tbsp sugar",
+        "1 tbsp kosher salt",
+        "1 lb dried medium-width rice noodles (banh pho)",
+        "water, as required by the rice-noodle package for soaking and cooking; drain before serving",
+        "1/2 lb eye of round, sliced paper-thin against the grain",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Parboil:** Place beef marrow bones, whole beef brisket, and cold water in a stockpot large enough for the full load. Bring to a vigorous boil for 10 minutes, then drain. Rinse the parboiled bones and brisket under cold water and scrub the pot clean. Contain splashes and clean the sink, tools and nearby surfaces before preparing ready-to-eat food. Return the bones and brisket promptly to the cooking process; this parboil is not a completed meat-cooking or storage step.\n2. **Char aromatics:** While the bones parboil, arrange large yellow onions and 4-inch piece of fresh ginger on a broiler-safe sheet pan. Expose the cut faces to the broiler, turning as needed, and broil on high until charred in patches and softened. The original 12–15 minutes is a planning range; watch closely and follow the broiler’s actual rack and vessel guidance. Do not use parchment unless its instructions permit broiling.\n3. **Toast spices:** Toast whole star anise, 3-inch cinnamon stick, whole cloves, coriander seeds, and cardamom pod in a dry skillet over medium heat for about 2–3 minutes, stirring, until fragrant without scorching. Enclose all the spices in a sachet or cheesecloth bundle.\n4. **Build broth:** Return the cleaned bones and brisket to the clean pot. Add cold water, all the charred aromatics and the complete spice bundle. Bring to a boil, then reduce to a gentle simmer. Skim foam during the first 30 minutes. Use enough pot capacity for the water and solids plus headroom; divide all supplies proportionally among additional pots or complete batches if necessary.\n5. **Cook and chill brisket:** Begin checking the brisket after about 1½–2 hours of broth simmering. It should offer little resistance to a chopstick or skewer and reach at least 145°F / 63°C in the thickest part; allow a 3-minute rest before cooling. Transfer with clean utensils to a clean heatproof vessel in an ice-water bath, keeping bath water off the meat. Divide the cooked brisket into smaller portions if needed for prompt cooling, refrigerate within 2 hours (1 hour above 90°F / 32°C), and chill at 40°F / 4°C or below until cold through and firm enough to slice. The original 10-minute ice bath is a first check, not proof that a whole brisket is chilled. Continue the bones to about 4 hours total broth simmering, counting from step 4, rather than a fixed two additional hours.\n6. **Strain and season:** Strain the broth through a cheesecloth-lined fine-mesh strainer; discard the spent bones, aromatics and spice bundle. Stir in fish sauce, additional fish sauce (if using), sugar, and kosher salt, starting with all the measured fish sauce, sugar and salt and using the separate additional fish-sauce allowance only if wanted. Taste after the broth and meat have cooked.\n7. **Prepare noodles:** Use dried medium-width rice noodles (banh pho) and water. Follow the actual noodle package for soaking and boiling, cooking until tender but intact. The original 20–25-minute warm soak followed by 30–60 seconds boiling is a first-check route only for a product that calls for it. Drain just before assembly; package type can require a different clock.\n8. **Prepare meats:** Slice the cold brisket across the grain. Reheat it in simmering broth to 165°F / 74°C throughout. For eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified. Use clean serving utensils for both meats.\n9. **Assemble:** Prepare bean sprouts, fresh Thai basil, fresh cilantro, lime wedges, thinly sliced jalapeños, hoisin sauce, and Sriracha for serving. Cook the sprouts thoroughly in a portion of the broth before dividing the drained noodles, reheated brisket and cooked, rested eye of round among deep bowls. Add the cooked sprouts and ladle in hot broth without filling the bowls to the brim; promptly cool any unused broth. Serve the remaining garnishes and sauces separately. Simply ladling hot broth over raw sprouts does not establish thorough cooking.",
+      "shopping": [
+        "3 lb beef marrow bones",
+        "2 lb whole beef brisket",
+        "2 large yellow onions",
+        "1 4-inch piece of fresh ginger",
+        "4 whole star anise",
+        "1 3-inch cinnamon stick",
+        "6 whole cloves",
+        "1 tbsp coriander seeds",
+        "1 cardamom pod",
+        "3 tbsp fish sauce",
+        "additional fish sauce, to taste after the broth is cooked, optional",
+        "1 tbsp sugar",
+        "1 tbsp kosher salt",
+        "1 lb dried medium-width rice noodles (banh pho)",
+        "1/2 lb eye of round",
+        "bean sprouts, as desired for serving; thoroughly cooked for the main route",
+        "fresh Thai basil, as desired for serving",
+        "fresh cilantro, as desired for serving",
+        "lime wedges, as desired for serving",
+        "thinly sliced jalapeños, as desired for serving",
+        "hoisin sauce, as desired for serving",
+        "Sriracha, as desired for serving"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    }
+  ],
+  "preservedPriorRepairs": "a2c9e280 full cooked-eye145°F/3-minute rest and thin-piece measurement limitation plus chilled brisket reheat165 preserved; no raw-bowlmeat route restored. Onefixed4inchgingerpiece quantityscales count whiledimensionfixed.",
+  "remainingQuestions": [
+    "Actual stockpot and broiler loads, source of this Git-only formula, noodle package and finished broth output?",
+    "Can representative eye-of-round slices be reliably measured with the actual probe? How long does the actual brisket chill cold through?",
+    "Which noodle product and sprout preparation does the household use? Raw option is not endorsed for vulnerable diners.",
+    "Is there a durable original author/publisher for this formula?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

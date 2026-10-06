@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 512,
-    "completeEditorialPending": 131,
+    "recordedCompleteEditorial": 524,
+    "completeEditorialPending": 119,
     "originalBaseline": 612,
-    "originalReviewed": 476,
+    "originalReviewed": 488,
     "consideredConsolidations": 10,
-    "originalPending": 126,
+    "originalPending": 114,
     "additionalSources": 41,
     "additionalReviewed": 36,
     "additionalPending": 5,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 512,
+      "editoriallyReviewed": 524,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 256
+      "reviewItems": 232
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "278 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 512 recorded complete / 131 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 9 accepted source versions match exact remote commit [8d7edaea](https://github.com/jsilton/mise/commit/8d7edaeaa51f009f9f67aefe2c5f6efbf999039d), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37462355564) and all 9 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "278 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3063,18 +3063,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3082,19 +3071,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/brownie-protein-balls.md",
+        "acceptedSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/brownie-protein-balls.json",
+        "sourceSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual ball size/count does the full dough make? Is one-week quality/storage household-established? Powdercomposition/liquidneed untested.",
+        "Does the actual almondflour andproteinpowder manufacturer permit no-cook consumption? No model/product certification or homelethality test performed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -5779,18 +5774,7 @@
       "baseline": "original canonical",
       "source": "Adapted from glow-diaries.com",
       "sourceUrl": "https://glow-diaries.com/choc-blended-oats/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5798,19 +5782,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-blended-oats-with-raspberry-chia-jam.md",
+        "acceptedSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-blended-oats-with-raspberry-chia-jam.json",
+        "sourceSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What was actual native berrybag size and chocolate amount? Does the household prefer saved5dayplan or modern4dayplan for this richer version? Actualblendercapacity,jarsize,finishedvolume andtexture untested."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -5873,18 +5862,7 @@
       "baseline": "original canonical",
       "source": "Adapted from eatingbirdfood.com",
       "sourceUrl": "https://www.eatingbirdfood.com/chocolate-chia-pudding/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5892,19 +5870,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-chia-pudding.md",
+        "acceptedSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-chia-pudding.json",
+        "sourceSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual blender load/smoothness,containercapacity andfinishedshelflife unmeasured. Is immediate texture preferred to coldrest?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12194,18 +12177,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12213,19 +12185,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/granola.md",
+        "acceptedSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/granola.json",
+        "sourceSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the measured cooled volume, sheet area and cooling time? Is a wheat-germ amount available for the complete earlier route? Does the household intend the added seeds/salt/fixed vanilla?",
+        "What is the household quality window under its actual humidity and nut freshness?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13473,18 +13451,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13492,19 +13459,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/homemade-chicken-stock.md",
+        "acceptedSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/homemade-chicken-stock.json",
+        "sourceSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which raw/cooked bone mix, pot dimensions, finished volume and concentration does the household actually use?",
+        "Record actual attended time, rapid-cooling conditions and center temperatures during a kitchen cook."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18586,18 +18559,7 @@
       "baseline": "original canonical",
       "source": "Adapted from downshiftology.com",
       "sourceUrl": "https://downshiftology.com/recipes/overnight-oats/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -18605,19 +18567,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/overnight-oats.md",
+        "acceptedSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/overnight-oats.json",
+        "sourceSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What jar volume fits the actual chosen toppings? What scoop definition and extra hydration does the selected protein powder need? No finished-volume or warming-time test.",
+        "Actual freezer texture depends on yogurt and toppings; fruit added later is preferable for the plain-base freezer plan."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18943,18 +18911,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/pasta-abruzzi-style-lamb-sauce",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -18965,12 +18922,18 @@
         "evidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pasta-with-abruzzi-style-lamb-sauce.md",
+        "acceptedSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pasta-with-abruzzi-style-lamb-sauce.json",
+        "sourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -18979,12 +18942,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Can actual very fine diced lamb/pancetta be reliably probed; what label/cut and shoulder simmer duration apply?",
+        "Originalcoarse salt crystal density not converted; source/native4–6 versuscurrent6 servings remains planning only."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -19568,18 +19530,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -19587,12 +19538,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pho-bo-beef-pho.md",
+        "acceptedSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pho-bo-beef-pho.json",
+        "sourceSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -19601,11 +19558,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual stockpot and broiler loads, source of this Git-only formula, noodle package and finished broth output?",
+        "Can representative eye-of-round slices be reliably measured with the actual probe? How long does the actual brisket chill cold through?",
+        "Which noodle product and sprout preparation does the household use? Raw option is not endorsed for vulnerable diners.",
+        "Is there a durable original author/publisher for this formula?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20602,18 +20561,7 @@
       "baseline": "original canonical",
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/wonton-soup/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20621,12 +20569,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/quick-wonton-soup.md",
+        "acceptedSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/quick-wonton-soup.json",
+        "sourceSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -20640,11 +20594,11 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which mini wonton label, filling state, cooking water method and thermometer access applies?",
+        "Linked fresh wontons would need their own complete filling/wrapper/cooking decision; this review supplies none."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -26302,18 +26256,7 @@
       "baseline": "original canonical",
       "source": "Adapted from wholefully.com",
       "sourceUrl": "https://wholefully.com/strawberry-cheesecake-overnight-oats-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -26324,12 +26267,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/strawberry-cheesecake-overnight-oatmeal.md",
+        "acceptedSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/strawberry-cheesecake-overnight-oatmeal.json",
+        "sourceSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -26338,12 +26287,10 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the actual finished volume and preferred portion size? What after-opening dairy storage window applies? No recipe-specific shelf life or freezing evidence supplied."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28468,18 +28415,7 @@
       "baseline": "original canonical",
       "source": "Adapted from yayforfood.com",
       "sourceUrl": "https://www.yayforfood.com/recipes/earl-grey-overnight-oats/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -28487,19 +28423,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/vanilla-earl-grey-overnight-oats.md",
+        "acceptedSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/vanilla-earl-grey-overnight-oats.json",
+        "sourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is actual finished volume and acceptable container hot-liquid rating? Is2cups oats intended, despite verydense ratio? No measured jar size or storage life established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29498,18 +29439,7 @@
       "baseline": "original canonical",
       "source": "Adapted from paleorunningmomma.com",
       "sourceUrl": "https://www.paleorunningmomma.com/zuppa-toscana-paleo-whole30-keto/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -29517,19 +29447,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/zuppa-toscana.md",
+        "acceptedSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/zuppa-toscana.json",
+        "sourceSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual sausage species, pot load, potato and kale texture, and serving size?",
+        "Mushroom/cauliflower amounts, substitution identity and complete cooking are unresolved; no formula is approved for them.",
+        "Does household intend a distinct modern6bacon/6stock/4kale batch? None is silently imported."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

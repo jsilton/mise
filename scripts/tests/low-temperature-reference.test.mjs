@@ -168,6 +168,78 @@ test('cooling brine in an ice bath is separate from water-bath cooking', () => {
   assert.equal(hasLowTemperatureReference('Cook chicken in an ice-water bath.', words), true);
 });
 
+test('explicit shallow-vessel stock cooling bath is separate from cooking', () => {
+  const actual = fs
+    .readFileSync(
+      new URL('../../src/content/recipes/homemade-chicken-stock.md', import.meta.url),
+      'utf8'
+    )
+    .split(/^---\s*$/m)
+    .slice(2)
+    .join('---');
+  assert.match(actual, /attached chicken meat for 165°F \/ 74°C before tasting or straining/);
+  assert.match(
+    actual,
+    /Cool promptly in those shallow vessels\. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock\./
+  );
+  assert.equal(hasLowTemperatureReference(actual, words), false);
+  const cooling =
+    'Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock.';
+  for (const instruction of [
+    cooling,
+    cooling.replace('stock.', 'broth.'),
+    cooling.replace('ice-water', 'ice water'),
+  ]) {
+    assert.equal(
+      hasLowTemperatureReference(
+        'Check attached chicken meat reaches 165°F. ' + instruction,
+        words
+      ),
+      false,
+      instruction
+    );
+  }
+});
+
+test('stock cooling recognition does not hide mixed cooking or ambiguous bath methods', () => {
+  const cooling =
+    'Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock.';
+  const finished = 'Check attached chicken meat reaches 165°F. ';
+  for (const unsafe of [
+    'Cook chicken in a water bath.',
+    'Cook raw chicken to 145°F.',
+    'Cook turkey at 150°F.',
+    'Use a sous-vide bath.',
+    'Use an immersion circulator.',
+    'Vacuum-seal raw poultry before cooking.',
+    'Check the pasteurization time.',
+  ]) {
+    assert.equal(
+      hasLowTemperatureReference(finished + cooling + ' ' + unsafe, words),
+      true,
+      unsafe
+    );
+    assert.equal(
+      hasLowTemperatureReference(unsafe + ' ' + finished + cooling, words),
+      true,
+      unsafe
+    );
+  }
+  for (const ambiguous of [
+    cooling,
+    finished + cooling.replace('Cool promptly in those shallow vessels. ', ''),
+    finished + cooling.replace('can speed cooling', 'can speed cooking'),
+    finished + cooling.replace('with occasional clean stirring', 'with occasional stirring'),
+    finished +
+      cooling.replace('keep bath water out of the stock', 'keep bath water out of the chicken'),
+    finished + 'Cool promptly in those shallow vessels. Cook chicken in an ice-water bath.',
+    finished +
+      cooling.replace('can speed cooling;', 'can speed cooling and cook poultry at 145°F;'),
+    finished + cooling + ' A water bath is another option.',
+  ])
+    assert.equal(hasLowTemperatureReference(ambiguous, words), true, ambiguous);
+});
+
 test('poultry liquids alone do not trigger meat rules, but separate meat remains visible', () => {
   assert.equal(rule.detection[0].type, 'poultry_meat_reference');
   assert.equal(

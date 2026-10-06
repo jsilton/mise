@@ -247,7 +247,17 @@ test('filled wonton endpoint remains distinct from sweet custard and plain pork 
 
 test('pho stages distinguish chilled leftover reheating from intact-cut beef cooking', () => {
   const source = read('pho-bo-beef-pho');
-  assert.match(source, /brisket[\s\S]*?reheat it in simmering broth to 165°F/);
+  const { data, content } = matter(source);
+  const meats = data.formula.steps.find((step) => step.id === 'meats');
+  // Cold brisket reheating remains separate from raw eye-of-round cooking.
+  assert.match(
+    meats.text,
+    /Slice the cold brisket[\s\S]*?Reheat it in simmering broth to 165°F \/ 74°C throughout/
+  );
+  assert.match(
+    content,
+    /^\d+\. \*\*Prepare meats:\*\* Slice the cold brisket across the grain\. Reheat it in simmering broth to 165°F \/ 74°C throughout\./m
+  );
   assert.match(source, /eye of round[\s\S]*?145°F \/ 63°C, then allow a 3-minute rest/);
   assert.ok(source.includes('if the thin slices cannot be reliably measured'));
 });

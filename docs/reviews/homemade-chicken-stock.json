@@ -1,0 +1,1089 @@
+{
+  "slug": "homemade-chicken-stock",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "235d3e196f9f514aa51615bcc7a2c8805112ceb2a2a6770911f7c91cd1bdd178",
+  "acceptedSourceSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "France / American Standard",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "4 hr 15 min",
+      "after": "About 4 hr 30 min, plus heating and straining"
+    },
+    {
+      "field": "totalTime",
+      "before": "4.5 hr",
+      "after": "About 5 hr, plus cooling and overnight chilling"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 60,
+        "protein": 8,
+        "carbs": 1,
+        "fat": 2.5,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 120
+      },
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 lbs Chicken bones (backs, necks, wings, or carcasses)",
+        "16 cups Cold Water",
+        "1 large Yellow Onion, unpeeled, cut into quarters",
+        "2 medium Carrots, cut into 1-inch chunks",
+        "2 stalks Celery, cut into 1-inch chunks",
+        "1 bulb Garlic, halved crosswise",
+        "1 bunch Fresh Parsley stems",
+        "2 sprigs Fresh Thyme",
+        "1 Fresh Bay Leaf",
+        "10 Whole Black Peppercorns"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "4 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "16 cups cold water",
+        "1 large yellow onion, unpeeled, washed and quartered",
+        "2 medium carrots, washed and cut into 1-inch chunks",
+        "2 celery stalks, washed and cut into 1-inch chunks",
+        "1 garlic bulb, halved crosswise",
+        "1 bunch of fresh parsley stems, washed",
+        "2 fresh thyme sprigs",
+        "1 fresh bay leaf",
+        "10 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "cup"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "bones",
+                "key": "chicken-bones",
+                "name": "chicken bones",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "preparation": "backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "cold water",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "heat",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "onion",
+                "key": "yellow-onion",
+                "name": "large yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "plural": "large yellow onions",
+                "preparation": "unpeeled, washed and quartered"
+              },
+              {
+                "id": "carrots",
+                "key": "carrot",
+                "name": "medium carrot",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium carrots",
+                "preparation": "washed and cut into 1-inch chunks"
+              },
+              {
+                "id": "celery",
+                "key": "celery",
+                "name": "celery stalk",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "plural": "celery stalks",
+                "preparation": "washed and cut into 1-inch chunks"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic-bulb",
+                "name": "garlic bulb",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic bulbs",
+                "preparation": "halved crosswise"
+              },
+              {
+                "id": "parsley",
+                "key": "parsley-stems",
+                "name": "bunch of fresh parsley stems",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "plural": "bunches of fresh parsley stems",
+                "preparation": "washed"
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "fresh thyme sprig",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "plural": "fresh thyme sprigs"
+              },
+              {
+                "id": "bay",
+                "key": "fresh-bay",
+                "name": "fresh bay leaf",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "plural": "fresh bay leaves"
+              },
+              {
+                "id": "pepper",
+                "key": "peppercorns",
+                "name": "whole black peppercorn",
+                "quantity": {
+                  "amount": 10,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "infuse",
+                    "share": 1
+                  }
+                ],
+                "plural": "whole black peppercorns"
+              },
+              {
+                "id": "makeup-water",
+                "key": "water",
+                "name": "hot water",
+                "allowance": "as needed to keep the bones covered during simmering",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water",
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prep",
+            "text": "Place {{ingredients}} in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out."
+          },
+          {
+            "id": "heat",
+            "title": "Heat",
+            "text": "Pour in {{ingredients}}. Bring to a boil, then immediately reduce to a gentle simmer."
+          },
+          {
+            "id": "skim",
+            "title": "Skim",
+            "text": "Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning."
+          },
+          {
+            "id": "infuse",
+            "title": "Infuse",
+            "text": "Add {{ingredients}}."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer",
+            "text": "Simmer gently, uncovered, for about 4 hours after the skimming stage. Use {{ingredients}} only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint."
+          },
+          {
+            "id": "strain",
+            "title": "Strain",
+            "text": "Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities."
+          },
+          {
+            "id": "chill",
+            "title": "Chill",
+            "text": "Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify."
+          },
+          {
+            "id": "defat",
+            "title": "Defat",
+            "text": "Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate starting water, extraction and finished stock",
+        "outcome": "A gently simmered, strained stock chilled promptly in manageable portions.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen supplies. Prepare serving herbs and vegetables with clean tools before handling raw meat; keep cooked food and its utensils separate.",
+          "Prepare enough shallow heatproof containers and an ice bath before straining. Pots must hold the measured water and solids with headroom; larger batches may require several proportionate pots.",
+          "Twelve cups is the inherited original-batch planning estimate, not a measured finished yield. Scale the starting ingredients together, then measure the strained output."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Small bubbles rise without the pot churning; the bones remain covered.",
+            "why": "Evaporation changes concentration. Restore coverage only as needed rather than assuming every batch loses the same volume."
+          },
+          {
+            "step": 7,
+            "cue": "Stock is divided into shallow vessels and refrigerated promptly, then cold through before defatting.",
+            "why": "A large hot bowl can cool unevenly; surface coolness does not establish the temperature in its center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The stock has reduced much more than expected",
+            "cause": "Pot width, uncovered simmering and heat change evaporation.",
+            "fix": "Use the listed hot-water allowance to restore bone coverage during cooking. Measure the strained stock and assess its concentration before using it in a measured recipe."
+          }
+        ],
+        "timing": "Allow about 5 hours to prepare, heat, skim, simmer and strain the original batch, then cooling and overnight chilling for the written defatting route. Preparation is about 15 minutes; the first 30 minutes need attention, and straining/cooling add hands-on work. The four-hour simmer follows skimming. Extra pot loads extend the schedule.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Reheat while stirring to 165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time. Freeze in recipe-sized portions; no home-canning process is specified.",
+        "sources": [
+          {
+            "title": "FDA handling and poultry temperatures",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA great chicken stock is all about temperature control. Never let the stock boil violently after the initial heating step; high heat emulsifies the chicken fat into the water, resulting in a greasy, cloudy broth. Instead, maintain a gentle bubble (a \"smile\" on the surface) to extract gelatin from the bones while keeping the stock clean and clear. Leaving the onion skins on adds a beautiful, rich amber color to the finished stock.\n\n## Directions\n\n1.  **Prep:** Place the chicken bones, onion quarters, carrots, celery, and halved garlic bulb in a large 8-to-12-quart stockpot.\n2.  **Boil:** Pour in the cold water. Bring the mixture to a boil over high heat, then immediately reduce the heat to low to maintain a gentle simmer.\n3.  **Skim:** Skim off any gray foam or impurities that rise to the surface during the first 30 minutes of cooking. This ensures a clean flavor.\n4.  **Infuse:** Add the parsley stems, thyme sprigs, bay leaf, and whole black peppercorns to the pot.\n5.  **Simmer:** Simmer gently, uncovered, for 4 hours. Keep the heat low so the liquid does not boil. If the water level drops too low and exposes the bones, add a cup or two of hot water.\n6.  **Strain:** Pour the stock through a colander lined with cheesecloth or a fine-mesh sieve into a large heatproof bowl. Discard the spent bones and vegetables.\n7.  **Chill:** Place the bowl of stock in an ice bath to cool it rapidly. Once cool, cover and refrigerate overnight.\n8.  **De-fat:** Scrape off the layer of solidified fat from the surface of the chilled stock before using or freezing.\n",
+    "after": "\n## Chef's Note\n\nChicken bones, vegetables and herbs make an unsalted stock for later soups and sauces. Keep the initial cooking at a gentle simmer for a clearer liquid, and leave the washed onion skins on for their amber color. Measure the strained stock when portioning it; evaporation and the amount of attached meat change the result.\n\n## Directions\n\n1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.\n"
+  },
+  "findings": [
+    {
+      "id": "MS15-S01",
+      "title": "MS15-S01",
+      "rationale": "Conserve the full4lb/16cup formula and discard destinations, add only the already-present genuine makeup-water allowance, qualify pot load and inherited12cup planning yield. Do not claim initial water equals strained output or fixed1–2cup evaporation at every scale.",
+      "confidence": "high for conservation; moderate for unmeasured geometry/extraction",
+      "applicableSources": [
+        "actual88460532 Git introduction",
+        "evidence/provenance.json",
+        "source-applicability.md"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "ingredients",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Which raw/cooked bone mix, pot dimensions, finished volume and concentration does the household actually use?"
+      ]
+    },
+    {
+      "id": "MS15-S02",
+      "title": "MS15-S02",
+      "rationale": "Original30-minute skim precedes4-hour simmer and overnight chill, exceeding4.5-hour whole route. Keep both stages and overnight defatting; add prompt shallow-vessel/ice-bath cooling and thermometer poultry tissue target. Five-hour hot preparation is a planning estimate, with additional cooling and overnight explicit.",
+      "confidence": "high primary handling; moderate household clock",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "USDA Refrigeration linked in applicability"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "ingredients",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual attended time, rapid-cooling conditions and center temperatures during a kitchen cook."
+      ]
+    },
+    {
+      "id": "MS15-S03",
+      "title": "MS15-S03",
+      "rationale": "Remove the unsupported compound birth-country label and unverified nutrition; retain French/American style and onion-skin/gentle-simmer insight without an absolute clarity or flavor guarantee.",
+      "confidence": "high",
+      "applicableSources": ["actual88460532 introduction", "docs/RECIPE_STANDARD.md"],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "ingredients",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/884605320313637ed3ff6be9f048d0a94f7de354/src/content/recipes/homemade-chicken-stock.md",
+    "introductionScope": "Git-only earliest available followed cooking source; no exact original450 match established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "4 lbs Chicken bones (backs, necks, wings, or carcasses)",
+        "preparation": "bones; raw/cooked state unspecified",
+        "destination": "prep1→simmer5→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "16 cups Cold Water",
+        "preparation": "cold starting water",
+        "destination": "heat2→strain6; output12cups not measured",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 large Yellow Onion, unpeeled, cut into quarters",
+        "preparation": "quartered unpeeled",
+        "destination": "prep1→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "2 medium Carrots, cut into 1-inch chunks",
+        "preparation": "1-inch pieces",
+        "destination": "prep1→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "2 stalks Celery, cut into 1-inch chunks",
+        "preparation": "1-inch pieces",
+        "destination": "prep1→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 bulb Garlic, halved crosswise",
+        "preparation": "halved bulb",
+        "destination": "prep1→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 bunch Fresh Parsley stems",
+        "preparation": "stems",
+        "destination": "infuse4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "2 sprigs Fresh Thyme",
+        "preparation": "sprigs",
+        "destination": "infuse4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 Fresh Bay Leaf",
+        "preparation": "fresh leaf",
+        "destination": "infuse4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "10 Whole Black Peppercorns",
+        "preparation": "whole",
+        "destination": "infuse4→discard6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.bones",
+        "key": "chicken-bones",
+        "name": "chicken bones",
+        "quantity": {
+          "amount": 4,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "preparation": "backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.water",
+        "key": "water",
+        "name": "cold water",
+        "quantity": {
+          "amount": 16,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "heat",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onion",
+        "key": "yellow-onion",
+        "name": "large yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "plural": "large yellow onions",
+        "preparation": "unpeeled, washed and quartered",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.carrots",
+        "key": "carrot",
+        "name": "medium carrot",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "plural": "medium carrots",
+        "preparation": "washed and cut into 1-inch chunks",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.celery",
+        "key": "celery",
+        "name": "celery stalk",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "plural": "celery stalks",
+        "preparation": "washed and cut into 1-inch chunks",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic-bulb",
+        "name": "garlic bulb",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "plural": "garlic bulbs",
+        "preparation": "halved crosswise",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.parsley",
+        "key": "parsley-stems",
+        "name": "bunch of fresh parsley stems",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "plural": "bunches of fresh parsley stems",
+        "preparation": "washed",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.thyme",
+        "key": "thyme",
+        "name": "fresh thyme sprig",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "plural": "fresh thyme sprigs",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.bay",
+        "key": "fresh-bay",
+        "name": "fresh bay leaf",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "plural": "fresh bay leaves",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pepper",
+        "key": "peppercorns",
+        "name": "whole black peppercorn",
+        "quantity": {
+          "amount": 10,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "infuse",
+            "share": 1
+          }
+        ],
+        "plural": "whole black peppercorns",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.makeup-water",
+        "key": "water",
+        "name": "hot water",
+        "allowance": "as needed to keep the bones covered during simmering",
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water",
+        "optional": true,
+        "component": "Main recipe"
+      }
+    ],
+    "native": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "caa9eb247195ea02477b5d6734a766f3a2802ec149c190d12764c5a7e90e0d73"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "8795f08b5e46d68a30a0194bfa26f6ef375494729af5db0216f3d0d37b4ca46b"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "7c4a24c09e8ac884a9681699391e9ac88318d5023cd6585835475cd6f3967e65"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "a9b94f179ff1efeef6fd71b9cea38800734efd8130eb286d01de69228ad906a5"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "82aa702f000b27778f3da16d1d7b8490a458f64938f7d0a3d06d7078f579f321"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "b0a693fd9acd93e3243d42f805022e3a96c223ed9694f04a05b9d9b0bdaee9fb"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "1a0818f48beb9d482a32476d8a9d84720e903f3fdfa4365078d3a659a237642a"
+      },
+      {
+        "step": 8,
+        "textReference": "privately retained evidence#directions-8",
+        "sha256": "a7db3fc3b3285b51eebb3f411a15483f0218f300c1ea218d9217f0f2c1c531f9"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "prep",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.bones", "main.onion", "main.carrots", "main.celery", "main.garlic"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "heat",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.water"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "skim",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "infuse",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.parsley", "main.thyme", "main.bay", "main.pepper"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "simmer",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["main.makeup-water"],
+        "cue": ["Small bubbles rise without the pot churning; the bones remain covered."]
+      },
+      {
+        "step": 6,
+        "id": "strain",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "chill",
+        "textReference": "privately retained evidence#formula.steps[6].text",
+        "ingredients": [],
+        "cue": [
+          "Stock is divided into shallow vessels and refrigerated promptly, then cold through before defatting."
+        ]
+      },
+      {
+        "step": 8,
+        "id": "defat",
+        "textReference": "privately retained evidence#formula.steps[7].text",
+        "ingredients": [],
+        "cue": []
+      }
+    ],
+    "native": null
+  },
+  "variantLedgers": [
+    {
+      "name": "Bones choice",
+      "supplies": "Same4lb measured total of backs, necks, wings or carcasses; raw fresh versus safely refrigerated fully cooked carcasses explicit",
+      "destination": "All simmer/strain/discard, no edible meat yield promised",
+      "status": "preserved"
+    },
+    {
+      "name": "Makeup water/defatting",
+      "supplies": "Unmeasured hot water only if coverage drops; chilled renderedfat removed in written route",
+      "destination": "Waterretainedstock; fatremovedafterovernight; no new measured addition or richness replacement",
+      "status": "preserved with clock/cooling repair"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "input": "4lb bones/16cupswater=4cups startingwater perlb plus genuine evaporation makeup; aromatics exactly original",
+    "yield": "Inherited12cup estimate only; output after extraction/evaporation/strain not measured or equated with16cups",
+    "capacity": "Original8–12quart suggestion not certified; actual solids+water+headroom and shallow cooling loads govern"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "4 cups cold water",
+        "1/4 large yellow onion, unpeeled, washed and quartered",
+        "1/2 medium carrot, washed and cut into 1-inch chunks",
+        "1/2 celery stalk, washed and cut into 1-inch chunks",
+        "1/4 garlic bulb, halved crosswise",
+        "1/4 bunch of fresh parsley stems, washed",
+        "1/2 fresh thyme sprig",
+        "1/4 fresh bay leaf",
+        "2 1/2 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "3 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "1 lb chicken bones",
+        "1/4 large yellow onion",
+        "1/2 medium carrot",
+        "1/2 celery stalk",
+        "1/4 garlic bulb",
+        "1/4 bunch of fresh parsley stems",
+        "1/2 fresh thyme sprig",
+        "1/4 fresh bay leaf",
+        "2 1/2 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "8 cups cold water",
+        "1/2 large yellow onion, unpeeled, washed and quartered",
+        "1 medium carrot, washed and cut into 1-inch chunks",
+        "1 celery stalk, washed and cut into 1-inch chunks",
+        "1/2 garlic bulb, halved crosswise",
+        "1/2 bunch of fresh parsley stems, washed",
+        "1 fresh thyme sprig",
+        "1/2 fresh bay leaf",
+        "5 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "6 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "2 lb chicken bones",
+        "1/2 large yellow onion",
+        "1 medium carrot",
+        "1 celery stalk",
+        "1/2 garlic bulb",
+        "1/2 bunch of fresh parsley stems",
+        "1 fresh thyme sprig",
+        "1/2 fresh bay leaf",
+        "5 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "16 cups cold water",
+        "1 large yellow onion, unpeeled, washed and quartered",
+        "2 medium carrots, washed and cut into 1-inch chunks",
+        "2 celery stalks, washed and cut into 1-inch chunks",
+        "1 garlic bulb, halved crosswise",
+        "1 bunch of fresh parsley stems, washed",
+        "2 fresh thyme sprigs",
+        "1 fresh bay leaf",
+        "10 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "12 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "4 lb chicken bones",
+        "1 large yellow onion",
+        "2 medium carrots",
+        "2 celery stalks",
+        "1 garlic bulb",
+        "1 bunch of fresh parsley stems",
+        "2 fresh thyme sprigs",
+        "1 fresh bay leaf",
+        "10 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "6 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "24 cups cold water",
+        "1 1/2 large yellow onions, unpeeled, washed and quartered",
+        "3 medium carrots, washed and cut into 1-inch chunks",
+        "3 celery stalks, washed and cut into 1-inch chunks",
+        "1 1/2 garlic bulbs, halved crosswise",
+        "1 1/2 bunches of fresh parsley stems, washed",
+        "3 fresh thyme sprigs",
+        "1 1/2 fresh bay leaves",
+        "15 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "18 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "6 lb chicken bones",
+        "1 1/2 large yellow onions",
+        "3 medium carrots",
+        "3 celery stalks",
+        "1 1/2 garlic bulbs",
+        "1 1/2 bunches of fresh parsley stems",
+        "3 fresh thyme sprigs",
+        "1 1/2 fresh bay leaves",
+        "15 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "8 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "32 cups cold water",
+        "2 large yellow onions, unpeeled, washed and quartered",
+        "4 medium carrots, washed and cut into 1-inch chunks",
+        "4 celery stalks, washed and cut into 1-inch chunks",
+        "2 garlic bulbs, halved crosswise",
+        "2 bunches of fresh parsley stems, washed",
+        "4 fresh thyme sprigs",
+        "2 fresh bay leaves",
+        "20 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "24 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "8 lb chicken bones",
+        "2 large yellow onions",
+        "4 medium carrots",
+        "4 celery stalks",
+        "2 garlic bulbs",
+        "2 bunches of fresh parsley stems",
+        "4 fresh thyme sprigs",
+        "2 fresh bay leaves",
+        "20 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "12 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "48 cups cold water",
+        "3 large yellow onions, unpeeled, washed and quartered",
+        "6 medium carrots, washed and cut into 1-inch chunks",
+        "6 celery stalks, washed and cut into 1-inch chunks",
+        "3 garlic bulbs, halved crosswise",
+        "3 bunches of fresh parsley stems, washed",
+        "6 fresh thyme sprigs",
+        "3 fresh bay leaves",
+        "30 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "36 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "12 lb chicken bones",
+        "3 large yellow onions",
+        "6 medium carrots",
+        "6 celery stalks",
+        "3 garlic bulbs",
+        "3 bunches of fresh parsley stems",
+        "6 fresh thyme sprigs",
+        "3 fresh bay leaves",
+        "30 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen",
+        "16 cups cold water",
+        "1 large yellow onion, unpeeled, washed and quartered",
+        "2 medium carrots, washed and cut into 1-inch chunks",
+        "2 celery stalks, washed and cut into 1-inch chunks",
+        "1 garlic bulb, halved crosswise",
+        "1 bunch of fresh parsley stems, washed",
+        "2 fresh thyme sprigs",
+        "1 fresh bay leaf",
+        "10 whole black peppercorns",
+        "hot water, as needed to keep the bones covered during simmering, optional"
+      ],
+      "yield": "12 cups",
+      "directions": "1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.\n2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.\n3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.\n4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.\n5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.\n6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.\n7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.\n8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.",
+      "shopping": [
+        "4 lb chicken bones",
+        "1 large yellow onion",
+        "2 medium carrots",
+        "2 celery stalks",
+        "1 garlic bulb",
+        "1 bunch of fresh parsley stems",
+        "2 fresh thyme sprigs",
+        "1 fresh bay leaf",
+        "10 whole black peppercorns"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    }
+  ],
+  "preservedPriorRepairs": "All4lb bones/16cup startingwater and aromatic doses preserved; unsaltedidentity, overnightdefatting andonionskins/gentlesimmer retained.",
+  "remainingQuestions": [
+    "Which raw/cooked bone mix, pot dimensions, finished volume and concentration does the household actually use?",
+    "Record actual attended time, rapid-cooling conditions and center temperatures during a kitchen cook."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

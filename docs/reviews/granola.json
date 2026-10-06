@@ -1,0 +1,829 @@
+{
+  "slug": "granola",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "e98af997fc38fb4944365a1ff5991cab20a29f6f0af5eebc7599c06f7030fb91",
+  "acceptedSourceSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "blend"],
+      "after": ["bake", "roast"]
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "20–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "30–35 min, plus complete cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "6 cups",
+      "after": "1 batch (finished volume unmeasured)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Old-fashioned Rolled Oats (not quick)",
+        "1/2 cup Mixed Nuts (Almonds, Walnuts, Pecans), chopped",
+        "1/4 cup Seeds (Sunflower or Sesame)",
+        "1/2 cup Canola or Avocado Oil",
+        "1/3 cup Pure Maple Syrup",
+        "2 tsp Pure Vanilla Extract",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt",
+        "1/2 cup Dried Fruit (Raisins or Cranberries)"
+      ],
+      "after": [
+        "2 cups Old-fashioned Rolled Oats (not quick)",
+        "1/2 cup Mixed Nuts (Almonds, Walnuts, Pecans), chopped",
+        "1/4 cup Seeds (Sunflower or Sesame)",
+        "1/2 cup Canola or Avocado Oil",
+        "1/3 cup Pure Maple Syrup",
+        "2 tsp Pure Vanilla Extract",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt",
+        "1/2 cup Dried Fruit (Raisins, Cranberries or Blueberries)"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 575,
+        "protein": 3.5,
+        "carbs": 57,
+        "fat": 37.5,
+        "fiber": 3,
+        "sugar": 35,
+        "sodium": 390
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coating and browning a thin granola layer, then adding dried fruit after cooling.",
+        "outcome": "Golden oats with distributed nuts and seeds, fully cooled before the chewy dried fruit is added.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "The full oil and maple amounts coat the entire dry mixture. Have a rimmed sheet ready, and use more sheets or loads if a scaled batch cannot stay in a thin layer.",
+          "Preheat to 350°F while preparing. The finished volume has not been measured; one batch means the entire ingredient list."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "No dry pockets of oats remain after tossing.",
+            "why": "Oil and syrup can separate while standing; whisking immediately before coating distributes them."
+          },
+          {
+            "step": 4,
+            "cue": "The center and edges are golden, with no scorched patches.",
+            "why": "A thick layer or neglected edges can brown unevenly; the written time is a reference, not a color guarantee."
+          },
+          {
+            "step": 5,
+            "cue": "The granola is completely cool before dried fruit and packing.",
+            "why": "Cooling firms the oats and avoids trapping warm moisture in the container."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Edges darken while the center stays pale.",
+            "cause": "The layer is too deep or the edges were not moved inward.",
+            "fix": "Stir and redistribute, use additional sheets for the next load, and judge color before extending the clock."
+          },
+          {
+            "problem": "Granola feels soft straight from the oven.",
+            "cause": "It has not cooled yet.",
+            "fix": "Let it cool before judging crispness; do not keep baking solely to make hot granola hard."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dried raisins or cranberries",
+            "alternative": "Same full listed amount of dried blueberries",
+            "effect": "Add only after cooling; no change to oil, syrup, nuts or seeds."
+          }
+        ],
+        "storage": "Cool completely before sealing in a dry airtight container in a cool, dry place. Follow the ingredient storage instructions; finished shelf life depends on the ingredients, dryness and storage conditions.",
+        "timing": "Ten minutes preparation plus 20–25 minutes baking gives a 30–35-minute subtotal for one thin-layer load. Any oven heating beyond preparation, extra loads and complete cooling before fruit and packing add elapsed time.",
+        "sources": [
+          {
+            "title": "FDA — food handling and storage practices",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is the go-to granola recipe for batch breakfast prep. The secret to getting those perfect clusters is creating a stable emulsion: whisk the oil and maple syrup together before pouring over the oats. This ensures every grain is coated in a thin layer that caramelizes beautifully in the oven. Roast at 350°F and stir twice to ensure even browning, but only add the dried fruit after the granola has cooled to prevent it from turning into rock-hard pieces.\n\n## Directions\n\n1.  **Dry Mix:** Preheat oven to 350°F. In a large bowl, toss together oats, nuts, and seeds.\n2.  **The Emulsion:** In a separate jar or bowl, whisk together the oil, maple syrup, vanilla, cinnamon, and salt until smooth and uniform.\n3.  **Combine:** Pour the liquid emulsion over the dry mix. Toss with a spatula until the oats look dark and saturated.\n4.  **The Roast:** Spread the mixture in a thin, even layer on a large rimmed baking sheet.\n5.  **Stir:** Bake for 20-25 minutes. **Stir the granola every 8 minutes** to ensure the edges don't burn and the center gets crispy.\n6.  **The Finish:** Remove from the oven when deep golden brown. The granola will still feel soft; it will Crunch only after cooling.\n7.  **Finish:** Once stone-cold, stir in the dried fruit. Store in an airtight glass jar for up to 3 weeks.\n",
+    "after": "\n## Chef's Note\n\nWhisk the oil and maple mixture just before pouring, then toss until the oats, nuts and seeds are evenly coated. Spread a thin layer so the center can brown along with the edges. The granola firms as it cools; add the dried fruit only after cooling so it stays chewy.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Toss the oats, chopped nuts and seeds in a large bowl.\n2. **Coat:** Whisk the oil, maple syrup, vanilla, cinnamon and salt together, then immediately pour over the dry mixture. Toss until everything is evenly coated.\n3. **Spread:** Spread in a thin, even layer on a rimmed baking sheet. For a larger batch, use additional sheets or bake separate loads rather than making a deep layer.\n4. **Bake:** Bake for 20–25 minutes, stirring about every 8 minutes and moving the edges toward the center. Watch the color toward the end; remove when golden throughout, before the edges scorch. Oven heating must be complete before loading.\n5. **Cool and finish:** Let the granola cool completely on the sheet; it will firm as it cools. Stir in all the dried fruit.\n6. **Store:** Transfer the fully cooled granola to a dry airtight container. Keep in a cool, dry place and follow the storage instructions for the nuts, seeds and dried fruit used.\n\n## Cooking Notes\n\nDried blueberries may replace the entire listed dried-fruit amount. Canola and avocado oil are exclusive choices for the full listed oil amount. Choose sunflower or sesame seeds for the full seed amount; use the full mixed-nut amount as well.\n\nOne batch means the full ingredient set; measure the cooled volume if needed. Cooling takes additional time before packing. Keep the layer thin when scaling; extra sheets or successive loads extend elapsed time.\n"
+  },
+  "findings": [
+    {
+      "id": "GS14-G01",
+      "title": "GS14-G01",
+      "rationale": "Retain every current dose and Gwock authorship, restore the exact full dried-blueberry option, clarify coating/color/cooling and proportional sheet loading. Replace unsupported six-cup finished yield with one complete batch, and account for complete cooling and extra heating. Original directions also name wheat germ without an amount; that source branch remains incomplete rather than inventing an amount or removing current seeds/salt.",
+      "confidence": "High for quantities/provenance; moderate for practical process",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "3fc97dc31d75866674f3e86bfeb9d7401af3af8d",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Exact saved/Git establishes original oats/oil/maple/fruit and family credit. Current seeds/salt/fixed vanilla/six-cup yield entered bulk3fc, not an established household decision. FDA applies only to handling, not formula, finished volume, cluster size or bake clock. Coating/layer/color refinements are editorial process inference.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "cookTime",
+        "totalTime",
+        "cookingMethods",
+        "ingredients",
+        "content",
+        "learning"
+      ],
+      "questions": [
+        "What is the measured cooled volume, sheet area and cooling time? Is a wheat-germ amount available for the complete earlier route? Does the household intend the added seeds/salt/fixed vanilla?"
+      ]
+    },
+    {
+      "id": "GS14-G02",
+      "title": "GS14-G02",
+      "rationale": "The exact source says airtight storage without a duration. Three weeks appears only in the bulk rewrite; do not present that as measured shelf life. Retain dry airtight storage and ingredient-specific limits.",
+      "confidence": "High for absence of evidence; moderate for storage guidance",
+      "applicableSources": [
+        "native-original",
+        "3fc97dc31d75866674f3e86bfeb9d7401af3af8d",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "FDA general handling does not establish three weeks for this granola; source storage is preserved without manufacturing a replacement duration.",
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "What is the household quality window under its actual humidity and nut freshness?"
+      ]
+    },
+    {
+      "id": "GS14-META",
+      "title": "GS14-META",
+      "rationale": "Omit unsupported geographic origin and unverified numerical nutrition, preserving the current cuisine/style, exact source and all rich quantities.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact granola native cooking and actual followed history establish no recipe birthplace or verified nutrient calculation. American style or publisher location does not establish a country of origin. ",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Granola.html",
+    "introductionScope": "Actual retained pre-Markdown cooking introduction matching the exact native-bound recipe; canonical-path continuity must be distinguished where it was later recreated.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "GS14-G01",
+      "rationale": "Retain every current dose and Gwock authorship, restore the exact full dried-blueberry option, clarify coating/color/cooling and proportional sheet loading. Replace unsupported six-cup finished yield with one complete batch, and account for complete cooling and extra heating. Original directions also name wheat germ without an amount; that source branch remains incomplete rather than inventing an amount or removing current seeds/salt.",
+      "applicability": "Exact saved/Git establishes original oats/oil/maple/fruit and family credit. Current seeds/salt/fixed vanilla/six-cup yield entered bulk3fc, not an established household decision. FDA applies only to handling, not formula, finished volume, cluster size or bake clock. Coating/layer/color refinements are editorial process inference."
+    },
+    {
+      "id": "GS14-G02",
+      "rationale": "The exact source says airtight storage without a duration. Three weeks appears only in the bulk rewrite; do not present that as measured shelf life. Retain dry airtight storage and ingredient-specific limits.",
+      "applicability": "FDA general handling does not establish three weeks for this granola; source storage is preserved without manufacturing a replacement duration."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 cups Old-fashioned Rolled Oats (not quick)",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup Mixed Nuts (Almonds, Walnuts, Pecans), chopped",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 2,
+        "text": "1/4 cup Seeds (Sunflower or Sesame)",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Canola or Avocado Oil",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 4,
+        "text": "1/3 cup Pure Maple Syrup",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 5,
+        "text": "2 tsp Pure Vanilla Extract",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 6,
+        "text": "1 tsp Ground Cinnamon",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Sea Salt",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 8,
+        "text": "1/2 cup Dried Fruit (Raisins or Cranberries)",
+        "destinations": 7,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      }
+    ],
+    "unlistedBefore": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "2 cups Old-fashioned Rolled Oats (not quick)",
+        "destinations": [1],
+        "allocationTotal": 1
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup Mixed Nuts (Almonds, Walnuts, Pecans), chopped",
+        "destinations": [1],
+        "allocationTotal": 1
+      },
+      {
+        "index": 2,
+        "text": "1/4 cup Seeds (Sunflower or Sesame)",
+        "destinations": [1],
+        "allocationTotal": 1
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Canola or Avocado Oil",
+        "destinations": [2],
+        "allocationTotal": 1
+      },
+      {
+        "index": 4,
+        "text": "1/3 cup Pure Maple Syrup",
+        "destinations": [2],
+        "allocationTotal": 1
+      },
+      {
+        "index": 5,
+        "text": "2 tsp Pure Vanilla Extract",
+        "destinations": [2],
+        "allocationTotal": 1
+      },
+      {
+        "index": 6,
+        "text": "1 tsp Ground Cinnamon",
+        "destinations": [2],
+        "allocationTotal": 1
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Sea Salt",
+        "destinations": [2],
+        "allocationTotal": 1
+      },
+      {
+        "index": 8,
+        "text": "1/2 cup Dried Fruit (Raisins, Cranberries or Blueberries)",
+        "destinations": [5],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "text": "1. **Prepare:** Preheat the oven to 350°F. Toss the oats, chopped nuts and seeds in a large bowl.",
+      "dependsOn": [],
+      "assigned": [0, 1, 2]
+    },
+    {
+      "index": 2,
+      "text": "2. **Coat:** Whisk the oil, maple syrup, vanilla, cinnamon and salt together, then immediately pour over the dry mixture. Toss until everything is evenly coated.",
+      "dependsOn": [1],
+      "assigned": [3, 4, 5, 6, 7]
+    },
+    {
+      "index": 3,
+      "text": "3. **Spread:** Spread in a thin, even layer on a rimmed baking sheet. For a larger batch, use additional sheets or bake separate loads rather than making a deep layer.",
+      "dependsOn": [2],
+      "assigned": []
+    },
+    {
+      "index": 4,
+      "text": "4. **Bake:** Bake for 20–25 minutes, stirring about every 8 minutes and moving the edges toward the center. Watch the color toward the end; remove when golden throughout, before the edges scorch. Oven heating must be complete before loading.",
+      "dependsOn": [3],
+      "assigned": []
+    },
+    {
+      "index": 5,
+      "text": "5. **Cool and finish:** Let the granola cool completely on the sheet; it will firm as it cools. Stir in all the dried fruit.",
+      "dependsOn": [4],
+      "assigned": [8]
+    },
+    {
+      "index": 6,
+      "text": "6. **Store:** Transfer the fully cooled granola to a dry airtight container. Keep in a cool, dry place and follow the storage instructions for the nuts, seeds and dried fruit used.",
+      "dependsOn": [5],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Dried fruit choice",
+        "changes": [
+          {
+            "index": 8,
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "raisins OR cranberries OR dried blueberries",
+            "destination": 5
+          }
+        ],
+        "scope": "Exclusive full fruit choice; all other current doses unchanged."
+      },
+      {
+        "name": "Oil choice",
+        "changes": [
+          {
+            "index": 3,
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "canola OR avocado oil",
+            "destination": 2
+          }
+        ],
+        "scope": "Exclusive oil choice; all other current doses unchanged."
+      },
+      {
+        "name": "Seed choice",
+        "changes": [
+          {
+            "index": 2,
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "sunflower OR sesame seeds",
+            "destination": 1
+          }
+        ],
+        "scope": "Exclusive¼cup choice alongside the full½cup nuts."
+      }
+    ],
+    "completeCookingOptions": "Dried blueberries may replace the entire listed dried-fruit amount. Canola and avocado oil are exclusive choices for the full listed oil amount. Choose sunflower or sesame seeds for the full seed amount; use the full mixed-nut amount as well.\n\nOne batch means the full ingredient set; measure the cooled volume if needed. Cooling takes additional time before packing. Keep the layer thin when scaling; extra sheets or successive loads extend elapsed time.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Dried raisins or cranberries",
+        "alternative": "Same full listed amount of dried blueberries",
+        "effect": "Add only after cooling; no change to oil, syrup, nuts or seeds."
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "Exact earlier route:2cups oats,½cup nuts OR unsalted sunflower/sesame seeds,generous⅓cup maple,½cup canola,1½–2tsp vanilla,1tsp cinnamon,½cup fruit;350°F/18–29min; method also names wheat germ with no dose. Entire original branch unresolved; no invented wheat germ or equivalence to current separate¼cup seeds."
+    ],
+    "completeBranches": [
+      {
+        "name": "Dried fruit choice",
+        "changes": [
+          {
+            "index": 8,
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "raisins OR cranberries OR dried blueberries",
+            "destination": 5
+          }
+        ],
+        "scope": "Exclusive full fruit choice; all other current doses unchanged.",
+        "completeUnchangedMain": [],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 0.125,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 0.25,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 0.5,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 0.75,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 1,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 1.5,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 8,
+                "amount": 0.5,
+                "unit": "cup",
+                "name": "raisins OR cranberries OR dried blueberries",
+                "destination": 5,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          }
+        ]
+      },
+      {
+        "name": "Oil choice",
+        "changes": [
+          {
+            "index": 3,
+            "amount": 0.5,
+            "unit": "cup",
+            "name": "canola OR avocado oil",
+            "destination": 2
+          }
+        ],
+        "scope": "Exclusive oil choice; all other current doses unchanged.",
+        "completeUnchangedMain": [],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 0.125,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 0.25,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 0.5,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 0.75,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 1,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 1.5,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 3,
+                "amount": 0.5,
+                "unit": "cup",
+                "name": "canola OR avocado oil",
+                "destination": 2,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          }
+        ]
+      },
+      {
+        "name": "Seed choice",
+        "changes": [
+          {
+            "index": 2,
+            "amount": 0.25,
+            "unit": "cup",
+            "name": "sunflower OR sesame seeds",
+            "destination": 1
+          }
+        ],
+        "scope": "Exclusive¼cup choice alongside the full½cup nuts.",
+        "completeUnchangedMain": [],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.0625,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.125,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.25,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.375,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.5,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.75,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "index": 2,
+                "amount": 0.25,
+                "unit": "cup",
+                "name": "sunflower OR sesame seeds",
+                "destination": 1,
+                "max": null
+              }
+            ],
+            "remainingMain": []
+          }
+        ]
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": ["easy-breakfast-yogurt-popsicles", "easy-chia-pudding"],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained only as metadata; no composed-meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Current full 2 cups oats + ½ cup mixed nuts + ¼ cup seeds + ½ cup oil + ⅓ cup maple + 2 tsp vanilla + 1 tsp cinnamon + ½ tsp salt + ½ cup fruit retained. Six finished cups was introduced in3fc97dc3 without original measured yield; one batch avoids inventing volume or servings. Thin sheet layer and successive loads, no guessed pan dimensions.",
+    "planningYield": "1 batch (finished volume unmeasured)",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What is the measured cooled volume, sheet area and cooling time? Is a wheat-germ amount available for the complete earlier route? Does the household intend the added seeds/salt/fixed vanilla?",
+    "What is the household quality window under its actual humidity and nut freshness?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

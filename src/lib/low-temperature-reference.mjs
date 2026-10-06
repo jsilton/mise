@@ -13,6 +13,12 @@ export function hasLowTemperatureReference(content, words) {
   );
   const hasFinishedEndpoint = /\b165°f\b|\b74°c\b/.test(text);
   if (hasFinishedEndpoint) {
+    // Recognize only this explicit shallow-vessel stock/broth cooling context.
+    // Remove the bath phrase, not other cooking words or temperatures.
+    text = text.replace(
+      /(\bcool promptly in those shallow vessels\.\s+an?\s+)ice[- ]water bath(?=\s+with occasional clean stirring can speed cooling;\s*keep bath water out of the (?:stock|broth)\b)/g,
+      '$1'
+    );
     text = text.replace(
       /\b(?:keep|hold)\s+(?:hot food|cooked (?:meat|chicken|turkey)|hot filling)\s+at\s+(?:least\s+)?140°f(?:\s*\/\s*60°c)?(?:\s+or\s+(?:above|warmer|higher))?/g,
       ''

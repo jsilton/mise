@@ -1,0 +1,3539 @@
+{
+  "slug": "vanilla-earl-grey-overnight-oats",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "aec88195a30d4621dae4635d95abe3680186d5e4e1791023b9a024cc67c13765",
+  "acceptedSourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["boil"],
+      "after": ["boil", "no-cook"]
+    },
+    {
+      "field": "totalTime",
+      "before": "370 min",
+      "after": "6 hr 10 min minimum, plus water heating; 12 hr soak preferred"
+    },
+    {
+      "field": "servings",
+      "before": "2",
+      "after": "2 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Rolled Oats (Old-fashioned preferred)",
+        "1 cup Boiling Water + 1 Earl Grey Tea Bag",
+        "1/2 cup Almond Milk (or Whole Milk)",
+        "1 tbsp Pure Honey",
+        "1 tsp Pure Vanilla Extract",
+        "1 Stroopwafel or Crisp Cookie (the crunch garnish)",
+        "Pinch of Sea Salt"
+      ],
+      "after": [
+        "--- Tea oats ---",
+        "2 cups old-fashioned rolled oats",
+        "1 cup boiling water",
+        "1 Earl Grey tea bag",
+        "1/2 cup almond or whole milk",
+        "1 tbsp pure honey",
+        "1 tsp pure vanilla extract",
+        "sea salt, a pinch",
+        "--- Garnish and adjustments ---",
+        "1 stroopwafel or crisp cookie, crumble and divide across the whole batch",
+        "additional milk, a splash if needed, optional",
+        "additional honey, to taste, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1290,
+        "protein": 11,
+        "carbs": 63.5,
+        "fat": 113,
+        "fiber": 8,
+        "sugar": 8.5,
+        "sodium": 1170
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 2,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "base",
+            "name": "Tea oats",
+            "ingredients": [
+              {
+                "id": "oats",
+                "key": "oats",
+                "name": "old-fashioned rolled oats",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "boiling water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "steep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tea",
+                "key": "tea",
+                "name": "Earl Grey tea bag",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "steep",
+                    "share": 1
+                  }
+                ],
+                "plural": "Earl Grey tea bags",
+                "role": "discarded"
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "almond or whole milk",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "pure honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sweeten",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Garnish and adjustments",
+            "ingredients": [
+              {
+                "id": "cookie",
+                "key": "cookie",
+                "name": "stroopwafel or crisp cookie",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "plural": "stroopwafels or crisp cookies",
+                "preparation": "crumble and divide across the whole batch"
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "additional milk",
+                "allowance": "a splash if needed",
+                "uses": [
+                  {
+                    "step": "adjust",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "additional honey",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "steep",
+            "title": "Steep",
+            "text": "Use {{ingredients}} for the infusion: put the tea bag in a heatproof mixing bowl, pour in the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars."
+          },
+          {
+            "id": "sweeten",
+            "title": "Sweeten tea",
+            "text": "Stir {{ingredients}} into the hot tea until dissolved."
+          },
+          {
+            "id": "liquid",
+            "title": "Add milk",
+            "text": "Whisk in {{ingredients}}."
+          },
+          {
+            "id": "combine",
+            "title": "Add oats",
+            "text": "Stir in {{ingredients}} until the tea mixture coats all the oats."
+          },
+          {
+            "id": "chill",
+            "title": "Refrigerate",
+            "text": "Divide the entire mixture into clean containers with enough room for the mixture and later stirring; use more containers for a larger batch. The original batch makes two planned portions. Cover and refrigerate promptly at 40°F / 4°C or below for at least 6 hours, preferably 12. If the mixture is still warm, use shallow containers and cool it in the refrigerator rather than waiting for complete counter cooling."
+          },
+          {
+            "id": "adjust",
+            "title": "Check texture",
+            "text": "Stir, then use {{ingredients}} if needed to loosen the oats."
+          },
+          {
+            "id": "serve",
+            "title": "Finish",
+            "text": "Top with {{ingredients}}, distributing the full cookie amount across the batch. Add the extra honey only if desired."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Infusing tea separately, then refrigerating the complete oat batch in containers that actually fit.",
+        "outcome": "Tea-flavored softened oats, with the full cookie distributed at service and texture adjusted after soaking.",
+        "techniques": ["cold-preparation", "temperature"],
+        "before": [
+          "The listed water is already boiling; water heating is additional to the ten-minute preparation reference. Use a vessel suitable for hot liquid.",
+          "The original two-portion batch contains 2 cups dry oats and 1½ cups combined water and milk. Use containers that fit the entire mixture with stirring room."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Tea has steeped and the bag is removed.",
+            "why": "The bag infuses the listed water and is discarded; it is not an edible topping."
+          },
+          {
+            "step": 5,
+            "cue": "All mixture is promptly refrigerated in suitable containers.",
+            "why": "Neither honey nor tea replaces cold handling of milk and hydrated oats."
+          },
+          {
+            "step": 7,
+            "cue": "The listed cookie is shared across the whole batch.",
+            "why": "One cookie is the original full garnish amount, not one cookie per scaled portion."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The mixture will not fit the planned jars.",
+            "cause": "Jar count was assumed from a smaller capacity.",
+            "fix": "Use larger or additional containers; retain the full oats and liquids."
+          },
+          {
+            "problem": "The oats are thick after soaking.",
+            "cause": "The written oat-to-liquid ratio is relatively dense.",
+            "fix": "Stir in the optional milk splash after chilling; do not silently reduce the oats."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Old-fashioned oats",
+            "alternative": "Same full volume of quick oats",
+            "effect": "A softer texture, with the same cold soak."
+          },
+          {
+            "ingredient": "Almond or whole milk",
+            "alternative": "Same full milk volume of another milk",
+            "effect": "Check the chosen cookie and other labels if avoiding dairy."
+          }
+        ],
+        "storage": "Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Use within the shortest after-opening storage instruction for the milk used. Keep the cookie separate until serving so it stays crisp.",
+        "timing": "Ten minutes preparation includes the five-minute steep once water is boiling; at least 6 hours refrigerated soaking gives a 6-hour-10-minute minimum subtotal. Heating the water, cooling warm larger loads in the refrigerator and a preferred 12-hour soak extend the actual plan. No jar-volume or heating-duration measurement is implied.",
+        "sources": [
+          {
+            "title": "Yay! For Food — full tea/oat ratio and quick-oat option",
+            "url": "https://www.yayforfood.com/recipes/earl-grey-overnight-oats/"
+          },
+          {
+            "title": "FDA — prompt shallow cooling and cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nOvernight oats are a Scandinavian trick for zero-effort weekday mornings - the oats hydrate in the fridge while you sleep, becoming creamy without cooking. Earl Grey tea and vanilla extract steeped into the milk give this version a subtle floral complexity that plain oats can't touch. The silky, pudding-like texture comes from the right ratio of oats to liquid, not from added ingredients.\n\n## Directions\n\n1.  **The Infusion:** Steep the Earl Grey bag in 1 cup boiling water for 5 minutes. Discard the bag. Stir in the honey while hot until dissolved.\n2.  **Emulsify:** Whisk in the milk, vanilla, and sea salt.\n3.  **Combine:** Place the oats in a large bowl. Pour the tea-milk mixture over the top. Stir vigorously until the oats are fully submerged.\n4.  **The Finish:** Divide into two half-pint mason jars. Cover and **refrigerate for at least 6 hours** (ideally 12).\n5.  **Adjust:** Open the jar. If the oats are too thick, stir in a splash of fresh milk to reach a velvety \"Bounce.\"\n6.  **Serve:** Top with a crumbled Stroopwafel or wafer for the mandatory **High Note**.\n\n## Cooking Notes\n\nQuick oats give a softer texture; old-fashioned rolled oats stay chewier. Choose the texture you prefer and adjust liquid after the overnight soak.\n",
+    "after": "\n## Chef's Note\n\nSteep the tea in boiling water before adding the milk and vanilla. This batch has more oats than milk-and-tea liquid by volume and can be quite thick after soaking, so stir and use the optional milk splash afterward. The full oats, tea liquid and honey remain in the mixture; choose containers by the actual amount rather than a fixed jar count.\n\n## Directions\n\n1. **Steep:** Use boiling water and Earl Grey tea bag for the infusion: put the tea bag in a heatproof mixing bowl, pour in the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars.\n2. **Sweeten tea:** Stir pure honey into the hot tea until dissolved.\n3. **Add milk:** Whisk in almond or whole milk, pure vanilla extract, and sea salt.\n4. **Add oats:** Stir in old-fashioned rolled oats until the tea mixture coats all the oats.\n5. **Refrigerate:** Divide the entire mixture into clean containers with enough room for the mixture and later stirring; use more containers for a larger batch. The original batch makes two planned portions. Cover and refrigerate promptly at 40°F / 4°C or below for at least 6 hours, preferably 12. If the mixture is still warm, use shallow containers and cool it in the refrigerator rather than waiting for complete counter cooling.\n6. **Check texture:** Stir, then use additional milk (if using) if needed to loosen the oats.\n7. **Finish:** Top with stroopwafel or crisp cookie and additional honey (if using), distributing the full cookie amount across the batch. Add the extra honey only if desired.\n\n## Cooking Notes\n\nQuick oats give a softer texture; old-fashioned rolled oats stay chewier. Choose the texture you prefer and adjust liquid after the overnight soak. The full milk amount may be replaced with another milk of choice.\n\nAn alternate tea strength uses a 3–5-minute steep, then the same complete mixture and at-least-6-hour refrigerated soak. The cookie can be omitted for the plain version; if used, keep the full listed amount and divide it among the portions. Extra milk and honey remain unmeasured, conditional serving adjustments.\n"
+  },
+  "findings": [
+    {
+      "id": "GS14-E01",
+      "title": "GS14-E01",
+      "rationale": "Keep the full dense tea/oat ratio and current cookie/salt, retain9fa quick-oat note, explicitly discard the tea bag, replace contradictory two-half-pint jar prescription with actual-fit containers, and count water heating separately. Restore exact source3–5minute steep and optionalcookie/extrahoney routes while retaining five-minute/main fullcookie.",
+      "confidence": "High for preservation/capacity conflict; moderate for handling sequence",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "faaad7476aa0aa14dff04f6fcb0e44fd334e2798",
+        "https://www.yayforfood.com/recipes/earl-grey-overnight-oats/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Native and actual publisher both specify2cups oats+1½cups liquid and twohalf-pintjars; agreement does not prove capacity. Container correction is arithmetic/practical inference, not a testedlargerjar claim. FDA supports promptshallowrefrigeratorcooling40/2h/1hhot, not oatsoftening or thermal-shock certification.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "cookingMethods",
+        "totalTime",
+        "content",
+        "learning"
+      ],
+      "questions": [
+        "What is actual finished volume and acceptable container hot-liquid rating? Is2cups oats intended, despite verydense ratio? No measured jar size or storage life established."
+      ]
+    },
+    {
+      "id": "GS14-META",
+      "title": "GS14-META",
+      "rationale": "Omit unsupported geographic origin and unverified numerical nutrition, preserving the current cuisine/style, exact source and all rich quantities.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact vanilla-earl-grey-overnight-oats native cooking and actual followed history establish no recipe birthplace or verified nutrient calculation. American style or publisher location does not establish a country of origin. ",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "GS14-I02",
+      "title": "Independent wording correction",
+      "rationale": "The measured cookie count scales, while this optional-route sentence directs the full listed amount to the original two portions. The main authored finish correctly distributes it across the batch. Use the same actual portions in the option, keeping its optional omission and full garnish count.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "location": "formula.steps[serve]; finish.cookie"
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "location": "method prose remains unchanged when scaling"
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": ["Actual portion/container volume remains unmeasured."]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Vanilla%20Earl%20Grey%20Overnight%20Oats.html",
+    "introductionScope": "Actual retained pre-Markdown cooking introduction matching the exact native-bound recipe; canonical-path continuity must be distinguished where it was later recreated.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "GS14-E01",
+      "rationale": "Keep the full dense tea/oat ratio and current cookie/salt, retain9fa quick-oat note, explicitly discard the tea bag, replace contradictory two-half-pint jar prescription with actual-fit containers, and count water heating separately. Restore exact source3–5minute steep and optionalcookie/extrahoney routes while retaining five-minute/main fullcookie.",
+      "applicability": "Native and actual publisher both specify2cups oats+1½cups liquid and twohalf-pintjars; agreement does not prove capacity. Container correction is arithmetic/practical inference, not a testedlargerjar claim. FDA supports promptshallowrefrigeratorcooling40/2h/1hhot, not oatsoftening or thermal-shock certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2 cups Rolled Oats (Old-fashioned preferred)",
+        "destinations": 3,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 1,
+        "text": "1 cup Boiling Water + 1 Earl Grey Tea Bag",
+        "destinations": "water1/tea1discarded",
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 2,
+        "text": "1/2 cup Almond Milk (or Whole Milk)",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Pure Honey",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 4,
+        "text": "1 tsp Pure Vanilla Extract",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 5,
+        "text": "1 Stroopwafel or Crisp Cookie (the crunch garnish)",
+        "destinations": 6,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 6,
+        "text": "Pinch of Sea Salt",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      }
+    ],
+    "unlistedBefore": ["Conditional extra milk in current directions; no quantity supplied."],
+    "proposed": [
+      {
+        "id": "base.oats",
+        "name": "old-fashioned rolled oats",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "combine",
+            "share": 1,
+            "text": "Stir in {{ingredients}} until the tea mixture coats all the oats."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.water",
+        "name": "boiling water",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "steep",
+            "share": 1,
+            "text": "Use {{ingredients}} for the infusion: put the tea bag in a heatproof mixing bowl, pour in the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.tea",
+        "name": "Earl Grey tea bag",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "discarded",
+        "destinations": [
+          {
+            "step": "steep",
+            "share": 1,
+            "text": "Use {{ingredients}} for the infusion: put the tea bag in a heatproof mixing bowl, pour in the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.milk",
+        "name": "almond or whole milk",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Whisk in {{ingredients}}."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.honey",
+        "name": "pure honey",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "sweeten",
+            "share": 1,
+            "text": "Stir {{ingredients}} into the hot tea until dissolved."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Whisk in {{ingredients}}."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.salt",
+        "name": "sea salt",
+        "quantity": null,
+        "allowance": "a pinch",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Whisk in {{ingredients}}."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.cookie",
+        "name": "stroopwafel or crisp cookie",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "state": "crumble and divide across the whole batch",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Top with {{ingredients}}, distributing the full cookie amount across the batch. Add the extra honey only if desired."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.milk",
+        "name": "additional milk",
+        "quantity": null,
+        "allowance": "a splash if needed",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "adjust",
+            "share": 1,
+            "text": "Stir, then use {{ingredients}} if needed to loosen the oats."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.honey",
+        "name": "additional honey",
+        "quantity": null,
+        "allowance": "to taste",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Top with {{ingredients}}, distributing the full cookie amount across the batch. Add the extra honey only if desired."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "steep",
+      "title": "Steep",
+      "text": "Use {{ingredients}} for the infusion: put the tea bag in a heatproof mixing bowl, pour in the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars.",
+      "generatedText": "1. **Steep:** Use boiling water and Earl Grey tea bag for the infusion: put the tea bag in a heatproof mixing bowl, pour in the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars.",
+      "dependsOn": [],
+      "assigned": ["base.water", "base.tea"]
+    },
+    {
+      "index": 2,
+      "id": "sweeten",
+      "title": "Sweeten tea",
+      "text": "Stir {{ingredients}} into the hot tea until dissolved.",
+      "generatedText": "2. **Sweeten tea:** Stir pure honey into the hot tea until dissolved.",
+      "dependsOn": ["steep"],
+      "assigned": ["base.honey"]
+    },
+    {
+      "index": 3,
+      "id": "liquid",
+      "title": "Add milk",
+      "text": "Whisk in {{ingredients}}.",
+      "generatedText": "3. **Add milk:** Whisk in almond or whole milk, pure vanilla extract, and sea salt.",
+      "dependsOn": ["sweeten"],
+      "assigned": ["base.milk", "base.vanilla", "base.salt"]
+    },
+    {
+      "index": 4,
+      "id": "combine",
+      "title": "Add oats",
+      "text": "Stir in {{ingredients}} until the tea mixture coats all the oats.",
+      "generatedText": "4. **Add oats:** Stir in old-fashioned rolled oats until the tea mixture coats all the oats.",
+      "dependsOn": ["liquid"],
+      "assigned": ["base.oats"]
+    },
+    {
+      "index": 5,
+      "id": "chill",
+      "title": "Refrigerate",
+      "text": "Divide the entire mixture into clean containers with enough room for the mixture and later stirring; use more containers for a larger batch. The original batch makes two planned portions. Cover and refrigerate promptly at 40°F / 4°C or below for at least 6 hours, preferably 12. If the mixture is still warm, use shallow containers and cool it in the refrigerator rather than waiting for complete counter cooling.",
+      "generatedText": "5. **Refrigerate:** Divide the entire mixture into clean containers with enough room for the mixture and later stirring; use more containers for a larger batch. The original batch makes two planned portions. Cover and refrigerate promptly at 40°F / 4°C or below for at least 6 hours, preferably 12. If the mixture is still warm, use shallow containers and cool it in the refrigerator rather than waiting for complete counter cooling.",
+      "dependsOn": ["combine"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "adjust",
+      "title": "Check texture",
+      "text": "Stir, then use {{ingredients}} if needed to loosen the oats.",
+      "generatedText": "6. **Check texture:** Stir, then use additional milk (if using) if needed to loosen the oats.",
+      "dependsOn": ["chill"],
+      "assigned": ["finish.milk"]
+    },
+    {
+      "index": 7,
+      "id": "serve",
+      "title": "Finish",
+      "text": "Top with {{ingredients}}, distributing the full cookie amount across the batch. Add the extra honey only if desired.",
+      "generatedText": "7. **Finish:** Top with stroopwafel or crisp cookie and additional honey (if using), distributing the full cookie amount across the batch. Add the extra honey only if desired.",
+      "dependsOn": ["adjust"],
+      "assigned": ["finish.cookie", "finish.honey"]
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Quick oats",
+        "changes": [
+          {
+            "replace": "base.oats",
+            "name": "quick oats",
+            "amount": 2,
+            "unit": "cup",
+            "destination": "combine"
+          }
+        ],
+        "scope": "Samefullremainingformula, softertexture."
+      },
+      {
+        "name": "Milk choice",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "milk ofchoice",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "liquid"
+          }
+        ],
+        "scope": "Exclusivefullreplacement, notaddition."
+      },
+      {
+        "name": "Plain no-cookie",
+        "changes": [],
+        "scope": "Omit onlyfinish.cookie; allfullbase remains.",
+        "remove": ["finish.cookie"]
+      },
+      {
+        "name": "Tea strength",
+        "changes": [],
+        "scope": "Complete main doses unchanged;3–5minsteepinstead5, same≥6hchill."
+      }
+    ],
+    "completeCookingOptions": "Quick oats give a softer texture; old-fashioned rolled oats stay chewier. Choose the texture you prefer and adjust liquid after the overnight soak. The full milk amount may be replaced with another milk of choice.\n\nAn alternate tea strength uses a 3–5-minute steep, then the same complete mixture and at-least-6-hour refrigerated soak. The cookie can be omitted for the plain version; if used, keep the full listed amount and divide it across the original two portions. Extra milk and honey remain unmeasured, conditional serving adjustments.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Old-fashioned oats",
+        "alternative": "Same full volume of quick oats",
+        "effect": "A softer texture, with the same cold soak."
+      },
+      {
+        "ingredient": "Almond or whole milk",
+        "alternative": "Same full milk volume of another milk",
+        "effect": "Check the chosen cookie and other labels if avoiding dairy."
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "Half-pint jar capacity unresolved; no standard replacement jar size or reduced oat dose invented."
+    ],
+    "completeBranches": [
+      {
+        "name": "Quick oats",
+        "changes": [
+          {
+            "replace": "base.oats",
+            "name": "quick oats",
+            "amount": 2,
+            "unit": "cup",
+            "destination": "combine"
+          }
+        ],
+        "scope": "Samefullremainingformula, softertexture.",
+        "completeUnchangedMain": [
+          {
+            "id": "base.water",
+            "name": "boiling water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.tea",
+            "name": "Earl Grey tea bag",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.milk",
+            "name": "almond or whole milk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.honey",
+            "name": "pure honey",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["sweeten"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "finish.cookie",
+            "name": "stroopwafel or crisp cookie",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["serve"]
+          },
+          {
+            "id": "finish.milk",
+            "name": "additional milk",
+            "quantity": null,
+            "allowance": "a splash if needed",
+            "destinations": ["adjust"]
+          },
+          {
+            "id": "finish.honey",
+            "name": "additional honey",
+            "quantity": null,
+            "allowance": "to taste",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 3,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 4,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 6,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "quick oats",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "combine",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Milk choice",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "milk ofchoice",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "liquid"
+          }
+        ],
+        "scope": "Exclusivefullreplacement, notaddition.",
+        "completeUnchangedMain": [
+          {
+            "id": "base.oats",
+            "name": "old-fashioned rolled oats",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "base.water",
+            "name": "boiling water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.tea",
+            "name": "Earl Grey tea bag",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.honey",
+            "name": "pure honey",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["sweeten"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "finish.cookie",
+            "name": "stroopwafel or crisp cookie",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["serve"]
+          },
+          {
+            "id": "finish.milk",
+            "name": "additional milk",
+            "quantity": null,
+            "allowance": "a splash if needed",
+            "destinations": ["adjust"]
+          },
+          {
+            "id": "finish.honey",
+            "name": "additional honey",
+            "quantity": null,
+            "allowance": "to taste",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plain no-cookie",
+        "changes": [],
+        "scope": "Omit onlyfinish.cookie; allfullbase remains.",
+        "remove": ["finish.cookie"],
+        "completeUnchangedMain": [
+          {
+            "id": "base.oats",
+            "name": "old-fashioned rolled oats",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "base.water",
+            "name": "boiling water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.tea",
+            "name": "Earl Grey tea bag",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.milk",
+            "name": "almond or whole milk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.honey",
+            "name": "pure honey",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["sweeten"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "finish.milk",
+            "name": "additional milk",
+            "quantity": null,
+            "allowance": "a splash if needed",
+            "destinations": ["adjust"]
+          },
+          {
+            "id": "finish.honey",
+            "name": "additional honey",
+            "quantity": null,
+            "allowance": "to taste",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tea strength",
+        "changes": [],
+        "scope": "Complete main doses unchanged;3–5minsteepinstead5, same≥6hchill.",
+        "completeUnchangedMain": [
+          {
+            "id": "base.oats",
+            "name": "old-fashioned rolled oats",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["combine"]
+          },
+          {
+            "id": "base.water",
+            "name": "boiling water",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.tea",
+            "name": "Earl Grey tea bag",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["steep"]
+          },
+          {
+            "id": "base.milk",
+            "name": "almond or whole milk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.honey",
+            "name": "pure honey",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["sweeten"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": null,
+            "allowance": "a pinch",
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "finish.cookie",
+            "name": "stroopwafel or crisp cookie",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["serve"]
+          },
+          {
+            "id": "finish.milk",
+            "name": "additional milk",
+            "quantity": null,
+            "allowance": "a splash if needed",
+            "destinations": ["adjust"]
+          },
+          {
+            "id": "finish.honey",
+            "name": "additional honey",
+            "quantity": null,
+            "allowance": "to taste",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.water",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.tea",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.honey",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": null,
+                "allowance": "a pinch"
+              },
+              {
+                "id": "finish.cookie",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.milk",
+                "quantity": null,
+                "allowance": "a splash if needed"
+              },
+              {
+                "id": "finish.honey",
+                "quantity": null,
+                "allowance": "to taste"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": ["banana-oat-greek-yogurt-muffins", "brownie-protein-balls", "granola"],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained only as metadata; no composed-meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Full2cups oats/1cup boilingwater/1teabag/½cupmilk/1tbsp honey/1tspvanilla/1cookie/pinch salt retained.2half-pints nominal2cups capacity versus2cups dryoats+1½cupsliquid; exactpublisher/native repeat samejarclaim, so capacity remainsunmeasured. Do notdecreaseoats orinventjarvolume. Twoportions originalplan.",
+    "planningYield": {
+      "amount": 2,
+      "unit": "portion"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What is actual finished volume and acceptable container hot-liquid rating? Is2cups oats intended, despite verydense ratio? No measured jar size or storage life established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

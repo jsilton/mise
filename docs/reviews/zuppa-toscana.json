@@ -1,0 +1,1229 @@
+{
+  "slug": "zuppa-toscana",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "241049110cd11f30d3e30ae4ec299b10eb7efaf1ef57658382c806cc794cd983",
+  "acceptedSourceSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Hot or Sweet Italian Sausage, bulk",
+        "2 lbs Russet Potatoes, 1/2-inch cubes",
+        "5 cups Fresh Kale, chopped",
+        "4 cups Chicken Bone Broth",
+        "1 cup Full-fat Coconut Milk (for richness)",
+        "5 cloves Garlic, minced",
+        "1 Yellow Onion, diced",
+        "1 tsp Red Pepper Flakes (The Finishing Touch)",
+        "Sea Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "1 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "2 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "5 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "4 cups prepared chicken bone broth",
+        "1 cup full-fat coconut milk, stirred smooth before measuring",
+        "5 garlic cloves, minced",
+        "1 yellow onion, diced",
+        "1 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 485,
+        "protein": 37,
+        "carbs": 14.5,
+        "fat": 32,
+        "fiber": 2,
+        "sugar": 1.5,
+        "sodium": 710
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "sausage",
+                "key": "italian-sausage",
+                "name": "raw hot or sweet bulk Italian sausage",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ],
+                "preparation": "check the label for pork/beef versus poultry"
+              },
+              {
+                "id": "potatoes",
+                "key": "russet-potato",
+                "name": "Russet potatoes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "preparation": "scrubbed, peeled if desired, and cut into 1/2-inch cubes"
+              },
+              {
+                "id": "kale",
+                "key": "kale",
+                "name": "fresh kale",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wilt",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed, tough stems removed and leaves chopped"
+              },
+              {
+                "id": "broth",
+                "key": "chicken-bone-broth",
+                "name": "prepared chicken bone broth",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "coconut",
+                "key": "full-fat-coconut-milk",
+                "name": "full-fat coconut milk",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "coconut",
+                    "share": 1
+                  }
+                ],
+                "preparation": "stirred smooth before measuring"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "foundation",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "onion",
+                "key": "yellow-onion",
+                "name": "yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "foundation",
+                    "share": 1
+                  }
+                ],
+                "plural": "yellow onions",
+                "preparation": "diced"
+              },
+              {
+                "id": "flakes",
+                "key": "red-pepper-flakes",
+                "name": "red pepper flakes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "foundation",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "sea-salt",
+                "name": "sea salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finish-salt",
+                "key": "sea-salt",
+                "name": "additional sea salt",
+                "allowance": "to taste after cooking",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "finish-pepper",
+                "key": "black-pepper",
+                "name": "additional black pepper",
+                "allowance": "to taste after cooking",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "allowance": "a drizzle for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "render",
+            "title": "Render sausage",
+            "text": "In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown {{ingredients}} over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit."
+          },
+          {
+            "id": "foundation",
+            "title": "Foundation",
+            "text": "Use {{ingredients}} for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer potatoes",
+            "text": "Add {{ingredients}} and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish."
+          },
+          {
+            "id": "coconut",
+            "title": "Coconut finish",
+            "text": "Stir in {{ingredients}} and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat."
+          },
+          {
+            "id": "wilt",
+            "title": "Wilt kale",
+            "text": "Add {{ingredients}}. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Taste the cooked soup and use {{ingredients}} as desired. Ladle into bowls; the soup thickens further as it stands."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Let potato tenderness and a late kale addition set the soup finish",
+        "outcome": "Fork-tender potato cubes in a rich sausage-and-coconut broth, with wilted kale.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen supplies. Prepare serving herbs and vegetables with clean tools before handling raw meat; keep cooked food and its utensils separate.",
+          "Use prepared broth and stir the full-fat coconut milk before measuring. Check the sausage label: pork/beef and poultry have different cooking targets.",
+          "Eight portions are the original planning count, not a measured soup volume. Choose pots with enough stirring headroom and split all ingredients proportionally for larger batches."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Onion is soft before garlic goes in; garlic smells fragrant after its short cook.",
+            "why": "The accepted separate garlic stage avoids giving minced garlic the full onion clock."
+          },
+          {
+            "step": 3,
+            "cue": "A fork enters the centers of the half-inch potato cubes easily.",
+            "why": "Cube size and broth heating affect the clock; soft edges alone can hide a firm center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Kale stays tough after one minute",
+            "cause": "Leaf maturity and remaining thick stems change cooking time.",
+            "fix": "Remove tough stems before chopping and continue simmering until the leaves are tender; retain the full kale amount."
+          }
+        ],
+        "timing": "The current original-batch plan remains about 50 minutes, including 15 minutes preparation and roughly 35 minutes cooking. Heat-up time, the actual sausage endpoint, potato centers and kale tenderness can extend it; extra pot loads do not finish in the same clock.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. The original one-month freezer plan is retained as a quality target, not a tested shelf life. Reheat while stirring to 165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time. Brief reheating rather than prolonged boiling limits further potato/kale softening and changes to coconut texture.",
+        "sources": [
+          {
+            "title": "Michele Rosen — Zuppa Toscana",
+            "url": "https://www.paleorunningmomma.com/zuppa-toscana-paleo-whole30-keto/"
+          },
+          {
+            "title": "FDA cooking categories",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nZuppa Toscana (\"Tuscan soup\") became famous in America through Olive Garden in the 1990s, though similar soups with sausage, potatoes, and greens have been made in Tuscany for generations. Russet potatoes naturally thicken the broth as they simmer - their starch helps emulsify the coconut milk into a creamy consistency without heavy cream. Add the kale in the final minute to keep it bright green and slightly crisp against the rich sausage.\n\n## Directions\n\n1.  **The Render:** In a large Dutch oven, brown the sausage over medium heat for 8 minutes, breaking it into small crumbles. Remove sausage to a plate, leaving the fat in the pot.\n2.  **Foundation:** In the sausage fat, sauté onion for 4-5 minutes until soft. Add garlic and sauté for 30-45 seconds until fragrant. Stir in the red pepper flakes.\n3.  **Simmer:** Add the potatoes and bone broth. Season with salt and pepper. Bring to a boil, then reduce heat and simmer for 10-12 minutes until potatoes are soft.\n4.  **Emulsify:** Pour in the coconut milk and return the sausage to the pot. Stir for 5 minutes to allow the flavors to bridge.\n5.  **Wilt:** Stir in the fresh kale. Cook for exactly 1 minute until just collapsed.\n6.  **Serve:** Ladle into deep bowls. Top with a final crack of black pepper and a drizzle of olive oil for the mandatory **High Note**.\n",
+    "after": "\n## Chef's Note\n\nAdapted from Michele Rosen’s coconut-milk Zuppa Toscana, an American restaurant-style sausage, potato and kale soup. Keep all the rendered sausage fat and the full-fat coconut milk for its rich broth. Add the garlic after the onion softens and the kale near the end; potato and leaf tenderness matter more than an exact minute.\n\n## Directions\n\n1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.\n\n## Peeled-potato variation\n\nFor the peeled-potato version, replace the main potatoes with two large Russets, about 1½ lb in the original batch, peeled and cut into ½-inch cubes; scale both the count and approximate weight with the batch. Replace the listed measured pepper-flake amount with an unmeasured to-taste allowance, sprinkled on the sausage while browning. Keep the full original proportions of sausage, onion, garlic, broth, kale and coconut milk, and omit the optional finishing-oil drizzle. Fully cook the sausage as in step 1 and retain its fat; cook the onion until translucent, then garlic for about 45 seconds. Add potatoes, salt and pepper, then broth; start checking potato tenderness around 10 minutes after it returns to a simmer. Add the full coconut milk and sausage for about 5 minutes, then wilt the kale and season after cooking.\n\nMushrooms or cauliflower instead of potatoes were also named options, with instructions to proceed to the coconut finish after the broth boils. Their replacement quantities and complete cooking endpoints were not supplied; settle those before using that branch as a formula.\n"
+  },
+  "findings": [
+    {
+      "id": "MS15-Z01",
+      "title": "MS15-Z01",
+      "rationale": "Retain full2lb potatoes/4cups broth/5cups kale/1cupfullfat coconut/1tspflakes and all sausage fat. Check actual raw sausage species and endpoint before clean-plate transfer; preserve2b01 onion then30–45secgarlic. Replace exact1minute kale guarantee with leaf tenderness, and expose existing finishingoil as a genuine optional unmeasured supply.",
+      "confidence": "high doses/priorrepair; moderate leaf/load clock",
+      "applicableSources": [
+        "f612 quantity/processdiff",
+        "2b01 acceptedrepair",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "currentoriginalsource"
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual sausage species, pot load, potato and kale texture, and serving size?"]
+    },
+    {
+      "id": "MS15-Z02",
+      "title": "MS15-Z02",
+      "rationale": "Restore the full exact-native peeledapproximately1½lb/to-tasteflakes route distinctly, not a silent rollback of2lb main. Modern publisher6bacon/6stock/4kale is different; not blended in. Incomplete potato substitutes remain named held questions. Preserve source1month freezer quality plan while replacing unsupported5day fridge with primary3–4day handling; distinguish rolling reheat from gentle first coconut finish.",
+      "confidence": "high exactsource differences; moderate freezer texture plan",
+      "applicableSources": [
+        "exactbound450/045",
+        "f612 actualdiff",
+        "https://www.paleorunningmomma.com/zuppa-toscana-paleo-whole30-keto/",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Mushroom/cauliflower amounts, substitution identity and complete cooking are unresolved; no formula is approved for them.",
+        "Does household intend a distinct modern6bacon/6stock/4kale batch? None is silently imported."
+      ]
+    },
+    {
+      "id": "MS15-Z03",
+      "title": "MS15-Z03",
+      "rationale": "Keep Italian style and actual American restaurant-style source context; remove unsupported Italy birthfield and generational/1990 historical claims, automatic nutrition and nonspecific emulsification guarantee. Full coconut richness remains.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.paleorunningmomma.com/zuppa-toscana-paleo-whole30-keto/",
+        "actualhistorymetadataandChefNotechanges",
+        "docs/RECIPE_STANDARD.md"
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "MS15-I01",
+      "title": "Independent wording correction",
+      "rationale": "Enabled scaling changes the main pepper-flake amount. The exclusive source route replaces that listed amount with its genuine to-taste allowance. Fixed teaspoon wording is inaccurate at half/double; no formula or dose changes.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "c176d390ef5dcee006c43c7fe79169ab9670259b2de3fd4d17c368d92acb1be5",
+          "applicability": "Exact original to-taste flakes and peeled-potato branch."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "05d5d3f266f4d092bd3c6e76d8e15020b12eff4f9d042ae7683d6d38c347199b",
+          "applicability": "Original main teaspoon scales proportionally."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": ["Actual pepper preference remains household dependent."]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Zuppa%20Toscana.html",
+    "introductionScope": "Exact retained Git cooking introduction; canonical-copy lineage separately recorded.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Exact earlier peeled potato route",
+      "supplies": "Originalbatch1lbsausage/2largeRussetsabout1½lbpeeled/5kale/4broth/1fullfatcoconut/5garlic/1mediumonion/pepperflakestotaste/separatepotatoandfinishsaltpepper; no finishoil",
+      "destination": "Flakessausage, allfatretained, onion/garlic, potatoes seasoning→broth, allcoconut/sausage, kale, finalseasoning",
+      "status": "complete separate proposedvariant"
+    },
+    {
+      "name": "Modern publisher batch",
+      "supplies": "6slicesbacon/1lbsausage/about1½lbpotato/6cupbroth/4cupkale/1cupcoconut and fullcard",
+      "destination": "Exactpublisher evidence disagreement; not silently merged with native/current",
+      "status": "not proposed; scope question"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 lb Hot or Sweet Italian Sausage, bulk",
+        "preparation": "bulk hot/sweet; species/rawstate unspecified",
+        "destination": "brown8min1→platefatall retained→coconut4",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "2 lbs Russet Potatoes, 1/2-inch cubes",
+        "preparation": "2lb half-inch; peelstate absent",
+        "destination": "simmer3 10–12min",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "5 cups Fresh Kale, chopped",
+        "preparation": "fresh chopped; stemstate absent",
+        "destination": "wilt5 exactly1min",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "4 cups Chicken Bone Broth",
+        "preparation": "4cupsbroth; preparedimplicit",
+        "destination": "simmer3",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 cup Full-fat Coconut Milk (for richness)",
+        "preparation": "fullfat1cup",
+        "destination": "coconut4all",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "5 cloves Garlic, minced",
+        "preparation": "minced",
+        "destination": "acceptedlate30–45sec2",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 Yellow Onion, diced",
+        "preparation": "diced",
+        "destination": "onion4–5min2",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tsp Red Pepper Flakes (The Finishing Touch)",
+        "preparation": "measured1tsp flakes",
+        "destination": "foundation2",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "Sea Salt and Black Pepper",
+        "preparation": "jointsaltpepperallowance",
+        "destination": "simmer3; pepperextra6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.sausage",
+        "key": "italian-sausage",
+        "name": "raw hot or sweet bulk Italian sausage",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "preparation": "check the label for pork/beef versus poultry",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.potatoes",
+        "key": "russet-potato",
+        "name": "Russet potatoes",
+        "quantity": {
+          "amount": 2,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "preparation": "scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.kale",
+        "key": "kale",
+        "name": "fresh kale",
+        "quantity": {
+          "amount": 5,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "wilt",
+            "share": 1
+          }
+        ],
+        "preparation": "washed, tough stems removed and leaves chopped",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.broth",
+        "key": "chicken-bone-broth",
+        "name": "prepared chicken bone broth",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.coconut",
+        "key": "full-fat-coconut-milk",
+        "name": "full-fat coconut milk",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "coconut",
+            "share": 1
+          }
+        ],
+        "preparation": "stirred smooth before measuring",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 5,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "foundation",
+            "share": 1
+          }
+        ],
+        "plural": "garlic cloves",
+        "preparation": "minced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onion",
+        "key": "yellow-onion",
+        "name": "yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "foundation",
+            "share": 1
+          }
+        ],
+        "plural": "yellow onions",
+        "preparation": "diced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.flakes",
+        "key": "red-pepper-flakes",
+        "name": "red pepper flakes",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "foundation",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.salt",
+        "key": "sea-salt",
+        "name": "sea salt",
+        "allowance": "to taste",
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pepper",
+        "key": "black-pepper",
+        "name": "black pepper",
+        "allowance": "to taste",
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.finish-salt",
+        "key": "sea-salt",
+        "name": "additional sea salt",
+        "allowance": "to taste after cooking",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.finish-pepper",
+        "key": "black-pepper",
+        "name": "additional black pepper",
+        "allowance": "to taste after cooking",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.oil",
+        "key": "olive-oil",
+        "name": "olive oil",
+        "allowance": "a drizzle for serving, if desired",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": "garnish",
+        "component": "Main recipe"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "ingredient": "1 lb Sweet or spicy Italian sausage meat homemade* or store bought",
+        "destination": "rawsausagebrown5–8→plate/allfatretained→coconutreturn",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 1,
+        "ingredient": "Crushed red pepper to taste",
+        "destination": "optionalflakesonbrowning sausage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 medium yellow onion diced",
+        "destination": "oniontranslucent",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 3,
+        "ingredient": "5 cloves garlic minced",
+        "destination": "garlic45secafteronion",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 4,
+        "ingredient": "2 large Russet potatoes about 1.5 lbs, peeled and cut into 1/2” cubes*",
+        "destination": "peeled½inch potatoabout1½lb→brothtender",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 5,
+        "ingredient": "Sea salt and pepper to taste",
+        "destination": "saltpepperpotatoes",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 6,
+        "ingredient": "4 cups chicken bone broth",
+        "destination": "all4cupstockboil/simmer",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 7,
+        "ingredient": "5 cups kale chopped",
+        "destination": "allkale latewilt",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 cup coconut milk full fat",
+        "destination": "allfullfatcoconut+sausage5min",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 9,
+        "ingredient": "Sea Salt and pepper to taste",
+        "destination": "additionalfinishsaltpepper",
+        "methodEvidence": "privately retained evidence#directions"
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "0a9ae538d99bc7999bb8d4e38ed349058f745dbce7583440fd178bf67d1b6437"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "959bc9c3ecb0831a5d4dcd158ad318862e8e477e95d65fce4f2c2440724b95cd"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "c73a974c15c2ae60603a9eb9a7de6d469039663269227603a7da8fa5916e44c8"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "4cf08d4ada92f742a030c7917cd5e59c94179fed91822767a84a1eb27f7a7661"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "224ef4c4f085bfe7b353314f348f566ceec00f2a1a15c6f9539a7e001d8db032"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "adac7a6e7ae00ddbb248e43c559183cad53eea6134e4a61d0e1903d262cf8761"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "render",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.sausage"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "foundation",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.garlic", "main.onion", "main.flakes"],
+        "cue": ["Onion is soft before garlic goes in; garlic smells fragrant after its short cook."]
+      },
+      {
+        "step": 3,
+        "id": "simmer",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["main.potatoes", "main.broth", "main.salt", "main.pepper"],
+        "cue": ["A fork enters the centers of the half-inch potato cubes easily."]
+      },
+      {
+        "step": 4,
+        "id": "coconut",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.coconut"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "wilt",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["main.kale"],
+        "cue": []
+      },
+      {
+        "step": 6,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["main.finish-salt", "main.finish-pepper", "main.oil"],
+        "cue": []
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "field": "directions",
+      "wholeTextRetained": true
+    }
+  },
+  "variantLedgers": [
+    {
+      "name": "Current full rich main",
+      "supplies": "1lbsausage/2lbpotato/5cupkale/4cupbroth/1cupfullfat coconut/5garlic/1onion/1tspflakes/saltpepper/optionalunmeasuredoil",
+      "destination": "Fullfatretained, onionthengarlic+flakes, potatoes/brothtender, allsausage+coconut, allkale, allowancefinish",
+      "status": "retained"
+    },
+    {
+      "name": "Exact earlier peeled potato route",
+      "supplies": "Originalbatch1lbsausage/2largeRussetsabout1½lbpeeled/5kale/4broth/1fullfatcoconut/5garlic/1mediumonion/pepperflakestotaste/separatepotatoandfinishsaltpepper; no finishoil",
+      "destination": "Flakessausage, allfatretained, onion/garlic, potatoes seasoning→broth, allcoconut/sausage, kale, finalseasoning",
+      "status": "complete separate proposedvariant"
+    },
+    {
+      "name": "Modern publisher batch",
+      "supplies": "6slicesbacon/1lbsausage/about1½lbpotato/6cupbroth/4cupkale/1cupcoconut and fullcard",
+      "destination": "Exactpublisher evidence disagreement; not silently merged with native/current",
+      "status": "not proposed; scope question"
+    },
+    {
+      "name": "Mushrooms/cauliflower",
+      "supplies": "Amounts not supplied",
+      "destination": "Named afterbrothboil shortcut lacks complete dose/cooking relationship",
+      "status": "explicit held option"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "input": "1lbsausage/2lbpotatoes/4cups preparedbroth/1cup fullfatcoconut/5cupskale; fullfat and1tspflakes",
+    "yield": "8inheritedplannedportions, no measured finishedvolume; sourceapproximately1½lbpotato separate not dose-equivalent",
+    "capacity": "Pot mustholdallpotatoes andliquids/sausage/kale with stirringheadroom; no guessedstockaddition"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/4 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "1/2 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "1 1/4 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "1 cup prepared chicken bone broth",
+        "1/4 cup full-fat coconut milk, stirred smooth before measuring",
+        "1 1/4 garlic cloves, minced",
+        "1/4 yellow onion, diced",
+        "1/4 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "1/4 lb raw hot or sweet bulk Italian sausage",
+        "1/2 lb Russet potatoes",
+        "1 1/4 cups fresh kale",
+        "1 cup prepared chicken bone broth",
+        "1/4 cup full-fat coconut milk",
+        "1 1/4 garlic cloves",
+        "1/4 yellow onion",
+        "1/4 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/2 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "1 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "2 1/2 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "2 cups prepared chicken bone broth",
+        "1/2 cup full-fat coconut milk, stirred smooth before measuring",
+        "2 1/2 garlic cloves, minced",
+        "1/2 yellow onion, diced",
+        "1/2 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "1/2 lb raw hot or sweet bulk Italian sausage",
+        "1 lb Russet potatoes",
+        "2 1/2 cups fresh kale",
+        "2 cups prepared chicken bone broth",
+        "1/2 cup full-fat coconut milk",
+        "2 1/2 garlic cloves",
+        "1/2 yellow onion",
+        "1/2 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "2 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "5 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "4 cups prepared chicken bone broth",
+        "1 cup full-fat coconut milk, stirred smooth before measuring",
+        "5 garlic cloves, minced",
+        "1 yellow onion, diced",
+        "1 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "1 lb raw hot or sweet bulk Italian sausage",
+        "2 lb Russet potatoes",
+        "5 cups fresh kale",
+        "4 cups prepared chicken bone broth",
+        "1 cup full-fat coconut milk",
+        "5 garlic cloves",
+        "1 yellow onion",
+        "1 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "3 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "7 1/2 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "6 cups prepared chicken bone broth",
+        "1 1/2 cups full-fat coconut milk, stirred smooth before measuring",
+        "7 1/2 garlic cloves, minced",
+        "1 1/2 yellow onions, diced",
+        "1 1/2 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "1 1/2 lb raw hot or sweet bulk Italian sausage",
+        "3 lb Russet potatoes",
+        "7 1/2 cups fresh kale",
+        "6 cups prepared chicken bone broth",
+        "1 1/2 cups full-fat coconut milk",
+        "7 1/2 garlic cloves",
+        "1 1/2 yellow onions",
+        "1 1/2 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "4 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "10 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "8 cups prepared chicken bone broth",
+        "2 cups full-fat coconut milk, stirred smooth before measuring",
+        "10 garlic cloves, minced",
+        "2 yellow onions, diced",
+        "2 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "16 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "2 lb raw hot or sweet bulk Italian sausage",
+        "4 lb Russet potatoes",
+        "10 cups fresh kale",
+        "8 cups prepared chicken bone broth",
+        "2 cups full-fat coconut milk",
+        "10 garlic cloves",
+        "2 yellow onions",
+        "2 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "6 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "15 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "12 cups prepared chicken bone broth",
+        "3 cups full-fat coconut milk, stirred smooth before measuring",
+        "15 garlic cloves, minced",
+        "3 yellow onions, diced",
+        "3 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "24 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "3 lb raw hot or sweet bulk Italian sausage",
+        "6 lb Russet potatoes",
+        "15 cups fresh kale",
+        "12 cups prepared chicken bone broth",
+        "3 cups full-fat coconut milk",
+        "15 garlic cloves",
+        "3 yellow onions",
+        "3 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry",
+        "2 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes",
+        "5 cups fresh kale, washed, tough stems removed and leaves chopped",
+        "4 cups prepared chicken bone broth",
+        "1 cup full-fat coconut milk, stirred smooth before measuring",
+        "5 garlic cloves, minced",
+        "1 yellow onion, diced",
+        "1 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Render sausage:** In a Dutch oven or soup pot with enough room for the broth, potatoes and remaining supplies plus stirring headroom, brown raw hot or sweet bulk Italian sausage over medium heat, breaking up lumps. Start checking around 8 minutes and continue until cooked: ground pork/beef sausage reaches 160°F / 71°C; poultry sausage reaches 165°F / 74°C. Transfer the cooked sausage to a clean plate, leaving all the rendered fat in the pot. Divide every supply proportionally among enough pots or complete batches if the load will not fit.\n2. **Foundation:** Use garlic cloves, yellow onion, and red pepper flakes for this stage. In all the retained sausage fat, cook the onion about 4–5 minutes until soft. Add the garlic and cook 30–45 seconds until fragrant, then stir in all the measured flakes.\n3. **Simmer potatoes:** Add Russet potatoes, prepared chicken bone broth, sea salt, and black pepper and bring to a boil. Reduce to a simmer and begin checking the potato cubes after 10–12 minutes; continue until a fork passes through their centers easily. Keep all the measured broth; tender potatoes, rather than a fixed clock, govern the finish.\n4. **Coconut finish:** Stir in full-fat coconut milk and return all the cooked sausage. Heat gently for about 5 minutes, stirring until evenly hot; retain all the coconut milk and sausage fat.\n5. **Wilt kale:** Add fresh kale. Begin checking after about 1 minute and continue until the leaves are wilted and tender enough to eat; tougher leaves need longer.\n6. **Serve:** Taste the cooked soup and use additional sea salt (if using), additional black pepper (if using), and olive oil (if using) as desired. Ladle into bowls; the soup thickens further as it stands.",
+      "shopping": [
+        "1 lb raw hot or sweet bulk Italian sausage",
+        "2 lb Russet potatoes",
+        "5 cups fresh kale",
+        "4 cups prepared chicken bone broth",
+        "1 cup full-fat coconut milk",
+        "5 garlic cloves",
+        "1 yellow onion",
+        "1 tsp red pepper flakes",
+        "sea salt, to taste",
+        "black pepper, to taste",
+        "additional sea salt, to taste after cooking, optional",
+        "additional black pepper, to taste after cooking, optional",
+        "olive oil, a drizzle for serving, if desired, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    }
+  ],
+  "preservedPriorRepairs": "2b01 onion4–5minute THEN garlic30–45second latephase preserved. Current f612 full2lb potato,1tspflakes,4stock5kale1fullfatcoconut andfullrenderedfat retained.",
+  "remainingQuestions": [
+    "Actual sausage species, pot load, potato and kale texture, and serving size?",
+    "Mushroom/cauliflower amounts, substitution identity and complete cooking are unresolved; no formula is approved for them.",
+    "Does household intend a distinct modern6bacon/6stock/4kale batch? None is silently imported."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

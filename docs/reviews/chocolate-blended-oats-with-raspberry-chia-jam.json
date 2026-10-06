@@ -1,0 +1,6010 @@
+{
+  "slug": "chocolate-blended-oats-with-raspberry-chia-jam",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "8091290f060c2ecc74ff96ee0f33d5277f810476cafa5d1742b30af36a16ae43",
+  "acceptedSourceSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "90 min",
+      "after": "0 min; berry heating varies"
+    },
+    {
+      "field": "totalTime",
+      "before": "100 min",
+      "after": "1 hr 40 min minimum, plus any berry heating or cooling beyond prep"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Frozen Raspberries",
+        "1 tbsp Chia Seeds",
+        "1 3/4 cups Rolled Oats",
+        "1 3/4 cups Soy or Almond Milk",
+        "1/2 cup Greek Yogurt",
+        "1/4 cup Cacao Powder",
+        "1/4 cup Maple Syrup",
+        "2 tbsp Chia Seeds",
+        "1 tsp Vanilla Extract",
+        "1/8 tsp Sea Salt",
+        "2 oz Dark Chocolate, melted"
+      ],
+      "after": [
+        "--- Raspberry chia jam ---",
+        "1 cup frozen raspberries",
+        "1 tbsp chia seeds",
+        "--- Blended chocolate oats ---",
+        "1 3/4 cups rolled oats",
+        "1 3/4 cups soy or almond milk",
+        "1/2 cup Greek yogurt",
+        "1/4 cup cacao powder",
+        "1/4 cup maple syrup",
+        "2 tbsp chia seeds",
+        "1 tsp vanilla extract",
+        "1/8 tsp sea salt",
+        "--- Chocolate cap ---",
+        "2 oz dark chocolate, melt gently according to package or appliance instructions; let excessive heat subside"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 375,
+        "protein": 10.5,
+        "carbs": 80,
+        "fat": 2,
+        "fiber": 3.5,
+        "sugar": 51,
+        "sodium": 610
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "jam",
+            "name": "Raspberry chia jam",
+            "ingredients": [
+              {
+                "id": "berries",
+                "key": "berries",
+                "name": "frozen raspberries",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "jam",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chia",
+                "key": "chia",
+                "name": "chia seeds",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "jam",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "base",
+            "name": "Blended chocolate oats",
+            "ingredients": [
+              {
+                "id": "oats",
+                "key": "oats",
+                "name": "rolled oats",
+                "quantity": {
+                  "amount": "1 3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "soy or almond milk",
+                "quantity": {
+                  "amount": "1 3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "Greek yogurt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cacao",
+                "key": "cacao",
+                "name": "cacao powder",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "maple",
+                "key": "maple",
+                "name": "maple syrup",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chia",
+                "key": "chia",
+                "name": "chia seeds",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cap",
+            "name": "Chocolate cap",
+            "ingredients": [
+              {
+                "id": "chocolate",
+                "key": "chocolate",
+                "name": "dark chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "cap",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melt gently according to package or appliance instructions; let excessive heat subside"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "jam",
+            "title": "Make jam",
+            "text": "Use {{ingredients}} for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed."
+          },
+          {
+            "id": "blend",
+            "title": "Blend oats",
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          },
+          {
+            "id": "layer",
+            "title": "Layer",
+            "text": "Divide all the jam and blended base among roomy containers, putting jam below the oats. The original batch makes four planned portions; use enough container capacity for the full mixture and chocolate cap."
+          },
+          {
+            "id": "cap",
+            "title": "Add chocolate",
+            "text": "Divide {{ingredients}} over all the portions. Keep the complete cap amount whether using one large container or several."
+          },
+          {
+            "id": "chill",
+            "title": "Refrigerate",
+            "text": "Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes, preferably overnight, until the oats have thickened and the chocolate has set."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Eat cold. Keep covered and refrigerated, planning no more than five days from preparation and using sooner if any ingredient’s after-opening instructions require it. Keep preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keeping jam, blended-oat chia and chocolate-cap allocations separate while allowing a refrigerated set.",
+        "outcome": "A thickened chocolate oat base over berry jam, with the whole chocolate amount distributed across the portions.",
+        "techniques": ["cold-preparation", "starch", "temperature"],
+        "before": [
+          "The original four-portion batch uses 1 tbsp chia in the jam and a separate 2 tbsp in the base. Both quantities scale; neither is the total for the whole recipe.",
+          "Use containers that fit the full mixture. Check the blender’s actual maximum fill and frozen-fruit cooking instructions before starting."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Berries are softened and jam chia is dispersed.",
+            "why": "The jam thickener is separate from the base; fixed microwave time does not establish package-specific cooking."
+          },
+          {
+            "step": 2,
+            "cue": "The base is mostly smooth, with no dry oat pockets.",
+            "why": "Blender model and load affect texture; stop before scraping and split all base ingredients proportionally if needed."
+          },
+          {
+            "step": 5,
+            "cue": "Oat mixture has thickened and the cap has set after chilling.",
+            "why": "Cold hydration and chocolate setting require rest; they are not ninety minutes of active cooking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The base is runny immediately after blending.",
+            "cause": "Oats and chia have not hydrated yet.",
+            "fix": "Complete the refrigerated rest before adjusting; keep the full milk and yogurt amounts."
+          },
+          {
+            "problem": "Jam has whole firm berries.",
+            "cause": "The chosen fruit did not break down with heating.",
+            "fix": "Mash the softened fruit with a fork; retain the full fruit amount and separate jam chia."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Raspberries",
+            "alternative": "Same full volume of another frozen berry",
+            "effect": "Firm berries need mashing; follow their package instructions."
+          },
+          {
+            "ingredient": "Dairy yogurt and milk",
+            "alternative": "Same full volumes of dairy-free yogurt and chosen plant milk",
+            "effect": "Also check the full dark-chocolate cap; no reduction in richness."
+          }
+        ],
+        "storage": "Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. The preparation plan is up to 5 days refrigerated, shortened by any ingredient’s after-opening limit. Keep the chocolate cap covered. Freezer texture for this yogurt-and-cap version is not established.",
+        "timing": "Ten minutes preparation plus at least 90 minutes refrigerated setting gives a 1-hour-40-minute minimum subtotal. Berry heating, five-minute jam thickening and cooling may overlap blending only when the actual setup allows; any excess, blender loads and overnight preference add time.",
+        "sources": [
+          {
+            "title": "Glow Diaries — blended-oat recipe",
+            "url": "https://glow-diaries.com/choc-blended-oats/"
+          },
+          {
+            "title": "FDA — cold holding and prompt shallow cooling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is ideal for meal-prep breakfasts. Blending standard rolled oats transforms them into a smooth, cake-like batter. The tart, seed-studded raspberry jam provides essential brightness that cuts through the dense, earthy cacao. By letting this set overnight, the chia seeds fully hydrate, giving the oats a pudding-like texture that keeps you full until lunch.\n\n## Directions\n\n1.  **The Jam:** Place raspberries in a microwave-safe bowl. Heat until they break down into a compote. Stir in 1 tbsp chia seeds and let sit for 5 minutes to thicken.\n2.  **The Base:** Combine all blended oats ingredients in a high-powered blender. Blend for 60 seconds until perfectly smooth.\n3.  **Layer:** Divide the raspberry jam among 4 jars. Pour the blended oat mixture over the jam.\n4.  **The Cap:** Drizzle the melted dark chocolate over the top of each jar to create a Crunch layer.\n5.  **The Finish:** Seal the jars and refrigerate for at least 90 minutes (or ideally overnight). The mixture will firm up significantly as the oats and chia seeds absorb the liquid.\n6.  **Serve:** These keep for up to 5 days. Eat cold straight from the jar.\n",
+    "after": "\n## Chef's Note\n\nThe jam and oat base have separate chia amounts: the jam thickens around the berries, while the blended oats absorb their milk during chilling. Keep the full Greek yogurt and chocolate cap in this version. The base may look runny before chilling; judge it after the cold rest rather than removing liquid or chia.\n\n## Directions\n\n1. **Make jam:** Use frozen raspberries and chia seeds for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed.\n2. **Blend oats:** Combine rolled oats, soy or almond milk, Greek yogurt, cacao powder, maple syrup, chia seeds, vanilla extract, and sea salt in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine.\n3. **Layer:** Divide all the jam and blended base among roomy containers, putting jam below the oats. The original batch makes four planned portions; use enough container capacity for the full mixture and chocolate cap.\n4. **Add chocolate:** Divide dark chocolate over all the portions. Keep the complete cap amount whether using one large container or several.\n5. **Refrigerate:** Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes, preferably overnight, until the oats have thickened and the chocolate has set.\n6. **Serve:** Eat cold. Keep covered and refrigerated, planning no more than five days from preparation and using sooner if any ingredient’s after-opening instructions require it. Keep preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.\n\n## Cooking Notes\n\nThe full listed milk may be replaced with another dairy or plant milk. For a dairy-free version, replace the entire yogurt amount with a dairy-free yogurt and use dark chocolate suitable for that choice; retain all the other amounts.\n\nReplace the full raspberry volume with frozen strawberries, blueberries or mixed berries if desired. Mash firm berries after heating so the jam is not left in large pieces. Follow the chosen frozen-fruit package instructions.\n\nFor a thinner oat base, omit only its listed 2 tbsp chia in the original four-portion batch; scale that omitted amount with the batch. For a runnier jam, omit only the separate listed 1 tbsp jam chia in the original batch. Either component can be changed independently; all other amounts remain.\n\nAn optional addition to the original four-portion batch is about 2 tbsp chocolate protein powder, blended into the oat base and scaled with the batch. Use a product suitable for consumption without further cooking and follow its mixing instructions. Powder changes absorption and texture; this approximate volume is not a universal scoop-weight conversion.\n"
+  },
+  "findings": [
+    {
+      "id": "GS14-B01",
+      "title": "GS14-B01",
+      "rationale": "Preserve all current1cup berry/2ozcap additions and full native oat/yogurt richness; separate both chia destinations, replace perfect60second/model-independent load claims, restore complete named milk/berry/independentchia/protein options, and count90minutes as chilling. Keep exact saved5day refrigerated plan with40°F/prompt handling andingredient-shorter limits; currentpublisher4day/no-freeze guidance uses a changed no-yogurt/no-cap formula.",
+      "confidence": "High for allocation/preservation; moderate for coldplan/texture",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "7dd819d48f7776270e96620632e7f070a4010095",
+        "https://glow-diaries.com/choc-blended-oats/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Native supports fullbase/complete options and90mincoldrest/up5days; it does not quantify½bagberry or chocolatecap. Current fixeddoses introducedbulk7dd retained honestly. Currentprimary2026formula differs2cupsberries/2cupsmilk/noGreek/nocap; itsweights/storage are notcertified equivalents for this adaptation. FDA supports40/2h/1hhot, not5day recipe safety or frozenberrykilltime.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "cookTime",
+        "totalTime",
+        "content",
+        "learning"
+      ],
+      "questions": [
+        "What was actual native berrybag size and chocolate amount? Does the household prefer saved5dayplan or modern4dayplan for this richer version? Actualblendercapacity,jarsize,finishedvolume andtexture untested."
+      ]
+    },
+    {
+      "id": "GS14-META",
+      "title": "GS14-META",
+      "rationale": "Omit unsupported geographic origin and unverified numerical nutrition, preserving the current cuisine/style, exact source and all rich quantities.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact chocolate-blended-oats-with-raspberry-chia-jam native cooking and actual followed history establish no recipe birthplace or verified nutrient calculation. American style or publisher location does not establish a country of origin. ",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chocolate%20Blended%20Oats%20with%20Raspberry%20Chia%20Jam.html",
+    "introductionScope": "Actual retained pre-Markdown cooking introduction matching the exact native-bound recipe; canonical-path continuity must be distinguished where it was later recreated.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "GS14-B01",
+      "rationale": "Preserve all current1cup berry/2ozcap additions and full native oat/yogurt richness; separate both chia destinations, replace perfect60second/model-independent load claims, restore complete named milk/berry/independentchia/protein options, and count90minutes as chilling. Keep exact saved5day refrigerated plan with40°F/prompt handling andingredient-shorter limits; currentpublisher4day/no-freeze guidance uses a changed no-yogurt/no-cap formula.",
+      "applicability": "Native supports fullbase/complete options and90mincoldrest/up5days; it does not quantify½bagberry or chocolatecap. Current fixeddoses introducedbulk7dd retained honestly. Currentprimary2026formula differs2cupsberries/2cupsmilk/noGreek/nocap; itsweights/storage are notcertified equivalents for this adaptation. FDA supports40/2h/1hhot, not5day recipe safety or frozenberrykilltime."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 cup Frozen Raspberries",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 1,
+        "text": "1 tbsp Chia Seeds",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 2,
+        "text": "1 3/4 cups Rolled Oats",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 3,
+        "text": "1 3/4 cups Soy or Almond Milk",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Greek Yogurt",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 5,
+        "text": "1/4 cup Cacao Powder",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 6,
+        "text": "1/4 cup Maple Syrup",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 7,
+        "text": "2 tbsp Chia Seeds",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 8,
+        "text": "1 tsp Vanilla Extract",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 9,
+        "text": "1/8 tsp Sea Salt",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 10,
+        "text": "2 oz Dark Chocolate, melted",
+        "destinations": 4,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      }
+    ],
+    "unlistedBefore": [],
+    "proposed": [
+      {
+        "id": "jam.berries",
+        "name": "frozen raspberries",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "jam",
+            "share": 1,
+            "text": "Use {{ingredients}} for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "jam.chia",
+        "name": "chia seeds",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "jam",
+            "share": 1,
+            "text": "Use {{ingredients}} for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.oats",
+        "name": "rolled oats",
+        "quantity": {
+          "amount": "1 3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.milk",
+        "name": "soy or almond milk",
+        "quantity": {
+          "amount": "1 3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.yogurt",
+        "name": "Greek yogurt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.cacao",
+        "name": "cacao powder",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.maple",
+        "name": "maple syrup",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.chia",
+        "name": "chia seeds",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.vanilla",
+        "name": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": "1/8",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "blend",
+            "share": 1,
+            "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "cap.chocolate",
+        "name": "dark chocolate",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "state": "melt gently according to package or appliance instructions; let excessive heat subside",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cap",
+            "share": 1,
+            "text": "Divide {{ingredients}} over all the portions. Keep the complete cap amount whether using one large container or several."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "jam",
+      "title": "Make jam",
+      "text": "Use {{ingredients}} for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed.",
+      "generatedText": "1. **Make jam:** Use frozen raspberries and chia seeds for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed.",
+      "dependsOn": [],
+      "assigned": ["jam.berries", "jam.chia"]
+    },
+    {
+      "index": 2,
+      "id": "blend",
+      "title": "Blend oats",
+      "text": "Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine.",
+      "generatedText": "2. **Blend oats:** Combine rolled oats, soy or almond milk, Greek yogurt, cacao powder, maple syrup, chia seeds, vanilla extract, and sea salt in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine.",
+      "dependsOn": [],
+      "assigned": [
+        "base.oats",
+        "base.milk",
+        "base.yogurt",
+        "base.cacao",
+        "base.maple",
+        "base.chia",
+        "base.vanilla",
+        "base.salt"
+      ],
+      "parallelWith": ["jam"]
+    },
+    {
+      "index": 3,
+      "id": "layer",
+      "title": "Layer",
+      "text": "Divide all the jam and blended base among roomy containers, putting jam below the oats. The original batch makes four planned portions; use enough container capacity for the full mixture and chocolate cap.",
+      "generatedText": "3. **Layer:** Divide all the jam and blended base among roomy containers, putting jam below the oats. The original batch makes four planned portions; use enough container capacity for the full mixture and chocolate cap.",
+      "dependsOn": ["jam", "blend"],
+      "assigned": []
+    },
+    {
+      "index": 4,
+      "id": "cap",
+      "title": "Add chocolate",
+      "text": "Divide {{ingredients}} over all the portions. Keep the complete cap amount whether using one large container or several.",
+      "generatedText": "4. **Add chocolate:** Divide dark chocolate over all the portions. Keep the complete cap amount whether using one large container or several.",
+      "dependsOn": ["layer"],
+      "assigned": ["cap.chocolate"]
+    },
+    {
+      "index": 5,
+      "id": "chill",
+      "title": "Refrigerate",
+      "text": "Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes, preferably overnight, until the oats have thickened and the chocolate has set.",
+      "generatedText": "5. **Refrigerate:** Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes, preferably overnight, until the oats have thickened and the chocolate has set.",
+      "dependsOn": ["cap"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "serve",
+      "title": "Serve",
+      "text": "Eat cold. Keep covered and refrigerated, planning no more than five days from preparation and using sooner if any ingredient’s after-opening instructions require it. Keep preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.",
+      "generatedText": "6. **Serve:** Eat cold. Keep covered and refrigerated, planning no more than five days from preparation and using sooner if any ingredient’s after-opening instructions require it. Keep preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.",
+      "dependsOn": ["chill"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Milk choice",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "milk ofchoice",
+            "amount": 1.75,
+            "unit": "cup",
+            "destination": "blend"
+          }
+        ],
+        "scope": "Exclusivefullreplacement."
+      },
+      {
+        "name": "Dairy-free",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "plantmilk",
+            "amount": 1.75,
+            "unit": "cup",
+            "destination": "blend"
+          },
+          {
+            "replace": "base.yogurt",
+            "name": "plantyogurt",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "blend"
+          },
+          {
+            "replace": "cap.chocolate",
+            "name": "dairy-free darkchocolate",
+            "amount": 2,
+            "unit": "oz",
+            "destination": "cap"
+          }
+        ],
+        "scope": "Allotherfullbase/jam retained."
+      },
+      {
+        "name": "Berry swap",
+        "changes": [
+          {
+            "replace": "jam.berries",
+            "name": "chosen frozenberries",
+            "amount": 1,
+            "unit": "cup",
+            "destination": "jam"
+          }
+        ],
+        "scope": "Mashfirmfruit; allotheramounts remain."
+      },
+      {
+        "name": "Thinner base",
+        "changes": [],
+        "scope": "Removeonlybase.chia, fulljamchia remains.",
+        "remove": ["base.chia"]
+      },
+      {
+        "name": "Runnier jam",
+        "changes": [],
+        "scope": "Removeonlyjam.chia, fullbasechia remains.",
+        "remove": ["jam.chia"]
+      },
+      {
+        "name": "Protein addition",
+        "changes": [
+          {
+            "name": "chocolateproteinpowder",
+            "amount": 2,
+            "unit": "tbsp",
+            "approximate": true,
+            "destination": "blend"
+          }
+        ],
+        "scope": "Optionalapproximately2tbsp total fororiginal4portionbatch; allmainunchanged, not1scoopmass."
+      }
+    ],
+    "completeCookingOptions": "The full listed milk may be replaced with another dairy or plant milk. For a dairy-free version, replace the entire yogurt amount with a dairy-free yogurt and use dark chocolate suitable for that choice; retain all the other amounts.\n\nReplace the full raspberry volume with frozen strawberries, blueberries or mixed berries if desired. Mash firm berries after heating so the jam is not left in large pieces. Follow the chosen frozen-fruit package instructions.\n\nFor a thinner oat base, omit only its listed 2 tbsp chia in the original four-portion batch; scale that omitted amount with the batch. For a runnier jam, omit only the separate listed 1 tbsp jam chia in the original batch. Either component can be changed independently; all other amounts remain.\n\nAn optional addition to the original four-portion batch is about 2 tbsp chocolate protein powder, blended into the oat base and scaled with the batch. Use a product suitable for consumption without further cooking and follow its mixing instructions. Powder changes absorption and texture; this approximate volume is not a universal scoop-weight conversion.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Raspberries",
+        "alternative": "Same full volume of another frozen berry",
+        "effect": "Firm berries need mashing; follow their package instructions."
+      },
+      {
+        "ingredient": "Dairy yogurt and milk",
+        "alternative": "Same full volumes of dairy-free yogurt and chosen plant milk",
+        "effect": "Also check the full dark-chocolate cap; no reduction in richness."
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "Exact original½bag jam route and unmeasured cap amount cannot be reconstructed as a complete independently scalable original formula. Current full fixed1cup/2oz main retained.",
+      "Current2026publisher complete different base:2cups frozenraspberries/1tbspjamchia;1¾cupsoats/2cupsmilk/2tbspchia/¼cupcocoa/¼cupmaple/1tspvanilla/⅛tspsalt,noGreek,nocap. Separate unaccepted formula; no averaging or imported weights/storage certification."
+    ],
+    "completeBranches": [
+      {
+        "name": "Milk choice",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "milk ofchoice",
+            "amount": 1.75,
+            "unit": "cup",
+            "destination": "blend"
+          }
+        ],
+        "scope": "Exclusivefullreplacement.",
+        "completeUnchangedMain": [
+          {
+            "id": "jam.berries",
+            "name": "frozen raspberries",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "jam.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "base.oats",
+            "name": "rolled oats",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.yogurt",
+            "name": "Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.cacao",
+            "name": "cacao powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "cap.chocolate",
+            "name": "dark chocolate",
+            "quantity": {
+              "amount": 2,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": ["cap"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.4375,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.03125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 0.875,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 1.75,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 2.625,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.1875,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 3.5,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 5.25,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "milk ofchoice",
+                "amount": 1.75,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dairy-free",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "plantmilk",
+            "amount": 1.75,
+            "unit": "cup",
+            "destination": "blend"
+          },
+          {
+            "replace": "base.yogurt",
+            "name": "plantyogurt",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "blend"
+          },
+          {
+            "replace": "cap.chocolate",
+            "name": "dairy-free darkchocolate",
+            "amount": 2,
+            "unit": "oz",
+            "destination": "cap"
+          }
+        ],
+        "scope": "Allotherfullbase/jam retained.",
+        "completeUnchangedMain": [
+          {
+            "id": "jam.berries",
+            "name": "frozen raspberries",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "jam.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "base.oats",
+            "name": "rolled oats",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.cacao",
+            "name": "cacao powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 0.4375,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 0.5,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.03125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 0.875,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 1,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 1.75,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 2,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 2.625,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 3,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.1875,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 3.5,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 4,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 5.25,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 6,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plantmilk",
+                "amount": 1.75,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plantyogurt",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "blend",
+                "max": null
+              },
+              {
+                "replace": "cap.chocolate",
+                "name": "dairy-free darkchocolate",
+                "amount": 2,
+                "unit": "oz",
+                "destination": "cap",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Berry swap",
+        "changes": [
+          {
+            "replace": "jam.berries",
+            "name": "chosen frozenberries",
+            "amount": 1,
+            "unit": "cup",
+            "destination": "jam"
+          }
+        ],
+        "scope": "Mashfirmfruit; allotheramounts remain.",
+        "completeUnchangedMain": [
+          {
+            "id": "jam.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "base.oats",
+            "name": "rolled oats",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.milk",
+            "name": "soy or almond milk",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.yogurt",
+            "name": "Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.cacao",
+            "name": "cacao powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "cap.chocolate",
+            "name": "dark chocolate",
+            "quantity": {
+              "amount": 2,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": ["cap"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.03125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.1875,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 3,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "jam.berries",
+                "name": "chosen frozenberries",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "jam",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thinner base",
+        "changes": [],
+        "scope": "Removeonlybase.chia, fulljamchia remains.",
+        "remove": ["base.chia"],
+        "completeUnchangedMain": [
+          {
+            "id": "jam.berries",
+            "name": "frozen raspberries",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "jam.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "base.oats",
+            "name": "rolled oats",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.milk",
+            "name": "soy or almond milk",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.yogurt",
+            "name": "Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.cacao",
+            "name": "cacao powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "cap.chocolate",
+            "name": "dark chocolate",
+            "quantity": {
+              "amount": 2,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": ["cap"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.03125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.1875,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Runnier jam",
+        "changes": [],
+        "scope": "Removeonlyjam.chia, fullbasechia remains.",
+        "remove": ["jam.chia"],
+        "completeUnchangedMain": [
+          {
+            "id": "jam.berries",
+            "name": "frozen raspberries",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "base.oats",
+            "name": "rolled oats",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.milk",
+            "name": "soy or almond milk",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.yogurt",
+            "name": "Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.cacao",
+            "name": "cacao powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "cap.chocolate",
+            "name": "dark chocolate",
+            "quantity": {
+              "amount": 2,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": ["cap"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.03125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.1875,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Protein addition",
+        "changes": [
+          {
+            "name": "chocolateproteinpowder",
+            "amount": 2,
+            "unit": "tbsp",
+            "approximate": true,
+            "destination": "blend"
+          }
+        ],
+        "scope": "Optionalapproximately2tbsp total fororiginal4portionbatch; allmainunchanged, not1scoopmass.",
+        "completeUnchangedMain": [
+          {
+            "id": "jam.berries",
+            "name": "frozen raspberries",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "jam.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["jam"]
+          },
+          {
+            "id": "base.oats",
+            "name": "rolled oats",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.milk",
+            "name": "soy or almond milk",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.yogurt",
+            "name": "Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.cacao",
+            "name": "cacao powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 2,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "base.salt",
+            "name": "sea salt",
+            "quantity": {
+              "amount": "1/8",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["blend"]
+          },
+          {
+            "id": "cap.chocolate",
+            "name": "dark chocolate",
+            "quantity": {
+              "amount": 2,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": ["cap"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 0.5,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.4375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.03125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 1,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.875,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 2,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 3,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 2.625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.1875,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 4,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 3.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 4,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 6,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 5.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "chocolateproteinpowder",
+                "amount": 2,
+                "unit": "tbsp",
+                "approximate": true,
+                "destination": "blend",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "jam.berries",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "jam.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cacao",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.salt",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "cap.chocolate",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "oz"
+                },
+                "allowance": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "avocado-kale-caesar-salad",
+      "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+      "roasted-fall-harvest-salad"
+    ],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained only as metadata; no composed-meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Current1cupberries+1tbspjamchia; base1¾cupsoats/1¾cupsmilk/½cupGreek/¼cupcacao/¼cupmaple/2tbspchia/1tspvanilla/⅛tspsalt;2ozcap allpreserved. Native½bagberry/capunnumbered unresolved; bulk7ddfixed1cup/2oz. Modern2026publisher2cupsberries/2cupsmilk/noGreek/nocap isdistinct, notsame adaptation. Fourplannedportions notmeasuredvolume.",
+    "planningYield": {
+      "amount": 4,
+      "unit": "portion"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What was actual native berrybag size and chocolate amount? Does the household prefer saved5dayplan or modern4dayplan for this richer version? Actualblendercapacity,jarsize,finishedvolume andtexture untested."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

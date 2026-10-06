@@ -1,0 +1,1371 @@
+{
+  "slug": "pasta-with-abruzzi-style-lamb-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "35c5e53d4cd7e4226feb47697a8470c15bca7a601afce0b8ec0f01e7cbf14c96",
+  "acceptedSourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Penne or Rigatoni",
+        "1 tbsp Olive Oil",
+        "Salt and Black Pepper, to taste (plus salt for the pasta water)",
+        "3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground",
+        "2 oz Pancetta, finely chopped",
+        "1/4 cup Yellow Onion, diced",
+        "1 tbsp Fresh Rosemary, chopped",
+        "3/4 cup Dry White Wine",
+        "1 (28 oz) can Whole Peeled Tomatoes, crushed by hand",
+        "1/3 cup Pecorino Romano, grated, plus extra for optional serving"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "1 lb dry penne or rigatoni",
+        "1 tbsp olive oil",
+        "3/4 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "2 oz pancetta, finely chopped; check whether the product requires cooking",
+        "1/4 cup yellow onion, diced",
+        "1 tbsp fresh rosemary, chopped",
+        "3/4 cup dry white wine",
+        "1 can (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "1/3 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 10,
+        "protein": 0.5,
+        "carbs": 2,
+        "fat": 0,
+        "fiber": 0.5,
+        "sugar": 1,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "pasta",
+                "key": "penne-or-rigatoni",
+                "name": "dry penne or rigatoni",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lamb",
+                "key": "boneless-lamb",
+                "name": "boneless lamb leg or shoulder",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "brown",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely diced; ground lamb is a separate texture option at the same measured amount"
+              },
+              {
+                "id": "pancetta",
+                "key": "pancetta",
+                "name": "pancetta",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely chopped; check whether the product requires cooking"
+              },
+              {
+                "id": "onion",
+                "key": "yellow-onion",
+                "name": "yellow onion",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ],
+                "preparation": "diced"
+              },
+              {
+                "id": "rosemary",
+                "key": "rosemary",
+                "name": "fresh rosemary",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "brown",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "wine",
+                "key": "dry-white-wine",
+                "name": "dry white wine",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "deglaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tomatoes",
+                "key": "whole-peeled-tomatoes",
+                "name": "whole peeled tomatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 28,
+                  "unit": "oz"
+                },
+                "preparation": "crushed by hand; retain all the juices"
+              },
+              {
+                "id": "cheese",
+                "key": "pecorino-romano",
+                "name": "Pecorino Romano",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "brown",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "brown",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pasta-water",
+                "key": "water",
+                "name": "water",
+                "allowance": "enough for the measured pasta according to its package",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "pasta-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste for the pasta water",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "simmer-water",
+                "key": "water",
+                "name": "water",
+                "allowance": "a splash as needed if diced shoulder needs a longer simmer",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "cooking-water"
+              },
+              {
+                "id": "extra-cheese",
+                "key": "pecorino-romano",
+                "name": "additional grated Pecorino Romano",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              },
+              {
+                "id": "extra-pepper",
+                "key": "black-pepper",
+                "name": "additional black pepper",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "render",
+            "title": "Render",
+            "text": "Use {{ingredients}} in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed."
+          },
+          {
+            "id": "brown",
+            "title": "Brown lamb",
+            "text": "Add {{ingredients}}. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering."
+          },
+          {
+            "id": "deglaze",
+            "title": "Deglaze",
+            "text": "Pour in {{ingredients}} and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer sauce",
+            "text": "Use {{ingredients}} in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading."
+          },
+          {
+            "id": "pasta",
+            "title": "Boil pasta",
+            "text": "While the sauce finishes, use {{ingredients}}. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer."
+          },
+          {
+            "id": "combine",
+            "title": "Combine",
+            "text": "Take the sauce off the heat. Add the drained hot pasta and {{ingredients}}, tossing gently to coat with all the sauce and measured cheese."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve promptly with {{ingredients}} as desired."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep diced-lamb tenderness separate from the pasta clock",
+        "outcome": "A thick lamb-and-tomato sauce coating al-dente pasta, with all measured fat, wine and cheese retained.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen supplies. Prepare serving herbs and vegetables with clean tools before handling raw meat; keep cooked food and its utensils separate.",
+          "Dice the lamb finely and chop the pancetta before heating. Read the pancetta label; curing alone does not establish that it is ready to eat. Use ground lamb only as the stated same-amount texture option.",
+          "Six portions is the original plan for this version; the sequential version was planned for four to six. Portion sizes have not been measured. Use enough skillet capacity for the complete sauce and pasta, dividing every supply proportionally for extra pans."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Diced lamb is tender, sauce thickens and fat begins to separate; the applicable meat temperatures have been checked.",
+            "why": "Ground lamb and diced whole muscle use different targets. Shoulder can need longer than a thirty-minute tomato simmer."
+          },
+          {
+            "step": 6,
+            "cue": "Pasta is coated with the full sauce and grated cheese after the heat is turned off.",
+            "why": "Off-heat tossing keeps the cheese finish separate from the longer meat simmer."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Diced shoulder is firm while the sauce is already thick",
+            "cause": "Cut, dice size and connective tissue vary.",
+            "fix": "Add the listed splash of water as needed and continue a gentle simmer until tender. Delay the pasta so it can be drained just before tossing."
+          }
+        ],
+        "timing": "The current original-batch plan remains about 70 minutes, including 20 minutes preparation and roughly 50 minutes cooking. Cook pasta during the final sauce simmer; shoulder tenderness or additional pan loads can extend elapsed time. The sequential variation’s source clocks are first checks, not a faster guarantee.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Store sauce and pasta separately when making the sauce ahead. Reheat while stirring to 165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time. For pasta already combined with cheese, reheat evenly to 165°F throughout; repeated heating softens pasta and changes cheese texture. No prolonged first-cook sauce boil is prescribed.",
+        "sources": [
+          {
+            "title": "Marcella Hazan — Abruzzi-style lamb sauce",
+            "url": "https://www.foodandwine.com/recipes/pasta-abruzzi-style-lamb-sauce"
+          },
+          {
+            "title": "FoodSafety.gov meat categories",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis ragù comes from Abruzzo, the mountainous region in central Italy where sheep farming has been a way of life for centuries. Abruzzese cuisine is rustic and hearty, designed to sustain shepherds in the mountains. Traditional lamb ragù starts with pancetta to render fat and add smokiness, then builds with white wine (not red) and rosemary, which grows wild in the Apennine mountains. Hand-crushing the tomatoes gives a chunkier, more rustic texture than smooth tomato sauce. Pecorino Romano (sheep's milk cheese) is the traditional finishing cheese in this region - it's sharper and saltier than Parmigiano-Reggiano. Dice the lamb yourself rather than buying pre-ground for better texture.\n\n## Directions\n\n1.  **Render:** Heat olive oil in a large skillet. Add the onion and pancetta. Cook until the pancetta fat has melted and the onions are gold (8 mins).\n2.  **Sear:** Add the diced lamb and rosemary. Season with salt and pepper. Brown the meat aggressively until it develops a crust.\n3.  **Deglaze:** Pour in the white wine. Scrape the bottom of the pan to release the fond. Simmer until the wine has evaporated by 75%.\n4.  **Simmer:** Add the crushed tomatoes and their juices. Reduce heat to low and simmer gently for 30-40 minutes until the sauce is thick, the lamb is tender, and the fat starts to separate. Add a splash of water and simmer longer if diced shoulder is still firm.\n5.  **Boil:** While the sauce simmers, cook pasta in salted water until al dente.\n6.  **Combine:** Toss the hot pasta directly into the lamb sauce. Add the Pecorino and toss to coat.\n7.  **Serve:** Serve with extra cheese and a crack of black pepper.\n",
+    "after": "\n## Chef's Note\n\nMarcella Hazan’s Abruzzi-style sauce combines lamb, pancetta, rosemary, white wine and Pecorino Romano. Finely diced lamb makes distinct pieces; the ground-lamb option gives a more even texture. Keep the full wine, olive oil and rendered pancetta fat, simmer diced shoulder until tender, and toss the measured cheese through off the heat.\n\n## Directions\n\n1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.\n\n## Sequential onion-and-pancetta variation\n\nFor the sequential version, use the same full sauce quantities, with the lamb in very fine dice. Cook all the olive oil and onion first over moderately high heat, stirring until the onion is pale gold. Add all the pancetta and rosemary and render the fat while leaving the pancetta soft; add the lamb, brown for about 5 minutes, and season with salt and pepper. Add all the wine and simmer until the visible free wine has evaporated, about 10 minutes. Add the entire can of tomatoes and juices and begin checking after about 15 minutes for fat separation and tender lamb. Continue cooking as needed to complete step 4’s applicable meat checks and tenderness; use the genuine water allowance if needed. Drain the al-dente pasta into a warmed bowl, then toss with the full sauce and the measured Pecorino, passing the extra cheese separately.\n\nFor the original pasta-water proportions, replace the unmeasured pasta-water and pasta-salt allowances with 4 quarts water and 1½ tbsp coarse salt in the original batch; scale both together with the measured pasta. This is a separate cooking-water option, not extra salt on top of the main allowance and not an equal spoon-volume substitution of fine salt. Penne or maccheroncini is also a pasta choice for this version; use the full measured dry-pasta amount.\n"
+  },
+  "findings": [
+    {
+      "id": "MS15-L01",
+      "title": "MS15-L01",
+      "rationale": "Preserve ee9 full1Tbsp oil, separate seasoning/pastawater allowances, all¾lb lamb/¾cup wine/whole28oz tomato juices/full⅓cup cheese plus optionalextras. Keep leg/shoulder/ground and longer shoulder-tenderness/water route; categorical ground/whole targets and actual pancetta label are distinct. Offheat fullcheese finishing is supported by originalwarmbowl, not a richness cut.",
+      "confidence": "high conservation; moderate diced-piece temperature/rest application",
+      "applicableSources": [
+        "ee9c707 exactdiff",
+        "3f21 currentformula",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "exactbound450/FW"
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Can actual very fine diced lamb/pancetta be reliably probed; what label/cut and shoulder simmer duration apply?"
+      ]
+    },
+    {
+      "id": "MS15-L02",
+      "title": "MS15-L02",
+      "rationale": "Preserve the earlier sequential onion→softpancetta/rosemary→lamb source method and original4qt/1½Tbsp COARSE pasta-water route separately; no density conversion/extra added main salt. Native¾dose preserved against modern½publisher. Currentcombinedrender and30–40minute shoulderroute remain primary, not inferred rejected by bulk3f21.",
+      "confidence": "high exactsource; moderate pan-specific clocks",
+      "applicableSources": [
+        "exactbound450/045",
+        "3f21 actualdiff",
+        "https://www.foodandwine.com/recipes/pasta-abruzzi-style-lamb-sauce"
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Originalcoarse salt crystal density not converted; source/native4–6 versuscurrent6 servings remains planning only."
+      ]
+    },
+    {
+      "id": "MS15-L03",
+      "title": "MS15-L03",
+      "rationale": "Keep Italian/Abruzzi style, originalsourceURLandcredit; actualpublishernamesMarcellaHazan. Replace unsupported shepherd/history/rosemarygrowth/general superiority claims with named author and concrete texture; remove erroneous10calorieautomaticnutrition and unsupported specific birthfield.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.foodandwine.com/recipes/pasta-abruzzi-style-lamb-sauce",
+        "actual1e4/902/2a7changes",
+        "docs/RECIPE_STANDARD.md"
+      ],
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Pasta%20with%20Abruzzi-Style%20Lamb%20Sauce.html",
+    "introductionScope": "Exact retained Git cooking introduction; canonical-copy lineage separately recorded.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Sequential diced source route",
+      "supplies": "Allsame saucequantities; veryfine dicedlamb, penneORmaccheroncini full1lb; same⅓cheeseextra; samefullwineoil",
+      "destination": "Palegoldonion→softpancetta+rosemary→lambbrown→wineevap→tomato15firstcheck/meat+tendernessfinish→warmbowlfullcheese",
+      "status": "complete separate proposedvariant"
+    },
+    {
+      "name": "Original coarse pasta-water route",
+      "supplies": "Originalbatch4qtwater/1½TbspCOARSEsalt replaces both unmeasuredmainpastawater/salt; proportionalallfactors; no fineequivalence",
+      "destination": "Allcookingwater/saltpastapot; drained, not alsoaddedseasoning dose",
+      "status": "exclusive option"
+    },
+    {
+      "name": "Modern publisher reduced meat/wine",
+      "supplies": "½lb lamb/½cup wine, unlike current/native¾each",
+      "destination": "Source disagreement only; fullcurrent doses protected",
+      "status": "not imported"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 lb Penne or Rigatoni",
+        "preparation": "dry penne/rigatoni",
+        "destination": "saltedwater5→hotpan cheese6",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 tbsp Olive Oil",
+        "preparation": "measured1Toil",
+        "destination": "fullrender1",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "Salt and Black Pepper, to taste (plus salt for the pasta water)",
+        "preparation": "jointsaltpepper+pastaallowance",
+        "destination": "brown2/pastawater5/pepperfinish7",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground",
+        "preparation": "¾lb leg/shoulder finelydicedORground",
+        "destination": "aggressivebrown2→simmer30–40+tender4",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "2 oz Pancetta, finely chopped",
+        "preparation": "finelychoppedpancetta; ready/rawunstated",
+        "destination": "renderwithonion1",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1/4 cup Yellow Onion, diced",
+        "preparation": "diced",
+        "destination": "render1",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 tbsp Fresh Rosemary, chopped",
+        "preparation": "choppedrosemary",
+        "destination": "brownwithlamb2",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "3/4 cup Dry White Wine",
+        "preparation": "¾cup drywine",
+        "destination": "deglaze3 claimed75%evaporation",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 (28 oz) can Whole Peeled Tomatoes, crushed by hand",
+        "preparation": "onefixed28ozcan crushed",
+        "destination": "alltomato+juices4",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "1/3 cup Pecorino Romano, grated, plus extra for optional serving",
+        "preparation": "⅓cupgratedcheeseplusextra",
+        "destination": "fullhotpan6/optionalextra7",
+        "scope": "Actual frozen method/state; not pre-repaired"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.pasta",
+        "key": "penne-or-rigatoni",
+        "name": "dry penne or rigatoni",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "pasta",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.oil",
+        "key": "olive-oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.lamb",
+        "key": "boneless-lamb",
+        "name": "boneless lamb leg or shoulder",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "brown",
+            "share": 1
+          }
+        ],
+        "preparation": "finely diced; ground lamb is a separate texture option at the same measured amount",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pancetta",
+        "key": "pancetta",
+        "name": "pancetta",
+        "quantity": {
+          "amount": 2,
+          "unit": "oz"
+        },
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "preparation": "finely chopped; check whether the product requires cooking",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onion",
+        "key": "yellow-onion",
+        "name": "yellow onion",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "preparation": "diced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.rosemary",
+        "key": "rosemary",
+        "name": "fresh rosemary",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "brown",
+            "share": 1
+          }
+        ],
+        "preparation": "chopped",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.wine",
+        "key": "dry-white-wine",
+        "name": "dry white wine",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "deglaze",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.tomatoes",
+        "key": "whole-peeled-tomatoes",
+        "name": "whole peeled tomatoes",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "packageSize": {
+          "amount": 28,
+          "unit": "oz"
+        },
+        "preparation": "crushed by hand; retain all the juices",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cheese",
+        "key": "pecorino-romano",
+        "name": "Pecorino Romano",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "combine",
+            "share": 1
+          }
+        ],
+        "preparation": "grated",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.salt",
+        "key": "salt",
+        "name": "salt",
+        "allowance": "to taste",
+        "uses": [
+          {
+            "step": "brown",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pepper",
+        "key": "black-pepper",
+        "name": "black pepper",
+        "allowance": "to taste",
+        "uses": [
+          {
+            "step": "brown",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pasta-water",
+        "key": "water",
+        "name": "water",
+        "allowance": "enough for the measured pasta according to its package",
+        "uses": [
+          {
+            "step": "pasta",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pasta-salt",
+        "key": "salt",
+        "name": "salt",
+        "allowance": "to taste for the pasta water",
+        "uses": [
+          {
+            "step": "pasta",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.simmer-water",
+        "key": "water",
+        "name": "water",
+        "allowance": "a splash as needed if diced shoulder needs a longer simmer",
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": "cooking-water",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.extra-cheese",
+        "key": "pecorino-romano",
+        "name": "additional grated Pecorino Romano",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.extra-pepper",
+        "key": "black-pepper",
+        "name": "additional black pepper",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "role": "garnish",
+        "component": "Main recipe"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "ingredient": "1 tablespoon extra-virgin olive oil",
+        "destination": "full1Toil/onionfoundation",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 1,
+        "ingredient": "1/4 cup chopped onion",
+        "destination": "onionpalegoldfirst",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 ounces thinly sliced pancetta, finely chopped ",
+        "destination": "pancetta/rosemaryrenderstaysoft",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 tablespoon chopped rosemary",
+        "destination": "rosemarywithpancetta",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 4,
+        "ingredient": "3/4 pound boneless lamb, cut into very fine dice",
+        "destination": "veryfinediced¾lblamb brown5",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 5,
+        "ingredient": "Coarse salt",
+        "destination": "coarsesaltlamb; pasta1½Tburieddirections",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 6,
+        "ingredient": "Freshly ground pepper",
+        "destination": "pepperlamb",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 7,
+        "ingredient": "3/4 cup dry white wine",
+        "destination": "full¾wineevap10",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 8,
+        "ingredient": "One 28-ounce can Italian plum tomatoes, coarsely chopped, with their juices",
+        "destination": "entire28ozcan+juices simmer15fatseparation",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 9,
+        "ingredient": "1 pound penne or maccheroncini",
+        "destination": "full1lbpenne/maccheroncini;4qtwaterburieddirections",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 10,
+        "ingredient": "1/3 cup freshly grated Pecorino Romano cheese, plus more for serving",
+        "destination": "full⅓cheese warmbowlfinish +separateextra",
+        "methodEvidence": "privately retained evidence#directions"
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "1b1baf506471d951e9e2cec5547a4faa5e86602892e01e2b210ea89c91e6ba11"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "466f7ffd285b5daf9598059c943f6c51294b27d51ea4c6264d1e2692f0145211"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "54f4e34c98c9eaa090459f96cb4dd05e909b7ec71dba61c308ec1feae2af51a1"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "349641adc71fca79078c2836f84c3d39f0da0e997703e398c35266b86fbec5a9"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "e4c94374fbf16f37e5c057c06e0246ebb792d42e7ddf023c706d6d7cefc79bea"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "a690c6d1b58e3442e5170706dac5d85e7a02cd862caf523723b0925d6cd1341e"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "f2bd65e078894217c5840f6bc50155246e466cdbbd19e40cdf76e864da8d8f01"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "render",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.oil", "main.pancetta", "main.onion"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "brown",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.lamb", "main.rosemary", "main.salt", "main.pepper"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "deglaze",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["main.wine"],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "simmer",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.tomatoes", "main.simmer-water"],
+        "cue": [
+          "Diced lamb is tender, sauce thickens and fat begins to separate; the applicable meat temperatures have been checked."
+        ]
+      },
+      {
+        "step": 5,
+        "id": "pasta",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["main.pasta", "main.pasta-water", "main.pasta-salt"],
+        "cue": []
+      },
+      {
+        "step": 6,
+        "id": "combine",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["main.cheese"],
+        "cue": [
+          "Pasta is coated with the full sauce and grated cheese after the heat is turned off."
+        ]
+      },
+      {
+        "step": 7,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[6].text",
+        "ingredients": ["main.extra-cheese", "main.extra-pepper"],
+        "cue": []
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "field": "directions",
+      "wholeTextRetained": true
+    }
+  },
+  "variantLedgers": [
+    {
+      "name": "Current main full richness",
+      "supplies": "1lbpenneORrigatoni/¾lbfinelydicedlegORshoulderORground/2ozpancetta/¼onion/1Trosemary/¾wine/one28ozcanalljuices/1Toil/⅓cheese+extra/seasoning+pastaallowances",
+      "destination": "Currentcombinedonionpancettarender→lamb/rosemary→wine→tomatosimmer30–40+tender+conditionalwater→offheatpasta/fullcheese; exragarnishes",
+      "status": "retained"
+    },
+    {
+      "name": "Sequential diced source route",
+      "supplies": "Allsame saucequantities; veryfine dicedlamb, penneORmaccheroncini full1lb; same⅓cheeseextra; samefullwineoil",
+      "destination": "Palegoldonion→softpancetta+rosemary→lambbrown→wineevap→tomato15firstcheck/meat+tendernessfinish→warmbowlfullcheese",
+      "status": "complete separate proposedvariant"
+    },
+    {
+      "name": "Original coarse pasta-water route",
+      "supplies": "Originalbatch4qtwater/1½TbspCOARSEsalt replaces both unmeasuredmainpastawater/salt; proportionalallfactors; no fineequivalence",
+      "destination": "Allcookingwater/saltpastapot; drained, not alsoaddedseasoning dose",
+      "status": "exclusive option"
+    },
+    {
+      "name": "Modern publisher reduced meat/wine",
+      "supplies": "½lb lamb/½cup wine, unlike current/native¾each",
+      "destination": "Source disagreement only; fullcurrent doses protected",
+      "status": "not imported"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "ratiosYieldAndCapacity": {
+    "input": "1lbdrypasta/¾lblamb/¾cupwine/28oztomato+juices/1Toil/2ozpancetta/⅓cupcheese; allfullfat retained",
+    "yield": "Current6plan vsnative4–6; no measured portions, no silentmodern½lamb/wine substitution",
+    "capacity": "Skillet sauce+pastatosscapacity matters; conditionalwater only extendedshoulder genuinepriorallowance; package28ozfixed"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/4 lb dry penne or rigatoni",
+        "1/4 tbsp olive oil",
+        "0.19 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "1/2 oz pancetta, finely chopped; check whether the product requires cooking",
+        "0.0625 cup yellow onion, diced",
+        "1/4 tbsp fresh rosemary, chopped",
+        "0.19 cup dry white wine",
+        "1/4 can (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "0.0833 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "1/4 lb dry penne or rigatoni",
+        "1/4 tbsp olive oil",
+        "0.19 lb boneless lamb leg or shoulder",
+        "1/2 oz pancetta",
+        "0.0625 cup yellow onion",
+        "1/4 tbsp fresh rosemary",
+        "0.19 cup dry white wine",
+        "1/4 can (28 oz) whole peeled tomatoes",
+        "0.0833 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/2 lb dry penne or rigatoni",
+        "1/2 tbsp olive oil",
+        "3/8 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "1 oz pancetta, finely chopped; check whether the product requires cooking",
+        "1/8 cup yellow onion, diced",
+        "1/2 tbsp fresh rosemary, chopped",
+        "3/8 cup dry white wine",
+        "1/2 can (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "1/6 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "1/2 lb dry penne or rigatoni",
+        "1/2 tbsp olive oil",
+        "3/8 lb boneless lamb leg or shoulder",
+        "1 oz pancetta",
+        "1/8 cup yellow onion",
+        "1/2 tbsp fresh rosemary",
+        "3/8 cup dry white wine",
+        "1/2 can (28 oz) whole peeled tomatoes",
+        "1/6 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb dry penne or rigatoni",
+        "1 tbsp olive oil",
+        "3/4 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "2 oz pancetta, finely chopped; check whether the product requires cooking",
+        "1/4 cup yellow onion, diced",
+        "1 tbsp fresh rosemary, chopped",
+        "3/4 cup dry white wine",
+        "1 can (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "1/3 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "1 lb dry penne or rigatoni",
+        "1 tbsp olive oil",
+        "3/4 lb boneless lamb leg or shoulder",
+        "2 oz pancetta",
+        "1/4 cup yellow onion",
+        "1 tbsp fresh rosemary",
+        "3/4 cup dry white wine",
+        "1 can (28 oz) whole peeled tomatoes",
+        "1/3 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb dry penne or rigatoni",
+        "1 1/2 tbsp olive oil",
+        "1 1/8 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "3 oz pancetta, finely chopped; check whether the product requires cooking",
+        "3/8 cup yellow onion, diced",
+        "1 1/2 tbsp fresh rosemary, chopped",
+        "1 1/8 cups dry white wine",
+        "1 1/2 cans (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "1/2 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "9 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "1 1/2 lb dry penne or rigatoni",
+        "1 1/2 tbsp olive oil",
+        "1 1/8 lb boneless lamb leg or shoulder",
+        "3 oz pancetta",
+        "3/8 cup yellow onion",
+        "1 1/2 tbsp fresh rosemary",
+        "1 1/8 cups dry white wine",
+        "1 1/2 cans (28 oz) whole peeled tomatoes",
+        "1/2 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb dry penne or rigatoni",
+        "2 tbsp olive oil",
+        "1 1/2 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "4 oz pancetta, finely chopped; check whether the product requires cooking",
+        "1/2 cup yellow onion, diced",
+        "2 tbsp fresh rosemary, chopped",
+        "1 1/2 cups dry white wine",
+        "2 cans (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "2/3 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "2 lb dry penne or rigatoni",
+        "2 tbsp olive oil",
+        "1 1/2 lb boneless lamb leg or shoulder",
+        "4 oz pancetta",
+        "1/2 cup yellow onion",
+        "2 tbsp fresh rosemary",
+        "1 1/2 cups dry white wine",
+        "2 cans (28 oz) whole peeled tomatoes",
+        "2/3 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb dry penne or rigatoni",
+        "3 tbsp olive oil",
+        "2 1/4 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "6 oz pancetta, finely chopped; check whether the product requires cooking",
+        "3/4 cup yellow onion, diced",
+        "3 tbsp fresh rosemary, chopped",
+        "2 1/4 cups dry white wine",
+        "3 cans (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "1 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "18 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "3 lb dry penne or rigatoni",
+        "3 tbsp olive oil",
+        "2 1/4 lb boneless lamb leg or shoulder",
+        "6 oz pancetta",
+        "3/4 cup yellow onion",
+        "3 tbsp fresh rosemary",
+        "2 1/4 cups dry white wine",
+        "3 cans (28 oz) whole peeled tomatoes",
+        "1 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb dry penne or rigatoni",
+        "1 tbsp olive oil",
+        "3/4 lb boneless lamb leg or shoulder, finely diced; ground lamb is a separate texture option at the same measured amount",
+        "2 oz pancetta, finely chopped; check whether the product requires cooking",
+        "1/4 cup yellow onion, diced",
+        "1 tbsp fresh rosemary, chopped",
+        "3/4 cup dry white wine",
+        "1 can (28 oz) whole peeled tomatoes, crushed by hand; retain all the juices",
+        "1/3 cup Pecorino Romano, grated",
+        "salt, to taste",
+        "black pepper, to taste",
+        "water, enough for the measured pasta according to its package",
+        "salt, to taste for the pasta water",
+        "water, a splash as needed if diced shoulder needs a longer simmer, optional",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Render:** Use olive oil, pancetta, and yellow onion in a skillet with room for the full tomatoes, meat and pasta at the finish. Cook over moderate heat, stirring, until the onion is pale gold and the pancetta fat has rendered, about 8 minutes in the original batch. Keep all the oil and rendered fat; the pancetta can remain soft. Divide every supply proportionally among additional skillets or complete batches if needed.\n2. **Brown lamb:** Add boneless lamb leg or shoulder, fresh rosemary, salt, and black pepper. Stir and break up ground lamb if using it, cooking until browned without scorching the rosemary. Browning alone is not a cooked-center check; the meat finishes during simmering.\n3. **Deglaze:** Pour in dry white wine and scrape up the pan juices. Simmer until most visible free wine has evaporated rather than trying to measure an exact 75% reduction; use all the wine.\n4. **Simmer sauce:** Use whole peeled tomatoes and water (if using) in this stage. Add all the crushed tomatoes and their juices. Simmer gently, stirring, for about 30–40 minutes, until the sauce thickens, the lamb is tender and fat begins to separate. Use the listed optional water only if diced shoulder is still firm and the sauce needs a longer simmer. Check ground lamb for 160°F / 71°C; diced whole-muscle lamb must reach at least 145°F / 63°C in representative thick pieces and then continue hot simmering for at least 3 minutes before serving. If the pancetta requires cooking, also check its thickest pieces for the whole-pork 145°F endpoint and allow those 3 minutes of continued hot cooking. A color change or the recipe clock is not a temperature reading.\n5. **Boil pasta:** While the sauce finishes, use dry penne or rigatoni, water, and salt. Follow the pasta package and cook until al dente. Time draining for the sauce to be ready rather than leaving cooked pasta waiting through an extended shoulder simmer.\n6. **Combine:** Take the sauce off the heat. Add the drained hot pasta and Pecorino Romano, tossing gently to coat with all the sauce and measured cheese.\n7. **Serve:** Serve promptly with additional grated Pecorino Romano (if using) and additional black pepper (if using) as desired.",
+      "shopping": [
+        "1 lb dry penne or rigatoni",
+        "1 tbsp olive oil",
+        "3/4 lb boneless lamb leg or shoulder",
+        "2 oz pancetta",
+        "1/4 cup yellow onion",
+        "1 tbsp fresh rosemary",
+        "3/4 cup dry white wine",
+        "1 can (28 oz) whole peeled tomatoes",
+        "1/3 cup Pecorino Romano",
+        "salt, to taste",
+        "black pepper, to taste",
+        "salt, to taste for the pasta water",
+        "additional grated Pecorino Romano, as desired for serving, optional",
+        "additional black pepper, as desired for serving, optional"
+      ],
+      "scope": "Actual compiler; all shares1; geometry/time fixed, full alternate quantities original-batch proportionate; no measured yield claim"
+    }
+  ],
+  "preservedPriorRepairs": "ee9c full1Tbspoliveoil/saltpepper/extracheese and extendeddicedshoulder tenderness/splashwater/parallelpasta repaired route preserved; no dose reduced to modernpublisher.",
+  "remainingQuestions": [
+    "Can actual very fine diced lamb/pancetta be reliably probed; what label/cut and shoulder simmer duration apply?",
+    "Originalcoarse salt crystal density not converted; source/native4–6 versuscurrent6 servings remains planning only."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}

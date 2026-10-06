@@ -16,7 +16,15 @@ test('pie keeps both blind bake stages hot and chills the egg custard promptly',
 });
 test('oats use their listed sweetener and shortcakes define six-square geometry', () => {
   const oats = read('strawberry-cheesecake-overnight-oatmeal');
-  assert.match(oats.content, /yogurt, maple syrup/);
+  // The main maple syrup is whisked with the cream-cheese mixture.
+  const oatBase = oats.data.formula.components.find((component) => component.id === 'base');
+  const maple = oatBase.ingredients.find((ingredient) => ingredient.id === 'maple');
+  assert.equal(maple.name, 'maple syrup');
+  assert.deepEqual(maple.quantity, { amount: 1, unit: 'tbsp' });
+  assert.deepEqual(maple.uses, [{ step: 'cream', share: 1 }]);
+  assert.ok(oats.data.ingredients.includes('1 tbsp maple syrup'));
+  assert.ok(!oatBase.ingredients.some((ingredient) => /honey/i.test(ingredient.name)));
+  assert.match(oats.content, /^1\. \*\*Whisk:\*\*.*maple syrup.*until the cheese is dispersed/m);
   assert.doesNotMatch(oats.content, /yogurt, honey/);
   const shortcake = read('strawberry-rhubarb-shortcake-with-whipped-mascarpone');
   assert.equal(shortcake.data.totalTime, '90 min');
@@ -88,7 +96,12 @@ test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil',
   assert.match(content, /145°F \/ 63°C/);
   assert.match(content, /rest at least 3 minutes/);
   assert.match(content, /reheat to 165°F/);
-  assert.ok(
-    read('pasta-with-abruzzi-style-lamb-sauce').data.ingredients.includes('1 tbsp Olive Oil')
-  );
+  const lamb = read('pasta-with-abruzzi-style-lamb-sauce');
+  const oil = lamb.data.formula.components
+    .find((component) => component.id === 'main')
+    .ingredients.find((ingredient) => ingredient.id === 'oil');
+  assert.equal(oil.name, 'olive oil');
+  assert.deepEqual(oil.quantity, { amount: 1, unit: 'tbsp' });
+  assert.deepEqual(oil.uses, [{ step: 'render', share: 1 }]);
+  assert.ok(lamb.data.ingredients.includes('1 tbsp olive oil'));
 });

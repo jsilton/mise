@@ -1,0 +1,135 @@
+{
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "changed": 12,
+  "unchanged": 631,
+  "protectedIdentities": 643,
+  "exactPairedFieldsAndBody": true,
+  "registerPromotions": 12,
+  "unrelatedReviewCreditPreserved": true,
+  "changedExportSchemas": 12,
+  "unchangedAcceptedExportSchemas": [],
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "granola",
+      "acceptedSourceSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82",
+      "remainingQuestions": [
+        "What is the measured cooled volume, sheet area and cooling time? Is a wheat-germ amount available for the complete earlier route? Does the household intend the added seeds/salt/fixed vanilla?",
+        "What is the household quality window under its actual humidity and nut freshness?"
+      ]
+    },
+    {
+      "slug": "overnight-oats",
+      "acceptedSourceSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc",
+      "remainingQuestions": [
+        "What jar volume fits the actual chosen toppings? What scoop definition and extra hydration does the selected protein powder need? No finished-volume or warming-time test.",
+        "Actual freezer texture depends on yogurt and toppings; fruit added later is preferable for the plain-base freezer plan."
+      ]
+    },
+    {
+      "slug": "strawberry-cheesecake-overnight-oatmeal",
+      "acceptedSourceSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa",
+      "remainingQuestions": [
+        "What is the actual finished volume and preferred portion size? What after-opening dairy storage window applies? No recipe-specific shelf life or freezing evidence supplied."
+      ]
+    },
+    {
+      "slug": "vanilla-earl-grey-overnight-oats",
+      "acceptedSourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
+      "remainingQuestions": [
+        "What is actual finished volume and acceptable container hot-liquid rating? Is2cups oats intended, despite verydense ratio? No measured jar size or storage life established."
+      ]
+    },
+    {
+      "slug": "chocolate-blended-oats-with-raspberry-chia-jam",
+      "acceptedSourceSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845",
+      "remainingQuestions": [
+        "What was actual native berrybag size and chocolate amount? Does the household prefer saved5dayplan or modern4dayplan for this richer version? Actualblendercapacity,jarsize,finishedvolume andtexture untested."
+      ]
+    },
+    {
+      "slug": "chocolate-chia-pudding",
+      "acceptedSourceSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d",
+      "remainingQuestions": [
+        "Actual blender load/smoothness,containercapacity andfinishedshelflife unmeasured. Is immediate texture preferred to coldrest?"
+      ]
+    },
+    {
+      "slug": "brownie-protein-balls",
+      "acceptedSourceSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754",
+      "remainingQuestions": [
+        "What actual ball size/count does the full dough make? Is one-week quality/storage household-established? Powdercomposition/liquidneed untested.",
+        "Does the actual almondflour andproteinpowder manufacturer permit no-cook consumption? No model/product certification or homelethality test performed."
+      ]
+    },
+    {
+      "slug": "homemade-chicken-stock",
+      "acceptedSourceSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1",
+      "remainingQuestions": [
+        "Which raw/cooked bone mix, pot dimensions, finished volume and concentration does the household actually use?",
+        "Record actual attended time, rapid-cooling conditions and center temperatures during a kitchen cook."
+      ]
+    },
+    {
+      "slug": "pho-bo-beef-pho",
+      "acceptedSourceSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d",
+      "remainingQuestions": [
+        "Actual stockpot and broiler loads, source of this Git-only formula, noodle package and finished broth output?",
+        "Can representative eye-of-round slices be reliably measured with the actual probe? How long does the actual brisket chill cold through?",
+        "Which noodle product and sprout preparation does the household use? Raw option is not endorsed for vulnerable diners.",
+        "Is there a durable original author/publisher for this formula?"
+      ]
+    },
+    {
+      "slug": "quick-wonton-soup",
+      "acceptedSourceSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0",
+      "remainingQuestions": [
+        "Which mini wonton label, filling state, cooking water method and thermometer access applies?",
+        "Linked fresh wontons would need their own complete filling/wrapper/cooking decision; this review supplies none."
+      ]
+    },
+    {
+      "slug": "zuppa-toscana",
+      "acceptedSourceSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc",
+      "remainingQuestions": [
+        "Actual sausage species, pot load, potato and kale texture, and serving size?",
+        "Mushroom/cauliflower amounts, substitution identity and complete cooking are unresolved; no formula is approved for them.",
+        "Does household intend a distinct modern6bacon/6stock/4kale batch? None is silently imported."
+      ]
+    },
+    {
+      "slug": "pasta-with-abruzzi-style-lamb-sauce",
+      "acceptedSourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
+      "remainingQuestions": [
+        "Can actual very fine diced lamb/pancetta be reliably probed; what label/cut and shoulder simmer duration apply?",
+        "Originalcoarse salt crystal density not converted; source/native4–6 versuscurrent6 servings remains planning only."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

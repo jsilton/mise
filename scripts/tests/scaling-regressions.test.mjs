@@ -392,6 +392,67 @@ for (const row of confirmed) {
           if (factor === 1) assert.equal(output, formatFormulaIngredient(butter));
         }
         assert.ok(!data.ingredients.includes(component.input));
+      } else if (
+        (row.slug === 'pho-bo-beef-pho' && row.caseId === 50) ||
+        (row.slug === 'quick-wonton-soup' && row.caseId === 52)
+      ) {
+        // Keep both original parser inputs and every numeric oracle below.
+        // Live ginger counts scale while each piece's inch length stays fixed.
+        assert.equal(data.formula?.version, 1);
+        const pho = row.caseId === 50;
+        const ginger = data.formula.components
+          .find((component) => component.id === 'main')
+          .ingredients.find((ingredient) => ingredient.id === 'ginger');
+        assert.deepEqual(ginger.quantity, { amount: 1, unit: 'count' });
+        assert.equal(
+          ginger.name,
+          pho ? '4-inch piece of fresh ginger' : '1-inch piece of fresh ginger'
+        );
+        assert.equal(
+          ginger.plural,
+          pho ? '4-inch pieces of fresh ginger' : '1-inch pieces of fresh ginger'
+        );
+        assert.equal(ginger.preparation, pho ? 'washed and halved lengthwise' : 'smashed');
+        assert.deepEqual(ginger.uses, [{ step: pho ? 'char' : 'infuse', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(ginger)));
+        for (const factor of factors) {
+          const output = formatFormulaIngredient(ginger, factor);
+          assert.deepEqual(
+            [...output.matchAll(number)].map((match) => numeric(match[0])),
+            [factor, pho ? 4 : 1]
+          );
+          if (factor === 1) assert.equal(output, formatFormulaIngredient(ginger));
+        }
+        assert.ok(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'vanilla-earl-grey-overnight-oats' && row.caseId === 76) {
+        // Keep the original compound parser input and every numeric oracle below.
+        // Infusion water and discarded tea now have separate measured entries.
+        assert.equal(data.formula?.version, 1);
+        const base = data.formula.components.find((component) => component.id === 'base');
+        for (const [id, unit, name] of [
+          ['water', 'cup', 'boiling water'],
+          ['tea', 'count', 'Earl Grey tea bag'],
+        ]) {
+          const ingredient = base.ingredients.find((entry) => entry.id === id);
+          assert.equal(ingredient.name, name);
+          assert.deepEqual(ingredient.quantity, { amount: 1, unit });
+          assert.deepEqual(ingredient.uses, [{ step: 'steep', share: 1 }]);
+          if (id === 'tea') assert.equal(ingredient.role, 'discarded');
+          assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
+          for (const factor of factors) {
+            const output = formatFormulaIngredient(ingredient, factor);
+            assert.deepEqual(
+              [...output.matchAll(number)].map((match) => numeric(match[0])),
+              [factor]
+            );
+            if (factor === 1) assert.equal(output, formatFormulaIngredient(ingredient));
+          }
+        }
+        assert.match(
+          data.formula.steps.find((step) => step.id === 'steep').text,
+          /Remove and discard the tea bag/
+        );
+        assert.ok(!data.ingredients.includes(component.input));
       } else if (row.slug === 'cranberry-crunch' && row.caseId === 20) {
         // Keep the original compound parser input and every numeric oracle below.
         // Two cups of fruit do not establish one unspecified package's contents.

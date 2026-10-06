@@ -1813,12 +1813,16 @@
       "source": null,
       "sourceUrl": null,
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/brownie-protein-balls.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What actual ball size/count does the full dough make? Is one-week quality/storage household-established? Powdercomposition/liquidneed untested.",
+        "Does the actual almondflour andproteinpowder manufacturer permit no-cook consumption? No model/product certification or homelethality test performed."
       ],
       "inputSha256": "903ea3e59e6538086d2b110c071a8d3c5cab49161078522c6c75debde3ffaca9",
       "plannedBatch": "cold-preparations-01",
@@ -1827,7 +1831,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "ba575f003cfb9b2e30cfc035068b44813e9a080dccc0fd4b3f7b414ec6145754",
+      "productionVerification": "pending"
     },
     {
       "slug": "buttered-egg-noodles",
@@ -2642,12 +2648,15 @@
       "source": "Adapted from glow-diaries.com",
       "sourceUrl": "https://glow-diaries.com/choc-blended-oats/",
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/chocolate-blended-oats-with-raspberry-chia-jam.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What was actual native berrybag size and chocolate amount? Does the household prefer saved5dayplan or modern4dayplan for this richer version? Actualblendercapacity,jarsize,finishedvolume andtexture untested."
       ],
       "inputSha256": "8091290f060c2ecc74ff96ee0f33d5277f810476cafa5d1742b30af36a16ae43",
       "plannedBatch": "context-screening-02",
@@ -2656,7 +2665,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "bb26c7f6da2126636c0dfc7954fe832debd8797c4747ad456627d69b1b0c3845",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
@@ -2686,12 +2697,15 @@
       "source": "Adapted from eatingbirdfood.com",
       "sourceUrl": "https://www.eatingbirdfood.com/chocolate-chia-pudding/",
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/chocolate-chia-pudding.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual blender load/smoothness,containercapacity andfinishedshelflife unmeasured. Is immediate texture preferred to coldrest?"
       ],
       "inputSha256": "bdf39a22bfdf73a35b7f2d0cfe3aeeedd86e9867866c60586090579165bf8a1a",
       "plannedBatch": "context-screening-02",
@@ -2700,7 +2714,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "89bdb7b3f9e54d966efe847ec0d69c5b61057bece9ce863013874a8d1cb9734d",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-chip-beet-muffins",
@@ -5369,12 +5385,16 @@
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/granola.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the measured cooled volume, sheet area and cooling time? Is a wheat-germ amount available for the complete earlier route? Does the household intend the added seeds/salt/fixed vanilla?",
+        "What is the household quality window under its actual humidity and nut freshness?"
       ],
       "inputSha256": "e98af997fc38fb4944365a1ff5991cab20a29f6f0af5eebc7599c06f7030fb91",
       "plannedBatch": "baked-savory-and-breads-05",
@@ -5383,7 +5403,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "9ca40c73743f2355d022abc6feef79175f7c991ae9ce54c85dae013b09436e82",
+      "productionVerification": "pending"
     },
     {
       "slug": "grapefruit-basil-gin-fizz",
@@ -5942,12 +5964,16 @@
       "source": null,
       "sourceUrl": null,
       "group": "meat_soups_15",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
+        "docs/reviews/homemade-chicken-stock.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which raw/cooked bone mix, pot dimensions, finished volume and concentration does the household actually use?",
+        "Record actual attended time, rapid-cooling conditions and center temperatures during a kitchen cook."
       ],
       "inputSha256": "235d3e196f9f514aa51615bcc7a2c8805112ceb2a2a6770911f7c91cd1bdd178",
       "plannedBatch": "simmer-boil-and-steam-05",
@@ -5956,7 +5982,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
         "sha256": "540c0f69a488c9534d20c9a97779d0a708855d80c45f63c5d23941c2876026a9"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "c3cca211e063b187adcdcd3807d887e8444137a2cef8f2da3dba918d27c4edd1",
+      "productionVerification": "pending"
     },
     {
       "slug": "homemade-chili-oil",
@@ -7690,12 +7718,16 @@
       "source": "Adapted from downshiftology.com",
       "sourceUrl": "https://downshiftology.com/recipes/overnight-oats/",
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/overnight-oats.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What jar volume fits the actual chosen toppings? What scoop definition and extra hydration does the selected protein powder need? No finished-volume or warming-time test.",
+        "Actual freezer texture depends on yogurt and toppings; fruit added later is preferable for the plain-base freezer plan."
       ],
       "inputSha256": "0abedfb44805df7762d66ee60f165edf8e10a0e0a6243612e92c430108ed2fbf",
       "plannedBatch": "cold-preparations-03",
@@ -7704,7 +7736,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "1ade209c7a93c65757d52da945687f9d12128cfe1fc7cd46ce6ec5f89ce12efc",
+      "productionVerification": "pending"
     },
     {
       "slug": "pad-thai",
@@ -7852,15 +7886,17 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/pasta-abruzzi-style-lamb-sauce",
       "group": "meat_soups_15",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/bounded-recipe-batch-2026-10-05.md",
-        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json"
+        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
+        "docs/reviews/pasta-with-abruzzi-style-lamb-sauce.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Can actual very fine diced lamb/pancetta be reliably probed; what label/cut and shoulder simmer duration apply?",
+        "Originalcoarse salt crystal density not converted; source/native4–6 versuscurrent6 servings remains planning only."
       ],
       "inputSha256": "35c5e53d4cd7e4226feb47697a8470c15bca7a601afce0b8ec0f01e7cbf14c96",
       "plannedBatch": "simmer-boil-and-steam-07",
@@ -7869,7 +7905,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
         "sha256": "540c0f69a488c9534d20c9a97779d0a708855d80c45f63c5d23941c2876026a9"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "ebd6814853f4244047512b705fdf7e4b00983bdb3d10e5403a65b06804fad1e9",
+      "productionVerification": "pending"
     },
     {
       "slug": "patatas-bravas",
@@ -8047,12 +8085,18 @@
       "source": null,
       "sourceUrl": null,
       "group": "meat_soups_15",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
+        "docs/reviews/pho-bo-beef-pho.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual stockpot and broiler loads, source of this Git-only formula, noodle package and finished broth output?",
+        "Can representative eye-of-round slices be reliably measured with the actual probe? How long does the actual brisket chill cold through?",
+        "Which noodle product and sprout preparation does the household use? Raw option is not endorsed for vulnerable diners.",
+        "Is there a durable original author/publisher for this formula?"
       ],
       "inputSha256": "e0cf9a07240a3474608120be20a48846edc39e44097d4c739826cf675ba50150",
       "plannedBatch": "simmer-boil-and-steam-08",
@@ -8061,7 +8105,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
         "sha256": "540c0f69a488c9534d20c9a97779d0a708855d80c45f63c5d23941c2876026a9"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "3b54a6124758f87657312e0e9c1a45c2b32ffa09e94b8107241f2a97b1197c2d",
+      "productionVerification": "pending"
     },
     {
       "slug": "pizza-beans",
@@ -8408,15 +8454,17 @@
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/wonton-soup/",
       "group": "meat_soups_15",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
-        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json"
+        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
+        "docs/reviews/quick-wonton-soup.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which mini wonton label, filling state, cooking water method and thermometer access applies?",
+        "Linked fresh wontons would need their own complete filling/wrapper/cooking decision; this review supplies none."
       ],
       "inputSha256": "394279748055f0f5972a0f80a9f5bcc49ef04571753ecf0b6ece601c87f1a470",
       "plannedBatch": "simmer-boil-and-steam-08",
@@ -8425,7 +8473,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
         "sha256": "540c0f69a488c9534d20c9a97779d0a708855d80c45f63c5d23941c2876026a9"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "6ac405c246010d0fac6ac1979c606856088db13528eaa0d5a37af5e36223c4a0",
+      "productionVerification": "pending"
     },
     {
       "slug": "ratatouille",
@@ -10584,12 +10634,15 @@
       "source": "Adapted from wholefully.com",
       "sourceUrl": "https://wholefully.com/strawberry-cheesecake-overnight-oats-recipe/",
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/strawberry-cheesecake-overnight-oatmeal.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is the actual finished volume and preferred portion size? What after-opening dairy storage window applies? No recipe-specific shelf life or freezing evidence supplied."
       ],
       "inputSha256": "fbe51405563ed6aec2e81c50fe29d58d58dd4e7b996234fb09932f6b795de7c4",
       "plannedBatch": "cold-preparations-05",
@@ -10598,7 +10651,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa",
+      "productionVerification": "pending"
     },
     {
       "slug": "strawberry-congealed-salad",
@@ -11366,12 +11421,15 @@
       "source": "Adapted from yayforfood.com",
       "sourceUrl": "https://www.yayforfood.com/recipes/earl-grey-overnight-oats/",
       "group": "grain_snacks_14",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
+        "docs/reviews/vanilla-earl-grey-overnight-oats.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What is actual finished volume and acceptable container hot-liquid rating? Is2cups oats intended, despite verydense ratio? No measured jar size or storage life established."
       ],
       "inputSha256": "aec88195a30d4621dae4635d95abe3680186d5e4e1791023b9a024cc67c13765",
       "plannedBatch": "simmer-boil-and-steam-11",
@@ -11380,7 +11438,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/grain_snacks_14/manifest.json",
         "sha256": "e1893d222a011752c0ee8782b6a73b1e3af8e182e96ac843a0a0f1225b51726b"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "64308414c898b67677496c8f8446cb72ccaea3fa81d86a19dd8595264bfdbbea",
+      "productionVerification": "pending"
     },
     {
       "slug": "vegan-caesar-pasta-salad",
@@ -11788,12 +11848,17 @@
       "source": "Adapted from paleorunningmomma.com",
       "sourceUrl": "https://www.paleorunningmomma.com/zuppa-toscana-paleo-whole30-keto/",
       "group": "meat_soups_15",
-      "status": "proposed",
-      "reviewEvidence": [".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
+        "docs/reviews/zuppa-toscana.md",
+        "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual sausage species, pot load, potato and kale texture, and serving size?",
+        "Mushroom/cauliflower amounts, substitution identity and complete cooking are unresolved; no formula is approved for them.",
+        "Does household intend a distinct modern6bacon/6stock/4kale batch? None is silently imported."
       ],
       "inputSha256": "241049110cd11f30d3e30ae4ec299b10eb7efaf1ef57658382c806cc794cd983",
       "plannedBatch": "simmer-boil-and-steam-11",
@@ -11802,7 +11867,9 @@
         "path": ".mise/editorial-campaign/2026-10-05/meat_soups_15/manifest.json",
         "sha256": "540c0f69a488c9534d20c9a97779d0a708855d80c45f63c5d23941c2876026a9"
       },
-      "completeEditorialReview": false
+      "completeEditorialReview": false,
+      "acceptedSourceSha256": "ee76da031915892c1f84f7b60cb41d1a1a0649c3e5d5cdb6af3193712e5c98bc",
+      "productionVerification": "pending"
     }
   ],
   "staffing": {
@@ -12524,7 +12591,8 @@
   "statusCounts": {
     "production-verified": 278,
     "held": 31,
-    "proposed": 98,
+    "proposed": 86,
+    "accepted": 12,
     "held-awaiting-evidence": 2
   }
 }

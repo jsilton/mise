@@ -1,0 +1,3385 @@
+{
+  "slug": "strawberry-cheesecake-overnight-oatmeal",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "c01ed02d1c324110f9c8b99d11666bec8b819a87",
+  "inputSha256": "fbe51405563ed6aec2e81c50fe29d58d58dd4e7b996234fb09932f6b795de7c4",
+  "acceptedSourceSha256": "6c6aed20c57cf52250e3d53cd987613bdda2b9f36e2933b26d57f2df1ea930fa",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "300 min",
+      "after": "4 hr 10 min minimum; overnight preferred"
+    },
+    {
+      "field": "servings",
+      "before": "1",
+      "after": "1 portion"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 cup Rolled Oats (Old-fashioned)",
+        "1/3 cup Plain Greek Yogurt for richness",
+        "2/3 cup Unsweetened Milk of choice",
+        "3 tbsp Cream Cheese, softened",
+        "1/4 cup Fresh Strawberries, chopped",
+        "1 tbsp Chia Seeds",
+        "1/2 Lemon, zested and juiced (The Acid Balance)",
+        "1/2 tsp Pure Vanilla Extract",
+        "1 tbsp Maple Syrup",
+        "Additional Fresh Strawberry and freshly ground Black Pepper, optional garnish"
+      ],
+      "after": [
+        "--- Cheesecake oats ---",
+        "1/2 cup old-fashioned rolled oats",
+        "1/3 cup plain Greek yogurt",
+        "2/3 cup unsweetened milk of choice",
+        "3 tbsp cream cheese, softened enough to whisk; keep time out of refrigeration brief",
+        "1/4 cup fresh strawberries, wash and chop before measuring",
+        "1 tbsp chia seeds",
+        "1/2 lemon, wash; zest before juicing; reserve all zest for the fruit step",
+        "1/2 tsp pure vanilla extract",
+        "1 tbsp maple syrup",
+        "--- Optional garnish ---",
+        "additional fresh strawberry, as desired, optional",
+        "freshly ground black pepper, a little, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 660,
+        "protein": 37.5,
+        "carbs": 85.5,
+        "fat": 20,
+        "fiber": 9.5,
+        "sugar": 21.5,
+        "sodium": 250
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "base",
+            "name": "Cheesecake oats",
+            "ingredients": [
+              {
+                "id": "oats",
+                "key": "oats",
+                "name": "old-fashioned rolled oats",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "grain",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain Greek yogurt",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "unsweetened milk of choice",
+                "quantity": {
+                  "amount": "2/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "cream cheese",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "softened enough to whisk; keep time out of refrigeration brief"
+              },
+              {
+                "id": "berries",
+                "key": "berries",
+                "name": "fresh strawberries",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ],
+                "preparation": "wash and chop before measuring"
+              },
+              {
+                "id": "chia",
+                "key": "chia",
+                "name": "chia seeds",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "plural": "lemons",
+                "preparation": "wash; zest before juicing; reserve all zest for the fruit step"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "maple",
+                "key": "maple",
+                "name": "maple syrup",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Optional garnish",
+            "ingredients": [
+              {
+                "id": "berry",
+                "key": "berry",
+                "name": "additional fresh strawberry",
+                "allowance": "as desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "freshly ground black pepper",
+                "allowance": "a little",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "cream",
+            "title": "Whisk",
+            "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step."
+          },
+          {
+            "id": "liquid",
+            "title": "Add liquid",
+            "text": "Stir {{ingredients}} into the cheese mixture until the chia is distributed."
+          },
+          {
+            "id": "grain",
+            "title": "Add oats",
+            "text": "Stir in {{ingredients}} until no dry pockets remain."
+          },
+          {
+            "id": "fruit",
+            "title": "Add fruit",
+            "text": "Fold in {{ingredients}} and all the reserved lemon zest."
+          },
+          {
+            "id": "chill",
+            "title": "Refrigerate",
+            "text": "Transfer the entire mixture to a roomy clean container with space to stir. Cover and refrigerate at 40°F / 4°C or below for at least 4 hours, preferably overnight."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Stir again, then add {{ingredients}} if desired. The original batch makes one large planned portion or two smaller portions; finished volume is unmeasured."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Dispersing the full cream cheese and using all the lemon juice and zest in refrigerated oats.",
+        "outcome": "Softened oats with a tangy cheese base, distributed strawberries and no large cheese lumps.",
+        "techniques": ["cold-preparation"],
+        "before": [
+          "Zest the washed lemon before juicing; save all zest for the fruit step. Wash and chop strawberries before measuring.",
+          "Soften cheese only as much as needed for mixing, then promptly refrigerate the full mixture. Choose a container that fits the batch and leaves room for stirring."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Cream cheese is dispersed, with the full lemon juice stirred in.",
+            "why": "Adding milk after breaking up the cheese makes lumps easier to manage."
+          },
+          {
+            "step": 4,
+            "cue": "All strawberries and reserved zest are distributed.",
+            "why": "The zest and juice are separate destinations from the same listed lemon portion."
+          },
+          {
+            "step": 6,
+            "cue": "The oats have softened and can be stirred evenly.",
+            "why": "The refrigerated soak hydrates the grain; the one-large-portion yield is planning rather than measured jar volume."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Large cheese lumps remain.",
+            "cause": "Cold firm cheese was added after the grain.",
+            "fix": "Whisk the cheese with yogurt first; avoid leaving dairy out for a long softening wait."
+          },
+          {
+            "problem": "The berries color the mixture.",
+            "cause": "Cut berries release juice while soaking.",
+            "fix": "Stir before serving; add extra fresh berries at service if desired."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chia in the separate heaping-oat version",
+            "alternative": "Same complete listed amount of ground flax",
+            "effect": "A distinct thickener choice; texture will differ."
+          },
+          {
+            "ingredient": "Milk, yogurt and cream cheese",
+            "alternative": "Same full amounts of plant-based versions",
+            "effect": "A complete dairy-free route; maple and compatible toppings are needed for vegan preparation."
+          }
+        ],
+        "storage": "Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Use within the shortest after-opening storage instruction for the milk, yogurt, cream cheese or prepared fruit used. Keep extra garnishes separate until serving.",
+        "timing": "Ten minutes preparation plus at least 4 hours soaking gives a 4-hour-10-minute minimum plan. Overnight soaking is preferred; cheese softening, fruit preparation or larger-batch mixing may add time. No finished-volume or storage-life measurement is implied.",
+        "sources": [
+          {
+            "title": "Wholefully — full formula and large/small portion options",
+            "url": "https://wholefully.com/strawberry-cheesecake-overnight-oats-recipe/"
+          },
+          {
+            "title": "FDA — cold dairy and produce handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — produce washing",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe key to \"cheesecake\" oats that aren't a dense brick is whisking the cream cheese and Greek yogurt together before adding the milk and oats. This creates a stable, cheesecake-like base. We use lemon juice and zest to cut through the heavy cream cheese, providing the signature tang of a real cheesecake. Always add the berries just before refrigerating to keep them from bleeding.\n\n## Directions\n\n1.  **The Emulsion:** In a small bowl, whisk softened cream cheese, yogurt, maple syrup, vanilla, and lemon juice until perfectly smooth.\n2.  **Combine:** Stir in the milk and chia seeds.\n3.  **The Grain:** Add the rolled oats. Stir vigorously until the oats are fully submerged.\n4.  **Fold:** Gently stir in the chopped strawberries and lemon zest.\n5.  **The Finish:** Transfer to a wide-mouth glass jar. Cover and **refrigerate for at least 4 hours** (overnight is best) to allow the chia and oats to hydrate.\n6.  **Serve:** Stir once more. If desired, garnish with the additional strawberry and a little black pepper.\n",
+    "after": "\n## Chef's Note\n\nWhisk the cream cheese with yogurt before adding milk so large lumps do not remain in the oats. Both the juice and zest from the listed lemon portion are used: juice in the cheese mixture, zest with the strawberries. Fruit can release color and juice as it sits; that is expected rather than a guarantee against bleeding.\n\n## Directions\n\n1. **Whisk:** Whisk plain Greek yogurt, cream cheese, lemon, pure vanilla extract, and maple syrup until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step.\n2. **Add liquid:** Stir unsweetened milk of choice and chia seeds into the cheese mixture until the chia is distributed.\n3. **Add oats:** Stir in old-fashioned rolled oats until no dry pockets remain.\n4. **Add fruit:** Fold in fresh strawberries and all the reserved lemon zest.\n5. **Refrigerate:** Transfer the entire mixture to a roomy clean container with space to stir. Cover and refrigerate at 40°F / 4°C or below for at least 4 hours, preferably overnight.\n6. **Serve:** Stir again, then add additional fresh strawberry (if using) and freshly ground black pepper (if using) if desired. The original batch makes one large planned portion or two smaller portions; finished volume is unmeasured.\n\n## Cooking Notes\n\nFor a separate sweeter or unsweetened version of the original one-large-portion batch, use a heaping ½ cup rolled oats, ⅓ cup Greek yogurt, ⅔ cup milk, 3 tbsp softened cream cheese, ¼ cup chopped strawberries, 1 tbsp chia or ground flax, all juice and zest from ½ lemon, ½ tsp vanilla, a pinch of salt and 0–2 tbsp honey or maple syrup to taste. Omit the main recipe’s fixed maple amount and use only this chosen sweetener amount. Scale this complete set together; keep the same mixing destinations and refrigerated soak.\n\nThe full main milk, yogurt and cream-cheese amounts can each be replaced with plant-based versions; use maple and suitable garnishes for a vegan route. Certified gluten-free oats and checked toppings are needed for a gluten-free route. Extra strawberries, strawberry jam or crumbled graham crackers are unmeasured serving options; keep the optional black pepper if desired.\n"
+  },
+  "findings": [
+    {
+      "id": "GS14-S01",
+      "title": "GS14-S01",
+      "rationale": "Preserve full current richness and ee9c7078 optional strawberry/blackpepper repair. Allocate all lemon juice and zest explicitly, use a roomy container and count≥4hour soaking. Restore complete native heaping-oat/salt/0–2sweetener/chiaORflax branch distinctly, without altering the current fixed maple and level-oat main.",
+      "confidence": "High for preservation; moderate for texture and timing plan",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "2f2553cdfdbb0ab775b3018274db9820ab42606a",
+        "ee9c707878074d7d56dcb3fb737afb537051aba5",
+        "https://wholefully.com/strawberry-cheesecake-overnight-oats-recipe/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+      ],
+      "sourceApplicability": "Native/publisher support complete alternate formula and planned one-large/two-small portions; bulk2f255 changed heaping/salt/sweetener choices without a separate accepted rejection. FDA supports dairy cold handling/produce washing, not lemon preservation or finished jar capacity. Whisk order is practical editorial sequencing.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "totalTime",
+        "content",
+        "learning"
+      ],
+      "questions": [
+        "What is the actual finished volume and preferred portion size? What after-opening dairy storage window applies? No recipe-specific shelf life or freezing evidence supplied."
+      ]
+    },
+    {
+      "id": "GS14-META",
+      "title": "GS14-META",
+      "rationale": "Omit unsupported geographic origin and unverified numerical nutrition, preserving the current cuisine/style, exact source and all rich quantities.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The exact strawberry-cheesecake-overnight-oatmeal native cooking and actual followed history establish no recipe birthplace or verified nutrient calculation. American style or publisher location does not establish a country of origin. ",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Strawberry%20Cheesecake%20Overnight%20Oatmeal.html",
+    "introductionScope": "Actual retained pre-Markdown cooking introduction matching the exact native-bound recipe; canonical-path continuity must be distinguished where it was later recreated.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "GS14-S01",
+      "rationale": "Preserve full current richness and ee9c7078 optional strawberry/blackpepper repair. Allocate all lemon juice and zest explicitly, use a roomy container and count≥4hour soaking. Restore complete native heaping-oat/salt/0–2sweetener/chiaORflax branch distinctly, without altering the current fixed maple and level-oat main.",
+      "applicability": "Native/publisher support complete alternate formula and planned one-large/two-small portions; bulk2f255 changed heaping/salt/sweetener choices without a separate accepted rejection. FDA supports dairy cold handling/produce washing, not lemon preservation or finished jar capacity. Whisk order is practical editorial sequencing."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1/2 cup Rolled Oats (Old-fashioned)",
+        "destinations": 3,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 1,
+        "text": "1/3 cup Plain Greek Yogurt for richness",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 2,
+        "text": "2/3 cup Unsweetened Milk of choice",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 3,
+        "text": "3 tbsp Cream Cheese, softened",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 4,
+        "text": "1/4 cup Fresh Strawberries, chopped",
+        "destinations": 4,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 5,
+        "text": "1 tbsp Chia Seeds",
+        "destinations": 2,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 6,
+        "text": "1/2 Lemon, zested and juiced (The Acid Balance)",
+        "destinations": "juice1/zest4",
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Pure Vanilla Extract",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 8,
+        "text": "1 tbsp Maple Syrup",
+        "destinations": 1,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      },
+      {
+        "index": 9,
+        "text": "Additional Fresh Strawberry and freshly ground Black Pepper, optional garnish",
+        "destinations": 6,
+        "scope": "Exact frozen current ingredient text; native-restored options never labeled before."
+      }
+    ],
+    "unlistedBefore": [],
+    "proposed": [
+      {
+        "id": "base.oats",
+        "name": "old-fashioned rolled oats",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "grain",
+            "share": 1,
+            "text": "Stir in {{ingredients}} until no dry pockets remain."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.yogurt",
+        "name": "plain Greek yogurt",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.milk",
+        "name": "unsweetened milk of choice",
+        "quantity": {
+          "amount": "2/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Stir {{ingredients}} into the cheese mixture until the chia is distributed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.cheese",
+        "name": "cream cheese",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "softened enough to whisk; keep time out of refrigeration brief",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.berries",
+        "name": "fresh strawberries",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "state": "wash and chop before measuring",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "fruit",
+            "share": 1,
+            "text": "Fold in {{ingredients}} and all the reserved lemon zest."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.chia",
+        "name": "chia seeds",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Stir {{ingredients}} into the cheese mixture until the chia is distributed."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.lemon",
+        "name": "lemon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "count"
+        },
+        "allowance": null,
+        "state": "wash; zest before juicing; reserve all zest for the fruit step",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step."
+          }
+        ],
+        "allocationTotal": 1,
+        "preparedTransfers": [
+          {
+            "component": "all juice from listed lemon",
+            "destination": "cream"
+          },
+          {
+            "component": "all zest from same listed lemon",
+            "destination": "fruit"
+          }
+        ]
+      },
+      {
+        "id": "base.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "base.maple",
+        "name": "maple syrup",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "cream",
+            "share": 1,
+            "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.berry",
+        "name": "additional fresh strawberry",
+        "quantity": null,
+        "allowance": "as desired",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Stir again, then add {{ingredients}} if desired. The original batch makes one large planned portion or two smaller portions; finished volume is unmeasured."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.pepper",
+        "name": "freshly ground black pepper",
+        "quantity": null,
+        "allowance": "a little",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Stir again, then add {{ingredients}} if desired. The original batch makes one large planned portion or two smaller portions; finished volume is unmeasured."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "savedCookingArtifact": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "cream",
+      "title": "Whisk",
+      "text": "Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step.",
+      "generatedText": "1. **Whisk:** Whisk plain Greek yogurt, cream cheese, lemon, pure vanilla extract, and maple syrup until the cheese is dispersed without large lumps, using all the listed lemon juice here and reserving all its zest for the fruit step.",
+      "dependsOn": [],
+      "assigned": ["base.yogurt", "base.cheese", "base.lemon", "base.vanilla", "base.maple"]
+    },
+    {
+      "index": 2,
+      "id": "liquid",
+      "title": "Add liquid",
+      "text": "Stir {{ingredients}} into the cheese mixture until the chia is distributed.",
+      "generatedText": "2. **Add liquid:** Stir unsweetened milk of choice and chia seeds into the cheese mixture until the chia is distributed.",
+      "dependsOn": ["cream"],
+      "assigned": ["base.milk", "base.chia"]
+    },
+    {
+      "index": 3,
+      "id": "grain",
+      "title": "Add oats",
+      "text": "Stir in {{ingredients}} until no dry pockets remain.",
+      "generatedText": "3. **Add oats:** Stir in old-fashioned rolled oats until no dry pockets remain.",
+      "dependsOn": ["liquid"],
+      "assigned": ["base.oats"]
+    },
+    {
+      "index": 4,
+      "id": "fruit",
+      "title": "Add fruit",
+      "text": "Fold in {{ingredients}} and all the reserved lemon zest.",
+      "generatedText": "4. **Add fruit:** Fold in fresh strawberries and all the reserved lemon zest.",
+      "dependsOn": ["grain"],
+      "assigned": ["base.berries"]
+    },
+    {
+      "index": 5,
+      "id": "chill",
+      "title": "Refrigerate",
+      "text": "Transfer the entire mixture to a roomy clean container with space to stir. Cover and refrigerate at 40°F / 4°C or below for at least 4 hours, preferably overnight.",
+      "generatedText": "5. **Refrigerate:** Transfer the entire mixture to a roomy clean container with space to stir. Cover and refrigerate at 40°F / 4°C or below for at least 4 hours, preferably overnight.",
+      "dependsOn": ["fruit"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "serve",
+      "title": "Serve",
+      "text": "Stir again, then add {{ingredients}} if desired. The original batch makes one large planned portion or two smaller portions; finished volume is unmeasured.",
+      "generatedText": "6. **Serve:** Stir again, then add additional fresh strawberry (if using) and freshly ground black pepper (if using) if desired. The original batch makes one large planned portion or two smaller portions; finished volume is unmeasured.",
+      "dependsOn": ["chill"],
+      "assigned": ["finish.berry", "finish.pepper"]
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Exact full heaping-oat version",
+        "changes": [
+          {
+            "replace": "base.oats",
+            "name": "heaping rolled oats",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "grain"
+          },
+          {
+            "replace": "base.maple",
+            "name": "honey OR maple syrup",
+            "amount": 0,
+            "max": 2,
+            "unit": "tbsp",
+            "destination": "cream"
+          },
+          {
+            "replace": "base.chia",
+            "name": "chia OR ground flax",
+            "amount": 1,
+            "unit": "tbsp",
+            "destination": "liquid"
+          },
+          {
+            "name": "salt",
+            "allowance": "a pinch",
+            "destination": "cream"
+          }
+        ],
+        "scope": "All full main yogurt,milk,creamcheese,berries,lemon andvanilla unchanged; main fixedmaple replaced, not added."
+      },
+      {
+        "name": "Plant-based full dairy replacement",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "plant milk",
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "destination": "liquid"
+          },
+          {
+            "replace": "base.yogurt",
+            "name": "plant yogurt",
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "destination": "cream"
+          },
+          {
+            "replace": "base.cheese",
+            "name": "plant creamcheese",
+            "amount": 3,
+            "unit": "tbsp",
+            "destination": "cream"
+          }
+        ],
+        "scope": "Fullothermain retained; maple alreadymain, check optionaltoppings."
+      },
+      {
+        "name": "Serving additions",
+        "changes": [
+          {
+            "name": "strawberries,strawberryjam,grahamcrumbs",
+            "allowance": "to taste",
+            "destination": "serve"
+          }
+        ],
+        "scope": "Unmeasured optionalfinish, notextra requiredgraindose."
+      }
+    ],
+    "completeCookingOptions": "For a separate sweeter or unsweetened version of the original one-large-portion batch, use a heaping ½ cup rolled oats, ⅓ cup Greek yogurt, ⅔ cup milk, 3 tbsp softened cream cheese, ¼ cup chopped strawberries, 1 tbsp chia or ground flax, all juice and zest from ½ lemon, ½ tsp vanilla, a pinch of salt and 0–2 tbsp honey or maple syrup to taste. Omit the main recipe’s fixed maple amount and use only this chosen sweetener amount. Scale this complete set together; keep the same mixing destinations and refrigerated soak.\n\nThe full main milk, yogurt and cream-cheese amounts can each be replaced with plant-based versions; use maple and suitable garnishes for a vegan route. Certified gluten-free oats and checked toppings are needed for a gluten-free route. Extra strawberries, strawberry jam or crumbled graham crackers are unmeasured serving options; keep the optional black pepper if desired.",
+    "publicSubstitutions": [
+      {
+        "ingredient": "Chia in the separate heaping-oat version",
+        "alternative": "Same complete listed amount of ground flax",
+        "effect": "A distinct thickener choice; texture will differ."
+      },
+      {
+        "ingredient": "Milk, yogurt and cream cheese",
+        "alternative": "Same full amounts of plant-based versions",
+        "effect": "A complete dairy-free route; maple and compatible toppings are needed for vegan preparation."
+      }
+    ],
+    "mainAndExclusiveVariantTotalsNotCombined": true,
+    "heldVariants": [
+      "No exact source freezer or finished-recipe storage duration established; no duration or jar capacity invented."
+    ],
+    "completeBranches": [
+      {
+        "name": "Exact full heaping-oat version",
+        "changes": [
+          {
+            "replace": "base.oats",
+            "name": "heaping rolled oats",
+            "amount": 0.5,
+            "unit": "cup",
+            "destination": "grain"
+          },
+          {
+            "replace": "base.maple",
+            "name": "honey OR maple syrup",
+            "amount": 0,
+            "max": 2,
+            "unit": "tbsp",
+            "destination": "cream"
+          },
+          {
+            "replace": "base.chia",
+            "name": "chia OR ground flax",
+            "amount": 1,
+            "unit": "tbsp",
+            "destination": "liquid"
+          },
+          {
+            "name": "salt",
+            "allowance": "a pinch",
+            "destination": "cream"
+          }
+        ],
+        "scope": "All full main yogurt,milk,creamcheese,berries,lemon andvanilla unchanged; main fixedmaple replaced, not added.",
+        "completeUnchangedMain": [
+          {
+            "id": "base.yogurt",
+            "name": "plain Greek yogurt",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.milk",
+            "name": "unsweetened milk of choice",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.cheese",
+            "name": "cream cheese",
+            "quantity": {
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.berries",
+            "name": "fresh strawberries",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fruit"]
+          },
+          {
+            "id": "base.lemon",
+            "name": "lemon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "finish.berry",
+            "name": "additional fresh strawberry",
+            "quantity": null,
+            "allowance": "as desired",
+            "destinations": ["serve"]
+          },
+          {
+            "id": "finish.pepper",
+            "name": "freshly ground black pepper",
+            "quantity": null,
+            "allowance": "a little",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 0.125,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 0.5,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 0.25,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.08333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.16666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 0.25,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 1,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 0.5,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.16666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 2,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 0.75,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 3,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 1.5,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 4.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 4,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 2,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 1.5,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 6,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 9,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.oats",
+                "name": "heaping rolled oats",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "grain",
+                "max": null
+              },
+              {
+                "replace": "base.maple",
+                "name": "honey OR maple syrup",
+                "amount": 0,
+                "max": 2,
+                "unit": "tbsp",
+                "destination": "cream"
+              },
+              {
+                "replace": "base.chia",
+                "name": "chia OR ground flax",
+                "amount": 1,
+                "unit": "tbsp",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "name": "salt",
+                "allowance": "a pinch",
+                "destination": "cream",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plant-based full dairy replacement",
+        "changes": [
+          {
+            "replace": "base.milk",
+            "name": "plant milk",
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "destination": "liquid"
+          },
+          {
+            "replace": "base.yogurt",
+            "name": "plant yogurt",
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "destination": "cream"
+          },
+          {
+            "replace": "base.cheese",
+            "name": "plant creamcheese",
+            "amount": 3,
+            "unit": "tbsp",
+            "destination": "cream"
+          }
+        ],
+        "scope": "Fullothermain retained; maple alreadymain, check optionaltoppings.",
+        "completeUnchangedMain": [
+          {
+            "id": "base.oats",
+            "name": "old-fashioned rolled oats",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["grain"]
+          },
+          {
+            "id": "base.berries",
+            "name": "fresh strawberries",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fruit"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.lemon",
+            "name": "lemon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "finish.berry",
+            "name": "additional fresh strawberry",
+            "quantity": null,
+            "allowance": "as desired",
+            "destinations": ["serve"]
+          },
+          {
+            "id": "finish.pepper",
+            "name": "freshly ground black pepper",
+            "quantity": null,
+            "allowance": "a little",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 0.16666666666666666,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 0.08333333333333333,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 0.75,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 0.3333333333333333,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 0.16666666666666666,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 1.5,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 0.6666666666666666,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 0.3333333333333333,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 0.5,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 4.5,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 1.3333333333333333,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 0.6666666666666666,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 6,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 2,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 1,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 9,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "replace": "base.milk",
+                "name": "plant milk",
+                "amount": 0.6666666666666666,
+                "unit": "cup",
+                "destination": "liquid",
+                "max": null
+              },
+              {
+                "replace": "base.yogurt",
+                "name": "plant yogurt",
+                "amount": 0.3333333333333333,
+                "unit": "cup",
+                "destination": "cream",
+                "max": null
+              },
+              {
+                "replace": "base.cheese",
+                "name": "plant creamcheese",
+                "amount": 3,
+                "unit": "tbsp",
+                "destination": "cream",
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Serving additions",
+        "changes": [
+          {
+            "name": "strawberries,strawberryjam,grahamcrumbs",
+            "allowance": "to taste",
+            "destination": "serve"
+          }
+        ],
+        "scope": "Unmeasured optionalfinish, notextra requiredgraindose.",
+        "completeUnchangedMain": [
+          {
+            "id": "base.oats",
+            "name": "old-fashioned rolled oats",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["grain"]
+          },
+          {
+            "id": "base.yogurt",
+            "name": "plain Greek yogurt",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.milk",
+            "name": "unsweetened milk of choice",
+            "quantity": {
+              "amount": "2/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.cheese",
+            "name": "cream cheese",
+            "quantity": {
+              "amount": 3,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.berries",
+            "name": "fresh strawberries",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": ["fruit"]
+          },
+          {
+            "id": "base.chia",
+            "name": "chia seeds",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["liquid"]
+          },
+          {
+            "id": "base.lemon",
+            "name": "lemon",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.vanilla",
+            "name": "pure vanilla extract",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "base.maple",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": 1,
+              "unit": "tbsp"
+            },
+            "allowance": null,
+            "destinations": ["cream"]
+          },
+          {
+            "id": "finish.berry",
+            "name": "additional fresh strawberry",
+            "quantity": null,
+            "allowance": "as desired",
+            "destinations": ["serve"]
+          },
+          {
+            "id": "finish.pepper",
+            "name": "freshly ground black pepper",
+            "quantity": null,
+            "allowance": "a little",
+            "destinations": ["serve"]
+          }
+        ],
+        "scaleStates": [
+          {
+            "factor": 0.25,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.08333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.16666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.0625,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 0.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.16666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.125,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1.5,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 4.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.375,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 2,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 1.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 6,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 3,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 2,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 9,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.75,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 1.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          },
+          {
+            "factor": 1,
+            "completeBase": [],
+            "changes": [
+              {
+                "name": "strawberries,strawberryjam,grahamcrumbs",
+                "allowance": "to taste",
+                "destination": "serve",
+                "amount": null,
+                "max": null
+              }
+            ],
+            "remainingMain": [
+              {
+                "id": "base.oats",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.yogurt",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.milk",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.cheese",
+                "quantity": {
+                  "amount": 3,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.berries",
+                "quantity": {
+                  "amount": 0.25,
+                  "max": null,
+                  "unit": "cup"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.chia",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.lemon",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "count"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.vanilla",
+                "quantity": {
+                  "amount": 0.5,
+                  "max": null,
+                  "unit": "tsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "base.maple",
+                "quantity": {
+                  "amount": 1,
+                  "max": null,
+                  "unit": "tbsp"
+                },
+                "allowance": null
+              },
+              {
+                "id": "finish.berry",
+                "quantity": null,
+                "allowance": "as desired"
+              },
+              {
+                "id": "finish.pepper",
+                "quantity": null,
+                "allowance": "a little"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream"
+    ],
+    "scope": "All actual incoming meal files searched; none found. Existing pairsWith retained only as metadata; no composed-meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Full current level½cup oats/⅓cup yogurt/⅔cup milk/3tbsp creamcheese/¼cup berries/1tbsp chia/½lemon alljuice+zest/½tspvanilla/1tbspmaple plus accepted optional strawberry/pepper preserved. Native heaping oats,0–2tbsp sweetener,saltpinch,chiaORflax remain a separate full version. One large portion/two small are planning, not pint capacity.",
+    "planningYield": {
+      "amount": 1,
+      "unit": "portion"
+    },
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "What is the actual finished volume and preferred portion size? What after-opening dairy storage window applies? No recipe-specific shelf life or freezing evidence supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 254,
+    "recipeSources": 643,
+    "authoredFormulas": 139,
+    "targetedLint": "Zero errors; one disclosed metadata warning because Chia Pudding now correctly counts three hours of chilling as elapsed time rather than cooking. The minimum chill is explicit in its timing and method; advancePrep remains unset. One existing missing-pairing warning on Homemade Chicken Stock is preserved. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12450,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of the explicit shallow-vessel stock cooling bath, gated by existing165/74 token presence. Actual low-temperature cooking, mixed cooking, other water baths and ambiguous methods remain flagged. This is editorial triage, not safety certification; cooking prose and formulas are unchanged by the software amendment."
+  }
+}
