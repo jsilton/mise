@@ -5,12 +5,22 @@ import matter from 'gray-matter';
 const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8'));
 test('family banana bread restores softened-butter creaming and saved pan dimensions', () => {
   const { data, content } = read('banana-nut-bread');
-  assert.ok(data.ingredients.some((x) => x.includes('Butter, softened')));
+  const batter = data.formula.components.find((c) => c.id === 'batter');
+  const butter = batter.ingredients.find((i) => i.id === 'butter');
+  assert.deepEqual(butter.quantity, { amount: '1/2', unit: 'cup' });
+  assert.equal(butter.name, 'unsalted butter');
+  assert.match(butter.preparation, /softened, not melted/);
+  assert.deepEqual(butter.uses, [{ step: 'cream', share: 1 }]);
   assert.equal(data.source, 'Adapted from Hamilton Family');
-  assert.match(content, /Beat the softened butter and sugar/);
+  assert.match(content, /Beat the unsalted butter and granulated sugar until lighter and fluffy/);
+  const creamIndex = data.formula.steps.findIndex((s) => s.id === 'cream');
+  const eggsIndex = data.formula.steps.findIndex((s) => s.id === 'eggs');
+  assert.ok(creamIndex >= 0 && eggsIndex >= 0);
+  assert.ok(creamIndex < eggsIndex);
   assert.match(content, /eggs one at a time/);
-  assert.match(content, /9x5x3-inch/);
-  assert.match(content, /cool fully before slicing/);
+  assert.match(content, /9-by-5-by-3-inch/);
+  assert.match(content, /Cool completely on the rack before slicing/);
+  assert.match(content, /listed vanilla and seed alternative are Mise adaptations/);
   assert.doesNotMatch(content, /\*\*Melt:/);
 });
 test('almond loaf restores excess-water handling and complete cooling without invented pan geometry', () => {

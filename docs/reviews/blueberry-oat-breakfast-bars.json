@@ -1,0 +1,410 @@
+{
+  "slug": "blueberry-oat-breakfast-bars",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "94bdf2d603225792bfc01946c0679cd19ce66e0da25af13cabde4bbe24e5d0dc",
+  "acceptedSourceSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["baking-dish", "saucepan"],
+      "after": ["8-inch-square-baking-dish", "saucepan"]
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "15–18 min baking"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "At least 1 hr 30 min, plus cooling and any remaining preheating (or chill overnight)"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 bars"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 250,
+        "protein": 7.5,
+        "carbs": 28.5,
+        "fat": 13,
+        "fiber": 3.5,
+        "sugar": 12,
+        "sodium": 40
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Compact the oats and allow a cold set before cutting.",
+        "outcome": "Firm oat bars with whole blueberries and a thin yogurt or coconut drizzle.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep the full five tablespoons fat, four tablespoons sweetener and three tablespoons nut butter for the original batch; all go into the oat mixture. The yogurt or coconut cream and juice belong only in the drizzle.",
+          "The original batch uses an 8-inch square dish. Keep similar layer thickness when scaling with a suitable smaller dish or additional dishes; a deeper layer can change baking and chilling.",
+          "Plan the mandatory hour in the refrigerator after cooling. These bars are a make-ahead breakfast when time is short in the morning."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The oats form a firm, even layer, including the corners.",
+            "why": "Loose packing leaves gaps that can break apart on cutting."
+          },
+          {
+            "step": 6,
+            "cue": "The chilled slab is firm enough to lift and cut without falling into granola.",
+            "why": "The warm mixture is fragile; the cold rest is part of setting the bars."
+          },
+          {
+            "step": 7,
+            "cue": "All the measured juice is whisked into the yogurt or coconut cream.",
+            "why": "The full drizzle is separate from the oat binder."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bars crumble on cutting",
+            "cause": "The mixture was loosely packed or cut before the cold rest finished.",
+            "fix": "Keep the slab in its pan, chill longer until firm and cut gently; press evenly next time."
+          },
+          {
+            "problem": "Bars soften on a warm counter",
+            "cause": "The chosen fat and nut butter soften as they warm.",
+            "fix": "Serve from the refrigerator and bring out only the portions needed."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Coconut oil",
+            "alternative": "The listed unsalted butter at the same tablespoon amount",
+            "effect": "Changes flavor and cold firmness; keep the complete cooling and chilling sequence."
+          },
+          {
+            "ingredient": "Honey",
+            "alternative": "The listed maple syrup, or date syrup, at the same tablespoon amount",
+            "effect": "Changes flavor and may change firmness; press and judge the chilled slab."
+          },
+          {
+            "ingredient": "Almond butter",
+            "alternative": "The listed peanut butter at the same tablespoon amount",
+            "effect": "Changes flavor and consistency. Stir separated nut butter before measuring."
+          },
+          {
+            "ingredient": "Greek yogurt",
+            "alternative": "The listed coconut cream at the same tablespoon amount",
+            "effect": "Makes a different drizzle; whisk with the full listed juice and keep cold."
+          }
+        ],
+        "timing": "Allow ten minutes preparation, 15–18 minutes baking, cooling in the pan and at least one hour chilling. At least 1 hour 30 minutes plus cooling is a planning subtotal; overnight chilling is useful. Start heating during preparation, but load only once the oven reaches 340°F / 170°C; any heating still needed after prep extends elapsed time. Longer cooling or additional pans add elapsed time.",
+        "storage": "Refrigerate promptly within 2 hours, or 1 hour above 90°F, at 40°F or below. Keep covered for up to 3 days. Freeze cooled bars airtight and thaw in the refrigerator; add the yogurt drizzle after thawing if you want to avoid its texture changing in the freezer.",
+        "sources": [
+          {
+            "title": "Ciara Attwell — Blueberry Oat Breakfast Bars, My Fussy Eater",
+            "url": "https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFirmly pressing the mixture into the pan and then refrigerating for at least one hour after baking prevents crumbling. As the coconut oil and nut butter chill and solidify, they bind the oats into clean, portable bars that hold together beautifully. Overnight chilling works even better.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 340°F (170°C). Line an 8x8-inch baking dish with parchment paper.\n2.  **Melt:** In a large saucepan, melt coconut oil, honey, and nut butter over medium heat. Stir until smooth and combined.\n3.  **Mix:** Remove from heat. Stir in the oats until every grain is coated. Gently fold in the blueberries.\n4.  **Press:** Transfer the mixture to the baking dish. Use the back of a spoon to press down **very firmly** - the more compact it is, the better it will hold.\n5.  **Bake:** Bake for 15-18 minutes until the edges are just beginning to turn golden brown.\n6.  **The Finish:** Allow to cool in the pan at room temperature, then transfer to the fridge for at least 1 hour (mandatory) to firm up.\n7.  **Glaze:** Whisk together the yogurt and orange juice. Drizzle over the chilled bars.\n8.  **Slice:** Cut into 8 bars and serve cold or at room temperature.\n",
+    "after": "\n## Chef's Note\n\nPress the coated oats firmly into the corners as well as the center of the pan. Baking to lightly golden edges is followed by cooling and a long cold rest; cut the bars only once the slab is firm. The choice of coconut oil or butter and nut butter affects the texture, so chilling helps the bars hold together without guaranteeing that every nut butter sets alike.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 340°F (170°C). Line an 8-inch square baking dish with parchment for the original batch, leaving enough paper to lift the cooled slab. Wash and drain the fresh blueberries.\n\n2. **Melt:** Gently melt all the measured coconut oil or butter, honey or maple syrup, and almond or peanut butter in a large saucepan over medium heat. Stir until smooth and combined, then take off the heat.\n\n3. **Coat and fold:** Stir in all the oats until evenly coated. Gently fold in all the drained blueberries without deliberately crushing them.\n\n4. **Press:** Transfer the whole mixture to the prepared dish. Press firmly with the back of a spoon across the base and into the corners, making an even, compact layer.\n\n5. **Bake:** Load only once the oven has reached 340°F / 170°C. Bake about 15–18 minutes, until the edges are just beginning to turn golden. The hot slab will still be delicate; browning is followed by cooling and chilling.\n\n6. **Cool and chill:** Let the slab cool in the pan until manageable, then refrigerate promptly for at least 1 hour and until firm enough to cut; overnight chilling is an option. Keep the slab in its pan while it sets.\n\n7. **Drizzle:** Whisk all the measured yogurt or coconut cream with all the orange juice until smooth. Drizzle over the cold, firm slab.\n\n8. **Cut and serve:** Lift with the parchment and cut into the listed number of bars; the original batch plans eight. Serve cold, or let individual bars stand briefly for serving. Return the rest to the refrigerator.\n"
+  },
+  "findings": [
+    {
+      "id": "blueberry-oat-breakfast-bars-1",
+      "title": "Missing chill in elapsed time",
+      "field": "Missing chill in elapsed time",
+      "rationale": "The mandatory hour follows baking and cooling; the previous total could not represent this recipe’s service state.",
+      "confidence": "high",
+      "applicableSources": ["https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/"],
+      "sourceApplicability": "The mandatory hour follows baking and cooling; the previous total could not represent this recipe’s service state.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-oat-breakfast-bars-2",
+      "title": "Cold-set claim",
+      "field": "Cold-set claim",
+      "rationale": "Coconut oil/butter and different nut butters do not all set identically. Retain full richness, firm packing and the source’s cold-rest method.",
+      "confidence": "high",
+      "applicableSources": ["https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/"],
+      "sourceApplicability": "Coconut oil/butter and different nut butters do not all set identically. Retain full richness, firm packing and the source’s cold-rest method.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-oat-breakfast-bars-3",
+      "title": "Scaled cut count",
+      "field": "Scaled cut count",
+      "rationale": "Separate original planning count from scaled portions and maintain comparable thickness instead of multiplying pan dimensions or chilling time.",
+      "confidence": "high",
+      "applicableSources": ["https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/"],
+      "sourceApplicability": "Separate original planning count from scaled portions and maintain comparable thickness instead of multiplying pan dimensions or chilling time.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-oat-breakfast-bars-4",
+      "title": "Complete alternatives",
+      "field": "Complete alternatives",
+      "rationale": "Exact committed original and identified publisher both include date syrup; restore the alternative without changing the current measured base.",
+      "confidence": "high",
+      "applicableSources": ["https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/"],
+      "sourceApplicability": "Exact committed original and identified publisher both include date syrup; restore the alternative without changing the current measured base.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-oat-breakfast-bars-5",
+      "title": "Bounded preheat timing clarification",
+      "field": "Bounded preheat timing clarification",
+      "rationale": "The prior proposal already begins preheating at the stated temperature. Its elapsed planning range excludes heating that remains after preparation. Qualify the subtotal without inventing an oven heat-up duration, and require the oven to reach its setting before loading. All bake, rest and chill windows remain; the biscuit 400°F then 350°F transition is unchanged.",
+      "confidence": "High for stated temperature/order and conditional elapsed-time arithmetic; oven heat-up duration and whole planning ranges remain unmeasured.",
+      "applicableSources": [
+        {
+          "type": "retained original/current and prior independently inspected candidate",
+          "sourceUrl": "https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/?fbclid=IwAR13JrU7Ex3syixlLB4WnakqHoubzLDS_l6q-jsruiyBjxFBfag6CsigWrc",
+          "applicability": "The written 340°F / 170°C setting and existing bake/rest/chill plan, not a tested oven heat-up duration."
+        },
+        {
+          "type": "editorial process dependency",
+          "applicability": "Preheating can run during preparation; only actual overlap reduces elapsed time. Any additional heating extends the stated preparation/bake/rest subtotal. No FDA/USDA timing validation or household oven measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual oven heating that remains after preparation with the intended oven and batch."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/blueberry-oat-breakfast-bars.md",
+    "originalSha256": "795f3882b9568cd5b8ff12ede5901562b898c64dbe84b95f8a3e821011d86161",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/?fbclid=IwAR13JrU7Ex3syixlLB4WnakqHoubzLDS_l6q-jsruiyBjxFBfag6CsigWrc",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2/publisher list oats as 200 g/2 cups and berries as 100 g/0.75 cup. 69022e6d selected the current volume-only ledger; preserve those current amounts without a universal conversion claim.",
+    "The same bulk refinement narrows generic nut butter to almond/peanut and removes the date-syrup option without an individual accepted review establishing a household decision. Base honey/maple and almond/peanut choices remain; the source-backed same-amount date alternative is retained as a substitution.",
+    "The old 30-minute total omits explicit post-bake cooling and the mandatory hour of refrigeration. Publisher confirms chilling, but the “all nut butter solidifies” explanation does not apply uniformly to every product.",
+    "306e8136 deliberately removes duplicate serving panels; frozen pairings are preserved."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "5 tbsp Coconut Oil (or Unsalted Butter)",
+        "destination": "melt step 2"
+      },
+      {
+        "ingredient": "4 tbsp Honey or Maple Syrup",
+        "destination": "melt step 2"
+      },
+      {
+        "ingredient": "3 tbsp Almond or Peanut Butter",
+        "destination": "melt step 2"
+      },
+      {
+        "ingredient": "2 cups Rolled Oats",
+        "destination": "coat step 3"
+      },
+      {
+        "ingredient": "3/4 cup Fresh Blueberries",
+        "destination": "fold step 3"
+      },
+      {
+        "ingredient": "1 tbsp Greek Yogurt or Coconut Cream",
+        "destination": "drizzle step 7"
+      },
+      {
+        "ingredient": "3 tsp Orange Juice",
+        "destination": "drizzle step 7"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "5 tbsp Coconut Oil (or Unsalted Butter)",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "4 tbsp Honey or Maple Syrup",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "3 tbsp Almond or Peanut Butter",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "2 cups Rolled Oats",
+        "destination": "3"
+      },
+      {
+        "ingredient": "3/4 cup Fresh Blueberries",
+        "destination": "1→3"
+      },
+      {
+        "ingredient": "1 tbsp Greek Yogurt or Coconut Cream",
+        "destination": "7"
+      },
+      {
+        "ingredient": "3 tsp Orange Juice",
+        "destination": "7"
+      }
+    ],
+    "additionalAllowances": []
+  },
+  "processGraph": [
+    {
+      "stage": "preheat/melt/coat",
+      "state": "all fat, sweetener and nut butter coat all oats; whole washed drained berries folded",
+      "time": "about 10 min active preparation; start heating to 340°F / 170°C during preparation; any heating remaining before loading adds elapsed time"
+    },
+    {
+      "stage": "compact/bake",
+      "state": "8-inch square original layer; lightly golden edges; load only at 340°F / 170°C",
+      "time": "15–18 min first window"
+    },
+    {
+      "stage": "cool then cold set",
+      "state": "pan-supported slab becomes firm enough to cut",
+      "time": "cooling additional; at least 1 hr chilled or overnight"
+    },
+    {
+      "stage": "drizzle/cut",
+      "state": "all yogurt/cream and juice used only on chilled slab; eight original planning bars",
+      "time": "brief active finishing"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "unsalted butter",
+      "replacement": "same listed coconut-oil tablespoon amount",
+      "destination": "melt step2",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "maple/date syrup",
+      "replacement": "same listed honey tablespoon amount; original4tbsp",
+      "destination": "melt step2",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "peanut butter",
+      "replacement": "same listed almond-butter tablespoon amount",
+      "destination": "melt step2",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "coconut cream",
+      "replacement": "same listed Greek-yogurt tablespoon amount",
+      "destination": "drizzle step7 with all listed juice",
+      "otherIngredients": "unchanged"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "strawberry-quinoa-breakfast-bars"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "All seven measured strings remain: five tablespoons fat, four tablespoons honey/maple syrup, three tablespoons nut butter, two cups oats, three-quarter cup blueberries, one tablespoon yogurt/coconut cream and three teaspoons juice. Two cups oats is retained rather than newly converting it to 200 g; likewise three-quarter cup berries is not newly asserted to equal 100 g. Eight is a planning bar count, not eight people or a measured bar mass. Original 8-inch square dish and firm packing are supported; cold setting is distinct from the egg-based bakes.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Measure actual slab depth and bar size with the household pan.",
+    "Compare firmness after one hour and overnight with the household fat/nut-butter products.",
+    "Check freezing and thawing texture with the drizzle kept separate."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

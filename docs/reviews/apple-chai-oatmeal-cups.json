@@ -1,0 +1,480 @@
+{
+  "slug": "apple-chai-oatmeal-cups",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "3760d2364f13386e1baba6b256427c71396c5d4610f0530267527aeb58e88d80",
+  "acceptedSourceSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["muffin-tin"],
+      "after": ["muffin-tin", "mixing-bowl"]
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "19–21 min baking"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 40–45 min (includes 10 min in the tin), plus any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12 cups",
+      "after": "12 oatmeal cups"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 cups Rolled Oats (Old Fashioned)",
+        "1 tsp Baking Powder",
+        "1 large Apple, finely minced",
+        "1 large Banana, mashed",
+        "1.5 cups Almond Milk or Whole Milk",
+        "2 large Eggs",
+        "2 tbsp Maple Syrup",
+        "1 tbsp Coconut Oil, melted",
+        "1 tsp Cinnamon",
+        "1/2 tsp Cardamom",
+        "1/2 tsp Ginger powder",
+        "1/4 tsp Nutmeg",
+        "1/4 tsp Allspice"
+      ],
+      "after": [
+        "3 cups Rolled Oats (Old Fashioned)",
+        "1 tsp Baking Powder",
+        "1 large Apple, finely minced",
+        "1 large Banana, mashed",
+        "1.5 cups Almond Milk or Whole Milk",
+        "2 large Eggs",
+        "2 tbsp Maple Syrup",
+        "1 tbsp Coconut Oil, melted",
+        "1 tsp Cinnamon",
+        "1/2 tsp Cardamom",
+        "1/2 tsp Ginger powder",
+        "1/4 tsp Nutmeg",
+        "1/4 tsp Allspice",
+        "Nonstick spray or a little oil for the muffin liners"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 145,
+        "protein": 4.5,
+        "carbs": 23.5,
+        "fat": 4,
+        "fiber": 3,
+        "sugar": 7.5,
+        "sodium": 60
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Distribute spice and fruit through whole oats, then let cooked cups set.",
+        "outcome": "Moist, tender oatmeal cups that lift from their liners without wet centers.",
+        "techniques": ["temperature"],
+        "before": [
+          "Finely mince the apple and mash the banana; large fruit pieces change portioning and the cooked texture.",
+          "The listed coconut oil goes into the mixture; liner grease is separate. Whisk spices into warm oil without heating it until smoking.",
+          "Scale by using more or fewer wells of the same size. Keep the oven temperature and ten-minute tin rest; additional batches add time."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All oats are moistened and the fruit and spiced oil are distributed.",
+            "why": "Complete mixing matters here; leaving dry oat patches does not make these cups lighter."
+          },
+          {
+            "step": 5,
+            "cue": "The center has set without liquid egg mixture.",
+            "why": "A firm top can form before the center is cooked."
+          },
+          {
+            "step": 6,
+            "cue": "Cups hold together when lifted after the tin rest.",
+            "why": "Oats and egg structure firm as the cups cool."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cups break when lifted",
+            "cause": "They were lifted while very hot or their centers were underbaked.",
+            "fix": "Finish cooking the centers and give them the full tin rest before lifting gently."
+          },
+          {
+            "problem": "Spice or fruit gathers in a few cups",
+            "cause": "The mixture was divided before it was evenly mixed.",
+            "fix": "Fold to distribute fruit and scrape all spiced oil into the bowl; redistribute mixture across the wells."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Almond milk",
+            "alternative": "The listed whole-milk option at the same volume",
+            "effect": "Changes flavor and richness without changing the liquid measure."
+          }
+        ],
+        "timing": "Allow about 40–45 minutes as a preparation, bake and tin-rest subtotal: about ten minutes preparation, 19–21 minutes baking and ten minutes standing in the tin. The two-minute spice stand overlaps oat mixing. Start heating during preparation, but load only once the oven reaches 350°F; any heating still needed after prep extends elapsed time. A second tin batch and further cooling for cold service add time.",
+        "storage": "Refrigerate oatmeal cups within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Freeze cooled individual cups airtight, thaw in the refrigerator and reheat to 165°F throughout if serving hot. They can also be served cold from the refrigerator.",
+        "sources": [
+          {
+            "title": "Lee Funke — Baked Apple Oatmeal Cups, Fit Foodie Finds",
+            "url": "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/"
+          },
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChai-spiced oatmeal is a meal-prep staple that tastes warm and comforting straight from the fridge, no reheating needed. Cardamom, ginger, and allspice bloom in melted coconut oil before mixing into the batter, distributing the spice evenly instead of leaving it in scattered bits. The mashed banana and eggs bind everything into dense, satisfying cups that stay moist for days.\n\n## Directions\n\n1.  **Bloom:** In a small bowl, whisk the melted coconut oil with all the chai spices. Let sit for 2 minutes.\n2.  **Dry:** In a large bowl, combine the oats and baking powder.\n3.  **Wet:** In another bowl, whisk the mashed banana, eggs, milk, and maple syrup. Stir in the spiced coconut oil.\n4.  **Combine:** Pour the wet mixture over the oats. Fold in the minced apples.\n5.  **Bake:** Scoop into a lined 12-count muffin tin. Bake at 350°F for 20 minutes until the tops are firm and golden.\n6.  **Cool:** Let cool for 10 minutes in the tin to allow the oats to set.\n",
+    "after": "\n## Chef's Note\n\nRolled oats stay visible in these moist apple-and-banana cups. Whisk the spices into the melted coconut oil to distribute them, then combine with the wet ingredients and oats. Cook the centers through and let the cups stand in the tin before lifting them; the warm mixture is delicate.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Use a standard muffin tin, lining and lightly greasing enough wells for the listed planning cup count with the separate spray or oil allowance; the original batch plans twelve. Wash the apple, peel it and mince it finely; mash the banana.\n\n2. **Mix the spices and oats:** Whisk all the cinnamon, cardamom, ginger, nutmeg and allspice into the warm melted coconut oil and let stand for 2 minutes while mixing the oats and baking powder in a large bowl. The measured coconut oil all belongs in the batter.\n\n3. **Combine the wet ingredients:** Whisk the banana, eggs, milk and maple syrup until combined. Stir in all the spiced oil, then pour over the oats. Fold in all the minced apple until the oats are evenly moistened; this mixture keeps whole oat pieces.\n\n4. **Portion:** Divide the mixture evenly across the listed planning number of prepared wells, redistributing fruit and liquid as needed. The original batch plans twelve cups. Leave room for the mixture to rise; if the actual wells cannot hold it, use additional prepared wells or another batch rather than discard batter.\n\n5. **Bake:** Load only once the oven has reached 350°F. Bake for about 19–21 minutes, until the tops are firm and the centers are set without liquid egg mixture. Check the middle of a cup, rather than only its browned surface; an egg-dish center should reach 160°F. Tin size and extra batches can change the time.\n\n6. **Cool and store:** Let the cups stand in the tin for 10 minutes before lifting them onto a rack. Serve warm or cool them further for cold service. Refrigerate promptly in a covered container once manageable.\n"
+  },
+  "findings": [
+    {
+      "id": "apple-chai-oatmeal-cups-1",
+      "title": "Scaled oil wording",
+      "field": "Scaled oil wording",
+      "rationale": "The measured ingredient scales, while the separate liner allowance remains unmeasured; the learning text must refer to the listed amount.",
+      "confidence": "high",
+      "applicableSources": ["https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/"],
+      "sourceApplicability": "The measured ingredient scales, while the separate liner allowance remains unmeasured; the learning text must refer to the listed amount.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "apple-chai-oatmeal-cups-2",
+      "title": "Elapsed rest",
+      "field": "Elapsed rest",
+      "rationale": "The existing ten-minute tin rest follows baking and must be represented; preheating and spice stand can overlap preparation.",
+      "confidence": "high",
+      "applicableSources": ["https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/"],
+      "sourceApplicability": "The existing ten-minute tin rest follows baking and must be represented; preheating and spice stand can overlap preparation.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": ["Record actual tin load, oven heat-up and total time."]
+    },
+    {
+      "id": "apple-chai-oatmeal-cups-3",
+      "title": "Doneness",
+      "field": "Doneness",
+      "rationale": "Egg-rich oat cups need a cooked center before cooling for cold service; surface color alone is incomplete.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Egg-rich oat cups need a cooked center before cooling for cold service; surface color alone is incomplete.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "apple-chai-oatmeal-cups-4",
+      "title": "Spice mechanism",
+      "field": "Spice mechanism",
+      "rationale": "No hot frying or measured bloom experiment is described; retain the existing dispersion method without a guarantee of extraction or days-long moisture.",
+      "confidence": "high",
+      "applicableSources": ["https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/"],
+      "sourceApplicability": "No hot frying or measured bloom experiment is described; retain the existing dispersion method without a guarantee of extraction or days-long moisture.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "apple-chai-oatmeal-cups-5",
+      "title": "Bounded preheat timing clarification",
+      "field": "Bounded preheat timing clarification",
+      "rationale": "The prior proposal already begins preheating at the stated temperature. Its elapsed planning range excludes heating that remains after preparation. Qualify the subtotal without inventing an oven heat-up duration, and require the oven to reach its setting before loading. All bake, rest and chill windows remain; the biscuit 400°F then 350°F transition is unchanged.",
+      "confidence": "High for stated temperature/order and conditional elapsed-time arithmetic; oven heat-up duration and whole planning ranges remain unmeasured.",
+      "applicableSources": [
+        {
+          "type": "retained original/current and prior independently inspected candidate",
+          "sourceUrl": "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//",
+          "applicability": "The written 350°F setting and existing bake/rest/chill plan, not a tested oven heat-up duration."
+        },
+        {
+          "type": "editorial process dependency",
+          "applicability": "Preheating can run during preparation; only actual overlap reduces elapsed time. Any additional heating extends the stated preparation/bake/rest subtotal. No FDA/USDA timing validation or household oven measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual oven heating that remains after preparation with the intended oven and batch."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/apple-chai-oatmeal-cups.md",
+    "originalSha256": "33bf322ee0214c7af146c373c9b8a92b856a1a69c0937c65f6131e9316ac44ec",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2 and current publisher use half a teaspoon each nutmeg/cardamom/allspice and no ginger. 1684c29f introduced current ginger and quarter-teaspoon nutmeg/allspice; later history retains them. Preserve current spice amounts without claiming an explicit household instruction or restoring another spice formula.",
+    "Committed ingredient original says medium banana while its method says large; current large banana remains. Publisher’s cooked/cold method supports refrigeration and tin rest, not a validated physical cup size.",
+    "306e8136 intentionally removes the old duplicate serving panel; current pairings preserved. No removed body link is treated as an accidental source loss."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "3 cups Rolled Oats (Old Fashioned)",
+        "destination": "oats step 3"
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "oats step 2→3"
+      },
+      {
+        "ingredient": "1 large Apple, finely minced",
+        "destination": "apple step 1→3"
+      },
+      {
+        "ingredient": "1 large Banana, mashed",
+        "destination": "banana step 1→3"
+      },
+      {
+        "ingredient": "1.5 cups Almond Milk or Whole Milk",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "2 tbsp Maple Syrup",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1 tbsp Coconut Oil, melted",
+        "destination": "spiced oil step 2→3"
+      },
+      {
+        "ingredient": "1 tsp Cinnamon",
+        "destination": "spiced oil step 2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Cardamom",
+        "destination": "spiced oil step 2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Ginger powder",
+        "destination": "spiced oil step 2→3"
+      },
+      {
+        "ingredient": "1/4 tsp Nutmeg",
+        "destination": "spiced oil step 2→3"
+      },
+      {
+        "ingredient": "1/4 tsp Allspice",
+        "destination": "spiced oil step 2→3"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "3 cups Rolled Oats (Old Fashioned)",
+        "destination": "3"
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1 large Apple, finely minced",
+        "destination": "1→3"
+      },
+      {
+        "ingredient": "1 large Banana, mashed",
+        "destination": "1→3"
+      },
+      {
+        "ingredient": "1.5 cups Almond Milk or Whole Milk",
+        "destination": "3"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "3"
+      },
+      {
+        "ingredient": "2 tbsp Maple Syrup",
+        "destination": "3"
+      },
+      {
+        "ingredient": "1 tbsp Coconut Oil, melted",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1 tsp Cinnamon",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Cardamom",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Ginger powder",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1/4 tsp Nutmeg",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1/4 tsp Allspice",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "Nonstick spray or a little oil for the muffin liners",
+        "destination": "1"
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "Nonstick spray or a little oil for the muffin liners",
+        "destination": "prepare step 1",
+        "provenance": "045e5ba2 original method; separate from measured tablespoon coconut oil"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "stage": "preheat/fruit prep",
+      "state": "washed peeled minced apple; mashed banana; prepared wells",
+      "time": "within about 10 min active preparation; start heating to 350°F during preparation; any heating remaining before loading adds elapsed time"
+    },
+    {
+      "stage": "spice dispersion and mixing",
+      "state": "warm oil/spices joins wet; all oats and apple moistened",
+      "time": "2 min oil/spice stand overlaps oats"
+    },
+    {
+      "stage": "portion and bake",
+      "state": "twelve original planning cups; set centers; load only at 350°F",
+      "time": "19–21 min first window; extra tin loads add time"
+    },
+    {
+      "stage": "tin rest and optional cold service",
+      "state": "cups firm for lifting",
+      "time": "10 min mandatory tin rest; further cooling separate"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "listed whole-milk alternative",
+      "replacement": "same listed milk volume",
+      "destination": "wet step3",
+      "otherIngredients": "unchanged"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "easy-breakfast-yogurt-popsicles"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "All current thirteen measured ingredient strings remain: three cups oats, one and a half cups milk, two eggs, one apple, one large banana, two tablespoons maple syrup and one tablespoon coconut oil. No fruit mass, final batter volume or exact well capacity is invented. Twelve is the saved/publisher planning cup count; the first source’s roughly two heaping tablespoons/fill-to-top language is not treated as a tested volume. Warm oil dispersion is not a hot-fat spice-bloom guarantee. Time includes the existing ten-minute tin rest.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Record actual batter volume, twelve-well fit and finished cup count with the household tin.",
+    "Check the current ginger/nutmeg/allspice blend against the older recipe without silently changing it.",
+    "Record center doneness and texture after the ten-minute tin rest and refrigerated service."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

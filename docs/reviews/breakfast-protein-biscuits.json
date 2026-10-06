@@ -1,0 +1,492 @@
+{
+  "slug": "breakfast-protein-biscuits",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "b38437267fe515c8c0cbfc9975e2eae2a7b50551591995f6e78eb7c531bb3924",
+  "acceptedSourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–30 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 25 min, until centers are cooked"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 45–65 min (includes a brief cooling rest), plus any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 biscuits"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 1/2 cups All-Purpose Flour",
+        "1 3/4 cups Plain 2% Greek Yogurt",
+        "4 large Eggs",
+        "1/4 cup Ground Flaxseed",
+        "1 tbsp Baking Powder",
+        "2 tsp Sea Salt",
+        "1 1/2 cups Fresh Spinach, finely chopped",
+        "1/2 cup Fresh Chives, finely diced",
+        "1 1/2 cups Sharp Cheddar, shredded",
+        "2 cups Cooked Ham, diced small",
+        "1 tsp Garlic Powder",
+        "1/2 tsp Red Pepper Flakes"
+      ],
+      "after": [
+        "2 1/2 cups All-Purpose Flour",
+        "1 3/4 cups Plain 2% Greek Yogurt",
+        "4 large Eggs",
+        "1/4 cup Ground Flaxseed",
+        "1 tbsp Baking Powder",
+        "2 tsp Sea Salt",
+        "1 1/2 cups Fresh Spinach, finely chopped",
+        "1/2 cup Fresh Chives, finely diced",
+        "1 1/2 cups Sharp Cheddar, shredded",
+        "2 cups Cooked Ham, diced small",
+        "1 tsp Garlic Powder",
+        "1/2 tsp Red Pepper Flakes",
+        "A little flour for dusting your hands"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 255,
+        "protein": 15.5,
+        "carbs": 22.5,
+        "fat": 11.5,
+        "fiber": 1,
+        "sugar": 1.5,
+        "sodium": 730
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["baking-sheet", "mixing-bowl"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Distribute rich fillings and cheese, then cook thick biscuit centers.",
+        "outcome": "Set yogurt-and-egg biscuits with ham and greens throughout and browned cheese on top.",
+        "techniques": ["temperature"],
+        "before": [
+          "The ham is already cooked. Prepare it and the washed, dried greens before mixing; this preparation belongs in the active clock.",
+          "Two thirds of all the listed cheddar goes into the dough and the remaining third tops it. The measured flour all belongs in the dough; hand-dusting flour is extra.",
+          "Use the original one-inch thickness and proportional portion count when scaling. More biscuits need space and may require more sheets or oven loads; return the oven to 400°F before each new load."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No dry flour pockets remain in the sticky dough.",
+            "why": "Complete mixing is needed before the wet fillings are distributed."
+          },
+          {
+            "step": 4,
+            "cue": "Ham, greens and the dough’s cheese share are spread throughout.",
+            "why": "A few large clumps leave some biscuits without their fillings."
+          },
+          {
+            "step": 5,
+            "cue": "The whole dough is divided into similarly thick disks with space between them.",
+            "why": "Comparable geometry helps the centers cook together."
+          },
+          {
+            "step": 7,
+            "cue": "Thick centers are cooked, with no wet flour or egg mixture.",
+            "why": "Browned cheese can precede center doneness in an egg-and-meat mixture."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cheese browns before centers cook",
+            "cause": "Disks are thicker, crowded or the oven runs hot.",
+            "fix": "Continue until the center is cooked, loosely shielding tops if needed; keep comparable thickness and space next time."
+          },
+          {
+            "problem": "Some biscuits lack ham or greens",
+            "cause": "The fillings stayed in clumps.",
+            "fix": "Fold the small chopped pieces throughout the dough before dividing, without prolonged kneading."
+          },
+          {
+            "problem": "The dough sticks to your hands",
+            "cause": "The yogurt-and-egg mixture is wet and sticky.",
+            "fix": "Dust hands lightly with the separate flour allowance; avoid repeatedly adding flour to the measured dough."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Sharp cheddar",
+            "alternative": "Another cheddar at the same listed shredded volume",
+            "effect": "Changes flavor and browning; keep two thirds in the dough and one third on top."
+          },
+          {
+            "ingredient": "Plain 2% Greek yogurt",
+            "alternative": "Another plain Greek yogurt at the same listed volume",
+            "effect": "Changes moisture and richness; a thin regular yogurt is not an established equivalent."
+          }
+        ],
+        "timing": "Allow roughly 15–30 minutes to dice and chop, mix and shape, about 25 minutes baking and a brief cooling rest: about 45–65 minutes as a preparation, bake and rest subtotal. Start heating during preparation, but load only once the oven reaches 400°F; any heating still needed after prep extends elapsed time. The five-minute first stage is followed immediately by lowering the setting to 350°F without opening the door. Extra oven loads and further cooling before storage add time.",
+        "storage": "Refrigerate within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Cool in a single layer promptly and pack covered. Freeze cooled individual biscuits airtight and thaw in the refrigerator; reheat to 165°F throughout for hot service.",
+        "sources": [
+          {
+            "title": "Nicole Addison — Breakfast Protein Biscuits, Nourished by Nic",
+            "url": "https://nourishedbynic.com/breakfast-protein-biscuits/"
+          },
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGreek yogurt replaces heavy cream as the primary liquid, creating high-protein biscuits with a tender crumb. Fold spinach and ham in at the end rather than mixing them thoroughly - this ensures distinct pockets of filling in every bite instead of a uniform gray dough.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 400°F. Line a large baking sheet with parchment paper.\n2.  **Wet & Dry:** In a medium bowl, whisk together the yogurt and eggs. In a separate large bowl, whisk the flour, flaxseed, garlic powder, red pepper flakes, baking powder, and salt.\n3.  **Combine:** Gradually add the dry ingredients to the wet. Stir until a thick, sticky dough forms.\n4.  **Fold:** Fold in the chopped spinach, chives, ham, and two thirds of the measured cheese. Use your hands if necessary to ensure even distribution without overworking the dough.\n5.  **Shape:** Lightly flour your hands. Scoop about 1/3 cup of dough for each biscuit. Form into 1-inch thick disks and arrange on the baking sheet.\n6.  **The Temperature Method:** Sprinkle the remaining cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.\n7.  **Finish:** They are done when the bottoms are golden brown and the cheese on top is bubbly and crisp.\n",
+    "after": "\n## Chef's Note\n\nGreek yogurt and eggs make a thick, sticky dough with chopped spinach, chives and cooked ham. Fold the fillings and two thirds of the cheese through it so each biscuit gets a share, then use the remaining cheese on top. Browned cheese is a surface cue; check that the thick centers are cooked before cooling or packing the biscuits.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 400°F. Line a large baking sheet, or additional sheets as needed, with parchment. Use cooked ham, diced small. Wash and dry the spinach and chives, then chop them finely.\n\n2. **Wet and dry:** Whisk all the yogurt and eggs in a large bowl. Separately whisk all the measured flour, flaxseed, garlic powder, red pepper flakes, baking powder and sea salt until distributed.\n\n3. **Combine:** Add the dry mixture to the wet mixture gradually, stirring until the flour is moistened and a thick, sticky dough forms without dry pockets.\n\n4. **Fold:** Fold in all the spinach, chives, cooked ham and two thirds of the measured cheddar. Distribute the fillings through the dough, stopping once combined; use your hands gently if needed. Keep the remaining one third of the cheese for the tops.\n\n5. **Shape:** Lightly dust your hands with the separate flour allowance. Divide the whole dough evenly into the listed number of biscuits; the original batch plans twelve. Form disks about 1 inch thick with space between them on the prepared sheets. Use additional sheets or oven loads rather than crowding them or discarding extra dough.\n\n6. **Bake:** Scatter all the remaining measured cheese over the biscuits. Load only once the oven has reached 400°F. Bake at 400°F for 5 minutes, then reduce the oven setting to 350°F without opening the door and bake about 20 minutes more. Keep the same temperature sequence for additional oven loads; do not multiply the heat settings or make thicker disks when scaling.\n\n7. **Check and cool:** The bottoms should be golden and the cheese browned, with set centers and no wet flour or egg mixture. Check the center of a thick biscuit; for this cooked-ham-and-egg bake, use 165°F as the casserole-style endpoint. Continue baking as needed. Let stand briefly until firm enough to move, then serve warm or cool promptly before packing.\n"
+  },
+  "findings": [
+    {
+      "id": "breakfast-protein-biscuits-1",
+      "title": "Cheese allocation retained",
+      "field": "Cheese allocation retained",
+      "rationale": "Preserve accepted proportional allocation of the complete one-and-a-half-cup original measure, including at half/double scale.",
+      "confidence": "high",
+      "applicableSources": ["https://nourishedbynic.com/breakfast-protein-biscuits/"],
+      "sourceApplicability": "Preserve accepted proportional allocation of the complete one-and-a-half-cup original measure, including at half/double scale.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "breakfast-protein-biscuits-2",
+      "title": "Surface-only endpoint",
+      "field": "Surface-only endpoint",
+      "rationale": "Source gives a browned surface cue. General egg dishes use160°F, while meat-containing casseroles use165°F; this moist mixed cooked-ham/egg bake uses the latter conservatively without claiming the publisher tested that temperature.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://nourishedbynic.com/breakfast-protein-biscuits/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "sourceApplicability": "Source gives a browned surface cue. General egg dishes use160°F, while meat-containing casseroles use165°F; this moist mixed cooked-ham/egg bake uses the latter conservatively without claiming the publisher tested that temperature.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "breakfast-protein-biscuits-3",
+      "title": "Whole rich dough and time",
+      "field": "Whole rich dough and time",
+      "rationale": "No measured full dough volume establishes exactly twelve one-third-cup scoops. Keep every quantity and original planning yield, include chopping/shaping/rest and maintain geometry instead of manufacturing surplus or precision.",
+      "confidence": "moderate planning estimate",
+      "applicableSources": ["https://nourishedbynic.com/breakfast-protein-biscuits/"],
+      "sourceApplicability": "No measured full dough volume establishes exactly twelve one-third-cup scoops. Keep every quantity and original planning yield, include chopping/shaping/rest and maintain geometry instead of manufacturing surplus or precision.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure full dough volume, biscuit portions, sheet capacity and real active/elapsed time."
+      ]
+    },
+    {
+      "id": "breakfast-protein-biscuits-4",
+      "title": "Bounded preheat timing clarification",
+      "field": "Bounded preheat timing clarification",
+      "rationale": "The prior proposal already begins preheating at the stated temperature. Its elapsed planning range excludes heating that remains after preparation. Qualify the subtotal without inventing an oven heat-up duration, and require the oven to reach its setting before loading. All bake, rest and chill windows remain; the biscuit 400°F then 350°F transition is unchanged.",
+      "confidence": "High for stated temperature/order and conditional elapsed-time arithmetic; oven heat-up duration and whole planning ranges remain unmeasured.",
+      "applicableSources": [
+        {
+          "type": "retained original/current and prior independently inspected candidate",
+          "sourceUrl": "https://nourishedbynic.com/breakfast-protein-biscuits/#recipe",
+          "applicability": "The written 400°F setting and existing bake/rest/chill plan, not a tested oven heat-up duration."
+        },
+        {
+          "type": "editorial process dependency",
+          "applicability": "Preheating can run during preparation; only actual overlap reduces elapsed time. Any additional heating extends the stated preparation/bake/rest subtotal. No FDA/USDA timing validation or household oven measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual oven heating that remains after preparation with the intended oven and batch."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/breakfast-protein-biscuits.md",
+    "originalSha256": "fc0e57b54048e47d4a805fbb2cf6f0202931e042cfebbe15a70f0c4de6d84ccd",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://nourishedbynic.com/breakfast-protein-biscuits/#recipe",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2 and frozen source have two teaspoons salt, while current publisher lists one teaspoon. Preserve the house source’s exact two teaspoons; do not average or make an unrequested salt adjustment.",
+    "fa8909c1 shortens source preparation from thirty to fifteen minutes. Chopping spinach/chives/ham and full shaping can exceed fifteen; proposed range honestly includes that work without claiming measured timing.",
+    "The publisher lists a rough one-third-cup scoop and twelve biscuits, but the full yogurt/egg/flour/ham/greens mixture has no measured batter volume. Retain original twelve planning count and one-inch disks; divide all dough rather than assert a precise volume/count equivalence.",
+    "Current publisher adds other flavor combinations not present in the exact committed original or frozen base. Those are not imported as household variants. 306e8136 intentionally drops duplicate serving panels; frozen pairings remain."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "2 1/2 cups All-Purpose Flour",
+        "destination": "dry step 2→3"
+      },
+      {
+        "ingredient": "1 3/4 cups Plain 2% Greek Yogurt",
+        "destination": "wet step 2→3"
+      },
+      {
+        "ingredient": "4 large Eggs",
+        "destination": "wet step 2→3"
+      },
+      {
+        "ingredient": "1/4 cup Ground Flaxseed",
+        "destination": "dry step 2→3"
+      },
+      {
+        "ingredient": "1 tbsp Baking Powder",
+        "destination": "dry step 2→3"
+      },
+      {
+        "ingredient": "2 tsp Sea Salt",
+        "destination": "dry step 2→3"
+      },
+      {
+        "ingredient": "1 1/2 cups Fresh Spinach, finely chopped",
+        "destination": "fold step 4"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Chives, finely diced",
+        "destination": "fold step 4"
+      },
+      {
+        "ingredient": "1 1/2 cups Sharp Cheddar, shredded",
+        "destination": "two thirds fold step 4; one third top step 6"
+      },
+      {
+        "ingredient": "2 cups Cooked Ham, diced small",
+        "destination": "fold step 4"
+      },
+      {
+        "ingredient": "1 tsp Garlic Powder",
+        "destination": "dry step 2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Red Pepper Flakes",
+        "destination": "dry step 2→3"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "2 1/2 cups All-Purpose Flour",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1 3/4 cups Plain 2% Greek Yogurt",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "4 large Eggs",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1/4 cup Ground Flaxseed",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1 tbsp Baking Powder",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "2 tsp Sea Salt",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1 1/2 cups Fresh Spinach, finely chopped",
+        "destination": "1→4"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Chives, finely diced",
+        "destination": "1→4"
+      },
+      {
+        "ingredient": "1 1/2 cups Sharp Cheddar, shredded",
+        "destination": "two thirds 4; one third 6"
+      },
+      {
+        "ingredient": "2 cups Cooked Ham, diced small",
+        "destination": "1→4"
+      },
+      {
+        "ingredient": "1 tsp Garlic Powder",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Red Pepper Flakes",
+        "destination": "2→3"
+      },
+      {
+        "ingredient": "A little flour for dusting your hands",
+        "destination": "5"
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "A little flour for dusting your hands",
+        "destination": "shape step 5",
+        "provenance": "frozen and exact Git shaping method; separate from measured batter flour"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "stage": "preheat/chop/mix",
+      "state": "cooked diced ham; washed dried chopped greens; complete rich wet/dry mixtures",
+      "time": "15–30 min active preparation includes shaping; start heating to 400°F during preparation; any heating remaining before loading adds elapsed time"
+    },
+    {
+      "stage": "fold/share/shape",
+      "state": "all fillings and two-thirds cheese in dough; entire batch twelve original planning one-inch disks",
+      "time": "within preparation; dusting flour separate"
+    },
+    {
+      "stage": "staged bake",
+      "state": "remaining one-third cheese on top; set cooked centers; load only at 400°F",
+      "time": "400°F 5 min then setting350°F about20 min without opening; endpoint governs"
+    },
+    {
+      "stage": "brief rest/store",
+      "state": "biscuits firm for moving; prompt single-layer cooling",
+      "time": "brief rest; further cooling separate"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "other cheddar",
+      "replacement": "same listed cheese volume and two-thirds/one-third shares",
+      "destination": "fold step4/top step6",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "other plain Greek yogurt",
+      "replacement": "same listed yogurt volume",
+      "destination": "wet step2",
+      "otherIngredients": "unchanged; regular thin yogurt not established equivalent"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "strawberry-quinoa-breakfast-bars"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "All twelve current measured strings remain, including two and a half cups flour, one and three-quarter cups 2% Greek yogurt, four eggs, quarter cup flax, one tablespoon baking powder, two teaspoons sea salt, one and a half cups spinach, half cup chives, one and a half cups cheddar and two cups cooked ham. Cheese allocations remain two-thirds/one-third at every scale. Twelve planning biscuits and one-inch geometry remain; the old one-third-cup scoop is not asserted to consume the complete high-volume dough in exactly twelve scoops. Whole-dough division avoids discarding richness or changing formula yield. Egg/meat center cooking, staged heat and prompt storage remain distinct obligations.",
+  "preservedPriorRepairs": [
+    "2a7f38534f68f09454b2c68637139fd966b5584f removes the vegetarian dietary flag for the cooked-ham recipe. The meat-containing identity remains without that incorrect flag.",
+    "e7f48228adf94cecdf9b3728410cc8a8ba096839 accepted scaling-wording repair replaces fixed one-cup/half-cup cheddar with two-thirds dough and remaining topping. This whole review preserves the repair exactly and makes the remaining third explicit."
+  ],
+  "remainingQuestions": [
+    "Measure full dough mass/volume, twelve equal portion size and sheet spacing without discarding dough.",
+    "Record center cooking under the two-stage heat method and different oven loads.",
+    "Confirm intended two-teaspoon salt level against current publisher’s one-teaspoon card without silently changing it.",
+    "Record active chopping/shaping and total service/cooling time."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

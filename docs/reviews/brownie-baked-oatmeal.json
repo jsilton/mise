@@ -1,0 +1,393 @@
+{
+  "slug": "brownie-baked-oatmeal",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "d2819158c246f137379110b5b400bcd9e585d1348c844268cbab1bb559ce88de",
+  "acceptedSourceSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–18 min first baking window"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 25–30 min, plus oven heating if needed"
+    },
+    {
+      "field": "servings",
+      "before": "1",
+      "after": "1 portion"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/3 cup Rolled Oats",
+        "1/2 Banana, very ripe (spotted)",
+        "1 large Egg",
+        "1/4 cup Milk of choice (Almond or Oat preferred)",
+        "1 heaping tbsp Cocoa Powder",
+        "1/4 tsp Baking Soda",
+        "Pinch of Sea Salt",
+        "1 tbsp Dark Chocolate Chips",
+        "Flaky Sea Salt"
+      ],
+      "after": [
+        "1/3 cup Rolled Oats",
+        "1/2 Banana, very ripe (spotted)",
+        "1 large Egg",
+        "1/4 cup Milk of choice (Almond or Oat preferred)",
+        "1 heaping tbsp Cocoa Powder",
+        "1/4 tsp Baking Soda",
+        "Pinch of Sea Salt",
+        "1 tbsp Dark Chocolate Chips",
+        "Flaky Sea Salt",
+        "Butter or oil for greasing the oven-safe dish"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 555,
+        "protein": 20,
+        "carbs": 93,
+        "fat": 14.5,
+        "fiber": 14,
+        "sugar": 21.5,
+        "sodium": 5990
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blend a smooth oat batter and distinguish soft cooked crumb from raw mixture.",
+        "outcome": "Warm chocolate baked oatmeal with a soft, set center and melted chips.",
+        "techniques": ["temperature"],
+        "before": [
+          "Very ripe banana supplies sweetness and blends easily. Keep the listed baking soda amount; banana ripeness and cocoa type do not establish a measured acid balance for changing the leavener.",
+          "All the pinch salt goes into the blender. The separate flaky sea salt is an optional finish; the chocolate chips all go on top.",
+          "For more portions, use comparable individual vessels and proportional blender loads. Do not put a doubled batch into one deeper ramekin and assume the original time; oven temperature does not multiply. Beat an egg before measuring a fractional egg amount."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The oats and banana form a smooth mixture.",
+            "why": "Large oat pieces change the intended soft texture."
+          },
+          {
+            "step": 3,
+            "cue": "The entire batter fits with space above it.",
+            "why": "An unspecified ramekin is not an established capacity for every banana size."
+          },
+          {
+            "step": 4,
+            "cue": "The center is set without liquid egg or wet oat batter.",
+            "why": "Melted chocolate can look wet even after the surrounding mixture is cooked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Surface sets while the center stays liquid",
+            "cause": "The dish is deeper or smaller than the original method’s vessel.",
+            "fix": "Continue cooking the center; use a shallower suitable vessel or comparable separate portions next time."
+          },
+          {
+            "problem": "Batter threatens to overflow",
+            "cause": "The vessel is too small for the actual banana and batter volume.",
+            "fix": "Before baking, move the whole mixture into a suitable larger dish or additional greased vessels with headroom."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Preferred almond or oat milk",
+            "alternative": "Another milk of choice at the same listed volume",
+            "effect": "Changes richness and flavor; keep the measured liquid amount and judge the center."
+          },
+          {
+            "ingredient": "Flaky sea salt",
+            "alternative": "Omit the optional finish",
+            "effect": "The measured pinch of sea salt remains in the batter."
+          }
+        ],
+        "timing": "About five minutes blending and filling, a 15–18 minute first baking window and a brief standing period make about 25–30 minutes a planning estimate. Start oven heating first; heating delays, changed vessels and additional oven loads add time.",
+        "storage": "Refrigerate within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Cover once cooled enough to handle, thaw any frozen portion in the refrigerator and reheat to 165°F throughout for hot service.",
+        "sources": [
+          {
+            "title": "Calla Ramont — Single-Serve Brownie Baked Oatmeal",
+            "url": "https://callascleaneats.com/brownie-baked-oatmeal/"
+          },
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBlending oats directly with wet ingredients creates a smooth, cake-like texture that mimics an actual brownie. Natural acids in the banana react with baking soda to provide rise and texture. Finishing with flaky sea salt cuts through the sweetness and enhances the chocolate flavor.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Lightly grease a small oven-safe ramekin or baking dish.\n2.  **Blend:** Add oats, banana, egg, milk, cocoa powder, baking soda, and salt to a blender. Blend on high until completely smooth.\n3.  **Topping:** Pour the batter into the prepared dish. Sprinkle chocolate chips on top.\n4.  **Bake:** Bake for 15-18 minutes until the center is set but still slightly soft (like a fudgy brownie).\n5.  **Finish:** Sprinkle with a pinch of flaky sea salt and serve warm.\n",
+    "after": "\n## Chef's Note\n\nBlend the oats with the very ripe banana, egg and milk until smooth for a soft, cake-like chocolate center. Keep the full cocoa and chocolate-chip amounts. A melted chocolate chip may stain a tester, but the egg-and-oat mixture around it should be cooked and set before serving.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Lightly grease an oven-safe ramekin or small baking dish with the separate butter or oil allowance. Choose a dish that can hold the entire batter with room above it; banana size changes the volume.\n\n2. **Blend:** Add all the oats, ripe banana, egg, milk, cocoa, baking soda and pinch of sea salt to the blender. Blend until smooth, following the blender’s load instructions.\n\n3. **Fill and top:** Pour the whole mixture into the prepared dish and add all the measured chocolate chips on top. If the vessel cannot hold the batter with headroom, use a suitable larger dish or additional prepared vessels; different depth or portion size changes cooking time.\n\n4. **Bake:** Begin checking around 15–18 minutes. The center should be set and soft, with no liquid egg mixture or wet oat batter; an egg-dish center should reach 160°F. Check beside a melted chocolate chip. Continue as needed for the actual dish and filling depth.\n\n5. **Finish:** Let stand briefly until the dish is safe to handle and the center settles. Finish with a pinch of the flaky sea salt if desired and serve warm.\n"
+  },
+  "findings": [
+    {
+      "id": "brownie-baked-oatmeal-1",
+      "title": "Small-vessel capacity",
+      "field": "Small-vessel capacity",
+      "rationale": "Publisher’s eight-ounce vessel does not establish exact fit for every unspecified banana. Preserve the full formula and one planning portion without a guessed ramekin capacity.",
+      "confidence": "high for capacity limitation; moderate for proposed planning time",
+      "applicableSources": ["https://callascleaneats.com/brownie-baked-oatmeal/"],
+      "sourceApplicability": "Publisher’s eight-ounce vessel does not establish exact fit for every unspecified banana. Preserve the full formula and one planning portion without a guessed ramekin capacity.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": ["Measure actual batter volume, vessel capacity and center timing."]
+    },
+    {
+      "id": "brownie-baked-oatmeal-2",
+      "title": "Soft center versus uncooked egg",
+      "field": "Soft center versus uncooked egg",
+      "rationale": "Warm chocolate can remain melted. It does not justify raw egg batter; source texture and applicable egg guidance can both be retained.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://callascleaneats.com/brownie-baked-oatmeal/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Warm chocolate can remain melted. It does not justify raw egg batter; source texture and applicable egg guidance can both be retained.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "brownie-baked-oatmeal-3",
+      "title": "Leavener explanation",
+      "field": "Leavener explanation",
+      "rationale": "No cocoa specification or measured acidity establishes a guaranteed neutralization/lift. This is an explanation correction, not a formula adjustment.",
+      "confidence": "high",
+      "applicableSources": ["https://callascleaneats.com/brownie-baked-oatmeal/"],
+      "sourceApplicability": "No cocoa specification or measured acidity establishes a guaranteed neutralization/lift. This is an explanation correction, not a formula adjustment.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/brownie-baked-oatmeal.md",
+    "originalSha256": "802ae10f4172f65ed0d9f60546136ce89d1306c032f0e9dedb1a1afc7409831e",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://callascleaneats.com/brownie-baked-oatmeal/?fbclid=IwAR2VKrSER7sJi1jVPn6a_PYxugV2UovjxV3cvglcpsFunAu6yr3Ektjl5Ws",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2 lists chocolate chips without a amount; fa8909c1 introduces current one tablespoon. Preserve the current measured tablespoon and original full chocolate character; no accepted later removal is established.",
+    "Publisher explicitly names an eight-ounce ramekin, while frozen/first Git say a ramekin without dimensions and the banana has no edible mass. Do not certify that capacity or invent a different number; actual whole-batter headroom and center endpoint govern.",
+    "Frozen note claims banana acids provide rise; cocoa type, ripeness and acid neutralization were not measured. Retain the soda without a universal chemical-rise guarantee.",
+    "306e8136 deliberately removes duplicate serving panels, including an optional nut-butter serving suggestion without an amount. Frozen pairings preserved; no unmeasured topping quantity is invented."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "1/3 cup Rolled Oats",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1/2 Banana, very ripe (spotted)",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1/4 cup Milk of choice (Almond or Oat preferred)",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 heaping tbsp Cocoa Powder",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1/4 tsp Baking Soda",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "Pinch of Sea Salt",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 tbsp Dark Chocolate Chips",
+        "destination": "top step 3"
+      },
+      {
+        "ingredient": "Flaky Sea Salt",
+        "destination": "optional finish step 5"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "1/3 cup Rolled Oats",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1/2 Banana, very ripe (spotted)",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1/4 cup Milk of choice (Almond or Oat preferred)",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 heaping tbsp Cocoa Powder",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1/4 tsp Baking Soda",
+        "destination": "2"
+      },
+      {
+        "ingredient": "Pinch of Sea Salt",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 tbsp Dark Chocolate Chips",
+        "destination": "3"
+      },
+      {
+        "ingredient": "Flaky Sea Salt",
+        "destination": "optional 5"
+      },
+      {
+        "ingredient": "Butter or oil for greasing the oven-safe dish",
+        "destination": "1"
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "Butter or oil for greasing the oven-safe dish",
+        "destination": "prepare step 1",
+        "provenance": "frozen and 045e5ba2 greased-ramekin method; separate unmeasured allowance"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "stage": "preheat/grease/blend",
+      "state": "cold/room-temperature smooth egg/oat/banana mixture; all soda and pinch salt present",
+      "time": "about 5 min active; heating overlaps"
+    },
+    {
+      "stage": "fill/top",
+      "state": "whole batter fits actual vessel with headroom; chips on top",
+      "time": "within preparation"
+    },
+    {
+      "stage": "bake",
+      "state": "soft cooked center without liquid egg or oat batter",
+      "time": "15–18 min first check; actual geometry controls"
+    },
+    {
+      "stage": "brief stand/finish",
+      "state": "safe vessel handling; optional flaky salt",
+      "time": "brief additional rest"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "milk of choice",
+      "replacement": "same listed liquid volume",
+      "destination": "blend step2",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "omit flaky finish",
+      "replacement": "omit unmeasured flaky salt only",
+      "destination": "finish step5",
+      "otherIngredients": "measured pinch sea salt still blended; all other ingredients unchanged"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "cinnamon-sweet-potatoes",
+      "avocado-kale-caesar-salad",
+      "green-beans-with-shallots-and-lemon"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "All nine original ingredient strings and current amounts remain: one-third cup oats, half very ripe banana, one egg, quarter cup milk, heaping tablespoon cocoa, quarter teaspoon soda, pinch sea salt, one tablespoon dark chips and separate flaky salt. One portion is retained; vessel count is not manufactured. Publisher names an eight-ounce ramekin, but its whole-batter fit is not a tested guarantee for the unspecified half banana. The method therefore requires headroom and preserves all batter without guessing a new exact ramekin size or leavener.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Measure edible banana mass, full batter volume and actual oven-safe ramekin capacity/headroom.",
+    "Record center temperature/texture and time for the household vessel.",
+    "Compare cocoa type and banana ripeness before making a chemical-rise claim."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

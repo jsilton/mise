@@ -1,0 +1,912 @@
+{
+  "slug": "banana-nut-bread",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "c1653b6d6e3c4690aad15922fd97096bd8f6fefcd919ad183fcb2ad5bfdcce99",
+  "acceptedSourceSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "55-60 min",
+      "after": "55–60 min"
+    },
+    {
+      "field": "servings",
+      "before": "10",
+      "after": "10 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 large Very Ripe Bananas (about 375g total), mashed",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
+        "1 cup Granulated Sugar",
+        "2 large Eggs, room temperature",
+        "2 cups All-Purpose Flour (250g)",
+        "1 tsp Baking Soda",
+        "1/2 tsp Kosher Salt",
+        "1/2 cup Walnuts or Toasted Sunflower Seeds, chopped",
+        "1 tsp Vanilla Extract"
+      ],
+      "after": [
+        "--- Batter ---",
+        "butter or neutral oil, for greasing the pan",
+        "all-purpose flour, for dusting the greased pan",
+        "1/2 cup (1 stick) unsalted butter, softened, not melted",
+        "1 cup granulated sugar",
+        "2 large eggs, at room temperature",
+        "3 (375 g) large very ripe bananas, peeled and mashed; gram equivalent is an approximate total",
+        "1 tsp vanilla extract",
+        "2 cups (250 g) all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp kosher salt",
+        "1/2 cup walnuts or toasted sunflower seeds, chopped"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 310,
+        "protein": 7.5,
+        "carbs": 54.5,
+        "fat": 8.5,
+        "fiber": 4.5,
+        "sugar": 27.5,
+        "sodium": 380
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["loaf-pan", "mixer", "mixing-bowl", "cooling-rack"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 10,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Batter",
+            "ingredients": [
+              {
+                "id": "pan-fat",
+                "key": "pan-fat",
+                "name": "butter or neutral oil",
+                "allowance": "for greasing the pan",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pan-flour",
+                "key": "pan-flour",
+                "name": "all-purpose flour",
+                "allowance": "for dusting the greased pan",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "equivalents": [
+                  {
+                    "amount": 1,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "softened, not melted",
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "at room temperature",
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bananas",
+                "key": "bananas",
+                "name": "large very ripe banana",
+                "plural": "large very ripe bananas",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "equivalents": [
+                  {
+                    "amount": 375,
+                    "unit": "g"
+                  }
+                ],
+                "preparation": "peeled and mashed; gram equivalent is an approximate total",
+                "uses": [
+                  {
+                    "step": "banana",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "banana",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "equivalents": [
+                  {
+                    "amount": 250,
+                    "unit": "g"
+                  }
+                ],
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nuts",
+                "key": "nuts",
+                "name": "walnuts or toasted sunflower seeds",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "preparation": "chopped",
+                "uses": [
+                  {
+                    "step": "nuts",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare the oven and pan",
+            "text": "Preheat the oven to 350°F. Use {{ingredients}} to grease and flour a 9-by-5-by-3-inch loaf pan for the original batch. Have the batter butter softened, not melted, before beginning."
+          },
+          {
+            "id": "cream",
+            "title": "Cream the butter and sugar",
+            "text": "Beat the {{ingredients}} until lighter and fluffy, scraping the sides and bottom so no dense butter remains."
+          },
+          {
+            "id": "eggs",
+            "title": "Add the eggs",
+            "text": "Beat in the {{ingredients}} one at a time, scraping the bowl after each addition."
+          },
+          {
+            "id": "banana",
+            "title": "Add banana and vanilla",
+            "text": "Mix in the {{ingredients}}. The mixture may look slightly curdled; stop once evenly combined rather than beating to make it perfectly smooth."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "Whisk the {{ingredients}} thoroughly in a separate bowl."
+          },
+          {
+            "id": "combine",
+            "title": "Fold the batter",
+            "text": "Gently fold the dry mixture into the butter mixture until no dry flour pockets remain. Do not beat the flour mixture until perfectly smooth."
+          },
+          {
+            "id": "nuts",
+            "title": "Add the nuts or seeds",
+            "text": "Fold in the {{ingredients}} just until distributed, then scrape the batter into the prepared pan."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake for about 55–60 minutes, checking the center at 55 minutes. A tester should have moist crumbs but no wet batter; check another spot if it hits banana. If still wet, continue baking; tent loosely with foil if the top is darkening too quickly. Cool in the pan on a rack for 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack before slicing; allow about an hour, longer if still warm."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the family creaming sequence, then mix briefly after adding flour.",
+        "outcome": "A tender banana loaf with evenly distributed nuts or seeds and a fully baked center that slices without smearing.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use a 9-by-5-by-3-inch loaf pan and a rack. Have softened butter and room-temperature eggs ready; ingredient warming is extra to the preparation time.",
+          "Mash peeled, heavily spotted bananas. The approximately 375 g total banana and 250 g flour equivalents belong to the original batch; use the scaled listed totals for a different quantity, not either amount for each banana or cup.",
+          "Measure pan-dusting flour separately from the batter flour.",
+          "The 9-by-5-by-3-inch pan is for the original batch. For multiples, make separate original-size loaves in matching pans. For smaller amounts, choose an appropriately smaller pan to keep similar batter depth with headroom and begin center checks earlier; no proportional pan dimensions or baking/cooling times are assumed."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The butter and sugar are lighter and fluffy with no dense butter at the bottom.",
+            "why": "Creaming distributes air before the eggs and banana enter."
+          },
+          {
+            "step": 6,
+            "cue": "No dry flour remains, although small banana lumps may still be visible.",
+            "why": "Extra beating after flour is hydrated can toughen the loaf."
+          },
+          {
+            "step": 8,
+            "cue": "A tester in the central crumb has no wet batter, and the loaf cools completely before cutting.",
+            "why": "The crust can brown before the center is cooked; a warm tender center can smear even when baked through."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Loaf is heavy or tough",
+            "cause": "Butter was melted, or flour was beaten for too long.",
+            "fix": "Use softened butter for the next creaming stage and fold flour only until moistened. Longer baking cannot reverse a tough crumb."
+          },
+          {
+            "problem": "Outside is browned but center is wet",
+            "cause": "The pan, oven or banana moisture changed the bake.",
+            "fix": "Leave the intact loaf in the oven, tent if needed and continue checking the center. Record pan and bake time before changing the formula."
+          },
+          {
+            "problem": "Slices crumble or smear",
+            "cause": "The loaf was cut warm.",
+            "fix": "Let it cool fully before cutting with a serrated knife; wrap only after cooling."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Walnuts",
+            "alternative": "Toasted sunflower seeds, at the same listed quantity",
+            "effect": "The retained seed option changes flavor and crunch while preserving the mix-in amount."
+          },
+          {
+            "ingredient": "Kosher salt",
+            "alternative": "Keep the listed salt type when measuring by spoon",
+            "effect": "Crystal density varies; an equal spoon volume of fine salt is not an established equivalent here."
+          }
+        ],
+        "timing": "Allow about 2 hours 15 minutes with softened ingredients ready: around 15 minutes preparation, 55–60 minutes baking, 10 minutes pan cooling and about an hour on a rack. Preheating overlaps preparation. Smaller pans and additional oven batches have their own timing.",
+        "storage": "Cool completely, then wrap airtight. Keep at room temperature for a few days or freeze for longer storage. Freeze the loaf or separated slices in airtight wrapping, then thaw wrapped; light toasting can refresh a slice. Discard moldy bread.",
+        "sources": [
+          {
+            "title": "Nicolet College — Professional Baking: Quick Breads",
+            "url": "https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/"
+          },
+          {
+            "title": "PJ Hamel — How to tell when banana bread is done, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done"
+          },
+          {
+            "title": "King Arthur Test Kitchen — Banana Bread",
+            "url": "https://www.kingarthurbaking.com/recipes/banana-bread-recipe"
+          },
+          {
+            "title": "Annabelle Shippee — How can I freeze my bread?, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to banana bread that isn't dense or dry is precision with measurements. Bananas vary wildly in size, so weighing them ensures consistent results. The Hamilton family recipe creams softened butter with sugar before adding the eggs; keep that method and use very ripe, heavily spotted bananas.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Grease and flour a 9x5x3-inch loaf pan. Have the butter softened but not melted.\n2.  **Cream:** Beat the softened butter and sugar until lighter and fluffy, scraping the bowl so no dense butter remains.\n3.  **Wet:** Beat in the eggs one at a time, then mix in the mashed bananas and vanilla. The mixture may look slightly curdled; do not keep beating to make it perfectly smooth.\n4.  **Dry:** In a separate bowl, whisk the flour, baking soda, and salt.\n5.  **Combine:** Gently fold the dry ingredients into the wet until **just combined**. Do not over-mix. Fold in the nuts/seeds.\n6.  **Bake:** Pour into the pan. Bake for 55-60 minutes until the top is split and a tester comes out clean.\n7.  **Rest:** Let cool in the pan for 10 minutes before transferring to a wire rack. Let the loaf cool fully before slicing so the soft center can set; allow about an hour, longer if still warm.\n\n## Cooking Notes\n\nThe total time is a planning estimate including cooling, with softened butter ready before starting. This keeps the saved Hamilton family creaming method; the listed vanilla and seed alternative are Mise adaptations.\n\nFor two smaller loaves, start checking around 40 minutes. Pan dimensions and batter depth change the baking time; use the center-doneness cue rather than the clock alone.\n",
+    "after": "\n## Chef's Note\n\nThe Hamilton family banana bread creams softened butter with sugar before the eggs and banana go in. Very ripe bananas give the loaf its flavor; brief mixing after flour enters keeps the crumb tender. Let the loaf cool fully so its soft center slices cleanly.\n\n## Directions\n\n1. **Prepare the oven and pan:** Preheat the oven to 350°F. Use butter or neutral oil and all-purpose flour to grease and flour a 9-by-5-by-3-inch loaf pan for the original batch. Have the batter butter softened, not melted, before beginning.\n2. **Cream the butter and sugar:** Beat the unsalted butter and granulated sugar until lighter and fluffy, scraping the sides and bottom so no dense butter remains.\n3. **Add the eggs:** Beat in the large eggs one at a time, scraping the bowl after each addition.\n4. **Add banana and vanilla:** Mix in the large very ripe bananas and vanilla extract. The mixture may look slightly curdled; stop once evenly combined rather than beating to make it perfectly smooth.\n5. **Mix the dry ingredients:** Whisk the all-purpose flour, baking soda, and kosher salt thoroughly in a separate bowl.\n6. **Fold the batter:** Gently fold the dry mixture into the butter mixture until no dry flour pockets remain. Do not beat the flour mixture until perfectly smooth.\n7. **Add the nuts or seeds:** Fold in the walnuts or toasted sunflower seeds just until distributed, then scrape the batter into the prepared pan.\n8. **Bake and cool:** Bake for about 55–60 minutes, checking the center at 55 minutes. A tester should have moist crumbs but no wet batter; check another spot if it hits banana. If still wet, continue baking; tent loosely with foil if the top is darkening too quickly. Cool in the pan on a rack for 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack before slicing; allow about an hour, longer if still warm.\n\n## Cooking Notes\n\nThis keeps the saved Hamilton family creaming method; the listed vanilla and seed alternative are Mise adaptations.\n\nThe banana weight is an approximate total for the original batch, not a weight for each banana. When dividing the original batch between two smaller loaves, start checking around 40 minutes; their dimensions and batter depth determine the actual baking time. Keep the same center-doneness cue.\n"
+  },
+  "findings": [
+    {
+      "id": "banana-nut-bread-1",
+      "title": "allocation",
+      "field": "allocation",
+      "rationale": "Makes purchasing/prep ledger complete without borrowing flour from the batter.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Frozen current method plus saved family grease-and-flour instruction.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "banana-nut-bread-2",
+      "title": "doneness",
+      "field": "doneness",
+      "rationale": "Top split alone is insufficient; keep existing window and use actual central crumb.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done"
+      ],
+      "sourceApplicability": "Wheat banana loaf center, not imported formula/temperature.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual pan material, center time and crumb remain uncooked."]
+    },
+    {
+      "id": "banana-nut-bread-3",
+      "title": "public wording",
+      "field": "public wording",
+      "rationale": "Move editing history to this record while preserving actionable measurement and attribution.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Public presentation policy.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "banana-nut-bread-4",
+      "title": "storage",
+      "field": "storage",
+      "rationale": "Handling analogy from a creamed banana loaf and general airtight bread freezing.",
+      "confidence": "moderate",
+      "applicableSources": ["https://www.kingarthurbaking.com/recipes/banana-bread-recipe"],
+      "sourceApplicability": "Plain unglazed creamed banana bread; not a validated shelf-life for this family formula.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Confirm household storage performance and actual loaf cooling."]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/banana-nut-bread.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history; original native binding independently verified.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Saved original uses butter or margarine and optional nuts, then mixing well; current softened unsalted butter, vanilla, seed choice and short final folding survive. Accepted 858ff2c5 family restoration and a2c9e280 total-weight correction are retained. Generic kosher salt differs from original unspecified salt; no guessed fine-salt conversion.",
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "3 large Very Ripe Bananas (about 375g total), mashed",
+        "originalDestination": "mashed banana wet stage 3",
+        "proposedIngredientIds": ["batter.bananas"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.bananas",
+            "step": "banana",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup (1 stick) Unsalted Butter, softened",
+        "originalDestination": "creaming stage 2",
+        "proposedIngredientIds": ["batter.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.butter",
+            "step": "cream",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Granulated Sugar",
+        "originalDestination": "creaming stage 2",
+        "proposedIngredientIds": ["batter.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.sugar",
+            "step": "cream",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs, room temperature",
+        "originalDestination": "individual additions stage 3",
+        "proposedIngredientIds": ["batter.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.eggs",
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 cups All-Purpose Flour (250g)",
+        "originalDestination": "dry stage 4 then fold 5",
+        "proposedIngredientIds": ["batter.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.flour",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Baking Soda",
+        "originalDestination": "dry stage 4",
+        "proposedIngredientIds": ["batter.soda"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.soda",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Kosher Salt",
+        "originalDestination": "dry stage 4",
+        "proposedIngredientIds": ["batter.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.salt",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup Walnuts or Toasted Sunflower Seeds, chopped",
+        "originalDestination": "fold stage 5",
+        "proposedIngredientIds": ["batter.nuts"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.nuts",
+            "step": "nuts",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Vanilla Extract",
+        "originalDestination": "wet stage 3",
+        "proposedIngredientIds": ["batter.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.vanilla",
+            "step": "banana",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      }
+    ],
+    "addedOrRecovered": [
+      {
+        "ingredientId": "batter.pan-fat",
+        "quantity": null,
+        "allowance": "for greasing the pan",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      },
+      {
+        "ingredientId": "batter.pan-flour",
+        "quantity": null,
+        "allowance": "for dusting the greased pan",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      }
+    ],
+    "proposed": [
+      {
+        "id": "batter.pan-fat",
+        "key": "pan-fat",
+        "name": "butter or neutral oil",
+        "allowance": "for greasing the pan",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.pan-flour",
+        "key": "pan-flour",
+        "name": "all-purpose flour",
+        "allowance": "for dusting the greased pan",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.butter",
+        "key": "butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [
+          {
+            "amount": 1,
+            "unit": "stick"
+          }
+        ],
+        "preparation": "softened, not melted",
+        "uses": [
+          {
+            "step": "cream",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.sugar",
+        "key": "sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "cream",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "plural": "large eggs",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "preparation": "at room temperature",
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.bananas",
+        "key": "bananas",
+        "name": "large very ripe banana",
+        "plural": "large very ripe bananas",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "equivalents": [
+          {
+            "amount": 375,
+            "unit": "g"
+          }
+        ],
+        "preparation": "peeled and mashed; gram equivalent is an approximate total",
+        "uses": [
+          {
+            "step": "banana",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.vanilla",
+        "key": "vanilla",
+        "name": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "banana",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.flour",
+        "key": "flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "equivalents": [
+          {
+            "amount": 250,
+            "unit": "g"
+          }
+        ],
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.soda",
+        "key": "soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.salt",
+        "key": "salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.nuts",
+        "key": "nuts",
+        "name": "walnuts or toasted sunflower seeds",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "preparation": "chopped",
+        "uses": [
+          {
+            "step": "nuts",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      }
+    ]
+  },
+  "processGraph": "Ready softened butter and room-temperature eggs → preheat/grease-and-flour 9 x 5 x 3-inch pan → cream butter+sugar → eggs individually → banana+vanilla → dry mix → brief fold → nuts/seeds → 350°F bake, first center check 55 min →10-min pan cool → complete rack cool → slices/storage. Preheat overlaps preparation; ingredient warming is extra. About 2 h 15 includes cooling. When dividing the original batch between two smaller loaves, start checking about 40 min; dimensions remain unknown, and no fixed finish is promised.",
+  "variantLedgers": {
+    "substitutions": [
+      {
+        "ingredient": "Walnuts",
+        "alternative": "Toasted sunflower seeds, at the same listed quantity",
+        "effect": "The retained seed option changes flavor and crunch while preserving the mix-in amount."
+      },
+      {
+        "ingredient": "Kosher salt",
+        "alternative": "Keep the listed salt type when measuring by spoon",
+        "effect": "Crystal density varies; an equal spoon volume of fine salt is not an established equivalent here."
+      }
+    ],
+    "notes": "The banana weight is an approximate total for the original batch, not a weight for each banana. When dividing the original batch between two smaller loaves, start checking around 40 minutes; their dimensions and batter depth determine the actual baking time. Keep the same center-doneness cue.",
+    "wholeCookedFruitVariation": null
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [
+      {
+        "slug": "blueberry-baked-oatmeal",
+        "exists": true
+      },
+      {
+        "slug": "blueberry-pancakes",
+        "exists": true
+      },
+      {
+        "slug": "brownie-baked-oatmeal",
+        "exists": true
+      }
+    ],
+    "composedMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "ratiosAndState": "Per full batch: 2 cups/250 g flour, 1 cup sugar, 1/2 cup/one stick butter, two eggs, three large bananas with inherited approximate 375 g total, 1/2 cup nuts/seeds, 1 tsp soda and 1/2 tsp kosher salt. Retain richness and soda; no added acid or flour adjustment. The source family recipe has no weighed banana/flour equivalents; these are inherited Mise approximations/measurements, preserved with the accepted total clarification.",
+    "yieldAndPan": "Ten inherited portions from the original9-by5-by3 loaf, with no measured slice weight. Ingredient controls remain available. Multiples use separate original-size loaves/pans; smaller batches need an appropriate smaller pan and earlier center checks, preserving similar depth/headroom. No dimensions or time formula is invented. The actual smaller-loaf40-minute first-check note remains separately qualified."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Weigh the mash from three large bananas to check the inherited approximate 375 g total.",
+    "Record pan material, batter depth, center condition at 55 minutes, finish time and complete cooling in the 9 x 5 x 3-inch pan.",
+    "Compare walnut and toasted sunflower versions at the unchanged half-cup amount.",
+    "Resolve the kosher-salt crystal type if spoon measurement changes seasoning."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

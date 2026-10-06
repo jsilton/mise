@@ -1,5 +1,11 @@
 # Current campaign state — October 5, 2026
 
+314 recorded complete / 329 pending across 643 sources. 69 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined mains review](editorial-campaign/2026-10-05/baking-eleven.md).
+
+## Previous verified checkpoint
+
+# Current campaign state — October 5, 2026
+
 69 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 303 recorded complete / 340 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s ten accepted source versions match exact remote commit [2f3e85d1](https://github.com/jsilton/mise/commit/2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37405962070) and all ten live pages. Zero kitchen tests; no native-app sync. [Ten mains release](editorial-campaign/2026-10-05/mains-ten.md).
 
 ## Earlier acceptance checkpoint

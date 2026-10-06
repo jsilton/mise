@@ -1,0 +1,420 @@
+{
+  "slug": "blueberry-banana-pancake-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "e4fc8cfd05e84ed682a469bc92d52f56ea8b8b3f32ac6b47e5a0d80a6a28e323",
+  "acceptedSourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "25–30 min baking"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35–45 min, plus oven heating if needed"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 muffins"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 large Ripe Bananas",
+        "1 cup Rolled Oats",
+        "1 cup Full-Fat Cottage Cheese (The protein secret)",
+        "2 large Eggs",
+        "1 tbsp Maple Syrup",
+        "1 tsp Vanilla Extract",
+        "1/2 cup Frozen Blueberries"
+      ],
+      "after": [
+        "2 large Ripe Bananas",
+        "1 cup Rolled Oats",
+        "1 cup Full-Fat Cottage Cheese",
+        "2 large Eggs",
+        "1 tbsp Maple Syrup",
+        "1 tsp Vanilla Extract",
+        "1/2 cup Frozen Blueberries",
+        "Oil or nonstick spray for the muffin wells"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 7,
+        "carbs": 13,
+        "fat": 6.5,
+        "fiber": 1.5,
+        "sugar": 5,
+        "sodium": 150
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blend oats and cottage cheese smooth, then cook and cool dense muffins.",
+        "outcome": "Soft banana muffins with evenly allocated blueberries and set centers.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep the blueberries out of the blender. Their listed volume belongs across the full batch; do not replace it with a fixed count per muffin.",
+          "These are dense blended oat-and-egg muffins. Blend smoothly without applying a wheat-batter lumps rule or adding guessed baking powder.",
+          "Use the same well size when scaling and more or fewer wells. Smaller blender loads must contain proportional amounts of every ingredient; recombine before dividing."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "No large oat pieces or cottage-cheese curds remain.",
+            "why": "Smooth blending gives the intended texture; it does not guarantee a light café-style muffin."
+          },
+          {
+            "step": 4,
+            "cue": "Centers are set without wet batter beside the berries.",
+            "why": "Berries can stain a tester; look for uncooked mixture rather than berry juice."
+          },
+          {
+            "step": 5,
+            "cue": "Muffins can be lifted gently after the tin rest.",
+            "why": "Egg/oat structure firms during cooling and may settle."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Muffins collapse or tear on removal",
+            "cause": "Centers were undercooked or they were lifted before resting.",
+            "fix": "Finish baking the centers and allow the tin rest; some settling is normal for this mixture."
+          },
+          {
+            "problem": "Large curds remain",
+            "cause": "The blender load was too large or stopped early.",
+            "fix": "Stop safely, scrape and blend in suitable proportional loads; do not add extra liquid simply to force a large load."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Honey at the same listed tablespoon amount",
+            "effect": "Changes flavor; keep the other measured amounts."
+          },
+          {
+            "ingredient": "Full-fat cottage cheese",
+            "alternative": "Plain Greek yogurt at the same listed cup volume",
+            "effect": "Changes tang and texture; keep the other measured amounts and judge the cooked center."
+          },
+          {
+            "ingredient": "Frozen blueberries",
+            "alternative": "Fresh blueberries at the same listed volume",
+            "effect": "Divide them across the wells; timing can change with starting temperature."
+          },
+          {
+            "ingredient": "Rolled oats",
+            "alternative": "Quick oats at the same listed volume",
+            "effect": "Blends more readily; steel-cut oats need a different process and are unsuitable here."
+          }
+        ],
+        "timing": "Allow about 35–45 minutes: around five minutes blending and portioning, 25–30 minutes baking and 5–10 minutes in the tin. Start oven heating before blending; if it is not ready, that wait and additional blender/tin loads add time.",
+        "storage": "Refrigerate muffins within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Freeze cooled individual muffins airtight and thaw in the refrigerator. Reheat to 165°F throughout if serving hot, or serve cold from the refrigerator.",
+        "sources": [
+          {
+            "title": "Stacey — Banana Blueberry Oatmeal Muffins, My Kids Lick The Bowl",
+            "url": "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/"
+          },
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are essentially \"Pancakes in a Pan.\" The secret to their fluffy, rich texture is the **Cottage Cheese Emulsion**: when blended, the cottage cheese acts as a high-protein fat source that creates a souffle-like lift in the oven. This is a perfect \"Survival\" breakfast for busy mornings.\n\n## Directions\n\n1.  **Emulsify:** In a blender, combine bananas, oats, cottage cheese, eggs, syrup, and vanilla. Process until completely smooth.\n2.  **Portion:** Pour the batter into a greased 12-cup muffin tin.\n3.  **Top:** Press 4-5 blueberries into the top of each muffin.\n4.  **Bake:** Bake at 350°F for 25-30 minutes until they are puffed and golden.\n5.  **Cool:** Let sit for 5 minutes before removing.\n",
+    "after": "\n## Chef's Note\n\nBlend the bananas, oats, full-fat cottage cheese and eggs until the oats and curds are smooth, then add the blueberries to the individual wells. These muffins have a soft, dense interior, with richness from the full-fat cottage cheese. Give the cooked muffins time to settle in the tin before lifting them.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F and grease enough standard-size muffin wells for the listed planning count with the separate oil or spray allowance; the original batch plans twelve. Use ripe bananas and keep the frozen blueberries separate.\n\n2. **Blend:** Blend all the bananas, oats, cottage cheese, eggs, maple syrup and vanilla until the oat pieces and curds are smooth, following the blender’s load instructions. Stop safely to scrape if needed. For larger batches, blend proportional smaller loads and recombine them before portioning.\n\n3. **Portion and add berries:** Divide the mixture evenly across the listed planning number of prepared wells, with space for it to rise. Distribute all the measured blueberries across their tops and press them gently into the surface. Use the full listed berry amount; the original twelve-muffin batch uses half a cup. Berry size varies, so a fixed count is only a guide. Use extra prepared wells if the actual tin cannot hold the full mixture.\n\n4. **Bake:** Bake about 25–30 minutes, until the muffins feel firm and the center is set. A skewer should show no wet batter; check beside a berry. An egg-dish center should reach 160°F. Puffing or browning alone does not establish a cooked center.\n\n5. **Cool:** Leave in the tin for 5–10 minutes before lifting gently to a rack. They may settle as they cool. Serve warm, or refrigerate promptly for cold service.\n"
+  },
+  "findings": [
+    {
+      "id": "blueberry-banana-pancake-muffins-1",
+      "title": "Ingredient marketing",
+      "field": "Ingredient marketing",
+      "rationale": "Retain the full-fat cheese and exact cup measure while removing an unsupported nutritional promise.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/"
+      ],
+      "sourceApplicability": "Retain the full-fat cheese and exact cup measure while removing an unsupported nutritional promise.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-banana-pancake-muffins-2",
+      "title": "Unsupported lift",
+      "field": "Unsupported lift",
+      "rationale": "Source describes a dense blended batter, not a whipped egg-white soufflé. Keep full-fat cottage cheese and all egg/oat amounts without adding leavener or protein claims.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/"
+      ],
+      "sourceApplicability": "Source describes a dense blended batter, not a whipped egg-white soufflé. Keep full-fat cottage cheese and all egg/oat amounts without adding leavener or protein claims.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-banana-pancake-muffins-3",
+      "title": "Berry allocation",
+      "field": "Berry allocation",
+      "rationale": "A count of variable berries does not establish the measured volume; allocate the whole current total rather than leave surplus or force extra berries.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/"
+      ],
+      "sourceApplicability": "A count of variable berries does not establish the measured volume; allocate the whole current total rather than leave surplus or force extra berries.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-banana-pancake-muffins-4",
+      "title": "Egg center and tin rest",
+      "field": "Egg center and tin rest",
+      "rationale": "Publisher sensory doneness and original tin rest combine with applicable egg guidance; puffing alone is incomplete.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Publisher sensory doneness and original tin rest combine with applicable egg guidance; puffing alone is incomplete.",
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/blueberry-banana-pancake-muffins.md",
+    "originalSha256": "cda184ed42d95ed4e4d17712a6e625b8ff81a0352d337c1808cb7d670b6b10da",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2 uses medium bananas and cottage cheese; current publisher uses medium bananas and Greek yogurt but explicitly allows cottage cheese. Current large bananas/full-fat cottage and one tablespoon syrup are preserved; no alternate publisher quantities are imported.",
+    "9002a113 introduced the cottage-emulsion/soufflé claim and fixed 4–5 berry count. Neither establishes lift chemistry or the half-cup’s exact berry count. Current publisher describes dense muffins with no added leavener.",
+    "The same 9002a113 bulk refinement narrows maple syrup or honey to maple syrup without an individually accepted removal instruction. Preserve maple in the base and restore the documented same-amount honey alternative separately.",
+    "Saved 5–10 minute cooling range is restored from complete original/publisher method; no invented final volume or nutrition replaces the current estimates."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "2 large Ripe Bananas",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 cup Rolled Oats",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 cup Full-Fat Cottage Cheese (The protein secret)",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 tbsp Maple Syrup",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "blend step 2"
+      },
+      {
+        "ingredient": "1/2 cup Frozen Blueberries",
+        "destination": "tops step 3"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "2 large Ripe Bananas",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 cup Rolled Oats",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 cup Full-Fat Cottage Cheese",
+        "destination": "2"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 tbsp Maple Syrup",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1/2 cup Frozen Blueberries",
+        "destination": "3"
+      },
+      {
+        "ingredient": "Oil or nonstick spray for the muffin wells",
+        "destination": "1"
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "Oil or nonstick spray for the muffin wells",
+        "destination": "prepare step 1",
+        "provenance": "frozen greased-tin method and exact Git original; separate allowance"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "stage": "preheat and blend",
+      "state": "cold/room-temperature blended oat/banana/cottage/egg mixture; berries separate",
+      "time": "about 5 min active; oven heating starts first"
+    },
+    {
+      "stage": "portion/top",
+      "state": "all mixture divided; all measured berries allocated",
+      "time": "within active prep; extra loads add time"
+    },
+    {
+      "stage": "bake",
+      "state": "firm, cooked centers",
+      "time": "25–30 min first window; endpoint governs"
+    },
+    {
+      "stage": "tin rest",
+      "state": "dense muffins firm enough to lift, may settle",
+      "time": "5–10 min additional"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "honey",
+      "replacement": "same listed tablespoon sweetener amount; original1tbsp",
+      "destination": "blend step2",
+      "otherIngredients": "unchanged; original source alternative retained"
+    },
+    {
+      "variant": "Greek yogurt",
+      "replacement": "same listed cottage-cheese cup volume",
+      "destination": "blend step2",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "fresh berries",
+      "replacement": "same listed berry volume",
+      "destination": "tops step3",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "quick oats",
+      "replacement": "same listed oat volume",
+      "destination": "blend step2",
+      "otherIngredients": "unchanged; steel-cut route not supported"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "strawberry-quinoa-breakfast-bars"
+    ],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "Current two large bananas, one cup oats, one cup full-fat cottage cheese, two eggs, one tablespoon maple syrup, one teaspoon vanilla and half cup blueberries remain. No flour or chemical leavener is introduced. Twelve muffins is the original and current publisher planning count, not a proven twelve-well fill volume. The entire half-cup berry amount is divided once; four-to-five fixed berries is not assumed equivalent. Smooth blending applies before portioning; warm setting/tin rest differs from the whole-oat cups.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Measure full batter volume and actual well capacity/count with the current two large bananas.",
+    "Record banana edible mass, cottage moisture, center doneness and normal settling after rest.",
+    "Measure berry volume versus actual count rather than asserting four-to-five is equivalent."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

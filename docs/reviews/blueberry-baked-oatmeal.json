@@ -1,0 +1,603 @@
+{
+  "slug": "blueberry-baked-oatmeal",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "252a6cd970f0f659a48c2a726e92c40253e4b8841202735f59ce06302f0232e1",
+  "acceptedSourceSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["baking-dish", "mixing-bowl"],
+      "after": ["9-inch-square-baking-dish", "mixing-bowl"]
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "40–50 min baking"
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "About 55–65 min (includes a brief cooling rest), plus any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Old-Fashioned Rolled Oats",
+        "12 oz Fresh or Frozen Blueberries",
+        "2/3 cup Toasted Sunflower Seeds or Pumpkin Seeds (Nut-Free option)",
+        "1 3/4 cups Milk of choice",
+        "1/3 cup Maple Syrup",
+        "2 large Eggs",
+        "3 tbsp Butter, melted",
+        "2 tsp Cinnamon",
+        "1 tsp Baking Powder",
+        "1 tsp Vanilla Extract",
+        "1/2 tsp Kosher Salt"
+      ],
+      "after": [
+        "2 cups Old-Fashioned Rolled Oats",
+        "12 oz Fresh or Frozen Blueberries",
+        "2/3 cup Toasted Sunflower Seeds or Pumpkin Seeds (Nut-Free option)",
+        "1 3/4 cups Milk of choice",
+        "1/3 cup Maple Syrup",
+        "2 large Eggs",
+        "3 tbsp Butter, melted",
+        "2 tsp Cinnamon",
+        "1 tsp Baking Powder",
+        "1 tsp Vanilla Extract",
+        "1/2 tsp Kosher Salt",
+        "Butter or oil for greasing the baking dish",
+        "2 tsp Raw Sugar (optional, for pre-bake topping)",
+        "Plain or vanilla yogurt or whipped cream, optional for serving",
+        "Extra maple syrup or honey, optional for drizzling",
+        "Additional fresh fruit, optional for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 575,
+        "protein": 15.5,
+        "carbs": 64.5,
+        "fat": 32,
+        "fiber": 10,
+        "sugar": 36,
+        "sodium": 550
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Hydrate layered oats and keep the full berry and butter allocations.",
+        "outcome": "Set, creamy oatmeal with berries above and below and toasted seeds throughout.",
+        "techniques": ["temperature"],
+        "before": [
+          "The listed berry weight governs the whole batch. Divide it between bottom and topping; a cup count must not replace or exceed the measured total when scaling.",
+          "The original batch uses a 9-inch square dish. Keep a similar filling depth when scaling by using suitable smaller dishes or additional dishes; pan dimensions and oven temperature do not multiply.",
+          "Seeds are already toasted in the ingredient list. Half the butter goes into the wet mix and half finishes the baked oatmeal; dish grease is extra.",
+          "Optional raw sugar is a pre-bake finish: two teaspoons in the original six-portion batch, scaled proportionally with the ingredients. Serving yogurt/cream, extra sweetener and fruit are separate unmeasured allowances."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Milk has soaked down through the oats and no dry surface patches remain.",
+            "why": "Hydration must reach the lower dry mixture, rather than merely wetting the top."
+          },
+          {
+            "step": 5,
+            "cue": "The center is set, with no pooled egg mixture.",
+            "why": "Frozen berries and deeper dishes can delay center cooking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Center stays loose while the top browns",
+            "cause": "The dish is deep, berries were frozen or liquid did not reach the oats.",
+            "fix": "Keep baking until the center sets; cover loosely if the top is darkening. Next time use the original dish geometry and press down dry oat patches."
+          },
+          {
+            "problem": "Some portions lack berries",
+            "cause": "A fixed cup was repeated or the topping reserve was not allocated from the total.",
+            "fix": "Use the full listed berry weight once and distribute the bottom and topping layers across the entire batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Honey at the same listed syrup volume",
+            "effect": "Changes flavor; all the measured sweetener stays in the wet mixture."
+          },
+          {
+            "ingredient": "Butter",
+            "alternative": "Melted coconut oil at the same listed tablespoon amount",
+            "effect": "Use half in the wet mixture and half for finishing. If cold ingredients make the oil solidify, gently rewarm only until it melts and whisk to combine."
+          },
+          {
+            "ingredient": "Blueberries",
+            "alternative": "For the original six-portion batch, 2 1/2 cups of preferred fruit, chopped into 1/2-inch pieces if needed; scale this separate volume proportionally",
+            "effect": "This is a separate fruit-volume option, not a conversion of twelve ounces blueberries. Juice, texture and center-cooking time can change."
+          },
+          {
+            "ingredient": "No nutmeg in the base",
+            "alternative": "For the original six-portion batch, add 1/4 tsp ground nutmeg; scale this option proportionally",
+            "effect": "Adds warm spice alongside the current cinnamon; all other base amounts remain."
+          },
+          {
+            "ingredient": "Vanilla",
+            "alternative": "For the original six-portion batch, use 2 tsp total vanilla instead of 1 tsp; scale the replacement proportionally",
+            "effect": "A stronger vanilla option. The alternative is the total replacement amount, not two extra teaspoons."
+          },
+          {
+            "ingredient": "Toasted sunflower seeds",
+            "alternative": "The listed toasted pumpkin-seed option at the same volume",
+            "effect": "Keeps a seed-based texture, with a different flavor and crunch."
+          },
+          {
+            "ingredient": "Fresh blueberries",
+            "alternative": "The listed frozen blueberries at the same weight",
+            "effect": "Add without thawing; allow more time to set the center."
+          }
+        ],
+        "timing": "Allow about 55–65 minutes as a preparation, bake and brief-rest subtotal: about ten minutes preparation, a 40–50 minute baking window and a brief cooling rest. Start heating during preparation, but load only once the oven reaches 375°F; any heating still needed after prep extends elapsed time. Frozen berries, altered dish depth or additional dishes can add time.",
+        "storage": "Refrigerate baked oatmeal within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Freeze cooled portions airtight and thaw in the refrigerator. Reheat hot portions to 165°F throughout, or serve cold from the refrigerator.",
+        "sources": [
+          {
+            "title": "Kathryne Taylor — Blueberry Baked Oatmeal, Cookie and Kate",
+            "url": "https://cookieandkate.com/baked-oatmeal-recipe/"
+          },
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nLayering berries at the bottom prevents a mushy, uniform texture - they stay whole and jammy. Toasted sunflower or pumpkin seeds on top add crunch that contrasts with creamy oats below. Press the dry oats down into the milk mixture before baking to ensure even hydration.\n\n## Directions\n\n1.  **Dry:** In a bowl, toss oats, seeds, cinnamon, salt, and baking powder.\n2.  **Wet:** Whisk milk, eggs, maple syrup, vanilla, and half the melted butter.\n3.  **Layer:** Arrange 1 cup of blueberries at the bottom of a greased baking dish. Cover with the oat mixture.\n4.  **Hydrate:** Pour the milk mixture over the oats. Wiggle the dish so the liquid sinks in. Top with remaining berries.\n5.  **Bake:** Bake at 375°F for 40-45 minutes until the top is golden and the center is set.\n6.  **Finish:** Drizzle with the remaining melted butter.\n",
+    "after": "\n## Chef's Note\n\nBerries form a juicy layer beneath the oats, with a smaller amount on top. The toasted seeds are mixed through the oats, rather than added only as a topping. Pour the milk mixture through the dry layer and press down any dry oat patches gently so the center cooks evenly. Half the measured butter goes into the mixture and the rest finishes the cooked oatmeal.\n\n## Directions\n\n1. **Prepare and divide berries:** Preheat the oven to 375°F and grease a 9-inch square baking dish for the original batch with the separate pan-fat allowance. Wash and drain fresh blueberries; use frozen berries without thawing. Use all the measured berries: reserve a small portion for the top and spread the rest over the bottom.\n\n2. **Mix the dry ingredients:** Combine all the oats, toasted sunflower or pumpkin seeds, cinnamon, measured kosher salt and baking powder. Spread evenly over the bottom berries.\n\n3. **Mix the wet ingredients:** Whisk the milk, eggs, maple syrup, vanilla and half the measured melted butter until combined. Keep the other half of the butter for finishing.\n\n4. **Hydrate and top:** Pour the wet mixture evenly over the oats. Gently wiggle the dish to let the milk settle through, then press down any dry oats on the surface. Scatter all the reserved berries over the top. If using the optional raw sugar, scatter all its listed amount over the surface before baking.\n\n5. **Bake:** Load only once the oven has reached 375°F. Bake about 40–45 minutes with fresh berries, or start checking around 45–50 minutes with frozen berries. Continue until the top is golden and the center is set without liquid egg mixture; an egg-dish center should reach 160°F. Berry temperature, dish material and deeper filling can extend cooking.\n\n6. **Finish and rest:** Drizzle with all the remaining measured butter. Let stand for a few minutes so it holds together when portioned. Serve warm with optional yogurt or whipped cream, extra maple syrup or honey, and additional fresh fruit as desired. These serving allowances are separate from the measured batter. Refrigerate promptly for cold service.\n"
+  },
+  "findings": [
+    {
+      "id": "blueberry-baked-oatmeal-1",
+      "title": "Whole saved alternatives and finishes",
+      "field": "Whole saved alternatives and finishes",
+      "rationale": "Exact045e5ba2 and current publisher corroborate these distinct options; an explicit nut-free seed adaptation does not establish approved removal of unrelated options. Preserve established amounts and destinations without guessing flax preparation or changing current seasonings.",
+      "confidence": "high for saved amounts/destinations; moderate for untested option outcomes",
+      "applicableSources": ["https://cookieandkate.com/baked-oatmeal-recipe/"],
+      "sourceApplicability": "Exact045e5ba2 and current publisher corroborate these distinct options; an explicit nut-free seed adaptation does not establish approved removal of unrelated options. Preserve established amounts and destinations without guessing flax preparation or changing current seasonings.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Clarify flax preparation/liquid allocation and the current nutmeg/vanilla preference."
+      ]
+    },
+    {
+      "id": "blueberry-baked-oatmeal-2",
+      "title": "Berry allocation and pan",
+      "field": "Berry allocation and pan",
+      "rationale": "Exact saved method and publisher establish the original dish and bottom/topping mechanism. Fixed cups can exceed a scaled twelve-ounce total; preserve whole weight without guessed conversion.",
+      "confidence": "high for original pan/full weight; moderate for nonnumeric topping split",
+      "applicableSources": ["https://cookieandkate.com/baked-oatmeal-recipe/"],
+      "sourceApplicability": "Exact saved method and publisher establish the original dish and bottom/topping mechanism. Fixed cups can exceed a scaled twelve-ounce total; preserve whole weight without guessed conversion.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual berry mass allocated to each layer and center set in the household dish."
+      ]
+    },
+    {
+      "id": "blueberry-baked-oatmeal-3",
+      "title": "Seed destination",
+      "field": "Seed destination",
+      "rationale": "The actual method places all seeds in the dry oat mixture, so the note should describe their true destination.",
+      "confidence": "high",
+      "applicableSources": ["https://cookieandkate.com/baked-oatmeal-recipe/"],
+      "sourceApplicability": "The actual method places all seeds in the dry oat mixture, so the note should describe their true destination.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-baked-oatmeal-4",
+      "title": "Butter preservation",
+      "field": "Butter preservation",
+      "rationale": "Preserve the full three-tablespoon richness once, with a distinct unmeasured pan allowance.",
+      "confidence": "high",
+      "applicableSources": ["https://cookieandkate.com/baked-oatmeal-recipe/"],
+      "sourceApplicability": "Preserve the full three-tablespoon richness once, with a distinct unmeasured pan allowance.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-baked-oatmeal-5",
+      "title": "Frozen-berry timing",
+      "field": "Frozen-berry timing",
+      "rationale": "Publisher distinguishes fresh/frozen baking windows; center egg-dish endpoint prevents surface-only stopping.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://cookieandkate.com/baked-oatmeal-recipe/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Publisher distinguishes fresh/frozen baking windows; center egg-dish endpoint prevents surface-only stopping.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "blueberry-baked-oatmeal-6",
+      "title": "Bounded preheat timing clarification",
+      "field": "Bounded preheat timing clarification",
+      "rationale": "The prior proposal already begins preheating at the stated temperature. Its elapsed planning range excludes heating that remains after preparation. Qualify the subtotal without inventing an oven heat-up duration, and require the oven to reach its setting before loading. All bake, rest and chill windows remain; the biscuit 400°F then 350°F transition is unchanged.",
+      "confidence": "High for stated temperature/order and conditional elapsed-time arithmetic; oven heat-up duration and whole planning ranges remain unmeasured.",
+      "applicableSources": [
+        {
+          "type": "retained original/current and prior independently inspected candidate",
+          "sourceUrl": "https://cookieandkate.com/baked-oatmeal-recipe/",
+          "applicability": "The written 375°F setting and existing bake/rest/chill plan, not a tested oven heat-up duration."
+        },
+        {
+          "type": "editorial process dependency",
+          "applicability": "Preheating can run during preparation; only actual overlap reduces elapsed time. Any additional heating extends the stated preparation/bake/rest subtotal. No FDA/USDA timing validation or household oven measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual oven heating that remains after preparation with the intended oven and batch."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/blueberry-baked-oatmeal.md",
+    "originalSha256": "40ca5e2e53c48d03ae8c847d7e4208a5e6824df525d143c556bf79c57ad21ae0",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://cookieandkate.com/baked-oatmeal-recipe/",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "9002a113 replaced original pecans with explicitly labeled Silton nut-free seeds, changed seasonings and removed the 9-inch dish and most-bottom/small-top berry instruction. Current seed, salt, vanilla and maple-only amounts remain; do not normalize to current publisher’s pecans/extra vanilla/nutmeg.",
+    "045e5ba2 and publisher reserve about half a cup for topping, while the frozen method puts one cup at the bottom from a twelve-ounce total. Fixed volume versus scaled weight is not reliably convertible for variable berries; use the full listed weight with a small topping reserve rather than invent a mass equivalent.",
+    "9002a113 removes honey, coconut oil, flax eggs, optional two-teaspoon raw sugar, serving toppings and the alternate fruit branch while explicitly selecting nut-free seeds. Complete later history and pending individual-review records do not establish a separate accepted household removal of those options. Supported measured alternatives/finishes and genuine unmeasured service options are preserved separately from the current base. The two-flax-egg branch remains named privately pending preparation ratio, liquid allocation and center-setting evidence; no vegan endorsement or guessed flax ratio is added.",
+    "The same9002a113 removes original quarter-teaspoon nutmeg and changes vanilla from two teaspoons to one. Current no-nutmeg/one-teaspoon vanilla remains, without claiming a proven deliberate household seasoning decision. Exact original quarter-teaspoon nutmeg and two-teaspoon-total vanilla are retained as separate original-batch seasoning options, not a silent base replacement.",
+    "Existing round-two scaling review explicitly held the fixed one-cup berry wording pending a whole culinary review. This proposal resolves the full allocation without changing its total.",
+    "Publisher offers 6–8 portions and 4–5 day storage; current six remains and general USDA 3–4 day refrigerated leftover guidance governs."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "2 cups Old-Fashioned Rolled Oats",
+        "destination": "dry step 2"
+      },
+      {
+        "ingredient": "12 oz Fresh or Frozen Blueberries",
+        "destination": "bottom/top step 1→4"
+      },
+      {
+        "ingredient": "2/3 cup Toasted Sunflower Seeds or Pumpkin Seeds (Nut-Free option)",
+        "destination": "dry step 2"
+      },
+      {
+        "ingredient": "1 3/4 cups Milk of choice",
+        "destination": "wet step 3→4"
+      },
+      {
+        "ingredient": "1/3 cup Maple Syrup",
+        "destination": "wet step 3→4"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "wet step 3→4"
+      },
+      {
+        "ingredient": "3 tbsp Butter, melted",
+        "destination": "half wet step 3; half finish step 6"
+      },
+      {
+        "ingredient": "2 tsp Cinnamon",
+        "destination": "dry step 2"
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "dry step 2"
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "wet step 3→4"
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt",
+        "destination": "dry step 2"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "2 cups Old-Fashioned Rolled Oats",
+        "destination": "2"
+      },
+      {
+        "ingredient": "12 oz Fresh or Frozen Blueberries",
+        "destination": "1→4"
+      },
+      {
+        "ingredient": "2/3 cup Toasted Sunflower Seeds or Pumpkin Seeds (Nut-Free option)",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 3/4 cups Milk of choice",
+        "destination": "3→4"
+      },
+      {
+        "ingredient": "1/3 cup Maple Syrup",
+        "destination": "3→4"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "3→4"
+      },
+      {
+        "ingredient": "3 tbsp Butter, melted",
+        "destination": "half 3→4; half 6"
+      },
+      {
+        "ingredient": "2 tsp Cinnamon",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "2"
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "3→4"
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt",
+        "destination": "2"
+      },
+      {
+        "ingredient": "Butter or oil for greasing the baking dish",
+        "destination": "1"
+      },
+      {
+        "ingredient": "2 tsp Raw Sugar (optional, for pre-bake topping)",
+        "destination": "optional 4"
+      },
+      {
+        "ingredient": "Plain or vanilla yogurt or whipped cream, optional for serving",
+        "destination": "optional 6"
+      },
+      {
+        "ingredient": "Extra maple syrup or honey, optional for drizzling",
+        "destination": "optional 6"
+      },
+      {
+        "ingredient": "Additional fresh fruit, optional for serving",
+        "destination": "optional 6"
+      }
+    ],
+    "additionalAllowances": [
+      {
+        "ingredient": "Butter or oil for greasing the baking dish",
+        "destination": "prepare step 1",
+        "provenance": "frozen greased-dish method; separate from the measured three tablespoons butter"
+      },
+      {
+        "ingredient": "2 tsp Raw Sugar (optional, for pre-bake topping)",
+        "destination": "optional topping step 4",
+        "provenance": "exact045e5ba2 measured optional finish, removed in9002a113; quantity scales; not a base batter ingredient",
+        "kind": "measured optional finish"
+      },
+      {
+        "ingredient": "Plain or vanilla yogurt or whipped cream, optional for serving",
+        "destination": "optional service step 6",
+        "provenance": "exact045e5ba2 unmeasured serving alternatives"
+      },
+      {
+        "ingredient": "Extra maple syrup or honey, optional for drizzling",
+        "destination": "optional service step 6",
+        "provenance": "exact045e5ba2 unmeasured serving allowance; separate from measured batter syrup"
+      },
+      {
+        "ingredient": "Additional fresh fruit, optional for serving",
+        "destination": "optional service step 6",
+        "provenance": "exact045e5ba2 unmeasured serving allowance; separate from measured baked berry total"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "stage": "preheat and layers",
+      "state": "9-inch square original geometry; all berries divided bottom/top; seeds in oats",
+      "time": "about 10 min active preparation; start heating to 375°F during preparation; any heating remaining before loading adds elapsed time"
+    },
+    {
+      "stage": "wet allocation and hydration",
+      "state": "all milk/eggs/syrup/vanilla plus half butter distributed through oats",
+      "time": "within preparation"
+    },
+    {
+      "stage": "bake",
+      "state": "set egg/oat center; load only at 375°F",
+      "time": "40–45 min fresh or around 45–50 min frozen; endpoint governs"
+    },
+    {
+      "stage": "finish/rest",
+      "state": "remaining half butter retained; portions hold together",
+      "time": "brief rest additional to baking"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "honey",
+      "replacement": "same listed maple volume; original1/3cup",
+      "destination": "wet step3",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "coconut oil",
+      "replacement": "same listed butter tablespoon amount; original3tbsp",
+      "destination": "half wet3/half finish6",
+      "otherIngredients": "unchanged; remelt gently if needed"
+    },
+    {
+      "variant": "alternate fruit",
+      "replacement": "original six-portion batch2.5cups preferred fruit instead of blueberries, half-inch pieces if needed; scale separate volume",
+      "destination": "bottom/top1/4",
+      "otherIngredients": "unchanged; no12oz mass conversion; juice/texture/timing uncertain"
+    },
+    {
+      "variant": "optional nutmeg",
+      "replacement": "original six-portion batch add1/4tsp; scale proportionally",
+      "destination": "dry step2",
+      "otherIngredients": "current cinnamon and other base measures retained"
+    },
+    {
+      "variant": "stronger vanilla",
+      "replacement": "original six-portion batch2tsp total instead of1tsp; scale replacement",
+      "destination": "wet step3",
+      "otherIngredients": "unchanged; not2extra tsp"
+    },
+    {
+      "variant": "optional raw-sugar finish",
+      "replacement": "listed2tsp at original six-portion batch; proportional optional amount",
+      "destination": "pre-bake surface step4",
+      "otherIngredients": "base maple full amount retained"
+    },
+    {
+      "variant": "optional serving toppings",
+      "replacement": "plain/vanilla yogurt OR whipped cream; extra maple/honey; additional fruit, all unmeasured",
+      "destination": "service step6",
+      "otherIngredients": "measured batter unchanged; not repeated per blender/pan as full new doses"
+    },
+    {
+      "variant": "pumpkin seeds",
+      "replacement": "same listed toasted seed volume",
+      "destination": "dry step2",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "frozen berries",
+      "replacement": "same listed whole berry weight, unthawed",
+      "destination": "bottom/topping steps1/4",
+      "otherIngredients": "unchanged; center timing may extend"
+    }
+  ],
+  "heldOptionalVariants": [
+    "Two-flax-egg option: preparation ratio, liquid allocation and setting endpoint not established; named hold, no invented ratio or vegan endorsement"
+  ],
+  "relationships": {
+    "pairsWith": ["almond-zucchini-bread", "anadama-bread", "bakery-style-chocolate-chip-muffins"],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "Current two cups oats, twelve ounces berries, two-thirds cup toasted seeds, one and three-quarter cups milk, one-third cup maple syrup, two eggs, three tablespoons butter and all base seasonings are unchanged. Exact optional two-teaspoon raw sugar and unmeasured serving allowances are separate additions, not reduced or displaced base quantities. Whole twelve-ounce weight is allocated once; no cup-to-weight equivalence or numerical new split is invented. Most berries form the bottom layer and a small reserve tops it, matching the original method’s intent. Six planning portions remain, with no final mass/volume claim. The original 9-inch square geometry is restored from exact Git/publisher method; optional accompaniments remain separate.",
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Record actual filling depth and finished six-portion size in the 9-inch square household dish.",
+    "Compare fresh and frozen berry center timing and full butter finish.",
+    "Confirm desired bottom/topping distribution without making a new cup-to-ounce equivalence.",
+    "Clarify the documented two-flax-egg preparation and liquid allocation before authoring that branch.",
+    "Confirm current nutmeg omission and one-teaspoon vanilla preference without inferring deliberate household removal from the bulk edit.",
+    "Record center texture/timing for the separate honey, coconut-oil and alternate-fruit options."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

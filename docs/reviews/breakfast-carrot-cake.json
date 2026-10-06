@@ -1,0 +1,1112 @@
+{
+  "slug": "breakfast-carrot-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "d2cffdf19f7ae624fa6a7fb8ab23e3f75a7f1fd951f328ea280438f54afe30aa",
+  "acceptedSourceSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["baking-dish", "mixing-bowl", "grater"],
+      "after": ["8-inch-square-baking-pan", "mixing-bowl", "grater"]
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "25–30 min baking"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 50–55 min, plus any remaining preheating and further cooling if needed"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 995,
+        "protein": 19.5,
+        "carbs": 168.5,
+        "fat": 33,
+        "fiber": 38,
+        "sugar": 96.5,
+        "sodium": 1320
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Cake",
+            "ingredients": [
+              {
+                "id": "carrots",
+                "key": "carrots",
+                "name": "carrots",
+                "quantity": {
+                  "amount": 250,
+                  "unit": "g"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely grated; about 2 large carrots at the original batch size"
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "whole wheat flour",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "canola or avocado oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain Greek yogurt",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nuts",
+                "key": "nuts",
+                "name": "walnuts or pecans",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prep",
+            "text": "Preheat oven to 375°F / 190°C. Line an 8-inch square pan with parchment paper."
+          },
+          {
+            "id": "grate",
+            "title": "Grate",
+            "text": "Finely grate the {{name:cake.carrots}} using the small holes of a grater. Set aside."
+          },
+          {
+            "id": "wet",
+            "title": "Wet ingredients",
+            "text": "In a large bowl, whisk {{ingredients}} for 3–5 minutes until blended and frothy."
+          },
+          {
+            "id": "dry",
+            "title": "Dry ingredients",
+            "text": "Whisk {{ingredients}} together, then fold gently into the wet mixture with a spatula."
+          },
+          {
+            "id": "fold",
+            "title": "Fold",
+            "text": "Add {{ingredients}}. Fold until just combined; do not overmix."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Pour into the prepared pan and tap lightly to remove air bubbles. Bake for 25–30 minutes until a toothpick comes out clean. Pan dimensions and baking time do not multiply with the ingredient scale; use additional pans for larger batches."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let cool in the pan for 10 minutes, then transfer to a wire rack."
+          }
+        ]
+      },
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Cake",
+            "ingredients": [
+              {
+                "id": "carrots",
+                "key": "carrots",
+                "name": "carrots",
+                "quantity": {
+                  "amount": 250,
+                  "unit": "g"
+                },
+                "preparation": "finely grated; about 2 large carrots at the original batch size",
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "whole wheat flour",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "preparation": "packed",
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "canola or avocado oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain Greek yogurt",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nuts",
+                "key": "nuts",
+                "name": "walnuts or pecans",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "preparation": "chopped",
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 375°F / 190°C. Line an 8-inch square pan with parchment for the original batch."
+          },
+          {
+            "id": "grate",
+            "title": "Grate",
+            "text": "Wash and peel the carrots. Finely grate the {{name:cake.carrots}} using the small holes of a grater. Use the listed weight; the original two-large-carrot description is only a shopping guide."
+          },
+          {
+            "id": "wet",
+            "title": "Wet ingredients",
+            "text": "In a large bowl, whisk {{ingredients}} for about 3–5 minutes until thoroughly blended and frothy."
+          },
+          {
+            "id": "dry",
+            "title": "Dry ingredients",
+            "text": "Whisk {{ingredients}} together to distribute the leaveners and spice, then fold gently into the wet mixture until moistened without dry flour pockets."
+          },
+          {
+            "id": "fold",
+            "title": "Fold",
+            "text": "Add {{ingredients}}. Fold gently until evenly distributed, stopping once combined."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Spread the batter evenly in the prepared pan and tap lightly. Load only once the oven has reached 375°F / 190°C. Begin checking at about 25–30 minutes: the center should be set, spring back gently and give a tester without wet batter. Continue as needed; pan material, filling depth and oven temperature affect the time. Pan dimensions and baking time do not multiply with ingredient scale; use suitable smaller pans or additional pans to keep similar filling depth."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let stand in the pan for 10 minutes, then lift gently onto a wire rack. Cool completely before frosting or wrapping; warm serving after the pan rest is also an option."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Distribute fine carrot shreds and fold a rich whole-wheat batter gently.",
+        "outcome": "A tender carrot cake with a cooked center and fine shreds throughout.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use the listed carrot weight after preparing it; the original “about two large” description does not establish a fixed mass for each carrot.",
+          "All the oil, both sugars, yogurt and egg go into the wet mixture. Whisk before adding flour, then fold only until the flour is moistened and carrots and nuts are distributed.",
+          "The original batch uses an 8-inch square pan and plans twelve pieces. Keep similar filling depth when scaling; use additional pans for larger batches and beat an egg before measuring a fractional egg amount."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The oil, egg, yogurt and sugars are thoroughly blended and frothy.",
+            "why": "Mixing before the flour is added distributes the rich wet ingredients."
+          },
+          {
+            "step": 5,
+            "cue": "No dry flour pockets remain and fine carrot shreds and nuts are evenly distributed.",
+            "why": "Gentle, complete folding avoids both dry patches and prolonged wheat mixing."
+          },
+          {
+            "step": 6,
+            "cue": "The center is set and a tester shows no wet batter.",
+            "why": "Surface browning alone does not establish a cooked center."
+          },
+          {
+            "step": 7,
+            "cue": "The cake holds together when lifted after its pan rest.",
+            "why": "The warm crumb is delicate; full cooling is needed for frosting or wrapping."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wet patches surround carrot clumps",
+            "cause": "Shreds were coarse or collected in a few parts of the batter.",
+            "fix": "Grate finely and distribute all the carrots during gentle folding; continue baking until the center is cooked."
+          },
+          {
+            "problem": "Cake is dense and tough",
+            "cause": "Flour was mixed for a long time after it was moistened.",
+            "fix": "Whisk wet ingredients first and stop folding once the flour, carrots and nuts are evenly combined."
+          },
+          {
+            "problem": "Frosting slides or wrapping becomes damp",
+            "cause": "The cake was frosted or wrapped while warm.",
+            "fix": "Let it cool completely on the rack before finishing or packing."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Plain Greek yogurt",
+            "alternative": "Applesauce at the same listed volume",
+            "effect": "Changes flavor and texture; keep the full oil and sugars and judge the cooked center."
+          },
+          {
+            "ingredient": "Whole-wheat flour",
+            "alternative": "All-purpose flour, or half of each, at the same total listed volume",
+            "effect": "Changes texture; keep the same total flour volume and fold gently."
+          },
+          {
+            "ingredient": "Ground cinnamon",
+            "alternative": "Ground nutmeg at the same listed amount",
+            "effect": "Changes spice flavor; do not add both full amounts by accident."
+          },
+          {
+            "ingredient": "Walnuts or pecans",
+            "alternative": "Omit the nuts",
+            "effect": "The cake loses the crunchy pieces; the other measured ingredients remain."
+          },
+          {
+            "ingredient": "Egg and yogurt",
+            "alternative": "For the original twelve-piece batch, omit the one egg and use 1/2 cup yogurt or applesauce instead of 1/3 cup; scale both changes proportionally",
+            "effect": "An eggless variation changes setting and texture; judge doneness rather than promising the same rise."
+          },
+          {
+            "ingredient": "Yogurt",
+            "alternative": "For the original twelve-piece batch, use 1/4 cup milk instead of 1/3 cup yogurt; scale the alternative with the batch",
+            "effect": "A thinner dairy mixture changes consistency and may change baking time."
+          }
+        ],
+        "timing": "Allow about 50–55 minutes as a preparation, bake and pan-rest subtotal: around fifteen minutes preparation, a 25–30 minute first baking window and ten minutes in the pan. Start heating during preparation, but load only once the oven reaches 375°F / 190°C; any heating still needed after prep extends elapsed time. Further rack cooling before frosting or wrapping, changed pans and additional oven loads add elapsed time.",
+        "storage": "Cool promptly and refrigerate covered within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Freeze fully cooled pieces airtight and thaw in the refrigerator. If adding cream-cheese frosting, keep the finished cake refrigerated and follow the frosting’s storage instructions.",
+        "sources": [
+          {
+            "title": "Sara Jean — Breakfast Carrot Cake, Southern Eats and Goodies",
+            "url": "https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Four Steps to Food Safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBreakfast carrot cake splits the difference between muffin and snack cake - whole wheat flour and Greek yogurt give it enough structure and protein to pass as morning food, while the grated carrots keep it moist for days. The trick is grating on the fine holes, not the large ones - larger shreds release too much water during baking and create soggy pockets. This freezes beautifully: wrap individual squares in plastic and pull them out the night before for school mornings.\n\n## Directions\n\n1. **Prep:** Preheat oven to 375°F / 190°C. Line an 8-inch square pan with parchment paper.\n2. **Grate:** Finely grate the carrots using the small holes of a grater. Set aside.\n3. **Wet ingredients:** In a large bowl, whisk large egg, granulated sugar, brown sugar, canola or avocado oil, plain Greek yogurt, and vanilla extract for 3–5 minutes until blended and frothy.\n4. **Dry ingredients:** Whisk whole wheat flour, ground cinnamon, baking powder, baking soda, and sea salt together, then fold gently into the wet mixture with a spatula.\n5. **Fold:** Add carrots and walnuts or pecans. Fold until just combined; do not overmix.\n6. **Bake:** Pour into the prepared pan and tap lightly to remove air bubbles. Bake for 25–30 minutes until a toothpick comes out clean. Pan dimensions and baking time do not multiply with the ingredient scale; use additional pans for larger batches.\n7. **Cool:** Let cool in the pan for 10 minutes, then transfer to a wire rack.\n",
+    "after": "\n## Chef's Note\n\nFine carrot shreds distribute through the whole-wheat crumb, while the full oil and yogurt amounts keep the mixture rich. Whisk the wet ingredients thoroughly, then fold the flour mixture gently until moistened and mix in all the carrots and nuts. Give the baked cake its pan rest before lifting it; cool it completely before adding cream-cheese frosting or wrapping for storage.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 375°F / 190°C. Line an 8-inch square pan with parchment for the original batch.\n2. **Grate:** Wash and peel the carrots. Finely grate the carrots using the small holes of a grater. Use the listed weight; the original two-large-carrot description is only a shopping guide.\n3. **Wet ingredients:** In a large bowl, whisk large egg, granulated sugar, brown sugar, canola or avocado oil, plain Greek yogurt, and vanilla extract for about 3–5 minutes until thoroughly blended and frothy.\n4. **Dry ingredients:** Whisk whole wheat flour, ground cinnamon, baking powder, baking soda, and sea salt together to distribute the leaveners and spice, then fold gently into the wet mixture until moistened without dry flour pockets.\n5. **Fold:** Add carrots and walnuts or pecans. Fold gently until evenly distributed, stopping once combined.\n6. **Bake:** Spread the batter evenly in the prepared pan and tap lightly. Load only once the oven has reached 375°F / 190°C. Begin checking at about 25–30 minutes: the center should be set, spring back gently and give a tester without wet batter. Continue as needed; pan material, filling depth and oven temperature affect the time. Pan dimensions and baking time do not multiply with ingredient scale; use suitable smaller pans or additional pans to keep similar filling depth.\n7. **Cool:** Let stand in the pan for 10 minutes, then lift gently onto a wire rack. Cool completely before frosting or wrapping; warm serving after the pan rest is also an option.\n"
+  },
+  "findings": [
+    {
+      "id": "breakfast-carrot-cake-1",
+      "title": "Authored instructions and elapsed rest",
+      "field": "Authored instructions and elapsed rest",
+      "rationale": "The existing post-bake rest follows the prep/bake clocks. Edit authored steps and compile ingredients/yield/directions together while preserving all formula quantities and IDs.",
+      "confidence": "high",
+      "applicableSources": ["https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/"],
+      "sourceApplicability": "The existing post-bake rest follows the prep/bake clocks. Edit authored steps and compile ingredients/yield/directions together while preserving all formula quantities and IDs.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "breakfast-carrot-cake-2",
+      "title": "Unsupported nutritional and carrot claim",
+      "field": "Unsupported nutritional and carrot claim",
+      "rationale": "Source supports fine grating and gentle folding, not a verified protein/nutrition claim or a universal coarse-shred water-release rule.",
+      "confidence": "high",
+      "applicableSources": ["https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/"],
+      "sourceApplicability": "Source supports fine grating and gentle folding, not a verified protein/nutrition claim or a universal coarse-shred water-release rule.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "breakfast-carrot-cake-3",
+      "title": "Quantified alternatives",
+      "field": "Quantified alternatives",
+      "rationale": "Complete original/publisher review supports these separate methods; retain complete current base formula. Unspecified raisin/puree/pan and ambiguous all-brown ideas are not converted into invented measured variants.",
+      "confidence": "high for documented amounts; moderate for untested variation outcomes",
+      "applicableSources": ["https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/"],
+      "sourceApplicability": "Complete original/publisher review supports these separate methods; retain complete current base formula. Unspecified raisin/puree/pan and ambiguous all-brown ideas are not converted into invented measured variants.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Clarify intended all-brown sugar amount and any raisin/puree/alternate-pan formulation."
+      ]
+    },
+    {
+      "id": "breakfast-carrot-cake-4",
+      "title": "Bounded preheat timing clarification",
+      "field": "Bounded preheat timing clarification",
+      "rationale": "The prior proposal already begins preheating at the stated temperature. Its elapsed planning range excludes heating that remains after preparation. Qualify the subtotal without inventing an oven heat-up duration, and require the oven to reach its setting before loading. All bake, rest and chill windows remain; the biscuit 400°F then 350°F transition is unchanged.",
+      "confidence": "High for stated temperature/order and conditional elapsed-time arithmetic; oven heat-up duration and whole planning ranges remain unmeasured.",
+      "applicableSources": [
+        {
+          "type": "retained original/current and prior independently inspected candidate",
+          "sourceUrl": "https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/",
+          "applicability": "The written 375°F / 190°C setting and existing bake/rest/chill plan, not a tested oven heat-up duration."
+        },
+        {
+          "type": "editorial process dependency",
+          "applicability": "Preheating can run during preparation; only actual overlap reduces elapsed time. Any additional heating extends the stated preparation/bake/rest subtotal. No FDA/USDA timing validation or household oven measurement."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual oven heating that remains after preparation with the intended oven and batch."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "retainedGitIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/breakfast-carrot-cake.md",
+    "originalSha256": "17c038595b8d2a01aff20b4c163e4dd183cb9721fd62cde83194e4d2b40ee1e3",
+    "nativeLineage": "No original native archive digest/stable-UID lineage was established for this batch; committed originals and identified publishers are the evidence, without native certification.",
+    "externalPublisher": "https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/",
+    "followedHistory": "Complete actual followed history reviewed; retained privately."
+  },
+  "sourceDisagreements": [
+    "045e5ba2/current formula specify 250 g carrot/about two large; current publisher ingredient card says one cup/two large. Those are not established equivalents. Preserve 250 g, and treat the count as context.",
+    "Original ingredient list says half teaspoon cinnamon while its repeated method says quarter teaspoon; current structured half teaspoon remains. Original “baking salt” is resolved to baking soda by original methods and accepted current formula; no acid/leavener normalization is proposed.",
+    "69022e6d replaced optional yogurt/applesauce, spice and nuts language with the current base and removed a block of alternatives. No individual accepted review establishes a deliberate household removal. Restore quantitatively stated alternatives in substitutions; optional raisins and pureed-carrot/other-pan ideas remain private questions because their amounts/geometry are unspecified.",
+    "The all-brown-sugar note says skip white sugar without saying whether to replace its amount. Do not invent a half-cup brown-sugar variant or silently reduce the base total; clarification remains required for that optional variant.",
+    "251160d5 has a merge-related title but its actual carrot recipe diff only changes an occasion tag; it does not establish an intentional brown-sugar formula decision. 306e8136 deliberately removes duplicate serving panels; the frozen frosting pairing is preserved."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "ingredient": "--- Cake ---",
+        "destination": "component divider, not food"
+      },
+      {
+        "ingredient": "250 g carrots, finely grated; about 2 large carrots at the original batch size",
+        "destination": "grate step 2→fold 5"
+      },
+      {
+        "ingredient": "1 1/4 cups whole wheat flour",
+        "destination": "dry step 4"
+      },
+      {
+        "ingredient": "1 large egg",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1/4 cup granulated sugar",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1/4 cup brown sugar, packed",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1/2 cup canola or avocado oil",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1/3 cup plain Greek yogurt",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1 tsp vanilla extract",
+        "destination": "wet step 3"
+      },
+      {
+        "ingredient": "1/2 tsp ground cinnamon",
+        "destination": "dry step 4"
+      },
+      {
+        "ingredient": "3/4 tsp baking powder",
+        "destination": "dry step 4"
+      },
+      {
+        "ingredient": "1/2 tsp baking soda",
+        "destination": "dry step 4"
+      },
+      {
+        "ingredient": "1/4 tsp sea salt",
+        "destination": "dry step 4"
+      },
+      {
+        "ingredient": "1/4 cup walnuts or pecans, chopped",
+        "destination": "fold step 5"
+      }
+    ],
+    "current": [
+      {
+        "ingredient": "cake.carrots",
+        "name": "carrots",
+        "quantity": {
+          "amount": 250,
+          "unit": "g"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.flour",
+        "name": "whole wheat flour",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.brown-sugar",
+        "name": "brown sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.oil",
+        "name": "canola or avocado oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.yogurt",
+        "name": "plain Greek yogurt",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.vanilla",
+        "name": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.baking-powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.baking-soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "cake.nuts",
+        "name": "walnuts or pecans",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "additionalAllowances": []
+  },
+  "processGraph": [
+    {
+      "stage": "preheat/grate/wet whisk",
+      "state": "250 g fine prepared carrot; rich wet ingredients blended",
+      "time": "within about 15 min preparation; wet whisk 3–5 min; start heating to 375°F / 190°C during preparation; any heating remaining before loading adds elapsed time"
+    },
+    {
+      "stage": "dry/fold",
+      "state": "whole flour/leaveners/spice moistened; all carrot/nuts distributed",
+      "time": "gentle complete folding within preparation"
+    },
+    {
+      "stage": "bake",
+      "state": "8-inch square original geometry; set center/no wet tester batter; load only at 375°F / 190°C",
+      "time": "25–30 min first check, extend to endpoint"
+    },
+    {
+      "stage": "rest/rack",
+      "state": "delicate crumb firms enough to lift; fully cool for frosting/storage",
+      "time": "10 min pan rest plus further cooling when needed"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "variant": "applesauce",
+      "replacement": "same listed yogurt volume, original1/3cup",
+      "destination": "cake.wet",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "AP or half AP/whole wheat",
+      "replacement": "same total listed flour volume, original1.25cups",
+      "destination": "cake.dry",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "nutmeg",
+      "replacement": "same listed cinnamon amount, original1/2tsp",
+      "destination": "cake.dry",
+      "otherIngredients": "unchanged; source method/card spice conflict disclosed"
+    },
+    {
+      "variant": "nut omission",
+      "replacement": "omit cake.nuts, no substitute quantity",
+      "destination": "fold stage continues with all carrots",
+      "otherIngredients": "unchanged"
+    },
+    {
+      "variant": "eggless",
+      "replacement": "original12piece batch: omit1egg; use1/2cup yogurt/applesauce instead of1/3cup; scale both changes",
+      "destination": "cake.wet",
+      "otherIngredients": "unchanged; texture/timing untested"
+    },
+    {
+      "variant": "milk alternative",
+      "replacement": "original12piece batch:1/4cup milk instead of1/3cup yogurt; scale replacement",
+      "destination": "cake.wet",
+      "otherIngredients": "unchanged; texture/timing untested"
+    }
+  ],
+  "heldOptionalVariants": [
+    "Ambiguous all-brown sugar total",
+    "Unmeasured optional raisins",
+    "Pureed carrot altered consistency",
+    "Unspecified round/loaf dimensions and timing"
+  ],
+  "relationships": {
+    "pairsWith": ["favorite-cream-cheese-frosting"],
+    "bodyRecipeLinks": [],
+    "incomingMeals": [],
+    "scope": "Preserved pairings remain suggestions. Incoming composed meals require root review of service timing and quantities; this candidate does not accept them."
+  },
+  "ratiosYieldAndCapacity": "Every authored ingredient ID, quantity, use share and twelve-piece yield remains unchanged: 250 g carrots, 1.25 cups whole-wheat flour, one egg, quarter cup each granulated and brown sugar, half cup oil, one-third cup Greek yogurt, all vanilla/cinnamon/leaveners/salt, quarter cup nuts. The 8-inch square/375°F–190°C conversion and pan-scale repair remain. No arbitrary flour mass, final batter volume or tested pan capacity is invented. Optional variations are separate from the complete base formula and have source-specific original-batch context.",
+  "preservedPriorRepairs": [
+    "1c84b8bd authored formula conversion preserves 250 g carrot and all current amounts, corrects 375°F to 190°C, retains 8-inch square geometry and explains pan/time scaling. These remain intact."
+  ],
+  "remainingQuestions": [
+    "Record actual 250 g prepared-carrot batch volume and finished depth in the household 8-inch square pan.",
+    "Compare crumb and center timing for the quantitatively documented eggless/applesauce/milk alternatives before claiming equal yield or lift.",
+    "Clarify whether the all-brown variant replaces the white-sugar measure or simply omits it.",
+    "Obtain measured raisin/pureed-carrot and loaf/round-pan variations before adding them to the formula."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

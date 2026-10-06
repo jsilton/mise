@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 303,
-    "completeEditorialPending": 340,
+    "recordedCompleteEditorial": 314,
+    "completeEditorialPending": 329,
     "originalBaseline": 612,
-    "originalReviewed": 288,
+    "originalReviewed": 299,
     "consideredConsolidations": 10,
-    "originalPending": 314,
+    "originalPending": 303,
     "additionalSources": 41,
     "additionalReviewed": 15,
     "additionalPending": 26,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 303,
+      "editoriallyReviewed": 314,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 633
+      "reviewItems": 611
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "69 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 303 recorded complete / 340 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s ten accepted source versions match exact remote commit [2f3e85d1](https://github.com/jsilton/mise/commit/2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37405962070) and all ten live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "69 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -298,18 +298,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Mykidslickthebowl.com",
       "sourceUrl": "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -317,19 +306,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/apple-banana-and-carrot-muffin.md",
+        "acceptedSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/apple-banana-and-carrot-muffin.json",
+        "sourceSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh current apple/carrot/banana and record batter volume, standard/mini cup count and central bake time.",
+        "Compare raw-grated versus cooked-puréed texture at unchanged counts/fat and record simmer/purée cooling time.",
+        "Check pan release, complete serving/storage cooling and airtight freezer/thaw behavior."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -345,18 +341,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Fitfoodiefinds.com",
       "sourceUrl": "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -364,19 +349,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/apple-chai-oatmeal-cups.md",
+        "acceptedSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/apple-chai-oatmeal-cups.json",
+        "sourceSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual batter volume, twelve-well fit and finished cup count with the household tin.",
+        "Check the current ginger/nutmeg/allspice blend against the older recipe without silently changing it.",
+        "Record center doneness and texture after the ten-minute tin rest and refrigerated service."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1191,18 +1183,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Hamilton Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -1213,12 +1194,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/banana-nut-bread.md",
+        "acceptedSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/banana-nut-bread.json",
+        "sourceSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -1232,12 +1219,13 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh the mash from three large bananas to check the inherited approximate 375 g total.",
+        "Record pan material, batter depth, center condition at 55 minutes, finish time and complete cooling in the 9 x 5 x 3-inch pan.",
+        "Compare walnut and toasted sunflower versions at the unchanged half-cup amount.",
+        "Resolve the kosher-salt crystal type if spoon measurement changes seasoning."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1256,18 +1244,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Runningwithspoons.com",
       "sourceUrl": "http://www.runningwithspoons.com/2014/06/24/banana-oat-greek-yogurt-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1275,19 +1252,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/banana-oat-greek-yogurt-muffins.md",
+        "acceptedSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/banana-oat-greek-yogurt-muffins.json",
+        "sourceSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh mash from the current two-large-banana adaptation and record batter volume/cup count at three-quarter fill.",
+        "Record machine power/blending time, liner release and center doneness in the 15–20-minute window.",
+        "Check refrigerator/freezer texture and thawing without asserting a three-month texture guarantee."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2070,18 +2054,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/baked-oatmeal-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2089,19 +2062,29 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/blueberry-baked-oatmeal.md",
+        "acceptedSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/blueberry-baked-oatmeal.json",
+        "sourceSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual filling depth and finished six-portion size in the 9-inch square household dish.",
+        "Compare fresh and frozen berry center timing and full butter finish.",
+        "Confirm desired bottom/topping distribution without making a new cup-to-ounce equivalence.",
+        "Clarify the documented two-flax-egg preparation and liquid allocation before authoring that branch.",
+        "Confirm current nutmeg omission and one-teaspoon vanilla preference without inferring deliberate household removal from the bulk edit.",
+        "Record center texture/timing for the separate honey, coconut-oil and alternate-fruit options."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2117,18 +2100,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Mykidslickthebowl.com",
       "sourceUrl": "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2136,19 +2108,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/blueberry-banana-pancake-muffins.md",
+        "acceptedSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/blueberry-banana-pancake-muffins.json",
+        "sourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure full batter volume and actual well capacity/count with the current two large bananas.",
+        "Record banana edible mass, cottage moisture, center doneness and normal settling after rest.",
+        "Measure berry volume versus actual count rather than asserting four-to-five is equivalent."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2219,18 +2198,7 @@
       "baseline": "original canonical",
       "source": "Adapted from myfussyeater.com",
       "sourceUrl": "https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/?fbclid=IwAR13JrU7Ex3syixlLB4WnakqHoubzLDS_l6q-jsruiyBjxFBfag6CsigWrc",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2238,19 +2206,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/blueberry-oat-breakfast-bars.md",
+        "acceptedSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/blueberry-oat-breakfast-bars.json",
+        "sourceSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual slab depth and bar size with the household pan.",
+        "Compare firmness after one hour and overnight with the household fat/nut-butter products.",
+        "Check freezing and thawing texture with the drizzle kept separate."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2504,18 +2479,7 @@
       "baseline": "original canonical",
       "source": "Adapted from southerneatsandgoodies.com",
       "sourceUrl": "https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2523,19 +2487,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/breakfast-carrot-cake.md",
+        "acceptedSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/breakfast-carrot-cake.json",
+        "sourceSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual 250 g prepared-carrot batch volume and finished depth in the household 8-inch square pan.",
+        "Compare crumb and center timing for the quantitatively documented eggless/applesauce/milk alternatives before claiming equal yield or lift.",
+        "Clarify whether the all-brown variant replaces the white-sugar measure or simply omits it.",
+        "Obtain measured raisin/pureed-carrot and loaf/round-pan variations before adding them to the formula."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2603,18 +2575,7 @@
       "baseline": "original canonical",
       "source": "Adapted from nourishedbynic.com",
       "sourceUrl": "https://nourishedbynic.com/breakfast-protein-biscuits/#recipe",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2622,19 +2583,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/breakfast-protein-biscuits.md",
+        "acceptedSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/breakfast-protein-biscuits.json",
+        "sourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure full dough mass/volume, twelve equal portion size and sheet spacing without discarding dough.",
+        "Record center cooking under the two-stage heat method and different oven loads.",
+        "Confirm intended two-teaspoon salt level against current publisher’s one-teaspoon card without silently changing it.",
+        "Record active chopping/shaping and total service/cooling time."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2994,18 +2963,7 @@
       "baseline": "original canonical",
       "source": "Adapted from callascleaneats.com",
       "sourceUrl": "https://callascleaneats.com/brownie-baked-oatmeal/?fbclid=IwAR2VKrSER7sJi1jVPn6a_PYxugV2UovjxV3cvglcpsFunAu6yr3Ektjl5Ws",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3013,19 +2971,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/brownie-baked-oatmeal.md",
+        "acceptedSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/brownie-baked-oatmeal.json",
+        "sourceSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure edible banana mass, full batter volume and actual oven-safe ramekin capacity/headroom.",
+        "Record center temperature/texture and time for the household vessel.",
+        "Compare cocoa type and banana ripeness before making a chemical-rise claim."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13104,18 +13069,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/healthy-banana-bread-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13123,19 +13077,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/healthy-banana-bread.md",
+        "acceptedSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/healthy-banana-bread.json",
+        "sourceSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record doneness/cooling with honey versus maple and optional chips/walnuts in 9 x 5 inches.",
+        "Check the twelve-slice plan without importing publisher ten or claiming a weighed yield.",
+        "Confirm flour type and even soda distribution; do not adjust soda from generic acid rules."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

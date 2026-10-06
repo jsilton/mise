@@ -1,0 +1,1110 @@
+{
+  "slug": "apple-banana-and-carrot-muffin",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "277cd78159c7f67594b862f22a7545cb9ee108bcba0f6ae138a7e8a1b1990172",
+  "acceptedSourceSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "simmer", "boil"],
+      "after": ["bake", "mix", "simmer", "blend"]
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–25 min (standard muffins; check the center)"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 50 min (standard muffins, includes cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "12 muffins",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 Apple, finely grated (not pureed)",
+        "1 large Carrot, finely grated",
+        "1 large Banana, mashed",
+        "2 large Eggs",
+        "3 tbsp Unsalted Butter, melted",
+        "1 1/4 cups All-Purpose Flour",
+        "1 1/2 tsp Baking Powder",
+        "1 tsp Vanilla Extract",
+        "1/2 tsp Cinnamon",
+        "Pinch of Salt"
+      ],
+      "after": [
+        "--- Batter ---",
+        "butter or neutral oil, for greasing the muffin cups",
+        "water, a little, for simmering the cooked-fruit variation, optional",
+        "1 apple, cored and finely grated for the raw-fruit method",
+        "1 large carrot, finely grated for the raw-fruit method",
+        "1 large banana, peeled and mashed",
+        "2 large eggs",
+        "3 tbsp unsalted butter, melted and cooled to lukewarm",
+        "1 tsp vanilla extract",
+        "1 1/4 cups all-purpose flour",
+        "1 1/2 tsp baking powder",
+        "1/2 tsp ground cinnamon",
+        "salt, a pinch"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 110,
+        "protein": 2.5,
+        "carbs": 16.5,
+        "fat": 4,
+        "fiber": 1.5,
+        "sugar": 4,
+        "sodium": 290
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": [
+        "muffin-tin",
+        "fine-grater",
+        "mixing-bowl",
+        "cooling-rack",
+        "saucepan-for-variation",
+        "blender-for-variation"
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Batter",
+            "ingredients": [
+              {
+                "id": "pan-fat",
+                "key": "pan-fat",
+                "name": "butter or neutral oil",
+                "allowance": "for greasing the muffin cups",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "variation-water",
+                "key": "variation-water",
+                "name": "water",
+                "allowance": "a little, for simmering the cooked-fruit variation",
+                "optional": true,
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "apple",
+                "key": "apple",
+                "name": "apple",
+                "plural": "apples",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "cored and finely grated for the raw-fruit method",
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "carrot",
+                "key": "carrot",
+                "name": "large carrot",
+                "plural": "large carrots",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "finely grated for the raw-fruit method",
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "banana",
+                "key": "banana",
+                "name": "large banana",
+                "plural": "large bananas",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "peeled and mashed",
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "preparation": "melted and cooled to lukewarm",
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare the oven and tin",
+            "text": "Preheat the oven to 350°F and set out {{ingredients}} for preparation. Grease a standard 12-cup muffin tin with the pan fat; use the water only for the cooked-fruit variation below. Melt the batter butter and let it cool to lukewarm. For the cooked-fruit variation below, prepare the apple and carrot before making the wet mixture."
+          },
+          {
+            "id": "fruit",
+            "title": "Prepare the grated fruit",
+            "text": "Use the {{ingredients}}, grating with the fine holes of a box grater. Squeeze off excess free juice; keep the shreds damp rather than trying to dry them completely."
+          },
+          {
+            "id": "wet",
+            "title": "Combine the wet ingredients",
+            "text": "Whisk the {{ingredients}} in a large bowl until evenly combined, then stir in the prepared apple and carrot."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "Whisk the {{ingredients}} in a separate bowl so the baking powder and seasonings are distributed."
+          },
+          {
+            "id": "combine",
+            "title": "Fold and portion",
+            "text": "Gently fold the dry mixture into the wet just until no dry flour pockets remain. The original batch makes about 12 standard muffins; for different quantities, use more or fewer standard cups at approximately the same portion size, rather than spreading every batch across twelve cups. Fruit size affects the batter volume; use extra prepared cups if necessary rather than filling to the rim."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake for about 20–25 minutes, starting the center check at 20 minutes. The tops should be set and a tester through the central crumb should have no wet batter; continue baking if needed. Let the muffins stand briefly until firm enough to lift out, then transfer carefully to a rack. Cool before serving and cool completely before packing."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Prepare the fruit consistently and use the mixing method for the chosen version.",
+        "outcome": "Soft apple-carrot-banana muffins with small grated pieces in the primary version, or a smoother fruit crumb in the cooked variation, and no wet batter at the center.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use a fine grater for the raw-fruit version; large coarse pieces give a different texture. Squeeze off free juice but leave the shreds damp.",
+          "Use a standard muffin tin for the primary bake. Mini cups and the cooked-fruit version have their own starting checks.",
+          "Cool melted butter to lukewarm before combining it with eggs. For the cooked-fruit version, cool the fruit to room temperature before blending, following the blender instructions; serve the muffins only after cooling."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The fruit is finely grated and damp, without free juice dripping from it.",
+            "why": "Fruit preparation affects moisture and the size of pieces in the finished crumb."
+          },
+          {
+            "step": 5,
+            "cue": "The raw-fruit batter has no dry flour pockets after brief folding.",
+            "why": "Once the flour is hydrated, unnecessary beating can toughen this version."
+          },
+          {
+            "step": 6,
+            "cue": "The tops are set and the central crumb has no wet batter.",
+            "why": "The first checking time is a starting point; fruit size and muffin size affect the bake."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Raw-fruit muffins have coarse pieces",
+            "cause": "The apple or carrot was grated on large holes.",
+            "fix": "Use the fine holes next time, or choose the cooked and puréed variation for a smoother fruit mixture."
+          },
+          {
+            "problem": "Centers are wet although tops are set",
+            "cause": "The fruit was very juicy or the cups were filled too deeply.",
+            "fix": "Continue baking and test central crumb again; control free juice and use extra cups for extra batter next time."
+          },
+          {
+            "problem": "Muffins fall apart during removal",
+            "cause": "They were lifted before the crumb was firm enough.",
+            "fix": "Let them stand briefly in the tin, then loosen gently and cool on a rack before serving."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Melted butter",
+            "alternative": "Mild vegetable oil, using the same listed amount",
+            "effect": "This retained dairy-free choice changes the flavor while preserving the listed fat amount: three tablespoons in the original batch."
+          },
+          {
+            "ingredient": "Raw grated apple and carrot",
+            "alternative": "The cooked-fruit variation below",
+            "effect": "The purée gives a smoother fruit texture; cooling and the mixing/baking schedule change. Keep the listed flour, eggs and fat."
+          }
+        ],
+        "timing": "Allow about 50 minutes for standard raw-fruit muffins: roughly 15 minutes preparation, 20–25 minutes baking and about 10 minutes cooling before serving. Complete cooling before packing can take longer. Mini muffins start checking around 15 minutes; the cooked-fruit version adds a 5–6 minute simmer plus purée cooling and starts checking standard muffins at 25–30 minutes. Extra cups or oven batches extend elapsed time.",
+        "storage": "Cool completely, then keep airtight for up to 3 days or freeze airtight for longer storage, separating the muffins before packing. Thaw wrapped and warm gently if desired. Discard moldy muffins; do not seal the batch while warm.",
+        "sources": [
+          {
+            "title": "Stacey — ABC Baby Muffins, My Kids Lick The Bowl",
+            "url": "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/"
+          },
+          {
+            "title": "Nicolet College — Professional Baking: Quick Breads",
+            "url": "https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/"
+          },
+          {
+            "title": "Annabelle Shippee — How can I freeze my bread?, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe common flaw in \"Healthy\" muffins is a gummy, dense texture. We solve this by **Grating, not Simmering**. Grate the apple and carrot finely before adding them to the batter. This preserves the structural integrity of the fruit and veg, providing a lighter crumb and a fresher flavor profile. Note: this recipe is crafted for children - keep toppings simple, avoid nuts for young eaters, and skip delicate herb garnishes.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Grease a 12-cup muffin tin.\n2.  **The Veg:** Grate the apple and carrot using the fine holes of a box grater. Squeeze out any excess juice (drink it!).\n3.  **Wet:** In a large bowl, whisk the mashed banana, eggs, melted butter, vanilla, grated apple, and grated carrot.\n4.  **Dry:** In a separate bowl, whisk the flour, baking powder, cinnamon, and salt.\n5.  **Fold:** Gently fold the dry ingredients into the wet until **just combined**. Do not over-mix, or the muffins will be tough.\n6.  **Bake:** Portion into the tin. Bake for 20-25 minutes (standard) or 15 minutes (mini) until a tester comes out clean.\n7.  **Rest:** Cool on a wire rack.\n\n## Cooking Notes\n\nFor a dairy-free version, replace melted butter with the same amount of mild vegetable oil. The added fat makes the crumb softer and helps it stay soft. Mini muffins bake faster than the standard-size batch; start checking at about 15 minutes.\n",
+    "after": "\n## Chef's Note\n\nFinely grated apple and carrot give these banana muffins small pieces of fruit through the crumb. Fold the flour only until moistened and check the center, since fruit size changes both moisture and batter volume. For a smoother, soft crumb, use the cooked-fruit variation below.\n\n## Directions\n\n1. **Prepare the oven and tin:** Preheat the oven to 350°F and set out butter or neutral oil and water (if using) for preparation. Grease a standard 12-cup muffin tin with the pan fat; use the water only for the cooked-fruit variation below. Melt the batter butter and let it cool to lukewarm. For the cooked-fruit variation below, prepare the apple and carrot before making the wet mixture.\n2. **Prepare the grated fruit:** Use the apple and large carrot, grating with the fine holes of a box grater. Squeeze off excess free juice; keep the shreds damp rather than trying to dry them completely.\n3. **Combine the wet ingredients:** Whisk the large banana, large eggs, unsalted butter, and vanilla extract in a large bowl until evenly combined, then stir in the prepared apple and carrot.\n4. **Mix the dry ingredients:** Whisk the all-purpose flour, baking powder, ground cinnamon, and salt in a separate bowl so the baking powder and seasonings are distributed.\n5. **Fold and portion:** Gently fold the dry mixture into the wet just until no dry flour pockets remain. The original batch makes about 12 standard muffins; for different quantities, use more or fewer standard cups at approximately the same portion size, rather than spreading every batch across twelve cups. Fruit size affects the batter volume; use extra prepared cups if necessary rather than filling to the rim.\n6. **Bake and cool:** Bake for about 20–25 minutes, starting the center check at 20 minutes. The tops should be set and a tester through the central crumb should have no wet batter; continue baking if needed. Let the muffins stand briefly until firm enough to lift out, then transfer carefully to a rack. Cool before serving and cool completely before packing.\n\n## Cooking Notes\n\nThese muffins are intended for children; keep toppings simple and skip delicate herb garnishes.\n\nFor mini muffins, use prepared mini cups and begin checking around 15 minutes; the original batch makes about 30 minis, depending on cup size and fruit volume. Keep the same no-wet-batter center cue and cool before serving. Replace the butter with the same listed quantity of mild vegetable oil for the dairy-free version.\n\n## Cooked Apple and Carrot Variation\n\nFor a smoother fruit mixture, peel, core and dice the apple instead of grating it. Peel and grate the carrot. Put both in a small covered saucepan with a little water, just enough to keep them from catching while they soften. Simmer for about 5–6 minutes, until the apple and carrot are soft. Let the softened fruit cool to room temperature before puréeing it with a blender used according to its instructions. Add the purée to the banana, eggs, melted butter and vanilla. Beat this wet mixture until evenly combined and lightly frothy. Add the flour, baking powder, cinnamon and salt, then beat briefly for about 30–60 seconds to make an evenly mixed batter. Portion into the prepared cups. The original batch makes about 12 standard or 30 mini muffins; different quantities need more or fewer cups at the same portion size, with extra oven batches if needed. Start checking standard muffins around 25–30 minutes, or mini muffins around 15 minutes, and continue until the centers have no wet batter. Cool as directed above. Allow extra preparation and cooling time for the cooked fruit; do not apply the raw-fruit total time to this route.\n"
+  },
+  "findings": [
+    {
+      "id": "apple-banana-and-carrot-muffin-1",
+      "title": "variant preservation",
+      "field": "variant preservation",
+      "rationale": "Preserves published adaptation while recovering the distinct source method without claiming a tested comparison.",
+      "confidence": "high for method provenance; moderate for adapted texture/timing",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/"
+      ],
+      "sourceApplicability": "Saved/current publisher supports the cooked process; current frozen adaptation supports retained raw route. Current fruit and spice counts are an acknowledged adaptation in both routes.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Compare both routes using current fruit counts; no kitchen comparison occurred."
+      ]
+    },
+    {
+      "id": "apple-banana-and-carrot-muffin-2",
+      "title": "ingredient/state allocation",
+      "field": "ingredient/state allocation",
+      "rationale": "Complete conditional preparation ledger and resolve heat dependency without inventing a cooking-water volume.",
+      "confidence": "high for preserved source amounts/state ledger; moderate for editorial cooling sequence pending actual model",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/"
+      ],
+      "sourceApplicability": "Exact source uses little water, melted fat and a stick blender; cooling before unspecified blending is a conservative editorial sequence, not source-verbatim or universal manufacturer permission.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual appliance instructions, load, cooked-fruit cooling time and retained/evaporated water remain observations."
+      ]
+    },
+    {
+      "id": "apple-banana-and-carrot-muffin-3",
+      "title": "geometry/time",
+      "field": "geometry/time",
+      "rationale": "Serve only after cooling; do not pretend the simmer/purée variant has the raw route’s elapsed time.",
+      "confidence": "moderate",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/"
+      ],
+      "sourceApplicability": "Source distinguishes standard/mini time; current raw starting window retained. Cooling allowance is editorial planning.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual fruit volume, cup count, center and cooling times."]
+    },
+    {
+      "id": "apple-banana-and-carrot-muffin-4",
+      "title": "claims/storage",
+      "field": "claims/storage",
+      "rationale": "Source storage window is retained as guidance without freeze quality or medical claim.",
+      "confidence": "moderate",
+      "applicableSources": [
+        "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/"
+      ],
+      "sourceApplicability": "Related plain fruit muffin; exact raw version shelf performance remains untested.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Confirm current raw versus puréed storage quality."]
+    },
+    {
+      "id": "apple-banana-and-carrot-muffin-5",
+      "title": "independent scaling correction",
+      "field": "formula.steps.combine.text",
+      "rationale": "Original cup count is context, not a forced count for scaled batter; preserve standard geometry and original portion size.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Current authored yield/cup geometry; peer and root-authorized correction",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "apple-banana-and-carrot-muffin-6",
+      "title": "independent scaling correction",
+      "field": "Cooked Apple and Carrot Variation",
+      "rationale": "Same scaled capacity rule applies to distinct cooked route.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Current authored yield/cup geometry; peer and root-authorized correction",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/apple-banana-and-carrot-muffin.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history; original native binding independently verified.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Saved original and attributed publisher cook/purée and briefly beat; 1684c29f introduced raw grating/squeezing with claims it was superior. Current publisher specifies fruit weights, half cup water and 50 g optional fat; saved formula says count-based fruit, little water and three tbsp fat. Keep current counts/fat, restore only the source process with the saved unmeasured water allowance. The source intentionally describes a sponge-like beaten version, so the generic muffin no-beating rule is not applied to that alternative. The exact native original uses a stick blender. Room-temperature cooling before an unspecified blender is the separately authorized conservative editorial sequencing, not source verbatim or a universal machine rule. It adds no liquid, numerical temperature, load limit or cooling duration; existing extra-cooling allowance remains.",
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1 Apple, finely grated (not pureed)",
+        "originalDestination": "fine grate/squeeze 2; wet 3",
+        "proposedIngredientIds": ["batter.apple"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.apple",
+            "step": "fruit",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 large Carrot, finely grated",
+        "originalDestination": "fine grate/squeeze 2; wet 3",
+        "proposedIngredientIds": ["batter.carrot"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.carrot",
+            "step": "fruit",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 large Banana, mashed",
+        "originalDestination": "wet 3",
+        "proposedIngredientIds": ["batter.banana"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.banana",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "wet 3",
+        "proposedIngredientIds": ["batter.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.eggs",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "3 tbsp Unsalted Butter, melted",
+        "originalDestination": "wet 3",
+        "proposedIngredientIds": ["batter.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.butter",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/4 cups All-Purpose Flour",
+        "originalDestination": "dry 4/fold 5",
+        "proposedIngredientIds": ["batter.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.flour",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 tsp Baking Powder",
+        "originalDestination": "dry 4",
+        "proposedIngredientIds": ["batter.powder"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.powder",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Vanilla Extract",
+        "originalDestination": "wet 3",
+        "proposedIngredientIds": ["batter.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.vanilla",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Cinnamon",
+        "originalDestination": "dry 4",
+        "proposedIngredientIds": ["batter.cinnamon"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.cinnamon",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "Pinch of Salt",
+        "originalDestination": "dry 4",
+        "proposedIngredientIds": ["batter.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.salt",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      }
+    ],
+    "addedOrRecovered": [
+      {
+        "ingredientId": "batter.pan-fat",
+        "quantity": null,
+        "allowance": "for greasing the muffin cups",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      },
+      {
+        "ingredientId": "batter.variation-water",
+        "quantity": null,
+        "allowance": "a little, for simmering the cooked-fruit variation",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      }
+    ],
+    "proposed": [
+      {
+        "id": "batter.pan-fat",
+        "key": "pan-fat",
+        "name": "butter or neutral oil",
+        "allowance": "for greasing the muffin cups",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.variation-water",
+        "key": "variation-water",
+        "name": "water",
+        "allowance": "a little, for simmering the cooked-fruit variation",
+        "optional": true,
+        "role": "cooking-water",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.apple",
+        "key": "apple",
+        "name": "apple",
+        "plural": "apples",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "preparation": "cored and finely grated for the raw-fruit method",
+        "uses": [
+          {
+            "step": "fruit",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.carrot",
+        "key": "carrot",
+        "name": "large carrot",
+        "plural": "large carrots",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "preparation": "finely grated for the raw-fruit method",
+        "uses": [
+          {
+            "step": "fruit",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.banana",
+        "key": "banana",
+        "name": "large banana",
+        "plural": "large bananas",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "preparation": "peeled and mashed",
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "plural": "large eggs",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.butter",
+        "key": "butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "preparation": "melted and cooled to lukewarm",
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.vanilla",
+        "key": "vanilla",
+        "name": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.flour",
+        "key": "flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.powder",
+        "key": "powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.cinnamon",
+        "key": "cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.salt",
+        "key": "salt",
+        "name": "salt",
+        "allowance": "a pinch",
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      }
+    ]
+  },
+  "processGraph": "Raw route: preheat 350°F/grease standard cups → finely grate and squeeze free juice → whisk wet plus fruit → whisk dry → brief fold → portion without rim filling → first center check 20–25 min → brief pan firming then rack cooling before serving/packing. Planning about 50 min includes approximately ten minutes serving cooling; fully cooled storage takes longer. Cooked route: dice peeled apple/grate peeled carrot → covered little-water simmer about 5–6 min until both soft → cool softened fruit to room temperature → purée using the actual blender instructions → beat wet lightly frothy → beat dry briefly 30–60 sec → standard first check 25–30 min or mini about 15 min → cool. Simmer/purée cooling and different bake extend total.",
+  "variantLedgers": {
+    "substitutions": [
+      {
+        "ingredient": "Melted butter",
+        "alternative": "Mild vegetable oil, using the same listed amount",
+        "effect": "This retained dairy-free choice changes the flavor while preserving the listed fat amount: three tablespoons in the original batch."
+      },
+      {
+        "ingredient": "Raw grated apple and carrot",
+        "alternative": "The cooked-fruit variation below",
+        "effect": "The purée gives a smoother fruit texture; cooling and the mixing/baking schedule change. Keep the listed flour, eggs and fat."
+      }
+    ],
+    "notes": "For mini muffins, use prepared mini cups and begin checking around 15 minutes; the original batch makes about 30 minis, depending on cup size and fruit volume. Keep the same no-wet-batter center cue and cool before serving. Replace the butter with the same listed quantity of mild vegetable oil for the dairy-free version.",
+    "wholeCookedFruitVariation": "For a smoother fruit mixture, peel, core and dice the apple instead of grating it. Peel and grate the carrot. Put both in a small covered saucepan with a little water, just enough to keep them from catching while they soften. Simmer for about 5–6 minutes, until the apple and carrot are soft. Let the softened fruit cool to room temperature before puréeing it with a blender used according to its instructions. Add the purée to the banana, eggs, melted butter and vanilla. Beat this wet mixture until evenly combined and lightly frothy. Add the flour, baking powder, cinnamon and salt, then beat briefly for about 30–60 seconds to make an evenly mixed batter. Portion into the prepared cups. The original batch makes about 12 standard or 30 mini muffins; different quantities need more or fewer cups at the same portion size, with extra oven batches if needed. Start checking standard muffins around 25–30 minutes, or mini muffins around 15 minutes, and continue until the centers have no wet batter. Cool as directed above. Allow extra preparation and cooling time for the cooked fruit; do not apply the raw-fruit total time to this route.",
+    "cookedRouteIngredientDestinations": [
+      {
+        "ingredientKey": "pan-fat",
+        "listedQuantity": null,
+        "equivalents": null,
+        "allowance": "for greasing the muffin cups",
+        "routeDestination": "grease cups"
+      },
+      {
+        "ingredientKey": "variation-water",
+        "listedQuantity": null,
+        "equivalents": null,
+        "allowance": "a little, for simmering the cooked-fruit variation",
+        "routeDestination": "little-water covered apple/carrot simmer, cooked route only"
+      },
+      {
+        "ingredientKey": "apple",
+        "listedQuantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "prepare for covered simmer; cool softened fruit to room temperature before actual-instruction blending"
+      },
+      {
+        "ingredientKey": "carrot",
+        "listedQuantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "prepare for covered simmer; cool softened fruit to room temperature before actual-instruction blending"
+      },
+      {
+        "ingredientKey": "banana",
+        "listedQuantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "combine with room-temperature cooked-fruit purée; melted butter cooled to lukewarm before egg contact"
+      },
+      {
+        "ingredientKey": "eggs",
+        "listedQuantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "combine with room-temperature cooked-fruit purée; melted butter cooled to lukewarm before egg contact"
+      },
+      {
+        "ingredientKey": "butter",
+        "listedQuantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "combine with room-temperature cooked-fruit purée; melted butter cooled to lukewarm before egg contact"
+      },
+      {
+        "ingredientKey": "vanilla",
+        "listedQuantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "combine with room-temperature cooked-fruit purée; melted butter cooled to lukewarm before egg contact"
+      },
+      {
+        "ingredientKey": "flour",
+        "listedQuantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "dry ingredients briefly beaten into cooked-route wet mixture"
+      },
+      {
+        "ingredientKey": "powder",
+        "listedQuantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "dry ingredients briefly beaten into cooked-route wet mixture"
+      },
+      {
+        "ingredientKey": "cinnamon",
+        "listedQuantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "equivalents": null,
+        "allowance": null,
+        "routeDestination": "dry ingredients briefly beaten into cooked-route wet mixture"
+      },
+      {
+        "ingredientKey": "salt",
+        "listedQuantity": null,
+        "equivalents": null,
+        "allowance": "a pinch",
+        "routeDestination": "dry ingredients briefly beaten into cooked-route wet mixture"
+      }
+    ],
+    "editorialSequencing": {
+      "kind": "conservative editorial sequence under root authorization",
+      "nativeSourceUsesStickBlender": true,
+      "householdBlenderModelEstablished": false,
+      "extraLiquidAdded": false,
+      "numericTemperatureAdded": false,
+      "loadLimitAdded": false,
+      "coolingDurationAdded": false,
+      "primaryRawFormulaAndRouteUnchanged": true
+    }
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [
+      {
+        "slug": "chicken-and-wild-rice-soup",
+        "exists": true
+      },
+      {
+        "slug": "garlic-butter-roasted-salmon-with-potatoes-and-asparagus",
+        "exists": true
+      },
+      {
+        "slug": "good-eats-roast-turkey",
+        "exists": true
+      }
+    ],
+    "composedMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "ratiosAndState": "One apple, one large carrot, one large banana, two eggs, three tablespoons butter, 1 1/4 cups flour, 1 1/2 tsp powder, one tsp vanilla, half tsp cinnamon and a pinch of salt remain exactly measured/count-based as input. Fruit weights and batter mass are unknown rather than imported from the newer publisher. The raw grated version retains free-juice squeezing and brief final folding. The cooked variation retains these current counts and spices; it is a process alternative, not an exact recreation of the publisher’s newer fruit weights or 50 g fat.",
+    "yieldAndPan": "Twelve standard pieces is the inherited yield estimate, and about thirty mini muffins remains a distinct size alternative. Fruit size and actual cup size affect count; extra cups are preferable to overfilling. Half/double arithmetic preserves all fruit counts/eggs/fat; fractional fruit is a measurement task, not an instruction to use an entire large fruit in the half batch. No precise scoop weight or cup capacity is invented."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Weigh current apple/carrot/banana and record batter volume, standard/mini cup count and central bake time.",
+    "Compare raw-grated versus cooked-puréed texture at unchanged counts/fat and record simmer/purée cooling time.",
+    "Check pan release, complete serving/storage cooling and airtight freezer/thaw behavior."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

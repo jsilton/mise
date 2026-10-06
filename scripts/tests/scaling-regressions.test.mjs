@@ -130,6 +130,25 @@ for (const row of confirmed) {
             assert.match(scaled, /12 oz total in the original two-bunch batch/);
           }
         }
+      } else if (row.slug === 'banana-nut-bread' && row.caseId === 2) {
+        // Retain the original parser input and every numeric oracle below.
+        // The formula keeps both the three-banana count and approximate total grams.
+        assert.equal(data.formula?.version, 1);
+        const ingredient = data.formula.components
+          .find((c) => c.id === 'batter')
+          .ingredients.find((i) => i.id === 'bananas');
+        assert.deepEqual(ingredient.quantity, { amount: 3, unit: 'count' });
+        assert.deepEqual(ingredient.equivalents, [{ amount: 375, unit: 'g' }]);
+        assert.match(ingredient.preparation, /gram equivalent is an approximate total/);
+        assert.deepEqual(ingredient.uses, [{ step: 'banana', share: 1 }]);
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(ingredient, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [3 * factor, 375 * factor]
+          );
+        }
+        assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
       } else if (
         (row.slug === 'chicken-quesadillas-with-quick-pico' && row.caseId === 12) ||
         (row.slug === 'herby-chicken-meatball-bowl' && row.caseId === 37)

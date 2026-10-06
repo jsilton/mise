@@ -1,0 +1,996 @@
+{
+  "slug": "healthy-banana-bread",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "2333d69ff74ed99c69bc6847b5dbc9b0faac561480387753a63adaee347a632d",
+  "acceptedSourceSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "blend"],
+      "after": ["bake", "mix"]
+    },
+    {
+      "field": "equipment",
+      "before": ["loaf-pan", "blender"],
+      "after": ["loaf-pan", "mixing-bowl", "cooling-rack"]
+    },
+    {
+      "field": "cookTime",
+      "before": "55 min",
+      "after": "55–60 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "65 min",
+      "after": "About 2 hr 15 min (includes complete cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "12 slices",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 3/4 cups White Whole Wheat Flour",
+        "1 cup (225g) Ripe Bananas, mashed",
+        "1/3 cup Extra-Virgin Olive Oil for depth",
+        "1/2 cup Honey or Maple Syrup",
+        "2 large Eggs",
+        "1/4 cup Milk of choice",
+        "1 tsp Baking Soda",
+        "1 tsp Pure Vanilla Extract",
+        "1/2 tsp Sea Salt",
+        "1/2 tsp Ground Cinnamon",
+        "1/2 cup Dark Chocolate Chips or Walnuts"
+      ],
+      "after": [
+        "--- Batter ---",
+        "butter or neutral oil, for greasing the pan",
+        "1/3 cup extra-virgin olive oil",
+        "1/2 cup honey or maple syrup",
+        "2 large eggs",
+        "1 cup (225 g) ripe banana, mashed",
+        "1/4 cup milk of choice",
+        "1 tsp baking soda",
+        "1 tsp vanilla extract",
+        "1/2 tsp sea salt",
+        "1/2 tsp ground cinnamon",
+        "1 3/4 cups white whole-wheat flour",
+        "1/2 cup dark chocolate chips or walnuts, chop walnuts if using, optional",
+        "ground cinnamon, a pinch for the top, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 385,
+        "protein": 4.5,
+        "carbs": 40.5,
+        "fat": 24,
+        "fiber": 4,
+        "sugar": 26,
+        "sodium": 320
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Batter",
+            "ingredients": [
+              {
+                "id": "pan-fat",
+                "key": "pan-fat",
+                "name": "butter or neutral oil",
+                "allowance": "for greasing the pan",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sweetener",
+                "key": "sweetener",
+                "name": "honey or maple syrup",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "banana",
+                "key": "banana",
+                "name": "ripe banana",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "equivalents": [
+                  {
+                    "amount": 225,
+                    "unit": "g"
+                  }
+                ],
+                "preparation": "mashed",
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "milk of choice",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "white whole-wheat flour",
+                "quantity": {
+                  "amount": "1 3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "flour",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mix-ins",
+                "key": "mix-ins",
+                "name": "dark chocolate chips or walnuts",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "preparation": "chop walnuts if using",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "mix-ins",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "topping",
+                "key": "topping",
+                "name": "ground cinnamon",
+                "allowance": "a pinch for the top",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "portion",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Preheat and grease the pan",
+            "text": "Preheat the oven to 325°F. Grease a 9-by-5-inch loaf pan for the original batch with {{ingredients}}. Measure the mashed banana before mixing."
+          },
+          {
+            "id": "liquids",
+            "title": "Whisk the wet ingredients",
+            "text": "In a large bowl whisk the {{ingredients}}, combining the oil and honey or syrup first, beating in the eggs, then whisking in the banana and milk. Whisk until evenly combined; small banana lumps may remain."
+          },
+          {
+            "id": "season",
+            "title": "Distribute the soda and seasonings",
+            "text": "Whisk in the {{ingredients}} until evenly distributed; break up any baking-soda lumps."
+          },
+          {
+            "id": "flour",
+            "title": "Fold in the flour",
+            "text": "Switch to a large spoon or spatula and fold in the {{ingredients}} until no dry pockets remain. Stop once combined; small banana lumps are fine."
+          },
+          {
+            "id": "mix-ins",
+            "title": "Add the optional mix-ins",
+            "text": "Gently fold in the {{ingredients}}."
+          },
+          {
+            "id": "portion",
+            "title": "Fill and finish the loaf",
+            "text": "Scrape the batter into the prepared pan and level it gently. Sprinkle with {{ingredients}}; run a knife tip in a shallow zigzag to swirl the topping."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake for about 55–60 minutes, checking the center at 55 minutes. A tester through the crumb should have no wet batter; try another spot if it hits melted chocolate. Continue baking if necessary and tent loosely with foil if the top darkens first. Cool in the pan on a rack for at least 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack before slicing; allow about an hour, longer if still warm."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Measure the banana and keep flour mixing brief in an oil-based loaf.",
+        "outcome": "A moist banana loaf with no wet batter at its center and slices that hold together after cooling.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The original batch uses a 9-by-5-inch loaf pan at 325°F. Measure the listed mashed banana rather than guessing a banana count; one cup is the original-batch amount.",
+          "Measure the listed batter cinnamon separately from the optional pinch on top; the original batch uses half a teaspoon in the batter.",
+          "Use a spoon or spatula after adding flour; the blender is unnecessary for the written whisked method.",
+          "The 9-by-5-inch pan is for the original batch. For multiples, make separate original-size loaves in matching pans. For smaller amounts, choose an appropriately smaller pan to keep similar batter depth with headroom and begin center checks earlier; no proportional pan dimensions or baking/cooling times are assumed."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No soda lumps remain in the wet mixture.",
+            "why": "Even distribution prevents concentrated bitter spots; this stage is mixing, not a separate spice-heating step."
+          },
+          {
+            "step": 4,
+            "cue": "No dry flour pockets remain, while small banana lumps may still be visible.",
+            "why": "Removing every lump by beating risks overworking the wheat flour."
+          },
+          {
+            "step": 7,
+            "cue": "A tester through central crumb has no wet batter and the loaf is cool before cutting.",
+            "why": "Mix-ins and pan/oven differences can extend the bake; cooling supports clean slices."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Loaf has bitter spots",
+            "cause": "Baking soda was left in lumps.",
+            "fix": "Break up and whisk the soda evenly next time. Do not add extra liquid or leavener to compensate for uneven mixing."
+          },
+          {
+            "problem": "Tester is streaked with chocolate",
+            "cause": "The probe hit a chip.",
+            "fix": "Check central crumb in another spot and distinguish melted chocolate from wet flour batter."
+          },
+          {
+            "problem": "Slices smear",
+            "cause": "The loaf was sliced warm or its center was underbaked.",
+            "fix": "Let the baked loaf cool completely before slicing; establish center doneness before it leaves the oven."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Honey",
+            "alternative": "Maple syrup, using the same listed volume",
+            "effect": "Both are retained sweetener choices; flavor and browning can differ, so use the same center check."
+          },
+          {
+            "ingredient": "Dark chocolate chips",
+            "alternative": "Walnuts, using the same listed quantity and chopping them",
+            "effect": "The retained alternative adds nutty crunch instead of melted chocolate; neither is required for the base loaf."
+          },
+          {
+            "ingredient": "Milk of choice",
+            "alternative": "A non-dairy milk at the same listed volume",
+            "effect": "The milk choice changes flavor; keep the listed eggs and oil."
+          }
+        ],
+        "timing": "Allow about 2 hours 15 minutes: around 10 minutes preparation, 55–60 minutes baking, at least 10 minutes pan cooling and about an hour on a rack. Preheat during setup. Slice only when completely cool; extra oven batches extend the schedule.",
+        "storage": "Cool completely and store airtight for 2–3 days at room temperature, 5–7 days in the refrigerator, or up to 3 months in the freezer. Freeze separated slices airtight and thaw wrapped or toast lightly before serving. Discard moldy bread.",
+        "sources": [
+          {
+            "title": "Kathryne Taylor — Banana Bread, Cookie and Kate",
+            "url": "https://cookieandkate.com/healthy-banana-bread-recipe/"
+          },
+          {
+            "title": "PJ Hamel — How to tell when banana bread is done, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done"
+          },
+          {
+            "title": "Annabelle Shippee — How can I freeze my bread?, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nReplacing butter with extra-virgin olive oil creates a healthier banana bread while maintaining moist, tender crumb - the oil's grassy notes amplify banana sweetness. Blending wet ingredients until perfectly emulsified before folding in flour prevents over-mixing the gluten, ensuring tender texture in every slice.\n\n## Directions\n\n1.  **The Emulsion:** Preheat oven to 325°F. Grease a 9x5-inch loaf pan. In a large bowl (or blender), whisk the olive oil and honey until combined. Add the eggs, mashed bananas, and milk; whisk vigorously until smooth.\n2.  **The Bloom:** Add the baking soda, vanilla, salt, and cinnamon. Whisk for 30 seconds to allow the spices to integrate into the fat.\n3.  **Incorporate:** Using a large spoon, fold in the flour until **just combined**. A few tiny lumps are the mandatory guard against toughness. Fold in chocolate chips if using.\n4.  **The Swirl:** Pour the batter into the prepared pan. Sprinkle a pinch of cinnamon on top and run a knife in a zig-zag pattern for a visual \"High Note.\"\n5.  **Bake:** Bake for 55-60 minutes until a toothpick inserted into the center comes out clean.\n6.  **Rest:** Let cool in the pan for 10 minutes, then transfer to a wire rack. Slice only once completely cool to preserve the structural integrity.\n",
+    "after": "\n## Chef's Note\n\nWhole-wheat flour, measured mashed banana and olive oil make a moist loaf sweetened with honey or maple syrup. Whisk the wet ingredients first, then fold the flour briefly and cool the loaf completely before slicing. Chocolate chips or walnuts are optional additions.\n\n## Directions\n\n1. **Preheat and grease the pan:** Preheat the oven to 325°F. Grease a 9-by-5-inch loaf pan for the original batch with butter or neutral oil. Measure the mashed banana before mixing.\n2. **Whisk the wet ingredients:** In a large bowl whisk the extra-virgin olive oil, honey or maple syrup, large eggs, ripe banana, and milk of choice, combining the oil and honey or syrup first, beating in the eggs, then whisking in the banana and milk. Whisk until evenly combined; small banana lumps may remain.\n3. **Distribute the soda and seasonings:** Whisk in the baking soda, vanilla extract, sea salt, and ground cinnamon until evenly distributed; break up any baking-soda lumps.\n4. **Fold in the flour:** Switch to a large spoon or spatula and fold in the white whole-wheat flour until no dry pockets remain. Stop once combined; small banana lumps are fine.\n5. **Add the optional mix-ins:** Gently fold in the dark chocolate chips or walnuts (if using).\n6. **Fill and finish the loaf:** Scrape the batter into the prepared pan and level it gently. Sprinkle with ground cinnamon (if using); run a knife tip in a shallow zigzag to swirl the topping.\n7. **Bake and cool:** Bake for about 55–60 minutes, checking the center at 55 minutes. A tester through the crumb should have no wet batter; try another spot if it hits melted chocolate. Continue baking if necessary and tent loosely with foil if the top darkens first. Cool in the pan on a rack for at least 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack before slicing; allow about an hour, longer if still warm.\n"
+  },
+  "findings": [
+    {
+      "id": "healthy-banana-bread-1",
+      "title": "allocation",
+      "field": "allocation",
+      "rationale": "Resolve the unassigned alternative and finishing ledger without inventing a split or amount.",
+      "confidence": "high",
+      "applicableSources": ["https://cookieandkate.com/healthy-banana-bread-recipe/"],
+      "sourceApplicability": "Same formula’s optional half-cup mix-ins and extra topping spice.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "healthy-banana-bread-2",
+      "title": "claims and process",
+      "field": "claims and process",
+      "rationale": "Source uses whisk then spoon, with no spice-heating stage or verified health superiority.",
+      "confidence": "high",
+      "applicableSources": ["https://cookieandkate.com/healthy-banana-bread-recipe/"],
+      "sourceApplicability": "Same oil-based loaf; keep fat, eggs and leavener.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "healthy-banana-bread-3",
+      "title": "time and storage",
+      "field": "time and storage",
+      "rationale": "Account for the actual graph and apply publisher storage to the matching unglazed formula.",
+      "confidence": "high for source storage; moderate for cooling clock",
+      "applicableSources": ["https://cookieandkate.com/healthy-banana-bread-recipe/"],
+      "sourceApplicability": "Same whole-wheat/oil/syrup/banana loaf.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual complete cooling and storage quality not tested."]
+    },
+    {
+      "id": "healthy-banana-bread-4",
+      "title": "classification",
+      "field": "classification",
+      "rationale": "Match the written loaf and primary process.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Current composition and method.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/healthy-banana-bread.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history; original native binding independently verified.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://cookieandkate.com/healthy-banana-bread-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Saved optional chips had no amount; later 6980 b 180 supplies half-cup chips/walnuts, matching the current publisher option. Keep that complete existing quantity. Publisher estimates about ten slices; current twelve-slice target remains an inherited cutting plan. Source permits many other flour/egg/oil choices; none is silently imported, and no health guarantee is repeated.",
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1 3/4 cups White Whole Wheat Flour",
+        "originalDestination": "fold3",
+        "proposedIngredientIds": ["batter.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.flour",
+            "step": "flour",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup (225g) Ripe Bananas, mashed",
+        "originalDestination": "wet1",
+        "proposedIngredientIds": ["batter.banana"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.banana",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/3 cup Extra-Virgin Olive Oil for depth",
+        "originalDestination": "wet1",
+        "proposedIngredientIds": ["batter.oil"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.oil",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup Honey or Maple Syrup",
+        "originalDestination": "wet1",
+        "proposedIngredientIds": ["batter.sweetener"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.sweetener",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "wet1",
+        "proposedIngredientIds": ["batter.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.eggs",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 cup Milk of choice",
+        "originalDestination": "wet1",
+        "proposedIngredientIds": ["batter.milk"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.milk",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Baking Soda",
+        "originalDestination": "season2",
+        "proposedIngredientIds": ["batter.soda"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.soda",
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Pure Vanilla Extract",
+        "originalDestination": "season2",
+        "proposedIngredientIds": ["batter.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.vanilla",
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Sea Salt",
+        "originalDestination": "season2",
+        "proposedIngredientIds": ["batter.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.salt",
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Ground Cinnamon",
+        "originalDestination": "season2",
+        "proposedIngredientIds": ["batter.cinnamon"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.cinnamon",
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup Dark Chocolate Chips or Walnuts",
+        "originalDestination": "chips fold3; walnut destination missing",
+        "proposedIngredientIds": ["batter.mix-ins"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.mix-ins",
+            "step": "mix-ins",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      }
+    ],
+    "addedOrRecovered": [
+      {
+        "ingredientId": "batter.pan-fat",
+        "quantity": null,
+        "allowance": "for greasing the pan",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      },
+      {
+        "ingredientId": "batter.topping",
+        "quantity": null,
+        "allowance": "a pinch for the top",
+        "uses": [
+          {
+            "step": "portion",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      }
+    ],
+    "proposed": [
+      {
+        "id": "batter.pan-fat",
+        "key": "pan-fat",
+        "name": "butter or neutral oil",
+        "allowance": "for greasing the pan",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.oil",
+        "key": "oil",
+        "name": "extra-virgin olive oil",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.sweetener",
+        "key": "sweetener",
+        "name": "honey or maple syrup",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "plural": "large eggs",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.banana",
+        "key": "banana",
+        "name": "ripe banana",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [
+          {
+            "amount": 225,
+            "unit": "g"
+          }
+        ],
+        "preparation": "mashed",
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.milk",
+        "key": "milk",
+        "name": "milk of choice",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.soda",
+        "key": "soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.vanilla",
+        "key": "vanilla",
+        "name": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.salt",
+        "key": "salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.cinnamon",
+        "key": "cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.flour",
+        "key": "flour",
+        "name": "white whole-wheat flour",
+        "quantity": {
+          "amount": "1 3/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "flour",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.mix-ins",
+        "key": "mix-ins",
+        "name": "dark chocolate chips or walnuts",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "preparation": "chop walnuts if using",
+        "optional": true,
+        "uses": [
+          {
+            "step": "mix-ins",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.topping",
+        "key": "topping",
+        "name": "ground cinnamon",
+        "allowance": "a pinch for the top",
+        "optional": true,
+        "role": "garnish",
+        "uses": [
+          {
+            "step": "portion",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      }
+    ]
+  },
+  "processGraph": "Preheat 325°F/grease 9 x 5-inch pan → whisk oil+sweetener, eggs, banana and milk → distribute soda/seasonings → briefly fold flour → optional mix-ins → optional cinnamon topping →55–60-min first window → at least 10-min pan cool → full rack cool → slice/store.10-min prep +55–60-min bake +10-min pan + roughly 60-min cooling gives about 2 h 15 planning, not 65 min through full cooling.",
+  "variantLedgers": {
+    "substitutions": [
+      {
+        "ingredient": "Honey",
+        "alternative": "Maple syrup, using the same listed volume",
+        "effect": "Both are retained sweetener choices; flavor and browning can differ, so use the same center check."
+      },
+      {
+        "ingredient": "Dark chocolate chips",
+        "alternative": "Walnuts, using the same listed quantity and chopping them",
+        "effect": "The retained alternative adds nutty crunch instead of melted chocolate; neither is required for the base loaf."
+      },
+      {
+        "ingredient": "Milk of choice",
+        "alternative": "A non-dairy milk at the same listed volume",
+        "effect": "The milk choice changes flavor; keep the listed eggs and oil."
+      }
+    ],
+    "notes": null,
+    "wholeCookedFruitVariation": null
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [
+      {
+        "slug": "banana-oat-greek-yogurt-muffins",
+        "exists": true
+      },
+      {
+        "slug": "almond-zucchini-bread",
+        "exists": true
+      },
+      {
+        "slug": "anadama-bread",
+        "exists": true
+      }
+    ],
+    "composedMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "ratiosAndState": "Full batch: 1 3/4 cups white whole-wheat flour, one cup/225 g banana, 1/3 cup olive oil, 1/2 cup honey or maple syrup, two eggs, 1/4 cup milk, one tsp soda, half tsp cinnamon, half tsp sea salt and optional half cup chips/walnuts. All measured amounts remain, with no added acid or butter substitution. Small moist banana lumps are compatible with folding; dry flour pockets are not required lumps.",
+    "yieldAndPan": "Twelve inherited portions remain a cutting plan, rather than the current publisher ten or a measured slice weight. Original9-by5 geometry is qualified to the original batch. Ingredient controls remain available; multiples need separate original-size pans and smaller batches appropriately smaller pans/earlier center checks, without invented dimensions or timers."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Record doneness/cooling with honey versus maple and optional chips/walnuts in 9 x 5 inches.",
+    "Check the twelve-slice plan without importing publisher ten or claiming a weighed yield.",
+    "Confirm flour type and even soda distribution; do not adjust soda from generic acid rules."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

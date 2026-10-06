@@ -1,0 +1,810 @@
+{
+  "slug": "banana-oat-greek-yogurt-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
+  "inputSha256": "708cf15213a6e1ef935065c2f018275ce4ae378fcd7e57879cd2c43d2ce8c95d",
+  "acceptedSourceSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["muffin-tin"],
+      "after": ["muffin-tin", "blender-or-food-processor", "cooling-rack"]
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 40 min (includes 10 min pan cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Plain Greek Yogurt (Full Fat)",
+        "2 large Ripe Bananas, mashed",
+        "2 cups Rolled Oats",
+        "2 large Eggs",
+        "1/4 cup Brown Sugar",
+        "1 1/2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1/2 cup Chocolate Chips (Dark chocolate preferred)"
+      ],
+      "after": [
+        "--- Batter ---",
+        "cooking spray, for greasing the muffin cups or paper liners",
+        "1 cup plain full-fat Greek yogurt",
+        "2 large ripe bananas, peeled and mashed",
+        "2 cups rolled oats",
+        "2 large eggs",
+        "1/4 cup brown sugar",
+        "1 1/2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 cup dark chocolate chips",
+        "additional chocolate chips, for sprinkling over the tops, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 255,
+        "protein": 6,
+        "carbs": 44.5,
+        "fat": 6.5,
+        "fiber": 4,
+        "sugar": 31,
+        "sodium": 200
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Batter",
+            "ingredients": [
+              {
+                "id": "pan-spray",
+                "key": "pan-spray",
+                "name": "cooking spray",
+                "allowance": "for greasing the muffin cups or paper liners",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "yogurt",
+                "key": "yogurt",
+                "name": "plain full-fat Greek yogurt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bananas",
+                "key": "bananas",
+                "name": "large ripe banana",
+                "plural": "large ripe bananas",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "peeled and mashed",
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oats",
+                "key": "oats",
+                "name": "rolled oats",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chips",
+                "key": "chips",
+                "name": "dark chocolate chips",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "chips",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-chips",
+                "key": "extra-chips",
+                "name": "additional chocolate chips",
+                "allowance": "for sprinkling over the tops",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "portion",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Preheat and prepare the pan",
+            "text": "Preheat the oven to 400°F before blending. For the original batch, prepare a standard 12-cup muffin pan with {{ingredients}}. For different quantities, prepare more or fewer standard cups, keeping the same three-quarter fill; additional tins or oven batches may be needed. If using paper liners, spray the liners too so this batter releases more easily."
+          },
+          {
+            "id": "blend",
+            "title": "Blend the oat batter",
+            "text": "Put the {{ingredients}} in a blender or food processor. Process until the oats are finely broken down and the batter is smooth and creamy, starting with about 1 minute. Stop and scrape safely as needed; use the texture rather than a fixed blending clock. For a larger batch, blend separately so the machine is not overfilled."
+          },
+          {
+            "id": "chips",
+            "title": "Fold in the chips",
+            "text": "Stir in the {{ingredients}} by hand so they remain as pieces."
+          },
+          {
+            "id": "portion",
+            "title": "Fill the muffin cups",
+            "text": "Divide the batter among the prepared cups, about three-quarters full. If the banana size leaves extra batter, use additional prepared cups rather than overfill. Add {{ingredients}} over the tops, then bake promptly."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake for about 15–20 minutes until the tops are set and a tester through the central crumb has no wet batter. Melted chocolate on the tester is different from uncooked batter; check another spot if needed. Cool in the pan on a rack for 10 minutes, then remove carefully to a rack. Cool completely before packing."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blend the oats finely while keeping the chocolate chips intact.",
+        "outcome": "Moist banana-oat muffins with a set center, finely blended oats and distinct chocolate chips.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Preheat to 400°F and prepare standard muffin cups before blending. Spray paper liners as well as bare cups because the batter has no separately added oil.",
+          "Use full-fat plain Greek yogurt and the listed bananas; extra batter needs additional cups, not deeper fills.",
+          "Keep the chips out of the blender and respect the machine’s capacity when increasing the batch."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The batter is creamy and the oats are finely broken down.",
+            "why": "Blending texture determines whether coarse oat pieces remain; one minute is only a starting point."
+          },
+          {
+            "step": 3,
+            "cue": "Chocolate chips are distributed as pieces.",
+            "why": "Hand folding keeps them from being pulverized through the batter."
+          },
+          {
+            "step": 5,
+            "cue": "The central crumb is set with no wet batter; a chocolate streak alone is not raw batter.",
+            "why": "Color and top springiness alone can hide a soft center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Oat pieces stay gritty",
+            "cause": "Blending stopped before the oats were finely broken down.",
+            "fix": "For the next batch scrape the machine safely and continue to a creamy texture; do not try to fix it by adding more leavener."
+          },
+          {
+            "problem": "Muffins tear against paper",
+            "cause": "Liners were dry or the muffins are still warm.",
+            "fix": "Spray liners before filling next time and cool this batch before peeling."
+          },
+          {
+            "problem": "Tops are set but centers are wet",
+            "cause": "Cups were overfilled or the oven/batter conditions slowed baking.",
+            "fix": "Continue baking and test the crumb again; use additional cups for extra batter next time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dark chocolate chips",
+            "alternative": "Semisweet chocolate chips, using the same listed amount",
+            "effect": "The flavor is sweeter; keep the chips out of the blender."
+          },
+          {
+            "ingredient": "Rolled oats",
+            "alternative": "Quick oats at the same listed volume",
+            "effect": "Both blend into this batter; process until finely broken down. Steel-cut oats do not have the same preparation."
+          }
+        ],
+        "timing": "Allow about 40 minutes: around 10 minutes preparation, 15–20 minutes baking and 10 minutes pan cooling, with preheating during setup. Complete rack cooling before storage takes longer. More cups, machine batches or oven batches extend the schedule.",
+        "storage": "Cool completely, then keep airtight in the refrigerator for up to a week. Freeze airtight for longer storage, separating individual muffins before packing. Thaw wrapped and warm gently before serving; sealed warm muffins collect condensation.",
+        "sources": [
+          {
+            "title": "Amanda — Banana Oat Greek Yogurt Muffins, Running with Spoons",
+            "url": "https://www.runningwithspoons.com/banana-oat-greek-yogurt-muffins/"
+          },
+          {
+            "title": "Annabelle Shippee — How can I freeze my bread?, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBlending rolled oats into flour creates smooth muffins without grittiness. Greek yogurt provides moisture and protein while reducing the need for added fat. These muffins freeze well for up to 3 months and reheat beautifully for quick breakfasts.\n\n## Directions\n\n1.  **Blender:** Place the oats, bananas, yogurt, eggs, sugar, baking powder, and baking soda in a blender or food processor. Process on high for 1 minute until smooth and creamy.\n2.  **Fold:** Stir in the chocolate chips by hand.\n3.  **Portion:** Pour into a greased or lined 12-cup muffin tin, filling 3/4 full.\n4.  **Bake:** Bake at 400°F for 15-18 minutes until the tops are golden and springy to the touch.\n5.  **Cool:** Let cool in the pan for 10 minutes.\n",
+    "after": "\n## Chef's Note\n\nThese banana muffins blend rolled oats with Greek yogurt and eggs, then fold in chocolate chips by hand. The oat batter makes a moist, somewhat dense crumb. Break the oats down finely, check the center after baking and cool before removing the muffins from their liners.\n\n## Directions\n\n1. **Preheat and prepare the pan:** Preheat the oven to 400°F before blending. For the original batch, prepare a standard 12-cup muffin pan with cooking spray. For different quantities, prepare more or fewer standard cups, keeping the same three-quarter fill; additional tins or oven batches may be needed. If using paper liners, spray the liners too so this batter releases more easily.\n2. **Blend the oat batter:** Put the plain full-fat Greek yogurt, large ripe bananas, rolled oats, large eggs, brown sugar, baking powder, and baking soda in a blender or food processor. Process until the oats are finely broken down and the batter is smooth and creamy, starting with about 1 minute. Stop and scrape safely as needed; use the texture rather than a fixed blending clock. For a larger batch, blend separately so the machine is not overfilled.\n3. **Fold in the chips:** Stir in the dark chocolate chips by hand so they remain as pieces.\n4. **Fill the muffin cups:** Divide the batter among the prepared cups, about three-quarters full. If the banana size leaves extra batter, use additional prepared cups rather than overfill. Add additional chocolate chips (if using) over the tops, then bake promptly.\n5. **Bake and cool:** Bake for about 15–20 minutes until the tops are set and a tester through the central crumb has no wet batter. Melted chocolate on the tester is different from uncooked batter; check another spot if needed. Cool in the pan on a rack for 10 minutes, then remove carefully to a rack. Cool completely before packing.\n"
+  },
+  "findings": [
+    {
+      "id": "banana-oat-greek-yogurt-muffins-1",
+      "title": "order and liners",
+      "field": "order and liners",
+      "rationale": "Avoid resting mixed leavened batter and the recipe-specific liner sticking.",
+      "confidence": "high",
+      "applicableSources": ["https://www.runningwithspoons.com/banana-oat-greek-yogurt-muffins/"],
+      "sourceApplicability": "Same oat/yogurt formula; source liner note overrides generic muffin advice.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "banana-oat-greek-yogurt-muffins-2",
+      "title": "blending and doneness",
+      "field": "blending and doneness",
+      "rationale": "Machine power varies; color and top spring alone do not establish the center.",
+      "confidence": "high",
+      "applicableSources": ["https://www.runningwithspoons.com/banana-oat-greek-yogurt-muffins/"],
+      "sourceApplicability": "Same blender batter and source center endpoint.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual blending and central bake times with two large bananas."]
+    },
+    {
+      "id": "banana-oat-greek-yogurt-muffins-3",
+      "title": "time and storage",
+      "field": "time and storage",
+      "rationale": "Include required cooling and remove unverified texture guarantees. Refrigeration is a conservative location for the source week allowance.",
+      "confidence": "moderate",
+      "applicableSources": ["https://www.runningwithspoons.com/banana-oat-greek-yogurt-muffins/"],
+      "sourceApplicability": "Same recipe cooling/storage plus FDA refrigeration and general airtight freezing.",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": ["Actual freezer quality duration not established."]
+    },
+    {
+      "id": "banana-oat-greek-yogurt-muffins-4",
+      "title": "independent scaling correction",
+      "field": "formula.steps.prepare.text",
+      "rationale": "Original cup count is context, not a forced count for scaled batter; preserve standard geometry and original portion size.",
+      "confidence": "high",
+      "applicableSources": [],
+      "sourceApplicability": "Current authored yield/cup geometry; peer and root-authorized correction",
+      "exactBeforeAfterReferences": [
+        "equipment",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/banana-oat-greek-yogurt-muffins.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history; original native binding independently verified.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.runningwithspoons.com/2014/06/24/banana-oat-greek-yogurt-muffins/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Saved/current publisher uses two medium bananas/200 g/one cup; current Mise uses two large. Preserve that adaptation and record its batter-volume question. The bulk rewrite’s 15–18-minute window becomes the saved/current source 15–20-minute window; ten-minute pan cooling remains. Publisher storage says airtight up to a week without room conditions; proposal conservatively chooses refrigeration. The unsupported exact freezer duration is removed.",
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1 cup Plain Greek Yogurt (Full Fat)",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.yogurt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.yogurt",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Ripe Bananas, mashed",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.bananas"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.bananas",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 cups Rolled Oats",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.oats"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.oats",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.eggs",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 cup Brown Sugar",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.sugar",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 tsp Baking Powder",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.powder"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.powder",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Baking Soda",
+        "originalDestination": "blend1",
+        "proposedIngredientIds": ["batter.soda"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.soda",
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup Chocolate Chips (Dark chocolate preferred)",
+        "originalDestination": "hand fold2",
+        "proposedIngredientIds": ["batter.chips"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.chips",
+            "step": "chips",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "measured amount and state preserved; destination explicit"
+      }
+    ],
+    "addedOrRecovered": [
+      {
+        "ingredientId": "batter.pan-spray",
+        "quantity": null,
+        "allowance": "for greasing the muffin cups or paper liners",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      },
+      {
+        "ingredientId": "batter.extra-chips",
+        "quantity": null,
+        "allowance": "for sprinkling over the tops",
+        "uses": [
+          {
+            "step": "portion",
+            "share": 1
+          }
+        ],
+        "rationale": "Unmeasured existing preparation/finishing allowance or retained source optional finish; no measured amount invented."
+      }
+    ],
+    "proposed": [
+      {
+        "id": "batter.pan-spray",
+        "key": "pan-spray",
+        "name": "cooking spray",
+        "allowance": "for greasing the muffin cups or paper liners",
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.yogurt",
+        "key": "yogurt",
+        "name": "plain full-fat Greek yogurt",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.bananas",
+        "key": "bananas",
+        "name": "large ripe banana",
+        "plural": "large ripe bananas",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "preparation": "peeled and mashed",
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.oats",
+        "key": "oats",
+        "name": "rolled oats",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "plural": "large eggs",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.sugar",
+        "key": "sugar",
+        "name": "brown sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.powder",
+        "key": "powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.soda",
+        "key": "soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "blend",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.chips",
+        "key": "chips",
+        "name": "dark chocolate chips",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "chips",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      },
+      {
+        "id": "batter.extra-chips",
+        "key": "extra-chips",
+        "name": "additional chocolate chips",
+        "allowance": "for sprinkling over the tops",
+        "optional": true,
+        "role": "garnish",
+        "uses": [
+          {
+            "step": "portion",
+            "share": 1
+          }
+        ],
+        "component": "Batter"
+      }
+    ]
+  },
+  "processGraph": "Preheat 400°F and spray cups/liners → blend all but chips until oats are fine → hand-fold chips → three-quarter standard fills →15–20-min bake with central crumb check →10-min pan cool → rack cooling before storage. Active preparation about 10 min; ready to remove about 40 min. Complete storage cooling is extra. More machine, cup or oven batches extend elapsed time.",
+  "variantLedgers": {
+    "substitutions": [
+      {
+        "ingredient": "Dark chocolate chips",
+        "alternative": "Semisweet chocolate chips, using the same listed amount",
+        "effect": "The flavor is sweeter; keep the chips out of the blender."
+      },
+      {
+        "ingredient": "Rolled oats",
+        "alternative": "Quick oats at the same listed volume",
+        "effect": "Both blend into this batter; process until finely broken down. Steel-cut oats do not have the same preparation."
+      }
+    ],
+    "notes": null,
+    "wholeCookedFruitVariation": null
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [
+      {
+        "slug": "blueberry-banana-pancake-muffins",
+        "exists": true
+      },
+      {
+        "slug": "blueberry-oat-breakfast-bars",
+        "exists": true
+      },
+      {
+        "slug": "freezer-date-cookies",
+        "exists": true
+      }
+    ],
+    "composedMeals": []
+  },
+  "ratiosYieldAndCapacity": {
+    "ratiosAndState": "Two cups rolled oats, one cup full-fat Greek yogurt, two large bananas, two eggs, 1/4 cup brown sugar, 1/2 cup chips, 1 1/2 tsp powder and 1/2 tsp soda. Oat/egg/yogurt structure has no wheat flour or separately added oil. No generic wheat-gluten overmixing rule or added fat/acid is imposed. Banana size can change batter volume; extra cups address geometry without guessing a fruit weight.",
+    "yieldAndPan": "Retain twelve inherited muffins as pieces. Three-quarter fill controls geometry; extra batter uses extra prepared cups instead of guaranteeing exact count. Half gives six pieces, one large banana and one egg; double gives twenty-four pieces, four bananas and four eggs. Machine/pan capacity is qualified. No hardcoded twelve-piece consuming allocation remains."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Weigh mash from the current two-large-banana adaptation and record batter volume/cup count at three-quarter fill.",
+    "Record machine power/blending time, liner release and center doneness in the 15–20-minute window.",
+    "Check refrigerator/freezer texture and thawing without asserting a three-month texture guarantee."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 49,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11958,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
