@@ -1,0 +1,668 @@
+{
+  "slug": "enchiladas-suizas",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "86cd5a296f14ea25d6423b320ce535dc55f5e2eb7b938e2141b6a90848b2e98b",
+  "acceptedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 25 min, plus tortilla frying"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 45 min, plus vegetable cooling, tortilla frying and any extra batches"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Shredded Chicken (Poached or Rotisserie)",
+        "12 Corn Tortillas",
+        "1 lb Tomatillos, husked and rinsed",
+        "2 Jalapeños or Serranos",
+        "1 white Onion, quartered",
+        "3 cloves Garlic",
+        "1/2 cup Heavy Cream (The \"Suiza\" secret)",
+        "1/2 cup Fresh Cilantro",
+        "8 oz Monterey Jack or Chihuahua Cheese, shredded",
+        "Pickled Red Onions (for garnish)"
+      ],
+      "after": [
+        "1 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "12 corn tortillas",
+        "1 lb tomatillos, husked, rinsed and dried",
+        "2 jalapeños or serranos, washed",
+        "1 white onion, peeled and quartered",
+        "3 garlic cloves, peeled",
+        "1/2 cup heavy cream",
+        "1/2 cup fresh cilantro, washed, for the sauce",
+        "8 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 510,
+        "protein": 29.5,
+        "carbs": 24.5,
+        "fat": 34,
+        "fiber": 3.5,
+        "sugar": 2,
+        "sodium": 740
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate a blended green sauce, pliable tortillas and a hot casserole center",
+        "outcome": "Rolled tortillas coated in creamy tomatillo sauce, bubbling cheese and evenly reheated cooked chicken.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep fully cooked chicken refrigerated at 40°F / 4°C or below until assembly. Prepare the washed vegetables with clean tools and keep perishable cream, cheese and chicken cold during any wait.",
+          "The chicken is already fully cooked. Prepare a broiler-safe sheet, frying skillet, enough baking dishes and the actual blender instructions before starting.",
+          "Keep the full measured cheese amount, reserving the desired topping portion before filling. Choose the topping coverage you want before dividing the remaining cheese among the fillings. Frying oil, sauce salt and additional garnish cilantro are separate unmeasured supplies."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Tortillas bend easily while remaining soft rather than crisp.",
+            "why": "The short oil dip prepares them for rolling; a rigid fried tortilla is harder to fill."
+          },
+          {
+            "step": 5,
+            "cue": "Cheese and sauce bubble and representative casserole centers reach 165°F.",
+            "why": "Fully cooked chicken is being reheated in a casserole; a bubbling top does not establish the center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The sauce is too hot for the blender",
+            "cause": "Roasted vegetables have not cooled within the actual machine's limits.",
+            "fix": "Allow more cooling time and use only the model-permitted load and lid procedure. A lack of visible steam alone is not proof of an allowed starting temperature."
+          }
+        ],
+        "timing": "The inherited 20-minute preparation and about 25-minute broil/bake plan is a starting schedule. It does not include vegetable cooling for the actual blender or all tortilla-frying loads. Additional dishes and a colder casserole can extend baking; the 15–20-minute first check does not replace the 165°F center endpoint.",
+        "storage": "Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout. Cool extra sauce promptly; for separately reheated sauce USDA additionally recommends a rolling boil with stirring. Reach it briefly rather than prolonged boiling, which can alter the cream texture or concentrate it.",
+        "sources": [
+          {
+            "title": "FDA casseroles and handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA leftovers and sauce reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nEnchiladas Suizas (Swiss-style) refers to the generous use of cream and cheese, a style that originated in Mexico City in the 1950s. The dish balances tart, roasted tomatillos with rich heavy cream. Briefly frying tortillas in oil for 10 seconds before filling creates a protective layer that prevents them from dissolving under the wet sauce.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **Roast:** Place tomatillos, jalapeños, onion, and garlic on a baking sheet. Broil for 5-7 minutes until charred and softened.\n2.  **Blend:** Place the roasted veg in a blender with the cilantro and heavy cream. Blend until smooth. Season with salt.\n3.  **Prep Tortillas:** Heat 1/4 inch of oil in a small skillet. Dip each tortilla in the oil for 5-10 seconds per side (until pliable but not crisp). Drain on paper towels.\n4.  **Assemble:** Dip a tortilla in the green sauce, fill with shredded chicken and a sprinkle of cheese, and roll tightly. Place in a baking dish.\n5.  **Bake:** Pour the remaining sauce over the top and cover with the rest of the cheese. Bake at 375°F for 15-20 minutes until the cheese is bubbling.\n6.  **Finish:** Top with pickled red onions and fresh cilantro.\n",
+    "after": "\n## Chef's Note\n\nSuizas means Swiss-style: these enchiladas pair tart roasted tomatillos with generous cream and cheese. Briefly fry the tortillas until pliable before filling so they can be rolled without becoming crisp. Keep the full cheese amount divided between filling and topping; the split can follow the topping coverage you want.\n\nFor kids, reduce or omit the peppers in the sauce if desired; the cream and cheese amounts stay the same.\n\n## Directions\n\n1. **Roast:** Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\n2. **Cool and blend:** Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\n3. **Prepare tortillas:** Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\n4. **Assemble:** Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\n5. **Bake:** Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\n6. **Finish:** Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "PA18-S01",
+      "title": "PA18-S01",
+      "rationale": "Add only genuine method-owned unmeasured frying oil/¼inch depth, sauce salt and separate extra cilantro garnish; clarify prepared fullycooked chicken. Preserve full½cup cream/8oz cheese/12tortillas and flexible filling-top division, reserving intended topping before distributing remainder. Retain legacy because authoring numeric cheese shares would invent a split; neither formula nor a replacement dose is guessed.",
+      "confidence": "high exact supplies; moderate chosen vessel capacity",
+      "applicableSources": [
+        "df3784 actual introduction and complete followed history",
+        "current method"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "content", "learning"],
+      "questions": [
+        "Actual baking dish, tortilla size and intended qualitative cheese split? Numeric migration remains deferred until a supported share is selected."
+      ]
+    },
+    {
+      "id": "PA18-S02",
+      "title": "PA18-S02",
+      "rationale": "Cool roasted vegetables before model-governed blending, change broiler to375bake, maintain short pliable fried-tortilla route and add casserolecenter165 check. Existing5–7/5–10seconds/15–20firstcheck preserved as ranges, not guaranteed finish. Total exposes cooling/frying/extra dish dependencies instead of claiming45minutes includes them.",
+      "confidence": "high FDA casserole category; moderate blender application and elapsed plan",
+      "applicableSources": [
+        "actual introduction/current method",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "actual appliance manual must govern, no model supplied"
+      ],
+      "exactBeforeAfterReferences": ["content", "cookTime", "totalTime", "learning"],
+      "questions": [
+        "Actual blender permitted temperatures/load/lid instructions and elapsed cooling, frying and casserole center time? No model-specific hot-blend permission is certified."
+      ]
+    },
+    {
+      "id": "PA18-S03",
+      "title": "PA18-S03",
+      "rationale": "Keep Swiss-style cream/cheese and Mexican cuisine/childheat choice. Omit unsupported ec691 country and later1950sMexicoCity claim, weaken absolute tortilla-protection claim to useful pliability cue, remove automatic nutrition. No external recipe author is invented for Git-created df3784 Suizas, distinct from native Enchilada Skillet that was temporarily removed then9fa restored.",
+      "confidence": "high lineage limitation; moderate tortilla mechanism",
+      "applicableSources": [
+        "df3784/ec691/full followed history",
+        "docs/RECIPE_STANDARD.md",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content", "learning"],
+      "questions": [
+        "Is there a separately retained actual publisher for this particular Suizas formula? None established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/df3784bd2e0560f86ab6da3ced452a308356a71d/src/content/recipes/enchiladas-suizas.md",
+    "introductionScope": "Git-only first available followed cooking version; no exact original450 native match established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Git-createddf3784 recipe, no exact450 binding/externalauthor. Full8ozcheese qualifies filling/top with no numeric share; legacy retained until household/source can establish authored allocation.",
+    "Existing method¼inchfrying oil, sauce salt and extra cilantro unlisted; genuineunmeasured supplies added with distinct destinations. Hot vegetable blending replaced by cooled actual-model route without a universal hot-blend permission. Unsupported birthplace removed while Swiss-style/Mexican context and childheat choice preserved."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Shredded Chicken (Poached or Rotisserie)",
+        "index": 0,
+        "preparation": "preparedshreddedpoachedORrotisserie",
+        "destination": "step4filling→5bakebubbles; no165center",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "12 Corn Tortillas",
+        "index": 1,
+        "preparation": "corntortillas",
+        "destination": "step3oilfry→4saucedrolled",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 lb Tomatillos, husked and rinsed",
+        "index": 2,
+        "preparation": "huskedrinsed",
+        "destination": "step1broil→2HOTblend",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 Jalapeños or Serranos",
+        "index": 3,
+        "preparation": "pepperchoice",
+        "destination": "step1broil→2blend",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 white Onion, quartered",
+        "index": 4,
+        "preparation": "quartered",
+        "destination": "step1broil→2blend",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "3 cloves Garlic",
+        "index": 5,
+        "preparation": "unspecifiedpeeling",
+        "destination": "step1broil→2blend",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/2 cup Heavy Cream (The \"Suiza\" secret)",
+        "index": 6,
+        "preparation": "heavycream",
+        "destination": "all step2blend",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/2 cup Fresh Cilantro",
+        "index": 7,
+        "preparation": "freshcilantro",
+        "destination": "all measured½cup step2blend; extra step6unlisted",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "8 oz Monterey Jack or Chihuahua Cheese, shredded",
+        "index": 8,
+        "preparation": "shredded8oz",
+        "destination": "step4sprinkle plus step5remainder; qualitative split only",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "Pickled Red Onions (for garnish)",
+        "index": 9,
+        "preparation": "preparedpickled",
+        "destination": "step6garnish",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [
+      "Frying oil at¼inch depth step3",
+      "Saltto taste step2",
+      "Additionalfreshcilantro step6 beyond full½cupsauce"
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "ingredient": "1 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Cooked chicken filling/bake165"
+      },
+      {
+        "index": 1,
+        "ingredient": "12 corn tortillas",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Each tortilla short oil fry/sauce dip/fill/bake"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 lb tomatillos, husked, rinsed and dried",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Husk/rinse/dry/broil/cool/blend"
+      },
+      {
+        "index": 3,
+        "ingredient": "2 jalapeños or serranos, washed",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Pepper choice broil/cool/blend"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 white onion, peeled and quartered",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Peel/quarter/broil/cool/blend"
+      },
+      {
+        "index": 5,
+        "ingredient": "3 garlic cloves, peeled",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Peel/broil/cool/blend"
+      },
+      {
+        "index": 6,
+        "ingredient": "1/2 cup heavy cream",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "All cream blended into full green sauce"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/2 cup fresh cilantro, washed, for the sauce",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "All measured cilantro blended into full green sauce"
+      },
+      {
+        "index": 8,
+        "ingredient": "8 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "All8oz reserved qualitative topping then remaining filling; both complete"
+      },
+      {
+        "index": 9,
+        "ingredient": "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Genuine unmeasured¼inch oil depth fry, drained"
+      },
+      {
+        "index": 10,
+        "ingredient": "salt, to taste for the sauce",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Genuine unmeasured sauce-salt taste after blend"
+      },
+      {
+        "index": 11,
+        "ingredient": "pickled red onions, as desired for garnish",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Genuine unmeasured pickled onions service"
+      },
+      {
+        "index": 12,
+        "ingredient": "additional fresh cilantro, washed, as desired for garnish",
+        "scope": "Legacy genuine supplies with qualitative cheese allocation",
+        "destination": "Genuine additional cilantro garnish distinct from full saucehalf-cup"
+      }
+    ],
+    "native": [],
+    "nativeMethodOwned": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "41d74f3aa4bb8a5e3676a68a9909d074a0d135d7df32e67ac6e92eb88b959502"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "37ab94cbdc86563c11c345ddc82cc624257a14311504b94e8e25697ae8c2fa86"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "fc00a6d99f142bebef5608ea41a6787c27e46b4f9d87ae199e3b3776671c7a5b"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "47e1a25b4f89ca58f0dbed1eed37398c7dc4d908c2e2bd0ea2fc6a29265917fa"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "197ff41055e1bd0684e5ed53f47d94767fd4af54b52fb2321f323b5a64254041"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "565afdd3fa5a30ae5458e9cf415079621093a9cfc530b101dd8c8d728f3faf01"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "d8bcd2ef7c317108818e02fbaa6f9f0bd0ea060461149a385eb3ad2283b43d42",
+        "cue": []
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "13f31d9c6277e770fe23dc8d85afb31005b80f21f6325591a2113b09eb5e13b4",
+        "cue": []
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "cc60a98f94bb19952851aba5b61ca68232e3da852457a4e9d28f50ad5dc11f82",
+        "cue": ["Tortillas bend easily while remaining soft rather than crisp."]
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "bb885d6aaa22999876be53381087742d35c51bc6eef00b93c275c9669ba48407",
+        "cue": []
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "c1ae4556ad0e1d14e1a22564265ce855a05cc1068fd7d18407c5901675635e8c",
+        "cue": ["Cheese and sauce bubble and representative casserole centers reach 165°F."]
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "d18ef43a90eedff5a430b52fcb067681b1c3dd8aded4e446f2e3c5ef77f4dc5e",
+        "cue": []
+      }
+    ],
+    "native": null
+  },
+  "variantLedgers": [
+    {
+      "name": "Current creamy casserole",
+      "supplies": "Fullcurrent10rows plus three genuineunmeasuredmethod supplies, cookedchicken",
+      "destinations": "Broil→coolblendallcream/cilantro→shortoilfry→allchicken/fullcheese splitqualitatively→allremaining sauce/restcheese bake165→garnish",
+      "status": "preserved; legacy split retained"
+    },
+    {
+      "name": "Pepper/cheese/chicken options",
+      "supplies": "2jalapeñoORserrano;8ozMontereyORChihuahua;1lbpreparedpoachedORrotisserie; childheatreduce/omit peppers no invented replacement",
+      "destinations": "Same stages/fullcream/cheese",
+      "status": "preserved"
+    },
+    {
+      "name": "Numeric cheese division",
+      "supplies": "No source fraction",
+      "destinations": "Qualitativefill/top retained; no half split",
+      "status": "structured migration held, main remains readable"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "queso-fundido-with-chorizo",
+        "path": "src/content/recipes/queso-fundido-with-chorizo.md",
+        "sha256": "d198a7f4d33925ede23cd63abc35856fdcbb025ca9f67edffb7485a7af970e9d",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "mexican-street-corn-salad",
+        "path": "src/content/recipes/mexican-street-corn-salad.md",
+        "sha256": "82882888bd93d17bf9c0eeeefb998059d3b8458f34630bacd4ccbb7023678cf2",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "roasted-sweet-potatoes",
+        "path": "src/content/recipes/roasted-sweet-potatoes.md",
+        "sha256": "ecd2406726ebe63ab479ddd0570354d3d05e8a1190561a833cb3ceca8f23466f",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "All outgoing/contextual links retained; no composed meal acceptance inferred."
+  },
+  "ratiosYieldAndCapacity": {
+    "plan": "Six-portion plan/12tortillas/full1lb COOKEDchicken/half-cupcream/8oz cheese/1lb tomatillos. All cheese split qualitatively filling/top; no supported numeric fraction.",
+    "capacity": "Actual tortilla size/dish area and sauce headroom; actual blender temperature/load/lid limitations and frying loads govern elapsed time. Oil¼inch depth cannot be converted to a dose without actual pan."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "3 corn tortillas",
+        "1/4 lb tomatillos, husked, rinsed and dried",
+        "1/2 jalapeños or serranos, washed",
+        "1/4 white onion, peeled and quartered",
+        "3/4 garlic clove, peeled",
+        "1/8 cup heavy cream",
+        "1/8 cup fresh cilantro, washed, for the sauce",
+        "2 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 1 1/2",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "6 corn tortillas",
+        "1/2 lb tomatillos, husked, rinsed and dried",
+        "1 jalapeños or serranos, washed",
+        "1/2 white onion, peeled and quartered",
+        "1 1/2 garlic cloves, peeled",
+        "1/4 cup heavy cream",
+        "1/4 cup fresh cilantro, washed, for the sauce",
+        "4 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 3",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "12 corn tortillas",
+        "1 lb tomatillos, husked, rinsed and dried",
+        "2 jalapeños or serranos, washed",
+        "1 white onion, peeled and quartered",
+        "3 garlic cloves, peeled",
+        "1/2 cup heavy cream",
+        "1/2 cup fresh cilantro, washed, for the sauce",
+        "8 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 6",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "18 corn tortillas",
+        "1 1/2 lb tomatillos, husked, rinsed and dried",
+        "3 jalapeños or serranos, washed",
+        "1 1/2 white onion, peeled and quartered",
+        "4 1/2 garlic cloves, peeled",
+        "3/4 cup heavy cream",
+        "3/4 cup fresh cilantro, washed, for the sauce",
+        "12 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 9",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "24 corn tortillas",
+        "2 lb tomatillos, husked, rinsed and dried",
+        "4 jalapeños or serranos, washed",
+        "2 white onion, peeled and quartered",
+        "6 garlic cloves, peeled",
+        "1 cup heavy cream",
+        "1 cup fresh cilantro, washed, for the sauce",
+        "16 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 12",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "36 corn tortillas",
+        "3 lb tomatillos, husked, rinsed and dried",
+        "6 jalapeños or serranos, washed",
+        "3 white onion, peeled and quartered",
+        "9 garlic cloves, peeled",
+        "1 1/2 cups heavy cream",
+        "1 1/2 cups fresh cilantro, washed, for the sauce",
+        "24 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 18",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb shredded chicken, already fully cooked, poached or rotisserie",
+        "12 corn tortillas",
+        "1 lb tomatillos, husked, rinsed and dried",
+        "2 jalapeños or serranos, washed",
+        "1 white onion, peeled and quartered",
+        "3 garlic cloves, peeled",
+        "1/2 cup heavy cream",
+        "1/2 cup fresh cilantro, washed, for the sauce",
+        "8 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and topping",
+        "oil for frying, enough for a 1/4-inch layer in the chosen skillet",
+        "salt, to taste for the sauce",
+        "pickled red onions, as desired for garnish",
+        "additional fresh cilantro, washed, as desired for garnish"
+      ],
+      "yield": "Serves 6",
+      "directions": "Roast: Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.\nCool and blend: Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.\nPrepare tortillas: Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.\nAssemble: Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.\nBake: Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.\nFinish: Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.",
+      "shopping": null,
+      "scope": "Actual legacy ingredient control; cheese divided qualitatively, oil depth fixed geometry not volume; no authored share invented"
+    }
+  ],
+  "preservedPriorRepairs": {
+    "preserved": "Current fullcream/cheese, child pepper omission, poachedORrotisserie option and qualitative filling/top split kept; no external source author invented. Legacy split avoids guessed share.",
+    "assertions": [
+      "1/2 cup heavy cream",
+      "8 oz Monterey Jack",
+      "reduce or omit the peppers",
+      "remaining cheese"
+    ]
+  },
+  "remainingQuestions": [
+    "Actual baking dish, tortilla size and intended qualitative cheese split? Numeric migration remains deferred until a supported share is selected.",
+    "Actual blender permitted temperatures/load/lid instructions and elapsed cooling, frying and casserole center time? No model-specific hot-blend permission is certified.",
+    "Is there a separately retained actual publisher for this particular Suizas formula? None established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

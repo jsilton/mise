@@ -1,0 +1,921 @@
+{
+  "slug": "the-easiest-spinach-lasagna",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "a783f4b9c02fc3effacb6bab7689840ad575192ef29969ba59ca3bf0f4da2f97",
+  "acceptedSourceSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "boil"],
+      "after": ["bake"]
+    },
+    {
+      "field": "cookTime",
+      "before": "55 min",
+      "after": "50–55 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "70 min",
+      "after": "75–80 min"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "15 oz Ricotta Cheese",
+        "8 oz Mozzarella Cheese, grated",
+        "1 cup Parmesan Cheese, grated",
+        "10 oz Frozen Spinach, thawed and squeezed bone-dry",
+        "1 large Egg (The binder)",
+        "3 cups (25 oz) High-Quality Marinara Sauce",
+        "8 oz Whole-Wheat No-Boil Lasagna Sheets",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper"
+      ],
+      "after": [
+        "--- Lasagna ---",
+        "15 oz ricotta cheese",
+        "8 oz mozzarella cheese, grated",
+        "1 cup Parmesan cheese, grated",
+        "10 oz frozen spinach, thawed and squeezed of free liquid",
+        "1 large egg",
+        "3 cups (25 oz) marinara sauce, source companion volume/weight; original batch described as one 25 oz jar",
+        "8 oz whole-wheat no-boil lasagna sheets",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1515,
+        "protein": 94.5,
+        "carbs": 22.5,
+        "fat": 117,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium": 1710
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Lasagna",
+            "ingredients": [
+              {
+                "id": "ricotta",
+                "key": "ricotta",
+                "name": "ricotta cheese",
+                "quantity": {
+                  "amount": 15,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mozz",
+                "key": "mozz",
+                "name": "mozzarella cheese",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "parm",
+                "key": "parm",
+                "name": "Parmesan cheese",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": "3/4"
+                  },
+                  {
+                    "step": "top",
+                    "share": "1/4"
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "frozen spinach",
+                "quantity": {
+                  "amount": 10,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thawed and squeezed of free liquid"
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "sauce",
+                "key": "sauce",
+                "name": "marinara sauce",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": "1/4"
+                  },
+                  {
+                    "step": "first",
+                    "share": "1/4"
+                  },
+                  {
+                    "step": "repeat",
+                    "share": "1/2"
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 25,
+                    "unit": "oz"
+                  }
+                ],
+                "preparation": "source companion volume/weight; original batch described as one 25 oz jar"
+              },
+              {
+                "id": "sheets",
+                "key": "sheets",
+                "name": "whole-wheat no-boil lasagna sheets",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "repeat",
+                    "share": "2/3"
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "mix",
+            "title": "Mix",
+            "text": "Preheat the oven to 375°F. Thaw the spinach under refrigeration, follow any required product preparation, and squeeze out free liquid; cool any cooked spinach before mixing it with egg. Combine {{ingredients}} in a large bowl: whisk the egg first, then fold in the cheeses, prepared spinach and seasonings until the cheese and spinach are evenly distributed."
+          },
+          {
+            "id": "base",
+            "title": "Base",
+            "text": "Spread {{ingredients}} over the bottom of a 9×13-inch baking dish for the original batch. At other scales use enough separate original-size dishes or an appropriately smaller dish with similar layer depth and headroom; do not force the scaled mixture into the same pan."
+          },
+          {
+            "id": "first",
+            "title": "First tier",
+            "text": "Build the first tier with {{ingredients}}: arrange the noodle portion over the base without excessive overlap, spread one third of the full cheese mixture over the noodles, then add this sauce portion."
+          },
+          {
+            "id": "repeat",
+            "title": "Remaining tiers",
+            "text": "Build two more tiers with {{ingredients}} and the remaining cheese mixture, dividing each of those supplies into two equal portions. In each tier arrange noodles, then cheese mixture, then sauce. Use all the remaining sauce, ending with sauce on top; do not add an extra noodle layer."
+          },
+          {
+            "id": "top",
+            "title": "Cover",
+            "text": "Scatter {{ingredients}} over the final sauce. Cover the dish tightly with foil."
+          },
+          {
+            "id": "covered",
+            "title": "Bake covered",
+            "text": "Bake at 375°F for about 30 minutes for the original pan."
+          },
+          {
+            "id": "uncovered",
+            "title": "Finish uncovered",
+            "text": "Remove foil and continue baking, checking after about 20–25 minutes, until bubbling, the sheets are tender through all layers and several center locations reach 165°F / 74°C. A chilled or differently loaded dish can take longer."
+          },
+          {
+            "id": "rest",
+            "title": "Rest",
+            "text": "Rest 10 minutes before cutting and serving."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Divide all sauce and filling before layering",
+        "outcome": "Tender noodle layers and a cooked center that slices after resting.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "The original batch uses a 9×13-inch dish; its depth is not documented. Leave headroom and keep the three-tier structure. Multiples work in separate original-size dishes; smaller batches need an appropriate smaller pan, with earlier center checks rather than a promised proportional time.",
+          "Use the actual no-boil noodle manufacturer’s suitable sauce/bake method. The source describes the original 3 cups sauce as a 25 oz jar; use the listed sauce amount for each scale. Separate the sauce into four equal shares and Parmesan into three-quarters filling/one-quarter top."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Spinach is evenly distributed without puddles in the filling.",
+            "why": "Squeezing free water limits leakage between layers; the spinach is not literally moisture-free."
+          },
+          {
+            "step": 7,
+            "cue": "Noodles are tender through every tier and multiple centers reach 165°F / 74°C.",
+            "why": "Bubbling edges alone do not show that the center or sheets have finished."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Center sheets remain firm",
+            "cause": "The covered hydration stage or product suitability was inadequate.",
+            "fix": "Re-cover and continue checking tenderness and center temperature; do not assume browning the top fixes dry sheets. Confirm the noodle package method before the next batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Saved seasoning and rest",
+            "alternative": "For the saved seasoning option, replace the main listed kosher salt with ¼ tsp unnamed salt for the original batch, scaled proportionally, and omit the main pepper. Keep all cheese, spinach, egg, sauce and pasta amounts and the same layer proportions and center checks. The source rests 5 minutes; the main 10-minute rest remains available for firmer slicing.",
+            "effect": "This is a distinct source volume, not a conversion between unnamed salt and kosher crystals."
+          },
+          {
+            "ingredient": "Make ahead",
+            "alternative": "Assemble, cover and refrigerate at 40°F / 4°C or below, then cook within 24 hours. Use a vessel whose manufacturer permits the intended refrigerator-to-oven transition. Keep the same oven setting and check noodles and centers; do not assume exactly 10 extra minutes.",
+            "effect": "This retains the current one-day preparation plan without certifying a cold glass dish or a universal added clock."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. For an assembled raw-egg dish, refrigerate and cook within 24 hours; use the vessel maker’s transition instructions.",
+        "timing": "About 75–80 minutes includes 15 minutes assembly, 50–55 minutes baking and 10 minutes rest for the original pan. Thawing/required spinach preparation, preheat still pending, chilled assembly and other pan loads can add time.",
+        "sources": [
+          {
+            "title": "100 Days of Real Food — Spinach lasagna",
+            "url": "https://www.100daysofrealfood.com/easiest-spinach-lasagna/"
+          },
+          {
+            "title": "FDA — Egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Casserole temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — Clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Leftover handling",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          },
+          {
+            "title": "USDA — Refrigerated raw egg dishes",
+            "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nLasagna originated in Naples and is one of Italy's oldest pasta dishes, with recipes dating back to the 14th century. The no-boil lasagna sheets are a modern American invention from the 1990s that saves time but requires a saucier sauce to hydrate properly during baking. Squeeze that spinach bone-dry - frozen spinach holds an astonishing amount of water that will make your lasagna watery. This is perfect make-ahead food: assemble up to 24 hours in advance, refrigerate covered, and add 10 minutes to baking time.\n\n## Directions\n\n1.  **The Filling:** In a large bowl, whisk the egg. Mix in the ricotta, mozzarella, 3/4 cup of the Parmesan, the squeezed spinach, salt, and pepper until well combined.\n2.  **Layer 1:** Spread 3/4 cup of sauce on the bottom of a 9x13 inch baking dish. This prevents the bottom noodles from sticking.\n3.  **Layer 2:** Place a layer of no-boil noodles on top (they shouldn't overlap much). Spread 1/3 of the cheese mixture over the noodles, then top with another 3/4 cup of sauce.\n4.  **Repeat:** Repeat the layers (Noodles -> Cheese -> Sauce) until all ingredients are used, ending with a final layer of sauce.\n5.  **Finish:** Top with the remaining 1/4 cup Parmesan. Cover tightly with foil.\n6.  **Bake:** Bake at 375°F for 30 minutes.\n7.  **Crisp:** Remove the foil and bake for another 20-25 minutes until the cheese is bubbly and the noodles are tender.\n8.  **Rest:** Let the lasagna rest for 10 minutes before slicing. This is critical for the layers to set.\n",
+    "after": "\n## Chef's Note\n\nSqueeze the thawed spinach until free water stops dripping, then distribute it throughout the cheese mixture. Divide the sauce before layering so the bottom and all three noodle tiers receive their share. No-boil sheets hydrate inside the covered dish; use a product suitable for this sauce-and-bake method and check every layer for tenderness.\n\n## Directions\n\n1. **Mix:** Preheat the oven to 375°F. Thaw the spinach under refrigeration, follow any required product preparation, and squeeze out free liquid; cool any cooked spinach before mixing it with egg. Combine ricotta cheese, mozzarella cheese, 3/4 of the Parmesan cheese, frozen spinach, large egg, kosher salt, and black pepper in a large bowl: whisk the egg first, then fold in the cheeses, prepared spinach and seasonings until the cheese and spinach are evenly distributed.\n2. **Base:** Spread 1/4 of the marinara sauce over the bottom of a 9×13-inch baking dish for the original batch. At other scales use enough separate original-size dishes or an appropriately smaller dish with similar layer depth and headroom; do not force the scaled mixture into the same pan.\n3. **First tier:** Build the first tier with 1/4 of the marinara sauce and 1/3 of the whole-wheat no-boil lasagna sheets: arrange the noodle portion over the base without excessive overlap, spread one third of the full cheese mixture over the noodles, then add this sauce portion.\n4. **Remaining tiers:** Build two more tiers with 1/2 of the marinara sauce and 2/3 of the whole-wheat no-boil lasagna sheets and the remaining cheese mixture, dividing each of those supplies into two equal portions. In each tier arrange noodles, then cheese mixture, then sauce. Use all the remaining sauce, ending with sauce on top; do not add an extra noodle layer.\n5. **Cover:** Scatter 1/4 of the Parmesan cheese over the final sauce. Cover the dish tightly with foil.\n6. **Bake covered:** Bake at 375°F for about 30 minutes for the original pan.\n7. **Finish uncovered:** Remove foil and continue baking, checking after about 20–25 minutes, until bubbling, the sheets are tender through all layers and several center locations reach 165°F / 74°C. A chilled or differently loaded dish can take longer.\n8. **Rest:** Rest 10 minutes before cutting and serving.\n"
+  },
+  "findings": [
+    {
+      "id": "VP16-5-1",
+      "title": "VP16-5-1",
+      "rationale": "Compile every measured supply together: Parmesan¾ filling/¼ top, sauce¼ base/¼ first tier/½ remaining tiers, noodles⅓ first/⅔ remaining. Preserve full current ricotta/mozzarella/sauce/pasta and½tsp kosher+¼pepper main.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "https://www.100daysofrealfood.com/easiest-spinach-lasagna/",
+          "applicability": "Full9×13 source formula, no-boil layering and original salt/rest; does not prove brand-specific cold-vessel capacity or a universal additional10-minute bake."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg handling and cold leftovers; initial165°F uses the separate casserole category, not a generic blanket egg threshold."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Meatless casserole165°F category applied moderately to the baked route; not an initial stovetop sauce requirement or publisher-tested formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-5-2",
+      "title": "VP16-5-2",
+      "rationale": "Replace missing preheat, literal unscaled layer doses and unsupported universal chilled+10-minute promise with complete proportional layers, capacity guidance, tenderness and FoodSafety165 casserole checks as moderate editorial category application.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "https://www.100daysofrealfood.com/easiest-spinach-lasagna/",
+          "applicability": "Full9×13 source formula, no-boil layering and original salt/rest; does not prove brand-specific cold-vessel capacity or a universal additional10-minute bake."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg handling and cold leftovers; initial165°F uses the separate casserole category, not a generic blanket egg threshold."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Meatless casserole165°F category applied moderately to the baked route; not an initial stovetop sauce requirement or publisher-tested formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-5-3",
+      "title": "VP16-5-3",
+      "rationale": "Saved¼unnamed salt/no-pepper/5-minute rest differs from current rich main; keep it as a separate exact source choice, not salt-density normalization.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "https://www.100daysofrealfood.com/easiest-spinach-lasagna/",
+          "applicability": "Full9×13 source formula, no-boil layering and original salt/rest; does not prove brand-specific cold-vessel capacity or a universal additional10-minute bake."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Raw-egg handling and cold leftovers; initial165°F uses the separate casserole category, not a generic blanket egg threshold."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Meatless casserole165°F category applied moderately to the baked route; not an initial stovetop sauce requirement or publisher-tested formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-metadata-the-easiest-spinach-lasagna",
+      "title": "VP16-metadata-the-easiest-spinach-lasagna",
+      "rationale": {
+        "origin": "Inherited country field lacks recipe-specific origin evidence; cuisine/source credit remains.",
+        "nutrition": "Unverified fixed legacy values removed rather than inventing replacement nutrition.",
+        "methods": "Tags describe full implemented primary/optional routes; no unused boil/steam/roast label granted authority."
+      },
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/The Easiest Spinach Lasagna.html",
+            "sha256": "d434c9cdb3169633185295922307325ff524b01443e61555701ed748e0b889bd",
+            "scope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained."
+          },
+          "applicability": "Inherited metadata is not country-origin or nutrition proof; actual implemented routes govern method tags."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "cookingMethods", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VP16-handling-the-easiest-spinach-lasagna",
+      "title": "VP16-handling-the-easiest-spinach-lasagna",
+      "rationale": "Prompt cooling, cold3–4-day leftovers and165°F reheating apply to the complete prepared dish; this is handling guidance, not a publisher- or kitchen-tested formula/clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Direct full primary guidance on prompt shallow-container cooling,40°F cold handling,3–4days and165°F reheating; not initial-cook formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": [
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-raw-assembly",
+      "title": "VP16-raw-assembly",
+      "rationale": "Retain current one-day refrigerated raw-egg assembly without assuming a universal ten-minute bake extension.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "url": "https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely",
+          "applicability": "Current USDA indexed guidance specifically says raw-egg dishes cook immediately or refrigerate and cook within24hours; direct fetch502 documented. Not a validation of dish thermal transition or time."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.substitutions", "learning.storage", "content"],
+      "questions": [
+        "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+        "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/The%20Easiest%20Spinach%20Lasagna.html",
+    "introductionScope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "url": "https://www.100daysofrealfood.com/easiest-spinach-lasagna/",
+      "scope": "Exact original, actual publisher versions and disagreements considered in frozen author/whole peer evidence; no kitchen certification."
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "3f21bc074 bulk refinement changes¼unnamed salt to½kosher and adds¼pepper, large-egg label and10-minute rest; no later explicit family decision established. Current main and saved seasoning/rest route remain separate.",
+    "Source no-boil formula supports the full sauce amount but does not certify every brand, cold dish or extra10-minute bake. Original25oz/3cups is retained as source companion wording, not newly measured density."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "15 oz Ricotta Cheese",
+        "destination": "Full ricotta1"
+      },
+      {
+        "index": 1,
+        "text": "8 oz Mozzarella Cheese, grated",
+        "destination": "Full mozzarella1"
+      },
+      {
+        "index": 2,
+        "text": "1 cup Parmesan Cheese, grated",
+        "destination": "Literal¾cup filling1/¼cup top5"
+      },
+      {
+        "index": 3,
+        "text": "10 oz Frozen Spinach, thawed and squeezed bone-dry",
+        "destination": "Thawed squeezed spinach1"
+      },
+      {
+        "index": 4,
+        "text": "1 large Egg (The binder)",
+        "destination": "Egg1"
+      },
+      {
+        "index": 5,
+        "text": "3 cups (25 oz) High-Quality Marinara Sauce",
+        "destination": "Literal¾cup base2/¾tier3 then repeat4"
+      },
+      {
+        "index": 6,
+        "text": "8 oz Whole-Wheat No-Boil Lasagna Sheets",
+        "destination": "Noodles3/4; count not divided explicitly"
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Kosher Salt",
+        "destination": "Kosher salt1"
+      },
+      {
+        "index": 8,
+        "text": "1/4 tsp Black Pepper",
+        "destination": "Pepper1"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "--- Lasagna ---",
+        "authoredEntry": {
+          "divider": "Lasagna"
+        }
+      },
+      {
+        "index": 1,
+        "text": "15 oz ricotta cheese",
+        "authoredEntry": {
+          "id": "main.ricotta",
+          "key": "ricotta",
+          "name": "ricotta cheese",
+          "quantity": {
+            "amount": 15,
+            "unit": "oz"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 2,
+        "text": "8 oz mozzarella cheese, grated",
+        "authoredEntry": {
+          "id": "main.mozz",
+          "key": "mozz",
+          "name": "mozzarella cheese",
+          "quantity": {
+            "amount": 8,
+            "unit": "oz"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "preparation": "grated",
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 3,
+        "text": "1 cup Parmesan cheese, grated",
+        "authoredEntry": {
+          "id": "main.parm",
+          "key": "parm",
+          "name": "Parmesan cheese",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": "3/4"
+            },
+            {
+              "step": "top",
+              "share": "1/4"
+            }
+          ],
+          "preparation": "grated",
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 4,
+        "text": "10 oz frozen spinach, thawed and squeezed of free liquid",
+        "authoredEntry": {
+          "id": "main.spinach",
+          "key": "spinach",
+          "name": "frozen spinach",
+          "quantity": {
+            "amount": 10,
+            "unit": "oz"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "preparation": "thawed and squeezed of free liquid",
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 5,
+        "text": "1 large egg",
+        "authoredEntry": {
+          "id": "main.egg",
+          "key": "egg",
+          "name": "large egg",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "plural": "large eggs",
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 6,
+        "text": "3 cups (25 oz) marinara sauce, source companion volume/weight; original batch described as one 25 oz jar",
+        "authoredEntry": {
+          "id": "main.sauce",
+          "key": "sauce",
+          "name": "marinara sauce",
+          "quantity": {
+            "amount": 3,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "base",
+              "share": "1/4"
+            },
+            {
+              "step": "first",
+              "share": "1/4"
+            },
+            {
+              "step": "repeat",
+              "share": "1/2"
+            }
+          ],
+          "equivalents": [
+            {
+              "amount": 25,
+              "unit": "oz"
+            }
+          ],
+          "preparation": "source companion volume/weight; original batch described as one 25 oz jar",
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 7,
+        "text": "8 oz whole-wheat no-boil lasagna sheets",
+        "authoredEntry": {
+          "id": "main.sheets",
+          "key": "sheets",
+          "name": "whole-wheat no-boil lasagna sheets",
+          "quantity": {
+            "amount": 8,
+            "unit": "oz"
+          },
+          "uses": [
+            {
+              "step": "first",
+              "share": "1/3"
+            },
+            {
+              "step": "repeat",
+              "share": "2/3"
+            }
+          ],
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp kosher salt",
+        "authoredEntry": {
+          "id": "main.salt",
+          "key": "salt",
+          "name": "kosher salt",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Lasagna"
+        }
+      },
+      {
+        "index": 9,
+        "text": "1/4 tsp black pepper",
+        "authoredEntry": {
+          "id": "main.pepper",
+          "key": "pepper",
+          "name": "black pepper",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Lasagna"
+        }
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Mix",
+      "text": "Preheat the oven to 375°F. Thaw the spinach under refrigeration, follow any required product preparation, and squeeze out free liquid; cool any cooked spinach before mixing it with egg. Combine {{ingredients}} in a large bowl: whisk the egg first, then fold in the cheeses, prepared spinach and seasonings until the cheese and spinach are evenly distributed."
+    },
+    {
+      "step": 2,
+      "title": "Base",
+      "text": "Spread {{ingredients}} over the bottom of a 9×13-inch baking dish for the original batch. At other scales use enough separate original-size dishes or an appropriately smaller dish with similar layer depth and headroom; do not force the scaled mixture into the same pan."
+    },
+    {
+      "step": 3,
+      "title": "First tier",
+      "text": "Build the first tier with {{ingredients}}: arrange the noodle portion over the base without excessive overlap, spread one third of the full cheese mixture over the noodles, then add this sauce portion."
+    },
+    {
+      "step": 4,
+      "title": "Remaining tiers",
+      "text": "Build two more tiers with {{ingredients}} and the remaining cheese mixture, dividing each of those supplies into two equal portions. In each tier arrange noodles, then cheese mixture, then sauce. Use all the remaining sauce, ending with sauce on top; do not add an extra noodle layer."
+    },
+    {
+      "step": 5,
+      "title": "Cover",
+      "text": "Scatter {{ingredients}} over the final sauce. Cover the dish tightly with foil."
+    },
+    {
+      "step": 6,
+      "title": "Bake covered",
+      "text": "Bake at 375°F for about 30 minutes for the original pan."
+    },
+    {
+      "step": 7,
+      "title": "Finish uncovered",
+      "text": "Remove foil and continue baking, checking after about 20–25 minutes, until bubbling, the sheets are tender through all layers and several center locations reach 165°F / 74°C. A chilled or differently loaded dish can take longer."
+    },
+    {
+      "step": 8,
+      "title": "Rest",
+      "text": "Rest 10 minutes before cutting and serving."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Saved seasoning and rest",
+      "alternative": "For the saved seasoning option, replace the main listed kosher salt with ¼ tsp unnamed salt for the original batch, scaled proportionally, and omit the main pepper. Keep all cheese, spinach, egg, sauce and pasta amounts and the same layer proportions and center checks. The source rests 5 minutes; the main 10-minute rest remains available for firmer slicing.",
+      "effect": "This is a distinct source volume, not a conversion between unnamed salt and kosher crystals."
+    },
+    {
+      "ingredient": "Make ahead",
+      "alternative": "Assemble, cover and refrigerate at 40°F / 4°C or below, then cook within 24 hours. Use a vessel whose manufacturer permits the intended refrigerator-to-oven transition. Keep the same oven setting and check noodles and centers; do not assume exactly 10 extra minutes.",
+      "effect": "This retains the current one-day preparation plan without certifying a cold glass dish or a universal added clock."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["garlic-bread", "avocado-kale-caesar-salad"],
+    "scope": "Existing pairings remain metadata; no incoming composed meal found and no linked recipe receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "6",
+    "proposedYield": "6 portions",
+    "capacity": [
+      "The original batch uses a 9×13-inch dish; its depth is not documented. Leave headroom and keep the three-tier structure. Multiples work in separate original-size dishes; smaller batches need an appropriate smaller pan, with earlier center checks rather than a promised proportional time.",
+      "Use the actual no-boil noodle manufacturer’s suitable sauce/bake method. The source describes the original 3 cups sauce as a 25 oz jar; use the listed sauce amount for each scale. Separate the sauce into four equal shares and Parmesan into three-quarters filling/one-quarter top."
+    ],
+    "fullFormulaPreservation": "Current measured primary supplies preserved; exact supported missing oil/parsley added only where lost. Source alternatives are exclusive and disclosed.",
+    "unverified": "Actual pan depth/loading, finished weight and portions are planning questions, not measured yields."
+  },
+  "preservedPriorRepairs": [
+    "Mac e7f48228 one-third/remaining milk allocation preserved; Tofu493885bb unused-lemon removal preserved; all current rich main doses and explicit source alternatives conserved."
+  ],
+  "remainingQuestions": [
+    "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
+    "Validate cold-vessel instructions, chilled bake time and preferred5-versus10-minute rest in the kitchen."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,1148 @@
+{
+  "slug": "mediterranean-chicken-bowls",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "a82d7ea9f4fa56639ff56da0177ff898bcb8268897ed53e4e8056be85a04edf6",
+  "acceptedSourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 10–15 min, plus a 5-minute rest"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 40 min with a 15-minute marinade; longer marination and component preparation add time"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 lbs Chicken Thighs, boneless and skinless",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 tbsp Fresh Lemon Juice",
+        "1 tbsp Dried Oregano",
+        "2 cloves Garlic, minced",
+        "1 cup Hummus (The \"Silk\" Base)",
+        "2 cups Cooked Yellow Rice or Quinoa",
+        "1 English Cucumber, diced",
+        "1 pint Cherry Tomatoes, halved",
+        "1/2 cup Feta Cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+        "Fresh Lemon wedges"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "1 1/2 lb boneless, skinless chicken thighs",
+        "3 tbsp extra-virgin olive oil",
+        "2 tbsp fresh lemon juice",
+        "1 tbsp dried oregano",
+        "2 garlic cloves, peeled and minced",
+        "1 cup hummus",
+        "2 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "1 English cucumber, washed and diced",
+        "1 pint of cherry tomatoes, washed and halved; measure the listed volume",
+        "1/2 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 405,
+        "protein": 15,
+        "carbs": 33.5,
+        "fat": 25,
+        "fiber": 5.5,
+        "sugar": 6,
+        "sodium": 650
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken-thighs",
+                "name": "boneless, skinless chicken thighs",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon-juice",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oregano",
+                "key": "dried-oregano",
+                "name": "dried oregano",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "peeled and minced"
+              },
+              {
+                "id": "hummus",
+                "key": "hummus",
+                "name": "hummus",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "grain",
+                "key": "cooked-grain",
+                "name": "cooked yellow rice or quinoa",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ],
+                "preparation": "freshly cooked and warm, or properly chilled then reheated to 165°F throughout"
+              },
+              {
+                "id": "cucumber",
+                "key": "english-cucumber",
+                "name": "English cucumber",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "layer",
+                    "share": 1
+                  }
+                ],
+                "plural": "English cucumbers",
+                "preparation": "washed and diced"
+              },
+              {
+                "id": "tomato",
+                "key": "cherry-tomatoes",
+                "name": "pint of cherry tomatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "layer",
+                    "share": 1
+                  }
+                ],
+                "plural": "pints of cherry tomatoes",
+                "preparation": "washed and halved; measure the listed volume"
+              },
+              {
+                "id": "feta",
+                "key": "feta",
+                "name": "feta cheese",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "crumbled"
+              },
+              {
+                "id": "onions",
+                "key": "pickled-red-onions",
+                "name": "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "wedges",
+                "key": "lemon-wedges",
+                "name": "fresh lemon wedges",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "marinate",
+            "title": "Marinate",
+            "text": "Toss {{ingredients}} in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken."
+          },
+          {
+            "id": "cook",
+            "title": "Cook chicken",
+            "text": "Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls."
+          },
+          {
+            "id": "rest",
+            "title": "Rest",
+            "text": "Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips."
+          },
+          {
+            "id": "assemble",
+            "title": "Build base",
+            "text": "Divide all {{ingredients}} among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready."
+          },
+          {
+            "id": "layer",
+            "title": "Layer",
+            "text": "Use {{ingredients}} for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles."
+          },
+          {
+            "id": "finish",
+            "title": "Finish",
+            "text": "Finish with {{ingredients}}, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Plan cold marination around browning, a measured thigh endpoint and bowl assembly",
+        "outcome": "Browned, rested chicken strips over hummus and warm grain, with fresh vegetables and the full feta portion.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its utensils.",
+          "Have hummus and cooked rice or quinoa ready. Prepare the washed cucumber, tomatoes, pickled onions and lemon wedges before working with raw chicken.",
+          "Choose enough skillet or grill space for an uncrowded chicken layer, using extra loads if needed. The original four bowls are a serving plan; divide every measured component among the portions being served."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Each thigh is browned and reaches 165°F in its thick center.",
+            "why": "Lemon and herbs can darken at the surface before a thick piece is cooked through."
+          },
+          {
+            "step": 4,
+            "cue": "All the hummus and prepared grain are divided before the toppings are added.",
+            "why": "Measuring the already cooked grain makes it ready to divide among the bowls during the chicken rest."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The coating scorches while the center is below its endpoint",
+            "cause": "High heat or crowded, unevenly thick pieces.",
+            "fix": "Lower the heat, give the pieces space and continue checking the thick centers. Do not stop at char alone."
+          }
+        ],
+        "timing": "About 40 minutes is a planning estimate when the minimum fifteen-minute marinade overlaps vegetable preparation and hummus/grain are ready; it includes the five-minute rest. The two-hour and overnight options add cold-holding time, and extra pan loads or cooking grains add time.",
+        "storage": "Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout. Store the fresh vegetables, hummus, feta and pickled onions separately from hot reheating components. Warmed rice and chicken soften fresh garnishes if held assembled.",
+        "sources": [
+          {
+            "title": "FDA poultry, cold marination and handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA raw-poultry storage",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis modular grain bowl treats each component as an independent element. Marinating chicken thighs in oregano and lemon, then searing over high heat develops a charred, crispy crust characteristic of Greek souvlaki. Layering creamy hummus at the bowl's base prevents fresh cucumbers and tomatoes from becoming soggy. Pickled red onions provide bright acidity.\n\n## Directions\n\n1.  **Marinate:** In a large bowl, toss chicken thighs with olive oil, lemon juice, oregano, and garlic. **Let sit for at least 15 minutes** (ideally 2 hours).\n2.  **The Sear:** Heat a large skillet or grill to medium-high. Cook chicken for 5-6 minutes per side until deeply charred and the internal temp is 165°F.\n3.  **Rest:** Transfer to a board and let rest for 5 minutes. Slice into thin strips.\n4.  **Assemble:** In four deep bowls, spread a generous base of hummus. Top with a scoop of warm rice or quinoa.\n5.  **Layer:** Arrange the sliced chicken, cucumbers, and tomatoes in distinct \"stacks\" around the bowl.\n6.  **Finish:** Top with crumbled feta and a massive pile of [Pickled Red Onions](/mise/recipes/pickled-red-onions). Serve with a lemon wedge for the final **High Note**.\n",
+    "after": "\n## Chef's Note\n\nOregano and lemon season the chicken while hummus, grains and fresh vegetables form the bowl. Cook the thighs until browned and their centers reach 165°F, then use the five-minute rest to arrange the hummus and grain. Pickled onions and lemon wedges finish the rich chicken and feta.\n\n## Directions\n\n1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.\n\n## Longer marinade and seasoning option\n\nFor a longer preparation, the chicken can marinate overnight in the refrigerator within its remaining raw-poultry storage window: use fresh or refrigerator-thawed chicken within 1–2 days, counting that time before and during marination. Salt and black pepper to taste may be mixed into this marinade before adding the chicken, as a separate optional seasoning allowance. Keep the full listed olive oil, lemon, oregano, garlic and chicken; cook to the same measured 165°F center endpoint and keep the five-minute rest. This option adds overnight cold-holding time; check the same thick-center endpoint when cooking.\n"
+  },
+  "findings": [
+    {
+      "id": "PA18-M01",
+      "title": "PA18-M01",
+      "rationale": "Preserve current1½lb thighs/full3Tbsp oil/2Tbsp lemon/1Tbsp DRIEDoregano/2garlic/1hummus/2COOKEDgrain/1cucumber/1pint tomatoes/½feta and unmeasured pickled onions/wedges. Refrigerate marinade, preserve15minute/2hour choices and5minrest/165target; tie all bowl amounts to portions and make cooked grain a prerequisite. About40minimum elapsed accounts for overlapping20prep,10–15cook and5rest; component preparation/batches extend it.",
+      "confidence": "high measured dose/category conservation; moderate estimated scheduling",
+      "applicableSources": [
+        "b26 first cooking and complete followed current changes",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "content",
+        "learning",
+        "cookTime",
+        "totalTime"
+      ],
+      "questions": [
+        "Actual grain/hummus state, marination option, pan loads, bowl capacity and serving quantities? No cooker water dose is supplied."
+      ]
+    },
+    {
+      "id": "PA18-M02",
+      "title": "PA18-M02",
+      "rationale": "Preserve first b26 up-to-overnight marinade and its genuine salt/pepper as a separate optional unmeasured seasoning choice, within USDA1–2day rawpoultry remainingwindow. Later current½cup feta stays measured; original unmeasured feta is not silently treated as½cup equivalent. Discard residual uncooked marinade rather than topping finished bowls with rawcontact liquid; full listed marinade still prepared.",
+      "confidence": "high original option lineage and cold-hold principles; moderate actual marinade coating retention",
+      "applicableSources": [
+        "b26b0ecec464763d062646f2252e10570bfa6556 introduction and d3300d7ef6968c6bdf4de9904e951d8c3e294cc0 followed change",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "USDA refrigeration"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "Which seasoning/marination option is intended? Earlier unmeasured feta has no quantitative equivalence; current½cup is kept."
+      ]
+    },
+    {
+      "id": "PA18-M03",
+      "title": "PA18-M03",
+      "rationale": "Keep Mediterranean style, all links and current richness; omit region-as-country2a7 origin and automatic nutrition. Replace unverified hummus thermalguard/sogginess prevention guarantee with direct bowl assembly prose. No invented external author or generic addedacid/searing change.",
+      "confidence": "high",
+      "applicableSources": ["complete followed history", "docs/RECIPE_STANDARD.md"],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b26b0ecec464763d062646f2252e10570bfa6556/src/content/recipes/mediterranean-chicken-bowls.md",
+    "introductionScope": "Git-only first available followed cooking version; no exact original450 native match established",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Git-createdb26 original up-to-overnight marinade and salt/pepper vs laterd330 current15minute/2h/165/five-rest and measuredhalf-cup feta. Main fullcurrentdoses kept; original timing/seasoning distinct within remaining rawpoultry window. Earlier unmeasured feta not asserted equivalent.",
+    "Current claim hummus thermalguard/sogginess guarantee lacks applicable evidence; direct assembly prose replaces it. Mediterranean region field not a particular-formula country; style/link preserved."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1.5 lbs Chicken Thighs, boneless and skinless",
+        "index": 0,
+        "preparation": "rawbonelessskinless",
+        "destination": "step1sit unspecifiedlocation→2cook165→3rest5/slice→5",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "3 tbsp Extra-Virgin Olive Oil",
+        "index": 1,
+        "preparation": "oliveoil",
+        "destination": "full step1marinade; leftover residue not specified",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Lemon Juice",
+        "index": 2,
+        "preparation": "freshjuice",
+        "destination": "step1marinade",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tbsp Dried Oregano",
+        "index": 3,
+        "preparation": "DRIEDherb",
+        "destination": "step1marinade",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "index": 4,
+        "preparation": "minced",
+        "destination": "step1marinade",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 cup Hummus (The \"Silk\" Base)",
+        "index": 5,
+        "preparation": "preparedhummus",
+        "destination": "step4generousbase",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 cups Cooked Yellow Rice or Quinoa",
+        "index": 6,
+        "preparation": "COOKEDyellowriceORquinoa",
+        "destination": "step4scoopwarm; no dryratio",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 English Cucumber, diced",
+        "index": 7,
+        "preparation": "diced",
+        "destination": "step5",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 pint Cherry Tomatoes, halved",
+        "index": 8,
+        "preparation": "onepintvolume/halved",
+        "destination": "step5",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/2 cup Feta Cheese, crumbled",
+        "index": 9,
+        "preparation": "crumbled",
+        "destination": "step6",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+        "index": 10,
+        "preparation": "preparedunmeasuredlinked",
+        "destination": "step6",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "Fresh Lemon wedges",
+        "index": 11,
+        "preparation": "unmeasuredwedges",
+        "destination": "step6",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "id": "main.chicken",
+        "key": "chicken-thighs",
+        "name": "boneless, skinless chicken thighs",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.oil",
+        "key": "olive-oil",
+        "name": "extra-virgin olive oil",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.lemon",
+        "key": "lemon-juice",
+        "name": "fresh lemon juice",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.oregano",
+        "key": "dried-oregano",
+        "name": "dried oregano",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ],
+        "plural": "garlic cloves",
+        "preparation": "peeled and minced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.hummus",
+        "key": "hummus",
+        "name": "hummus",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.grain",
+        "key": "cooked-grain",
+        "name": "cooked yellow rice or quinoa",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "preparation": "freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cucumber",
+        "key": "english-cucumber",
+        "name": "English cucumber",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "layer",
+            "share": 1
+          }
+        ],
+        "plural": "English cucumbers",
+        "preparation": "washed and diced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.tomato",
+        "key": "cherry-tomatoes",
+        "name": "pint of cherry tomatoes",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "layer",
+            "share": 1
+          }
+        ],
+        "plural": "pints of cherry tomatoes",
+        "preparation": "washed and halved; measure the listed volume",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.feta",
+        "key": "feta",
+        "name": "feta cheese",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "preparation": "crumbled",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onions",
+        "key": "pickled-red-onions",
+        "name": "[Pickled Red Onions](/mise/recipes/pickled-red-onions)",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.wedges",
+        "key": "lemon-wedges",
+        "name": "fresh lemon wedges",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Main recipe"
+      }
+    ],
+    "native": [],
+    "nativeMethodOwned": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "6c9fb931b5c2af616feece2bb1b4ba41f14a78e2f7ee7ce5660d64dc4f4e57f7"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "6a3bdfb7c2a30c6521a1e8c10d136c5062b948a29c47a7d241f147b3a40f1098"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "52dfef09bd623d27dc604e621f8d70700c6ba3a309948c8c87e4c3457fdf24fe"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "74bb28a7f8f1c34e14d57cd883fab5cee5b28cfc490425aa4127e09b567743f3"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "cf0981af5931d3762eb4599dc7a42bb08fa5755e29ce8546d355cd6874c5ec19"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "e37940516d52fb9a17ecc3959506ef14b8d8759cbe244e02350023be10d0bc3d"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "marinate",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.chicken", "main.oil", "main.lemon", "main.oregano", "main.garlic"],
+        "cues": []
+      },
+      {
+        "step": 2,
+        "id": "cook",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": [],
+        "cues": ["Each thigh is browned and reaches 165°F in its thick center."]
+      },
+      {
+        "step": 3,
+        "id": "rest",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [],
+        "cues": []
+      },
+      {
+        "step": 4,
+        "id": "assemble",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.hummus", "main.grain"],
+        "cues": ["All the hummus and prepared grain are divided before the toppings are added."]
+      },
+      {
+        "step": 5,
+        "id": "layer",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["main.cucumber", "main.tomato"],
+        "cues": []
+      },
+      {
+        "step": 6,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["main.feta", "main.onions", "main.wedges"],
+        "cues": []
+      }
+    ],
+    "native": null
+  },
+  "variantLedgers": [
+    {
+      "name": "Current fully rich main",
+      "supplies": "Allcurrent12rows/½cupfeta/3Tbsp oil/2COOKEDcupsgrain and pickledonions+lemongarnish",
+      "destinations": "Full marinade→cook165/rest5→allhummus/grain→veg/chicken→allfeta/garnishes",
+      "status": "preserved"
+    },
+    {
+      "name": "Two-hour or original overnight cold marinade",
+      "supplies": "Allsame measuredcurrent supplies; sourceoriginalsalt/pepper genuineoptionalunmeasuredallowance",
+      "destinations": "Fridge withinremaining1–2dayrawpoultrywindow, aftercookrestsame",
+      "status": "complete optional timing/seasoning route preserved"
+    },
+    {
+      "name": "Earlier unmeasured feta",
+      "supplies": "Firstb26 listsunmeasuredfeta; latercurrent specifies½cup",
+      "destinations": "Current½cupkept, no inferredsameamount",
+      "status": "source disagreement retained privately; no silent rollback"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "everyday-arugula-salad",
+        "path": "src/content/recipes/everyday-arugula-salad.md",
+        "sha256": "4f0beefaf3576b768e72bd5ed97d549283449e2344782177bd0ba99982a31810",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "lemon-herb-couscous",
+        "path": "src/content/recipes/lemon-herb-couscous.md",
+        "sha256": "f322a5257cda7bc08eb4a61128cf66432af5181f837e30cd9b91baaf5e358053",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "arugula-feta-salad",
+        "path": "src/content/recipes/arugula-feta-salad.md",
+        "sha256": "9cc3d5ea1b16f1cae628f258edd62b23664013aa6c6f4a37e2e6acebc30f40b2",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "pickled-red-onions",
+        "path": "src/content/recipes/pickled-red-onions.md",
+        "sha256": "93b00fba3f13ce4f24c770ca0d8e8a272682b6c21afad781b061a114e96ea271",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "All outgoing/contextual links retained; no composed meal acceptance inferred."
+  },
+  "ratiosYieldAndCapacity": {
+    "plan": "Four-bowl inherited plan:1.5lb rawthighs/3Tbsp marinadeoil/2Tbsp juice/1Tbsp DRIEDoregano/2garlic/1cuphummus/2COOKEDcupsgrain/1cucumber/onepinttomatoes/half-cupfeta. Pint is listed volume, no weight equivalent. No retained-coating/nutrition or measured final yield claim.",
+    "capacity": "Uncrowded grill/skillet loads, actual bowl capacity; cold marinade overlaps vegetableprep. Current15min/2h vs separateoriginal overnight elapsed, grains ready prerequisite."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3/8 lb boneless, skinless chicken thighs",
+        "3/4 tbsp extra-virgin olive oil",
+        "1/2 tbsp fresh lemon juice",
+        "1/4 tbsp dried oregano",
+        "1/2 garlic clove, peeled and minced",
+        "1/4 cup hummus",
+        "1/2 cup cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "1/4 English cucumber, washed and diced",
+        "1/4 pint of cherry tomatoes, washed and halved; measure the listed volume",
+        "1/8 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "3/8 lb boneless, skinless chicken thighs",
+        "3/4 tbsp extra-virgin olive oil",
+        "1/2 tbsp fresh lemon juice",
+        "1/4 tbsp dried oregano",
+        "1/2 garlic clove",
+        "1/4 cup hummus",
+        "1/2 cup cooked yellow rice or quinoa",
+        "1/4 English cucumber",
+        "1/4 pint of cherry tomatoes",
+        "1/8 cup feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3/4 lb boneless, skinless chicken thighs",
+        "1 1/2 tbsp extra-virgin olive oil",
+        "1 tbsp fresh lemon juice",
+        "1/2 tbsp dried oregano",
+        "1 garlic clove, peeled and minced",
+        "1/2 cup hummus",
+        "1 cup cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "1/2 English cucumber, washed and diced",
+        "1/2 pint of cherry tomatoes, washed and halved; measure the listed volume",
+        "1/4 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "3/4 lb boneless, skinless chicken thighs",
+        "1 1/2 tbsp extra-virgin olive oil",
+        "1 tbsp fresh lemon juice",
+        "1/2 tbsp dried oregano",
+        "1 garlic clove",
+        "1/2 cup hummus",
+        "1 cup cooked yellow rice or quinoa",
+        "1/2 English cucumber",
+        "1/2 pint of cherry tomatoes",
+        "1/4 cup feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb boneless, skinless chicken thighs",
+        "3 tbsp extra-virgin olive oil",
+        "2 tbsp fresh lemon juice",
+        "1 tbsp dried oregano",
+        "2 garlic cloves, peeled and minced",
+        "1 cup hummus",
+        "2 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "1 English cucumber, washed and diced",
+        "1 pint of cherry tomatoes, washed and halved; measure the listed volume",
+        "1/2 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "1 1/2 lb boneless, skinless chicken thighs",
+        "3 tbsp extra-virgin olive oil",
+        "2 tbsp fresh lemon juice",
+        "1 tbsp dried oregano",
+        "2 garlic cloves",
+        "1 cup hummus",
+        "2 cups cooked yellow rice or quinoa",
+        "1 English cucumber",
+        "1 pint of cherry tomatoes",
+        "1/2 cup feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 1/4 lb boneless, skinless chicken thighs",
+        "4 1/2 tbsp extra-virgin olive oil",
+        "3 tbsp fresh lemon juice",
+        "1 1/2 tbsp dried oregano",
+        "3 garlic cloves, peeled and minced",
+        "1 1/2 cups hummus",
+        "3 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "1 1/2 English cucumbers, washed and diced",
+        "1 1/2 pints of cherry tomatoes, washed and halved; measure the listed volume",
+        "3/4 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "2 1/4 lb boneless, skinless chicken thighs",
+        "4 1/2 tbsp extra-virgin olive oil",
+        "3 tbsp fresh lemon juice",
+        "1 1/2 tbsp dried oregano",
+        "3 garlic cloves",
+        "1 1/2 cups hummus",
+        "3 cups cooked yellow rice or quinoa",
+        "1 1/2 English cucumbers",
+        "1 1/2 pints of cherry tomatoes",
+        "3/4 cup feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb boneless, skinless chicken thighs",
+        "6 tbsp extra-virgin olive oil",
+        "4 tbsp fresh lemon juice",
+        "2 tbsp dried oregano",
+        "4 garlic cloves, peeled and minced",
+        "2 cups hummus",
+        "4 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "2 English cucumbers, washed and diced",
+        "2 pints of cherry tomatoes, washed and halved; measure the listed volume",
+        "1 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "3 lb boneless, skinless chicken thighs",
+        "6 tbsp extra-virgin olive oil",
+        "4 tbsp fresh lemon juice",
+        "2 tbsp dried oregano",
+        "4 garlic cloves",
+        "2 cups hummus",
+        "4 cups cooked yellow rice or quinoa",
+        "2 English cucumbers",
+        "2 pints of cherry tomatoes",
+        "1 cup feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 1/2 lb boneless, skinless chicken thighs",
+        "9 tbsp extra-virgin olive oil",
+        "6 tbsp fresh lemon juice",
+        "3 tbsp dried oregano",
+        "6 garlic cloves, peeled and minced",
+        "3 cups hummus",
+        "6 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "3 English cucumbers, washed and diced",
+        "3 pints of cherry tomatoes, washed and halved; measure the listed volume",
+        "1 1/2 cups feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "4 1/2 lb boneless, skinless chicken thighs",
+        "9 tbsp extra-virgin olive oil",
+        "6 tbsp fresh lemon juice",
+        "3 tbsp dried oregano",
+        "6 garlic cloves",
+        "3 cups hummus",
+        "6 cups cooked yellow rice or quinoa",
+        "3 English cucumbers",
+        "3 pints of cherry tomatoes",
+        "1 1/2 cups feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb boneless, skinless chicken thighs",
+        "3 tbsp extra-virgin olive oil",
+        "2 tbsp fresh lemon juice",
+        "1 tbsp dried oregano",
+        "2 garlic cloves, peeled and minced",
+        "1 cup hummus",
+        "2 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated to 165°F throughout",
+        "1 English cucumber, washed and diced",
+        "1 pint of cherry tomatoes, washed and halved; measure the listed volume",
+        "1/2 cup feta cheese, crumbled",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.\n2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.\n3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.\n4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.\n5. **Layer:** Use English cucumber and pint of cherry tomatoes for the fresh toppings, distributing their full listed quantities and all the cooked sliced chicken among the bowls in separate piles.\n6. **Finish:** Finish with feta cheese, [Pickled Red Onions](/mise/recipes/pickled-red-onions), and fresh lemon wedges, dividing the full measured feta among the bowls and using the pickled onions and lemon wedges as desired. Serve promptly.",
+      "shopping": [
+        "1 1/2 lb boneless, skinless chicken thighs",
+        "3 tbsp extra-virgin olive oil",
+        "2 tbsp fresh lemon juice",
+        "1 tbsp dried oregano",
+        "2 garlic cloves",
+        "1 cup hummus",
+        "2 cups cooked yellow rice or quinoa",
+        "1 English cucumber",
+        "1 pint of cherry tomatoes",
+        "1/2 cup feta cheese",
+        "[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving",
+        "fresh lemon wedges, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    }
+  ],
+  "preservedPriorRepairs": {
+    "commit": "d3300d7ef6968c6bdf4de9904e951d8c3e294cc0",
+    "preserved": "Current full3Tbsp olive oil/1Tbsp DRIEDoregano/half-cup feta,15minOR2h marinade/165/5rest, cooked grain and pickled-onion links retained; original overnight/salt option distinct.",
+    "assertions": [
+      "3 tbsp extra-virgin olive oil",
+      "1 tbsp dried oregano",
+      "165°F / 74°C",
+      "5 minutes",
+      "1/2 cup feta cheese"
+    ]
+  },
+  "remainingQuestions": [
+    "Actual grain/hummus state, marination option, pan loads, bowl capacity and serving quantities? No cooker water dose is supplied.",
+    "Which seasoning/marination option is intended? Earlier unmeasured feta has no quantitative equivalence; current½cup is kept."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

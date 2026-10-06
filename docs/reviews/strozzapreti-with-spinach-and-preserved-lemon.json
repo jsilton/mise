@@ -1,0 +1,1067 @@
+{
+  "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "154e6c94caa7abb62f454f716a42fefd2b1f0d0afa456d02a906ce5373bd3908",
+  "acceptedSourceSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "15–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "25–35 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 oz Fresh Strozzapreti (or Cavatappi)",
+        "1 stick (8 tbsp) Unsalted Butter",
+        "1 tbsp Preserved Lemon Peel, minced",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "2 bunches Flat-leaf Spinach, trimmed",
+        "3/4 cup Panko Breadcrumbs (The Crunch)",
+        "1 clove Garlic, crushed",
+        "1/2 tsp Red Pepper Flakes",
+        "1 tsp Lemon Zest"
+      ],
+      "after": [
+        "--- Pasta and crumbs ---",
+        "12 oz fresh strozzapreti OR cavatappi",
+        "8 tbsp (1 stick) unsalted butter",
+        "1 tbsp preserved lemon peel, minced",
+        "1 tbsp fresh lemon juice",
+        "2 bunches of flat-leaf spinach, trimmed, washed, drained; larger leaves torn",
+        "3/4 cup panko breadcrumbs",
+        "1 garlic clove, crushed",
+        "1/2 tsp red pepper flakes",
+        "1 tsp lemon zest",
+        "2 tbsp olive oil",
+        "kosher salt and black pepper for crumbs, as needed",
+        "water and salt for boiling pasta, as needed",
+        "kosher salt and black pepper for finishing, as needed",
+        "additional preserved lemon peel for optional finishing, as needed, optional",
+        "additional lemon juice for optional finishing, as needed, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 85,
+        "protein": 3.5,
+        "carbs": 16.5,
+        "fat": 1,
+        "fiber": 3.5,
+        "sugar": 2.5,
+        "sodium": 140
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Pasta and crumbs",
+            "ingredients": [
+              {
+                "id": "pasta",
+                "key": "pasta",
+                "name": "fresh strozzapreti OR cavatappi",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": "1/4"
+                  },
+                  {
+                    "step": "wilt",
+                    "share": "3/4"
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 1,
+                    "unit": "stick"
+                  }
+                ]
+              },
+              {
+                "id": "peel",
+                "key": "peel",
+                "name": "preserved lemon peel",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "juice",
+                "key": "juice",
+                "name": "fresh lemon juice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "bunch of flat-leaf spinach",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wilt",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "combine",
+                    "share": "1/2"
+                  }
+                ],
+                "plural": "bunches of flat-leaf spinach",
+                "preparation": "trimmed, washed, drained; larger leaves torn"
+              },
+              {
+                "id": "panko",
+                "key": "panko",
+                "name": "panko breadcrumbs",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "crushed"
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "red pepper flakes",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "combine",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "zest",
+                "key": "zest",
+                "name": "lemon zest",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "crumb-season",
+                "key": "crumb-season",
+                "name": "kosher salt and black pepper for crumbs",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "crumbs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water and salt for boiling pasta",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "boil",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "finish-season",
+                "key": "finish-season",
+                "name": "kosher salt and black pepper for finishing",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-peel",
+                "key": "extra-peel",
+                "name": "additional preserved lemon peel for optional finishing",
+                "allowance": "as needed",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-juice",
+                "key": "extra-juice",
+                "name": "additional lemon juice for optional finishing",
+                "allowance": "as needed",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "combine",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "crumbs",
+            "title": "Toast crumbs",
+            "text": "Make the topping with {{ingredients}} in a wide skillet: melt the butter with the oil over medium heat. Add garlic and pepper flakes; as they become fragrant, stir in the panko and stir until golden and crisp, checking after about 2 minutes. Stir in the zest, season with the listed crumb seasoning and transfer all the crumbs to a dry plate. Wipe out stray crumbs from the pan before browning butter."
+          },
+          {
+            "id": "boil",
+            "title": "Boil",
+            "text": "Cook {{ingredients}} until al dente according to the actual fresh or dried pasta package; the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Drain."
+          },
+          {
+            "id": "wilt",
+            "title": "Brown and wilt",
+            "text": "Use {{ingredients}} for the first wilt: melt the butter in the cleaned skillet over medium heat, swirling until golden and nutty rather than dark or black. Add this spinach portion and toss until wilted."
+          },
+          {
+            "id": "combine",
+            "title": "Combine",
+            "text": "Finish with {{ingredients}} and all the drained pasta: add the measured peel and juice, remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated, checking after about 1 minute rather than assuming 30 seconds works for every load. Season to taste, using additional peel or juice only if desired."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Divide all the pasta and spinach among bowls and distribute all the reserved crumbs over the top."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the crumb and pasta allocations distinct",
+        "outcome": "Wilted spinach and pasta under crisp golden crumbs.",
+        "techniques": ["browning", "starch"],
+        "before": [
+          "Wash the trimmed spinach and drain it; tear larger leaves. Two bunches in the source are about 8 cups at original scale, but bunch size varies. Use the listed scaled bunch count and enough pan space to turn and wilt it.",
+          "Divide the butter one quarter for crumbs and three quarters for the sauce, and the source flakes equally between those stages. More pasta requires more boiling and skillet capacity, not darker butter or a multiplied browning clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Crumbs are golden and crisp, not dark or soft.",
+            "why": "They will not become crisper in the finished wet pasta."
+          },
+          {
+            "step": 3,
+            "cue": "Butter is nutty and golden, then the first spinach portion collapses.",
+            "why": "Burned butter cannot be repaired by adding spinach."
+          },
+          {
+            "step": 4,
+            "cue": "All spinach has wilted and the pasta still has a little bite.",
+            "why": "Leaf size and pan loading govern this stage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Crumbs turn wet",
+            "cause": "The topping sat in wet pasta before serving.",
+            "fix": "Keep the topping on a dry plate until the bowls are ready."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Pepper-flake allocation",
+            "alternative": "For the current all-flakes-in-crumbs variation, put the entire listed red-pepper-flake amount into step 1 and omit it from step 4; all other amounts and stages are unchanged.",
+            "effect": "This preserves the current allocation separately from the saved half-in-crumbs, half-in-pasta route."
+          },
+          {
+            "ingredient": "Finishing citrus",
+            "alternative": "Use a little of the optional additional preserved peel or lemon juice only if wanted after tasting the finished pasta.",
+            "effect": "These source allowances are separate from the full measured peel and juice; no acid addition is mandatory."
+          },
+          {
+            "ingredient": "Crumbs ahead",
+            "alternative": "Prepare the crumb topping up to one day ahead and keep it in an airtight container at room temperature.",
+            "effect": "This is the publisher’s plain crumb preparation plan, not a shelf-life test of assembled pasta."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Keep the plain crumb topping separate from wet pasta; use its one-day preparation plan above.",
+        "timing": "Plan about 25–35 minutes for washing/prep, heating water, crumbs and butter, and pasta/wilting; some tasks overlap. Larger loads or dried pasta extend it.",
+        "sources": [
+          {
+            "title": "Bon Appétit — Preserved lemon spinach pasta",
+            "url": "http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon"
+          },
+          {
+            "title": "FoodSafety.gov — Clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Leftover handling",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          },
+          {
+            "title": "Emilia-Romagna Region — Traditional strozzapreti",
+            "url": "https://agricoltura.regione.emilia-romagna.it/dop-igp/altri-regimi-di-qualita/prodotti-tradizionali/pat-suddivisi-per-categoria/paste-fresche-panetteria-biscotteria-pasticceria-e-confetteria/strozzapreti-strozaprit"
+          },
+          {
+            "title": "Nargisse Benkabbou — Moroccan preserved lemons, cultural use",
+            "url": "https://www.mymoroccanfood.com/home/2015/6/24/preserved-lemons"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nStrozzapreti (\"priest stranglers\") is a hand-rolled pasta shape from Emilia-Romagna and other Italian regions. Browning panko breadcrumbs in garlic butter before starting the pasta gives you a crispy topping that contrasts beautifully with the soft, chewy noodles. Preserved lemon adds a fermented, salty complexity that fresh citrus can't match - it's become popular in modern Italian cooking though it originally comes from North African cuisine. Brown butter ties the earthy spinach and bright lemon together.\n\n## Directions\n\n1.  **The Crunch:** In a large skillet, melt 2 tbsp butter with 2 tbsp olive oil. Sauté garlic and red pepper flakes for 1 minute. Add panko and cook until golden brown and softened mahogany brown (2 mins). Stir in lemon zest. Remove to a plate.\n2.  **Boil:** Cook pasta in a massive pot of salted water until **very al dente** (5 mins for fresh). Drain.\n3.  **Brown Butter:** In the same skillet, melt remaining 6 tbsp butter. Whisk over medium for 3 minutes until foamy and dark brown.\n4.  **The Wilt:** Add half of the spinach to the butter. Toss for 1 minute until collapsed.\n5.  **Bind:** Add the hot pasta, lemon juice, and preserved lemon. Toss vigorously. Add the remaining spinach and toss for 30 seconds.\n6.  **Serve:** Divide into bowls. Top with a massive pile of the reserved garlic-lemon panko for the final **High Note**.\n",
+    "after": "\n## Chef's Note\n\nStrozzapreti (\"priest stranglers\") is a hand-rolled pasta shape associated with Romagna. Preserved lemon, used in Moroccan tagines and salads, contributes salt as well as citrus. Make the crumbs first and keep them dry while cooking the pasta. Brown the remaining butter only to golden and nutty, then wilt the spinach in two additions. The measured preserved peel, juice and zest each have a separate destination; the crisp topping carries half the pepper flakes in the source route.\n\n## Directions\n\n1. **Toast crumbs:** Make the topping with 1/4 of the unsalted butter, panko breadcrumbs, garlic clove, 1/2 of the red pepper flakes, lemon zest, olive oil, and kosher salt and black pepper for crumbs in a wide skillet: melt the butter with the oil over medium heat. Add garlic and pepper flakes; as they become fragrant, stir in the panko and stir until golden and crisp, checking after about 2 minutes. Stir in the zest, season with the listed crumb seasoning and transfer all the crumbs to a dry plate. Wipe out stray crumbs from the pan before browning butter.\n2. **Boil:** Cook fresh strozzapreti OR cavatappi and water and salt for boiling pasta until al dente according to the actual fresh or dried pasta package; the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Drain.\n3. **Brown and wilt:** Use 3/4 of the unsalted butter and 1/2 of the bunches of flat-leaf spinach for the first wilt: melt the butter in the cleaned skillet over medium heat, swirling until golden and nutty rather than dark or black. Add this spinach portion and toss until wilted.\n4. **Combine:** Finish with preserved lemon peel, fresh lemon juice, 1/2 of the bunches of flat-leaf spinach, 1/2 of the red pepper flakes, kosher salt and black pepper for finishing, additional preserved lemon peel for optional finishing (if using), and additional lemon juice for optional finishing (if using) and all the drained pasta: add the measured peel and juice, remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated, checking after about 1 minute rather than assuming 30 seconds works for every load. Season to taste, using additional peel or juice only if desired.\n5. **Serve:** Divide all the pasta and spinach among bowls and distribute all the reserved crumbs over the top.\n"
+  },
+  "findings": [
+    {
+      "id": "VP16-4-1",
+      "title": "VP16-4-1",
+      "rationale": "2f255 dropped the exact2Tb olive oil from the ingredient list while leaving it in the crumb method, and moved all flakes to crumbs. Restore the full oil and source half/half allocation while preserving the current all-in-crumbs variation.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon",
+          "applicability": "Full oil/butter and half-flakes allocation, plain crumb make-ahead, fresh/dried pasta distinction."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+        "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-4-2",
+      "title": "VP16-4-2",
+      "rationale": "Compile the full8Tb butter into¼ crumb/¾ sauce shares, flakes½/½ and spinach½/½. Correct softened mahogany crumbs, dark-butter and fixed30-second wilt claims without reducing any ingredient.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon",
+          "applicability": "Full oil/butter and half-flakes allocation, plain crumb make-ahead, fresh/dried pasta distinction."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+        "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-4-3",
+      "title": "VP16-4-3",
+      "rationale": "Retain source additional peel/juice as true optional finish allowances and its one-day plain-crumb make-ahead plan; not a preservation claim for the pasta.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon",
+          "applicability": "Full oil/butter and half-flakes allocation, plain crumb make-ahead, fresh/dried pasta distinction."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+        "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-metadata-strozzapreti-with-spinach-and-preserved-lemon",
+      "title": "VP16-metadata-strozzapreti-with-spinach-and-preserved-lemon",
+      "rationale": {
+        "origin": "Inherited country field lacks recipe-specific origin evidence; cuisine/source credit remains.",
+        "nutrition": "Unverified fixed legacy values removed rather than inventing replacement nutrition.",
+        "methods": "Tags describe full implemented primary/optional routes; no unused boil/steam/roast label granted authority."
+      },
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Strozzapreti with Spinach and Preserved Lemon.html",
+            "sha256": "8aebc1aeb1fbbcf4cfd18e41c781e8612ed609bebe7e19bff6d062ad6adf9278",
+            "scope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained."
+          },
+          "applicability": "Inherited metadata is not country-origin or nutrition proof; actual implemented routes govern method tags."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VP16-handling-strozzapreti-with-spinach-and-preserved-lemon",
+      "title": "VP16-handling-strozzapreti-with-spinach-and-preserved-lemon",
+      "rationale": "Prompt cooling, cold3–4-day leftovers and165°F reheating apply to the complete prepared dish; this is handling guidance, not a publisher- or kitchen-tested formula/clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Direct full primary guidance on prompt shallow-container cooling,40°F cold handling,3–4days and165°F reheating; not initial-cook formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": [
+        "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+        "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-ROOT-CULTURE",
+      "title": "VP16-ROOT-CULTURE",
+      "field": "content",
+      "rationale": "Preserve supported pasta-name/regional and North African ingredient context while removing unsupported popularization and universal-origin assertions. No formula, cooking route or preservation claim changes.",
+      "confidence": "high for the limited cultural wording",
+      "applicableSources": [
+        {
+          "url": "https://agricoltura.regione.emilia-romagna.it/dop-igp/altri-regimi-di-qualita/prodotti-tradizionali/pat-suddivisi-per-categoria/paste-fresche-panetteria-biscotteria-pasticceria-e-confetteria/strozzapreti-strozaprit",
+          "applicability": "Regional government traditional-product description: Romagna, hand twisting and name legends; no proof of exclusive invention."
+        },
+        {
+          "url": "https://www.mymoroccanfood.com/home/2015/6/24/preserved-lemons",
+          "applicability": "Nargisse Benkabbou first-person Moroccan culinary source: uses in Moroccan tagines and salads only. Its preservation/storage/mold claims are not adopted or certified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Strozzapreti%20with%20Spinach%20and%20Preserved%20Lemon.html",
+    "introductionScope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "url": "http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon",
+      "scope": "Exact original, actual publisher versions and disagreements considered in frozen author/whole peer evidence; no kitchen certification."
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "2f255 removes ingredient olive oil and source half-flakes division while retaining method oil; no later explicit omission decision was established. Native/publisher oil/restored proportions are primary, and current all-flakes topping is kept exclusively.",
+    "Source fresh pasta or other fresh/dried pasta needs its own package clock; frozen current fresh5-minute reference cannot govern every cavatappi product."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "12 oz Fresh Strozzapreti (or Cavatappi)",
+        "destination": "Boil2; current fresh or cavatappi state ambiguous."
+      },
+      {
+        "index": 1,
+        "text": "1 stick (8 tbsp) Unsalted Butter",
+        "destination": "Literal2Tb crumbs1/6Tb sauce3."
+      },
+      {
+        "index": 2,
+        "text": "1 tbsp Preserved Lemon Peel, minced",
+        "destination": "All peel5."
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "All juice5."
+      },
+      {
+        "index": 4,
+        "text": "2 bunches Flat-leaf Spinach, trimmed",
+        "destination": "Half spinach4/half5."
+      },
+      {
+        "index": 5,
+        "text": "3/4 cup Panko Breadcrumbs (The Crunch)",
+        "destination": "All crumbs1."
+      },
+      {
+        "index": 6,
+        "text": "1 clove Garlic, crushed",
+        "destination": "All garlic1."
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Red Pepper Flakes",
+        "destination": "All flakes1; no flakes5."
+      },
+      {
+        "index": 8,
+        "text": "1 tsp Lemon Zest",
+        "destination": "All zest1."
+      }
+    ],
+    "frozenMethodOnly": [
+      "2Tb olive oil crumbs1; boiling saltwater2. Source extra citrus and seasoning absent."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "--- Pasta and crumbs ---",
+        "authoredEntry": {
+          "divider": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 1,
+        "text": "12 oz fresh strozzapreti OR cavatappi",
+        "authoredEntry": {
+          "id": "main.pasta",
+          "key": "pasta",
+          "name": "fresh strozzapreti OR cavatappi",
+          "quantity": {
+            "amount": 12,
+            "unit": "oz"
+          },
+          "uses": [
+            {
+              "step": "boil",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 2,
+        "text": "8 tbsp (1 stick) unsalted butter",
+        "authoredEntry": {
+          "id": "main.butter",
+          "key": "butter",
+          "name": "unsalted butter",
+          "quantity": {
+            "amount": 8,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": "1/4"
+            },
+            {
+              "step": "wilt",
+              "share": "3/4"
+            }
+          ],
+          "equivalents": [
+            {
+              "amount": 1,
+              "unit": "stick"
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 3,
+        "text": "1 tbsp preserved lemon peel, minced",
+        "authoredEntry": {
+          "id": "main.peel",
+          "key": "peel",
+          "name": "preserved lemon peel",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "combine",
+              "share": 1
+            }
+          ],
+          "preparation": "minced",
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp fresh lemon juice",
+        "authoredEntry": {
+          "id": "main.juice",
+          "key": "juice",
+          "name": "fresh lemon juice",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "combine",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 5,
+        "text": "2 bunches of flat-leaf spinach, trimmed, washed, drained; larger leaves torn",
+        "authoredEntry": {
+          "id": "main.spinach",
+          "key": "spinach",
+          "name": "bunch of flat-leaf spinach",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "wilt",
+              "share": "1/2"
+            },
+            {
+              "step": "combine",
+              "share": "1/2"
+            }
+          ],
+          "plural": "bunches of flat-leaf spinach",
+          "preparation": "trimmed, washed, drained; larger leaves torn",
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 6,
+        "text": "3/4 cup panko breadcrumbs",
+        "authoredEntry": {
+          "id": "main.panko",
+          "key": "panko",
+          "name": "panko breadcrumbs",
+          "quantity": {
+            "amount": "3/4",
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 7,
+        "text": "1 garlic clove, crushed",
+        "authoredEntry": {
+          "id": "main.garlic",
+          "key": "garlic",
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": 1
+            }
+          ],
+          "plural": "garlic cloves",
+          "preparation": "crushed",
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 8,
+        "text": "1/2 tsp red pepper flakes",
+        "authoredEntry": {
+          "id": "main.flakes",
+          "key": "flakes",
+          "name": "red pepper flakes",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": "1/2"
+            },
+            {
+              "step": "combine",
+              "share": "1/2"
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 9,
+        "text": "1 tsp lemon zest",
+        "authoredEntry": {
+          "id": "main.zest",
+          "key": "zest",
+          "name": "lemon zest",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 10,
+        "text": "2 tbsp olive oil",
+        "authoredEntry": {
+          "id": "main.oil",
+          "key": "oil",
+          "name": "olive oil",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 11,
+        "text": "kosher salt and black pepper for crumbs, as needed",
+        "authoredEntry": {
+          "id": "main.crumb-season",
+          "key": "crumb-season",
+          "name": "kosher salt and black pepper for crumbs",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "crumbs",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 12,
+        "text": "water and salt for boiling pasta, as needed",
+        "authoredEntry": {
+          "id": "main.water",
+          "key": "water",
+          "name": "water and salt for boiling pasta",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "boil",
+              "share": 1
+            }
+          ],
+          "role": "cooking-water",
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 13,
+        "text": "kosher salt and black pepper for finishing, as needed",
+        "authoredEntry": {
+          "id": "main.finish-season",
+          "key": "finish-season",
+          "name": "kosher salt and black pepper for finishing",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "combine",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 14,
+        "text": "additional preserved lemon peel for optional finishing, as needed, optional",
+        "authoredEntry": {
+          "id": "main.extra-peel",
+          "key": "extra-peel",
+          "name": "additional preserved lemon peel for optional finishing",
+          "allowance": "as needed",
+          "optional": true,
+          "uses": [
+            {
+              "step": "combine",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      },
+      {
+        "index": 15,
+        "text": "additional lemon juice for optional finishing, as needed, optional",
+        "authoredEntry": {
+          "id": "main.extra-juice",
+          "key": "extra-juice",
+          "name": "additional lemon juice for optional finishing",
+          "allowance": "as needed",
+          "optional": true,
+          "uses": [
+            {
+              "step": "combine",
+              "share": 1
+            }
+          ],
+          "component": "Pasta and crumbs"
+        }
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Toast crumbs",
+      "text": "Make the topping with {{ingredients}} in a wide skillet: melt the butter with the oil over medium heat. Add garlic and pepper flakes; as they become fragrant, stir in the panko and stir until golden and crisp, checking after about 2 minutes. Stir in the zest, season with the listed crumb seasoning and transfer all the crumbs to a dry plate. Wipe out stray crumbs from the pan before browning butter."
+    },
+    {
+      "step": 2,
+      "title": "Boil",
+      "text": "Cook {{ingredients}} until al dente according to the actual fresh or dried pasta package; the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Drain."
+    },
+    {
+      "step": 3,
+      "title": "Brown and wilt",
+      "text": "Use {{ingredients}} for the first wilt: melt the butter in the cleaned skillet over medium heat, swirling until golden and nutty rather than dark or black. Add this spinach portion and toss until wilted."
+    },
+    {
+      "step": 4,
+      "title": "Combine",
+      "text": "Finish with {{ingredients}} and all the drained pasta: add the measured peel and juice, remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated, checking after about 1 minute rather than assuming 30 seconds works for every load. Season to taste, using additional peel or juice only if desired."
+    },
+    {
+      "step": 5,
+      "title": "Serve",
+      "text": "Divide all the pasta and spinach among bowls and distribute all the reserved crumbs over the top."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Pepper-flake allocation",
+      "alternative": "For the current all-flakes-in-crumbs variation, put the entire listed red-pepper-flake amount into step 1 and omit it from step 4; all other amounts and stages are unchanged.",
+      "effect": "This preserves the current allocation separately from the saved half-in-crumbs, half-in-pasta route."
+    },
+    {
+      "ingredient": "Finishing citrus",
+      "alternative": "Use a little of the optional additional preserved peel or lemon juice only if wanted after tasting the finished pasta.",
+      "effect": "These source allowances are separate from the full measured peel and juice; no acid addition is mandatory."
+    },
+    {
+      "ingredient": "Crumbs ahead",
+      "alternative": "Prepare the crumb topping up to one day ahead and keep it in an airtight container at room temperature.",
+      "effect": "This is the publisher’s plain crumb preparation plan, not a shelf-life test of assembled pasta."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["vietnamese-grilled-chicken", "roasted-root-vegetables"],
+    "scope": "Existing pairings remain metadata; no incoming composed meal found and no linked recipe receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4 portions",
+    "capacity": [
+      "Wash the trimmed spinach and drain it; tear larger leaves. Two bunches in the source are about 8 cups at original scale, but bunch size varies. Use the listed scaled bunch count and enough pan space to turn and wilt it.",
+      "Divide the butter one quarter for crumbs and three quarters for the sauce, and the source flakes equally between those stages. More pasta requires more boiling and skillet capacity, not darker butter or a multiplied browning clock."
+    ],
+    "fullFormulaPreservation": "Current measured primary supplies preserved; exact supported missing oil/parsley added only where lost. Source alternatives are exclusive and disclosed.",
+    "unverified": "Actual pan depth/loading, finished weight and portions are planning questions, not measured yields."
+  },
+  "preservedPriorRepairs": [
+    "Mac e7f48228 one-third/remaining milk allocation preserved; Tofu493885bb unused-lemon removal preserved; all current rich main doses and explicit source alternatives conserved."
+  ],
+  "remainingQuestions": [
+    "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
+    "Measure actual spinach bunch size, pan loading and pasta package schedule in the kitchen."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

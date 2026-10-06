@@ -1,0 +1,535 @@
+{
+  "slug": "stovetop-macaroni-and-cheese",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "fe80dcc864a9fc0503fed25d025ac9d033a9eb718bb5d5ec26b900681dfe92bd",
+  "acceptedSourceSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["roast", "boil", "steam"],
+      "after": ["boil", "bake", "broil"]
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Elbow Macaroni or Shells",
+        "1 1/2 cups Whole Milk",
+        "2 tbsp All-Purpose Flour",
+        "3 cups Sharp Cheddar, shredded",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Dry Mustard Powder (The Finishing Touch)",
+        "1 tbsp Unsalted Butter"
+      ],
+      "after": [
+        "1 lb Elbow Macaroni or Shells",
+        "1 1/2 cups Whole Milk",
+        "2 tbsp All-Purpose Flour",
+        "3 cups Sharp Cheddar, shredded",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Dry Mustard Powder (The Finishing Touch)",
+        "1 tbsp Unsalted Butter",
+        "Water and salt for boiling pasta, as needed",
+        "Breadcrumbs for optional broiled or baked topping, as needed",
+        "Extra butter pats for optional baked topping, as needed",
+        "Additional milk for loosening, as needed"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 660,
+        "protein": 34.5,
+        "carbs": 36.5,
+        "fat": 42,
+        "fiber": 1,
+        "sugar": 4,
+        "sodium": 1160
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Thicken milk before melting cheese gently",
+        "outcome": "Tender pasta coated in a smooth cheese sauce.",
+        "techniques": ["starch", "emulsions"],
+        "before": [
+          "Use a saucepan or pot with room for the full cooked pasta and sauce. Larger batches need a larger vessel or separate batches; keep the milk one-third/two-thirds division at every scale.",
+          "The main retains all the listed sharp cheddar, whole milk and butter. Optional crumbs, extra butter for a baked topping and a little milk for loosening are separate supplies, not deductions from the main sauce."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "No dry flour lumps remain in the cold milk slurry.",
+            "why": "Lumps formed here are harder to disperse after thickening."
+          },
+          {
+            "step": 4,
+            "cue": "The cheese melts smoothly over low heat without vigorous bubbling.",
+            "why": "A flour base helps, but does not guarantee a sauce cannot separate."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Cheese sauce becomes grainy",
+            "cause": "The cheese was heated too aggressively.",
+            "fix": "Take off heat and stir gently; a little optional milk can loosen a tight sauce, but may not reverse separated cheese."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Saved sauce formula",
+            "alternative": "For the complete saved sauce instead of the main, use the same listed pasta weight, milk volume, flour, mustard and salt volume, but choose whole or 2% milk, 2–3 cups cheddar, Monterey Jack or Colby for the original batch (scale that range proportionally), and omit the listed main butter. The saved salt is unnamed; that is not a kosher-to-sea-salt conversion. Warm two thirds of the milk, whisk the flour into the cold remaining third and whisk it into the warm milk; thicken, then melt cheese gently and combine all the pasta. Optional cooking-water plan: for the original 1 lb pasta batch, use about 4 quarts water and 1 tbsp salt, scaling both proportionally with the listed pasta weight and using enough pot capacity or separate batches. This replaces the main cooking-water allowance; keep this water's salt separate from the sauce salt. The original does not specify the cooking-water salt's crystal type.",
+            "effect": "The main keeps its full 3 cups sharp cheddar and tablespoon butter at original scale; these two formulas are exclusive."
+          },
+          {
+            "ingredient": "Baked finish",
+            "alternative": "For the saved baked option, preheat to 350°F, transfer all the finished pasta and sauce to enough oven-rated dishes with headroom, cover and bake about 30 minutes. Uncover, add the optional breadcrumbs and extra butter pats and bake about 15–20 minutes more, until golden and bubbling and the center reaches 165°F / 74°C. Smaller or larger loads change the clock; the center check also applies with cooked add-ins.",
+            "effect": "This 45–50-minute reference is separate from the quick broiled finish."
+          },
+          {
+            "ingredient": "Cooked add-ins",
+            "alternative": "Fold in separately cooked ham or bacon, or softened onion, peas, mushrooms, peppers, broccoli or cauliflower before serving or the baked finish.",
+            "effect": "The source gives no doses; these are optional unmeasured additions, not raw ingredients to cook in the cheese sauce."
+          },
+          {
+            "ingredient": "Sauce thickness",
+            "alternative": "If the finished sauce is too tight, stir in a little of the optional milk over gentle heat.",
+            "effect": "This is an additional loosening allowance, not a reduction of the measured milk."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Reheat gently, stirring; a little of the additional milk may help loosen the sauce.",
+        "timing": "The stovetop route usually takes 20–30 minutes including boiling water; sauce and pasta can overlap. The broiled finish adds setup and close watching. The separate covered/uncovered baked route adds approximately 45–50 minutes or longer, with doneness governing.",
+        "sources": [
+          {
+            "title": "The Kitchn — Stovetop macaroni and cheese",
+            "url": "http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588"
+          },
+          {
+            "title": "FoodSafety.gov — Casserole temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — Clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Leftover handling",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWhisking flour into cold milk before heating creates a light, stable base that won't separate when cheese is added - an easier technique than making a traditional butter roux. Boiling pasta for exactly 8 minutes (very al dente) ensures it holds its shape against the heavy cheese sauce instead of turning mushy. Mustard powder adds savory depth that enhances the sharp cheddar without tasting overtly mustardy.\n\n## Directions\n\n1.  **Boil:** Cook pasta in salted water for 8 minutes until **very al dente**. Drain and set aside.\n2.  **The Base:** In a large saucepan, whisk together one third of the measured milk and the flour until no lumps remain. Stir in the remaining milk.\n3.  **Thicken:** Cook over medium heat, whisking constantly, for 3-4 minutes until the milk thickens to the consistency of heavy cream.\n4.  **Emulsify:** Reduce heat to **low**. Add the cheese one handful at a time, stirring until completely molten and glossy.\n5.  **Season:** Stir in the salt, mustard powder, and butter.\n6.  **Bind:** Return the hot pasta to the saucepan. Toss vigorously until every noodle is saturated in the cheese silk.\n7.  **Serve:** Serve immediately while hot. (Note: if baking, top with breadcrumbs and broil for 2 minutes).\n",
+    "after": "\n## Chef's Note\n\nWhisk the flour smoothly into one third of the cold milk before adding the rest. Gentle heat thickens the milk; lower heat then melts the cheese without forcing a boil. Pasta brands cook at different speeds, so taste for a tender noodle with a little bite rather than relying on exactly eight minutes.\n\n## Directions\n\n1. **Boil:** Cook all the pasta in salted boiling water according to its package, stopping when tender with a little bite. Drain.\n\n2. **Whisk:** In a large saucepan, whisk one third of the measured milk with all the flour until smooth. Stir in all the remaining milk.\n\n3. **Thicken:** Cook over medium heat, whisking across the bottom, until it lightly coats a spoon, checking from about 3–4 minutes; a cold pan and milk can take longer.\n\n4. **Melt and season:** Reduce heat to low. Add all the cheese in handfuls, stirring until each melts. Stir in all the salt, mustard powder and measured butter, then take off heat; avoid a hard boil after the cheese is added.\n\n5. **Combine and serve:** Fold in all the drained pasta until coated. Serve hot. For the quick broiled finish, transfer to a broiler-rated dish, scatter the optional breadcrumbs over it and broil with frequent checks from about 2 minutes, until the top colors; do not leave it unattended.\n"
+  },
+  "findings": [
+    {
+      "id": "VP16-3-1",
+      "title": "VP16-3-1",
+      "rationale": "Preserve e7f48228’s proportional one-third/remaining milk repair; remove exactly-eight-minute and nonseparating-sauce guarantees while keeping full current cheese/butter richness.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588",
+          "applicability": "Warm/cold milk mechanism and complete baked/add-in options; modern salt formula and obsolete one-week storage are not imposed."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Meatless casserole165°F category applied moderately to the baked route; not an initial stovetop sauce requirement or publisher-tested formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+        "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
+      ]
+    },
+    {
+      "id": "VP16-3-2",
+      "title": "VP16-3-2",
+      "rationale": "Recover complete saved milk/cheese choices, cooked add-ins and covered/uncovered baked option separately; keep the current quick broil with an actual rated vessel and a first-check clock.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588",
+          "applicability": "Warm/cold milk mechanism and complete baked/add-in options; modern salt formula and obsolete one-week storage are not imposed."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Meatless casserole165°F category applied moderately to the baked route; not an initial stovetop sauce requirement or publisher-tested formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+        "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
+      ]
+    },
+    {
+      "id": "VP16-3-3",
+      "title": "VP16-3-3",
+      "rationale": "Reject source one-week leftover advice in favor of applicable prompt cooling/3–4-day handling; baked casserole165 is a moderate FoodSafety.gov category application, not an initial stovetop milk temperature.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588",
+          "applicability": "Warm/cold milk mechanism and complete baked/add-in options; modern salt formula and obsolete one-week storage are not imposed."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Meatless casserole165°F category applied moderately to the baked route; not an initial stovetop sauce requirement or publisher-tested formula."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+        "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
+      ]
+    },
+    {
+      "id": "VP16-metadata-stovetop-macaroni-and-cheese",
+      "title": "VP16-metadata-stovetop-macaroni-and-cheese",
+      "rationale": {
+        "origin": "Inherited country field lacks recipe-specific origin evidence; cuisine/source credit remains.",
+        "nutrition": "Unverified fixed legacy values removed rather than inventing replacement nutrition.",
+        "methods": "Tags describe full implemented primary/optional routes; no unused boil/steam/roast label granted authority."
+      },
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Stovetop Macaroni and Cheese.html",
+            "sha256": "446947b66f5a09b536f0e0a4b11e6e35d9a6118e42353234e5b997380a1953bc",
+            "scope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained."
+          },
+          "applicability": "Inherited metadata is not country-origin or nutrition proof; actual implemented routes govern method tags."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods", "origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VP16-handling-stovetop-macaroni-and-cheese",
+      "title": "VP16-handling-stovetop-macaroni-and-cheese",
+      "rationale": "Prompt cooling, cold3–4-day leftovers and165°F reheating apply to the complete prepared dish; this is handling guidance, not a publisher- or kitchen-tested formula/clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Direct full primary guidance on prompt shallow-container cooling,40°F cold handling,3–4days and165°F reheating; not initial-cook formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": [
+        "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+        "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
+      ]
+    },
+    {
+      "id": "VP16-I02",
+      "title": "VP16-I02",
+      "field": "learning.substitutions[0].alternative",
+      "rationale": "The exact bound original and 045 method supply approximately four quarts water and one tablespoon unnamed cooking-water salt for one pound pasta. The whole source method is replaced in 2f255, with no later explicit rejection of that separate plan established in the full followed history. The proposal restores sauce/baked/add-in options but leaves this useful source instruction private. Preserve it as an optional exclusive water route alongside the current genuine allowances, keeping cooking-water salt separate from the measured sauce salt. No universal pot capacity, crystal equivalence, modern kosher-salt substitution or main-dose change follows.",
+      "confidence": "high for saved instruction; moderate for untested scaled pot loading",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact directions step 1; original pasta-water amounts are buried in the method, not ingredient list."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "045 directions step 1 independently contains the same original cooking-water plan."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "2f255 removes the original full method; e7f48228 changes only the proportional milk wording."
+        },
+        {
+          "url": "https://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588",
+          "scope": "Current primary still uses about four quarts salted water but omits the old numerical water-salt dose; modern sauce salt differs. The one-tablespoon plan is established by the exact original, not claimed as modern wording."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "The original cooking-water salt's crystal identity remains unspecified; no equivalent dose for another type is certified.",
+        "Actual pot headroom and package pasta time remain unresolved practical checks."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Stovetop%20Macaroni%20and%20Cheese.html",
+    "introductionScope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "url": "http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588",
+      "scope": "Exact original, actual publisher versions and disagreements considered in frozen author/whole peer evidence; no kitchen certification."
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "2f255 adds current main butter/full3cups cheese and removes saved2–3cup cheese choices,2% milk and baked/cooked-add-in notes. Persistence does not prove deliberate rejection of those options; full current main and full source formula remain distinct.",
+    "Modern Kitchn lists1tsp kosher salt instead of saved½tsp unnamed salt/current½tsp sea salt; no density conversion or main dose replacement is inferred. Source one-week storage is not retained."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 lb Elbow Macaroni or Shells",
+        "destination": "Boil1 exactly8min claim."
+      },
+      {
+        "index": 1,
+        "text": "1 1/2 cups Whole Milk",
+        "destination": "One third+remaining2 (accepted e7 repair)."
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp All-Purpose Flour",
+        "destination": "Slurry2"
+      },
+      {
+        "index": 3,
+        "text": "3 cups Sharp Cheddar, shredded",
+        "destination": "Low melt4"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Sea Salt",
+        "destination": "Season5"
+      },
+      {
+        "index": 5,
+        "text": "1/4 tsp Dry Mustard Powder (The Finishing Touch)",
+        "destination": "Season5"
+      },
+      {
+        "index": 6,
+        "text": "1 tbsp Unsalted Butter",
+        "destination": "Full butter5"
+      }
+    ],
+    "frozenMethodOnly": [
+      "Boiling water/salt1; optional breadcrumbs7; other native options absent."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "1 lb Elbow Macaroni or Shells",
+        "destination": "Boil1"
+      },
+      {
+        "index": 1,
+        "text": "1 1/2 cups Whole Milk",
+        "destination": "One-third+remaining2"
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp All-Purpose Flour",
+        "destination": "Slurry2"
+      },
+      {
+        "index": 3,
+        "text": "3 cups Sharp Cheddar, shredded",
+        "destination": "Full melt4"
+      },
+      {
+        "index": 4,
+        "text": "1/2 tsp Sea Salt",
+        "destination": "Season4"
+      },
+      {
+        "index": 5,
+        "text": "1/4 tsp Dry Mustard Powder (The Finishing Touch)",
+        "destination": "Season4"
+      },
+      {
+        "index": 6,
+        "text": "1 tbsp Unsalted Butter",
+        "destination": "Full butter4"
+      },
+      {
+        "index": 7,
+        "text": "Water and salt for boiling pasta, as needed",
+        "destination": "Water/salt1"
+      },
+      {
+        "index": 8,
+        "text": "Breadcrumbs for optional broiled or baked topping, as needed",
+        "destination": "Optional broil5 or baked variation"
+      },
+      {
+        "index": 9,
+        "text": "Extra butter pats for optional baked topping, as needed",
+        "destination": "Optional baked topping"
+      },
+      {
+        "index": 10,
+        "text": "Additional milk for loosening, as needed",
+        "destination": "Optional loosen finish"
+      }
+    ],
+    "proposedOptionalMethodOnly": [
+      {
+        "option": "Saved sauce formula",
+        "water": "About4quarts at original1lbpasta, proportional",
+        "salt": "1tbsp unnamed cooking-water salt at original1lbpasta, proportional",
+        "destination": "Exclusive replacement of main cooking-water allowance; no deduction from measured sauce salt."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Boil",
+      "text": "Cook all the pasta in salted boiling water according to its package, stopping when tender with a little bite. Drain."
+    },
+    {
+      "step": 2,
+      "title": "Whisk",
+      "text": "In a large saucepan, whisk one third of the measured milk with all the flour until smooth. Stir in all the remaining milk."
+    },
+    {
+      "step": 3,
+      "title": "Thicken",
+      "text": "Cook over medium heat, whisking across the bottom, until it lightly coats a spoon, checking from about 3–4 minutes; a cold pan and milk can take longer."
+    },
+    {
+      "step": 4,
+      "title": "Melt and season",
+      "text": "Reduce heat to low. Add all the cheese in handfuls, stirring until each melts. Stir in all the salt, mustard powder and measured butter, then take off heat; avoid a hard boil after the cheese is added."
+    },
+    {
+      "step": 5,
+      "title": "Combine and serve",
+      "text": "Fold in all the drained pasta until coated. Serve hot. For the quick broiled finish, transfer to a broiler-rated dish, scatter the optional breadcrumbs over it and broil with frequent checks from about 2 minutes, until the top colors; do not leave it unattended."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Saved sauce formula",
+      "alternative": "For the complete saved sauce instead of the main, use the same listed pasta weight, milk volume, flour, mustard and salt volume, but choose whole or 2% milk, 2–3 cups cheddar, Monterey Jack or Colby for the original batch (scale that range proportionally), and omit the listed main butter. The saved salt is unnamed; that is not a kosher-to-sea-salt conversion. Warm two thirds of the milk, whisk the flour into the cold remaining third and whisk it into the warm milk; thicken, then melt cheese gently and combine all the pasta. Optional cooking-water plan: for the original 1 lb pasta batch, use about 4 quarts water and 1 tbsp salt, scaling both proportionally with the listed pasta weight and using enough pot capacity or separate batches. This replaces the main cooking-water allowance; keep this water's salt separate from the sauce salt. The original does not specify the cooking-water salt's crystal type.",
+      "effect": "The main keeps its full 3 cups sharp cheddar and tablespoon butter at original scale; these two formulas are exclusive."
+    },
+    {
+      "ingredient": "Baked finish",
+      "alternative": "For the saved baked option, preheat to 350°F, transfer all the finished pasta and sauce to enough oven-rated dishes with headroom, cover and bake about 30 minutes. Uncover, add the optional breadcrumbs and extra butter pats and bake about 15–20 minutes more, until golden and bubbling and the center reaches 165°F / 74°C. Smaller or larger loads change the clock; the center check also applies with cooked add-ins.",
+      "effect": "This 45–50-minute reference is separate from the quick broiled finish."
+    },
+    {
+      "ingredient": "Cooked add-ins",
+      "alternative": "Fold in separately cooked ham or bacon, or softened onion, peas, mushrooms, peppers, broccoli or cauliflower before serving or the baked finish.",
+      "effect": "The source gives no doses; these are optional unmeasured additions, not raw ingredients to cook in the cheese sauce."
+    },
+    {
+      "ingredient": "Sauce thickness",
+      "alternative": "If the finished sauce is too tight, stir in a little of the optional milk over gentle heat.",
+      "effect": "This is an additional loosening allowance, not a reduction of the measured milk."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": [
+      "garlic-mashed-mock-potatoes",
+      "honey-glazed-carrots",
+      "skinny-baked-broccoli-macaroni-and-cheese"
+    ],
+    "scope": "Existing pairings remain metadata; no incoming composed meal found and no linked recipe receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "6",
+    "proposedYield": "6",
+    "capacity": [
+      "Use a saucepan or pot with room for the full cooked pasta and sauce. Larger batches need a larger vessel or separate batches; keep the milk one-third/two-thirds division at every scale.",
+      "The main retains all the listed sharp cheddar, whole milk and butter. Optional crumbs, extra butter for a baked topping and a little milk for loosening are separate supplies, not deductions from the main sauce."
+    ],
+    "fullFormulaPreservation": "Current measured primary supplies preserved; exact supported missing oil/parsley added only where lost. Source alternatives are exclusive and disclosed.",
+    "unverified": "Actual pan depth/loading, finished weight and portions are planning questions, not measured yields."
+  },
+  "preservedPriorRepairs": [
+    "Mac e7f48228 one-third/remaining milk allocation preserved; Tofu493885bb unused-lemon removal preserved; all current rich main doses and explicit source alternatives conserved."
+  ],
+  "remainingQuestions": [
+    "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
+    "Baked-dish size and loading have not been measured; no specific substitute pan or linear scaling time is certified."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

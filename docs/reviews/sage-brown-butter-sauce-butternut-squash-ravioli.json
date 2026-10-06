@@ -1,0 +1,453 @@
+{
+  "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "6fe5b36e6e0873aa5f930bbaf97ba46b10093734991e2264046a4197038002e0",
+  "acceptedSourceSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "16 oz Butternut Squash Ravioli (fresh or frozen)",
+        "1/2 cup (1 stick) Unsalted Butter",
+        "2 tbsp Fresh Sage, minced",
+        "1/2 cup Heavy Cream",
+        "1/2 cup Chicken Broth",
+        "1/4 cup Freshly Grated Parmesan",
+        "1/2 tsp Fresh Lemon Juice (The Acid Balance)",
+        "Coarse Sea Salt and Black Pepper"
+      ],
+      "after": [
+        "16 oz Butternut Squash Ravioli (fresh or frozen)",
+        "1/2 cup (1 stick) Unsalted Butter",
+        "2 tbsp Fresh Sage, minced",
+        "1/2 cup Heavy Cream",
+        "1/2 cup Chicken Broth",
+        "1/4 cup Freshly Grated Parmesan",
+        "1/2 tsp Fresh Lemon Juice (The Acid Balance)",
+        "Coarse Sea Salt and Black Pepper",
+        "3-4 Fresh Sage Leaves, for optional garnish",
+        "Extra Parmesan for serving (optional)",
+        "Water and salt for boiling ravioli, as needed"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 610,
+        "protein": 2,
+        "carbs": 3.5,
+        "fat": 67,
+        "fiber": 0.5,
+        "sugar": 1.5,
+        "sodium": 570
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Watch golden milk solids and add the liquids off heat",
+        "outcome": "Intact ravioli coated with nutty sage sauce.",
+        "techniques": ["browning", "emulsions"],
+        "before": [
+          "The original batch uses a wide skillet for 16 oz ravioli; scaled batches need enough room to turn the filled pasta without breaking it, or separate pans. Do not multiply the browning time.",
+          "Have broth and cream ready before browning butter; keep both away from the stove until the pan is off heat and has cooled briefly."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Golden milk solids and a nutty smell, without black flecks.",
+            "why": "Butter can pass from browned to burned quickly."
+          },
+          {
+            "step": 3,
+            "cue": "The liquids are incorporated and the warm sauce is thin.",
+            "why": "A thick emulsion is not the source’s endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter flecks blacken",
+            "cause": "Browning continued after the golden stage.",
+            "fix": "Stop heating as soon as butter is golden and fragrant. Burned butter needs replacing; do not hide it with cream."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Brown-butter order",
+            "alternative": "For the source order, add the minced sage when the butter first foams, before it is fully browned; continue stirring until golden and nutty, then use the same off-heat cooling and liquid sequence. Keep every listed amount unchanged.",
+            "effect": "The current brown-then-sage order and source foam-then-sage order are distinct routes; neither needs dark butter."
+          },
+          {
+            "ingredient": "Optional whole sage garnish",
+            "alternative": "Before browning, fry the listed optional whole leaves in the same measured butter for about 1–2 minutes, until crisp but not dark. Lift them out, season lightly with the listed coarse salt and reserve; keep all that butter in the sauce pan and continue the chosen minced-sage route.",
+            "effect": "This uses the sauce butter, not an extra measured frying dose."
+          },
+          {
+            "ingredient": "Chicken broth",
+            "alternative": "Use the same listed volume of vegetable broth if preferred.",
+            "effect": "The current publisher offers this choice; ravioli ingredients still determine dietary suitability."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Warm ravioli gently so the filling stays inside; avoid a hard boil of the cream sauce.",
+        "timing": "Plan roughly 20–30 minutes, including bringing water to a boil, the package ravioli time, butter browning and the 2-minute off-heat pause. Some tasks overlap. Larger pan loads and frozen ravioli can take longer.",
+        "sources": [
+          {
+            "title": "Aberdeen’s Kitchen — Sage ravioli sauce",
+            "url": "http://www.aberdeenskitchen.com/2016/11/sage-brown-butter-sauce-butternut-squash-ravioli/"
+          },
+          {
+            "title": "FoodSafety.gov — Clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Leftover handling",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBrown butter and sage is a classic Northern Italian sauce, especially popular with filled pasta like ravioli or tortellini. The French call it beurre noisette (\"hazelnut butter\") for its nutty aroma. Cook the butter until golden-brown before adding sage - this deepens the flavor dramatically. Adding broth and cream to brown butter prevents it from feeling too rich or greasy. A squeeze of lemon juice at the end brightens the sweet squash filling.\n\n## Directions\n\n1.  **Boil:** Cook ravioli in salted water according to package directions. Drain.\n2.  **Brown Butter:** In a large light-colored skillet (mandatory to see color), melt butter over medium. Whisk constantly for 5 minutes until it smells like nuts and golden flecks appear.\n3.  **Crisp Sage:** Add the sage. Fry for 1 minute until the leaves are crispy and fragrant.\n4.  **Emulsify:** Carefully pour in the broth and cream (it will splatter). Whisk vigorously until a smooth, thick emulsion forms.\n5.  **Bind:** Stir in the Parmesan and lemon juice.\n6.  **Toss:** Add the cooked ravioli to the pan. Toss for 1 minute until every pillow is coated in the brown butter silk.\n7.  **Serve:** Garnish with extra Parmesan and a crack of black pepper.\n\n## Cooking Notes\n\nFor an optional crisp garnish, fry a few sage leaves in butter until crisp but not dark. Lift onto a paper towel and season lightly before serving.\n",
+    "after": "\n## Chef's Note\n\nWatch the milk solids, rather than a fixed browning clock. They should be golden and smell nutty; black flecks taste bitter. This broth-and-cream sauce is fairly thin while warm and thickens as it cools. The minced sage flavors the sauce; whole leaves are a separate optional crisp garnish.\n\n## Directions\n\n1. **Boil:** Cook the ravioli in salted boiling water according to its fresh or frozen package directions. Drain gently; time it to finish near the sauce.\n\n2. **Brown butter and sage:** Melt all the measured butter in a wide skillet over medium heat, stirring and swirling to watch the milk solids. A light-colored pan helps you see them. When golden flecks begin to appear, add all the minced sage and cook briefly until fragrant, watching that the butter stays golden rather than black. Take the pan off heat and cool for 2 minutes.\n\n3. **Add liquids:** Slowly whisk in all the broth, taking care with splatter, then slowly whisk in all the cream. Stir in the measured Parmesan and lemon juice, and season with the listed coarse salt and pepper. The sauce need not be thick at this stage.\n\n4. **Finish:** Add all the cooked ravioli and turn gently until coated. If it needs warming, use gentle heat without a hard boil. Serve promptly with optional extra Parmesan and the crisp whole sage leaves, if using.\n\n## Cooking Notes\n\nFor the optional crisp garnish, fry the whole sage leaves in the same measured butter before continuing with the sauce, as described in the whole-sage garnish option. Lift onto a paper towel and season lightly; do not discard the sauce butter.\n"
+  },
+  "findings": [
+    {
+      "id": "VP16-1-1",
+      "title": "VP16-1-1",
+      "rationale": "Restore the source off-heat 2-minute pause and separate broth/cream additions removed in eab6f8bb; correct thick-emulsion and minced-leaf crispness promises while preserving the current brown-then-sage order separately from the source order.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.aberdeenskitchen.com/2016/11/sage-brown-butter-sauce-butternut-squash-ravioli/",
+          "applicability": "Source cooling, thin sauce, optional whole leaves and broth choice; does not validate a thick-emulsion endpoint."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
+        "Compare the two sage orders and sauce texture in the kitchen; neither route has been tested here."
+      ]
+    },
+    {
+      "id": "VP16-1-2",
+      "title": "VP16-1-2",
+      "rationale": "Retain the previously restored whole-sage garnish and recover its exact source 3–4-leaf original-batch supply, using the same full butter.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.aberdeenskitchen.com/2016/11/sage-brown-butter-sauce-butternut-squash-ravioli/",
+          "applicability": "Source cooling, thin sauce, optional whole leaves and broth choice; does not validate a thick-emulsion endpoint."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
+        "Compare the two sage orders and sauce texture in the kitchen; neither route has been tested here."
+      ]
+    },
+    {
+      "id": "VP16-metadata-sage-brown-butter-sauce-butternut-squash-ravioli",
+      "title": "VP16-metadata-sage-brown-butter-sauce-butternut-squash-ravioli",
+      "rationale": {
+        "origin": "Inherited country field lacks recipe-specific origin evidence; cuisine/source credit remains.",
+        "nutrition": "Unverified fixed legacy values removed rather than inventing replacement nutrition.",
+        "methods": "Tags describe full implemented primary/optional routes; no unused boil/steam/roast label granted authority."
+      },
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Sage Brown Butter Sauce Butternut Squash Ravioli.html",
+            "sha256": "3a4c599483dcc7762abb8647b7da9a92a24f3f552c479d5f7149340896180627",
+            "scope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained."
+          },
+          "applicability": "Inherited metadata is not country-origin or nutrition proof; actual implemented routes govern method tags."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VP16-handling-sage-brown-butter-sauce-butternut-squash-ravioli",
+      "title": "VP16-handling-sage-brown-butter-sauce-butternut-squash-ravioli",
+      "rationale": "Prompt cooling, cold3–4-day leftovers and165°F reheating apply to the complete prepared dish; this is handling guidance, not a publisher- or kitchen-tested formula/clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Direct full primary guidance on prompt shallow-container cooling,40°F cold handling,3–4days and165°F reheating; not initial-cook formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": [
+        "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
+        "Compare the two sage orders and sauce texture in the kitchen; neither route has been tested here."
+      ]
+    },
+    {
+      "id": "VP16-A01",
+      "title": "VP16-A01",
+      "field": "content",
+      "rationale": "Use the existing whole independent advisory to point accurately to the complete garnish option; public learning appears below the note.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Frozen independent advisory; no amount or method changes."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sage%20Brown%20Butter%20Sauce%20Butternut%20Squash%20Ravioli.html",
+    "introductionScope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "url": "http://www.aberdeenskitchen.com/2016/11/sage-brown-butter-sauce-butternut-squash-ravioli/",
+      "scope": "Exact original, actual publisher versions and disagreements considered in frozen author/whole peer evidence; no kitchen certification."
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "eab6f8bb replaces native thin sauce, early sage and cooling with brown-first sage and hot combined-liquid thick-emulsion prose. Later note edits do not establish a household preference; both complete sage orders remain available.",
+    "Source garnish uses 3–4 leaves, source portions are2–4, and publisher now offers vegetable broth; current four-portion planning and full rich sauce are retained."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "16 oz Butternut Squash Ravioli (fresh or frozen)",
+        "destination": "Boil1; fresh/frozen package state."
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup (1 stick) Unsalted Butter",
+        "destination": "Full butter brown2; garnish notes do not specify extra butter."
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Fresh Sage, minced",
+        "destination": "All minced sage3."
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Heavy Cream",
+        "destination": "All cream4."
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Chicken Broth",
+        "destination": "All broth4."
+      },
+      {
+        "index": 5,
+        "text": "1/4 cup Freshly Grated Parmesan",
+        "destination": "Measured Parmesan5; extra Parmesan7 unlisted."
+      },
+      {
+        "index": 6,
+        "text": "1/2 tsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "Measured lemon5."
+      },
+      {
+        "index": 7,
+        "text": "Coarse Sea Salt and Black Pepper",
+        "destination": "Pepper7 and garnish-note salt; sauce seasoning destination incomplete."
+      }
+    ],
+    "frozenMethodOnly": [
+      "Boiling water/salt1; extra Parmesan7; optional sage leaves/frying/salt in notes."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "16 oz Butternut Squash Ravioli (fresh or frozen)",
+        "destination": "Boil1"
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup (1 stick) Unsalted Butter",
+        "destination": "All brown/garnish2 and optional garnish route"
+      },
+      {
+        "index": 2,
+        "text": "2 tbsp Fresh Sage, minced",
+        "destination": "All minced sage2"
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Heavy Cream",
+        "destination": "All cream3"
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup Chicken Broth",
+        "destination": "All broth3"
+      },
+      {
+        "index": 5,
+        "text": "1/4 cup Freshly Grated Parmesan",
+        "destination": "Measured cheese3"
+      },
+      {
+        "index": 6,
+        "text": "1/2 tsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "Measured lemon3"
+      },
+      {
+        "index": 7,
+        "text": "Coarse Sea Salt and Black Pepper",
+        "destination": "Season3; optional garnish salt"
+      },
+      {
+        "index": 8,
+        "text": "3-4 Fresh Sage Leaves, for optional garnish",
+        "destination": "Optional garnish before2"
+      },
+      {
+        "index": 9,
+        "text": "Extra Parmesan for serving (optional)",
+        "destination": "Optional serve4"
+      },
+      {
+        "index": 10,
+        "text": "Water and salt for boiling ravioli, as needed",
+        "destination": "Boiling water/salt1"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Boil",
+      "text": "Cook the ravioli in salted boiling water according to its fresh or frozen package directions. Drain gently; time it to finish near the sauce."
+    },
+    {
+      "step": 2,
+      "title": "Brown butter and sage",
+      "text": "Melt all the measured butter in a wide skillet over medium heat, stirring and swirling to watch the milk solids. A light-colored pan helps you see them. When golden flecks begin to appear, add all the minced sage and cook briefly until fragrant, watching that the butter stays golden rather than black. Take the pan off heat and cool for 2 minutes."
+    },
+    {
+      "step": 3,
+      "title": "Add liquids",
+      "text": "Slowly whisk in all the broth, taking care with splatter, then slowly whisk in all the cream. Stir in the measured Parmesan and lemon juice, and season with the listed coarse salt and pepper. The sauce need not be thick at this stage."
+    },
+    {
+      "step": 4,
+      "title": "Finish",
+      "text": "Add all the cooked ravioli and turn gently until coated. If it needs warming, use gentle heat without a hard boil. Serve promptly with optional extra Parmesan and the crisp whole sage leaves, if using."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Brown-butter order",
+      "alternative": "For the source order, add the minced sage when the butter first foams, before it is fully browned; continue stirring until golden and nutty, then use the same off-heat cooling and liquid sequence. Keep every listed amount unchanged.",
+      "effect": "The current brown-then-sage order and source foam-then-sage order are distinct routes; neither needs dark butter."
+    },
+    {
+      "ingredient": "Optional whole sage garnish",
+      "alternative": "Before browning, fry the listed optional whole leaves in the same measured butter for about 1–2 minutes, until crisp but not dark. Lift them out, season lightly with the listed coarse salt and reserve; keep all that butter in the sauce pan and continue the chosen minced-sage route.",
+      "effect": "This uses the sauce butter, not an extra measured frying dose."
+    },
+    {
+      "ingredient": "Chicken broth",
+      "alternative": "Use the same listed volume of vegetable broth if preferred.",
+      "effect": "The current publisher offers this choice; ravioli ingredients still determine dietary suitability."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["everyday-arugula-salad", "roasted-root-vegetables"],
+    "scope": "Existing pairings remain metadata; no incoming composed meal found and no linked recipe receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "capacity": [
+      "The original batch uses a wide skillet for 16 oz ravioli; scaled batches need enough room to turn the filled pasta without breaking it, or separate pans. Do not multiply the browning time.",
+      "Have broth and cream ready before browning butter; keep both away from the stove until the pan is off heat and has cooled briefly."
+    ],
+    "fullFormulaPreservation": "Current measured primary supplies preserved; exact supported missing oil/parsley added only where lost. Source alternatives are exclusive and disclosed.",
+    "unverified": "Actual pan depth/loading, finished weight and portions are planning questions, not measured yields."
+  },
+  "preservedPriorRepairs": [
+    "Mac e7f48228 one-third/remaining milk allocation preserved; Tofu493885bb unused-lemon removal preserved; all current rich main doses and explicit source alternatives conserved."
+  ],
+  "remainingQuestions": [
+    "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
+    "Compare the two sage orders and sauce texture in the kitchen; neither route has been tested here."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

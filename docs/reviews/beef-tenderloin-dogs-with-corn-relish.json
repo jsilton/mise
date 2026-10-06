@@ -1,0 +1,1203 @@
+{
+  "slug": "beef-tenderloin-dogs-with-corn-relish",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "80ae921010e55d7b697f5424d0fd6b2b04be8a05624e8ef0bdca305e42b91bcb",
+  "acceptedSourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 35 min with prepared roasted corn; additional pan loads add time"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Center-cut Beef Tenderloin, cut into 4 long \"dogs\"",
+        "1 tbsp Olive Oil",
+        "1 tsp Garlic Powder",
+        "1 tsp Paprika",
+        "4 6-inch Baguette pieces or High-quality Brioche Buns",
+        "1 cup Roasted Corn (charred in a pan or oven)",
+        "1/4 cup Red Bell Pepper, finely diced",
+        "2 tbsp Red Onion, finely diced",
+        "2 tbsp Apple Cider Vinegar",
+        "1 tsp Sugar",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "1 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "4 6-inch baguette pieces or brioche buns",
+        "1 cup roasted corn kernels, already charred in a pan or oven, cooled",
+        "1/4 cup red bell pepper, finely diced",
+        "2 tbsp red onion, finely diced",
+        "2 tbsp apple cider vinegar",
+        "1 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 405,
+        "protein": 30,
+        "carbs": 32.5,
+        "fat": 19,
+        "fiber": 3,
+        "sugar": 10,
+        "sodium": 500
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "beef",
+                "key": "beef-tenderloin",
+                "name": "center-cut beef tenderloin",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "beef",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cut into one bread-sized strip per listed bread portion; four strips in the original batch"
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "beef",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic-powder",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "beef",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "paprika",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "beef",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "beef-seasoning",
+                "key": "salt-pepper",
+                "name": "salt and black pepper",
+                "allowance": "to taste for the beef",
+                "uses": [
+                  {
+                    "step": "beef",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "bread",
+                "key": "bread",
+                "name": "6-inch baguette piece or brioche bun",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "bread",
+                    "share": 1
+                  }
+                ],
+                "plural": "6-inch baguette pieces or brioche buns"
+              },
+              {
+                "id": "corn",
+                "key": "roasted-corn",
+                "name": "roasted corn kernels",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "relish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already charred in a pan or oven, cooled"
+              },
+              {
+                "id": "bell",
+                "key": "red-bell-pepper",
+                "name": "red bell pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "relish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely diced"
+              },
+              {
+                "id": "onion",
+                "key": "red-onion",
+                "name": "red onion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "relish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely diced"
+              },
+              {
+                "id": "vinegar",
+                "key": "cider-vinegar",
+                "name": "apple cider vinegar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "relish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "relish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "relish-seasoning",
+                "key": "salt-pepper",
+                "name": "salt and black pepper",
+                "allowance": "to taste for the relish",
+                "uses": [
+                  {
+                    "step": "relish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "relish",
+            "title": "Relish",
+            "text": "Make the relish with {{ingredients}}. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef."
+          },
+          {
+            "id": "beef",
+            "title": "Season beef",
+            "text": "Season {{ingredients}}, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling."
+          },
+          {
+            "id": "sear",
+            "title": "Cook",
+            "text": "Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips."
+          },
+          {
+            "id": "rest",
+            "title": "Rest",
+            "text": "Let the cooked strips rest for 5 minutes before serving."
+          },
+          {
+            "id": "bread",
+            "title": "Toast bread",
+            "text": "Toast {{ingredients}} until golden."
+          },
+          {
+            "id": "serve",
+            "title": "Assemble",
+            "text": "Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate a cold relish with individually checked tenderloin strips",
+        "outcome": "Browned beef strips with their full five-minute rest, toasted bread and a cold, crunchy corn topping.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its utensils.",
+          "Have the listed roasted corn ready; roasting fresh kernels adds preparation beyond the assembly plan. Use enough grill or skillet space to brown the strips without crowding.",
+          "The original batch plans four bread portions. Adjust the strip count to the listed bread count; piece thickness and grill heat determine the cooking time."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Each strip reaches 145°F in its center before the separate five-minute rest.",
+            "why": "A browned surface does not establish the center temperature, especially when strips differ in thickness."
+          },
+          {
+            "step": 6,
+            "cue": "Every sandwich receives beef and a portion of the full chilled relish.",
+            "why": "Keeping relish and raw-beef work separate preserves its fresh texture and avoids cross-contact."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The outside is dark before a strip reaches its endpoint",
+            "cause": "High direct heat or a thicker strip cooks the surface faster than the center.",
+            "fix": "Lower the heat or move to a cooler grill area, continue checking the center, and keep the five-minute rest."
+          }
+        ],
+        "timing": "About 35 minutes is the inherited plan with corn already roasted. The five-minute beef rest is included in the cooking workflow; extra pan loads or making the corn add time. The chilled-corn variation additionally requires boiling and cold-through relish chilling.",
+        "storage": "Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout. Store bread separately so the relish does not soak it; the vegetables lose crunch with holding.",
+        "sources": [
+          {
+            "title": "Food & Wine — Beef Tenderloin Dogs",
+            "url": "https://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish"
+          },
+          {
+            "title": "FDA whole-cut temperatures and handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nHot dogs made from beef tenderloin aren't a tradition - they're a luxury. The corn relish is the main event: fresh corn kernels provide sweetness and texture that store-bought relish can't match. The magic is in the quick pickle: fresh corn with vinegar, onion, and mustard seeds transforms an ordinary hot dog stand item into something worth serving at a table.\n\n## Directions\n\n1.  **The Relish:** In a small bowl, whisk the vinegar, sugar, salt, and pepper. Toss with the roasted corn, peppers, and onions. Let marinate while you cook the beef.\n2.  **The Beef:** Rub the tenderloin strips with oil, garlic powder, paprika, salt, and pepper.\n3.  **The Sear:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2-3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Let rest for 5 minutes before serving.\n4.  **The Bread:** Toast the baguette or brioche buns until golden.\n5.  **Assemble:** Place a beef strip in each bun. Top generously with the corn relish.\n",
+    "after": "\n## Chef's Note\n\nTenderloin strips make a cookout sandwich with a crisp crust and a vinegary corn topping. This version uses already roasted corn; keep the relish cold while the beef cooks, and check each strip from the side with a thermometer.\n\n## Directions\n\n1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.\n\n## Chilled-corn and seasoned-bread variation\n\nFor this separate version adapted from Food & Wine, the original four-portion batch uses 1 cup fresh corn kernels (about two ears in the original batch; measure the kernels), ¼ cup finely diced red bell pepper, 2 tbsp finely diced red onion, 2 tbsp finely diced celery, ¼ cup cider vinegar, 1½ tsp sugar, salt and freshly ground pepper to taste, 3 tbsp canola oil, ½ tsp minced garlic, ½ tsp sweet paprika, ½ tsp dry mustard, ¼ tsp cayenne, 1 lb center-cut tenderloin and one baguette halved lengthwise and cut into four 6-inch pieces. These supplies replace the corresponding roasted-corn version above; scale all of this variation's quantities together for a different batch.\n\nBoil the fresh kernels in enough water to cover for about 2 minutes, drain, cool under running water and pat dry. Combine with all the bell pepper, onion and celery. Heat all the vinegar and sugar with a generous pinch of the separate relish salt and pepper just until the sugar dissolves; pour over the vegetables and refrigerate until chilled. Mix the full canola oil with the fresh garlic, sweet paprika, dry mustard and cayenne, seasoning separately to taste. Divide this seasoned oil in half: rub one half on the beef and brush the other half on the cut bread. Cut one bread-sized strip per bread portion, then grill and check the beef to 145°F / 63°C in each center, followed by the same 5-minute rest. Toast the oiled bread and divide all the chilled relish among the sandwiches. Use enough grill space or additional loads; keep the cold relish out of contact with raw beef. Allow extra elapsed time for boiling and cold-through relish chilling.\n"
+  },
+  "findings": [
+    {
+      "id": "PA18-B01",
+      "title": "PA18-B01",
+      "rationale": "Preserve current1lb beef/1Tbsp oliveoil/1tsp powder/1tsp paprika/4bread/1cup roastedcorn/¼bell/2Tbsp onion/2Tbsp vinegar/1tsp sugar. Separate the genuine relish and beef salt-pepper allowances, define prepared roasted corn, and tie strip count to bread count. Preserve6e404 each-piece145°F/thin-probe/lowerheat/5minute-rest repair; clarify actual capacity and elapsed dependencies.",
+      "confidence": "high dose and repair conservation; moderate actual geometry/time",
+      "applicableSources": [
+        "current frozen source",
+        "6e4046b4 exact followed diff",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "content",
+        "learning",
+        "totalTime"
+      ],
+      "questions": [
+        "Actual strip dimensions, grill/pan loads and roasting-corn preparation time? Four is inherited serving planning, not a measured yield."
+      ]
+    },
+    {
+      "id": "PA18-B02",
+      "title": "PA18-B02",
+      "rationale": "Expose complete exact-native/b7/045 rich chilledcorn/celery/¼cupvinegar/1½tsp sugar/3Tbsp canola plus freshgarlic/mustard/cayenne variant with half oil on meat and half clean bread. cc032d is a substantive different current adaptation, not evidence that the old formula was physically disproved or expressly rejected. Keep both full formulas and safe endpoint; no mustard seeds invented.",
+      "confidence": "high exact quantities and half allocation; moderate cold-through clock",
+      "applicableSources": [
+        "exact bound450 cooking",
+        "actual b7 introduction",
+        "045 original",
+        "cc032d actual diff",
+        "https://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "Which relish/bread-oil version is wanted for service? No choice or measured chill time is presumed."
+      ]
+    },
+    {
+      "id": "PA18-B03",
+      "title": "PA18-B03",
+      "rationale": "Omit unsupported country supplied by2a7 metadata and automatic nutrition; retain American cuisine, current source/link and tenderloin identity. Remove Chef Note mustard-seed claim because neither saved formula nor current list uses mustard seeds; native dry mustard remains in the separate variant.",
+      "confidence": "high",
+      "applicableSources": ["2a7 actual diff", "full followed history", "docs/RECIPE_STANDARD.md"],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Beef%20Tenderloin%20Dogs%20with%20Corn%20Relish.html",
+    "introductionScope": "Filename removes quotation marks; exact archive native join already established. Complete earlier HTML cooking is compared with bound original, not used to infer native identity.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact original/045 fourteen-row boiled-chilled corn and oiled-bread formula vs cc032d current eleven-row roasted-corn/full1Tbspolive-oil beef recipe; source rich route complete public alternative, current main intact. Later metadata/copy changes do not establish explicit household rejection of original route.",
+    "Native medium-rare10minute grill instruction replaced by already accepted6e404 measured145/five-rest in both routes. First source contains no mustard seeds; dry mustard only in native alternate."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Center-cut Beef Tenderloin, cut into 4 long \"dogs\"",
+        "index": 0,
+        "preparation": "raw; cut4longstrips",
+        "destination": "step2 rub→3cook145/5minrest→5 bread",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tbsp Olive Oil",
+        "index": 1,
+        "preparation": "measured oil",
+        "destination": "all step2beef rub; no bread allocation",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp Garlic Powder",
+        "index": 2,
+        "preparation": "powder",
+        "destination": "step2rub",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp Paprika",
+        "index": 3,
+        "preparation": "paprika",
+        "destination": "step2rub",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "4 6-inch Baguette pieces or High-quality Brioche Buns",
+        "index": 4,
+        "preparation": "6inchpiecesORbrioche",
+        "destination": "step4toast→5assemble",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 cup Roasted Corn (charred in a pan or oven)",
+        "index": 5,
+        "preparation": "alreadyroastedkernels",
+        "destination": "step1relish→5",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/4 cup Red Bell Pepper, finely diced",
+        "index": 6,
+        "preparation": "finelydice",
+        "destination": "step1relish",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 tbsp Red Onion, finely diced",
+        "index": 7,
+        "preparation": "finelydice",
+        "destination": "step1relish",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 tbsp Apple Cider Vinegar",
+        "index": 8,
+        "preparation": "vinegar",
+        "destination": "step1relish",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp Sugar",
+        "index": 9,
+        "preparation": "sugar",
+        "destination": "step1relish",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "index": 10,
+        "preparation": "unmeasuredjointallowance",
+        "destination": "steps1+2 separate taste/rub uses not divided numerically",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "id": "main.beef",
+        "key": "beef-tenderloin",
+        "name": "center-cut beef tenderloin",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "beef",
+            "share": 1
+          }
+        ],
+        "preparation": "cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.oil",
+        "key": "olive-oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "beef",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic-powder",
+        "name": "garlic powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "beef",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.paprika",
+        "key": "paprika",
+        "name": "paprika",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "beef",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.beef-seasoning",
+        "key": "salt-pepper",
+        "name": "salt and black pepper",
+        "allowance": "to taste for the beef",
+        "uses": [
+          {
+            "step": "beef",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.bread",
+        "key": "bread",
+        "name": "6-inch baguette piece or brioche bun",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "bread",
+            "share": 1
+          }
+        ],
+        "plural": "6-inch baguette pieces or brioche buns",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.corn",
+        "key": "roasted-corn",
+        "name": "roasted corn kernels",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "relish",
+            "share": 1
+          }
+        ],
+        "preparation": "already charred in a pan or oven, cooled",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.bell",
+        "key": "red-bell-pepper",
+        "name": "red bell pepper",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "relish",
+            "share": 1
+          }
+        ],
+        "preparation": "finely diced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onion",
+        "key": "red-onion",
+        "name": "red onion",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "relish",
+            "share": 1
+          }
+        ],
+        "preparation": "finely diced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.vinegar",
+        "key": "cider-vinegar",
+        "name": "apple cider vinegar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "relish",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sugar",
+        "key": "sugar",
+        "name": "sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "relish",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.relish-seasoning",
+        "key": "salt-pepper",
+        "name": "salt and black pepper",
+        "allowance": "to taste for the relish",
+        "uses": [
+          {
+            "step": "relish",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "ingredient": "1 cup fresh corn kernels (from 2 ears)",
+        "destination": "Fresh kernels: boil2min/drain/running-cool/dry→relish",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 1,
+        "ingredient": "1/4 cup finely diced red bell pepper",
+        "destination": "Diced pepper→relish",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 tablespoons finely diced red onion",
+        "destination": "Diced onion→relish",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 3,
+        "ingredient": "2 tablespoons finely diced celery",
+        "destination": "Diced celery→relish",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/4 cup cider vinegar",
+        "destination": "All cider vinegar heated with sugar→relish/chill",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 1/2 teaspoons sugar",
+        "destination": "All sugar dissolved in vinegar",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 6,
+        "ingredient": "Salt and freshly ground pepper",
+        "destination": "Unmeasured seasoning separately in relish dressing and seasoned oil; not numerically split",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 7,
+        "ingredient": "3 tablespoons canola oil",
+        "destination": "All3Tbsp canola seasoned; half beef/half cut bread",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 8,
+        "ingredient": "1/2 teaspoon minced garlic",
+        "destination": "Minced fresh garlic→seasoned oil",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 9,
+        "ingredient": "1/2 teaspoon sweet paprika",
+        "destination": "Sweet paprika→seasoned oil",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 10,
+        "ingredient": "1/2 teaspoon dry mustard",
+        "destination": "Dry mustard→seasoned oil",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 11,
+        "ingredient": "1/4 teaspoon cayenne pepper",
+        "destination": "Cayenne→seasoned oil",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 12,
+        "ingredient": "1 pound center-cut beef tenderloin in one piece",
+        "destination": "Whole tenderloin quartered lengthwise→grill; original medium-rare time is not proposed endpoint",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 13,
+        "ingredient": "1 baguette, halved lengthwise and cut into four 6-inch pieces",
+        "destination": "One baguette halved lengthwise/four6inchpieces→remaining half seasoned oil→toast",
+        "methodEvidence": "privately retained evidence#directions"
+      }
+    ],
+    "nativeMethodOwned": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "8805cd0dede9c6906460d667d66e8d2115e5a08e8a992efa2ac2650f776651de"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "0467d970c1b9bc935d0e3f4662ad08c1bde1f6443d71f1706ccaf75e8a1693d3"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "b65f2cbf32defd476ce261ecdc8f657cdb720443053028459c73590bbb28df3f"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "4ac78488fa4599e989bec584e14837992c94fd468508e9bbd3f40fa109594cbf"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "82b9dc84353a1f99bd3fefb1202abc353ed5059073934ae291fc7d43c1bfc516"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "relish",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": [
+          "main.corn",
+          "main.bell",
+          "main.onion",
+          "main.vinegar",
+          "main.sugar",
+          "main.relish-seasoning"
+        ],
+        "cues": []
+      },
+      {
+        "step": 2,
+        "id": "beef",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": [
+          "main.beef",
+          "main.oil",
+          "main.garlic",
+          "main.paprika",
+          "main.beef-seasoning"
+        ],
+        "cues": []
+      },
+      {
+        "step": 3,
+        "id": "sear",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [],
+        "cues": ["Each strip reaches 145°F in its center before the separate five-minute rest."]
+      },
+      {
+        "step": 4,
+        "id": "rest",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": [],
+        "cues": []
+      },
+      {
+        "step": 5,
+        "id": "bread",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["main.bread"],
+        "cues": []
+      },
+      {
+        "step": 6,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": [],
+        "cues": ["Every sandwich receives beef and a portion of the full chilled relish."]
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "sha256": "17ba9af21b8c1a2d99e5681641e4e1180eb4644e16cb880cf068b10c81946bc9",
+      "fields": ["ingredients", "directions", "notes"],
+      "wholeTextRetained": true
+    }
+  },
+  "variantLedgers": [
+    {
+      "name": "Current roasted-corn main",
+      "supplies": "Current eleven rows; full1Tbspolive oil on beef,2Tbspvinegar/1tspsugar,roasted1cupcorn; fourbreadplan",
+      "destinations": "Formula main all explicit; two independent unmeasured seasoning supplies replace joint unknown amount",
+      "status": "preserved"
+    },
+    {
+      "name": "Native chilled-corn/oiled-bread route",
+      "supplies": "Exactfourteen native rows including2Tbspcelery/¼vinegar/1½sugar/3Tbspcanola/½freshgarlic/½sweetpaprika/½drymustard/¼cayenne/1lbbeef/1baguette; cookingwater genuine unmeasured",
+      "destinations": "Boil/draincorn→allvegetables/chilledheatedvinegardressing; fullseasonedoil½rawbeef+½cleanbread;165notintroduced, safe145+5rest retained",
+      "status": "complete separate proposed variation",
+      "publicReference": "content#Chilled-corn and seasoned-bread variation",
+      "scaling": "Every amount proportionate from originalfour; size6inch fixed; no ear-to-cup certainty"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "perfect-mashed-potatoes",
+        "path": "src/content/recipes/perfect-mashed-potatoes.md",
+        "sha256": "4cb772cb05379bef7482cf5352babbf9084e9e4d1674e0d9064cd154ef8b29d0",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "everyday-arugula-salad",
+        "path": "src/content/recipes/everyday-arugula-salad.md",
+        "sha256": "4f0beefaf3576b768e72bd5ed97d549283449e2344782177bd0ba99982a31810",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "All outgoing/contextual links retained; no composed meal acceptance inferred."
+  },
+  "ratiosYieldAndCapacity": {
+    "plan": "Four bread portions/1lb beef and1cup prepared roasted corn. Strip count follows scaled bread;6-inch size remains fixed geometry.",
+    "sourceAlternative": "Native same1lb beef/onebaguette/fourpieces, full3Tbsp canola half-half plus source1cupfreshcorn/quartervinegar/1.5tsp sugar. No guarantee two ears yield a cup; original estimate qualified.",
+    "capacity": "Uncrowded actual grill/skillet loads; relish cold holding; no measured sandwich/relish yield."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/4 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "1/4 tbsp olive oil",
+        "1/4 tsp garlic powder",
+        "1/4 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "1 6-inch baguette piece or brioche bun",
+        "1/4 cup roasted corn kernels, already charred in a pan or oven, cooled",
+        "0.0625 cup red bell pepper, finely diced",
+        "1/2 tbsp red onion, finely diced",
+        "1/2 tbsp apple cider vinegar",
+        "1/4 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "1/4 lb center-cut beef tenderloin",
+        "1/4 tbsp olive oil",
+        "1/4 tsp garlic powder",
+        "1/4 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "1 6-inch baguette piece or brioche bun",
+        "1/4 cup roasted corn kernels",
+        "0.0625 cup red bell pepper",
+        "1/2 tbsp red onion",
+        "1/2 tbsp apple cider vinegar",
+        "1/4 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/2 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "1/2 tbsp olive oil",
+        "1/2 tsp garlic powder",
+        "1/2 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "2 6-inch baguette pieces or brioche buns",
+        "1/2 cup roasted corn kernels, already charred in a pan or oven, cooled",
+        "1/8 cup red bell pepper, finely diced",
+        "1 tbsp red onion, finely diced",
+        "1 tbsp apple cider vinegar",
+        "1/2 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "1/2 lb center-cut beef tenderloin",
+        "1/2 tbsp olive oil",
+        "1/2 tsp garlic powder",
+        "1/2 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "2 6-inch baguette pieces or brioche buns",
+        "1/2 cup roasted corn kernels",
+        "1/8 cup red bell pepper",
+        "1 tbsp red onion",
+        "1 tbsp apple cider vinegar",
+        "1/2 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "4 6-inch baguette pieces or brioche buns",
+        "1 cup roasted corn kernels, already charred in a pan or oven, cooled",
+        "1/4 cup red bell pepper, finely diced",
+        "2 tbsp red onion, finely diced",
+        "2 tbsp apple cider vinegar",
+        "1 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "1 lb center-cut beef tenderloin",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "4 6-inch baguette pieces or brioche buns",
+        "1 cup roasted corn kernels",
+        "1/4 cup red bell pepper",
+        "2 tbsp red onion",
+        "2 tbsp apple cider vinegar",
+        "1 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 1/2 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "1 1/2 tbsp olive oil",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "6 6-inch baguette pieces or brioche buns",
+        "1 1/2 cups roasted corn kernels, already charred in a pan or oven, cooled",
+        "3/8 cup red bell pepper, finely diced",
+        "3 tbsp red onion, finely diced",
+        "3 tbsp apple cider vinegar",
+        "1 1/2 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "1 1/2 lb center-cut beef tenderloin",
+        "1 1/2 tbsp olive oil",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "6 6-inch baguette pieces or brioche buns",
+        "1 1/2 cups roasted corn kernels",
+        "3/8 cup red bell pepper",
+        "3 tbsp red onion",
+        "3 tbsp apple cider vinegar",
+        "1 1/2 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "2 tbsp olive oil",
+        "2 tsp garlic powder",
+        "2 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "8 6-inch baguette pieces or brioche buns",
+        "2 cups roasted corn kernels, already charred in a pan or oven, cooled",
+        "1/2 cup red bell pepper, finely diced",
+        "4 tbsp red onion, finely diced",
+        "4 tbsp apple cider vinegar",
+        "2 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "2 lb center-cut beef tenderloin",
+        "2 tbsp olive oil",
+        "2 tsp garlic powder",
+        "2 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "8 6-inch baguette pieces or brioche buns",
+        "2 cups roasted corn kernels",
+        "1/2 cup red bell pepper",
+        "4 tbsp red onion",
+        "4 tbsp apple cider vinegar",
+        "2 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "3 tbsp olive oil",
+        "3 tsp garlic powder",
+        "3 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "12 6-inch baguette pieces or brioche buns",
+        "3 cups roasted corn kernels, already charred in a pan or oven, cooled",
+        "3/4 cup red bell pepper, finely diced",
+        "6 tbsp red onion, finely diced",
+        "6 tbsp apple cider vinegar",
+        "3 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "3 lb center-cut beef tenderloin",
+        "3 tbsp olive oil",
+        "3 tsp garlic powder",
+        "3 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "12 6-inch baguette pieces or brioche buns",
+        "3 cups roasted corn kernels",
+        "3/4 cup red bell pepper",
+        "6 tbsp red onion",
+        "6 tbsp apple cider vinegar",
+        "3 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four strips in the original batch",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "4 6-inch baguette pieces or brioche buns",
+        "1 cup roasted corn kernels, already charred in a pan or oven, cooled",
+        "1/4 cup red bell pepper, finely diced",
+        "2 tbsp red onion, finely diced",
+        "2 tbsp apple cider vinegar",
+        "1 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.\n2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.\n3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.\n4. **Rest:** Let the cooked strips rest for 5 minutes before serving.\n5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.\n6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.",
+      "shopping": [
+        "1 lb center-cut beef tenderloin",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "salt and black pepper, to taste for the beef",
+        "4 6-inch baguette pieces or brioche buns",
+        "1 cup roasted corn kernels",
+        "1/4 cup red bell pepper",
+        "2 tbsp red onion",
+        "2 tbsp apple cider vinegar",
+        "1 tsp sugar",
+        "salt and black pepper, to taste for the relish"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    }
+  ],
+  "preservedPriorRepairs": {
+    "commit": "6e4046b4991aba73b79192c3da7dd3500ef13a37",
+    "preserved": "Each-piece145°F/thin-probe/lower-heat and5-minute rest remain in main and native alternate; current roasted-corn/full1Tbsp oil kept.",
+    "assertions": ["145°F / 63°C", "from the side", "5 minutes", "lower the heat"]
+  },
+  "remainingQuestions": [
+    "Actual strip dimensions, grill/pan loads and roasting-corn preparation time? Four is inherited serving planning, not a measured yield.",
+    "Which relish/bread-oil version is wanted for service? No choice or measured chill time is presumed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

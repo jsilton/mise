@@ -1,0 +1,1221 @@
+{
+  "slug": "spaghetti-and-tofu-meatballs",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "d4f50ce503d3246bfa655a7e47f7c852e0191d4a61cee9f90734f344d9ad2b40",
+  "acceptedSourceSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "saute"],
+      "after": ["bake", "saute"]
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "30–40 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "50–70 min"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 lbs Extra-firm Tofu, pressed bone-dry",
+        "3/4 cup Walnuts, ground",
+        "1 cup Whole-wheat Breadcrumbs",
+        "2 large Eggs",
+        "1 1/2 tbsp Dijon Mustard (The Finishing Touch)",
+        "1 1/2 tbsp Toasted Sesame Oil",
+        "3 tbsp Soy Sauce",
+        "1 large Carrot, grated",
+        "1 large Onion, chopped",
+        "1 Green Pepper, chopped",
+        "3 cloves Garlic, minced",
+        "1 1/2 tsp Dried Basil + 3/4 tsp Oregano"
+      ],
+      "after": [
+        "--- Tofu balls and serving supplies ---",
+        "3 lb extra-firm tofu, pressed and drained",
+        "3/4 cup ground walnuts",
+        "1 cup whole-wheat breadcrumbs",
+        "2 large eggs",
+        "1 1/2 tbsp Dijon mustard",
+        "1 1/2 tbsp toasted sesame oil",
+        "3 tbsp soy sauce",
+        "1 large carrot, grated",
+        "1 large onion, chopped",
+        "1 green pepper, chopped",
+        "3 garlic cloves, minced",
+        "1 1/2 tsp dried basil",
+        "3/4 tsp dried oregano",
+        "3 tbsp olive oil",
+        "1/4 cup fresh parsley, chopped",
+        "salt and black pepper, to taste, as needed",
+        "oil for greasing baking sheets, as needed",
+        "prepared tomato sauce, as needed",
+        "separately cooked pasta, as needed"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1010,
+        "protein": 43.5,
+        "carbs": 34.5,
+        "fat": 90.5,
+        "fiber": 14.5,
+        "sugar": 6.5,
+        "sodium": 700
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Tofu balls and serving supplies",
+            "ingredients": [
+              {
+                "id": "tofu",
+                "key": "tofu",
+                "name": "extra-firm tofu",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "pressed and drained"
+              },
+              {
+                "id": "walnuts",
+                "key": "walnuts",
+                "name": "ground walnuts",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "crumbs",
+                "key": "crumbs",
+                "name": "whole-wheat breadcrumbs",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "mustard",
+                "key": "mustard",
+                "name": "Dijon mustard",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "carrot",
+                "key": "carrot",
+                "name": "large carrot",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "saute",
+                    "share": 1
+                  }
+                ],
+                "plural": "large carrots",
+                "preparation": "grated"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "large onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "saute",
+                    "share": 1
+                  }
+                ],
+                "plural": "large onions",
+                "preparation": "chopped"
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "green pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "saute",
+                    "share": 1
+                  }
+                ],
+                "plural": "green peppers",
+                "preparation": "chopped"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "saute",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "dried basil",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oregano",
+                "key": "oregano",
+                "name": "dried oregano",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "olive",
+                "key": "olive",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "saute",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "season",
+                "key": "season",
+                "name": "salt and black pepper, to taste",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "grease",
+                "key": "grease",
+                "name": "oil for greasing baking sheets",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "shape",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sauce",
+                "key": "sauce",
+                "name": "prepared tomato sauce",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pasta",
+                "key": "pasta",
+                "name": "separately cooked pasta",
+                "allowance": "as needed",
+                "optional": false,
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "saute",
+            "title": "Prepare and sauté",
+            "text": "Preheat the oven to 350°F. Press and drain the tofu according to its product instructions; drain off free liquid rather than trying to remove all its moisture. Cook {{ingredients}} in a roomy skillet: heat the oil over medium, add the vegetables and sauté until softened, about 10 minutes, then spread the mixture in a bowl to cool slightly."
+          },
+          {
+            "id": "mix",
+            "title": "Mix",
+            "text": "Combine {{ingredients}} in a large bowl: beat the eggs first, then add the other binders and seasonings and crumble in the pressed tofu. Add all the cooled vegetables and their oil. Mix evenly; do not taste the raw egg mixture."
+          },
+          {
+            "id": "shape",
+            "title": "Shape",
+            "text": "Use {{ingredients}} to grease enough baking sheets lightly. Form the mixture into approximately 1½-inch balls and leave space between them; keep this size when scaling, using additional trays or batches."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake at 350°F, checking from about 20 minutes; the source range is 20–30 minutes. If turning them, wait until the outside is set enough to lift without breaking. Cook until browned and set outside and several thick centers reach 160°F / 71°C with a thin probe. Color alone does not establish a cooked egg binder."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve the cooked balls with {{ingredients}}. [Fresh Egg Pasta](/mise/recipes/fresh-egg-pasta) is an optional separately prepared pasta choice: follow its full recipe and plan its dough rest separately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Bind drained tofu and check the cooked centers",
+        "outcome": "Evenly shaped, set tofu balls with browned surfaces.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "The original source plans approximately 36 balls; that is an original-batch shaping estimate, separate from the listed six main portions. Keep approximately 1½-inch balls at other scales.",
+          "Have enough baking sheets and a large mixing bowl; divide the mixture and the full listed ingredients across batches rather than crowding one tray. Pressing time and separately prepared sauce/pasta add to the schedule."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Vegetables are softened and no longer steaming strongly when mixed with eggs.",
+            "why": "Cooking them first limits liquid release in the balls."
+          },
+          {
+            "step": 4,
+            "cue": "The outside holds its shape and several centers reach 160°F / 71°C.",
+            "why": "The egg binder needs a center check; brown tofu is not an egg endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Balls break while turning",
+            "cause": "The outside has not set or the pressed mixture remains too wet.",
+            "fix": "Wait for the outside to set before lifting; drain free tofu liquid and use all the binders on the next batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Tofu, sesame oil and herbs",
+            "alternative": "For the saved source route, use the same listed weight of firm tofu, pressed, and the same listed sesame-oil volume without requiring toasted oil. Move all the basil and oregano from the mixing stage into the vegetable sauté; all other supplies, including olive oil and parsley, stay unchanged. Mix, shape and bake with the same center checks.",
+            "effect": "The current extra-firm/toasted-oil/herbs-in-mixture route remains the main; the source route is exclusive, not additional tofu or oil."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Store the cooked balls separately from sauce and pasta when practical; freeze promptly if not using them within that refrigerator window.",
+        "timing": "Allow roughly 50–70 minutes for chopping, the 10-minute sauté, cooling, mixing and shaping, and a 20–30-minute-or-longer bake. Tofu pressing and preparing pasta or sauce are additional; more tray loads extend elapsed time.",
+        "sources": [
+          {
+            "title": "Food.com — Tofu meatballs",
+            "url": "http://www.food.com/recipe/spaghetti-tofu-meatballs-130975"
+          },
+          {
+            "title": "FDA — Egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Leftover handling",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nVegetarian \"meatballs\" have been made with nuts and grains for centuries, though tofu-based versions became popular in the 1970s and 80s. The key to firm texture is pressing the tofu bone-dry, then binding it with ground walnuts and breadcrumbs. Sauté your vegetables until tender before mixing them into the tofu - this ensures they don't release water during baking. Dijon mustard adds a tangy note that balances the earthy soy and nutty flavors.\n\n## Directions\n\n1.  **Foundation:** In a large skillet, sauté onion, carrot, pepper, and garlic in olive oil for 10 minutes cook until golden brown and softened. Let cool slightly.\n2.  **The Base:** In a massive bowl, crumble the pressed tofu with your hands until it looks like ground meat.\n3.  **Emulsify:** Add the eggs, breadcrumbs, walnuts, herbs, mustard, sesame oil, and soy sauce to the tofu.\n4.  **Combine:** Add the sautéed vegetables. Mix vigorously with your hands until a sticky, uniform dough forms.\n5.  **Shape:** Form into 1.5-inch balls. Arrange on an oiled baking sheet.\n6.  **Bake:** Bake at 350°F for 20-30 minutes, flipping once, until the exterior is deep brown and \"Snappy.\"\n7.  **Serve:** Add the meatballs to your favorite [Roasted Tomato Sauce](/mise/recipes/roasted-tomato-basil-soup) and serve over [Fresh Egg Pasta](/mise/recipes/fresh-egg-pasta).\n",
+    "after": "\n## Chef's Note\n\nDrain and press the tofu so free liquid does not dilute the binder. Softened vegetables, finely ground walnuts and breadcrumbs help the mixture hold together; the parsley belongs in the mixture too. Shape small, evenly sized balls so the centers can cook before the outside becomes too dark.\n\n## Directions\n\n1. **Prepare and sauté:** Preheat the oven to 350°F. Press and drain the tofu according to its product instructions; drain off free liquid rather than trying to remove all its moisture. Cook large carrot, large onion, green pepper, garlic cloves, and olive oil in a roomy skillet: heat the oil over medium, add the vegetables and sauté until softened, about 10 minutes, then spread the mixture in a bowl to cool slightly.\n2. **Mix:** Combine extra-firm tofu, ground walnuts, whole-wheat breadcrumbs, large eggs, Dijon mustard, toasted sesame oil, soy sauce, dried basil, dried oregano, fresh parsley, and salt and black pepper, to taste in a large bowl: beat the eggs first, then add the other binders and seasonings and crumble in the pressed tofu. Add all the cooled vegetables and their oil. Mix evenly; do not taste the raw egg mixture.\n3. **Shape:** Use oil for greasing baking sheets to grease enough baking sheets lightly. Form the mixture into approximately 1½-inch balls and leave space between them; keep this size when scaling, using additional trays or batches.\n4. **Bake:** Bake at 350°F, checking from about 20 minutes; the source range is 20–30 minutes. If turning them, wait until the outside is set enough to lift without breaking. Cook until browned and set outside and several thick centers reach 160°F / 71°C with a thin probe. Color alone does not establish a cooked egg binder.\n5. **Serve:** Serve the cooked balls with prepared tomato sauce and separately cooked pasta. [Fresh Egg Pasta](/mise/recipes/fresh-egg-pasta) is an optional separately prepared pasta choice: follow its full recipe and plan its dough rest separately.\n"
+  },
+  "findings": [
+    {
+      "id": "VP16-2-1",
+      "title": "VP16-2-1",
+      "rationale": "2f255 removed exact3Tb olive oil,¼cup parsley and seasoning while retaining the oil sauté; no later explicit rejection was established. Restore them without reducing the current tofu, walnuts, eggs, toasted oil or other ingredients.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.food.com/recipe/spaghetti-tofu-meatballs-130975",
+          "applicability": "Exact olive oil/parsley and full meatless formula; its exterior-only bake needs a separate applicable egg-center check."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "160°F egg-dish center applied moderately to the meatless tofu binder; not validation of a20–30-minute oven load."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+        "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-2-2",
+      "title": "VP16-2-2",
+      "rationale": "The linked Roasted Tomato Basil Soup is a broth-based soup, not the named tomato sauce. Keep genuine separately prepared tomato-sauce/pasta service supplies; retain the valid Fresh Egg Pasta link without implying its full batch equals this recipe’s six portions.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.food.com/recipe/spaghetti-tofu-meatballs-130975",
+          "applicability": "Exact olive oil/parsley and full meatless formula; its exterior-only bake needs a separate applicable egg-center check."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "160°F egg-dish center applied moderately to the meatless tofu binder; not validation of a20–30-minute oven load."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+        "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-2-3",
+      "title": "VP16-2-3",
+      "rationale": "Supplement the source exterior-only endpoint with FDA’s160°F egg-dish guidance as a moderate editorial application to this two-egg meatless binder, not a publisher-tested bake clock.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "http://www.food.com/recipe/spaghetti-tofu-meatballs-130975",
+          "applicability": "Exact olive oil/parsley and full meatless formula; its exterior-only bake needs a separate applicable egg-center check."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "160°F egg-dish center applied moderately to the meatless tofu binder; not validation of a20–30-minute oven load."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "formula", "ingredients", "servings", "learning"],
+      "questions": [
+        "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+        "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-metadata-spaghetti-and-tofu-meatballs",
+      "title": "VP16-metadata-spaghetti-and-tofu-meatballs",
+      "rationale": {
+        "origin": "Inherited country field lacks recipe-specific origin evidence; cuisine/source credit remains.",
+        "nutrition": "Unverified fixed legacy values removed rather than inventing replacement nutrition.",
+        "methods": "Tags describe full implemented primary/optional routes; no unused boil/steam/roast label granted authority."
+      },
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Spaghetti & Tofu Meatballs.html",
+            "sha256": "89cfc8a56ae244015ef19c4ea9472d0bc7a5ca403f90dea7606d25d8cad1e9b0",
+            "scope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained."
+          },
+          "applicability": "Inherited metadata is not country-origin or nutrition proof; actual implemented routes govern method tags."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods", "origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VP16-handling-spaghetti-and-tofu-meatballs",
+      "title": "VP16-handling-spaghetti-and-tofu-meatballs",
+      "rationale": "Prompt cooling, cold3–4-day leftovers and165°F reheating apply to the complete prepared dish; this is handling guidance, not a publisher- or kitchen-tested formula/clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Direct full primary guidance on prompt shallow-container cooling,40°F cold handling,3–4days and165°F reheating; not initial-cook formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": [
+        "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+        "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
+      ]
+    },
+    {
+      "id": "VP16-I03",
+      "title": "VP16-I03",
+      "field": "sourceDisagreements[2]",
+      "rationale": "The actual followed diff and direct git show identify 493885bb as the accepted removal of the lemon divider and 1–2 lemons. Direct 9bdabb91 path inspection contains no Tofu change. Correct the record attribution while preserving the earlier repair exactly.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "493885bb actual two-line ingredient removal."
+        },
+        {
+          "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
+          "path": "src/content/recipes/spaghetti-and-tofu-meatballs.md",
+          "scope": "Direct actual git show reproduced; not an inferred neighboring acid repair."
+        }
+      ],
+      "exactBeforeAfterReferences": ["sourceDisagreements[2]"],
+      "questions": []
+    },
+    {
+      "id": "VP16-I04",
+      "title": "VP16-I04",
+      "field": "learning.troubleshooting[0].fix",
+      "rationale": "Remove the instruction addressed to an editor while retaining the useful food instruction. This changes no binder quantity, preparation, texture promise or corrective liquid dose.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Public recipe prose should explain cooking rather than editorial workflow."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact frozen public troubleshooting field; the full binder formula remains untouched."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Spaghetti%20&%20Tofu%20Meatballs.html",
+    "introductionScope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "url": "http://www.food.com/recipe/spaghetti-tofu-meatballs-130975",
+      "scope": "Exact original, actual publisher versions and disagreements considered in frozen author/whole peer evidence; no kitchen certification."
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "2f255 omitted measured oil/parsley/seasoning and changed firm tofu to extra-firm and sesame oil to toasted. Later prose edits do not establish deliberate rejection of omitted supplies; current product choices remain main and full source choices are separate.",
+    "The saved recipe/publisher do not identify the soup as a tomato sauce; source36-ball planning and current6 portions are distinct claims.",
+    "Unused lemon removal in493885bb88fa96b1ab626b20a5c8ec78830f9145 remains preserved; no lemon is added."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "3 lbs Extra-firm Tofu, pressed bone-dry",
+        "destination": "Crumble pressed tofu2; literal bone-dry not achievable."
+      },
+      {
+        "index": 1,
+        "text": "3/4 cup Walnuts, ground",
+        "destination": "Mix3"
+      },
+      {
+        "index": 2,
+        "text": "1 cup Whole-wheat Breadcrumbs",
+        "destination": "Mix3"
+      },
+      {
+        "index": 3,
+        "text": "2 large Eggs",
+        "destination": "Mix3"
+      },
+      {
+        "index": 4,
+        "text": "1 1/2 tbsp Dijon Mustard (The Finishing Touch)",
+        "destination": "Mix3"
+      },
+      {
+        "index": 5,
+        "text": "1 1/2 tbsp Toasted Sesame Oil",
+        "destination": "Mix3"
+      },
+      {
+        "index": 6,
+        "text": "3 tbsp Soy Sauce",
+        "destination": "Mix3"
+      },
+      {
+        "index": 7,
+        "text": "1 large Carrot, grated",
+        "destination": "Sauté1"
+      },
+      {
+        "index": 8,
+        "text": "1 large Onion, chopped",
+        "destination": "Sauté1"
+      },
+      {
+        "index": 9,
+        "text": "1 Green Pepper, chopped",
+        "destination": "Sauté1"
+      },
+      {
+        "index": 10,
+        "text": "3 cloves Garlic, minced",
+        "destination": "Sauté1"
+      },
+      {
+        "index": 11,
+        "text": "1 1/2 tsp Dried Basil + 3/4 tsp Oregano",
+        "destination": "Mix3, both full herb doses."
+      }
+    ],
+    "frozenMethodOnly": [
+      "Olive oil sauté1; sheet grease5; tomato sauce/pasta7. Parsley absent, not an existing frozen allocation."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "--- Tofu balls and serving supplies ---",
+        "authoredEntry": {
+          "divider": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 1,
+        "text": "3 lb extra-firm tofu, pressed and drained",
+        "authoredEntry": {
+          "id": "main.tofu",
+          "key": "tofu",
+          "name": "extra-firm tofu",
+          "quantity": {
+            "amount": 3,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "preparation": "pressed and drained",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 2,
+        "text": "3/4 cup ground walnuts",
+        "authoredEntry": {
+          "id": "main.walnuts",
+          "key": "walnuts",
+          "name": "ground walnuts",
+          "quantity": {
+            "amount": "3/4",
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 3,
+        "text": "1 cup whole-wheat breadcrumbs",
+        "authoredEntry": {
+          "id": "main.crumbs",
+          "key": "crumbs",
+          "name": "whole-wheat breadcrumbs",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 4,
+        "text": "2 large eggs",
+        "authoredEntry": {
+          "id": "main.eggs",
+          "key": "eggs",
+          "name": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "plural": "large eggs",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 5,
+        "text": "1 1/2 tbsp Dijon mustard",
+        "authoredEntry": {
+          "id": "main.mustard",
+          "key": "mustard",
+          "name": "Dijon mustard",
+          "quantity": {
+            "amount": "1 1/2",
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 6,
+        "text": "1 1/2 tbsp toasted sesame oil",
+        "authoredEntry": {
+          "id": "main.sesame",
+          "key": "sesame",
+          "name": "toasted sesame oil",
+          "quantity": {
+            "amount": "1 1/2",
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 7,
+        "text": "3 tbsp soy sauce",
+        "authoredEntry": {
+          "id": "main.soy",
+          "key": "soy",
+          "name": "soy sauce",
+          "quantity": {
+            "amount": 3,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 8,
+        "text": "1 large carrot, grated",
+        "authoredEntry": {
+          "id": "main.carrot",
+          "key": "carrot",
+          "name": "large carrot",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "saute",
+              "share": 1
+            }
+          ],
+          "plural": "large carrots",
+          "preparation": "grated",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 9,
+        "text": "1 large onion, chopped",
+        "authoredEntry": {
+          "id": "main.onion",
+          "key": "onion",
+          "name": "large onion",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "saute",
+              "share": 1
+            }
+          ],
+          "plural": "large onions",
+          "preparation": "chopped",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 10,
+        "text": "1 green pepper, chopped",
+        "authoredEntry": {
+          "id": "main.pepper",
+          "key": "pepper",
+          "name": "green pepper",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "saute",
+              "share": 1
+            }
+          ],
+          "plural": "green peppers",
+          "preparation": "chopped",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 11,
+        "text": "3 garlic cloves, minced",
+        "authoredEntry": {
+          "id": "main.garlic",
+          "key": "garlic",
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 3,
+            "unit": "count"
+          },
+          "uses": [
+            {
+              "step": "saute",
+              "share": 1
+            }
+          ],
+          "plural": "garlic cloves",
+          "preparation": "minced",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 12,
+        "text": "1 1/2 tsp dried basil",
+        "authoredEntry": {
+          "id": "main.basil",
+          "key": "basil",
+          "name": "dried basil",
+          "quantity": {
+            "amount": "1 1/2",
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 13,
+        "text": "3/4 tsp dried oregano",
+        "authoredEntry": {
+          "id": "main.oregano",
+          "key": "oregano",
+          "name": "dried oregano",
+          "quantity": {
+            "amount": "3/4",
+            "unit": "tsp"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 14,
+        "text": "3 tbsp olive oil",
+        "authoredEntry": {
+          "id": "main.olive",
+          "key": "olive",
+          "name": "olive oil",
+          "quantity": {
+            "amount": 3,
+            "unit": "tbsp"
+          },
+          "uses": [
+            {
+              "step": "saute",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 15,
+        "text": "1/4 cup fresh parsley, chopped",
+        "authoredEntry": {
+          "id": "main.parsley",
+          "key": "parsley",
+          "name": "fresh parsley",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "preparation": "chopped",
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 16,
+        "text": "salt and black pepper, to taste, as needed",
+        "authoredEntry": {
+          "id": "main.season",
+          "key": "season",
+          "name": "salt and black pepper, to taste",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "mix",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 17,
+        "text": "oil for greasing baking sheets, as needed",
+        "authoredEntry": {
+          "id": "main.grease",
+          "key": "grease",
+          "name": "oil for greasing baking sheets",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "shape",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 18,
+        "text": "prepared tomato sauce, as needed",
+        "authoredEntry": {
+          "id": "main.sauce",
+          "key": "sauce",
+          "name": "prepared tomato sauce",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      },
+      {
+        "index": 19,
+        "text": "separately cooked pasta, as needed",
+        "authoredEntry": {
+          "id": "main.pasta",
+          "key": "pasta",
+          "name": "separately cooked pasta",
+          "allowance": "as needed",
+          "optional": false,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1
+            }
+          ],
+          "component": "Tofu balls and serving supplies"
+        }
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Prepare and sauté",
+      "text": "Preheat the oven to 350°F. Press and drain the tofu according to its product instructions; drain off free liquid rather than trying to remove all its moisture. Cook {{ingredients}} in a roomy skillet: heat the oil over medium, add the vegetables and sauté until softened, about 10 minutes, then spread the mixture in a bowl to cool slightly."
+    },
+    {
+      "step": 2,
+      "title": "Mix",
+      "text": "Combine {{ingredients}} in a large bowl: beat the eggs first, then add the other binders and seasonings and crumble in the pressed tofu. Add all the cooled vegetables and their oil. Mix evenly; do not taste the raw egg mixture."
+    },
+    {
+      "step": 3,
+      "title": "Shape",
+      "text": "Use {{ingredients}} to grease enough baking sheets lightly. Form the mixture into approximately 1½-inch balls and leave space between them; keep this size when scaling, using additional trays or batches."
+    },
+    {
+      "step": 4,
+      "title": "Bake",
+      "text": "Bake at 350°F, checking from about 20 minutes; the source range is 20–30 minutes. If turning them, wait until the outside is set enough to lift without breaking. Cook until browned and set outside and several thick centers reach 160°F / 71°C with a thin probe. Color alone does not establish a cooked egg binder."
+    },
+    {
+      "step": 5,
+      "title": "Serve",
+      "text": "Serve the cooked balls with {{ingredients}}. [Fresh Egg Pasta](/mise/recipes/fresh-egg-pasta) is an optional separately prepared pasta choice: follow its full recipe and plan its dough rest separately."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Tofu, sesame oil and herbs",
+      "alternative": "For the saved source route, use the same listed weight of firm tofu, pressed, and the same listed sesame-oil volume without requiring toasted oil. Move all the basil and oregano from the mixing stage into the vegetable sauté; all other supplies, including olive oil and parsley, stay unchanged. Mix, shape and bake with the same center checks.",
+      "effect": "The current extra-firm/toasted-oil/herbs-in-mixture route remains the main; the source route is exclusive, not additional tofu or oil."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["garlic-bread", "avocado-kale-caesar-salad"],
+    "scope": "Fresh Egg Pasta full290g flour/2eggs/3yolks/1Tb oil/¼salt dough with1hour rest is a separately prepared component; no1batch=6portion equivalence. Roasted Tomato Basil Soup uses3cups broth and cream, so its existing href did not establish a pasta sauce. Other pairings remain metadata."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "6",
+    "proposedYield": "6 portions",
+    "capacity": [
+      "The original source plans approximately 36 balls; that is an original-batch shaping estimate, separate from the listed six main portions. Keep approximately 1½-inch balls at other scales.",
+      "Have enough baking sheets and a large mixing bowl; divide the mixture and the full listed ingredients across batches rather than crowding one tray. Pressing time and separately prepared sauce/pasta add to the schedule."
+    ],
+    "fullFormulaPreservation": "Current measured primary supplies preserved; exact supported missing oil/parsley added only where lost. Source alternatives are exclusive and disclosed.",
+    "unverified": "Actual pan depth/loading, finished weight and portions are planning questions, not measured yields."
+  },
+  "preservedPriorRepairs": [
+    "Mac e7f48228 one-third/remaining milk allocation preserved; Tofu493885bb unused-lemon removal preserved; all current rich main doses and explicit source alternatives conserved."
+  ],
+  "remainingQuestions": [
+    "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
+    "Verify tray capacity, ball count, probe access and meal portions in the kitchen."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

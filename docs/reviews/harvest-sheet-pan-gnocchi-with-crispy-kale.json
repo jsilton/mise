@@ -1,0 +1,514 @@
+{
+  "slug": "harvest-sheet-pan-gnocchi-with-crispy-kale",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "92dabe14c9ef1949efeaeb7c25c68ecc83b2055e0c3d8abb505ef171f32df331",
+  "acceptedSourceSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "boil"],
+      "after": ["bake", "roast"]
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "25–35 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "45–55 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 oz Frozen Cauliflower Gnocchi",
+        "12 oz Apple Chicken Sausage, sliced into rounds",
+        "2 cups Butternut Squash, diced into 1/2-inch cubes",
+        "2 cups Fresh Kale, shredded",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 tsp Dried Rosemary",
+        "1 tsp Dried Thyme",
+        "1/2 tsp Smoked Paprika",
+        "1 tsp Garlic Powder",
+        "1/3 cup Freshly Grated Parmesan or Nutritional Yeast",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "12 oz Frozen Cauliflower Gnocchi",
+        "12 oz Fully Cooked Apple Chicken Sausage, sliced into 1/4-inch rounds",
+        "2 cups Butternut Squash, peeled and diced into 1/2-inch cubes",
+        "2 cups Fresh Kale, shredded",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 tsp Dried Rosemary",
+        "1 tsp Dried Thyme",
+        "1/2 tsp Smoked Paprika",
+        "1 tsp Garlic Powder",
+        "1/3 cup Freshly Grated Parmesan or Nutritional Yeast",
+        "Salt and Black Pepper"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1275,
+        "protein": 23,
+        "carbs": 22.5,
+        "fat": 127.5,
+        "fiber": 8,
+        "sugar": 4,
+        "sodium": 1370
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Give the coated vegetables space and judge squash tenderness",
+        "outcome": "Tender squash, browned gnocchi and kale without scorched edges.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "Use fully cooked apple chicken sausage. Raw poultry sausage is not an equivalent ingredient for this vegetable-driven roast clock.",
+          "At original scale the source describes 2 cups squash as about half a medium squash and 2 cups shredded kale as about 2 oz; prepare the listed volume rather than assuming every squash or packed leaf measure matches those estimates. The batch needs enough rimmed tray area for a single layer. Larger batches need more trays or loads; keep squash approximately ½-inch and sausage approximately ¼-inch pieces at every scale and use tenderness, not a linear time multiplier."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Kale leaves and squash surfaces are coated with the full listed oil.",
+            "why": "Oil left in the bowl cannot protect dry kale edges."
+          },
+          {
+            "step": 4,
+            "cue": "Squash is tender at the center, gnocchi browned and kale not blackened.",
+            "why": "A fixed 24–26-minute clock or a crisp leaf alone is not the whole-tray endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Kale scorches before squash is tender",
+            "cause": "Leaf edges heated faster than the squash centers.",
+            "fix": "Check early and move finished darkening kale pieces aside on a clean plate while the squash completes roasting, then return them at serving."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Salt and pepper",
+            "alternative": "For the saved seasoning option, use 1 tsp kosher salt and ½ tsp black pepper for the original batch, scaled proportionally, instead of the main taste-based seasoning. Toss both with all the oil and other spices in step 2.",
+            "effect": "The crystal type and original-batch volumes are source-specific; this is not an equivalence to an unnamed salt allowance."
+          },
+          {
+            "ingredient": "Fully cooked sausage",
+            "alternative": "Use the same listed weight of another fully cooked sausage if preferred, following that product’s heating instructions; keep the same round thickness and all other ingredients.",
+            "effect": "The saved choice is broader than apple chicken sausage; it does not authorize raw sausage in this roast clock."
+          },
+          {
+            "ingredient": "Parmesan",
+            "alternative": "Use the full listed nutritional-yeast amount instead.",
+            "effect": "The sausage remains chicken; this cheese choice does not make the entire dish vegetarian."
+          }
+        ],
+        "storage": "Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator. Kale softens in storage; the refrigerator plan does not promise the original crisp edges.",
+        "timing": "Allow roughly 45–55 minutes: 15 minutes preparation, about 25–35 minutes roasting as needed for squash tenderness, and 5 minutes resting. Preheat or extra tray loads may add elapsed time.",
+        "sources": [
+          {
+            "title": "Jenn Eats Goood — Harvest gnocchi",
+            "url": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/"
+          },
+          {
+            "title": "FoodSafety.gov — Clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Leftover handling",
+            "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSheet-pan gnocchi is a weeknight trick that turns frozen cauliflower gnocchi into something crispy and caramelized without a pot of boiling water. The key is a single layer - crowding the pan steams everything into mush instead of roasting it. The kale should emerge dark green and shatteringly crisp, which only happens if it gets coated in oil and given space.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 400°F. Line a large rimmed baking sheet with parchment paper.\n2.  **Toss:** In a massive bowl, combine gnocchi, sliced sausage, squash, and kale. Drizzle with 3 tbsp olive oil. Add rosemary, thyme, garlic powder, paprika, salt, and pepper. Toss until every leaf and cube is coated.\n3.  **Spread:** Spread the mixture in a **single layer** on the pan. (Crucial for the kale to crisp!)\n4.  **Roast:** Bake for 24-26 minutes, stirring once halfway through, until the squash is tender and the gnocchi are golden.\n5.  **The Crunch:** The kale should be dark green and shatteringly crisp.\n6.  **Finish:** Sprinkle with Parmesan or nutritional yeast while still piping hot. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nUse fully cooked apple chicken sausage, not raw sausage, and keep the full oil distributed over the gnocchi, squash and kale. A single layer leaves space for moisture to escape. Check the squash itself for tenderness; the kale may have crisp edges without every leaf becoming brittle.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 400°F. Line enough rimmed sheet pans with parchment rated for that temperature. Keep the gnocchi frozen as this route specifies; check that its product permits the roasting method. Slice the fully cooked sausage into roughly ¼-inch rounds. Wash the kale and drain it before shredding.\n\n2. **Toss:** Combine all the gnocchi, sausage, squash and kale in a roomy bowl. Add the full listed olive oil, rosemary, thyme, paprika and garlic powder, with salt and pepper to taste. Toss until all components, including the leaves, are coated.\n\n3. **Spread:** Spread in one layer with space between pieces, using additional pans if needed. Divide the same full mixed batch and its oil among those pans; do not add a fresh measured oil dose per pan.\n\n4. **Roast:** Roast at 400°F, stirring halfway through. Check from about 24–26 minutes; continue until the squash is tender when pierced and the gnocchi have browned. Watch kale edges for scorching rather than requiring every leaf to be shatteringly crisp. Follow the fully cooked sausage package’s heating instructions; stored cooked sausage portions must be reheated throughout to 165°F / 74°C.\n\n5. **Rest and finish:** Rest about 5 minutes, then distribute all the Parmesan or nutritional yeast over the batch and serve.\n"
+  },
+  "findings": [
+    {
+      "id": "VP16-6-1",
+      "title": "VP16-6-1",
+      "rationale": "Restore exact native precooked sausage/¼-inch rounds and5-minute rest removed in38b29fc, without substituting a raw product or reducing full3Tb oil/⅓cup topping.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/",
+          "applicability": "Fully cooked sausage, squash and kale roasting; modern lower oil/unmeasured topping are distinguished from exact rich native/current supplies."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+        "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
+      ]
+    },
+    {
+      "id": "VP16-6-2",
+      "title": "VP16-6-2",
+      "rationale": "Retain current taste-based seasoning and separately preserve exact native1tsp kosher+½pepper instead of inventing a crystal conversion. Modern publisher2Tb oil and unmeasured topping are not silently substituted.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/",
+          "applicability": "Fully cooked sausage, squash and kale roasting; modern lower oil/unmeasured topping are distinguished from exact rich native/current supplies."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+        "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
+      ]
+    },
+    {
+      "id": "VP16-6-3",
+      "title": "VP16-6-3",
+      "rationale": "Correct universal shatteringly-crisp kale promise and include actual squash/package endpoints, pan loading and rest in timing.",
+      "confidence": "moderate",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Exact original450 formula and method binding, independently reproduced through durable archive and current private registry; not a kitchen test."
+        },
+        {
+          "reference": "privately retained evidence",
+          "applicability": "Full followed current-path history distinguishes bulk losses and prior repairs; persistence is not evidence of intentional family adaptation."
+        },
+        {
+          "url": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/",
+          "applicability": "Fully cooked sausage, squash and kale roasting; modern lower oil/unmeasured topping are distinguished from exact rich native/current supplies."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content", "ingredients", "learning"],
+      "questions": [
+        "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+        "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
+      ]
+    },
+    {
+      "id": "VP16-metadata-harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "title": "VP16-metadata-harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "rationale": {
+        "origin": "Inherited country field lacks recipe-specific origin evidence; cuisine/source credit remains.",
+        "nutrition": "Unverified fixed legacy values removed rather than inventing replacement nutrition.",
+        "methods": "Tags describe full implemented primary/optional routes; no unused boil/steam/roast label granted authority."
+      },
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Harvest Sheet Pan Gnocchi with Crispy Kale.html",
+            "sha256": "807f0d82f7254a991ecd5bd0c666dcab0aff98ab011bfec2dd74d61b3604d83a",
+            "scope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained."
+          },
+          "applicability": "Inherited metadata is not country-origin or nutrition proof; actual implemented routes govern method tags."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods", "origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VP16-handling-harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "title": "VP16-handling-harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "rationale": "Prompt cooling, cold3–4-day leftovers and165°F reheating apply to the complete prepared dish; this is handling guidance, not a publisher- or kitchen-tested formula/clock.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips",
+          "applicability": "Direct full primary guidance on prompt shallow-container cooling,40°F cold handling,3–4days and165°F reheating; not initial-cook formula certification."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": [
+        "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+        "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
+      ]
+    },
+    {
+      "id": "VP16-I01",
+      "title": "VP16-I01",
+      "field": "ingredients[2]",
+      "rationale": "Peeling is a useful ingredient-state instruction in the exact bound original and actual earlier HTML/045 recipe, also retained by the current publisher. It disappeared in 38b29fc with the ingredient rewrite; the followed later history does not establish a deliberate skin-on choice. This restores the state without changing the measured volume, piece geometry, oil, roast clock or full topping.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original ingredient states peeled, half-inch cubes."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "38b29fc removal and complete subsequent current-path history."
+        },
+        {
+          "url": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/",
+          "scope": "Current primary ingredient likewise specifies peeled squash; its lower oil and other modern differences are not adopted."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients[2]"],
+      "questions": [
+        "Actual squash preparation, tray fit and tenderness remain kitchen checks; no measured yield or validated roast load is established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Harvest%20Sheet%20Pan%20Gnocchi%20with%20Crispy%20Kale.html",
+    "introductionScope": "Actual earlier cooking introduction in retained HTML; first canonical Markdown separately retained.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": {
+      "url": "https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/",
+      "scope": "Exact original, actual publisher versions and disagreements considered in frozen author/whole peer evidence; no kitchen certification."
+    },
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "38b29fc removes native precooked state, measured kosher/pepper and5-minute rest. No later explicit product/dose decision established; restore state/rest and retain both seasoning choices.",
+    "Modern publisher uses2Tb oil and unmeasured cheese, whereas exact native/current use3Tb oil and⅓cup topping. Current rich formula remains; modern optional balsamic or later-kale technique is not imported as a generic correction."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "12 oz Frozen Cauliflower Gnocchi",
+        "destination": "Frozen gnocchi2"
+      },
+      {
+        "index": 1,
+        "text": "12 oz Apple Chicken Sausage, sliced into rounds",
+        "destination": "Sausage2/4; precooked state missing"
+      },
+      {
+        "index": 2,
+        "text": "2 cups Butternut Squash, diced into 1/2-inch cubes",
+        "destination": "½-inch squash2/4"
+      },
+      {
+        "index": 3,
+        "text": "2 cups Fresh Kale, shredded",
+        "destination": "Kale2/4"
+      },
+      {
+        "index": 4,
+        "text": "3 tbsp Extra-Virgin Olive Oil",
+        "destination": "Literal3Tb oil2"
+      },
+      {
+        "index": 5,
+        "text": "2 tsp Dried Rosemary",
+        "destination": "Rosemary2"
+      },
+      {
+        "index": 6,
+        "text": "1 tsp Dried Thyme",
+        "destination": "Thyme2"
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Smoked Paprika",
+        "destination": "Paprika2"
+      },
+      {
+        "index": 8,
+        "text": "1 tsp Garlic Powder",
+        "destination": "Garlic powder2"
+      },
+      {
+        "index": 9,
+        "text": "1/3 cup Freshly Grated Parmesan or Nutritional Yeast",
+        "destination": "Full cheeseORyeast6"
+      },
+      {
+        "index": 10,
+        "text": "Salt and Black Pepper",
+        "destination": "Season2"
+      }
+    ],
+    "frozenMethodOnly": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "12 oz Frozen Cauliflower Gnocchi",
+        "destination": "All toss2/roast4"
+      },
+      {
+        "index": 1,
+        "text": "12 oz Fully Cooked Apple Chicken Sausage, sliced into 1/4-inch rounds",
+        "destination": "Fully cooked sliced1,toss2/roast4"
+      },
+      {
+        "index": 2,
+        "text": "2 cups Butternut Squash, peeled and diced into 1/2-inch cubes",
+        "destination": "All toss2/roast4"
+      },
+      {
+        "index": 3,
+        "text": "2 cups Fresh Kale, shredded",
+        "destination": "Wash1,toss2/roast4"
+      },
+      {
+        "index": 4,
+        "text": "3 tbsp Extra-Virgin Olive Oil",
+        "destination": "All toss2 across pans"
+      },
+      {
+        "index": 5,
+        "text": "2 tsp Dried Rosemary",
+        "destination": "All toss2"
+      },
+      {
+        "index": 6,
+        "text": "1 tsp Dried Thyme",
+        "destination": "All toss2"
+      },
+      {
+        "index": 7,
+        "text": "1/2 tsp Smoked Paprika",
+        "destination": "All toss2"
+      },
+      {
+        "index": 8,
+        "text": "1 tsp Garlic Powder",
+        "destination": "All toss2"
+      },
+      {
+        "index": 9,
+        "text": "1/3 cup Freshly Grated Parmesan or Nutritional Yeast",
+        "destination": "Full finish5 exclusive"
+      },
+      {
+        "index": 10,
+        "text": "Salt and Black Pepper",
+        "destination": "Toss2 taste-based or source option"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Prepare",
+      "text": "Preheat the oven to 400°F. Line enough rimmed sheet pans with parchment rated for that temperature. Keep the gnocchi frozen as this route specifies; check that its product permits the roasting method. Slice the fully cooked sausage into roughly ¼-inch rounds. Wash the kale and drain it before shredding."
+    },
+    {
+      "step": 2,
+      "title": "Toss",
+      "text": "Combine all the gnocchi, sausage, squash and kale in a roomy bowl. Add the full listed olive oil, rosemary, thyme, paprika and garlic powder, with salt and pepper to taste. Toss until all components, including the leaves, are coated."
+    },
+    {
+      "step": 3,
+      "title": "Spread",
+      "text": "Spread in one layer with space between pieces, using additional pans if needed. Divide the same full mixed batch and its oil among those pans; do not add a fresh measured oil dose per pan."
+    },
+    {
+      "step": 4,
+      "title": "Roast",
+      "text": "Roast at 400°F, stirring halfway through. Check from about 24–26 minutes; continue until the squash is tender when pierced and the gnocchi have browned. Watch kale edges for scorching rather than requiring every leaf to be shatteringly crisp. Follow the fully cooked sausage package’s heating instructions; stored cooked sausage portions must be reheated throughout to 165°F / 74°C."
+    },
+    {
+      "step": 5,
+      "title": "Rest and finish",
+      "text": "Rest about 5 minutes, then distribute all the Parmesan or nutritional yeast over the batch and serve."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Salt and pepper",
+      "alternative": "For the saved seasoning option, use 1 tsp kosher salt and ½ tsp black pepper for the original batch, scaled proportionally, instead of the main taste-based seasoning. Toss both with all the oil and other spices in step 2.",
+      "effect": "The crystal type and original-batch volumes are source-specific; this is not an equivalence to an unnamed salt allowance."
+    },
+    {
+      "ingredient": "Fully cooked sausage",
+      "alternative": "Use the same listed weight of another fully cooked sausage if preferred, following that product’s heating instructions; keep the same round thickness and all other ingredients.",
+      "effect": "The saved choice is broader than apple chicken sausage; it does not authorize raw sausage in this roast clock."
+    },
+    {
+      "ingredient": "Parmesan",
+      "alternative": "Use the full listed nutritional-yeast amount instead.",
+      "effect": "The sausage remains chicken; this cheese choice does not make the entire dish vegetarian."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "pairsWith": ["garlic-bread", "avocado-kale-caesar-salad"],
+    "scope": "Existing pairings remain metadata; no incoming composed meal found and no linked recipe receives review credit."
+  },
+  "ratiosYieldAndCapacity": {
+    "currentYield": "4",
+    "proposedYield": "4",
+    "capacity": [
+      "Use fully cooked apple chicken sausage. Raw poultry sausage is not an equivalent ingredient for this vegetable-driven roast clock.",
+      "At original scale the source describes 2 cups squash as about half a medium squash and 2 cups shredded kale as about 2 oz; prepare the listed volume rather than assuming every squash or packed leaf measure matches those estimates. The batch needs enough rimmed tray area for a single layer. Larger batches need more trays or loads; keep squash approximately ½-inch and sausage approximately ¼-inch pieces at every scale and use tenderness, not a linear time multiplier."
+    ],
+    "fullFormulaPreservation": "Current measured primary supplies preserved; exact supported missing oil/parsley added only where lost. Source alternatives are exclusive and disclosed.",
+    "unverified": "Actual pan depth/loading, finished weight and portions are planning questions, not measured yields."
+  },
+  "preservedPriorRepairs": [
+    "Mac e7f48228 one-third/remaining milk allocation preserved; Tofu493885bb unused-lemon removal preserved; all current rich main doses and explicit source alternatives conserved."
+  ],
+  "remainingQuestions": [
+    "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
+    "Compare kale crispness, squash tenderness and actual elapsed time; no finished-weight/portion precision or kitchen testing is claimed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

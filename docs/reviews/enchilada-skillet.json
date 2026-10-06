@@ -1,0 +1,1390 @@
+{
+  "slug": "enchilada-skillet",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "a46b3a3e3d5d23bf4dec8eb38574d70aa0f739ecefd9265643fc8d5cfc23e17c",
+  "acceptedSourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 tsp avocado, or olive oil",
+        "1 yellow onion, diced",
+        "1 lb ground grass fed beef, or turkey",
+        "1 medium yellow squash, chopped",
+        "1 medium zucchini, chopped",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "1/2 tsp fresh ground pepper",
+        "1/2 cup fresh corn kernels",
+        "1 cup cooked black beans, rinsed well if using canned",
+        "4 sprouted corn tortillas, sliced into strips (I love Food for Life brand)",
+        "12 ounces enchilada sauce – look for minimal ingredients if using store bought",
+        "1/2 cup grated mozzarella or colby jack, optional",
+        "fresh cilantro, or green onions garnish"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "2 tsp avocado or olive oil",
+        "1 yellow onion, diced",
+        "1 lb ground grass-fed beef or ground turkey",
+        "1 medium yellow squash, chopped",
+        "1 medium zucchini, chopped",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "1/2 tsp freshly ground black pepper",
+        "1/2 cup fresh corn kernels",
+        "1 cup cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "4 sprouted corn tortillas, sliced into strips",
+        "12 oz enchilada sauce",
+        "1/2 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Cleanfoodcrush.com",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "cooking-oil",
+                "name": "avocado or olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "yellow-onion",
+                "name": "yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ],
+                "plural": "yellow onions",
+                "preparation": "diced"
+              },
+              {
+                "id": "meat",
+                "key": "ground-meat",
+                "name": "ground grass-fed beef or ground turkey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "squash",
+                "key": "yellow-squash",
+                "name": "medium yellow squash",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "squash",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium yellow squash",
+                "preparation": "chopped"
+              },
+              {
+                "id": "zucchini",
+                "key": "zucchini",
+                "name": "medium zucchini",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "squash",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium zucchini",
+                "preparation": "chopped"
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "paprika",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic-powder",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "sea-salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "freshly ground black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "corn",
+                "key": "corn",
+                "name": "fresh corn kernels",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "beans",
+                "key": "cooked-black-beans",
+                "name": "cooked black beans",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "preparation": "rinsed and drained if canned; measure the prepared beans"
+              },
+              {
+                "id": "tortillas",
+                "key": "sprouted-corn-tortilla",
+                "name": "sprouted corn tortilla",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ],
+                "plural": "sprouted corn tortillas",
+                "preparation": "sliced into strips"
+              },
+              {
+                "id": "sauce",
+                "key": "enchilada-sauce",
+                "name": "enchilada sauce",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "grated mozzarella or Colby Jack",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "garnish",
+                "key": "cilantro-green-onion",
+                "name": "fresh cilantro or green onions",
+                "allowance": "as desired for garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish",
+                "optional": true,
+                "preparation": "washed and chopped"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "cook",
+            "title": "Cook meat and onion",
+            "text": "Heat {{ingredients}} in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed."
+          },
+          {
+            "id": "squash",
+            "title": "Add squash",
+            "text": "Add {{ingredients}}. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer",
+            "text": "Add {{ingredients}}. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking."
+          },
+          {
+            "id": "finish",
+            "title": "Finish",
+            "text": "Finish with {{ingredients}}. If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Soften tortilla strips in a fully cooked skillet mixture",
+        "outcome": "Tender squash, sauced tortilla strips and ground meat at its species-specific measured endpoint.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its utensils.",
+          "Dice and slice all the vegetables and tortillas before heating the skillet. The beans are already cooked; rinse and drain canned beans before measuring.",
+          "Six portions is the original serving plan. Check actual skillet capacity for all supplies and divide the full oil, seasonings, sauce and optional cheese proportionally if using more pans."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The sauce bubbles steadily, squash is tender and representative meat portions reach their specified endpoint.",
+            "why": "Ground turkey needs 165°F, while ground beef uses 160°F; sauce bubbles alone do not measure meat temperature."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Tortilla strips fall apart before the skillet is ready",
+            "cause": "Forceful stirring or prolonged cooking after they have softened.",
+            "fix": "Stir gently once the strips are added and serve when the vegetables and meat have finished; strips already dissolved cannot be restored."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Ground beef",
+            "alternative": "Ground turkey",
+            "effect": "Keep the full measured amount and cook to 165°F rather than the beef endpoint; do not treat the same clock as proof."
+          },
+          {
+            "ingredient": "Optional cheese",
+            "alternative": "Omit it",
+            "effect": "The full enchilada sauce and tortilla base remains; the topping is less creamy."
+          }
+        ],
+        "timing": "The inherited 30-minute plan includes about 15 minutes preparation and 15 minutes stovetop cooking. Onion/meat cooking precedes the 4–5-minute squash and approximately four-minute sauce first checks. Pan loads, vegetable size and meat temperature can extend this plan.",
+        "storage": "Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout. Tortilla strips soften further during storage; reheat the mixture evenly before adding a fresh garnish.",
+        "sources": [
+          {
+            "title": "Clean Food Crush — Chopped Enchilada Skillet",
+            "url": "https://cleanfoodcrush.com/chopped-enchilada-skillet/"
+          },
+          {
+            "title": "FDA ground-meat temperatures and handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTortilla strips soften into the enchilada sauce while the vegetables keep some texture. Break up the meat finely and bring the finished mixture to a steady simmer before adding the cheese.\n\n## Directions\n\n1. **Cook:** Heat oil in large skillet on medium; add onion & beef. Saute until meat is almost done, then add both squash – cook another 4-5 minutes.\n\n2. **Continue:** Add spices, fresh corn, beans, tortilla strips, and enchilada sauce. While gently stirring, let heat to a nice bubbly consistency – about 4 more minutes. Cook ground beef to 160°F / 71°C or ground turkey to 165°F / 74°C before serving.\n\n3. **Continue:** Top with cheese & cilantro/green onions if desired.\n",
+    "after": "\n## Chef's Note\n\nTortilla strips soften into the enchilada sauce while the summer squash keeps some texture. Break up the meat finely, then stir gently once the strips are added so they remain recognizable. The optional cheese finishes the hot skillet without changing its full sauce and vegetable base.\n\n## Directions\n\n1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "PA18-E01",
+      "title": "PA18-E01",
+      "rationale": "Preserve all sixteen supplies/full2tsp oil/12oz sauce/optional½cup cheese/source6portion plan. Author every destination with drained cooked-bean state, main spice stage intact and actual stirring/capacity/tenderness checks. Preserve e300/9fa groundbeef160/groundturkey165 endpoint; raw ground texture and bubbles are not substituted for measurement. Remove manufacturer endorsement without losing sprouted-corn property.",
+      "confidence": "high quantity and category conservation; moderate pan capacity/time",
+      "applicableSources": [
+        "exact bound450/b7/045",
+        "https://cleanfoodcrush.com/chopped-enchilada-skillet/",
+        "9fa/e300 exact reintroduction/repair diffs",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "servings", "content", "learning"],
+      "questions": [
+        "Actual enchilada sauce label ounces (no mass-volume conversion supplied), tortilla product, skillet load and serving size?"
+      ]
+    },
+    {
+      "id": "PA18-E02",
+      "title": "PA18-E02",
+      "rationale": "Remove originCleanfoodcrush.com, a publisher label rather than a country, while retaining identical source credit/link and Mexican style. Add recipe-specific timing/storage teaching without importing modern publisher21minute plan into inherited30minute current.",
+      "confidence": "high",
+      "applicableSources": [
+        "e300 actual metadata diff",
+        "https://cleanfoodcrush.com/chopped-enchilada-skillet/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "docs/RECIPE_STANDARD.md"
+      ],
+      "exactBeforeAfterReferences": ["origin", "learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Enchilada%20Skillet.html",
+    "introductionScope": "Exact archive-joined original name locates actual earlier Git HTML; original bytes hashed, cooking retained in bound cooking JSON",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact native matches current main sixteen supplies; actual Jan3df3784 temporarily deletes this file while creating distinctSuizas. Oct5 9fa/e300 restores native stableidentity with species-specific endpoint. No replacement or recipe merging.",
+    "Actual primary currently lists21-minute total; inherited current30-minute plan retained and qualified. Publisher/name in origin field is not a country; source credit and Mexican style preserved."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 tsp avocado, or olive oil",
+        "index": 0,
+        "preparation": "oil",
+        "destination": "step1pan",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 yellow onion, diced",
+        "index": 1,
+        "preparation": "diced",
+        "destination": "step1withmeat",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 lb ground grass fed beef, or turkey",
+        "index": 2,
+        "preparation": "rawgroundbeefORturkey",
+        "destination": "step1nearlydone→2speciesendpoint",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 medium yellow squash, chopped",
+        "index": 3,
+        "preparation": "chopped",
+        "destination": "step1afternearlydonemeat",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 medium zucchini, chopped",
+        "index": 4,
+        "preparation": "chopped",
+        "destination": "step1afternearlydonemeat",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 tsp ground cumin",
+        "index": 5,
+        "preparation": "ground",
+        "destination": "step2spices",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp paprika",
+        "index": 6,
+        "preparation": "powder",
+        "destination": "step2spices",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp garlic powder",
+        "index": 7,
+        "preparation": "powder",
+        "destination": "step2spices",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp sea salt",
+        "index": 8,
+        "preparation": "seasalt",
+        "destination": "step2spices",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/2 tsp fresh ground pepper",
+        "index": 9,
+        "preparation": "freshground",
+        "destination": "step2spices",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/2 cup fresh corn kernels",
+        "index": 10,
+        "preparation": "freshkernels",
+        "destination": "step2",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 cup cooked black beans, rinsed well if using canned",
+        "index": 11,
+        "preparation": "COOKED/rinseifcanned",
+        "destination": "step2; no explicitdrain",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "4 sprouted corn tortillas, sliced into strips (I love Food for Life brand)",
+        "index": 12,
+        "preparation": "sproutedcorn/strips",
+        "destination": "step2; manufacturer preference",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "12 ounces enchilada sauce – look for minimal ingredients if using store bought",
+        "index": 13,
+        "preparation": "12ounces/no conversion",
+        "destination": "step2",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1/2 cup grated mozzarella or colby jack, optional",
+        "index": 14,
+        "preparation": "gratedoptional",
+        "destination": "step3topping",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "fresh cilantro, or green onions garnish",
+        "index": 15,
+        "preparation": "genuineunmeasuredgarnish",
+        "destination": "step3ifdesired",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "id": "main.oil",
+        "key": "cooking-oil",
+        "name": "avocado or olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "cook",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.onion",
+        "key": "yellow-onion",
+        "name": "yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "cook",
+            "share": 1
+          }
+        ],
+        "plural": "yellow onions",
+        "preparation": "diced",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.meat",
+        "key": "ground-meat",
+        "name": "ground grass-fed beef or ground turkey",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "cook",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.squash",
+        "key": "yellow-squash",
+        "name": "medium yellow squash",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "squash",
+            "share": 1
+          }
+        ],
+        "plural": "medium yellow squash",
+        "preparation": "chopped",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.zucchini",
+        "key": "zucchini",
+        "name": "medium zucchini",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "squash",
+            "share": 1
+          }
+        ],
+        "plural": "medium zucchini",
+        "preparation": "chopped",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cumin",
+        "key": "cumin",
+        "name": "ground cumin",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.paprika",
+        "key": "paprika",
+        "name": "paprika",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic-powder",
+        "name": "garlic powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.salt",
+        "key": "sea-salt",
+        "name": "sea salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.pepper",
+        "key": "black-pepper",
+        "name": "freshly ground black pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.corn",
+        "key": "corn",
+        "name": "fresh corn kernels",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.beans",
+        "key": "cooked-black-beans",
+        "name": "cooked black beans",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "preparation": "rinsed and drained if canned; measure the prepared beans",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.tortillas",
+        "key": "sprouted-corn-tortilla",
+        "name": "sprouted corn tortilla",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "plural": "sprouted corn tortillas",
+        "preparation": "sliced into strips",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sauce",
+        "key": "enchilada-sauce",
+        "name": "enchilada sauce",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "uses": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cheese",
+        "key": "cheese",
+        "name": "grated mozzarella or Colby Jack",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.garnish",
+        "key": "cilantro-green-onion",
+        "name": "fresh cilantro or green onions",
+        "allowance": "as desired for garnish",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "optional": true,
+        "preparation": "washed and chopped",
+        "component": "Main recipe"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "ingredient": "2 tsp avocado, or olive oil",
+        "destination": "Full cooking oil→skillet/meat/onion",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 yellow onion, diced",
+        "destination": "Diced onion→meat/onion stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 lb ground grass fed beef, or turkey",
+        "destination": "Ground beef or turkey→nearly cook then vegetables; original time-only route has no measured endpoint",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 medium yellow squash, chopped",
+        "destination": "Chopped yellow squash→meat pan",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 medium zucchini, chopped",
+        "destination": "Chopped zucchini→meat pan",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 5,
+        "ingredient": "2 tsp ground cumin",
+        "destination": "Cumin→later seasoning/sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 tsp paprika",
+        "destination": "Paprika→later seasoning/sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tsp garlic powder",
+        "destination": "Garlic powder→later seasoning/sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 tsp sea salt",
+        "destination": "Sea salt→later seasoning/sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 9,
+        "ingredient": "1/2 tsp fresh ground pepper",
+        "destination": "Ground pepper→later seasoning/sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 10,
+        "ingredient": "1/2 cup fresh corn kernels",
+        "destination": "Fresh corn kernels→sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 11,
+        "ingredient": "1 cup cooked black beans, rinsed well if using canned",
+        "destination": "COOKED/rinsed beans→sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 12,
+        "ingredient": "4 sprouted corn tortillas, sliced into strips (I love Food for Life brand)",
+        "destination": "Sprouted tortilla strips→sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 13,
+        "ingredient": "12 ounces enchilada sauce – look for minimal ingredients if using store bought",
+        "destination": "All12ounces enchilada sauce→sauce stage",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 14,
+        "ingredient": "1/2 cup grated mozzarella or colby jack, optional",
+        "destination": "Optional full half-cup cheese→hot topping",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 15,
+        "ingredient": "fresh cilantro, or green onions garnish",
+        "destination": "Unmeasured cilantro OR green onion→garnish",
+        "methodEvidence": "privately retained evidence#directions"
+      }
+    ],
+    "nativeMethodOwned": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "8024a77fd45eb86624be57c500339191c786f8ac19c1db2451af51d30bf30714"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "f75ec6ed79233c990054fee04b4bdf1fd5567ccce20ea140d066d9cc4e8a48f2"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "beacf60446ffba301a2cbfd55ec8814140c1b0b956312d2513fc8ba7a50fdfd2"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "cook",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.oil", "main.onion", "main.meat"],
+        "cues": []
+      },
+      {
+        "step": 2,
+        "id": "squash",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.squash", "main.zucchini"],
+        "cues": []
+      },
+      {
+        "step": 3,
+        "id": "simmer",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [
+          "main.cumin",
+          "main.paprika",
+          "main.garlic",
+          "main.salt",
+          "main.pepper",
+          "main.corn",
+          "main.beans",
+          "main.tortillas",
+          "main.sauce"
+        ],
+        "cues": [
+          "The sauce bubbles steadily, squash is tender and representative meat portions reach their specified endpoint."
+        ]
+      },
+      {
+        "step": 4,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.cheese", "main.garnish"],
+        "cues": []
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "sha256": "de09e26863f46a193178d4d9ccf08a850033382f0be6fd5995bfddad8dfee1b4",
+      "fields": ["ingredients", "directions", "notes"],
+      "wholeTextRetained": true
+    }
+  },
+  "variantLedgers": [
+    {
+      "name": "Beef or turkey",
+      "supplies": "Same full1lb rawground dose plus wholelistedformula",
+      "destinations": "Currentspicestage/160beefOR165turkey; no oil/sauce reduction",
+      "status": "preserved"
+    },
+    {
+      "name": "Cheese optional",
+      "supplies": "Full½cup ORomit, genuine cilantroORgreenoniongarnish",
+      "destinations": "Cookedmixturetop",
+      "status": "preserved"
+    },
+    {
+      "name": "Distinct Suizas",
+      "supplies": "df3784 created different12tortilla/1lbpreparedchicken/½cupcream/8ozcheesecasserole; not a variant of thisnativeSkilletformula",
+      "destinations": "Separate stableidentity/source proposal;9fa restoredEnchiladaSkillet",
+      "status": "not merged"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [],
+    "incomingMeals": [],
+    "disposition": "All outgoing/contextual links retained; no composed meal acceptance inferred."
+  },
+  "ratiosYieldAndCapacity": {
+    "plan": "Source/current six-portion plan:1lb ground/2medium squash vegetables/half-cupcorn/1cookedcupbeans/4tortillas/12ozsauce/optionalhalf-cupcheese. No measured final weight or can-size conversion.",
+    "capacity": "Actual stirring headroom for all ingredients; divide full formula proportionally among pans/complete loads; no guessed skillet size."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1/2 tsp avocado or olive oil",
+        "1/4 yellow onion, diced",
+        "1/4 lb ground grass-fed beef or ground turkey",
+        "1/4 medium yellow squash, chopped",
+        "1/4 medium zucchini, chopped",
+        "1/2 tsp ground cumin",
+        "1/4 tsp paprika",
+        "1/4 tsp garlic powder",
+        "1/4 tsp sea salt",
+        "1/8 tsp freshly ground black pepper",
+        "1/8 cup fresh corn kernels",
+        "1/4 cup cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "1 sprouted corn tortilla, sliced into strips",
+        "3 oz enchilada sauce",
+        "1/8 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "1/2 tsp avocado or olive oil",
+        "1/4 yellow onion",
+        "1/4 lb ground grass-fed beef or ground turkey",
+        "1/4 medium yellow squash",
+        "1/4 medium zucchini",
+        "1/2 tsp ground cumin",
+        "1/4 tsp paprika",
+        "1/4 tsp garlic powder",
+        "1/4 tsp sea salt",
+        "1/8 tsp freshly ground black pepper",
+        "1/8 cup fresh corn kernels",
+        "1/4 cup cooked black beans",
+        "1 sprouted corn tortilla",
+        "3 oz enchilada sauce",
+        "1/8 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 tsp avocado or olive oil",
+        "1/2 yellow onion, diced",
+        "1/2 lb ground grass-fed beef or ground turkey",
+        "1/2 medium yellow squash, chopped",
+        "1/2 medium zucchini, chopped",
+        "1 tsp ground cumin",
+        "1/2 tsp paprika",
+        "1/2 tsp garlic powder",
+        "1/2 tsp sea salt",
+        "1/4 tsp freshly ground black pepper",
+        "1/4 cup fresh corn kernels",
+        "1/2 cup cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "2 sprouted corn tortillas, sliced into strips",
+        "6 oz enchilada sauce",
+        "1/4 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "1 tsp avocado or olive oil",
+        "1/2 yellow onion",
+        "1/2 lb ground grass-fed beef or ground turkey",
+        "1/2 medium yellow squash",
+        "1/2 medium zucchini",
+        "1 tsp ground cumin",
+        "1/2 tsp paprika",
+        "1/2 tsp garlic powder",
+        "1/2 tsp sea salt",
+        "1/4 tsp freshly ground black pepper",
+        "1/4 cup fresh corn kernels",
+        "1/2 cup cooked black beans",
+        "2 sprouted corn tortillas",
+        "6 oz enchilada sauce",
+        "1/4 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 tsp avocado or olive oil",
+        "1 yellow onion, diced",
+        "1 lb ground grass-fed beef or ground turkey",
+        "1 medium yellow squash, chopped",
+        "1 medium zucchini, chopped",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "1/2 tsp freshly ground black pepper",
+        "1/2 cup fresh corn kernels",
+        "1 cup cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "4 sprouted corn tortillas, sliced into strips",
+        "12 oz enchilada sauce",
+        "1/2 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "2 tsp avocado or olive oil",
+        "1 yellow onion",
+        "1 lb ground grass-fed beef or ground turkey",
+        "1 medium yellow squash",
+        "1 medium zucchini",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "1/2 tsp freshly ground black pepper",
+        "1/2 cup fresh corn kernels",
+        "1 cup cooked black beans",
+        "4 sprouted corn tortillas",
+        "12 oz enchilada sauce",
+        "1/2 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "3 tsp avocado or olive oil",
+        "1 1/2 yellow onions, diced",
+        "1 1/2 lb ground grass-fed beef or ground turkey",
+        "1 1/2 medium yellow squash, chopped",
+        "1 1/2 medium zucchini, chopped",
+        "3 tsp ground cumin",
+        "1 1/2 tsp paprika",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp sea salt",
+        "3/4 tsp freshly ground black pepper",
+        "3/4 cup fresh corn kernels",
+        "1 1/2 cups cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "6 sprouted corn tortillas, sliced into strips",
+        "18 oz enchilada sauce",
+        "3/4 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "9 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "3 tsp avocado or olive oil",
+        "1 1/2 yellow onions",
+        "1 1/2 lb ground grass-fed beef or ground turkey",
+        "1 1/2 medium yellow squash",
+        "1 1/2 medium zucchini",
+        "3 tsp ground cumin",
+        "1 1/2 tsp paprika",
+        "1 1/2 tsp garlic powder",
+        "1 1/2 tsp sea salt",
+        "3/4 tsp freshly ground black pepper",
+        "3/4 cup fresh corn kernels",
+        "1 1/2 cups cooked black beans",
+        "6 sprouted corn tortillas",
+        "18 oz enchilada sauce",
+        "3/4 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 tsp avocado or olive oil",
+        "2 yellow onions, diced",
+        "2 lb ground grass-fed beef or ground turkey",
+        "2 medium yellow squash, chopped",
+        "2 medium zucchini, chopped",
+        "4 tsp ground cumin",
+        "2 tsp paprika",
+        "2 tsp garlic powder",
+        "2 tsp sea salt",
+        "1 tsp freshly ground black pepper",
+        "1 cup fresh corn kernels",
+        "2 cups cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "8 sprouted corn tortillas, sliced into strips",
+        "24 oz enchilada sauce",
+        "1 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "4 tsp avocado or olive oil",
+        "2 yellow onions",
+        "2 lb ground grass-fed beef or ground turkey",
+        "2 medium yellow squash",
+        "2 medium zucchini",
+        "4 tsp ground cumin",
+        "2 tsp paprika",
+        "2 tsp garlic powder",
+        "2 tsp sea salt",
+        "1 tsp freshly ground black pepper",
+        "1 cup fresh corn kernels",
+        "2 cups cooked black beans",
+        "8 sprouted corn tortillas",
+        "24 oz enchilada sauce",
+        "1 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "6 tsp avocado or olive oil",
+        "3 yellow onions, diced",
+        "3 lb ground grass-fed beef or ground turkey",
+        "3 medium yellow squash, chopped",
+        "3 medium zucchini, chopped",
+        "6 tsp ground cumin",
+        "3 tsp paprika",
+        "3 tsp garlic powder",
+        "3 tsp sea salt",
+        "1 1/2 tsp freshly ground black pepper",
+        "1 1/2 cups fresh corn kernels",
+        "3 cups cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "12 sprouted corn tortillas, sliced into strips",
+        "36 oz enchilada sauce",
+        "1 1/2 cups grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "18 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "6 tsp avocado or olive oil",
+        "3 yellow onions",
+        "3 lb ground grass-fed beef or ground turkey",
+        "3 medium yellow squash",
+        "3 medium zucchini",
+        "6 tsp ground cumin",
+        "3 tsp paprika",
+        "3 tsp garlic powder",
+        "3 tsp sea salt",
+        "1 1/2 tsp freshly ground black pepper",
+        "1 1/2 cups fresh corn kernels",
+        "3 cups cooked black beans",
+        "12 sprouted corn tortillas",
+        "36 oz enchilada sauce",
+        "1 1/2 cups grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 tsp avocado or olive oil",
+        "1 yellow onion, diced",
+        "1 lb ground grass-fed beef or ground turkey",
+        "1 medium yellow squash, chopped",
+        "1 medium zucchini, chopped",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "1/2 tsp freshly ground black pepper",
+        "1/2 cup fresh corn kernels",
+        "1 cup cooked black beans, rinsed and drained if canned; measure the prepared beans",
+        "4 sprouted corn tortillas, sliced into strips",
+        "12 oz enchilada sauce",
+        "1/2 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, washed and chopped, optional"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.\n2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.\n3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.\n4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.",
+      "shopping": [
+        "2 tsp avocado or olive oil",
+        "1 yellow onion",
+        "1 lb ground grass-fed beef or ground turkey",
+        "1 medium yellow squash",
+        "1 medium zucchini",
+        "2 tsp ground cumin",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "1/2 tsp freshly ground black pepper",
+        "1/2 cup fresh corn kernels",
+        "1 cup cooked black beans",
+        "4 sprouted corn tortillas",
+        "12 oz enchilada sauce",
+        "1/2 cup grated mozzarella or Colby Jack, optional",
+        "fresh cilantro or green onions, as desired for garnish, optional"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    }
+  ],
+  "preservedPriorRepairs": {
+    "commits": [
+      "9faedba59b21bb230dcddd530489dc6e86d51bde",
+      "e300 source repair retained in followed diff"
+    ],
+    "preserved": "Groundbeef160/groundturkey165 and full native2tsp oil/12oz sauce/optionalhalf-cup cheese kept; distinct Suizas identity not substituted.",
+    "assertions": ["160°F / 71°C", "165°F / 74°C", "12 oz enchilada sauce"]
+  },
+  "remainingQuestions": [
+    "Actual enchilada sauce label ounces (no mass-volume conversion supplied), tortilla product, skillet load and serving size?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

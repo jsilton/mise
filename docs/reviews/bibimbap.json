@@ -1,0 +1,1226 @@
+{
+  "slug": "bibimbap",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "f4ef281f154aa7d1a253cfd4ed0988050810d3a3a3d0c1bfef5bb21813bc89e3",
+  "acceptedSourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Korea",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 20 min to assemble with components ready; component preparation adds time"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 cups Cooked Rice (See note)",
+        "4 Eggs, fried sunny-side up",
+        "2 tbsp Gochujang",
+        "1 tbsp Toasted Sesame Oil",
+        "1 tbsp Sugar",
+        "1 tbsp Water",
+        "1 tsp Rice Vinegar"
+      ],
+      "after": [
+        "--- Main recipe ---",
+        "4 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "4 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "2 tbsp gochujang",
+        "1 tbsp toasted sesame oil",
+        "1 tbsp sugar",
+        "1 tbsp water",
+        "1 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 115,
+        "protein": 6,
+        "carbs": 3.5,
+        "fat": 8.5,
+        "fiber": 0,
+        "sugar": 3.5,
+        "sodium": 100
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Main recipe",
+            "ingredients": [
+              {
+                "id": "rice",
+                "key": "cooked-rice",
+                "name": "cooked rice",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "rice",
+                    "share": 1
+                  }
+                ],
+                "preparation": "freshly cooked and hot, or properly chilled then reheated to 165°F throughout"
+              },
+              {
+                "id": "eggs",
+                "key": "fried-egg",
+                "name": "fried egg",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "fried eggs",
+                "preparation": "freshly prepared; firm white and yolk for the main route"
+              },
+              {
+                "id": "gochujang",
+                "key": "gochujang",
+                "name": "gochujang",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "sesame-oil",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "role": "ingredient"
+              },
+              {
+                "id": "vinegar",
+                "key": "rice-vinegar",
+                "name": "rice vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "meat",
+                "key": "prepared-bulgogi",
+                "name": "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye)",
+                "allowance": "the serving amount desired for the bowls, already fully cooked",
+                "uses": [
+                  {
+                    "step": "toppings",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cucumbers",
+                "key": "prepared-cucumbers",
+                "name": "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers)",
+                "allowance": "the serving amount desired for the bowls",
+                "uses": [
+                  {
+                    "step": "toppings",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spinach",
+                "key": "prepared-spinach",
+                "name": "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad)",
+                "allowance": "the serving amount desired for the bowls",
+                "uses": [
+                  {
+                    "step": "toppings",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sprouts",
+                "key": "prepared-sprouts",
+                "name": "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts)",
+                "allowance": "the serving amount desired for the bowls, thoroughly cooked",
+                "uses": [
+                  {
+                    "step": "toppings",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Mix sauce",
+            "text": "Mix {{ingredients}} in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan."
+          },
+          {
+            "id": "rice",
+            "title": "Base",
+            "text": "Divide all {{ingredients}} among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout."
+          },
+          {
+            "id": "toppings",
+            "title": "Arrange components",
+            "text": "Arrange {{ingredients}} in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking."
+          },
+          {
+            "id": "egg",
+            "title": "Add eggs",
+            "text": "Place {{ingredients}} on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs."
+          },
+          {
+            "id": "finish",
+            "title": "Sauce and mix",
+            "text": "Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Assemble separately seasoned components and mix their sauce explicitly",
+        "outcome": "Hot rice and cooked meat, distinct banchan and egg portions, with the full mixed gochujang sauce distributed among the bowls.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep cooked meat, rice and prepared banchan refrigerated at 40°F / 4°C or below until reheating or assembly. Keep the cold banchan apart from any raw-meat work for the separate ground-beef variation.",
+          "Cook the rice, meat and banchan first, choosing the serving amounts before assembling. Measure the rice after cooking; its cooking time is separate from this assembly plan.",
+          "The listed eggs are a prepared ingredient. Use firm whites and yolks for ordinary eggs, or the separate pasteurized soft-yolk option; have enough bowls and cooking space for the portions being served."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Gochujang, oil, sugar, water and vinegar are mixed into one sauce.",
+            "why": "Mixing disperses the sugar and oil before the sauce is divided among the bowls."
+          },
+          {
+            "step": 5,
+            "cue": "Each bowl has sauce, rice and chosen toppings before the final mix.",
+            "why": "Distribution follows the actual portions; the component recipe yields do not automatically determine topping amounts."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Assembly takes much longer than twenty minutes",
+            "cause": "Rice, banchan, meat or eggs are still being made from scratch.",
+            "fix": "Prepare the components first or include their complete cooking and cooling schedules. The ground-beef variation has its own marinade and pan loads."
+          }
+        ],
+        "timing": "The inherited 10-minute preparation and 10-minute cooking plan applies to assembly with rice, meat and banchan ready; it is not a from-scratch meal clock. Frying eggs or reheating components adds work. The ground-beef variation requires about 30 minutes refrigerated marination with vegetables prepared in parallel, then its separate pan cooking; larger batches add pan loads.",
+        "storage": "Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout. Store cold banchan separately and follow the shortest remaining component limit. Freshly fried eggs and assembled bowls have better texture when served immediately.",
+        "sources": [
+          {
+            "title": "My Korean Kitchen — Bibimbap",
+            "url": "https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/"
+          },
+          {
+            "title": "FDA egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA produce and sprouts",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBibimbap has roots in Korean royal court cuisine but became a peasant dish in the Joseon Dynasty, when farmers would mix leftover vegetables and rice in a bowl. The name means 'mixed rice,' and it reflects the Korean philosophy of balance - multiple flavors and textures coming together in harmony. In Jeonju, the dish is so revered there's an annual Bibimbap Festival. The magic moment is when you break the runny egg yolk and stir everything together, creating a creamy sauce that coats the rice.\n\n## Critical Components\n\nThis dish relies on having several prepared sides (\"Banchan\") ready to assemble. Use these recipes or store-bought alternatives:\n\n- **The Meat:** [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye) (Bulgogi)\n- **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim)\n- **The Green:** [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad) (Sigeumchi Namul)\n- **The Sprout:** [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) (Kongnamul)\n- **The Rice:** [Short Grain Rice](/mise/recipes/steamed-white-rice) (must be hot!)\n\n## Directions\n\n1.  **Prep:** Have all your component recipes ready ([Ribeye](/mise/recipes/marinated-korean-ribeye), [Cucumbers](/mise/recipes/korean-pickled-cucumbers), etc.).\n2.  **Base:** Scoop 1 cup of hot rice into each bowl. (Tip: For crispy rice, use the \"Cast Iron Skillet Hack\" mentioned in the [Ribeye](/mise/recipes/marinated-korean-ribeye) recipe).\n3.  **The Clock:** Arrange the prepared vegetables and meat in distinct piles around the perimeter of the bowl, moving clockwise.\n4.  **The Crown:** Place the fried egg in the center.\n5.  **Sauce:** Drizzle the mixed Gochujang sauce over the egg.\n6.  **Serve:** Mix vigorously before eating.\n",
+    "after": "\n## Chef's Note\n\nBibimbap means mixed rice. Sue Pressey of My Korean Kitchen describes her mother's bowls made from prepared vegetable side dishes, and this version keeps that component approach: hot rice, separately seasoned banchan, cooked meat, egg and gochujang sauce are mixed just before eating.\n\n## Directions\n\n1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.\n\n## Critical Components\n\nUse these prepared recipes or suitable store-bought alternatives in the serving amounts you want. Their complete batches are not automatically the amounts needed here.\n\n- **The Meat:** [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye) (Bulgogi)\n- **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim)\n- **The Green:** [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad) (Sigeumchi Namul)\n- **The Sprout:** [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) (Kongnamul)\n- **The Rice:** [Short Grain Rice](/mise/recipes/steamed-white-rice), cooked before assembly\n\n## Soft-yolk and crisp-rice options\n\nFor a soft fried yolk that mixes into the rice, use shell eggs labeled as pasteurized, or a suitable pasteurized egg product, and follow its directions. Ordinary shell eggs use the firm-white-and-yolk main route. Cook thoroughly for diners especially vulnerable to foodborne illness.\n\nFor a crisp rice bottom, the original four-cup cooked-rice batch uses a separate additional 1 tbsp toasted sesame oil for the rice pan; scale that supply proportionally. Heat a cast-iron skillet over medium-high heat, add that rice oil, then press the hot cooked rice into an even layer. Begin checking after about 5 minutes for a golden, crackly bottom and assemble on top. Use enough pans to maintain an even layer rather than packing a scaled batch deeper; timing does not multiply. This additional pan oil is separate from the full listed sesame oil in the main sauce.\n\n## Ground-beef and sautéed-vegetable variation\n\nThis separate My Korean Kitchen version plans three to four portions. Its original batch uses 100 g ground beef with 1 tbsp soy sauce, 1 tbsp sesame oil, 1 tsp brown sugar and ¼ tsp minced garlic; 250 g mildly seasoned spinach and 350 g mildly seasoned bean sprouts; 100 g sliced shiitake mushrooms; 120 g peeled, julienned carrots; ½ tsp fine sea salt divided equally between mushrooms and carrots; 3 cups cooked rice; and 3 fried eggs, or 4 if dividing into four bowls. It also needs cooking oil as required separately for the meat, mushrooms, carrots and eggs, and seasoned seaweed strips as desired. Its sauce uses 2 tbsp gochujang, 1 tbsp sesame oil, 1 tbsp sugar, 1 tbsp water, 1 tbsp toasted sesame seeds, 1 tsp apple vinegar and 1 tsp minced garlic. This replaces the component main and its sauce; scale every supply of this variation proportionally, including both separately owned sesame-oil and garlic amounts.\n\nMix the meat with all its soy sauce, sesame oil, brown sugar and garlic, and refrigerate for about 30 minutes while preparing the vegetables. Mix all seven sauce ingredients in a clean bowl. Prepare the spinach and thoroughly cooked bean sprouts using the linked recipes, taking the listed prepared amounts for these bowls; any leftover component batch is separate. Sauté the carrots with their cooking-oil allowance and half the measured fine salt over medium-high heat, checking after 2–3 minutes for tenderness. Cook the mushrooms separately with their own oil allowance and the other half of the fine salt, checking after 2–3 minutes until cooked. Cook the marinated ground beef in its own oil allowance, breaking it up and checking after 3–5 minutes; continue until representative meat portions reach 160°F / 71°C, using clean serving tools. Make the eggs with their separate oil allowance, using the main firm endpoint or the pasteurized soft-yolk option. Divide all the hot rice, cooked meat, prepared vegetables, eggs, mixed sauce and seaweed among the bowls and mix before eating. This preparation includes the refrigerated marinade and several pan loads; allow substantially more time than the twenty-minute component assembly plan.\n"
+  },
+  "findings": [
+    {
+      "id": "PA18-I01",
+      "title": "PA18-I01",
+      "rationale": "Mix all five current sauce supplies explicitly before use, preserve4cookedcups/4eggs and current linked prepared-banchan/ribeye route without guessing amounts. Add genuine prepared serving allowances, separate component clocks and distribute by portions. Current stale CastIronHack reference points to a ribeye page that contains no such rice method; preserve the actual6565 rice1Tbsp oil/5minute firstcheck as a complete optional separate rice route.",
+      "confidence": "high ingredient/destination lineage; moderate pan capacity and actual clock",
+      "applicableSources": [
+        "current source",
+        "12816aa2/b8b63 current component refactors",
+        "6565 exact optional rice method",
+        "actual ribeye source",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "content",
+        "learning",
+        "totalTime"
+      ],
+      "questions": [
+        "Desired prepared meat/banchan amounts and actual crisp-rice pan loads? Twenty minutes covers prepared-component assembly, not linked from-scratch cooking."
+      ]
+    },
+    {
+      "id": "PA18-I02",
+      "title": "PA18-I02",
+      "rationale": "Ordinary fried eggs use FDA firmwhite/yolk main; retain softyolk option with pasteurized eggs, not an absolute risk guarantee. Prepared sprouts are thoroughly cooked; prior reviewed linked165 handling remains unmodified. Rice and meat reheating use actual uniformly checked165 rather than counter warming.",
+      "confidence": "high primary categories; moderate actual thin-food/prepared-component measurement",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "current prepared-component links"
+      ],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "content", "learning"],
+      "questions": [
+        "Actual egg pasteurization label and component remaining refrigerator ages? Linked recipes are referenced, not all recertified."
+      ]
+    },
+    {
+      "id": "PA18-I03",
+      "title": "PA18-I03",
+      "rationale": "Preserve complete exact native ground100g/3cups/3or4egg/250spinach/350sprouts/100shiitake/120carrot plus meat marinade and seven-part sauce as exclusive variation, including both sesame oils, both garlic doses, all1Tbsp sauce seeds and fine-salt½ split½½. Modern publisher agrees, but6565 enlarged1lb ground/20%fat/1bag sprouts route is a distinct older rewrite with unresolved bag size/vegetable-oil allocation; it is retained exactly privately and held rather than blended into source or current main.",
+      "confidence": "high exact source formula; moderate pan timing",
+      "applicableSources": [
+        "exact bound450/b7/045",
+        "6565 then128435 actual diffs",
+        "https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "The larger6565 ground-lamb/beef option lacks a defined sprout-bag size and clearly owned per-vegetable seasoning quantities; does it need a separate developed recipe?"
+      ]
+    },
+    {
+      "id": "PA18-I04",
+      "title": "PA18-I04",
+      "rationale": "Retain Korean culture, name meaning and Sue Pressey mother/banchan context actually present in native/b7/publisher. Replace unsupported c1b425 royalcourt→Joseonpeasant/Jeonju claims and omit fd4 unsupported birthplace field for this component adaptation; retain Korean cuisine. Remove automatic incomplete nutrition, not a nutrient recalculation.",
+      "confidence": "high provenance scope",
+      "applicableSources": [
+        "c1b425/fd4 actual diffs",
+        "exact native/b7",
+        "https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/",
+        "docs/RECIPE_STANDARD.md"
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Bibimbap.html",
+    "introductionScope": "Exact archive-joined original name locates actual earlier Git HTML; original bytes hashed, cooking retained in bound cooking JSON",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact native ground100g/3cups/3or4eggs/seven-part sauce vs6565 larger1lb ground route vs12816aa2 current4cups/4eggs/prepared ribeye/banchan/five-part sauce. All three distinguished, larger incomplete rewrite privately held. No inferred household rejection from bulk edits.",
+    "Current five listed sauce supplies have no explicit mixing step; old current rice hack points to absent ribeye method. Native sauce seeds/garlic not silently added to current sauce. FDA ordinary-egg firm endpoint and pasteurized soft option are editorial application, not original author safety claims.",
+    "Actual publisher supports Korean name/mother context, not the particular current adaptation birthplace or royalcourt/Jeonju claims."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "4 cups Cooked Rice (See note)",
+        "index": 0,
+        "preparation": "COOKED4cups",
+        "destination": "step2 literal1cup per bowl",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "4 Eggs, fried sunny-side up",
+        "index": 1,
+        "preparation": "alreadyFRIEDsunny4",
+        "destination": "step4center; nofirm/pasteurized choice",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "2 tbsp Gochujang",
+        "index": 2,
+        "preparation": "paste",
+        "destination": "step5 mixedsauce referenced but mixing never instructed",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tbsp Toasted Sesame Oil",
+        "index": 3,
+        "preparation": "toastedoil",
+        "destination": "step5 implied mixedsauce; no mixing destination",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tbsp Sugar",
+        "index": 4,
+        "preparation": "sugar",
+        "destination": "step5 implied mixedsauce",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tbsp Water",
+        "index": 5,
+        "preparation": "water",
+        "destination": "step5 implied mixedsauce",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      },
+      {
+        "ingredient": "1 tsp Rice Vinegar",
+        "index": 6,
+        "preparation": "ricevinegar",
+        "destination": "step5 implied mixedsauce",
+        "scope": "Actual frozen cooking; includes actual omissions/errors, not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [
+      "Preparedribeye/cucumbers/spinach/sprouts in CriticalComponents, quantities not provided",
+      "Ricehackref atstep2 directs to absent linked method"
+    ],
+    "proposed": [
+      {
+        "id": "main.rice",
+        "key": "cooked-rice",
+        "name": "cooked rice",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "rice",
+            "share": 1
+          }
+        ],
+        "preparation": "freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.eggs",
+        "key": "fried-egg",
+        "name": "fried egg",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "egg",
+            "share": 1
+          }
+        ],
+        "plural": "fried eggs",
+        "preparation": "freshly prepared; firm white and yolk for the main route",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.gochujang",
+        "key": "gochujang",
+        "name": "gochujang",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sesame",
+        "key": "sesame-oil",
+        "name": "toasted sesame oil",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sugar",
+        "key": "sugar",
+        "name": "sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.water",
+        "key": "water",
+        "name": "water",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "role": "ingredient",
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.vinegar",
+        "key": "rice-vinegar",
+        "name": "rice vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.meat",
+        "key": "prepared-bulgogi",
+        "name": "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye)",
+        "allowance": "the serving amount desired for the bowls, already fully cooked",
+        "uses": [
+          {
+            "step": "toppings",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.cucumbers",
+        "key": "prepared-cucumbers",
+        "name": "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers)",
+        "allowance": "the serving amount desired for the bowls",
+        "uses": [
+          {
+            "step": "toppings",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.spinach",
+        "key": "prepared-spinach",
+        "name": "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad)",
+        "allowance": "the serving amount desired for the bowls",
+        "uses": [
+          {
+            "step": "toppings",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      },
+      {
+        "id": "main.sprouts",
+        "key": "prepared-sprouts",
+        "name": "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts)",
+        "allowance": "the serving amount desired for the bowls, thoroughly cooked",
+        "uses": [
+          {
+            "step": "toppings",
+            "share": 1
+          }
+        ],
+        "component": "Main recipe"
+      }
+    ],
+    "native": [
+      {
+        "index": 0,
+        "ingredient": "100 g beef mince (3.5 ounces)",
+        "destination": "Raw mince→all four meat-marinade supplies/30min→own cooking oil/pan",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 Tbsp soy sauce",
+        "destination": "Soy sauce→meat marinade",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 Tbsp sesame oil",
+        "destination": "Sesame oil→meat marinade, separate sauce oil",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 tsp sugar - I used brown sugar",
+        "destination": "Brown sugar→meat marinade",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/4 tsp minced garlic",
+        "destination": "Minced garlic→meat marinade, separate sauce garlic",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 5,
+        "ingredient": "Vegetables and other",
+        "destination": "Divider only, not an ingredient",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 6,
+        "ingredient": "250 g spinach (mildly seasoned) (0.6 pounds)",
+        "destination": "Prepared mildly seasoned spinach→bowl, linked preparation",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 7,
+        "ingredient": "350 g bean sprouts – (mildly seasoned) 0.8 pounds",
+        "destination": "Prepared mildly seasoned sprouts→bowl, linked preparation",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 8,
+        "ingredient": "100 g shiitake mushroom (3.5 ounces)",
+        "destination": "Cleaned/sliced mushrooms→own cooking oil/half fine salt",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 9,
+        "ingredient": "120 g carrots (4.2 ounces, 1 small)",
+        "destination": "Peeled/julienned carrots→own cooking oil/half fine salt",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 10,
+        "ingredient": "1/2 tsp fine sea salt (1/4 tsp each will be used when cooking shiitake mushroom and carrots)",
+        "destination": "Half tsp fine sea salt: half mushrooms/half carrots",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 11,
+        "ingredient": "3 cups steamed rice (3 to 4 serving portions )",
+        "destination": "COOKED rice→bowls",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 12,
+        "ingredient": "3 eggs (3 or 4 depending on the serving portion)",
+        "destination": "Three or four fried eggs→bowls; source preference not ordinary runny-egg safety approval",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 13,
+        "ingredient": "2 Tbsp gochujang",
+        "destination": "Gochujang→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 14,
+        "ingredient": "1 Tbsp sesame oil",
+        "destination": "Sesame oil→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 15,
+        "ingredient": "1 Tbsp sugar - I used raw sugar",
+        "destination": "Raw sugar→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 16,
+        "ingredient": "1 Tbsp water",
+        "destination": "Water→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 17,
+        "ingredient": "1 Tbsp toasted sesame seeds",
+        "destination": "Toasted seeds→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 18,
+        "ingredient": "1 tsp vinegar - I used apple vinegar",
+        "destination": "Apple vinegar→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      },
+      {
+        "index": 19,
+        "ingredient": "1 tsp minced garlic",
+        "destination": "Minced garlic→mixed sauce",
+        "methodEvidence": "privately retained evidence#directions"
+      }
+    ],
+    "nativeMethodOwned": [
+      "Cooking oil separately for meat,carrots,mushrooms,eggs",
+      "Seasonedseaweed service strips"
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "4cd746386d7f825dce3ace5a0631fd2f71142e55fc6cd95a30a43af720b1b584"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "3a480b89949d3513ee9a10a0fe720a40a49cd1f0fc27fc30644b3aa470c81873"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "94904a932f51049a62233ab8081dbbbd3237a0ca7ca1c78fd4ed8dbbe6fc4caa"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "78307aec9000e83c0fb137aa81a2a7194fb2d3b44f7b10454d0a903eaac691df"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "03f2de3af4f93afb24f742cacb49e6b8a17686858a768c849aacd5e5ea7d38c0"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "9b1c0d4dfcf3ccc75ea975d6ccc17a8028d08b6fceb2821727ae0de16fa40c2c"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "sauce",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": [
+          "main.gochujang",
+          "main.sesame",
+          "main.sugar",
+          "main.water",
+          "main.vinegar"
+        ],
+        "cues": ["Gochujang, oil, sugar, water and vinegar are mixed into one sauce."]
+      },
+      {
+        "step": 2,
+        "id": "rice",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.rice"],
+        "cues": []
+      },
+      {
+        "step": 3,
+        "id": "toppings",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["main.meat", "main.cucumbers", "main.spinach", "main.sprouts"],
+        "cues": []
+      },
+      {
+        "step": 4,
+        "id": "egg",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.eggs"],
+        "cues": []
+      },
+      {
+        "step": 5,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": [],
+        "cues": ["Each bowl has sauce, rice and chosen toppings before the final mix."]
+      }
+    ],
+    "native": {
+      "path": "privately retained evidence",
+      "sha256": "14cae924322c7fcfb3aa8285d82eb9c660779a3196a0ffa0e832d852ec0bcffe",
+      "fields": ["ingredients", "directions", "notes"],
+      "wholeTextRetained": true
+    }
+  },
+  "variantLedgers": [
+    {
+      "name": "Current component assembly",
+      "supplies": "4COOKEDrice/4preparedeggs; sauce2gochujang/1sesameoil/1sugar/1water/1tspvinegar; genuine unmeasured preparedtoppings",
+      "destinations": "Mixfivepartsauce→allrice/toppings/eggs/sauce distributed→mix",
+      "status": "preserved"
+    },
+    {
+      "name": "Native ground-beef route",
+      "supplies": "All exact native listed ingredients,3cupsrice/3or4eggs/source100gbeef and sevenpartsauce; separate genuinefourpancooking oils/seaweed",
+      "destinations": "30mincoldmarinade all5meatingredients→ground160; salt½tsp split½carrots+½mushrooms; cookedspinach/sprouts; fullsauce includes1Tbspseeds/1tspgarlic; eggmainfirm orpasteurizedsoft",
+      "status": "complete separate proposed variation",
+      "publicReference": "content#Ground-beef and sautéed-vegetable variation",
+      "scaling": "Original3–4portion quantities scale proportionally, choose3or4egg batch, no forced4cupcurrentratio"
+    },
+    {
+      "name": "Crisp rice",
+      "supplies": "Main cookedrice plus additional1Tbsp sesameoil for original4cup batch, proportionallyscaled; mainfull1Tbsp sauce oil unchanged",
+      "destinations": "Alladditionaloilricepan→pressedrice/5minfirstcheck",
+      "status": "complete separate proposed option",
+      "publicReference": "content#Soft-yolk and crisp-rice options"
+    },
+    {
+      "name": "Soft yolk",
+      "supplies": "Sameeggs, pasteurized shell/product label; no new quantity",
+      "destinations": "Prepareeggsbylabel, softyolkoptional; ordinaryeggsfirm",
+      "status": "preserved with FDA applicable constraint"
+    },
+    {
+      "name": "6565 larger ground-lamb/beef recipe",
+      "supplies": "1lb20%ground/1bunchspinach/1unsizedbagsprouts/8ozshiitake/2largecarrot/pervegetable1tspoil+1tspgarlic; sourcepanmethod has ambiguity",
+      "destinations": "Exactwhole6565 cooking retained in followed evidence; bag size and per-vegetable versus sauce/pan oil ownership unresolved; one-minute sprout blanch not endorsed",
+      "status": "held separate archival option, no inferred later household rejection"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "korean-pickled-cucumbers",
+        "path": "src/content/recipes/korean-pickled-cucumbers.md",
+        "sha256": "00cd306aab3fac7924fd92d17646e50001e4e80704b93c14f0e68824abe8d90b",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
+        "path": "src/content/recipes/fresh-cabbage-cucumber-and-radish-kimchi.md",
+        "sha256": "ded5b4ef731066c810febb99df17ea4cd2296acd909fd0740e5d8f12658f2275",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "korean-mung-bean-sprouts-salad",
+        "path": "src/content/recipes/korean-mung-bean-sprouts-salad.md",
+        "sha256": "71a99883e026a03944d6fe857d1cfe847760165489016bcfe557dec867e2e124",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "marinated-korean-ribeye",
+        "path": "src/content/recipes/marinated-korean-ribeye.md",
+        "sha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "simply-seasoned-korean-spinach-salad",
+        "path": "src/content/recipes/simply-seasoned-korean-spinach-salad.md",
+        "sha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "seasoned-bean-sprouts",
+        "path": "src/content/recipes/seasoned-bean-sprouts.md",
+        "sha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      },
+      {
+        "slug": "steamed-white-rice",
+        "path": "src/content/recipes/steamed-white-rice.md",
+        "sha256": "641bddc00d7c474a000663518f252d938acf17fb4b1b3fb771a1df664a8e29c9",
+        "scope": "Reference exists; not whole linked-recipe acceptance"
+      }
+    ],
+    "incomingMeals": [
+      {
+        "path": "src/content/meals/bibimbap-night.md",
+        "sha256": "d3ed71c7d15fb08f525cb35e8e26ee6726fc6303dcc6faf106c190eb60a6a451"
+      }
+    ],
+    "disposition": "Bibimbap Night remains held: component meat is referenced in assembly without a measured serving allocation; meal runny-yolk instruction lacks pasteurized-label condition, timing omits from-scratch banchan, and shared component amounts are unresolved. Not meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "plan": "Current4cups COOKEDrice/4eggs/fourplannedportions; linked topping doses genuine unmeasured serving supplies. Sauce unchanged2Tbsp gochujang/1Tbsp sesame oil/1Tbsp sugar/1Tbsp water/1tsp vinegar; no finished volume claim.",
+    "sourceAlternative": "100gground/3cookedcups/3or4eggs/source3–4plan; all7sauceparts and half-half fine salt distinct. Full source pan oils genuine unmeasured; no dry-rice/water inference.",
+    "capacity": "Actual bowls/pan loads; prepared component yields do not establish each topping amount or twenty-minute from-scratch plan."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "1 cup cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "1 fried egg, freshly prepared; firm white and yolk for the main route",
+        "1/2 tbsp gochujang",
+        "1/4 tbsp toasted sesame oil",
+        "1/4 tbsp sugar",
+        "1/4 tbsp water",
+        "1/4 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "1 cup cooked rice",
+        "1 fried egg",
+        "1/2 tbsp gochujang",
+        "1/4 tbsp toasted sesame oil",
+        "1/4 tbsp sugar",
+        "1/4 tbsp water",
+        "1/4 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "2 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "2 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "1 tbsp gochujang",
+        "1/2 tbsp toasted sesame oil",
+        "1/2 tbsp sugar",
+        "1/2 tbsp water",
+        "1/2 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "2 cups cooked rice",
+        "2 fried eggs",
+        "1 tbsp gochujang",
+        "1/2 tbsp toasted sesame oil",
+        "1/2 tbsp sugar",
+        "1/2 tbsp water",
+        "1/2 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "4 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "2 tbsp gochujang",
+        "1 tbsp toasted sesame oil",
+        "1 tbsp sugar",
+        "1 tbsp water",
+        "1 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "4 cups cooked rice",
+        "4 fried eggs",
+        "2 tbsp gochujang",
+        "1 tbsp toasted sesame oil",
+        "1 tbsp sugar",
+        "1 tbsp water",
+        "1 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "6 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "6 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "3 tbsp gochujang",
+        "1 1/2 tbsp toasted sesame oil",
+        "1 1/2 tbsp sugar",
+        "1 1/2 tbsp water",
+        "1 1/2 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "6 cups cooked rice",
+        "6 fried eggs",
+        "3 tbsp gochujang",
+        "1 1/2 tbsp toasted sesame oil",
+        "1 1/2 tbsp sugar",
+        "1 1/2 tbsp water",
+        "1 1/2 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "8 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "8 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "4 tbsp gochujang",
+        "2 tbsp toasted sesame oil",
+        "2 tbsp sugar",
+        "2 tbsp water",
+        "2 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "8 cups cooked rice",
+        "8 fried eggs",
+        "4 tbsp gochujang",
+        "2 tbsp toasted sesame oil",
+        "2 tbsp sugar",
+        "2 tbsp water",
+        "2 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Main recipe ---",
+        "12 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "12 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "6 tbsp gochujang",
+        "3 tbsp toasted sesame oil",
+        "3 tbsp sugar",
+        "3 tbsp water",
+        "3 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "12 cups cooked rice",
+        "12 fried eggs",
+        "6 tbsp gochujang",
+        "3 tbsp toasted sesame oil",
+        "3 tbsp sugar",
+        "3 tbsp water",
+        "3 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Main recipe ---",
+        "4 cups cooked rice, freshly cooked and hot, or properly chilled then reheated to 165°F throughout",
+        "4 fried eggs, freshly prepared; firm white and yolk for the main route",
+        "2 tbsp gochujang",
+        "1 tbsp toasted sesame oil",
+        "1 tbsp sugar",
+        "1 tbsp water",
+        "1 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Mix sauce:** Mix gochujang, toasted sesame oil, sugar, water, and rice vinegar in a small bowl until the sugar is dispersed. Have the cooked meat and prepared banchan ready before assembling; their cooking and chilling time is separate from this assembly plan.\n2. **Base:** Divide all cooked rice among the bowls for the portions being served. The original four-portion batch uses one cup per bowl. Do not warm stored rice by leaving it on the counter; reheat properly refrigerated rice to 165°F / 74°C throughout.\n3. **Arrange components:** Arrange prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), and prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) in separate piles around the rice, dividing all the prepared serving supplies you chose among the bowls. Reheat stored cooked meat or vegetables intended to be served hot to 165°F / 74°C; keep cold banchan refrigerated until assembly. Simply placing raw sprouts in hot rice does not establish thorough cooking.\n4. **Add eggs:** Place fried eggs on the bowls, dividing them among the portions. For the main route, cook fried eggs until both white and yolk are firm and serve immediately. The separate soft-yolk option below requires pasteurized eggs.\n5. **Sauce and mix:** Divide all the mixed gochujang sauce among the bowls, then mix the rice, toppings and egg before eating.",
+      "shopping": [
+        "4 cups cooked rice",
+        "4 fried eggs",
+        "2 tbsp gochujang",
+        "1 tbsp toasted sesame oil",
+        "1 tbsp sugar",
+        "1 tbsp water",
+        "1 tsp rice vinegar",
+        "prepared [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye), the serving amount desired for the bowls, already fully cooked",
+        "prepared [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers), the serving amount desired for the bowls",
+        "prepared [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad), the serving amount desired for the bowls",
+        "prepared [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts), the serving amount desired for the bowls, thoroughly cooked"
+      ],
+      "scope": "Actual compiler/share conservation; quantities scale, geometry/time fixed and all complete alternatives qualified original-batch/proportionate"
+    }
+  ],
+  "preservedPriorRepairs": {
+    "preserved": "Current12816aa2 component assembly/4cookedcups/4eggs/five-part sauce/all links protected; linked spinach/sprout accepted handling not edited. Native full ground route remains separate; old one-minute sprout blanch not certified.",
+    "assertions": ["4 cups cooked rice", "2 tbsp gochujang", "pasteurized", "thoroughly cooked"]
+  },
+  "remainingQuestions": [
+    "Desired prepared meat/banchan amounts and actual crisp-rice pan loads? Twenty minutes covers prepared-component assembly, not linked from-scratch cooking.",
+    "Actual egg pasteurization label and component remaining refrigerator ages? Linked recipes are referenced, not all recertified.",
+    "The larger6565 ground-lamb/beef option lacks a defined sprout-bag size and clearly owned per-vegetable seasoning quantities; does it need a separate developed recipe?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
