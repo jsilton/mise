@@ -299,3 +299,9 @@ npm run format           # Prettier
 - Commit format: `type: brief description` (feat, fix, refactor, docs, chore)
 - Always run `npm run validate-recipes` before committing recipe changes
 - CI/CD deploys on push to main — build failures block deployment
+
+## Coordination for new work
+
+For new tasks or an explicitly agreed handoff, read the [Substantial work section
+in AGENTS.md](AGENTS.md#substantial-work). It supplements these culinary standards
+without restarting or reassigning the active recipe campaign.
