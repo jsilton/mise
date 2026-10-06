@@ -392,6 +392,15 @@ for (const row of confirmed) {
           if (factor === 1) assert.equal(output, formatFormulaIngredient(butter));
         }
         assert.ok(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'cranberry-crunch' && row.caseId === 20) {
+        // Keep the original compound parser input and every numeric oracle below.
+        // Two cups of fruit do not establish one unspecified package's contents.
+        const current = '2 cups Fresh Cranberries';
+        assert.ok(data.ingredients.includes(current));
+        assert.ok(!data.ingredients.includes(component.input));
+        for (const factor of factors) {
+          assert.equal(numeric(scaleIngredient(current, factor).match(number)[0]), 2 * factor);
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),
@@ -541,14 +550,37 @@ test('all 13 fixed-batch and four structured recipes preserve their scaling mode
     if (row.kind === 'fixed')
       assert.equal(data.scaling?.mode, 'fixed', `${row.slug}: fixed mode changed`);
     else assert.ok(data.formula, `${row.slug}: structured formula removed`);
+    let preservedFormula = data.formula;
+    if (row.slug === 'chocolate-chip-cookie-cake') {
+      // Retain every old measured ingredient/shopping/yield hash below.
+      // The only extra component is a genuine unmeasured pan-greasing supply.
+      const pan = data.formula.components.find((c) => c.id === 'pan');
+      assert.equal(pan.name, 'Pan preparation');
+      assert.equal(pan.ingredients.length, 1);
+      const grease = pan.ingredients[0];
+      assert.equal(grease.name, 'butter or baking spray');
+      assert.equal(grease.allowance, 'enough to grease the pan and parchment');
+      assert.equal(grease.quantity, undefined);
+      assert.deepEqual(grease.uses, [{ step: 'prep', share: 1 }]);
+      assert.ok(data.formula.steps.find((s) => s.id === 'prep').text.includes('{{ingredients}}'));
+      assert.ok(data.ingredients.includes(formatFormulaIngredient(grease)));
+      for (const factor of factors) {
+        assert.equal(formatFormulaIngredient(grease, factor), formatFormulaIngredient(grease));
+      }
+      preservedFormula = {
+        ...data.formula,
+        components: data.formula.components.filter((c) => c.id !== 'pan'),
+      };
+      assert.equal(preservedFormula.components.length, 2);
+    }
     for (const { factor, hash: expected } of row.expected || []) {
       assert.equal(
         hash({
-          ingredients: formulaEntries(data.formula).map((entry) =>
+          ingredients: formulaEntries(preservedFormula).map((entry) =>
             formatFormulaIngredient(entry, factor)
           ),
-          shopping: formulaShoppingList(data.formula, factor),
-          yield: formulaYield(data.formula, factor),
+          shopping: formulaShoppingList(preservedFormula, factor),
+          yield: formulaYield(preservedFormula, factor),
         }),
         expected,
         `${row.slug}: ${factor}x formula behavior changed`

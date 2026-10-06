@@ -1,0 +1,584 @@
+{
+  "slug": "farfel-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "201530e7fe17f164cc631caf1b2653a08f0f28a4e15a9e0edb07a690aec7338c",
+  "acceptedSourceSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 40–60 min, including hydration and cooling"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 muffins"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 cups Matzo Farfel",
+        "2 cups Boiling Water",
+        "5 tbsp Unsalted Butter, melted (Replaces Margarine)",
+        "4 large Eggs",
+        "1 tsp Kosher Salt (or to taste)"
+      ],
+      "after": [
+        "3 cups Matzo Farfel",
+        "2 cups Boiling Water",
+        "5 tbsp Unsalted Butter, melted",
+        "4 large Eggs",
+        "1 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 575,
+        "protein": 3,
+        "carbs": 0,
+        "fat": 63.5,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 90
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cool hydrated farfel before mixing eggs",
+        "outcome": "Golden muffins with a set tender center and no scrambled-egg pockets.",
+        "techniques": ["temperature"],
+        "before": [
+          "The family batch is labeled 8 muffins, but the cup size is unspecified. Have enough greased cups for all the mixture at about three-quarters full; use actual cup capacity rather than forcing the count. Keep a similar fill depth when scaling and check representative centers; oven temperature and bake time do not multiply.",
+          "Use a heatproof bowl for boiling water and enough muffin cups for the full mixture. Greasing and serving butter are separate from the full measured batter butter."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Hydrated farfel is only mildly warm before eggs.",
+            "why": "Hot wet matzo can cook eggs unevenly on contact."
+          },
+          {
+            "step": 4,
+            "cue": "Set centers and 160°F in representative egg-containing centers.",
+            "why": "Golden tops alone do not establish the cooked egg center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Egg pockets appear in the batter",
+            "cause": "The hydrated farfel or butter was too hot when eggs were added.",
+            "fix": "Cool before mixing; cooked egg clumps cannot be returned to a smooth raw batter by vigorous beating."
+          }
+        ],
+        "timing": "Hydrating and cooling the farfel includes waiting time; mix the butter and eggs only when the farfel is mildly warm. The original preparation estimate is 15 minutes, followed by about 20 minutes or longer baking and a brief removal rest. Allow roughly 40–60 minutes elapsed, with more time as needed for cooling, remaining oven preheating or additional tins.",
+        "substitutions": [
+          {
+            "ingredient": "Kosher salt",
+            "alternative": "For Jodi’s original seasoning option, use kosher salt to taste instead of the listed measured kosher salt amount, keeping all other quantities and steps unchanged. Do not taste raw batter; adjust a cooked serving if needed.",
+            "effect": "Kosher salt crystal sizes differ, and this option has no measured amount. Season a cooked muffin or serving if needed."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F /4°C or below within 2 hours, or 1 hour above 90°F /32°C. FDA gives 3–4 days for cooked egg dishes; reheat leftovers to 165°F /74°C. Serve warm. The family note says the batch doubles well; divide among enough cups with the same fill depth.",
+        "sources": [
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. This is meant to be reliable and honest - quality ingredients cooked with care, nothing fancy, just right.\n\n## Directions\n\n1.  **Hydrate:** Preheat oven to 400°F. In a large bowl, pour the boiling water over the matzo farfel. Stir once and let sit until the water is fully absorbed and the mixture is cool to the touch.\n2.  **The Emulsion:** Stir in the melted butter. Add the eggs **one at a time**, stirring vigorously after each addition until the batter is glossy and uniform. Season with salt.\n3.  **Fill:** Spoon the batter into a well-greased muffin tin, filling each cup about 3/4 full.\n4.  **Bake:** Bake at 400°F for 20 minutes until the tops are deep golden brown and the muffins feel light when lifted.\n5.  **Serve:** Best served warm with plenty of salted butter.\n\n## Cooking Notes\n\nThe saved recipe notes that the batch doubles well. Divide among enough muffin tins to keep the same fill depth, and serve warm.\n",
+    "after": "\n## Chef's Note\n\nJodi Silton’s farfel muffins start by hydrating the matzo pieces, then cooling them before adding butter and eggs one at a time. Keep the full butter amount and serve warm. Matzo farfel is broken matzo, not toasted egg barley.\n\n## Directions\n\n1. **Hydrate and cool:** Preheat the oven to 400°F. Pour all the boiling water over all the matzo farfel in a heatproof bowl and stir to moisten evenly. Let hydrate and cool until the mixture is only mildly warm, so it will not cook eggs on contact. Grease enough muffin cups with the separate pan allowance while it cools.\n2. **Mix:** Stir in all the measured melted butter, cooled if still very hot. Add all the eggs one at a time, mixing thoroughly after each, then mix in the listed kosher salt. Do not taste raw egg batter.\n3. **Fill:** Divide all batter among the greased cups about three-quarters full, using enough cups to preserve similar fill depth. The source plans 8 muffins for its original batch but does not name the cup size; use actual capacity rather than forcing overflow or a fixed count at every scale.\n4. **Bake:** Bake about 20 minutes as a first check, until golden and the centers are set without wet egg mixture. Check representative center muffins reach 160°F /71°C with a thin probe, keeping it away from the pan. Additional tins or different cup sizes can change the clock.\n5. **Serve:** Let stand briefly until they can be lifted without breaking, and serve warm with optional salted butter.\n\n## Cooking Notes\n\nThe batch doubles well. Divide among enough muffin tins to keep the same fill depth, and serve warm.\n"
+  },
+  "findings": [
+    {
+      "id": "BFD06-5",
+      "title": "BFD06-5",
+      "rationale": "NativeJodi/045 already5tbspBUTTER, notmargarine; bc0inventedreplacementstory/1tspkosher/servingbutter, retain current1tspmain but sourceunmeasuredroute distinct.9fa doublingnote preserved. Exact8muffin yield lacks actualcupsize;no inventedstandard geometry. Egg160 is explicitly moderateeditorialapplicationofFDAegg-containingcategory, notsource-verified sensorytexture. Add genuine separate greasing/servingallowances, no loss of full5tbsp.",
+      "confidence": "High exact source/history/quantity proof; moderate method-planning/storage/category applications, untested",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original450 stable binding, complete ingredients/directions/notes; preserved source amounts and options only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed cooking and ingredient change trace, no inference of household intent from persistence"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual cleanproduce/rawcontact/refrigeration40/cumulative2hour1above90handling only; does not validate formula/yield/storagequality"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "160egg-containingcategory/3–4daycookedeggrefrigeration/165leftover, explicitly moderate editorialapplication to hydratedeggmatzo muffins, notnativeendpoint"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Actual family muffin-cup geometry and salt crystal brand are absent; eight-count planning and current1tsp are not original precision."
+      ]
+    },
+    {
+      "id": "BFD06-I01",
+      "title": "BFD06-I01",
+      "rationale": "Jodi’s exact native and first Markdown recipe already use 5 tablespoons butter. The Farfel label was introduced at bc0c870136cf379eae24180cb63d7ffd38c9da23. Cranberry’s actual original says “1 stick marine,” and d65d08918003c9fc3ea5effe2b20d8ebff9ea69f introduced the measured butter/replacement narrative. That is evidence of a rewrite, not proof that the ambiguous word names a margarine product. Keep both full current butter doses; do not restore an unidentified fat or assert a household decision.",
+      "confidence": "High exact text/history; original Cranberry fat interpretation unresolved.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original butter ingredient."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact ambiguous marine ingredient; no certified product."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Actual butter replacement label introduction."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Actual measured butter rewrite introduction."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion."
+      ]
+    },
+    {
+      "id": "BFD06-I02",
+      "title": "BFD06-I02",
+      "rationale": "The same row was inserted in five recipes. Cookie dough and a fruit crisp are not muffin batter, and “original-size pieces” has no defined meaning for the lemon cakes. Give the actual original vessel/count and proportional allocation decision without inventing pan depth, cup volume or yield precision.",
+      "confidence": "High source pan/count/cut statements; moderate proportional geometry advice, untested.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific preparation/teaching, honest clocks and yields, public cooking prose without archive history."
+        },
+        {
+          "reference": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Preserve useful ordinary cooking prose; keep review/editorial history private."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
+      ]
+    },
+    {
+      "id": "BFD06-I04",
+      "title": "BFD06-I04",
+      "rationale": "The exact family source names 8 muffins; the lemon source names 12 cupcakes, and the apple source method/current publisher plan 12 muffins. Bare numeric yields render as diners. Preserve the numeric counts and describe the actual piece unit rather than implying eight or twelve complete main-meal portions. The Farfel count remains a source plan with unspecified cup geometry.",
+      "confidence": "High exact planned count units; actual cooked count and serving sufficiency untested.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 8-muffin source yield; no cup size."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 12-cupcake source yield."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete original 12-cup method."
+        },
+        {
+          "url": "https://www.glutenfreepalate.com/gluten-free-lemon-cupcakes/",
+          "scope": "Current primary yield 12 cupcakes."
+        },
+        {
+          "url": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
+          "scope": "Current primary yield 12 muffins."
+        },
+        {
+          "reference": "src/lib/quantities.mjs",
+          "scope": "Actual count-unit formatting at .25/.5/1/1.5/2/3/reset; not culinary evidence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal."
+      ]
+    },
+    {
+      "id": "BFD06-I05",
+      "title": "BFD06-I05",
+      "rationale": "Cranberry’s full source and method give a 45–60-minute baking range, while its cook label gives only 45. Frosting’s 5-minute source card begins with softened ingredients and excludes the optional 20–30-minute piping chill now included in the method; state those starting conditions. Farfel hydration/cooling is waiting, not 15–25 minutes of active preparation. Retain the existing rough elapsed planning range, explicitly allowing the real cooling/preheat/batch dependency rather than treating it as a measured kitchen result.",
+      "confidence": "High source clocks/contradictions; moderate unmeasured 40–60-minute Farfel planning range.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 45–60-minute original bake clock."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Source prep5 after ingredients soften."
+        },
+        {
+          "url": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
+          "scope": "Actual optional 20–30-minute piping chill."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "15-minute prep label,20-minute bake and required hydration/cooling without a supplied cooling duration."
+        },
+        {
+          "reference": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Consistent active/elapsed clocks and rests/starting states."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here."
+      ]
+    },
+    {
+      "id": "BFD06-I07",
+      "title": "BFD06-I07",
+      "rationale": "“Saved,” “current main,” and “later editorial adaptation” narrate editing history on the cooking page. Keep the exact source options and their practical effects while retaining chronological differences in private records. Farfel’s actual useful family doubling/serve-warm note must remain, rather than deleting the note.",
+      "confidence": "High exact preservation and public presentation requirement.",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific preparation/teaching, honest clocks and yields, public cooking prose without archive history."
+        },
+        {
+          "reference": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Preserve useful ordinary cooking prose; keep review/editorial history private."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Actual useful doubles-well/serve-warm note and unmeasured salt."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full distinct3–4tbsp milk supply, not added to current2tbsp."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Conditional gentle squeezing differs from current main squeezed-dry state."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "content"],
+      "questions": [
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Farfel%20Muffins.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "NativeJodi/045 already5tbspBUTTER, notmargarine; bc0inventedreplacementstory/1tspkosher/servingbutter, retain current1tspmain but sourceunmeasuredroute distinct.9fa doublingnote preserved. Exact8muffin yield lacks actualcupsize;no inventedstandard geometry. Egg160 is explicitly moderateeditorialapplicationofFDAegg-containingcategory, notsource-verified sensorytexture. Add genuine separate greasing/servingallowances, no loss of full5tbsp.",
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Actual family muffin-cup geometry and salt crystal brand are absent; eight-count planning and current1tsp are not original precision."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "3 cups Matzo Farfel",
+        "actualMethodDestination": "Hydrate1"
+      },
+      {
+        "text": "2 cups Boiling Water",
+        "actualMethodDestination": "Hydrate1"
+      },
+      {
+        "text": "5 tbsp Unsalted Butter, melted (Replaces Margarine)",
+        "actualMethodDestination": "Fullbatter2"
+      },
+      {
+        "text": "4 large Eggs",
+        "actualMethodDestination": "Oneatatime2"
+      },
+      {
+        "text": "1 tsp Kosher Salt (or to taste)",
+        "actualMethodDestination": "Season2"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "3 cups Matzo Farfel",
+        "actualMethodDestination": "Hydrate1"
+      },
+      {
+        "text": "2 cups Boiling Water",
+        "actualMethodDestination": "Hydrate1"
+      },
+      {
+        "text": "5 tbsp Unsalted Butter, melted",
+        "actualMethodDestination": "Full5tbspMix2"
+      },
+      {
+        "text": "4 large Eggs",
+        "actualMethodDestination": "AllMix2oneatatime"
+      },
+      {
+        "text": "1 tsp Kosher Salt (or to taste)",
+        "actualMethodDestination": "Mix2currentmeasuredororiginaltasteexclusive"
+      },
+      {
+        "text": "Butter or baking spray, as needed to grease muffin cups",
+        "actualMethodDestination": "Separatepan1"
+      },
+      {
+        "text": "Salted butter, as desired for serving",
+        "actualMethodDestination": "Optionalserve5"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "3 cups matzo farfel\n2 cups boiling water\n5 tbsp butter, melted \n4 eggs\nKosher salt",
+      "directions": "Preheat oven to 400 degrees.\n\nMix together matzo farfel and boiling water, then cool.\n\nAdd butter then eggs, one at a time, and salt to taste.\n\nPour into well-greased muffin tin and bake 20 minutes until golden.",
+      "notes": "Doubles well. Best served warm."
+    },
+    "frozenMethodOnly": ["pan grease and served saltedbutter unlisted"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Hydrate and cool: Preheat the oven to 400°F. Pour all the boiling water over all the matzo farfel in a heatproof bowl and stir to moisten evenly. Let hydrate and cool until the mixture is only mildly warm, so it will not cook eggs on contact. Grease enough muffin cups with the separate pan allowance while it cools."
+    },
+    {
+      "step": 2,
+      "text": "Mix: Stir in all the measured melted butter, cooled if still very hot. Add all the eggs one at a time, mixing thoroughly after each, then mix in the listed kosher salt. Do not taste raw egg batter."
+    },
+    {
+      "step": 3,
+      "text": "Fill: Divide all batter among the greased cups about three-quarters full, using enough cups to preserve similar fill depth. The source plans 8 muffins for its original batch but does not name the cup size; use actual capacity rather than forcing overflow or a fixed count at every scale."
+    },
+    {
+      "step": 4,
+      "text": "Bake: Bake about 20 minutes as a first check, until golden and the centers are set without wet egg mixture. Check representative center muffins reach 160°F /71°C with a thin probe, keeping it away from the pan. Additional tins or different cup sizes can change the clock."
+    },
+    {
+      "step": 5,
+      "text": "Serve: Let stand briefly until they can be lifted without breaking, and serve warm with optional salted butter."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Kosher salt",
+      "alternative": "For Jodi’s original seasoning option, use kosher salt to taste instead of the listed measured kosher salt amount, keeping all other quantities and steps unchanged. Do not taste raw batter; adjust a cooked serving if needed.",
+      "effect": "Kosher salt crystal sizes differ, and this option has no measured amount. Season a cooked muffin or serving if needed."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["nana-ruths-applesauce", "cinnamon-sweet-potatoes", "garlic-mashed-red-potatoes"],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found. Metadata pairings do not substitute linked formulas or grant review status; frosting yield is a source coverage plan, cakes retain own full frosting formulas."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8 muffins",
+    "yieldScope": "Preserved source/current planning only, no kitchen yield precision",
+    "capacity": [
+      "The family batch is labeled 8 muffins, but the cup size is unspecified. Have enough greased cups for all the mixture at about three-quarters full; use actual cup capacity rather than forcing the count. Keep a similar fill depth when scaling and check representative centers; oven temperature and bake time do not multiply.",
+      "Use a heatproof bowl for boiling water and enough muffin cups for the full mixture. Greasing and serving butter are separate from the full measured batter butter."
+    ],
+    "timing": "Hydrating and cooling the farfel includes waiting time; mix the butter and eggs only when the farfel is mildly warm. The original preparation estimate is 15 minutes, followed by about 20 minutes or longer baking and a brief removal rest. Allow roughly 40–60 minutes elapsed, with more time as needed for cooling, remaining oven preheating or additional tins.",
+    "formula": "All core measured supplies preserved in the legacy ingredients and method; separately disclosed pan/serving supplies and exclusive source options. No authored formula migration."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/4 cup Matzo Farfel",
+        "1/2 cup Boiling Water",
+        "1 1/4 tbsp Unsalted Butter, melted",
+        "1 large Egg",
+        "1/4 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "2 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 cups Matzo Farfel",
+        "1 cup Boiling Water",
+        "2 1/2 tbsp Unsalted Butter, melted",
+        "2 large Eggs",
+        "1/2 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "4 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "3 cups Matzo Farfel",
+        "2 cups Boiling Water",
+        "5 tbsp Unsalted Butter, melted",
+        "4 large Eggs",
+        "1 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "8 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 cups Matzo Farfel",
+        "3 cups Boiling Water",
+        "7 1/2 tbsp Unsalted Butter, melted",
+        "6 large Eggs",
+        "1 1/2 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "12 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "6 cups Matzo Farfel",
+        "4 cups Boiling Water",
+        "10 tbsp Unsalted Butter, melted",
+        "8 large Eggs",
+        "2 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "16 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "9 cups Matzo Farfel",
+        "6 cups Boiling Water",
+        "15 tbsp Unsalted Butter, melted",
+        "12 large Eggs",
+        "3 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "24 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "3 cups Matzo Farfel",
+        "2 cups Boiling Water",
+        "5 tbsp Unsalted Butter, melted",
+        "4 large Eggs",
+        "1 tsp Kosher Salt (or to taste)",
+        "Butter or baking spray, as needed to grease muffin cups",
+        "Salted butter, as desired for serving"
+      ],
+      "yield": "8 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "9fa family doubleswell note preserved; no falsemargarinehistory.",
+  "remainingQuestions": [
+    "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+    "Actual family muffin-cup geometry and salt crystal brand are absent; eight-count planning and current1tsp are not original precision.",
+    "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion.",
+    "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+    "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+    "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+    "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

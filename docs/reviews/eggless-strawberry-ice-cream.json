@@ -1,0 +1,396 @@
+{
+  "slug": "eggless-strawberry-ice-cream",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "53e9b36a18fb6414428b1e3f57edbdafca789cd1abf6e0fe069cabe13108dd4e",
+  "acceptedSourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Allrecipes.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Measure prepared puree and chill the full base",
+        "outcome": "Eggless strawberry ice cream with evenly dissolved sugar.",
+        "techniques": ["temperature"],
+        "before": [
+          "Check the actual machine’s maximum liquid fill and preparation instructions. Split the fully mixed chilled base into batches if needed, keeping unused base refrigerated. Allow expansion space and re-freeze a removable bowl between batches when its instructions require it; extra batches add elapsed time.",
+          "Measure strawberries after pureeing. Keep the full listed lemon juice; dissolve the sugar completely before freezing the base."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "No gritty sugar remains when stirred.",
+            "why": "Undissolved sugar leaves an uneven base."
+          },
+          {
+            "step": 3,
+            "cue": "The whole base is thoroughly cold before loading the machine.",
+            "why": "A warmer base uses up bowl cooling capacity before it freezes."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The base remains soft in the machine",
+            "cause": "The base or removable freezing bowl was not cold enough, or the machine was overfilled.",
+            "fix": "Chill the base thoroughly and follow the actual bowl preparation and maximum-fill instructions; split the full mixture into batches when needed."
+          }
+        ],
+        "timing": "About 15 minutes active preparation plus 1–2 hours chilling and machine-directed churning. Optional 2–3 hours firming gives the existing 3–5 hour plan, with longer elapsed time for extra loads or an initially unfrozen machine bowl.",
+        "substitutions": [
+          {
+            "ingredient": "Strawberry base",
+            "alternative": "For the modern Allrecipes variation, use 2 cups mashed ripe strawberries and 1 cup sugar for the original batch, omit all lemon juice, and keep the same 2 cups whole milk,2 cups cream,2 teaspoons vanilla and ¼ teaspoon salt. Scale all chosen measures proportionally. Mix until sugar dissolves, chill thoroughly, churn within the actual machine fill limit and freeze until firm. Optional red food coloring is 2 drops for the original batch, scaled proportionally only if desired.",
+            "effect": "For the original batch, the main uses ¾ cup sugar and 4 tablespoons lemon juice; its listed amounts scale with the batch. The separate publisher formula omits lemon and uses its own sugar amount. Coloring is optional."
+          }
+        ],
+        "storage": "Keep frozen ice cream covered at 0°F / −18°C or below and return it to the freezer promptly after scooping. Keep unfrozen dairy mixtures at 40°F / 4°C or below; do not leave them out more than 2 hours in total, or 1 hour above 90°F / 32°C.",
+        "sources": [
+          {
+            "title": "Allrecipes — Easy Eggless Strawberry Ice Cream",
+            "url": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Homemade Ice Cream",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis strawberry ice cream has no eggs and needs no custard cooking. Dissolve the sugar thoroughly and chill the mixture before churning; the ice-cream maker bowl must already be frozen if the machine requires it.\n\n## Directions\n\n1. **Prepare:** Prepare and freeze the ice-cream maker bowl in advance if required. Use pasteurized milk and cream. Whisk milk, cream, sugar, salt and vanilla until sugar dissolves, then stir in strawberry puree and lemon juice.\n\n2. **Chill:** Cover and refrigerate the mixture until thoroughly cold, about one to two hours if the ingredients were already chilled.\n\n3. **Churn:** Churn according to the ice-cream maker instructions. Serve soft or transfer to a covered freezer container for two to three hours to firm up.\n",
+    "after": "\n## Chef's Note\n\nThis eggless formula keeps the full milk and cream, the listed sugar amount and all the lemon juice. Dissolve the sugar and chill the mixture thoroughly before churning. Prepare the machine’s freezing bowl in advance when required; a cold mixture does not compensate for an unfrozen bowl.\n\n## Directions\n\n1. **Prepare:** Prepare and freeze the ice-cream maker bowl in advance if its actual instructions require it. Use pasteurized milk and cream. Wash and hull the fresh strawberries, puree them and then measure the full listed puree amount; no whole-fruit weight is implied. Wash lemons before juicing if using fresh juice.\n2. **Mix:** Whisk all the milk, cream, sugar, salt and vanilla until sugar dissolves, then stir in all the measured strawberry puree and lemon juice.\n3. **Chill:** Cover and refrigerate until thoroughly cold, about 1–2 hours as a planning reference if the ingredients were already chilled.\n4. **Churn:** Follow the actual ice-cream maker’s instructions and maximum liquid fill. Split the fully mixed cold base among batches if it exceeds that limit, keeping unused base refrigerated and preparing the bowl again if required. Churn to the machine’s soft-ice-cream consistency.\n5. **Serve or firm:** Serve soft, or transfer to covered freezer-safe containers with expansion room for about 2–3 hours or longer until firm. Keep frozen between servings.\n"
+  },
+  "findings": [
+    {
+      "id": "CFD04-4",
+      "title": "CFD04-4",
+      "rationale": "Exact saved/current sevenmeasures and accepted9fa/e300 pasteurizeddairy/chilledbowl/dissolvedsugar/lemonallocation/optional2–3hfirming intact; addswash-hull-measurepuree andactualchurnfill/batchcoldstate without guessedyield. Modern actual1cup sugar/no lemon/mashed2cups/optionalcoloring separately complete, no automatic1cup reset. Nativefoodcoloringmethodwithoutingredient remains explicitlynotmain. No unsupported sourceURLasorigin.",
+      "confidence": "High exact native/source quantities and arithmetic; moderate editorial endpoint, cold handling, pan and elapsed planning",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/",
+          "scope": "Actual full Allrecipes fetched via slashless URL after slash requests failed. Modern1cup sugar/2cupsmashed/no lemon/optional2dropscoloring differs exact bound native/b7/current¾sugar/2puree/4tbsplemon. Native direction scrapedfoodcoloringwithoutingredient and omittedlemon; accepted9fa/e300 correctlyallocateslemon and removesunlistedcoloring, retains pasteurized/chilled/churn/firmingrepair. Current main remains; modern complete variation separate."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual shared primary cleanproduce/cold40F/prompt2h1habove90 rules only; no ratio/pan/churn/yield validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection",
+          "scope": "Actual FDA cookedegg160 and pasteurizeddairy. Does not prescribe churnclock/shelf-life or guarantee allriskseliminated"
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "learning", "content"],
+      "questions": [
+        "Actual machine max fill and bowl re-freeze schedule govern the greater-than-six-cups ingredient load; no churnedquart yield inferred.",
+        "How does the full lemon amount affect the dairy after mixing in the actual products? No acid reduction proposed.",
+        "Current8portions and3–5hour plan remain source/currentplanning; chilling may take longer after warm blender processing or extra loads."
+      ]
+    },
+    {
+      "id": "ROOT-DIRECT-COOKING-AND-SAVED-WEIGHTS",
+      "title": "Explain the cooking choices and preserve exact source weight option",
+      "rationale": "The saved/native labels in these narrow public spans describe archive/review provenance. Direct prose can explain the coating, crushing and full measured fruit-base supplies; source proofs stay in records. This does not require any broader copy rewrite. The saved/native labels in these narrow public spans describe archive/review provenance. Direct prose can explain the coating, crushing and full measured fruit-base supplies; source proofs stay in records. This does not require any broader copy rewrite.",
+      "confidence": "High, cooking prose only.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applies": "Public learning is recipe-specific cooking help; provenance belongs in evidence/records.",
+          "limits": "Style/usability scope only; existing cooking doses and routes remain valid."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applies": "Public learning is recipe-specific cooking help; provenance belongs in evidence/records.",
+          "limits": "Style/usability scope only; existing cooking doses and routes remain valid."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Strawberry%20Ice%20Cream.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual full Allrecipes fetched via slashless URL after slash requests failed. Modern1cup sugar/2cupsmashed/no lemon/optional2dropscoloring differs exact bound native/b7/current¾sugar/2puree/4tbsplemon. Native direction scrapedfoodcoloringwithoutingredient and omittedlemon; accepted9fa/e300 correctlyallocateslemon and removesunlistedcoloring, retains pasteurized/chilled/churn/firmingrepair. Current main remains; modern complete variation separate.",
+      "questions": [
+        "Actual machine max fill and bowl re-freeze schedule govern the greater-than-six-cups ingredient load; no churnedquart yield inferred.",
+        "How does the full lemon amount affect the dairy after mixing in the actual products? No acid reduction proposed.",
+        "Current8portions and3–5hour plan remain source/currentplanning; chilling may take longer after warm blender processing or extra loads."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 cups whole milk",
+        "actualMethodDestination": "step1mix"
+      },
+      {
+        "text": "2 cups heavy cream",
+        "actualMethodDestination": "step1mix"
+      },
+      {
+        "text": "3/4 cup white sugar",
+        "actualMethodDestination": "step1mix"
+      },
+      {
+        "text": "1/4 teaspoon salt",
+        "actualMethodDestination": "step1mix"
+      },
+      {
+        "text": "2 teaspoons vanilla extract",
+        "actualMethodDestination": "step1mix"
+      },
+      {
+        "text": "2 cups pureed fresh strawberries",
+        "actualMethodDestination": "step1mix"
+      },
+      {
+        "text": "4 tablespoons lemon juice",
+        "actualMethodDestination": "step1mix"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 cups whole milk",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "2 cups heavy cream",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "3/4 cup white sugar",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "1/4 teaspoon salt",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "2 teaspoons vanilla extract",
+        "actualMethodDestination": "step2mix"
+      },
+      {
+        "text": "2 cups pureed fresh strawberries",
+        "actualMethodDestination": "step1preparemeasure/2mix"
+      },
+      {
+        "text": "4 tablespoons lemon juice",
+        "actualMethodDestination": "step2mix"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "2 cups whole milk\n2 cups heavy cream\n3/4 cup white sugar\n1/4 teaspoon salt\n2 teaspoons vanilla extract\n2 cups pureed fresh strawberries\n4 tablespoons lemon juice",
+      "directions": "In a large bowl, combine the milk, cream, sugar, salt, vanilla, strawberries, and food coloring. Pour the mixture into the freezer bowl of an ice cream maker, and freeze according to manufacturer's directions.",
+      "notes": "",
+      "scope": "Exact durable original450 binding; original Directions contain ingredient supplies for incomplete Cake ingredient scrape, preserved privately"
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Prepare and freeze the ice-cream maker bowl in advance if its actual instructions require it. Use pasteurized milk and cream. Wash and hull the fresh strawberries, puree them and then measure the full listed puree amount; no whole-fruit weight is implied. Wash lemons before juicing if using fresh juice."
+    },
+    {
+      "step": 2,
+      "text": "Mix: Whisk all the milk, cream, sugar, salt and vanilla until sugar dissolves, then stir in all the measured strawberry puree and lemon juice."
+    },
+    {
+      "step": 3,
+      "text": "Chill: Cover and refrigerate until thoroughly cold, about 1–2 hours as a planning reference if the ingredients were already chilled."
+    },
+    {
+      "step": 4,
+      "text": "Churn: Follow the actual ice-cream maker’s instructions and maximum liquid fill. Split the fully mixed cold base among batches if it exceeds that limit, keeping unused base refrigerated and preparing the bowl again if required. Churn to the machine’s soft-ice-cream consistency."
+    },
+    {
+      "step": 5,
+      "text": "Serve or firm: Serve soft, or transfer to covered freezer-safe containers with expansion room for about 2–3 hours or longer until firm. Keep frozen between servings."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Strawberry base",
+      "alternative": "For the modern Allrecipes variation, use 2 cups mashed ripe strawberries and 1 cup sugar for the original batch, omit all lemon juice, and keep the same 2 cups whole milk,2 cups cream,2 teaspoons vanilla and ¼ teaspoon salt. Scale all chosen measures proportionally. Mix until sugar dissolves, chill thoroughly, churn within the actual machine fill limit and freeze until firm. Optional red food coloring is 2 drops for the original batch, scaled proportionally only if desired.",
+      "effect": "For the original batch, the main uses ¾ cup sugar and 4 tablespoons lemon juice; its listed amounts scale with the batch. The separate publisher formula omits lemon and uses its own sugar amount. Coloring is optional."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found for these six; metadata suggestions do not add ingredients or confer whole-review credit to linked recipes. KeyLime linked bakedPie is not an exact flavor/formula match and heldclaim notendorsed."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8",
+    "yieldScope": "Preserved planning portions/count; no tested mass/volume or nutrition",
+    "capacity": "Check the actual machine’s maximum liquid fill and preparation instructions. Split the fully mixed chilled base into batches if needed, keeping unused base refrigerated. Allow expansion space and re-freeze a removable bowl between batches when its instructions require it; extra batches add elapsed time.",
+    "timing": "About 15 minutes active preparation plus 1–2 hours chilling and machine-directed churning. Optional 2–3 hours firming gives the existing 3–5 hour plan, with longer elapsed time for extra loads or an initially unfrozen machine bowl.",
+    "formula": "Core total rich measures unchanged. Legacy bounded method/destination, exact proportional allocations and separately documented complete source variants; no authored formula present/migration forced."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup whole milk",
+        "1/2 cup heavy cream",
+        "0.19 cup white sugar",
+        "0.0625 teaspoon salt",
+        "1/2 teaspoon vanilla extract",
+        "1/2 cup pureed fresh strawberries",
+        "1 tablespoon lemon juice"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup whole milk",
+        "1 cup heavy cream",
+        "3/8 cup white sugar",
+        "1/8 teaspoon salt",
+        "1 teaspoon vanilla extract",
+        "1 cup pureed fresh strawberries",
+        "2 tablespoons lemon juice"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 cups whole milk",
+        "2 cups heavy cream",
+        "3/4 cup white sugar",
+        "1/4 teaspoon salt",
+        "2 teaspoons vanilla extract",
+        "2 cups pureed fresh strawberries",
+        "4 tablespoons lemon juice"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 cups whole milk",
+        "3 cups heavy cream",
+        "1 1/8 cups white sugar",
+        "3/8 teaspoon salt",
+        "3 teaspoons vanilla extract",
+        "3 cups pureed fresh strawberries",
+        "6 tablespoons lemon juice"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 cups whole milk",
+        "4 cups heavy cream",
+        "1 1/2 cups white sugar",
+        "1/2 teaspoon salt",
+        "4 teaspoons vanilla extract",
+        "4 cups pureed fresh strawberries",
+        "8 tablespoons lemon juice"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 cups whole milk",
+        "6 cups heavy cream",
+        "2 1/4 cups white sugar",
+        "3/4 teaspoon salt",
+        "6 teaspoons vanilla extract",
+        "6 cups pureed fresh strawberries",
+        "12 tablespoons lemon juice"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 cups whole milk",
+        "2 cups heavy cream",
+        "3/4 cup white sugar",
+        "1/4 teaspoon salt",
+        "2 teaspoons vanilla extract",
+        "2 cups pureed fresh strawberries",
+        "4 tablespoons lemon juice"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "9fa/e300 pasteurizedmilkcream,preparedbowl,dissolvedsugar,explicitalllemon,native7ingredientbaseline/chill/churn/optionalfirming preserved. Oldnativefoodcoloringmethodwithoutdose not promoted into main.",
+  "remainingQuestions": [
+    "Actual machine max fill and bowl re-freeze schedule govern the greater-than-six-cups ingredient load; no churnedquart yield inferred.",
+    "How does the full lemon amount affect the dairy after mixing in the actual products? No acid reduction proposed.",
+    "Current8portions and3–5hour plan remain source/currentplanning; chilling may take longer after warm blender processing or extra loads."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

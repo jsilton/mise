@@ -1,0 +1,449 @@
+{
+  "slug": "classic-peach-ice-cream",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "5c95affa0f4b5bfaa611865366ec1e9112b9e5c9484d470e2162036a23919818",
+  "acceptedSourceSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["simmer", "boil"],
+      "after": ["simmer"]
+    },
+    {
+      "field": "totalTime",
+      "before": "240 min",
+      "after": "7–9 hr or longer, including chilling, churning and firming"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 290,
+        "protein": 3,
+        "carbs": 35.5,
+        "fat": 15.5,
+        "fiber": 0,
+        "sugar": 35,
+        "sodium": 330
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook the egg base and keep syrup with the fruit batch",
+        "outcome": "Cold peach custard churned with the full syrup and fruit.",
+        "techniques": ["temperature"],
+        "before": [
+          "Check the actual machine’s maximum liquid fill and preparation instructions. Split the fully mixed chilled base into batches if needed, keeping unused base refrigerated. Allow expansion space and re-freeze a removable bowl between batches when its instructions require it; extra batches add elapsed time.",
+          "Use pasteurized whole milk and cream. Have a thermometer, clean chilling containers and freezer space ready before heating the eggs."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All tempering milk returns to the full custard.",
+            "why": "The milk is an intermediate allocation, not an extra ingredient."
+          },
+          {
+            "step": 4,
+            "cue": "Spoon-coating custard with 160°F measured in the stirred mixture.",
+            "why": "Thickness alone does not establish egg cooking."
+          },
+          {
+            "step": 6,
+            "cue": "All peach syrup is mixed in, with fruit still cold.",
+            "why": "Draining keeps fruit separate for a controlled addition, without discarding the sweet liquid."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The custard begins to curdle",
+            "cause": "The egg mixture is heating too quickly or unevenly.",
+            "fix": "Use gentle heat and constant stirring, checking the thermometer rather than relying on an exact clock."
+          }
+        ],
+        "timing": "Plan about 20–35 minutes active fruit/custard preparation, at least 4 hours custard chilling with the 2-hour fruit maceration overlapping, machine-directed churning and about 2 hours or longer firming. Allow roughly 7–9 hours total or longer; extra churn loads or overnight chilling extend elapsed time.",
+        "substitutions": [
+          {
+            "ingredient": "Milk tempering",
+            "alternative": "For the saved source route, temper with about 1/6 of the listed milk rather than 1/3, then return all of it to the remaining milk. Keep all other quantities and the 160°F custard endpoint.",
+            "effect": "Original 1½ cups milk gives ¼ cup for this source method; the main’s ⅓ share gives ½ cup. Both reuse the same full milk supply."
+          },
+          {
+            "ingredient": "Fruit and finishing route",
+            "alternative": "For the modern Saveur route, use 2 cups coarsely chopped pitted skin-on peaches and 1 tablespoon lemon juice for the original batch instead of the pint-fruit/half-lemon measures, scaling each proportionally. Omit the listed pinch of salt in this exclusive route; keep it in the main above. Macerate the fruit with the same 2/5 sugar. Cook the custard made from all the milk, eggs, yolks and remaining 3/5 of the sugar to 160°F, borrowing 1/6 of the milk for tempering and returning all of it to the custard. Stir in all the cream off heat. Cool promptly. Chill the custard at least 4 hours and fruit at least 2 hours, up to 24 hours for either in the refrigerator. Drain all syrup into the custard and churn it without the fruit. Freeze about 2 hours until nearly firm, fold in all the cold fruit, then freeze about another 2 hours until set.",
+            "effect": "A complete distinct modern publisher route; no assertion that 1 tablespoon equals juice from ½ lemon. The two post-churn freezes add elapsed time."
+          }
+        ],
+        "storage": "Keep unfrozen custard and fruit refrigerated at 40°F /4°C or below, and freeze finished ice cream covered at 0°F /−18°C or below. Cool the cooked egg base promptly and count all room-temperature handling toward 2 hours, or 1 hour above 90°F /32°C. Freezing does not replace the 160°F cooked-base check.",
+        "sources": [
+          {
+            "title": "Saveur — Peach Ice Cream",
+            "url": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream/"
+          },
+          {
+            "title": "FDA — Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Homemade Ice Cream",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to this heritage-style peach ice cream is keeping the skins on when you chop the peaches. During the maceration process, the pigments from the skin bleed into the sugar, providing a natural rosy color and a deeper, more complex peach aroma. Cooking the custard gently in a double boiler over simmering water ensures a stable texture that never turns into scrambled eggs. The lemon juice provides essential acidity to cut the heavy cream.\n\n## Directions\n\n1.  **Macerate:** Toss chopped peaches with 1/2 cup sugar and lemon juice. **Refrigerate for at least 2 hours** to draw out the syrup.\n2.  **Custard:** Place milk in a double boiler over medium heat. Bring just to a simmer.\n3.  **Emulsify:** In a bowl, whisk eggs, yolks, and 3/4 cup sugar. Slowly whisk 1/2 cup of the hot milk into the eggs to temper.\n4.  **Thicken:** Return the mixture to the double boiler. Cook, stirring constantly with a wooden spoon, for 15 minutes until the custard is thick enough to coat the spoon.\n5.  **Chill:** Whisk in the heavy cream. Refrigerate until stone-cold (at least 4 hours).\n6.  **Churn:** Drain the peaches. Stir the accumulated peach syrup into the custard base. Pour into your ice cream maker.\n7.  **Finish:** Add the chopped peaches during the final minute of churning to maintain the fruit's texture.\n8.  **Set:** Freeze for 2 hours before serving.\n",
+    "after": "\n## Chef's Note\n\nKeep the skins on ripe peaches for the source’s rosy color. Reserve all the drained peach syrup for the chilled custard and keep the fruit refrigerated until adding it. Gentle heat and constant stirring help the egg base stay smooth, but a double boiler does not prevent curdling by itself.\n\n## Directions\n\n1. **Prepare fruit:** Wash, pit and chop the skin-on peaches; measure the listed amount as chopped fruit, not a count of whole peaches. Mix with 2/5 of the total sugar and all the juice from the washed, listed lemon portion. Cover and refrigerate at least 2 hours.\n2. **Heat milk:** Place all the milk in the top of a double boiler over gently simmering water and bring the milk just to a simmer.\n3. **Temper eggs:** Whisk all the eggs and yolks with the remaining 3/5 sugar and the listed pinch of salt. Slowly whisk about 1/3 of the hot milk into this mixture, then return all of it to the remaining hot milk. The tempering milk is borrowed from the full listed milk, not extra milk.\n4. **Cook custard:** Stir continuously over gentle heat until the custard coats the back of the spoon and reaches 160°F /71°C, checking the stirred mixture with a thermometer away from the bowl bottom. Start checking around 15 minutes rather than cooking for an exact duration. Do not boil the custard. No raw egg tasting.\n5. **Cool and chill:** Transfer to a clean bowl and whisk in all the cream. Cool promptly, using shallow containers or a clean bowl in an ice-water bath while stirring; keep bath water out. Cover and refrigerate until thoroughly cold, allowing at least 4 hours as the current planning reference. Do not leave it on the counter for that chilling period.\n6. **Drain and divide:** Drain the peaches into the cold custard, stirring in all the collected syrup. Return the fruit to the refrigerator. If the full base exceeds the actual ice-cream maker’s maximum fill, divide all the well-mixed base and fruit proportionally among churn batches, keeping unused portions refrigerated.\n7. **Churn:** Churn the cold base according to the actual machine’s instructions. Add each batch’s allocated peaches near the finish if the machine permits, or fold them into the finished soft ice cream so the full fruit amount is used without overloading the machine.\n8. **Firm:** Transfer to covered freezer-safe containers with expansion room and freeze about 2 hours or longer until the desired firmness. Serve promptly after scooping.\n"
+  },
+  "findings": [
+    {
+      "id": "CFD04-3",
+      "title": "CFD04-3",
+      "rationale": "All seven current supplies/fullrichness retained; salt nowdestined eggs. Sugar split2/5fruit3/5custard equals current½+¾ oftotal1¼; hotmilk1/3current½cup is physical reuse, source¼ temper is separate1/6 route.160°F actualFDA cookedicecream eggbase plus spooncue/rapidcoldhandling, no doubleboilernevercurdle or lemonessential claim. Atleast4hchill+2hset+active/churn exceeds240min, so7–9h conservative plan. Modern source2cupspeaches/1Tlemon/afterfirstfreeze fruit differs complete option, no halflemon juice equivalent invented. The native and modern Saveur formulas omit salt; the full pinch remains exclusively in the current main. In the modern branch, all cream follows the cooked milk/egg/sugar custard off heat; 160°F and prompt cooling remain editorial FDA applications.",
+      "confidence": "High exact native/source quantities and arithmetic; moderate editorial endpoint, cold handling, pan and elapsed planning",
+      "applicableSources": [
+        {
+          "url": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream/",
+          "scope": "Actual full Saveur August2022 page differs from native/b7/045 pintpeaches/halflemon/near-finishfruit: modern2cups pitted/1tbsp juice/fruitfoldafter2hfreeze+another2h. Keep main native/current quantities, fullcream/sugar/currentaddedseasalt and current½cup tempermilk interpreted1/3ofalreadyallocatedmilk; source¼cup is1/6 original1½milk, complete alternative below. No lemonyield conversion or guaranteed noncurdling. The native and modern Saveur formulas omit salt; the full pinch remains exclusively in the current main. In the modern branch, all cream follows the cooked milk/egg/sugar custard off heat; 160°F and prompt cooling remain editorial FDA applications."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual shared primary cleanproduce/cold40F/prompt2h1habove90 rules only; no ratio/pan/churn/yield validation"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Actual FDA160 cookedegg dishes and cleanhands/rawcontact/promptcold,3–4daycookedeggleftovers; applications editorial, no testedtextureproof"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection",
+          "scope": "Actual FDA cookedegg160 and pasteurizeddairy. Does not prescribe churnclock/shelf-life or guarantee allriskseliminated"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content",
+        "cookingMethods"
+      ],
+      "questions": [
+        "Actual ice-cream maker model/fill limit/bowl recovery and fruit allowance remain necessary before batching.",
+        "How finely should peaches be chopped to avoid icy large pieces while retaining desired texture?",
+        "Modern2cupspeaches is same nominal volume as1pint, but source explicitlypitted/chopped; lemon1tbsp is a distinct modern measure, not asserted½lemon yield.",
+        "Original8portions is planning, no quart-output claim."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Peach%20Ice%20Cream.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual full Saveur August2022 page differs from native/b7/045 pintpeaches/halflemon/near-finishfruit: modern2cups pitted/1tbsp juice/fruitfoldafter2hfreeze+another2h. Keep main native/current quantities, fullcream/sugar/currentaddedseasalt and current½cup tempermilk interpreted1/3ofalreadyallocatedmilk; source¼cup is1/6 original1½milk, complete alternative below. No lemonyield conversion or guaranteed noncurdling. The native and modern Saveur formulas omit salt; the full pinch remains exclusively in the current main. In the modern branch, all cream follows the cooked milk/egg/sugar custard off heat; 160°F and prompt cooling remain editorial FDA applications.",
+      "questions": [
+        "Actual ice-cream maker model/fill limit/bowl recovery and fruit allowance remain necessary before batching.",
+        "How finely should peaches be chopped to avoid icy large pieces while retaining desired texture?",
+        "Modern2cupspeaches is same nominal volume as1pint, but source explicitlypitted/chopped; lemon1tbsp is a distinct modern measure, not asserted½lemon yield.",
+        "Original8portions is planning, no quart-output claim."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 pint Ripe Peaches, chopped (skin-on)",
+        "actualMethodDestination": "step1macerate/step6drain/7fruit"
+      },
+      {
+        "text": "1 1/2 cups Whole Milk",
+        "actualMethodDestination": "step2simmer/3borrow½cup/4allcustard"
+      },
+      {
+        "text": "1 1/4 cups Heavy Cream",
+        "actualMethodDestination": "step5cream"
+      },
+      {
+        "text": "1 1/4 cups Granulated Sugar (divided)",
+        "actualMethodDestination": "step1½cup/3¾cup"
+      },
+      {
+        "text": "2 large Eggs + 2 large Egg Yolks",
+        "actualMethodDestination": "step3custard"
+      },
+      {
+        "text": "1/2 Lemon, juiced (The Acid Balance)",
+        "actualMethodDestination": "step1fruit"
+      },
+      {
+        "text": "Pinch of Sea Salt",
+        "actualMethodDestination": "NOmethoddestination"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 pint Ripe Peaches, chopped (skin-on)",
+        "actualMethodDestination": "step1fruitmacerate/6syrupintobase/7fruitnearfinish; listed scaled amount measured after chopping (CFD04-I01)"
+      },
+      {
+        "text": "1 1/2 cups Whole Milk",
+        "actualMethodDestination": "step2simmer/3borrow1/3andreturnall/4custard"
+      },
+      {
+        "text": "1 1/4 cups Heavy Cream",
+        "actualMethodDestination": "step5cream"
+      },
+      {
+        "text": "1 1/4 cups Granulated Sugar (divided)",
+        "actualMethodDestination": "step1fruit2/5/step3custard3/5"
+      },
+      {
+        "text": "2 large Eggs + 2 large Egg Yolks",
+        "actualMethodDestination": "step3custard"
+      },
+      {
+        "text": "1/2 Lemon, juiced (The Acid Balance)",
+        "actualMethodDestination": "step1fruit; all juice from listed scaled lemon portion (CFD04-I01)"
+      },
+      {
+        "text": "Pinch of Sea Salt",
+        "actualMethodDestination": "step3custard"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "1 1/2 cups whole milk\n2 eggs\n2 egg yolks\n1 1/4 cups sugar\n1 1/4 cups heavy cream\n1 pint ripe peaches, chopped, with peel on\nJuice of 1/2 lemon",
+      "directions": "Place milk in the top of a double boiler and bring just to a simmer over gently boiling water over medium heat.\n\nMeanwhile, whisk together eggs, egg yolks, and 3/4 cup of the sugar in a mixing bowl. Lightly whisk 1/4 cup of the hot milk into egg mixture, then whisk egg mixture into remaining milk in top of double boiler. Cook, stirring constantly with a wooden spoon, until mixture is thick enough to coat back of a spoon, about 15 minutes.\n\nTransfer mixture to a mixing bowl; stir in 1 1/4 cups heavy cream; refrigerate until cold.\n\nCombine peaches, remaining sugar, and lemon juice in a mixing bowl; the peel will add a rosy color. Cover and refrigerate for 2 hours.\n\nDrain and stir accumulated peach juices into cream base (return fruit to the refrigerator). Pour base into an ice cream maker and process according to manufacturer's directions. Just before mixture is set, add peaches.",
+      "notes": "",
+      "scope": "Exact durable original450 binding; original Directions contain ingredient supplies for incomplete Cake ingredient scrape, preserved privately"
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare fruit: Wash, pit and chop the skin-on peaches; measure the listed amount as chopped fruit, not a count of whole peaches. Mix with 2/5 of the total sugar and all the juice from the washed, listed lemon portion. Cover and refrigerate at least 2 hours."
+    },
+    {
+      "step": 2,
+      "text": "Heat milk: Place all the milk in the top of a double boiler over gently simmering water and bring the milk just to a simmer."
+    },
+    {
+      "step": 3,
+      "text": "Temper eggs: Whisk all the eggs and yolks with the remaining 3/5 sugar and the listed pinch of salt. Slowly whisk about 1/3 of the hot milk into this mixture, then return all of it to the remaining hot milk. The tempering milk is borrowed from the full listed milk, not extra milk."
+    },
+    {
+      "step": 4,
+      "text": "Cook custard: Stir continuously over gentle heat until the custard coats the back of the spoon and reaches 160°F /71°C, checking the stirred mixture with a thermometer away from the bowl bottom. Start checking around 15 minutes rather than cooking for an exact duration. Do not boil the custard. No raw egg tasting."
+    },
+    {
+      "step": 5,
+      "text": "Cool and chill: Transfer to a clean bowl and whisk in all the cream. Cool promptly, using shallow containers or a clean bowl in an ice-water bath while stirring; keep bath water out. Cover and refrigerate until thoroughly cold, allowing at least 4 hours as the current planning reference. Do not leave it on the counter for that chilling period."
+    },
+    {
+      "step": 6,
+      "text": "Drain and divide: Drain the peaches into the cold custard, stirring in all the collected syrup. Return the fruit to the refrigerator. If the full base exceeds the actual ice-cream maker’s maximum fill, divide all the well-mixed base and fruit proportionally among churn batches, keeping unused portions refrigerated."
+    },
+    {
+      "step": 7,
+      "text": "Churn: Churn the cold base according to the actual machine’s instructions. Add each batch’s allocated peaches near the finish if the machine permits, or fold them into the finished soft ice cream so the full fruit amount is used without overloading the machine."
+    },
+    {
+      "step": 8,
+      "text": "Firm: Transfer to covered freezer-safe containers with expansion room and freeze about 2 hours or longer until the desired firmness. Serve promptly after scooping."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Milk tempering",
+      "alternative": "For the saved source route, temper with about 1/6 of the listed milk rather than 1/3, then return all of it to the remaining milk. Keep all other quantities and the 160°F custard endpoint.",
+      "effect": "Original 1½ cups milk gives ¼ cup for this source method; the main’s ⅓ share gives ½ cup. Both reuse the same full milk supply."
+    },
+    {
+      "ingredient": "Fruit and finishing route",
+      "alternative": "For the modern Saveur route, use 2 cups coarsely chopped pitted skin-on peaches and 1 tablespoon lemon juice for the original batch instead of the pint-fruit/half-lemon measures, scaling each proportionally. Omit the listed pinch of salt in this exclusive route; keep it in the main above. Macerate the fruit with the same 2/5 sugar. Cook the custard made from all the milk, eggs, yolks and remaining 3/5 of the sugar to 160°F, borrowing 1/6 of the milk for tempering and returning all of it to the custard. Stir in all the cream off heat. Cool promptly. Chill the custard at least 4 hours and fruit at least 2 hours, up to 24 hours for either in the refrigerator. Drain all syrup into the custard and churn it without the fruit. Freeze about 2 hours until nearly firm, fold in all the cold fruit, then freeze about another 2 hours until set.",
+      "effect": "A complete distinct modern publisher route; no assertion that 1 tablespoon equals juice from ½ lemon. The two post-churn freezes add elapsed time."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "cranberry-crunch"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found for these six; metadata suggestions do not add ingredients or confer whole-review credit to linked recipes. KeyLime linked bakedPie is not an exact flavor/formula match and heldclaim notendorsed."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8",
+    "yieldScope": "Preserved planning portions/count; no tested mass/volume or nutrition",
+    "capacity": "Check the actual machine’s maximum liquid fill and preparation instructions. Split the fully mixed chilled base into batches if needed, keeping unused base refrigerated. Allow expansion space and re-freeze a removable bowl between batches when its instructions require it; extra batches add elapsed time.",
+    "timing": "Plan about 20–35 minutes active fruit/custard preparation, at least 4 hours custard chilling with the 2-hour fruit maceration overlapping, machine-directed churning and about 2 hours or longer firming. Allow roughly 7–9 hours total or longer; extra churn loads or overnight chilling extend elapsed time.",
+    "formula": "Core total rich measures unchanged. Legacy bounded method/destination, exact proportional allocations and separately documented complete source variants; no authored formula present/migration forced."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 pint Ripe Peaches, chopped (skin-on)",
+        "3/8 cup Whole Milk",
+        "0.31 cup Heavy Cream",
+        "0.31 cup Granulated Sugar (divided)",
+        "1/2 large Egg + 1/2 large Egg Yolk",
+        "1/8 Lemon, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 pint Ripe Peaches, chopped (skin-on)",
+        "3/4 cup Whole Milk",
+        "5/8 cup Heavy Cream",
+        "5/8 cup Granulated Sugar (divided)",
+        "1 large Egg + 1 large Egg Yolk",
+        "1/4 Lemon, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 pint Ripe Peaches, chopped (skin-on)",
+        "1 1/2 cups Whole Milk",
+        "1 1/4 cups Heavy Cream",
+        "1 1/4 cups Granulated Sugar (divided)",
+        "2 large Eggs + 2 large Egg Yolks",
+        "1/2 Lemon, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 pints Ripe Peaches, chopped (skin-on)",
+        "2 1/4 cups Whole Milk",
+        "1 7/8 cups Heavy Cream",
+        "1 7/8 cups Granulated Sugar (divided)",
+        "3 large Eggs + 3 large Egg Yolks",
+        "3/4 Lemon, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 pints Ripe Peaches, chopped (skin-on)",
+        "3 cups Whole Milk",
+        "2 1/2 cups Heavy Cream",
+        "2 1/2 cups Granulated Sugar (divided)",
+        "4 large Eggs + 4 large Egg Yolks",
+        "1 Lemon, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 pints Ripe Peaches, chopped (skin-on)",
+        "4 1/2 cups Whole Milk",
+        "3 3/4 cups Heavy Cream",
+        "3 3/4 cups Granulated Sugar (divided)",
+        "6 large Eggs + 6 large Egg Yolks",
+        "1 1/2 Lemons, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 pint Ripe Peaches, chopped (skin-on)",
+        "1 1/2 cups Whole Milk",
+        "1 1/4 cups Heavy Cream",
+        "1 1/4 cups Granulated Sugar (divided)",
+        "2 large Eggs + 2 large Egg Yolks",
+        "1/2 Lemon, juiced (The Acid Balance)",
+        "Pinch of Sea Salt"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All current measured richness/sourceURL/cuisines/rating/title/identity/enabledscaling and useful method options preserved; native alternatives are documented, not inferred deliberately rejected from bulkpersistence.",
+  "remainingQuestions": [
+    "Actual ice-cream maker model/fill limit/bowl recovery and fruit allowance remain necessary before batching.",
+    "How finely should peaches be chopped to avoid icy large pieces while retaining desired texture?",
+    "Modern2cupspeaches is same nominal volume as1pint, but source explicitlypitted/chopped; lemon1tbsp is a distinct modern measure, not asserted½lemon yield.",
+    "Original8portions is planning, no quart-output claim."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

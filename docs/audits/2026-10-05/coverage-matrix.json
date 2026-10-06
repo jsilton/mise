@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 468,
-    "completeEditorialPending": 175,
+    "recordedCompleteEditorial": 479,
+    "completeEditorialPending": 164,
     "originalBaseline": 612,
-    "originalReviewed": 436,
+    "originalReviewed": 446,
     "consideredConsolidations": 10,
-    "originalPending": 166,
+    "originalPending": 156,
     "additionalSources": 41,
-    "additionalReviewed": 32,
-    "additionalPending": 9,
+    "additionalReviewed": 33,
+    "additionalPending": 8,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 468,
+      "editoriallyReviewed": 479,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 335
+      "reviewItems": 314
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "234 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 468 recorded complete / 175 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [63382586](https://github.com/jsilton/mise/commit/633825861e9687843b532d4f9fdfa0273e6a5e15), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37454705788) and all 10 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "234 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5957,18 +5957,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thatskinnychickcanbake.com",
       "sourceUrl": "https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5976,19 +5965,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-chip-cookie-cake.md",
+        "acceptedSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-chip-cookie-cake.json",
+        "sourceSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Exactdeep14-inchpan depth unspecified; arbitrarysheetpan adaptation not validated.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6258,18 +6254,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6277,19 +6262,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-souffle.md",
+        "acceptedSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-souffle.json",
+        "sourceSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does the160°F center preserve desired lift and slight jiggle in the actual6cupdish? Kitchen test required.",
+        "Current one-tablespoon coating is bulk-added precision over native asneeded; retain main and separately preserve saved unmeasured coating option, no formula certification.",
+        "Source2–4portions/current4 are planning, not measured yield.",
+        "Actual dish geometry/thermometer thin probe and scaled smaller dishes need kitchen checks."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6769,18 +6762,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Saveur.com",
       "sourceUrl": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6788,19 +6770,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/classic-peach-ice-cream.md",
+        "acceptedSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/classic-peach-ice-cream.json",
+        "sourceSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual ice-cream maker model/fill limit/bowl recovery and fruit allowance remain necessary before batching.",
+        "How finely should peaches be chopped to avoid icy large pieces while retaining desired texture?",
+        "Modern2cupspeaches is same nominal volume as1pint, but source explicitlypitted/chopped; lemon1tbsp is a distinct modern measure, not asserted½lemon yield.",
+        "Original8portions is planning, no quart-output claim."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -7368,18 +7358,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Hamilton/Gwock Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -7387,19 +7366,29 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cranberry-crunch.md",
+        "acceptedSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/cranberry-crunch.json",
+        "sourceSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Native marine shorthand does not verify a particular margarine product or spoon conversion; current full½cupbutter preserved.",
+        "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+        "Actual reheated topping texture and storage quality remain kitchen questions; no new day limit or reheating clock is supplied."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9324,18 +9313,7 @@
       "baseline": "original canonical",
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9343,19 +9321,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/easy-oreo-truffles.md",
+        "acceptedSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/easy-oreo-truffles.json",
+        "sourceSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cookie brand/size and ball scoop affect count;42is sourceplanning, notprecision.",
+        "Does the full16oz chocolate comfortably coat the actual balls with the chosen dipping method? Retained bowl remainder is not permission to reduce listed supply.",
+        "How long must the melted coating cool to avoid softening balls? No unsupported temperature or testedclock added."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9629,13 +9614,7 @@
       "baseline": "addition",
       "source": "Allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9643,19 +9622,26 @@
         "evidence": ["docs/reviews/eggless-strawberry-ice-cream.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/eggless-strawberry-ice-cream.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/eggless-strawberry-ice-cream.json",
+        "sourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual machine max fill and bowl re-freeze schedule govern the greater-than-six-cups ingredient load; no churnedquart yield inferred.",
+        "How does the full lemon amount affect the dairy after mixing in the actual products? No acid reduction proposed.",
+        "Current8portions and3–5hour plan remain source/currentplanning; chilling may take longer after warm blender processing or extra loads."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10024,18 +10010,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Jodi Silton",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10043,19 +10018,30 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/farfel-muffins.md",
+        "acceptedSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/farfel-muffins.json",
+        "sourceSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Actual family muffin-cup geometry and salt crystal brand are absent; eight-count planning and current1tsp are not original precision.",
+        "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10107,18 +10093,7 @@
       "baseline": "original canonical",
       "source": "Adapted from sallysbakingaddiction.com",
       "sourceUrl": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10126,19 +10101,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/favorite-cream-cheese-frosting.md",
+        "acceptedSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/favorite-cream-cheese-frosting.json",
+        "sourceSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Actual piping shape and coverage depend on cake size/product; source grams differ between retained original and modern page, no guessed equivalence.",
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+        "The chocolate frosting is a separate unprovided recipe. This does not authorize substituting its quantities or claim that it was reviewed here."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10263,18 +10246,7 @@
       "baseline": "original canonical",
       "source": "Adapted from kingarthurbaking.com",
       "sourceUrl": "https://www.kingarthurbaking.com/blog/2008/04/10/flour-takes-a-passover-break-and-chocolate-steps-into-the-breach",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10282,19 +10254,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/flourless-chocolate-cake.md",
+        "acceptedSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/flourless-chocolate-cake.json",
+        "sourceSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual8inch pan depth/darkness and cooling environment influence time; no tested capacity supplied.",
+        "How long does full glaze set at actual kitchen/fridge temperature?",
+        "Source chocolate chips170g/cup and cocoa43g/½cup are product/source equivalents, not allbrands density.",
+        "Cake recipe10portions is currentplanning; native yield absent."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11838,18 +11818,7 @@
       "baseline": "original canonical",
       "source": "Adapted from glutenfreepalate.com",
       "sourceUrl": "https://www.glutenfreepalate.com/gluten-free-lemon-cupcakes/#mv-creation-79-jtr",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11857,19 +11826,28 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/gluten-free-lemon-cupcakes.md",
+        "acceptedSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/gluten-free-lemon-cupcakes.json",
+        "sourceSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Current2tbsp vs source3–4tbsp frostingmilk consistency requires cooking; preserve exclusive complete routes.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13126,18 +13104,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13145,19 +13112,29 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/healthy-apple-muffins.md",
+        "acceptedSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/healthy-apple-muffins.json",
+        "sourceSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Current squeezed-dry vs source gentlysqueezeifdripping moisture and source-specific replacement texture require cooking.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "How do the selected oil and ingredient temperatures affect this batter? No exact temperature or new heating duration is supplied.",
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

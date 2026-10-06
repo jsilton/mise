@@ -1,0 +1,467 @@
+{
+  "slug": "favorite-cream-cheese-frosting",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "6cf4e681723cfec0b4d2e63141fddf3f3fb9ae9ca3cb20948782af6cbc590e92",
+  "acceptedSourceSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "About 5–10 min after softening, plus optional 20–30 min piping chill"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Full-fat Block Cream Cheese, softened",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
+        "3 cups Confectioners’ Sugar (plus extra if needed)",
+        "1 tsp Pure Vanilla Extract",
+        "1/8 tsp Sea Salt (The Finishing Touch)"
+      ],
+      "after": [
+        "8 oz Full-fat Block Cream Cheese, softened",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
+        "3 cups Confectioners’ Sugar",
+        "1 tsp Pure Vanilla Extract",
+        "1/8 tsp Sea Salt (The Finishing Touch)",
+        "1/4 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1035,
+        "protein": 6,
+        "carbs": 206,
+        "fat": 26.5,
+        "fiber": 0,
+        "sugar": 204,
+        "sodium": 1070
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match frosting consistency to its job",
+        "outcome": "Smooth creamy frosting without lumps, suitable for spreading or simple chilled piping.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use softened full-fat block cream cheese and softened butter. Keep the optional extra sugar distinct from the full main amount.",
+          "The original batch is a source estimate of about 3 cups, enough for 12–18 cupcakes or one 9×13-inch quarter-sheet cake. The source suggests 1.5 batches for a double-layer cake; layer size and decoration change the amount needed."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "No cream-cheese or butter lumps.",
+            "why": "Sugar makes persistent unmixed lumps harder to smooth later."
+          },
+          {
+            "step": 2,
+            "cue": "Smooth creamy frosting, not necessarily stiff peaks.",
+            "why": "Cream cheese is softer than buttercream; overpromising stability makes decoration unreliable."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The frosting is too loose for piping",
+            "cause": "Tub cream-cheese spread, overly warm ingredients or ambitious piping can exceed this formula’s structure.",
+            "fix": "Use block cream cheese, chill briefly and choose simple piping; use the optional listed sugar only if desired."
+          }
+        ],
+        "timing": "About 5–10 minutes active mixing after ingredients soften. Optional piping chill adds 20–30 minutes; making ahead adds refrigerator/freezer time.",
+        "substitutions": [
+          {
+            "ingredient": "Mixer attachment",
+            "alternative": "Use a handheld mixer or stand-mixer whisk instead of the paddle, following the same low-speed sugar incorporation and smoothness cues.",
+            "effect": "Both attachments are in the source; a whisk does not inherently make frosting weep."
+          },
+          {
+            "ingredient": "Layer-cake coverage",
+            "alternative": "Scale the entire formula rather than adding arbitrary cream cheese, milk or sugar. For a different cake-specific frosting ratio, use that cake’s complete frosting recipe.",
+            "effect": "The original note points to separate cake formulas; an unmeasured splash is not a defined ratio here."
+          }
+        ],
+        "storage": "The publisher gives up to 5 days covered in the refrigerator or up to 3 months frozen as recipe storage/quality plans. Keep covered at 40°F /4°C or below. Count preparation and serving toward 2 hours outside refrigeration, or 1 hour above 90°F /32°C. Freeze covered and thaw in the refrigerator, then beat briefly until creamy. The same cold handling applies to frosted cakes.",
+        "sources": [
+          {
+            "title": "Sally’s Baking — Favorite Cream Cheese Frosting",
+            "url": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is our go-to cream cheese frosting for all cakes. The secret to frosting that isn't runny is temperature control: both the butter and cream cheese must be softened to the same temperature before starting. This ensures they emulsify perfectly into a stable, smooth frosting. Use the paddle attachment rather than a whisk to incorporate the sugar; this provides a dense, silky texture without introducing too many air bubbles, which would cause the frosting to \"weep\" over time.\n\n## Directions\n\n1.  **Cream:** In a large bowl using a stand mixer with the paddle attachment, beat the cream cheese and butter on high speed for exactly 2 minutes until perfectly smooth and creamy.\n2.  **Incorporate:** Reduce speed to low. Add 3 cups of confectioners’ sugar, vanilla, and salt.\n3.  **Aeration:** Once the sugar is mostly mixed in, switch to high speed and beat for 2-3 minutes. The frosting should be light, fluffy, and hold a stiff peak.\n4.  **Adjust:** If you prefer a thicker consistency for piping, add the additional 1/4 cup of sugar.\n5.  **Store:** Use immediately or refrigerate for up to 5 days. If chilled, let sit at room temp for 30 minutes and beat briefly before using to restore the \"Bounce.\"\n",
+    "after": "\n## Chef's Note\n\nUse full-fat block cream cheese rather than tub spread. Softened butter and cream cheese should blend smoothly, but neither needs an exact matching temperature. Start the sugar on low speed, then beat until creamy; cream cheese frosting is softer than buttercream and does not promise stiff, intricate piping.\n\n## Directions\n\n1. **Blend:** In a large bowl, beat all the softened cream cheese and butter until smooth and creamy. Use a stand mixer with paddle or whisk, or a handheld mixer. Scrape the bowl and use smoothness rather than an exact two-minute promise.\n2. **Add sugar:** On low speed, add all the main confectioners’ sugar, vanilla and salt. Beat about 30 seconds until the sugar is incorporated, then increase speed and beat about 2 minutes or until creamy, scraping as needed.\n3. **Adjust:** If a thicker frosting is desired, beat in the separate listed optional extra sugar, not a second main sugar supply. If piping, the publisher suggests chilling the filled piping bag about 20–30 minutes; keep to simple shapes rather than expecting buttercream stiffness.\n4. **Use or store:** Frost only completely cooled baked goods. Cover and refrigerate unused frosting promptly. After chilling or refrigerator thawing, allow only brief softening as needed and beat for a few seconds to restore a creamy consistency; keep this time within the cumulative cold-handling limits below.\n\n## Cooking Notes\n\nFor taller carrot or red velvet cakes, use the complete frosting formula in that cake recipe. Sally McKenney’s chocolate cream cheese frosting is a separate recipe with its own ingredient amounts and method.\n"
+  },
+  "findings": [
+    {
+      "id": "BFD06-3",
+      "title": "BFD06-3",
+      "rationale": "Exact native/045/current publisher has3cup sugar plusoptional¼cup, paddle ORwhisk, smoothness notexactmatchedtemp/perfectemulsion/stiffpeak guarantee. bc0 lost freezer/coverage notes and invented exact2minutes/whiskweeping. Restore exact measured optional sugar separately, all main richness unchanged. Original224g/115g vs modern226g/113g are genuine source differences; no guessed conversion or new coreweights.",
+      "confidence": "High exact source/history/quantity proof; moderate method-planning/storage/category applications, untested",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original450 stable binding, complete ingredients/directions/notes; preserved source amounts and options only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed cooking and ingredient change trace, no inference of household intent from persistence"
+        },
+        {
+          "url": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
+          "scope": "Actual primary publisher complete recipe/options/storage, with saved/current differences above"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual cleanproduce/rawcontact/refrigeration40/cumulative2hour1above90handling only; does not validate formula/yield/storagequality"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Actual piping shape and coverage depend on cake size/product; source grams differ between retained original and modern page, no guessed equivalence."
+      ]
+    },
+    {
+      "id": "BFD06-I05",
+      "title": "BFD06-I05",
+      "rationale": "Cranberry’s full source and method give a 45–60-minute baking range, while its cook label gives only 45. Frosting’s 5-minute source card begins with softened ingredients and excludes the optional 20–30-minute piping chill now included in the method; state those starting conditions. Farfel hydration/cooling is waiting, not 15–25 minutes of active preparation. Retain the existing rough elapsed planning range, explicitly allowing the real cooling/preheat/batch dependency rather than treating it as a measured kitchen result.",
+      "confidence": "High source clocks/contradictions; moderate unmeasured 40–60-minute Farfel planning range.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 45–60-minute original bake clock."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Source prep5 after ingredients soften."
+        },
+        {
+          "url": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
+          "scope": "Actual optional 20–30-minute piping chill."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "15-minute prep label,20-minute bake and required hydration/cooling without a supplied cooling duration."
+        },
+        {
+          "reference": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Consistent active/elapsed clocks and rests/starting states."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here."
+      ]
+    },
+    {
+      "id": "BFD06-I06",
+      "title": "BFD06-I06",
+      "rationale": "The exact native notes name a separate chocolate cream cheese frosting recipe alongside the carrot/red velvet coverage references. The proposed generic layer guidance does not preserve that named option. Retain it as an unprovided separate recipe; no invented cocoa quantity, new frosting ratio, internal recipe ID or link.",
+      "confidence": "High named-reference preservation; separate chocolate formula not reviewed or supplied in this recipe.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Original complete notes name chocolate/carrot/red velvet recipes."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "bc0 removed those source notes; no later explicit source-option rejection established."
+        },
+        {
+          "url": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
+          "scope": "Current primary notes still name the separate chocolate formula and distinct taller-layer formulas."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "The chocolate frosting is a separate unprovided recipe. This does not authorize substituting its quantities or claim that it was reviewed here."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Favorite%20Cream%20Cheese%20Frosting.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact native/045/current publisher has3cup sugar plusoptional¼cup, paddle ORwhisk, smoothness notexactmatchedtemp/perfectemulsion/stiffpeak guarantee. bc0 lost freezer/coverage notes and invented exact2minutes/whiskweeping. Restore exact measured optional sugar separately, all main richness unchanged. Original224g/115g vs modern226g/113g are genuine source differences; no guessed conversion or new coreweights.",
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Actual piping shape and coverage depend on cake size/product; source grams differ between retained original and modern page, no guessed equivalence."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Full-fat Block Cream Cheese, softened",
+        "actualMethodDestination": "Cream step1"
+      },
+      {
+        "text": "1/2 cup (1 stick) Unsalted Butter, softened",
+        "actualMethodDestination": "Cream step1"
+      },
+      {
+        "text": "3 cups Confectioners’ Sugar (plus extra if needed)",
+        "actualMethodDestination": "Main3cupsstep2 and vagueextra step4"
+      },
+      {
+        "text": "1 tsp Pure Vanilla Extract",
+        "actualMethodDestination": "step2"
+      },
+      {
+        "text": "1/8 tsp Sea Salt (The Finishing Touch)",
+        "actualMethodDestination": "step2"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz Full-fat Block Cream Cheese, softened",
+        "actualMethodDestination": "AllBlend1"
+      },
+      {
+        "text": "1/2 cup (1 stick) Unsalted Butter, softened",
+        "actualMethodDestination": "AllBlend1"
+      },
+      {
+        "text": "3 cups Confectioners’ Sugar",
+        "actualMethodDestination": "Allmain3cupAdd2"
+      },
+      {
+        "text": "1 tsp Pure Vanilla Extract",
+        "actualMethodDestination": "AllAdd2"
+      },
+      {
+        "text": "1/8 tsp Sea Salt (The Finishing Touch)",
+        "actualMethodDestination": "AllAdd2"
+      },
+      {
+        "text": "1/4 cup additional Confectioners’ Sugar, optional for a thicker frosting",
+        "actualMethodDestination": "Separateoptional¼cupAdjust3"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "8 ounces (224g) full-fat block cream cheese, softened to room temperature\n1/2 cup (115g) unsalted butter, softened to room temperature\n3 cups (360g) confectioners’ sugar, plus an extra 1/4 cup if needed\n1 teaspoon pure vanilla extract\n1/8 teaspoon salt",
+      "directions": "In a large bowl using a handheld or stand mixer fitted with a paddle or whisk attachment, beat the cream cheese and butter together on high speed until smooth and creamy. Add 3 cups confectioners’ sugar, the vanilla, and salt. Beat on low speed for 30 seconds, then switch to high speed and beat for 2 minutes. If you want the frosting a little thicker, add the extra 1/4 cup of confectioners sugar (I add it).\n\nCover and store leftover frosting for up to 5 days in the refrigerator or up to 3 months in the freezer. After freezing, thaw in the refrigerator then beat the frosting for a few seconds so it’s creamy again.",
+      "notes": "Quantity: This recipe is enough to frost 12-18 cupcakes or one 9×13 quarter sheet cake. 1.5x the recipe for a double layer cake or add extra cream cheese, confectioners’ sugar, and a splash of milk or cream as shown in my carrot cake and red velvet cake recipes. (Doubling the recipe would be far too much.)\n\nChocolate: Here is my chocolate cream cheese frosting recipe."
+    },
+    "frozenMethodOnly": ["optional¼cupadditionstep4 onlyvagueingredient"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Blend: In a large bowl, beat all the softened cream cheese and butter until smooth and creamy. Use a stand mixer with paddle or whisk, or a handheld mixer. Scrape the bowl and use smoothness rather than an exact two-minute promise."
+    },
+    {
+      "step": 2,
+      "text": "Add sugar: On low speed, add all the main confectioners’ sugar, vanilla and salt. Beat about 30 seconds until the sugar is incorporated, then increase speed and beat about 2 minutes or until creamy, scraping as needed."
+    },
+    {
+      "step": 3,
+      "text": "Adjust: If a thicker frosting is desired, beat in the separate listed optional extra sugar, not a second main sugar supply. If piping, the publisher suggests chilling the filled piping bag about 20–30 minutes; keep to simple shapes rather than expecting buttercream stiffness."
+    },
+    {
+      "step": 4,
+      "text": "Use or store: Frost only completely cooled baked goods. Cover and refrigerate unused frosting promptly. After chilling or refrigerator thawing, allow only brief softening as needed and beat for a few seconds to restore a creamy consistency; keep this time within the cumulative cold-handling limits below."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Mixer attachment",
+      "alternative": "Use a handheld mixer or stand-mixer whisk instead of the paddle, following the same low-speed sugar incorporation and smoothness cues.",
+      "effect": "Both attachments are in the source; a whisk does not inherently make frosting weep."
+    },
+    {
+      "ingredient": "Layer-cake coverage",
+      "alternative": "Scale the entire formula rather than adding arbitrary cream cheese, milk or sugar. For a different cake-specific frosting ratio, use that cake’s complete frosting recipe.",
+      "effect": "The original note points to separate cake formulas; an unmeasured splash is not a defined ratio here."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "classic-carrot-cake",
+      "breakfast-carrot-cake",
+      "funfetti-cake-from-scratch-and-an-unbirthday"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found. Metadata pairings do not substitute linked formulas or grant review status; frosting yield is a source coverage plan, cakes retain own full frosting formulas."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "3 cups",
+    "yieldScope": "Preserved source/current planning only, no kitchen yield precision",
+    "capacity": [
+      "Use softened full-fat block cream cheese and softened butter. Keep the optional extra sugar distinct from the full main amount.",
+      "The original batch is a source estimate of about 3 cups, enough for 12–18 cupcakes or one 9×13-inch quarter-sheet cake. The source suggests 1.5 batches for a double-layer cake; layer size and decoration change the amount needed."
+    ],
+    "timing": "About 5–10 minutes active mixing after ingredients soften. Optional piping chill adds 20–30 minutes; making ahead adds refrigerator/freezer time.",
+    "formula": "All core measured supplies preserved in the legacy ingredients and method; separately disclosed pan/serving supplies and exclusive source options. No authored formula migration."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz Full-fat Block Cream Cheese, softened",
+        "1/8 cup (1/4 stick) Unsalted Butter, softened",
+        "3/4 cup Confectioners’ Sugar",
+        "1/4 tsp Pure Vanilla Extract",
+        "0.0313 tsp Sea Salt (The Finishing Touch)",
+        "0.0625 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "3/4 cup",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz Full-fat Block Cream Cheese, softened",
+        "1/4 cup (1/2 stick) Unsalted Butter, softened",
+        "1 1/2 cups Confectioners’ Sugar",
+        "1/2 tsp Pure Vanilla Extract",
+        "0.0625 tsp Sea Salt (The Finishing Touch)",
+        "1/8 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "1 1/2 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz Full-fat Block Cream Cheese, softened",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
+        "3 cups Confectioners’ Sugar",
+        "1 tsp Pure Vanilla Extract",
+        "1/8 tsp Sea Salt (The Finishing Touch)",
+        "1/4 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "3 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz Full-fat Block Cream Cheese, softened",
+        "3/4 cup (1 1/2 sticks) Unsalted Butter, softened",
+        "4 1/2 cups Confectioners’ Sugar",
+        "1 1/2 tsp Pure Vanilla Extract",
+        "0.19 tsp Sea Salt (The Finishing Touch)",
+        "3/8 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "4 1/2 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz Full-fat Block Cream Cheese, softened",
+        "1 cup (2 sticks) Unsalted Butter, softened",
+        "6 cups Confectioners’ Sugar",
+        "2 tsp Pure Vanilla Extract",
+        "1/4 tsp Sea Salt (The Finishing Touch)",
+        "1/2 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "6 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz Full-fat Block Cream Cheese, softened",
+        "1 1/2 cups (3 sticks) Unsalted Butter, softened",
+        "9 cups Confectioners’ Sugar",
+        "3 tsp Pure Vanilla Extract",
+        "3/8 tsp Sea Salt (The Finishing Touch)",
+        "3/4 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "9 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz Full-fat Block Cream Cheese, softened",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
+        "3 cups Confectioners’ Sugar",
+        "1 tsp Pure Vanilla Extract",
+        "1/8 tsp Sea Salt (The Finishing Touch)",
+        "1/4 cup additional Confectioners’ Sugar, optional for a thicker frosting"
+      ],
+      "yield": "3 cups",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All current measured core ingredients/source/title/rating/identity/cuisines/controls kept; priorrest/cool/cook cues retained where supported.",
+  "remainingQuestions": [
+    "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+    "Actual piping shape and coverage depend on cake size/product; source grams differ between retained original and modern page, no guessed equivalence.",
+    "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+    "The chocolate frosting is a separate unprovided recipe. This does not authorize substituting its quantities or claim that it was reviewed here."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

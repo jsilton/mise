@@ -1,0 +1,707 @@
+{
+  "slug": "healthy-apple-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "81d605e025ef770e0caa51b0c78099257e04739a4c60c10b50fac21a42f8265c",
+  "acceptedSourceSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 40–60 min, including cooling before packing"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 muffins"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 340,
+        "protein": 5.5,
+        "carbs": 39,
+        "fat": 19,
+        "fiber": 3,
+        "sugar": 23,
+        "sodium": 380
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Incorporate flour without prolonged mixing",
+        "outcome": "Set apple-filled muffins with a crunchy sugar top and no dry flour pockets.",
+        "techniques": ["temperature"],
+        "before": [
+          "The original batch plans 12 standard muffins. Keep the diced apple pieces about 1/4 inch and divide all batter and the full turbinado topping among enough same-sized cups with expansion room. Extra oven loads add time; smaller cups need earlier center checks, and oven temperature and bake time do not multiply.",
+          "Squeeze the listed grated apple dry for this route. Alternatively, gently squeeze only if the measured grated apple is dripping wet; keep the same listed grated and diced volumes. The different moisture can change texture and bake time."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "No dry flour pockets after brief mixing.",
+            "why": "Unmixed flour is not a safeguard against toughness."
+          },
+          {
+            "step": 6,
+            "cue": "Muffins cool before covered packing.",
+            "why": "Warm enclosed muffins trap condensation."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dry flour remains while the batter otherwise looks mixed",
+            "cause": "The bottom of the bowl was not scraped.",
+            "fix": "Fold from the bottom until incorporated, then stop rather than deliberately leaving streaks or continuing to beat."
+          }
+        ],
+        "timing": "About 15–20 minutes active preparation, 13–16 minutes or longer baking and cooling; roughly 40–60 minutes elapsed before packing. Honey and extra batches use a different clock.",
+        "substitutions": [
+          {
+            "ingredient": "Flour",
+            "alternative": "Use the same listed volume of white whole wheat flour instead of regular whole wheat. The source also names gluten-free all-purpose blends as an option; use a baking blend rather than single almond or coconut flour.",
+            "effect": "Complete source choices; blend behavior and texture can differ, without a promise of identical results."
+          },
+          {
+            "ingredient": "Oil",
+            "alternative": "Replace the full olive oil with the same volume of melted coconut oil, allowed to cool until warm rather than hot before egg contact. Keep all other amounts. If the oil solidifies before wet mixing, gently rewarm it separately and let it cool until warm before adding it. Use eggs preferably at room temperature, and prepare the oil before mixing rather than microwaving a raw egg mixture.",
+            "effect": "Coconut oil can firm up on contact with cold ingredients; ingredient temperatures can change the batter texture."
+          },
+          {
+            "ingredient": "Honey",
+            "alternative": "Replace the full maple syrup with the same volume of honey. For this exclusive route bake at 325°F, beginning checks about 23–25 minutes for the original muffin size, until set with a clean toothpick. Keep every other amount and method stage.",
+            "effect": "The source lower-temperature honey route changes the clock; do not apply the main 425°F/13–16-minute plan."
+          },
+          {
+            "ingredient": "Dairy-free yogurt replacement",
+            "alternative": "Replace only the listed yogurt with a mixture of 1½ teaspoons vinegar and a scant ½ cup dairy-free milk for the original batch. Scale both proportionally, rest 5 minutes, then add at the wet-mixing stage. Keep all other supplies and destinations.",
+            "effect": "The source proposes this distinct yogurt replacement; it changes moisture and acidity. Do not simply replace yogurt with more applesauce."
+          },
+          {
+            "ingredient": "Egg-free or combined vegan route",
+            "alternative": "For each listed egg, prepare 1 tablespoon ground flaxseed with 3 tablespoons water; rest 10–15 minutes until gelled, then add all of it at the egg-mixing stage instead of eggs. For the combined vegan route also choose the complete dairy-free yogurt replacement. Keep the main maple syrup, full oil and all remaining measures and stages.",
+            "effect": "The author’s linked flax recipe establishes the replacement dose; it offers less structural support and can change texture/timing, without a promise of identical texture."
+          }
+        ],
+        "storage": "The source gives fully cooled muffins up to 2 days covered at room temperature, up to 4 days refrigerated or up to 3 months frozen as storage/quality plans. Pack only after cooling, freeze airtight and thaw covered; refrigerate promptly if adding a perishable topping.",
+        "sources": [
+          {
+            "title": "Cookie and Kate — Apple Muffins",
+            "url": "https://cookieandkate.com/healthy-apple-muffins-recipe/"
+          },
+          {
+            "title": "Cookie and Kate — Flax Eggs",
+            "url": "https://cookieandkate.com/flax-egg-recipe/"
+          },
+          {
+            "title": "FDA — Raw Flour",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCombining applesauce and Greek yogurt creates incredibly moist muffins without excessive oil - a healthier approach that maintains dense, cake-like texture. Including both grated apple (for moisture) and cubed apple (for textural crunch) ensures every bite has distinct character. Turbinado sugar sprinkled on top creates a crystalline, crunchy crust.\n\n## Directions\n\n1.  **Dry Mix:** Preheat oven to 425°F. In a large bowl, whisk together flour, baking powder, baking soda, cinnamon, and salt.\n2.  **The Apples:** Add the grated and cubed apples to the dry mix. Toss to coat - this prevents the fruit from sinking to the bottom.\n3.  **Wet Mix:** In a separate bowl, whisk oil, maple syrup, eggs, yogurt, applesauce, and vanilla until smooth and aerated.\n4.  **Combine:** Pour the wet into the dry. Stir with a spatula until **just combined**. A few streaks of flour are the mandatory guard against a tough muffin.\n5.  **Bake:** Divide into a lined 12-cup tin. Sprinkle the turbinado sugar over the tops. Bake at 425°F for 13-16 minutes until golden and a toothpick comes out clean.\n6.  **Cool:** Let cool in the pan for 5 minutes before removing.\n",
+    "after": "\n## Chef's Note\n\nGrated apple spreads through the batter while the small diced pieces remain distinct. Applesauce and Greek yogurt stay alongside the full oil and maple syrup amounts. Mix until the dry ingredients are incorporated without extended beating, and distribute the whole turbinado sugar supply over the tops.\n\n## Directions\n\n1. **Prepare and dry:** Preheat the oven to 425°F. Line enough standard muffin cups; the original batch plans 12. Wash apples before grating or dicing and measure the prepared amounts. Whisk all the flour, baking powder, baking soda, cinnamon and salt together.\n2. **Apples:** Add all the listed grated and diced apples to the dry mixture and stir to distribute them evenly.\n3. **Wet:** Whisk all the oil and maple syrup together, then whisk in all the eggs, yogurt, applesauce and vanilla until evenly mixed.\n4. **Combine:** Stir the complete wet mixture into the complete dry mixture only until incorporated. Small lumps are fine, but scrape the bottom and remove dry flour pockets; flour streaks are not required. Do not taste raw batter.\n5. **Bake:** Divide all thick batter evenly among enough lined cups, leaving expansion room and maintaining the original cup size and similar fill depth. Sprinkle all the turbinado sugar over the tops. Bake about 13–16 minutes as the original-batch first check, until golden with set centers and a toothpick coming out clean. Extra tins or batches add time.\n6. **Cool:** Cool in the pan about 5 minutes before carefully transferring to a rack to finish cooling; do not package warm muffins.\n"
+  },
+  "findings": [
+    {
+      "id": "BFD06-6",
+      "title": "BFD06-6",
+      "rationale": "38b29 bulk rewrite removed full native options, moisture nuance, storage and introduced mandatoryflourstreaks/healthmechanism claims. Fullfollowedlaterprose commits establish no explicit rejection. Preserve current14main amounts/olive/maple/squeezeddry preparation, restore exclusiveexactsourceoptions; actuallinkedprimary establishesflax1T+3T10–15min each notguessed. Do not microraw egg batter sourcewarming; conservative oil-before-eggssequence disclosed. No metadata classification change/nutrition claim.",
+      "confidence": "High exact source/history/quantity proof; moderate method-planning/storage/category applications, untested",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original450 stable binding, complete ingredients/directions/notes; preserved source amounts and options only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed cooking and ingredient change trace, no inference of household intent from persistence"
+        },
+        {
+          "url": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
+          "scope": "Actual primary publisher complete recipe/options/storage, with saved/current differences above"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual cleanproduce/rawcontact/refrigeration40/cumulative2hour1above90handling only; does not validate formula/yield/storagequality"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "servings",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Current squeezed-dry vs source gentlysqueezeifdripping moisture and source-specific replacement texture require cooking."
+      ]
+    },
+    {
+      "id": "BFD06-I02",
+      "title": "BFD06-I02",
+      "rationale": "The same row was inserted in five recipes. Cookie dough and a fruit crisp are not muffin batter, and “original-size pieces” has no defined meaning for the lemon cakes. Give the actual original vessel/count and proportional allocation decision without inventing pan depth, cup volume or yield precision.",
+      "confidence": "High source pan/count/cut statements; moderate proportional geometry advice, untested.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific preparation/teaching, honest clocks and yields, public cooking prose without archive history."
+        },
+        {
+          "reference": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Preserve useful ordinary cooking prose; keep review/editorial history private."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
+      ]
+    },
+    {
+      "id": "BFD06-I03",
+      "title": "BFD06-I03",
+      "rationale": "After oil has solidified against the other ingredients it cannot be separately rewarmed before those ingredients were combined. Move the conditional rewarm to before wet mixing. The source prefers room-temperature eggs and actually warms the combined mixture in 30-second microwave bursts; this proposal remains a conservative editorial sequence, not source verbatim and not a universal prohibition or model-specific microwave rule.",
+      "confidence": "High sequence contradiction and original states; moderate untested editorial preparation application.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full same-volume oil choice, preferred egg state and actual original warming sequence."
+        },
+        {
+          "url": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
+          "scope": "Current primary corroborates the same oil/egg states and combined-mixture warming; no separate-oil rescue after mixing."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Raw-egg handling scope only; no source-specific warming duration or ban supplied."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "How do the selected oil and ingredient temperatures affect this batter? No exact temperature or new heating duration is supplied."
+      ]
+    },
+    {
+      "id": "BFD06-I04",
+      "title": "BFD06-I04",
+      "rationale": "The exact family source names 8 muffins; the lemon source names 12 cupcakes, and the apple source method/current publisher plan 12 muffins. Bare numeric yields render as diners. Preserve the numeric counts and describe the actual piece unit rather than implying eight or twelve complete main-meal portions. The Farfel count remains a source plan with unspecified cup geometry.",
+      "confidence": "High exact planned count units; actual cooked count and serving sufficiency untested.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 8-muffin source yield; no cup size."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 12-cupcake source yield."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete original 12-cup method."
+        },
+        {
+          "url": "https://www.glutenfreepalate.com/gluten-free-lemon-cupcakes/",
+          "scope": "Current primary yield 12 cupcakes."
+        },
+        {
+          "url": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
+          "scope": "Current primary yield 12 muffins."
+        },
+        {
+          "reference": "src/lib/quantities.mjs",
+          "scope": "Actual count-unit formatting at .25/.5/1/1.5/2/3/reset; not culinary evidence."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal."
+      ]
+    },
+    {
+      "id": "BFD06-I07",
+      "title": "BFD06-I07",
+      "rationale": "“Saved,” “current main,” and “later editorial adaptation” narrate editing history on the cooking page. Keep the exact source options and their practical effects while retaining chronological differences in private records. Farfel’s actual useful family doubling/serve-warm note must remain, rather than deleting the note.",
+      "confidence": "High exact preservation and public presentation requirement.",
+      "applicableSources": [
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific preparation/teaching, honest clocks and yields, public cooking prose without archive history."
+        },
+        {
+          "reference": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Preserve useful ordinary cooking prose; keep review/editorial history private."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Actual useful doubles-well/serve-warm note and unmeasured salt."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Full distinct3–4tbsp milk supply, not added to current2tbsp."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Conditional gentle squeezing differs from current main squeezed-dry state."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Healthy%20Apple%20Muffins.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "38b29 bulk rewrite removed full native options, moisture nuance, storage and introduced mandatoryflourstreaks/healthmechanism claims. Fullfollowedlaterprose commits establish no explicit rejection. Preserve current14main amounts/olive/maple/squeezeddry preparation, restore exclusiveexactsourceoptions; actuallinkedprimary establishesflax1T+3T10–15min each notguessed. Do not microraw egg batter sourcewarming; conservative oil-before-eggssequence disclosed. No metadata classification change/nutrition claim.",
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Current squeezed-dry vs source gentlysqueezeifdripping moisture and source-specific replacement texture require cooking."
+      ]
+    },
+    {
+      "finding": "BFD06-I03",
+      "discussion": "The source proposes warming a cold coconut-oil mixture after egg contact. The corrected private proposal warms solidified oil separately before wet mixing, cools it until warm, and uses preferably room-temperature eggs. This is a conservative editorial sequence, not publisher verification or a new dose.",
+      "questions": []
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 3/4 cups Whole Wheat Flour",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1 cup Grated Apple, squeezed dry",
+        "actualMethodDestination": "Apple2squeezeddry"
+      },
+      {
+        "text": "1 cup Apple, diced into 1/4-inch cubes",
+        "actualMethodDestination": "Apple2"
+      },
+      {
+        "text": "1/2 cup Applesauce (unsweetened)",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1/2 cup Maple Syrup",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1/3 cup Extra-Virgin Olive Oil",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "2 large Eggs",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1/2 cup Plain Greek Yogurt",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1 tsp Pure Vanilla Extract",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1 1/2 tsp Baking Powder",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1/2 tsp Baking Soda",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1 tsp Ground Cinnamon",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1/2 tsp Sea Salt",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1 tbsp Turbinado Sugar (for the Crunch)",
+        "actualMethodDestination": "Top5"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 3/4 cups Whole Wheat Flour",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1 cup Grated Apple, squeezed dry",
+        "actualMethodDestination": "Apples2"
+      },
+      {
+        "text": "1 cup Apple, diced into 1/4-inch cubes",
+        "actualMethodDestination": "Apples2"
+      },
+      {
+        "text": "1/2 cup Applesauce (unsweetened)",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1/2 cup Maple Syrup",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1/3 cup Extra-Virgin Olive Oil",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "2 large Eggs",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1/2 cup Plain Greek Yogurt",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1 tsp Pure Vanilla Extract",
+        "actualMethodDestination": "Wet3"
+      },
+      {
+        "text": "1 1/2 tsp Baking Powder",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1/2 tsp Baking Soda",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1 tsp Ground Cinnamon",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1/2 tsp Sea Salt",
+        "actualMethodDestination": "Dry1"
+      },
+      {
+        "text": "1 tbsp Turbinado Sugar (for the Crunch)",
+        "actualMethodDestination": "Alltops5"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "1 ¾ cups white whole wheat flour or regular whole wheat flour\n1 ½ teaspoons baking powder\n1 teaspoon ground cinnamon\n½ teaspoon baking soda\n½ teaspoon salt\n1 cup grated apple\n1 cup apple diced into ¼” cubes\n⅓ cup melted coconut oil or extra-virgin olive oil\n½ cup maple syrup or honey*\n2 eggs, preferably at room temperature\n½ cup plain Greek yogurt (I used full-fat but any variety should do)\n½ cup applesauce\n1 teaspoon vanilla extract\n1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top",
+      "directions": "Preheat oven to 425 degrees Fahrenheit. If necessary, grease all 12 cups on your muffin tin with butter or non-stick cooking spray (my pan is non-stick and doesn’t require any grease).\n\nIn a large mixing bowl, combine the flour, baking powder, cinnamon, baking soda and salt. Blend well with a whisk. Add the grated apple (if it is dripping wet, gently squeeze it over the sink to release some extra moisture) and chopped apple. Stir to combine.\n\nIn a medium mixing bowl, combine the oil and maple syrup and beat together with a whisk. Add the eggs and beat well, then add the yogurt, applesauce and vanilla and mix well. (If the coconut oil solidifies in contact with cold ingredients, gently warm the mixture in the microwave in 30 second bursts.)\n\nPour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). The batter will be thick, but don’t worry! Divide the batter evenly between the 12 muffin cups. Sprinkle the tops of the muffins with turbinado sugar. Bake muffins for 13 to 16 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean.\n\nPlace the muffin tin on a cooling rack to cool. If you have leftover muffins, store them, covered, at room temperature for up to 2 days, or in the refrigerator for up to 4 days. Freeze leftover muffins for up to 3 months.",
+      "notes": "*IF YOU ARE BAKING WITH HONEY: Honey tends to brown quickly, so to avoid overdone muffins, bake muffins at 325 degrees Fahrenheit until a toothpick inserted in the center comes out clean, about 23 to 25 minutes.\n\nMAKE IT VEGAN: Replace the eggs with flax eggs and replace the yogurt with vegan buttermilk—try mixing 1 ½ teaspoons vinegar with a scant ½ cup non-dairy milk. Let it rest for 5 minutes before adding it to the other liquid ingredients. (You could also try using more applesauce in place of the yogurt but I’m not sure it’s acidic enough to counteract the bitter taste of the baking soda.)\n\nMAKE IT DAIRY FREE: See “buttermilk” option above.\n\nMAKE IT EGG FREE: Use flax eggs instead of regular eggs.\n\nMAKE IT GLUTEN FREE: Bob’s Red Mill or King Arthur Flour make gluten-free all-purpose blends that work well.\n\nIF YOU LOVE THIS RECIPE: You will also love my zucchini muffins, carrot muffins and banana muffins! Here are more apple recipes for you, too."
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare and dry: Preheat the oven to 425°F. Line enough standard muffin cups; the original batch plans 12. Wash apples before grating or dicing and measure the prepared amounts. Whisk all the flour, baking powder, baking soda, cinnamon and salt together."
+    },
+    {
+      "step": 2,
+      "text": "Apples: Add all the listed grated and diced apples to the dry mixture and stir to distribute them evenly."
+    },
+    {
+      "step": 3,
+      "text": "Wet: Whisk all the oil and maple syrup together, then whisk in all the eggs, yogurt, applesauce and vanilla until evenly mixed."
+    },
+    {
+      "step": 4,
+      "text": "Combine: Stir the complete wet mixture into the complete dry mixture only until incorporated. Small lumps are fine, but scrape the bottom and remove dry flour pockets; flour streaks are not required. Do not taste raw batter."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Divide all thick batter evenly among enough lined cups, leaving expansion room and maintaining the original cup size and similar fill depth. Sprinkle all the turbinado sugar over the tops. Bake about 13–16 minutes as the original-batch first check, until golden with set centers and a toothpick coming out clean. Extra tins or batches add time."
+    },
+    {
+      "step": 6,
+      "text": "Cool: Cool in the pan about 5 minutes before carefully transferring to a rack to finish cooling; do not package warm muffins."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Flour",
+      "alternative": "Use the same listed volume of white whole wheat flour instead of regular whole wheat. The source also names gluten-free all-purpose blends as an option; use a baking blend rather than single almond or coconut flour.",
+      "effect": "Complete source choices; blend behavior and texture can differ, without a promise of identical results."
+    },
+    {
+      "ingredient": "Oil",
+      "alternative": "Replace the full olive oil with the same volume of melted coconut oil, allowed to cool until warm rather than hot before egg contact. Keep all other amounts. If the oil solidifies before wet mixing, gently rewarm it separately and let it cool until warm before adding it. Use eggs preferably at room temperature, and prepare the oil before mixing rather than microwaving a raw egg mixture.",
+      "effect": "Coconut oil can firm up on contact with cold ingredients; ingredient temperatures can change the batter texture."
+    },
+    {
+      "ingredient": "Honey",
+      "alternative": "Replace the full maple syrup with the same volume of honey. For this exclusive route bake at 325°F, beginning checks about 23–25 minutes for the original muffin size, until set with a clean toothpick. Keep every other amount and method stage.",
+      "effect": "The source lower-temperature honey route changes the clock; do not apply the main 425°F/13–16-minute plan."
+    },
+    {
+      "ingredient": "Dairy-free yogurt replacement",
+      "alternative": "Replace only the listed yogurt with a mixture of 1½ teaspoons vinegar and a scant ½ cup dairy-free milk for the original batch. Scale both proportionally, rest 5 minutes, then add at the wet-mixing stage. Keep all other supplies and destinations.",
+      "effect": "The source proposes this distinct yogurt replacement; it changes moisture and acidity. Do not simply replace yogurt with more applesauce."
+    },
+    {
+      "ingredient": "Egg-free or combined vegan route",
+      "alternative": "For each listed egg, prepare 1 tablespoon ground flaxseed with 3 tablespoons water; rest 10–15 minutes until gelled, then add all of it at the egg-mixing stage instead of eggs. For the combined vegan route also choose the complete dairy-free yogurt replacement. Keep the main maple syrup, full oil and all remaining measures and stages.",
+      "effect": "The author’s linked flax recipe establishes the replacement dose; it offers less structural support and can change texture/timing, without a promise of identical texture."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "banana-oat-greek-yogurt-muffins",
+      "brownie-protein-balls",
+      "easy-breakfast-yogurt-popsicles"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found. Metadata pairings do not substitute linked formulas or grant review status; frosting yield is a source coverage plan, cakes retain own full frosting formulas."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "12 muffins",
+    "yieldScope": "Preserved source/current planning only, no kitchen yield precision",
+    "capacity": [
+      "The original batch plans 12 standard muffins. Keep the diced apple pieces about 1/4 inch and divide all batter and the full turbinado topping among enough same-sized cups with expansion room. Extra oven loads add time; smaller cups need earlier center checks, and oven temperature and bake time do not multiply.",
+      "Squeeze the listed grated apple dry for this route. Alternatively, gently squeeze only if the measured grated apple is dripping wet; keep the same listed grated and diced volumes. The different moisture can change texture and bake time."
+    ],
+    "timing": "About 15–20 minutes active preparation, 13–16 minutes or longer baking and cooling; roughly 40–60 minutes elapsed before packing. Honey and extra batches use a different clock.",
+    "formula": "All core measured supplies preserved in the legacy ingredients and method; separately disclosed pan/serving supplies and exclusive source options. No authored formula migration."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "0.44 cup Whole Wheat Flour",
+        "1/4 cup Grated Apple, squeezed dry",
+        "1/4 cup Apple, diced into 1/4-inch cubes",
+        "1/8 cup Applesauce (unsweetened)",
+        "1/8 cup Maple Syrup",
+        "0.0833 cup Extra-Virgin Olive Oil",
+        "1/2 large Egg",
+        "1/8 cup Plain Greek Yogurt",
+        "1/4 tsp Pure Vanilla Extract",
+        "3/8 tsp Baking Powder",
+        "1/8 tsp Baking Soda",
+        "1/4 tsp Ground Cinnamon",
+        "1/8 tsp Sea Salt",
+        "1/4 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "3 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "7/8 cup Whole Wheat Flour",
+        "1/2 cup Grated Apple, squeezed dry",
+        "1/2 cup Apple, diced into 1/4-inch cubes",
+        "1/4 cup Applesauce (unsweetened)",
+        "1/4 cup Maple Syrup",
+        "1/6 cup Extra-Virgin Olive Oil",
+        "1 large Egg",
+        "1/4 cup Plain Greek Yogurt",
+        "1/2 tsp Pure Vanilla Extract",
+        "3/4 tsp Baking Powder",
+        "1/4 tsp Baking Soda",
+        "1/2 tsp Ground Cinnamon",
+        "1/4 tsp Sea Salt",
+        "1/2 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "6 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 3/4 cups Whole Wheat Flour",
+        "1 cup Grated Apple, squeezed dry",
+        "1 cup Apple, diced into 1/4-inch cubes",
+        "1/2 cup Applesauce (unsweetened)",
+        "1/2 cup Maple Syrup",
+        "1/3 cup Extra-Virgin Olive Oil",
+        "2 large Eggs",
+        "1/2 cup Plain Greek Yogurt",
+        "1 tsp Pure Vanilla Extract",
+        "1 1/2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt",
+        "1 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "12 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "2 5/8 cups Whole Wheat Flour",
+        "1 1/2 cups Grated Apple, squeezed dry",
+        "1 1/2 cups Apple, diced into 1/4-inch cubes",
+        "3/4 cup Applesauce (unsweetened)",
+        "3/4 cup Maple Syrup",
+        "1/2 cup Extra-Virgin Olive Oil",
+        "3 large Eggs",
+        "3/4 cup Plain Greek Yogurt",
+        "1 1/2 tsp Pure Vanilla Extract",
+        "2 1/4 tsp Baking Powder",
+        "3/4 tsp Baking Soda",
+        "1 1/2 tsp Ground Cinnamon",
+        "3/4 tsp Sea Salt",
+        "1 1/2 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "18 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "3 1/2 cups Whole Wheat Flour",
+        "2 cups Grated Apple, squeezed dry",
+        "2 cups Apple, diced into 1/4-inch cubes",
+        "1 cup Applesauce (unsweetened)",
+        "1 cup Maple Syrup",
+        "2/3 cup Extra-Virgin Olive Oil",
+        "4 large Eggs",
+        "1 cup Plain Greek Yogurt",
+        "2 tsp Pure Vanilla Extract",
+        "3 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "2 tsp Ground Cinnamon",
+        "1 tsp Sea Salt",
+        "2 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "24 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "5 1/4 cups Whole Wheat Flour",
+        "3 cups Grated Apple, squeezed dry",
+        "3 cups Apple, diced into 1/4-inch cubes",
+        "1 1/2 cups Applesauce (unsweetened)",
+        "1 1/2 cups Maple Syrup",
+        "1 cup Extra-Virgin Olive Oil",
+        "6 large Eggs",
+        "1 1/2 cups Plain Greek Yogurt",
+        "3 tsp Pure Vanilla Extract",
+        "4 1/2 tsp Baking Powder",
+        "1 1/2 tsp Baking Soda",
+        "3 tsp Ground Cinnamon",
+        "1 1/2 tsp Sea Salt",
+        "3 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "36 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 3/4 cups Whole Wheat Flour",
+        "1 cup Grated Apple, squeezed dry",
+        "1 cup Apple, diced into 1/4-inch cubes",
+        "1/2 cup Applesauce (unsweetened)",
+        "1/2 cup Maple Syrup",
+        "1/3 cup Extra-Virgin Olive Oil",
+        "2 large Eggs",
+        "1/2 cup Plain Greek Yogurt",
+        "1 tsp Pure Vanilla Extract",
+        "1 1/2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt",
+        "1 tbsp Turbinado Sugar (for the Crunch)"
+      ],
+      "yield": "12 muffins",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All current measured core ingredients/source/title/rating/identity/cuisines/controls kept; priorrest/cool/cook cues retained where supported.",
+  "remainingQuestions": [
+    "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+    "Current squeezed-dry vs source gentlysqueezeifdripping moisture and source-specific replacement texture require cooking.",
+    "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+    "How do the selected oil and ingredient temperatures affect this batter? No exact temperature or new heating duration is supplied.",
+    "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+    "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

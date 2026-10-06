@@ -1,0 +1,586 @@
+{
+  "slug": "cranberry-crunch",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "81d121fc2c84b158b968c3736e37ef533e71c67ec0348a363bfdab4f2e18fc02",
+  "acceptedSourceSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "45 min",
+      "after": "45–60 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "About 70–90 min, including the short cooling rest"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "2 cups Fresh Cranberries (1 whole bag)",
+        "3/4 cup Granulated Sugar",
+        "1 1/2 cups Rolled Oats",
+        "1/2 cup Light Brown Sugar, packed",
+        "1/3 cup All-Purpose Flour",
+        "1/2 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)",
+        "1/3 cup Pecans, chopped"
+      ],
+      "after": [
+        "3 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "2 cups Fresh Cranberries",
+        "3/4 cup Granulated Sugar",
+        "1 1/2 cups Rolled Oats",
+        "1/2 cup Light Brown Sugar, packed",
+        "1/3 cup All-Purpose Flour",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "1/3 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 735,
+        "protein": 6.5,
+        "carbs": 138,
+        "fat": 21.5,
+        "fiber": 6.5,
+        "sugar": 111,
+        "sodium": 10
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Check the fruit beneath the crisp topping",
+        "outcome": "Tender apples and bubbling cranberries beneath a browned oat topping.",
+        "techniques": ["temperature"],
+        "before": [
+          "The 9×13-inch dish describes the original full batch. Slice the apples thinly and divide all fruit, granulated sugar and oat topping proportionally among enough dishes with similar fruit depth and headroom. Smaller batches need appropriately smaller dishes and earlier center checks; pan dimensions, oven temperature and bake time do not multiply.",
+          "Measure prepared apples and cranberries rather than treating an unspecified bag as a volume equivalent. Keep the pan grease separate from the full topping butter."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All topping is moistened, without dry flour pockets.",
+            "why": "Even butter distribution gives a more uniform topping."
+          },
+          {
+            "step": 5,
+            "cue": "Tender center apples and bubbling juices through the topping.",
+            "why": "Brown edges alone do not establish cooked fruit."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The topping browns but center apples remain firm",
+            "cause": "The fruit slices or layer are thicker than the original dish.",
+            "fix": "Check the center with a knife and continue until tender; scale with similar fruit depth and enough dishes."
+          }
+        ],
+        "timing": "About 15–20 minutes active preparation, 45–60 minutes or longer baking and a 10-minute rest; roughly 70–90 minutes elapsed.",
+        "substitutions": [
+          {
+            "ingredient": "Pecans",
+            "alternative": "Omit the full listed pecan amount for the original optional-nut route; keep all other topping measures unchanged.",
+            "effect": "The family original makes pecans optional; omitting them changes crunch without requiring a replacement."
+          }
+        ],
+        "storage": "Cool and cover; refrigerate promptly at 40°F /4°C or below. Keep cumulative room-temperature preparation/service within 2 hours, or 1 hour above 90°F /32°C. If reheating refrigerated leftovers, check the center of each portion reaches 165°F /74°C.",
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis family crisp uses butter instead of margarine for a richer oat topping. Tart Granny Smith apples and fresh cranberries cut through the buttery sweetness naturally. Bake until fruit juices bubble around the edges - this indicates the sugar has emulsified with the fruit's natural pectin.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Lightly grease a 9x13-inch baking dish with butter or oil spray.\n2.  **Fruit Base:** Arrange the sliced apples and cranberries in the bottom of the dish. Sprinkle the granulated sugar evenly over the fruit and toss gently to coat.\n3.  **Topping:** In a medium bowl, combine oats, brown sugar, flour, and chopped pecans. Pour the melted butter over the mix and stir until it looks like wet sand.\n4.  **Layer:** Spread the topping evenly over the fruit. Press down lightly to ensure it adheres to the sugar-coated fruit.\n5.  **Bake:** Bake for 45-60 minutes until the fruit is tender and bubbling and the topping is a deep golden brown.\n6.  **Cool:** Let cool for 10 minutes before serving. This allows the fruit juices to thicken into a glossy syrup.\n",
+    "after": "\n## Chef's Note\n\nHamilton/Gwock’s cranberry and apple crisp keeps its full buttery oat topping. Bake until the apples are tender, the juices bubble through and the topping is browned; the hot juices settle as the crisp rests before serving.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. For the original batch, lightly grease a 9×13-inch dish with the separate pan allowance. Wash apples and cranberries, discard damaged fruit, and peel and thinly slice the apples before measuring the full listed amount. Measure cranberries by the listed volume; bag sizes differ.\n2. **Fruit:** Put all the measured apples and cranberries in the dish. Sprinkle all the granulated sugar over them and toss gently to coat.\n3. **Topping:** Combine all the oats, brown sugar, flour and chopped pecans. Stir in the full measured melted butter until the topping is evenly moistened.\n4. **Layer:** Spread all the topping thinly and evenly over the fruit. For other scales, divide all fruit, sugar and topping proportionally among appropriate dishes with similar layer depth and headroom.\n5. **Bake:** Bake about 45–60 minutes as the original-batch planning range, until apples are tender when pierced, juices bubble through and the topping is browned. Check the center fruit as well as the edges; continue if still firm.\n6. **Rest:** Let stand about 10 minutes before serving; the hot juices settle as they cool.\n"
+  },
+  "findings": [
+    {
+      "id": "BFD06-2",
+      "title": "BFD06-2",
+      "rationale": "Exact Hamilton/Gwock native/045 retains full amounts and9×13/45–60 range. d65 introduced butter adaptation and requiredpecans; keep current butter/main pecans plus original optional omission. Original stick marine shorthand does not establish a measured margarine product; private unresolved option, no conversion. Remove bag-volume equivalence and unsupported pectin-emulsion mechanism; add genuine separate pan grease.",
+      "confidence": "High exact source/history/quantity proof; moderate method-planning/storage/category applications, untested",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original450 stable binding, complete ingredients/directions/notes; preserved source amounts and options only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed cooking and ingredient change trace, no inference of household intent from persistence"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual cleanproduce/rawcontact/refrigeration40/cumulative2hour1above90handling only; does not validate formula/yield/storagequality"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Native marine shorthand does not verify a particular margarine product or spoon conversion; current full½cupbutter preserved."
+      ]
+    },
+    {
+      "id": "BFD06-I01",
+      "title": "BFD06-I01",
+      "rationale": "Jodi’s exact native and first Markdown recipe already use 5 tablespoons butter. The Farfel label was introduced at bc0c870136cf379eae24180cb63d7ffd38c9da23. Cranberry’s actual original says “1 stick marine,” and d65d08918003c9fc3ea5effe2b20d8ebff9ea69f introduced the measured butter/replacement narrative. That is evidence of a rewrite, not proof that the ambiguous word names a margarine product. Keep both full current butter doses; do not restore an unidentified fat or assert a household decision.",
+      "confidence": "High exact text/history; original Cranberry fat interpretation unresolved.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original butter ingredient."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact ambiguous marine ingredient; no certified product."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Actual butter replacement label introduction."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Actual measured butter rewrite introduction."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion."
+      ]
+    },
+    {
+      "id": "BFD06-I02",
+      "title": "BFD06-I02",
+      "rationale": "The same row was inserted in five recipes. Cookie dough and a fruit crisp are not muffin batter, and “original-size pieces” has no defined meaning for the lemon cakes. Give the actual original vessel/count and proportional allocation decision without inventing pan depth, cup volume or yield precision.",
+      "confidence": "High source pan/count/cut statements; moderate proportional geometry advice, untested.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific preparation/teaching, honest clocks and yields, public cooking prose without archive history."
+        },
+        {
+          "reference": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Preserve useful ordinary cooking prose; keep review/editorial history private."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
+      ]
+    },
+    {
+      "id": "BFD06-I05",
+      "title": "BFD06-I05",
+      "rationale": "Cranberry’s full source and method give a 45–60-minute baking range, while its cook label gives only 45. Frosting’s 5-minute source card begins with softened ingredients and excludes the optional 20–30-minute piping chill now included in the method; state those starting conditions. Farfel hydration/cooling is waiting, not 15–25 minutes of active preparation. Retain the existing rough elapsed planning range, explicitly allowing the real cooling/preheat/batch dependency rather than treating it as a measured kitchen result.",
+      "confidence": "High source clocks/contradictions; moderate unmeasured 40–60-minute Farfel planning range.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact 45–60-minute original bake clock."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Source prep5 after ingredients soften."
+        },
+        {
+          "url": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
+          "scope": "Actual optional 20–30-minute piping chill."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "15-minute prep label,20-minute bake and required hydration/cooling without a supplied cooling duration."
+        },
+        {
+          "reference": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "scope": "Consistent active/elapsed clocks and rests/starting states."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here."
+      ]
+    },
+    {
+      "id": "BFD06-I08",
+      "title": "BFD06-I08",
+      "rationale": "The proposal already chooses refrigerated storage and gives reheating advice, but “hot throughout” is an unmeasured cue. FDA’s consumer leftovers category supplies165°F. Apply it only when reheating refrigerated portions; it does not establish the initial fruit bake, a tested crisp shelf life, or a requirement to reheat food served cold.",
+      "confidence": "High FDA general threshold; moderate conservative editorial application to this refrigerated cooked-fruit crisp.",
+      "applicableSources": [
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Consumer chart: leftovers165°F; refrigerator40°F,2h/1h above90 and shallow cooling. Formula, yield and fruit-crisp shelf life are not validated."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "No measured reheating or storage life supplied by the family source."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual reheated topping texture and storage quality remain kitchen questions; no new day limit or reheating clock is supplied."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Cranberry%20Crunch.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact Hamilton/Gwock native/045 retains full amounts and9×13/45–60 range. d65 introduced butter adaptation and requiredpecans; keep current butter/main pecans plus original optional omission. Original stick marine shorthand does not establish a measured margarine product; private unresolved option, no conversion. Remove bag-volume equivalence and unsupported pectin-emulsion mechanism; add genuine separate pan grease.",
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Native marine shorthand does not verify a particular margarine product or spoon conversion; current full½cupbutter preserved."
+      ]
+    },
+    {
+      "finding": "BFD06-I08",
+      "discussion": "The refrigerated-leftover 165°F center check is an editorial application of general USDA/FDA leftover guidance to this cooked fruit-and-oat dish. It changes neither first-bake endpoint nor ingredient formula and does not establish tested shelf life.",
+      "questions": []
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "3 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "actualMethodDestination": "Fruit step2"
+      },
+      {
+        "text": "2 cups Fresh Cranberries (1 whole bag)",
+        "actualMethodDestination": "Fruit step2; erroneous wholebag companion"
+      },
+      {
+        "text": "3/4 cup Granulated Sugar",
+        "actualMethodDestination": "Fruit sugar step2"
+      },
+      {
+        "text": "1 1/2 cups Rolled Oats",
+        "actualMethodDestination": "Topping step3"
+      },
+      {
+        "text": "1/2 cup Light Brown Sugar, packed",
+        "actualMethodDestination": "Topping step3"
+      },
+      {
+        "text": "1/3 cup All-Purpose Flour",
+        "actualMethodDestination": "Topping step3"
+      },
+      {
+        "text": "1/2 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)",
+        "actualMethodDestination": "Topping fullbutter step3"
+      },
+      {
+        "text": "1/3 cup Pecans, chopped",
+        "actualMethodDestination": "Topping step3"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "3 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "actualMethodDestination": "Fruit2measuredprepared"
+      },
+      {
+        "text": "2 cups Fresh Cranberries",
+        "actualMethodDestination": "Fruit2measuredwashed"
+      },
+      {
+        "text": "3/4 cup Granulated Sugar",
+        "actualMethodDestination": "AllFruit2"
+      },
+      {
+        "text": "1 1/2 cups Rolled Oats",
+        "actualMethodDestination": "AllTopping3"
+      },
+      {
+        "text": "1/2 cup Light Brown Sugar, packed",
+        "actualMethodDestination": "AllTopping3"
+      },
+      {
+        "text": "1/3 cup All-Purpose Flour",
+        "actualMethodDestination": "AllTopping3"
+      },
+      {
+        "text": "1/2 cup (1 stick) Unsalted Butter, melted",
+        "actualMethodDestination": "AllTopping3full½cup"
+      },
+      {
+        "text": "1/3 cup Pecans, chopped",
+        "actualMethodDestination": "AllTopping3ororiginaloptionalomit"
+      },
+      {
+        "text": "Butter or baking spray, as needed to grease the dish",
+        "actualMethodDestination": "Separatepan1"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "3 cups apples, peeled and sliced thin\n2 cups cranberries, whole bag\n3/4 cup sugar\n\n**Topping**\n1 1/2 cup oatmeal\n1/2 cup brown sugar\n1/3 cup flour\n1 stick marine, melted\n1/3 cup chopped pecans, optional",
+      "directions": "Preheat the oven at 350 degrees.\n\nSpray 9x13 dish with PAM.\n\nPut apples and cranberries in bottom of dish.\n\nCover with sugar.\n\nMix topping together.\n\nSpread thinly on top of dish.\n\nBake 45 minutes to 1 hour (done when bubbly).",
+      "notes": ""
+    },
+    "frozenMethodOnly": ["separatepan greaseunlisted"]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the oven to 350°F. For the original batch, lightly grease a 9×13-inch dish with the separate pan allowance. Wash apples and cranberries, discard damaged fruit, and peel and thinly slice the apples before measuring the full listed amount. Measure cranberries by the listed volume; bag sizes differ."
+    },
+    {
+      "step": 2,
+      "text": "Fruit: Put all the measured apples and cranberries in the dish. Sprinkle all the granulated sugar over them and toss gently to coat."
+    },
+    {
+      "step": 3,
+      "text": "Topping: Combine all the oats, brown sugar, flour and chopped pecans. Stir in the full measured melted butter until the topping is evenly moistened."
+    },
+    {
+      "step": 4,
+      "text": "Layer: Spread all the topping thinly and evenly over the fruit. For other scales, divide all fruit, sugar and topping proportionally among appropriate dishes with similar layer depth and headroom."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Bake about 45–60 minutes as the original-batch planning range, until apples are tender when pierced, juices bubble through and the topping is browned. Check the center fruit as well as the edges; continue if still firm."
+    },
+    {
+      "step": 6,
+      "text": "Rest: Let stand about 10 minutes before serving; the hot juices settle as they cool."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Pecans",
+      "alternative": "Omit the full listed pecan amount for the original optional-nut route; keep all other topping measures unchanged.",
+      "effect": "The family original makes pecans optional; omitting them changes crunch without requiring a replacement."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found. Metadata pairings do not substitute linked formulas or grant review status; frosting yield is a source coverage plan, cakes retain own full frosting formulas."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8",
+    "yieldScope": "Preserved source/current planning only, no kitchen yield precision",
+    "capacity": [
+      "The 9×13-inch dish describes the original full batch. Slice the apples thinly and divide all fruit, granulated sugar and oat topping proportionally among enough dishes with similar fruit depth and headroom. Smaller batches need appropriately smaller dishes and earlier center checks; pan dimensions, oven temperature and bake time do not multiply.",
+      "Measure prepared apples and cranberries rather than treating an unspecified bag as a volume equivalent. Keep the pan grease separate from the full topping butter."
+    ],
+    "timing": "About 15–20 minutes active preparation, 45–60 minutes or longer baking and a 10-minute rest; roughly 70–90 minutes elapsed.",
+    "formula": "All core measured supplies preserved in the legacy ingredients and method; separately disclosed pan/serving supplies and exclusive source options. No authored formula migration."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/4 cup Apples, peeled and sliced thin (Granny Smith preferred)",
+        "1/2 cup Fresh Cranberries",
+        "0.19 cup Granulated Sugar",
+        "3/8 cup Rolled Oats",
+        "1/8 cup Light Brown Sugar, packed",
+        "0.0833 cup All-Purpose Flour",
+        "1/8 cup (1/4 stick) Unsalted Butter, melted",
+        "0.0833 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "1 cup Fresh Cranberries",
+        "3/8 cup Granulated Sugar",
+        "3/4 cup Rolled Oats",
+        "1/4 cup Light Brown Sugar, packed",
+        "1/6 cup All-Purpose Flour",
+        "1/4 cup (1/2 stick) Unsalted Butter, melted",
+        "1/6 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "3 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "2 cups Fresh Cranberries",
+        "3/4 cup Granulated Sugar",
+        "1 1/2 cups Rolled Oats",
+        "1/2 cup Light Brown Sugar, packed",
+        "1/3 cup All-Purpose Flour",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "1/3 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "3 cups Fresh Cranberries",
+        "1 1/8 cups Granulated Sugar",
+        "2 1/4 cups Rolled Oats",
+        "3/4 cup Light Brown Sugar, packed",
+        "1/2 cup All-Purpose Flour",
+        "3/4 cup (1 1/2 sticks) Unsalted Butter, melted",
+        "1/2 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "6 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "4 cups Fresh Cranberries",
+        "1 1/2 cups Granulated Sugar",
+        "3 cups Rolled Oats",
+        "1 cup Light Brown Sugar, packed",
+        "2/3 cup All-Purpose Flour",
+        "1 cup (2 sticks) Unsalted Butter, melted",
+        "2/3 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "9 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "6 cups Fresh Cranberries",
+        "2 1/4 cups Granulated Sugar",
+        "4 1/2 cups Rolled Oats",
+        "1 1/2 cups Light Brown Sugar, packed",
+        "1 cup All-Purpose Flour",
+        "1 1/2 cups (3 sticks) Unsalted Butter, melted",
+        "1 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "3 cups Apples, peeled and sliced thin (Granny Smith preferred)",
+        "2 cups Fresh Cranberries",
+        "3/4 cup Granulated Sugar",
+        "1 1/2 cups Rolled Oats",
+        "1/2 cup Light Brown Sugar, packed",
+        "1/3 cup All-Purpose Flour",
+        "1/2 cup (1 stick) Unsalted Butter, melted",
+        "1/3 cup Pecans, chopped",
+        "Butter or baking spray, as needed to grease the dish"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All current measured core ingredients/source/title/rating/identity/cuisines/controls kept; priorrest/cool/cook cues retained where supported.",
+  "remainingQuestions": [
+    "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+    "Native marine shorthand does not verify a particular margarine product or spoon conversion; current full½cupbutter preserved.",
+    "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion.",
+    "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+    "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+    "Actual reheated topping texture and storage quality remain kitchen questions; no new day limit or reheating clock is supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

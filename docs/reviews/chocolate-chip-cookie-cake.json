@@ -1,0 +1,1175 @@
+{
+  "slug": "chocolate-chip-cookie-cake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "282c473cdf76e4aeff79c2f75c62a953ccc678147b308ac166053badaf92e540",
+  "acceptedSourceSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 1½–2 hr, including cooling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "--- Cookie dough ---",
+        "1 cup (2 sticks) unsalted butter, room temperature",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "2 large eggs",
+        "2 tsp vanilla extract",
+        "2 1/8 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp sea salt",
+        "2 cups semisweet chocolate discs",
+        "1/2 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "3/4 cup candy-coated milk chocolate candies"
+      ],
+      "after": [
+        "--- Cookie dough ---",
+        "1 cup (2 sticks) unsalted butter, room temperature",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "2 large eggs",
+        "2 tsp vanilla extract",
+        "2 1/8 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp sea salt",
+        "2 cups semisweet chocolate discs",
+        "1/2 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "3/4 cup candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 165,
+        "protein": 2.5,
+        "carbs": 38,
+        "fat": 1,
+        "fiber": 0.5,
+        "sugar": 26,
+        "sodium": 240
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": {
+        "version": 1,
+        "yield": {
+          "amount": 16,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Cookie dough",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 2,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "room temperature"
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/8",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chocolate",
+                "key": "chocolate",
+                "name": "semisweet chocolate discs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "candies",
+                "key": "candies",
+                "name": "candy-coated milk chocolate candies",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Topping",
+            "ingredients": [
+              {
+                "id": "candies",
+                "key": "candies",
+                "name": "candy-coated milk chocolate candies",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "shape",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prep",
+            "text": "Preheat oven to 375°F. Line a 14-inch round pizza pan with parchment paper."
+          },
+          {
+            "id": "cream",
+            "title": "Cream",
+            "text": "In a large bowl, cream {{ingredients}} until light and fluffy, about 3–5 minutes."
+          },
+          {
+            "id": "eggs",
+            "title": "Add eggs",
+            "text": "Add {{ingredients}} and beat until combined."
+          },
+          {
+            "id": "dry",
+            "title": "Dry mix",
+            "text": "Whisk {{ingredients}} together, then stir into the butter mixture until just combined."
+          },
+          {
+            "id": "fold",
+            "title": "Fold",
+            "text": "Fold in {{ingredients}}."
+          },
+          {
+            "id": "shape",
+            "title": "Shape",
+            "text": "Spread dough evenly onto the prepared pan, leaving a 1/2-inch border for expansion. Sprinkle {{ingredients}} over the top, pressing them in lightly."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake for 20–25 minutes until the edges are deep golden brown and the center is set but still soft. Keep the same dough thickness when scaling; use additional pans, rather than multiplying pan dimensions or baking time."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let cool completely in the pan before slicing so the structure can firm up."
+          }
+        ]
+      },
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 16,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Cookie dough",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 2,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "room temperature"
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/8",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chocolate",
+                "key": "chocolate",
+                "name": "semisweet chocolate discs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "candies",
+                "key": "candies",
+                "name": "candy-coated milk chocolate candies",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Topping",
+            "ingredients": [
+              {
+                "id": "candies",
+                "key": "candies",
+                "name": "candy-coated milk chocolate candies",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "shape",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Pan preparation",
+            "ingredients": [
+              {
+                "id": "grease",
+                "key": "pan-grease",
+                "name": "butter or baking spray",
+                "allowance": "enough to grease the pan and parchment",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prep",
+            "text": "Preheat the oven to 375°F. For the original batch, line a 14-inch deep round pizza pan with parchment and use {{ingredients}} to grease the entire pan including the paper. Have enough appropriate pans for the full dough before mixing; keep similar dough thickness and expansion room when scaling."
+          },
+          {
+            "id": "cream",
+            "title": "Cream",
+            "text": "In a large bowl, cream {{ingredients}} until light and fluffy, about 3–5 minutes."
+          },
+          {
+            "id": "eggs",
+            "title": "Add eggs",
+            "text": "Add {{ingredients}} and beat until combined."
+          },
+          {
+            "id": "dry",
+            "title": "Dry mix",
+            "text": "Whisk {{ingredients}} together, then stir into the butter mixture until just combined."
+          },
+          {
+            "id": "fold",
+            "title": "Fold",
+            "text": "Fold in {{ingredients}}."
+          },
+          {
+            "id": "shape",
+            "title": "Shape",
+            "text": "Spread all the dough evenly onto the prepared pan, leaving the original 1/2-inch border for expansion. Sprinkle all {{ingredients}} over the top, pressing them in lightly. At other scales divide all dough and its topping proportionally among enough appropriate pans; do not force every batch into the same 14-inch pan."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake for 20–25 minutes until the edges are deep golden brown and the center is set but still soft. Keep the same dough thickness when scaling; use additional pans, rather than multiplying pan dimensions or baking time."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Let cool completely in the pan before slicing so the structure can firm up."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Choose enough deep pan space before mixing",
+        "outcome": "A fully set cookie center beneath a golden edge, with both candy allocations used.",
+        "techniques": ["temperature"],
+        "before": [
+          "The 14-inch deep round pizza pan describes the original full batch. When scaling, divide all dough and both candy allocations proportionally among enough pans, keeping similar dough thickness and expansion room. Smaller batches need appropriately smaller pans and earlier center checks; pan dimensions, oven temperature and bake time do not multiply.",
+          "Soften butter until pliable, without melting it. Keep raw dough away from ready-to-eat foods and do not taste flour-and-egg dough."
+        ],
+        "checkpoints": [
+          {
+            "step": 6,
+            "cue": "An even dough layer with expansion room.",
+            "why": "A shallow or overloaded pan can overflow before the center sets."
+          },
+          {
+            "step": 7,
+            "cue": "Golden edges and a set center without wet dough.",
+            "why": "Soft baked crumb differs from raw batter; the clock is only a first check."
+          },
+          {
+            "step": 8,
+            "cue": "The cake is fully cool before slicing.",
+            "why": "Cooling firms the full butter-rich structure."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The dough reaches the pan edge before the center sets",
+            "cause": "The pan is too shallow or the dough layer is too deep.",
+            "fix": "Use enough deep pans before baking; keep the original dough depth rather than extending a clock in an overloaded pan."
+          }
+        ],
+        "timing": "About 20 minutes active mixing, 20–25 minutes or longer baking and full cooling. Plan roughly 1½–2 hours elapsed; extra pans add time.",
+        "substitutions": [
+          {
+            "ingredient": "Chocolate discs",
+            "alternative": "Replace the full listed volume of chocolate discs with the same volume of semisweet chocolate chips.",
+            "effect": "The source allows either; chips make smaller chocolate pockets."
+          },
+          {
+            "ingredient": "Candy topping stage",
+            "alternative": "For the current publisher finishing option, hold the full listed topping candies out of the oven and press them into the warm baked cookie cake instead. Keep the separate dough candies inside.",
+            "effect": "An exclusive same-quantity topping route; baking the topping as in the main may crack some shells."
+          },
+          {
+            "ingredient": "Optional decoration",
+            "alternative": "After complete cooling, add prepared chocolate frosting as desired around the edge, with optional additional candies or sprinkles as desired; keep these separate from the measured dough and topping supplies.",
+            "effect": "The publisher offers decoration without a measured extra frosting formula; perishable frosting needs refrigerated handling."
+          }
+        ],
+        "storage": "For the plain fully cooled cake, the publisher gives 2–3 days covered at room temperature and up to 3 months airtight frozen as quality plans; thaw covered in the refrigerator. If adding perishable frosting, refrigerate at 40°F /4°C or below and limit cumulative preparation/service outside refrigeration to 2 hours, or 1 hour above 90°F /32°C.",
+        "sources": [
+          {
+            "title": "That Skinny Chick Can Bake — Chocolate Chip Cookie Cake",
+            "url": "https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/"
+          },
+          {
+            "title": "FDA — Raw Flour",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe key to a cookie cake is using chocolate discs rather than standard chips. This creates larger pools of molten chocolate that integrate into the dough. We use candy-coated milk chocolate candies to provide a salty element and color. We bake at 375°F to ensure the outer rim is crisp while the center remains soft and chewy.\n\n## Directions\n\n1. **Prep:** Preheat oven to 375°F. Line a 14-inch round pizza pan with parchment paper.\n2. **Cream:** In a large bowl, cream unsalted butter, light brown sugar, and granulated sugar until light and fluffy, about 3–5 minutes.\n3. **Add eggs:** Add large eggs and vanilla extract and beat until combined.\n4. **Dry mix:** Whisk all-purpose flour, baking soda, and sea salt together, then stir into the butter mixture until just combined.\n5. **Fold:** Fold in semisweet chocolate discs and candy-coated milk chocolate candies.\n6. **Shape:** Spread dough evenly onto the prepared pan, leaving a 1/2-inch border for expansion. Sprinkle candy-coated milk chocolate candies over the top, pressing them in lightly.\n7. **Bake:** Bake for 20–25 minutes until the edges are deep golden brown and the center is set but still soft. Keep the same dough thickness when scaling; use additional pans, rather than multiplying pan dimensions or baking time.\n8. **Cool:** Let cool completely in the pan before slicing so the structure can firm up.\n",
+    "after": "\n## Chef's Note\n\nChocolate discs make larger pockets of chocolate; the same listed amount of chips is also an option. The candy-coated chocolates add sweetness and color, with separate amounts inside and on top. Use a deep pan so the dough has room to spread, and let the whole cookie cake cool before slicing.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 375°F. For the original batch, line a 14-inch deep round pizza pan with parchment and use butter or baking spray to grease the entire pan including the paper. Have enough appropriate pans for the full dough before mixing; keep similar dough thickness and expansion room when scaling.\n2. **Cream:** In a large bowl, cream unsalted butter, light brown sugar, and granulated sugar until light and fluffy, about 3–5 minutes.\n3. **Add eggs:** Add large eggs and vanilla extract and beat until combined.\n4. **Dry mix:** Whisk all-purpose flour, baking soda, and sea salt together, then stir into the butter mixture until just combined.\n5. **Fold:** Fold in semisweet chocolate discs and candy-coated milk chocolate candies.\n6. **Shape:** Spread all the dough evenly onto the prepared pan, leaving the original 1/2-inch border for expansion. Sprinkle all candy-coated milk chocolate candies over the top, pressing them in lightly. At other scales divide all dough and its topping proportionally among enough appropriate pans; do not force every batch into the same 14-inch pan.\n7. **Bake:** Bake for 20–25 minutes until the edges are deep golden brown and the center is set but still soft. Keep the same dough thickness when scaling; use additional pans, rather than multiplying pan dimensions or baking time.\n8. **Cool:** Let cool completely in the pan before slicing so the structure can firm up.\n"
+  },
+  "findings": [
+    {
+      "id": "BFD06-1",
+      "title": "BFD06-1",
+      "rationale": "Native/045 and actual publisher specify deep14-inch greased pan/parchment and allow chips. The bulk7dd lost depth and 1c84 structured migration lost greasing; preserve authored allocations and all full amounts. Current baked-candy route/native retained; modern warm-candy finishing stays exclusive. Current45minutes excludes required full cooling.",
+      "confidence": "High exact source/history/quantity proof; moderate method-planning/storage/category applications, untested",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact original450 stable binding, complete ingredients/directions/notes; preserved source amounts and options only"
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed cooking and ingredient change trace, no inference of household intent from persistence"
+        },
+        {
+          "url": "https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/",
+          "scope": "Actual primary publisher complete recipe/options/storage, with saved/current differences above"
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual cleanproduce/rawcontact/refrigeration40/cumulative2hour1above90handling only; does not validate formula/yield/storagequality"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Exactdeep14-inchpan depth unspecified; arbitrarysheetpan adaptation not validated."
+      ]
+    },
+    {
+      "id": "BFD06-I02",
+      "title": "BFD06-I02",
+      "rationale": "The same row was inserted in five recipes. Cookie dough and a fruit crisp are not muffin batter, and “original-size pieces” has no defined meaning for the lemon cakes. Give the actual original vessel/count and proportional allocation decision without inventing pan depth, cup volume or yield precision.",
+      "confidence": "High source pan/count/cut statements; moderate proportional geometry advice, untested.",
+      "applicableSources": [
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Recipe-specific original pan, count or prepared cut; no tested scaling guarantee."
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md",
+          "scope": "Recipe-specific preparation/teaching, honest clocks and yields, public cooking prose without archive history."
+        },
+        {
+          "reference": "docs/HOUSEHOLD_PREFERENCES.md",
+          "scope": "Preserve useful ordinary cooking prose; keep review/editorial history private."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chocolate%20Chip%20Cookie%20Cake.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Native/045 and actual publisher specify deep14-inch greased pan/parchment and allow chips. The bulk7dd lost depth and 1c84 structured migration lost greasing; preserve authored allocations and all full amounts. Current baked-candy route/native retained; modern warm-candy finishing stays exclusive. Current45minutes excludes required full cooling.",
+      "questions": [
+        "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+        "Exactdeep14-inchpan depth unspecified; arbitrarysheetpan adaptation not validated."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "--- Cookie dough ---",
+        "actualMethodDestination": "divider"
+      },
+      {
+        "text": "1 cup (2 sticks) unsalted butter, room temperature",
+        "actualMethodDestination": "cream"
+      },
+      {
+        "text": "1 cup light brown sugar, packed",
+        "actualMethodDestination": "cream"
+      },
+      {
+        "text": "1/2 cup granulated sugar",
+        "actualMethodDestination": "cream"
+      },
+      {
+        "text": "2 large eggs",
+        "actualMethodDestination": "eggs"
+      },
+      {
+        "text": "2 tsp vanilla extract",
+        "actualMethodDestination": "eggs"
+      },
+      {
+        "text": "2 1/8 cups all-purpose flour",
+        "actualMethodDestination": "dry"
+      },
+      {
+        "text": "1 tsp baking soda",
+        "actualMethodDestination": "dry"
+      },
+      {
+        "text": "1/2 tsp sea salt",
+        "actualMethodDestination": "dry"
+      },
+      {
+        "text": "2 cups semisweet chocolate discs",
+        "actualMethodDestination": "fold"
+      },
+      {
+        "text": "1/2 cup candy-coated milk chocolate candies",
+        "actualMethodDestination": "fold"
+      },
+      {
+        "text": "--- Topping ---",
+        "actualMethodDestination": "divider"
+      },
+      {
+        "text": "3/4 cup candy-coated milk chocolate candies",
+        "actualMethodDestination": "shape"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "unsalted butter",
+        "actualMethodDestination": "cream:1",
+        "authoredIngredientId": "dough.butter",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "light brown sugar",
+        "actualMethodDestination": "cream:1",
+        "authoredIngredientId": "dough.brown-sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "granulated sugar",
+        "actualMethodDestination": "cream:1",
+        "authoredIngredientId": "dough.sugar",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "large egg",
+        "actualMethodDestination": "eggs:1",
+        "authoredIngredientId": "dough.eggs",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        }
+      },
+      {
+        "text": "vanilla extract",
+        "actualMethodDestination": "eggs:1",
+        "authoredIngredientId": "dough.vanilla",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "text": "all-purpose flour",
+        "actualMethodDestination": "dry:1",
+        "authoredIngredientId": "dough.flour",
+        "quantity": {
+          "amount": "2 1/8",
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "baking soda",
+        "actualMethodDestination": "dry:1",
+        "authoredIngredientId": "dough.baking-soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "text": "sea salt",
+        "actualMethodDestination": "dry:1",
+        "authoredIngredientId": "dough.salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        }
+      },
+      {
+        "text": "semisweet chocolate discs",
+        "actualMethodDestination": "fold:1",
+        "authoredIngredientId": "dough.chocolate",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "candy-coated milk chocolate candies",
+        "actualMethodDestination": "fold:1",
+        "authoredIngredientId": "dough.candies",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "candy-coated milk chocolate candies",
+        "actualMethodDestination": "shape:1",
+        "authoredIngredientId": "topping.candies",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        }
+      },
+      {
+        "text": "butter or baking spray",
+        "actualMethodDestination": "prep:1",
+        "authoredIngredientId": "pan.grease",
+        "quantity": "enough to grease the pan and parchment"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "2 sticks (1 cup) butter, at room temperature\n1 cup brown sugar\n1/2 cup sugar\n2 eggs\n2 teaspoons vanilla\n2 cups plus 2 tablespoons flour\n1 teaspoon baking soda\n1/2 teaspoon salt\n2 cups semi-sweet chocolate discs (may substitute chocolate chips)\n1 1/4 cups M & Ms, divided",
+      "directions": "Preheat oven to 375º. Line a 14 inch deep round pizza pan with parchment and grease entire pan including the paper. Set aside.\n\nCream the butter and sugars in a large bowl. Add eggs and mix to combine. Add vanilla and mix well. Add dry ingredients, and stir till incorporated. Mix in chocolate discs and 1/2 cup M&Ms, reserving 3/4 cup to garnish the top. Spread dough evenly in prepared pan. Use remaining M&Ms to decorate the top of the cookie cake.\n\nBake for 20-25 minutes. Cool and remove from pan if desired. Slice and serve.",
+      "notes": ""
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prep: Preheat the oven to 375°F. For the original batch, line a 14-inch deep round pizza pan with parchment and use butter or baking spray to grease the entire pan including the paper. Have enough appropriate pans for the full dough before mixing; keep similar dough thickness and expansion room when scaling."
+    },
+    {
+      "step": 2,
+      "text": "Cream: In a large bowl, cream unsalted butter, light brown sugar, and granulated sugar until light and fluffy, about 3–5 minutes."
+    },
+    {
+      "step": 3,
+      "text": "Add eggs: Add large eggs and vanilla extract and beat until combined."
+    },
+    {
+      "step": 4,
+      "text": "Dry mix: Whisk all-purpose flour, baking soda, and sea salt together, then stir into the butter mixture until just combined."
+    },
+    {
+      "step": 5,
+      "text": "Fold: Fold in semisweet chocolate discs and candy-coated milk chocolate candies."
+    },
+    {
+      "step": 6,
+      "text": "Shape: Spread all the dough evenly onto the prepared pan, leaving the original 1/2-inch border for expansion. Sprinkle all candy-coated milk chocolate candies over the top, pressing them in lightly. At other scales divide all dough and its topping proportionally among enough appropriate pans; do not force every batch into the same 14-inch pan."
+    },
+    {
+      "step": 7,
+      "text": "Bake: Bake for 20–25 minutes until the edges are deep golden brown and the center is set but still soft. Keep the same dough thickness when scaling; use additional pans, rather than multiplying pan dimensions or baking time."
+    },
+    {
+      "step": 8,
+      "text": "Cool: Let cool completely in the pan before slicing so the structure can firm up."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Chocolate discs",
+      "alternative": "Replace the full listed volume of chocolate discs with the same volume of semisweet chocolate chips.",
+      "effect": "The source allows either; chips make smaller chocolate pockets."
+    },
+    {
+      "ingredient": "Candy topping stage",
+      "alternative": "For the current publisher finishing option, hold the full listed topping candies out of the oven and press them into the warm baked cookie cake instead. Keep the separate dough candies inside.",
+      "effect": "An exclusive same-quantity topping route; baking the topping as in the main may crack some shells."
+    },
+    {
+      "ingredient": "Optional decoration",
+      "alternative": "After complete cooling, add prepared chocolate frosting as desired around the edge, with optional additional candies or sprinkles as desired; keep these separate from the measured dough and topping supplies.",
+      "effect": "The publisher offers decoration without a measured extra frosting formula; perishable frosting needs refrigerated handling."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found. Metadata pairings do not substitute linked formulas or grant review status; frosting yield is a source coverage plan, cakes retain own full frosting formulas."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "16 portions",
+    "yieldScope": "Preserved source/current planning only, no kitchen yield precision",
+    "capacity": [
+      "The 14-inch deep round pizza pan describes the original full batch. When scaling, divide all dough and both candy allocations proportionally among enough pans, keeping similar dough thickness and expansion room. Smaller batches need appropriately smaller pans and earlier center checks; pan dimensions, oven temperature and bake time do not multiply.",
+      "Soften butter until pliable, without melting it. Keep raw dough away from ready-to-eat foods and do not taste flour-and-egg dough."
+    ],
+    "timing": "About 20 minutes active mixing, 20–25 minutes or longer baking and full cooling. Plan roughly 1½–2 hours elapsed; extra pans add time.",
+    "formula": "All core measured supplies preserved in the authored formula and its generated ingredients, yield and directions; separately disclosed pan/serving supplies and exclusive source options."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "1/4 cup (1/2 stick) unsalted butter, room temperature",
+        "1/4 cup light brown sugar, packed",
+        "1/8 cup granulated sugar",
+        "1/2 large egg",
+        "1/2 tsp vanilla extract",
+        "0.53 cup all-purpose flour",
+        "1/4 tsp baking soda",
+        "1/8 tsp sea salt",
+        "1/2 cup semisweet chocolate discs",
+        "1/8 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "0.19 cup candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "1/2 cup (1 stick) unsalted butter, room temperature",
+        "1/2 cup light brown sugar, packed",
+        "1/4 cup granulated sugar",
+        "1 large egg",
+        "1 tsp vanilla extract",
+        "1.06 cups all-purpose flour",
+        "1/2 tsp baking soda",
+        "1/4 tsp sea salt",
+        "1 cup semisweet chocolate discs",
+        "1/4 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "3/8 cup candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "1 cup (2 sticks) unsalted butter, room temperature",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "2 large eggs",
+        "2 tsp vanilla extract",
+        "2 1/8 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp sea salt",
+        "2 cups semisweet chocolate discs",
+        "1/2 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "3/4 cup candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "16 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "1 1/2 cups (3 sticks) unsalted butter, room temperature",
+        "1 1/2 cups light brown sugar, packed",
+        "3/4 cup granulated sugar",
+        "3 large eggs",
+        "3 tsp vanilla extract",
+        "3.19 cups all-purpose flour",
+        "1 1/2 tsp baking soda",
+        "3/4 tsp sea salt",
+        "3 cups semisweet chocolate discs",
+        "3/4 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "1 1/8 cups candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "24 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "2 cups (4 sticks) unsalted butter, room temperature",
+        "2 cups light brown sugar, packed",
+        "1 cup granulated sugar",
+        "4 large eggs",
+        "4 tsp vanilla extract",
+        "4 1/4 cups all-purpose flour",
+        "2 tsp baking soda",
+        "1 tsp sea salt",
+        "4 cups semisweet chocolate discs",
+        "1 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "1 1/2 cups candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "32 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "3 cups (6 sticks) unsalted butter, room temperature",
+        "3 cups light brown sugar, packed",
+        "1 1/2 cups granulated sugar",
+        "6 large eggs",
+        "6 tsp vanilla extract",
+        "6 3/8 cups all-purpose flour",
+        "3 tsp baking soda",
+        "1 1/2 tsp sea salt",
+        "6 cups semisweet chocolate discs",
+        "1 1/2 cups candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "2 1/4 cups candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "48 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Cookie dough ---",
+        "1 cup (2 sticks) unsalted butter, room temperature",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "2 large eggs",
+        "2 tsp vanilla extract",
+        "2 1/8 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp sea salt",
+        "2 cups semisweet chocolate discs",
+        "1/2 cup candy-coated milk chocolate candies",
+        "--- Topping ---",
+        "3/4 cup candy-coated milk chocolate candies",
+        "--- Pan preparation ---",
+        "butter or baking spray, enough to grease the pan and parchment"
+      ],
+      "yield": "16 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "1c84 authored complete dough/top allocations/fullrichness and scaling/centerset/fullcooling retained, only exactdeepgreasedpan omission repaired.",
+  "remainingQuestions": [
+    "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
+    "Exactdeep14-inchpan depth unspecified; arbitrarysheetpan adaptation not validated.",
+    "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

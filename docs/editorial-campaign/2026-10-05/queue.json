@@ -519,6 +519,35 @@
       "reviewer": "coverage_check",
       "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "status": "assigned; whole author/independent/root pending"
+    },
+    "breads_crafts_dumplings_23": {
+      "slugs": [
+        "my-favorite-challah",
+        "no-cook-playdough",
+        "play-dough",
+        "pork-and-greens-dumplings",
+        "real-spaghetti-carbonara",
+        "royal-icing",
+        "strawberry-congealed-salad"
+      ],
+      "reviewer": "baking_editor",
+      "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
+      "status": "assigned; whole author/independent/root pending"
+    },
+    "sides_pressure_preservation_24": {
+      "slugs": [
+        "crispy-shallots",
+        "elderberry-syrup",
+        "instant-pot-butternut-squash-soup",
+        "instant-pot-potato-leek-soup",
+        "nana-ruths-applesauce",
+        "patatas-bravas",
+        "spiced-butternut-squash-puree",
+        "sweet-and-spicy-spareribs-with-korean-barbecue-sauce"
+      ],
+      "reviewer": "poultry_editor",
+      "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -2681,15 +2710,18 @@
       "source": "Adapted from thatskinnychickcanbake.com",
       "sourceUrl": "https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/",
       "group": "baked_family_desserts_06",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/chocolate-chip-cookie-cake.json"
+        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/chocolate-chip-cookie-cake.json",
+        "docs/reviews/chocolate-chip-cookie-cake.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
-        "Exactdeep14-inchpan depth unspecified; arbitrarysheetpan adaptation not validated."
+        "Exactdeep14-inchpan depth unspecified; arbitrarysheetpan adaptation not validated.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume."
       ],
       "inputSha256": "282c473cdf76e4aeff79c2f75c62a953ccc678147b308ac166053badaf92e540",
       "plannedBatch": "baked-sweets-02",
@@ -2702,7 +2734,9 @@
         "sourceSha256": "6168ae1298b96b81ee09bf7f5116fdcb2d5f5870a5977d31c9af666a6da7c539",
         "recordPath": ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/chocolate-chip-cookie-cake.json",
         "recordSha256": "fccbd0c310ade691d054d3726cef1a852f75a9b2c882eaee24a8cadc6d6af203"
-      }
+      },
+      "acceptedSourceSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-chip-muffins-with-zucchini",
@@ -2848,10 +2882,12 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
       "group": "chocolate_frozen_desserts_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/chocolate-souffle.json"
+        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/chocolate-souffle.json",
+        "docs/reviews/chocolate-souffle.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2870,7 +2906,9 @@
         "sourceSha256": "7ca10f64a57c286bb0000476fc1eec9f336a1c5328904a2b572debeb86f3b9f9",
         "recordPath": ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/chocolate-souffle.json",
         "recordSha256": "2f28498040fbe334a694522bd7d9933c0db22f547ff7117d8620ef10b3e98ed5"
-      }
+      },
+      "acceptedSourceSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-vanilla-swirl-layer-cake",
@@ -3076,10 +3114,12 @@
       "source": "Adapted from Saveur.com",
       "sourceUrl": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream",
       "group": "chocolate_frozen_desserts_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/classic-peach-ice-cream.json"
+        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/classic-peach-ice-cream.json",
+        "docs/reviews/classic-peach-ice-cream.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3098,7 +3138,9 @@
         "sourceSha256": "00eceb5b1d9acf5767295b90c1cffbd9359c082bcfccc83e505c8f69e238f42a",
         "recordPath": ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/classic-peach-ice-cream.json",
         "recordSha256": "399fceb5665b460f4222343c2074bc1dc23e2ada3d37e7812ed674a6bea36b22"
-      }
+      },
+      "acceptedSourceSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6",
+      "productionVerification": "pending"
     },
     {
       "slug": "classic-wonton-soup",
@@ -3194,15 +3236,21 @@
       "source": "Adapted from Hamilton/Gwock Family",
       "sourceUrl": null,
       "group": "baked_family_desserts_06",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/cranberry-crunch.json"
+        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/cranberry-crunch.json",
+        "docs/reviews/cranberry-crunch.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
-        "Native marine shorthand does not verify a particular margarine product or spoon conversion; current full½cupbutter preserved."
+        "Native marine shorthand does not verify a particular margarine product or spoon conversion; current full½cupbutter preserved.",
+        "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+        "Actual reheated topping texture and storage quality remain kitchen questions; no new day limit or reheating clock is supplied."
       ],
       "inputSha256": "81d121fc2c84b158b968c3736e37ef533e71c67ec0348a363bfdab4f2e18fc02",
       "plannedBatch": "baked-sweets-03",
@@ -3215,7 +3263,9 @@
         "sourceSha256": "1d78683bc9370872718bc1595afa99dee5bbc022ed07ee199fe1113c67721379",
         "recordPath": ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/cranberry-crunch.json",
         "recordSha256": "898973dc880c27fd738397a1d2b4eba3707ff7c0952d8e8014338ab2f657cd5d"
-      }
+      },
+      "acceptedSourceSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0",
+      "productionVerification": "pending"
     },
     {
       "slug": "cream-of-mushroom-soup",
@@ -3424,8 +3474,8 @@
       "title": "Crispy Shallots",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3433,7 +3483,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "44243d503dcfbb00fba4aefcac9ddc2421a2add61d0dc2b9c25fdf25b4930e1e",
-      "plannedBatch": "stir-fry-and-pan-cooking-02"
+      "plannedBatch": "stir-fry-and-pan-cooking-02",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "crispy-sheet-pan-gnocchi-and-veggies",
@@ -4060,10 +4111,12 @@
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/",
       "group": "chocolate_frozen_desserts_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/easy-oreo-truffles.json"
+        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/easy-oreo-truffles.json",
+        "docs/reviews/easy-oreo-truffles.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4081,7 +4134,9 @@
         "sourceSha256": "74badac45d63dbf17e5581dc3a9d1b35499b69d5a101a5ddd5866387158ab700",
         "recordPath": ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/easy-oreo-truffles.json",
         "recordSha256": "61c2935c381b10b059058f1992614b57823cf945a5d6c99d4043b9d1e23c42f8"
-      }
+      },
+      "acceptedSourceSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-spinach-gnocchi",
@@ -4175,11 +4230,12 @@
       "source": "Allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/",
       "group": "chocolate_frozen_desserts_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/eggless-strawberry-ice-cream.md",
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/eggless-strawberry-ice-cream.json"
+        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/eggless-strawberry-ice-cream.json",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -4197,7 +4253,9 @@
         "sourceSha256": "f3d95ed5550375e729f691777bddfb41e914e5cd6faaff98ed680ea8cd66dd06",
         "recordPath": ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/eggless-strawberry-ice-cream.json",
         "recordSha256": "7ac8a422dfd14fbcb57efd104f2383faf5a724558c3e6eb44a60bff2d18ed5d7"
-      }
+      },
+      "acceptedSourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
+      "productionVerification": "pending"
     },
     {
       "slug": "elderberry-syrup",
@@ -4205,8 +4263,8 @@
       "title": "Elderberry Syrup",
       "source": "Adapted from Wellnessmama.com",
       "sourceUrl": "https://wellnessmama.com/1888/elderberry-syrup/",
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4214,7 +4272,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8184652b1085f842ff6b7ae722f85c1c8a1f810d7bcaca59997efc585deddbf1",
-      "plannedBatch": "simmer-boil-and-steam-04"
+      "plannedBatch": "simmer-boil-and-steam-04",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "elote-style-corn-on-the-cob",
@@ -4330,15 +4389,22 @@
       "source": "Adapted from Jodi Silton",
       "sourceUrl": null,
       "group": "baked_family_desserts_06",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/farfel-muffins.json"
+        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/farfel-muffins.json",
+        "docs/reviews/farfel-muffins.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
-        "Actual family muffin-cup geometry and salt crystal brand are absent; eight-count planning and current1tsp are not original precision."
+        "Actual family muffin-cup geometry and salt crystal brand are absent; eight-count planning and current1tsp are not original precision.",
+        "What product did Hamilton/Gwock mean by “marine”? The distinct source-fat option remains held, with no conversion.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
       ],
       "inputSha256": "201530e7fe17f164cc631caf1b2653a08f0f28a4e15a9e0edb07a690aec7338c",
       "plannedBatch": "baked-savory-and-breads-05",
@@ -4351,7 +4417,9 @@
         "sourceSha256": "cb62c91f28c27ab46495b52b813176c5f439c2c0c6e2b800b3387c0867b7cbef",
         "recordPath": ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/farfel-muffins.json",
         "recordSha256": "1eedba3e5b5a2cc099893c75e26c309fec39da418b438f5f46da5f24cdca7c20"
-      }
+      },
+      "acceptedSourceSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531",
+      "productionVerification": "pending"
     },
     {
       "slug": "favorite-cream-cheese-frosting",
@@ -4360,15 +4428,19 @@
       "source": "Adapted from sallysbakingaddiction.com",
       "sourceUrl": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
       "group": "baked_family_desserts_06",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/favorite-cream-cheese-frosting.json"
+        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/favorite-cream-cheese-frosting.json",
+        "docs/reviews/favorite-cream-cheese-frosting.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
-        "Actual piping shape and coverage depend on cake size/product; source grams differ between retained original and modern page, no guessed equivalence."
+        "Actual piping shape and coverage depend on cake size/product; source grams differ between retained original and modern page, no guessed equivalence.",
+        "Actual softening, Farfel hydration/cooling and additional oven-load durations need kitchen observations; none is measured here.",
+        "The chocolate frosting is a separate unprovided recipe. This does not authorize substituting its quantities or claim that it was reviewed here."
       ],
       "inputSha256": "6cf4e681723cfec0b4d2e63141fddf3f3fb9ae9ca3cb20948782af6cbc590e92",
       "plannedBatch": "cold-preparations-02",
@@ -4381,7 +4453,9 @@
         "sourceSha256": "e01eafb3c9265f9a774608efd84df6668c345d4875b2e969003f439e4b5a4f95",
         "recordPath": ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/favorite-cream-cheese-frosting.json",
         "recordSha256": "0aee206a452faac35cdba133c963c6d0b892bc4f1cc55634f706d802779667bc"
-      }
+      },
+      "acceptedSourceSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3",
+      "productionVerification": "pending"
     },
     {
       "slug": "favorite-pumpkin-oatmeal-muffins",
@@ -4444,10 +4518,12 @@
       "source": "Adapted from kingarthurbaking.com",
       "sourceUrl": "https://www.kingarthurbaking.com/blog/2008/04/10/flour-takes-a-passover-break-and-chocolate-steps-into-the-breach",
       "group": "chocolate_frozen_desserts_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/flourless-chocolate-cake.json"
+        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/flourless-chocolate-cake.json",
+        "docs/reviews/flourless-chocolate-cake.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4466,7 +4542,9 @@
         "sourceSha256": "1f7635b90289af841ff911a9d19c707ab0fda04e6f4f5bd8837216488356c951",
         "recordPath": ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/flourless-chocolate-cake.json",
         "recordSha256": "1a6b536dfd5023b5e8e49f3482924abd550a765fb4820ac0c9c11956a6b9c5c4"
-      }
+      },
+      "acceptedSourceSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632",
+      "productionVerification": "pending"
     },
     {
       "slug": "freezer-banana-bread",
@@ -5093,15 +5171,20 @@
       "source": "Adapted from glutenfreepalate.com",
       "sourceUrl": "https://www.glutenfreepalate.com/gluten-free-lemon-cupcakes/#mv-creation-79-jtr",
       "group": "baked_family_desserts_06",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/gluten-free-lemon-cupcakes.json"
+        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/gluten-free-lemon-cupcakes.json",
+        "docs/reviews/gluten-free-lemon-cupcakes.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
-        "Current2tbsp vs source3–4tbsp frostingmilk consistency requires cooking; preserve exclusive complete routes."
+        "Current2tbsp vs source3–4tbsp frostingmilk consistency requires cooking; preserve exclusive complete routes.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
       ],
       "inputSha256": "4c617e390a139cffda0145ff60513dcf54a505820e8bcdbccf3dca388c20f967",
       "plannedBatch": "baked-sweets-04",
@@ -5114,7 +5197,9 @@
         "sourceSha256": "1518dd70cfd1826e3abb66e1774f35b81f5ed792ad25db381b8f60b8f1f550cc",
         "recordPath": ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/gluten-free-lemon-cupcakes.json",
         "recordSha256": "f109e43ddfaf968e1a0be40047dec18c343d3def8049dc289896f8e52a5f9840"
-      }
+      },
+      "acceptedSourceSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e",
+      "productionVerification": "pending"
     },
     {
       "slug": "gnocchi-with-zucchini-ribbons-and-parsley-brown-butter",
@@ -5588,15 +5673,21 @@
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
       "group": "baked_family_desserts_06",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/healthy-apple-muffins.json"
+        ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/healthy-apple-muffins.json",
+        "docs/reviews/healthy-apple-muffins.md",
+        "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
-        "Current squeezed-dry vs source gentlysqueezeifdripping moisture and source-specific replacement texture require cooking."
+        "Current squeezed-dry vs source gentlysqueezeifdripping moisture and source-specific replacement texture require cooking.",
+        "Cookie pan depth and Farfel cup size remain unprovided. These replacements do not choose new vessels or assert a cooked volume.",
+        "How do the selected oil and ingredient temperatures affect this batter? No exact temperature or new heating duration is supplied.",
+        "Farfel’s actual cup geometry and the number eaten per diner remain unknown. Count labels do not certify a composed meal.",
+        "Source/current seasoning and grated-apple moisture differences stay private and undecided; no preference intent is asserted."
       ],
       "inputSha256": "81d605e025ef770e0caa51b0c78099257e04739a4c60c10b50fac21a42f8265c",
       "plannedBatch": "baked-savory-and-breads-06",
@@ -5609,7 +5700,9 @@
         "sourceSha256": "334f5aa8ec286ab3f5d8183e0e0296a75551964e250cdc222a502af8ad4b0151",
         "recordPath": ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/healthy-apple-muffins.json",
         "recordSha256": "449569992713939791f384a5b2e9d1121b84c7213d4b9da92f5656ec131770c1"
-      }
+      },
+      "acceptedSourceSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107",
+      "productionVerification": "pending"
     },
     {
       "slug": "healthy-banana-bread",
@@ -6017,8 +6110,8 @@
       "title": "Pressure-Cooker Butternut Squash Soup",
       "source": "Adapted from damndelicious.net",
       "sourceUrl": "https://damndelicious.net/2019/12/29/instant-pot-butternut-squash-soup/",
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6026,7 +6119,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "0022268054110fabe3a82245e8a6c1518381990e561b92580606cd8405724301",
-      "plannedBatch": "context-screening-03"
+      "plannedBatch": "context-screening-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "instant-pot-potato-leek-soup",
@@ -6034,8 +6128,8 @@
       "title": "Pressure-Cooker Potato Leek Soup",
       "source": "Adapted from simplyhappyfoodie.com",
       "sourceUrl": "https://www.simplyhappyfoodie.com/instant-pot-potato-leek-soup/",
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6043,7 +6137,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c850af87ebe661990045ea4eebf2e74a8852d602871dd70d65d9b59d80a26715",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "japanese-beef-rice-bowl-gyudon",
@@ -7042,8 +7137,8 @@
       "title": "Challah",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/7199-my-favorite-challah",
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7051,7 +7146,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "4edd459bf8b258fb943d07d0ddc9ecce5472facce7d96b7b2938fc58f62e9dfc",
-      "plannedBatch": "baked-savory-and-breads-07"
+      "plannedBatch": "baked-savory-and-breads-07",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "nana-ruths-applesauce",
@@ -7059,8 +7155,8 @@
       "title": "Nana Ruth’s Applesauce",
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7068,7 +7164,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236",
-      "plannedBatch": "simmer-boil-and-steam-07"
+      "plannedBatch": "simmer-boil-and-steam-07",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "nanas-biscuits",
@@ -7103,8 +7200,8 @@
       "title": "No-Cook Playdough",
       "source": "Adapted from tinkerlab.com",
       "sourceUrl": "https://tinkerlab.com/no-cook-play-dough/",
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification", "non-food-content"],
       "remainingQuestions": [
@@ -7113,7 +7210,8 @@
       ],
       "inputSha256": "342258d03dad918835f4f8efec9013503b6a018998953750f158f7b7e2bb64ea",
       "scope": "existing craft; non-food editorial disposition required",
-      "plannedBatch": "non-food-disposition-01"
+      "plannedBatch": "non-food-disposition-01",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "noodle-pudding",
@@ -7595,8 +7693,8 @@
       "title": "Patatas Bravas",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7604,7 +7702,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "4eee8e05625aea853037aa5f5771b3a63ac649fd11e46da1567daa2f24a5f3e1",
-      "plannedBatch": "stir-fry-and-pan-cooking-04"
+      "plannedBatch": "stir-fry-and-pan-cooking-04",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "patate-al-forno",
@@ -7798,8 +7897,8 @@
       "title": "Play-Dough",
       "source": "Adapted from Gracy Ann",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification", "non-food-content"],
       "remainingQuestions": [
@@ -7808,7 +7907,8 @@
       ],
       "inputSha256": "8d6157beba45cc2df6ede83eea7a0a384c9fb787a833f7802c5b52a75a57a252",
       "scope": "existing craft; non-food editorial disposition required",
-      "plannedBatch": "non-food-disposition-01"
+      "plannedBatch": "non-food-disposition-01",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "pork-and-greens-dumplings",
@@ -7816,8 +7916,8 @@
       "title": "Pork and Greens Dumplings",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/dumpling-recipe-youll-ever-need/",
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/pork-and-greens-dumplings.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7825,7 +7925,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "e40114e26ecb2dd5035e81550a197466cd2f8cdfc9d9dad23ad4e7fca880a366",
-      "plannedBatch": "stir-fry-and-pan-cooking-04"
+      "plannedBatch": "stir-fry-and-pan-cooking-04",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "pressure-cooker-bolognase",
@@ -8176,8 +8277,8 @@
       "title": "Spaghetti Carbonara",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8185,7 +8286,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9cf67061e710024e753b38c8393c455f37e063f03a77c3c73a85cd866374fb20",
-      "plannedBatch": "simmer-boil-and-steam-08"
+      "plannedBatch": "simmer-boil-and-steam-08",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "red-velvet-cupcakes",
@@ -8693,8 +8795,8 @@
       "title": "Royal Icing",
       "source": "Adapted from preppykitchen.com",
       "sourceUrl": "https://preppykitchen.com/royal-icing/",
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8702,7 +8804,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a8e1f76db3399ab137ee7fa6bb2dcb371e527679fd8ee806e4f3c6e8ee618e78",
-      "plannedBatch": "cold-preparations-04"
+      "plannedBatch": "cold-preparations-04",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
@@ -9979,8 +10082,8 @@
       "title": "Butternut Squash Purée",
       "source": "Adapted from Silton Family",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -9988,7 +10091,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "25a593639c733af3c69aaab5fea922f4ab211c21579bbfd2cf5b8b9d0f35af3a",
-      "plannedBatch": "baked-savory-and-breads-10"
+      "plannedBatch": "baked-savory-and-breads-10",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "spinach-and-mushroom-quiche",
@@ -10214,8 +10318,8 @@
       "title": "Strawberry Orange Jello Salad",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "breads_crafts_dumplings_23",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10223,7 +10327,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674",
-      "plannedBatch": "simmer-boil-and-steam-10"
+      "plannedBatch": "simmer-boil-and-steam-10",
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
     },
     {
       "slug": "strawberry-quinoa-breakfast-bars",
@@ -10423,8 +10528,8 @@
       "title": "Sweet and Spicy Spareribs",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce",
-      "group": null,
-      "status": "queued",
+      "group": "sides_pressure_preservation_24",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10432,7 +10537,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "e5e504cdca1548b3b24b2980dde02c388f56d2cf648938270462fd835ac58f30",
-      "plannedBatch": "braises-and-slow-cooking-03"
+      "plannedBatch": "braises-and-slow-cooking-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
     },
     {
       "slug": "sweet-and-white-potato-gratin",
@@ -12060,9 +12166,9 @@
   "statusCounts": {
     "production-verified": 234,
     "held": 25,
-    "proposed": 110,
-    "assigned": 23,
-    "queued": 15,
+    "proposed": 99,
+    "assigned": 38,
+    "accepted": 11,
     "held-awaiting-evidence": 2
   }
 }

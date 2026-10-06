@@ -1,0 +1,415 @@
+{
+  "slug": "easy-oreo-truffles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
+  "inputSha256": "d14eadda96de285c34539ae60909255210e8e3b1c8762bcdf408785b4de3f35a",
+  "acceptedSourceSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "80 min",
+      "after": "2–3 hr, including both chilling stages"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "16 oz cream-filled chocolate sandwich cookies",
+        "1 pkg (8 oz) Cream Cheese, softened",
+        "16 oz Semi-Sweet Baking Chocolate, melted",
+        "Reserved cookie crumbs",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "after": [
+        "16 oz cream-filled chocolate sandwich cookies",
+        "1 pkg (8 oz) Cream Cheese, softened",
+        "16 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 60
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reserve garnish from the same full cookie supply",
+        "outcome": "Firm coated cream-cheese truffles with evenly distributed cookie crumbs.",
+        "techniques": ["temperature"],
+        "before": [
+          "Weigh the cookies rather than relying on a fixed package count. Use a dry chocolate bowl and enough refrigerator space for all trays.",
+          "Keep the one-fifth garnish separate from the four-fifths filling, using the full measured cookie mass only once."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Uniform cookie-and-cream-cheese mixture with no pale pockets.",
+            "why": "Unmixed cheese pockets can make shaping uneven."
+          },
+          {
+            "step": 4,
+            "cue": "Cold balls hold their shape during dipping.",
+            "why": "Soft balls shed crumbs and cream cheese into the coating."
+          },
+          {
+            "step": 8,
+            "cue": "Firm shell after the full refrigerated set.",
+            "why": "Coating appearance alone does not establish cold dairy storage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Balls soften or shed crumbs while dipping",
+            "cause": "The balls are insufficiently chilled or the melted coating is too hot.",
+            "fix": "Chill the balls until firm, let the coating cool enough not to soften them, and keep waiting batches refrigerated."
+          }
+        ],
+        "timing": "Allow about 20–30 minutes active crushing/shaping/melting/dipping,30–60 minutes pre-dip chilling and at least 1 hour final setting. Plan roughly 2–3 hours total with overlap; extra trays add active time.",
+        "substitutions": [
+          {
+            "ingredient": "Coating chocolate",
+            "alternative": "Use the same full measured mass of milk or white chocolate instead of the semisweet coating if desired.",
+            "effect": "A modern publisher variation; melting behavior and sweetness differ, and all cream-cheese cold handling remains."
+          },
+          {
+            "ingredient": "Crushing tools",
+            "alternative": "Finely crush cookies in a sealed bag with a rolling pin instead of a food processor, keeping the same one-fifth/four-fifths split.",
+            "effect": "A rolling pin and sealed bag can produce the fine crumbs needed for both filling and garnish."
+          }
+        ],
+        "storage": "Keep covered cream-cheese truffles refrigerated at 40°F /4°C or below until just before serving. Count preparation and service toward 2 hours unrefrigerated, or 1 hour above 90°F /32°C. Return waiting batches to the refrigerator rather than extending counter service.",
+        "sources": [
+          {
+            "title": "Allrecipes — Easy OREO Truffles",
+            "url": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChill rolled truffle balls for at least 30 minutes before dipping in melted chocolate - the temperature contrast creates an immediate shell that prevents the truffle from melting into the coating. Reserve a few cookies for garnish to add textural contrast against smooth chocolate.\n\n## Directions\n\n1.  **The Crumbs:** Reserve 9 cookies. Pulse the remaining 36 cookies in a food processor until they are fine, sandy crumbs.\n2.  **The Bind:** In a large bowl, beat the softened cream cheese and cookie crumbs until completely combined and a dark, uniform dough forms.\n3.  **Shape:** Roll the mixture into 1-inch balls (about 42 total). Place on a parchment-lined tray.\n4.  **The Finish:** Refrigerate the balls for **at least 30-60 minutes** until very firm.\n5.  **The Melt:** Melt the baking chocolate in a heatproof bowl over simmering water (or in the microwave in 30-second bursts).\n6.  **Dip:** Using a fork or dipping tool, submerge each cold ball into the chocolate. Tap off the excess.\n7.  **Garnish:** Immediately sprinkle with the crushed reserved cookies (and a pinch of sea salt for the **Acid/Salt Finish**) while the chocolate is still wet.\n8.  **Finish:** Refrigerate for 1 hour to set the shell. Store in the fridge.\n",
+    "after": "\n## Chef's Note\n\nUse the full measured cookie mass, including the cream filling, and reserve part of those same cookies for garnish. Firm cold balls are easier to coat than soft ones. Let the melted chocolate cool enough not to soften them on contact, then keep the finished cream-cheese truffles refrigerated until serving.\n\n## Directions\n\n1. **Crush and reserve:** Weigh the full listed cookie amount, including its cream filling. Finely crush one-fifth and reserve these crumbs for garnish; crush the remaining four-fifths for the filling. The source’s original 16-ounce package was roughly 45 cookies, with 9 reserved and 36 inside; do not force those literal counts on a different package or scale. A sealed bag and rolling pin is the source alternative to a processor.\n2. **Mix:** Beat all the softened cream cheese with all the four-fifths filling crumbs until evenly combined. The reserved garnish crumbs are not an additional cookie supply.\n3. **Shape:** Roll into roughly 1-inch balls, aiming for about the listed count as a planning yield. Use more or fewer same-sized balls when scaling and enough lined trays to hold them.\n4. **Chill:** Refrigerate the balls about 30–60 minutes until firm enough to dip. Keep cream-cheese preparation and service within the cold-handling limits below.\n5. **Melt:** Melt all the baking chocolate in a dry heatproof bowl over barely simmering water, or in short microwave bursts with stirring between them. Start with the existing 30-second bursts and shorten as it melts. Keep water out; allow the chocolate to cool a little if it softens the cold balls on contact.\n6. **Dip:** Coat each cold ball using a fork or dipping tool, tap off excess and place on a lined tray. Work in batches, keeping waiting balls refrigerated. Use the full chocolate supply for coating, recognizing that a dipping bowl may retain a little excess.\n7. **Garnish:** While the coating is wet, distribute all the reserved cookie crumbs among the balls. Add the optional flaky salt if desired.\n8. **Set:** Refrigerate at least 1 hour until the coating is firm. Store covered in the refrigerator until just before serving. Dipping chocolate that has touched cream-cheese crumbs belongs in refrigerated handling; the source’s room-temperature leftover-chocolate note applies only to a clean separate supply.\n"
+  },
+  "findings": [
+    {
+      "id": "CFD04-6",
+      "title": "CFD04-6",
+      "rationale": "Full16ozcookies/8ozcreamcheese/16ozchocolate preserved;9/45reserve→1/5 and36/45→4/5 is exact proportional allocation, no inventedcookieweight/count. DuplicateReservedcrumbs shopping row removed because itcomesfromsame16oz, allcrumbs used. Currentpredip30–60rest retained plusnativefinal1h means80minTotalfalse;2–3hplan. Native bagroute andmodernwhite/milkchocolate options restored distinct. Rawdairy-contact chocolate cleanleftoverexception narrowed, no guessed shelf-life.",
+      "confidence": "High exact native/source quantities and arithmetic; moderate editorial endpoint, cold handling, pan and elapsed planning",
+      "applicableSources": [
+        {
+          "url": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/",
+          "scope": "Actual full Allrecipes says16oz roughly45cookies and recommendsweighing, reserves9/45 withrestfilling,42oneinch plan/full8ozcreamcheese/full16ozchocolate and1hchill. Current extra30–60min predip rest/optionalflakes preserved. Proportional1/5reserve4/5filling is exact arithmetic at same totalmass, no inferred brand-count equivalence. Native clean leftoverschocolate roomtemperature exception cannot apply rawdairy-contact dipping bowl."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Actual shared primary cleanproduce/cold40F/prompt2h1habove90 rules only; no ratio/pan/churn/yield validation"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual cookie brand/size and ball scoop affect count;42is sourceplanning, notprecision.",
+        "Does the full16oz chocolate comfortably coat the actual balls with the chosen dipping method? Retained bowl remainder is not permission to reduce listed supply.",
+        "How long must the melted coating cool to avoid softening balls? No unsupported temperature or testedclock added."
+      ]
+    },
+    {
+      "id": "ROOT-DIRECT-COOKING-AND-SAVED-WEIGHTS",
+      "title": "Explain the cooking choices and preserve exact source weight option",
+      "rationale": "The saved/native labels in these narrow public spans describe archive/review provenance. Direct prose can explain the coating, crushing and full measured fruit-base supplies; source proofs stay in records. This does not require any broader copy rewrite.",
+      "confidence": "High, cooking prose only.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applies": "Public learning is recipe-specific cooking help; provenance belongs in evidence/records.",
+          "limits": "Style/usability scope only; existing cooking doses and routes remain valid."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20OREO%20Truffles.html",
+    "introductionScope": "Actual earliest Git cooking blob hash verified; root has read exact bound native cooking. Full followed histories read by authors and independent editors, not claimed fully reread by root.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual full Allrecipes says16oz roughly45cookies and recommendsweighing, reserves9/45 withrestfilling,42oneinch plan/full8ozcreamcheese/full16ozchocolate and1hchill. Current extra30–60min predip rest/optionalflakes preserved. Proportional1/5reserve4/5filling is exact arithmetic at same totalmass, no inferred brand-count equivalence. Native clean leftoverschocolate roomtemperature exception cannot apply rawdairy-contact dipping bowl.",
+      "questions": [
+        "Actual cookie brand/size and ball scoop affect count;42is sourceplanning, notprecision.",
+        "Does the full16oz chocolate comfortably coat the actual balls with the chosen dipping method? Retained bowl remainder is not permission to reduce listed supply.",
+        "How long must the melted coating cool to avoid softening balls? No unsupported temperature or testedclock added."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "16 oz cream-filled chocolate sandwich cookies",
+        "actualMethodDestination": "step1literal9reserved36inside"
+      },
+      {
+        "text": "1 pkg (8 oz) Cream Cheese, softened",
+        "actualMethodDestination": "step2filling"
+      },
+      {
+        "text": "16 oz Semi-Sweet Baking Chocolate, melted",
+        "actualMethodDestination": "step5melt/6coat"
+      },
+      {
+        "text": "Reserved cookie crumbs",
+        "actualMethodDestination": "step7fromreservedcookiesnotnewquantity"
+      },
+      {
+        "text": "Flaky Sea Salt (Optional)",
+        "actualMethodDestination": "step7optional"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "16 oz cream-filled chocolate sandwich cookies",
+        "actualMethodDestination": "step1reserve1/5/4/5filling;step2inside/7garnish"
+      },
+      {
+        "text": "1 pkg (8 oz) Cream Cheese, softened",
+        "actualMethodDestination": "step2filling"
+      },
+      {
+        "text": "16 oz Semi-Sweet Baking Chocolate, melted",
+        "actualMethodDestination": "step5melt/6coat"
+      },
+      {
+        "text": "Flaky Sea Salt (Optional)",
+        "actualMethodDestination": "step7optional"
+      }
+    ],
+    "savedOriginal": {
+      "reference": "privately retained evidence",
+      "ingredients": "1 (16 ounce) package OREO Chocolate Sandwich Cookies, divided\n1 (8 ounce) package PHILADELPHIA Cream Cheese, softened\n2 (8 ounce) packages BAKER'S Semi-Sweet Baking Chocolate, melted",
+      "directions": "Crush 9 of the cookies to fine crumbs in food processor; reserve for later use. (Cookies can also be finely crushed in a resealable plastic bag using a rolling pin.) Crush remaining 36 cookies to fine crumbs; place in medium bowl. Add cream cheese; mix until well blended. Roll cookie mixture into 42 balls, about 1-inch in diameter.\n\nDip balls in chocolate; place on wax paper-covered baking sheet. (Any leftover chocolate can be stored at room temperature for another use.) Sprinkle with reserved cookie crumbs.\n\nRefrigerate until firm, about 1 hour. Store leftover truffles, covered, in refrigerator.",
+      "notes": "",
+      "scope": "Exact durable original450 binding; original Directions contain ingredient supplies for incomplete Cake ingredient scrape, preserved privately"
+    },
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Crush and reserve: Weigh the full listed cookie amount, including its cream filling. Finely crush one-fifth and reserve these crumbs for garnish; crush the remaining four-fifths for the filling. The source’s original 16-ounce package was roughly 45 cookies, with 9 reserved and 36 inside; do not force those literal counts on a different package or scale. A sealed bag and rolling pin is the source alternative to a processor."
+    },
+    {
+      "step": 2,
+      "text": "Mix: Beat all the softened cream cheese with all the four-fifths filling crumbs until evenly combined. The reserved garnish crumbs are not an additional cookie supply."
+    },
+    {
+      "step": 3,
+      "text": "Shape: Roll into roughly 1-inch balls, aiming for about the listed count as a planning yield. Use more or fewer same-sized balls when scaling and enough lined trays to hold them."
+    },
+    {
+      "step": 4,
+      "text": "Chill: Refrigerate the balls about 30–60 minutes until firm enough to dip. Keep cream-cheese preparation and service within the cold-handling limits below."
+    },
+    {
+      "step": 5,
+      "text": "Melt: Melt all the baking chocolate in a dry heatproof bowl over barely simmering water, or in short microwave bursts with stirring between them. Start with the existing 30-second bursts and shorten as it melts. Keep water out; allow the chocolate to cool a little if it softens the cold balls on contact."
+    },
+    {
+      "step": 6,
+      "text": "Dip: Coat each cold ball using a fork or dipping tool, tap off excess and place on a lined tray. Work in batches, keeping waiting balls refrigerated. Use the full chocolate supply for coating, recognizing that a dipping bowl may retain a little excess."
+    },
+    {
+      "step": 7,
+      "text": "Garnish: While the coating is wet, distribute all the reserved cookie crumbs among the balls. Add the optional flaky salt if desired."
+    },
+    {
+      "step": 8,
+      "text": "Set: Refrigerate at least 1 hour until the coating is firm. Store covered in the refrigerator until just before serving. Dipping chocolate that has touched cream-cheese crumbs belongs in refrigerated handling; the source’s room-temperature leftover-chocolate note applies only to a clean separate supply."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Coating chocolate",
+      "alternative": "Use the same full measured mass of milk or white chocolate instead of the semisweet coating if desired.",
+      "effect": "A modern publisher variation; melting behavior and sweetness differ, and all cream-cheese cold handling remains."
+    },
+    {
+      "ingredient": "Crushing tools",
+      "alternative": "Finely crush cookies in a sealed bag with a rolling pin instead of a food processor, keeping the same one-fifth/four-fifths split.",
+      "effect": "A rolling pin and sealed bag can produce the fine crumbs needed for both filling and garnish."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composedmeal references found for these six; metadata suggestions do not add ingredients or confer whole-review credit to linked recipes. KeyLime linked bakedPie is not an exact flavor/formula match and heldclaim notendorsed."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "42 truffles",
+    "yieldScope": "Preserved planning portions/count; no tested mass/volume or nutrition",
+    "capacity": "Sameoneinchballsmore/fewercountsandtrays;no42atallscalespromise",
+    "timing": "Allow about 20–30 minutes active crushing/shaping/melting/dipping,30–60 minutes pre-dip chilling and at least 1 hour final setting. Plan roughly 2–3 hours total with overlap; extra trays add active time.",
+    "formula": "Core total rich measures unchanged. Legacy bounded method/destination, exact proportional allocations and separately documented complete source variants; no authored formula present/migration forced."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "4 oz cream-filled chocolate sandwich cookies",
+        "1/4 pkg (8 oz) Cream Cheese, softened",
+        "4 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "10 1/2 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "8 oz cream-filled chocolate sandwich cookies",
+        "1/2 pkg (8 oz) Cream Cheese, softened",
+        "8 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "21 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "16 oz cream-filled chocolate sandwich cookies",
+        "1 pkg (8 oz) Cream Cheese, softened",
+        "16 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "42 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "24 oz cream-filled chocolate sandwich cookies",
+        "1 1/2 pkg (8 oz) Cream Cheese, softened",
+        "24 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "63 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "32 oz cream-filled chocolate sandwich cookies",
+        "2 pkg (8 oz) Cream Cheese, softened",
+        "32 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "84 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "48 oz cream-filled chocolate sandwich cookies",
+        "3 pkg (8 oz) Cream Cheese, softened",
+        "48 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "126 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "16 oz cream-filled chocolate sandwich cookies",
+        "1 pkg (8 oz) Cream Cheese, softened",
+        "16 oz Semi-Sweet Baking Chocolate, melted",
+        "Flaky Sea Salt (Optional)"
+      ],
+      "yield": "42 truffles",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All current measured richness/sourceURL/cuisines/rating/title/identity/enabledscaling and useful method options preserved; native alternatives are documented, not inferred deliberately rejected from bulkpersistence.",
+  "remainingQuestions": [
+    "Actual cookie brand/size and ball scoop affect count;42is sourceplanning, notprecision.",
+    "Does the full16oz chocolate comfortably coat the actual balls with the chosen dipping method? Retained bowl remainder is not permission to reduce listed supply.",
+    "How long must the melted coating cool to avoid softening balls? No unsupported temperature or testedclock added."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; three disclosed clock metadata warnings because elapsed cooling/chilling is included in totalTime and explicitly explained in the full timing and method, while advancePrep remains unset. One existing missing-pairing warning on Eggless Strawberry Ice Cream is preserved. No chilling or setting stage was shortened to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12338,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
