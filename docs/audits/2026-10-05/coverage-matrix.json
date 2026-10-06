@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 404,
-    "completeEditorialPending": 239,
+    "recordedCompleteEditorial": 414,
+    "completeEditorialPending": 229,
     "originalBaseline": 612,
-    "originalReviewed": 379,
+    "originalReviewed": 388,
     "consideredConsolidations": 10,
-    "originalPending": 223,
+    "originalPending": 214,
     "additionalSources": 41,
-    "additionalReviewed": 25,
-    "additionalPending": 16,
+    "additionalReviewed": 26,
+    "additionalPending": 15,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 404,
+      "editoriallyReviewed": 414,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 450
+      "reviewItems": 432
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "170 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 404 recorded complete / 239 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [8029b0bd](https://github.com/jsilton/mise/commit/8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37424013240) and all 11 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "170 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5910,18 +5910,7 @@
       "baseline": "original canonical",
       "source": "Adapted from minimalistbaker.com",
       "sourceUrl": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5929,19 +5918,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-chip-beet-muffins.md",
+        "acceptedSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-chip-beet-muffins.json",
+        "sourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy.",
+        "How much puree drains from the actual canned or roasted beets, and how many muffins does the household tin produce?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6009,18 +6004,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6028,19 +6012,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chocolate-chip-muffins-with-zucchini.md",
+        "acceptedSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-chip-muffins-with-zucchini.json",
+        "sourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
+        "Before/after squeezing measurement for the listed zucchini remains a kitchen/source question, not normalized to the separate protein recipe.",
+        "Was the listed 2 cups measured before or after towel squeezing, and what filled-cup count does the actual tin yield?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6212,13 +6203,7 @@
       "baseline": "addition",
       "source": "yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6226,19 +6211,25 @@
         "evidence": ["docs/reviews/chocolate-protein-zucchini-muffins.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/chocolate-protein-zucchini-muffins.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chocolate-protein-zucchini-muffins.json",
+        "sourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter.",
+        "Which chocolate protein powder was used, and does this full adapted batter fit the actual 12 standard cups at the stated maximum fill?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10136,18 +10127,7 @@
       "baseline": "original canonical",
       "source": "Adapted from yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10155,19 +10135,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/favorite-pumpkin-oatmeal-muffins.md",
+        "acceptedSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/favorite-pumpkin-oatmeal-muffins.json",
+        "sourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
+        "Flax/chia eggs are named but their actual preparation and total liquid are unspecified; hold these variants rather than invent a ratio.",
+        "What is the actual blender load limit and standard/mini count, and which product-directed egg replacer was used if that option is selected?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16522,18 +16509,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16541,19 +16517,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/mediterranean-grain-salad.md",
+        "acceptedSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/mediterranean-grain-salad.json",
+        "sourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual pearled farro product and whether listed broth suffices at the selected pot/lid; package directions govern deviations.",
+        "Wheat berry product and longer elapsed clock remain route-specific, not universal.",
+        "Six portions are inherited planning, not a weighed grain yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -19878,18 +19861,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Puffy Muffin",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -19897,19 +19869,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/puffy-muffin-chicken-salad.md",
+        "acceptedSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/puffy-muffin-chicken-salad.json",
+        "sourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The current about1lb companion measure is an unverified rough estimate, not an exact equivalence to two cups of raw tenders; measure intended original tender volume/weight before certifying a weight conversion.",
+        "Confirm desired current onion/lemon preparation versus simpler source route and actual portion count.",
+        "Tender size, cooling depth and refrigerator load govern the untested planning clock."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20405,18 +20384,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20424,19 +20392,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/quick-pickled-cucumber-salad.md",
+        "acceptedSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/quick-pickled-cucumber-salad.json",
+        "sourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cucumber sizes, salt crystal brand and vinegar product are unspecified; no fine-salt conversion or preservation acidity certified.",
+        "Half-teaspoon optional gochugaru is the written ingredient amount, while the old method sayspinch; householdpreferredheat remains an open tastequestion.",
+        "Measure overnight liquidrelease and desired short-rest texture; no preserved-food shelf-life test."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27042,18 +27017,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Superhealthykids.com",
       "sourceUrl": "https://www.superhealthykids.com/sweet-spinach-muffins/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27061,19 +27025,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/sweet-spinach-muffins.md",
+        "acceptedSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sweet-spinach-muffins.json",
+        "sourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula.",
+        "Can the actual oven hold both tins with airflow, and how long do these muffins take to cool enough for intact removal and service?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28374,18 +28344,7 @@
       "baseline": "original canonical",
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -28393,19 +28352,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/vegan-caesar-pasta-salad.md",
+        "acceptedSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/vegan-caesar-pasta-salad.json",
+        "sourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which prepared dressing and chickpea products are intended, and how much does the source-linked dressing actually yield? No equivalent volume fabricated.",
+        "Cooling tray depth and refrigerator load determine the elapsed plan.",
+        "Four portions are saved source planning; no weighing or kitchen validation."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28474,13 +28440,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thenaturalnurturer.com",
       "sourceUrl": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -28491,12 +28451,18 @@
         "evidence": ["docs/repairs/2026-09-10/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/vegetable-muffin.md",
+        "acceptedSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/vegetable-muffin.json",
+        "sourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -28505,12 +28471,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan.",
+        "With packed greens and restored carrot, what is the actual filled-cup count and center-bake time? Which greens packing route was used previously?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

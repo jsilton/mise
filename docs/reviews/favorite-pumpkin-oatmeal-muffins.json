@@ -1,0 +1,1839 @@
+{
+  "slug": "favorite-pumpkin-oatmeal-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "e3aace8d634f27a41347f1f883c1bd973086a6f268de34fcb8a214b5a37a1a48",
+  "acceptedSourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–22 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "40–42 min, plus rack cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 muffins, planning yield"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Rolled Oats",
+        "1 cup Pure Pumpkin Puree",
+        "1 cup Milk of choice (Soy or Almond preferred)",
+        "1/3 cup Maple Syrup",
+        "2 large Eggs",
+        "1 tsp Pumpkin Pie Spice",
+        "1 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1 tsp Vanilla Extract",
+        "1/4 cup Dark Chocolate Chips"
+      ],
+      "after": [
+        "2 cups Rolled Oats",
+        "1 cup Pure Pumpkin Puree",
+        "1 cup Milk of choice (Soy or Almond preferred)",
+        "1/3 cup Maple Syrup",
+        "2 large Eggs",
+        "1 tsp Pumpkin Pie Spice",
+        "1 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1 tsp Vanilla Extract",
+        "1/4 cup Dark Chocolate Chips",
+        "Butter or baking spray, as needed for greasing if not using silicone liners"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 220,
+        "protein": 4,
+        "carbs": 37,
+        "fat": 6.5,
+        "fiber": 3,
+        "sugar": 25.5,
+        "sodium": 320
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Break down rolled oats in a wet batter and check a moist center",
+        "outcome": "No coarse oat flakes remain in the smooth batter. The tops are firm and the center tester has no wet batter.",
+        "techniques": ["leavening", "starch"],
+        "before": [
+          "Start with plain canned or cooled homemade pumpkin puree. The 10-minute preparation estimate does not include cooking and cooling homemade puree.",
+          "Use standard cups for the main batch and follow actual blender capacity. The oats are blended in the full wet mixture, not replaced cup-for-cup with an unspecified oat-flour amount.",
+          "Do not taste raw egg batter. Use maple syrup rather than honey for children under one year."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No coarse oat flakes remain in the smooth batter.",
+            "why": "The appliance and load control blending time; a fixed high-speed minute cannot guarantee the same result."
+          },
+          {
+            "step": 5,
+            "cue": "The tops are firm and the center tester has no wet batter.",
+            "why": "This moist oat batter can remain unset beneath a lightly colored top."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Coarse or uneven batter.",
+            "cause": "The appliance load is too large or the oats have not been fully broken down.",
+            "fix": "With the appliance off, scrape the sides and blend again according to its instructions. For a larger batch, blend proportional ingredient loads and recombine them before filling."
+          },
+          {
+            "problem": "Condensation makes stored muffins soggy.",
+            "cause": "They were sealed before cooling.",
+            "fix": "Transfer from the pan to a rack and cool before sealing; refrigerate promptly rather than leaving them out indefinitely."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Same listed volume of honey",
+            "effect": "Honey changes the flavor and is unsuitable below age one."
+          },
+          {
+            "ingredient": "Pumpkin pie spice",
+            "alternative": "Twice the listed amount",
+            "effect": "Stronger spice, 2 tsp for the original 12-muffin batch; scale proportionally."
+          },
+          {
+            "ingredient": "Eggs",
+            "alternative": "A store-bought egg replacer prepared for the listed egg count according to the product instructions",
+            "effect": "The crumb and bake may differ; follow the product-specific amount and preparation."
+          }
+        ],
+        "timing": "Preparation is planned as 10 minutes; one standard batch bakes 20–22 minutes and cools in the pan for 10 minutes, giving 40–42 minutes through pan cooling. Remaining oven heating, rack cooling and later batches add elapsed time. Mini muffins start checking at 12–14 minutes; their count and final bake depend on the cups.",
+        "storage": "Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently warmed. Freeze airtight for up to 3 months for quality.",
+        "sources": [
+          {
+            "title": "Amy Palanjian — attributed recipe",
+            "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/"
+          },
+          {
+            "title": "FDA — safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are nutritious breakfast muffins. We blend the rolled oats into a smooth, nutrient-dense flour directly with the wet ingredients. The key is skipping refined flour entirely and relying on the pumpkin and oats to achieve a dense, moist texture that never turns crumbly. These freeze perfectly and can be pulled out for a quick breakfast or lunch component.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 375°F. Grease a standard 12-cup muffin tin or use silicone liners.\n2.  **Blend:** Combine oats, pumpkin puree, milk, maple syrup, eggs, spices, baking soda, vanilla, and salt in a high-powered blender.\n3.  **Pulverize:** Blend on high for 60 seconds until the batter is perfectly smooth and the oats have transformed into flour.\n4.  **Fill:** Divide the batter evenly among the muffin cups (about 3/4 full). If using chocolate chips, sprinkle them onto the top of each muffin now for a visual \"High Note.\"\n5.  **Bake:** Bake for 20-22 minutes until firm to the touch and the edges are lightly golden.\n6.  **Cool:** Let cool in the pan for 10 minutes to allow the oat structure to set.\n7.  **Store:** These keep in the fridge for 5 days or the freezer for 3 months.\n\n## Cooking Notes\n\nUse plain unsweetened nondairy milk for the dairy-free option and certified gluten-free oats when needed. Mini muffins cook faster; start checking around 12–14 minutes and use a clean center tester. A flax or chia egg can make the texture more like baked oatmeal. Serve in smaller pieces for younger children; use maple syrup rather than honey for children under one year.\n",
+    "after": "\n## Chef's Note\n\nBlend rolled oats with the pumpkin and wet ingredients until the oats are finely broken down. These are moist oat muffins: check that the center is set, and move them from the pan to a rack before storing.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 375°F. Grease a standard 12-cup muffin tin with the pan allowance, or use silicone liners. Use plain pumpkin puree, not sweetened pie filling; homemade puree should be cooled before mixing with eggs or loading a blender.\n\n2. **Blend:** Combine rolled oats, pumpkin puree, milk, maple syrup, eggs, pumpkin pie spice, baking soda, vanilla and salt in a blender or food processor. Keep the chocolate chips out for topping. Follow the appliance’s actual capacity and loading instructions; divide a larger batch into proportionate loads if needed.\n\n3. **Continue blending:** Blend until the oats are finely broken down and the batter is smooth, stopping and scraping with the appliance off as needed. Stop when no coarse oat flakes remain; blending time varies with the appliance and load.\n\n4. **Fill:** Fill the prepared cups no more than ¾ full and distribute all the listed chocolate chips over the tops. Bake excess batter in additional cups or a later batch.\n\n5. **Bake:** Bake for 20–22 minutes, until the tops are firm, the edges lightly golden and a center tester comes out without wet batter.\n\n6. **Cool:** Cool in the pan for 10 minutes, then transfer to a rack. Serve warm, at room temperature or chilled; cool completely before sealing for storage.\n\n7. **Store:** Refrigerate cooled muffins promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins airtight for up to 3 months for quality, and thaw portions in the refrigerator.\n\n## Cooking Notes\n\nFor a honey variation, replace the listed maple syrup with the same volume of honey; do not serve honey-containing muffins to children under one year. For stronger spice, double the listed pumpkin pie spice (2 tsp in the original 12-muffin batch). Chocolate chips may be omitted for the separate plain version. For the dairy-free option, use plain unsweetened nondairy milk and dairy-free chocolate chips if including the topping; choose silicone liners or a dairy-free baking spray rather than butter for the pan. Use certified gluten-free oats when needed.\n\nFor mini muffins, start checking around 12–14 minutes and use the same center-doneness cues; the written 12 count refers to standard muffins, not mini yield. A store-bought egg replacer can be used according to its own instructions for the listed egg count, with a different crumb and checking time. Serve smaller pieces to younger children.\n"
+  },
+  "findings": [
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-1",
+      "field": "cookTime",
+      "rationale": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+          "applicability": "Core oats/pumpkin/milk/syrup/eggs amounts corroborate saved formula; blend without chips, cups ¾ full, 375°F, 20–22-minute bake, 5–10-minute pan cooling then rack. Saved honey, stronger spice, nondairy/certified-oat, mini and product-directed egg-replacer options remain distinct. No oat-flour replacement quantity or flax/chia preparation is established."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-2",
+      "field": "totalTime",
+      "rationale": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+          "applicability": "Core oats/pumpkin/milk/syrup/eggs amounts corroborate saved formula; blend without chips, cups ¾ full, 375°F, 20–22-minute bake, 5–10-minute pan cooling then rack. Saved honey, stronger spice, nondairy/certified-oat, mini and product-directed egg-replacer options remain distinct. No oat-flour replacement quantity or flax/chia preparation is established."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-3",
+      "field": "servings",
+      "rationale": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+          "applicability": "Core oats/pumpkin/milk/syrup/eggs amounts corroborate saved formula; blend without chips, cups ¾ full, 375°F, 20–22-minute bake, 5–10-minute pan cooling then rack. Saved honey, stronger spice, nondairy/certified-oat, mini and product-directed egg-replacer options remain distinct. No oat-flour replacement quantity or flax/chia preparation is established."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-4",
+      "field": "ingredients",
+      "rationale": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+          "applicability": "Core oats/pumpkin/milk/syrup/eggs amounts corroborate saved formula; blend without chips, cups ¾ full, 375°F, 20–22-minute bake, 5–10-minute pan cooling then rack. Saved honey, stronger spice, nondairy/certified-oat, mini and product-directed egg-replacer options remain distinct. No oat-flour replacement quantity or flax/chia preparation is established."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-5",
+      "field": "origin",
+      "rationale": "Omit unsupported country/domain origin while preserving style/source.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Bulk geographic/publisher metadata has no actual origin evidence; style tag is preserved."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-6",
+      "field": "nutrition",
+      "rationale": "Remove unverified baseline estimates; no new nutrition claim.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Unverified baseline estimates are removed without inventing replacements."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-7",
+      "field": "learning",
+      "rationale": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+          "applicability": "Core oats/pumpkin/milk/syrup/eggs amounts corroborate saved formula; blend without chips, cups ¾ full, 375°F, 20–22-minute bake, 5–10-minute pan cooling then rack. Saved honey, stronger spice, nondairy/certified-oat, mini and product-directed egg-replacer options remain distinct. No oat-flour replacement quantity or flax/chia preparation is established."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "VM04-favorite-pumpkin-oatmeal-muffins-8",
+      "field": "content",
+      "rationale": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore complete saved options with actual counts/context, replace unsupported blender-duration and texture guarantees, complete pan-to-rack cooling, and state time/storage scope. Main formula and 3-month freezer quality option preserved."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+          "applicability": "Core oats/pumpkin/milk/syrup/eggs amounts corroborate saved formula; blend without chips, cups ¾ full, 375°F, 20–22-minute bake, 5–10-minute pan cooling then rack. Saved honey, stronger spice, nondairy/certified-oat, mini and product-directed egg-replacer options remain distinct. No oat-flour replacement quantity or flax/chia preparation is established."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Favorite%20Pumpkin%20Oatmeal%20Muffins.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "bc0c8701 removed saved honey, stronger-spice, mini, egg-replacer and unspecified oat-flour-by-hand notes, and lost rack transfer. Later native import restored only some notes; no separate accepted decision rejected the remaining source options.",
+    "Saved publisher fridge range is 3–5 days and freezer quality up to 3 months. Proposed refrigerator limit is conservatively 3–4 days; this is not a measured shelf-life determination."
+  ],
+  "ledger": {
+    "frozenCurrent": [
+      {
+        "ingredient": "2 cups Rolled Oats",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 cup Pure Pumpkin Puree",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/3 cup Maple Syrup",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Pumpkin Pie Spice",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Baking Soda",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "blend",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Dark Chocolate Chips",
+        "destination": "fill topping",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      }
+    ],
+    "nativeSaved": [
+      {
+        "ingredient": "2 cups rolled oats",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup pumpkin puree",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup milk",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/3 cup maple syrup",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 eggs",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon vanilla extract",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon pumpkin pie spice",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon baking soda",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ teaspoon salt",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 cup chocolate chips optional",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 cups Rolled Oats",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 cup Pure Pumpkin Puree",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/3 cup Maple Syrup",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Pumpkin Pie Spice",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Baking Soda",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "blend",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 cup Dark Chocolate Chips",
+        "destination": "fill topping",
+        "step": 4,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+        "destination": "pan preparation",
+        "step": 1,
+        "optional": true,
+        "state": "Listed ingredient state"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Honey",
+        "method": "Blend honey instead of maple syrup; all other measured ingredients and cooling retained. No honey below age one.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups Rolled Oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup honey",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Pumpkin Pie Spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Dark Chocolate Chips",
+            "destination": "fill topping",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Stronger spice",
+        "method": "Blend twice the main listed spice; 2 tsp is original 12-standard-muffin context, proportional at other scales.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups Rolled Oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Maple Syrup",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 tsp pumpkin pie spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Dark Chocolate Chips",
+            "destination": "fill topping",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Plain muffins",
+        "method": "Omit the topping chips; all other core ingredients and method retained.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups Rolled Oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Maple Syrup",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Pumpkin Pie Spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Nondairy milk",
+        "method": "Blend the same full milk volume using plain unsweetened nondairy milk. If including the full listed chip topping, select dairy-free chips; use silicone liners or dairy-free baking spray instead of butter for the pan. All other amounts and stages remain.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups Rolled Oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup plain unsweetened nondairy milk",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1/3 cup Maple Syrup",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Pumpkin Pie Spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Dark Chocolate Chips",
+            "destination": "fill topping",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Dairy-free baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Certified gluten-free oats",
+        "method": "Same wet blending/main quantities; no inferred oat-flour conversion.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups certified gluten-free rolled oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Maple Syrup",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Pumpkin Pie Spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Dark Chocolate Chips",
+            "destination": "fill topping",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Mini tins",
+        "method": "Same complete batter; smaller cups, start checking 12–14 minutes with center cues. Mini count and exact capacity unmeasured.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups Rolled Oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Maple Syrup",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Pumpkin Pie Spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Dark Chocolate Chips",
+            "destination": "fill topping",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Product-directed egg replacer",
+        "method": "Full other quantities retained. Product-specific preparation, amount and crumb/bake are not inferred; route is product-dependent.",
+        "ingredients": [
+          {
+            "ingredient": "2 cups Rolled Oats",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Pure Pumpkin Puree",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Maple Syrup",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Egg replacer prepared according to its product instructions for the listed egg count",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1 tsp Pumpkin Pie Spice",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "blend",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Dark Chocolate Chips",
+            "destination": "fill topping",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      }
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "Same listed volume of honey",
+        "effect": "Honey changes the flavor and is unsuitable below age one."
+      },
+      {
+        "ingredient": "Pumpkin pie spice",
+        "alternative": "Twice the listed amount",
+        "effect": "Stronger spice, 2 tsp for the original 12-muffin batch; scale proportionally."
+      },
+      {
+        "ingredient": "Eggs",
+        "alternative": "A store-bought egg replacer prepared for the listed egg count according to the product instructions",
+        "effect": "The crumb and bake may differ; follow the product-specific amount and preparation."
+      }
+    ],
+    "held": [
+      "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
+      "Flax/chia eggs are named but their actual preparation and total liquid are unspecified; hold these variants rather than invent a ratio."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "step-1",
+      "title": "Prepare",
+      "text": "Preheat the oven to 375°F. Grease a standard 12-cup muffin tin with the pan allowance, or use silicone liners. Use plain pumpkin puree, not sweetened pie filling; homemade puree should be cooled before mixing with eggs or loading a blender.",
+      "ingredients": ["Butter or baking spray, as needed for greasing if not using silicone liners"]
+    },
+    {
+      "step": 2,
+      "id": "step-2",
+      "title": "Blend",
+      "text": "Combine rolled oats, pumpkin puree, milk, maple syrup, eggs, pumpkin pie spice, baking soda, vanilla and salt in a blender or food processor. Keep the chocolate chips out for topping. Follow the appliance’s actual capacity and loading instructions; divide a larger batch into proportionate loads if needed.",
+      "ingredients": [
+        "2 cups Rolled Oats",
+        "1 cup Pure Pumpkin Puree",
+        "1 cup Milk of choice (Soy or Almond preferred)",
+        "1/3 cup Maple Syrup",
+        "2 large Eggs",
+        "1 tsp Pumpkin Pie Spice",
+        "1 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1 tsp Vanilla Extract"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "step-3",
+      "title": "Continue blending",
+      "text": "Blend until the oats are finely broken down and the batter is smooth, stopping and scraping with the appliance off as needed. Stop when no coarse oat flakes remain; blending time varies with the appliance and load.",
+      "ingredients": []
+    },
+    {
+      "step": 4,
+      "id": "step-4",
+      "title": "Fill",
+      "text": "Fill the prepared cups no more than ¾ full and distribute all the listed chocolate chips over the tops. Bake excess batter in additional cups or a later batch.",
+      "ingredients": ["1/4 cup Dark Chocolate Chips"]
+    },
+    {
+      "step": 5,
+      "id": "step-5",
+      "title": "Bake",
+      "text": "Bake for 20–22 minutes, until the tops are firm, the edges lightly golden and a center tester comes out without wet batter.",
+      "ingredients": []
+    },
+    {
+      "step": 6,
+      "id": "step-6",
+      "title": "Cool",
+      "text": "Cool in the pan for 10 minutes, then transfer to a rack. Serve warm, at room temperature or chilled; cool completely before sealing for storage.",
+      "ingredients": []
+    },
+    {
+      "step": 7,
+      "id": "step-7",
+      "title": "Store",
+      "text": "Refrigerate cooled muffins promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins airtight for up to 3 months for quality, and thaw portions in the refrigerator.",
+      "ingredients": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Honey",
+      "method": "Blend honey instead of maple syrup; all other measured ingredients and cooling retained. No honey below age one.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups Rolled Oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup honey",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Pumpkin Pie Spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Dark Chocolate Chips",
+          "destination": "fill topping",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Stronger spice",
+      "method": "Blend twice the main listed spice; 2 tsp is original 12-standard-muffin context, proportional at other scales.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups Rolled Oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Maple Syrup",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 tsp pumpkin pie spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Dark Chocolate Chips",
+          "destination": "fill topping",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Plain muffins",
+      "method": "Omit the topping chips; all other core ingredients and method retained.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups Rolled Oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Maple Syrup",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Pumpkin Pie Spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Nondairy milk",
+      "method": "Blend the same full milk volume using plain unsweetened nondairy milk. If including the full listed chip topping, select dairy-free chips; use silicone liners or dairy-free baking spray instead of butter for the pan. All other amounts and stages remain.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups Rolled Oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup plain unsweetened nondairy milk",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1/3 cup Maple Syrup",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Pumpkin Pie Spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Dark Chocolate Chips",
+          "destination": "fill topping",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Dairy-free baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Certified gluten-free oats",
+      "method": "Same wet blending/main quantities; no inferred oat-flour conversion.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups certified gluten-free rolled oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Maple Syrup",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Pumpkin Pie Spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Dark Chocolate Chips",
+          "destination": "fill topping",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Mini tins",
+      "method": "Same complete batter; smaller cups, start checking 12–14 minutes with center cues. Mini count and exact capacity unmeasured.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups Rolled Oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Maple Syrup",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Pumpkin Pie Spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Dark Chocolate Chips",
+          "destination": "fill topping",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Product-directed egg replacer",
+      "method": "Full other quantities retained. Product-specific preparation, amount and crumb/bake are not inferred; route is product-dependent.",
+      "ingredients": [
+        {
+          "ingredient": "2 cups Rolled Oats",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Pure Pumpkin Puree",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Maple Syrup",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Egg replacer prepared according to its product instructions for the listed egg count",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1 tsp Pumpkin Pie Spice",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "blend",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Dark Chocolate Chips",
+          "destination": "fill topping",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using silicone liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    }
+  ],
+  "heldOptionalVariants": [
+    "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
+    "Flax/chia eggs are named but their actual preparation and total liquid are unspecified; hold these variants rather than invent a ratio."
+  ],
+  "relationships": {
+    "outgoing": [
+      "banana-oat-greek-yogurt-muffins",
+      "avocado-kale-caesar-salad",
+      "broccoli-cheddar-quinoa-bites"
+    ],
+    "incomingRecipeReferences": ["broccoli-cheddar-quinoa-bites"],
+    "incomingMeals": [],
+    "scope": "No composed meal is certified. Existing metadata references are preserved; old duplicate Serving/Pairs body sections intentionally removed by 306e8136 are not restored."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratio": "Original batch: 2 cups rolled oats with 1 cup pumpkin puree, 1 cup milk, 2 eggs and ⅓ cup maple syrup. Current ¼ cup chips remain the rich main topping; optional plain route is separate. No flour, fat, egg or liquid additions.",
+    "yield": "12 muffins, planning yield",
+    "measuredFinishedYield": false,
+    "pan": "Standard muffin cups, maximum ¾ fill; proportional cup/batch count, not multiplied cup depth or bake time.",
+    "scaling": "Ingredient quantities scale; temperatures, fill fraction, pan shape and bake checks remain. Fractional eggs may be beaten and portioned by the cook; no invented gram equivalent."
+  },
+  "preservedPriorRepairs": {
+    "scope": "Every prior frozen safety, formula, allocation, ingredient state, scaling and presentation repair protected by exact source comparison; no targeted credit promoted without the complete review.",
+    "followedHistoryNotes": [
+      "bc0c8701 removed saved honey, stronger-spice, mini, egg-replacer and unspecified oat-flour-by-hand notes, and lost rack transfer. Later native import restored only some notes; no separate accepted decision rejected the remaining source options.",
+      "Saved publisher fridge range is 3–5 days and freezer quality up to 3 months. Proposed refrigerator limit is conservatively 3–4 days; this is not a measured shelf-life determination."
+    ]
+  },
+  "remainingQuestions": [
+    "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
+    "Flax/chia eggs are named but their actual preparation and total liquid are unspecified; hold these variants rather than invent a ratio.",
+    "What is the actual blender load limit and standard/mini count, and which product-directed egg replacer was used if that option is selected?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

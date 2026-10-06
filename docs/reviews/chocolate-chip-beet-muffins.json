@@ -1,0 +1,1110 @@
+{
+  "slug": "chocolate-chip-beet-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "1e7ac67e88943bf0d86dbe57f36b7f10637738474871ec532d1083bf38363e45",
+  "acceptedSourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "18–22 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "33–37 min, plus rack cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 muffins, planning yield"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Beet Puree (Roasted or canned)",
+        "2 large Eggs",
+        "1/4 cup Unsalted Butter, melted",
+        "1/4 cup Honey",
+        "1/3 cup Brown Sugar, packed",
+        "1/4 cup Whole Milk",
+        "1 1/3 cups Whole-Wheat Flour",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1/3 cup Semisweet Chocolate Chips"
+      ],
+      "after": [
+        "1 cup Beet Puree (Roasted or canned)",
+        "2 large Eggs",
+        "1/4 cup Unsalted Butter, melted",
+        "1/4 cup Honey",
+        "1/3 cup Brown Sugar, packed",
+        "1/4 cup Whole Milk",
+        "1 1/3 cups Whole-Wheat Flour",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1/3 cup Semisweet Chocolate Chips",
+        "Whole milk, a little more only if needed for a scoopable batter",
+        "Additional chocolate chips, optional, for topping",
+        "Butter or baking spray, as needed for greasing if not using liners"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 410,
+        "protein": 5,
+        "carbs": 56.5,
+        "fat": 22.5,
+        "fiber": 4.5,
+        "sugar": 50.5,
+        "sodium": 510
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Recognize a thick scoopable beet-and-cocoa batter",
+        "outcome": "The batter holds a scoop rather than pouring, with no dry flour pockets. A center tester has no wet batter, even if it picks up melted chocolate.",
+        "techniques": ["leavening"],
+        "before": [
+          "Start with the listed amount of prepared, smooth beet puree; roasting raw beets and cooling them add time before the muffin preparation estimate. Plain canned beets should be drained before pureeing.",
+          "Use standard muffin cups and keep the fill at or below ¾. Plan on 11–12 muffins for the original batch; the actual count depends on the tin and batter consistency.",
+          "This version contains honey; do not serve it to children under one year. Do not taste raw batter."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The batter holds a scoop rather than pouring, with no dry flour pockets.",
+            "why": "The puree and flour determine thickness; the conditional milk allowance is for a batter that cannot be portioned, not a second measured milk dose."
+          },
+          {
+            "step": 6,
+            "cue": "A center tester has no wet batter, even if it picks up melted chocolate.",
+            "why": "Cocoa makes browning difficult to see and chocolate smears can be mistaken for an uncooked center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Batter is too stiff to portion.",
+            "cause": "Puree thickness and flour absorption vary.",
+            "fix": "Fold in a little extra milk from the conditional allowance, stopping at a thick scoopable consistency."
+          },
+          {
+            "problem": "Muffin center is wet when the edges look baked.",
+            "cause": "Dark color hides doneness or the cups were overfilled.",
+            "fix": "Continue baking and recheck the center. Use shallower fills for later batches; do not reduce the full flour, eggs or butter to correct the baked batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Roasted beet puree",
+            "alternative": "Drained plain canned beets, pureed smooth",
+            "effect": "Use the listed puree volume; moisture and earthy flavor can differ. Pickled beets are not the same ingredient."
+          }
+        ],
+        "timing": "The 10-minute preparation estimate starts with prepared beet puree. One oven batch bakes 18–22 minutes and rests 5 minutes in the pan: 33–37 minutes through pan cooling. Remaining preheating, rack cooling and any later oven batches add elapsed time.",
+        "storage": "Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently warmed.",
+        "sources": [
+          {
+            "title": "Dana / Minimalist Baker — attributed recipe",
+            "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/"
+          },
+          {
+            "title": "FDA — safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBeet muffins are the original stealth-vegetable trick - the beet puree turns the batter a deep red-brown that looks exactly like chocolate, and the earthy sweetness disappears behind cocoa and brown sugar. Kids won't know unless you tell them. Use roasted beets pureed smooth for the best flavor, but canned beet puree (drained and blended) works in a pinch. Don't overmix once the flour goes in - whole wheat develops gluten fast, and tough muffins are nobody's idea of a treat.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 375°F. Line a 12-cup muffin tin with paper liners or grease generously.\n2.  **The Emulsion:** In a large bowl, whisk beet puree, eggs, melted butter, honey, and brown sugar until smooth. Whisk in the milk.\n3.  **Dry Mix:** Sift in the whole-wheat flour, cocoa powder, baking soda, and salt. Fold gently with a spatula until **just combined**. If the batter is too dry to scoop, add 1 tbsp of milk at a time.\n4.  **Fold:** Fold in the chocolate chips.\n5.  **Fill:** Divide the batter evenly among the muffin cups (about 3/4 full). Sprinkle a few extra chips on top for the \"High Note\" look.\n6.  **Bake:** Bake for 18-22 minutes until a toothpick inserted into the center comes out clean.\n7.  **Cool:** Let cool in the pan for 5 minutes before transferring to a rack.\n",
+    "after": "\n## Chef's Note\n\nBeet puree, cocoa and chocolate chips make a thick, scoopable batter. Fold only until the flour disappears, and check the center rather than judging doneness by the dark color.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 375°F. Line a standard 12-cup muffin tin, or grease it with the listed pan allowance. Use smooth prepared beet puree: blend drained plain canned beets, or blend already roasted beets once cool enough for your blender according to its instructions. Let any warm puree and melted butter cool before adding the eggs. Beet roasting and its cooling are separate advance preparation.\n\n2. **Wet mix:** Whisk beet puree, eggs, melted butter, honey and brown sugar together, then whisk in the listed whole milk.\n\n3. **Dry mix:** Whisk flour, cocoa, baking soda and salt together, then fold into the wet mixture just until no dry flour remains. The batter should be thick and scoopable. If it is too stiff to scoop, fold in a little of the separate extra-milk allowance at a time; stop before it becomes pourable.\n\n4. **Fold:** Fold all the listed semisweet chocolate chips into the batter.\n\n5. **Fill:** Divide among the muffin cups, filling no more than ¾ full. Sprinkle on the separate optional topping chips. Bake any excess batter in additional cups or a later batch.\n\n6. **Bake:** Bake for 18–22 minutes, until a center tester comes out without wet batter; melted chocolate on the tester is different from raw batter.\n\n7. **Cool:** Cool in the pan for 5 minutes, then transfer to a rack. Cool completely before sealing for storage.\n"
+  },
+  "findings": [
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-1",
+      "field": "cookTime",
+      "rationale": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+          "applicability": "Current vegan formula differs from saved egg/dairy adaptation: flax mixture, coconut oil/vegan butter, almond milk and whole-wheat pastry/AP flour. Supports thick scoopable batter, prepared beet puree, optional additional milk/chips, 375°F and center tester. Does not validate the saved egg/dairy ratio or promise concealed flavor."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-2",
+      "field": "totalTime",
+      "rationale": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+          "applicability": "Current vegan formula differs from saved egg/dairy adaptation: flax mixture, coconut oil/vegan butter, almond milk and whole-wheat pastry/AP flour. Supports thick scoopable batter, prepared beet puree, optional additional milk/chips, 375°F and center tester. Does not validate the saved egg/dairy ratio or promise concealed flavor."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-3",
+      "field": "servings",
+      "rationale": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+          "applicability": "Current vegan formula differs from saved egg/dairy adaptation: flax mixture, coconut oil/vegan butter, almond milk and whole-wheat pastry/AP flour. Supports thick scoopable batter, prepared beet puree, optional additional milk/chips, 375°F and center tester. Does not validate the saved egg/dairy ratio or promise concealed flavor."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-4",
+      "field": "ingredients",
+      "rationale": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+          "applicability": "Current vegan formula differs from saved egg/dairy adaptation: flax mixture, coconut oil/vegan butter, almond milk and whole-wheat pastry/AP flour. Supports thick scoopable batter, prepared beet puree, optional additional milk/chips, 375°F and center tester. Does not validate the saved egg/dairy ratio or promise concealed flavor."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-5",
+      "field": "origin",
+      "rationale": "Omit unsupported country/domain origin while preserving style/source.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Bulk geographic/publisher metadata has no actual origin evidence; style tag is preserved."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-6",
+      "field": "nutrition",
+      "rationale": "Remove unverified baseline estimates; no new nutrition claim.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Unverified baseline estimates are removed without inventing replacements."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-7",
+      "field": "learning",
+      "rationale": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+          "applicability": "Current vegan formula differs from saved egg/dairy adaptation: flax mixture, coconut oil/vegan butter, almond milk and whole-wheat pastry/AP flour. Supports thick scoopable batter, prepared beet puree, optional additional milk/chips, 375°F and center tester. Does not validate the saved egg/dairy ratio or promise concealed flavor."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-beet-muffins-8",
+      "field": "content",
+      "rationale": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Expose existing unmeasured method allowances, define prepared/cool puree, preserve rich egg/dairy formula, and remove unsupported flavor/health certainty. No base quantity changes."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+          "applicability": "Current vegan formula differs from saved egg/dairy adaptation: flax mixture, coconut oil/vegan butter, almond milk and whole-wheat pastry/AP flour. Supports thick scoopable batter, prepared beet puree, optional additional milk/chips, 375°F and center tester. Does not validate the saved egg/dairy ratio or promise concealed flavor."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chocolate%20Chip%20Beet%20Muffins.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native/first Git have 17–22-minute baking and 11–12 muffins; current 18–22-minute method and 12 planning count are retained with observable doneness and count qualification.",
+    "Current publisher has a separate vegan/flax/fat/milk/flour formula. It is not silently substituted into the saved 2-egg/dairy recipe."
+  ],
+  "ledger": {
+    "frozenCurrent": [
+      {
+        "ingredient": "1 cup Beet Puree (Roasted or canned)",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Unsalted Butter, melted",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Honey",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/3 cup Brown Sugar, packed",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Whole Milk",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 1/3 cups Whole-Wheat Flour",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 1/2 tsp Baking Soda",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/3 cup Semisweet Chocolate Chips",
+        "destination": "fold",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      }
+    ],
+    "nativeSaved": [
+      {
+        "ingredient": "2 eggs",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup beet puree",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 cup honey",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/3 cup brown sugar",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 tsp sea salt",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1.5 tsp baking soda",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 cup butter",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 cup milk",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 cup unsweetened cocoa powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 1/3 cups whole-wheat flour ",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/3 cup semisweet chocolate chips",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 cup Beet Puree (Roasted or canned)",
+        "destination": "wet mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "wet mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 cup Unsalted Butter, melted",
+        "destination": "wet mix",
+        "step": 2,
+        "optional": false,
+        "state": "See exact ingredient preparation and method; no invented weight conversion"
+      },
+      {
+        "ingredient": "1/4 cup Honey",
+        "destination": "wet mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/3 cup Brown Sugar, packed",
+        "destination": "wet mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 cup Whole Milk",
+        "destination": "wet mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 1/3 cups Whole-Wheat Flour",
+        "destination": "dry mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+        "destination": "dry mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 1/2 tsp Baking Soda",
+        "destination": "dry mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "dry mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/3 cup Semisweet Chocolate Chips",
+        "destination": "fold",
+        "step": 4,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Whole milk, a little more only if needed for a scoopable batter",
+        "destination": "conditional dry-mix adjustment",
+        "step": 3,
+        "optional": true,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Additional chocolate chips, optional, for topping",
+        "destination": "optional fill topping",
+        "step": 5,
+        "optional": true,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+        "destination": "pan preparation",
+        "step": 1,
+        "optional": true,
+        "state": "Listed ingredient state"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Canned puree",
+        "method": "Prepare smooth puree in step 1, then all main wet/dry/fold/fill/bake/cool stages; no pickled-beet substitution.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup beet puree from drained plain canned beets",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Unsalted Butter, melted",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1/4 cup Honey",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Brown Sugar, packed",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Whole Milk",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 1/3 cups Whole-Wheat Flour",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 1/2 tsp Baking Soda",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Semisweet Chocolate Chips",
+            "destination": "fold",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Whole milk, a little more only if needed for a scoopable batter",
+            "destination": "conditional dry-mix adjustment",
+            "step": 3,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Additional chocolate chips, optional, for topping",
+            "destination": "optional fill topping",
+            "step": 5,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Roasted puree",
+        "method": "Roast and cool separately before the stated prep clock, puree according to actual blender instructions, then all main stages.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup prepared roasted beet puree",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "2 large Eggs",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Unsalted Butter, melted",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1/4 cup Honey",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Brown Sugar, packed",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Whole Milk",
+            "destination": "wet mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 1/3 cups Whole-Wheat Flour",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 1/2 tsp Baking Soda",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 tsp Sea Salt",
+            "destination": "dry mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/3 cup Semisweet Chocolate Chips",
+            "destination": "fold",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Whole milk, a little more only if needed for a scoopable batter",
+            "destination": "conditional dry-mix adjustment",
+            "step": 3,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Additional chocolate chips, optional, for topping",
+            "destination": "optional fill topping",
+            "step": 5,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      }
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Roasted beet puree",
+        "alternative": "Drained plain canned beets, pureed smooth",
+        "effect": "Use the listed puree volume; moisture and earthy flavor can differ. Pickled beets are not the same ingredient."
+      }
+    ],
+    "held": [
+      "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "step-1",
+      "title": "Prepare",
+      "text": "Preheat the oven to 375°F. Line a standard 12-cup muffin tin, or grease it with the listed pan allowance. Use smooth prepared beet puree: blend drained plain canned beets, or blend already roasted beets once cool enough for your blender according to its instructions. Let any warm puree and melted butter cool before adding the eggs. Beet roasting and its cooling are separate advance preparation.",
+      "ingredients": ["Butter or baking spray, as needed for greasing if not using liners"]
+    },
+    {
+      "step": 2,
+      "id": "step-2",
+      "title": "Wet mix",
+      "text": "Whisk beet puree, eggs, melted butter, honey and brown sugar together, then whisk in the listed whole milk.",
+      "ingredients": [
+        "1 cup Beet Puree (Roasted or canned)",
+        "2 large Eggs",
+        "1/4 cup Unsalted Butter, melted",
+        "1/4 cup Honey",
+        "1/3 cup Brown Sugar, packed",
+        "1/4 cup Whole Milk"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "step-3",
+      "title": "Dry mix",
+      "text": "Whisk flour, cocoa, baking soda and salt together, then fold into the wet mixture just until no dry flour remains. The batter should be thick and scoopable. If it is too stiff to scoop, fold in a little of the separate extra-milk allowance at a time; stop before it becomes pourable.",
+      "ingredients": [
+        "1 1/3 cups Whole-Wheat Flour",
+        "1/2 cup Unsweetened Cocoa Powder",
+        "1 1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "Whole milk, a little more only if needed for a scoopable batter"
+      ]
+    },
+    {
+      "step": 4,
+      "id": "step-4",
+      "title": "Fold",
+      "text": "Fold all the listed semisweet chocolate chips into the batter.",
+      "ingredients": ["1/3 cup Semisweet Chocolate Chips"]
+    },
+    {
+      "step": 5,
+      "id": "step-5",
+      "title": "Fill",
+      "text": "Divide among the muffin cups, filling no more than ¾ full. Sprinkle on the separate optional topping chips. Bake any excess batter in additional cups or a later batch.",
+      "ingredients": ["Additional chocolate chips, optional, for topping"]
+    },
+    {
+      "step": 6,
+      "id": "step-6",
+      "title": "Bake",
+      "text": "Bake for 18–22 minutes, until a center tester comes out without wet batter; melted chocolate on the tester is different from raw batter.",
+      "ingredients": []
+    },
+    {
+      "step": 7,
+      "id": "step-7",
+      "title": "Cool",
+      "text": "Cool in the pan for 5 minutes, then transfer to a rack. Cool completely before sealing for storage.",
+      "ingredients": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Canned puree",
+      "method": "Prepare smooth puree in step 1, then all main wet/dry/fold/fill/bake/cool stages; no pickled-beet substitution.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup beet puree from drained plain canned beets",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Unsalted Butter, melted",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1/4 cup Honey",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Brown Sugar, packed",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Whole Milk",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 1/3 cups Whole-Wheat Flour",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 1/2 tsp Baking Soda",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Semisweet Chocolate Chips",
+          "destination": "fold",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Whole milk, a little more only if needed for a scoopable batter",
+          "destination": "conditional dry-mix adjustment",
+          "step": 3,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Additional chocolate chips, optional, for topping",
+          "destination": "optional fill topping",
+          "step": 5,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Roasted puree",
+      "method": "Roast and cool separately before the stated prep clock, puree according to actual blender instructions, then all main stages.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup prepared roasted beet puree",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "2 large Eggs",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Unsalted Butter, melted",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1/4 cup Honey",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Brown Sugar, packed",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Whole Milk",
+          "destination": "wet mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 1/3 cups Whole-Wheat Flour",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Unsweetened Cocoa Powder",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 1/2 tsp Baking Soda",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 tsp Sea Salt",
+          "destination": "dry mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/3 cup Semisweet Chocolate Chips",
+          "destination": "fold",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Whole milk, a little more only if needed for a scoopable batter",
+          "destination": "conditional dry-mix adjustment",
+          "step": 3,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Additional chocolate chips, optional, for topping",
+          "destination": "optional fill topping",
+          "step": 5,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    }
+  ],
+  "heldOptionalVariants": [
+    "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy."
+  ],
+  "relationships": {
+    "outgoing": [
+      "banana-oat-greek-yogurt-muffins",
+      "avocado-kale-caesar-salad",
+      "almond-zucchini-bread"
+    ],
+    "incomingRecipeReferences": [
+      "almond-zucchini-bread",
+      "bakery-style-chocolate-chip-muffins",
+      "broccoli-cheddar-quinoa-bites",
+      "royal-icing"
+    ],
+    "incomingMeals": [],
+    "scope": "No composed meal is certified. Existing metadata references are preserved; old duplicate Serving/Pairs body sections intentionally removed by 306e8136 are not restored."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratio": "Original batch: 1⅓ cups flour, ½ cup cocoa and 1 cup puree with 2 eggs; ¼ cup butter, ¼ cup honey and ⅓ cup brown sugar are retained. This egg/dairy adaptation is not the publisher’s current vegan formula.",
+    "yield": "12 muffins, planning yield",
+    "measuredFinishedYield": false,
+    "pan": "Standard muffin cups, maximum ¾ fill; proportional cup/batch count, not multiplied cup depth or bake time.",
+    "scaling": "Ingredient quantities scale; temperatures, fill fraction, pan shape and bake checks remain. Fractional eggs may be beaten and portioned by the cook; no invented gram equivalent."
+  },
+  "preservedPriorRepairs": {
+    "scope": "Every prior frozen safety, formula, allocation, ingredient state, scaling and presentation repair protected by exact source comparison; no targeted credit promoted without the complete review.",
+    "followedHistoryNotes": [
+      "Native/first Git have 17–22-minute baking and 11–12 muffins; current 18–22-minute method and 12 planning count are retained with observable doneness and count qualification.",
+      "Current publisher has a separate vegan/flax/fat/milk/flour formula. It is not silently substituted into the saved 2-egg/dairy recipe."
+    ]
+  },
+  "remainingQuestions": [
+    "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy.",
+    "How much puree drains from the actual canned or roasted beets, and how many muffins does the household tin produce?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,5746 @@
+{
+  "slug": "vegetable-muffin",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "50460a1fb1c82610d2dcf92503b6d0d0e58c6dfe7398a1ec85caabf0a07c1d22",
+  "acceptedSourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–22 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "35–37 min, plus rack cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Spinach or Kale, packed",
+        "1 cup Ripe Banana or Applesauce",
+        "1/4 cup Coconut or Avocado Oil",
+        "1/4 cup Maple Syrup",
+        "2 large Eggs",
+        "2 tsp Apple Cider Vinegar (The Acid Balance)",
+        "1 cup White Whole Wheat Flour",
+        "1/4 cup Cocoa Powder",
+        "1 tsp Ground Cinnamon",
+        "1 tsp Baking Soda + 1 tsp Baking Powder",
+        "1/4 tsp Salt",
+        "1/4 cup Dark Chocolate Chips"
+      ],
+      "after": [
+        "--- Batter ---",
+        "1 cup spinach or kale, packed",
+        "1 cup ripe banana or unsweetened applesauce, banana mashed",
+        "1 cup carrots, grated",
+        "1/4 cup coconut or avocado oil, coconut oil melted and slightly cooled",
+        "1/4 cup maple syrup",
+        "2 large eggs",
+        "1 tsp vanilla extract",
+        "2 tsp apple cider vinegar",
+        "1 cup white whole-wheat flour",
+        "1/4 cup cocoa powder",
+        "1 tsp ground cinnamon",
+        "1 tsp baking soda",
+        "1 tsp baking powder",
+        "1/4 tsp salt",
+        "1/4 cup dark chocolate chips",
+        "additional chocolate chips, a few for topping, optional",
+        "baking spray, as needed for uncoated paper liners, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Batter",
+            "ingredients": [
+              {
+                "id": "greens",
+                "key": "greens",
+                "name": "spinach or kale",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ],
+                "preparation": "packed"
+              },
+              {
+                "id": "fruit",
+                "key": "fruit",
+                "name": "ripe banana or unsweetened applesauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ],
+                "preparation": "banana mashed"
+              },
+              {
+                "id": "carrots",
+                "key": "carrots",
+                "name": "carrots",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "coconut or avocado oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ],
+                "preparation": "coconut oil melted and slightly cooled"
+              },
+              {
+                "id": "syrup",
+                "key": "syrup",
+                "name": "maple syrup",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "apple cider vinegar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "puree",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "white whole-wheat flour",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cocoa",
+                "key": "cocoa",
+                "name": "cocoa powder",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chips",
+                "key": "chips",
+                "name": "dark chocolate chips",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-chips",
+                "key": "dark-chocolate-chips",
+                "name": "additional chocolate chips",
+                "allowance": "a few for topping",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "bake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pan-fat",
+                "key": "baking-spray",
+                "name": "baking spray",
+                "allowance": "as needed for uncoated paper liners",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare",
+            "text": "Preheat the oven to 350°F before mixing. Line a standard 12-cup muffin tin. Use {{ingredients}} only if needed for the liners. Wash carrots and greens unless the greens are labeled prewashed and ready to eat, and drain them. Prepare the listed grated carrots and mashed banana if using. If using coconut oil, melt and cool it slightly before combining it with eggs. Follow the actual blender capacity and loading instructions; use proportional loads for a larger batch."
+          },
+          {
+            "id": "puree",
+            "title": "Puree",
+            "text": "Blend {{ingredients}} until the carrots and greens are pureed. This wet mixture is blended before adding flour."
+          },
+          {
+            "id": "dry",
+            "title": "Dry mix",
+            "text": "In a large bowl, whisk {{ingredients}} together. Both leaveners and the full salt amount go into this mixture."
+          },
+          {
+            "id": "fold",
+            "title": "Combine",
+            "text": "Fold the wet puree into the dry mixture just until no dry flour remains, then fold in {{ingredients}}."
+          },
+          {
+            "id": "bake",
+            "title": "Fill and bake",
+            "text": "Fill cups no more than ¾ full and sprinkle with {{ingredients}}. Bake excess batter separately rather than overfilling. Bake 20–22 minutes, until a center tester comes out without wet batter; melted chocolate is different from raw batter."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Rest in the pan for 5 minutes, then transfer to a rack. Cool completely before sealing for storage. Freeze cooled muffins airtight for up to 1 month for quality."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Puree vegetables before folding the complete flour batter",
+        "outcome": "The carrots and greens are pureed without visible coarse vegetable pieces. Cups are no more than ¾ full and the center tester has no wet batter after baking.",
+        "techniques": ["leavening"],
+        "before": [
+          "The original planning count is 12 standard muffins. Use more cups or later batches rather than exceeding ¾ fill; vegetable packing and cup size can change the filled-cup count.",
+          "Prepare the listed carrots by grating, and use packed spinach or kale for the main route. A same-volume loosely packed greens option is separate, rather than a precise gram conversion.",
+          "Use mashed ripe banana or unsweetened applesauce, one oil and one sweetener. Cool melted coconut oil until only slightly warm before adding eggs; follow actual blender capacity and loading instructions. Do not taste raw batter."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The carrots and greens are pureed without visible coarse vegetable pieces.",
+            "why": "This stage handles the vegetables before flour is added; flour batter can then be folded briefly in a bowl."
+          },
+          {
+            "step": 5,
+            "cue": "Cups are no more than ¾ full and the center tester has no wet batter after baking.",
+            "why": "The vegetable puree adds batter volume and moisture; neither fixed cup count nor dark color establishes doneness."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "There is more batter than the tin holds.",
+            "cause": "Vegetable packing, cup dimensions and scaled batch size change capacity.",
+            "fix": "Use extra cups or a later oven batch. Do not overfill or discard part of a defining ingredient to force exactly 12."
+          },
+          {
+            "problem": "Wet center beneath a baked-looking top.",
+            "cause": "Deep fills or incomplete baking in a moist cocoa batter.",
+            "fix": "Continue baking and check the center. Keep later fills at or below ¾ and allow complete cooling before storage."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Packed spinach or kale",
+            "alternative": "Same listed cup amount loosely packed",
+            "effect": "Loosely packed leaves contain fewer greens per cup; do not treat the volume as a measured weight equivalent."
+          },
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Same listed volume of honey",
+            "effect": "A separate full sweetener choice; unsuitable below age one."
+          },
+          {
+            "ingredient": "White whole-wheat flour",
+            "alternative": "Same listed volume of cup-for-cup gluten-free flour blend",
+            "effect": "Crumb and moisture may differ; check the center rather than assuming identical timing."
+          },
+          {
+            "ingredient": "Chocolate chips",
+            "alternative": "Omit chips and add granulated sugar to the wet mix",
+            "effect": "A couple tablespoons (2 tbsp) for the original 12-muffin batch, scaled proportionally; omit optional topping chips too. Without chips, the crumb has fewer chocolate pockets."
+          }
+        ],
+        "timing": "The 10-minute preparation estimate, 20–22-minute bake and 5-minute pan rest give 35–37 minutes through pan cooling, for one oven batch. Start preheating before mixing. Any remaining oven heating, full rack cooling and later batches extend elapsed time.",
+        "storage": "Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently warmed. Freeze airtight for up to 1 month for quality.",
+        "sources": [
+          {
+            "title": "Taesha Butler / The Natural Nurturer — attributed recipe",
+            "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/"
+          },
+          {
+            "title": "FDA — safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are ideal for busy families looking to sneak vegetables into breakfast. The key is blending: pulverize the raw greens and wet ingredients in a blender until they form a perfectly smooth, neon-green liquid. This ensures the moisture is evenly distributed, resulting in a cake-like texture that masks the fibrous greens. The apple cider vinegar activates the baking soda for a tall rise and adds just a hint of tanginess.\n\n## Directions\n\n1.  **Emulsify:** Preheat the oven to 350°F and line a 12-cup muffin tin before mixing the batter. In a high-powered blender, combine eggs, the chosen banana or applesauce, the chosen spinach or kale, syrup, oil, and vinegar. Blend on high for 60 seconds until vibrant green.\n2.  **Dry Mix:** In a large bowl, whisk together flour, cocoa, cinnamon, baking soda, baking powder, and salt.\n3.  **Combine:** Pour the green emulsion into the dry ingredients. Stir with a spatula until **just mixed**. Fold in the chocolate chips.\n4.  **Bake:** Divide the batter among the prepared cups, filling no more than 3/4 full. Bake any excess batter separately rather than overfilling. Bake for 20-22 minutes until a toothpick comes out clean.\n5.  **Cool:** Let rest in the pan for 5 minutes, then transfer to a rack to cool completely. Freeze cooled muffins in an airtight container for up to 1 month.\n\n## Cooking Notes\n\nIf serving a dairy-free version, check that any optional chocolate chips are also dairy-free.\n\nThe 30-minute estimate covers one oven batch before cooling; extra batter or a second batch takes longer. The adapted formula has not been kitchen-tested.\n",
+    "after": "\n## Chef's Note\n\nPuree the carrots, greens and wet ingredients, then fold in the cocoa-and-flour mixture and chocolate chips. Keep the cups at or below ¾ full, and check the center rather than relying on the dark color.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F before mixing. Line a standard 12-cup muffin tin. Use baking spray (if using) only if needed for the liners. Wash carrots and greens unless the greens are labeled prewashed and ready to eat, and drain them. Prepare the listed grated carrots and mashed banana if using. If using coconut oil, melt and cool it slightly before combining it with eggs. Follow the actual blender capacity and loading instructions; use proportional loads for a larger batch.\n2. **Puree:** Blend spinach or kale, ripe banana or unsweetened applesauce, carrots, coconut or avocado oil, maple syrup, large eggs, vanilla extract, and apple cider vinegar until the carrots and greens are pureed. This wet mixture is blended before adding flour.\n3. **Dry mix:** In a large bowl, whisk white whole-wheat flour, cocoa powder, ground cinnamon, baking soda, baking powder, and salt together. Both leaveners and the full salt amount go into this mixture.\n4. **Combine:** Fold the wet puree into the dry mixture just until no dry flour remains, then fold in dark chocolate chips.\n5. **Fill and bake:** Fill cups no more than ¾ full and sprinkle with additional chocolate chips (if using). Bake excess batter separately rather than overfilling. Bake 20–22 minutes, until a center tester comes out without wet batter; melted chocolate is different from raw batter.\n6. **Cool:** Rest in the pan for 5 minutes, then transfer to a rack. Cool completely before sealing for storage. Freeze cooled muffins airtight for up to 1 month for quality.\n\n## Cooking Notes\n\nFor the loosely packed greens option, use the same listed cup amount without pressing the leaves down; this changes the amount of greens from a packed cup. Honey can replace the listed maple syrup volume, and a cup-for-cup gluten-free flour blend can replace the listed flour volume. These are separate choices, with potentially different moisture and crumb; do not serve honey-containing muffins to children under one year.\n\nFor the separate version without chocolate chips, omit the main chips and add granulated sugar to the wet mixture: a couple tablespoons (2 tbsp) for the original 12-muffin batch, scaled proportionally. Optional extra topping chips are also omitted in that version. For a dairy-free version with chips, check the chip ingredients as well as the other chosen ingredients.\n\nFor an alternative high-speed-blender mixing route, first puree all the wet ingredients and vegetables as directed. If the appliance instructions permit this flour batter and the load fits, add all the dry-mixture ingredients to the puree and process just until mixed instead of folding the wet and dry mixtures in a bowl. Fold the chips in by hand, then follow the same filling, baking and cooling steps.\n"
+  },
+  "findings": [
+    {
+      "id": "VM04-vegetable-muffin-1",
+      "field": "cookTime",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-2",
+      "field": "totalTime",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-3",
+      "field": "servings",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-4",
+      "field": "ingredients",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-5",
+      "field": "origin",
+      "rationale": "Omit unsupported country/domain origin while preserving style/source.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Bulk geographic/publisher metadata has no actual origin evidence; style tag is preserved."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-6",
+      "field": "formula",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-7",
+      "field": "learning",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "VM04-vegetable-muffin-8",
+      "field": "content",
+      "rationale": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore exact omitted carrots/vanilla from independent earlier HTML, first canonical, exact original450 and current attributed publisher; preserve the later packed-green main, full richness and targeted 6e404/ee9 repairs. Keep source options distinct and unresolved flax preparation held."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+          "applicability": "Corroborates saved 1 cup grated carrot and 1 tsp vanilla, loosely packed greens, honey, cup-for-cup GF flour and chip omission with a couple tablespoons sugar. Current packed-green base stays separate from loosely packed option. Supports 350°F, wet puree/bowl dry mix, 20–22-minute check and 5-minute pan cooling. No exact flax-egg preparation is inferred."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Vegetable%20Muffin.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "f6128211 bulk rewrite removed 1 cup grated carrots and 1 tsp vanilla and changed loosely packed greens to packed; full followed history establishes no separate accepted household decision to reject the carrot/vanilla or complete saved variants.",
+    "6e4046b4 restored salt and baking-powder destination, then ee9c7078 repaired preheat-before-mix, maximum fill/excess-batch handling, rack cooling, 1-month freezing and time scope. All these repairs remain. They do not establish deliberate omission of carrots/vanilla.",
+    "Current packed-green state is preserved as main. Native/first Git and current primary publisher use loosely packed greens, retained separately without averaging or importing modern gram equivalents.",
+    "The original 306 duplicate Serving/Pairs removal policy is deliberate; old generic pairings are not restored to the body. Current metadata links stay unchanged."
+  ],
+  "ledger": {
+    "frozenCurrent": [
+      {
+        "ingredient": "1 cup Spinach or Kale, packed",
+        "destination": "wet puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 cup Ripe Banana or Applesauce",
+        "destination": "wet puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Coconut or Avocado Oil",
+        "destination": "wet puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Maple Syrup",
+        "destination": "wet puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "destination": "wet puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 tsp Apple Cider Vinegar (The Acid Balance)",
+        "destination": "wet puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 cup White Whole Wheat Flour",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Cocoa Powder",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Ground Cinnamon",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Baking Soda + 1 tsp Baking Powder",
+        "destination": "dry mix (both leaveners)",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 tsp Salt",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Dark Chocolate Chips",
+        "destination": "fold",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      }
+    ],
+    "nativeSaved": [
+      {
+        "ingredient": "2 large eggs can sub 2 \"flax eggs\"",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup mashed overripe banana can sub with 1 cup unsweetened applesauce",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup grated carrots",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup loosely packed spinach or kale",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup oil I use melted coconut oil or avocado",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup maple syrup or honey",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon vanilla extract",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 teaspoons apple cider vinegar",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup white whole wheat flour can sub 1:1 gluten free flour mix, if needed",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoons baking soda",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoons baking powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup cocoa powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon ground cinnamon",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ teaspoon salt",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup chocolate chips** or to taste. If you omit, add a couple tablespoons of granulated sugar to help bring up the sweetness.",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "spinach or kale",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "packed",
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "ripe banana or unsweetened applesauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "banana mashed",
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "carrots",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "grated",
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "coconut or avocado oil",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "coconut oil melted and slightly cooled",
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "maple syrup",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "apple cider vinegar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "puree",
+        "step": 2,
+        "uses": [
+          {
+            "step": "puree",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "white whole-wheat flour",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "dry",
+        "step": 3,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "cocoa powder",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "dry",
+        "step": 3,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "dry",
+        "step": 3,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "baking soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "dry",
+        "step": 3,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "baking powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "dry",
+        "step": 3,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "dry",
+        "step": 3,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "dark chocolate chips",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destination": "fold",
+        "step": 4,
+        "uses": [
+          {
+            "step": "fold",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "additional chocolate chips",
+        "quantity": null,
+        "allowance": "a few for topping",
+        "preparation": null,
+        "optional": true,
+        "destination": "bake",
+        "step": 5,
+        "uses": [
+          {
+            "step": "bake",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      },
+      {
+        "ingredient": "baking spray",
+        "quantity": null,
+        "allowance": "as needed for uncoated paper liners",
+        "preparation": null,
+        "optional": true,
+        "destination": "prepare",
+        "step": 1,
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ],
+        "component": "batter"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Applesauce",
+        "method": "Puree applesauce instead of mashed banana; full remaining ingredients and all stages retained.",
+        "ingredients": [
+          {
+            "ingredient": "spinach or kale",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "1 cup unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "coconut or avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "coconut oil melted and slightly cooled",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "white whole-wheat flour",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "dark chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "fold",
+            "step": 4,
+            "uses": [
+              {
+                "step": "fold",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "additional chocolate chips",
+            "quantity": null,
+            "allowance": "a few for topping",
+            "preparation": null,
+            "optional": true,
+            "destination": "bake",
+            "step": 5,
+            "uses": [
+              {
+                "step": "bake",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Avocado oil",
+        "method": "Puree avocado instead of coconut oil; full original fat dose retained.",
+        "ingredients": [
+          {
+            "ingredient": "spinach or kale",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ripe banana or unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "banana mashed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "1/4 cup avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "white whole-wheat flour",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "dark chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "fold",
+            "step": 4,
+            "uses": [
+              {
+                "step": "fold",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "additional chocolate chips",
+            "quantity": null,
+            "allowance": "a few for topping",
+            "preparation": null,
+            "optional": true,
+            "destination": "bake",
+            "step": 5,
+            "uses": [
+              {
+                "step": "bake",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Honey",
+        "method": "Puree honey instead of maple; all other amounts/stages retained. No honey below age one.",
+        "ingredients": [
+          {
+            "ingredient": "spinach or kale",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ripe banana or unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "banana mashed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "coconut or avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "coconut oil melted and slightly cooled",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "1/4 cup honey",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "white whole-wheat flour",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "dark chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "fold",
+            "step": 4,
+            "uses": [
+              {
+                "step": "fold",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "additional chocolate chips",
+            "quantity": null,
+            "allowance": "a few for topping",
+            "preparation": null,
+            "optional": true,
+            "destination": "bake",
+            "step": 5,
+            "uses": [
+              {
+                "step": "bake",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Loosely packed greens",
+        "method": "Same cup volume but different packing state in puree; not a weight equivalent or replacement of current packed main.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup spinach or kale, loosely packed",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "loosely packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "ripe banana or unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "banana mashed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "coconut or avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "coconut oil melted and slightly cooled",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "white whole-wheat flour",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "dark chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "fold",
+            "step": 4,
+            "uses": [
+              {
+                "step": "fold",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "additional chocolate chips",
+            "quantity": null,
+            "allowance": "a few for topping",
+            "preparation": null,
+            "optional": true,
+            "destination": "bake",
+            "step": 5,
+            "uses": [
+              {
+                "step": "bake",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Cup-for-cup gluten-free flour",
+        "method": "Same full flour volume into dry mix. Texture and bake may differ; no kitchen validation.",
+        "ingredients": [
+          {
+            "ingredient": "spinach or kale",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ripe banana or unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "banana mashed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "coconut or avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "coconut oil melted and slightly cooled",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "1 cup cup-for-cup gluten-free flour blend",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "dark chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "fold",
+            "step": 4,
+            "uses": [
+              {
+                "step": "fold",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "additional chocolate chips",
+            "quantity": null,
+            "allowance": "a few for topping",
+            "preparation": null,
+            "optional": true,
+            "destination": "bake",
+            "step": 5,
+            "uses": [
+              {
+                "step": "bake",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "No chips with sugar",
+        "method": "Omit main and optional topping chips together, and put sugar in wet puree; all other ingredients/stages retained.",
+        "ingredients": [
+          {
+            "ingredient": "spinach or kale",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ripe banana or unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "banana mashed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "coconut or avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "coconut oil melted and slightly cooled",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "white whole-wheat flour",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "A couple tablespoons (2 tbsp) granulated sugar in the original 12-muffin batch, proportional at other scales",
+            "destination": "puree",
+            "step": 2
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "High-speed blender dry mixing",
+        "method": "Same full wet puree, then every dry-mixture ingredient blended just until mixed if actual appliance instructions/load permit; fold chips by hand and follow same fill/bake/cool. Exclusive alternative to bowl folding, not an additional mixing stage.",
+        "ingredients": [
+          {
+            "ingredient": "spinach or kale",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "packed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ripe banana or unsweetened applesauce",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "banana mashed",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "carrots",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "grated",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "coconut or avocado oil",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "coconut oil melted and slightly cooled",
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "large egg",
+            "quantity": {
+              "amount": 2,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "apple cider vinegar",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "puree",
+            "step": 2,
+            "uses": [
+              {
+                "step": "puree",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "white whole-wheat flour",
+            "quantity": {
+              "amount": 1,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "cocoa powder",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking soda",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "salt",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "dry",
+            "step": 3,
+            "uses": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "dark chocolate chips",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "optional": false,
+            "destination": "fold",
+            "step": 4,
+            "uses": [
+              {
+                "step": "fold",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "additional chocolate chips",
+            "quantity": null,
+            "allowance": "a few for topping",
+            "preparation": null,
+            "optional": true,
+            "destination": "bake",
+            "step": 5,
+            "uses": [
+              {
+                "step": "bake",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          },
+          {
+            "ingredient": "baking spray",
+            "quantity": null,
+            "allowance": "as needed for uncoated paper liners",
+            "preparation": null,
+            "optional": true,
+            "destination": "prepare",
+            "step": 1,
+            "uses": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "component": "batter"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      }
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Packed spinach or kale",
+        "alternative": "Same listed cup amount loosely packed",
+        "effect": "Loosely packed leaves contain fewer greens per cup; do not treat the volume as a measured weight equivalent."
+      },
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "Same listed volume of honey",
+        "effect": "A separate full sweetener choice; unsuitable below age one."
+      },
+      {
+        "ingredient": "White whole-wheat flour",
+        "alternative": "Same listed volume of cup-for-cup gluten-free flour blend",
+        "effect": "Crumb and moisture may differ; check the center rather than assuming identical timing."
+      },
+      {
+        "ingredient": "Chocolate chips",
+        "alternative": "Omit chips and add granulated sugar to the wet mix",
+        "effect": "A couple tablespoons (2 tbsp) for the original 12-muffin batch, scaled proportionally; omit optional topping chips too. Without chips, the crumb has fewer chocolate pockets."
+      }
+    ],
+    "held": [
+      "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "prepare",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F before mixing. Line a standard 12-cup muffin tin. Use {{ingredients}} only if needed for the liners. Wash carrots and greens unless the greens are labeled prewashed and ready to eat, and drain them. Prepare the listed grated carrots and mashed banana if using. If using coconut oil, melt and cool it slightly before combining it with eggs. Follow the actual blender capacity and loading instructions; use proportional loads for a larger batch.",
+      "ingredients": ["baking spray"]
+    },
+    {
+      "step": 2,
+      "id": "puree",
+      "title": "Puree",
+      "text": "Blend {{ingredients}} until the carrots and greens are pureed. This wet mixture is blended before adding flour.",
+      "ingredients": [
+        "spinach or kale",
+        "ripe banana or unsweetened applesauce",
+        "carrots",
+        "coconut or avocado oil",
+        "maple syrup",
+        "large egg",
+        "vanilla extract",
+        "apple cider vinegar"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "dry",
+      "title": "Dry mix",
+      "text": "In a large bowl, whisk {{ingredients}} together. Both leaveners and the full salt amount go into this mixture.",
+      "ingredients": [
+        "white whole-wheat flour",
+        "cocoa powder",
+        "ground cinnamon",
+        "baking soda",
+        "baking powder",
+        "salt"
+      ]
+    },
+    {
+      "step": 4,
+      "id": "fold",
+      "title": "Combine",
+      "text": "Fold the wet puree into the dry mixture just until no dry flour remains, then fold in {{ingredients}}.",
+      "ingredients": ["dark chocolate chips"]
+    },
+    {
+      "step": 5,
+      "id": "bake",
+      "title": "Fill and bake",
+      "text": "Fill cups no more than ¾ full and sprinkle with {{ingredients}}. Bake excess batter separately rather than overfilling. Bake 20–22 minutes, until a center tester comes out without wet batter; melted chocolate is different from raw batter.",
+      "ingredients": ["additional chocolate chips"]
+    },
+    {
+      "step": 6,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Rest in the pan for 5 minutes, then transfer to a rack. Cool completely before sealing for storage. Freeze cooled muffins airtight for up to 1 month for quality.",
+      "ingredients": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Applesauce",
+      "method": "Puree applesauce instead of mashed banana; full remaining ingredients and all stages retained.",
+      "ingredients": [
+        {
+          "ingredient": "spinach or kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "1 cup unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "coconut or avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "coconut oil melted and slightly cooled",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "maple syrup",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "white whole-wheat flour",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "dark chocolate chips",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "fold",
+          "step": 4,
+          "uses": [
+            {
+              "step": "fold",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "additional chocolate chips",
+          "quantity": null,
+          "allowance": "a few for topping",
+          "preparation": null,
+          "optional": true,
+          "destination": "bake",
+          "step": 5,
+          "uses": [
+            {
+              "step": "bake",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Avocado oil",
+      "method": "Puree avocado instead of coconut oil; full original fat dose retained.",
+      "ingredients": [
+        {
+          "ingredient": "spinach or kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ripe banana or unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "banana mashed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "1/4 cup avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "maple syrup",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "white whole-wheat flour",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "dark chocolate chips",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "fold",
+          "step": 4,
+          "uses": [
+            {
+              "step": "fold",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "additional chocolate chips",
+          "quantity": null,
+          "allowance": "a few for topping",
+          "preparation": null,
+          "optional": true,
+          "destination": "bake",
+          "step": 5,
+          "uses": [
+            {
+              "step": "bake",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Honey",
+      "method": "Puree honey instead of maple; all other amounts/stages retained. No honey below age one.",
+      "ingredients": [
+        {
+          "ingredient": "spinach or kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ripe banana or unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "banana mashed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "coconut or avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "coconut oil melted and slightly cooled",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "1/4 cup honey",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "white whole-wheat flour",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "dark chocolate chips",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "fold",
+          "step": 4,
+          "uses": [
+            {
+              "step": "fold",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "additional chocolate chips",
+          "quantity": null,
+          "allowance": "a few for topping",
+          "preparation": null,
+          "optional": true,
+          "destination": "bake",
+          "step": 5,
+          "uses": [
+            {
+              "step": "bake",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Loosely packed greens",
+      "method": "Same cup volume but different packing state in puree; not a weight equivalent or replacement of current packed main.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup spinach or kale, loosely packed",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "loosely packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "ripe banana or unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "banana mashed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "coconut or avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "coconut oil melted and slightly cooled",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "maple syrup",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "white whole-wheat flour",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "dark chocolate chips",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "fold",
+          "step": 4,
+          "uses": [
+            {
+              "step": "fold",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "additional chocolate chips",
+          "quantity": null,
+          "allowance": "a few for topping",
+          "preparation": null,
+          "optional": true,
+          "destination": "bake",
+          "step": 5,
+          "uses": [
+            {
+              "step": "bake",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Cup-for-cup gluten-free flour",
+      "method": "Same full flour volume into dry mix. Texture and bake may differ; no kitchen validation.",
+      "ingredients": [
+        {
+          "ingredient": "spinach or kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ripe banana or unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "banana mashed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "coconut or avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "coconut oil melted and slightly cooled",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "maple syrup",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "1 cup cup-for-cup gluten-free flour blend",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "dark chocolate chips",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "fold",
+          "step": 4,
+          "uses": [
+            {
+              "step": "fold",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "additional chocolate chips",
+          "quantity": null,
+          "allowance": "a few for topping",
+          "preparation": null,
+          "optional": true,
+          "destination": "bake",
+          "step": 5,
+          "uses": [
+            {
+              "step": "bake",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "No chips with sugar",
+      "method": "Omit main and optional topping chips together, and put sugar in wet puree; all other ingredients/stages retained.",
+      "ingredients": [
+        {
+          "ingredient": "spinach or kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ripe banana or unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "banana mashed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "coconut or avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "coconut oil melted and slightly cooled",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "maple syrup",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "white whole-wheat flour",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "A couple tablespoons (2 tbsp) granulated sugar in the original 12-muffin batch, proportional at other scales",
+          "destination": "puree",
+          "step": 2
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "High-speed blender dry mixing",
+      "method": "Same full wet puree, then every dry-mixture ingredient blended just until mixed if actual appliance instructions/load permit; fold chips by hand and follow same fill/bake/cool. Exclusive alternative to bowl folding, not an additional mixing stage.",
+      "ingredients": [
+        {
+          "ingredient": "spinach or kale",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "packed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ripe banana or unsweetened applesauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "banana mashed",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "carrots",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "grated",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "coconut or avocado oil",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": "coconut oil melted and slightly cooled",
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "maple syrup",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "large egg",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "vanilla extract",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "puree",
+          "step": 2,
+          "uses": [
+            {
+              "step": "puree",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "white whole-wheat flour",
+          "quantity": {
+            "amount": 1,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "cocoa powder",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "ground cinnamon",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking soda",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking powder",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "dry",
+          "step": 3,
+          "uses": [
+            {
+              "step": "dry",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "dark chocolate chips",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "preparation": null,
+          "optional": false,
+          "destination": "fold",
+          "step": 4,
+          "uses": [
+            {
+              "step": "fold",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "additional chocolate chips",
+          "quantity": null,
+          "allowance": "a few for topping",
+          "preparation": null,
+          "optional": true,
+          "destination": "bake",
+          "step": 5,
+          "uses": [
+            {
+              "step": "bake",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        },
+        {
+          "ingredient": "baking spray",
+          "quantity": null,
+          "allowance": "as needed for uncoated paper liners",
+          "preparation": null,
+          "optional": true,
+          "destination": "prepare",
+          "step": 1,
+          "uses": [
+            {
+              "step": "prepare",
+              "share": 1
+            }
+          ],
+          "component": "batter"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    }
+  ],
+  "heldOptionalVariants": [
+    "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan."
+  ],
+  "relationships": {
+    "outgoing": [
+      "healthy-carrot-cake-muffins-with-cream-cheese-glaze",
+      "whole-wheat-muffins-fruit-nut-or-berry",
+      "chocolate-blended-oats-with-raspberry-chia-jam"
+    ],
+    "incomingRecipeReferences": [],
+    "incomingMeals": [],
+    "scope": "No composed meal is certified. Existing metadata references are preserved; old duplicate Serving/Pairs body sections intentionally removed by 306e8136 are not restored."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratio": "Main preserved packed-green route plus exact restored source quantities: 1 cup flour, ¼ cup cocoa, 1 cup banana/applesauce, 1 cup grated carrots, 1 cup packed greens, 2 eggs, ¼ cup oil, ¼ cup maple syrup, 1 tsp vanilla, 2 tsp vinegar, both 1 tsp leaveners, ¼ tsp salt and ¼ cup chips. No other base amounts reduced or normalized.",
+    "yield": "12 pieces",
+    "measuredFinishedYield": false,
+    "pan": "Standard muffin cups, maximum ¾ fill; proportional cup/batch count, not multiplied cup depth or bake time.",
+    "scaling": "Ingredient quantities scale; temperatures, fill fraction, pan shape and bake checks remain. Fractional eggs may be beaten and portioned by the cook; no invented gram equivalent."
+  },
+  "preservedPriorRepairs": {
+    "scope": "Every prior frozen safety, formula, allocation, ingredient state, scaling and presentation repair protected by exact source comparison; no targeted credit promoted without the complete review.",
+    "followedHistoryNotes": [
+      "f6128211 bulk rewrite removed 1 cup grated carrots and 1 tsp vanilla and changed loosely packed greens to packed; full followed history establishes no separate accepted household decision to reject the carrot/vanilla or complete saved variants.",
+      "6e4046b4 restored salt and baking-powder destination, then ee9c7078 repaired preheat-before-mix, maximum fill/excess-batch handling, rack cooling, 1-month freezing and time scope. All these repairs remain. They do not establish deliberate omission of carrots/vanilla.",
+      "Current packed-green state is preserved as main. Native/first Git and current primary publisher use loosely packed greens, retained separately without averaging or importing modern gram equivalents.",
+      "The original 306 duplicate Serving/Pairs removal policy is deliberate; old generic pairings are not restored to the body. Current metadata links stay unchanged."
+    ]
+  },
+  "remainingQuestions": [
+    "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan.",
+    "With packed greens and restored carrot, what is the actual filled-cup count and center-bake time? Which greens packing route was used previously?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

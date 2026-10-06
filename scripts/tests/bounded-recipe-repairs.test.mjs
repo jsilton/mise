@@ -21,11 +21,18 @@ test('oats use their listed sweetener and shortcakes define six-square geometry'
   assert.match(shortcake.content, /25-30 minutes/);
 });
 test('muffins prepare the oven before mixing and retain the stated alternatives', () => {
-  const { content } = read('vegetable-muffin');
-  assert.ok(content.indexOf('Preheat') < content.indexOf('combine eggs'));
-  assert.match(content, /banana or applesauce/);
+  const { data, content } = read('vegetable-muffin');
+  const prepare = data.formula.steps.findIndex((step) => step.id === 'prepare');
+  const puree = data.formula.steps.findIndex((step) => step.id === 'puree');
+  assert.ok(prepare >= 0 && puree > prepare);
+  assert.match(data.formula.steps[prepare].text, /Preheat the oven to 350°F before mixing/);
+  assert.ok(
+    content.indexOf('**Prepare:**') >= 0 &&
+      content.indexOf('**Puree:**') > content.indexOf('**Prepare:**')
+  );
+  assert.match(content, /banana or (?:unsweetened )?applesauce/);
   assert.match(content, /spinach or kale/);
-  assert.match(content, /no more than 3\/4 full/);
+  assert.match(content, /no more than (?:3\/4|¾) full/);
   assert.doesNotMatch(content, /freeze perfectly/);
 });
 test('soup and gratin restore source amounts and allocate the listed ingredients', () => {

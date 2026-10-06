@@ -2258,16 +2258,21 @@
       "source": "Adapted from minimalistbaker.com",
       "sourceUrl": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
       "group": "vegetable_muffins_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chocolate-chip-beet-muffins.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy.",
+        "How much puree drains from the actual canned or roasted beets, and how many muffins does the household tin produce?"
       ],
       "inputSha256": "1e7ac67e88943bf0d86dbe57f36b7f10637738474871ec532d1083bf38363e45",
       "plannedBatch": "baked-savory-and-breads-03",
-      "reviewer": "baking_editor"
+      "reviewer": "baking_editor",
+      "acceptedSourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-chip-cookie-cake",
@@ -2293,16 +2298,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetable_muffins_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chocolate-chip-muffins-with-zucchini.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
+        "Before/after squeezing measurement for the listed zucchini remains a kitchen/source question, not normalized to the separate protein recipe.",
+        "Was the listed 2 cups measured before or after towel squeezing, and what filled-cup count does the actual tin yield?"
       ],
       "inputSha256": "8266330ecd863b08956efc248e0097603ba85b1e705fa99ce2ea8aefa45cbe51",
       "plannedBatch": "baked-savory-and-breads-03",
-      "reviewer": "baking_editor"
+      "reviewer": "baking_editor",
+      "acceptedSourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-chip-walnut-cookies",
@@ -2397,16 +2408,21 @@
       "source": "yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
       "group": "vegetable_muffins_04",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/chocolate-protein-zucchini-muffins.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chocolate-protein-zucchini-muffins.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter.",
+        "Which chocolate protein powder was used, and does this full adapted batter fit the actual 12 standard cups at the stated maximum fill?"
       ],
       "inputSha256": "87ba01ec677e7cbd3325e7a2f55cce5368e29147bd5ce2ae6a7db22dd5a719e0",
       "plannedBatch": "baked-sweets-02",
-      "reviewer": "baking_editor"
+      "reviewer": "baking_editor",
+      "acceptedSourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-souffle",
@@ -3679,16 +3695,22 @@
       "source": "Adapted from yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
       "group": "vegetable_muffins_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/favorite-pumpkin-oatmeal-muffins.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
+        "Flax/chia eggs are named but their actual preparation and total liquid are unspecified; hold these variants rather than invent a ratio.",
+        "What is the actual blender load limit and standard/mini count, and which product-directed egg replacer was used if that option is selected?"
       ],
       "inputSha256": "e3aace8d634f27a41347f1f883c1bd973086a6f268de34fcb8a214b5a37a1a48",
       "plannedBatch": "baked-savory-and-breads-05",
-      "reviewer": "baking_editor"
+      "reviewer": "baking_editor",
+      "acceptedSourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
+      "productionVerification": "pending"
     },
     {
       "slug": "fennel-and-carrot-soup",
@@ -5604,16 +5626,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/mediterranean-grain-salad.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual pearled farro product and whether listed broth suffices at the selected pot/lid; package directions govern deviations.",
+        "Wheat berry product and longer elapsed clock remain route-specific, not universal.",
+        "Six portions are inherited planning, not a weighed grain yield."
       ],
       "inputSha256": "9dea40f3f40facb219ba565832468a1e4674daa8d2c8e68dcd42a7db5f7b97b9",
       "plannedBatch": "simmer-boil-and-steam-06",
-      "reviewer": "coverage_check"
+      "reviewer": "coverage_check",
+      "acceptedSourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
+      "productionVerification": "pending"
     },
     {
       "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
@@ -6567,16 +6595,22 @@
       "source": "Adapted from Puffy Muffin",
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/puffy-muffin-chicken-salad.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The current about1lb companion measure is an unverified rough estimate, not an exact equivalence to two cups of raw tenders; measure intended original tender volume/weight before certifying a weight conversion.",
+        "Confirm desired current onion/lemon preparation versus simpler source route and actual portion count.",
+        "Tender size, cooling depth and refrigerator load govern the untested planning clock."
       ],
       "inputSha256": "3642d67ca4a27d6f0a982dd86aaae97e3a7dd5f908e666daeab8d0878d51d8b1",
       "plannedBatch": "simmer-boil-and-steam-08",
-      "reviewer": "coverage_check"
+      "reviewer": "coverage_check",
+      "acceptedSourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
+      "productionVerification": "pending"
     },
     {
       "slug": "pumpkin-breakfast-cookies",
@@ -6715,16 +6749,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/quick-pickled-cucumber-salad.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cucumber sizes, salt crystal brand and vinegar product are unspecified; no fine-salt conversion or preservation acidity certified.",
+        "Half-teaspoon optional gochugaru is the written ingredient amount, while the old method sayspinch; householdpreferredheat remains an open tastequestion.",
+        "Measure overnight liquidrelease and desired short-rest texture; no preserved-food shelf-life test."
       ],
       "inputSha256": "6953927e2182af6cd49a47367fbd95c551003bd13b1acf0446eda43a93d42fac",
       "plannedBatch": "context-screening-04",
-      "reviewer": "coverage_check"
+      "reviewer": "coverage_check",
+      "acceptedSourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
+      "productionVerification": "pending"
     },
     {
       "slug": "quick-wonton-soup",
@@ -8882,16 +8922,21 @@
       "source": "Adapted from Superhealthykids.com",
       "sourceUrl": "https://www.superhealthykids.com/sweet-spinach-muffins/",
       "group": "vegetable_muffins_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sweet-spinach-muffins.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula.",
+        "Can the actual oven hold both tins with airflow, and how long do these muffins take to cool enough for intact removal and service?"
       ],
       "inputSha256": "95b462987ab77a8c155ed5d1d1349c6f6d0d527bfdf97a75b775d92d92f6f667",
       "plannedBatch": "baked-savory-and-breads-11",
-      "reviewer": "baking_editor"
+      "reviewer": "baking_editor",
+      "acceptedSourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
+      "productionVerification": "pending"
     },
     {
       "slug": "tamagoyaki-japanese-rolled-omelet",
@@ -9163,16 +9208,22 @@
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/",
       "group": "cold_salads_03",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/vegan-caesar-pasta-salad.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which prepared dressing and chickpea products are intended, and how much does the source-linked dressing actually yield? No equivalent volume fabricated.",
+        "Cooling tray depth and refrigerator load determine the elapsed plan.",
+        "Four portions are saved source planning; no weighing or kitchen validation."
       ],
       "inputSha256": "1d2d9cf04d19ac5273ad86fa57ad3f1f308f6c84c5988005b7747954190c4ef4",
       "plannedBatch": "roast-grill-and-sear-04",
-      "reviewer": "coverage_check"
+      "reviewer": "coverage_check",
+      "acceptedSourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
+      "productionVerification": "pending"
     },
     {
       "slug": "vegetable-minestrone",
@@ -9199,16 +9250,22 @@
       "source": "Adapted from thenaturalnurturer.com",
       "sourceUrl": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
       "group": "vegetable_muffins_04",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-10/changed-files.json",
+        "docs/reviews/vegetable-muffin.md",
+        "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan.",
+        "With packed greens and restored carrot, what is the actual filled-cup count and center-bake time? Which greens packing route was used previously?"
       ],
       "inputSha256": "50460a1fb1c82610d2dcf92503b6d0d0e58c6dfe7398a1ec85caabf0a07c1d22",
       "plannedBatch": "baked-savory-and-breads-12",
-      "reviewer": "baking_editor"
+      "reviewer": "baking_editor",
+      "acceptedSourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
+      "productionVerification": "pending"
     },
     {
       "slug": "vieux-carre",
@@ -10206,9 +10263,10 @@
   "statusCounts": {
     "production-verified": 170,
     "held": 18,
-    "assigned": 40,
+    "assigned": 30,
     "proposed": 39,
     "queued": 140,
+    "accepted": 10,
     "held-awaiting-evidence": 2
   }
 }

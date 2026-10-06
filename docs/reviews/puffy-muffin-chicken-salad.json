@@ -1,0 +1,498 @@
+{
+  "slug": "puffy-muffin-chicken-salad",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "3642d67ca4a27d6f0a982dd86aaae97e3a7dd5f908e666daeab8d0878d51d8b1",
+  "acceptedSourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "10–20 min, depending on tender size"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 60–90 min, including cooling and at least 30 min chilling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups Chicken Tenders (about 1 lb)",
+        "1/2 cup Celery, finely diced",
+        "2/3 cup Red Grapes, quartered",
+        "1/4 cup Red Onion, finely minced (the crunch)",
+        "1/2 cup mayonnaise",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper"
+      ],
+      "after": [
+        "2 cups raw chicken tenders (about 1 lb)",
+        "1/2 cup Celery, finely diced",
+        "2/3 cup Red Grapes, quartered",
+        "1/4 cup Red Onion, finely minced (the crunch)",
+        "1/2 cup mayonnaise",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 555,
+        "protein": 25,
+        "carbs": 4.5,
+        "fat": 50,
+        "fiber": 1,
+        "sugar": 1.5,
+        "sodium": 1200
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate the chicken cooking endpoint from cooling and cold assembly.",
+        "outcome": "Pulled cooked chicken coated with full mayonnaise, with distinct grapes and celery.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Measure the raw chicken before cooking. Use the listed cup volume as the main measure; the approximate weight is a guide.",
+          "Use a pot that covers the actual load and shallow containers for cooling. Larger batches need more vessels and refrigerator space, not multiplied poaching minutes."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Several thick tenders reach 165°F.",
+            "why": "A short clock or white surface does not establish the center endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The salad is still warm after its short rest.",
+            "cause": "The cooling load or refrigerator conditions left the chicken warm.",
+            "fix": "Continue refrigeration until cold throughout before serving; keep the salad shallow rather than waiting in a deep warm bowl."
+          }
+        ],
+        "timing": "Allow about 60–90 minutes from raw tenders, including the poach, pulling/cooling and at least 30 minutes after mixing. Cooling may take longer; active work is preparation, pulling and mixing, not the full chill.",
+        "storage": "Keep the salad at 40°F or below. Refrigerate promptly in shallow covered containers, within 2 hours of preparation or 1 hour above 90°F. Keep serving utensils clean and return unserved portions to refrigeration promptly; dressing does not replace cold storage. Use refrigerated chicken salad within 3–4 days, counting from the cooked chicken’s preparation; keep it cold for serving.",
+        "sources": [
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — Poultry temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChicken salad with puffed muffins is a comfort food combo - creamy, chicken-based filling inside a tender, slightly sweet muffin. The muffin base matters: too dense and it overwhelms the filling; too light and it falls apart. Use a standard muffin recipe, then fill and bake so the muffin bakes around the filling rather than being stuffed afterward.\n\n## Directions\n\n1.  **Poach:** Bring a pot of salted water to a gentle boil. Add chicken tenders and cook for 8-10 minutes until just cooked through. Drain and let cool for 5 minutes.\n2.  **The Pull:** While still warm, use two forks (or your hands) to pull the chicken into bite-sized shreds. Place in a large bowl.\n3.  **The Mix:** In a small bowl, whisk together mayonnaise, lemon juice, salt, and pepper until perfectly smooth.\n4.  **Combine:** Add the celery, grapes, and minced red onion to the chicken. Pour the dressing over the top.\n5.  **Fold:** Toss gently until every piece of chicken is coated in the creamy emulsion.\n6.  **Set:** Refrigerate for **at least 30 minutes** before serving. This allows the flavors to bloom and the texture to firm up.\n",
+    "after": "\n## Chef's Note\n\nPuffy Muffin is the credited source name for this pulled-chicken salad. Gently cook the tenders, pull them into bite-sized pieces, then coat with the full mayonnaise dressing. Grapes and celery stay distinct. The onion-and-lemon preparation below keeps those additions; the simpler chicken, celery, grapes and mayonnaise option remains separate. No muffin batter or baking is part of either salad.\n\n## Directions\n\n1. **Poach:** Put enough water to cover the raw tenders in a pot with room for the actual load; use the separate poaching salt allowance if wanted. Bring to a gentle simmer, add all the chicken and maintain that gentle heat. Begin checking around 8–10 minutes, continuing until several thick tenders reach 165°F in their centers. Thickness and the water returning to temperature determine the clock.\n\n2. **Pull and cool:** Drain to a clean plate or shallow tray. As soon as cool enough to handle safely, use clean forks to pull the chicken into bite-sized pieces. Keep the cooked chicken and utensils away from raw chicken equipment. Spread shallowly and refrigerate promptly to cool before combining; a five-minute counter wait does not establish a chilled center.\n\n3. **Mix the dressing:** Whisk all the listed mayonnaise, lemon juice, measured sea salt and black pepper together in a clean bowl. Keep the separate additional seasoning and mayonnaise allowances for any adjustment after mixing.\n\n4. **Combine:** Wash the celery, grapes and onion under running water before preparing them. Add all the finely diced celery, quartered grapes and minced onion to the cooled chicken. Fold in all the dressing with a fork or spoon until evenly coated.\n\n5. **Chill:** Cover and refrigerate for at least 30 minutes after mixing and until cold throughout. Taste cold and use only the separate additional salt, pepper or mayonnaise allowances if wanted.\n\n6. **Serve:** Serve cold as a salad or with separately prepared bread. The original batch is planned for four portions; use the listed portion count when scaling.\n\n## Simpler Pulled-Chicken Variation\n\nKeep the same two-cup raw-tender, half-cup celery, two-thirds-cup grape and half-cup mayonnaise amounts for the original batch, scaling them with the list. Omit the onion and lemon juice. Replace the measured dressing salt and pepper with salt and ground black pepper to taste. Follow the same 165°F poaching, clean pulling, prompt cooling and cold-service steps; stir the mayonnaise into the chicken, celery and grapes with a fork or spoon, then use the separate additional mayonnaise allowance only if needed.\n"
+  },
+  "findings": [
+    {
+      "id": "CS03-puffy-muffin-chicken-salad",
+      "rationale": "Exact bound native and045 source have2cups raw tenders boiled before pulling,½cup celery,⅔cup grapes,½cup mayonnaise and seasoning/additional mayonnaise to taste. Bulk23b28c81 refinement introduced about1lb/onion/lemon/measured salt, no explicit later household decision establishes source rejection; preserve current rich route and full simpler source alternative distinctly. Actual Puffy publisher recipe not retrieved; no substitute web copy used. False muffin-filled baking note lacks ingredient/method support. Existing30min chill omitted from25min total;165°F primary chicken guidance and shallow cooling apply, not a tested poach clock.",
+      "confidence": "High exact saved/current dose and history; moderate editorial process/timing/capacity applications, untested",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "FoodSafety.gov — Poultry temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "FDA — Produce preparation",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        },
+        {
+          "title": "FoodSafety.gov — Cold food storage",
+          "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "The current about1lb companion measure is an unverified rough estimate, not an exact equivalence to two cups of raw tenders; measure intended original tender volume/weight before certifying a weight conversion.",
+        "Confirm desired current onion/lemon preparation versus simpler source route and actual portion count.",
+        "Tender size, cooling depth and refrigerator load govern the untested planning clock."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Puffy%20Muffin%20Chicken%20Salad.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact bound native and045 source have2cups raw tenders boiled before pulling,½cup celery,⅔cup grapes,½cup mayonnaise and seasoning/additional mayonnaise to taste. Bulk23b28c81 refinement introduced about1lb/onion/lemon/measured salt, no explicit later household decision establishes source rejection; preserve current rich route and full simpler source alternative distinctly. Actual Puffy publisher recipe not retrieved; no substitute web copy used. False muffin-filled baking note lacks ingredient/method support. Existing30min chill omitted from25min total;165°F primary chicken guidance and shallow cooling apply, not a tested poach clock.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 cups Chicken Tenders (about 1 lb)",
+        "destination": "Raw tenders poached in step 1 for 8–10 minutes until just cooked through, without a measured endpoint; drained and cooled 5 minutes, then warm-pulled in step 2."
+      },
+      {
+        "ingredient": "1/2 cup Celery, finely diced",
+        "destination": "fullcelery4"
+      },
+      {
+        "ingredient": "2/3 cup Red Grapes, quartered",
+        "destination": "fullgrapes4"
+      },
+      {
+        "ingredient": "1/4 cup Red Onion, finely minced (the crunch)",
+        "destination": "fullonion4; absent exact source"
+      },
+      {
+        "ingredient": "1/2 cup mayonnaise",
+        "destination": "½cupmayonnaise3 dressing"
+      },
+      {
+        "ingredient": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "lemon3; added bulk"
+      },
+      {
+        "ingredient": "1/2 tsp Sea Salt",
+        "destination": "measuredsalt3; separate unlistedpoachsalt1"
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": "pepper3"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 cups raw chicken tenders (about 1 lb)",
+        "destination": "fullrawtenders1→165 then2 cleanpull/cool"
+      },
+      {
+        "ingredient": "1/2 cup Celery, finely diced",
+        "destination": "allcelery4"
+      },
+      {
+        "ingredient": "2/3 cup Red Grapes, quartered",
+        "destination": "allgrapes4"
+      },
+      {
+        "ingredient": "1/4 cup Red Onion, finely minced (the crunch)",
+        "destination": "allonion4 current route; omittedsourcevariation"
+      },
+      {
+        "ingredient": "1/2 cup mayonnaise",
+        "destination": "allmayonnaise3→4; genuineadditionalallowanceafter5"
+      },
+      {
+        "ingredient": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "alllemon3→4 currentroute; omittedsourcevariation"
+      },
+      {
+        "ingredient": "1/2 tsp Sea Salt",
+        "destination": "allmeasuredsalt3 currentroute; replacedtotastesourceoption"
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": "allpepper3 currentroute; replacedtotastesourceoption"
+      },
+      {
+        "ingredient": "Water, as needed to cover chicken for poaching",
+        "destination": "poach1 drained2"
+      },
+      {
+        "ingredient": "Salt, optional, for the poaching water",
+        "destination": "poach1 optional"
+      },
+      {
+        "ingredient": "Additional mayonnaise, as needed after mixing",
+        "destination": "coldadjust5 genuineoriginalallowance"
+      },
+      {
+        "ingredient": "Additional salt and black pepper, to taste after mixing",
+        "destination": "coldadjust5 genuineoriginalallowance"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Current onion-lemon primary",
+        "ingredients": "All current2cupsrawtenders/½cupcelery/⅔cupgrapes/¼cuponion/½cupmayonnaise/1tbsplemon/½tspseasalt/¼tsppepper, with genuinepoachwater/optionalsalt and coldadditionalmayonnaise/seasoning.",
+        "destinations": "1chickencook165/drain;2cleanpull/cool;3fullmayo/lemon/measuredsaltpepper;4fullcelerygrapesonion+fullcoating;5coldadjust/30minchill;6coldservice."
+      },
+      {
+        "name": "Exact simpler native/045 route with safety applications",
+        "ingredients": "Same rawtender/celery/grape/mayo counts/volumes at every scale. Omit all onion/lemon; replace measured seasoning with salt/groundpeppertotaste. Exact source permits additionalmayonnaise/seasoning; no amount invented.",
+        "destinations": "Same safe chicken1→2, then fullchickencelerygrapes+totasteseasoning combined;stir½cupmainmayonnaisewithfork/spoon,adjustusinggenuineallowances; promptcoldservice. No muffinbatter/baking.",
+        "source": "privately retained evidence"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Poach",
+      "text": "Put enough water to cover the raw tenders in a pot with room for the actual load; use the separate poaching salt allowance if wanted. Bring to a gentle simmer, add all the chicken and maintain that gentle heat. Begin checking around 8–10 minutes, continuing until several thick tenders reach 165°F in their centers. Thickness and the water returning to temperature determine the clock."
+    },
+    {
+      "step": 2,
+      "title": "Pull and cool",
+      "text": "Drain to a clean plate or shallow tray. As soon as cool enough to handle safely, use clean forks to pull the chicken into bite-sized pieces. Keep the cooked chicken and utensils away from raw chicken equipment. Spread shallowly and refrigerate promptly to cool before combining; a five-minute counter wait does not establish a chilled center."
+    },
+    {
+      "step": 3,
+      "title": "Mix the dressing",
+      "text": "Whisk all the listed mayonnaise, lemon juice, measured sea salt and black pepper together in a clean bowl. Keep the separate additional seasoning and mayonnaise allowances for any adjustment after mixing."
+    },
+    {
+      "step": 4,
+      "title": "Combine",
+      "text": "Wash the celery, grapes and onion under running water before preparing them. Add all the finely diced celery, quartered grapes and minced onion to the cooled chicken. Fold in all the dressing with a fork or spoon until evenly coated."
+    },
+    {
+      "step": 5,
+      "title": "Chill",
+      "text": "Cover and refrigerate for at least 30 minutes after mixing and until cold throughout. Taste cold and use only the separate additional salt, pepper or mayonnaise allowances if wanted."
+    },
+    {
+      "step": 6,
+      "title": "Serve",
+      "text": "Serve cold as a salad or with separately prepared bread. The original batch is planned for four portions; use the listed portion count when scaling."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Current onion-lemon primary",
+      "ingredients": "All current2cupsrawtenders/½cupcelery/⅔cupgrapes/¼cuponion/½cupmayonnaise/1tbsplemon/½tspseasalt/¼tsppepper, with genuinepoachwater/optionalsalt and coldadditionalmayonnaise/seasoning.",
+      "destinations": "1chickencook165/drain;2cleanpull/cool;3fullmayo/lemon/measuredsaltpepper;4fullcelerygrapesonion+fullcoating;5coldadjust/30minchill;6coldservice."
+    },
+    {
+      "name": "Exact simpler native/045 route with safety applications",
+      "ingredients": "Same rawtender/celery/grape/mayo counts/volumes at every scale. Omit all onion/lemon; replace measured seasoning with salt/groundpeppertotaste. Exact source permits additionalmayonnaise/seasoning; no amount invented.",
+      "destinations": "Same safe chicken1→2, then fullchickencelerygrapes+totasteseasoning combined;stir½cupmainmayonnaisewithfork/spoon,adjustusinggenuineallowances; promptcoldservice. No muffinbatter/baking.",
+      "source": "privately retained evidence"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "avocado-toast",
+      "healthy-carrot-cake-muffins-with-cream-cheese-glaze",
+      "jeris-lentil-soup"
+    ],
+    "scope": "All existing pairings preserved; separate recipes require their own preparation and clock, not complete-credit inheritance"
+  },
+  "ratiosYieldAndCapacity": "All rich measured current doses retained; source-exclusive variations disclosed. Portion counts are planning; no exact cooked/strained yield or pan volume inferred.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "1/2 cup raw chicken tenders (about 1/4 lb)",
+        "1/8 cup Celery, finely diced",
+        "1/6 cup Red Grapes, quartered",
+        "0.0625 cup Red Onion, finely minced (the crunch)",
+        "1/8 cup mayonnaise",
+        "1/4 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/8 tsp Sea Salt",
+        "0.0625 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1 cup raw chicken tenders (about 1/2 lb)",
+        "1/4 cup Celery, finely diced",
+        "1/3 cup Red Grapes, quartered",
+        "1/8 cup Red Onion, finely minced (the crunch)",
+        "1/4 cup mayonnaise",
+        "1/2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/4 tsp Sea Salt",
+        "1/8 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "2 cups raw chicken tenders (about 1 lb)",
+        "1/2 cup Celery, finely diced",
+        "2/3 cup Red Grapes, quartered",
+        "1/4 cup Red Onion, finely minced (the crunch)",
+        "1/2 cup mayonnaise",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "3 cups raw chicken tenders (about 1 1/2 lb)",
+        "3/4 cup Celery, finely diced",
+        "1 cup Red Grapes, quartered",
+        "3/8 cup Red Onion, finely minced (the crunch)",
+        "3/4 cup mayonnaise",
+        "1 1/2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "3/4 tsp Sea Salt",
+        "3/8 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "4 cups raw chicken tenders (about 2 lb)",
+        "1 cup Celery, finely diced",
+        "1 1/3 cups Red Grapes, quartered",
+        "1/2 cup Red Onion, finely minced (the crunch)",
+        "1 cup mayonnaise",
+        "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1 tsp Sea Salt",
+        "1/2 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "6 cups raw chicken tenders (about 3 lb)",
+        "1 1/2 cups Celery, finely diced",
+        "2 cups Red Grapes, quartered",
+        "3/4 cup Red Onion, finely minced (the crunch)",
+        "1 1/2 cups mayonnaise",
+        "3 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1 1/2 tsp Sea Salt",
+        "3/4 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "2 cups raw chicken tenders (about 1 lb)",
+        "1/2 cup Celery, finely diced",
+        "2/3 cup Red Grapes, quartered",
+        "1/4 cup Red Onion, finely minced (the crunch)",
+        "1/2 cup mayonnaise",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/2 tsp Sea Salt",
+        "1/4 tsp Black Pepper",
+        "Water, as needed to cover chicken for poaching",
+        "Salt, optional, for the poaching water",
+        "Additional mayonnaise, as needed after mixing",
+        "Additional salt and black pepper, to taste after mixing"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    }
+  ],
+  "preservedPriorRepairs": "All exact current measured rich doses, source labels, miseId, pairings and existing scaling field remain. Current declared chilling/draining and package-rated independent linked component repairs retained; targeted status does not certify recipe.",
+  "remainingQuestions": [
+    "The current about1lb companion measure is an unverified rough estimate, not an exact equivalence to two cups of raw tenders; measure intended original tender volume/weight before certifying a weight conversion.",
+    "Confirm desired current onion/lemon preparation versus simpler source route and actual portion count.",
+    "Tender size, cooling depth and refrigerator load govern the untested planning clock."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

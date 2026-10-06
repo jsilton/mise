@@ -1,0 +1,651 @@
+{
+  "slug": "mediterranean-grain-salad",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "9dea40f3f40facb219ba565832468a1e4674daa8d2c8e68dcd42a7db5f7b97b9",
+  "acceptedSourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Greece",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "25–30 min plus heat-up; wheat berries take longer"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 50–70 min with pearled farro, including cooling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup Pearled Farro (or Wheat Berries)",
+        "2 1/2 cups Vegetable or Chicken Broth",
+        "1/2 tsp Kosher Salt (plus more to taste)",
+        "--- Salad ---",
+        "1 large Cucumber, diced",
+        "2 large Ripe Tomatoes, diced",
+        "1 Red Bell Pepper, diced",
+        "1/2 Red Onion, finely diced",
+        "1 cup Kalamata Olives, pitted and halved",
+        "1 cup Crumbled Feta Cheese",
+        "1/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "2 tbsp Fresh Mint, chopped",
+        "2 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 tbsp Fresh Lemon Juice",
+        "1 tsp Dried Oregano",
+        "1 clove Garlic, finely grated",
+        "1/4 tsp Black Pepper"
+      ],
+      "after": [
+        "1 cup Pearled Farro (or Wheat Berries)",
+        "2 1/2 cups Vegetable or Chicken Broth",
+        "1/2 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "1 large Cucumber, diced",
+        "2 large Ripe Tomatoes, diced",
+        "1 Red Bell Pepper, diced",
+        "1/2 Red Onion, finely diced",
+        "1 cup Kalamata Olives, pitted and halved",
+        "1 cup Crumbled Feta Cheese",
+        "1/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "2 tbsp Fresh Mint, chopped",
+        "2 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 tbsp Fresh Lemon Juice",
+        "1 tsp Dried Oregano",
+        "1 clove Garlic, finely grated",
+        "1/4 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 495,
+        "protein": 8.5,
+        "carbs": 18.5,
+        "fat": 44.5,
+        "fiber": 3.5,
+        "sugar": 5.5,
+        "sodium": 790
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match the grain product to its own cooking and cooling schedule.",
+        "outcome": "Tender chewy grain, full dressing and feta, and fresh vegetables and herbs.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Pearled farro is the primary grain. Wheat berries are an exclusive longer-cooking variation, not a promise of the same clock or cooked volume.",
+          "Keep all oil, olives and feta; scale complete components and provide enough cooking, cooling and mixing space."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A tasted grain has no hard center but still has a pleasant chew.",
+            "why": "Product processing and age affect how long hydration takes."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Grain remains hard as the pot dries.",
+            "cause": "The actual product or evaporation differed from the assumed route.",
+            "fix": "Check the product’s liquid and cooking instructions before continuing. Do not keep cooking in a dry pot; use the grain’s tender-center cue rather than the farro clock."
+          }
+        ],
+        "timing": "Plan about 50–70 minutes with pearled farro, including broth heat-up and prompt cooling, with vegetable preparation overlapping. Wheat berries may need roughly an hour of covered cooking plus preparation and cooling. Actual grain instructions, batch size and cooling conditions can extend elapsed time.",
+        "storage": "Keep the salad at 40°F or below. Refrigerate promptly in shallow covered containers, within 2 hours of preparation or 1 hour above 90°F. Keep serving utensils clean and return unserved portions to refrigeration promptly; dressing does not replace cold storage. Use within 3–4 refrigerated days, counting from the oldest prepared component; herbs and feta have better texture when added near service.",
+        "sources": [
+          {
+            "title": "Bob’s Red Mill — Hard red wheat berry preparation",
+            "url": "https://www.bobsredmill.com/recipes/how-to-make/basic-preparation-instructions-for-wheat-berries"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis salad bridges lunch and dinner - hearty enough with farro's chewy texture to anchor a meal, but light enough for summer eating. Farro is the grain of ancient Rome and remains central to Mediterranean cooking because it has more fiber and protein than wheat, and a nutty flavor that holds up to bold olive oil and vinegar. Make it ahead without the herbs and feta; they stay bright when added just before serving or at the table.\n\n## Directions\n\n1. **Cook the Farro:** Rinse the farro under cold water. In a medium pot, bring broth and salt to a boil. Add farro, stir once, then reduce heat to low. Cover and simmer for 25-30 minutes until tender but still chewy (not mushy). Drain any excess liquid and spread on a sheet pan to cool to room temperature - this keeps the grains from clumping.\n\n2. **Prepare the Vegetables:** While the farro cools, dice the cucumber, tomatoes, and bell pepper into roughly 1/2-inch pieces. Finely dice the red onion. Place all in a large bowl with the olives.\n\n3. **Make the Dressing:** In a small jar or bowl, whisk together the olive oil, lemon juice, oregano, grated garlic, and black pepper. Taste and adjust acidity - it should be bright and tangy.\n\n4. **Combine:** Add the cooled farro to the bowl with the vegetables. Pour the dressing over and toss well to coat every grain and vegetable.\n\n5. **Finish:** Just before serving, fold in the crumbled feta, parsley, mint, and dill. Taste and adjust salt and lemon juice. Serve at room temperature or chilled.\n\n6. **Make-Ahead:** This salad tastes even better the next day as flavors meld. Store covered in the refrigerator for up to 4 days. Add the feta and fresh herbs just before serving to prevent them from getting soggy.\n",
+    "after": "\n## Chef's Note\n\nChewy farro carries the full olive-oil dressing, olives and feta, while diced vegetables and fresh herbs keep the salad varied. Pearled farro and whole wheat berries do not share a guaranteed cooking clock. Prepare the grain first, cool it promptly, then fold in feta and herbs close to serving.\n\n## Directions\n\n1. **Cook the farro:** Rinse all the dry pearled farro. Bring all the listed broth and measured kosher salt to a boil in a pot with room for the grain to expand. Add the farro, reduce to a gentle simmer and cover. Begin checking around 25–30 minutes, following the actual product instructions if they differ; the center should be tender with a pleasant chew, without a hard core. Drain excess cooking liquid.\n\n2. **Cool and prepare:** Spread the drained grain in a shallow layer and refrigerate promptly to cool; do not leave a large warm batch on the counter waiting for room temperature. While it cools, wash the cucumber, tomatoes, pepper, onion and herbs under running water, then prepare as listed. Put all diced vegetables and halved olives in a large clean bowl.\n\n3. **Make the dressing:** Whisk all the measured olive oil, lemon juice, oregano, grated garlic and black pepper together. These full quantities belong to the dressing; keep any additional salt and lemon juice separate for the finished salad.\n\n4. **Combine:** Add the cooled grain to the vegetables and olives. Fold in all the dressing until the full salad is coated. Use enough bowl space, or divide all components proportionally among more bowls, rather than crowding and crushing the grains.\n\n5. **Finish:** Just before serving, fold in all the feta, parsley, mint and dill. Taste and use the separate additional salt or lemon juice allowances only if wanted. Serve chilled, or briefly out of refrigeration for immediate service.\n\n6. **Make ahead:** Refrigerate the grain, dressed vegetables and herbs/feta separately if preparing ahead. Combine and add the full herb/feta supplies close to serving. Keep at 40°F or below; count storage from the oldest prepared component.\n\n## Wheat Berry Variation\n\nReplace the listed dry pearled farro with the same listed dry volume of wheat berries. Use the full listed broth and cooking salt; follow the wheat berry product’s stovetop directions and tender-center cue rather than the farro clock. Bob’s Red Mill’s hard-red wheat berry route uses the same original one-cup grain and two-and-a-half-cup liquid starting amounts, covered for about an hour or until tender, then drained. Other products can differ: establish their required liquid before starting rather than assuming this ratio fits every wheat berry. Cool promptly and use the complete same salad, dressing, feta and herb quantities. Allow the longer grain cook and cooling; no identical cooked yield is claimed.\n"
+  },
+  "findings": [
+    {
+      "id": "CS03-mediterranean-grain-salad",
+      "rationale": "Git-created2a7 recipe has no native original/publisher binding. Farro is wheat, so universal higher-protein-than-wheat and ancientRome origin claims unsupported. Product-specific primary wheat-berry instructions corroborate longer roughly1hr route with same listed starting volume, not25–30min equivalence. Keep full¼cup oil/1cup olives/1cup feta and all herbs. List only existing method additionalseasoning supplies. FDA prompt shallow cooling/cold storage applies; no measured cooked yield or universal hydration asserted.",
+      "confidence": "High exact saved/current dose and history; moderate editorial process/timing/capacity applications, untested",
+      "applicableSources": [
+        {
+          "title": "Bob’s Red Mill — Hard red wheat berry preparation",
+          "url": "https://www.bobsredmill.com/recipes/how-to-make/basic-preparation-instructions-for-wheat-berries"
+        },
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "FDA — Produce preparation",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        },
+        {
+          "title": "USDA — Leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual pearled farro product and whether listed broth suffices at the selected pot/lid; package directions govern deviations.",
+        "Wheat berry product and longer elapsed clock remain route-specific, not universal.",
+        "Six portions are inherited planning, not a weighed grain yield."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/mediterranean-grain-salad.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-created2a7 recipe has no native original/publisher binding. Farro is wheat, so universal higher-protein-than-wheat and ancientRome origin claims unsupported. Product-specific primary wheat-berry instructions corroborate longer roughly1hr route with same listed starting volume, not25–30min equivalence. Keep full¼cup oil/1cup olives/1cup feta and all herbs. List only existing method additionalseasoning supplies. FDA prompt shallow cooling/cold storage applies; no measured cooked yield or universal hydration asserted.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 cup Pearled Farro (or Wheat Berries)",
+        "destination": "drygrain1; alternatewheatberries shares25–30min improperly"
+      },
+      {
+        "ingredient": "2 1/2 cups Vegetable or Chicken Broth",
+        "destination": "fullbroth1 drainexcess"
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt (plus more to taste)",
+        "destination": "measuredsalt1; additional5 allowancecombined"
+      },
+      {
+        "ingredient": "1 large Cucumber, diced",
+        "destination": "allcucumber2"
+      },
+      {
+        "ingredient": "2 large Ripe Tomatoes, diced",
+        "destination": "alltomatoes2"
+      },
+      {
+        "ingredient": "1 Red Bell Pepper, diced",
+        "destination": "allpepper2"
+      },
+      {
+        "ingredient": "1/2 Red Onion, finely diced",
+        "destination": "allonion2"
+      },
+      {
+        "ingredient": "1 cup Kalamata Olives, pitted and halved",
+        "destination": "allolives2"
+      },
+      {
+        "ingredient": "1 cup Crumbled Feta Cheese",
+        "destination": "allfeta5"
+      },
+      {
+        "ingredient": "1/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "destination": "allparsley5"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Mint, chopped",
+        "destination": "allmint5"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Dill, chopped",
+        "destination": "alldill5"
+      },
+      {
+        "ingredient": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": "fulloil3→4"
+      },
+      {
+        "ingredient": "3 tbsp Fresh Lemon Juice",
+        "destination": "alllemon3→4; extra5 unlisted"
+      },
+      {
+        "ingredient": "1 tsp Dried Oregano",
+        "destination": "alloregano3"
+      },
+      {
+        "ingredient": "1 clove Garlic, finely grated",
+        "destination": "allgarlic3"
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": "allpepper3"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 cup Pearled Farro (or Wheat Berries)",
+        "destination": "drygrain1; exclusivewheatvariation longerproductclock"
+      },
+      {
+        "ingredient": "2 1/2 cups Vegetable or Chicken Broth",
+        "destination": "fullbroth1 drainedexcess"
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt, for cooking the grain",
+        "destination": "measuredsalt1"
+      },
+      {
+        "ingredient": "1 large Cucumber, diced",
+        "destination": "allcucumber2"
+      },
+      {
+        "ingredient": "2 large Ripe Tomatoes, diced",
+        "destination": "alltomatoes2"
+      },
+      {
+        "ingredient": "1 Red Bell Pepper, diced",
+        "destination": "allpepper2"
+      },
+      {
+        "ingredient": "1/2 Red Onion, finely diced",
+        "destination": "allonion2"
+      },
+      {
+        "ingredient": "1 cup Kalamata Olives, pitted and halved",
+        "destination": "allolives2"
+      },
+      {
+        "ingredient": "1 cup Crumbled Feta Cheese",
+        "destination": "allfeta5"
+      },
+      {
+        "ingredient": "1/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "destination": "allparsley5"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Mint, chopped",
+        "destination": "allmint5"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Dill, chopped",
+        "destination": "alldill5"
+      },
+      {
+        "ingredient": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": "fulloil3→4"
+      },
+      {
+        "ingredient": "3 tbsp Fresh Lemon Juice",
+        "destination": "alllemon3→4"
+      },
+      {
+        "ingredient": "1 tsp Dried Oregano",
+        "destination": "alloregano3"
+      },
+      {
+        "ingredient": "1 clove Garlic, finely grated",
+        "destination": "allgarlic3"
+      },
+      {
+        "ingredient": "1/4 tsp Black Pepper",
+        "destination": "allpepper3"
+      },
+      {
+        "ingredient": "Additional kosher salt, to taste after mixing",
+        "destination": "optionaladditional5"
+      },
+      {
+        "ingredient": "Additional fresh lemon juice, to taste after mixing",
+        "destination": "optionaladditional5"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pearled farro primary",
+        "ingredients": "All current dryfarro/full2½broth/½tspsalt and complete vegetables/olives/feta/herbs/full¼cup oil/3tbsplemondressing; additionalfinishsalt/lemon are genuine existing method allowances.",
+        "destinations": "1grains cookdrain;2promptcool/fullvegetables+olives;3fulldressing;4wholegrain/dressing;5fullfeta/herbs/optionaladjust."
+      },
+      {
+        "name": "Wheat berry exclusive variation",
+        "ingredients": "Replace dry farro with same listed drywheatvolume. Fullbroth/salt/dressing/salad unchanged. Manufacturer-specific longerstovetop route, no equalyield or everyproducthydration guarantee.",
+        "destinations": "1coveredlongercookabout1hourforcitedhardredproduct/tendercenterthen drain;2promptcool;same3–5fullcomponentassembly.",
+        "source": "https://www.bobsredmill.com/recipes/how-to-make/basic-preparation-instructions-for-wheat-berries"
+      },
+      {
+        "name": "Vegetable or chicken broth",
+        "ingredients": "Choose one broth in same listed amount, never both. Chickenbroth changes dietarysuitability; feta stays full.",
+        "destinations": "Entirechosenbroth1; drainedexcess not manufacturedfinishedyield."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Cook the farro",
+      "text": "Rinse all the dry pearled farro. Bring all the listed broth and measured kosher salt to a boil in a pot with room for the grain to expand. Add the farro, reduce to a gentle simmer and cover. Begin checking around 25–30 minutes, following the actual product instructions if they differ; the center should be tender with a pleasant chew, without a hard core. Drain excess cooking liquid."
+    },
+    {
+      "step": 2,
+      "title": "Cool and prepare",
+      "text": "Spread the drained grain in a shallow layer and refrigerate promptly to cool; do not leave a large warm batch on the counter waiting for room temperature. While it cools, wash the cucumber, tomatoes, pepper, onion and herbs under running water, then prepare as listed. Put all diced vegetables and halved olives in a large clean bowl."
+    },
+    {
+      "step": 3,
+      "title": "Make the dressing",
+      "text": "Whisk all the measured olive oil, lemon juice, oregano, grated garlic and black pepper together. These full quantities belong to the dressing; keep any additional salt and lemon juice separate for the finished salad."
+    },
+    {
+      "step": 4,
+      "title": "Combine",
+      "text": "Add the cooled grain to the vegetables and olives. Fold in all the dressing until the full salad is coated. Use enough bowl space, or divide all components proportionally among more bowls, rather than crowding and crushing the grains."
+    },
+    {
+      "step": 5,
+      "title": "Finish",
+      "text": "Just before serving, fold in all the feta, parsley, mint and dill. Taste and use the separate additional salt or lemon juice allowances only if wanted. Serve chilled, or briefly out of refrigeration for immediate service."
+    },
+    {
+      "step": 6,
+      "title": "Make ahead",
+      "text": "Refrigerate the grain, dressed vegetables and herbs/feta separately if preparing ahead. Combine and add the full herb/feta supplies close to serving. Keep at 40°F or below; count storage from the oldest prepared component."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Pearled farro primary",
+      "ingredients": "All current dryfarro/full2½broth/½tspsalt and complete vegetables/olives/feta/herbs/full¼cup oil/3tbsplemondressing; additionalfinishsalt/lemon are genuine existing method allowances.",
+      "destinations": "1grains cookdrain;2promptcool/fullvegetables+olives;3fulldressing;4wholegrain/dressing;5fullfeta/herbs/optionaladjust."
+    },
+    {
+      "name": "Wheat berry exclusive variation",
+      "ingredients": "Replace dry farro with same listed drywheatvolume. Fullbroth/salt/dressing/salad unchanged. Manufacturer-specific longerstovetop route, no equalyield or everyproducthydration guarantee.",
+      "destinations": "1coveredlongercookabout1hourforcitedhardredproduct/tendercenterthen drain;2promptcool;same3–5fullcomponentassembly.",
+      "source": "https://www.bobsredmill.com/recipes/how-to-make/basic-preparation-instructions-for-wheat-berries"
+    },
+    {
+      "name": "Vegetable or chicken broth",
+      "ingredients": "Choose one broth in same listed amount, never both. Chickenbroth changes dietarysuitability; feta stays full.",
+      "destinations": "Entirechosenbroth1; drainedexcess not manufacturedfinishedyield."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["chicken-souvlaki", "falafel", "chicken-scaloppine-with-tomato-and-white-wine"],
+    "scope": "All existing pairings preserved; separate recipes require their own preparation and clock, not complete-credit inheritance"
+  },
+  "ratiosYieldAndCapacity": "All rich measured current doses retained; source-exclusive variations disclosed. Portion counts are planning; no exact cooked/strained yield or pan volume inferred.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "1/4 cup Pearled Farro (or Wheat Berries)",
+        "5/8 cup Vegetable or Chicken Broth",
+        "1/8 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "1/4 large Cucumber, diced",
+        "1/2 large Ripe Tomato, diced",
+        "1/4 Red Bell Pepper, diced",
+        "1/8 Red Onion, finely diced",
+        "1/4 cup Kalamata Olives, pitted and halved",
+        "1/4 cup Crumbled Feta Cheese",
+        "0.0625 cup Fresh Flat-Leaf Parsley, chopped",
+        "1/2 tbsp Fresh Mint, chopped",
+        "1/2 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "0.0625 cup Extra-Virgin Olive Oil",
+        "3/4 tbsp Fresh Lemon Juice",
+        "1/4 tsp Dried Oregano",
+        "1/4 clove Garlic, finely grated",
+        "0.0625 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 1 1/2",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1/2 cup Pearled Farro (or Wheat Berries)",
+        "1 1/4 cups Vegetable or Chicken Broth",
+        "1/4 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "1/2 large Cucumber, diced",
+        "1 large Ripe Tomato, diced",
+        "1/2 Red Bell Pepper, diced",
+        "1/4 Red Onion, finely diced",
+        "1/2 cup Kalamata Olives, pitted and halved",
+        "1/2 cup Crumbled Feta Cheese",
+        "1/8 cup Fresh Flat-Leaf Parsley, chopped",
+        "1 tbsp Fresh Mint, chopped",
+        "1 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "1/8 cup Extra-Virgin Olive Oil",
+        "1 1/2 tbsp Fresh Lemon Juice",
+        "1/2 tsp Dried Oregano",
+        "1/2 clove Garlic, finely grated",
+        "1/8 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 3",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1 cup Pearled Farro (or Wheat Berries)",
+        "2 1/2 cups Vegetable or Chicken Broth",
+        "1/2 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "1 large Cucumber, diced",
+        "2 large Ripe Tomatoes, diced",
+        "1 Red Bell Pepper, diced",
+        "1/2 Red Onion, finely diced",
+        "1 cup Kalamata Olives, pitted and halved",
+        "1 cup Crumbled Feta Cheese",
+        "1/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "2 tbsp Fresh Mint, chopped",
+        "2 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 tbsp Fresh Lemon Juice",
+        "1 tsp Dried Oregano",
+        "1 clove Garlic, finely grated",
+        "1/4 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "1 1/2 cups Pearled Farro (or Wheat Berries)",
+        "3 3/4 cups Vegetable or Chicken Broth",
+        "3/4 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "1 1/2 large Cucumbers, diced",
+        "3 large Ripe Tomatoes, diced",
+        "1 1/2 Red Bell Peppers, diced",
+        "3/4 Red Onion, finely diced",
+        "1 1/2 cups Kalamata Olives, pitted and halved",
+        "1 1/2 cups Crumbled Feta Cheese",
+        "3/8 cup Fresh Flat-Leaf Parsley, chopped",
+        "3 tbsp Fresh Mint, chopped",
+        "3 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "3/8 cup Extra-Virgin Olive Oil",
+        "4 1/2 tbsp Fresh Lemon Juice",
+        "1 1/2 tsp Dried Oregano",
+        "1 1/2 cloves Garlic, finely grated",
+        "3/8 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 9",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "2 cups Pearled Farro (or Wheat Berries)",
+        "5 cups Vegetable or Chicken Broth",
+        "1 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "2 large Cucumbers, diced",
+        "4 large Ripe Tomatoes, diced",
+        "2 Red Bell Peppers, diced",
+        "1 Red Onion, finely diced",
+        "2 cups Kalamata Olives, pitted and halved",
+        "2 cups Crumbled Feta Cheese",
+        "1/2 cup Fresh Flat-Leaf Parsley, chopped",
+        "4 tbsp Fresh Mint, chopped",
+        "4 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "1/2 cup Extra-Virgin Olive Oil",
+        "6 tbsp Fresh Lemon Juice",
+        "2 tsp Dried Oregano",
+        "2 cloves Garlic, finely grated",
+        "1/2 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "3 cups Pearled Farro (or Wheat Berries)",
+        "7 1/2 cups Vegetable or Chicken Broth",
+        "1 1/2 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "3 large Cucumbers, diced",
+        "6 large Ripe Tomatoes, diced",
+        "3 Red Bell Peppers, diced",
+        "1 1/2 Red Onions, finely diced",
+        "3 cups Kalamata Olives, pitted and halved",
+        "3 cups Crumbled Feta Cheese",
+        "3/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "6 tbsp Fresh Mint, chopped",
+        "6 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "3/4 cup Extra-Virgin Olive Oil",
+        "9 tbsp Fresh Lemon Juice",
+        "3 tsp Dried Oregano",
+        "3 cloves Garlic, finely grated",
+        "3/4 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 18",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1 cup Pearled Farro (or Wheat Berries)",
+        "2 1/2 cups Vegetable or Chicken Broth",
+        "1/2 tsp Kosher Salt, for cooking the grain",
+        "--- Salad ---",
+        "1 large Cucumber, diced",
+        "2 large Ripe Tomatoes, diced",
+        "1 Red Bell Pepper, diced",
+        "1/2 Red Onion, finely diced",
+        "1 cup Kalamata Olives, pitted and halved",
+        "1 cup Crumbled Feta Cheese",
+        "1/4 cup Fresh Flat-Leaf Parsley, chopped",
+        "2 tbsp Fresh Mint, chopped",
+        "2 tbsp Fresh Dill, chopped",
+        "--- Dressing ---",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 tbsp Fresh Lemon Juice",
+        "1 tsp Dried Oregano",
+        "1 clove Garlic, finely grated",
+        "1/4 tsp Black Pepper",
+        "Additional kosher salt, to taste after mixing",
+        "Additional fresh lemon juice, to taste after mixing"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    }
+  ],
+  "preservedPriorRepairs": "All exact current measured rich doses, source labels, miseId, pairings and existing scaling field remain. Current declared chilling/draining and package-rated independent linked component repairs retained; targeted status does not certify recipe.",
+  "remainingQuestions": [
+    "Confirm actual pearled farro product and whether listed broth suffices at the selected pot/lid; package directions govern deviations.",
+    "Wheat berry product and longer elapsed clock remain route-specific, not universal.",
+    "Six portions are inherited planning, not a weighed grain yield."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

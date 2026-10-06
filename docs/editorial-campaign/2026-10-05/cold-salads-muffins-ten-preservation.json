@@ -1,0 +1,124 @@
+{
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "changed": 10,
+  "unchanged": 633,
+  "protectedIdentities": 643,
+  "exactPairedFieldsAndBody": true,
+  "registerPromotions": 10,
+  "unrelatedReviewCreditPreserved": true,
+  "changedExportSchemas": 10,
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "puffy-muffin-chicken-salad",
+      "acceptedSourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
+      "remainingQuestions": [
+        "The current about1lb companion measure is an unverified rough estimate, not an exact equivalence to two cups of raw tenders; measure intended original tender volume/weight before certifying a weight conversion.",
+        "Confirm desired current onion/lemon preparation versus simpler source route and actual portion count.",
+        "Tender size, cooling depth and refrigerator load govern the untested planning clock."
+      ]
+    },
+    {
+      "slug": "mediterranean-grain-salad",
+      "acceptedSourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
+      "remainingQuestions": [
+        "Confirm actual pearled farro product and whether listed broth suffices at the selected pot/lid; package directions govern deviations.",
+        "Wheat berry product and longer elapsed clock remain route-specific, not universal.",
+        "Six portions are inherited planning, not a weighed grain yield."
+      ]
+    },
+    {
+      "slug": "vegan-caesar-pasta-salad",
+      "acceptedSourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
+      "remainingQuestions": [
+        "Which prepared dressing and chickpea products are intended, and how much does the source-linked dressing actually yield? No equivalent volume fabricated.",
+        "Cooling tray depth and refrigerator load determine the elapsed plan.",
+        "Four portions are saved source planning; no weighing or kitchen validation."
+      ]
+    },
+    {
+      "slug": "quick-pickled-cucumber-salad",
+      "acceptedSourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
+      "remainingQuestions": [
+        "Actual cucumber sizes, salt crystal brand and vinegar product are unspecified; no fine-salt conversion or preservation acidity certified.",
+        "Half-teaspoon optional gochugaru is the written ingredient amount, while the old method sayspinch; householdpreferredheat remains an open tastequestion.",
+        "Measure overnight liquidrelease and desired short-rest texture; no preserved-food shelf-life test."
+      ]
+    },
+    {
+      "slug": "chocolate-chip-beet-muffins",
+      "acceptedSourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
+      "remainingQuestions": [
+        "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy.",
+        "How much puree drains from the actual canned or roasted beets, and how many muffins does the household tin produce?"
+      ]
+    },
+    {
+      "slug": "chocolate-chip-muffins-with-zucchini",
+      "acceptedSourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
+      "remainingQuestions": [
+        "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
+        "Before/after squeezing measurement for the listed zucchini remains a kitchen/source question, not normalized to the separate protein recipe.",
+        "Was the listed 2 cups measured before or after towel squeezing, and what filled-cup count does the actual tin yield?"
+      ]
+    },
+    {
+      "slug": "chocolate-protein-zucchini-muffins",
+      "acceptedSourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
+      "remainingQuestions": [
+        "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter.",
+        "Which chocolate protein powder was used, and does this full adapted batter fit the actual 12 standard cups at the stated maximum fill?"
+      ]
+    },
+    {
+      "slug": "favorite-pumpkin-oatmeal-muffins",
+      "acceptedSourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
+      "remainingQuestions": [
+        "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
+        "Flax/chia eggs are named but their actual preparation and total liquid are unspecified; hold these variants rather than invent a ratio.",
+        "What is the actual blender load limit and standard/mini count, and which product-directed egg replacer was used if that option is selected?"
+      ]
+    },
+    {
+      "slug": "sweet-spinach-muffins",
+      "acceptedSourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
+      "remainingQuestions": [
+        "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula.",
+        "Can the actual oven hold both tins with airflow, and how long do these muffins take to cool enough for intact removal and service?"
+      ]
+    },
+    {
+      "slug": "vegetable-muffin",
+      "acceptedSourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
+      "remainingQuestions": [
+        "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan.",
+        "With packed greens and restored carrot, what is the actual filled-cup count and center-bake time? Which greens packing route was used previously?"
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

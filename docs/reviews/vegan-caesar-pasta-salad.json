@@ -1,0 +1,460 @@
+{
+  "slug": "vegan-caesar-pasta-salad",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "1d2d9cf04d19ac5273ad86fa57ad3f1f308f6c84c5988005b7747954190c4ef4",
+  "acceptedSourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 35–50 min including cooling, with dressing and chickpeas prepared"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Rotini or Cavatappi Pasta",
+        "1 1/2 cups Vegan Caesar Dressing",
+        "1 1/2 cups Roasted Chickpeas (the crunch Protein)",
+        "2 hearts Romaine Lettuce, chopped",
+        "1 ripe Avocado, sliced",
+        "1 1/2 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper"
+      ],
+      "after": [
+        "8 oz dry Rotini or Cavatappi Pasta",
+        "1 1/2 cups Vegan Caesar Dressing",
+        "1 1/2 cups prepared roasted chickpeas",
+        "2 hearts Romaine Lettuce, chopped",
+        "1 ripe Avocado, sliced",
+        "1 1/2 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 320,
+        "protein": 13,
+        "carbs": 60,
+        "fat": 4.5,
+        "fiber": 8.5,
+        "sugar": 4.5,
+        "sodium": 90
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep dressing allocation proportional and cool pasta before fresh leaves.",
+        "outcome": "Coated pasta with full dressing, crisp romaine and gently folded avocado.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Start with dry pasta and already prepared dressing and chickpeas. Their separate preparation is not included in the pasta cook clock.",
+          "One-third of the dressing coats warm pasta; all the remaining two-thirds goes into cold assembly. Keep the full supply at every scale."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Pasta is no longer warm when romaine is folded in.",
+            "why": "A short stand alone can leave enough heat to wilt leaves."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Lettuce wilts during assembly.",
+            "cause": "Pasta was still warm or leaves sat dressed too long.",
+            "fix": "Cool the pasta promptly first and add leaves and avocado nearer service; their texture cannot be restored afterward."
+          }
+        ],
+        "timing": "Allow about 35–50 minutes with dressing and chickpeas already prepared: around 15 minutes preparation, package-specific pasta cooking and prompt cooling. Larger cooling loads or making separate components extends the plan.",
+        "storage": "Keep the salad at 40°F or below. Refrigerate promptly in shallow covered containers, within 2 hours of preparation or 1 hour above 90°F. Keep serving utensils clean and return unserved portions to refrigeration promptly; dressing does not replace cold storage. Use within 3–4 refrigerated days or the prepared dressing’s shorter applicable limit, counting from the oldest component; avocado and dressed leaves lose texture sooner.",
+        "sources": [
+          {
+            "title": "Monique Volz — Vegan Caesar pasta salad",
+            "url": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/"
+          },
+          {
+            "title": "Monique Volz — Vegan Caesar dressing",
+            "url": "https://www.ambitiouskitchen.com/vegan-caesar-dressing/"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nVegan Caesar dressings became mainstream in the 2010s, using cashews or tofu to replicate the creamy texture traditionally from anchovies and egg. Roasted chickpeas replace croutons for protein and crunch. The trick is dressing the warm pasta first - it absorbs more flavor than cold pasta would. Add the fresh romaine and avocado just before serving so they stay crisp and bright.\n\n## Directions\n\n1.  **Boil:** Cook pasta in salted water until **al dente**. Drain.\n2.  **The Bind:** While the pasta is still warm, transfer to a large bowl and toss with 1/2 cup of the Vegan Caesar Dressing. Let stand for 5 minutes.\n3.  **Combine:** Add the romaine, cherry tomatoes, and the remaining dressing. Toss gently with your hands.\n4.  **The Crunch:** Fold in the roasted chickpeas and the avocado slices just before serving.\n5.  **Serve:** Season generously with black pepper and sea salt. Serve chilled or at room temperature.\n",
+    "after": "\n## Chef's Note\n\nDress the cooked pasta first, then cool it before adding romaine and avocado. The full listed dressing stays in the salad; reserve two-thirds for the cold assembly after one-third coats the warm pasta. Prepared roasted chickpeas supply crunch, with a plain cooked-chickpea option giving a softer texture.\n\n## Directions\n\n1. **Cook the pasta:** Cook all the dry pasta in the separate salted-water allowance according to its package until al dente. Drain thoroughly. This recipe starts with prepared vegan Caesar dressing and prepared roasted chickpeas; making them separately adds its own work and clock.\n\n2. **Dress and cool:** Transfer the pasta to a clean large bowl and fold in one-third of the full listed dressing. The original batch’s half-cup amount is one-third of its one-and-a-half-cup supply; use that same proportion at other scales. Let stand about 5 minutes, then spread in a shallow layer and refrigerate promptly until no longer warm before adding lettuce.\n\n3. **Combine:** Wash and drain the romaine and tomatoes, then chop and halve them as listed. Add all romaine and tomatoes to the cooled pasta and fold in the remaining two-thirds of the dressing. Keep raw-protein equipment away from the ready-to-eat salad.\n\n4. **Finish:** Just before serving, fold in all the prepared chickpeas and sliced avocado. Wash the avocado exterior before cutting with clean utensils. Use a roomy bowl or more bowls with all components divided proportionally to avoid crushing the leaves.\n\n5. **Serve:** Taste and season with the listed sea salt and black pepper allowance. Serve cold or briefly at room temperature for immediate service. Keep any unserved salad refrigerated.\n\n## Source Dressing and Pasta Options\n\nFor the source dressing quantity, replace the measured dressing supply with one complete batch of [Ambitious Kitchen’s vegan Caesar dressing](https://www.ambitiouskitchen.com/vegan-caesar-dressing/) per original salad batch, scaling that separate recipe proportionally. This is a different supply from the current one-and-a-half-cup dressing main, not a fixed batch-to-cup equivalence. Toss that whole prepared dressing batch with the drained pasta, then cool promptly and add the complete same lettuce, avocado, tomatoes and chickpeas. Rotini, bowties or another pasta, including a suitable gluten-free pasta, can use the same listed dry weight and their own package cooking directions. The same listed amount of cooked, drained unroasted chickpeas can replace roasted chickpeas for a softer finish. Check the prepared dressing and chickpea product for vegan suitability.\n"
+  },
+  "findings": [
+    {
+      "id": "CS03-vegan-caesar-pasta-salad",
+      "rationale": "Exact native/045/publisher specify1batch linked dressing, not1½cups; later bulk measured richer main and warm½cup split retained. No deliberate household rejection established; complete source-batch option distinct, no fabricated yield equivalence. Current1/3+2/3 preservesfull1½cup and scales; ready-to-eat rawveg cannotbe addedwarmwithout textureconsequence. Sourceplaincookedchickpea/bowtie/glutenfree choices restored; no invented drybean/roastclock. UnsupportedItaly creation/date/nutrition removed without changingcuisine/credits. Preparedcomponent times separate.",
+      "confidence": "High exact saved/current dose and history; moderate editorial process/timing/capacity applications, untested",
+      "applicableSources": [
+        {
+          "title": "Monique Volz — Vegan Caesar pasta salad",
+          "url": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/"
+        },
+        {
+          "title": "Monique Volz — Vegan Caesar dressing",
+          "url": "https://www.ambitiouskitchen.com/vegan-caesar-dressing/"
+        },
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "FDA — Produce preparation",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        },
+        {
+          "title": "FoodSafety.gov — Cold food storage",
+          "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Which prepared dressing and chickpea products are intended, and how much does the source-linked dressing actually yield? No equivalent volume fabricated.",
+        "Cooling tray depth and refrigerator load determine the elapsed plan.",
+        "Four portions are saved source planning; no weighing or kitchen validation."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Vegan%20Caesar%20Pasta%20Salad.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact native/045/publisher specify1batch linked dressing, not1½cups; later bulk measured richer main and warm½cup split retained. No deliberate household rejection established; complete source-batch option distinct, no fabricated yield equivalence. Current1/3+2/3 preservesfull1½cup and scales; ready-to-eat rawveg cannotbe addedwarmwithout textureconsequence. Sourceplaincookedchickpea/bowtie/glutenfree choices restored; no invented drybean/roastclock. UnsupportedItaly creation/date/nutrition removed without changingcuisine/credits. Preparedcomponent times separate.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "8 oz Rotini or Cavatappi Pasta",
+        "destination": "drypasta1; saltwaterunlisted"
+      },
+      {
+        "ingredient": "1 1/2 cups Vegan Caesar Dressing",
+        "destination": "literal½cup warm2 thenremaining3; staticdosebadscaled"
+      },
+      {
+        "ingredient": "1 1/2 cups Roasted Chickpeas (the crunch Protein)",
+        "destination": "roastedpreparedchickpeas4 no roastprocess"
+      },
+      {
+        "ingredient": "2 hearts Romaine Lettuce, chopped",
+        "destination": "romaine3 warmafter5min"
+      },
+      {
+        "ingredient": "1 ripe Avocado, sliced",
+        "destination": "avocado4"
+      },
+      {
+        "ingredient": "1 1/2 cups Cherry Tomatoes, halved",
+        "destination": "tomatoes3"
+      },
+      {
+        "ingredient": "Sea Salt and Black Pepper",
+        "destination": "finish5 totaste"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "8 oz dry Rotini or Cavatappi Pasta",
+        "destination": "alldrypasta1"
+      },
+      {
+        "ingredient": "1 1/2 cups Vegan Caesar Dressing",
+        "destination": "⅓warm2→⅔cold3 alltotalpreserved"
+      },
+      {
+        "ingredient": "1 1/2 cups prepared roasted chickpeas",
+        "destination": "allpreparedchickpeas4"
+      },
+      {
+        "ingredient": "2 hearts Romaine Lettuce, chopped",
+        "destination": "allromaine3 aftercooling"
+      },
+      {
+        "ingredient": "1 ripe Avocado, sliced",
+        "destination": "allavocado4"
+      },
+      {
+        "ingredient": "1 1/2 cups Cherry Tomatoes, halved",
+        "destination": "alltomatoes3"
+      },
+      {
+        "ingredient": "Sea Salt and Black Pepper",
+        "destination": "finish5"
+      },
+      {
+        "ingredient": "Water, as needed for cooking pasta",
+        "destination": "cook1 drained"
+      },
+      {
+        "ingredient": "Salt, for the pasta cooking water",
+        "destination": "cook1 salt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Current richer measured-dressing primary",
+        "ingredients": "All8ozdrypasta/1½cupdressing/1½cuppreparedroastedchickpeas/2romainehearts/1avocado/1½cuptomatoes; existing saltpepperallowances and genuine cookingwater/salt.",
+        "destinations": "1drypastacook/drain;2one-thirddressingwarm thenpromptcool;3fullromaine/tomatoes+remainingtwo-thirds;4fullchickpeas/avocado;5season/coldserve."
+      },
+      {
+        "name": "Exact source one-batch dressing alternative",
+        "ingredients": "Replace1½cupdressing with onecompletebatchperoriginalsalad of linked publisherrecipe, scaledproportionally; no batch→cup equivalent asserted. Allremainingbaseingredients unchanged.",
+        "destinations": "Fullprepareddressingwithdrainedpasta thenpromptcool; samefullveg/chickpea/avocadofinish. Allseparateprepared-dressingrecipe quantities retained externally; no importing a measured yield.",
+        "source": "https://www.ambitiouskitchen.com/vegan-caesar-dressing/"
+      },
+      {
+        "name": "Source pasta/chickpea options",
+        "ingredients": "Same dryweightbowties/rotini/otheror glutenfreepasta; same listedvolume cookeddrained unroasted chickpeas replaces roasted. Allremaining ingredients/dressing choice unchanged.",
+        "destinations": "Actualpackagepastacook1; preparedcookedchickpeas4; not a rawdriedbean substitution or fabricated roastmethod."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Cook the pasta",
+      "text": "Cook all the dry pasta in the separate salted-water allowance according to its package until al dente. Drain thoroughly. This recipe starts with prepared vegan Caesar dressing and prepared roasted chickpeas; making them separately adds its own work and clock."
+    },
+    {
+      "step": 2,
+      "title": "Dress and cool",
+      "text": "Transfer the pasta to a clean large bowl and fold in one-third of the full listed dressing. The original batch’s half-cup amount is one-third of its one-and-a-half-cup supply; use that same proportion at other scales. Let stand about 5 minutes, then spread in a shallow layer and refrigerate promptly until no longer warm before adding lettuce."
+    },
+    {
+      "step": 3,
+      "title": "Combine",
+      "text": "Wash and drain the romaine and tomatoes, then chop and halve them as listed. Add all romaine and tomatoes to the cooled pasta and fold in the remaining two-thirds of the dressing. Keep raw-protein equipment away from the ready-to-eat salad."
+    },
+    {
+      "step": 4,
+      "title": "Finish",
+      "text": "Just before serving, fold in all the prepared chickpeas and sliced avocado. Wash the avocado exterior before cutting with clean utensils. Use a roomy bowl or more bowls with all components divided proportionally to avoid crushing the leaves."
+    },
+    {
+      "step": 5,
+      "title": "Serve",
+      "text": "Taste and season with the listed sea salt and black pepper allowance. Serve cold or briefly at room temperature for immediate service. Keep any unserved salad refrigerated."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Current richer measured-dressing primary",
+      "ingredients": "All8ozdrypasta/1½cupdressing/1½cuppreparedroastedchickpeas/2romainehearts/1avocado/1½cuptomatoes; existing saltpepperallowances and genuine cookingwater/salt.",
+      "destinations": "1drypastacook/drain;2one-thirddressingwarm thenpromptcool;3fullromaine/tomatoes+remainingtwo-thirds;4fullchickpeas/avocado;5season/coldserve."
+    },
+    {
+      "name": "Exact source one-batch dressing alternative",
+      "ingredients": "Replace1½cupdressing with onecompletebatchperoriginalsalad of linked publisherrecipe, scaledproportionally; no batch→cup equivalent asserted. Allremainingbaseingredients unchanged.",
+      "destinations": "Fullprepareddressingwithdrainedpasta thenpromptcool; samefullveg/chickpea/avocadofinish. Allseparateprepared-dressingrecipe quantities retained externally; no importing a measured yield.",
+      "source": "https://www.ambitiouskitchen.com/vegan-caesar-dressing/"
+    },
+    {
+      "name": "Source pasta/chickpea options",
+      "ingredients": "Same dryweightbowties/rotini/otheror glutenfreepasta; same listedvolume cookeddrained unroasted chickpeas replaces roasted. Allremaining ingredients/dressing choice unchanged.",
+      "destinations": "Actualpackagepastacook1; preparedcookedchickpeas4; not a rawdriedbean substitution or fabricated roastmethod."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["vietnamese-grilled-chicken", "tomato-soup"],
+    "scope": "All existing pairings preserved; separate recipes require their own preparation and clock, not complete-credit inheritance"
+  },
+  "ratiosYieldAndCapacity": "All rich measured current doses retained; source-exclusive variations disclosed. Portion counts are planning; no exact cooked/strained yield or pan volume inferred.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "2 oz dry Rotini or Cavatappi Pasta",
+        "3/8 cup Vegan Caesar Dressing",
+        "3/8 cup prepared roasted chickpeas",
+        "1/2 hearts Romaine Lettuce, chopped",
+        "1/4 ripe Avocado, sliced",
+        "3/8 cup Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "4 oz dry Rotini or Cavatappi Pasta",
+        "3/4 cup Vegan Caesar Dressing",
+        "3/4 cup prepared roasted chickpeas",
+        "1 hearts Romaine Lettuce, chopped",
+        "1/2 ripe Avocado, sliced",
+        "3/4 cup Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "8 oz dry Rotini or Cavatappi Pasta",
+        "1 1/2 cups Vegan Caesar Dressing",
+        "1 1/2 cups prepared roasted chickpeas",
+        "2 hearts Romaine Lettuce, chopped",
+        "1 ripe Avocado, sliced",
+        "1 1/2 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "12 oz dry Rotini or Cavatappi Pasta",
+        "2 1/4 cups Vegan Caesar Dressing",
+        "2 1/4 cups prepared roasted chickpeas",
+        "3 hearts Romaine Lettuce, chopped",
+        "1 1/2 ripe Avocados, sliced",
+        "2 1/4 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "16 oz dry Rotini or Cavatappi Pasta",
+        "3 cups Vegan Caesar Dressing",
+        "3 cups prepared roasted chickpeas",
+        "4 hearts Romaine Lettuce, chopped",
+        "2 ripe Avocados, sliced",
+        "3 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "24 oz dry Rotini or Cavatappi Pasta",
+        "4 1/2 cups Vegan Caesar Dressing",
+        "4 1/2 cups prepared roasted chickpeas",
+        "6 hearts Romaine Lettuce, chopped",
+        "3 ripe Avocados, sliced",
+        "4 1/2 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "8 oz dry Rotini or Cavatappi Pasta",
+        "1 1/2 cups Vegan Caesar Dressing",
+        "1 1/2 cups prepared roasted chickpeas",
+        "2 hearts Romaine Lettuce, chopped",
+        "1 ripe Avocado, sliced",
+        "1 1/2 cups Cherry Tomatoes, halved",
+        "Sea Salt and Black Pepper",
+        "Water, as needed for cooking pasta",
+        "Salt, for the pasta cooking water"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    }
+  ],
+  "preservedPriorRepairs": "All exact current measured rich doses, source labels, miseId, pairings and existing scaling field remain. Current declared chilling/draining and package-rated independent linked component repairs retained; targeted status does not certify recipe.",
+  "remainingQuestions": [
+    "Which prepared dressing and chickpea products are intended, and how much does the source-linked dressing actually yield? No equivalent volume fabricated.",
+    "Cooling tray depth and refrigerator load determine the elapsed plan.",
+    "Four portions are saved source planning; no weighing or kitchen validation."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

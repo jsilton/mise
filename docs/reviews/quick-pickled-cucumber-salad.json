@@ -1,0 +1,470 @@
+{
+  "slug": "quick-pickled-cucumber-salad",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "6953927e2182af6cd49a47367fbd95c551003bd13b1acf0446eda43a93d42fac",
+  "acceptedSourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Korea",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "About 15–20 min, including the short rests"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced",
+        "1/4 cup Rice Vinegar",
+        "2 tbsp Soy Sauce",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Sugar",
+        "2 cloves Garlic, minced",
+        "1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "2 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "Kosher Salt"
+      ],
+      "after": [
+        "1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced",
+        "1/4 cup Rice Vinegar",
+        "2 tbsp Soy Sauce",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Sugar",
+        "2 cloves Garlic, minced",
+        "1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "2 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "1/4 tsp Kosher Salt, for the cucumber salt rest"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 70,
+        "protein": 1.5,
+        "carbs": 7,
+        "fat": 3.5,
+        "fiber": 0.5,
+        "sugar": 4.5,
+        "sodium": 1590
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Treat the short vinegar rest as salad preparation, with cold storage.",
+        "outcome": "Thin cucumber slices with full sesame-soy dressing and fresh scallions.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Follow the listed cucumber weight; the original four-to-five regular-cucumber estimate varies with size. Scaling changes the ingredients, not slice thickness or resting minutes.",
+          "Drain pooled salting liquid without rinsing or squeezing the cucumbers. Use all the listed vinegar, oil and sugar in the dressing."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Only pooled salt-rest liquid is drained before all dressing is added.",
+            "why": "The brief rest can release some water but cannot prevent later cucumber juices."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The bowl becomes watery later.",
+            "cause": "Cucumbers continued releasing water into the dressing.",
+            "fix": "Toss again before serving or assemble nearer service. Keep the salad refrigerated; adding salt or acid does not replace cold storage."
+          }
+        ],
+        "timing": "Allow about 15–20 minutes for slicing, dressing and the two- and five-minute rests; the optional two-hour cold rest is extra elapsed time.",
+        "storage": "Keep the salad at 40°F or below. Refrigerate promptly in shallow covered containers, within 2 hours of preparation or 1 hour above 90°F. Keep serving utensils clean and return unserved portions to refrigeration promptly; dressing does not replace cold storage. Use within 3 refrigerated days as a fresh salad; do not treat its vinegar dressing as permission for room-temperature storage.",
+        "sources": [
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "NCHFP — General information on pickling",
+            "url": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nKorean homes keep a jar of quick-pickled vegetables on the table as a palate-cleanser for rich meals - the brightness cuts through fatty proteins and heavy sauces. This is not fermented kimchi, just vinegared cucumbers ready in 10 minutes. The ratio is essential: the balance between the rice vinegar's acidity and sugar's sweetness, with sesame oil and soy sauce for depth. Kids love the crisp-tangy flavor and the fact that it's ready immediately.\n\n## Directions\n\n1. **Prep Cucumbers:** Slice cucumbers into thin rounds (1/8-inch thick) or half-moons. Sprinkle with 1/4 tsp kosher salt and let sit for 2 minutes to draw out excess water. This prevents the salad from becoming watery.\n2. **Make Brine:** In a small bowl, whisk together rice vinegar, soy sauce, sesame oil, sugar, and minced garlic. Taste - it should be balanced between sour, salty, and slightly sweet.\n3. **Combine:** Drain the cucumbers if liquid has pooled. Place in a serving bowl. Pour the brine over and toss gently.\n4. **Rest:** Let sit for 5 minutes at room temperature (or refrigerate for up to 2 hours).\n5. **Finish:** Just before serving, top with sliced scallions, sesame seeds, and a pinch of gochugaru if using. Stir to combine.\n6. **Store:** Keeps refrigerated for up to 3 days. Flavor actually improves overnight.\n",
+    "after": "\n## Chef's Note\n\nThin cucumber slices take on the full rice-vinegar, soy and sesame dressing after a short rest. This is a fresh dressed cucumber salad kept refrigerated, without a fermentation or shelf-stable preservation process. Scallions, optional gochugaru and sesame seeds finish it; cucumber variety and slicing affect how much liquid collects.\n\n## Directions\n\n1. **Prepare the cucumbers:** Wash the cucumbers under running water, then slice into thin rounds or half-moons, about 1/8 inch thick. Use the listed cucumber weight; the four-to-five regular-cucumber note describes the original batch only and is not a fixed size-to-weight equivalence. Toss with all the listed kosher salt and rest about 2 minutes as a first check. This short salt rest is not a guarantee against later liquid release.\n\n2. **Mix the dressing:** Whisk all the rice vinegar, soy sauce, sesame oil, sugar and minced garlic together until the sugar is dissolved. Keep the full listed oil and sugar; this mixture flavors the salad rather than establishing preservation acidity.\n\n3. **Combine:** Drain only any liquid that has pooled from the salted cucumbers; do not add a rinse or squeeze. Put the cucumber slices in a clean bowl, pour over all the dressing and toss gently.\n\n4. **Rest:** Rest about 5 minutes before immediate service, or cover and refrigerate for up to 2 hours before finishing. The longer cold wait changes texture and liquid release; it does not make a shelf-stable pickle.\n\n5. **Finish:** Wash the scallions before slicing. Fold in all the scallions and, if chosen, the full listed optional gochugaru. Garnish with the sesame-seed allowance and serve promptly.\n\n6. **Store:** Keep covered at 40°F or below. Use within 3 refrigerated days for the short fresh-salad plan; the dressing does not make this a shelf-stable pickle. Refrigerate promptly after service and discard if it has exceeded the usual perishable-food room-temperature limits.\n"
+  },
+  "findings": [
+    {
+      "id": "CS03-quick-pickled-cucumber-salad",
+      "rationale": "Git-only2a7 original has½tspoptionalgochugaru inlist butpinchmethod; usefullchosenlisted amount to reconcile destination withoutgenericheat reduction. Existing¼tsp saltsupplymethod listedexplicitly; no inventedcrystaldensity conversion. Exactshortdrain retained; no kimchirinsing/squeezingrule imported. Full¼vinegar/2soy/1oil/1sugar retained; culturaluniversal/kids/essentialratio claims unsupported. Current3day food-quality plan is not primaryvalidatedpicklepreservation; FDA coldfood guidance applies, NCHFP testedacid/processing requirements do not certifythisfreshsalad. Countrybirth omittedstyle/cuisine retained.",
+      "confidence": "High exact saved/current dose and history; moderate editorial process/timing/capacity applications, untested",
+      "applicableSources": [
+        {
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "NCHFP — General information on pickling",
+          "url": "https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/"
+        },
+        {
+          "title": "FDA — Produce preparation",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual cucumber sizes, salt crystal brand and vinegar product are unspecified; no fine-salt conversion or preservation acidity certified.",
+        "Half-teaspoon optional gochugaru is the written ingredient amount, while the old method sayspinch; householdpreferredheat remains an open tastequestion.",
+        "Measure overnight liquidrelease and desired short-rest texture; no preserved-food shelf-life test."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/quick-pickled-cucumber-salad.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-only2a7 original has½tspoptionalgochugaru inlist butpinchmethod; usefullchosenlisted amount to reconcile destination withoutgenericheat reduction. Existing¼tsp saltsupplymethod listedexplicitly; no inventedcrystaldensity conversion. Exactshortdrain retained; no kimchirinsing/squeezingrule imported. Full¼vinegar/2soy/1oil/1sugar retained; culturaluniversal/kids/essentialratio claims unsupported. Current3day food-quality plan is not primaryvalidatedpicklepreservation; FDA coldfood guidance applies, NCHFP testedacid/processing requirements do not certifythisfreshsalad. Countrybirth omittedstyle/cuisine retained.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced",
+        "destination": "slices1 salted¼tsp then2mindrain3; countcompanionapprox"
+      },
+      {
+        "ingredient": "1/4 cup Rice Vinegar",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "2 tbsp Soy Sauce",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "1 tbsp Sesame Oil",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "1 tbsp Sugar",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "allgarlic2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "destination": "½tsplist vs pinch5 conflict optional"
+      },
+      {
+        "ingredient": "2 scallions, thinly sliced",
+        "destination": "allscallions5"
+      },
+      {
+        "ingredient": "Sesame Seeds for garnish",
+        "destination": "garnish5 unmeasured"
+      },
+      {
+        "ingredient": "Kosher Salt",
+        "destination": "literal¼tsp1 fromunmeasuredlist"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced",
+        "destination": "sameweightedcucumbers1→3 nofixedcountequiv"
+      },
+      {
+        "ingredient": "1/4 cup Rice Vinegar",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "2 tbsp Soy Sauce",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "1 tbsp Sesame Oil",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "1 tbsp Sugar",
+        "destination": "alldressing2→3"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "allgarlic2→3"
+      },
+      {
+        "ingredient": "1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "destination": "fullchosenlistedoptional5"
+      },
+      {
+        "ingredient": "2 scallions, thinly sliced",
+        "destination": "allscallions5"
+      },
+      {
+        "ingredient": "Sesame Seeds for garnish",
+        "destination": "garnish5 allowance"
+      },
+      {
+        "ingredient": "1/4 tsp Kosher Salt, for the cucumber salt rest",
+        "destination": "fullmeasured¼tspsalt1"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Weighted cucumber main/regular cucumber option",
+        "ingredients": "Full1½lbcucumbers,¼cupricevinegar,2tbspsoy,1tbspsesameoil,1tbspsugar,2garlic,¼tspkosherrestsalt,2scallions,unmeasuredsesamegarnish. Four-to-fiveregularcucumber count is originalbatchapproximation, not equalweight conversion.",
+        "destinations": "1washslice/salt/rest;3drainpooledliquidonly;2fulldressing→3;4shortoroptionalcoldrest;5fullscallion/garnish."
+      },
+      {
+        "name": "Optional gochugaru and cold rest",
+        "ingredients": "Choose full½tsplistedoptional gochugaru at originalbatch, scalingwithlist, oromit. Fullbaseformula unchanged. Refrigeratedup-to2hourrest is elapsed option, not preservation.",
+        "destinations": "4short5minrest orcoldwait;5allchosengochugaru/scallion/garnish;6coldstorage.",
+        "source": "Actual first/current Git ingredients; source disagreement with old pinching method explicit in finding."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "title": "Prepare the cucumbers",
+      "text": "Wash the cucumbers under running water, then slice into thin rounds or half-moons, about 1/8 inch thick. Use the listed cucumber weight; the four-to-five regular-cucumber note describes the original batch only and is not a fixed size-to-weight equivalence. Toss with all the listed kosher salt and rest about 2 minutes as a first check. This short salt rest is not a guarantee against later liquid release."
+    },
+    {
+      "step": 2,
+      "title": "Mix the dressing",
+      "text": "Whisk all the rice vinegar, soy sauce, sesame oil, sugar and minced garlic together until the sugar is dissolved. Keep the full listed oil and sugar; this mixture flavors the salad rather than establishing preservation acidity."
+    },
+    {
+      "step": 3,
+      "title": "Combine",
+      "text": "Drain only any liquid that has pooled from the salted cucumbers; do not add a rinse or squeeze. Put the cucumber slices in a clean bowl, pour over all the dressing and toss gently."
+    },
+    {
+      "step": 4,
+      "title": "Rest",
+      "text": "Rest about 5 minutes before immediate service, or cover and refrigerate for up to 2 hours before finishing. The longer cold wait changes texture and liquid release; it does not make a shelf-stable pickle."
+    },
+    {
+      "step": 5,
+      "title": "Finish",
+      "text": "Wash the scallions before slicing. Fold in all the scallions and, if chosen, the full listed optional gochugaru. Garnish with the sesame-seed allowance and serve promptly."
+    },
+    {
+      "step": 6,
+      "title": "Store",
+      "text": "Keep covered at 40°F or below. Use within 3 refrigerated days for the short fresh-salad plan; the dressing does not make this a shelf-stable pickle. Refrigerate promptly after service and discard if it has exceeded the usual perishable-food room-temperature limits."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Weighted cucumber main/regular cucumber option",
+      "ingredients": "Full1½lbcucumbers,¼cupricevinegar,2tbspsoy,1tbspsesameoil,1tbspsugar,2garlic,¼tspkosherrestsalt,2scallions,unmeasuredsesamegarnish. Four-to-fiveregularcucumber count is originalbatchapproximation, not equalweight conversion.",
+      "destinations": "1washslice/salt/rest;3drainpooledliquidonly;2fulldressing→3;4shortoroptionalcoldrest;5fullscallion/garnish."
+    },
+    {
+      "name": "Optional gochugaru and cold rest",
+      "ingredients": "Choose full½tsplistedoptional gochugaru at originalbatch, scalingwithlist, oromit. Fullbaseformula unchanged. Refrigeratedup-to2hourrest is elapsed option, not preservation.",
+      "destinations": "4short5minrest orcoldwait;5allchosengochugaru/scallion/garnish;6coldstorage.",
+      "source": "Actual first/current Git ingredients; source disagreement with old pinching method explicit in finding."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "thai-basil-chicken-pad-kra-pao",
+      "japanese-beef-rice-bowl-gyudon",
+      "coconut-curry-shrimp"
+    ],
+    "scope": "All existing pairings preserved; separate recipes require their own preparation and clock, not complete-credit inheritance"
+  },
+  "ratiosYieldAndCapacity": "All rich measured current doses retained; source-exclusive variations disclosed. Portion counts are planning; no exact cooked/strained yield or pan volume inferred.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "3/8 lbs English Cucumbers (or 1–1 1/4 regular cucumbers), thinly sliced",
+        "0.0625 cup Rice Vinegar",
+        "1/2 tbsp Soy Sauce",
+        "1/4 tbsp Sesame Oil",
+        "1/4 tbsp Sugar",
+        "1/2 clove Garlic, minced",
+        "1/8 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "1/2 scallion, thinly sliced",
+        "Sesame Seeds for garnish",
+        "0.0625 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 1",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "3/4 lbs English Cucumbers (or 2–2 1/2 regular cucumbers), thinly sliced",
+        "1/8 cup Rice Vinegar",
+        "1 tbsp Soy Sauce",
+        "1/2 tbsp Sesame Oil",
+        "1/2 tbsp Sugar",
+        "1 clove Garlic, minced",
+        "1/4 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "1 scallion, thinly sliced",
+        "Sesame Seeds for garnish",
+        "1/8 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 2",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced",
+        "1/4 cup Rice Vinegar",
+        "2 tbsp Soy Sauce",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Sugar",
+        "2 cloves Garlic, minced",
+        "1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "2 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "1/4 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "2 1/4 lbs English Cucumbers (or 6–7 1/2 regular cucumbers), thinly sliced",
+        "3/8 cup Rice Vinegar",
+        "3 tbsp Soy Sauce",
+        "1 1/2 tbsp Sesame Oil",
+        "1 1/2 tbsp Sugar",
+        "3 cloves Garlic, minced",
+        "3/4 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "3 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "3/8 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 6",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "3 lbs English Cucumbers (or 8–10 regular cucumbers), thinly sliced",
+        "1/2 cup Rice Vinegar",
+        "4 tbsp Soy Sauce",
+        "2 tbsp Sesame Oil",
+        "2 tbsp Sugar",
+        "4 cloves Garlic, minced",
+        "1 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "4 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "1/2 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 8",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "4 1/2 lbs English Cucumbers (or 12–15 regular cucumbers), thinly sliced",
+        "3/4 cup Rice Vinegar",
+        "6 tbsp Soy Sauce",
+        "3 tbsp Sesame Oil",
+        "3 tbsp Sugar",
+        "6 cloves Garlic, minced",
+        "1 1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "6 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "3/4 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 12",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced",
+        "1/4 cup Rice Vinegar",
+        "2 tbsp Soy Sauce",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Sugar",
+        "2 cloves Garlic, minced",
+        "1/2 tsp Gochugaru (Korean red pepper flakes, optional)",
+        "2 scallions, thinly sliced",
+        "Sesame Seeds for garnish",
+        "1/4 tsp Kosher Salt, for the cucumber salt rest"
+      ],
+      "yield": "Serves 4",
+      "directionsReference": "privately retained evidence#Directions",
+      "scope": "Actual legacy display; static methods use listed amounts/proportions and original-context geometry. Held display is not approval."
+    }
+  ],
+  "preservedPriorRepairs": "All exact current measured rich doses, source labels, miseId, pairings and existing scaling field remain. Current declared chilling/draining and package-rated independent linked component repairs retained; targeted status does not certify recipe.",
+  "remainingQuestions": [
+    "Actual cucumber sizes, salt crystal brand and vinegar product are unspecified; no fine-salt conversion or preservation acidity certified.",
+    "Half-teaspoon optional gochugaru is the written ingredient amount, while the old method sayspinch; householdpreferredheat remains an open tastequestion.",
+    "Measure overnight liquidrelease and desired short-rest texture; no preserved-food shelf-life test."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

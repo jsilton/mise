@@ -1,0 +1,660 @@
+{
+  "slug": "sweet-spinach-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "95b462987ab77a8c155ed5d1d1349c6f6d0d527bfdf97a75b775d92d92f6f667",
+  "acceptedSourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "18–22 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "28–32 min before cooling, plus any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "18 muffins",
+      "after": "18 muffins, planning yield"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 oz Fresh Baby Spinach",
+        "1 large Ripe Banana",
+        "1/2 cup Unsalted Butter, melted",
+        "1/2 cup Honey",
+        "1 large Egg",
+        "1 tsp Pure Vanilla Extract",
+        "3/4 cup Whole Milk",
+        "2 cups Whole-wheat Flour",
+        "1 1/2 tsp Ground Cinnamon",
+        "2 tsp Baking Powder + 1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt"
+      ],
+      "after": [
+        "6 oz Fresh Baby Spinach",
+        "1 large Ripe Banana",
+        "1/2 cup Unsalted Butter, melted",
+        "1/2 cup Honey",
+        "1 large Egg",
+        "1 tsp Pure Vanilla Extract",
+        "3/4 cup Whole Milk",
+        "2 cups Whole-wheat Flour",
+        "1 1/2 tsp Ground Cinnamon",
+        "2 tsp Baking Powder + 1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "Butter or baking spray, as needed for muffin cups if not using paper liners"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 185,
+        "protein": 2,
+        "carbs": 20,
+        "fat": 12,
+        "fiber": 0.5,
+        "sugar": 18,
+        "sodium": 290
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Puree greens before gently folding a rich whole-wheat batter",
+        "outcome": "No leafy spinach pieces remain in the wet puree. Tops are firm and the center tester has no wet batter.",
+        "techniques": ["leavening"],
+        "before": [
+          "Use the listed 6 oz spinach in the original batch, following the scaled ingredient weight when scaling; do not substitute a cup count as a verified weight equivalent.",
+          "The original planning count is 18 standard muffins across two tins. Check actual oven and blender capacity before mixing; pan dimensions and baking time do not multiply with ingredients.",
+          "This full batter contains honey; do not serve it to children under one year. Do not taste raw flour/egg batter."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No leafy spinach pieces remain in the wet puree.",
+            "why": "Pureeing before the flour is added distributes the greens without prolonged mixing of the flour batter."
+          },
+          {
+            "step": 5,
+            "cue": "Tops are firm and the center tester has no wet batter.",
+            "why": "Green color and lack of browning do not establish a set center."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Leafy pieces remain in the batter.",
+            "cause": "The wet mixture was not fully pureed or the appliance was overloaded.",
+            "fix": "Finish pureeing before adding the flour. Use proportional loads for larger batches; do not attempt to correct leaves by prolonged beating after the flour is mixed."
+          },
+          {
+            "problem": "Warm muffins break during removal.",
+            "cause": "The moist crumb is still fragile.",
+            "fix": "Let them become handleable before moving to a rack, then mostly cool before serving. Keep them out of sealed containers until cooled."
+          }
+        ],
+        "substitutions": [],
+        "timing": "The 10-minute prep plus 18–22-minute bake gives 28–32 minutes before cooling, for one oven load. The muffins must mostly cool before serving; that unmeasured cooling time, any remaining preheating and a second oven load extend elapsed time. Start preheating before the wet and dry mixtures.",
+        "storage": "Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently warmed.",
+        "sources": [
+          {
+            "title": "Natalie Monson / Super Healthy Kids — attributed recipe",
+            "url": "https://www.superhealthykids.com/sweet-spinach-muffins/"
+          },
+          {
+            "title": "FDA — safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are quick fuel for children and busy adults. The key is blending the raw spinach, banana, and wet ingredients in a high-speed blender until it becomes a vibrant, neon-green liquid. This ensures the spinach is completely pulverized, resulting in a tender, cake-like texture where the vegetable acts as a moisture guard rather than a chunky intrusion. The cinnamon provides aromatic warmth.\n\n## Directions\n\n1.  **Dry Mix:** In a large bowl, whisk together flour, cinnamon, baking powder, baking soda, and salt.\n2.  **The Emulsion:** In a blender, combine the spinach, banana, melted butter, honey, milk, egg, and vanilla. Blend on high for 60 seconds until perfectly smooth and vibrant green.\n3.  **Combine:** Pour the green emulsion into the dry ingredients. Stir with a spatula until **just combined**. Do not over-mix, or the muffins will be tough.\n4.  **Bake:** Preheat oven to 350°F. Line two muffin tins (18 cups). Fill each 3/4 full. Bake for 18-22 minutes until the tops spring back when touched.\n5.  **Cool:** Let cool completely in the pan to allow the moisture to set into a \"Bounce.\"\n",
+    "after": "\n## Chef's Note\n\nPuree the spinach, banana and wet ingredients before gently folding them into the whole-wheat dry mixture. Butter, honey and cinnamon give the batter richness and warmth; check a center muffin for doneness and let the muffins mostly cool before serving.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F before mixing. For the original 18-muffin batch, line 18 standard cups across two tins, or grease the cups with the pan allowance. When scaling, prepare enough standard cups for the listed batch. Wash spinach unless labeled prewashed and ready to eat, and drain it. Melt the butter and let it cool slightly before combining it with the egg.\n\n2. **Dry mix:** Whisk whole-wheat flour, cinnamon, baking powder, baking soda and salt together in a large bowl.\n\n3. **Puree:** Blend spinach, banana, melted butter, honey, milk, egg and vanilla until the spinach is fully pureed. Follow the actual blender or food-processor capacity and loading instructions; use proportionate loads for a larger batch rather than overfilling.\n\n4. **Combine:** Pour the puree into the dry ingredients and fold just until no dry flour remains. Do not continue beating to smooth the batter.\n\n5. **Bake:** Fill the prepared cups no more than ¾ full. Bake for 18–22 minutes, until the tops are firm and a center tester has no wet batter. Bake excess batter separately. If the required tins do not fit with room for air circulation, bake in separate oven batches.\n\n6. **Cool:** Once the muffins can be handled without breaking, transfer them from the pans to a rack. Cool most or all of the way before serving, and fully before sealing for storage.\n"
+  },
+  "findings": [
+    {
+      "id": "VM04-sweet-spinach-muffins-1",
+      "field": "cookTime",
+      "rationale": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+          "applicability": "Wet puree then gentle dry folding and early preheat corroborated. Current card uses spinach cup count and different salt/flour descriptions; saved 6 oz spinach, ¼ tsp salt and whole-wheat formula are retained without deriving weights from cups. No fixed blender duration or universal moisture guarantee."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-2",
+      "field": "totalTime",
+      "rationale": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+          "applicability": "Wet puree then gentle dry folding and early preheat corroborated. Current card uses spinach cup count and different salt/flour descriptions; saved 6 oz spinach, ¼ tsp salt and whole-wheat formula are retained without deriving weights from cups. No fixed blender duration or universal moisture guarantee."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-3",
+      "field": "servings",
+      "rationale": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+          "applicability": "Wet puree then gentle dry folding and early preheat corroborated. Current card uses spinach cup count and different salt/flour descriptions; saved 6 oz spinach, ¼ tsp salt and whole-wheat formula are retained without deriving weights from cups. No fixed blender duration or universal moisture guarantee."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-4",
+      "field": "ingredients",
+      "rationale": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+          "applicability": "Wet puree then gentle dry folding and early preheat corroborated. Current card uses spinach cup count and different salt/flour descriptions; saved 6 oz spinach, ¼ tsp salt and whole-wheat formula are retained without deriving weights from cups. No fixed blender duration or universal moisture guarantee."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-5",
+      "field": "origin",
+      "rationale": "Omit unsupported country/domain origin while preserving style/source.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Bulk geographic/publisher metadata has no actual origin evidence; style tag is preserved."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-6",
+      "field": "nutrition",
+      "rationale": "Remove unverified baseline estimates; no new nutrition claim.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Unverified baseline estimates are removed without inventing replacements."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-7",
+      "field": "learning",
+      "rationale": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+          "applicability": "Wet puree then gentle dry folding and early preheat corroborated. Current card uses spinach cup count and different salt/flour descriptions; saved 6 oz spinach, ¼ tsp salt and whole-wheat formula are retained without deriving weights from cups. No fixed blender duration or universal moisture guarantee."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "VM04-sweet-spinach-muffins-8",
+      "field": "content",
+      "rationale": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Start preheating before batter assembly, preserve full rich saved formula and weight, use appliance-specific pureeing, and complete rack cooling without the unsupported texture guarantee."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+          "applicability": "Wet puree then gentle dry folding and early preheat corroborated. Current card uses spinach cup count and different salt/flour descriptions; saved 6 oz spinach, ¼ tsp salt and whole-wheat formula are retained without deriving weights from cups. No fixed blender duration or universal moisture guarantee."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sweet%20Spinach%20Muffins.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.superhealthykids.com/sweet-spinach-muffins/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Current publisher uses a spinach cup count and different flour/salt wording. Native/first Git have 6 oz spinach, whole-wheat flour and ¼ tsp salt; these remain exact. No unsupported spinach cup-to-weight conversion is imported.",
+    "Native preheats first, purees without a fixed 60-second rule and cools most/all the way before service. Current late preheat and complete-pan “Bounce” explanation are unsupported."
+  ],
+  "ledger": {
+    "frozenCurrent": [
+      {
+        "ingredient": "6 oz Fresh Baby Spinach",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 large Ripe Banana",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 cup Unsalted Butter, melted",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 cup Honey",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Pure Vanilla Extract",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "3/4 cup Whole Milk",
+        "destination": "puree",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 cups Whole-wheat Flour",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 1/2 tsp Ground Cinnamon",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 tsp Baking Powder + 1/2 tsp Baking Soda",
+        "destination": "dry mix (both leaveners)",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      }
+    ],
+    "nativeSaved": [
+      {
+        "ingredient": "18 standard – cupcake liners",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "DRY INGREDIENTS:",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 cup – flour, whole wheat",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 1/2 teaspoon – cinnamon",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 teaspoon – baking powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 teaspoon – baking soda",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 teaspoon – salt",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "WET INGREDIENTS:",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "3/4 cup – milk",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 cup – honey",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 large – banana",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "6 ounce – spinach",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 cup – butter, unsalted",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 large – egg",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon – vanilla extract",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "6 oz Fresh Baby Spinach",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 large Ripe Banana",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/2 cup Unsalted Butter, melted",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "See exact ingredient preparation and method; no invented weight conversion"
+      },
+      {
+        "ingredient": "1/2 cup Honey",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Pure Vanilla Extract",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "3/4 cup Whole Milk",
+        "destination": "puree",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "2 cups Whole-wheat Flour",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 1/2 tsp Ground Cinnamon",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "2 tsp Baking Powder + 1/2 tsp Baking Soda",
+        "destination": "dry mix (both leaveners)",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 tsp Sea Salt",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Butter or baking spray, as needed for muffin cups if not using paper liners",
+        "destination": "pan preparation",
+        "step": 1,
+        "optional": true,
+        "state": "Listed ingredient state"
+      }
+    ],
+    "variants": [],
+    "substitutions": [],
+    "held": [
+      "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "step-1",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F before mixing. For the original 18-muffin batch, line 18 standard cups across two tins, or grease the cups with the pan allowance. When scaling, prepare enough standard cups for the listed batch. Wash spinach unless labeled prewashed and ready to eat, and drain it. Melt the butter and let it cool slightly before combining it with the egg.",
+      "ingredients": ["Butter or baking spray, as needed for muffin cups if not using paper liners"]
+    },
+    {
+      "step": 2,
+      "id": "step-2",
+      "title": "Dry mix",
+      "text": "Whisk whole-wheat flour, cinnamon, baking powder, baking soda and salt together in a large bowl.",
+      "ingredients": [
+        "2 cups Whole-wheat Flour",
+        "1 1/2 tsp Ground Cinnamon",
+        "2 tsp Baking Powder + 1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "step-3",
+      "title": "Puree",
+      "text": "Blend spinach, banana, melted butter, honey, milk, egg and vanilla until the spinach is fully pureed. Follow the actual blender or food-processor capacity and loading instructions; use proportionate loads for a larger batch rather than overfilling.",
+      "ingredients": [
+        "6 oz Fresh Baby Spinach",
+        "1 large Ripe Banana",
+        "1/2 cup Unsalted Butter, melted",
+        "1/2 cup Honey",
+        "1 large Egg",
+        "1 tsp Pure Vanilla Extract",
+        "3/4 cup Whole Milk"
+      ]
+    },
+    {
+      "step": 4,
+      "id": "step-4",
+      "title": "Combine",
+      "text": "Pour the puree into the dry ingredients and fold just until no dry flour remains. Do not continue beating to smooth the batter.",
+      "ingredients": []
+    },
+    {
+      "step": 5,
+      "id": "step-5",
+      "title": "Bake",
+      "text": "Fill the prepared cups no more than ¾ full. Bake for 18–22 minutes, until the tops are firm and a center tester has no wet batter. Bake excess batter separately. If the required tins do not fit with room for air circulation, bake in separate oven batches.",
+      "ingredients": []
+    },
+    {
+      "step": 6,
+      "id": "step-6",
+      "title": "Cool",
+      "text": "Once the muffins can be handled without breaking, transfer them from the pans to a rack. Cool most or all of the way before serving, and fully before sealing for storage.",
+      "ingredients": []
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [
+    "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula."
+  ],
+  "relationships": {
+    "outgoing": [
+      "banana-oat-greek-yogurt-muffins",
+      "easy-breakfast-yogurt-popsicles",
+      "almond-zucchini-bread"
+    ],
+    "incomingRecipeReferences": [],
+    "incomingMeals": [],
+    "scope": "No composed meal is certified. Existing metadata references are preserved; old duplicate Serving/Pairs body sections intentionally removed by 306e8136 are not restored."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratio": "Saved/current original batch: 2 cups whole-wheat flour, 6 oz spinach, 1 banana, ¾ cup milk, 1 egg, ½ cup butter and ½ cup honey. Full butter/honey and both leaveners retained; no acid, egg or liquid normalization.",
+    "yield": "18 muffins, planning yield",
+    "measuredFinishedYield": false,
+    "pan": "Standard muffin cups, maximum ¾ fill; proportional cup/batch count, not multiplied cup depth or bake time.",
+    "scaling": "Ingredient quantities scale; temperatures, fill fraction, pan shape and bake checks remain. Fractional eggs may be beaten and portioned by the cook; no invented gram equivalent."
+  },
+  "preservedPriorRepairs": {
+    "scope": "Every prior frozen safety, formula, allocation, ingredient state, scaling and presentation repair protected by exact source comparison; no targeted credit promoted without the complete review.",
+    "followedHistoryNotes": [
+      "Current publisher uses a spinach cup count and different flour/salt wording. Native/first Git have 6 oz spinach, whole-wheat flour and ¼ tsp salt; these remain exact. No unsupported spinach cup-to-weight conversion is imported.",
+      "Native preheats first, purees without a fixed 60-second rule and cools most/all the way before service. Current late preheat and complete-pan “Bounce” explanation are unsupported."
+    ]
+  },
+  "remainingQuestions": [
+    "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula.",
+    "Can the actual oven hold both tins with airflow, and how long do these muffins take to cool enough for intact removal and service?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,1972 @@
+{
+  "slug": "chocolate-protein-zucchini-muffins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "87ba01ec677e7cbd3325e7a2f55cce5368e29147bd5ce2ae6a7db22dd5a719e0",
+  "acceptedSourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "45 min, including cooling",
+      "after": "About 45 min including cooling, plus any remaining preheating"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup whole wheat flour",
+        "1/4 cup chocolate protein powder",
+        "¼ cup unsweetened cocoa powder",
+        "1 teaspoon cinnamon (optional)",
+        "1 teaspoon baking powder",
+        "½ teaspoon baking soda",
+        "½ teaspoon salt",
+        "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+        "1 cup milk",
+        "¼ cup honey or maple syrup",
+        "2 eggs (lightly beaten)",
+        "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+        "2 teaspoons vanilla extract",
+        "½ cup chocolate chips (or 1 cup blueberries; you can also use up to 1 cup of chocolate chips if you prefer)",
+        "Nonstick spray or butter, for greasing the muffin pan"
+      ],
+      "after": [
+        "1 cup whole wheat flour",
+        "1/4 cup chocolate protein powder",
+        "¼ cup unsweetened cocoa powder",
+        "1 teaspoon cinnamon (optional)",
+        "1 teaspoon baking powder",
+        "½ teaspoon baking soda",
+        "½ teaspoon salt",
+        "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+        "1 cup milk",
+        "¼ cup honey or maple syrup",
+        "2 eggs (lightly beaten)",
+        "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+        "2 teaspoons vanilla extract",
+        "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+        "Nonstick spray or butter, for greasing the muffin pan"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "yummytoddlerfood.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Measure squeezed zucchini and handle the separate protein batter",
+        "outcome": "The flour mixture is incorporated and the chips or berries are distributed without prolonged beating. No wet batter remains on the center tester.",
+        "techniques": ["leavening"],
+        "before": [
+          "Measure the listed zucchini amount only after squeezing very dry, then pack it tightly; this preparation does not apply automatically to another zucchini batter.",
+          "Use the listed chocolate protein powder without replacing the full flour or adding extra liquid by guesswork. Powder composition can change thickness and crumb.",
+          "Choose one fat and one chip/berry option. Honey is unsuitable below age one; do not taste raw batter. Wash fresh berries and drain them before folding."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The flour mixture is incorporated and the chips or berries are distributed without prolonged beating.",
+            "why": "The separate protein-powder formula has its own absorption and texture; smooth color alone does not show the batter is ready."
+          },
+          {
+            "step": 5,
+            "cue": "No wet batter remains on the center tester.",
+            "why": "Protein powder and cocoa darken the crumb; chocolate smears should be distinguished from raw batter."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Muffins are dry or dense.",
+            "cause": "Protein-powder composition, prolonged stirring or overbaking can change the crumb.",
+            "fix": "Fold briefly and stop baking when the center is set. Note the actual powder and result before adjusting a later batch; a baked dry crumb cannot be restored to a light moist muffin."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Unsalted butter",
+            "alternative": "The listed canola or avocado oil amount",
+            "effect": "Use one full fat choice in the wet mix; the oil version has a different buttery flavor."
+          },
+          {
+            "ingredient": "Chocolate chips",
+            "alternative": "Listed blueberries or higher-chip choice",
+            "effect": "Use one listed scaled choice. Berries add juicy pockets; more chips add sweetness and richness, with center checks still required."
+          }
+        ],
+        "timing": "The roughly 45-minute planning estimate includes 15 minutes of preparation, a 16–18-minute oven batch and cooling to room temperature. Cooling duration is not measured. Start heating before preparation; any remaining preheating and later oven batches extend elapsed time.",
+        "storage": "Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently warmed.",
+        "sources": [
+          {
+            "title": "Amy Palanjian — attributed recipe",
+            "url": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/"
+          },
+          {
+            "title": "FDA — safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSqueeze the zucchini dry before measuring a packed cup. This cocoa-and-protein-powder batter is different from the buckwheat zucchini muffins; fold briefly and check the center rather than relying on dark color.\n\n## Directions\n\n1. **Prepare:** Heat oven to 375°F. Grease a standard twelve-cup muffin pan. Grate zucchini, squeeze very dry in a clean towel and measure one packed cup.\n\n2. **Mix:** Whisk flour, protein powder, cocoa, optional cinnamon, baking powder, baking soda and salt in a bowl.\n\n3. **Mix:** Whisk zucchini, milk, honey or maple syrup, eggs, melted and slightly cooled butter, and vanilla in another bowl.\n\n4. **Continue:** Fold dry ingredients into wet just until combined, then fold in chocolate chips or blueberries.\n\n5. **Finish:** Divide among muffin cups. Bake about 16–18 minutes, until a tester inserted into a center muffin comes out without wet batter. Cool briefly in the pan, then transfer to a rack.\n",
+    "after": "\n## Chef's Note\n\nMeasure the listed zucchini amount after grating, squeezing very dry and packing it tightly. This cocoa-and-protein-powder batter is different from the buckwheat zucchini muffins; fold briefly and check the center rather than relying on dark color.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 375°F. Grease a standard 12-cup muffin pan with the listed spray or butter. Grate zucchini, squeeze very dry in a clean towel, then measure the listed amount packed tightly.\n\n2. **Dry mix:** Whisk flour, chocolate protein powder, cocoa, optional cinnamon, baking powder, baking soda and salt together.\n\n3. **Wet mix:** Whisk squeezed zucchini, milk, the chosen honey or maple syrup, eggs, the chosen melted and slightly cooled butter or canola or avocado oil, and vanilla together.\n\n4. **Fold:** Fold the dry mixture into the wet just until no dry flour remains. Fold in the chosen chocolate chips or blueberries. The original 12-muffin batch uses ½ cup chips, or 1 cup blueberries, or up to 1 cup chips; follow the corresponding listed scaled choice and use only one.\n\n5. **Bake and cool:** Fill muffin cups no more than ¾ full, using extra cups or a later batch for excess batter. Bake about 16–18 minutes, until a center tester comes out without wet batter. Cool briefly in the pan, then transfer to a rack to cool to room temperature before storage.\n"
+  },
+  "findings": [
+    {
+      "id": "VM04-chocolate-protein-zucchini-muffins-1",
+      "field": "totalTime",
+      "rationale": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
+          "applicability": "Supports zucchini measured after squeezing, exclusive butter/oil and chips/berries choices, greasing, brief folding, 375°F and 16–18-minute center check. Current card uses 1¼ cups flour and sweetener choices; saved adaptation uses 1 cup flour plus ¼ cup protein powder. Protein brand, water absorption and adapted yield are untested."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-protein-zucchini-muffins-2",
+      "field": "ingredients",
+      "rationale": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
+          "applicability": "Supports zucchini measured after squeezing, exclusive butter/oil and chips/berries choices, greasing, brief folding, 375°F and 16–18-minute center check. Current card uses 1¼ cups flour and sweetener choices; saved adaptation uses 1 cup flour plus ¼ cup protein powder. Protein brand, water absorption and adapted yield are untested."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-protein-zucchini-muffins-3",
+      "field": "origin",
+      "rationale": "Omit unsupported country/domain origin while preserving style/source.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Bulk geographic/publisher metadata has no actual origin evidence; style tag is preserved."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-protein-zucchini-muffins-4",
+      "field": "learning",
+      "rationale": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
+          "applicability": "Supports zucchini measured after squeezing, exclusive butter/oil and chips/berries choices, greasing, brief folding, 375°F and 16–18-minute center check. Current card uses 1¼ cups flour and sweetener choices; saved adaptation uses 1 cup flour plus ¼ cup protein powder. Protein brand, water absorption and adapted yield are untested."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-protein-zucchini-muffins-5",
+      "field": "content",
+      "rationale": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Make the existing zucchini measurement follow the listed scale and route every already-listed fat and inclusion choice. Shorten the chip/berry ingredient without changing any original amount so the shared scaler also scales the up-to-1-cup richer-chip branch, which the frozen long sentence leaves fixed. Preserve the accepted protein adaptation, leaveners and full richness."
+        },
+        {
+          "type": "primary publisher",
+          "url": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
+          "applicability": "Supports zucchini measured after squeezing, exclusive butter/oil and chips/berries choices, greasing, brief folding, 375°F and 16–18-minute center check. Current card uses 1¼ cups flour and sweetener choices; saved adaptation uses 1 cup flour plus ¼ cup protein powder. Protein brand, water absorption and adapted yield are untested."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/chocolate-protein-zucchini-muffins.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact original450 already contains the protein substitution; 9fa import and earlier accepted repair corrected scraped “sugar” method to the actually listed honey/maple. Current publisher card has 1¼ cups flour without this protein substitution, so it does not validate the adapted ratio or yield.",
+    "The current 16–18-minute bake, packed-after-squeeze state, full fat choices, spray/butter allowance and 12-muffin planning count remain. Only the static one-cup method and incomplete fat routing are corrected."
+  ],
+  "ledger": {
+    "frozenCurrent": [
+      {
+        "ingredient": "1 cup whole wheat flour",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup chocolate protein powder",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "¼ cup unsweetened cocoa powder",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 teaspoon cinnamon (optional)",
+        "destination": "optional dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 teaspoon baking powder",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "½ teaspoon baking soda",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "½ teaspoon salt",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+        "destination": "wet mix after squeeze/measure",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 cup milk",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "¼ cup honey or maple syrup",
+        "destination": "wet mix, exclusive sweetener",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 eggs (lightly beaten)",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+        "destination": "wet mix, exclusive fat",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 teaspoons vanilla extract",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "½ cup chocolate chips (or 1 cup blueberries; you can also use up to 1 cup of chocolate chips if you prefer)",
+        "destination": "fold, exclusive chip/berry choice",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+        "destination": "pan preparation",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      }
+    ],
+    "nativeSaved": [
+      {
+        "ingredient": "Metric",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup whole wheat flour",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 cup chocolate protein powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup unsweetened cocoa powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon cinnamon (optional)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon baking powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "½ teaspoon baking soda",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "½ teaspoon salt",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 cup milk",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup honey or maple syrup",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 eggs (lightly beaten)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 teaspoons vanilla extract",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "½ cup chocolate chips (or 1 cup blueberries; you can also use up to 1 cup of chocolate chips if you prefer)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 cup whole wheat flour",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 cup chocolate protein powder",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "¼ cup unsweetened cocoa powder",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 teaspoon cinnamon (optional)",
+        "destination": "optional dry mix",
+        "step": 2,
+        "optional": true,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 teaspoon baking powder",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "½ teaspoon baking soda",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "½ teaspoon salt",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+        "destination": "wet mix after squeeze/measure",
+        "step": 3,
+        "optional": false,
+        "state": "See exact ingredient preparation and method; no invented weight conversion"
+      },
+      {
+        "ingredient": "1 cup milk",
+        "destination": "wet mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "¼ cup honey or maple syrup",
+        "destination": "wet mix, exclusive sweetener",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "2 eggs (lightly beaten)",
+        "destination": "wet mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+        "destination": "wet mix, exclusive fat",
+        "step": 3,
+        "optional": false,
+        "state": "See exact ingredient preparation and method; no invented weight conversion"
+      },
+      {
+        "ingredient": "2 teaspoons vanilla extract",
+        "destination": "wet mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+        "destination": "fold, exclusive chip/berry choice",
+        "step": 4,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+        "destination": "pan preparation",
+        "step": 1,
+        "optional": false,
+        "state": "Listed ingredient state"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Blueberries",
+        "method": "Fold blueberries instead of all chip choices at step 4; same full wet/dry batter and bake/cool.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup whole wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup chocolate protein powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsweetened cocoa powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon cinnamon (optional)",
+            "destination": "optional dry mix",
+            "step": 2,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon baking powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon baking soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+            "destination": "wet mix after squeeze/measure",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 cup milk",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup honey or maple syrup",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 eggs (lightly beaten)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+            "destination": "wet mix, exclusive fat",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "2 teaspoons vanilla extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup blueberries, washed and drained",
+            "destination": "fold, exclusive chip/berry choice",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": false,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Richer chips",
+        "method": "Fold up to this higher chip amount instead of the half-cup or blueberry choices at step 4; the maximum scales with ingredients, not a fixed cup.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup whole wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup chocolate protein powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsweetened cocoa powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon cinnamon (optional)",
+            "destination": "optional dry mix",
+            "step": 2,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon baking powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon baking soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+            "destination": "wet mix after squeeze/measure",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 cup milk",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup honey or maple syrup",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 eggs (lightly beaten)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+            "destination": "wet mix, exclusive fat",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "2 teaspoons vanilla extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup chocolate chips maximum",
+            "destination": "fold, exclusive chip/berry choice",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": false,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Canola oil",
+        "method": "Use one oil instead of butter in wet mix; full ¼ cup original dose preserved.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup whole wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup chocolate protein powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsweetened cocoa powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon cinnamon (optional)",
+            "destination": "optional dry mix",
+            "step": 2,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon baking powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon baking soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+            "destination": "wet mix after squeeze/measure",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 cup milk",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup honey or maple syrup",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 eggs (lightly beaten)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup canola oil",
+            "destination": "wet mix, exclusive fat",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "2 teaspoons vanilla extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+            "destination": "fold, exclusive chip/berry choice",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": false,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Avocado oil",
+        "method": "Use one oil instead of butter in wet mix; full ¼ cup original dose preserved.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup whole wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup chocolate protein powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsweetened cocoa powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon cinnamon (optional)",
+            "destination": "optional dry mix",
+            "step": 2,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon baking powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon baking soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+            "destination": "wet mix after squeeze/measure",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 cup milk",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup honey or maple syrup",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 eggs (lightly beaten)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup avocado oil",
+            "destination": "wet mix, exclusive fat",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "2 teaspoons vanilla extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+            "destination": "fold, exclusive chip/berry choice",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": false,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Maple syrup",
+        "method": "Use maple instead of honey in wet mix; all other amounts/stages unchanged.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup whole wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup chocolate protein powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsweetened cocoa powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon cinnamon (optional)",
+            "destination": "optional dry mix",
+            "step": 2,
+            "optional": true,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon baking powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon baking soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+            "destination": "wet mix after squeeze/measure",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 cup milk",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup maple syrup",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "2 eggs (lightly beaten)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+            "destination": "wet mix, exclusive fat",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "2 teaspoons vanilla extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+            "destination": "fold, exclusive chip/berry choice",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": false,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Without optional cinnamon",
+        "method": "Omit optional cinnamon only; both leaveners, salt, cocoa and protein powder still enter dry mix.",
+        "ingredients": [
+          {
+            "ingredient": "1 cup whole wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup chocolate protein powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsweetened cocoa powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 teaspoon baking powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon baking soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ teaspoon salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+            "destination": "wet mix after squeeze/measure",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 cup milk",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup honey or maple syrup",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 eggs (lightly beaten)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+            "destination": "wet mix, exclusive fat",
+            "step": 3,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "2 teaspoons vanilla extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+            "destination": "fold, exclusive chip/berry choice",
+            "step": 4,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": false,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      }
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Unsalted butter",
+        "alternative": "The listed canola or avocado oil amount",
+        "effect": "Use one full fat choice in the wet mix; the oil version has a different buttery flavor."
+      },
+      {
+        "ingredient": "Chocolate chips",
+        "alternative": "Listed blueberries or higher-chip choice",
+        "effect": "Use one listed scaled choice. Berries add juicy pockets; more chips add sweetness and richness, with center checks still required."
+      }
+    ],
+    "held": [
+      "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "step-1",
+      "title": "Prepare",
+      "text": "Preheat the oven to 375°F. Grease a standard 12-cup muffin pan with the listed spray or butter. Grate zucchini, squeeze very dry in a clean towel, then measure the listed amount packed tightly.",
+      "ingredients": ["Nonstick spray or butter, for greasing the muffin pan"]
+    },
+    {
+      "step": 2,
+      "id": "step-2",
+      "title": "Dry mix",
+      "text": "Whisk flour, chocolate protein powder, cocoa, optional cinnamon, baking powder, baking soda and salt together.",
+      "ingredients": [
+        "1 cup whole wheat flour",
+        "1/4 cup chocolate protein powder",
+        "¼ cup unsweetened cocoa powder",
+        "1 teaspoon cinnamon (optional)",
+        "1 teaspoon baking powder",
+        "½ teaspoon baking soda",
+        "½ teaspoon salt"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "step-3",
+      "title": "Wet mix",
+      "text": "Whisk squeezed zucchini, milk, the chosen honey or maple syrup, eggs, the chosen melted and slightly cooled butter or canola or avocado oil, and vanilla together.",
+      "ingredients": [
+        "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+        "1 cup milk",
+        "¼ cup honey or maple syrup",
+        "2 eggs (lightly beaten)",
+        "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+        "2 teaspoons vanilla extract"
+      ]
+    },
+    {
+      "step": 4,
+      "id": "step-4",
+      "title": "Fold",
+      "text": "Fold the dry mixture into the wet just until no dry flour remains. Fold in the chosen chocolate chips or blueberries. The original 12-muffin batch uses ½ cup chips, or 1 cup blueberries, or up to 1 cup chips; follow the corresponding listed scaled choice and use only one.",
+      "ingredients": ["½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)"]
+    },
+    {
+      "step": 5,
+      "id": "step-5",
+      "title": "Bake and cool",
+      "text": "Fill muffin cups no more than ¾ full, using extra cups or a later batch for excess batter. Bake about 16–18 minutes, until a center tester comes out without wet batter. Cool briefly in the pan, then transfer to a rack to cool to room temperature before storage.",
+      "ingredients": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Blueberries",
+      "method": "Fold blueberries instead of all chip choices at step 4; same full wet/dry batter and bake/cool.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup whole wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup chocolate protein powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsweetened cocoa powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon cinnamon (optional)",
+          "destination": "optional dry mix",
+          "step": 2,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon baking powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon baking soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+          "destination": "wet mix after squeeze/measure",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 cup milk",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup honey or maple syrup",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 eggs (lightly beaten)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+          "destination": "wet mix, exclusive fat",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "2 teaspoons vanilla extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup blueberries, washed and drained",
+          "destination": "fold, exclusive chip/berry choice",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": false,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Richer chips",
+      "method": "Fold up to this higher chip amount instead of the half-cup or blueberry choices at step 4; the maximum scales with ingredients, not a fixed cup.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup whole wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup chocolate protein powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsweetened cocoa powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon cinnamon (optional)",
+          "destination": "optional dry mix",
+          "step": 2,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon baking powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon baking soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+          "destination": "wet mix after squeeze/measure",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 cup milk",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup honey or maple syrup",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 eggs (lightly beaten)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+          "destination": "wet mix, exclusive fat",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "2 teaspoons vanilla extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup chocolate chips maximum",
+          "destination": "fold, exclusive chip/berry choice",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": false,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Canola oil",
+      "method": "Use one oil instead of butter in wet mix; full ¼ cup original dose preserved.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup whole wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup chocolate protein powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsweetened cocoa powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon cinnamon (optional)",
+          "destination": "optional dry mix",
+          "step": 2,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon baking powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon baking soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+          "destination": "wet mix after squeeze/measure",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 cup milk",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup honey or maple syrup",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 eggs (lightly beaten)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup canola oil",
+          "destination": "wet mix, exclusive fat",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "2 teaspoons vanilla extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+          "destination": "fold, exclusive chip/berry choice",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": false,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Avocado oil",
+      "method": "Use one oil instead of butter in wet mix; full ¼ cup original dose preserved.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup whole wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup chocolate protein powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsweetened cocoa powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon cinnamon (optional)",
+          "destination": "optional dry mix",
+          "step": 2,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon baking powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon baking soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+          "destination": "wet mix after squeeze/measure",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 cup milk",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup honey or maple syrup",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 eggs (lightly beaten)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup avocado oil",
+          "destination": "wet mix, exclusive fat",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "2 teaspoons vanilla extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+          "destination": "fold, exclusive chip/berry choice",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": false,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Maple syrup",
+      "method": "Use maple instead of honey in wet mix; all other amounts/stages unchanged.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup whole wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup chocolate protein powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsweetened cocoa powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon cinnamon (optional)",
+          "destination": "optional dry mix",
+          "step": 2,
+          "optional": true,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon baking powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon baking soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+          "destination": "wet mix after squeeze/measure",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 cup milk",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup maple syrup",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "2 eggs (lightly beaten)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+          "destination": "wet mix, exclusive fat",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "2 teaspoons vanilla extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+          "destination": "fold, exclusive chip/berry choice",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": false,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Without optional cinnamon",
+      "method": "Omit optional cinnamon only; both leaveners, salt, cocoa and protein powder still enter dry mix.",
+      "ingredients": [
+        {
+          "ingredient": "1 cup whole wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup chocolate protein powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsweetened cocoa powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 teaspoon baking powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon baking soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ teaspoon salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and squeezing)",
+          "destination": "wet mix after squeeze/measure",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 cup milk",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup honey or maple syrup",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 eggs (lightly beaten)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "¼ cup unsalted butter (melted, or use canola or avocado oil)",
+          "destination": "wet mix, exclusive fat",
+          "step": 3,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "2 teaspoons vanilla extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)",
+          "destination": "fold, exclusive chip/berry choice",
+          "step": 4,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Nonstick spray or butter, for greasing the muffin pan",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": false,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    }
+  ],
+  "heldOptionalVariants": [
+    "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter."
+  ],
+  "relationships": {
+    "outgoing": [],
+    "incomingRecipeReferences": [],
+    "incomingMeals": [],
+    "scope": "No composed meal is certified. Existing metadata references are preserved; old duplicate Serving/Pairs body sections intentionally removed by 306e8136 are not restored."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratio": "Saved/current adaptation: 1 cup whole-wheat flour plus ¼ cup chocolate protein powder and ¼ cup cocoa; 1 cup packed/squeezed zucchini, 1 cup milk, 2 eggs, ¼ cup fat and ¼ cup honey/maple. All preserved; no new protein/nutrition claims.",
+    "yield": "12 muffins, planning yield",
+    "measuredFinishedYield": false,
+    "pan": "Standard muffin cups, maximum ¾ fill; proportional cup/batch count, not multiplied cup depth or bake time.",
+    "scaling": "Ingredient quantities scale; temperatures, fill fraction, pan shape and bake checks remain. Fractional eggs may be beaten and portioned by the cook; no invented gram equivalent."
+  },
+  "preservedPriorRepairs": {
+    "scope": "Every prior frozen safety, formula, allocation, ingredient state, scaling and presentation repair protected by exact source comparison; no targeted credit promoted without the complete review.",
+    "followedHistoryNotes": [
+      "Exact original450 already contains the protein substitution; 9fa import and earlier accepted repair corrected scraped “sugar” method to the actually listed honey/maple. Current publisher card has 1¼ cups flour without this protein substitution, so it does not validate the adapted ratio or yield.",
+      "The current 16–18-minute bake, packed-after-squeeze state, full fat choices, spray/butter allowance and 12-muffin planning count remain. Only the static one-cup method and incomplete fat routing are corrected."
+    ]
+  },
+  "remainingQuestions": [
+    "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter.",
+    "Which chocolate protein powder was used, and does this full adapted batter fit the actual 12 standard cups at the stated maximum fill?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

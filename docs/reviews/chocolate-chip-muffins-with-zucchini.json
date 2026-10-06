@@ -1,0 +1,1265 @@
+{
+  "slug": "chocolate-chip-muffins-with-zucchini",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
+  "inputSha256": "8266330ecd863b08956efc248e0097603ba85b1e705fa99ce2ea8aefa45cbe51",
+  "acceptedSourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "16 min",
+      "after": "16–18 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "31 min",
+      "after": "41–43 min, plus rack cooling and any remaining preheating"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 muffins, planning yield"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+        "1/2 cup Chocolate Chips",
+        "2 cups Zucchini, shredded and squeezed bone-dry",
+        "1 large Egg",
+        "1/2 cup Milk of choice (Soy or Almond preferred)",
+        "1/2 cup Maple Syrup or Honey",
+        "1/4 cup Avocado or Canola Oil",
+        "1 tsp Vanilla Extract",
+        "1 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt"
+      ],
+      "after": [
+        "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+        "1/2 cup Chocolate Chips",
+        "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+        "1 large Egg",
+        "1/2 cup Milk of choice (Soy or Almond preferred)",
+        "1/2 cup Maple Syrup or Honey",
+        "1/4 cup Avocado or Canola Oil",
+        "1 tsp Vanilla Extract",
+        "1 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt",
+        "Butter or baking spray, as needed for greasing if not using liners"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 195,
+        "protein": 2.5,
+        "carbs": 30,
+        "fat": 8,
+        "fiber": 3,
+        "sugar": 26,
+        "sodium": 360
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control zucchini liquid without forcing identical flour behavior",
+        "outcome": "No dry flour remains, with the batter still gently stirred rather than beaten. The center tester has no wet batter.",
+        "techniques": ["leavening"],
+        "before": [
+          "Squeeze excess liquid from the listed shredded zucchini in a clean towel, retaining the shreds rather than pureeing them.",
+          "The original batch is planned as 12 standard muffins; the actual count depends on cup size and filling. Scale batter proportionally and use more cups or batches rather than deeper fills.",
+          "Use only one flour, sweetener and oil choice. If using honey, do not serve to children under one year; do not taste raw batter."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "No dry flour remains, with the batter still gently stirred rather than beaten.",
+            "why": "Buckwheat and whole-wheat flour do not have identical mixing behavior; there is no requirement to manufacture lumps."
+          },
+          {
+            "step": 6,
+            "cue": "The center tester has no wet batter.",
+            "why": "Cup depth and retained zucchini moisture affect the bake; the written time is a first checking range."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wet or gummy center.",
+            "cause": "Too much retained zucchini liquid, deep fills or insufficient baking.",
+            "fix": "Check the center and extend the bake as needed. Squeeze excess liquid and keep later cups at or below ¾ full; a fully cooled gummy muffin cannot be made into a light crumb by stirring or reheating."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Buckwheat flour",
+            "alternative": "The listed whole-wheat flour amount",
+            "effect": "This is an existing flour choice, with a different flavor and crumb; it is not a guaranteed gluten-free exchange."
+          },
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "The listed honey amount",
+            "effect": "Use one sweetener in the wet mix. Honey changes flavor and is unsuitable for children under one year."
+          },
+          {
+            "ingredient": "Avocado oil",
+            "alternative": "The listed canola oil amount",
+            "effect": "Use one oil in the wet mix; both remain a full oil dose."
+          }
+        ],
+        "timing": "Preparation is planned as 15 minutes; one batch bakes 16–18 minutes and cools in the pan for 10 minutes, giving 41–43 minutes through pan cooling. Remaining preheating, rack cooling and later batches add elapsed time.",
+        "storage": "Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently warmed.",
+        "sources": [
+          {
+            "title": "FDA — handling raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nZucchini muffins sound like a vegetable sneak, but they're really a moisture strategy: grated zucchini releases water as it bakes, keeping the crumb tender without relying on extra oil or eggs. The chocolate chips are the actual appeal - cocoa butter and sugar carry the flavor. Don't overmix once you add zucchini or you'll crush the shreds and make the muffins dense.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Grease a 12-cup muffin tin or use paper liners.\n2.  **Dry Mix:** In a large bowl, whisk together the buckwheat flour, baking powder, baking soda, cinnamon, and salt.\n3.  **Wet Mix:** In a separate bowl, whisk the milk, egg, maple syrup, oil, and vanilla until smooth and emulsified.\n4.  **Combine:** Pour the wet ingredients into the dry. Stir with a spatula until **just combined** (a few lumps are mandatory).\n5.  **Fold:** Fold in the chocolate chips and the **squeezed zucchini**.\n6.  **Bake:** Scoop the batter into the muffin cups (about 3/4 full). Bake for 16-18 minutes until a toothpick inserted into the center comes out clean.\n7.  **Cool:** Let cool in the pan for 10 minutes to allow the buckwheat structure to set before removing to a rack.\n\n## Cooking Notes\n\nThese muffins can be made ahead for breakfast. Freeze individual portions and thaw only what you plan to serve.\n",
+    "after": "\n## Chef's Note\n\nBuckwheat gives these chocolate-chip muffins a nutty flavor; whole-wheat flour is a separate listed choice with a different crumb. Squeeze excess liquid from the shredded zucchini, then stir only enough to incorporate the flour and shreds.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Grease a standard 12-cup muffin tin with the pan allowance, or use liners. Prepare the listed shredded zucchini by squeezing excess liquid out in a clean towel.\n\n2. **Dry mix:** Whisk the chosen buckwheat or whole-wheat flour, baking powder, baking soda, cinnamon and salt together.\n\n3. **Wet mix:** Whisk milk, egg, the chosen maple syrup or honey, the chosen avocado or canola oil, and vanilla together.\n\n4. **Combine:** Stir the wet mixture into the dry just until no dry flour remains. Do not beat the batter or keep stirring to make it perfectly smooth.\n\n5. **Fold:** Fold in all the chocolate chips and squeezed zucchini until distributed.\n\n6. **Bake:** Fill muffin cups no more than ¾ full; use additional cups or a later batch for excess batter. Bake 16–18 minutes, until a center tester comes out without wet batter.\n\n7. **Cool:** Leave in the pan for 10 minutes, then transfer to a rack. Cool completely before sealing for storage.\n"
+  },
+  "findings": [
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-1",
+      "field": "cookTime",
+      "rationale": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-2",
+      "field": "totalTime",
+      "rationale": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-3",
+      "field": "servings",
+      "rationale": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-4",
+      "field": "ingredients",
+      "rationale": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-5",
+      "field": "origin",
+      "rationale": "Omit unsupported country/domain origin while preserving style/source.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Bulk geographic/publisher metadata has no actual origin evidence; style tag is preserved."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-6",
+      "field": "nutrition",
+      "rationale": "Remove unverified baseline estimates; no new nutrition claim.",
+      "confidence": "high",
+      "applicableSources": [
+        {
+          "type": "Git",
+          "path": "privately retained evidence",
+          "applicability": "Unverified baseline estimates are removed without inventing replacements."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-7",
+      "field": "learning",
+      "rationale": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    },
+    {
+      "id": "VM04-chocolate-chip-muffins-with-zucchini-8",
+      "field": "content",
+      "rationale": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged.",
+      "confidence": "high for source quantities and completeness; moderate for editorial capacity/timing/storage applications",
+      "applicableSources": [
+        {
+          "type": "saved evidence",
+          "path": "privately retained evidence",
+          "applicability": "Restore source moisture language, cover both listed sweeteners and oils, remove mandatory-lumps claim, qualify planning yield, and account for 10-minute pan cooling. Core richness unchanged."
+        },
+        {
+          "type": "editorial inference",
+          "applicability": "Capacity and clock arithmetic are planning from actual written stages. Blender model, exact yield, bake time and shelf life are not kitchen-validated."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chocolate%20Chip%20Muffins%20(with%20Zucchini).html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native and earlier HTML name no publisher or source URL. The earlier category label Kids Eat in Color does not establish a verified original publisher.",
+    "Native says squeezed to remove extra liquid, not bone-dry; this moisture wording was intensified in 7dd819d4. Native does not specify whether the 2 cups are measured before or after squeezing. The proposed ingredient preserves its shredded/squeezed state without inventing a packed-after measurement.",
+    "The current 12 count was introduced by 7dd819d4 from Unknown; it is retained only as planning. Generic “other flour” in native is unresolved beyond the currently defined buckwheat/whole-wheat choices."
+  ],
+  "ledger": {
+    "frozenCurrent": [
+      {
+        "ingredient": "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 cup Chocolate Chips",
+        "destination": "fold",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "2 cups Zucchini, shredded and squeezed bone-dry",
+        "destination": "fold",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 cup Maple Syrup or Honey",
+        "destination": "wet mix, exclusive sweetener",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/4 cup Avocado or Canola Oil",
+        "destination": "wet mix, exclusive oil",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "wet mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Baking Soda",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1 tsp Ground Cinnamon",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      },
+      {
+        "ingredient": "1/2 tsp Sea Salt",
+        "destination": "dry mix",
+        "scope": "Exact frozen ingredient string; current directions may omit a listed alternative, identified in findings."
+      }
+    ],
+    "nativeSaved": [
+      {
+        "ingredient": "1 2/3 cup buckwheat flour (or other flour) ",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon baking powder",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon baking soda",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon cinnamon",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 teaspoon salt",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 cup milk milk of choice",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 large egg",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 cup maple syrup or honey",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/4 cup avocado oil (or other oil for baking)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1 teaspoon vanilla",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "1/2 cup chocolate chips",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      },
+      {
+        "ingredient": "2 cups shredded zucchini (squeezed in a towel to remove extra liquid)",
+        "scope": "Exact stable-bound cooking extract; not a later sync and not an inferred title match."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/2 cup Chocolate Chips",
+        "destination": "fold",
+        "step": 5,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+        "destination": "fold",
+        "step": 5,
+        "optional": false,
+        "state": "See exact ingredient preparation and method; no invented weight conversion"
+      },
+      {
+        "ingredient": "1 large Egg",
+        "destination": "wet mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+        "destination": "wet mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/2 cup Maple Syrup or Honey",
+        "destination": "wet mix, exclusive sweetener",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/4 cup Avocado or Canola Oil",
+        "destination": "wet mix, exclusive oil",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Vanilla Extract",
+        "destination": "wet mix",
+        "step": 3,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Baking Powder",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Baking Soda",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1 tsp Ground Cinnamon",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "1/2 tsp Sea Salt",
+        "destination": "dry mix",
+        "step": 2,
+        "optional": false,
+        "state": "Listed ingredient state"
+      },
+      {
+        "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+        "destination": "pan preparation",
+        "step": 1,
+        "optional": true,
+        "state": "Listed ingredient state"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Whole-wheat flour",
+        "method": "Choose whole wheat instead of buckwheat in the dry mix; all other measured amounts and stages remain.",
+        "ingredients": [
+          {
+            "ingredient": "1 2/3 cups whole-wheat flour",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1/2 cup Chocolate Chips",
+            "destination": "fold",
+            "step": 5,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+            "destination": "fold",
+            "step": 5,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 large Egg",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Maple Syrup or Honey",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup Avocado or Canola Oil",
+            "destination": "wet mix, exclusive oil",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Ground Cinnamon",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 tsp Sea Salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Honey",
+        "method": "Choose honey instead of maple in the wet mix; all other measured amounts and stages remain. No honey below age one.",
+        "ingredients": [
+          {
+            "ingredient": "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Chocolate Chips",
+            "destination": "fold",
+            "step": 5,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+            "destination": "fold",
+            "step": 5,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 large Egg",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup honey",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1/4 cup Avocado or Canola Oil",
+            "destination": "wet mix, exclusive oil",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Ground Cinnamon",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 tsp Sea Salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      },
+      {
+        "name": "Canola oil",
+        "method": "Choose canola instead of avocado oil in the wet mix; all other amounts/stages remain.",
+        "ingredients": [
+          {
+            "ingredient": "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Chocolate Chips",
+            "destination": "fold",
+            "step": 5,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+            "destination": "fold",
+            "step": 5,
+            "optional": false,
+            "state": "See exact ingredient preparation and method; no invented weight conversion"
+          },
+          {
+            "ingredient": "1 large Egg",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 cup Maple Syrup or Honey",
+            "destination": "wet mix, exclusive sweetener",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/4 cup canola oil",
+            "destination": "wet mix, exclusive oil",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state",
+            "variantOverride": true
+          },
+          {
+            "ingredient": "1 tsp Vanilla Extract",
+            "destination": "wet mix",
+            "step": 3,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Powder",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Baking Soda",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1 tsp Ground Cinnamon",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "1/2 tsp Sea Salt",
+            "destination": "dry mix",
+            "step": 2,
+            "optional": false,
+            "state": "Listed ingredient state"
+          },
+          {
+            "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+            "destination": "pan preparation",
+            "step": 1,
+            "optional": true,
+            "state": "Listed ingredient state"
+          }
+        ],
+        "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+      }
+    ],
+    "substitutions": [
+      {
+        "ingredient": "Buckwheat flour",
+        "alternative": "The listed whole-wheat flour amount",
+        "effect": "This is an existing flour choice, with a different flavor and crumb; it is not a guaranteed gluten-free exchange."
+      },
+      {
+        "ingredient": "Maple syrup",
+        "alternative": "The listed honey amount",
+        "effect": "Use one sweetener in the wet mix. Honey changes flavor and is unsuitable for children under one year."
+      },
+      {
+        "ingredient": "Avocado oil",
+        "alternative": "The listed canola oil amount",
+        "effect": "Use one oil in the wet mix; both remain a full oil dose."
+      }
+    ],
+    "held": [
+      "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
+      "Before/after squeezing measurement for the listed zucchini remains a kitchen/source question, not normalized to the separate protein recipe."
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "step-1",
+      "title": "Prepare",
+      "text": "Preheat the oven to 350°F. Grease a standard 12-cup muffin tin with the pan allowance, or use liners. Prepare the listed shredded zucchini by squeezing excess liquid out in a clean towel.",
+      "ingredients": ["Butter or baking spray, as needed for greasing if not using liners"]
+    },
+    {
+      "step": 2,
+      "id": "step-2",
+      "title": "Dry mix",
+      "text": "Whisk the chosen buckwheat or whole-wheat flour, baking powder, baking soda, cinnamon and salt together.",
+      "ingredients": [
+        "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+        "1 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Sea Salt"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "step-3",
+      "title": "Wet mix",
+      "text": "Whisk milk, egg, the chosen maple syrup or honey, the chosen avocado or canola oil, and vanilla together.",
+      "ingredients": [
+        "1 large Egg",
+        "1/2 cup Milk of choice (Soy or Almond preferred)",
+        "1/2 cup Maple Syrup or Honey",
+        "1/4 cup Avocado or Canola Oil",
+        "1 tsp Vanilla Extract"
+      ]
+    },
+    {
+      "step": 4,
+      "id": "step-4",
+      "title": "Combine",
+      "text": "Stir the wet mixture into the dry just until no dry flour remains. Do not beat the batter or keep stirring to make it perfectly smooth.",
+      "ingredients": []
+    },
+    {
+      "step": 5,
+      "id": "step-5",
+      "title": "Fold",
+      "text": "Fold in all the chocolate chips and squeezed zucchini until distributed.",
+      "ingredients": [
+        "1/2 cup Chocolate Chips",
+        "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid"
+      ]
+    },
+    {
+      "step": 6,
+      "id": "step-6",
+      "title": "Bake",
+      "text": "Fill muffin cups no more than ¾ full; use additional cups or a later batch for excess batter. Bake 16–18 minutes, until a center tester comes out without wet batter.",
+      "ingredients": []
+    },
+    {
+      "step": 7,
+      "id": "step-7",
+      "title": "Cool",
+      "text": "Leave in the pan for 10 minutes, then transfer to a rack. Cool completely before sealing for storage.",
+      "ingredients": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Whole-wheat flour",
+      "method": "Choose whole wheat instead of buckwheat in the dry mix; all other measured amounts and stages remain.",
+      "ingredients": [
+        {
+          "ingredient": "1 2/3 cups whole-wheat flour",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1/2 cup Chocolate Chips",
+          "destination": "fold",
+          "step": 5,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+          "destination": "fold",
+          "step": 5,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 large Egg",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Maple Syrup or Honey",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup Avocado or Canola Oil",
+          "destination": "wet mix, exclusive oil",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Ground Cinnamon",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 tsp Sea Salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Honey",
+      "method": "Choose honey instead of maple in the wet mix; all other measured amounts and stages remain. No honey below age one.",
+      "ingredients": [
+        {
+          "ingredient": "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Chocolate Chips",
+          "destination": "fold",
+          "step": 5,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+          "destination": "fold",
+          "step": 5,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 large Egg",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup honey",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1/4 cup Avocado or Canola Oil",
+          "destination": "wet mix, exclusive oil",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Ground Cinnamon",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 tsp Sea Salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    },
+    {
+      "name": "Canola oil",
+      "method": "Choose canola instead of avocado oil in the wet mix; all other amounts/stages remain.",
+      "ingredients": [
+        {
+          "ingredient": "1 2/3 cups Buckwheat Flour (or Whole-Wheat)",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Chocolate Chips",
+          "destination": "fold",
+          "step": 5,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "2 cups Zucchini, shredded and squeezed in a towel to remove excess liquid",
+          "destination": "fold",
+          "step": 5,
+          "optional": false,
+          "state": "See exact ingredient preparation and method; no invented weight conversion"
+        },
+        {
+          "ingredient": "1 large Egg",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Milk of choice (Soy or Almond preferred)",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 cup Maple Syrup or Honey",
+          "destination": "wet mix, exclusive sweetener",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/4 cup canola oil",
+          "destination": "wet mix, exclusive oil",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state",
+          "variantOverride": true
+        },
+        {
+          "ingredient": "1 tsp Vanilla Extract",
+          "destination": "wet mix",
+          "step": 3,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Powder",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Baking Soda",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1 tsp Ground Cinnamon",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "1/2 tsp Sea Salt",
+          "destination": "dry mix",
+          "step": 2,
+          "optional": false,
+          "state": "Listed ingredient state"
+        },
+        {
+          "ingredient": "Butter or baking spray, as needed for greasing if not using liners",
+          "destination": "pan preparation",
+          "step": 1,
+          "optional": true,
+          "state": "Listed ingredient state"
+        }
+      ],
+      "scope": "Original-batch quantities and destinations; selected alternatives replace their corresponding main choice. Independent choices may combine; never buy/use mutually exclusive choices together. Static notes direct proportional scaling, not a claim that recipe controls rewrite prose."
+    }
+  ],
+  "heldOptionalVariants": [
+    "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
+    "Before/after squeezing measurement for the listed zucchini remains a kitchen/source question, not normalized to the separate protein recipe."
+  ],
+  "relationships": {
+    "outgoing": [
+      "banana-oat-greek-yogurt-muffins",
+      "avocado-kale-caesar-salad",
+      "almond-zucchini-bread"
+    ],
+    "incomingRecipeReferences": ["broccoli-cheddar-quinoa-bites"],
+    "incomingMeals": [],
+    "scope": "No composed meal is certified. Existing metadata references are preserved; old duplicate Serving/Pairs body sections intentionally removed by 306e8136 are not restored."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratio": "Original batch: 1⅔ cups flour and 2 cups shredded/squeezed zucchini, 1 egg, ½ cup milk, ½ cup sweetener, ¼ cup oil and ½ cup chips. No quantities changed. Buckwheat and whole wheat remain distinct choices.",
+    "yield": "12 muffins, planning yield",
+    "measuredFinishedYield": false,
+    "pan": "Standard muffin cups, maximum ¾ fill; proportional cup/batch count, not multiplied cup depth or bake time.",
+    "scaling": "Ingredient quantities scale; temperatures, fill fraction, pan shape and bake checks remain. Fractional eggs may be beaten and portioned by the cook; no invented gram equivalent."
+  },
+  "preservedPriorRepairs": {
+    "scope": "Every prior frozen safety, formula, allocation, ingredient state, scaling and presentation repair protected by exact source comparison; no targeted credit promoted without the complete review.",
+    "followedHistoryNotes": [
+      "Native and earlier HTML name no publisher or source URL. The earlier category label Kids Eat in Color does not establish a verified original publisher.",
+      "Native says squeezed to remove extra liquid, not bone-dry; this moisture wording was intensified in 7dd819d4. Native does not specify whether the 2 cups are measured before or after squeezing. The proposed ingredient preserves its shredded/squeezed state without inventing a packed-after measurement.",
+      "The current 12 count was introduced by 7dd819d4 from Unknown; it is retained only as planning. Generic “other flour” in native is unresolved beyond the currently defined buckwheat/whole-wheat choices."
+    ]
+  },
+  "remainingQuestions": [
+    "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
+    "Before/after squeezing measurement for the listed zucchini remains a kitchen/source question, not normalized to the separate protein recipe.",
+    "Was the listed 2 cups measured before or after towel squeezing, and what filled-cup count does the actual tin yield?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
+  "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 80,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12204,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 61,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print buttons enabled; shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
