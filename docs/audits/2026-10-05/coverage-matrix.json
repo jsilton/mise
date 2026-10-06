@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 614,
-    "completeEditorialPending": 29,
+    "recordedCompleteEditorial": 615,
+    "completeEditorialPending": 28,
     "originalBaseline": 612,
-    "originalReviewed": 574,
+    "originalReviewed": 575,
     "consideredConsolidations": 10,
-    "originalPending": 28,
+    "originalPending": 27,
     "additionalSources": 41,
     "additionalReviewed": 40,
     "additionalPending": 1,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 614,
+      "editoriallyReviewed": 615,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 63
+      "reviewItems": 61
     },
     "accelerated": {
       "implemented": 42,
@@ -28,7 +28,7 @@
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
     "productionReconciliation": "380 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 614 recorded complete / 29 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 4 accepted source versions match exact remote commit [dfa8198e](https://github.com/jsilton/mise/commit/dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37495637524) and all 4 live pages. Zero kitchen tests; no native-app sync.",
-    "latestAcceptanceInputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
+    "latestAcceptanceInputCommit": "26fad4c13e2e1fde6051ee8a83e1a06396cbf407",
     "latestRecipeCommitReconciledAtCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
   },
   "collectionEvidence": [
@@ -19904,23 +19904,12 @@
     {
       "currentPath": "src/content/recipes/pressure-cooker-bolognase.md",
       "slug": "pressure-cooker-bolognase",
-      "title": "Pressure-Cooker Bolognese",
+      "title": "Ragù alla Bolognese",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Richard Blais",
-      "sourceUrl": "https://smile.amazon.com/Try-This-Home-Recipes-Plate-ebook/dp/B009JU6UPQ",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Accademia Italiana della Cucina, 2023 Bologna recipe",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20ricetta%20aggiornata%2020%20aprile%202023.pdf",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "held; unresolved",
         "acceleratedEvidence": {
@@ -19931,21 +19920,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pressure-cooker-bolognase.md",
+        "acceptedSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/classic-bolognese-independent.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation and exact production pending",
+        "record": "docs/reviews/pressure-cooker-bolognase.md",
+        "sourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending for accepted classic source"
       },
       "remainingQuestions": [
-        "What exact electric pressure-cooker make/model/capacity and manual establish its operating pressure, minimum watery liquid, fill and thick-tomato/fat/burn constraints for this recipe? The saved stovetop formula cannot be converted until those facts are known.",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Held: stovetop original versus electric model, pressure, minimum liquid and burn constraints. No guessed water amount.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual final sauce mass/volume and whether the six source portions match the intended household meal.",
+        "Observed active/elapsed time with the chosen grind, beef cut, pan width and burner; reduction needed after the covered simmer.",
+        "Flavor and fat balance with the selected fresh pork belly versus cured pancetta, broth salt and dry wine."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

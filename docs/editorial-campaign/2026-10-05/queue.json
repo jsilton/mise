@@ -8493,20 +8493,22 @@
     {
       "slug": "pressure-cooker-bolognase",
       "path": "src/content/recipes/pressure-cooker-bolognase.md",
-      "title": "Pressure-Cooker Bolognese",
-      "source": "Adapted from Richard Blais",
-      "sourceUrl": "https://smile.amazon.com/Try-This-Home-Recipes-Plate-ebook/dp/B009JU6UPQ",
+      "title": "Ragù alla Bolognese",
+      "source": "Adapted from Accademia Italiana della Cucina, 2023 Bologna recipe",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20ricetta%20aggiornata%2020%20aprile%202023.pdf",
       "group": null,
-      "status": "held-awaiting-evidence",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted-local",
+      "reviewEvidence": ["docs/reviews/pressure-cooker-bolognase.md"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Held: stovetop original versus electric model, pressure, minimum liquid and burn constraints. No guessed water amount.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual final sauce mass/volume and whether the six source portions match the intended household meal.",
+        "Observed active/elapsed time with the chosen grind, beef cut, pan width and burner; reduction needed after the covered simmer.",
+        "Flavor and fat balance with the selected fresh pork belly versus cured pancetta, broth salt and dry wine."
       ],
       "inputSha256": "512fdd43bd71fefce8c34e160364f8d1907de46d987ea39142e778a0e0945ec0",
-      "plannedBatch": null
+      "plannedBatch": null,
+      "acceptedSourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
+      "reviewPhase": "Complete classic replacement accepted; implementation and exact production pending"
     },
     {
       "slug": "prohibition-style-gin-lemon-fizz",
@@ -13178,6 +13180,7 @@
   "statusCounts": {
     "production-verified": 380,
     "held": 27,
-    "held-awaiting-evidence": 2
+    "held-awaiting-evidence": 1,
+    "accepted-local": 1
   }
 }

@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-06",
+  "verdict": "PASS",
+  "candidatePath": ".mise/editorial-campaign/2026-10-05/classic-bolognese/candidate.md",
+  "candidateSha256": "9383157ef5f92cfe4319ffcaaf3d3e33ff8b41d0f38d9c5e6a74624df2cc42a2",
+  "authorReviewPath": ".mise/editorial-campaign/2026-10-05/classic-bolognese/candidate-review.json",
+  "authorReviewSha256": "0f9ab8558f6a77201b2dde6ab96dffcac148ab534660a0b8fc2ecd745389e3c4",
+  "inputPublicPath": "src/content/recipes/pressure-cooker-bolognase.md",
+  "inputPublicSha256": "512fdd43bd71fefce8c34e160364f8d1907de46d987ea39142e778a0e0945ec0",
+  "scope": "Independent complete editorial challenge of the user-authorized classic stovetop candidate and exactly two linked meal dependency repairs. No full composed-meal review, kitchen test, automated test, build, Git or public write by reviewer.",
+  "identityFieldsPreserved": true,
+  "originalPublicBytesRemainUnchanged": true,
+  "originalPrivatelyArchivedExactly": true,
+  "findings": [
+    {
+      "topic": "Classic reformulation and attribution",
+      "verdict": "PASS",
+      "evidence": "User explicitly authorized the distinct classic stovetop route. Original Richard Blais preparation remains byte-exact privately; no electric-model suitability or inherited kitchen testing is claimed. Stable recipe identity and existing route/links are retained; the new formula is credited to the Academy2023 source."
+    },
+    {
+      "topic": "Whole formula and source disagreements",
+      "verdict": "PASS",
+      "evidence": "Italian gram amounts are retained; English cup amounts for wine/milk are explicitly selected in the author ledger. Their incompatible pound/ounce conversions are not repeated. Trimmed vegetables, full oil/pork fat, restrained tomato, measured initial broth and moisture-directed extra broth all remain. Main milk route and source-permitted milk-free/cured-pancetta/wine/broth choices are explicit."
+    },
+    {
+      "topic": "Destinations and phases",
+      "verdict": "PASS",
+      "evidence": "All17 entries have one valid full-share destination across9 steps. Rendering/softening precede beef; wine reduces before tomato/broth; the covered2–3h simmer starts afterward and includes halfway milk. Optional cooked pasta, pasta water and cheese are separate from sauce yield. Source original24–26cm pan is qualified; changed batches choose a suitable pot."
+    },
+    {
+      "topic": "Yield and scale half/double",
+      "verdict": "PASS",
+      "evidence": "Six is a source sauce-portion plan, not a measured cup yield. Half gives3 portions; double gives12. The11 measured ingredients preserve ratios as shown below. Allowances remain moisture/taste/service decisions. Pan size, temperatures and simmer clock are not multiplied; broth corrections and tender-meat/coating cues address evaporation.",
+      "measuredAmounts": [
+        {
+          "id": "ragu.beef",
+          "unit": "g",
+          "half": 200,
+          "double": 800,
+          "destination": "beef"
+        },
+        {
+          "id": "ragu.pancetta",
+          "unit": "g",
+          "half": 75,
+          "double": 300,
+          "destination": "render"
+        },
+        {
+          "id": "ragu.onion",
+          "unit": "g",
+          "half": 30,
+          "double": 120,
+          "destination": "soffritto"
+        },
+        {
+          "id": "ragu.carrot",
+          "unit": "g",
+          "half": 30,
+          "double": 120,
+          "destination": "soffritto"
+        },
+        {
+          "id": "ragu.celery",
+          "unit": "g",
+          "half": 30,
+          "double": 120,
+          "destination": "soffritto"
+        },
+        {
+          "id": "ragu.wine",
+          "unit": "cup",
+          "half": 0.25,
+          "double": 1,
+          "destination": "wine"
+        },
+        {
+          "id": "ragu.passata",
+          "unit": "g",
+          "half": 100,
+          "double": 400,
+          "destination": "tomato"
+        },
+        {
+          "id": "ragu.paste",
+          "unit": "tbsp",
+          "half": 0.5,
+          "double": 2,
+          "destination": "tomato"
+        },
+        {
+          "id": "ragu.oil",
+          "unit": "tbsp",
+          "half": 1.5,
+          "double": 6,
+          "destination": "render"
+        },
+        {
+          "id": "ragu.broth",
+          "unit": "cup",
+          "half": 0.5,
+          "double": 2,
+          "destination": "tomato"
+        },
+        {
+          "id": "ragu.milk",
+          "unit": "cup",
+          "half": 0.25,
+          "double": 1,
+          "destination": "simmer"
+        }
+      ]
+    },
+    {
+      "topic": "Timing",
+      "verdict": "PASS_ESTIMATE",
+      "evidence": "20–30min preparation plus2½–3½h cooking fits an approximately3–4h plan; the2–3h simmer is distinct from initial stages. Extra tenderizing/reduction, fresh pasta, cooling and reheating are disclosed.45–60min active is a planning range, not measured performance.",
+      "confidence": "moderate for household durations; high for phase accounting"
+    },
+    {
+      "topic": "Consequential safety",
+      "verdict": "PASS",
+      "evidence": "Ground meat160°F before tasting; raw-contact separation; prompt shallow cooling at≤40°F within2h/1h above90°F;3–4day refrigerated leftovers and165°F reheating with sauce brought to a boil. Cold-storage interval is not reset by reheating.",
+      "sources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+      ]
+    }
+  ],
+  "resolvedCorrections": [
+    {
+      "field": "formula.steps[simmer].text and generated Directions7",
+      "before": "without a separate pool of liquid",
+      "after": "without a separate pool of watery liquid",
+      "rationale": "Reduction removes water; retained rendered fat need not disappear.",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.outcome",
+      "before": "no separate pool of liquid",
+      "after": "no separate pool of watery liquid",
+      "rationale": "Keep the success cue consistent with full retained fat.",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.troubleshooting[2].problem",
+      "before": "The finished ragù has a separate pool of liquid.",
+      "after": "The finished ragù has a separate pool of watery liquid.",
+      "rationale": "An uncovered-reduction fix applies to water rather than an oil sheen.",
+      "confidence": "high"
+    },
+    {
+      "field": "spaghetti-night timing",
+      "before": "25–35min active;30–45min elapsed",
+      "after": "40–55min active;45–60min elapsed",
+      "rationale": "Includes the20-minute strawberry/feta salad,10-minute bread preparation and reheating/pasta service.",
+      "confidence": "moderate planning ranges; high that old budget undercounted"
+    },
+    {
+      "field": "sunday-italian-comfort timing",
+      "before": "75–105min active;60–90min prep",
+      "after": "about2–2½h active;75–105min prep",
+      "rationale": "Accounts for ragù attended stages, a larger fresh-pasta batch, bread and salad while unattended stages overlap.",
+      "confidence": "moderate planning ranges"
+    },
+    {
+      "field": "sunday-italian-comfort dough handling",
+      "before": "Keep total room-temperature dough handling within the linked recipe’s limit.",
+      "after": "After the one-hour covered rest, refrigerate tightly wrapped dough if rolling will wait; keep waiting pieces covered/chilled before the handling budget is exhausted.",
+      "rationale": "A3h ragù simmer could otherwise make early-mixed dough wait beyond its2h/1h hot-kitchen limit.",
+      "confidence": "high"
+    }
+  ],
+  "mealAssessment": [
+    {
+      "path": "src/content/meals/spaghetti-night.md",
+      "sha256": "d8b1d81b0c17bf83e9b3d21f3b0d03f1e659036eb2598ce5c95bd34ded6ebbc3",
+      "verdict": "PASS_DEPENDENCY_REPAIR_ONLY",
+      "fullMealEditorialReview": false,
+      "mealServings": "6",
+      "activeTime": "40–55 min",
+      "basis": "Prepared refrigerated or thawed ragù is explicit, six source sauce portions, one garlic-bread batch for six and one strawberry/feta salad batch for six using toasted seeds. Package-guided spaghetti is supplied; reheating endpoint, cold-storage interval and overlapping bread/salad work are included."
+    },
+    {
+      "path": "src/content/meals/sunday-italian-comfort.md",
+      "sha256": "eb34f982ea7c2e1898b38c4ec28c3debead5d7d197463307b74bc9377d3cd49f",
+      "verdict": "PASS_DEPENDENCY_REPAIR_ONLY",
+      "fullMealEditorialReview": false,
+      "mealServings": "6",
+      "activeTime": "about 2–2½ hr",
+      "basis": "One ragù batch for six,1.5× four-portion fresh dough with full one-hour rest, one six-portion bread batch and1.5× four-portion everyday salad.3–4h elapsed can nest pasta/rest in the simmer; waiting dough is refrigerated and later rolling/boiling follows the linked cues."
+    }
+  ],
+  "primarySourcesInspected": [
+    {
+      "url": "https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20ricetta%20aggiornata%2020%20aprile%202023.pdf",
+      "scope": "Both pages, source grams/phase/pan/variants."
+    },
+    {
+      "url": "https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20updated%20recipe_20%20April%202023.pdf",
+      "scope": "Both pages, cup measures and translation discrepancies."
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "scope": "Ground beef/pork160°F; leftovers165°F."
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "scope": "Meat soups/stews and cooked-meat leftovers3–4days at≤40°F."
+    }
+  ],
+  "linkedRecipeFacts": {
+    "freshEggPasta": "Four portions;45min preparation, up to5min cooking,1h covered rest,1h50 total; raw handling limit2h/1h hot kitchen.",
+    "garlicBread": "Six side portions;25min with softened butter;12–15min bake, optional watched broil.",
+    "arugulaFeta": "Six small side portions;20min with toasted seeds.",
+    "everydayArugula": "Four side portions;5min with ready-to-eat/already dried greens; washing adds time."
+  },
+  "requiredCorrections": [],
+  "physicalKitchenQuestions": [
+    "Observed finished sauce mass/volume and meal portions.",
+    "Actual active/elapsed time, tenderness and reduction with selected grind/pot/burner, especially half/double loads.",
+    "Flavor/fat balance of fresh belly versus permitted cured pancetta and selected broth/wine.",
+    "Complete meal seasoning, equipment/service workload and actual six-diner portions remain outside dependency-repair approval."
+  ],
+  "confidence": "High for documentary formula/destinations/safety/scaling and corrected dependencies; moderate for unmeasured timing and household results.",
+  "publicWrites": 0,
+  "gitWrites": 0,
+  "testsRun": 0,
+  "buildsRun": 0
+}

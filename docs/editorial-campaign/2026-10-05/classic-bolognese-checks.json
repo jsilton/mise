@@ -1,0 +1,89 @@
+{
+  "inputCommit": "26fad4c13e2e1fde6051ee8a83e1a06396cbf407",
+  "scope": "One complete classic Bolognese replacement and two targeted meal dependency repairs",
+  "status": "PASS",
+  "gates": [
+    {
+      "gate": "tests",
+      "status": "PASS",
+      "logSha256": "9e68da06754d201b1da8070c5edc3b2e19b4f351acdc0fbbb5a3c8075b046658"
+    },
+    {
+      "gate": "lint",
+      "status": "PASS",
+      "logSha256": "1b88e84fad95b8d67fec050b7794ede527e66c257243f48b72e0e07d8e104d30"
+    },
+    {
+      "gate": "validation",
+      "status": "PASS",
+      "logSha256": "2d49318e17b64075dba25fb86dc41849a7d1f70d5043ca2695c13b42d8b82e97"
+    },
+    {
+      "gate": "formulas",
+      "status": "PASS",
+      "logSha256": "9eda29d64b03ad905c2e62a097fe07089db086ae9803125a92d0c56eb40c1600"
+    },
+    {
+      "gate": "qa",
+      "status": "PASS",
+      "logSha256": "e34be2ad402476e6ef53fe1dbd215717bf2c831d2cca13c8b3c8d7f7ca60ab12"
+    },
+    {
+      "gate": "build",
+      "status": "PASS",
+      "logSha256": "1839b8d6a4c7d9e8890612eff0c7cd5e1b49abe39fbb3e61ea03643e949f2db9"
+    },
+    {
+      "gate": "json-export",
+      "status": "PASS",
+      "logSha256": "309ef9420ba801310be27c6518ee7ddee69318a16beea40e33976aee4f41b98d"
+    },
+    {
+      "gate": "paprika-export",
+      "status": "PASS",
+      "logSha256": "884599aa68b9641fac6e63632a95b2ce7569ec0231a899a039fced1182d5cc4a"
+    },
+    {
+      "gate": "text-export",
+      "status": "PASS",
+      "logSha256": "bd46299b81c6be7ed323c56d7d319c587663c6914c94d94a46a9a707dd7f95c8"
+    },
+    {
+      "gate": "export-parity",
+      "status": "PASS",
+      "logSha256": "2f0c933bbcf39f582829fde05fdd9c3cc53498cd4d007d3b3e97e351fc3e58e6"
+    },
+    {
+      "gate": "privacy",
+      "status": "PASS",
+      "logSha256": "3331c8a0c7286d02590ef60c923ceaf058e3098aef9c738b959952b06ec7b7a5"
+    },
+    {
+      "gate": "built-links",
+      "status": "PASS",
+      "logSha256": "aa0003f390523dca36c05ebe51bf33573cf7eedf2c0d8ac2ac084f5f772e570f"
+    }
+  ],
+  "tests": 256,
+  "validatedRecipes": 643,
+  "structuredRecipesChecked": 181,
+  "builtHtmlPages": 758,
+  "internalAnchors": 12679,
+  "missingDestinations": 0,
+  "allThreeExportsMatchRecipes": 643,
+  "preservation": {
+    "recipes": 643,
+    "identitiesPreserved": 643,
+    "changedRecipeSources": 1,
+    "unaffectedSourcesByteExact": 642,
+    "heldSourcesByteExact": 28,
+    "privateOriginalsPreserved": true,
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
+  "rootCompleteDiffInspection": true,
+  "independentEvidence": "classic-bolognese-independent.json",
+  "presentationOnlyFollowup": "Removed one kitchen-testing disclosure sentence from learning.timing to follow household public-presentation policy. Formula/ingredients/yield/methods unchanged; the other ten gates rerun after this sentence change; 256 tests and recipe lint passed before it.",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

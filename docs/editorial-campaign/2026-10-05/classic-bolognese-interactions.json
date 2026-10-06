@@ -1,0 +1,66 @@
+{
+  "browser": "Codex In-app Browser",
+  "representatives": [
+    {
+      "slug": "pressure-cooker-bolognase",
+      "mobileWidth": 375,
+      "scales": [
+        {
+          "factor": 0.5,
+          "ingredientsMatch": true,
+          "yieldMatches": true,
+          "methodsUnchanged": true,
+          "noOverflow": true
+        },
+        {
+          "factor": 2,
+          "ingredientsMatch": true,
+          "yieldMatches": true,
+          "methodsUnchanged": true,
+          "noOverflow": true
+        },
+        {
+          "factor": 1,
+          "ingredientsMatch": true,
+          "yieldMatches": true,
+          "methodsUnchanged": true,
+          "noOverflow": true
+        }
+      ],
+      "cooking": {
+        "checked": true,
+        "reloadAndReopenRetainsProgress": true,
+        "resetClearsProgress": true,
+        "exitWorks": true,
+        "noOverflow": true
+      }
+    }
+  ],
+  "print": {
+    "controlPresent": true,
+    "sharedPrintStylesPresent": true,
+    "actualPaginationVerified": false
+  },
+  "consoleErrors": 0,
+  "mealPages": [
+    {
+      "slug": "spaghetti-night",
+      "mobileWidth": 375,
+      "noOverflow": true,
+      "mainHash": "c1ff8fd5684b6752",
+      "scope": "Targeted dependency and timing repair"
+    },
+    {
+      "slug": "sunday-italian-comfort",
+      "mobileWidth": 375,
+      "noOverflow": true,
+      "mainHash": "bee150b599840f80",
+      "scope": "Targeted dependency and timing repair"
+    }
+  ],
+  "recipeMainHash": "e68d23bd5c1a6333",
+  "limitations": [
+    "Actual print pagination not exposed by in-app browser",
+    "No physical cooking or native-app sync"
+  ]
+}

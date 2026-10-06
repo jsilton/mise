@@ -1,6 +1,6 @@
 # Remaining whole-recipe holds — October 6, 2026
 
-29 distinct recipes remain held over unresolved formula, source or equipment evidence. Every current source is unchanged. These holds do not endorse questionable existing claims and receive no complete-review acceptance or new production credit. Held optional branches of other recipes are separate. No kitchen testing or native-app sync has occurred.
+28 distinct recipes remain held over unresolved formula, source or equipment evidence. Every current source is unchanged. These holds do not endorse questionable existing claims and receive no complete-review acceptance or new production credit. Held optional branches of other recipes are separate. No kitchen testing or native-app sync has occurred.
 
 The [final source-evidence pass](final-hold-evidence-pass.json) records the narrow remaining question for each recipe and distinguishes missing precision from a consequential formula or complete-method gap.
 
@@ -169,13 +169,6 @@ Current source: `src/content/recipes/peking-duck-an-easy-home-version.md`.
 - Retain current1tspfat sauce and expose sourcehalfTbsp separately? Choose maltose main versus supported2:1honey alternative with an actual dose; retain sourceconventional425→390 separately from current425→350 without promising equal finish? Wholeduck and cavity contents require165 checks, actualrack/pan/model and clock remain untested.
 - Does the household want the original service/soup/vinegar options once the primary duck handling route is resolved? No pancake package, soup water amount or measured yield established.
 
-## Pressure-Cooker Bolognese
-
-Current source: `src/content/recipes/pressure-cooker-bolognase.md`.
-
-- Reconcile the saved stovetop-pressure-cooker recipe with the actual electric model, operating pressure, minimum liquid, fill and burn constraints before any formula or method decision.
-- No water amount is established; do not invent one. A hold does not endorse the current questionable pressure or safety claims.
-
 ## Corn Chowder with Lime Shrimp
 
 Current source: `src/content/recipes/roasted-corn-chowder-with-lime-cured-shrimp.md`.
@@ -228,3 +221,7 @@ Exact unchanged source hashes and six before/after question updates: [machine ev
 ## Resolved source holds
 
 Almond Zucchini Bread, Japanese-Style Trout with Dashi, Red Zone Margarita and Salsa Verde Chicken Casserole passed independent challenge and complete root inspection. All four accepted versions are implemented and verified live; source disagreements and physical-test questions are retained in individual records. Minestrone remains held. [Final evidence release](final-evidence-four.md). Earlier hold decisions remain in Git history.
+
+## Classic Bolognese replacement
+
+The user chose classic slow-stovetop ragù and explicitly authorized the defining formula change. [Complete review](../../reviews/pressure-cooker-bolognase.md) is accepted; implementation and production verification are pending. The old pressure-cooker source remains privately preserved and its operating-pressure/liquid/burn questions remain unresolved for that archived route. The other 28 held sources are unchanged.

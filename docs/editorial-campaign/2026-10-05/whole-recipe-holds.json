@@ -365,22 +365,6 @@
       }
     },
     {
-      "slug": "pressure-cooker-bolognase",
-      "title": "Pressure-Cooker Bolognese",
-      "currentPath": "src/content/recipes/pressure-cooker-bolognase.md",
-      "currentSourceSha256": "512fdd43bd71fefce8c34e160364f8d1907de46d987ea39142e778a0e0945ec0",
-      "status": "held-awaiting-evidence",
-      "remainingQuestions": [
-        "Reconcile the saved stovetop-pressure-cooker recipe with the actual electric model, operating pressure, minimum liquid, fill and burn constraints before any formula or method decision.",
-        "No water amount is established; do not invent one. A hold does not endorse the current questionable pressure or safety claims."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What exact electric pressure-cooker make/model/capacity and manual establish its operating pressure, minimum watery liquid, fill and thick-tomato/fat/burn constraints for this recipe? The saved stovetop formula cannot be converted until those facts are known.",
-        "assessment": "Earliest canonical Richard Blais formula is unambiguously stovetop: medium/high heat, hissing regulation and removal from heat for release. It contains3tbsp olive oil and no added-water dose. Current electric Sauté/High45minute conversion does not establish actual pressure or liquid/burn compatibility. Linked book URL is unavailable; bounded exact-title search did not return an applicable primary electric adaptation.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
       "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
       "title": "Corn Chowder with Lime Shrimp",
       "currentPath": "src/content/recipes/roasted-corn-chowder-with-lime-cured-shrimp.md",
@@ -634,6 +618,30 @@
       ],
       "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
       "productionEvidence": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
+    }
+  ],
+  "resolvedAfterUserDecisions": [
+    {
+      "slug": "pressure-cooker-bolognase",
+      "formerHold": {
+        "slug": "pressure-cooker-bolognase",
+        "title": "Pressure-Cooker Bolognese",
+        "currentPath": "src/content/recipes/pressure-cooker-bolognase.md",
+        "currentSourceSha256": "512fdd43bd71fefce8c34e160364f8d1907de46d987ea39142e778a0e0945ec0",
+        "status": "held-awaiting-evidence",
+        "remainingQuestions": [
+          "Reconcile the saved stovetop-pressure-cooker recipe with the actual electric model, operating pressure, minimum liquid, fill and burn constraints before any formula or method decision.",
+          "No water amount is established; do not invent one. A hold does not endorse the current questionable pressure or safety claims."
+        ],
+        "latestEvidenceReassessment": {
+          "minimumRemainingQuestion": "What exact electric pressure-cooker make/model/capacity and manual establish its operating pressure, minimum watery liquid, fill and thick-tomato/fat/burn constraints for this recipe? The saved stovetop formula cannot be converted until those facts are known.",
+          "assessment": "Earliest canonical Richard Blais formula is unambiguously stovetop: medium/high heat, hissing regulation and removal from heat for release. It contains3tbsp olive oil and no added-water dose. Current electric Sauté/High45minute conversion does not establish actual pressure or liquid/burn compatibility. Linked book URL is unavailable; bounded exact-title search did not return an applicable primary electric adaptation.",
+          "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+        }
+      },
+      "status": "Accepted classic replacement; implementation and production pending",
+      "decision": "User explicitly chose classic slow-stovetop Bolognese instead of the pressure-cooker recipe and agreed to change the defining formula. Exact current and earliest saved originals remain privately retained; the original pressure method remains unapproved.",
+      "review": "docs/reviews/pressure-cooker-bolognase.json"
     }
   ]
 }
