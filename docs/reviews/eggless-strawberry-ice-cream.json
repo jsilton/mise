@@ -1,6 +1,6 @@
 {
   "slug": "eggless-strawberry-ice-cream",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
   "inputSha256": "53e9b36a18fb6414428b1e3f57edbdafca789cd1abf6e0fe069cabe13108dd4e",
   "acceptedSourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
@@ -368,7 +368,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -392,5 +392,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+  "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
 }

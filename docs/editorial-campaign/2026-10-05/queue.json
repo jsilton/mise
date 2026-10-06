@@ -488,7 +488,9 @@
       ],
       "reviewer": "coverage_check",
       "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
-      "status": "assigned; whole author/independent/root pending"
+      "status": "author proposal frozen; independent/root pending",
+      "manifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "manifestSha256": "c1a9952f0066e695f905493c769c03b1ed7b4e9f1c9ed5594ce1b2a69646bb03"
     },
     "savory_breakfast_bakes_21": {
       "slugs": [
@@ -2178,7 +2180,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2187,7 +2189,10 @@
       ],
       "inputSha256": "faad42706883def171f3632740258171fd3fb735184659066bea06453c0634b9",
       "plannedBatch": "roast-grill-and-sear-01",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "8e8a1aa5fed9993f5c00fda40491687a158b983503be1e5c87876fb14faf0b87"
     },
     {
       "slug": "cheese-fondue",
@@ -2710,7 +2715,7 @@
       "source": "Adapted from thatskinnychickcanbake.com",
       "sourceUrl": "https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/",
       "group": "baked_family_desserts_06",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/chocolate-chip-cookie-cake.json",
@@ -2736,7 +2741,9 @@
         "recordSha256": "fccbd0c310ade691d054d3726cef1a852f75a9b2c882eaee24a8cadc6d6af203"
       },
       "acceptedSourceSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "chocolate-chip-muffins-with-zucchini",
@@ -2882,7 +2889,7 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
       "group": "chocolate_frozen_desserts_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/chocolate-souffle.json",
@@ -2908,7 +2915,9 @@
         "recordSha256": "2f28498040fbe334a694522bd7d9933c0db22f547ff7117d8620ef10b3e98ed5"
       },
       "acceptedSourceSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "chocolate-vanilla-swirl-layer-cake",
@@ -3114,7 +3123,7 @@
       "source": "Adapted from Saveur.com",
       "sourceUrl": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream",
       "group": "chocolate_frozen_desserts_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/classic-peach-ice-cream.json",
@@ -3140,7 +3149,9 @@
         "recordSha256": "399fceb5665b460f4222343c2074bc1dc23e2ada3d37e7812ed674a6bea36b22"
       },
       "acceptedSourceSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "classic-wonton-soup",
@@ -3236,7 +3247,7 @@
       "source": "Adapted from Hamilton/Gwock Family",
       "sourceUrl": null,
       "group": "baked_family_desserts_06",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/cranberry-crunch.json",
@@ -3265,7 +3276,9 @@
         "recordSha256": "898973dc880c27fd738397a1d2b4eba3707ff7c0952d8e8014338ab2f657cd5d"
       },
       "acceptedSourceSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "cream-of-mushroom-soup",
@@ -4111,7 +4124,7 @@
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/",
       "group": "chocolate_frozen_desserts_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/easy-oreo-truffles.json",
@@ -4136,7 +4149,9 @@
         "recordSha256": "61c2935c381b10b059058f1992614b57823cf945a5d6c99d4043b9d1e23c42f8"
       },
       "acceptedSourceSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "easy-spinach-gnocchi",
@@ -4230,7 +4245,7 @@
       "source": "Allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/",
       "group": "chocolate_frozen_desserts_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/eggless-strawberry-ice-cream.md",
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
@@ -4255,7 +4270,9 @@
         "recordSha256": "7ac8a422dfd14fbcb57efd104f2383faf5a724558c3e6eb44a60bff2d18ed5d7"
       },
       "acceptedSourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "elderberry-syrup",
@@ -4389,7 +4406,7 @@
       "source": "Adapted from Jodi Silton",
       "sourceUrl": null,
       "group": "baked_family_desserts_06",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/farfel-muffins.json",
@@ -4419,7 +4436,9 @@
         "recordSha256": "1eedba3e5b5a2cc099893c75e26c309fec39da418b438f5f46da5f24cdca7c20"
       },
       "acceptedSourceSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "favorite-cream-cheese-frosting",
@@ -4428,7 +4447,7 @@
       "source": "Adapted from sallysbakingaddiction.com",
       "sourceUrl": "https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/",
       "group": "baked_family_desserts_06",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/favorite-cream-cheese-frosting.json",
@@ -4455,7 +4474,9 @@
         "recordSha256": "0aee206a452faac35cdba133c963c6d0b892bc4f1cc55634f706d802779667bc"
       },
       "acceptedSourceSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "favorite-pumpkin-oatmeal-muffins",
@@ -4518,7 +4539,7 @@
       "source": "Adapted from kingarthurbaking.com",
       "sourceUrl": "https://www.kingarthurbaking.com/blog/2008/04/10/flour-takes-a-passover-break-and-chocolate-steps-into-the-breach",
       "group": "chocolate_frozen_desserts_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
         ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/flourless-chocolate-cake.json",
@@ -4544,7 +4565,9 @@
         "recordSha256": "1a6b536dfd5023b5e8e49f3482924abd550a765fb4820ac0c9c11956a6b9c5c4"
       },
       "acceptedSourceSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "freezer-banana-bread",
@@ -5171,7 +5194,7 @@
       "source": "Adapted from glutenfreepalate.com",
       "sourceUrl": "https://www.glutenfreepalate.com/gluten-free-lemon-cupcakes/#mv-creation-79-jtr",
       "group": "baked_family_desserts_06",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/gluten-free-lemon-cupcakes.json",
@@ -5199,7 +5222,9 @@
         "recordSha256": "f109e43ddfaf968e1a0be40047dec18c343d3def8049dc289896f8e52a5f9840"
       },
       "acceptedSourceSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "gnocchi-with-zucchini-ribbons-and-parsley-brown-butter",
@@ -5673,7 +5698,7 @@
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
       "group": "baked_family_desserts_06",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/manifest.json",
         ".mise/editorial-campaign/2026-10-05/baked_family_desserts_06/records/healthy-apple-muffins.json",
@@ -5702,7 +5727,9 @@
         "recordSha256": "449569992713939791f384a5b2e9d1121b84c7213d4b9da92f5656ec131770c1"
       },
       "acceptedSourceSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
+      "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "healthy-banana-bread",
@@ -6456,7 +6483,7 @@
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim/",
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/korean-mung-bean-sprouts-salad.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6465,7 +6492,10 @@
       ],
       "inputSha256": "71a99883e026a03944d6fe857d1cfe847760165489016bcfe557dec867e2e124",
       "plannedBatch": "simmer-boil-and-steam-06",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413"
     },
     {
       "slug": "korean-style-tacos-with-kogi-bbq-sauce",
@@ -6870,7 +6900,7 @@
       "source": "Adapted from domesticsuperhero.com",
       "sourceUrl": "https://domesticsuperhero.com/mediterranean-pinwheels-vegetarian-appetizer/",
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6879,7 +6909,10 @@
       ],
       "inputSha256": "74edc4d1fc228860d0e0418e0089bfbc437472a1b7238cd8ce0dc827f191ca48",
       "plannedBatch": "context-screening-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "9de87f33a87b848ca4375a4d0400bbce521f993a24f305b3093f0cd60299b914"
     },
     {
       "slug": "melon-daiquiri",
@@ -7459,7 +7492,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7468,7 +7501,10 @@
       ],
       "inputSha256": "c6cb3338ddb099c0c05c3c97c33d032d97f4406c5e28352cf365d4ab2cf6bb05",
       "plannedBatch": "context-screening-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6"
     },
     {
       "slug": "orange-and-paprika-pulled-pork",
@@ -8370,7 +8406,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/poke-batch-decision.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8379,7 +8415,10 @@
       ],
       "inputSha256": "794659d7379173e00962af26220398ae4367fe49fe5b9902d03270343cb2cb5e",
       "plannedBatch": "cold-preparations-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2"
     },
     {
       "slug": "ricotta-toast-with-honey",
@@ -8594,7 +8633,7 @@
       "source": "Adapted from munchingwithmariyah.com",
       "sourceUrl": "https://munchingwithmariyah.com/roasted-fall-harvest-salad/",
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8603,7 +8642,10 @@
       ],
       "inputSha256": "0771574a2dcfa8bb3e724d096c1c1524a0e210eaf360889618c681694bc6938a",
       "plannedBatch": "baked-savory-and-breads-09",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "38f5566635e2a1cd80a01eae63f430b7e0963f627ff995a50377595a44bde6da"
     },
     {
       "slug": "roasted-green-bean-fries",
@@ -11142,7 +11184,7 @@
       "source": "Adapted from Nicole Modic, Kalejunkie",
       "sourceUrl": "https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/",
       "group": "assembled_salads_rice_20",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -11151,7 +11193,10 @@
       ],
       "inputSha256": "0b6d8aaa123124a51d7c00371260d7dc756a5a88699ee8d514090eafc65e9005",
       "plannedBatch": "baked-savory-and-breads-12",
-      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent and root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/assembled_salads_rice_20/manifest.json",
+      "authorSourceSha256": "435d10cbf9f0b307e2efc1f4c378fbbc90e169ded17387555d739f353e565f52"
     },
     {
       "slug": "warm-spiced-butternut-squash-soup",
@@ -12164,11 +12209,10 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 234,
+    "production-verified": 245,
     "held": 25,
-    "proposed": 99,
-    "assigned": 38,
-    "accepted": 11,
+    "proposed": 106,
+    "assigned": 31,
     "held-awaiting-evidence": 2
   }
 }

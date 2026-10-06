@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "234 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "245 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 479 recorded complete / 164 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [dbfd4909](https://github.com/jsilton/mise/commit/dbfd49098a096dc683268b96ab32ebf2e34b4b68), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37456514904) and all 11 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5969,17 +5969,21 @@
         "record": "docs/reviews/chocolate-chip-cookie-cake.md",
         "acceptedSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-cookie-cake.json",
         "sourceSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d184faa6ffb996d57a36080f393e3e2c7ec42b28962033d2976182da10bd0d2d",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
@@ -6266,17 +6270,21 @@
         "record": "docs/reviews/chocolate-souffle.md",
         "acceptedSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-souffle.json",
         "sourceSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a50b19c6a980c726e45c6ac201e17d779898b54a56b00aef4762663352a2600c",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Does the160°F center preserve desired lift and slight jiggle in the actual6cupdish? Kitchen test required.",
@@ -6774,17 +6782,21 @@
         "record": "docs/reviews/classic-peach-ice-cream.md",
         "acceptedSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-peach-ice-cream.json",
         "sourceSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1fcd532c318bae2f5d9d9065c7b473da5aedac4ca6fd7a2ce0ef98f4cc9515f6",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual ice-cream maker model/fill limit/bowl recovery and fruit allowance remain necessary before batching.",
@@ -7370,17 +7382,21 @@
         "record": "docs/reviews/cranberry-crunch.md",
         "acceptedSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cranberry-crunch.json",
         "sourceSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b187636d4d4095fb6e9c9d582c97b77493d7a2fb9627858b1d6b3276c7ee61d0",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
@@ -9325,17 +9341,21 @@
         "record": "docs/reviews/easy-oreo-truffles.md",
         "acceptedSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-oreo-truffles.json",
         "sourceSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1c69a610963297c360c6a3bfd39d35bea127e348f6c39bc47ecf0d23c5a4080f",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual cookie brand/size and ball scoop affect count;42is sourceplanning, notprecision.",
@@ -9626,17 +9646,21 @@
         "record": "docs/reviews/eggless-strawberry-ice-cream.md",
         "acceptedSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/eggless-strawberry-ice-cream.json",
         "sourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2e63ea00507d87d341866aa08d873034978175547b1ca3fa2acead6f6c5090a2",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual machine max fill and bowl re-freeze schedule govern the greater-than-six-cups ingredient load; no churnedquart yield inferred.",
@@ -10022,17 +10046,21 @@
         "record": "docs/reviews/farfel-muffins.md",
         "acceptedSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/farfel-muffins.json",
         "sourceSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e8bb9a07eaa410adb74871f8aa0322ab7baf5a0970e7056e2d4108a8e7aca531",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
@@ -10105,17 +10133,21 @@
         "record": "docs/reviews/favorite-cream-cheese-frosting.md",
         "acceptedSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/favorite-cream-cheese-frosting.json",
         "sourceSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f74a5b42e144a7fda8e503a55c3aeccea7a696415bf0abcc5adc321f77b0e6e3",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
@@ -10258,17 +10290,21 @@
         "record": "docs/reviews/flourless-chocolate-cake.md",
         "acceptedSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/flourless-chocolate-cake.json",
         "sourceSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual8inch pan depth/darkness and cooling environment influence time; no tested capacity supplied.",
@@ -11830,17 +11866,21 @@
         "record": "docs/reviews/gluten-free-lemon-cupcakes.md",
         "acceptedSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/gluten-free-lemon-cupcakes.json",
         "sourceSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bcc0db0218dab648b6bc7be1a1c99ebc2610ca097f7d6dfc11f90a7da8e4106e",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",
@@ -13116,17 +13156,21 @@
         "record": "docs/reviews/healthy-apple-muffins.md",
         "acceptedSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/healthy-apple-muffins.json",
         "sourceSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dbfd49098a096dc683268b96ab32ebf2e34b4b68"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "de3e14e6304fab3d41fd3b69ca704c2fadc2f4f08a38e0425e3457fe62823107",
+        "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+        "evidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pan/cup size, cooked yield, active/elapsed clock and finished texture remain kitchen questions; no physical cooking validation.",

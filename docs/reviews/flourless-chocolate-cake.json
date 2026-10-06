@@ -1,6 +1,6 @@
 {
   "slug": "flourless-chocolate-cake",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
   "inputSha256": "988e637bb36ca62e03ee85b188c404803c174e7cd009b9c9d539e7bbb16498e7",
   "acceptedSourceSha256": "0aa64b9c0122fc48dfa18f4c0828b409f5bec1b84b717ed7490b7009c88d2632",
@@ -530,7 +530,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -554,5 +554,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
+  "releaseCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
 }
