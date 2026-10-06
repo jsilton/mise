@@ -1,0 +1,201 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+  "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37408041493",
+  "ci": {
+    "headSha": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+  "rendered": [
+    {
+      "slug": "apple-chai-oatmeal-cups",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "blueberry-baked-oatmeal",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "blueberry-banana-pancake-muffins",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "blueberry-oat-breakfast-bars",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 8,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "breakfast-carrot-cake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 7,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "brownie-baked-oatmeal",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "breakfast-protein-biscuits",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 7,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "banana-nut-bread",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 8,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "banana-oat-greek-yogurt-muffins",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "apple-banana-and-carrot-muffin",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "healthy-banana-bread",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 7,
+      "noOverflow": true,
+      "printEnabled": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T03:17:01.918Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "apple-chai-oatmeal-cups",
+      "acceptedSourceSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b"
+    },
+    {
+      "slug": "blueberry-baked-oatmeal",
+      "acceptedSourceSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2"
+    },
+    {
+      "slug": "blueberry-banana-pancake-muffins",
+      "acceptedSourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca"
+    },
+    {
+      "slug": "blueberry-oat-breakfast-bars",
+      "acceptedSourceSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec"
+    },
+    {
+      "slug": "breakfast-carrot-cake",
+      "acceptedSourceSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8"
+    },
+    {
+      "slug": "brownie-baked-oatmeal",
+      "acceptedSourceSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1"
+    },
+    {
+      "slug": "breakfast-protein-biscuits",
+      "acceptedSourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471"
+    },
+    {
+      "slug": "banana-nut-bread",
+      "acceptedSourceSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3"
+    },
+    {
+      "slug": "banana-oat-greek-yogurt-muffins",
+      "acceptedSourceSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1"
+    },
+    {
+      "slug": "apple-banana-and-carrot-muffin",
+      "acceptedSourceSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf"
+    },
+    {
+      "slug": "healthy-banana-bread",
+      "acceptedSourceSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 11; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}

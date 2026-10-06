@@ -1,6 +1,6 @@
 {
   "slug": "blueberry-banana-pancake-muffins",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
   "inputSha256": "e4fc8cfd05e84ed682a469bc92d52f56ea8b8b3f32ac6b47e5a0d80a6a28e323",
   "acceptedSourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
@@ -392,7 +392,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
   "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -416,5 +416,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+  "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
 }

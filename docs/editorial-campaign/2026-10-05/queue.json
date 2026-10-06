@@ -280,7 +280,7 @@
       "source": "Adapted from Mykidslickthebowl.com",
       "sourceUrl": "https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/",
       "group": "quick_breads_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/apple-banana-and-carrot-muffin.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -296,7 +296,9 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "277cd78159c7f67594b862f22a7545cb9ee108bcba0f6ae138a7e8a1b1990172",
       "acceptedSourceSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "apple-chai-oatmeal-cups",
@@ -305,7 +307,7 @@
       "source": "Adapted from Fitfoodiefinds.com",
       "sourceUrl": "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/apple-chai-oatmeal-cups.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -319,9 +321,10 @@
       "inputSha256": "3760d2364f13386e1baba6b256427c71396c5d4610f0530267527aeb58e88d80",
       "plannedBatch": "baked-savory-and-breads-01",
       "proposedSourceSha256": "59a8ec9a6e4ff551c3bf79e2b63d5362e165903ef7a837d6021c6a94bfc41892",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "apple-cider-cream-pie",
@@ -547,7 +550,7 @@
       "source": "Adapted from Hamilton Family",
       "sourceUrl": null,
       "group": "quick_breads_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/banana-nut-bread.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -564,7 +567,9 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "c1653b6d6e3c4690aad15922fd97096bd8f6fefcd919ad183fcb2ad5bfdcce99",
       "acceptedSourceSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "banana-oat-greek-yogurt-muffins",
@@ -573,7 +578,7 @@
       "source": "Adapted from Runningwithspoons.com",
       "sourceUrl": "http://www.runningwithspoons.com/2014/06/24/banana-oat-greek-yogurt-muffins/",
       "group": "quick_breads_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/banana-oat-greek-yogurt-muffins.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -589,7 +594,9 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "708cf15213a6e1ef935065c2f018275ce4ae378fcd7e57879cd2c43d2ce8c95d",
       "acceptedSourceSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "banana-pancakes",
@@ -792,8 +799,8 @@
       "title": "Blistered Shishito Peppers",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "vegetables_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -801,7 +808,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "18d41406fa01d69f5a30070a45df1552c9e9c2b12c7156d5cf8d7cdab35b1375",
-      "plannedBatch": "roast-grill-and-sear-01"
+      "plannedBatch": "roast-grill-and-sear-01",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "coverage_check"
     },
     {
       "slug": "blueberry-baked-oatmeal",
@@ -810,7 +819,7 @@
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/baked-oatmeal-recipe/",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/blueberry-baked-oatmeal.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -827,9 +836,10 @@
       "inputSha256": "252a6cd970f0f659a48c2a726e92c40253e4b8841202735f59ce06302f0232e1",
       "plannedBatch": "baked-savory-and-breads-02",
       "proposedSourceSha256": "a80d3eda3dae778486ca37e6460177afee2127f33e36a71d9082e874e9c26f66",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "blueberry-banana-pancake-muffins",
@@ -838,7 +848,7 @@
       "source": "Adapted from Mykidslickthebowl.com",
       "sourceUrl": "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/blueberry-banana-pancake-muffins.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -852,9 +862,10 @@
       "inputSha256": "e4fc8cfd05e84ed682a469bc92d52f56ea8b8b3f32ac6b47e5a0d80a6a28e323",
       "plannedBatch": "baked-savory-and-breads-02",
       "proposedSourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "blueberry-date-oatmeal",
@@ -898,7 +909,7 @@
       "source": "Adapted from myfussyeater.com",
       "sourceUrl": "https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/?fbclid=IwAR13JrU7Ex3syixlLB4WnakqHoubzLDS_l6q-jsruiyBjxFBfag6CsigWrc",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/blueberry-oat-breakfast-bars.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -912,9 +923,10 @@
       "inputSha256": "94bdf2d603225792bfc01946c0679cd19ce66e0da25af13cabde4bbe24e5d0dc",
       "plannedBatch": "baked-savory-and-breads-02",
       "proposedSourceSha256": "5e30c43c48d4bca1324c360aa3c3733d990b9b09744f1e361f6ceeb665a9ace9",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "blueberry-pancakes",
@@ -1015,7 +1027,7 @@
       "source": "Adapted from southerneatsandgoodies.com",
       "sourceUrl": "https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/breakfast-carrot-cake.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -1030,9 +1042,10 @@
       "inputSha256": "d2cffdf19f7ae624fa6a7fb8ab23e3f75a7f1fd951f328ea280438f54afe30aa",
       "plannedBatch": "baked-savory-and-breads-02",
       "proposedSourceSha256": "92a7ae69708cb9a05eb0a01f8678a522d9f06f524602116bfd40b47a274faa69",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "breakfast-egg-cups",
@@ -1060,7 +1073,7 @@
       "source": "Adapted from nourishedbynic.com",
       "sourceUrl": "https://nourishedbynic.com/breakfast-protein-biscuits/#recipe",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/breakfast-protein-biscuits.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -1075,9 +1088,10 @@
       "inputSha256": "b38437267fe515c8c0cbfc9975e2eae2a7b50551591995f6e78eb7c531bb3924",
       "plannedBatch": "baked-savory-and-breads-02",
       "proposedSourceSha256": "49b7ee07e7269309156be2fdce300bc13b7cd5d581b9c08b2267b8852d356ce8",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "breakfast-quesadilla",
@@ -1197,7 +1211,7 @@
       "source": "Adapted from callascleaneats.com",
       "sourceUrl": "https://callascleaneats.com/brownie-baked-oatmeal/?fbclid=IwAR2VKrSER7sJi1jVPn6a_PYxugV2UovjxV3cvglcpsFunAu6yr3Ektjl5Ws",
       "group": "breakfast_bakes_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/brownie-baked-oatmeal.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -1211,9 +1225,10 @@
       "inputSha256": "d2819158c246f137379110b5b400bcd9e585d1348c844268cbab1bb559ce88de",
       "plannedBatch": "baked-savory-and-breads-03",
       "proposedSourceSha256": "b733e99157a500e59ac52fbd6229f268f5bf9a60e1b862312ff0a161bda05e0e",
-      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
     },
     {
       "slug": "brownie-protein-balls",
@@ -1533,8 +1548,8 @@
       "title": "Charred Asparagus with Parmesan",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "vegetables_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1542,7 +1557,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "63533d5e85bd40337508420d0428f2f8510750c6747caa8c67c2d3afaeba94bc",
-      "plannedBatch": "roast-grill-and-sear-01"
+      "plannedBatch": "roast-grill-and-sear-01",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "coverage_check"
     },
     {
       "slug": "charred-guacamole-with-pomegranate",
@@ -2036,8 +2053,8 @@
       "title": "Chocolate Chip Walnut Cookies",
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/chocolate-chip-walnut-cookies.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -2045,7 +2062,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "2e8bd2edae4199fa0817e2c1138facac0d69211a13e592a6911ed60623bbae7b",
-      "plannedBatch": "baked-sweets-02"
+      "plannedBatch": "baked-sweets-02",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "baking_editor"
     },
     {
       "slug": "chocolate-crinkle-cookies",
@@ -2053,8 +2072,8 @@
       "title": "Chocolate Crinkle Cookies",
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2062,7 +2081,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "f0c149c3963e7f8c51d6d0cb6f08e9278b6a5ff8e8f292d4aef18af6189c69fb",
-      "plannedBatch": "baked-sweets-02"
+      "plannedBatch": "baked-sweets-02",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "baking_editor"
     },
     {
       "slug": "chocolate-pie",
@@ -2869,8 +2890,8 @@
       "title": "Double Chocolate Cookies",
       "source": "Adapted from Samantha Seneviratne",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2878,7 +2899,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d96aee4d34b2c1de3517774d63d393c751195a5d635aaea231232814875d4819",
-      "plannedBatch": "baked-sweets-03"
+      "plannedBatch": "baked-sweets-03",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "baking_editor"
     },
     {
       "slug": "double-chocolate-layer-cake",
@@ -3195,8 +3218,8 @@
       "title": "Extraordinary Chocolate Chip Cookie",
       "source": "Adapted from pbs.org",
       "sourceUrl": "https://www.pbs.org/food/features/martha-bakes-north-american-cookies/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3204,7 +3227,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "fc94bd5d61ef5b5f7e0828e1eb157264cd9522560c51b86b9a79f57914c6d5f1",
-      "plannedBatch": "baked-sweets-03"
+      "plannedBatch": "baked-sweets-03",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "baking_editor"
     },
     {
       "slug": "farfel-muffins",
@@ -3518,8 +3543,8 @@
       "title": "Garlic Butter Green Beans",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "vegetables_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3527,7 +3552,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9e5c0c5e1b4f487bbd070cdc9e1e10d2c2bd3f1d04ee4da327641086c698fad3",
-      "plannedBatch": "context-screening-02"
+      "plannedBatch": "context-screening-02",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "coverage_check"
     },
     {
       "slug": "garlic-mashed-mock-potatoes",
@@ -3651,8 +3678,8 @@
       "title": "Garlicky Lemon Kale with Carrots",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "vegetables_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3660,7 +3687,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "2ea65585f70b53db5d8bd7b95d29a4fe4be6605c15ba93d4238d644d9eaa2694",
-      "plannedBatch": "simmer-boil-and-steam-04"
+      "plannedBatch": "simmer-boil-and-steam-04",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "coverage_check"
     },
     {
       "slug": "gefilte-fish-terrine",
@@ -4128,7 +4157,7 @@
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/healthy-banana-bread-recipe/",
       "group": "quick_breads_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/healthy-banana-bread.md",
         "docs/editorial-campaign/2026-10-05/baking-eleven-review.md"
@@ -4144,7 +4173,9 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "2333d69ff74ed99c69bc6847b5dbc9b0faac561480387753a63adaee347a632d",
       "acceptedSourceSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
+      "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "healthy-carrot-cake-muffins-with-cream-cheese-glaze",
@@ -4748,8 +4779,8 @@
       "title": "Lemon-Garlic Broccolini",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "vegetables_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4757,7 +4788,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "2ae47142363dd1b5c4cad08688b69f2d828236be294238aa96756199c8f548f3",
-      "plannedBatch": "context-screening-03"
+      "plannedBatch": "context-screening-03",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "coverage_check"
     },
     {
       "slug": "lemon-miso-tofu-with-broccoli",
@@ -6568,8 +6601,8 @@
       "title": "Sauteed Mushrooms with Thyme",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "vegetables_pan_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6577,7 +6610,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a19d51ba23941041e67fb2ec372f3947fbdc3c6786e4e9e4a5b671f2d3396409",
-      "plannedBatch": "context-screening-04"
+      "plannedBatch": "context-screening-04",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "coverage_check"
     },
     {
       "slug": "savory-oatmeal-with-egg",
@@ -7287,8 +7322,8 @@
       "title": "Soft Batch Chocolate Chip Cookies",
       "source": "Adapted from joyfoodsunshine.com",
       "sourceUrl": "https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7296,7 +7331,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7fa950c49b92fcbab8a89ecb2cd1ac21d4727692aebfe0cffcd2f4ed2fe9b695",
-      "plannedBatch": "baked-sweets-06"
+      "plannedBatch": "baked-sweets-06",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "baking_editor"
     },
     {
       "slug": "soy-ginger-dipping-sauce",
@@ -7754,8 +7791,8 @@
       "title": "Sugar Cookies",
       "source": "Adapted from preppykitchen.com",
       "sourceUrl": "https://preppykitchen.com/sugar-cookies/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7763,7 +7800,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "99fafdc80141deea64024ab5b8e49c6cac6883fb3f5365e2682a7a3ce9bb07c9",
-      "plannedBatch": "baked-savory-and-breads-11"
+      "plannedBatch": "baked-savory-and-breads-11",
+      "reviewPhase": "Whole editorial author review in progress",
+      "owner": "baking_editor"
     },
     {
       "slug": "super-lemony-olive-oil-cake",
@@ -9176,11 +9215,10 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 69,
+    "production-verified": 80,
     "held": 10,
-    "queued": 241,
-    "accepted": 11,
-    "assigned": 23,
+    "queued": 229,
+    "assigned": 35,
     "proposed": 53,
     "held-awaiting-evidence": 2
   }

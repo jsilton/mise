@@ -21,3 +21,9 @@ Seven breakfast bakes and four quick breads retain complete richness, deliberate
 ## Locally validated checkpoint
 
 All 252 tests, 49 authored formula checks, 643-recipe validation, 11 targeted lints and 30 aggregate QA checks pass. All three exports match 643 sources; private bindings, public privacy and 11,958 built anchors pass. The other 632 recipe sources/export schemas and unrelated review credit remain unchanged. 2 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles and every other test remain unchanged. All 11 complete rendered pages and 70 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](baking-eleven-preservation.json).
+
+## Verified publication
+
+80 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 314 recorded complete / 329 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [4224e9fe](https://github.com/jsilton/mise/commit/4224e9fe99402d69949f9595c30e45bc5c85add5), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37408041493) and all 11 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](baking-eleven-production.json).

@@ -1,6 +1,6 @@
 {
   "slug": "breakfast-protein-biscuits",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "0a83f1fc208865580447be305f680cee2156d66b",
   "inputSha256": "b38437267fe515c8c0cbfc9975e2eae2a7b50551591995f6e78eb7c531bb3924",
   "acceptedSourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471",
@@ -464,7 +464,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
   "rootDisposition": "Complete author and independent whole reviews reused; root inspected every complete current-to-final diff. Brownie static baking-soda wording scales; Hamilton attribution and child-serving notes restored; existing Healthy Banana Bread main classification and all ingredient controls retained. Remaining geometry, preference, optional source branches and actual kitchen questions are explicit. No kitchen testing or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -488,5 +488,7 @@
     "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+  "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
 }

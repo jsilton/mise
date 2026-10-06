@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "69 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "80 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 314 recorded complete / 329 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [4224e9fe](https://github.com/jsilton/mise/commit/4224e9fe99402d69949f9595c30e45bc5c85add5), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37408041493) and all 11 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -310,17 +310,21 @@
         "record": "docs/reviews/apple-banana-and-carrot-muffin.md",
         "acceptedSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/apple-banana-and-carrot-muffin.json",
         "sourceSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0eca33bc9ecead62b736ef3ecdd8e3e6e9650a75c8ac15366cc9c6797bfa0fcf",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Weigh current apple/carrot/banana and record batter volume, standard/mini cup count and central bake time.",
@@ -353,17 +357,21 @@
         "record": "docs/reviews/apple-chai-oatmeal-cups.md",
         "acceptedSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/apple-chai-oatmeal-cups.json",
         "sourceSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Record actual batter volume, twelve-well fit and finished cup count with the household tin.",
@@ -1198,11 +1206,11 @@
         "record": "docs/reviews/banana-nut-bread.md",
         "acceptedSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/banana-nut-bread.json",
         "sourceSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3"
       },
@@ -1216,10 +1224,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "4224e9fe99402d69949f9595c30e45bc5c85add5"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cdc2017633bac27dd2b6a0e59624aa107aa810efa812e3d649ea5354b06f10d3",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Weigh the mash from three large bananas to check the inherited approximate 375 g total.",
@@ -1256,17 +1269,21 @@
         "record": "docs/reviews/banana-oat-greek-yogurt-muffins.md",
         "acceptedSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/banana-oat-greek-yogurt-muffins.json",
         "sourceSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b8cc90eca5fca3b43423a273b71748209ad03f8cda383fda38efcf8ad9369ae1",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Weigh mash from the current two-large-banana adaptation and record batter volume/cup count at three-quarter fill.",
@@ -2066,17 +2083,21 @@
         "record": "docs/reviews/blueberry-baked-oatmeal.md",
         "acceptedSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-baked-oatmeal.json",
         "sourceSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4f4f9a87c5291873872f291f111881d1e714de28dd54eec634dc1f37d8cc55b2",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Record actual filling depth and finished six-portion size in the 9-inch square household dish.",
@@ -2112,17 +2133,21 @@
         "record": "docs/reviews/blueberry-banana-pancake-muffins.md",
         "acceptedSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-banana-pancake-muffins.json",
         "sourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ce5167156332bafb013a44272dd8345b7612e057fb8b25cd30d66834ee2497ca",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Measure full batter volume and actual well capacity/count with the current two large bananas.",
@@ -2210,17 +2235,21 @@
         "record": "docs/reviews/blueberry-oat-breakfast-bars.md",
         "acceptedSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-oat-breakfast-bars.json",
         "sourceSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a5000b489b0bc44ba9cc5d0da0f6dd2876c78a1bf237d86b1f0be66ac7cc8bec",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Measure actual slab depth and bar size with the household pan.",
@@ -2491,17 +2520,21 @@
         "record": "docs/reviews/breakfast-carrot-cake.md",
         "acceptedSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-carrot-cake.json",
         "sourceSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c1a78432cf7494d31fdb45f0ba7aa04c2910e19d3016f731ff295532334bbff8",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Record actual 250 g prepared-carrot batch volume and finished depth in the household 8-inch square pan.",
@@ -2587,17 +2620,21 @@
         "record": "docs/reviews/breakfast-protein-biscuits.md",
         "acceptedSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-protein-biscuits.json",
         "sourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c00f308fe9dd89c0d927cff5873bd01cf10068c8c158eb92d3b6ec6468056471",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Measure full dough mass/volume, twelve equal portion size and sheet spacing without discarding dough.",
@@ -2975,17 +3012,21 @@
         "record": "docs/reviews/brownie-baked-oatmeal.md",
         "acceptedSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/brownie-baked-oatmeal.json",
         "sourceSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "00b661938c4b429a362d00e7ff2af09411c6091021889c23620c6ce6c78daea1",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Measure edible banana mass, full batter volume and actual oven-safe ramekin capacity/headroom.",
@@ -13081,17 +13122,21 @@
         "record": "docs/reviews/healthy-banana-bread.md",
         "acceptedSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/healthy-banana-bread.json",
         "sourceSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["4224e9fe99402d69949f9595c30e45bc5c85add5"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e6c02ef299caaa8a1e29faec3b652f2076fce2512753f7584c30558cdaafd02f",
+        "implementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "releaseCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-eleven-production.json"
       },
       "remainingQuestions": [
         "Record doneness/cooling with honey versus maple and optional chips/walnuts in 9 x 5 inches.",
